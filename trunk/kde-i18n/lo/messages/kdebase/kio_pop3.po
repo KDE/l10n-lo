@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-08-01 02:57+0200\n"
+"POT-Creation-Date: 2004-01-05 01:38+0100\n"
 "PO-Revision-Date: 2003-01-13 14:23+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,72 +14,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: pop3.cc:223
+#: pop3.cc:221
 msgid "PASS <your password>"
 msgstr "PASS <ລະຫັດຜ່ານຂອງທ່ານ>"
 
-#: pop3.cc:226
+#: pop3.cc:224
 msgid "The server said: \"%1\""
 msgstr "ເຊີບເວີແຈ້ງວ່າ: \"%1\""
 
-#: pop3.cc:252
+#: pop3.cc:246
 msgid "The server terminated the connection."
 msgstr "ເຊີບເວີຕັດການເຊື່ອມຕໍ່"
 
-#: pop3.cc:254
+#: pop3.cc:248
 msgid ""
 "Invalid response from server:\n"
 "\"%1\""
 msgstr ""
-"ການຕອບກັບມາຈາກເຊີບເວີບໍ່ຖືກຕ້ອງ:\n"
+"ການຕອບກັບມາຈາກເຊີບເວີບໍ່ຖ"
+"ືກຕ້ອງ:\n"
 "\"%1\""
 
-#: pop3.cc:285
-msgid "Could not send to server.\n"
-msgstr "ບໍ່ສາມາດສົ່ງໄປເຖິງເຊີບເວີ\n"
+#: pop3.cc:277
+msgid ""
+"Could not send to server.\n"
+msgstr ""
+"ບໍ່ສາມາດສົ່ງໄປເຖິງເຊີບເວີ\n"
 
-#: pop3.cc:356 pop3.cc:552
+#: pop3.cc:348 pop3.cc:544
 msgid ""
 "Could not login to %1.\n"
 "\n"
 msgstr ""
-"ບໍ່ສາມາດເຮັດລັອກອິນໄປເຖິງ %1\n"
+"ບໍ່ສາມາດເຮັດລັອກອິນໄປເຖິງ "
+"%1\n"
 "\n"
 
-#: pop3.cc:359
+#: pop3.cc:351
 msgid "The server terminated the connection immediately."
-msgstr "ເຊີບເວີຕັດການເຊື່ອມຕໍ່ໃນທັກທີี"
+msgstr ""
+"ເຊີບເວີຕັດການເຊື່ອມຕໍ່ໃນທ"
+"ັກທີี"
 
-#: pop3.cc:360
+#: pop3.cc:352
 msgid ""
 "Server does not respond properly:\n"
 "%1\n"
 msgstr ""
-"ເບິ່ງຄືວ່າເຊິບເວີຈະບໍ່ມີການຕອບຮັບ:\n"
+"ເບິ່ງຄືວ່າເຊິບເວີຈະບໍ່ມີກ"
+"ານຕອບຮັບ:\n"
 "%1\n"
 
-#: pop3.cc:385
+#: pop3.cc:377
 msgid ""
 "Your POP3 server does not support APOP.\n"
 "Choose a different authentication method."
 msgstr ""
-"ເຊີບເວີ POP3 ຂອງທ່ານ"
-"ບໍ່ສະນັບສະຫນຸນຄຳສັ່ງ APOP\n"
-"ກາລຸນາເລືອກກວດສອບສິດວິທີອື່ນ"
+"ເຊີບເວີ POP3 "
+"ຂອງທ່ານບໍ່ສະນັບສະຫນຸນຄຳສັ"
+"່ງ APOP\n"
+"ກາລຸນາເລືອກກວດສອບສິດວິທີອ"
+"ື່ນ"
 
-#: pop3.cc:404
+#: pop3.cc:396
 msgid ""
 "Your POP3 server claims to support TLS but negotiation was unsuccessful. You "
 "can disable TLS in KDE using the crypto settings module."
 msgstr ""
 "ເຊີບເວີ POP3 ຂອງທ່ານ "
 "ອ້າງວ່າສະນັດສະຫນຸນ TLS "
-"ແຕ່ຕອນນີ້ຍັງບໍ່ສຳເລັດສົມບູນ"
-"ທ່ານສາມາດປິດການໃຊ້ງານ TLS "
+"ແຕ່ຕອນນີ້ຍັງບໍ່ສຳເລັດສົມບ"
+"ູນທ່ານສາມາດປິດການໃຊ້ງານ TLS "
 "ໃນ KDE ໄດ້ "
-"ໂດຍໃຊ້ໂມດູນຕັ້ງຄ່າການເຂົ້າລະຫັດ"
+"ໂດຍໃຊ້ໂມດູນຕັ້ງຄ່າການເຂົ້"
+"າລະຫັດ"
 
-#: pop3.cc:414
+#: pop3.cc:406
 msgid ""
 "Your POP3 server does not support TLS. Disable TLS, if you want to connect "
 "without encryption."
@@ -87,16 +97,16 @@ msgstr ""
 "ເຊິບເວີ POP3 ຂອງທ່ານ "
 "ບໍ່ສະນັບສະຫນຸນ TLS\n"
 "ປິດການໃຊ້ງານ TLS "
-"ຫາກທ່ານຕ້ອງການເຊື່ອມຕໍ່ແບບບໍ່ເຂົ້າລະຫັດ"
+"ຫາກທ່ານຕ້ອງການເຊື່ອມຕໍ່ແບ"
+"ບບໍ່ເຂົ້າລະຫັດ"
 
-#: pop3.cc:425
+#: pop3.cc:417
 msgid "Username and password for your POP3 account:"
 msgstr ""
-"ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານ"
-"ສຳລັບບັນຊີຜູ້ໃຊ້ງານ POP3 "
-"ຂອງທ່ານ:"
+"ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານສຳລັ"
+"ບບັນຊີຜູ້ໃຊ້ງານ POP3 ຂອງທ່ານ:"
 
-#: pop3.cc:471
+#: pop3.cc:463
 #, c-format
 msgid ""
 "Login via APOP failed. The server may not support APOP, although it claims "
@@ -106,48 +116,53 @@ msgid ""
 msgstr ""
 "ການລັອກອິນດ້ວຍ APOP ລົ້ມເຫຼວ "
 "ຊື່ງເຊີບເວີ "
-"ອາດຈະບໍ່ສະນັບສະຫນຸນການໃຊ้້ APOP "
-"ຫຼືລະຫັດຜ່ານອາດຈະບໍ່ຖືກຕ້ອງ\n"
+"ອາດຈະບໍ່ສະນັບສະຫນຸນການໃຊ້"
+"้ APOP "
+"ຫຼືລະຫັດຜ່ານອາດຈະບໍ່ຖືກຕ້"
+"ອງ\n"
 "\n"
 "%1"
 
-#: pop3.cc:528
+#: pop3.cc:520
 msgid ""
 "Login via SASL (%1) failed. The server may not support %2, or the password "
 "may be wrong.\n"
 "\n"
 "%3"
 msgstr ""
-"ການລັອກອິນດ້ວຍ SASL (%1) ລມົ້ເຫຼວ "
-"ຊື່ງເຊີບເວີ "
-"ອາດຈະບໍ່ສະນັບສະຫນຸນການໃຊ้້ %2 "
-"ຫຼືລະຫັດຜ່ານອາດຈະບໍ່ຖືກຕ້ອງ\n"
+"ການລັອກອິນດ້ວຍ SASL (%1) "
+"ລມົ້ເຫຼວ ຊື່ງເຊີບເວີ "
+"ອາດຈະບໍ່ສະນັບສະຫນຸນການໃຊ້"
+"้ %2 "
+"ຫຼືລະຫັດຜ່ານອາດຈະບໍ່ຖືກຕ້"
+"ອງ\n"
 "\n"
 "%3"
 
-#: pop3.cc:543
+#: pop3.cc:535
 msgid ""
 "Your POP3 server does not support SASL.\n"
 "Choose a different authentication method."
 msgstr ""
 "ເຊີບເວີ POP3 ຂອງທ່ານ "
 "ບໍ່ສະນັບສະຫນຸນ SASL\n"
-"ກາລຸນາກວດສອບສິດດ້ວຍວິທີອື່ນ"
+"ກາລຸນາກວດສອບສິດດ້ວຍວິທີອື"
+"່ນ"
 
-#: pop3.cc:572
+#: pop3.cc:564
 msgid ""
 "Could not login to %1. The password may be wrong.\n"
 "\n"
 "%2"
 msgstr ""
-"ບໍ່ສາມາດທຳການລັອກອິນໄປເຖິງ %1 ໄດ้້ "
+"ບໍ່ສາມາດທຳການລັອກອິນໄປເຖິ"
+"ງ %1 ໄດ้້ "
 "ລະຫັດຜ່ານອາດຈະບໍ່ຖືກຕ້ອງ\n"
 "\n"
 "%2"
 
-#: pop3.cc:755 pop3.cc:764 pop3.cc:902
+#: pop3.cc:747 pop3.cc:756 pop3.cc:895
 msgid "Unexpected response from POP3 server."
 msgstr ""
-"ີມີການຕອບມາຈາກເຊີບເວີ "
-"POP3 ທີ່ບໍ່ຄາດຫວັງ"
-
+"ີມີການຕອບມາຈາກເຊີບເວີ POP3 "
+"ທີ່ບໍ່ຄາດຫວັງ"

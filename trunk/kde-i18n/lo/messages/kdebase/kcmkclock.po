@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-11-21 02:53+0100\n"
+"POT-Creation-Date: 2004-01-05 01:38+0100\n"
 "PO-Revision-Date: 2003-01-14 18:07+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,25 +14,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: dtime.cpp:58
-msgid "Here you can change the system date's month."
-msgstr ""
-"คุณสามารถจะเปลี่ยนแปลงเดื"
-"อนของระบบได้ที่นี่"
-
-#: dtime.cpp:64
-msgid "Here you can change the system date's year."
-msgstr ""
-"คุณสามารถจะเปลี่ยนแปลงปีข"
-"องระบบได้ที่นี่"
-
-#: dtime.cpp:68
-msgid "Here you can change the system date's day of the month."
+#: dtime.cpp:71
+#, fuzzy
+msgid "Here you can change the system date's day of the month, month and year."
 msgstr ""
 "คุณสามารถเปลี่ยนวันที่ของ"
 "เดือนของระบบได้ที่นี่"
 
-#: dtime.cpp:141
+#: dtime.cpp:124
 msgid ""
 "Here you can change the system time. Click into the hours, minutes or "
 "seconds field to change the relevant value, either using the up and down "
@@ -47,11 +36,11 @@ msgstr ""
 "หรือใส่ค่าใหม่เข้าไปโดยตร"
 "ง"
 
-#: dtime.cpp:259
+#: dtime.cpp:223
 msgid "Can not set date."
 msgstr "ไม่สามารถปรับวันได้"
 
-#: dtime.cpp:327 main.cpp:91
+#: dtime.cpp:252 main.cpp:89
 msgid ""
 "<h1>Date & Time</h1> This control module can be used to set the system date "
 "and time. As these settings do not only affect you as a user, but rather the "
@@ -77,11 +66,11 @@ msgstr ""
 "ให้ติดต่อโดยตรงกับผู้ดูแล"
 "ระบบของคุณ"
 
-#: tzone.cpp:64
+#: tzone.cpp:62
 msgid "Current time zone: "
 msgstr "พื้นที่เวลาปัจจุบัน: "
 
-#: tzone.cpp:72
+#: tzone.cpp:69
 msgid "To change the time zone, select your area from the list below:"
 msgstr ""
 "เพื่อเปลี่ยนพื้นที่เวลาขอ"
@@ -89,35 +78,35 @@ msgstr ""
 "เลือกพื้นที่ของคุณจากรายก"
 "ารด้านล่างนี้:"
 
-#: tzone.cpp:95 tzone.cpp:203
+#: tzone.cpp:87 tzone.cpp:195
 msgid "[No selection]"
 msgstr "[ไม่มีการเลือก]"
 
-#: tzone.cpp:154
+#: tzone.cpp:146
 msgid "Unknown"
 msgstr "ไม่รู้จัก"
 
-#: tzone.cpp:291
+#: tzone.cpp:286
 msgid "Error setting new Time Zone!"
 msgstr "ตั้งค่าพื้นที่เวลาผิดพลาด !"
 
-#: tzone.cpp:292
+#: tzone.cpp:287
 msgid "Timezone Error"
 msgstr "พื้นที่เวลาผิดพลาด"
 
-#: main.cpp:101
+#: main.cpp:99
 msgid "kcmclock"
 msgstr "ปรับแต่งเวลา"
 
-#: main.cpp:101
+#: main.cpp:99
 msgid "KDE Clock Control Module"
 msgstr "โมดูลปรับแต่งเวลาระบบบน KDE"
 
-#: main.cpp:105
+#: main.cpp:103
 msgid "Original author"
 msgstr "ผู้เขียนเดิม"
 
-#: main.cpp:106
+#: main.cpp:104
 msgid "Current Maintainer"
 msgstr "ผู้ดูแลปัจจุบัน"
 
@@ -132,6 +121,12 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "donga_n@yahoo.com"
+
+#~ msgid "Here you can change the system date's month."
+#~ msgstr "คุณสามารถจะเปลี่ยนแปลงเดือนของระบบได้ที่นี่"
+
+#~ msgid "Here you can change the system date's year."
+#~ msgstr "คุณสามารถจะเปลี่ยนแปลงปีของระบบได้ที่นี่"
 
 #~ msgid "(c) 1996 - 2001 Luca Montecchiani"
 #~ msgstr "(c) 1996 - 2001 Luca Montecchiani"
@@ -171,4 +166,3 @@ msgstr "donga_n@yahoo.com"
 
 #~ msgid "December"
 #~ msgstr "ธันวาคม"
-

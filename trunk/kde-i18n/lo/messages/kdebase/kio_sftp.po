@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-10-03 02:48+0200\n"
+"POT-Creation-Date: 2004-01-05 01:38+0100\n"
 "PO-Revision-Date: 2003-01-11 19:17+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,171 +14,193 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: kio_sftp.cpp:268 kio_sftp.cpp:828
+#: kio_sftp.cpp:329 kio_sftp.cpp:921
 msgid "SFTP slave unexpectedly killed"
 msgstr "SFTP slave unexpectedly Killed"
 
-#: kio_sftp.cpp:318
+#: kio_sftp.cpp:387
 msgid "Opening SFTP connection to host <b>%1:%2</b>"
-msgstr "ກຳລັງເປີດການເຊື່ອມຕໍ່ກັບໂຮສທ໌ <b>%1:%2</b>"
+msgstr ""
+"ກຳລັງເປີດການເຊື່ອມຕໍ່ກັບໂ"
+"ຮສທ໌ <b>%1:%2</b>"
 
-#: kio_sftp.cpp:323
+#: kio_sftp.cpp:392
 msgid "No hostname specified"
 msgstr "ຍັງບໍ່ກຳນົດຊື່ໂຮສທ໌"
 
-#: kio_sftp.cpp:335 kio_sftp.cpp:447
+#: kio_sftp.cpp:404 kio_sftp.cpp:518
 msgid "SFTP Login"
 msgstr "ລັອກອິນ Sftp"
 
-#: kio_sftp.cpp:337 kio_sftp.cpp:448
+#: kio_sftp.cpp:406 kio_sftp.cpp:519
 msgid "site:"
 msgstr "ໄຊສ໌"
 
-#: kio_sftp.cpp:439
+#: kio_sftp.cpp:510
 msgid "Please enter your username and key passphrase."
-msgstr "ກາລຸນາຕື່ມຊື່ແລະຜູ້ໃຊ້ລະຫັດຜ່ານຂອງທ່ານ"
+msgstr ""
+"ກາລຸນາຕື່ມຊື່ແລະຜູ້ໃຊ້ລະຫ"
+"ັດຜ່ານຂອງທ່ານ"
 
-#: kio_sftp.cpp:444
+#: kio_sftp.cpp:515
 msgid "Please enter your username and password."
-msgstr "ກາລຸນາດຕື່ມຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານຂອງທ່ານ"
+msgstr ""
+"ກາລຸນາດຕື່ມຊື່ຜູ້ໃຊ້ແລະລະ"
+"ຫັດຜ່ານຂອງທ່ານ"
 
-#: kio_sftp.cpp:458
+#: kio_sftp.cpp:529
 msgid "Incorrect username or password"
-msgstr "ກາລຸນາຕື່ມຊື່ແລະລະຫັດຜ່ານຂອງທ່ານ"
+msgstr ""
+"ກາລຸນາຕື່ມຊື່ແລະລະຫັດຜ່ານ"
+"ຂອງທ່ານ"
 
-#: kio_sftp.cpp:464
+#: kio_sftp.cpp:535
 msgid "Please enter a username and password"
-msgstr "ກາລຸນາຕື່ມຊື່ຜູ້ໃຊແລະລະຫັດຜ່ານ"
+msgstr ""
+"ກາລຸນາຕື່ມຊື່ຜູ້ໃຊແລະລະຫັ"
+"ດຜ່ານ"
 
-#: kio_sftp.cpp:523
+#: kio_sftp.cpp:596
 msgid "Warning: Cannot verify host's identity!"
 msgstr ""
 "ແຈ້ງເຕືອນ: "
-"ບໍ່ສາມາດກວດສອບການສະແດງຕົວຂອງໂຮສທ໌ໄດ້ !"
+"ບໍ່ສາມາດກວດສອບການສະແດງຕົວ"
+"ຂອງໂຮສທ໌ໄດ້ !"
 
-#: kio_sftp.cpp:534
+#: kio_sftp.cpp:607
 msgid "Warning: Host's identity changed!"
 msgstr ""
 "ຄຳເຕືອນ: "
 "ກະແຈຂອງໂຮສທ໌ມີການປງ່ນແປງ !"
 
-#: kio_sftp.cpp:545 kio_sftp.cpp:546
+#: kio_sftp.cpp:618 kio_sftp.cpp:619
 msgid "Authentication failed."
 msgstr "ການເຊື່ອມຕໍ່ລົ້ມເຫຼວ"
 
-#: kio_sftp.cpp:560 kio_sftp.cpp:575
+#: kio_sftp.cpp:633
 msgid "Connection failed."
 msgstr "ການເຊື່ອມຕໍ່ລົ້ມເຫຼວ"
 
-#: kio_sftp.cpp:561 ksshprocess.cpp:767 ksshprocess.cpp:914
+#: kio_sftp.cpp:634 ksshprocess.cpp:803 ksshprocess.cpp:950
 msgid "Connection closed by remote host."
-msgstr "ການເຊື່ອມຕໍ່ຖືກຢຸດຕິຈາກໂຮສທ໌ປາຍທາງ"
-
-#: kio_sftp.cpp:576
-#, c-format
-msgid "Unexpected SFTP error: %1"
 msgstr ""
-"ຂໍ່ຜິດພາດຂອງ SFTP "
-"ທີ່ບໍ່ຄາດຫັວງ: %1"
+"ການເຊື່ອມຕໍ່ຖືກຢຸດຕິຈາກໂຮ"
+"ສທ໌ປາຍທາງ"
 
-#: kio_sftp.cpp:615
+#: kio_sftp.cpp:697
 #, c-format
 msgid "SFTP version %1"
 msgstr "SFTP version %1"
 
-#: kio_sftp.cpp:621
+#: kio_sftp.cpp:703
 msgid "Protocol error."
 msgstr "Protocol error."
 
-#: kio_sftp.cpp:627
+#: kio_sftp.cpp:709
 #, c-format
 msgid "Successfully connected to %1"
 msgstr ""
 "ເຊື່ອມຕໍ່ໄປຍັງ %1 "
 "ຮງບຮ້ອຍແລ້ວ"
 
-#: kio_sftp.cpp:1251
+#: kio_sftp.cpp:1179
+msgid "The remote host does not support renaming files."
+msgstr ""
+
+#: kio_sftp.cpp:1236
+msgid "The remote host does not support creating symbolic links."
+msgstr ""
+
+#: kio_sftp.cpp:1360
 msgid "Could not allocate memory for SFTP packet."
 msgstr "Could not allocate memory for SFTP packet."
 
-#: kio_sftp.cpp:1262
+#: kio_sftp.cpp:1371
 msgid "Connection closed"
 msgstr "ການເຊື່ອມຕໍ່ລົ້ມເຫຼວ"
 
-#: kio_sftp.cpp:1269
+#: kio_sftp.cpp:1378
 msgid "Could not read SFTP packet"
 msgstr "Could not read SFTP packet"
 
-#: kio_sftp.cpp:1366
+#: kio_sftp.cpp:1475
 msgid "SFTP command failed for an unknown reason."
 msgstr "SFTP command failed for an unknown reason."
 
-#: kio_sftp.cpp:1369
+#: kio_sftp.cpp:1478
 msgid "The SFTP server received a bad message."
 msgstr "The SFTP server received a bad message."
 
-#: kio_sftp.cpp:1372
+#: kio_sftp.cpp:1481
 msgid "You attempted an operation unsupported by the SFTP server."
 msgstr "You attempted an operation unsupported by the SFTP server."
 
-#: kio_sftp.cpp:1377
+#: kio_sftp.cpp:1486
 msgid "Error code: "
 msgstr "Error code:"
 
-#: ksshprocess.cpp:356
+#: ksshprocess.cpp:406
 msgid "Cannot specify a subsystem and command at the same time."
-msgstr "ບໍ່ສາມາດລະບຸລະບົບຍ່ອຍແລະຄຳສັ່ງໃນເວລາດງວກັນໄດ້"
+msgstr ""
+"ບໍ່ສາມາດລະບຸລະບົບຍ່ອຍແລະຄ"
+"ຳສັ່ງໃນເວລາດງວກັນໄດ້"
 
-#: ksshprocess.cpp:702
+#: ksshprocess.cpp:736
 msgid "No options provided for ssh execution."
-msgstr "ບໍ່ມີສ່ວນຕົວເລືອກໃນການປະມວນຜົນຂອງ ssh"
+msgstr ""
+"ບໍ່ມີສ່ວນຕົວເລືອກໃນການປະມ"
+"ວນຜົນຂອງ ssh"
 
-#: ksshprocess.cpp:710
+#: ksshprocess.cpp:744
 msgid "Failed to execute ssh process."
 msgstr "ລົ້ມເຫຼວໃນການປະມວນຜົນ ssh"
 
-#: ksshprocess.cpp:733 ksshprocess.cpp:762 ksshprocess.cpp:881
-#: ksshprocess.cpp:953
+#: ksshprocess.cpp:769 ksshprocess.cpp:798 ksshprocess.cpp:917
+#: ksshprocess.cpp:989
 msgid "Error encountered while talking to ssh."
-msgstr "ເກີດຄວາມຜິດພາດຄະນະທຳການເວົ້າກັບ ssh"
+msgstr ""
+"ເກີດຄວາມຜິດພາດຄະນະທຳການເວ"
+"ົ້າກັບ ssh"
 
-#: ksshprocess.cpp:813
+#: ksshprocess.cpp:849
 msgid "Please supply a password."
-msgstr "ກາລູນາຕື່ມຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານ"
+msgstr ""
+"ກາລູນາຕື່ມຊື່ຜູ້ໃຊ້ແລະລະຫ"
+"ັດຜ່ານ"
 
-#: ksshprocess.cpp:852
+#: ksshprocess.cpp:888
 msgid "Please supply the passphrase for your SSH private key."
 msgstr ""
 "ກາລູນາກວດສອບສ່ວນ passphrase "
 "ສຳລັບກະແຈສ່ວນຕົວຂອງ SSH"
 
-#: ksshprocess.cpp:866
+#: ksshprocess.cpp:902
 msgid "Authentication to %1 failed"
 msgstr ""
 "ການກວດສອບສິດໄປຍັງ %1 "
 "ລົ້ມເຫຼວ"
 
-#: ksshprocess.cpp:889
+#: ksshprocess.cpp:925
 msgid ""
 "The identity of the remote host '%1' could not be verified because the "
 "host's key is not in the \"known hosts\" file."
 msgstr ""
-"The identity of the remote host '%1'could not be verified becuase  "
-"the key is not in the \"known hosts\"file."
+"The identity of the remote host '%1'could not be verified becuase  the key "
+"is not in the \"known hosts\"file."
 
-#: ksshprocess.cpp:895
+#: ksshprocess.cpp:931
 msgid ""
 " Manually, add the host's key to the \"known hosts\" file or contact your "
 "administrator."
 msgstr ""
-"Manually, add the host's key to the \"known hosts\" file or "
-"contact your administrator."
+"Manually, add the host's key to the \"known hosts\" file or contact your "
+"administrator."
 
-#: ksshprocess.cpp:901
+#: ksshprocess.cpp:937
 msgid " Manually, add the host's key to %1 or contact your administrator."
 msgstr "Manually, add the host's key to %1 or contact your administrator."
 
-#: ksshprocess.cpp:933
+#: ksshprocess.cpp:969
 msgid ""
 "The identity of the remote host '%1' could not be verified. The host's key "
 "fingerprint is:\n"
@@ -188,15 +210,15 @@ msgid ""
 "\n"
 "Would you like to accept the host's key and connect anyway? "
 msgstr ""
-"The indentity of the remote host'%1' could not be verified. the "
-"host's keyfingerprint is:\n"
+"The indentity of the remote host'%1' could not be verified. the host's "
+"keyfingerprint is:\n"
 "%2\n"
-"You should verify the fingerprint with the host's administrator "
-"before connecting.\n"
+"You should verify the fingerprint with the host's administrator before "
+"connecting.\n"
 "\n"
 "Would you like to accept the host's key and conect anyway?"
 
-#: ksshprocess.cpp:961
+#: ksshprocess.cpp:997
 msgid ""
 "WARNING: The identity of the remote host '%1' has changed!\n"
 "\n"
@@ -207,14 +229,14 @@ msgid ""
 "Add the correct host key to \"%3\" to get rid of this message."
 msgstr ""
 "WARNING: The identity of the remote host '%1' had changed!\n"
-"\n "
-"Someone could be eavesdropping on your connection, or the administrator may "
+"\n"
+" Someone could be eavesdropping on your connection, or the administrator may "
 "have just changed the host's key. Either way ,you should verify the host's "
 "key fingerpprint with the host's administrator. The key fingerppint is :\n"
 "%2\n"
 "Add the correct host key to \"%3\" to get rid of this message."
 
-#: ksshprocess.cpp:996
+#: ksshprocess.cpp:1032
 msgid ""
 "WARNING: The identity of the remote host '%1' has changed!\n"
 "\n"
@@ -228,17 +250,20 @@ msgid ""
 msgstr ""
 "WARNING: The identity of the remote host '%1' had changed!\n"
 "\n"
-"Someone could be eavesdropping on your connection, or the administrator "
-"may have just changed the host's key.Either way, you sould verify the host's "
-"key fingerprint with the host's administrator before connecting. The key "
+"Someone could be eavesdropping on your connection, or the administrator may "
+"have just changed the host's key.Either way, you sould verify the host's key "
+"fingerprint with the host's administrator before connecting. The key "
 "fingerprint is :\n"
 "%2\n"
 "\n"
 "Would you like to accept the host's new key and connect anyway?"
 
-#: ksshprocess.cpp:1020
+#: ksshprocess.cpp:1056
 msgid "Host key was rejected."
 msgstr "Host key was rejected."
+
+#~ msgid "Unexpected SFTP error: %1"
+#~ msgstr "ຂໍ່ຜິດພາດຂອງ SFTP ທີ່ບໍ່ຄາດຫັວງ: %1"
 
 #, fuzzy
 #~ msgid "Sftp Login"
@@ -278,4 +303,3 @@ msgstr "Host key was rejected."
 
 #~ msgid "Login OK"
 #~ msgstr "ล็อกอินผ่าน"
-
