@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-01-12 01:57+0100\n"
+"POT-Creation-Date: 2004-08-04 01:18+0200\n"
 "PO-Revision-Date: 2003-01-24 12:11+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,144 +14,179 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: rc.cpp:1 rc.cpp:13
+#: rc.cpp:2 rc.cpp:22 rc.cpp:46 rc.cpp:66
+#, no-c-format
 msgid "&Location"
 msgstr "&ທີ່ຕັ້ງແຟ້ມ"
 
-#: rc.cpp:4 rc.cpp:16
-msgid "&Go"
-msgstr "&ໄປ"
-
-#: rc.cpp:7 rc.cpp:19
-msgid "&Window"
-msgstr "&ຫນ້າຕ່າງ"
-
-#: rc.cpp:10 rc.cpp:22
+#: rc.cpp:16 rc.cpp:40 rc.cpp:60 rc.cpp:84
+#, no-c-format
 msgid "Extra Toolbar"
 msgstr "ແຖບເຄື່ອງມືພິເສດ"
 
-#: rc.cpp:11 rc.cpp:23
+#: rc.cpp:18 rc.cpp:42 rc.cpp:62 rc.cpp:86
+#, no-c-format
 msgid "Location Toolbar"
 msgstr ""
 "ແຖບເຄື່ອງມືສະແດງເຖິງຕໍາແຫ"
 "ນ່ງ"
 
-#: rc.cpp:12 rc.cpp:24
+#: rc.cpp:20 rc.cpp:44 rc.cpp:64 rc.cpp:88
+#, no-c-format
 msgid "Bookmark Toolbar"
 msgstr ""
 "ແຖບເຄື່ອງມືສະແດງເຖິງຣິບບິ"
 "ນກັ້ນໜັງສື"
 
-#: rc.cpp:26 rc.cpp:33 rc.cpp:52 rc.cpp:58 rc.cpp:64 rc.cpp:68
-#, fuzzy
+#: rc.cpp:28 rc.cpp:72
+#, no-c-format
+msgid "&Go"
+msgstr "&ໄປ"
+
+#: rc.cpp:34 rc.cpp:78
+#, no-c-format
+msgid "&Window"
+msgstr "&ຫນ້າຕ່າງ"
+
+#: rc.cpp:92 rc.cpp:106 rc.cpp:152 rc.cpp:164 rc.cpp:176 rc.cpp:184
+#, fuzzy, no-c-format
 msgid "Selection"
 msgstr "&ເລືອກເປັນກົງກັນຂ້າມ"
 
-#: rc.cpp:28
+#: rc.cpp:96
+#, no-c-format
 msgid "&Icon Size"
 msgstr "&ຂະຫນາດໄອຄອນ"
 
-#: rc.cpp:29
+#: rc.cpp:98
+#, no-c-format
 msgid "S&ort"
 msgstr "&ລຽງຕາມລຳດັບ"
 
-#: rc.cpp:30
+#: rc.cpp:100
+#, no-c-format
 msgid "Iconview Toolbar"
 msgstr ""
 "ແຖບເຄື່ອງມືທີ່ສະແດງເຖິງມຸ"
 "ມມອງຂອງໄອຄອນ"
 
-#: rc.cpp:31
+#: rc.cpp:102
+#, no-c-format
 msgid "Iconview Extra Toolbar"
 msgstr ""
 "ແຖບເຄື່ອງມພິເສດທີ່ສະແດງເຖ"
 "ິງມຸມມອງຂອງໄອຄອນ"
 
-#: rc.cpp:35 rc.cpp:54 rc.cpp:60 rc.cpp:70
+#: rc.cpp:110 rc.cpp:156 rc.cpp:168 rc.cpp:188
+#, no-c-format
 msgid "Icon Size"
 msgstr "ຂະຫນາດໄອຄ້ອນ"
 
-#: rc.cpp:36 sidebar/trees/history_module/history_module.cpp:242
+#: rc.cpp:112 sidebar/trees/history_module/history_module.cpp:242
+#, no-c-format
 msgid "Sort"
 msgstr "ລຽງລຳດັບ"
 
-#: rc.cpp:37
+#: rc.cpp:114
+#, no-c-format
 msgid "Multicolumn View Toolbar"
 msgstr "ມູມມອງແບບຫລາຍຄໍຣລຳ"
 
-#: rc.cpp:44
-msgid "&Import"
-msgstr "&ນຳເຂົ້າ"
+#: rc.cpp:122 rc.cpp:140
+#, fuzzy, no-c-format
+msgid "&Folder"
+msgstr "ເປັນໂຟນເດີໃໝ່"
 
-#: rc.cpp:45
-msgid "&Export"
-msgstr "&ສົ່ງອອກ"
-
-#: rc.cpp:48
+#: rc.cpp:124 rc.cpp:142
+#, no-c-format
 msgid "&Bookmark"
 msgstr "&ທີ່ກັ້ນຫນັງສື"
 
-#: rc.cpp:55 rc.cpp:61 rc.cpp:66 rc.cpp:71
+#: rc.cpp:132
+#, no-c-format
+msgid "&Import"
+msgstr "&ນຳເຂົ້າ"
+
+#: rc.cpp:134
+#, no-c-format
+msgid "&Export"
+msgstr "&ສົ່ງອອກ"
+
+#: rc.cpp:158 rc.cpp:170 rc.cpp:180 rc.cpp:190
+#, no-c-format
 msgid "Show Details"
 msgstr "ສະແດງລາຍລະອຽດ"
 
-#: rc.cpp:56
+#: rc.cpp:160
+#, no-c-format
 msgid "Detailed Listview Toolbar"
 msgstr ""
 "ແຖບເຄື່ອງມືທີ່ສະແດງເຖິງບັ"
 "ນດາມູມມອງຢ່າງລະອຽດ"
 
-#: rc.cpp:62
+#: rc.cpp:172
+#, no-c-format
 msgid "Info Listview Toolbar"
 msgstr ""
 "ແຖບເຄື່ອງມືມູມມອງແບບໃຫ້ຂໍ"
 "້ມູນ"
 
-#: rc.cpp:72
+#: rc.cpp:192
+#, no-c-format
 msgid "Treeview Toolbar"
 msgstr ""
 "ແຖບເຄື່ອງມືທີ່ສະແດງເຖິງມູ"
 "ມມອງແບບກິ່ງງ່າ"
 
-#: rc.cpp:74
+#: rc.cpp:198
+#, no-c-format
 msgid "Limits"
 msgstr "ຈຳກັດ"
 
-#: rc.cpp:75
+#: rc.cpp:200
+#, no-c-format
 msgid "URLs e&xpire after"
 msgstr "&URLs ຫລັງຈາກຫມົດອາຍ"
 
-#: rc.cpp:76
+#: rc.cpp:202
+#, no-c-format
 msgid "Maximum &number of URLs:"
 msgstr "ຄ່າສູງສຸດ&ຈຳນວນຂອງ URL:"
 
-#: rc.cpp:77
+#: rc.cpp:204
+#, no-c-format
 msgid "Custom Fonts For"
 msgstr "ກຳນົດຕົວອັກສອນສຳຫລັບ"
 
-#: rc.cpp:78
+#: rc.cpp:206
+#, no-c-format
 msgid "URLs newer than"
 msgstr "URL ທີ່ໃຫມ່ຫລາຍກວ່າ"
 
-#: rc.cpp:79 rc.cpp:81
+#: rc.cpp:208 rc.cpp:212
+#, no-c-format
 msgid "Choose Font..."
 msgstr "ເລຶ້ອກຮູບແບບຕົວອັກສອນ..."
 
-#: rc.cpp:80
+#: rc.cpp:210
+#, no-c-format
 msgid "URLs older than"
 msgstr "URLsທີ່ເກົ່າຫລາຍກວ່າ"
 
-#: about/konq_aboutpage.cc:188 rc.cpp:82
+#: about/konq_aboutpage.cc:188 rc.cpp:214
+#, no-c-format
 msgid "Details"
 msgstr "ລາຍລະອຽດ"
 
-#: rc.cpp:83
+#: rc.cpp:216
+#, no-c-format
 msgid "Detailed tooltips"
 msgstr ""
 "ຄຳແນະນຳກ່ຽວກັບການໃຊ້ເຄື່ອ"
 "ງມືຢ່າງລະອຽດ"
 
-#: rc.cpp:84
+#: rc.cpp:218
+#, no-c-format
 msgid ""
 "Shows the number of times visited and the dates of the first and last "
 "visits, in addition to the URL"
@@ -161,11 +196,12 @@ msgstr ""
 "ີ່ຮຽກໃຊ້,ໃນການ "
 "ເສີມເຂົ້າໄປທີ່URL"
 
-#: rc.cpp:85
+#: rc.cpp:220
+#, no-c-format
 msgid "Clear History"
 msgstr "ລົບລ້າງການໃຊ້ທີ່ເກົ່າແກ່"
 
-#: konq_factory.cc:137 konq_factory.cc:155
+#: konq_factory.cc:141 konq_factory.cc:159
 msgid ""
 "There was an error loading the module %1.\n"
 "The diagnostics is:\n"
@@ -176,83 +212,109 @@ msgstr ""
 "ເຊີງກວດສອບໄດ້ຄື:\n"
 "%2"
 
-#: konq_factory.cc:207
+#: konq_factory.cc:211
 msgid "Konqueror"
 msgstr "ຄົງຂູນເລີ"
 
-#: konq_factory.cc:209
+#: konq_factory.cc:213
 msgid "Web browser, file manager, ..."
 msgstr ""
 "ເວັບບຣາວເຊີ, "
 "ເຄື່ອງມືການຈັດແຟ້ມ..."
 
-#: konq_factory.cc:211
+#: konq_factory.cc:215
 #, fuzzy
-msgid "(c) 1999-2003, The Konqueror developers"
+msgid "(c) 1999-2004, The Konqueror developers"
 msgstr "(c) 1999-2002, ຜູ້ພັດທະນາຄອນເຄວເຣີ"
 
-#: konq_factory.cc:213
+#: konq_factory.cc:217
 #, fuzzy
 msgid "http://konqueror.kde.org"
 msgstr "http://www.konqueror.org"
 
-#: konq_factory.cc:214
-msgid "developer (parts, I/O lib) and maintainer"
+#: konq_factory.cc:218
+#, fuzzy
+msgid "developer (framework, parts, JavaScript, I/O lib) and maintainer"
 msgstr ""
 "ຜູ້ພັດທະນາ (parts,ຫໍສະມຸດI/O) "
 "ແລະຜູ້ເບິ່ງແຍງ"
 
-#: konq_factory.cc:215
+#: konq_factory.cc:219
 msgid "developer (framework, parts)"
 msgstr ""
 "ຜູ້ພັດທະນາ "
 "(ການເຮັດວຽກແບບເຟຣມເວີກ, parts)"
 
-#: konq_factory.cc:216 konq_factory.cc:235
+#: konq_factory.cc:220 konq_factory.cc:243
 msgid "developer (framework)"
 msgstr "ຜູ້ພັດທະນາ (ເຟຣມເວິກ)"
 
-#: konq_factory.cc:217
+#: konq_factory.cc:221
 msgid "developer"
 msgstr "ຜູ້ພັດທະນາ"
 
-#: konq_factory.cc:218
+#: konq_factory.cc:222
 msgid "developer (List views)"
 msgstr ""
 "ຜູ້ພັດທະນາ "
 "(ມູມມອງບັນດາລາຍການ)"
 
-#: konq_factory.cc:219
+#: konq_factory.cc:223
 msgid "developer (List views, I/O lib)"
 msgstr ""
 "ຜູ້ພັດທະນາ "
 "(ມູມມອງບັນດາລາຍການ,ຫໍສະມຸດ "
 "ี I/O)"
 
-#: konq_factory.cc:220 konq_factory.cc:221 konq_factory.cc:222
-#: konq_factory.cc:223
+#: konq_factory.cc:224 konq_factory.cc:225 konq_factory.cc:226
+#: konq_factory.cc:228 konq_factory.cc:229 konq_factory.cc:231
 msgid "developer (HTML rendering engine)"
 msgstr ""
 "ຜູ້ພັດທະນາ "
 "(ກົນໄກສະແດງຜົນຂອງການແປ HTML)"
 
-#: konq_factory.cc:224
+#: konq_factory.cc:227
 msgid "developer (HTML rendering engine, I/O lib)"
 msgstr ""
 "ຜູ້ພັດທະນາ (ກົນໄກສະແດງຜົນ "
 "HTML, ຫໍສະມຸດ I/O)"
 
-#: konq_factory.cc:225 konq_factory.cc:226 konq_factory.cc:227
+#: konq_factory.cc:230
+#, fuzzy
+msgid "developer (HTML rendering engine, I/O lib, regression test framework)"
+msgstr ""
+"ຜູ້ພັດທະນາ (ກົນໄກສະແດງຜົນ "
+"HTML, ຫໍສະມຸດ I/O)"
+
+#: konq_factory.cc:232
+#, fuzzy
+msgid "developer (HTML rendering engine, JavaScript)"
+msgstr ""
+"ຜູ້ພັດທະນາ "
+"(ກົນໄກສະແດງຜົນຂອງການແປ HTML)"
+
+#: konq_factory.cc:233
+msgid "developer (JavaScript)"
+msgstr "ຜູ້ພັດທະນາ (ຈາວາສະຄຣິບ)"
+
+#: konq_factory.cc:234
+#, fuzzy
+msgid "developer (Java applets and other embedded objects)"
+msgstr ""
+"ຜູ້ພັດທະນາ(ສະຫນັບສະຫນູນສ່ວ"
+"ນຈາວາແອັບພລັອດ)"
+
+#: konq_factory.cc:235 konq_factory.cc:236
 msgid "developer (I/O lib)"
 msgstr "ຜູ້ພັດທະນາ (ຫໍສະໝຸດI/O)"
 
-#: konq_factory.cc:228 konq_factory.cc:229
+#: konq_factory.cc:237 konq_factory.cc:238
 msgid "developer (Java applet support)"
 msgstr ""
 "ຜູ້ພັດທະນາ(ສະຫນັບສະຫນູນສ່ວ"
 "ນຈາວາແອັບພລັອດ)"
 
-#: konq_factory.cc:230
+#: konq_factory.cc:239
 msgid ""
 "developer (Java 2 security manager support,\n"
 " and other major improvements to applet support)"
@@ -262,45 +324,41 @@ msgstr ""
 "ແລະການປັບປຸງຫລັກຕໍ່ການສະຫ"
 "ນັບສະຫນູນແບບແອັບພລັອດ)"
 
-#: konq_factory.cc:231
-msgid "developer (JavaScript)"
-msgstr "ຜູ້ພັດທະນາ (ຈາວາສະຄຣິບ)"
-
-#: konq_factory.cc:232
+#: konq_factory.cc:240
 msgid "developer (Netscape plugin support)"
 msgstr ""
 "ຜູ້ພັດທະນາ(ສະຫນັບສະຫນູນສ່ວ"
 "ນປັກອິນຂອງເນດສະເຄບ)"
 
-#: konq_factory.cc:233
+#: konq_factory.cc:241
 #, fuzzy
 msgid "developer (SSL, Netscape plugins)"
 msgstr ""
 "ຜູ້ພັດທະນາ(ສະຫນັບສະຫນູນສ່ວ"
 "ນປັກອິນຂອງເນດສະເຄບ)"
 
-#: konq_factory.cc:234
+#: konq_factory.cc:242
 msgid "developer (I/O lib, Authentication support)"
 msgstr ""
 "ຜູ້ພັດທະນາ "
 "(ສະໜັບສະໜູນການຮັບຮອງເອົາ,ຫໍ"
 "ສະໝຸດຂອງສ່ວນ I/O,)"
 
-#: konq_factory.cc:236
+#: konq_factory.cc:244
 msgid "graphics/icons"
 msgstr "ກຣາບຟິກ/ໄອຄ້ອນ‍"
 
-#: konq_factory.cc:237
+#: konq_factory.cc:245
 msgid "kfm author"
 msgstr "ຜູ້ຂຽນkfm"
 
-#: konq_factory.cc:238
+#: konq_factory.cc:246
 msgid "developer (navigation panel framework)"
 msgstr ""
 "ຜູ້ພັດທະນາ(ສວ່ນເຟຣມເວີກຂອງ"
 "ການສົ່ງຜ່ານຂໍ້ມູນ)"
 
-#: konq_frame.cc:87
+#: konq_frame.cc:85
 msgid ""
 "Checking this box on at least two views sets those views as 'linked'. Then, "
 "when you change directories in one view, the other views linked with it will "
@@ -327,18 +385,16 @@ msgstr ""
 "ທີ່ມີການທາໍງານແບບເທີມີນັອ"
 "ລດວ້ຍ. "
 
-#: konq_frame.cc:149
-msgid "Remove View"
-msgstr ""
-"ເອົາມູມມອງອອກ "
-"ຢ່າງໜ້ອຍການຈັດວາງສອງມູມມອ"
-"ງ"
+#: konq_frame.cc:148
+#, fuzzy
+msgid "Close View"
+msgstr "ເລິກລອ໊ກມູມມອງ"
 
-#: konq_frame.cc:226
+#: konq_frame.cc:229
 msgid "%1/s"
 msgstr "%1/s"
 
-#: konq_frame.cc:228
+#: konq_frame.cc:231
 msgid "Stalled"
 msgstr "ຢຸດທຳງານຊົ່ວຄາວ"
 
@@ -357,36 +413,47 @@ msgid "Show %1"
 msgstr "ສະແດງ %1"
 
 #: konq_main.cc:40
-msgid "Start without a default window."
+#, fuzzy
+msgid "Start without a default window"
 msgstr ""
 "ເລິ່ມທຳງານໂດຍບໍ່ໃຊ້ໜ້າຕ່າ"
 "ງໂດຍປະລິຍາຍ"
 
 #: konq_main.cc:41
-msgid "Preload for later use."
+#, fuzzy
+msgid "Preload for later use"
 msgstr ""
 "ກ່ອນການໂຫລດເພື່ອການໃຊ້ພາຍ"
 "ຫລັງ"
 
 #: konq_main.cc:42
-msgid "Profile to open."
+#, fuzzy
+msgid "Profile to open"
 msgstr "ໂປຣໄຟທີ່ຈະເປິດ"
 
 #: konq_main.cc:43
-msgid "List available profiles."
+msgid "List available profiles"
 msgstr ""
 
 #: konq_main.cc:44
-msgid "Mimetype to use for this URL, (e.g. text/html or inode/directory)."
+#, fuzzy
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
 msgstr ""
 "ປະເພດ Mime ທີ່ຈະໃຊ້ກັບ URL ນີ້ "
 "(ເຊັ່ນ text/html ຫລຶ inode/directory)"
 
 #: konq_main.cc:45
-msgid "Location to open."
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+
+#: konq_main.cc:46
+#, fuzzy
+msgid "Location to open"
 msgstr "ຕຳແໜ່ງທີ່ຈະເປິດ"
 
-#: konq_mainwindow.cc:470
+#: konq_mainwindow.cc:480
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -395,7 +462,7 @@ msgstr ""
 "ຮູບແບບ URL ຜິດພາດ\n"
 "%1"
 
-#: konq_mainwindow.cc:475
+#: konq_mainwindow.cc:485
 #, c-format
 msgid ""
 "Protocol not supported\n"
@@ -404,265 +471,359 @@ msgstr ""
 "ບໍ່ສະນັບສະໜູນໂປຣໂຕຄອນ\n"
 " %1"
 
-#: konq_mainwindow.cc:1321
+#: konq_mainwindow.cc:566 konq_run.cc:117
+#, fuzzy
+msgid ""
+"There appears to be a configuration error. You have associated Konqueror "
+"with %1, but it cannot handle this file type."
+msgstr ""
+"ການປັບແຕ່ງມີຄ່າຜິດຟາດ "
+"ທ່ານໄດ້ກຳນົດໃຫ້ໃຊ້Konquerorກັບ%1ແ"
+"ຕ່ບໍ່ສາມາດຈັດການແຟັມປະເພດ"
+"ນີ້ໄດ້"
+
+#: konq_mainwindow.cc:1359
 msgid "Open Location"
 msgstr "ເປິດຈາກຕຳແໜ່ງ"
 
-#: konq_mainwindow.cc:1343
-msgid "Can't create the find part, check your installation."
+#: konq_mainwindow.cc:1381
+#, fuzzy
+msgid "Cannot create the find part, check your installation."
 msgstr ""
 "ບໍ່ສາມ່ດສ້າງສ່ວນການຄົ້ນຫາ"
 "ໂປດກວດສອບການຕິດຕັ້ງຂອງຄະນ"
 "ະ"
 
-#: konq_mainwindow.cc:1617
+#: konq_mainwindow.cc:1657
 msgid "Canceled."
 msgstr "ຍົກເລີກແລ້ວ"
 
-#: konq_mainwindow.cc:2466
+#: konq_mainwindow.cc:1681
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Closing the page will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:1682 konq_mainwindow.cc:2397 konq_mainwindow.cc:2415
+#: konq_mainwindow.cc:2503 konq_mainwindow.cc:2518 konq_mainwindow.cc:2535
+#: konq_mainwindow.cc:2572 konq_mainwindow.cc:2605 konq_mainwindow.cc:4797
+#: konq_mainwindow.cc:4814 konq_viewmgr.cc:1117 konq_viewmgr.cc:1135
+msgid "Discard Changes?"
+msgstr ""
+
+#: konq_mainwindow.cc:1682 konq_mainwindow.cc:2397 konq_mainwindow.cc:2415
+#: konq_mainwindow.cc:2503 konq_mainwindow.cc:2518 konq_mainwindow.cc:2535
+#: konq_mainwindow.cc:2572 konq_mainwindow.cc:2605 konq_mainwindow.cc:4797
+#: konq_mainwindow.cc:4814 konq_viewmgr.cc:1117 konq_viewmgr.cc:1135
+msgid "&Discard Changes"
+msgstr ""
+
+#: konq_mainwindow.cc:2396 konq_mainwindow.cc:2414
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Detaching the tab will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:2502
+msgid ""
+"This view contains changes that have not been submitted.\n"
+"Closing the view will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:2517 konq_mainwindow.cc:2534
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the tab will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:2556
+#, fuzzy
+msgid "Do you really want to close all other tabs?"
+msgstr ""
+"ທ່ານຕ້ອງການລ້າງປະຫວັດການໃ"
+"ຊ້ທີ່ມີ ແມ່ນຫຼືບໍ່?"
+
+#: konq_mainwindow.cc:2557
+#, fuzzy
+msgid "Close Other Tabs Confirmation"
+msgstr "ປິດ&ລຶບແຖບປະຈຸບັນ"
+
+#: konq_mainwindow.cc:2557 konq_mainwindow.cc:3489 konq_tabs.cc:112
+msgid "Close &Other Tabs"
+msgstr "ປິດ&ລຶບແຖບປະຈຸບັນ"
+
+#: konq_mainwindow.cc:2571
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing other tabs will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:2604
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Reloading all tabs will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:2678
 #, c-format
 msgid "No permissions to write to %1"
 msgstr "ບໍ່ມີສິດທີ່ຈະຂຽນໄປທີ່ %1"
 
-#: konq_mainwindow.cc:2474
+#: konq_mainwindow.cc:2686
 msgid "to:"
 msgstr "ເຖິງ"
 
-#: konq_mainwindow.cc:2476
+#: konq_mainwindow.cc:2688
 msgid "Enter Target"
 msgstr "ຕຶມຕຳແໜ່ງ URL"
 
-#: konq_mainwindow.cc:2485
-msgid "<qt><b>%1</b> is not valid<qt>"
+#: konq_mainwindow.cc:2697
+msgid "<qt><b>%1</b> is not valid</qt>"
 msgstr ""
 
-#: konq_mainwindow.cc:2501
+#: konq_mainwindow.cc:2713
 msgid "Copy selected files from"
 msgstr "ສຳເນົາແຟ້ມທີ່ເລືອກຈາກ"
 
-#: konq_mainwindow.cc:2511
+#: konq_mainwindow.cc:2723
 msgid "Move selected files from"
 msgstr "ຍາຍແຟ້ມທີ່ເລືອກຈາກ"
 
-#: konq_mainwindow.cc:3159
+#: konq_mainwindow.cc:3413
 msgid "&Edit File Type..."
 msgstr "&ແກ້ໄຂປະເພດຂອງແຟ້ມ"
 
-#: konq_mainwindow.cc:3161 sidebar/trees/history_module/history_module.cpp:78
+#: konq_mainwindow.cc:3415 sidebar/trees/history_module/history_module.cpp:78
 msgid "New &Window"
 msgstr "&ເປິດໜ້າຕ່າງໃໝ່"
 
-#: konq_mainwindow.cc:3162
+#: konq_mainwindow.cc:3416
 msgid "&Duplicate Window"
 msgstr ""
 "&ເປິດແບບໜ້າຕ່າງນີ້ອິກໜ້າໜ້"
 "າຕ່າງ"
 
-#: konq_mainwindow.cc:3163
+#: konq_mainwindow.cc:3417
 #, fuzzy
-msgid "Send &Link..."
+msgid "Send &Link Address..."
 msgstr "&ສົ່ງລິງ"
 
-#: konq_mainwindow.cc:3164
+#: konq_mainwindow.cc:3418
 #, fuzzy
 msgid "S&end File..."
 msgstr "&ສົ່ງແຟ້ມ"
 
-#: konq_mainwindow.cc:3165
+#: konq_mainwindow.cc:3419
 msgid "&Run Command..."
 msgstr "&ປະມວນຜົນຄຳສັ່ງ..."
 
-#: konq_mainwindow.cc:3168
+#: konq_mainwindow.cc:3422
 msgid "Open &Terminal"
 msgstr "&ເປິດເທດມີນັດ"
 
-#: konq_mainwindow.cc:3170
+#: konq_mainwindow.cc:3424
 msgid "&Open Location..."
 msgstr "&ເປິດຈາກຕຳແໜ່ງ.."
 
-#: konq_mainwindow.cc:3172
+#: konq_mainwindow.cc:3426
 msgid "&Find File..."
 msgstr "&ຄົ້ນຫາແຟ້ມ.."
 
-#: konq_mainwindow.cc:3177
+#: konq_mainwindow.cc:3431
 msgid "&Use index.html"
 msgstr "&ເລຶອກໃຊ້ແຟ້ມ index.html"
 
-#: konq_mainwindow.cc:3178
+#: konq_mainwindow.cc:3432
 msgid "Lock to Current Location"
 msgstr "ລອກໄປຍັງຕຳແໜ່ງປະຈຸບັນ"
 
-#: konq_mainwindow.cc:3179
-msgid "Unlock View"
-msgstr "ເລິກລອ໊ກມູມມອງ"
-
-#: konq_mainwindow.cc:3180
+#: konq_mainwindow.cc:3433
 msgid "Lin&k View"
 msgstr "&ເຊື່ອມູມມອງ"
 
-#: konq_mainwindow.cc:3183
+#: konq_mainwindow.cc:3436
 msgid "&Up"
 msgstr "&ຂື້ນໜື່ງລະດັບ"
 
-#: konq_mainwindow.cc:3196
+#: konq_mainwindow.cc:3449
 msgid "History"
 msgstr "ປະຕິບັດການໃຊ້"
 
-#: konq_mainwindow.cc:3200
+#: konq_mainwindow.cc:3453
 msgid "Home URL"
 msgstr "ຕຳແໜ່ງຫລັກ"
 
-#: konq_mainwindow.cc:3202
+#: konq_mainwindow.cc:3455
 msgid "App&lications"
 msgstr "&ແອບພີເຄຊັນ"
 
-#: konq_mainwindow.cc:3204
+#: konq_mainwindow.cc:3456
+#, fuzzy
+msgid "&Devices"
+msgstr "&ສະແດງຕົວຢ່າງ"
+
+#: konq_mainwindow.cc:3457
+#, fuzzy
+msgid "Sett&ings"
+msgstr "ตั้งค่าประวัติการใช้งาน"
+
+#: konq_mainwindow.cc:3459
 msgid "Trash"
 msgstr "ຖັງຂີ້ເຍື່ອ"
 
-#: konq_mainwindow.cc:3205
+#: konq_mainwindow.cc:3460
 msgid "Templates"
 msgstr "ຕົ້ນແບບ"
 
-#: konq_mainwindow.cc:3206
+#: konq_mainwindow.cc:3461
 msgid "Autostart"
 msgstr "ເລີມອັດຕະໂນມັດ"
 
-#: konq_mainwindow.cc:3207
+#: konq_mainwindow.cc:3462
 msgid "Most Often Visited"
 msgstr "ຕຳແໜ່ງທີ່ເລືອກໃຊ້ຫລາຍ"
 
-#: konq_mainwindow.cc:3213 konq_mainwindow.cc:3668
+#: konq_mainwindow.cc:3468 konq_mainwindow.cc:3949
 msgid "&Save View Profile..."
 msgstr "&ບັນທຶກໂປຣໄຟມູມມອງ..."
 
-#: konq_mainwindow.cc:3214
+#: konq_mainwindow.cc:3469
 #, fuzzy
 msgid "View Properties Saved in &Folder"
 msgstr ""
 "&ສະແດງຄຸນສົມບັດທີ່ບັນທຶກໃນ"
 "ໄດເຣກທໍຣີ"
 
-#: konq_mainwindow.cc:3216
+#: konq_mainwindow.cc:3471
 #, fuzzy
 msgid "Remove Folder Properties"
 msgstr "ລຶບຄຸນສົມບັດໄດເຣກທໍຣີຖິ້ມ"
 
-#: konq_mainwindow.cc:3223
+#: konq_mainwindow.cc:3479
 msgid "Configure Spell Checking..."
 msgstr ""
 
-#: konq_mainwindow.cc:3226
+#: konq_mainwindow.cc:3482
 msgid "Split View &Left/Right"
 msgstr "&ແບ່ງມູມມອງຊ້າຍ/ຂວາ"
 
-#: konq_mainwindow.cc:3227
+#: konq_mainwindow.cc:3483
 msgid "Split View &Top/Bottom"
 msgstr "&ແບ່ງມູມມອງເທີງ/ລູມ"
 
-#: konq_mainwindow.cc:3228 konq_tabs.cc:70
+#: konq_mainwindow.cc:3484 konq_tabs.cc:71
 msgid "&New Tab"
 msgstr "&ເປິດແທັບໃໝ່"
 
-#: konq_mainwindow.cc:3229
+#: konq_mainwindow.cc:3485
 msgid "&Duplicate Current Tab"
 msgstr "&ເຮັດຊຳແທບປະຈຸບັນ"
 
-#: konq_mainwindow.cc:3230
+#: konq_mainwindow.cc:3486
 msgid "Detach Current Tab"
 msgstr "ລຶບແທບປະຈຸບັນ"
 
-#: konq_mainwindow.cc:3231
-msgid "&Remove Active View"
+#: konq_mainwindow.cc:3487
+#, fuzzy
+msgid "&Close Active View"
 msgstr "&ເອົາມູມມອງທີ່ແອັກທິບອອກ"
 
-#: konq_mainwindow.cc:3232 konq_mainwindow.cc:4449
+#: konq_mainwindow.cc:3488
 #, fuzzy
 msgid "Close Current Tab"
 msgstr "ລຶບແຖບປະຈຸບັນ"
 
-#: konq_mainwindow.cc:3234
+#: konq_mainwindow.cc:3491
 msgid "Activate Next Tab"
 msgstr "ແຖວຕໍ່ໄປທຳງານ"
 
-#: konq_mainwindow.cc:3235
+#: konq_mainwindow.cc:3492
 msgid "Activate Previous Tab"
 msgstr "ກະຕຸ້ນ ແຖບ ກອນ"
 
-#: konq_mainwindow.cc:3237
+#: konq_mainwindow.cc:3497
+#, fuzzy, c-format
+msgid "Activate Tab %1"
+msgstr "ແຖວຕໍ່ໄປທຳງານ"
+
+#: konq_mainwindow.cc:3500
 msgid "Move Tab Left"
 msgstr "ສະແດງແທບທາງດ້ານຊ້າຍ"
 
-#: konq_mainwindow.cc:3238
+#: konq_mainwindow.cc:3501
 msgid "Move Tab Right"
 msgstr "ເຄື່ອນ ແຖບ ເບື້້ອງ ຂວາ"
 
-#: konq_mainwindow.cc:3241
+#: konq_mainwindow.cc:3504
 msgid "Dump Debug Info"
 msgstr "ດຶງຂໍ້ມູນດີບັກ"
 
-#: konq_mainwindow.cc:3244
+#: konq_mainwindow.cc:3507
 msgid "C&onfigure View Profiles..."
 msgstr "&ປັບແຕ່ງໂປຣໄຟມູມມອງ"
 
-#: konq_mainwindow.cc:3245
+#: konq_mainwindow.cc:3508
 msgid "Load &View Profile"
 msgstr "&ໂຫລຼດໃຊ້ໂປຣໄຟມູມມອງ"
 
-#: konq_mainwindow.cc:3265
+#: konq_mainwindow.cc:3521 konq_tabs.cc:100
+msgid "&Reload All Tabs"
+msgstr ""
+
+#: konq_mainwindow.cc:3532
 msgid "&Stop"
 msgstr "&ຢຸດ"
 
-#: konq_mainwindow.cc:3267
+#: konq_mainwindow.cc:3534
 msgid "&Rename"
 msgstr "&ປຽ່ນຊື່"
 
-#: konq_mainwindow.cc:3268
+#: konq_mainwindow.cc:3535
 msgid "&Move to Trash"
 msgstr "&ຖິ້ມລົງຖັງຂີ້ເຫຍຶ່ອ"
 
-#: konq_mainwindow.cc:3271
+#: konq_mainwindow.cc:3542
 msgid "Animated Logo"
 msgstr "ໂລໂກເຄື່ອນໄຫວ"
 
-#: konq_mainwindow.cc:3274 konq_mainwindow.cc:3275
+#: konq_mainwindow.cc:3545 konq_mainwindow.cc:3546
 msgid "L&ocation: "
 msgstr "&ຕຳແໜ່ງ"
 
-#: konq_mainwindow.cc:3278
+#: konq_mainwindow.cc:3549
 msgid "Location Bar"
 msgstr "ແຖບຕຳແໜ່ງ"
 
-#: konq_mainwindow.cc:3283
+#: konq_mainwindow.cc:3554
 msgid "Location Bar<p>Enter a web address or search term."
 msgstr ""
 
-#: konq_mainwindow.cc:3286
+#: konq_mainwindow.cc:3557
 msgid "Clear Location Bar"
 msgstr "ລ້າງຕຳແໜ່ງ"
 
-#: konq_mainwindow.cc:3289
+#: konq_mainwindow.cc:3560
 msgid "Clear Location bar<p>Clears the content of the location bar."
 msgstr ""
 
-#: konq_mainwindow.cc:3308
+#: konq_mainwindow.cc:3580
 #, fuzzy
 msgid "Bookmark This Location"
 msgstr "ເຄື່ອງມືແກ້ໄຂທີ່ຂັ້ນໜັງສື"
 
-#: konq_mainwindow.cc:3312
+#: konq_mainwindow.cc:3584
 msgid "Kon&queror Introduction"
 msgstr "ແນະນຳ&queror"
 
-#: konq_mainwindow.cc:3314
+#: konq_mainwindow.cc:3586
 msgid "Go"
 msgstr "ໄປ"
 
-#: konq_mainwindow.cc:3315
+#: konq_mainwindow.cc:3587
 msgid "Go<p>Goes to the page that has been entered into the location bar."
 msgstr ""
 
-#: konq_mainwindow.cc:3321
+#: konq_mainwindow.cc:3593
 #, fuzzy
 msgid ""
 "Enter the parent folder"
@@ -675,38 +836,38 @@ msgstr ""
 "ຖ້າທີ່ຢູ່ປະຈຸບັນ file:/home/%1 "
 "ກົດປຸ່ມນີ້ ຈະພາທ່ານໄປ file:/home."
 
-#: konq_mainwindow.cc:3324
+#: konq_mainwindow.cc:3596
 #, fuzzy
 msgid "Enter the parent folder"
 msgstr ""
 "ຕືມໄດເຣກທໍຣີສ່ວນຕົວຂອງທ່າ"
 "ນ"
 
-#: konq_mainwindow.cc:3326
+#: konq_mainwindow.cc:3598
 msgid "Move backwards one step in the browsing history<p>"
 msgstr ""
 "້ຍ້າຍກັບມາທີ່ບາດກາ້ວທຳອິດ"
 "ໃນການຄົ້ນຫາຂໍ້ມູນ<p>"
 
-#: konq_mainwindow.cc:3327
+#: konq_mainwindow.cc:3599
 msgid "Move backwards one step in the browsing history"
 msgstr ""
 "ຍ້າຍກັບມາທີ່ບາດກາ້ວທຳອິດໃ"
 "ນການຄົ້ນຫາຂໍ້ມູນ"
 
-#: konq_mainwindow.cc:3329
+#: konq_mainwindow.cc:3601
 msgid "Move forward one step in the browsing history<p>"
 msgstr ""
 "້ຍ້າຍໄປໜ້າທີ່ບາດກາ້ວທຳອິດ"
 "ໃນການຄົ້ນຫາຂໍ້ມູນ<p>"
 
-#: konq_mainwindow.cc:3330
+#: konq_mainwindow.cc:3602
 msgid "Move forward one step in the browsing history"
 msgstr ""
 "້ຍ້າຍໄປໜ້າທີ່ບາດກາ້ວທຳອິດ"
 "ໃນການຄົ້ນຫາຂໍ້ມູນ"
 
-#: konq_mainwindow.cc:3332
+#: konq_mainwindow.cc:3604
 msgid ""
 "Navigate to your 'Home URL'"
 "<p>You can configure the location this button takes you to in the <b>KDE "
@@ -721,11 +882,11 @@ msgstr ""
 "<b>ການເລຶອກເບິ່ງແຟ້ມ</b> / "
 "<b>ເຄຶ່ອງມືຈັດການແຟ້ມ</b>"
 
-#: konq_mainwindow.cc:3335
+#: konq_mainwindow.cc:3607
 msgid "Navigate to your 'Home URL'"
 msgstr "ສົ່ງເຖີງ 'Home URL' ຂອງເຈົ້າ"
 
-#: konq_mainwindow.cc:3337
+#: konq_mainwindow.cc:3609
 msgid ""
 "Reload the currently displayed document"
 "<p>This may, for example, be needed to refresh webpages that have been "
@@ -737,13 +898,33 @@ msgstr ""
 "ທີໄດ້ທຳການແກ້ໄຂຕັ່ງແຕ່ພວກ"
 "ມັນຖືກໂຫຼດ ເຂົ້າໄປໃນ ch"
 
-#: konq_mainwindow.cc:3340
+#: konq_mainwindow.cc:3612
 msgid "Reload the currently displayed document"
 msgstr ""
 "ເລືອກຂໍ້ມູນເອກກະສານປະຈຸບັ"
 "ນໃໝ່"
 
-#: konq_mainwindow.cc:3342
+#: konq_mainwindow.cc:3614
+#, fuzzy
+msgid ""
+"Reload all currently displayed documents in tabs"
+"<p>This may, for example, be needed to refresh webpages that have been "
+"modified since they were loaded, in order to make the changes visible."
+msgstr ""
+"ກະລຸນາສະແດງການໂຫຼດເອກະສານ<p"
+">ຂອງທ່ານ, ຕົວຢ່າງ,  "
+"ທີຈຳເປັນຕ້ອງການລົບເວັບເພຈ"
+"ທີໄດ້ທຳການແກ້ໄຂຕັ່ງແຕ່ພວກ"
+"ມັນຖືກໂຫຼດ ເຂົ້າໄປໃນ ch"
+
+#: konq_mainwindow.cc:3617
+#, fuzzy
+msgid "Reload all currently displayed document in tabs"
+msgstr ""
+"ເລືອກຂໍ້ມູນເອກກະສານປະຈຸບັ"
+"ນໃໝ່"
+
+#: konq_mainwindow.cc:3619
 msgid ""
 "Stop loading the document"
 "<p>All network transfers will be stopped and Konqueror will display the "
@@ -756,11 +937,11 @@ msgstr ""
 "ທີ່ມັນໄດ້ຮັບເອົາາໃນ "
 "ຊ່ວງທີ່ໄດ."
 
-#: konq_mainwindow.cc:3345
+#: konq_mainwindow.cc:3622
 msgid "Stop loading the document"
 msgstr "ຢຸດການເລຶອກຂໍ້ມູນເອກກະສານ"
 
-#: konq_mainwindow.cc:3347
+#: konq_mainwindow.cc:3624
 msgid ""
 "Cut the currently selected text or item(s) and move it to the system "
 "clipboard"
@@ -776,14 +957,14 @@ msgstr ""
 "<b>ຕັດ</b> ຈາກເມນູ 'ແກ້ໄຂ' "
 "ໄດ້ອີກທາງຫນຶ່ງ"
 
-#: konq_mainwindow.cc:3351
+#: konq_mainwindow.cc:3628
 msgid "Move the selected text or item(s) to the clipboard"
 msgstr ""
 "ຍ້າຍຂໍ້ຄວາມຫລືລາຍການທີ່ຂະ"
 "ນະເລືອກໄວ້ແລ້ວໄປຍັງຄຼິບບອ"
 "ດຂອງລະບົບ"
 
-#: konq_mainwindow.cc:3353
+#: konq_mainwindow.cc:3630
 msgid ""
 "Copy the currently selected text or item(s) to the system clipboard"
 "<p>This makes it available to the <b>Paste</b> command in Konqueror and "
@@ -798,14 +979,14 @@ msgstr ""
 "ັດລັອກ</b> ຈາກເມນູ 'ແກ້ໄຂ' "
 "ໄດ້ອີກທາງຫນຶ່ງ"
 
-#: konq_mainwindow.cc:3357
+#: konq_mainwindow.cc:3634
 msgid "Copy the selected text or item(s) to the clipboard"
 msgstr ""
 "ຄັດລັອກຂຄໍ້ວາມຫລືລາຍການທີ"
 "່ທ່ານເລືອກໄວ້ "
 "ໄປຍັງຄຼິບບອດຂອງລະບົບ"
 
-#: konq_mainwindow.cc:3359
+#: konq_mainwindow.cc:3636
 msgid ""
 "Paste the previously cut or copied clipboard contents"
 "<p>This also works for text copied or cut from other KDE applications."
@@ -819,11 +1000,11 @@ msgstr ""
 "າງ</b> ຈາກເມນູ 'ແກ້ໄຂ' "
 "ໄດ້ອີກທາງຫນຶ່ງ"
 
-#: konq_mainwindow.cc:3362
+#: konq_mainwindow.cc:3639
 msgid "Paste the clipboard contents"
 msgstr "ວາງເນື້ອຫາຈາກຄຼິບບອດ"
 
-#: konq_mainwindow.cc:3364
+#: konq_mainwindow.cc:3641
 msgid ""
 "Print the currently displayed document"
 "<p>You will be presented with a dialog where you can set various options, "
@@ -843,11 +1024,11 @@ msgstr ""
 "ພິເສດຂອງການບໍລິການການພິມແ"
 "ບບ PDF ໄຟຈາກເອກະສານທົ່ວໄປ."
 
-#: konq_mainwindow.cc:3370
+#: konq_mainwindow.cc:3647
 msgid "Print the current document"
 msgstr "ພິມຂໍ້ມູນເອກະສານປະຈຸບັນ"
 
-#: konq_mainwindow.cc:3376
+#: konq_mainwindow.cc:3653
 #, fuzzy
 msgid "If present, open index.html when entering a folder."
 msgstr ""
@@ -856,10 +1037,10 @@ msgstr ""
 "(ຫາກມີ) "
 "ເມື່ອເຂົ້າໄປໃນໄດເລັກທໍລີ"
 
-#: konq_mainwindow.cc:3377
+#: konq_mainwindow.cc:3654
 #, fuzzy
 msgid ""
-"A locked view can't change folders. Use in combination with 'link view' to "
+"A locked view cannot change folders. Use in combination with 'link view' to "
 "explore many files from one folder"
 msgstr ""
 "ບໍ່ສາມາດປ່ຽນ ໄດເລັກໂທລີ "
@@ -869,14 +1050,7 @@ msgstr ""
 "ເພື່ອເອີ້້ນເບິ່ງແຟັມຕ່າງໆ"
 "ຈາກໜຶ່ງ ໄດເລັກໂທລີ"
 
-#: konq_mainwindow.cc:3378
-msgid "Unlocks the current view, so that it becomes normal again."
-msgstr ""
-"ຍົກເລີກການລັອກມຸມມອງປັດຈຸ"
-"ບັນໃຫ້ກັບມາເປັນມຸມມອງປົກກ"
-"ະຕິ"
-
-#: konq_mainwindow.cc:3379
+#: konq_mainwindow.cc:3655
 #, fuzzy
 msgid ""
 "Sets the view as 'linked'. A linked view follows folder changes made in "
@@ -887,105 +1061,117 @@ msgstr ""
 "ະປ່ຽນໄດເລັກໂທລີຕາມການປ່ຽນ"
 "ແປງ ໃນມຸມມອງທີ່ເຊື່ອມຢູ່ນຳ"
 
-#: konq_mainwindow.cc:3394
+#: konq_mainwindow.cc:3670
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:70
 #, fuzzy
 msgid "Open Folder in Tabs"
 msgstr "&ເປີດໃນແທັບໃໝ່"
 
-#: konq_mainwindow.cc:3399
-#, fuzzy
-msgid "Open in New Tab"
-msgstr "&ເປີດໃນແທັບໃໝ່"
-
-#: konq_mainwindow.cc:3400
+#: konq_mainwindow.cc:3675
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:66
+#: sidebar/trees/konq_sidebartree.cpp:919
 #, fuzzy
 msgid "Open in New Window"
 msgstr "&ເປິດໜ້າຕ່າງໃໝ່"
 
-#: konq_mainwindow.cc:3536
+#: konq_mainwindow.cc:3676
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:68
+#: sidebar/trees/konq_sidebartree.cpp:921
+#, fuzzy
+msgid "Open in New Tab"
+msgstr "&ເປີດໃນແທັບໃໝ່"
+
+#: konq_mainwindow.cc:3817
 msgid "Copy &Files..."
 msgstr "&ສຳເນົາແລະແຟັມ"
 
-#: konq_mainwindow.cc:3537
+#: konq_mainwindow.cc:3818
 msgid "M&ove Files..."
 msgstr "&ຢ້າຍແຟັມ"
 
-#: konq_mainwindow.cc:3541
+#: konq_mainwindow.cc:3822
 #, fuzzy
 msgid "Create Folder..."
 msgstr "ສ້າງໂຟນເດີ"
 
-#: konq_mainwindow.cc:3667
+#: konq_mainwindow.cc:3948
 msgid "&Save View Profile \"%1\"..."
 msgstr "&ບັນທຶກໂປຣໄຟຣມຸມມອງ\"%1\""
 
-#: konq_mainwindow.cc:3994 sidebar/web_module/web_module.h:52
+#: konq_mainwindow.cc:4288 sidebar/web_module/web_module.h:54
+#: sidebar/web_module/web_module.h:57
 #, fuzzy
 msgid "Open in New &Window"
 msgstr "&ເປິດໜ້າຕ່າງໃໝ່"
 
-#: konq_mainwindow.cc:3995
+#: konq_mainwindow.cc:4289
 #, fuzzy
 msgid "Open the document in a new window"
 msgstr ""
 "ເປີດເອກະສານໃນແທັບດ້ານຫຼັງ"
 "ໃໝ່ ่"
 
-#: konq_mainwindow.cc:3996
+#: konq_mainwindow.cc:4290
 msgid "Open in &New Tab"
 msgstr "&ເປີດໃນແທັບໃໝ່"
 
-#: konq_mainwindow.cc:3997
+#: konq_mainwindow.cc:4291
 #, fuzzy
 msgid "Open the document in a new tab"
 msgstr ""
 "ເປີດເອກະສານໃນແທັບດ້ານຫຼັງ"
 "ໃໝ່ ่"
 
-#: konq_mainwindow.cc:4201
+#: konq_mainwindow.cc:4516
 #, c-format
 msgid "Open with %1"
 msgstr "ເປີດໃຊ້ກັບ %1"
 
-#: konq_mainwindow.cc:4248
+#: konq_mainwindow.cc:4563
 msgid "&View Mode"
 msgstr "&ແບບມຸມມອງ"
 
-#: konq_mainwindow.cc:4445
-msgid ""
-"You have multiple tabs open in this window, are you sure you wish to close "
-"it?"
+#: konq_mainwindow.cc:4760
+#, fuzzy
+msgid "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "ທ່ານມີແຖບຫລາຍແຖບທີ່ເປີດໃນ"
 "ຫນ້າຕ່າງນີ້,ທ່ານແນ່ໃຈທີ່ຈະ"
 "ປິດມັນບໍ່?"
 
-#: konq_mainwindow.cc:4447
+#: konq_mainwindow.cc:4762 konq_viewmgr.cc:1099
 msgid "Confirmation"
 msgstr "ສອດຄ່ອງກັນ"
 
-#: konq_mainwindow.cc:4553
+#: konq_mainwindow.cc:4764
+#, fuzzy
+msgid "C&lose Current Tab"
+msgstr "ລຶບແຖບປະຈຸບັນ"
+
+#: konq_mainwindow.cc:4796
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:4813
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+
+#: konq_mainwindow.cc:4902
 msgid "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 
-#: konq_mainwindow.cc:4553 konq_mainwindow.cc:4560
+#: konq_mainwindow.cc:4902 konq_mainwindow.cc:4909
 #, fuzzy
 msgid "Web Sidebar"
 msgstr "ส่วนขยาย-แถบบาร์ด้านข้าง"
 
-#: konq_mainwindow.cc:4558
+#: konq_mainwindow.cc:4907
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr ""
-
-#: konq_mainwindow.cc:4866
-msgid ""
-"There appears to be a configuration error. You have associated Konqueror "
-"with %1, but it can't handle this file type."
-msgstr ""
-"ການປັບແຕ່ງມີຄ່າຜິດຟາດ "
-"ທ່ານໄດ້ກຳນົດໃຫ້ໃຊ້Konquerorກັບ%1ແ"
-"ຕ່ບໍ່ສາມາດຈັດການແຟັມປະເພດ"
-"ນີ້ໄດ້"
 
 #: konq_profiledlg.cc:74
 msgid "Profile Management"
@@ -1013,41 +1199,33 @@ msgstr "&ລຶບໂປຣໄຟຣ"
 msgid "&Rename Profile"
 msgstr "&ປ່ຽນຊື່ໂປຣໄຟຣ"
 
-#: konq_tabs.cc:75
+#: konq_tabs.cc:76
 msgid "&Duplicate Tab"
 msgstr "&ເຮັດຊຳ້ແທັບປະຈຸບັນ"
 
-#: konq_tabs.cc:81
+#: konq_tabs.cc:82
 msgid "D&etach Tab"
 msgstr "ອັກສອນດີ&ລຶບແຖບປະຈຸບັນ"
 
-#: konq_tabs.cc:87
+#: konq_tabs.cc:88
 msgid "&Close Tab"
 msgstr "&ປິດແຖບປະຈຸບັນ"
 
-#: konq_tabs.cc:99
-msgid "&Reload All Tabs"
-msgstr ""
-
-#: konq_tabs.cc:106
+#: konq_tabs.cc:107
 msgid "Switch to Tab"
 msgstr ""
 
-#: konq_tabs.cc:111
-msgid "Close &Other Tabs"
-msgstr "ປິດ&ລຶບແຖບປະຈຸບັນ"
-
-#: konq_tabs.cc:138
+#: konq_tabs.cc:149
 #, fuzzy
 msgid "Open a new tab"
 msgstr "&ເປີດໃນແທັບໃໝ່"
 
-#: konq_tabs.cc:147
+#: konq_tabs.cc:158
 #, fuzzy
 msgid "Close the current tab"
 msgstr "ລຶບແຖບປະຈຸບັນ"
 
-#: konq_view.cc:1244
+#: konq_view.cc:1245
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
 "resend the data, any action the form carried out (such as search or online "
@@ -1060,89 +1238,122 @@ msgstr ""
 "ຈາກຟັອມອີກຄັ້ງ(ເຊັ່ນການຄົ້"
 "ນຫາຫຼືສັ່ງຊື່ແບບອອນລາຍ)"
 
-#: konq_view.cc:1246
+#: konq_view.cc:1247
 msgid "Resend"
 msgstr "ສົ່ງອີກຄັ້ງ"
 
-#: iconview/konq_iconview.cc:202 listview/konq_listview.cc:598
+#: konq_viewmgr.cc:1097
+#, fuzzy
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"ທ່ານມີແຖບຫລາຍແຖບທີ່ເປີດໃນ"
+"ຫນ້າຕ່າງນີ້,ທ່ານແນ່ໃຈທີ່ຈະ"
+"ປິດມັນບໍ່?"
+
+#: konq_viewmgr.cc:1100
+#, fuzzy
+msgid "Load View Profile"
+msgstr "&ໂຫລຼດໃຊ້ໂປຣໄຟມູມມອງ"
+
+#: konq_viewmgr.cc:1116
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+
+#: konq_viewmgr.cc:1134
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+
+#: iconview/konq_iconview.cc:208 listview/konq_listview.cc:651
 msgid "Show &Hidden Files"
 msgstr "&ສະແດງແຟັມທີ່ເຊື່ອງໄວ້"
 
-#: iconview/konq_iconview.cc:204
+#: iconview/konq_iconview.cc:211
 msgid "Toggle displaying of hidden dot files"
 msgstr ""
 "ສະຫຼັບການສະແດງຜົນຂອງແຟັມທ"
 "ີຖືກເຊື່ອງ(ຈຸດນຳໜ້າຊື່)"
 
-#: iconview/konq_iconview.cc:206
+#: iconview/konq_iconview.cc:213
 msgid "&Folder Icons Reflect Contents"
 msgstr ""
 "&ໄອຄອນໂຟນເດີອ້າງອິງເຖິງເນື"
 "້ອຫາຂ້າງໃນ"
 
-#: iconview/konq_iconview.cc:209
+#: iconview/konq_iconview.cc:216
 msgid "&Preview"
 msgstr "&ສະແດງຕົວຢ່າງ"
 
-#: iconview/konq_iconview.cc:211
-msgid "Show Previews"
+#: iconview/konq_iconview.cc:218
+#, fuzzy
+msgid "Enable Previews"
 msgstr "ສະແດງຕົວຢ່າງ"
 
-#: iconview/konq_iconview.cc:231
+#: iconview/konq_iconview.cc:219
+#, fuzzy
+msgid "Disable Previews"
+msgstr "ສະແດງຕົວຢ່າງ"
+
+#: iconview/konq_iconview.cc:239
 msgid "Sound Files"
 msgstr "ແຟັມຂໍ້ມູນສຽງ"
 
-#: iconview/konq_iconview.cc:238
+#: iconview/konq_iconview.cc:246
 msgid "By Name (Case Sensitive)"
 msgstr ""
 "ຕາມຊື່(ພິດຈາລະນາຕົວນ້ອຍ-ຕົວ"
 "ໃຫ່ຍ)"
 
-#: iconview/konq_iconview.cc:239
+#: iconview/konq_iconview.cc:247
 msgid "By Name (Case Insensitive)"
 msgstr ""
 "ຕາມຊື່(ບໍ່ພິດຈາລະນາຕົວນ້ອຍ-"
 "ຕົວໃຫ່ຍ)"
 
-#: iconview/konq_iconview.cc:240
+#: iconview/konq_iconview.cc:248
 msgid "By Size"
 msgstr "ຕາມຂະໜາດ"
 
-#: iconview/konq_iconview.cc:241
+#: iconview/konq_iconview.cc:249
 msgid "By Type"
 msgstr "ຕາມປະເພດ"
 
-#: iconview/konq_iconview.cc:242
+#: iconview/konq_iconview.cc:250
 #, fuzzy
 msgid "By Date"
 msgstr "ຕາມ&ວັນທີ່"
 
-#: iconview/konq_iconview.cc:267
+#: iconview/konq_iconview.cc:275
 #, fuzzy
 msgid "Folders First"
 msgstr "ເປັນໂຟນເດີໃໝ່"
 
-#: iconview/konq_iconview.cc:268
+#: iconview/konq_iconview.cc:276
 msgid "Descending"
 msgstr "ນ້ອຍຫຼາຍ"
 
-#: iconview/konq_iconview.cc:293 listview/konq_listview.cc:592
+#: iconview/konq_iconview.cc:301 listview/konq_listview.cc:645
 msgid "Se&lect..."
 msgstr "&ເລືອກ..."
 
-#: iconview/konq_iconview.cc:295 listview/konq_listview.cc:593
+#: iconview/konq_iconview.cc:303 listview/konq_listview.cc:646
 msgid "Unselect..."
 msgstr "ຢົກເລີກທີ່ເລືອກໄວ້..."
 
-#: iconview/konq_iconview.cc:298 listview/konq_listview.cc:595
+#: iconview/konq_iconview.cc:306 listview/konq_listview.cc:648
 msgid "Unselect All"
 msgstr "ບໍ່ເລືອກທັງໝົດ"
 
-#: iconview/konq_iconview.cc:300 listview/konq_listview.cc:596
+#: iconview/konq_iconview.cc:308 listview/konq_listview.cc:649
 msgid "&Invert Selection"
 msgstr "&ເລືອກເປັນກົງກັນຂ້າມ"
 
-#: iconview/konq_iconview.cc:304
+#: iconview/konq_iconview.cc:312
 #, fuzzy
 msgid "Allows selecting of file or folder items based on a given mask"
 msgstr ""
@@ -1150,7 +1361,7 @@ msgstr ""
 "ຫຼືໄດເລັກໂທລີຕາມມາດຟື້ນຖາ"
 "ນ"
 
-#: iconview/konq_iconview.cc:305
+#: iconview/konq_iconview.cc:313
 #, fuzzy
 msgid "Allows unselecting of file or folder items based on a given mask"
 msgstr ""
@@ -1158,31 +1369,31 @@ msgstr ""
 "ຫຼືໄດເລັກໂທລີຕາມມາດຟື້ນຖາ"
 "ນ"
 
-#: iconview/konq_iconview.cc:306
+#: iconview/konq_iconview.cc:314
 msgid "Selects all items"
 msgstr "ເລືອກທຸກແຟັມ"
 
-#: iconview/konq_iconview.cc:307
+#: iconview/konq_iconview.cc:315
 msgid "Unselects all selected items"
 msgstr ""
 "ຢົກເລີກການເລືອກລາຍການທີ່ເ"
 "ລືອກໄວ້ທັງໝົດ"
 
-#: iconview/konq_iconview.cc:308
+#: iconview/konq_iconview.cc:316
 msgid "Inverts the current selection of items"
 msgstr ""
 "ສະຫຼັບລາຍການທີ່ເລືອກໄວ້ເໃ"
 "ຫ້ເປັນກົງກັນຂ້າມ"
 
-#: iconview/konq_iconview.cc:497 listview/konq_listview.cc:338
+#: iconview/konq_iconview.cc:518 listview/konq_listview.cc:342
 msgid "Select files:"
 msgstr "ແຟັມທີ່ເລືອກ:"
 
-#: iconview/konq_iconview.cc:524 listview/konq_listview.cc:369
+#: iconview/konq_iconview.cc:545 listview/konq_listview.cc:373
 msgid "Unselect files:"
 msgstr "ແຟັມທີ່ບໍ່ເລືອກ:"
 
-#: iconview/konq_iconview.cc:695 listview/konq_listviewwidget.cc:791
+#: iconview/konq_iconview.cc:722 listview/konq_listviewwidget.cc:828
 msgid "You must take the file out of the trash before being able to use it."
 msgstr ""
 
@@ -1191,105 +1402,156 @@ msgid "View &as"
 msgstr "&ສະແດງເປັນ"
 
 #: listview/konq_infolistviewwidget.cc:78
+#, fuzzy
 msgid "Filename"
 msgstr "ຊື່ແຟັມ"
 
-#: listview/konq_listview.cc:239
+#: listview/konq_listview.cc:242
 msgid "MimeType"
 msgstr "ປະເພດMime"
 
-#: listview/konq_listview.cc:240
+#: listview/konq_listview.cc:243
 msgid "Size"
 msgstr "ຂະໜາດ"
 
-#: listview/konq_listview.cc:241
+#: listview/konq_listview.cc:244
 msgid "Modified"
 msgstr "ແກ້ໄຂເມື່ອ"
 
-#: listview/konq_listview.cc:242
+#: listview/konq_listview.cc:245
 msgid "Accessed"
 msgstr "ເຂົ້າໃຊ້ເມື່ອ"
 
-#: listview/konq_listview.cc:243
+#: listview/konq_listview.cc:246
 msgid "Created"
 msgstr "ສ້າງເມື່ອ"
 
-#: listview/konq_listview.cc:244
+#: listview/konq_listview.cc:247
 msgid "Permissions"
 msgstr "ສິດທິທີ່ອານຸຢາດ"
 
-#: listview/konq_listview.cc:245
+#: listview/konq_listview.cc:248
 msgid "Owner"
 msgstr "ເຈົ້າຂອງ"
 
-#: listview/konq_listview.cc:246
+#: listview/konq_listview.cc:249
 msgid "Group"
 msgstr "ກຸ່ມ"
 
-#: listview/konq_listview.cc:247
+#: listview/konq_listview.cc:250
 msgid "Link"
 msgstr "ລິ້ງ"
 
-#: keditbookmarks/listview.cpp:520 keditbookmarks/listview.cpp:652
-#: listview/konq_listview.cc:248
+#: keditbookmarks/listview.cpp:528 keditbookmarks/listview.cpp:660
+#: listview/konq_listview.cc:251
 msgid "URL"
 msgstr "ຕຳແໜ່ງ"
 
-#: listview/konq_listview.cc:250
+#: listview/konq_listview.cc:253
 msgid "File Type"
 msgstr "ປະເພດແຟັມ"
 
-#: listview/konq_listview.cc:580
+#: listview/konq_listview.cc:623
 msgid "Show &Modification Time"
 msgstr "&ສະແດງເວລາທີທຳການແກ້ໄຂ"
 
-#: listview/konq_listview.cc:581
+#: listview/konq_listview.cc:624
+#, fuzzy
+msgid "Hide &Modification Time"
+msgstr "&ສະແດງເວລາທີທຳການແກ້ໄຂ"
+
+#: listview/konq_listview.cc:625
 msgid "Show &File Type"
 msgstr "&ສະແດງປະເພດຂອງແຟັມ"
 
-#: listview/konq_listview.cc:582
+#: listview/konq_listview.cc:626
+#, fuzzy
+msgid "Hide &File Type"
+msgstr "ປະເພດແຟັມ"
+
+#: listview/konq_listview.cc:627
 msgid "Show MimeType"
 msgstr "ສະແດງປະເພດMime"
 
-#: listview/konq_listview.cc:583
+#: listview/konq_listview.cc:628
+#, fuzzy
+msgid "Hide MimeType"
+msgstr "ປະເພດMime"
+
+#: listview/konq_listview.cc:629
 msgid "Show &Access Time"
 msgstr "&ສະແດງປະເພດເວລາທີ່ເຂົ້າໃຊ້"
 
-#: listview/konq_listview.cc:584
+#: listview/konq_listview.cc:630
+#, fuzzy
+msgid "Hide &Access Time"
+msgstr "&ສະແດງປະເພດເວລາທີ່ເຂົ້າໃຊ້"
+
+#: listview/konq_listview.cc:631
 msgid "Show &Creation Time"
 msgstr "&ສະແດງເວລາທີ່ທຳການສ້າງ"
 
-#: listview/konq_listview.cc:585
+#: listview/konq_listview.cc:632
+#, fuzzy
+msgid "Hide &Creation Time"
+msgstr "&ສະແດງເວລາທີ່ທຳການສ້າງ"
+
+#: listview/konq_listview.cc:633
 msgid "Show &Link Destination"
 msgstr "&ສະແດງປາຍທາງທີ່ລິ້ງໄປ"
 
-#: listview/konq_listview.cc:586
+#: listview/konq_listview.cc:634
+#, fuzzy
+msgid "Hide &Link Destination"
+msgstr "&ສະແດງປາຍທາງທີ່ລິ້ງໄປ"
+
+#: listview/konq_listview.cc:635
 msgid "Show Filesize"
 msgstr "ສະແດງຂະໜາດແຟັມ"
 
-#: listview/konq_listview.cc:587
+#: listview/konq_listview.cc:636
+#, fuzzy
+msgid "Hide Filesize"
+msgstr "ສະແດງຂະໜາດແຟັມ"
+
+#: listview/konq_listview.cc:637
 msgid "Show Owner"
 msgstr "ສະແດງເຈົ້າຂອງ"
 
-#: listview/konq_listview.cc:588
+#: listview/konq_listview.cc:638
+#, fuzzy
+msgid "Hide Owner"
+msgstr "ເຈົ້າຂອງ"
+
+#: listview/konq_listview.cc:639
 msgid "Show Group"
 msgstr "ສະແດງກຸ່ມ"
 
-#: listview/konq_listview.cc:589
+#: listview/konq_listview.cc:640
+#, fuzzy
+msgid "Hide Group"
+msgstr "ກຸ່ມ"
+
+#: listview/konq_listview.cc:641
 msgid "Show Permissions"
 msgstr "ສະແດງສິດທີ່ອານຸຢາດ"
 
-#: listview/konq_listview.cc:590
+#: listview/konq_listview.cc:642
+#, fuzzy
+msgid "Hide Permissions"
+msgstr "ສິດທິທີ່ອານຸຢາດ"
+
+#: listview/konq_listview.cc:643
 msgid "Show URL"
 msgstr "ສະແດງຕຳແໜ່ງ"
 
-#: listview/konq_listview.cc:599
+#: listview/konq_listview.cc:653
 msgid "Case Insensitive Sort"
 msgstr ""
 "ລຽງລຳດັບແບບບໍ່ພິດຈາລະນາຕົ"
 "ວນ້ອຍ-ຕົວໃຫ່ຍ"
 
-#: listview/konq_listviewwidget.cc:290 listview/konq_textviewwidget.cc:81
+#: listview/konq_listviewwidget.cc:336 listview/konq_textviewwidget.cc:79
 msgid "Name"
 msgstr "ຊື່"
 
@@ -1297,177 +1559,169 @@ msgstr "ຊື່"
 msgid "&Auto-Save on Program Close"
 msgstr ""
 
-#: keditbookmarks/actionsimpl.cpp:109
+#: keditbookmarks/actionsimpl.cpp:114
 #, fuzzy
-msgid "Advanced Add Bookmark in Konqueror"
-msgstr "ເພີ່ມທີ່ຂັ້ນໜັງສືໄວ້ໃນ Konqueror"
-
-#: keditbookmarks/actionsimpl.cpp:115
-msgid "Display Only Marked Bookmarks in Konqueror Bookmark Toolbar"
-msgstr ""
-
-#: keditbookmarks/actionsimpl.cpp:123
-msgid "&Show Netscape Bookmarks in Konqueror Windows"
+msgid "&Show Netscape Bookmarks in Konqueror"
 msgstr ""
 "&ສະແດງການຄົ້ນໜັງສືຂອງNetscapeໃນ"
 "ໜ້າຕ່າງKonqueror"
 
-#: keditbookmarks/actionsimpl.cpp:132
+#: keditbookmarks/actionsimpl.cpp:123 sidebar/trees/konq_sidebartree.cpp:913
 msgid "Rename"
 msgstr "ປ່ຽນຊື່"
 
-#: keditbookmarks/actionsimpl.cpp:135
+#: keditbookmarks/actionsimpl.cpp:126
 msgid "C&hange URL"
 msgstr "&ປ່ຽນຕໍາແຫນ່ງ"
 
-#: keditbookmarks/actionsimpl.cpp:138
+#: keditbookmarks/actionsimpl.cpp:129
 #, fuzzy
 msgid "C&hange Comment"
 msgstr "&ປ່ຽນຕໍາແຫນ່ງ"
 
-#: keditbookmarks/actionsimpl.cpp:141
+#: keditbookmarks/actionsimpl.cpp:132
 msgid "Chan&ge Icon..."
 msgstr "&ປ່ຽນໄອຄອນ..."
 
-#: keditbookmarks/actionsimpl.cpp:144
+#: keditbookmarks/actionsimpl.cpp:135
 msgid "Update Favicon"
 msgstr "ປັບປຸງໄອຄ້ອນ"
 
-#: keditbookmarks/actionsimpl.cpp:147 keditbookmarks/actionsimpl.cpp:575
+#: keditbookmarks/actionsimpl.cpp:138 keditbookmarks/actionsimpl.cpp:566
 msgid "Recursive Sort"
 msgstr ""
 
-#: keditbookmarks/actionsimpl.cpp:150
+#: keditbookmarks/actionsimpl.cpp:141
 msgid "&Create New Folder..."
 msgstr "&ສ້າງໂຟເດີໄຫ່ມ..."
 
-#: keditbookmarks/actionsimpl.cpp:153
+#: keditbookmarks/actionsimpl.cpp:144
 msgid "Create &New Bookmark"
 msgstr "&ສ້າງທີ່ກັນຫນັງສືໄຫ່ມ"
 
-#: keditbookmarks/actionsimpl.cpp:156
+#: keditbookmarks/actionsimpl.cpp:147
 msgid "&Insert Separator"
 msgstr "&ແທກເສັ້ນແບ່ງ"
 
-#: keditbookmarks/actionsimpl.cpp:160
+#: keditbookmarks/actionsimpl.cpp:151
 msgid "&Sort Alphabetically"
 msgstr "&ລງງຕາມລໍາດັບຕົວອັກສອນ"
 
-#: keditbookmarks/actionsimpl.cpp:163
+#: keditbookmarks/actionsimpl.cpp:154
 msgid "Set as T&oolbar Folder"
 msgstr "&ຕັ້ງເປັນແຖບເຄື່ອງມີໂຟນເດີ"
 
-#: keditbookmarks/actionsimpl.cpp:166
+#: keditbookmarks/actionsimpl.cpp:157
 #, fuzzy
 msgid "Show in T&oolbar"
 msgstr "แสดงแถบตำแหน่ง"
 
-#: keditbookmarks/actionsimpl.cpp:169
+#: keditbookmarks/actionsimpl.cpp:160
 msgid "&Expand All Folders"
 msgstr "&ຂະຫຍາຍໂຟເດີທັງຫມົດ"
 
-#: keditbookmarks/actionsimpl.cpp:172
+#: keditbookmarks/actionsimpl.cpp:163
 msgid "Collapse &All Folders"
 msgstr "&ຍໍ່ເກັບໂຟນເດີທັງໝົດ"
 
-#: keditbookmarks/actionsimpl.cpp:175
+#: keditbookmarks/actionsimpl.cpp:166
 msgid "&Open in Konqueror"
 msgstr "&ເປີດໃນKonqueror"
 
-#: keditbookmarks/actionsimpl.cpp:178
+#: keditbookmarks/actionsimpl.cpp:169
 msgid "Check &Status"
 msgstr "&ກວດຊອບສະຖານະ"
 
-#: keditbookmarks/actionsimpl.cpp:182
+#: keditbookmarks/actionsimpl.cpp:173
 msgid "Check Status: &All"
 msgstr "&ກວດຊອບສະຖານະທັງໝົດ"
 
-#: keditbookmarks/actionsimpl.cpp:185
+#: keditbookmarks/actionsimpl.cpp:176
 #, fuzzy
 msgid "Update All &Favicons"
 msgstr "ປັບປຸງໄອຄ້ອນ"
 
-#: keditbookmarks/actionsimpl.cpp:189
+#: keditbookmarks/actionsimpl.cpp:180
 msgid "Cancel &Checks"
 msgstr "&ຍົກເລີກການກວດຊອບ"
 
-#: keditbookmarks/actionsimpl.cpp:192
+#: keditbookmarks/actionsimpl.cpp:183
 msgid "Cancel &Favicon Updates"
 msgstr ""
 
-#: keditbookmarks/actionsimpl.cpp:196
+#: keditbookmarks/actionsimpl.cpp:187
 #, fuzzy
 msgid "Import &Netscape Bookmarks..."
 msgstr ""
 "&ນາໍເຂົ້າທີ່ກັນຫນັງສືຂອງເນ"
 "ັດສະເຄບ"
 
-#: keditbookmarks/actionsimpl.cpp:199
+#: keditbookmarks/actionsimpl.cpp:190
 msgid "Import &Opera Bookmarks..."
 msgstr ""
 "&ນາໍເຂົ້າທີ່ກັນຫນັງສືຂອງເນ"
 "ັດສະເຄບ."
 
-#: keditbookmarks/actionsimpl.cpp:202
+#: keditbookmarks/actionsimpl.cpp:193
 #, fuzzy
 msgid "Import All &Crash Sessions as Bookmarks..."
 msgstr "นำเข้าที่คั่นหนังสือของ Mozilla"
 
-#: keditbookmarks/actionsimpl.cpp:205
+#: keditbookmarks/actionsimpl.cpp:196
 msgid "Import &Galeon Bookmarks..."
 msgstr ""
 "&ນໍາເຂົ້າທີ່ກັນຫນັງສືຂອງມໍ"
 "ຊີລາ..."
 
-#: keditbookmarks/actionsimpl.cpp:208
+#: keditbookmarks/actionsimpl.cpp:199
 #, fuzzy
 msgid "Import &KDE2 Bookmarks..."
 msgstr "&ນາໍເຂົ້າທີ່ກັນຫນັງສືຂອງ KDE..."
 
-#: keditbookmarks/actionsimpl.cpp:211
+#: keditbookmarks/actionsimpl.cpp:202
 msgid "&Import IE Bookmarks..."
 msgstr "&ນາໍເຂົ້າທີ່ກັນຫນັງສືຂອງ IE..."
 
-#: keditbookmarks/actionsimpl.cpp:214
+#: keditbookmarks/actionsimpl.cpp:205
 msgid "Import &Mozilla Bookmarks..."
 msgstr ""
 "&ນໍາເຂົ້າທີ່ກັນຫນັງສືຂອງມໍ"
 "ຊີລາ"
 
-#: keditbookmarks/actionsimpl.cpp:217
+#: keditbookmarks/actionsimpl.cpp:208
 msgid "&Export to Netscape Bookmarks"
 msgstr ""
 "&ສົ່ງອອກໄປເປັນທີ່ກັນຫນັງສື"
 "ຂອງເນັດສະເຄບ"
 
-#: keditbookmarks/actionsimpl.cpp:220
+#: keditbookmarks/actionsimpl.cpp:211
 #, fuzzy
 msgid "&Export to Opera Bookmarks..."
 msgstr ""
 "&ສົ່ງອອກໄປເປັນທີ່ກັນຫນັງສື"
 "ຂອງເນັດສະເຄບ"
 
-#: keditbookmarks/actionsimpl.cpp:223
+#: keditbookmarks/actionsimpl.cpp:214
 #, fuzzy
 msgid "&Export to HTML Bookmarks..."
 msgstr ""
 "&ສົ່ງອອກໄປເປັນທີ່ກັນຫນັງສື"
 "ຂອງເນັດສະເຄບ"
 
-#: keditbookmarks/actionsimpl.cpp:226
+#: keditbookmarks/actionsimpl.cpp:217
 #, fuzzy
 msgid "&Export to IE Bookmarks..."
 msgstr ""
 "&ສົ່ງອອກໄປເປັນທີ່ກັນຫນັງສື"
 "ຂອງເນັດສະເຄບ"
 
-#: keditbookmarks/actionsimpl.cpp:229
+#: keditbookmarks/actionsimpl.cpp:220
 msgid "Export to &Mozilla Bookmarks..."
 msgstr ""
 "&ສົ່ງອອກໄປເປັນທີ່ຄົ້ນຫນັງສ"
 "ືຂອງມໍຊຶລາ..."
 
-#: keditbookmarks/actionsimpl.cpp:250
+#: keditbookmarks/actionsimpl.cpp:241
 msgid ""
 "The bookmarks have been modified.\n"
 "Save changes?"
@@ -1476,71 +1730,73 @@ msgstr ""
 "ຕ້ອງການບັນທຶກສິ່ງປ່ຽນແປງຫ"
 "ືຼບໍ?"
 
-#: keditbookmarks/actionsimpl.cpp:300
+#: keditbookmarks/actionsimpl.cpp:291
 msgid "*.html|HTML Bookmark Listing"
 msgstr ""
 
-#: keditbookmarks/actionsimpl.cpp:364 keditbookmarks/commands.cpp:480
+#: keditbookmarks/actionsimpl.cpp:355 keditbookmarks/commands.cpp:480
 msgid "Hide"
 msgstr ""
 
-#: keditbookmarks/actionsimpl.cpp:364 keditbookmarks/commands.cpp:479
+#: keditbookmarks/actionsimpl.cpp:355 keditbookmarks/commands.cpp:479
 #, fuzzy
 msgid "Show"
 msgstr "ສະແດງ %1"
 
-#: keditbookmarks/actionsimpl.cpp:386
+#: keditbookmarks/actionsimpl.cpp:377
 #, fuzzy
 msgid "Cut Items"
 msgstr "ຕັດລາຍການ"
 
-#: keditbookmarks/actionsimpl.cpp:413
+#: keditbookmarks/actionsimpl.cpp:404
 #, fuzzy
 msgid "Create New Bookmark Folder"
 msgstr "&ສ້າງທີ່ກັນຫນັງສືໄຫ່ມ"
 
-#: keditbookmarks/actionsimpl.cpp:414
+#: keditbookmarks/actionsimpl.cpp:405
 #, fuzzy
 msgid "New folder:"
 msgstr "ເປັນໂຟນເດີໃໝ່"
 
-#: keditbookmarks/actionsimpl.cpp:590
+#: keditbookmarks/actionsimpl.cpp:581
 msgid "Sort Alphabetically"
 msgstr "ລຽງຕາມລຳດັບຕົວອັກສອນ"
 
-#: keditbookmarks/actionsimpl.cpp:597
+#: keditbookmarks/actionsimpl.cpp:588
 msgid "Delete Items"
 msgstr "ລຶບລາຍການ"
 
-#: keditbookmarks/actionsimpl.cpp:648
+#: keditbookmarks/actionsimpl.cpp:639
 msgid "Icon"
 msgstr "ໄອຄອນ"
 
-#: keditbookmarks/bookmarkinfo.cpp:155
+#: keditbookmarks/bookmarkinfo.cpp:154
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:501
 #, fuzzy
 msgid "Name:"
 msgstr "ຊື່"
 
-#: keditbookmarks/bookmarkinfo.cpp:163
+#: keditbookmarks/bookmarkinfo.cpp:162
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:508
 #, fuzzy
 msgid "Location:"
 msgstr "&ຕຳແໜ່ງ"
 
-#: keditbookmarks/bookmarkinfo.cpp:171
+#: keditbookmarks/bookmarkinfo.cpp:170
 #, fuzzy
 msgid "Comment:"
 msgstr "&ປ່ຽນຕໍາແຫນ່ງ"
 
-#: keditbookmarks/bookmarkinfo.cpp:179
+#: keditbookmarks/bookmarkinfo.cpp:178
 msgid "First viewed:"
 msgstr ""
 
-#: keditbookmarks/bookmarkinfo.cpp:185
+#: keditbookmarks/bookmarkinfo.cpp:184
 #, fuzzy
 msgid "Viewed last:"
 msgstr "&ສະແດງເປັນ"
 
-#: keditbookmarks/bookmarkinfo.cpp:191
+#: keditbookmarks/bookmarkinfo.cpp:190
 msgid "Times visited:"
 msgstr ""
 
@@ -1592,11 +1848,11 @@ msgstr "ຕັ້ງເປັນແບບທີ່ຂັ້ນໜັງສື"
 msgid "%1 in Bookmark Toolbar"
 msgstr "แสดงแถบที่คั่นหนังสือ"
 
-#: keditbookmarks/commands.cpp:563
+#: keditbookmarks/commands.cpp:566
 msgid "Copy Items"
 msgstr "ຄັດລອກລາຍການ"
 
-#: keditbookmarks/commands.cpp:564
+#: keditbookmarks/commands.cpp:567
 msgid "Move Items"
 msgstr "ຍ້າຍລາຍການ"
 
@@ -1618,7 +1874,7 @@ msgstr ""
 msgid "Import %1 Bookmarks"
 msgstr "นำเข้าที่คั่นหนังสือของ IE"
 
-#: keditbookmarks/importers.cpp:48 keditbookmarks/listview.cpp:781
+#: keditbookmarks/importers.cpp:48 keditbookmarks/listview.cpp:799
 #, fuzzy
 msgid "%1 Bookmarks"
 msgstr "ແນວຂັ້ນໜັງສື"
@@ -1650,70 +1906,71 @@ msgid "*.xml|KDE bookmark files (*.xml)"
 msgstr "*.xml|ແຟັມທີ່ຂັ້ນໜັງສືຂອງKDE (*.xml)"
 
 #: keditbookmarks/listview.cpp:335
-msgid "Drop items"
+#, fuzzy
+msgid "Drop Items"
 msgstr "ມີການ(ລາກແລ້ວ)ວາງລາຍການ"
 
-#: keditbookmarks/listview.cpp:651
+#: keditbookmarks/listview.cpp:659
 msgid "Bookmark"
 msgstr "ທີ່ຄົ້ນໜັງສື"
 
-#: keditbookmarks/listview.cpp:653
+#: keditbookmarks/listview.cpp:661
 msgid "Comment"
 msgstr ""
 
-#: keditbookmarks/listview.cpp:654
+#: keditbookmarks/listview.cpp:662
 #, fuzzy
 msgid "Status"
 msgstr "&ກວດຊອບສະຖານະ"
 
-#: keditbookmarks/listview.cpp:656
+#: keditbookmarks/listview.cpp:664
 msgid "Address"
 msgstr "ຕຳແໜ່ງ"
 
-#: keditbookmarks/listview.cpp:659
+#: keditbookmarks/listview.cpp:667
 #, fuzzy
 msgid "Folder"
 msgstr "ເປັນໂຟນເດີໃໝ່"
 
-#: keditbookmarks/listview.cpp:790
+#: keditbookmarks/listview.cpp:808
 #, fuzzy
 msgid "Empty Folder"
 msgstr "โฟลเดอร์เปล่า"
 
 #: keditbookmarks/main.cpp:42
-msgid "Import bookmarks from a file in Mozilla format."
+msgid "Import bookmarks from a file in Mozilla format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:43
-msgid "Import bookmarks from a file in Netscape (4.x and earlier) format."
+msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:44
-msgid "Import bookmarks from a file in Internet Explorer's Favorites format."
+msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:45
-msgid "Import bookmarks from a file in Opera format."
+msgid "Import bookmarks from a file in Opera format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:47
-msgid "Export bookmarks to a file in Mozilla format."
+msgid "Export bookmarks to a file in Mozilla format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:48
-msgid "Export bookmarks to a file in Netscape (4.x and earlier) format."
+msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:49
-msgid "Export bookmarks to a file in a printable HTML format."
+msgid "Export bookmarks to a file in a printable HTML format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:50
-msgid "Export bookmarks to a file in Internet Explorer's Favorites format."
+msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:51
-msgid "Export bookmarks to a file in Opera format."
+msgid "Export bookmarks to a file in Opera format"
 msgstr ""
 
 #: keditbookmarks/main.cpp:53
@@ -1725,7 +1982,7 @@ msgid "Set the user readable caption for example \"Konsole\""
 msgstr ""
 
 #: keditbookmarks/main.cpp:55
-msgid "Hide all browser related functions."
+msgid "Hide all browser related functions"
 msgstr ""
 
 #: keditbookmarks/main.cpp:56
@@ -1787,19 +2044,34 @@ msgstr ""
 msgid "You may only specify a single --import option."
 msgstr ""
 
-#: keditbookmarks/search.cpp:164 keditbookmarks/toplevel.cpp:180
-msgid "Click here and type to search..."
-msgstr ""
-
-#: keditbookmarks/testlink.cpp:81 keditbookmarks/testlink.cpp:84
+#: keditbookmarks/testlink.cpp:82 keditbookmarks/testlink.cpp:85
 msgid "Checking..."
 msgstr "ກຳລັງກວດຊອບ....."
 
-#: keditbookmarks/testlink.cpp:233
+#: keditbookmarks/testlink.cpp:256
+msgid "Error "
+msgstr ""
+
+#: keditbookmarks/testlink.cpp:260
 msgid "Ok"
 msgstr "ຕົກລົງ"
 
-#: keditbookmarks/toplevel.cpp:354
+#: keditbookmarks/toplevel.cpp:186
+msgid "Reset Quick Search"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:189
+msgid ""
+"<b>Reset Quick Search</b>"
+"<br>Resets the quick search so that all bookmarks are shown again."
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:193
+#, fuzzy
+msgid "Se&arch:"
+msgstr "ກຳລັງກວດຊອບ....."
+
+#: keditbookmarks/toplevel.cpp:335
 msgid "Read Only"
 msgstr "ອານໄດ້ຢ່າງດຽວ"
 
@@ -2224,10 +2496,11 @@ msgstr ""
 "ວຍຕົວເຈົ້າເອງ"
 
 #: about/konq_aboutpage.cc:260
+#, fuzzy
 msgid ""
-"Use the <A HREF=\"%1\">user-agent</A>"
-" feature if the website you're visiting asks you to use a different browser "
-"(and don't forget to send a complaint to the webmaster!)"
+"Use the <A HREF=\"%1\">user-agent</A> feature if the website you are "
+"visiting asks you to use a different browser (and do not forget to send a "
+"complaint to the webmaster!)"
 msgstr ""
 "ໃຊ້ຄຸນສົມບັດ<A "
 "HREF=\"%1\">ໂປຣແກຣມຂອງຜູ້ໃຊ้</A> "
@@ -2372,7 +2645,7 @@ msgstr ""
 msgid "Clear History?"
 msgstr "ລ້າງປະຫວັດການໃໝ່?"
 
-#: sidebar/trees/history_module/history_item.cpp:115
+#: sidebar/trees/history_module/history_item.cpp:121
 msgid ""
 "<qt>"
 "<center><b>%4</b></center>"
@@ -2414,7 +2687,7 @@ msgstr "ວັນ"
 #: sidebar/trees/history_module/kcmhistory.cpp:219
 msgid ""
 "_: 'URLs expire after XX days.' Unfortunately the plural handling of KLocale "
-"doesn't work here, as I only need the word 'days' and not the entire "
+"does not work here, as I only need the word 'days' and not the entire "
 "sentence here. Sorry.\n"
 " days"
 msgstr ""
@@ -2430,20 +2703,87 @@ msgid "Minute"
 msgstr "ນາທີ"
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:391
-msgid "Can't find parent item %1 in the tree. Internal error."
+#, fuzzy
+msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr ""
 "ບໍ່ສາມາດຄົ້ນພົບລາຍການໃນບັ"
 "ນຊີ %1 "
 "ໃນມຸມມອງແບບເປັນກິ່ງເປັນງ່"
 "າ ເກີດຄວາມຜິດພາດພາຍໃນ"
 
-#: sidebar/sidebar_widget.cpp:100
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:58
+#: sidebar/trees/konq_sidebartree.cpp:909
+#, fuzzy
+msgid "&Create New Folder"
+msgstr "&ສ້າງໂຟເດີໄຫ່ມ..."
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:60
+#: sidebar/trees/konq_sidebartree.cpp:911
+#, fuzzy
+msgid "Delete Folder"
+msgstr "ສ້າງໂຟນເດີ"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:62
+#, fuzzy
+msgid "Delete Bookmark"
+msgstr "ສ້າງທີ່ຂັ້ນໜັງສື"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:72
+#: sidebar/trees/konq_sidebartree.cpp:923
+msgid "Copy Link Address"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:267
+#: sidebar/trees/konq_sidebartree.cpp:961
+#, fuzzy
+msgid "New Folder"
+msgstr "ເປັນໂຟນເດີໃໝ່"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:284
+msgid "Are you sure you wish to remove this bookmark folder?"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:285
+msgid "Are you sure you wish to remove this bookmark?"
+msgstr ""
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:286
+#, fuzzy
+msgid "Bookmark Folder Deletion"
+msgstr "ເຄື່ອງມືແກ້ໄຂທີ່ຂັ້ນໜັງສື"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:287
+#, fuzzy
+msgid "Bookmark Deletion"
+msgstr "ເຄື່ອງມືແກ້ໄຂທີ່ຂັ້ນໜັງສື"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:329
+#, fuzzy
+msgid "Bookmark Properties"
+msgstr "ລຶບຄຸນສົມບັດໄດເຣກທໍຣີຖິ້ມ"
+
+#: sidebar/trees/konq_sidebartree.cpp:915
+#, fuzzy
+msgid "Delete Link"
+msgstr "&ລຶບໂປຣໄຟຣ"
+
+#: sidebar/trees/konq_sidebartree.cpp:965
+#, fuzzy
+msgid "Create New Folder"
+msgstr "&ສ້າງໂຟເດີໄຫ່ມ..."
+
+#: sidebar/trees/konq_sidebartree.cpp:966
+#, fuzzy
+msgid "Enter folder name:"
+msgstr "ຕຶມຊື່ໄດເຣກທໍຣີ:"
+
+#: sidebar/sidebar_widget.cpp:115
 msgid "Rollback to System Default"
 msgstr ""
 "ຍ້ອນກັບໄປໄຊ້ຄ່າປະລິຍາຍລະບ"
 "ົບ"
 
-#: sidebar/sidebar_widget.cpp:106
+#: sidebar/sidebar_widget.cpp:121
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones."
@@ -2458,51 +2798,61 @@ msgstr ""
 "<BR>ທ່ານຕ້ອງການຈະເຮັດຕໍ່ໄປຫຼ"
 "ືບໍ່?</qt>"
 
-#: sidebar/sidebar_widget.cpp:249
+#: sidebar/sidebar_widget.cpp:271
 msgid "Add New"
 msgstr "ເພີ່ມໃໝ່"
 
-#: sidebar/sidebar_widget.cpp:251
+#: sidebar/sidebar_widget.cpp:273
 msgid "Multiple Views"
 msgstr "ຫຼາຍມຸມມອງ"
 
-#: sidebar/sidebar_widget.cpp:252
+#: sidebar/sidebar_widget.cpp:274
 msgid "Show Tabs Left"
 msgstr "ສະແດງແທັບທາງດ້ານຊ້າຍ"
 
-#: sidebar/sidebar_widget.cpp:253
+#: sidebar/sidebar_widget.cpp:275
 msgid "Show Configuration Button"
 msgstr "ສະແດງປຸ່ມປັບແຕ່ງ"
 
-#: sidebar/sidebar_widget.cpp:255
+#: sidebar/sidebar_widget.cpp:277
 msgid "Close Navigation Panel"
 msgstr "ປີດພາເນວນຳທາງ"
 
-#: sidebar/sidebar_widget.cpp:312
+#: sidebar/sidebar_widget.cpp:334
 msgid "This entry already exists."
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:326 sidebar/web_module/web_module.cpp:162
+#: sidebar/sidebar_widget.cpp:348 sidebar/web_module/web_module.cpp:198
 #, fuzzy
 msgid "Web SideBar Plugin"
 msgstr "ส่วนขยาย-แถบบาร์ด้านข้าง"
 
-#: sidebar/sidebar_widget.cpp:475
+#: sidebar/sidebar_widget.cpp:497
 msgid "Enter a URL:"
 msgstr "ເຕີມຕຳແໜ່ງ URL"
 
-#: sidebar/sidebar_widget.cpp:483
-msgid "<qt><b>%1</b> does not exist<qt>"
+#: sidebar/sidebar_widget.cpp:505
+msgid "<qt><b>%1</b> does not exist</qt>"
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:499
+#: sidebar/sidebar_widget.cpp:522
 #, fuzzy
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr ""
 "ທ່ານຕ້ອງການລົບລາຍການນີ້ແມ"
 "່ນຫຼືບໍ່ ?"
 
-#: sidebar/sidebar_widget.cpp:579
+#: sidebar/sidebar_widget.cpp:537
+#, fuzzy
+msgid "Set Name"
+msgstr "ຊື່"
+
+#: sidebar/sidebar_widget.cpp:537
+#, fuzzy
+msgid "Enter the name:"
+msgstr "ຕຶມຊື່ໄດເຣກທໍຣີ:"
+
+#: sidebar/sidebar_widget.cpp:623
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -2516,36 +2866,64 @@ msgstr ""
 "ແລ້ວເລືອກ\"ສະແດງປຸ່ມການປັບແ"
 "ຕ່ງ\""
 
-#: sidebar/sidebar_widget.cpp:671
+#: sidebar/sidebar_widget.cpp:715
 msgid "Configure Sidebar"
 msgstr "ປັບແຕ່ງແຖບບາດ້ານຂ້າງ"
 
-#: sidebar/sidebar_widget.cpp:783
+#: sidebar/sidebar_widget.cpp:827
+#, fuzzy
+msgid "Set Name..."
+msgstr "ຕັ້ງຄ່າຕຳແໜ່ງ"
+
+#: sidebar/sidebar_widget.cpp:828
 #, fuzzy
 msgid "Set URL..."
 msgstr "ຕັ້ງຄ່າຕຳແໜ່ງ"
 
-#: sidebar/sidebar_widget.cpp:784
+#: sidebar/sidebar_widget.cpp:829
 #, fuzzy
 msgid "Set Icon..."
 msgstr "ຕັ້ງຄ່າໄອຄອນ"
 
-#: sidebar/sidebar_widget.cpp:788
+#: sidebar/sidebar_widget.cpp:833
 msgid "Configure Navigation Panel"
 msgstr "ປັບແຕ່ງແຖບການນຳທາງ"
 
-#: sidebar/sidebar_widget.cpp:849
+#: sidebar/sidebar_widget.cpp:894
 msgid "Unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
 
-#: sidebar/konqsidebar.cpp:115
+#: sidebar/web_module/web_module.cpp:82
+msgid "Set Refresh Timeout (0 disables)"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:87
+#, fuzzy
+msgid " minutes"
+msgstr "ນາທີ"
+
+#: sidebar/web_module/web_module.cpp:89
+msgid " seconds"
+msgstr ""
+
+#: sidebar/konqsidebar.cpp:116
 msgid "Extended Sidebar"
 msgstr "ส่วนขยาย-แถบบาร์ด้านข้าง"
 
-#: sidebar/web_module/web_module.h:50
+#: sidebar/trees/bookmark_module/bookmark_module.h:83
+#, fuzzy
+msgid "Add Bookmark"
+msgstr "ທີ່ຄົ້ນໜັງສື"
+
+#: sidebar/web_module/web_module.h:52
 #, fuzzy
 msgid "&Open Link"
 msgstr "&ສົ່ງລິງ"
+
+#: sidebar/web_module/web_module.h:63
+#, fuzzy
+msgid "Set &Automatic Reload"
+msgstr "(ຍໍ່-) ອັດຕະໂນມັດ"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -2562,6 +2940,40 @@ msgid ""
 msgstr ""
 "_ອີເມວຂອງຜູ້ແປ\n"
 "theng2005@hotmail.com"
+
+#, fuzzy
+#~ msgid "Hide &Hidden Files"
+#~ msgstr "&ສະແດງແຟັມທີ່ເຊື່ອງໄວ້"
+
+#, fuzzy
+#~ msgid "Load Profile"
+#~ msgstr "&ໂຫລຼດໃຊ້ໂປຣໄຟມູມມອງ"
+
+#, fuzzy
+#~ msgid "Copy Link Location"
+#~ msgstr "ເປິດຈາກຕຳແໜ່ງ"
+
+#, fuzzy
+#~ msgid "Open In New Window"
+#~ msgstr "&ເປິດໜ້າຕ່າງໃໝ່"
+
+#, fuzzy
+#~ msgid "Open In New Tab"
+#~ msgstr "&ເປີດໃນແທັບໃໝ່"
+
+#, fuzzy
+#~ msgid "Open Folder In Tabs"
+#~ msgstr "&ເປີດໃນແທັບໃໝ່"
+
+#~ msgid "Remove View"
+#~ msgstr "ເອົາມູມມອງອອກ ຢ່າງໜ້ອຍການຈັດວາງສອງມູມມອງ"
+
+#, fuzzy
+#~ msgid "Advanced Add Bookmark in Konqueror"
+#~ msgstr "ເພີ່ມທີ່ຂັ້ນໜັງສືໄວ້ໃນ Konqueror"
+
+#~ msgid "Unlocks the current view, so that it becomes normal again."
+#~ msgstr "ຍົກເລີກການລັອກມຸມມອງປັດຈຸບັນໃຫ້ກັບມາເປັນມຸມມອງປົກກະຕິ"
 
 #, fuzzy
 #~ msgid "Duplicate in New &Window"
@@ -2595,9 +3007,6 @@ msgstr ""
 
 #~ msgid "New Directory"
 #~ msgstr "ສ້າງໄດເຣກທໍຣີໃໝ່"
-
-#~ msgid "Enter directory name:"
-#~ msgstr "ຕຶມຊື່ໄດເຣກທໍຣີ:"
 
 #~ msgid "Directory"
 #~ msgstr "ໄດເຣກທໍຣີ"
@@ -2642,10 +3051,6 @@ msgstr ""
 #~ "ບໍ່ສາມາດສ້າງມູມມອງສໍາລັບ %1\n"
 #~ "ເຊິ່ງກວດສອບໄດ້ຄື:\n"
 #~ "%2"
-
-#, fuzzy
-#~ msgid "Searching..."
-#~ msgstr "ກຳລັງກວດຊອບ....."
 
 #, fuzzy
 #~ msgid "Cancel &Search"
@@ -2814,9 +3219,6 @@ msgstr ""
 
 #~ msgid "&Save View Profile"
 #~ msgstr "บันทึกโปรไฟล์มุมมอง"
-
-#~ msgid "History Settings"
-#~ msgstr "ตั้งค่าประวัติการใช้งาน"
 
 #, fuzzy
 #~ msgid "Crash Import"
