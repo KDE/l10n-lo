@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2004-07-20 01:20+0200\n"
+"POT-Creation-Date: 2004-11-15 01:36+0100\n"
 "PO-Revision-Date: 2003-01-13 17:04+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -187,7 +187,7 @@ msgstr ""
 msgid "without name"
 msgstr "ບໍ່ໃສ່ຊື່"
 
-#: kdm-appear.cpp:438
+#: kdm-appear.cpp:437
 msgid ""
 "There was an error loading the image:\n"
 "%1\n"
@@ -198,14 +198,14 @@ msgstr ""
 "%1\n"
 "ມັນຈະບໍ່ຖືກບັນທຶກ..."
 
-#: kdm-appear.cpp:480 kdm-appear.cpp:529
+#: kdm-appear.cpp:479 kdm-appear.cpp:528
 #, c-format
 msgid "Welcome to %s at %n"
 msgstr ""
 "ຍິນດີຕ້ອນຮັບສູ່ %s "
 "ເທິງເຄື່ອງ %n"
 
-#: kdm-appear.cpp:545
+#: kdm-appear.cpp:544
 msgid ""
 "<h1>KDM - Appearance</h1>"
 " Here you can configure the basic appearance of the KDM login manager, i.e. "
@@ -612,7 +612,8 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:51
-msgid "Enable au&to-login"
+#, fuzzy
+msgid "Enable Au&to-Login"
 msgstr ""
 "ເປີດໃຊ້ການລັອກອິນອັດຕະໂນມ"
 "ັດ"
@@ -695,7 +696,8 @@ msgstr ""
 "ລື້ອຍໆ"
 
 #: kdm-conv.cpp:104
-msgid "Enable password-&less logins"
+#, fuzzy
+msgid "Enable Password-&Less Logins"
 msgstr ""
 "ໃຊ້ການບໍ່ຕ້ອງການລະຫັດຜ່ານ"
 "ສຳລັບການລັອກອິນ"
@@ -790,32 +792,7 @@ msgstr "ผู้เขียนดั้งเดิม"
 msgid "Current maintainer"
 msgstr "ผู้ดูแลในปัจจุบัน"
 
-#: main.cpp:151
-msgid "A&ppearance"
-msgstr "ລັກສະນະທີ່ປະກົດ"
-
-#: main.cpp:155
-msgid "&Font"
-msgstr "ຮູບແບບຕົວອັກສອນ"
-
-#: main.cpp:159
-msgid "&Background"
-msgstr "ພື້ນຫລັງ"
-
-#: main.cpp:163
-#, fuzzy
-msgid "&Shutdown"
-msgstr "ການອະນຸຍາດໃຫ້ເປີດເຄື່ອງ"
-
-#: main.cpp:167
-msgid "&Users"
-msgstr "ທະບງນຜູ້ໃຊ້"
-
-#: main.cpp:175
-msgid "Con&venience"
-msgstr "ການເຂົ້າໃຊ້ງານ"
-
-#: main.cpp:200
+#: main.cpp:96
 #, fuzzy
 msgid ""
 "<h1>Login Manager</h1> In this module you can configure the various aspects "
@@ -910,6 +887,31 @@ msgstr ""
 "ซึ่งเหมาะสำหรับคนขี้เกียจ "
 ";-)"
 
+#: main.cpp:182
+msgid "A&ppearance"
+msgstr "ລັກສະນະທີ່ປະກົດ"
+
+#: main.cpp:186
+msgid "&Font"
+msgstr "ຮູບແບບຕົວອັກສອນ"
+
+#: main.cpp:190
+msgid "&Background"
+msgstr "ພື້ນຫລັງ"
+
+#: main.cpp:194
+#, fuzzy
+msgid "&Shutdown"
+msgstr "ການອະນຸຍາດໃຫ້ເປີດເຄື່ອງ"
+
+#: main.cpp:198
+msgid "&Users"
+msgstr "ທະບງນຜູ້ໃຊ້"
+
+#: main.cpp:206
+msgid "Con&venience"
+msgstr "ການເຂົ້າໃຊ້ງານ"
+
 #: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
@@ -928,9 +930,7 @@ msgstr "donga_n@yahoo.com"
 #~ msgid "Spec&ify"
 #~ msgstr "ກຳນົດ"
 
-#~ msgid ""
-#~ "You can choose whether the login dialog should be centered or placed at "
-#~ "specified coordinates."
+#~ msgid "You can choose whether the login dialog should be centered or placed at specified coordinates."
 #~ msgstr "ທ່ານສາມາດເລືອກໃຫ້ກ່ອງໂຕ້ຕອບການລັອກອິນສະແດງຜົນຢູ່ທາງກາງ ຫລືໃນຕຳແຫນ່ງທີ່ກຳນົດໄດ້ທີ່ນີ້"
 
 #~ msgid "Automatic Login"
@@ -945,12 +945,8 @@ msgstr "donga_n@yahoo.com"
 #~ "Selected onl&y"
 #~ msgstr "ສະເພາະທີ່ເລືອກເທົ່ານັ້ນ"
 
-#~ msgid ""
-#~ "If this option is selected, KDM will show all non-system users, except "
-#~ "those checked in the \"Select users\" list."
-#~ msgstr ""
-#~ "ຫາກທ່ານເລືອກຕົວເລືອກນີ້ KDM ຈະສະແດງທະບງນຜູ້ໃຊ້ໃນຫນ້າຕ່າງລັອກ ສະເພາະທີ່ມີໃນຊ່ອງລາຍການ"
-#~ "\"ທະບງນຂອງຜູ້ໃຊ້ທີ່ ເລືອກໄວ້\" ເທົ່ານັ້ນ"
+#~ msgid "If this option is selected, KDM will show all non-system users, except those checked in the \"Select users\" list."
+#~ msgstr "ຫາກທ່ານເລືອກຕົວເລືອກນີ້ KDM ຈະສະແດງທະບງນຜູ້ໃຊ້ໃນຫນ້າຕ່າງລັອກ ສະເພາະທີ່ມີໃນຊ່ອງລາຍການ\"ທະບງນຂອງຜູ້ໃຊ້ທີ່ ເລືອກໄວ້\" ເທົ່ານັ້ນ"
 
 #~ msgid "Check all users you want to allow a password-less login for."
 #~ msgstr "ກວດສອບຜູ້ໃຊ້ທັງຫມົດທີ່ທ່ານຕ້ອງການອະນຸຍາດໃຫ້ລັອກອິນ"
@@ -961,33 +957,20 @@ msgstr "donga_n@yahoo.com"
 #~ msgid "New t&ype:"
 #~ msgstr "ປະເພດໃຫມ່:"
 
-#~ msgid ""
-#~ "To create a new session type, enter its name here and click on <em>Add "
-#~ "new</em>"
+#~ msgid "To create a new session type, enter its name here and click on <em>Add new</em>"
 #~ msgstr "ຕື່ມຊື່ເພື່ອກຳນົດປະເພດເຊສຊັນໃຫມ່ແລະຄລິກທີ່<em>ເພີ້ມໃຫມ່</em>"
 
 #~ msgid "Add Ne&w"
 #~ msgstr "ເພີ້ມໃຫມ່"
 
-#~ msgid ""
-#~ "Click here to add the new session type entered in the <em>New type</em> "
-#~ "field to the list of available sessions."
-#~ msgstr ""
-#~ "ຄລິກນີ້ ເພື່ອເພີ້ມປະເພດເຊສຊັນໃຫມ່ທີ່ຕື່ມຊື່ໄວ້ໃນຊ່ອງ<em>ປະເພດໃຫມ່</em> "
-#~ "ເຂົ້າໄປໃນລາຍການຂອງເຊສຊັນທີ່ມີຢູ່"
+#~ msgid "Click here to add the new session type entered in the <em>New type</em> field to the list of available sessions."
+#~ msgstr "ຄລິກນີ້ ເພື່ອເພີ້ມປະເພດເຊສຊັນໃຫມ່ທີ່ຕື່ມຊື່ໄວ້ໃນຊ່ອງ<em>ປະເພດໃຫມ່</em> ເຂົ້າໄປໃນລາຍການຂອງເຊສຊັນທີ່ມີຢູ່"
 
 #~ msgid "Available &types:"
 #~ msgstr "ປະເພດທີ່ມີຢູ່:"
 
-#~ msgid ""
-#~ "This box lists the available session types that will be presented to the "
-#~ "user. Names other than \"default\" and \"failsafe\" are usually treated "
-#~ "as program names, but it depends on your Xsession script what the session "
-#~ "type means."
-#~ msgstr ""
-#~ "ລາຍການປະເພດຂອງເຊສຊັນທີມี ຊຶ່ງຈະຖືກສະແດງສຳລັບຜູ້ໃຊ້ສຳລັບຊື່ເຊສຊັນທີ່ບໍ່ແມ່ນ\"default\" ແລະ "
-#~ "\"failsafe\" ມັກຈະເປັນຊື່ໂປຣແກຣມ ແຕ່ກໍ່ຂຶ້ນຢູ່ກັບສະຄລິບ Xsession ຂອງທ່ານວ່າເຊສຊັນ "
-#~ "ແຕ່ລະປະເພດຫມາຍເຖິງຫຍັງ"
+#~ msgid "This box lists the available session types that will be presented to the user. Names other than \"default\" and \"failsafe\" are usually treated as program names, but it depends on your Xsession script what the session type means."
+#~ msgstr "ລາຍການປະເພດຂອງເຊສຊັນທີມี ຊຶ່ງຈະຖືກສະແດງສຳລັບຜູ້ໃຊ້ສຳລັບຊື່ເຊສຊັນທີ່ບໍ່ແມ່ນ\"default\" ແລະ \"failsafe\" ມັກຈະເປັນຊື່ໂປຣແກຣມ ແຕ່ກໍ່ຂຶ້ນຢູ່ກັບສະຄລິບ Xsession ຂອງທ່ານວ່າເຊສຊັນ ແຕ່ລະປະເພດຫມາຍເຖິງຫຍັງ"
 
 #~ msgid "R&emove"
 #~ msgstr "ຍ້າຍອອກ"
@@ -995,24 +978,14 @@ msgstr "donga_n@yahoo.com"
 #~ msgid "Click here to remove the currently selected session type"
 #~ msgstr "ຄລິກທີ່ນີ້ ເພື່ອລຶບຊະນິດຂອງເຊສຊັນທີ່ເລືອກໄວ້"
 
-#~ msgid ""
-#~ "With these two arrow buttons, you can change the order in which the "
-#~ "available session types are presented to the user"
+#~ msgid "With these two arrow buttons, you can change the order in which the available session types are presented to the user"
 #~ msgstr "ລູກສອນສອງຕົວນີ້ໃຊ້ສຳລັບການປ່ງນລຳດັບ ຂອງປະເພດເຊສຊັນທີ່ມີສຳລັບໃຊ້ສະແດງໃຫ້ກັບຜູ້ໃຊ້"
 
 #~ msgid "&Sessions"
 #~ msgstr "ເຊສຊັນ"
 
-#~ msgid ""
-#~ "This is the string KDM will display in the login window. You may want to "
-#~ "put here some nice greeting or information about the operating system.<p> "
-#~ "KDM will replace the string '%n' with the actual host name of the "
-#~ "computer running the X server. Especially in networks this is a good idea."
-#~ msgstr ""
-#~ "ນີ້ເປັນຂໍ້ຄວາມທີ່ KDM "
-#~ "ຈະສະແດງໃນຫນ້າຕ່າງລອກອິນ ໍຊື່ງທ່ານສາມາດປ່ງນເປັນຂໍ້ຄວາມອື່ນໆໄດ້ຕາມທີ່ທ່ານຕ້ອງການ <p> ໂດຍ KDM "
-#~ "ຈະແທນທີ່ \"%n\" ດ້ວຍຊື່ເຄື່ອງທີ່ X server "
-#~ "ທຳງານຢູ່ຫາກໃຊ້ຊື່ຕາມທີ່ໃຊ້ໃນລະບົບເຄືອຂ່າຍກໍ່ເປັນຄວາມຄິດທີ່ດີ"
+#~ msgid "This is the string KDM will display in the login window. You may want to put here some nice greeting or information about the operating system.<p> KDM will replace the string '%n' with the actual host name of the computer running the X server. Especially in networks this is a good idea."
+#~ msgstr "ນີ້ເປັນຂໍ້ຄວາມທີ່ KDM ຈະສະແດງໃນຫນ້າຕ່າງລອກອິນ ໍຊື່ງທ່ານສາມາດປ່ງນເປັນຂໍ້ຄວາມອື່ນໆໄດ້ຕາມທີ່ທ່ານຕ້ອງການ <p> ໂດຍ KDM ຈະແທນທີ່ \"%n\" ດ້ວຍຊື່ເຄື່ອງທີ່ X server ທຳງານຢູ່ຫາກໃຊ້ຊື່ຕາມທີ່ໃຊ້ໃນລະບົບເຄືອຂ່າຍກໍ່ເປັນຄວາມຄິດທີ່ດີ"
 
 #~ msgid "Co&nsole:"
 #~ msgstr "ຈາກຄອນໂຊນ:"
@@ -1042,18 +1015,8 @@ msgstr "donga_n@yahoo.com"
 #~ msgid "Standard"
 #~ msgstr "ຂໍ້ຄວາມມາດຕະຖານ"
 
-#~ msgid ""
-#~ "Here you can select the font you want to change. KDM knows three fonts: "
-#~ "<ul><li><em>Greeting:</em> used to display KDM's greeting string (see "
-#~ "\"Appearance\" tab)</li><li><em>Fail:</em> used to display a message when "
-#~ "a person fails to login</li><li><em>Standard:</em> used for the rest of "
-#~ "the text</li></ul>"
-#~ msgstr ""
-#~ "ທ່ານສາມາດເລືອກຕົວອັກສອນທີ່ຕ້ອງການປ່ງນໄດ້ທີ່ນີ่້ KDM ແຍກໃຊ້ຕົວອັກສອນກັບສາມຂໍ້ຄວາມຄື: "
-#~ "<ul><li><em>ຂໍ້ຄວາມຕ້ອນຮັບ:</em> ໃໍຊ້ສະແດງຂໍ້ຄວາມຕ້ອນຮັບຂອງ KDM (ເບິ່ງແທບ "
-#~ "\"ລັກສະນະທີ່ປະກົດ\")</li><li><em>ຂໍ້ຄວາມລົ້ມເຫລວ:</em> "
-#~ "ໃຊ້ສະແດງຂໍ້ຄວາມເມື່ອຜູ້ໃຊ້ລັອກອິນຜິດພາດ</li><li><em>ຂໍ້ຄວາມມາດຕະຖານ:</em> "
-#~ "ໃຊ້ສຳລັບຮູບແບບທົ່ວໄປ </li></ul>"
+#~ msgid "Here you can select the font you want to change. KDM knows three fonts: <ul><li><em>Greeting:</em> used to display KDM's greeting string (see \"Appearance\" tab)</li><li><em>Fail:</em> used to display a message when a person fails to login</li><li><em>Standard:</em> used for the rest of the text</li></ul>"
+#~ msgstr "ທ່ານສາມາດເລືອກຕົວອັກສອນທີ່ຕ້ອງການປ່ງນໄດ້ທີ່ນີ่້ KDM ແຍກໃຊ້ຕົວອັກສອນກັບສາມຂໍ້ຄວາມຄື: <ul><li><em>ຂໍ້ຄວາມຕ້ອນຮັບ:</em> ໃໍຊ້ສະແດງຂໍ້ຄວາມຕ້ອນຮັບຂອງ KDM (ເບິ່ງແທບ \"ລັກສະນະທີ່ປະກົດ\")</li><li><em>ຂໍ້ຄວາມລົ້ມເຫລວ:</em> ໃຊ້ສະແດງຂໍ້ຄວາມເມື່ອຜູ້ໃຊ້ລັອກອິນຜິດພາດ</li><li><em>ຂໍ້ຄວາມມາດຕະຖານ:</em> ໃຊ້ສຳລັບຮູບແບບທົ່ວໄປ </li></ul>"
 
 #~ msgid "C&hange Font..."
 #~ msgstr "ປ່ງນຕົວອັກສອນ..."
