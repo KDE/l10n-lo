@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-07-31 01:32+0200\n"
+"POT-Creation-Date: 2004-07-31 01:17+0200\n"
 "PO-Revision-Date: 2003-01-13 17:04+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,59 +14,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: iconthemes.cpp:77
+#: iconthemes.cpp:83
 msgid "Name"
 msgstr ""
 
-#: iconthemes.cpp:78
+#: iconthemes.cpp:84
 msgid "Description"
 msgstr "ລາຍລະອງດ"
 
-#: iconthemes.cpp:83
+#: iconthemes.cpp:89
 msgid "Install New Theme..."
 msgstr "ຕິດຕັ້ງຊຸດຮູບແບບໄມ່"
 
-#: iconthemes.cpp:86
+#: iconthemes.cpp:92
 msgid "Remove Theme"
 msgstr "ລົບຊຸດຮູບແບບ.."
 
-#: iconthemes.cpp:91
+#: iconthemes.cpp:97
 msgid "Select the icon theme you want to use:"
 msgstr ""
 "ເລືອກຊຸດຂອງໄອຄອນທີ່ເຈົ້າຕ"
 "້ອງການໄຊ້"
 
-#: iconthemes.cpp:156
+#: iconthemes.cpp:162
 msgid "Drag or Type Theme URL"
 msgstr ""
 
-#: iconthemes.cpp:167
-#, fuzzy
-msgid "Unable to find the icon theme archive %1!"
+#: iconthemes.cpp:173
+#, fuzzy, c-format
+msgid "Unable to find the icon theme archive %1."
 msgstr ""
 "ບໍ່ສາມາດຊອກຫາຊຸດຮູບແບບໄອຄ"
 "ອນ% ໄດ້"
 
-#: iconthemes.cpp:169
+#: iconthemes.cpp:175
 #, fuzzy
 msgid ""
-"Unable to download the icon theme archive!\n"
-"Please check that address %1 is correct."
+"Unable to download the icon theme archive;\n"
+"please check that address %1 is correct."
 msgstr ""
 "ບໍ່ສາມາດດາວໂລດແຟ້ມຊຸດຮູບແ"
 "ບບໄອຄອນໄດ້ "
 "ຈົ່ງກວດສອບວ່າມັນຖືກຕ້ອງແລ"
 "້ວ      แล้ว"
 
-#: iconthemes.cpp:177
-msgid "The file is not a valid icon theme archive!"
+#: iconthemes.cpp:183
+#, fuzzy
+msgid "The file is not a valid icon theme archive."
 msgstr ""
 "ແຟ້ມບໍ່ແມ່ນແຟ້ມຊຸດຮູບແບບໄ"
 "ອຄອນທີ່ຖືກຕ້ອງ !"
 
-#: iconthemes.cpp:188
+#: iconthemes.cpp:194
+#, fuzzy
 msgid ""
-"A problem occurred during the installation process. However, most of the "
+"A problem occurred during the installation process; however, most of the "
 "themes in the archive have been installed"
 msgstr ""
 "ເກິດປັນຫາຂື້ນໃນລະວ່າງການຕ"
@@ -74,19 +76,19 @@ msgstr ""
 "ຂອງຊຸດແບບໄອຄອນໄດ້ຖືກຕິດຕັ"
 "້ງໄວ້ແລ້ວว้แล้ว"
 
-#: iconthemes.cpp:209
+#: iconthemes.cpp:215
 msgid "Installing icon themes"
 msgstr ""
 "ກໍາລັງຕິດຕັ້ງຊຸດຮູບແບບໄອຄ"
 "ອນ"
 
-#: iconthemes.cpp:227
+#: iconthemes.cpp:233
 msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgstr ""
 "<qt>ກໍາລັງຕິດຕັ້ງຊຸດຮູບແບບ "
 "<strong>%1</strong></qt>"
 
-#: iconthemes.cpp:287
+#: iconthemes.cpp:293
 msgid ""
 "<qt>Are you sure you want to remove the <strong>%1</strong> icon "
 "theme?<br><br>This will delete the files installed by this theme.</qt>"
@@ -97,121 +99,121 @@ msgstr ""
 "<br>ເຊື່ງຈະມີການລົບແຟ້ມຖືກຕິ"
 "ດຕັ້ງໄວ້ໂດຍຊຸດໄອຄອນນີ້ นี้"
 
-#: iconthemes.cpp:295
+#: iconthemes.cpp:301
 msgid "Confirmation"
 msgstr "ການຢືນຢັນ"
 
-#: icons.cpp:46
+#: icons.cpp:44
 msgid "Use of Icon"
 msgstr "ໄຊ້ກັບໄອຄອນ"
 
-#: icons.cpp:67
+#: icons.cpp:65
 msgid "Active"
 msgstr "ແອກຖີບฟ"
 
-#: icons.cpp:69
+#: icons.cpp:67
 msgid "Disabled"
 msgstr "ມອດການເຮັດວງກ"
 
-#: icons.cpp:81
+#: icons.cpp:79
 msgid "Size:"
 msgstr "ຂະນາດ"
 
-#: icons.cpp:89
+#: icons.cpp:87
 msgid "Double-sized pixels"
 msgstr ""
 "ຂະິນາດຟິກເຊວໄຫຍ່ເປັນສອງເທ"
 "ົ່າ"
 
-#: icons.cpp:93
+#: icons.cpp:91
 msgid "Animate icons"
 msgstr "ໄອຄອນແບບເນງຕີງไหว"
 
-#: icons.cpp:118
+#: icons.cpp:116
 msgid "Set Effect..."
 msgstr "ຕັ້ງເອບເຟັກต์..."
 
-#: icons.cpp:134
+#: icons.cpp:132
 msgid "Desktop/File Manager"
 msgstr ""
 "ພິມທີ່ເຮັດວງກโปรแกรมจัดกา"
 "รแฟ้ม"
 
-#: icons.cpp:135
+#: icons.cpp:133
 msgid "Toolbar"
 msgstr "ແຖບເຄື່ອງມືอ"
 
-#: icons.cpp:137
+#: icons.cpp:135
 msgid "Small Icons"
 msgstr "ໄບຄອນຂະນາດນ້ອຍ"
 
-#: icons.cpp:138
+#: icons.cpp:136
 msgid "Panel"
 msgstr "ພາເນວ"
 
-#: icons.cpp:139
+#: icons.cpp:137
 msgid "All Icons"
 msgstr "ທຸກໄອຄອນ"
 
-#: icons.cpp:416
+#: icons.cpp:430
 msgid "Setup Default Icon Effect"
 msgstr ""
 "ຕັ້ງຄ່າເອບເຟັກໄອຄອນ "
 "ໂດຍບະລິຍາຍย"
 
-#: icons.cpp:417
+#: icons.cpp:431
 msgid "Setup Active Icon Effect"
 msgstr ""
 "ຕ້ງຄ່າເອບເຟັກໄອຄອນຢູ່ເອກຖ"
 "ີບกทีฟ"
 
-#: icons.cpp:418
+#: icons.cpp:432
 msgid "Setup Disabled Icon Effect"
 msgstr ""
 "ຕັ້ງຄ່າເອບເຟັກໄອຄອນທີ່ເຊົ"
 "າການໃຊ້รใช้"
 
-#: icons.cpp:505
+#: icons.cpp:519
 msgid "&Effect:"
 msgstr "ເອບເຟັກต์:"
 
-#: icons.cpp:509
+#: icons.cpp:523
 msgid "No Effect"
 msgstr "ບໍ່ມີເອບເຟັກต์"
 
-#: icons.cpp:510
+#: icons.cpp:524
 msgid "To Gray"
 msgstr "ເປັນລະດັບສີເທົາ"
 
-#: icons.cpp:511
+#: icons.cpp:525
 msgid "Colorize"
 msgstr "ເປັນສີ"
 
-#: icons.cpp:512
+#: icons.cpp:526
 msgid "Gamma"
 msgstr "ແກມມາ"
 
-#: icons.cpp:513
+#: icons.cpp:527
 msgid "Desaturate"
 msgstr "ບໍ່ມີຄວາມອີ່ມສີ"
 
-#: icons.cpp:519
+#: icons.cpp:533
 msgid "&Semi-transparent"
 msgstr "กึ่งโปร่งใส"
 
-#: icons.cpp:523
+#: icons.cpp:537
 msgid "Preview"
 msgstr "แสดงตัวอย่าง"
 
-#: icons.cpp:534
+#: icons.cpp:548
 msgid "Effect Parameters"
 msgstr "พารามิเตอร์ของเอฟเฟ็กต์"
 
-#: icons.cpp:539
+#: icons.cpp:553
 msgid "&Amount:"
 msgstr "รวม:"
 
-#: icons.cpp:546
+#: icons.cpp:560
 msgid "Co&lor:"
 msgstr "สี:"
 
@@ -223,12 +225,25 @@ msgstr "ชุดไอคอน"
 msgid "&Advanced"
 msgstr "เพิ่มเติม"
 
-#: main.cpp:84
+#: main.cpp:54
+#, fuzzy
+msgid "Icons"
+msgstr "ທຸກໄອຄອນ"
+
+#: main.cpp:55
+msgid "Icons Control Panel Module"
+msgstr ""
+
+#: main.cpp:57
+msgid "(c) 2000-2003 Geert Jansen"
+msgstr ""
+
+#: main.cpp:93
 msgid ""
 "<h1>Icons</h1>This module allows you to choose the icons for your "
 "desktop."
 "<p>To choose an icon theme, click on its name and apply your choice by "
-"pressing the \"Apply\" button below. If you don't want to apply your choice "
+"pressing the \"Apply\" button below. If you do not want to apply your choice "
 "you can press the \"Reset\" button to discard your changes.</p>"
 "<p>By pressing the \"Install New Theme\" button you can install your new "
 "icon theme by writing its location in the box or browsing to the location. "
@@ -237,19 +252,6 @@ msgid ""
 "that you installed using this module. You are not able to remove globally "
 "installed themes here.</p>"
 "<p>You can also specify effects that should be applied to the icons.</p>"
-msgstr ""
-
-#: main.cpp:101
-#, fuzzy
-msgid "Icons"
-msgstr "ທຸກໄອຄອນ"
-
-#: main.cpp:102
-msgid "Icons Control Panel Module"
-msgstr ""
-
-#: main.cpp:104
-msgid "(c) 2000-2003 Geert Jansen"
 msgstr ""
 
 #: _translatorinfo.cpp:1
