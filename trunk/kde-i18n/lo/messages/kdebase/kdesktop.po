@@ -1,0 +1,644 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-12-20 03:11+0100\n"
+"PO-Revision-Date: 2003-01-14 16:27+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: lock/lockdlg.cc:71
+msgid ""
+"\n"
+"Start\n"
+"&New\n"
+"Session\n"
+msgstr ""
+"\n"
+"່ເລີ່ມ\n"
+"&ໃຫມ່\n"
+"sesion\n"
+
+#: lock/lockdlg.cc:119
+msgid "Enter Password"
+msgstr "ຕື່ມລະຫັດຜ່ານ"
+
+#: lock/lockdlg.cc:208 lock/lockdlg.cc:251
+msgid ""
+"Verification failed\n"
+"Kill kdesktop_lock"
+msgstr ""
+"ການກວດສອບຜິດພາດ\n"
+"ທຳລາຍ kdesktop- lock"
+
+#: lock/lockdlg.cc:256
+msgid "Failed"
+msgstr "ລົ້ມເຫລວ"
+
+#: lock/lockdlg.cc:297
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one."
+"<br>The current session will be hidden and a new login screen will be "
+"displayed."
+"<br>An F-key is assigned to each session; F%1 is usually assigned to the "
+"first session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing CTRL, ALT and the appropriate F-key at the same time."
+msgstr ""
+
+#: lock/main.cc:31
+msgid "Force screen locking"
+msgstr "บังคับให้ทำการล็อคหน้าจอ"
+
+#: lock/main.cc:32
+msgid "Only start screensaver"
+msgstr ""
+"เริ่มการทำงานโปรแกรมรักษา"
+"หน้าจอเท่านั้น"
+
+#: lock/main.cc:33
+#, fuzzy
+msgid "Only use the blank screensaver"
+msgstr ""
+"เริ่มการทำงานโปรแกรมรักษา"
+"หน้าจอเท่านั้น"
+
+#: lock/main.cc:111
+msgid "Screen Locker for KDesktop"
+msgstr ""
+"่ตัวล็อคหน้าจอสำหรับพื้นท"
+"ี่ทำงาน"
+
+#: desktop.cc:621
+msgid "Set as Primary Background Color"
+msgstr "ตั้งเป็นสีหลักของพื้นหลัง"
+
+#: desktop.cc:622
+msgid "Set as Secondary Background Color"
+msgstr "ตั้งเป็นสีรองของพื้นหลัง"
+
+#: desktop.cc:638
+msgid "Set as &Wallpaper"
+msgstr "ตั้งเป็นภาพพื้นหลัง"
+
+#: desktop.cc:673
+#, fuzzy
+msgid ""
+"Could not logout properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace. Note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+"ไม่สามารถล็อกเอาท์ได้ "
+"เนื่องจากไม่สามารถติดต่อก"
+"ับ\n"
+"โปรแกรมจัดการเซสชันได้ "
+"คุณสามารถบังคับให้ปิดการท"
+"ำงานได้\n"
+"โดยการกด CTRL, ALT และ BACKSPACE "
+"พร้อมกัน\n"
+"อย่างไรก็ตามหากคุณใช้วิธี"
+"การบังคับให้ปิดการทำงาน\n"
+"สถานะของเซสชันที่คุณกำลัง"
+"ใช้งานอยู่จะไม่ถูกบันทึกไ"
+"ว้"
+
+#: kdiconview.cc:268
+msgid "&Rename"
+msgstr "เปลี่ยนชื่อ"
+
+#: kdiconview.cc:269
+msgid "&Move to Trash"
+msgstr "ทิ้งลงถังขยะ"
+
+#: kdiconview.cc:272
+msgid "&Shred"
+msgstr "ทำลายทิ้ง"
+
+#: krootwm.cc:92 krootwm.cc:417
+msgid "Bookmarks"
+msgstr "ที่คั่นหนังสือ"
+
+#: krootwm.cc:120
+msgid "Run Command..."
+msgstr "ประมวลผลคำสั่ง..."
+
+#: krootwm.cc:124
+msgid "Configure Desktop..."
+msgstr "ปรับแต่งพื้นที่ทำงาน..."
+
+#: krootwm.cc:126 krootwm.cc:325
+msgid "Disable Desktop Menu"
+msgstr ""
+"ปิดการใช้งานเมนูของพื้นที"
+"่ทำงาน"
+
+#: krootwm.cc:130
+msgid "Unclutter Windows"
+msgstr "จัดเรียงหน้าต่างเป็นกลุ่ม"
+
+#: krootwm.cc:132
+msgid "Cascade Windows"
+msgstr ""
+"จัดเรียงหน้าต่างเป็นลำดับ"
+"ชั้น"
+
+#: krootwm.cc:138
+msgid "By Name"
+msgstr ""
+
+#: krootwm.cc:140
+msgid "By Size"
+msgstr "ตามขนาด"
+
+#: krootwm.cc:142
+msgid "By Type"
+msgstr "ตามประเภท"
+
+#: krootwm.cc:145
+msgid "Directories First"
+msgstr "เรียงไดเรกทอรีก่อน"
+
+#: krootwm.cc:148
+#, fuzzy
+msgid "Line Up Horizontally"
+msgstr "ในแนวนอน"
+
+#: krootwm.cc:151
+#, fuzzy
+msgid "Line Up Vertically"
+msgstr "ในแนวตั้ง"
+
+#: krootwm.cc:154
+msgid "Align to Grid"
+msgstr ""
+
+#: krootwm.cc:157
+msgid "Refresh Desktop"
+msgstr "ปรับปรุงพื้นที่ทำงานใหม่"
+
+#: kdesktopbindings.cpp:30 krootwm.cc:163
+msgid "Lock Screen"
+msgstr "ล็อคหน้าจอ"
+
+#: krootwm.cc:172
+msgid "Logout \"%1\"..."
+msgstr "ล็อกเอาต์ \"%1\"..."
+
+#: krootwm.cc:183
+msgid "Start New Session"
+msgstr ""
+
+#: krootwm.cc:304 krootwm.cc:365
+#, fuzzy
+msgid "Sort Icons"
+msgstr "จัดเรียงไอคอน"
+
+#: krootwm.cc:305
+msgid "Line Up Icons"
+msgstr "เรียงไอคอนในแนวเดียวกัน"
+
+#: krootwm.cc:332
+msgid "Enable Desktop Menu"
+msgstr ""
+"เปิดการใช้งานเมนูของพื้นท"
+"ี่ทำงาน"
+
+#: krootwm.cc:372
+#, fuzzy
+msgid "Icons"
+msgstr "จัดเรียงไอคอน"
+
+#: krootwm.cc:378 krootwm.cc:420
+msgid "Windows"
+msgstr "หน้าต่าง"
+
+#: krootwm.cc:413
+msgid "New"
+msgstr "สร้างใหม่"
+
+#: kdesktopbindings.cpp:14 krootwm.cc:419
+msgid "Desktop"
+msgstr "พื้นที่ทำงาน"
+
+#: krootwm.cc:645
+msgid ""
+"<p>You have chosen to open another desktop session."
+"<br>The current session will be hidden and a new login screen will be "
+"displayed."
+"<br>An F-key is assigned to each session; F%1 is usually assigned to the "
+"first session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing CTRL, ALT and the appropriate F-key at the same "
+"time.</p>"
+msgstr ""
+
+#: main.cc:42
+msgid "The KDE Desktop."
+msgstr "พื้นที่ทำงานของ KDE"
+
+#: main.cc:48
+msgid "Use this if the desktop window appears as a real window"
+msgstr ""
+"ใช้นี่ "
+"หากพื้นที่ทำงานแสดงผลเป็น"
+"หน้าต่าง"
+
+#: main.cc:49
+msgid "Use this to disable the Autostart folder"
+msgstr ""
+"ใช้นี่เพื่อยกเลิกการทำงาน"
+"ของโฟลเดอร์ Autostart"
+
+#: main.cc:50
+msgid "Wait for kded to finish building database"
+msgstr ""
+"โปรดรอให้ kded "
+"สร้างฐานข้อมูลเสร็จก่อน"
+
+#: main.cc:137
+msgid "KDesktop"
+msgstr "พื้นที่ทำงาน"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Thanomsub Noppaburana"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "donga_n@yahoo.com"
+
+#: kdesktopbindings.cpp:20 minicli.cpp:58
+msgid "Run Command"
+msgstr "ประมวลผลคำสั่ง"
+
+#: kdesktopbindings.cpp:24
+msgid "Show Taskmanager"
+msgstr "แสดงตัวจัดการหน้าต่างงาน"
+
+#: kdesktopbindings.cpp:25
+msgid "Show Window List"
+msgstr "แสดงรายการหน้าต่าง"
+
+#: kdesktopbindings.cpp:36
+msgid "Logout"
+msgstr "ล็อกเอาต์"
+
+#: kdesktopbindings.cpp:37
+msgid "Logout without Confirmation"
+msgstr ""
+"ไม่ต้องถามยืนยันการล็อกเอ"
+"าต์"
+
+#: kdesktopbindings.cpp:38
+msgid "Halt Computer"
+msgstr "ปิดคอมพิวเตอร์"
+
+#: kdesktopbindings.cpp:39
+msgid "Halt without Confirmation"
+msgstr ""
+"ปิดคอมพิวเตอร์โดยไม่ต้องถ"
+"ามยืนยัน"
+
+#: kdesktopbindings.cpp:40
+msgid "Reboot Computer"
+msgstr ""
+"เริ่มการทำงานคอมพิวเตอร์ใ"
+"หม่"
+
+#: kdesktopbindings.cpp:41
+msgid "Reboot without Confirmation"
+msgstr ""
+"เริ่มการทำงานคอมพิวเตอร์ใ"
+"หม่โดยไม่ต้องถามยืนยัน"
+
+#: minicli.cpp:68
+msgid ""
+"Enter the name of the application you want to run or the URL you want to "
+"view."
+msgstr ""
+"ใส่ชื่อแอพพลิเคชันที่ต้อง"
+"การเรียกทำงาน หรือ URL "
+"ที่ต้องการให้แสดง"
+
+#: minicli.cpp:75
+msgid "Co&mmand:"
+msgstr "คำสั่ง:"
+
+#: minicli.cpp:79
+msgid ""
+"Enter the command you wish to execute or the address of the resource you "
+"want to open. This can be a remote URL like \"www.kde.org\" or a local one "
+"like \"~/.kderc\""
+msgstr ""
+"เติมคำสั่งที่คุณต้องการปร"
+"ะมวลผล "
+"หรือที่อยู่ของทรัพยากรที่"
+"คุณต้องการเปิด "
+"ซึ่งอาจเป็นรูปแบบเหมือน URL "
+"เช่น \"www.kde.org\" หรือแบบภายใน "
+"เช่น \"~/.kderc\""
+
+#: minicli.cpp:99 minicli.cpp:500
+msgid "&Options >>"
+msgstr "ตัวเลือก >>"
+
+#: minicli.cpp:107
+msgid "&Run"
+msgstr "ประมวลผล"
+
+#: minicli.cpp:277
+msgid "<qt>The user <b>%1</b> does not exist on this system.</qt>"
+msgstr ""
+"<qt>ยังไม่มีบัญชีผู้ใช้ <b>%1</b> "
+"ในระบบ</qt>"
+
+#: minicli.cpp:288
+msgid "You don't exist!\n"
+msgstr ""
+"ยังไม่มีบัญชีผู้ใช้ของคุณ "
+"!\n"
+
+#: minicli.cpp:331
+msgid "Incorrect password! Please try again."
+msgstr ""
+"รหัสผ่านผิดพลาด ! "
+"โปรดลองอีกครั้ง"
+
+#: minicli.cpp:399
+msgid ""
+"<center><b>%1</b></center>\n"
+"You do not have permission to execute this command!"
+msgstr ""
+"<center><b>%1</b></center>\n"
+"คุณไม่ได้รับอนุญาตให้เรีย"
+"กทำงานคำสั่งนี้ !"
+
+#: minicli.cpp:416
+msgid ""
+"<center><b>%1</b></center>\n"
+"Could not run the specified command!"
+msgstr ""
+"<center><b>%1</b></center>\n"
+"ไม่สามารถเรียกทำงานคำสั่ง"
+"ที่กำหนดได้ !"
+
+#: minicli.cpp:430
+msgid ""
+"<center><b>%1</b></center>\n"
+"The specified command does not exist!"
+msgstr ""
+"<center><b>%1</b></center>\n"
+"ไม่มีคำสั่งที่ระบุ !"
+
+#: minicli.cpp:485
+msgid "&Options <<"
+msgstr "ตัวเลือก <<"
+
+#: minicli.cpp:584
+msgid "Advanced Settings"
+msgstr "ตั้งค่าขั้นสูง"
+
+#: minicli.cpp:588
+msgid "Run in &terminal"
+msgstr "ทำงานในเทอร์มินัล"
+
+#: minicli.cpp:589
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application. The application will then be run in a terminal emulator window."
+msgstr ""
+"เลือกตัวเลือกนี้ "
+"หากแอพพลิเคชันที่ต้องการใ"
+"ห้ทำงาน ทำงานในโหมดข้อความ "
+"จากนั้น "
+"แอพพลิเคชันจะทำงานในหน้าต"
+"่างจำลองเทอร์มินัล"
+
+#: minicli.cpp:595
+msgid "Run as a different &user"
+msgstr ""
+"สั่งทำงานโดยใช้สิทธิ์ของผ"
+"ู้ใช้อื่น"
+
+#: minicli.cpp:596
+msgid ""
+"Check this option if you want to run the application with a different user "
+"id. Every process has a user id associated with it. This id code determines "
+"file access and other permissions. The password of the user is required to "
+"do this."
+msgstr ""
+"เลือกตัวเลือกนี้ "
+"หากต้องการให้แอพพลิเคชันท"
+"ำงานด้วยหมายเลขของผู้ใช้อ"
+"ื่น ซึ่งทุกโปรเซส "
+"จะมีหมายเลขของผู้ใช้กำกับ"
+"ไว้ โดยหมายเลขนี้ "
+"จะถูกนำไปใช้ในการพิจารณาถ"
+"ึงสิทธิ์ต่างๆ "
+"ที่สามารถใช้ได้ "
+"และต้องการรหัสผ่านของผู้ใ"
+"ช้นี้ สำหรับตัวเลือกนี้"
+
+#: minicli.cpp:607
+msgid "User&name:"
+msgstr "ชื่อผู้ใช้:"
+
+#: minicli.cpp:610
+msgid "Enter the user here who you want to run the application as."
+msgstr ""
+"เติมชื่อผู้ใช้ที่คุณต้องก"
+"ารใช้สิทธิ์ในการทำงานแอพพ"
+"ลเคชัน"
+
+#: minicli.cpp:617
+msgid "Run with a different &priority"
+msgstr ""
+"สั่งทำงานด้วยระดับความสำค"
+"ัญอื่น"
+
+#: minicli.cpp:618
+msgid ""
+"Check this option if you want to run the application with a different "
+"priority. A higher priority tells the operating system to give more "
+"processing time to your application."
+msgstr ""
+"เลือกตัวเลือกนี้ "
+"หากต้องการให้แอพพลิเคชันท"
+"ำงานด้วยระดับความสำคัญอื่"
+"น ระดับความสำคัญที่สูง "
+"จะทำให้ระบบปฏิบัติการ "
+"ให้เวลาในการประมวลผลกับแอ"
+"พพลิเคชันของคุณมากกว่า"
+
+#: minicli.cpp:629
+msgid "Low"
+msgstr ""
+
+#: minicli.cpp:632
+msgid ""
+"The priority can be set here. From left to right, it goes from low to high. "
+"The center position is the default value. For priorities higher than the "
+"default, you will need root's password."
+msgstr ""
+"สามารถปรับค่าระดับความสำค"
+"ัญได้ที่นี่ จากซ้ายไปขวา "
+"คือระดับต่ำไปหาสูง "
+"ตรงกลางคือค่าปริยายของระด"
+"ับความสำคัญ "
+"คุณจะต้องใช้รหัสผ่านของผู"
+"้ดูแลระบบ "
+"เพื่อปรับค่าความสำคัญที่ส"
+"ูงกว่าค่าปริยาย"
+
+#: minicli.cpp:640
+msgid "High"
+msgstr "สูง"
+
+#: minicli.cpp:647
+msgid "&Scheduler:"
+msgstr "จัดลำดับการทำงาน:"
+
+#: minicli.cpp:652
+msgid ""
+"Here you can select which scheduler to use for the application. The "
+"scheduler governs which process will run and which will have to wait. Two "
+"schedulers are available:"
+"<ul>"
+"<li><em>Normal:</em> This is the standard, timesharing scheduler. It will "
+"divide fairly the available processing time between all processes. "
+"</li>"
+"<li><em>Realtime:</em> This scheduler will run your application "
+"uninterrupted until it gives up the processor. This can be dangerous. An "
+"application that does not give up the processor might hang the system. You "
+"need root's password to use the scheduler."
+msgstr ""
+"คุณสามารถเลือกจัดลำดับการ"
+"ทำงาน "
+"เพื่อใช้กับแอพพลิเคชันได้"
+"ที่นี่ "
+"การจัดลำดับการทำงานนั้น "
+"เป็นส่วนหนึ่งของระบบปฏิบั"
+"ติการ ซึ่งใช้ในการ "
+"พิจารณาว่า "
+"โปรเซสใดควรทำงานก่อน "
+"และโปรเซสใดควรจะคอย "
+"มีการจัดลำดับการทำงานที่ใ"
+"ช้ได้อยู่สองตัว:"
+"<ul>"
+"<li><em>ปกติ:</em> "
+"เป็นการจัดลำดับการทำงานแบ"
+"บมาตรฐาน "
+"โดยจะทำการหารค่าเวลาทั้งห"
+"มด "
+"ต่อหนึ่งรอบโปรเซส</li>"
+"<li><em>เรียลไทม์:</em> "
+"การจัดลำดับแบบนี้ "
+"จะทำให้ไม่สามารถขัดจังหวะ"
+"การทำงานของแอพพลิเคชันที่"
+"ทำงานได้ จนกว่าจะจบโปรเซส "
+"ซึ่งอันตรายมากในกรณีที่โป"
+"รเซสไม่คืนวงรอบการทำงาน "
+"หรือจบการทำงานโปรเซสไม่ได"
+"้ โดยอาจจะทำให้ระบบค้างได้ "
+"คุณจะต้องใช้รหัสผ่านของผู"
+"้ดูแลระบบ "
+"เพื่อเลือกการจัดลำดับแบบน"
+"ี้"
+
+#: minicli.cpp:675
+msgid "Pass&word:"
+msgstr "รหัสผ่าน:"
+
+#: minicli.cpp:678
+msgid "Enter the requested password here."
+msgstr ""
+"เติมรหัสผ่านที่ร้องขอที่น"
+"ี่"
+
+#: minicli.cpp:701
+msgid "Normal"
+msgstr "ปกติ"
+
+#: minicli.cpp:702
+msgid "Realtime"
+msgstr "เรียลไทม์"
+
+#: minicli.cpp:732
+msgid "none"
+msgstr "ไม่มี"
+
+#: minicli.cpp:736
+#, c-format
+msgid "Password required: %1"
+msgstr "รหัสผ่านที่ต้องการ: %1"
+
+#: minicli.cpp:790
+msgid ""
+"Running a realtime application can be very dangerous. If the application "
+"misbehaves, the system might hang unrecoverably.\n"
+"Are you sure you want to continue?"
+msgstr ""
+"การให้แอพพลิเคชันทำงานแบบ"
+"เรียลไทม์นั้นอันตรายมาก\n"
+"เพราะถ้าแอพพลิเคชันทำงานผ"
+"ิดพลาด อาจจะทำให้ระบบค้าง\n"
+"และอาจจะไม่สามารถกู้ความเ"
+"สียหายได้\n"
+"คุณแน่ใจที่จะทำต่อไปหรือไ"
+"ม่ ?"
+
+#: minicli.cpp:793
+msgid "Warning - Run Command"
+msgstr "คำเตือน - ประมวลผลคำสั่ง"
+
+#~ msgid ""
+#~ "<h1>Screen Locking Failed!</h1>Your screen was not locked because the "
+#~ "<i>kcheckpass</i> program was not able to check your password. This is "
+#~ "usually the result of kcheckpass not being installed correctly. If you "
+#~ "installed KDE yourself, reinstall kcheckpass as root. If you are using a "
+#~ "pre-compiled package, contact the packager."
+#~ msgstr ""
+#~ "<h1>การล็อคหน้าจอล้มเหลว !</h1> ไม่สามารถล็อคหน้าจอของคุณได้เนื่องจากโปรแกรม "
+#~ "<i>kcheckpass</i> ไม่สามารถตรวจพบรหัสผ่านของคุณ อาจเป็นเพราะ kcheckpass "
+#~ "ยังไม่ถูกติดตั้ง หรือติดตั้งไม่ถูกต้อง ถ้าคุณติดตั้ง KDE ด้วยตัวคุณเอง ให้ทำการติดตั้ง kcheckpass "
+#~ "ใหม่ ด้วยสิทธิ์ของผู้ดูแลระบบ แต่ถ้าคุณใช้ติดตั้ง โดยการใช้ชุดโปรแกรมสำเร็จ "
+#~ "ให้ติดต่อผู้ทำชุดโปรแกรมนั้น"
+
+#~ msgid "Screen Locking Failed"
+#~ msgstr "การล็อคหน้าจอล้มเหลว !"
+
+#~ msgid "Pr&iority:"
+#~ msgstr "ระดับความสำคัญ:"
+
+#~ msgid "Fancy desktop background for kdm"
+#~ msgstr "พื้นหลังพื้นที่ทำงานแบบแฟนซีสำหรับ kdm"
+
+#~ msgid "By Name (Case Sensitive)"
+#~ msgstr "ตามชื่อ (พิจารณาตัวเล็ก-ตัวใหญ่)"
+
+#~ msgid "By Name (Case Insensitive)"
+#~ msgstr "ตามชื่อ (ไม่พิจารณาตัวเล็ก-ตัวใหญ่)"
+
+#~ msgid "Icon Operations"
+#~ msgstr "ปฏิบัติการของไอคอน"
+
+#~ msgid "Window Operations"
+#~ msgstr "ปฏิบัติการของหน้าต่าง"
+
+#~ msgid "Help on Desktop"
+#~ msgstr "ช่วยเหลือเกี่ยวกับพื้นที่ทำงาน..."
+
+#~ msgid "Execute Command"
+#~ msgstr "ประมวลผลคำสั่ง"
+

@@ -1,0 +1,911 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-12-01 11:38+0100\n"
+"PO-Revision-Date: 2003-01-11 16:38+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: crypto.cpp:104
+msgid "%1 (%2 of %3 bits)"
+msgstr "%1 (%2 ບິດຈາກ %3 ບິດ)"
+
+#: crypto.cpp:252
+msgid "Enable &TLS support if supported by the server"
+msgstr ""
+"ເປີດໃຊ້ການສະຫນັບສະຫນຸນ &TLS "
+"ຫາກເຊີຟເວີສະຫນັບສະຫນຸນ"
+
+#: crypto.cpp:255
+msgid ""
+"TLS is the newest revision of the SSL protocol. It integrates better with "
+"other protocols and has replaced SSL in protocols such as POP3 and SMTP."
+msgstr ""
+"TLS "
+"ເປັນຮູບແບບການເຂົ້າລະຫັດໃຫມ່ກວ່າໂປຣໂຕຄອນ SSL "
+"ມັນຖືກລວມໄວ້ໃນຫລາຍໂປຣໂຕຄອນ "
+"ແລະທຳການແທນທີ່ການເຂົ້າລະຫັດແບບ SSL ແບບເກົ່າ ເຊັ່ນ ໂປຣໂຕຄອນ "
+"POP3 และ SMTP"
+
+#: crypto.cpp:260
+msgid "Enable SSLv&2"
+msgstr "ເປີດໃຊ້ງານ SSLv&2"
+
+#: crypto.cpp:263
+msgid ""
+"SSL v2 is the second revision of the SSL protocol. It is most common to "
+"enable v2 and v3."
+msgstr ""
+"SSL v2 "
+"ເປັນການເຂົ້າລະຫັດລຸ້ນທີສອງຂອງໂປຣໂຕຄອນ SSL "
+"ເຊຶ່ງຈະເປີດໃຊ້ງານ ທັງແບບ v2 "
+"ແລະ v3"
+
+#: crypto.cpp:267
+msgid "Enable SSLv&3"
+msgstr "ເປີດໃຊ້ງານ SSLv&3"
+
+#: crypto.cpp:270
+msgid ""
+"SSL v3 is the third revision of the SSL protocol. It is most common to "
+"enable v2 and v3."
+msgstr ""
+"SSL v3 ເປັນການເຂົ້າລະຫັດລຸ້ນທີ 3 "
+"ຂອງໂປຣໂີຕຄອນ SSL "
+"ເຊຶ່ງຈະເປີດໃຊ້ງານ ທັງແບບ v2 "
+"ແລະ v3"
+
+#: crypto.cpp:276
+msgid "SSLv2 Ciphers to Use"
+msgstr ""
+"ຊຸດຮູບແບບການເຂົ້າລະຫັດ SSLv2 "
+"ທີ່ຈະໃຊ້:"
+
+#: crypto.cpp:277
+msgid ""
+"Select the ciphers you wish to enable when using the SSL v2 protocol. The "
+"actual protocol used will be negotiated with the server at connection time."
+msgstr ""
+"ເລືອກຊຸດຮູບແບບການເຂົ້າລະຫັດທີ່ຕ້ອງການໃຊ້ "
+"ເມື່ອມີການໃຊ້ງານໂປຣໂຕຄອນ SSL "
+"v2 "
+
+#: crypto.cpp:287
+msgid ""
+"SSL ciphers cannot be configured because this module was not linked with "
+"OpenSSL."
+msgstr ""
+"ບໍ່ສາມາດປັບແຕ່ງຊຸດຮູບແບບການເຂົ້າລະຫັດ SSL ໄດ້ "
+"ເນື່ອງຈາກໂມດູນນີ້ບໍ່ໄດ້ລິງກັບໄລບຣາລີ OpenSSL"
+
+#: crypto.cpp:302
+msgid "SSLv3 Ciphers to Use"
+msgstr ""
+"ຊຸດຮູບແບບການເຂົ້າລະຫັດ SSLv3 "
+"ທີ່ຈະໃຊ້:"
+
+#: crypto.cpp:303
+msgid ""
+"Select the ciphers you wish to enable when using the SSL v3 protocol. The "
+"actual protocol used will be negotiated with the server at connection time."
+msgstr ""
+"ເລືອກຊຸດຮູບແບບການເຂົ້າລະຫັດທີ່ຕ້ອງການໃຊ້"
+"ເມື່ອມີການໃຊ້ງານໂປຣໂຕຄອນ SSL "
+"v3 "
+
+#: crypto.cpp:317
+msgid "Cipher Wizards"
+msgstr "ຕົວຊ່ວຍເຫລືອການເຂົ້າລະຫັດ"
+
+#: crypto.cpp:318
+msgid "&Most Compatible"
+msgstr "ເຂົ້າກັນໄດ້ຫລາຍທີ່ສຸດ"
+
+#: crypto.cpp:319
+msgid "U&S Ciphers Only"
+msgstr "ຮູບແບບການເຂົ້າລະຫັດແບບອາເມລິກາເທົ່ານັ້ນ"
+
+#: crypto.cpp:320
+msgid "E&xport Ciphers Only"
+msgstr "ສົ່ງອອກຮູບແບບການເຂົ້າລະຫັດເທົ່ານັ້ນ"
+
+#: crypto.cpp:321
+msgid "E&nable All"
+msgstr "ເປີດໃຊ້ງານທັງຫມົດ"
+
+#: crypto.cpp:327
+msgid "Use these buttons to more easily configure the SSL encryption settings."
+msgstr ""
+"ເພື່ອໃຫ້ການປັບແຕ່ງຄ່າຂອງການເຂົ້າລະຫັດ SSL ງ່າຍຂື້ນ "
+"ໃຫ້ໃຊ້ປຸ່ມນີ້"
+
+#: crypto.cpp:329
+msgid "Select the settings found to be most compatible."
+msgstr "ເລືອກການຕັ້ງຄ່າທີ່ພົບໃຫ້ມີຄວາມເຂົ້າກັນໄດ້ຫລາຍທີ່ສຸດ"
+
+#: crypto.cpp:331
+msgid "Select only the US strong (>= 128 bit) encryption ciphers."
+msgstr ""
+"ເລືອກຮູບແບບການເຂົ້າລະຫັດເຂັ້ມງວດຫລາຍ "
+"ລະດັບດງວກັບປະເທດອາເມລິກາ (>= 128 ບິດ) ເທົ່ານັ້ນ"
+
+#: crypto.cpp:333
+msgid "Select only the weak ciphers (<= 56 bit)."
+msgstr ""
+"ເລືອກສະເພາະຮູບແບບການເຂົ້າລະຫັດທີ່ບໍ່ເຂັ້ມງວດ (<= 56 ບິດ) "
+"ເທົ່ານັ້ນ"
+
+#: crypto.cpp:335
+msgid "Select all SSL ciphers and methods."
+msgstr ""
+"ເລືອກຮູບແບບການເຂົ້າລະຫັດ SSL "
+"ແລະວິທີການທີ່ມີທັງຫມົດ"
+
+#: crypto.cpp:344
+msgid "Use EGD"
+msgstr "ໃຊ້ EGD"
+
+#: crypto.cpp:346
+msgid "Use entropy file"
+msgstr "ໃຊ້ແຟ້ມ Entropy"
+
+#: crypto.cpp:354 crypto.cpp:2248
+msgid "Path to EGD:"
+msgstr "ຕຳແຫນ່ງ EGD:"
+
+#: crypto.cpp:360
+msgid ""
+"If selected, OpenSSL will be asked to use the entropy gathering daemon (EGD) "
+"for initializing the pseudo-random number generator."
+msgstr ""
+"ຖ້າເລືອກໃຊ້ OpenSSL "
+"ຈະຖາມໃນການໃຊ້ງານ Entropy Gathering Daemon "
+"(EGD) "
+"ເພື່ອເລີ້ມທຳສ້າງການສຸ່ມຕົວເລກ"
+
+#: crypto.cpp:363
+msgid ""
+"If selected, OpenSSL will be asked to use the given file as entropy for "
+"initializing the pseudo-random number generator."
+msgstr ""
+"ຖ້າເລືອກໃຊ້ OpenSSL "
+"ຈະຖາມໃນການໃຊ້ງານ Entropy Gathering Daemon "
+"(EGD) "
+"ເພື່ອເລີ້ມທຳສ້າງການສຸ່ມຕົວເລກ"
+
+#: crypto.cpp:366
+msgid ""
+"Enter the path to the socket created by the entropy gathering daemon (or the "
+"entropy file) here."
+msgstr ""
+"ເຕີມຕຳແຫນ່ງທີ່ຊີ້ໄປທີ່ຊັອກເກັດທີ່ຖືກສ້າງໂດຍເດມອນ "
+"Entropy Gathering ທີ່ນີ້"
+
+#: crypto.cpp:369
+msgid "Click here to browse for the EGD socket file."
+msgstr ""
+"ກົດທີ່ນີ້ "
+"ເພື່ອເລືອກແຟ້ມຊັອກເກັດຂອງ "
+"EGD"
+
+#: crypto.cpp:377
+msgid "Warn on &entering SSL mode"
+msgstr "ເຕືອນເມື່ອເຂົ້າສູ່ໂຫມດການເຂົ້າລະຫັດ SSL"
+
+#: crypto.cpp:380
+msgid "If selected, you will be notified when entering an SSL enabled site"
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ເພື່ອໃຫ້ມີການເຕືອນເມື່ອມີ"
+"ການເຂົ້າສູ່ໄຊຕ໌ທີ່ມີການເຂົ້າລະຫັດ SSL ທຸກຄັ້ງ"
+
+#: crypto.cpp:384
+msgid "Warn on &leaving SSL mode"
+msgstr "ເຕືອນເມື່ອອອກຈາກໂຫມດການເຂົ້າລະຫັດ SSL"
+
+#: crypto.cpp:387
+msgid "If selected, you will be notified when leaving an SSL based site."
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ເພື່ອໃຫ້ມີການເຕືອນເມື່ອມີການອອກຈາກໄຊຕ໌ທີ່ມີການລະຫັດ SSL ທຸກຄັ້ງ"
+
+#: crypto.cpp:391
+msgid "Warn on sending &unencrypted data"
+msgstr "ເຕືອນເມື່ອມີການສົ່ງຂໍ້ມູນທີ່ບໍ່ມີການເຂົ້າລະຫັດ"
+
+#: crypto.cpp:394
+msgid ""
+"If selected, you will be notified before sending unencrypted data via a web "
+"browser."
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ເພື່ອໃຫ້ມີການເຕືອນເມື່ອມີ"
+"ການສົ່ງຂໍ້ມູນທີ່ບໍ່ມີການເຂົ້າລະຫັດຜ່ານທາງເວບບຣາວເຊີ"
+
+#: crypto.cpp:399
+msgid "Warn on &mixed SSL/non-SSL pages"
+msgstr ""
+"ເຕືອນເມື່ອເຂົ້າສູ່ໄຊຕ໌ທີມ"
+"ຫນ້າຜະສົມທັງແບບເຂົ້າລະຫັດ SSL "
+"ແລະບໍ່ໄດ້ເຂົ້າລະຫັດ"
+
+#: crypto.cpp:402
+msgid ""
+"If selected, you will be notified if you view a page that has both encrypted "
+"and non-encrypted parts."
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ເພື່ອໃຫ້ມີການເຕືອນເມື່ອການເຂົ້າສູ່ໄຊຕ໌ທີ່ມີຫນ້າຜະສົມ "
+"ທັງແບບເຂົ້າລະຫັດ SSL "
+"ແລະບໍ່ໄດ້ເຂົ້າລະຫັດໄວ້"
+
+#: crypto.cpp:415
+msgid "Path to OpenSSL Shared Libraries"
+msgstr "ຕຳແຫນ່ງຂອງໄລບຣາລີ OpenSSL"
+
+#: crypto.cpp:419
+msgid "&Test"
+msgstr "ທົດສອບ"
+
+#: crypto.cpp:438
+msgid ""
+"This list box shows which certificates of yours KDE knows about. You can "
+"easily manage them from here."
+msgstr ""
+"ສະແດງລາຍການໃບຮັບຮອງທີ KDE "
+"ຮູ້ຈັກ "
+"ທ່ານສາມາດຈັດການມັນໄດ້ຢ່າງງ່າຍໆ ຈາກທີ່ນີ້"
+
+#: crypto.cpp:442 crypto.cpp:595 crypto.cpp:705
+msgid "Common Name"
+msgstr "ຊື່ປົກະຕິ"
+
+#: crypto.cpp:443
+msgid "Email Address"
+msgstr "ທີ່ຢູ່ອີເມລ"
+
+#: crypto.cpp:446 crypto.cpp:708
+msgid "&Import..."
+msgstr "ນຳເຂົ້າ..."
+
+#: crypto.cpp:450 crypto.cpp:598
+msgid "&Export..."
+msgstr "ສົ່ງອອກ..."
+
+#: crypto.cpp:455 crypto.cpp:554
+msgid "Remo&ve"
+msgstr "ເອົາອອກ"
+
+#: crypto.cpp:460
+msgid "&Unlock"
+msgstr "ເລີກລັອກ"
+
+#: crypto.cpp:465
+msgid "Verif&y"
+msgstr "ກວດສອບ..."
+
+#: crypto.cpp:470
+msgid "Chan&ge Password..."
+msgstr "ປ່ງນລະຫັດຜ່ານ..."
+
+#: crypto.cpp:480 crypto.cpp:628
+msgid "This is the information known about the owner of the certificate."
+msgstr "ສະແດງຂໍ້ມູນກ່ງວກັບເຈົ້າຂອງໃບຮັບຮອງທີ່ຮູ້ຈັກ"
+
+#: crypto.cpp:482 crypto.cpp:630
+msgid "This is the information known about the issuer of the certificate."
+msgstr "ສະແດງຂໍ້ມູນກ່ງວກັບຜູ້ຂໍໃບຮັບຮອງທີ່ຮູ້ຈັກ"
+
+#: crypto.cpp:485 crypto.cpp:633
+msgid "Valid from:"
+msgstr "ຈະຖືກຕ້ອງຫາກມາຈາກ:"
+
+#: crypto.cpp:486 crypto.cpp:634
+msgid "Valid until:"
+msgstr "ຈະຖືກຕ້ອງຈົນກວ່າ:"
+
+#: crypto.cpp:491 crypto.cpp:643
+msgid "The certificate is valid starting at this date."
+msgstr ""
+"ໃບຮັບຮອງຖືກຕ້ອງ "
+"ແລະໃຊ້ໄດ້ໂດຍເລີ້ມຈາກວັນນີ້"
+
+#: crypto.cpp:493 crypto.cpp:645
+msgid "The certificate is valid until this date."
+msgstr "ໃໍບຮັບຮອບັຖືກຕ້ອງແລະໃຊ້ໄດ້ຈົນເຖິງວັນນີ້"
+
+#: crypto.cpp:497
+msgid "On SSL Connection..."
+msgstr "ຢູ່ບົນການເຊື່ອມຕໍ່ແບບ SSL..."
+
+#: crypto.cpp:498
+msgid "&Use default certificate"
+msgstr "ໃຊ້ໃໍບຮັບຮອງປຣິຍາຍ"
+
+#: crypto.cpp:499
+msgid "&List upon connection"
+msgstr "ລາຍການຂອງການເຊື່ອມຕໍ່"
+
+#: crypto.cpp:500
+msgid "&Do not use certificates"
+msgstr "ບໍ່ໃຊ້ໃບຮັບຮອງ"
+
+#: crypto.cpp:504 crypto.cpp:573 crypto.cpp:683 crypto.cpp:741
+msgid ""
+"SSL certificates cannot be managed because this module was not linked with "
+"OpenSSL."
+msgstr ""
+"ບໍ່ສາມາດຈັດການໃບຮັບຮອງຂອງ SSL ໄດ້ "
+"ເນື່ອງຈາກໂມດູນນີ້ບໍ່ໄດ້ລິງກັບໄລບຣາລີ OpenSSL"
+
+#: crypto.cpp:519
+msgid "Default Authentication Certificate"
+msgstr "ການກວດສອບໃບຮັບຮອງປຣິຍາຍ"
+
+#: crypto.cpp:520
+msgid "Default Action"
+msgstr "ການກະທຳປຣິຍາຍ"
+
+#: crypto.cpp:521
+msgid "&Send"
+msgstr "ສົ່ງ"
+
+#: crypto.cpp:522 crypto.cpp:671
+msgid "&Prompt"
+msgstr "ຖາມ"
+
+#: crypto.cpp:523
+msgid "Do&n't send"
+msgstr "ຢ່າສົ່ງ"
+
+#: crypto.cpp:525
+msgid "Default certificate:"
+msgstr "ໃບຮັບຮອງປຣິຍາຍ:"
+
+#: crypto.cpp:532
+msgid "Host authentication:"
+msgstr "ການກວດສອບໂຮສຕ໌:"
+
+#: crypto.cpp:535
+msgid "Host"
+msgstr "ໂຮສຕ໌"
+
+#: crypto.cpp:536
+msgid "Certificate"
+msgstr "ໃບຮັບຮອງ"
+
+#: crypto.cpp:537 crypto.cpp:668
+msgid "Policy"
+msgstr "ສິດທິການໃຊ້"
+
+#: crypto.cpp:539
+msgid "Host:"
+msgstr "ໂຮສຕ໌:"
+
+#: crypto.cpp:540
+msgid "Certificate:"
+msgstr "ໃບຮັບຮອງ:"
+
+#: crypto.cpp:547
+msgid "Action"
+msgstr "ການກະທຳ"
+
+#: crypto.cpp:548
+msgid "Send"
+msgstr "ສົ່ງ"
+
+#: crypto.cpp:549
+msgid "Prompt"
+msgstr "ຖາມ"
+
+#: crypto.cpp:550
+msgid "Don't send"
+msgstr "ຢ່າສົ່ງ"
+
+#: crypto.cpp:553
+msgid "Ne&w"
+msgstr "ສ້າງໃຫມ່"
+
+#: crypto.cpp:591
+msgid ""
+"This list box shows which site and person certificates KDE knows about. You "
+"can easily manage them from here."
+msgstr ""
+"ສະແດງລາຍການໃບຮັບຮອງຂອງໄຊຕ໌ແລະບຸກຄົນທີ່ KDE ຮູ້ຈັກ "
+"ທ່ານສາມາດຈັດການມັນໄດ້ຢ່າງງ່າຍໆ ຈາກທີ່ນີ້"
+
+#: crypto.cpp:594 crypto.cpp:703
+msgid "Organization"
+msgstr "ອົງກອນ"
+
+#: crypto.cpp:601
+msgid ""
+"This button allows you to export the selected certificate to a file of "
+"various formats."
+msgstr ""
+"ປຸ່ມນີ້ "
+"ຈະອະນຸຍາດໃຫ້ທ່ານສົ່ງອອກໃບຮັບຮອງທີ່ເລືອກໄວ້ "
+"ໄປເປັນແຟ້ມຮູບແບບອື່ນ ໆ"
+
+#: crypto.cpp:608
+msgid "This button removes the selected certificate from the certificate cache."
+msgstr ""
+"ປຸ່ມນີ້ "
+"ຈະເອົາໃບຮັບຮອງທີ່ເລືອກໄວ້ອອກຈາກແຄຊ໌ລາຍການໃບຮັບຮອງ"
+
+#: crypto.cpp:612
+msgid "&Verify"
+msgstr "ກວດສອບ..."
+
+#: crypto.cpp:615
+msgid "This button tests the selected certificate for validity."
+msgstr ""
+"ປຸ່ມນີ້ "
+"ໃຊ້ທົດສອບຄວາມຖືກຕ້ອງຂອງໃບຮັບຮອງທີ່ເລືອກໄວ້"
+
+#: crypto.cpp:648
+msgid "Cache"
+msgstr "ແຄຊ໌"
+
+#: crypto.cpp:649
+msgid "Permanentl&y"
+msgstr "ຢ່າງຖາວອນ"
+
+#: crypto.cpp:650
+msgid "&Until"
+msgstr "ຈົນກວ່າ..."
+
+#: crypto.cpp:661
+msgid "Select here to make the cache entry permanent."
+msgstr ""
+"ເລືອກທີ່ນີ້ "
+"ເພື່ອສ້າງລາຍການແຄຊ໌ຢ່າງຖາວອນ"
+
+#: crypto.cpp:663
+msgid "Select here to make the cache entry temporary."
+msgstr ""
+"ເລືອກທີ່ນີ້ "
+"ເພື່ອສ້າງລາຍການແຄຊ໌ຊົ່ວຄາວ"
+
+#: crypto.cpp:665
+msgid "The date and time until the certificate cache entry should expire."
+msgstr "ວັນແລະເວລາທີ່ແຄຊ໌ລາຍການໃບຮັບຮອງຈະຫມົດອາຍຸ"
+
+#: crypto.cpp:669
+msgid "Accep&t"
+msgstr "ຍອມຮັບ"
+
+#: crypto.cpp:670
+msgid "Re&ject"
+msgstr "ປະຕິເສດ"
+
+#: crypto.cpp:675
+msgid "Select this to always accept this certificate."
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ເພື່ອຍອມຮັບໃບຮັບຮອງນີ້ສະເຫມີ"
+
+#: crypto.cpp:677
+msgid "Select this to always reject this certificate."
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ເພື່ອປະຕິເສດໃບຮັບຮອງນີ້ສະເຫມີ"
+
+#: crypto.cpp:679
+msgid ""
+"Select this if you wish to be prompted for action when receiving this "
+"certificate."
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ຫາກທ່ານຕ້ອງການໃຫ້ຖາມສຳລັບການກະທຳເມື່ອໄດ້ຮັບໃບຮັບຮອງນີ້"
+
+#: crypto.cpp:699
+msgid ""
+"This list box shows which certificate authorities KDE knows about. You can "
+"easily manage them from here."
+msgstr ""
+"ສະແດງລາຍການອົງກອນອອກໃບຮັບຮອງທີ ່KDE ຮູ້ຈັກ "
+"ທ່ານສາມາດຈັດການມັນໄດ້ຢ່າງງ່າຍ ໆ ຈາກທີ່ນີ້"
+
+#: crypto.cpp:704
+msgid "Organizational Unit"
+msgstr "ຫນ່ວຍອົງກອນ"
+
+#: crypto.cpp:717
+msgid "R&estore"
+msgstr "ຕິດຕັ້ງູູຄືນ..."
+
+#: crypto.cpp:727
+msgid "Accept for site signing"
+msgstr "ຍອມຮັບລາຍເຊັນສຳລັບໄຊຕ໌"
+
+#: crypto.cpp:728
+msgid "Accept for email signing"
+msgstr "ຍອມຮັບລາຍເຊັນສຳລັບອີເມລ"
+
+#: crypto.cpp:729
+msgid "Accept for code signing"
+msgstr "ຍອມຮັບລາຍເຊັນສຳລັບໂຄ້ດ"
+
+#: crypto.cpp:756
+msgid "Warn on &self-signed certificates or unknown CA's"
+msgstr ""
+"ເຕືອນເມື່ອມີການຮັບຮອງດ້ວຍຕົວເອງ "
+"ຫລືບໍ່ຮູ້ຈັກອົງກອນທີ່ໃຫ້ການຮັບຮອງ"
+
+#: crypto.cpp:758
+msgid "Warn on &expired certificates"
+msgstr "ເຕືອນເມື່ອໃບຮັບຮອງຫມົດອາຍຸ"
+
+#: crypto.cpp:760
+msgid "Warn on re&voked certificates"
+msgstr "ເຕືອນເມື່ອມີການຖອນໃບຮັບຮອງ"
+
+#: crypto.cpp:770
+msgid ""
+"This list box shows which sites you have decided to accept a certificate "
+"from even though the certificate might fail the validation procedure."
+msgstr ""
+"ກ່ອງລາຍການນີ້ "
+"ສະແດງເຖິງໄຊຕ໌ທີ່ທ່ານຍອມຮັບການຮັບຮອງ "
+"ເຖິງວ່າການກວດສອບການຮັບຮອງຈະລົ້ມເຫລວ"
+
+#: crypto.cpp:778
+msgid "&Add"
+msgstr "ເພີ້ມ"
+
+#: crypto.cpp:786
+msgid "&Clear"
+msgstr "ລ້າງ"
+
+#: crypto.cpp:791
+msgid ""
+"These options are not configurable because this module was not linked with "
+"OpenSSL."
+msgstr ""
+"ບໍ່ສາມາດປັບແຕ່ງຕົວເລືອກນີ້ໄດ້ "
+"ເນື່ອງຈາກໂມດູນນີ້ບໍ່ໄດ້ລິງກັບໄລບຣາລີ OpenSSL"
+
+#: certexport.cpp:94 certexport.cpp:109 certexport.cpp:117 crypto.cpp:801
+#: crypto.cpp:1003 crypto.cpp:1351 crypto.cpp:1376 crypto.cpp:1393
+#: crypto.cpp:1395 crypto.cpp:1574 crypto.cpp:1592 crypto.cpp:1642
+#: crypto.cpp:1674 crypto.cpp:1676 crypto.cpp:1861 crypto.cpp:1881
+#: crypto.cpp:1947 crypto.cpp:1954 crypto.cpp:1969 crypto.cpp:2007
+msgid "SSL"
+msgstr "SSL"
+
+#: crypto.cpp:803 crypto.cpp:2228 crypto.cpp:2236 crypto.cpp:2240
+msgid "OpenSSL"
+msgstr "openSSL"
+
+#: crypto.cpp:805
+msgid "Your Certificates"
+msgstr "ໃບຮັບຮອງຂອງທ່ານ"
+
+#: crypto.cpp:806
+msgid "Authentication"
+msgstr "ການກວດສອບໃບຮັບຮອງ"
+
+#: crypto.cpp:807
+msgid "Peer SSL Certificates"
+msgstr "ໃບຮັບຮອງ SSL ໃນເຄື່ອງ"
+
+#: crypto.cpp:808
+msgid "SSL Signers"
+msgstr "ຜູ້ຮັບຮອງ SSL"
+
+#: crypto.cpp:811
+msgid "Validation Options"
+msgstr "ຕົວເລືອກການກວດສອບ"
+
+#: crypto.cpp:999
+msgid ""
+"If you don't select at least one SSL algorithm, either SSL will not work or "
+"the application may be forced to choose a suitable default."
+msgstr ""
+"ຫາກທ່ານບໍ່ໄດ້ເລືອກວິທີການຂອງ SSL ຢ່າງໃດເລີຍ SSL "
+"ອາດຈະບໍ່ທຳງານ "
+"ຫລືແອພພຣີເຄຊັນອາດຈະພະຍາຍາມເລືອກຄ່າທີ່ເຫມາະສົມໃຫ້ຢ່າງໃດຢ່າງຫນຶ່ງ"
+
+#: crypto.cpp:1051
+msgid "If you don't select at least one cipher, SSLv2 will not work."
+msgstr ""
+"ຫາກທ່ານບໍ່ໄດ້ເລືອກຮູບແບບການເຂົ້າລະຫັດຢ່າງໃດເລີຍ SSLv2 "
+"ຈະບໍ່ທຳງານ"
+
+#: crypto.cpp:1053
+msgid "SSLv2 Ciphers"
+msgstr "ຮູບແບບການເຂົ້າລະຫັດ SSLv2"
+
+#: crypto.cpp:1070
+msgid "If you don't select at least one cipher, SSLv3 will not work."
+msgstr ""
+"ຫາກທ່ານບໍ່ໄດ້ເລືອກຮູບແບບການເຂົ້າລະຫັດຢ່າງໃດເລີຍ SSLv3 "
+"ຈະບໍ່ທຳງານ"
+
+#: crypto.cpp:1072
+msgid "SSLv3 Ciphers"
+msgstr "ຮູບແບບການເຂົ້າລະຫັດ SSLv3"
+
+#: crypto.cpp:1236
+msgid ""
+"<h1>Crypto</h1> This module allows you to configure SSL for use with most "
+"KDE applications, as well as manage your personal certificates and the known "
+"certificate authorities."
+msgstr ""
+"<h1>ການເຂົ້າລະຫັດ</h1> ໂມດູນນີ້ "
+"ອະນຸຍາດໃຫ້ທ່ານປັບແຕ່ງ SSL "
+"ເພື່ອໃຊ້ກັບແອພພຣີເຄຊັນ KDE "
+"ຫລາຍໆ ຕົວ "
+"ລວມທັງຈັດການໃບຮັບຮອງສ່ວນຕົວຂອງທ່ານ "
+"ແລະອົງກອນອອກໃບຮັບຮອງທີ່ຮູ້ຈັກດ້ວຍ"
+
+#: crypto.cpp:1244
+msgid "kcmcrypto"
+msgstr "kcmcrypto"
+
+#: crypto.cpp:1244
+msgid "KDE Crypto Control Module"
+msgstr "ໂມດູນຄວຍຄຸມການເຂົ້າລະຫັດເທິງ KDE"
+
+#: crypto.cpp:1246
+msgid "(c) 2000 - 2001 George Staikos"
+msgstr "(c)2000-2001 George Staikos"
+
+#: crypto.cpp:1350
+msgid "Couldn't open the certificate."
+msgstr "ບໍ່ສາມາດເປີດໃບຮັບຮອງໄດ້"
+
+#: crypto.cpp:1376
+msgid "Error obtaining the certificate."
+msgstr "ໃບຮັບຮອງທີ່ໄດ້ມາຜິດພາດ"
+
+#: crypto.cpp:1393 crypto.cpp:1674
+msgid "This certificate passed the verification tests successfully."
+msgstr "ໃບຮັບຮອງນີ້ຜ່ານການທົດລອງກວດສອບຮງບຮ້ອຍແລ້ວ"
+
+#: crypto.cpp:1395 crypto.cpp:1676
+msgid "This certificate has failed the tests and should be considered invalid."
+msgstr ""
+"ໃບຮັບຮອງນີ້ລົ້ມເຫລວໃນການທົດລອງກວດສອບ "
+"ແລະຖືກຖືວ່າບໍ່ຖືກຕ້ອງ"
+
+#: crypto.cpp:1568
+msgid "Certificate password"
+msgstr "ລະຫັດຜ່ານໃບຮັບຮອງ"
+
+#: crypto.cpp:1574
+msgid "The certificate file could not be loaded. Try a different password?"
+msgstr ""
+"ບໍ່ສາມາດຮງກໃຊ້ແຟ້ມໃບຮັບຮອງໄດ້ "
+"ລອງດ້ວຍລະຫັດຜ່ານອື່ນຫລືບໍ່"
+"่ ?"
+
+#: crypto.cpp:1592
+msgid ""
+"A certificate with that name already exists. Are you sure that you wish to "
+"replace it?"
+msgstr ""
+"ມີແຟ້ມໃບຮັບຮອງຊື່ນີ້ຢູ່ແລ້ວ "
+"ທ່ານຕ້ອງການຂງນທັບມັນຫລືບໍ່ ?"
+
+#: crypto.cpp:1623 crypto.cpp:1655 crypto.cpp:1703
+msgid "Enter the certificate password:"
+msgstr "ໃສ່ລະຫັດຜ່ານຂອງໃບຮັບຮອງ:"
+
+#: crypto.cpp:1629 crypto.cpp:1661 crypto.cpp:1709 crypto.cpp:1803
+msgid "Decoding failed. Please try again:"
+msgstr ""
+"ການຖອດລະຫັດລົ້ມເຫລວ "
+"ກະລຸນາລອງອີກຄັ້ງ:"
+
+#: crypto.cpp:1642
+msgid "Export failed."
+msgstr "ການສົ່ງອອກລົ້ມເຫລວ"
+
+#: crypto.cpp:1798
+msgid "Enter the OLD password for the certificate:"
+msgstr "ໃສ່ລະຫັດຜ່ານເກົ່າຂອງໃບຮອບຮອງ:"
+
+#: crypto.cpp:1812
+msgid "Enter the new certificate password"
+msgstr "ໃສ່ລະຫັດຜ່ານໃຫມ່ຂອງໃບຮັບຮອງ:"
+
+#: crypto.cpp:1858 crypto.cpp:1953
+msgid "This is not a signer certificate."
+msgstr "ນີ້ບໍ່ແມ່ນຜຸູ້ເຊັນຮັບຮອງ"
+
+#: crypto.cpp:1878 crypto.cpp:1968
+msgid "You already have this signer certificate installed."
+msgstr "ທ່ານໄດ້ທຳການຕິດຕັ້ງຜູ້ເຊັນຮັບຮອງນີ້ແລ້ວ"
+
+#: crypto.cpp:1946
+msgid "The certificate file could not be loaded."
+msgstr "ບໍ່ສາມາດຮງກໃຊ້ແຟ້ມໃບຮັບຮອງໄດ້"
+
+#: crypto.cpp:2007
+msgid ""
+"This will revert your certificate signers database to the KDE default.\n"
+"This operation cannot be undone.\n"
+"Are you sure you wish to continue?"
+msgstr ""
+"ນີ້ເປັນການແປງຖານຂໍ້ມູນ"
+"ຜູ້ເຊັນໃບຮັບຮອງຂອງທ່ານ"
+"ໄປເປັນຄ່າປະລິຍາຍຂອງKDE\n"
+"ຊຶ່ງປະຕິບັດການນີ້"
+"ຈະບໍ່ສາມາດຍົກເລີດໄດ้້\n"
+"ທ່ານແນ່ໃຈຫລືບໍ່ວ່າ"
+"ຕ້ອງາກນຈະເຮັດຕໍ່ໄປ?"
+
+#: crypto.cpp:2226 crypto.cpp:2234
+msgid "Failed to load OpenSSL."
+msgstr "ການຮງກໃຊ້ງານ OpenSSL ຫລົ້ມເຫລວ "
+
+#: crypto.cpp:2227
+msgid "libssl was not found or successfully loaded."
+msgstr ""
+"ບໍ່ພົບໄລແບລລີี libssl "
+"ຫລືມັນອາດຈະຖືກໂຫລດແລ້ວ"
+
+#: crypto.cpp:2235
+msgid "libcrypto was not found or successfully loaded."
+msgstr ""
+"ບໍ່ພົບໄລແບລລີ libcrypto "
+"ຫລືມັນອາດຈະຖືກໂຫລດແລ້ວ"
+
+#: crypto.cpp:2240
+msgid "OpenSSL was successfully loaded."
+msgstr "ໂຫລດ OpenSSL ຮງບຣ້ອຍແລ້ວ"
+
+#: crypto.cpp:2259
+msgid "Path to entropy file:"
+msgstr "ພາດໄປຍັງແຟ້ມ entropy:"
+
+#: crypto.cpp:2272
+msgid "Personal SSL"
+msgstr "SSL ສ່ວນຕົວ"
+
+#: crypto.cpp:2273
+msgid "Server SSL"
+msgstr "ເຊີບເວີ์ SSL"
+
+#: crypto.cpp:2274
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: crypto.cpp:2275
+msgid "PGP"
+msgstr "PGP"
+
+#: crypto.cpp:2276
+msgid "GPG"
+msgstr "GPG"
+
+#: crypto.cpp:2277
+msgid "SSL Personal Request"
+msgstr "ຕ້ອງການSSL ສ່ວນຕົວ"
+
+#: crypto.cpp:2278
+msgid "SSL Server Request"
+msgstr "ຕ້ອງການເຊີບເວີ SSL"
+
+#: crypto.cpp:2279
+msgid "Netscape SSL"
+msgstr "SSL ຂອງເນດເຄບ"
+
+#: crypto.cpp:2280
+msgid ""
+"_: Server certificate authority\n"
+"Server CA"
+msgstr "ເຊີບເວີ CA"
+
+#: crypto.cpp:2281
+msgid ""
+"_: Personal certificate authority\n"
+"Personal CA"
+msgstr "CAສ່ວນຕົວ"
+
+#: crypto.cpp:2282
+msgid ""
+"_: Secure MIME certificate authority\n"
+"S/MIME CA"
+msgstr "S/MIME CA"
+
+#: crypto.cpp:2364
+msgid "None"
+msgstr "ບໍ່ມີ"
+
+#: certexport.cpp:45
+msgid "X509 Certificate Export"
+msgstr "ສົ່ງອອກໃນອັດຕາຮັບຮອງ X509"
+
+#: certexport.cpp:47
+msgid "Format"
+msgstr "ຮູບແບບ"
+
+#: certexport.cpp:48
+msgid "&PEM"
+msgstr "&PEM"
+
+#: certexport.cpp:49
+msgid "&Netscape"
+msgstr "ເນດເຄບ"
+
+#: certexport.cpp:50
+msgid "&DER/ASN1"
+msgstr "&DER/ASN1"
+
+#: certexport.cpp:51
+msgid "&Text"
+msgstr "ຂໍ້ຄວາມ"
+
+#: certexport.cpp:55
+msgid "Filename:"
+msgstr "ຊື່ແຟ້ມ:"
+
+#: certexport.cpp:66
+msgid "&Export"
+msgstr "ส่งออก"
+
+#: certexport.cpp:94
+msgid "Internal error. Please report to kfm-devel@kde.org."
+msgstr ""
+"ຂໍ້ຜິດພາດພາຍໃນ"
+"ກະລຸນາແຈ້ງໄປທີ่່ kfm-devel@kde.org"
+
+#: certexport.cpp:109
+msgid "Error converting the certificate into the requested format."
+msgstr "ການປ່ງນໃບຮັບຮອງເປັນຮູບແບບທີ່ຕ້ອງການຫລົ້ມເຫລວ"
+
+#: certexport.cpp:117
+msgid "Error opening file for output."
+msgstr "ການເປີດແຟ້ມເພືອ່ຂງນໄປຫລົ້ມເຫລວ"
+
+#: kdatetimedlg.cpp:40
+msgid "Date & Time Selector"
+msgstr "ຕົວເລືອກວັນແລະເວລາ"
+
+#: kdatetimedlg.cpp:45
+msgid "Hour:"
+msgstr "ຊົ່ວໂມງ:"
+
+#: kdatetimedlg.cpp:50
+msgid "Minute:"
+msgstr "ນາທີ:"
+
+#: kdatetimedlg.cpp:55
+msgid "Second:"
+msgstr "ວິນາທີ:"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "souvanthong VORRABOUT"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "thehsout2002@hotmail.com"
+
+#~ msgid "&Remove..."
+#~ msgstr "เอาออก..."
+
+#~ msgid "D&on't send"
+#~ msgstr "อย่าส่ง"
+
+#~ msgid "&Test..."
+#~ msgstr "ทดสอบ..."
+
+#~ msgid "Don't Send"
+#~ msgstr "อย่าส่ง"
+

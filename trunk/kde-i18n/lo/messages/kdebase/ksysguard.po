@@ -1,0 +1,1704 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-12-09 03:08+0100\n"
+"PO-Revision-Date: 2003-01-12 12:30+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: SensorDisplayLib/DancingBars.cc:192
+msgid "Enter new label:"
+msgstr "ຕື່່ມແຖບຂໍ້ຄວາມໃຫມ່:"
+
+#: SensorDisplayLib/DancingBars.cc:193
+msgid "Label of Bar Graph"
+msgstr "ຂໍ້ຄວາມກຳກັບກຣາຟແທ່ງ"
+
+#: SensorDisplayLib/DummyDisplay.cc:35
+msgid "Drop Sensor Here"
+msgstr "ລາກແລະວາງຕົວກວດຈັບໄວ້ທີ່ນີ້"
+
+#: SensorDisplayLib/DummyDisplay.cc:40
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"ນີ້ເປັນພື້ນທີ່ວ່າງຂອງຊີດງານ "
+"ລາກຕົວກວດຈັບຈາກຊ່ອງສະແດງຕົວກວດຈັບ "
+"ແລະວາງມັນລົງທີ່ນີ້ ຈາກນັ້ນ "
+"ຈະປະກົດຊ່ອງສະແດງຜົນຂອງຕົວກວດຈັບ "
+"ຊຶ່ງຈະອະນຸຍາດໃຫ້ທ່ານທຳການກວດສອບການທຳງານຕາມຄ່າຂອງຕົວກວດຈັບເປັນລະຍະໆ"
+
+#: SensorDisplayLib/LogFile.cc:86
+msgid "Foreground color:"
+msgstr "ສີພື້ນຫນ້າ:"
+
+#: SensorDisplayLib/LogFile.cc:88 rc.cpp:30 rc.cpp:101 rc.cpp:137 rc.cpp:159
+msgid "Background color:"
+msgstr "ສີພື້ນຫລັງ:"
+
+#: SensorDisplayLib/ProcessController.cc:43
+msgid "Name"
+msgstr "ຊື່"
+
+#: SensorDisplayLib/ProcessController.cc:44
+msgid "PID"
+msgstr "PID"
+
+#: SensorDisplayLib/ProcessController.cc:45
+msgid "PPID"
+msgstr "PPID"
+
+#: SensorDisplayLib/ProcessController.cc:46
+msgid "UID"
+msgstr "UID"
+
+#: SensorDisplayLib/ProcessController.cc:47
+msgid "GID"
+msgstr "GID"
+
+#: SensorDisplayLib/ProcessController.cc:48 rc.cpp:37 rc.cpp:89
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#: SensorDisplayLib/ProcessController.cc:49
+#, c-format
+msgid "User%"
+msgstr "% ຜູ້ໃຊ້"
+
+#: SensorDisplayLib/ProcessController.cc:50
+#, c-format
+msgid "System%"
+msgstr "% ລະບົບ"
+
+#: SensorDisplayLib/ProcessController.cc:51
+#: SensorDisplayLib/ProcessList.cc:715
+msgid "Nice"
+msgstr "ຄວາມສຳຄັນ"
+
+#: SensorDisplayLib/ProcessController.cc:52
+msgid "VmSize"
+msgstr "ຂະຫນາດ Vm"
+
+#: SensorDisplayLib/ProcessController.cc:53
+msgid "VmRss"
+msgstr "VmRss"
+
+#: SensorDisplayLib/ProcessController.cc:54
+msgid "Login"
+msgstr "ລັອກອິນ"
+
+#: SensorDisplayLib/ProcessController.cc:55
+msgid "Command"
+msgstr "ຄຳສັ່ງ"
+
+#: SensorDisplayLib/ProcessController.cc:68
+msgid "&Tree"
+msgstr "ລາຍການຕົ້ນໄມ້"
+
+#: SensorDisplayLib/ProcessController.cc:79
+msgid "All Processes"
+msgstr "ທຸກໂປຣເຊສ"
+
+#: SensorDisplayLib/ProcessController.cc:80
+msgid "System Processes"
+msgstr "ໂປຣເຊສຂອງລະບົບ"
+
+#: SensorDisplayLib/ProcessController.cc:81
+msgid "User Processes"
+msgstr "ໂປຣເຊສຂອງຜູ້ໃຊ້"
+
+#: SensorDisplayLib/ProcessController.cc:82
+msgid "Own Processes"
+msgstr "ໂປຣເຊສຂອງເຈົ້າຂອງ"
+
+#: SensorDisplayLib/ProcessController.cc:91
+msgid "&Refresh"
+msgstr "ເອີ້ນໃຫມ່"
+
+#: SensorDisplayLib/ProcessController.cc:98
+#: SensorDisplayLib/ProcessController.cc:201
+msgid "&Kill"
+msgstr "&ຂ້າ"
+
+#: SensorDisplayLib/ProcessController.cc:159
+msgid "%1: Running Processes"
+msgstr "%1:ໂປຣເຊສທີ່ກຳລັງທຳງານ"
+
+#: SensorDisplayLib/ProcessController.cc:193
+msgid "You need to select a process first!"
+msgstr "ທ່ານຕ້ອງເລືອກໂປຣເຊສກ່ອນ !"
+
+#: SensorDisplayLib/ProcessController.cc:199
+#, c-format
+msgid ""
+"_n: Do you want to kill the selected process?\n"
+"Do you want to kill the %n selected processes?"
+msgstr ""
+"ທ່ານຕ້ອງການຂ້າໂປຣເຊສ %n "
+"ໂປຣເຊສ ທີ່ເລືອກໄວ້ຫລືບໍ່ ?"
+
+#: SensorDisplayLib/ProcessController.cc:201
+msgid "Kill Process"
+msgstr "ທຸກໂປຣເຊສ"
+
+#: SensorDisplayLib/ProcessController.cc:279
+msgid "Error while attempting to kill process %1!"
+msgstr ""
+"ເກີດຂໍ້ຜິດພາດ "
+"ຂະນະກຳລັງຂ້າໂປຣເຊສ %1!"
+
+#: SensorDisplayLib/ProcessController.cc:284
+msgid "Insufficient permissions to kill process %1!"
+msgstr ""
+"ສິດບໍ່ພງງພໍ "
+"ທີ່ຈະຂ້າໂປຣເຊສ %1 !"
+
+#: SensorDisplayLib/ProcessController.cc:289
+#: SensorDisplayLib/ProcessController.cc:324
+msgid "Process %1 has already disappeared!"
+msgstr ""
+"ບໍ່ປະກົດໂປຣເຊສ %1 "
+"ຮງບຮ້ອຍແລ້ວ !"
+
+#: SensorDisplayLib/ProcessController.cc:293
+msgid "Invalid Signal!"
+msgstr "ສັນຍານໃຊ້ບໍ່ໄດ້ !"
+
+#: SensorDisplayLib/ProcessController.cc:314
+msgid "Error while attempting to renice process %1!"
+msgstr ""
+"ເກີດຂໍ້ຜິດພາດ "
+"ຂະນະກຳລັງກຳນົດຄວາມສຳຄັນໂປຣເຊສ %1!"
+
+#: SensorDisplayLib/ProcessController.cc:319
+msgid "Insufficient permissions to renice process %1!"
+msgstr ""
+"ສິດບໍ່ພງງພໍ "
+"ທີ່ຈະກຳນົດຄວາມສຳຄັນໂປຣເຊສ "
+"%1 ໃຫມ່ໄດ້ !"
+
+#: SensorDisplayLib/ProcessController.cc:328
+msgid "Invalid argument!"
+msgstr "ອາກຣູເມນຕ໌ບໍ່ຖືກຕ້ອງ !"
+
+#: SensorDisplayLib/ProcessList.cc:80
+msgid ""
+"_: process status\n"
+"running"
+msgstr "ກຳລັງທຳງານ"
+
+#: SensorDisplayLib/ProcessList.cc:82
+msgid ""
+"_: process status\n"
+"sleeping"
+msgstr "ກຳລັງຫລັບ"
+
+#: SensorDisplayLib/ProcessList.cc:84
+msgid ""
+"_: process status\n"
+"disk sleep"
+msgstr "ດິສກ໌ຫລັບ"
+
+#: SensorDisplayLib/ProcessList.cc:85
+msgid ""
+"_: process status\n"
+"zombie"
+msgstr "ຜີດິບ"
+
+#: SensorDisplayLib/ProcessList.cc:87
+msgid ""
+"_: process status\n"
+"stopped"
+msgstr "ຫຍຸດທຳງານ"
+
+#: SensorDisplayLib/ProcessList.cc:88
+msgid ""
+"_: process status\n"
+"paging"
+msgstr "ເຮັດເພຈ"
+
+#: SensorDisplayLib/ProcessList.cc:89
+msgid ""
+"_: process status\n"
+"idle"
+msgstr "ວ່າງ"
+
+#: SensorDisplayLib/ProcessList.cc:220
+msgid "Remove Column"
+msgstr "ເອົາຖັນອອກ"
+
+#: SensorDisplayLib/ProcessList.cc:221
+msgid "Add Column"
+msgstr "ເພີ້ມຖັນ"
+
+#: SensorDisplayLib/ProcessList.cc:222
+msgid "Help on Column"
+msgstr "ຊ່ວຍເຫລືອເທິງຖັນ"
+
+#: SensorDisplayLib/ProcessList.cc:719
+msgid "Hide Column"
+msgstr "ເຊື່ອງຖັນ"
+
+#: SensorDisplayLib/ProcessList.cc:724
+msgid "Show Column"
+msgstr "ສະແດງຖັນ"
+
+#: SensorDisplayLib/ProcessList.cc:728
+msgid "Select All Processes"
+msgstr "ເລືອກທຸກໂປຣເຊສ"
+
+#: SensorDisplayLib/ProcessList.cc:729
+msgid "Unselect All Processes"
+msgstr "ຍົກເລີກການເລືອກທຸກໂປຣເຊສ"
+
+#: SensorDisplayLib/ProcessList.cc:735
+msgid "Select All Child Processes"
+msgstr "ເລືອກໂປຣເຊສລູກທຸກຕົວ"
+
+#: SensorDisplayLib/ProcessList.cc:736
+msgid "Unselect All Child Processes"
+msgstr "ຍົກເລີກການເລືອກໂປຣເຊສລູກທຸກຕົວ"
+
+#: SensorDisplayLib/ProcessList.cc:738
+msgid "SIGABRT"
+msgstr "SIGABRT"
+
+#: SensorDisplayLib/ProcessList.cc:739
+msgid "SIGALRM"
+msgstr "SIGALRM"
+
+#: SensorDisplayLib/ProcessList.cc:740
+msgid "SIGCHLD"
+msgstr "SIGCHLD"
+
+#: SensorDisplayLib/ProcessList.cc:741
+msgid "SIGCONT"
+msgstr "SIGCONT"
+
+#: SensorDisplayLib/ProcessList.cc:742
+msgid "SIGFPE"
+msgstr "SIGFPE"
+
+#: SensorDisplayLib/ProcessList.cc:743
+msgid "SIGHUP"
+msgstr "SIGHUP"
+
+#: SensorDisplayLib/ProcessList.cc:744
+msgid "SIGILL"
+msgstr "SIGILL"
+
+#: SensorDisplayLib/ProcessList.cc:745
+msgid "SIGINT"
+msgstr "SIGINT"
+
+#: SensorDisplayLib/ProcessList.cc:746
+msgid "SIGKILL"
+msgstr "SIGKILL"
+
+#: SensorDisplayLib/ProcessList.cc:747
+msgid "SIGPIPE"
+msgstr "SIGPIPE"
+
+#: SensorDisplayLib/ProcessList.cc:748
+msgid "SIGQUIT"
+msgstr "SIGQUIT"
+
+#: SensorDisplayLib/ProcessList.cc:749
+msgid "SIGSEGV"
+msgstr "SIGSEGV"
+
+#: SensorDisplayLib/ProcessList.cc:750
+msgid "SIGSTOP"
+msgstr "SIGSTOP"
+
+#: SensorDisplayLib/ProcessList.cc:751
+msgid "SIGTERM"
+msgstr "SIGTERM"
+
+#: SensorDisplayLib/ProcessList.cc:752
+msgid "SIGTSTP"
+msgstr "SIGTSTP"
+
+#: SensorDisplayLib/ProcessList.cc:753
+msgid "SIGTTIN"
+msgstr "SIGTTIN"
+
+#: SensorDisplayLib/ProcessList.cc:754
+msgid "SIGTTOU"
+msgstr "SIGTTOU"
+
+#: SensorDisplayLib/ProcessList.cc:755
+msgid "SIGUSR1"
+msgstr "SIGUSR1"
+
+#: SensorDisplayLib/ProcessList.cc:756
+msgid "SIGUSR2"
+msgstr "SIGUSR2"
+
+#: SensorDisplayLib/ProcessList.cc:759
+msgid "Send Signal"
+msgstr "ສົ່ງສັນຍານ"
+
+#: SensorDisplayLib/ProcessList.cc:767
+msgid "Renice Process..."
+msgstr "ຕັ້ງຄວາມສຳຄັນໂປຣເຊສໃຫມ່..."
+
+#: SensorDisplayLib/ProcessList.cc:819
+msgid ""
+"_n: Do you really want to send signal %1 to the selected process?\n"
+"Do you really want to send signal %1 to the %n selected processes?"
+msgstr ""
+"ທ່ານຕ້ອງການສົ່ງສັນຍານ %1 "
+"ໃຫ້ກັບ %n ໂປຣເຊສທີ່ເລືອກໄວ້ "
+"ແມ່ນຫລືບໍ່ ?"
+
+#: SensorDisplayLib/ReniceDlg.cc:34
+msgid "Renice Process"
+msgstr "ຕັ້ງຄວາມສຳຄັນໂປຣເຊສໃຫມ່"
+
+#: SensorDisplayLib/ReniceDlg.cc:41
+msgid ""
+"You are about to change the scheduling priority of\n"
+"process %1. Be aware that only the Superuser (root)\n"
+"can decrease the nice level of a process. The lower\n"
+"the number is the higher the priority.\n"
+"\n"
+"Please enter the desired nice level:"
+msgstr ""
+"ທ່ານກຳລັງຈະປ່ງນລະດັບຄວາມສຳຄັນຂອງຕາລາງງານໂປຣເຊສ\n"
+" %1 ຂໍເຕືອນວ່າ "
+"ມີສະເພາະຜູ້ເບິ່ງແຍງລະບົບເທົ່ານັ້ນ\n"
+"ທີ່ສາມາດລົດລະດັບຄວາມສຳຄັນຂອງໂປຣເຊສໄດ້ ຄ່າທີ່ນ້ອຍ\n"
+"ຈະຫມາຍເຖິງລະດັບຄວາມສຳຄັນທີ່ສູງກວ່າ\n"
+"\n"
+"ກະລຸນາຕື່ມລະດັບຄວາມສຳຄັນທີ່ຕ້ອງການ:"
+
+#: SensorDisplayLib/SensorDisplay.cc:102 WorkSheet.cc:305
+msgid "Impossible to connect to '%1'!"
+msgstr ""
+"ບໍ່ສາມາດເຊື່ອມຕໍ່ໄປຍັງ '%1' "
+"ໄດ້ !"
+
+#: SensorDisplayLib/SensorDisplay.cc:181 SensorDisplayLib/SensorLogger.cc:413
+msgid "&Remove Display"
+msgstr "ເອົາຊ່ອງສະແດງຜົນອອກ"
+
+#: SensorDisplayLib/SensorDisplay.cc:183
+msgid "&Setup Update Interval..."
+msgstr "ຕັ້ງຄ່າຊ່ວງເວລາປັບປຸງ..."
+
+#: SensorDisplayLib/SensorDisplay.cc:185
+msgid "&Continue Update"
+msgstr "ເຮັດການປັບປຸງຕໍ່ໄປ"
+
+#: SensorDisplayLib/SensorDisplay.cc:187
+msgid "P&ause Update"
+msgstr "ຫຍຸດການປັບປຸງຊົ່ວຄາວ"
+
+#: SensorDisplayLib/SensorDisplay.cc:257
+msgid ""
+"<qt>"
+"<p>This is a sensor display. To customize a sensor display click and hold "
+"the right mouse button on either the frame or the display box and select the "
+"<i>Properties</i> entry from the popup menu. Select <i>Remove</i> to delete "
+"the display from the worksheet.</p>%1</qt>"
+msgstr ""
+"<qt> "
+"<p>This is a sensor display To customize a sensor display click and hold "
+"the right mouse button on either the frame or the display box and select the "
+"<i>Properties</i> entry from the popup menu Select <i>Remove</i> to delete "
+"the display from the worksheet.</p>%1</qt>"
+
+#: SensorDisplayLib/SensorLogger.cc:150
+msgid "Logging"
+msgstr "ກຳລັງຕິດຕາມການທຳງານ"
+
+#: SensorDisplayLib/SensorLogger.cc:151
+msgid "TimerInterval"
+msgstr "ຊ່ວງຈັງຫວະເວລາ"
+
+#: SensorDisplayLib/SensorLogger.cc:152
+msgid "SensorName"
+msgstr "ຊື່ຕົວກວດຈັບ"
+
+#: SensorDisplayLib/SensorLogger.cc:153
+msgid "HostName"
+msgstr "ຊື່ໂຮສຕ໌"
+
+#: SensorDisplayLib/SensorLogger.cc:154
+msgid "LogFile"
+msgstr "ແຟ້ມການຕິດຕາມ"
+
+#: SensorDisplayLib/SensorLogger.cc:165 rc.cpp:139
+msgid "Sensor Logger"
+msgstr "ຕົວບັນທຶກຕົວກວດສອບ"
+
+#: SensorDisplayLib/SensorLogger.cc:415
+msgid "&Remove Sensor"
+msgstr "ລຶບຕົວກວດຈັບ"
+
+#: SensorDisplayLib/SensorLogger.cc:416
+msgid "&Edit Sensor"
+msgstr "ແກ້ໄຂຕົວກວດຈັບ"
+
+#: SensorDisplayLib/SensorLogger.cc:417
+msgid "S&tart Logging"
+msgstr "ເລີ້ມຕິດຕາມການທຳງານ"
+
+#: SensorDisplayLib/SensorLogger.cc:418
+msgid "St&op Logging"
+msgstr "ຫຍຸດການຕິດຕາມການທຳງານ"
+
+#: ksgrd/ColorPicker.cc:50 rc.cpp:193
+msgid "Change Color..."
+msgstr "ປ່ງນສີ..."
+
+#: ksgrd/SensorAgent.cc:93
+msgid ""
+"Message from %1:\n"
+"%2"
+msgstr ""
+"ຂໍ້ຄວາມຈາກ %1:\n"
+"%2"
+
+#: ksgrd/SensorManager.cc:52
+msgid "CPU Load"
+msgstr "ໂຫລດຜູ້ໃຊ້"
+
+#: ksgrd/SensorManager.cc:53
+msgid "Idle Load"
+msgstr "ໂຫລດວ່າງ"
+
+#: Workspace.cc:97 Workspace.cc:106 ksgrd/SensorManager.cc:54 ksysguard.cc:160
+msgid "System Load"
+msgstr "ໂຫລດລະບົບ"
+
+#: ksgrd/SensorManager.cc:55
+msgid "Nice Load"
+msgstr "ໂຫລດສຳຄັນ"
+
+#: ksgrd/SensorManager.cc:56
+msgid "User Load"
+msgstr "ໂຫລດຜູ້ໃຊ້"
+
+#: ksgrd/SensorManager.cc:57
+msgid "Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳ"
+
+#: ksgrd/SensorManager.cc:58
+msgid "Physical Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳຈິງ"
+
+#: ksgrd/SensorManager.cc:59
+msgid "Swap Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳສະເຫມືອນ"
+
+#: ksgrd/SensorManager.cc:60
+msgid "Cached Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳແຄຊ"
+
+#: ksgrd/SensorManager.cc:61
+msgid "Buffered Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳບັຟເຟີ"
+
+#: ksgrd/SensorManager.cc:62
+msgid "Used Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳທີ່ໃຊ້ໄປ"
+
+#: ksgrd/SensorManager.cc:63
+msgid "Application Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳຂອງແອພພຣີເຄຊັນ"
+
+#: ksgrd/SensorManager.cc:64
+msgid "Free Memory"
+msgstr "ຫນ່ວຍຄວາມຈຳທີ່ເຫລືອ"
+
+#: ksgrd/SensorManager.cc:65
+msgid "Process Count"
+msgstr "ຕົວນັບໂປຣເຊສ"
+
+#: ksgrd/SensorManager.cc:66 ksgrd/SensorManager.cc:145
+msgid "Process Controller"
+msgstr "ຕົວຄວບຄຸມໂປຣເຊສ"
+
+#: ksgrd/SensorManager.cc:67
+msgid "Disk Throughput"
+msgstr "ອັດຕາສົ່ງຖ່າຍຂໍ້ມູນ"
+
+#: ksgrd/SensorManager.cc:68
+msgid ""
+"_: CPU Load\n"
+"Load"
+msgstr "ໂຫລດ"
+
+#: ksgrd/SensorManager.cc:69
+msgid "Total Accesses"
+msgstr "ຄວາມໄວລວມ"
+
+#: ksgrd/SensorManager.cc:70
+msgid "Read Accesses"
+msgstr "ຄວາມໄວໃນການອ່ານ"
+
+#: ksgrd/SensorManager.cc:71
+msgid "Write Accesses"
+msgstr "ຄວາມໄວໃນການຂງນ"
+
+#: ksgrd/SensorManager.cc:72
+msgid "Read Data"
+msgstr "ອ່ານຂໍ້ມູນ"
+
+#: ksgrd/SensorManager.cc:73
+msgid "Write Data"
+msgstr "ຂງນຂໍ້ມູນ"
+
+#: ksgrd/SensorManager.cc:74
+msgid "Pages In"
+msgstr "Pages In"
+
+#: ksgrd/SensorManager.cc:75
+msgid "Pages Out"
+msgstr "Pages Out"
+
+#: ksgrd/SensorManager.cc:76
+msgid "Context Switches"
+msgstr "Context Switches"
+
+#: ksgrd/SensorManager.cc:77
+msgid "Network"
+msgstr "ລະບົບເຄືອຂ່າຍ"
+
+#: ksgrd/SensorManager.cc:78
+msgid "Interfaces"
+msgstr "ແຜງວົງຈອນ"
+
+#: ksgrd/SensorManager.cc:79
+msgid "Receiver"
+msgstr "ຕົວຮັບ"
+
+#: ksgrd/SensorManager.cc:80
+msgid "Transmitter"
+msgstr "ຕົວສົ່ງ"
+
+#: ksgrd/SensorManager.cc:81
+msgid "Data"
+msgstr "ຂໍ້ມູນ"
+
+#: ksgrd/SensorManager.cc:82
+msgid "Compressed Packets"
+msgstr "ແພັກເກຕບີບອັດຂໍ້ມູນ"
+
+#: ksgrd/SensorManager.cc:83
+msgid "Dropped Packets"
+msgstr "ແພັກເກຕທີ່ຖືກດຣັອບ"
+
+#: ksgrd/SensorManager.cc:84
+msgid "Errors"
+msgstr "ຜິດພາດ"
+
+#: ksgrd/SensorManager.cc:85
+msgid "FIFO Overruns"
+msgstr "FIFO ໂອເວີຣັນສ"
+
+#: ksgrd/SensorManager.cc:86
+msgid "Frame Errors"
+msgstr "ເຟຣມຜິດພາດ"
+
+#: ksgrd/SensorManager.cc:87
+msgid "Multicast"
+msgstr "ມັລຕິຄາສຕ໌"
+
+#: ksgrd/SensorManager.cc:88
+msgid "Packets"
+msgstr "ແພັກເກຕ"
+
+#: ksgrd/SensorManager.cc:89
+msgid "Carrier"
+msgstr "Carrier"
+
+#: ksgrd/SensorManager.cc:90
+msgid "Collisions"
+msgstr "ຄອລລິຊັນ"
+
+#: ksgrd/SensorManager.cc:91
+msgid "Sockets"
+msgstr "ຊັອກເກັຕ"
+
+#: ksgrd/SensorManager.cc:92
+msgid "Total Number"
+msgstr "ຫມາຍເລກລວມ"
+
+#: ksgrd/SensorManager.cc:93 ksgrd/SensorManager.cc:146
+msgid "Table"
+msgstr "ຕາລາງ"
+
+#: ksgrd/SensorManager.cc:94
+msgid "Advanced Power Management"
+msgstr "ການຈັດການການໃຊ້ພະລັງງານ"
+
+#: ksgrd/SensorManager.cc:95
+msgid "Battery Charge"
+msgstr "ຊາຣ໌ແບຕເຕີຣີ"
+
+#: ksgrd/SensorManager.cc:96
+msgid "Remaining Time"
+msgstr "ເວລາທີ່ເຫລືອ"
+
+#: ksgrd/SensorManager.cc:97
+msgid "Interrupts"
+msgstr "ອິນເຕີຣັພ"
+
+#: ksgrd/SensorManager.cc:98
+msgid "Load Average (1 min)"
+msgstr "ໂຫລດສະເລ່ຍ (1 ນາທີ)"
+
+#: ksgrd/SensorManager.cc:99
+msgid "Load Average (5 min)"
+msgstr "ໂຫລດສະເລ່ຍ (5 ນາທີ)"
+
+#: ksgrd/SensorManager.cc:100
+msgid "Load Average (15 min)"
+msgstr "ໂຫລດສະເລ່ຍ (15 ນາທີ)"
+
+#: ksgrd/SensorManager.cc:101
+msgid "Clock Frequency"
+msgstr "ຄວາມຖີ່ສັນຍານໂມງ"
+
+#: ksgrd/SensorManager.cc:102
+msgid "Hardware Sensors"
+msgstr "ຕົວກວດຈັບຮາຣ໌ດແວຣ໌"
+
+#: ksgrd/SensorManager.cc:103
+msgid "Partition Usage"
+msgstr "ການໃຊ້ງານພື້ນທີ່"
+
+#: ksgrd/SensorManager.cc:104
+msgid "Used Space"
+msgstr "ພື້ນທີ່ທີ່ໃຊ້ໄປ"
+
+#: ksgrd/SensorManager.cc:105
+msgid "Free Space"
+msgstr "ພື້ນທີ່ວ່າງ"
+
+#: ksgrd/SensorManager.cc:106
+msgid "Fill Level"
+msgstr "ລະດັບການຕື່ມ"
+
+#: ksgrd/SensorManager.cc:111
+#, c-format
+msgid "CPU%1"
+msgstr "ຊີພີຢູ%1"
+
+#: ksgrd/SensorManager.cc:113
+#, c-format
+msgid "Disk%1"
+msgstr "ດິສກ໌%1"
+
+#: ksgrd/SensorManager.cc:119
+#, c-format
+msgid "Fan%1"
+msgstr "ພັດລົມ%1"
+
+#: ksgrd/SensorManager.cc:121
+#, c-format
+msgid "Temperature%1"
+msgstr "ອຸນຫະພູມ%1"
+
+#: ksgrd/SensorManager.cc:123
+msgid "Total"
+msgstr "ລວມ"
+
+#: ksgrd/SensorManager.cc:130
+#, c-format
+msgid "Int%1"
+msgstr "Int%1"
+
+#: ksgrd/SensorManager.cc:137
+msgid ""
+"_: the unit 1 per second\n"
+"1/s"
+msgstr "1/ວິນາທີ"
+
+#: ksgrd/SensorManager.cc:138
+msgid "kBytes"
+msgstr "ກິໂລໄບຕ໌"
+
+#: ksgrd/SensorManager.cc:139
+msgid ""
+"_: the unit minutes\n"
+"min"
+msgstr "ນາທີ"
+
+#: ksgrd/SensorManager.cc:140
+msgid ""
+"_: the frequency unit\n"
+"MHz"
+msgstr "MHz"
+
+#: ksgrd/SensorManager.cc:143
+msgid "Integer Value"
+msgstr "ຄ່າຈຳນວນເຕັມ"
+
+#: ksgrd/SensorManager.cc:144
+msgid "Floating Point Value"
+msgstr "ຄ່າທົດນິຍົມ"
+
+#: ksgrd/SensorManager.cc:171 rc.cpp:33 rc.cpp:86
+msgid "Host"
+msgstr "ໂຮສຕ໌"
+
+#: ksgrd/SensorManager.cc:310
+msgid "Connection to %1 has been lost!"
+msgstr ""
+"ການເຊື່ອມຕໍ່ໄປຍັງໂຮສຕ໌ %1 "
+"ສູນຫາຍແລ້ວ !"
+
+#: ksgrd/SensorSocketAgent.cc:104
+msgid "Connection to %1 refused"
+msgstr ""
+"ການເຊື່ອມຕໍ່ໄປຍັງ %1 "
+"ຖືກປະຕິເສດ"
+
+#: ksgrd/SensorSocketAgent.cc:108
+msgid "Host %1 not found"
+msgstr "ບໍ່ພົບໂຮລຕ໌์ %1"
+
+#: ksgrd/SensorSocketAgent.cc:112
+#, c-format
+msgid "Read error at host %1"
+msgstr "ການອ່ານທີ່ໂຮສຕ໌ %1 ຜິດພາດ"
+
+#: ksgrd/StyleEngine.cc:115
+#, c-format
+msgid "Color %1"
+msgstr "ສີ %1"
+
+#: rc.cpp:5
+msgid "Edit BarGraph Preferences"
+msgstr "ແກ້ໄຂການປັບແຕ່ງກຣາຟແທ່ງ"
+
+#: rc.cpp:6
+msgid "Range"
+msgstr "ຊ່ວງ"
+
+#: WorkSheetSettings.cc:49 rc.cpp:7 rc.cpp:50 rc.cpp:97 rc.cpp:107 rc.cpp:119
+#: rc.cpp:156
+msgid "Title"
+msgstr "ຊື່ສ່ວນ"
+
+#: rc.cpp:8 rc.cpp:51 rc.cpp:120
+msgid "Enter the title of the display here."
+msgstr "ຕື່ມຊື່ສ່ວນທີ່ຈະໃຊ້ສະແດງຜົນທີ່ນີ້"
+
+#: rc.cpp:9
+msgid "Display Range"
+msgstr "ຊ່ວງຂອງການສະແດງຜົນ"
+
+#: rc.cpp:10
+msgid "M&inimum value:"
+msgstr "ິຄ່າຕຳ່ສຸດ:"
+
+#: rc.cpp:12 rc.cpp:60
+msgid ""
+"Enter the minimum value for the display here. If both values are 0 automatic "
+"range detection is enabled."
+msgstr ""
+"ຕື່ມຄ່າຕຳ່ສຸດ "
+"ຂອງການສະແດງຜົນທີ່ນີ້ "
+"ຫາກຄ່າທັງຄູ່ເປັນ 0 "
+"ຈະເປີດໃຊ້ ການກວດສອບ "
+"ຊ່ວງຂອງການສະແດງຜົນອັດຕະໂນມັດ"
+
+#: rc.cpp:13
+msgid "&Maximum value:"
+msgstr "ຄ່າສູງສຸດ:"
+
+#: rc.cpp:14 rc.cpp:62
+msgid ""
+"Enter the maximum value for the display here. If both values are 0 automatic "
+"range detection is enabled."
+msgstr ""
+"ຕື່ມຄ່າສູງສຸດ "
+"ຂອງການສະແດງຜົນທີ່ນີ້ຫາກຄ່າທັງຄູ່ເປັນ 0 "
+"ຈະເປີດໃຊ້ ການກວດສອບ "
+"ຊ່ວງຂອງການສະແດງຜົນອັດຕະໂນມັດ"
+
+#: rc.cpp:15 rc.cpp:126
+msgid "Alarms"
+msgstr "ເຕືອນ"
+
+#: rc.cpp:16 rc.cpp:131 rc.cpp:144
+msgid "Alarm for Minimum Value"
+msgstr "ເຕືອນເມື່ອເຖິງຄ່າຕຳ່ສຸດ"
+
+#: rc.cpp:17 rc.cpp:132 rc.cpp:145
+msgid "&Enable alarm"
+msgstr "ເປີດໃຊ້ການເຕືອນ"
+
+#: rc.cpp:18 rc.cpp:133 rc.cpp:146
+msgid "Enable the minimum value alarm."
+msgstr "ເປີດໃຊ້ການເຕືອນຄ່າຕຳ່ສຸດ"
+
+#: rc.cpp:19
+msgid "&Lower limit:"
+msgstr "ຈຳກັດຊ່ວງຕຳ່ສຸດ:"
+
+#: rc.cpp:20 rc.cpp:127 rc.cpp:148
+msgid "Alarm for Maximum Value"
+msgstr "ເຕືອນເມື່ອເຖິງຄ່າສູງສຸດ"
+
+#: rc.cpp:21 rc.cpp:128 rc.cpp:149
+msgid "E&nable alarm"
+msgstr "ເປີດໃຊ້ການເຕືອນ"
+
+#: rc.cpp:22 rc.cpp:129 rc.cpp:150
+msgid "Enable the maximum value alarm."
+msgstr "ເປີດໃຊ້ການເຕືອນຄ່າສູງສຸດ"
+
+#: rc.cpp:23
+msgid "&Upper limit:"
+msgstr "ຈຳກັດຊ່ວງສູງສຸດ:"
+
+#: rc.cpp:24
+msgid "Look"
+msgstr "ລັກສະນະ"
+
+#: rc.cpp:25
+msgid "Normal bar color:"
+msgstr "ສີແທ່ງກຣາຟປົກະຕິ:"
+
+#: rc.cpp:26
+msgid "Out-of-range color:"
+msgstr "ສີຂອງການຢູ່ນອກຊ່ວງ:"
+
+#: rc.cpp:27 rc.cpp:191
+msgid "&Font size:"
+msgstr "ຂະຫນາດຕົວອັກສອນ:"
+
+#: rc.cpp:29
+msgid ""
+"This determines the size of the font used to print a label underneath the "
+"bars. Bars are automatically suppressed if text becomes too large, so it is "
+"advisable to use a small font size here."
+msgstr ""
+"ໃຊ້ກຳນົດຂະຫນາດຕົວອັກສອນ "
+"ທີ່ຈະໃຊ້ສະແດງເທິງຂໍ້ຄວາມກຳກັບໃຕ້ກຣາຟ  advisable to use a small font size here."
+
+#: rc.cpp:32 rc.cpp:84
+msgid "Sensors"
+msgstr "ຕົວກວດຈັບ"
+
+#: rc.cpp:34 rc.cpp:87
+msgid "Sensor"
+msgstr "ຕົວກວດຈັບ"
+
+#: rc.cpp:35
+msgid "Label"
+msgstr "ແຖບຂໍ້ຄວາມ"
+
+#: rc.cpp:36 rc.cpp:88
+msgid "Unit"
+msgstr "ຫນ່ວຍ"
+
+#: rc.cpp:38
+msgid "&Edit..."
+msgstr "ແ&ກ້ໄຂ..."
+
+#: rc.cpp:39
+msgid "Push this button to configure the label."
+msgstr ""
+"ກົດປຸ່ມນີ້ "
+"ເພື່ອປັບແຕ່ງແຖບຂໍ້ຄວາມກຳກັບ"
+
+#: rc.cpp:41 rc.cpp:93
+msgid "Push this button to delete the sensor."
+msgstr ""
+"ກົດປຸ່ມນີ້ "
+"ເພື່ອລືບຕົວກວດຈັບ"
+
+#: rc.cpp:45
+msgid "Signal Plotter Settings"
+msgstr "ຕັ້ງຄ່າການພລອຕກຣາຟສັນຍານ"
+
+#: rc.cpp:49
+msgid "Style"
+msgstr "ຮູບແບບ"
+
+#: rc.cpp:52
+msgid "Graph Drawing Style"
+msgstr "ຮູບແບບການວາດກຣາຟ"
+
+#: rc.cpp:53
+msgid "Original - single line per data point"
+msgstr ""
+"ດັ້ງເດີມ - "
+"ຫນຶ່ງເສັ້ນຕໍ່ຂໍ້ມູນຫນຶ່ງຈຸດ"
+
+#: rc.cpp:54
+msgid "Basic polygons"
+msgstr "Basic polygons"
+
+#: rc.cpp:55
+msgid "Scales"
+msgstr "ປັບຂະຫນາດ"
+
+#: rc.cpp:56
+msgid "Vertical Scale"
+msgstr "ປັບຂະຫນາດໃນແນວຕັ້ງ"
+
+#: rc.cpp:57
+msgid "Minimum value:"
+msgstr "ຄ່າຕຳ່ສຸດ:"
+
+#: rc.cpp:58
+msgid "Automatic range detection"
+msgstr "ກວດສອບຊ່ວງໂດຍອັດຕະໂນມັດ"
+
+#: rc.cpp:59
+msgid ""
+"Check this box if you want the display range to adapt dynamically to the "
+"currently displayed values. If you don't check this, you have to specify the "
+"range you want in the fields below."
+msgstr ""
+"ເປີດໃຊ້ຕົວເລືອກນີ້ "
+"ຫາກທ່ານຕ້ອງການໃຫ້ຊ່ວງສະແດງຜົນ ຖຶກປັບໃຊ້ "
+"ກັບຄ່າທີ່ສະແດງໃນປັດຈຸບັນອັດຕະໂນມັດ ບໍ່ເຊັ່ນນັ້ນ"
+"ທ່ານຈະຕ້ອງລະບຸ "
+"ຊ່ວງທີ່ທ່ານຕ້ອງການໃນຊ່ວງຂໍ້ມູນດ້ານລຸ່ມນີ້"
+
+#: rc.cpp:61
+msgid "Maximum value:"
+msgstr "ຄ່າສູງສຸດ:"
+
+#: rc.cpp:63
+msgid "Horizontal Scale"
+msgstr "ປັບຂະຫນາດໃນແນວນອນ"
+
+#: rc.cpp:64
+msgid "Horizontal scale"
+msgstr "ປັບຂະຫນາດໃນແນວນອນ"
+
+#: rc.cpp:65
+msgid "pixel(s) per time period"
+msgstr "ພິກເຊລ ຕໍ່ຊ່ວງເວລາ"
+
+#: rc.cpp:66
+msgid "Grid"
+msgstr "ເສັ້ນກຣິດ"
+
+#: rc.cpp:67 rc.cpp:106
+msgid "Text"
+msgstr "ສະແດງຂໍ້ຄວາມ"
+
+#: rc.cpp:68
+msgid "Top bar"
+msgstr "ແຖບດ້ານເທິງ"
+
+#: rc.cpp:69
+msgid ""
+"Check this to active the display title bar. This is probably only useful for "
+"applet displays. The bar is only visible if the display is large enough."
+msgstr ""
+"ເປີດໃຊ້ຕົວເລືອກນີ້ "
+"ເພື່ອໃຫ້ມີການສະແດງແຖບຫົວເລື່ອງ ຊື່ງຄວນໃຊ້ສຳລັບ "
+"ການສະແດງຜົນແບບແອພເພລັຕ "
+"ຊື່ງແຖບນີ້ "
+"ຈະເຫັນໄດ້ເມື່ອຊ່ວງການສະແດງຜົນໃຫຍ່ພໍ"
+
+#: rc.cpp:70
+msgid "Labels"
+msgstr "ແຖບຂໍ້ຄວາມ"
+
+#: rc.cpp:71
+msgid ""
+"Check this box if horizontal lines should be decorated with the values they "
+"mark."
+msgstr ""
+"ເລືອກຕົວເລືອກນີ້ "
+"ຫາກຕ້ອງການໃຫ້ມີການສະແດງຄ່າຂອງເສັ້ນໃນແນວນວນດ້ວຍ"
+
+#: rc.cpp:72
+msgid "Font size:"
+msgstr "່ຂະຫນາດຕົວອັກສອນ:"
+
+#: rc.cpp:73
+msgid "Background"
+msgstr "ສີພື້ນຫລັງ"
+
+#: rc.cpp:74
+msgid "Lines"
+msgstr "ສະແດງເສັ້ນ"
+
+#: rc.cpp:75
+msgid "Vertical lines scroll"
+msgstr "ເລື່ອນເສັ້ນໃນແນວຕັ້ງ"
+
+#: rc.cpp:76
+msgid "Horizontal lines"
+msgstr "ເສັ້ນໃນແນວນອນ"
+
+#: rc.cpp:77
+msgid "Check this to enable horizontal lines if display is large enough."
+msgstr ""
+"ເປີດໃຊ້ຕົວເລືອກນີ້ "
+"ເພື່ອໃຫ້ສະແດງເສັ້ນໃນແນວນອນ "
+"ຫາກຊ່ວງການສະແດງຜົນໃຫຍ່ພໍ"
+
+#: rc.cpp:78
+msgid "Enter the number of horizontal lines here."
+msgstr "ຕື່ມຈຳນວນຂອງເສັ້ນໃນແນວນອນທີ່ນີ້"
+
+#: rc.cpp:79
+msgid "Enter the distance between two vertical lines here."
+msgstr "ຕື່ມລະຍະຫ່າງລະຫວ່າງເສັ້ນໃນແນວຕັ້ງສອງເສັ້ນທີ່ນີ້"
+
+#: rc.cpp:80
+msgid "Distance:"
+msgstr "ລະຍະຫ່າງ:"
+
+#: rc.cpp:81
+msgid "Count:"
+msgstr "ຈຳນວນ:"
+
+#: rc.cpp:82
+msgid "Vertical lines"
+msgstr "ເສັ້ນໃນແນວຕັ້ງ"
+
+#: rc.cpp:83
+msgid "Check this to activate the vertical lines if display is large enough."
+msgstr ""
+"ເປີດໃຊ້ຕົວເລືອກນີ້ "
+"ເພື່ອໃຫ້ມີການສະແດງເສັ້ນໃນແນວຕັ້ງ "
+"ຫາກຊ່ອງການສະແດງຜົນໃຫຍ່ພໍ"
+
+#: rc.cpp:85
+msgid "#"
+msgstr "#"
+
+#: rc.cpp:90
+msgid "&Set Color..."
+msgstr "ຕັ້ງຄ່າສີ..."
+
+#: rc.cpp:91
+msgid "Push this button to configure the color of the sensor in the diagram."
+msgstr ""
+"ກົດປຸ່ມນີ້ "
+"ເພື່ອປັບແຕ່ງຄ່າສີ "
+"ຂອງຕົວກວດຈັບໃນໄດອະແກຣມ"
+
+#: rc.cpp:94
+msgid "Move &Up"
+msgstr "ເລື່ອນຂື້ນ"
+
+#: rc.cpp:95
+msgid "Move &Down"
+msgstr "ເລື່ອນລົງ"
+
+#: rc.cpp:96
+msgid "Listview Settings"
+msgstr "ຕັ້ງຄ່າມຸມມອງລາຍການ"
+
+#: rc.cpp:98 rc.cpp:108 rc.cpp:135 rc.cpp:157
+msgid "Colors"
+msgstr "ສີ"
+
+#: rc.cpp:99 rc.cpp:158
+msgid "Text color:"
+msgstr "ສີຂໍ້ຄວາມ:"
+
+#: rc.cpp:100
+msgid "Grid color:"
+msgstr "ສີເສັ້ນກຣິດ:"
+
+#: rc.cpp:105
+msgid "Log File Settings"
+msgstr "ຕັ້ງຄ່າແຟ້ມບັນທືກຕິດຕາມ"
+
+#: rc.cpp:110
+msgid "Select Font..."
+msgstr "ລືອກຕົວອັກສອນ..."
+
+#: rc.cpp:111
+msgid "Filter"
+msgstr "ຕົວກອງ"
+
+#: rc.cpp:112
+msgid "&Add"
+msgstr "ເພີ້ມ"
+
+#: rc.cpp:114
+msgid "&Change"
+msgstr "ປ່ງນ"
+
+#: rc.cpp:118
+msgid "Multimeter Settings"
+msgstr "ຕັ້ງຄ່າຕົວວັດແບບຫລາຍຄ່າ"
+
+#: rc.cpp:121
+msgid "&Show unit"
+msgstr "ສະແດງຫນ່ວຍ"
+
+#: rc.cpp:122
+msgid "Enable this to append the unit to the title of the display."
+msgstr ""
+"ເປີດໃຊ້ຕົວເລືອກນີ້ "
+"ເພື່ອສະແດງຫນ່ວຍຕໍ່ໄປຍັງທ້າຍແຖບກຫົວເລື່ອງການສະແດງຜົນ"
+
+#: rc.cpp:130 rc.cpp:151
+msgid "Upper limit:"
+msgstr "ລະດັບສູງສຸດ:"
+
+#: rc.cpp:134 rc.cpp:147
+msgid "Lower limit:"
+msgstr "ລະດັບຕຳ່ສຸດ:"
+
+#: rc.cpp:136
+msgid "Normal digit color:"
+msgstr "ສີຕົວເລກປົກະຕິ:"
+
+#: rc.cpp:138
+msgid "Alarm digit color:"
+msgstr "ສີຕົວເລກທີ່ເຕືອນ:"
+
+#: rc.cpp:142
+msgid "Timer Interval"
+msgstr "ຊ່ວງຈັງຫວະເວລາ"
+
+#: rc.cpp:155
+msgid "Sensor Logger Settings"
+msgstr "ຕັ້ງຄ່າຕົວບັນທຶກຕົວກວດຈັບ"
+
+#: rc.cpp:160
+msgid "Alarm color:"
+msgstr "ສີການເຕືອນ:"
+
+#: rc.cpp:164
+msgid "Connect Host"
+msgstr "ເຊື່ອມຕໍ່ໄປຍັງໂຮສຕ໌"
+
+#: rc.cpp:165
+msgid "Host:"
+msgstr "ໂຮສຕ໌:"
+
+#: rc.cpp:166
+msgid "Enter the name of the host you want to connect to."
+msgstr "ຕື່ມຊື່ຂອງໂຮສຕ໌ທີ່ທ່ານຕ້ອງການເຊື່ອມຕໍ່"
+
+#: rc.cpp:170
+msgid "Connection Type"
+msgstr "ປະເພດຂອງການເຊື່ອມຕໍ່"
+
+#: rc.cpp:171
+msgid "&ssh"
+msgstr "&ssh"
+
+#: rc.cpp:172
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr ""
+"ເລືອກນີ້ "
+"ເພື່ອໃຊ້ເຊລລ໌ແບບເຂົ້າລະຫັດໃນການລັອກອິນໄປຍັງເຄື່ອງປາຍທາງ"
+
+#: rc.cpp:173
+msgid "&rsh"
+msgstr "&rsh"
+
+#: rc.cpp:174
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr ""
+"ເລືອກນີ້ "
+"ເພື່ອໃຫ້ໃຊ້ເຊລລ໌ລະຍະໄກໃນການລັອກອິນເຂົ້າໃຊ້ເຄື່ອງລະຍະໄກ"
+
+#: rc.cpp:175
+msgid "Daemon"
+msgstr "ເດມອນ"
+
+#: rc.cpp:176
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+"ຕື່ມນີ້ "
+"ຫາກທ່ານຕ້ອງການເຊື່ອມຕໍ່ໄປຍັງເດມອນ ksysguard "
+"ທີ່ທຳງານຢູ່ເທິງເຄື່ອງທີ່ທ່ານຈະເຊື່ອມຕໍ່ໄປ"
+
+#: rc.cpp:177
+msgid "C&ustom command"
+msgstr "ກຳນົດຄຳສັ່ງເອງ"
+
+#: rc.cpp:178
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+"ເລືອກນີ่້ "
+"ເພື່ອໃຊ້ຄຳສັ່ງທີ່ທ່ານຕື່ມດ້ານລຸ່ມ ໃນການເລີ້ມ ksysguardd "
+"ເທິງໂຮສຕ໌ລະຍະໄກ"
+
+#: rc.cpp:179
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr ""
+"ຕື່ມຄຳສັ້ງທີ່ຮງກ ksysguardd "
+"ທຳງານເທິງໂຮສຕ໌ທີ່ທ່ານຕ້ອງການສອດສ່ອງ"
+
+#: rc.cpp:180
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr "ເຊັ່ນ ssh -l root remote.host.org ksysguardd"
+
+#: rc.cpp:181
+msgid "Port:"
+msgstr "ພອຣ໌ຕ:"
+
+#: rc.cpp:182
+msgid "e.g.  3112"
+msgstr "ເຊັ່ນ 3112"
+
+#: rc.cpp:183
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr ""
+"ຕື່ມຫມາຍເລກພອຣ໌ຕ "
+"ທີ່ຈະໃຫ້ເດມອນ ksysguard "
+"ຖ້າຮັບການເຊື່ອມຕໍ່"
+
+#: rc.cpp:184
+msgid "Command:"
+msgstr "ຄຳສັ່ງ:"
+
+#: rc.cpp:185
+msgid "Global Style Settings"
+msgstr "ຕັ້ງຄ່າຮູບແບບທົ່ວໄປ"
+
+#: rc.cpp:186
+msgid "Display Style"
+msgstr "ຮູບແບບການສະແດງຜົນ"
+
+#: rc.cpp:187
+msgid "&Background color:"
+msgstr "ສີພື້ນຫລັງ:"
+
+#: rc.cpp:188
+msgid "Foreground color &1:"
+msgstr "ີສີພື້ນຫນ້າ &1:"
+
+#: rc.cpp:189
+msgid "Foreground color &2:"
+msgstr "ສີພື້ນຫນ້າ &2:"
+
+#: rc.cpp:190
+msgid "A&larm color:"
+msgstr "ສີການເຕືອນ:"
+
+#: rc.cpp:192
+msgid "Sensor Colors"
+msgstr "ສີຕົວກວດຈັບ"
+
+#: rc.cpp:198
+msgid "Timer Settings"
+msgstr "ຕັ້ງຄ່າຕົວຈັບເວລາ"
+
+#: rc.cpp:200
+msgid "&Use update interval of worksheet"
+msgstr "ໃຊ້ຊ່ວງເວລາປັບປຸງພາຍໃນຂອງຊີດງານ"
+
+#: rc.cpp:201
+msgid "Update &interval:"
+msgstr "ຊ່ວງຈັງຫວະການອັບເດດ:"
+
+#: KSGAppletSettings.cc:67 WorkSheetSettings.cc:92 rc.cpp:202
+msgid " sec"
+msgstr "ວິນາທີ"
+
+#: WorkSheetSettings.cc:100 rc.cpp:203
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr ""
+"ທຸກຊ່ອງການສະແດງຜົນຂອງຊີດ "
+"ຈະປັບປຸງຂໍ້ມູນຕາມຊ່ວງຈັງຫວະເວລາທີ່ລະບຸທີ່ນີ້"
+
+#: SensorBrowser.cc:76
+msgid "Sensor Browser"
+msgstr "ສະແດງຕົວກວດຈັບ"
+
+#: SensorBrowser.cc:77
+msgid "Sensor Type"
+msgstr "ປະເພດຕົວກວດຈັບ"
+
+#: SensorBrowser.cc:78
+msgid "Drag sensors to empty cells of a worksheet or the panel applet."
+msgstr ""
+"ລາກຕົວກວດຈັບໄປຍັງຊ່ອງທີ່ວ່າງເທິງຊີດງານ "
+"ຫລືແອພເພລັຕຂອງພາເນລ"
+
+#: SensorBrowser.cc:87
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet or the panel "
+"applet. A display will appear that visualizes the values provided by the "
+"sensor. Some sensor displays can display values of multiple sensors. Simply "
+"drag other sensors on to the display to add more sensors."
+msgstr ""
+"ຕົວສະແດງລາຍການຕົວກວດຈັບ "
+"ສະແດງລາຍການໂຮສຕ໌ທີ່ເຊື່ອມຕໍ່ຢູ່ ກົດຄ້າງໄວ້ "
+"ແລ້ວລາກຕົວກວດຈັບໄປຍັງພື້ນທີ່ວ່າງຂອງຊີດງານ "
+"ຫລືແອພເພລັຕຂອງພາເນລ "
+"ແລະຈະປະກົດຊ່ອງສະແດງຜົນເພື່ອສະແດງຄ່າທີ່ກວດຈັບຂອງຕົວກວດຈັບຊ່ອງການສະແດງຜົນບາງຊ່ອງ"
+"ສາມາດສະແດງຄ່າຂອງຕົວກວດຈັບໄດ້ຫລາຍຕົວ"
+"ຊື່ງການເພີ້ມຕົວກວດຈັບ ເຮັດໄດ້ໂດຍການລາກຕົວກວດຈັບອື່ນໆ ໄປຍັງພື້ນທີ່ສະແດງຜົນ"
+
+#: SensorBrowser.cc:145
+msgid "Drag sensors to empty fields in a worksheet"
+msgstr "ລາກຕົວກວດຈັບໄປຍັງພື້ນທີ່ວ່າງໆ ຂອງຊີດງານ"
+
+#: KSysGuardApplet.cc:306 WorkSheet.cc:92
+#, c-format
+msgid "Can't open the file %1."
+msgstr "ບໍ່ສາມາດເປີດແຟ້ມ%1 ໄດ້"
+
+#: KSysGuardApplet.cc:315 WorkSheet.cc:100
+msgid "The file %1 does not contain valid XML."
+msgstr ""
+"ແຟ້ມ %1 ອາດຈະບໍ່ໄດ້ເປັນແຟ້ມ "
+"XML ທີ່ໃຊ້ໄ້ດ້"
+
+#: WorkSheet.cc:107
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"ແຟ້ມ %1 "
+"ບໍ່ມີການກຳນົດຄ່າຊີດງານທີ່ໃຊ້ໄດ້"
+"ຊື່ງຈະຕ້ອງເປັນເອກະສານປະເພດ'KSysGuardWorkSheet'"
+
+#: WorkSheet.cc:123
+msgid "The file %1 has an invalid worksheet size."
+msgstr ""
+"ແຟ້ມ %1 "
+"ມີຂະຫນາດຂອງຊີດງານທີ່ໃຊ້ບໍ່ໄດ້"
+
+#: KSysGuardApplet.cc:450 WorkSheet.cc:220
+#, c-format
+msgid "Can't save file %1"
+msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມ%1 ໄດ້"
+
+#: WorkSheet.cc:268
+msgid "The clipboard does not contain a valid display description."
+msgstr ""
+"ຄຣິບບອຣ໌ດ"
+"ບໍ່ມີລາຍລະອງດຂອງຊ່ອງການສະແດງຜົນທີ່ໃຊ້ໄດ້"
+
+#: KSysGuardApplet.cc:195 WorkSheet.cc:321
+msgid "Select Display Type"
+msgstr "ເລືອກປະເພດຂອງຊ່ອງການສະແດງຜົນ"
+
+#: KSysGuardApplet.cc:198 WorkSheet.cc:324
+msgid "&Signal Plotter"
+msgstr "ຕົວພລອຕສັນຍານ"
+
+#: KSysGuardApplet.cc:199 WorkSheet.cc:325
+msgid "&Multimeter"
+msgstr "ຕວດຈັບຫລາຍຕົວ"
+
+#: WorkSheet.cc:326
+msgid "&BarGraph"
+msgstr "&ກຣາຟແທ່ງ"
+
+#: WorkSheet.cc:327
+msgid "S&ensorLogger"
+msgstr "ຕົວຕິດຕາມຕົວກວດຈັບ"
+
+#: KSysGuardApplet.cc:246 WorkSheet.cc:453
+msgid "Do you really want to delete the display?"
+msgstr "ທ່ານຕ້ອງການລຶບຊ່ອງການສະແດງຜົນນີ້ ແມ່ນຫລືບໍ່?"
+
+#: Workspace.cc:50
+msgid ""
+"This is your work space. It holds your worksheets. You need to create a new "
+"worksheet (Menu File->New) before you can drag sensors here."
+msgstr ""
+"ນີ້ເປັນພື້ນທີ່ການທຳງານຂອງທ່ານ ຫາກຕ້ອງການສ້າງຊີດງານໃຫມ່"
+"(ທີ່ເມນູFile->New) "
+"ກ່ອນທີ່ທ່ານຈະສາມາດລາກຕົວກວດຈັບມາຍັງທີ່ນີ້ໄດ້"
+
+#: Workspace.cc:102 ksysguard.cc:165
+msgid "Process Table"
+msgstr "ຕາລາງໂປຣເຊສ"
+
+#: Workspace.cc:132
+#, c-format
+msgid "Sheet %1"
+msgstr "ຊີດ%1"
+
+#: Workspace.cc:160 Workspace.cc:300
+msgid ""
+"The worksheet '%1' contains unsaved data.\n"
+"Do you want to save the worksheet?"
+msgstr ""
+"ຊີດງານ'%1' "
+"ມີຂໍ້ມູນທີ່ຍັງບໍ່ໄດ້ບັນທຶກ\n"
+"ທ່ານຕ້ອງການບັນທຶກຊີດງານຫລືບໍ່ ?"
+
+#: Workspace.cc:176 Workspace.cc:230
+msgid "*.sgrd|Sensor Files"
+msgstr "*.sgrd|ແຟ້ມການກວດຈັບ"
+
+#: Workspace.cc:179
+msgid "Select Worksheet to Load"
+msgstr "ເລືອກຊີດງານທີ່ຕ້ອງການຮງກໃຊ້"
+
+#: Workspace.cc:224 Workspace.cc:264
+msgid "You don't have a worksheet that could be saved!"
+msgstr "ທ່ານບໍ່ມີຊີດງານທີ່ສາມາດບັນທຶກລົງໄປໄດ້!"
+
+#: Workspace.cc:234
+msgid "Save Current Worksheet As"
+msgstr "ບັນທຶກຊີດງານປັດຈຸບັນເປັນ"
+
+#: Workspace.cc:314
+msgid "There are no worksheets that could be deleted!"
+msgstr "ບໍ່ມີຊີດງານທີ່ສາມາດລຶບໄດ້!"
+
+#: Workspace.cc:440
+msgid "Cannot find file ProcessTable.sgrd!"
+msgstr ""
+"ບໍ່ສາມາດຄົ້ນຫາແຟ້ມProcessTable.sgrd "
+"ໄດ້!"
+
+#: ksysguard.cc:60 ksysguard.cc:70 ksysguard.cc:557
+msgid "KDE System Guard"
+msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
+
+#: ksysguard.cc:92
+msgid "88888 Processes"
+msgstr "88888 ໂປຣເຊສ"
+
+#: ksysguard.cc:93
+msgid "Memory: 8888888 kB used, 8888888 kB free"
+msgstr ""
+"ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ8888888 kB, "
+"ເຫລືອ 8888888 kB"
+
+#: ksysguard.cc:95
+msgid "Swap: 8888888 kB used, 8888888 kB free"
+msgstr ""
+"ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: ໃ່ຊ້ໄປ 8888888 "
+"kB, ເຫລືອ 8888888 kB"
+
+#: ksysguard.cc:110
+msgid "C&onnect Host..."
+msgstr "ເຊື່ອມຕໍ່ໄປຍັງໂຮສຕ໌..."
+
+#: ksysguard.cc:112
+msgid "D&isconnect Host"
+msgstr "ຍຸດຕິການເຊື່ອມຕໍ່ກັບໂຮສຕ໌"
+
+#: ksysguard.cc:118
+msgid "&Work Sheet Properties..."
+msgstr "ຄຸນສົມບັດຊີດງານ..."
+
+#: ksysguard.cc:128
+msgid "Configure &Style..."
+msgstr "ປັບແຕ່ງຮູບແບບ..."
+
+#: ksysguard.cc:146
+msgid "Do you really want to restore the default worksheets?"
+msgstr "ທ່ານຕ້ອງການເອີ້ນຄືນຊີດງານປຣິຍາຍ ແມ່ນຫລືບໍ່ ?"
+
+#: ksysguard.cc:147
+msgid "Reset All Worksheets"
+msgstr "ປັບຄ່າທຸກຊີດງານເປັນຄ່າປຣິຍາຍ"
+
+#: ksysguard.cc:454
+#, c-format
+msgid ""
+"_n: 1 Process\n"
+"%n Processes"
+msgstr "%n ໂປຣເຊສ"
+
+#: ksysguard.cc:464
+msgid "Memory: %1 %2 used, %3 %4 free"
+msgstr ""
+"ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ %1 %2, ເຫລືອ %3 "
+"%4"
+
+#: ksysguard.cc:471
+msgid "Swap: %1 %2 used, %3 %4 free"
+msgstr ""
+"ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: ່ໃຊ້ໄປ %1 %2, "
+"ເຫລືອ %3 %4"
+
+#: ksysguard.cc:516
+msgid "Show only process list of local host"
+msgstr "ສະແດງສະເພາະລາຍການໂປຣເຊສຂອງໂຮສຕ໌ນີ້ເທົ່ານັ້ນ"
+
+#: ksysguard.cc:517
+msgid "Optional worksheet files to load"
+msgstr "ແຟ້ມຕົວເລືອກຊີດງານທີ່່ຈະເອີ້ນໃຊ້"
+
+#: ksysguard.cc:559
+msgid "(c) 1996-2002 The KSysGuard Developers"
+msgstr "(c) 1996-2002 ກຸ່ມຜູ້ພັດທະນາ KSysGuard"
+
+#: ksysguard.cc:567
+msgid ""
+"Solaris Support\n"
+"Parts derived (by permission) from the sunos5\n"
+"module of William LeFebvre's \"top\" utility."
+msgstr ""
+"Solaris Support\n"
+"Parts derived (by permission) from the sunos5\n"
+"module of William LeFebvre's \"top\" utility."
+
+#: KSysGuardApplet.cc:200
+msgid "&Dancing Bars"
+msgstr "ແຖບເຕັ້່ນໄດ້"
+
+#: KSysGuardApplet.cc:227 KSysGuardApplet.cc:379
+msgid ""
+"The KSysGuard applet does not support displaying of this type of sensor. "
+"Please choose another sensor."
+msgstr ""
+"ແອພເພລັຕ KSysGuard "
+"ບໍ່ສະຫນັບສະຫນູນການສະແດງຜົນຂອງ\nຕົວກວດຈັບປະເພດນີ້ ກະລຸນາເລືອກຕົວກວດຈັບປະເພດອື່ນ"
+
+#: KSysGuardApplet.cc:322
+msgid ""
+"The file %1 does not contain a valid applet definition, which must have a "
+"document type 'KSysGuardApplet'."
+msgstr ""
+"ແຟ້ມ %1 "
+"ອາດຈະບໍ່ໄດ້ເກັບຄ່າການກຳນົດແອພເພລັຕ\nທີ່ໃຊ້ໄດ້ ຊື່ງມັນຄວນຈະເປັນເອກະສານປະເພດ\n"
+"'KSysGuardApplet'"
+
+#: KSysGuardApplet.cc:467
+msgid "Drag sensors from the KDE System Guard into this cell."
+msgstr ""
+"ລາກຕົວກວດຈັບຈາກ KDE System Guard "
+"ເຂົ້າໄປໃນຊ່ອງນີ້"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "ືneuk"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "neuk@yahoo.com"
+
+#: KSGAppletSettings.cc:34
+msgid "KSysGuard Applet Settings"
+msgstr "ຕັ້ງຄ່າແອພເພລັຕ KSysGuard"
+
+#: KSGAppletSettings.cc:42
+msgid "Number of displays:"
+msgstr "ຈຳນວນຂອງການສະແດງຜົນ:"
+
+#: KSGAppletSettings.cc:51
+msgid "Size ratio:"
+msgstr "ອັດຕາສ່ວນຂະຫນາດ:"
+
+#: KSGAppletSettings.cc:57
+#, c-format
+msgid "%"
+msgstr "%"
+
+#: KSGAppletSettings.cc:61 WorkSheetSettings.cc:86
+msgid "Update interval:"
+msgstr "ຊ່ວງຈັງຫວະການອັບເດດ:"
+
+#: WorkSheetSettings.cc:42
+msgid "Worksheet Properties"
+msgstr "ຄຸູນສົມບັດຊີດງານ"
+
+#: WorkSheetSettings.cc:68
+msgid "Rows:"
+msgstr "ແຖວ:"
+
+#: WorkSheetSettings.cc:77
+msgid "Columns:"
+msgstr "ຖັນ:"
+
+#: WorkSheetSettings.cc:98
+msgid "Enter the number of rows the sheet should have."
+msgstr "ຕື່ມຈຳນວນແຖວຂອງຊີດ"
+
+#: WorkSheetSettings.cc:99
+msgid "Enter the number of columns the sheet should have."
+msgstr "ຕື່ມຈຳນວນຖັນຂອງຊີດ"
+
+#: WorkSheetSettings.cc:101
+msgid "Enter the title of the worksheet here."
+msgstr "ຕື່ມແຖບຫົວເລື່ອງຂອງຊີດງານທີ່ນີ້"
+
+#~ msgid "KSGAppletSettingsWidget"
+#~ msgstr "ตั้งค่าแอพเพล็ต KSysGuard"
+
+#~ msgid "sec."
+#~ msgstr "วินาที"
+
+#~ msgid "Ok"
+#~ msgstr "ใช้ได้"
+
+#~ msgid "Foreground Color"
+#~ msgstr "สีพื้นหน้า"
+
+#~ msgid "Background Color"
+#~ msgstr "สีพื้นหลัง"
+
+#~ msgid "Alarm Color"
+#~ msgstr "สีการเตือน"
+
+#~ msgid "&Apply to Current Worksheet"
+#~ msgstr "ปรับให้มีผลกับชีตงานปัจจุบัน"
+
+#~ msgid "&Properties"
+#~ msgstr "คุณสมบัติ"
+
+#~ msgid "Update Interval"
+#~ msgstr "ช่วงจังหวะการอัพเดท"
+
+#~ msgid "&Font Size"
+#~ msgstr "ขนาดตัวอักษร"
+
+#~ msgid "Enter here the number of displays you want to embed into the panel."
+#~ msgstr "เติมจำนวนของการแสดงผลที่ต้องการฝังเข้าไปยังพาเนลที่นี่"
+
+#~ msgid ""
+#~ "This setting controls the width/height ratio for horizontal panels and "
+#~ "the height/width ratio for vertical panels (e.g. To have the displays in "
+#~ "a horizontal panel twice as wide as their height enter 200%. To have them "
+#~ "half as wide enter 50%)."
+#~ msgstr ""
+#~ "การตั้งค่านี้ จะควบคุมอัตราส่วนความกว้าง/ความยาว ของพาเนลแนวนอน และ อัตราส่วน "
+#~ "ความกว้าง/ความสูงของพาเนลแนวตั้ง (เช่น แสดงผลในพาเนลแนวนอน "
+#~ "โดยให้กว้างเป็นสองเท่าของความสูง)"
+
+#~ msgid "Update Interval [seconds]"
+#~ msgstr "ช่วงระยะปรับปรุงข้อมูล [วินาที]"
+
+#~ msgid "Enter here the rate at which displays should be updated."
+#~ msgstr "เติมช่วงเวลาที่จะให้ปรับปรุงการแสดงผลเป็นระยะ"
+
+#~ msgid "Renice process"
+#~ msgstr "ตั้งความสำคัญโปรเซสใหม่"
+
+#~ msgid "Can't open the file %1"
+#~ msgstr "ไม่สามารถเปิดแฟ้ม %1 ได้"
+
+#~ msgid "The file %1 does not contain valid XML"
+#~ msgstr "แฟ้ม %1 ไม่มีส่วน XML ที่ใช้ได้"
+
+#~ msgid "%1 Processes"
+#~ msgstr "%1 โปรเซส"
+

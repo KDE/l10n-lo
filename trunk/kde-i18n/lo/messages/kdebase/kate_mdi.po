@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2001-02-09 01:25+0100\n"
+"PO-Revision-Date: 2003-01-02 13:35+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-xml2pot; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: index.docbook:3
+#, no-c-format
+msgid "Working With the &kate; <acronym>MDI</acronym>"
+msgstr ""
+
+#: index.docbook:6
+#, no-c-format
+msgid "Overview"
+msgstr ""
+
+#: index.docbook:8
+#, no-c-format
+msgid ""
+"Window, View, Document, Frame, Editor... What are they all in the "
+"terminology of &kate;, and how do you get the most out of it? This "
+"chapter will explain all of that, and even more."
+msgstr ""
+
+#: index.docbook:14
+#, no-c-format
+msgid "The Main Window"
+msgstr ""
+
+#: index.docbook:16
+#, no-c-format
+msgid ""
+"The &kate; Main Window is a standard &kde; application window, with "
+"the addition of dockable subwindows, or tool windows. It has a "
+"Menubar with all the common menus, and some more, and a toolbar "
+"providing access to commonly used commands."
+msgstr ""
+
+#: index.docbook:21
+#, no-c-format
+msgid ""
+"The most important part of the window is the Editing Area, by "
+"default displaying a single text editor component, in which you can "
+"work with your documents."
+msgstr ""
+
+#: index.docbook:25
+#, no-c-format
+msgid "The docking capabilities of the window is used for the tool windows:"
+msgstr ""
+
+#: index.docbook:28 index.docbook:87
+#, no-c-format
+msgid "The File List"
+msgstr ""
+
+#: index.docbook:28 index.docbook:106
+#, no-c-format
+msgid "The File Selector"
+msgstr ""
+
+#: index.docbook:28 index.docbook:190
+#, no-c-format
+msgid "The Built in Terminal Emulator"
+msgstr ""
+
+#: index.docbook:34
+#, no-c-format
+msgid "And possibly other tool windows, for example provided by plugins."
+msgstr ""
+
+#: index.docbook:37
+#, no-c-format
+msgid ""
+"The Tool Windows can be placed anywhere you want them inside or "
+"outside the main window by dragging the handle bar in the top of "
+"them with the &LMB; pressed, and stacked in shared tab windows if "
+"desired."
+msgstr ""
+
+#: index.docbook:42
+#, no-c-format
+msgid ""
+"When dragging a docked window, a black rectangle will be displayed "
+"to indicate where the window will be placed if you release the mouse "
+"button, unless you move the mouse cursor outside the main window, in "
+"which case the dragged window will become a free floating top level "
+"window."
+msgstr ""
+
+#: index.docbook:55
+#, no-c-format
+msgid "The Editor area"
+msgstr ""
+
+#: index.docbook:57
+#, no-c-format
+msgid ""
+"&kate; is capable of having more than one document open at the same "
+"time, and also of splitting the editing area into any number of "
+"frames, similar to how for example &konqueror; or the popular "
+"<application>emacs</application> text editor works. This way you can "
+"view several documents at the same time, or more instances of the "
+"same document, handy for example if your document contains "
+"definitions in the top that you want to see often for reference. Or "
+"you could view a program source header in one frame, while editing "
+"the implementation file in another."
+msgstr ""
+
+#: index.docbook:67
+#, no-c-format
+msgid ""
+"When a document is available in more than one editor, changes made "
+"in one editor will immediately be reflected in the others as well. "
+"This includes changing the text as well as selecting text. Search "
+"operations or cursor movement is only reflected in the current "
+"editor."
+msgstr ""
+
+#: index.docbook:73
+#, no-c-format
+msgid ""
+"It is currently not possible to have more instances of the same "
+"document open in the sense that one instance will be edited while "
+"the other will not."
+msgstr ""
+
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"When splitting an editor into two frames, it is divided into two "
+"equally sized frames, both displaying the current document of that "
+"editor. The new frame will be at the bottom (in the case of a "
+"horizontal split) or at the right (for a vertical split). The new "
+"frame gets the focus, which is visualized by a small green led in "
+"the focused frame."
+msgstr ""
+
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"The file list displays a list of all documents currently open in "
+"&kate;. Modified files will have a small <guiicon>floppy disk</"
+"guiicon> icon on their left to indicate that state."
+msgstr ""
+
+#: index.docbook:93
+#, no-c-format
+msgid ""
+"If two or more files with the same name (located in different "
+"directories) are open, the names of the second will be prepended "
+"<quote>&lt;2&gt;</quote> and so on. The tool-tip for the file will "
+"display its full name including the path, allowing you to choose the "
+"desired one."
+msgstr ""
+
+#: index.docbook:97
+#, no-c-format
+msgid ""
+"To display a document in the currently active frame, click the "
+"document name in the list."
+msgstr ""
+
+#: index.docbook:100
+#, no-c-format
+msgid ""
+"The default location in the &kate; window is to the left of the "
+"editing area, in a dockable tab window shared with the <link linkend="
+"\"kate-mdi-tools-file-selector\">File Selector</link>."
+msgstr ""
+
+#: index.docbook:108
+#, no-c-format
+msgid ""
+"The File Selector is a directory viewer, allowing you to open files "
+"from a displayed directory in the current frame."
+msgstr ""
+
+#: index.docbook:111
+#, no-c-format
+msgid "From top down, the file selector consist of the following elements:"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "A Toolbar"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "This contains standard navigations tool buttons:"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "Home"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"Pressing it will cause the directory view to <command>cd</command> "
+"to your home directory."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "<guibutton>Up</guibutton>"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"This will cause the directory view to <command>cd</command> to the "
+"immediate parent of the currently displayed directory if possible."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "Back"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"Causes the directory view to <command>cd</command> to the previously "
+"displayed directory in the history. This button is disabled, if "
+"there is no previous item."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "Forward"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"Causes the directory view to <command>cd</command> to the next "
+"directory in the history. This button is disabled, if there is no "
+"next directory."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "Sync"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"This button will cause the directory view to <command>cd</command> "
+"to the directory of the currently active document if possible. This "
+"button is disabled, if the active document is a new, unsaved file, "
+"or the directory in which it resides can not be decided."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "A &URL; entry"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"Here you can type the path of a directory to browse. The URL entry "
+"is maintaining a list of previously typed paths, to choose one use "
+"the arrow button on the right of the entry."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"The &URL; entry has directory auto-completion, the completion method "
+"can be set using the &RMB; menu of the text entry."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "A Directory View"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "This is a standard &kde; directory view."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid "A Filter Entry"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"The Filter entry allows you to enter a filter for the files "
+"displayed in the directory view. The filter is using standard globs, "
+"patterns must be separated by whitespace. Example: <userinput>*.cpp "
+"*.h *.moc</userinput>"
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"To display all files, enter a single asterisk <userinput>*</"
+"userinput>."
+msgstr ""
+
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"The filter entry saves the last 10 filters entered between sessions, "
+"to use one, press the arrow button on the right of the entry and "
+"select the desired filter string."
+msgstr ""
+
+#: index.docbook:192
+#, no-c-format
+msgid ""
+"The built in Terminal Emulator is a copy of the &kde; &konsole; "
+"terminal application, for your convenience. It is available from the "
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show Terminal "
+"Emulator</guimenuitem></menuchoice> menu item or the<keycombo action="
+"\"simul\"><keycap>F7</keycap></keycombo>, and will get the focus "
+"whenever displayed. Additionally, if the <link linkend=\"config-"
+"dialog-general-sync-konsole\">Sync &konsole; with active document</"
+"link> option is enabled, it will <command>cd</command> into the "
+"directory of the current document if possible when it is displayed, "
+"or when the current document changes."
+msgstr ""
+
+#: index.docbook:204
+#, no-c-format
+msgid ""
+"The default location in the &kate; window is at the bottom, below "
+"the editing area."
+msgstr ""
+
+#: index.docbook:207
+#, no-c-format
+msgid ""
+"You can configure the &konsole; using it's &RMB; menu, for more "
+"information, see the &konsole; manual."
+msgstr ""
+
