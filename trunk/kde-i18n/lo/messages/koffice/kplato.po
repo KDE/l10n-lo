@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-12-01 11:48+0100\n"
+"POT-Creation-Date: 2003-12-10 01:42+0100\n"
 "PO-Revision-Date: 2003-01-18 11:31+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -18,132 +18,591 @@ msgstr ""
 msgid "&Project"
 msgstr "&ໂຄງການ"
 
-#: kptmilestonedialog.cc:32
-msgid "Milestone Settings"
-msgstr "ຕັ້ງຄ່າໂຄງການ"
-
-#: kptmilestonedialog.cc:37 kptprojectdialog.cc:37 kptresourcedialog.cc:40
-#: kpttaskdialog.cc:37
-msgid "Settings"
-msgstr "ຕັ້ງຄ່າ"
-
-#: kptmilestonedialog.cc:42
-msgid "Milestone name:"
-msgstr "Milestone name:"
-
-#: kptmilestonedialog.cc:46 kptprojectdialog.cc:51 kpttaskdialog.cc:50
-msgid "Description:"
-msgstr "ລາຍລະອຽດ:"
-
-#: kptmilestonedialog.cc:56
-msgid "You have to set a name for this milestone"
-msgstr "ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
-
-#: kptaboutdata.h:31 kptpart.cc:62
-msgid "KPlato"
-msgstr "ໂປແກນວາງແຜບK"
-
-#: kptprojectdialog.cc:32
-msgid "Project Settings"
-msgstr "ຕັ້ງຄ່າໂຄງການ"
-
-#: kptprojectdialog.cc:42
-msgid "Project name:"
-msgstr "ຊື່ໂຄງການ:"
-
-#: kptprojectdialog.cc:46
-msgid "Project leader:"
-msgstr "ຫົວຫມ້າໂຄງການ:"
-
-#: kptprojectdialog.cc:60 kpttaskdialog.cc:62
-msgid "You have to set a name and leader for the project"
-msgstr "ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
-
-#: kptresourcedialog.cc:35
-msgid "Edit Resource"
-msgstr "Edit Resource"
-
-#: kptresourcedialog.cc:45
-msgid "Resource name:"
-msgstr "Resource name:"
-
-#: kptresourcedialog.cc:48
-msgid "Available:"
-msgstr " Available:"
-
-#: kptresourcedialog.cc:62
-msgid "You have to set a name for this resource"
-msgstr "ເຈົ້າຈະຕ້ອງການຕັ້ງຄ່າຊື່ແລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
-
-#: kpttaskdialog.cc:32
-msgid "Task Settings"
-msgstr "ຕັ້ງຄ່າງານ"
-
-#: kpttaskdialog.cc:42
-msgid "Task name:"
-msgstr "ຊື່ງານ:"
-
-#: kpttaskdialog.cc:46
-msgid "Task leader:"
-msgstr "ຫົວຫມ້າງານ:"
-
-#: kptview.cc:82
+#: rc.cpp:7
 msgid "Project"
 msgstr "ໂຄງການ"
 
-#: kptview.cc:83
-msgid "Leader"
-msgstr "ຫົວຫມ້າ"
+#: kptdurationdialog.cc:26 rc.cpp:8
+#, fuzzy
+msgid "Adjust Duration"
+msgstr "ລາຍລະອຽດ:"
 
-#: kptview.cc:84
-msgid "Description"
-msgstr "ລາຍລະອຽດ"
+#: rc.cpp:9
+#, fuzzy
+msgid "Duration:"
+msgstr "ລາຍລະອຽດ:"
 
-#: kptview.cc:99
-msgid "Gantt"
-msgstr "Gantt"
+#: rc.cpp:10
+msgid "Less then a day:"
+msgstr ""
 
-#: kptview.cc:101
-msgid "PERT"
-msgstr "PERT"
+#: rc.cpp:11
+msgid "Amount of days:"
+msgstr ""
 
-#: kptview.cc:103
+#: rc.cpp:12
+msgid "Adjust Time"
+msgstr ""
+
+#: rc.cpp:14
+msgid "Subtract"
+msgstr ""
+
+#: rc.cpp:15
+msgid "Day(s)"
+msgstr ""
+
+#: rc.cpp:16
+msgid "Week(s)"
+msgstr ""
+
+#: rc.cpp:17
+msgid "Year(s)"
+msgstr ""
+
+#: rc.cpp:18
+msgid "Leap Year(s)"
+msgstr ""
+
+#: rc.cpp:19
+msgid "Hour(s)"
+msgstr ""
+
+#: rc.cpp:20
+msgid "Minute(s)"
+msgstr ""
+
+#: rc.cpp:21
+msgid "Second(s)"
+msgstr ""
+
+#: rc.cpp:23
+msgid "KPTProjectDialogBase"
+msgstr ""
+
+#: rc.cpp:24 rc.cpp:42
+msgid "&General"
+msgstr ""
+
+#: rc.cpp:26
+msgid ""
+"Give a name to the project to identify it. Example can be 'rewrite explorer' "
+"or 'housing project C2'"
+msgstr ""
+
+#: rc.cpp:27
+#, fuzzy
+msgid "Project &leader:"
+msgstr "ຫົວຫມ້າໂຄງການ:"
+
+#: rc.cpp:28
+#, fuzzy
+msgid "Project n&ame:"
+msgstr "ຊື່ໂຄງການ:"
+
+#: rc.cpp:29 rc.cpp:47
+msgid "&Choose..."
+msgstr ""
+
+#: rc.cpp:30 rc.cpp:48
+msgid "Scheduling"
+msgstr ""
+
+#: rc.cpp:31 rc.cpp:49
+msgid "The scheduling type will influence how variable times events are placed"
+msgstr ""
+
+#: rc.cpp:32 rc.cpp:50
+msgid "ASAP"
+msgstr ""
+
+#: rc.cpp:33 rc.cpp:51
+msgid "ALAP"
+msgstr ""
+
+#: kptprojectdialog.cc:98 rc.cpp:34
+msgid "Start not Earlier then"
+msgstr ""
+
+#: kptprojectdialog.cc:102 rc.cpp:35
+msgid "Finish not Later then"
+msgstr ""
+
+#: kptprojectdialog.cc:106 kpttaskdialog.cc:120 rc.cpp:36 rc.cpp:54
+msgid "Must Start on"
+msgstr ""
+
+#: rc.cpp:37
+msgid "Starting date"
+msgstr ""
+
+#: rc.cpp:38 rc.cpp:56
+msgid "Specify time:"
+msgstr ""
+
+#: rc.cpp:39 rc.cpp:57
+msgid "&Notes"
+msgstr ""
+
+#: rc.cpp:40 rc.cpp:58
+#, fuzzy
+msgid "&Project notes and summary:"
+msgstr "ຫົວຫມ້າໂຄງການ:"
+
+#: rc.cpp:41
+msgid "KPTTaskDialogBase"
+msgstr ""
+
+#: rc.cpp:44
+msgid "Give a name to the task to identify it."
+msgstr ""
+
+#: rc.cpp:45
+msgid "&Responsible:"
+msgstr ""
+
+#: rc.cpp:46
+#, fuzzy
+msgid "Task n&ame:"
+msgstr "ຊື່ງານ:"
+
+#: kpttaskdialog.cc:112 rc.cpp:52
+msgid "Start not Earlier than"
+msgstr ""
+
+#: kpttaskdialog.cc:116 rc.cpp:53
+msgid "Finish not Later than"
+msgstr ""
+
+#: rc.cpp:55
+msgid "Date"
+msgstr ""
+
+#: rc.cpp:59
+#, fuzzy
+msgid "RequestResourcesPanelBase"
+msgstr "Resource name:"
+
+#: kptprojectdialog.cc:49 kpttaskdialog.cc:53 kptview.cc:118 rc.cpp:60
 msgid "Resources"
 msgstr "Resources"
 
-#: kptview.cc:107
-msgid "Sub-Project..."
-msgstr "ເພີ້ນໂຄງການຍ່ອຍ..."
+#: rc.cpp:61
+msgid "Or assign specific resources:"
+msgstr ""
 
-#: kptview.cc:109
-msgid "Task..."
-msgstr "ເພີ້ນງານ..."
+#: rc.cpp:62
+#, fuzzy
+msgid "Group"
+msgstr "ຊື່ໂຄງການ:"
 
-#: kptview.cc:111
-msgid "Milestone..."
-msgstr "ເພີ້ນລະຍະເວລາ..."
+#: rc.cpp:63
+msgid "Max. units"
+msgstr ""
 
-#: kptview.cc:115
+#: kptganttview.cc:113 rc.cpp:64 rc.cpp:104
+#, fuzzy
+msgid "Resource"
+msgstr "Resources"
+
+#: rc.cpp:65
+msgid "Enter number of units:"
+msgstr ""
+
+#: rc.cpp:66
+msgid "Effort"
+msgstr ""
+
+#: rc.cpp:67
+msgid "Work based"
+msgstr ""
+
+#: rc.cpp:68
+#, fuzzy
+msgid "Fixed duration"
+msgstr "ລາຍລະອຽດ:"
+
+#: rc.cpp:69
+msgid "No risk"
+msgstr ""
+
+#: rc.cpp:70
+msgid "Low risk"
+msgstr ""
+
+#: rc.cpp:71
+msgid "High risk"
+msgstr ""
+
+#: rc.cpp:72
+msgid "<p align=\"right\">Optimistic:</p>"
+msgstr ""
+
+#: kptganttview.cc:106 rc.cpp:74 rc.cpp:77 rc.cpp:96
+#, c-format
+msgid "%"
+msgstr ""
+
+#: rc.cpp:75
+msgid "<p align=\"right\">Pessimistic:</p>"
+msgstr ""
+
+#: rc.cpp:78
+msgid " week(s)"
+msgstr ""
+
+#: rc.cpp:79
+msgid " day(s)"
+msgstr ""
+
+#: rc.cpp:80
+msgid " hour(s)"
+msgstr ""
+
+#: rc.cpp:81
+msgid " min(s)"
+msgstr ""
+
+#: rc.cpp:82
+#, fuzzy
+msgid "ResourceDialogBase"
+msgstr "Resource name:"
+
+#: rc.cpp:83
+msgid "Name:"
+msgstr ""
+
+#: rc.cpp:85 rc.cpp:105
+msgid "Choose..."
+msgstr ""
+
+#: rc.cpp:86
+msgid "Choose resource from addressbook"
+msgstr ""
+
+#: rc.cpp:87
+msgid "Cost"
+msgstr ""
+
+#: rc.cpp:88
+msgid "Hourly rate:"
+msgstr ""
+
+#: rc.cpp:89
+msgid "Fixed cost:"
+msgstr ""
+
+#: rc.cpp:90
+msgid "<p align=\"right\">Overtime rate:</p>"
+msgstr ""
+
+#: rc.cpp:92
+#, fuzzy
+msgid "Available"
+msgstr " Available:"
+
+#: rc.cpp:93
+msgid "From:"
+msgstr ""
+
+#: rc.cpp:94
+msgid "<p align=\"right\">Until:</p>"
+msgstr ""
+
+#: rc.cpp:95
+msgid "Number of units:"
+msgstr ""
+
+#: rc.cpp:97
+#, fuzzy
+msgid "Resource type:"
+msgstr "Resources"
+
+#: kptresourceview.cc:125 rc.cpp:98
+msgid "Work"
+msgstr ""
+
+#: kptresourceview.cc:128 rc.cpp:99
+msgid "Material"
+msgstr ""
+
+#: rc.cpp:100
+#, fuzzy
+msgid "ResourcesPanelBase"
+msgstr "Resource name:"
+
+#: rc.cpp:101
+msgid "Groups"
+msgstr ""
+
+#: rc.cpp:102
+#, fuzzy
+msgid "&Add"
+msgstr "Edit..."
+
+#: rc.cpp:107
 msgid "Edit..."
 msgstr "Edit..."
 
-#: kptview.cc:119
+#: kptganttview.cc:77
+#, fuzzy
+msgid "Task name: "
+msgstr "ຊື່ງານ:"
+
+#: kptganttview.cc:80
+msgid "Responsible: "
+msgstr ""
+
+#: kptganttview.cc:84
+msgid "Cost to date: "
+msgstr ""
+
+#: kptganttview.cc:87 kptganttview.cc:97
+#, fuzzy
+msgid "Deviation: "
+msgstr "ລາຍລະອຽດ:"
+
+#: kptganttview.cc:90
+msgid "Total planned cost: "
+msgstr ""
+
+#: kptganttview.cc:94
+msgid "Work to date: "
+msgstr ""
+
+#: kptganttview.cc:100
+msgid "Total planned work: "
+msgstr ""
+
+#: kptganttview.cc:104
+msgid "Completion: "
+msgstr ""
+
+#: kptganttview.cc:114 kptresourceview.cc:61
+msgid "Type"
+msgstr ""
+
+#: kptganttview.cc:116 kptresourceview.cc:77
+msgid "Start date"
+msgstr ""
+
+#: kptganttview.cc:117 kptresourceview.cc:79
+#, fuzzy
+msgid "Duration"
+msgstr "ລາຍລະອຽດ:"
+
+#: kptganttview.cc:119 kptresourceview.cc:63
+msgid "Normal rate"
+msgstr ""
+
+#: kptganttview.cc:121 kptresourceview.cc:65
+msgid "Overtime rate"
+msgstr ""
+
+#: kptganttview.cc:123 kptresourceview.cc:67
+msgid "Fixed cost"
+msgstr ""
+
+#: kptganttview.cc:126 kptresourceview.cc:82
+msgid "Appointments"
+msgstr ""
+
+#: kptaboutdata.h:31 kptpart.cc:66
+msgid "KPlato"
+msgstr "ໂປແກນວາງແຜບK"
+
+#: kptpertcanvas.cc:376
+msgid "Cannot link already dependent nodes"
+msgstr ""
+
+#: kptpertcanvas.cc:392
+msgid "Cannot link parent/child nodes"
+msgstr ""
+
+#: kptprojectdialog.cc:44
+msgid "Project Settings"
+msgstr "ຕັ້ງຄ່າໂຄງການ"
+
+#: kptprojectdialog.cc:90 kpttaskdialog.cc:104
+msgid "As Soon As Possible"
+msgstr ""
+
+#: kptprojectdialog.cc:91 kpttaskdialog.cc:105
+msgid "Place all events at the earliest possible moment permitted in the schedule"
+msgstr ""
+
+#: kptprojectdialog.cc:94 kpttaskdialog.cc:108
+msgid "As Late As Possible"
+msgstr ""
+
+#: kptprojectdialog.cc:95 kpttaskdialog.cc:109
+msgid "Place all events at the last possible moment permitted in the schedule"
+msgstr ""
+
+#: kptrelationdialog.cc:38
+#, fuzzy
+msgid "Edit Relation"
+msgstr "Edit Resource"
+
+#: kptrelationdialog.cc:50
+msgid "New Relation"
+msgstr ""
+
+#: kptrelationdialog.cc:62
+msgid "From: "
+msgstr ""
+
+#: kptrelationdialog.cc:62
+msgid "To: "
+msgstr ""
+
+#: kptrelationdialog.cc:79
+#, fuzzy
+msgid "Relation Type"
+msgstr "Edit Resource"
+
+#: kptrelationdialog.cc:93
+msgid "Timing Type"
+msgstr ""
+
+#: kptrelationdialog.cc:129
+#, fuzzy
+msgid "You have to select a relation type"
+msgstr ""
+"ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະຫ"
+"ົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#: kptrelationdialog.cc:134
+#, fuzzy
+msgid "You have to select a timing type"
+msgstr ""
+"ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະຫ"
+"ົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#: kptrequestresourcespanel.cc:114
+msgid "None"
+msgstr ""
+
+#: kptresourcedialog.cc:90
+#, fuzzy
+msgid "Resource Settings"
+msgstr "ຕັ້ງຄ່າໂຄງການ"
+
+#: kptresourcedialog.cc:122
+msgid "The specified 'from' time must be before 'until' time."
+msgstr ""
+
+#: kptresourcespanel.cc:238
+msgid ""
+"Resources belong to resource groups, select the group first to add a new "
+"resource to"
+msgstr ""
+
+#: kptresourceview.cc:60
+msgid "Name"
+msgstr ""
+
+#: kptresourceview.cc:75
+#, fuzzy
+msgid "Task"
+msgstr "ເພີ້ນງານ..."
+
+#: kptresourceview.cc:76
+msgid "Responsible"
+msgstr ""
+
+#: kptresourceview.cc:78
+msgid "End date"
+msgstr ""
+
+#: kptresourceview.cc:131
+msgid "Undefined"
+msgstr ""
+
+#: kpttaskdialog.cc:48
+msgid "Task Settings"
+msgstr "ຕັ້ງຄ່າງານ"
+
+#: kpttaskdialog.cc:113
+msgid "The task can not be sceduled to start earlier than this date."
+msgstr ""
+
+#: kpttaskdialog.cc:117
+msgid "The task can not be sceduled to finish later than this date."
+msgstr ""
+
+#: kpttaskdialog.cc:121
+msgid "The task must be sceduled to start on this date."
+msgstr ""
+
+#: kptview.cc:104
+msgid "Indent Task"
+msgstr ""
+
+#: kptview.cc:106
+msgid "Unindent Task"
+msgstr ""
+
+#: kptview.cc:108
+msgid "Move Up"
+msgstr ""
+
+#: kptview.cc:110
+msgid "Move Down"
+msgstr ""
+
+#: kptview.cc:114
+msgid "Gantt"
+msgstr "Gantt"
+
+#: kptview.cc:116
+msgid "PERT"
+msgstr "PERT"
+
+#: kptview.cc:122
+msgid "Task..."
+msgstr "ເພີ້ນງານ..."
+
+#: kptview.cc:124
+#, fuzzy
+msgid "Sub-Task..."
+msgstr "ເພີ້ນງານ..."
+
+#: kptview.cc:126
+msgid "Milestone..."
+msgstr "ເພີ້ນລະຍະເວລາ..."
+
+#: kptview.cc:130
 msgid "Edit Main Project..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:123
-msgid "Resource Editor..."
-msgstr "Resource Editor..."
+#: kptview.cc:132
+msgid "Calculate..."
+msgstr ""
 
-#: kptview.cc:127
+#: kptview.cc:140
 msgid "Configure..."
 msgstr "Configure..."
 
-#: kptview.cc:133
-msgid "Print debug"
+#: kptview.cc:144
+msgid "Node Properties"
+msgstr ""
+
+#: kptview.cc:146
+msgid "Delete Task"
+msgstr ""
+
+#: kptview.cc:149
+#, fuzzy
+msgid "Edit resource"
+msgstr "Edit Resource"
+
+#: kptview.cc:155
+#, fuzzy
+msgid "Print Debug"
 msgstr "Print debug"
 
-#: kptview.cc:275
+#: kptview.cc:280
 msgid "Milestone"
 msgstr "ເພີ້ນລະຍະເວລາ..."
 
@@ -171,6 +630,62 @@ msgid ""
 "Your emails"
 msgstr "sheshofu@hotmail.com"
 
+#, fuzzy
+#~ msgid "Resource available from:"
+#~ msgstr "Resource name:"
+
+#~ msgid "Settings"
+#~ msgstr "ຕັ້ງຄ່າ"
+
+#~ msgid "Description:"
+#~ msgstr "ລາຍລະອຽດ:"
+
+#, fuzzy
+#~ msgid "You have to set a name and responsible for the task"
+#~ msgstr "ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#, fuzzy
+#~ msgid "You have to select a constraint"
+#~ msgstr "ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#~ msgid "Milestone name:"
+#~ msgstr "Milestone name:"
+
+#~ msgid "You have to set a name for this milestone"
+#~ msgstr "ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#~ msgid "Sub-Project..."
+#~ msgstr "ເພີ້ນໂຄງການຍ່ອຍ..."
+
+#~ msgid "Description"
+#~ msgstr "ລາຍລະອຽດ"
+
+#~ msgid "Resource Editor..."
+#~ msgstr "Resource Editor..."
+
+#~ msgid "You have to set a name and leader for the project"
+#~ msgstr "ເຈົ້າຈະຕ້ອງຕັ້ງຄ່າຊື່ແລະລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#, fuzzy
+#~ msgid "You have to select a resource group"
+#~ msgstr "ເຈົ້າຈະຕ້ອງການຕັ້ງຄ່າຊື່ແລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#, fuzzy
+#~ msgid "You have to enter a name for the resource group"
+#~ msgstr "ເຈົ້າຈະຕ້ອງການຕັ້ງຄ່າຊື່ແລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#~ msgid "Leader"
+#~ msgstr "ຫົວຫມ້າ"
+
+#, fuzzy
+#~ msgid "New Resource"
+#~ msgstr "Resources"
+
+#~ msgid "You have to set a name for this resource"
+#~ msgstr "ເຈົ້າຈະຕ້ອງການຕັ້ງຄ່າຊື່ແລະຫົວຫມ້າໂຄງການສຳລັບໂຄງການ"
+
+#~ msgid "Task leader:"
+#~ msgstr "ຫົວຫມ້າງານ:"
+
 #~ msgid "Add Milestone..."
 #~ msgstr "เพิ่มระยะเวลา..."
-
