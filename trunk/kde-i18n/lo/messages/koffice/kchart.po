@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-12-14 01:39+0100\n"
+"POT-Creation-Date: 2004-11-17 01:23+0100\n"
 "PO-Revision-Date: 2003-01-20 12:07+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,11 +14,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: rc.cpp:3
+#. i18n: file kchart.rc line 5
+#: rc.cpp:6
+#, fuzzy, no-c-format
+msgid "&Chart"
+msgstr "ແຜ່ນພູມ"
+
+#. i18n: file kchart.rc line 22
+#: rc.cpp:12
+#, no-c-format
 msgid "Chart"
 msgstr "ແຜ່ນພູມ"
 
-#: kchartBackgroundPixmapConfigPage.cc:35
+#: kchartBackgroundPixmapConfigPage.cc:50
 msgid ""
 "On this page, you can select colors or images to be displayed behind the "
 "different areas. You can also select whether the images should be stretched "
@@ -31,11 +39,11 @@ msgstr ""
 "ບສະແດງໃນແບບປັບຂະໜາດຫຼືຈະໃ"
 "ຫ້ຢູ່ຕົງກາງກໍໄດ້ "
 
-#: kchartBackgroundPixmapConfigPage.cc:53
+#: kchartBackgroundPixmapConfigPage.cc:68
 msgid "&Background color:"
 msgstr "ສີພື້ນ&ຫຼັງ ູ ູ"
 
-#: kchartBackgroundPixmapConfigPage.cc:58
+#: kchartBackgroundPixmapConfigPage.cc:73
 msgid "Here you set the color in which the background of the chart is painted."
 msgstr ""
 " "
@@ -43,11 +51,11 @@ msgstr ""
 "ສະແດງໃນພື້ນຫຼັງັຂອງແຜ່ນພູ"
 "ມໄດ້ທີ່ນີ້"
 
-#: kchartBackgroundPixmapConfigPage.cc:64
+#: kchartBackgroundPixmapConfigPage.cc:79
 msgid "Background wallpaper:"
 msgstr "ພາບພື້ນຫຼັງ"
 
-#: kchartBackgroundPixmapConfigPage.cc:69
+#: kchartBackgroundPixmapConfigPage.cc:84
 msgid ""
 "You can select a background image from this list. Initially, the installed "
 "KDE wallpapers will be offered. If you do not find what you are looking for "
@@ -65,15 +73,15 @@ msgstr ""
 "ໄດ້ຕາມຕ້ອງການໂດຍການກົດປູ່"
 "ມ<i>ເລືອກແຟ້ມ</i> ດ້ານລຸ່ມນີ້"
 
-#: kchartBackgroundPixmapConfigPage.cc:76
+#: kchartBackgroundPixmapConfigPage.cc:91
 msgid "None"
 msgstr "ບໍມີ"
 
-#: kchartBackgroundPixmapConfigPage.cc:85
+#: kchartBackgroundPixmapConfigPage.cc:100
 msgid "&Browse..."
 msgstr "&ເລືອກແຟ້ມ..."
 
-#: kchartBackgroundPixmapConfigPage.cc:86
+#: kchartBackgroundPixmapConfigPage.cc:101
 msgid ""
 "Click this button to select a background image not yet present in the list "
 "above. "
@@ -82,7 +90,7 @@ msgstr ""
 "ເພື່ອເລືອກຮູບພາບພືນຫຼັງບໍ"
 "ໄດ້ປະກົດຢູ່ໃນລາຍການ"
 
-#: kchartBackgroundPixmapConfigPage.cc:92
+#: kchartBackgroundPixmapConfigPage.cc:107
 msgid ""
 "This area will always display the currently selected background image. Note "
 "that the image will be scaled and thus might have a different ratio than it "
@@ -97,7 +105,7 @@ msgstr ""
 "າດຈະມີສັດສ່ວນທີ່ຜິດພາດຈາກ"
 "ຮູບຈີງ "
 
-#: kchartBackgroundPixmapConfigPage.cc:103
+#: kchartBackgroundPixmapConfigPage.cc:118
 msgid ""
 "In this box, you can set various settings that control how the background "
 "image is displayed."
@@ -106,12 +114,13 @@ msgstr ""
 "ຄຸມຈະໃຫ້ພື້ນຫຼັງສະຜົນຢ່າໃ"
 "ດໃ ໄດ້ໃນຊ່ອງນີ້"
 
-#: kchartBackgroundPixmapConfigPage.cc:110
+#: kchartBackgroundPixmapConfigPage.cc:127
+#, no-c-format
 msgid "&Intensity in %:"
 msgstr "ຄວາມ&ເຂັ້ມເປັນ%:"
 
-#: kchartBackgroundPixmapConfigPage.cc:113
-#, c-format
+#: kchartBackgroundPixmapConfigPage.cc:131
+#, no-c-format
 msgid ""
 "Here you can select how much the image should be brightened up so that it "
 "does not disturb the selected area too much."
@@ -130,11 +139,11 @@ msgstr ""
 "ຈະເປັນຄ່າທີ່ຶເໝາະສົມໃນການ"
 "ເລີ່ມຕົ້ນ."
 
-#: kchartBackgroundPixmapConfigPage.cc:122
+#: kchartBackgroundPixmapConfigPage.cc:140
 msgid "Stretched"
 msgstr "ປັບຂະໜາດໃຫ້ພໍດີ"
 
-#: kchartBackgroundPixmapConfigPage.cc:124
+#: kchartBackgroundPixmapConfigPage.cc:142
 #, fuzzy
 msgid ""
 "If you check this box, the selected image will be scaled to fit the total "
@@ -149,11 +158,11 @@ msgstr ""
 "ໃຫ້ພໍເໝາະກັບຂະໜາດພື້ນທີ่່"
 "ແລະຄວາມສູງ"
 
-#: kchartBackgroundPixmapConfigPage.cc:128
+#: kchartBackgroundPixmapConfigPage.cc:146
 msgid "Scaled"
 msgstr "ປັບຂະໜາດ"
 
-#: kchartBackgroundPixmapConfigPage.cc:130
+#: kchartBackgroundPixmapConfigPage.cc:148
 msgid ""
 "If you check this box, the selected image will be scaled to match the height "
 "or width of the selected area - whichever is reached first."
@@ -165,11 +174,11 @@ msgstr ""
 "ແລ້ວແຕ່ວ່າຈະພໍດີກັບດ້ານໃດ"
 "ກ່ອນ"
 
-#: kchartBackgroundPixmapConfigPage.cc:133
+#: kchartBackgroundPixmapConfigPage.cc:151
 msgid "Centered"
 msgstr "ເຄີ່ງກາງ"
 
-#: kchartBackgroundPixmapConfigPage.cc:135
+#: kchartBackgroundPixmapConfigPage.cc:153
 msgid ""
 "If you check this box, the selected image will be centered over the selected "
 "area. If the image is larger then the area, you will only see the middle "
@@ -185,11 +194,11 @@ msgstr ""
 "ທີ່ຢູ່ໃນຂອບເຂດຂອງແຜນພູມເທ"
 "ົ່່ານັ້ຶ່ນ"
 
-#: kchartBackgroundPixmapConfigPage.cc:139
+#: kchartBackgroundPixmapConfigPage.cc:157
 msgid "Tiled"
 msgstr "ລຽນຕໍ່ເນື່ອງ"
 
-#: kchartBackgroundPixmapConfigPage.cc:141
+#: kchartBackgroundPixmapConfigPage.cc:159
 #, fuzzy
 msgid ""
 "If you check this box, the selected image will be used as a background tile. "
@@ -206,168 +215,168 @@ msgstr ""
 "້ອງຊ້າຍທີ່ຢູ່ໃນຂອບເຂດ "
 "ຂອງແຜນພູມເທົ່ານັ້ນ"
 
-#: kchartBackgroundPixmapConfigPage.cc:159
+#: kchartBackgroundPixmapConfigPage.cc:177
 msgid "Outermost Region"
 msgstr "ຂອບເຂດນອກສຸດ"
 
-#: kchartBackgroundPixmapConfigPage.cc:160
+#: kchartBackgroundPixmapConfigPage.cc:178
 msgid "Innermost Region"
 msgstr "ຂອບເຂດໃນສຸດ"
 
-#: kchartBackgroundPixmapConfigPage.cc:161
+#: kchartBackgroundPixmapConfigPage.cc:179
 msgid "Header+Title+Subtitle"
 msgstr ""
 "ສ່ວນຫົວ+ຫົວເລື່ຶອງ+ຫົວເລື່ອ"
 "ງຍ່ອຍ"
 
-#: kchartBackgroundPixmapConfigPage.cc:162
+#: kchartBackgroundPixmapConfigPage.cc:180
 msgid "Footers"
 msgstr "ທ້າຍເຈ້ຍ"
 
-#: kchartBackgroundPixmapConfigPage.cc:163
+#: kchartBackgroundPixmapConfigPage.cc:181
 msgid "Data+Axes+Legend"
 msgstr "ຂໍ້ມຸນ+ແກນ+ຄຳກຳກັບ"
 
-#: kchartBackgroundPixmapConfigPage.cc:164
+#: kchartBackgroundPixmapConfigPage.cc:182
 msgid "Data+Axes"
 msgstr "ຂໍ້ມຸນ+ແກນ"
 
-#: kchartBackgroundPixmapConfigPage.cc:165
+#: kchartBackgroundPixmapConfigPage.cc:183
 msgid "Data"
 msgstr "ຂໍ້ືືມຸນ"
 
-#: kchartBackgroundPixmapConfigPage.cc:166 kchartConfigDialog.cc:73
-#: kchartConfigDialog.cc:93 kchartParameterConfigPage.cc:53
+#: kchartBackgroundPixmapConfigPage.cc:184 kchartConfigDialog.cc:88
+#: kchartConfigDialog.cc:108 kchartParameterConfigPage.cc:69
 msgid "Legend"
 msgstr "ຄຳກຳກັບແຜນພູມ"
 
-#: kchartBackgroundPixmapConfigPage.cc:167
+#: kchartBackgroundPixmapConfigPage.cc:185
 msgid "Left Axis"
 msgstr "ແກນດ້ານຊ້າຍ"
 
-#: kchartBackgroundPixmapConfigPage.cc:168
+#: kchartBackgroundPixmapConfigPage.cc:186
 msgid "Bottom Axis"
 msgstr "ແກນດ້ານລູ່ມ"
 
-#: kchartBackgroundPixmapConfigPage.cc:169
+#: kchartBackgroundPixmapConfigPage.cc:187
 msgid "Right Axis"
 msgstr "ແກນດ້ານຂວາ"
 
-#: kchartBackgroundPixmapConfigPage.cc:170
+#: kchartBackgroundPixmapConfigPage.cc:188
 msgid "Header A"
 msgstr "ສ່ວນຫົວ A"
 
-#: kchartBackgroundPixmapConfigPage.cc:171
+#: kchartBackgroundPixmapConfigPage.cc:189
 msgid "Header B"
 msgstr "ສ່ວນຫົວ  B"
 
-#: kchartBackgroundPixmapConfigPage.cc:172
+#: kchartBackgroundPixmapConfigPage.cc:190
 msgid "Header C"
 msgstr "ສ່ວນຫົວ C"
 
-#: kchartBackgroundPixmapConfigPage.cc:173
+#: kchartBackgroundPixmapConfigPage.cc:191
 msgid "Title A"
 msgstr "ຫົວເລື່ືືອງ A"
 
-#: kchartBackgroundPixmapConfigPage.cc:174
+#: kchartBackgroundPixmapConfigPage.cc:192
 msgid "Title B"
 msgstr "ຫົວເລື່ືຶອງ B"
 
-#: kchartBackgroundPixmapConfigPage.cc:175
+#: kchartBackgroundPixmapConfigPage.cc:193
 msgid "Title C"
 msgstr "ຫົວເລື່ຶຶືືຶອງ C"
 
-#: kchartBackgroundPixmapConfigPage.cc:176
+#: kchartBackgroundPixmapConfigPage.cc:194
 msgid "Subtitle A"
 msgstr "ົຫົວເລື່ຶອງຍ່ອຍ A"
 
-#: kchartBackgroundPixmapConfigPage.cc:177
+#: kchartBackgroundPixmapConfigPage.cc:195
 msgid "Subtitle B"
 msgstr "ັຫົວເລື່ຶອງຍ່ອຍ B"
 
-#: kchartBackgroundPixmapConfigPage.cc:178
+#: kchartBackgroundPixmapConfigPage.cc:196
 msgid "Subtitle C"
 msgstr "ຫົວເລື່ອງຍ່ອຍ C"
 
-#: kchartBackgroundPixmapConfigPage.cc:179
+#: kchartBackgroundPixmapConfigPage.cc:197
 msgid "Footer 1 A"
 msgstr "ສ່ວນທ້າຍ 1 A"
 
-#: kchartBackgroundPixmapConfigPage.cc:180
+#: kchartBackgroundPixmapConfigPage.cc:198
 msgid "Footer 1 B"
 msgstr "່ສ່ວນທ້າຍ 1 B"
 
-#: kchartBackgroundPixmapConfigPage.cc:181
+#: kchartBackgroundPixmapConfigPage.cc:199
 msgid "Footer 1 C"
 msgstr "ສ່ວນທ້າຍ 1 C"
 
-#: kchartBackgroundPixmapConfigPage.cc:182
+#: kchartBackgroundPixmapConfigPage.cc:200
 msgid "Footer 2 A"
 msgstr "ສ່ວນທ້າຍ 2 A"
 
-#: kchartBackgroundPixmapConfigPage.cc:183
+#: kchartBackgroundPixmapConfigPage.cc:201
 msgid "Footer 2 B"
 msgstr "ສ່ວນທ້າຍ 2 B"
 
-#: kchartBackgroundPixmapConfigPage.cc:184
+#: kchartBackgroundPixmapConfigPage.cc:202
 msgid "Footer 2 C"
 msgstr "ສ່ວນທ້າຍ 2 C"
 
-#: kchartBackgroundPixmapConfigPage.cc:185
+#: kchartBackgroundPixmapConfigPage.cc:203
 msgid "Footer 3 A"
 msgstr "ສ່ວນທ້າຍ 3 A"
 
-#: kchartBackgroundPixmapConfigPage.cc:186
+#: kchartBackgroundPixmapConfigPage.cc:204
 msgid "Footer 3 B"
 msgstr "ສ່ວນທ້າຍ 3 B"
 
-#: kchartBackgroundPixmapConfigPage.cc:187
+#: kchartBackgroundPixmapConfigPage.cc:205
 msgid "Footer 3 C"
 msgstr "ສ່ວນທ້າຍ 3 C"
 
-#: kchartBackgroundPixmapConfigPage.cc:306
+#: kchartBackgroundPixmapConfigPage.cc:324
 msgid "Currently only local wallpapers are allowed."
 msgstr ""
 "ໃນຕອນນີ้້ "
 "ຈະໃຊ້ໄດ້ພຽງແຟ້ມທີ່ພາຍໃນລະ"
 "ບົບເທົ່ານັ້ນ"
 
-#: kchartBarConfigDialog.cc:22 kchart_view.cc:78
+#: kchartBarConfigDialog.cc:36 kchart_view.cc:73
 msgid "&Bars"
 msgstr "ແຜນພູມ&ແທ່ງ"
 
-#: kchartBarConfigDialog.cc:27
+#: kchartBarConfigDialog.cc:41
 msgid "Configuration of Bar Charts"
 msgstr "ການປັບແຕ່ງແຜນພູມແທ່ງ"
 
-#: kchartBarConfigPage.cc:26
+#: kchartBarConfigPage.cc:40
 msgid "Overwrite Mode"
 msgstr "ໂມດຂຽນທັບ"
 
-#: kchartBarConfigPage.cc:30
+#: kchartBarConfigPage.cc:44
 msgid "&Side by side"
 msgstr "ດ້ານ&ຕໍ່ດ້ານ"
 
-#: kchartBarConfigPage.cc:34
+#: kchartBarConfigPage.cc:48
 msgid "On &top"
 msgstr "ຢູ່&ດ້ານເທີງ"
 
-#: kchartBarConfigPage.cc:38
+#: kchartBarConfigPage.cc:52
 msgid "In &front"
 msgstr "ຢູ່ດ້ານ&ໜ້າ"
 
-#: kchartBarConfigPage.cc:60
+#: kchartBarConfigPage.cc:74
 msgid "X-Axis Layout"
 msgstr "ການຈັດວາງແນວແກນ X"
 
-#: kchartBarConfigPage.cc:63
+#: kchartBarConfigPage.cc:77
 msgid "&Distance between bars as a percentage of bar width"
 msgstr ""
 "ໄລຍະ&ຫ່າງ "
 "ລະຫວ່າງແທ່ງແຜນພູມิກັບຄວາມ"
 "ກວ້າງແທ່ງພູມເປັນ ຮ້ວຍລະ"
 
-#: kchartColorConfigPage.cc:27
+#: kchartColorConfigPage.cc:43
 msgid ""
 "This page lets you configure the colors in which your chart is displayed. "
 "Each part of the chart can be assigned a different color."
@@ -378,25 +387,25 @@ msgstr ""
 "ສາມາດກຳນົດສີທີ່ແຕກຕ່າງກັນ"
 "ໄດ້"
 
-#: kchartColorConfigPage.cc:33
+#: kchartColorConfigPage.cc:49
 msgid "Colors"
 msgstr "ສີ"
 
-#: kchartColorConfigPage.cc:40
+#: kchartColorConfigPage.cc:56
 msgid "&Line color:"
 msgstr "ສີເສັ้້&น:"
 
-#: kchartColorConfigPage.cc:46
+#: kchartColorConfigPage.cc:62
 msgid "This is the color that is used for drawing lines like axes."
 msgstr ""
 "ນີ້ເປັນຄ່າສີທີຈະໃຊ້ກັບການ"
 "ວາດເສັ້ນເຊັ່ນແກນຕ່າງໆ"
 
-#: kchartColorConfigPage.cc:50
+#: kchartColorConfigPage.cc:66
 msgid "&Grid color:"
 msgstr "ສີ&ກຣີດ:"
 
-#: kchartColorConfigPage.cc:56
+#: kchartColorConfigPage.cc:72
 msgid ""
 "Here you can configure the color that is used for the chart grid. Of course, "
 "this setting will only take effect if grid drawing is turned on."
@@ -408,11 +417,11 @@ msgstr ""
 "ຖ້າມີການກຳໃຫ້ມີການສະແດງກຣ"
 "ີດດ້ວຍ"
 
-#: kchartColorConfigPage.cc:62
+#: kchartColorConfigPage.cc:78
 msgid "&X-title color:"
 msgstr "ສີແຖບກຳກັບແກນ &X:"
 
-#: kchartColorConfigPage.cc:68
+#: kchartColorConfigPage.cc:84
 #, fuzzy
 msgid ""
 "This color is used for displaying titles for the X (horizontal) axis. This "
@@ -425,11 +434,11 @@ msgstr ""
 "ຈະໃຊ້ແທນຄ່າທີ່ຕັ້ງໄວ້ໃນ "
 "<i>ສີແຖບກຳກັບແກນ</i>"
 
-#: kchartColorConfigPage.cc:74
+#: kchartColorConfigPage.cc:90
 msgid "&Y-title color:"
 msgstr "ສີແຖບກຳກັບແກນ &Y:"
 
-#: kchartColorConfigPage.cc:80
+#: kchartColorConfigPage.cc:96
 #, fuzzy
 msgid ""
 "This color is used for displaying titles for the Y (vertical) axis. This "
@@ -441,11 +450,11 @@ msgstr ""
 "ຈະໃຊ້ແທນຄ່າທຕັ້ງໄວ້ໃນ<i>ສີແ"
 "ຖບກຳກັບແກນ</i>"
 
-#: kchartColorConfigPage.cc:86
+#: kchartColorConfigPage.cc:102
 msgid "Y-title color (2nd axis):"
 msgstr "ສຂໍ້ຄວາມແກນ Y (ແກນທີສອງ):"
 
-#: kchartColorConfigPage.cc:92
+#: kchartColorConfigPage.cc:108
 #, fuzzy
 msgid ""
 "This color is used for displaying titles for the second Y (vertical) axis. "
@@ -461,40 +470,42 @@ msgstr ""
 "ຈະໃຊ້ແທນຄ່າທີຕັ້ງ່ໃນ "
 "<i>ສີແຖບກຳກັບແກນ</i>"
 
-#: kchartColorConfigPage.cc:99
+#: kchartColorConfigPage.cc:115
 msgid "X-label color:"
 msgstr "ສີແຖບກຳກັບຄ່າ X:"
 
-#: kchartColorConfigPage.cc:105
+#: kchartColorConfigPage.cc:121
+#, fuzzy
 msgid ""
-"Here you can configure the color that is used for labelling the X "
+"Here you can configure the color that is used for labeling the X "
 "(horizontal) axis"
 msgstr ""
 "ເຈົ້າສາມາດປັບແຕ່ງສີທີຈະໃຊ"
 "້ສະແດງແຖບກຳກັບຄ່າ X "
 "(ຄ່າໃນແນວນອນ) ໄດ້ທີ່ນີ້"
 
-#: kchartColorConfigPage.cc:110
+#: kchartColorConfigPage.cc:126
 msgid "Y-label color:"
 msgstr "ສີແຖບກຳກັບຄ່າY:"
 
-#: kchartColorConfigPage.cc:116
+#: kchartColorConfigPage.cc:132
+#, fuzzy
 msgid ""
-"Here you can configure the color that is used for labelling the Y (vertical) "
+"Here you can configure the color that is used for labeling the Y (vertical) "
 "axis"
 msgstr ""
 "ເຈົ້າປັບແຕ່ງສີທີຈະໃຊ້ສະແດ"
 "ງແຖບກຳກັບຄ່າ Y "
 "(ຄ່າໃນແນວຕັ້ງ) ໄດ້ທີນີ້"
 
-#: kchartColorConfigPage.cc:121
+#: kchartColorConfigPage.cc:137
 msgid "Y-label color (2nd axis):"
 msgstr "ສີແຖບກຳກັບຄ່າY (ແກນທີສອງ):"
 
-#: kchartColorConfigPage.cc:127
+#: kchartColorConfigPage.cc:143
 #, fuzzy
 msgid ""
-"Here you can configure the color that is used for labelling the second Y "
+"Here you can configure the color that is used for labeling the second Y "
 "(vertical) axis. Of course, this setting only takes effect if the chart is "
 "configured to have two vertical axes."
 msgstr ""
@@ -506,214 +517,214 @@ msgstr ""
 "ປັບໃຊ້ມີແກນ Y "
 "ຕົວທີຣ່ສອງໄວ້ເທົ່ານັ້ນ"
 
-#: kchartColorConfigPage.cc:197
+#: kchartColorConfigPage.cc:213
 #, c-format
 msgid "Series %1"
 msgstr "ອະນຸກົມ %1"
 
-#: kchartComboConfigPage.cc:27
+#: kchartComboConfigPage.cc:42
 msgid "HLC Style"
 msgstr "ຮູບແແບບ HLC"
 
-#: kchartComboConfigPage.cc:31
+#: kchartComboConfigPage.cc:46
 msgid "Diamond"
 msgstr "ເພັດ"
 
-#: kchartComboConfigPage.cc:33
+#: kchartComboConfigPage.cc:48
 msgid "Close connected"
 msgstr "ຍຸດຕິການເຊື່ອມຕໍ່"
 
-#: kchartComboConfigPage.cc:35
+#: kchartComboConfigPage.cc:50
 msgid "Connecting"
 msgstr "ກຳລັງເຊື່ອມຕໍ່"
 
-#: kchartComboConfigPage.cc:37
+#: kchartComboConfigPage.cc:52
 msgid "Icap"
 msgstr "Icap"
 
-#: kchartConfigDialog.cc:52
+#: kchartConfigDialog.cc:67
 msgid "Chart Config Dialog"
 msgstr "ກ້ອງປັບແຕ່ງແຜນພູມ"
 
-#: kchartConfigDialog.cc:58 kchartConfigDialog.cc:87
+#: kchartConfigDialog.cc:73 kchartConfigDialog.cc:102
 msgid "&Colors"
 msgstr "&ສີ"
 
-#: kchartConfigDialog.cc:63 kchartConfigDialog.cc:89
+#: kchartConfigDialog.cc:78 kchartConfigDialog.cc:104
 msgid "&Font"
 msgstr "&ຮູບແບບຕົວອັກສອນ"
 
-#: kchartConfigDialog.cc:68 kchartConfigDialog.cc:91
+#: kchartConfigDialog.cc:83 kchartConfigDialog.cc:106
 msgid "&Background"
 msgstr "&ພື້ນຫັຼງ"
 
-#: kchartConfigDialog.cc:82 kchartConfigDialog.cc:132
-#: kchartHeaderFooterConfigPage.cc:28
+#: kchartConfigDialog.cc:97 kchartConfigDialog.cc:147
+#: kchartHeaderFooterConfigPage.cc:43
 msgid "Header/Footer"
 msgstr "ສ່ວນຫົວ/ສ່ວນທ້າຍ"
 
-#: kchartConfigDialog.cc:96 kchartConfigDialog.cc:100
+#: kchartConfigDialog.cc:111 kchartConfigDialog.cc:115
 msgid "&Axes"
 msgstr "&ແກນ"
 
-#: kchartConfigDialog.cc:103 kchart_view.cc:66
+#: kchartConfigDialog.cc:118 kchart_view.cc:58
 msgid "&Pie"
 msgstr "&ແຜນພູມກົ່ງ"
 
-#: kchartConfigDialog.cc:109 kchartParameter3dConfigPage.cc:24
+#: kchartConfigDialog.cc:124 kchartParameter3dConfigPage.cc:39
 msgid "3D Parameters"
 msgstr "ພາຣາມີເຕີຣ 3 ມີຕິ"
 
-#: kchartConfigDialog.cc:114 kchartLine3dConfigPage.cc:24
+#: kchartConfigDialog.cc:129 kchartLine3dConfigPage.cc:39
 msgid "3D Line Parameters"
 msgstr "ພາຣາມີເຕີຣເສັ້ນ 3 ມີຕິ"
 
-#: kchartConfigDialog.cc:119
+#: kchartConfigDialog.cc:134
 msgid "Polar Parameters"
 msgstr "ພາຣາມີເຕີຣ ໂພລາຣ"
 
-#: kchartConfigDialog.cc:321 kchartConfigDialog.cc:325
-#: kchartConfigDialog.cc:329 kchartConfigDialog.cc:333
-#: kchartConfigDialog.cc:337
+#: kchartConfigDialog.cc:336 kchartConfigDialog.cc:340
+#: kchartConfigDialog.cc:344 kchartConfigDialog.cc:348
+#: kchartConfigDialog.cc:352
 msgid "Chart &Subtype"
 msgstr "ປະເພດ&ຍ່ອຍຂອງແຜນພູມ"
 
-#: kchartDataEditor.cc:12
+#: kchartDataEditor.cc:13 kchartDataEditor.cc:28
 msgid "KChart Data Editor"
 msgstr "ຕົວແກ້ໄຂຂໍ້ມຸນ KChart"
 
-#: kchartFontConfigPage.cc:68 kchartHeaderFooterConfigPage.cc:42
-#: kchartHeaderFooterConfigPage.cc:55 kchartHeaderFooterConfigPage.cc:68
+#: kchartFontConfigPage.cc:83 kchartHeaderFooterConfigPage.cc:57
+#: kchartHeaderFooterConfigPage.cc:70 kchartHeaderFooterConfigPage.cc:83
 msgid "Font..."
 msgstr "ຮູບແບບຕົວອັກສອນ"
 
-#: kchartFontConfigPage.cc:84 kchartFontConfigPage.cc:101
+#: kchartFontConfigPage.cc:99 kchartFontConfigPage.cc:116
 msgid "X-Title"
 msgstr "ົຫວເລື່ອງແກນ X"
 
-#: kchartFontConfigPage.cc:85 kchartFontConfigPage.cc:104
+#: kchartFontConfigPage.cc:100 kchartFontConfigPage.cc:119
 msgid "Y-Title"
 msgstr "ຫົວເລື່ອງແກນ Y"
 
-#: kchartFontConfigPage.cc:86 kchartFontConfigPage.cc:107
+#: kchartFontConfigPage.cc:101 kchartFontConfigPage.cc:122
 msgid "X-Axis"
 msgstr "ແກນX"
 
-#: kchartFontConfigPage.cc:87 kchartFontConfigPage.cc:110
+#: kchartFontConfigPage.cc:102 kchartFontConfigPage.cc:125
 msgid "Y-Axis"
 msgstr "ແກນ Y"
 
-#: kchartFontConfigPage.cc:88 kchartFontConfigPage.cc:113
+#: kchartFontConfigPage.cc:103 kchartFontConfigPage.cc:128
 msgid "All Axes"
 msgstr "ທຸກແກນ"
 
-#: kchartFontConfigPage.cc:90 kchartFontConfigPage.cc:115
+#: kchartFontConfigPage.cc:105 kchartFontConfigPage.cc:130
 msgid "Label"
 msgstr "ແຖບກຳກັບຄ່າ"
 
-#: kchartHeaderFooterConfigPage.cc:33 kchartWizardLabelsLegendPage.cc:38
+#: kchartHeaderFooterConfigPage.cc:48 kchartWizardLabelsLegendPage.cc:38
 msgid "Title:"
 msgstr "ຫົວເລື່ອງ:"
 
-#: kchartHeaderFooterConfigPage.cc:46
+#: kchartHeaderFooterConfigPage.cc:61
 msgid "Subtitle:"
 msgstr "ຫົວເລື່ອງຍ່ອຍ:"
 
-#: kchartHeaderFooterConfigPage.cc:59
+#: kchartHeaderFooterConfigPage.cc:74
 msgid "Footer:"
 msgstr "ທ້າຍເຈ້ຍ:"
 
-#: kchartLegendConfigPage.cc:32
+#: kchartLegendConfigPage.cc:47
 msgid "Legend Position"
 msgstr "ຕຳແໜ່ງກຳກັບ"
 
-#: kchartLegendConfigPage.cc:39
+#: kchartLegendConfigPage.cc:54
 #, fuzzy
 msgid "Top-Left"
 msgstr "ເທີງ-ຊ້າຍ"
 
-#: kchartLegendConfigPage.cc:41
+#: kchartLegendConfigPage.cc:56
 #, fuzzy
 msgid "Top-Right"
 msgstr "ເທີງ-ຂວາ"
 
-#: kchartLegendConfigPage.cc:44
+#: kchartLegendConfigPage.cc:59
 #, fuzzy
 msgid "No Legend"
 msgstr "ບໍ່ມີຄຳກຳກັບ"
 
-#: kchartLegendConfigPage.cc:47
+#: kchartLegendConfigPage.cc:62
 #, fuzzy
 msgid "Bottom-Left"
 msgstr "ລຸ່ມ-ຊ້າຍ"
 
-#: kchartLegendConfigPage.cc:49
+#: kchartLegendConfigPage.cc:64
 #, fuzzy
 msgid "Bottom-Right"
 msgstr "ລຸ່ມ-ຂວາ"
 
-#: kchartLegendConfigPage.cc:56 kchartParameterConfigPage.cc:56
+#: kchartLegendConfigPage.cc:71 kchartParameterConfigPage.cc:72
 msgid "Title"
 msgstr "ຫົວເລື້ອງ"
 
-#: kchartLegendConfigPage.cc:63 kchartWizardLabelsLegendPage.cc:129
+#: kchartLegendConfigPage.cc:78 kchartWizardLabelsLegendPage.cc:129
 msgid "Legend title:"
 msgstr "ຄຳກຳກັບຫົວເລື້ອງແຜນພູມ:"
 
-#: kchartLegendConfigPage.cc:70
+#: kchartLegendConfigPage.cc:85
 msgid "Color"
 msgstr "ສີ"
 
-#: kchartLegendConfigPage.cc:77
+#: kchartLegendConfigPage.cc:92
 msgid "Legend title color:"
 msgstr "ສີຄຳກຳກັບຫົວເລື່ອງ:"
 
-#: kchartLegendConfigPage.cc:84
+#: kchartLegendConfigPage.cc:99
 msgid "Legend text color:"
 msgstr "ສີຄຳກຳກັບແຜ່ນພູມ:"
 
-#: kchartLegendConfigPage.cc:100
+#: kchartLegendConfigPage.cc:115
 msgid "Legend title font:"
 msgstr "ແບບອັກສອນຄຳກຳກັບຫົວເລື່ອງ:"
 
-#: kchartLegendConfigPage.cc:103
+#: kchartLegendConfigPage.cc:118
 msgid "Legend..."
 msgstr "ຄຳກຳກັບແຜ່ນພູມ"
 
-#: kchartLegendConfigPage.cc:106
+#: kchartLegendConfigPage.cc:121
 msgid "Legend text font:"
 msgstr "ແບບອັກສອນຄຳກຳກັບແຜນພູມ:"
 
-#: kchartLegendConfigPage.cc:109
+#: kchartLegendConfigPage.cc:124
 msgid "Text Legend..."
 msgstr "ຄຳກຳກັບແຜ່ນພູມ"
 
-#: kchartLine3dConfigPage.cc:29
+#: kchartLine3dConfigPage.cc:44
 msgid "3D line"
 msgstr "ແຜ່ນພູມເສັນ 3 ມິຕິ"
 
-#: kchartLine3dConfigPage.cc:34 kchartParameterPolarConfigPage.cc:46
+#: kchartLine3dConfigPage.cc:49 kchartParameterPolarConfigPage.cc:61
 msgid "Line width:"
 msgstr "ຄວາມກ້ວາງເສັນ:"
 
-#: kchartLine3dConfigPage.cc:40 kchartParameter3dConfigPage.cc:35
-#: kchartParameterPieConfigPage.cc:35
+#: kchartLine3dConfigPage.cc:55 kchartParameter3dConfigPage.cc:50
+#: kchartParameterPieConfigPage.cc:50
 msgid "Draw shadow color"
 msgstr "ແຕ້ມສີເງົາ"
 
-#: kchartLine3dConfigPage.cc:43
+#: kchartLine3dConfigPage.cc:58
 msgid "Rotation around the X-axis in degrees:"
 msgstr ""
 "ປີ່່່່່່່່່່ນ່ອ້ອມແກນ X "
 "ໜ່ອຍເປັນອົງສາ:"
 
-#: kchartLine3dConfigPage.cc:51
+#: kchartLine3dConfigPage.cc:66
 msgid "Rotation around the Y-axis in degrees:"
 msgstr ""
 "ປີ່ນ່ອ້ອມແກນ Y "
 "ໜ່ວຍເປັນອົງສາ:"
 
-#: kchartLine3dConfigPage.cc:60 kchartParameter3dConfigPage.cc:48
+#: kchartLine3dConfigPage.cc:75 kchartParameter3dConfigPage.cc:63
 msgid "Depth:"
 msgstr "ຄວາມເລີກ:"
 
@@ -741,150 +752,150 @@ msgstr "ທາງເທີງ:"
 msgid "Bottom:"
 msgstr "ທາງລຸ່ມ:"
 
-#: kchartParameter3dConfigPage.cc:30
+#: kchartParameter3dConfigPage.cc:45
 msgid "3D bar"
 msgstr "ແຜ່ນພູມທ່ອນ 3 ມິຕິ"
 
-#: kchartParameter3dConfigPage.cc:38
+#: kchartParameter3dConfigPage.cc:53
 msgid "Angle:"
 msgstr "ມູມ:"
 
-#: kchartParameterConfigPage.cc:29
+#: kchartParameterConfigPage.cc:45
 msgid "Parameters"
 msgstr "ພາລາມິເຕີ"
 
-#: kchartParameterConfigPage.cc:34
+#: kchartParameterConfigPage.cc:50
 msgid "Grid"
 msgstr "ກຣິດ"
 
-#: kchartParameterConfigPage.cc:38
+#: kchartParameterConfigPage.cc:54
 msgid "X-axis"
 msgstr "ແກນ X"
 
-#: kchartParameterConfigPage.cc:41
+#: kchartParameterConfigPage.cc:57
 msgid "Y-axis"
 msgstr "ແກນ Y"
 
-#: kchartParameterConfigPage.cc:44
+#: kchartParameterConfigPage.cc:60
 msgid "Has X-label"
 msgstr "ມີແຖບກຳກັບຄ່າ X"
 
-#: kchartParameterConfigPage.cc:47
+#: kchartParameterConfigPage.cc:63
 msgid "Y-axis 2"
 msgstr "ແກນ Y ໂຕທີສອງ"
 
-#: kchartParameterConfigPage.cc:50
+#: kchartParameterConfigPage.cc:66
 msgid "Line marker"
 msgstr "ແຖບກຳກັບດເສັນ"
 
-#: kchartParameterConfigPage.cc:61 kchartWizardLabelsLegendPage.cc:78
+#: kchartParameterConfigPage.cc:77 kchartWizardLabelsLegendPage.cc:78
 msgid "Y-title:"
 msgstr "ແຖບກຳກັບແກນ Y:"
 
-#: kchartParameterConfigPage.cc:69 kchartWizardLabelsLegendPage.cc:55
+#: kchartParameterConfigPage.cc:85 kchartWizardLabelsLegendPage.cc:55
 msgid "X-title:"
 msgstr "ແຖບກຳກັບແກນ X:"
 
-#: kchartParameterConfigPage.cc:77 kchartWizardSetupAxesPage.cc:145
+#: kchartParameterConfigPage.cc:93 kchartWizardSetupAxesPage.cc:145
 msgid "Y-label format:"
 msgstr "ຮູບແບບແຖບກຳກັບຄ່າ Y:"
 
-#: kchartParameterConfigPage.cc:85 kchartWizardLabelsLegendPage.cc:102
+#: kchartParameterConfigPage.cc:101 kchartWizardLabelsLegendPage.cc:102
 msgid "Y-title 2:"
 msgstr "ແຖບກຳກັບຄ່າແກນ Y2:"
 
-#: kchartParameterConfigPage.cc:92
+#: kchartParameterConfigPage.cc:108
 msgid "Y-label format 2:"
 msgstr "ຮູບແບບແຖບກຳກັບຄ່າ Y2:"
 
-#: kchartParameterPieConfigPage.cc:29 kchartParameterPolarConfigPage.cc:29
+#: kchartParameterPieConfigPage.cc:44 kchartParameterPolarConfigPage.cc:44
 msgid "Parameter"
 msgstr "ພາລາມິເຕີ"
 
-#: kchartParameterPieConfigPage.cc:32
+#: kchartParameterPieConfigPage.cc:47
 msgid "Pie 3D"
 msgstr "ແຜ່ນພູມກົງ 3 ມິຕິ"
 
-#: kchartParameterPieConfigPage.cc:38
+#: kchartParameterPieConfigPage.cc:53
 msgid "Start:"
 msgstr "ເລີ່ມ:"
 
-#: kchartParameterPieConfigPage.cc:46
+#: kchartParameterPieConfigPage.cc:61
 msgid "3D-depth:"
 msgstr "ຄວາມເລີກ 3 ມິຕິ:"
 
-#: kchartParameterPolarConfigPage.cc:32
+#: kchartParameterPolarConfigPage.cc:47
 msgid "Polar marker"
 msgstr "ເຮັດເຄື່ອງໝາຍໂພລາ"
 
-#: kchartParameterPolarConfigPage.cc:35
+#: kchartParameterPolarConfigPage.cc:50
 msgid "Show circular label"
 msgstr "ສະແດງແຖບຂໍ້ຄວາມແບບວົງແຫວນ"
 
-#: kchartParameterPolarConfigPage.cc:38
+#: kchartParameterPolarConfigPage.cc:53
 msgid "Zero degree position:"
 msgstr "ຕຳແໜ່ງສູນຂອງອົງສາ:"
 
-#: kchartPieConfigPage.cc:33
+#: kchartPieConfigPage.cc:48
 msgid "Hide Piece"
 msgstr "ຊ້ອນສີ້ນສ່ວນ"
 
-#: kchartPieConfigPage.cc:36
+#: kchartPieConfigPage.cc:51
 msgid "Column active:"
 msgstr "ຄໍລຳ້ທີ່ແອກທີບ:"
 
-#: kchartPieConfigPage.cc:47
+#: kchartPieConfigPage.cc:62
 msgid "Move piece to:"
 msgstr "ຍ້າຍສີ້ນສ່ວນໄປທີ່:"
 
-#: kchartPieConfigPage.cc:55
+#: kchartPieConfigPage.cc:70
 msgid "Explode factor (%):"
 msgstr "ແຍກຕົວປະກອບ (%):"
 
-#: kchartSubTypeChartPage.cc:30 kchartSubTypeChartPage.cc:107
-#: kchartSubTypeChartPage.cc:185 kchartSubTypeChartPage.cc:261
-#: kchartSubTypeChartPage.cc:338
+#: kchartSubTypeChartPage.cc:43 kchartSubTypeChartPage.cc:120
+#: kchartSubTypeChartPage.cc:198 kchartSubTypeChartPage.cc:274
+#: kchartSubTypeChartPage.cc:351
 msgid "Subtype"
 msgstr "ປະເພດຍ່ອຍ"
 
-#: kchartSubTypeChartPage.cc:32 kchartSubTypeChartPage.cc:109
-#: kchartSubTypeChartPage.cc:263 kchartSubTypeChartPage.cc:340
+#: kchartSubTypeChartPage.cc:45 kchartSubTypeChartPage.cc:122
+#: kchartSubTypeChartPage.cc:276 kchartSubTypeChartPage.cc:353
 #: kchartWizardSelectChartSubTypePage.cc:39
 msgid "Normal"
 msgstr "ທຳມະດາ"
 
-#: kchartSubTypeChartPage.cc:34 kchartWizardSelectChartSubTypePage.cc:164
+#: kchartSubTypeChartPage.cc:47 kchartWizardSelectChartSubTypePage.cc:164
 msgid "HiLoClose"
 msgstr "ສູງ-ຕຳ່-ປິດ"
 
-#: kchartSubTypeChartPage.cc:36 kchartWizardSelectChartSubTypePage.cc:165
+#: kchartSubTypeChartPage.cc:49 kchartWizardSelectChartSubTypePage.cc:165
 msgid "HiLoOpenClose"
 msgstr "ສູງ-ຕຳ່-ເປີດ-ປີດ"
 
-#: kchartSubTypeChartPage.cc:42 kchartSubTypeChartPage.cc:119
-#: kchartSubTypeChartPage.cc:197 kchartSubTypeChartPage.cc:273
-#: kchartSubTypeChartPage.cc:350
+#: kchartSubTypeChartPage.cc:55 kchartSubTypeChartPage.cc:132
+#: kchartSubTypeChartPage.cc:210 kchartSubTypeChartPage.cc:286
+#: kchartSubTypeChartPage.cc:363
 msgid "Example"
 msgstr "ຕົວຢ່າງ"
 
-#: kchartSubTypeChartPage.cc:111 kchartSubTypeChartPage.cc:265
-#: kchartSubTypeChartPage.cc:342 kchartWizardSelectChartSubTypePage.cc:40
+#: kchartSubTypeChartPage.cc:124 kchartSubTypeChartPage.cc:278
+#: kchartSubTypeChartPage.cc:355 kchartWizardSelectChartSubTypePage.cc:40
 #: kchartWizardSelectChartSubTypePage.cc:169
 msgid "Stacked"
 msgstr "ເປັນຊັ້ນ"
 
-#: kchartSubTypeChartPage.cc:113 kchartSubTypeChartPage.cc:191
-#: kchartSubTypeChartPage.cc:267 kchartSubTypeChartPage.cc:344
+#: kchartSubTypeChartPage.cc:126 kchartSubTypeChartPage.cc:204
+#: kchartSubTypeChartPage.cc:280 kchartSubTypeChartPage.cc:357
 #: kchartWizardSelectChartSubTypePage.cc:41
 #: kchartWizardSelectChartSubTypePage.cc:170
 msgid "Percent"
 msgstr "ເປີເຊັນ"
 
-#: kchartSubTypeChartPage.cc:187
+#: kchartSubTypeChartPage.cc:200
 msgid "Layer"
 msgstr "ເລເຍີ"
 
-#: kchartSubTypeChartPage.cc:189
+#: kchartSubTypeChartPage.cc:202
 msgid "Beside"
 msgstr "ด้านข้าง"
 
@@ -1001,117 +1012,109 @@ msgstr ""
 "ใช้คอลัมน์แรกเป็นตัวรายละ"
 "เอียด"
 
-#: kchart_view.cc:43
+#: kchart_view.cc:46
 msgid "Customize with &Wizard..."
 msgstr "ปรับแต่งด้วยตัว&ช่วยเหลือ..."
 
-#: kchart_view.cc:47
-msgid "&Edit Data..."
+#: kchart_view.cc:50
+#, fuzzy
+msgid "Edit &Data..."
 msgstr "แ&ก้ไขข้อมูล..."
 
-#: kchart_view.cc:50
-msgid "&Configure..."
-msgstr "&ปรับแต่ง..."
-
 #: kchart_view.cc:53
-msgid "&Load Config"
-msgstr "โ&หลดค่าที่ปรับแต่ง"
+#, fuzzy
+msgid "&Configure Chart..."
+msgstr "&ปรับแต่งค่าสี..."
 
-#: kchart_view.cc:57
-msgid "&Save Config"
-msgstr "&บันทึกค่าที่ปรับแต่ง"
-
-#: kchart_view.cc:61
-msgid "&Default Config"
-msgstr "ค่าที่ปรับแต่งโดย&ปริยาย"
-
-#: kchart_view.cc:70
+#: kchart_view.cc:63
 msgid "&Line"
 msgstr "แผนภูมิเ&ส้น"
 
-#: kchart_view.cc:74
+#: kchart_view.cc:68
 msgid "&Areas"
 msgstr "แผนภูมิ&พื้นที่"
 
-#: kchart_view.cc:83
+#: kchart_view.cc:79
 msgid "&HiLo"
 msgstr "แผนภูมิสูง&ต่ำ"
 
-#: kchart_view.cc:87
+#: kchart_view.cc:84
 msgid "&Ring"
 msgstr "แผนภูมิวงแห&วน"
 
-#: kchart_view.cc:92
+#: kchart_view.cc:89
 msgid "&Polar"
 msgstr "โ&พลาร์"
 
-#: kchart_view.cc:97
+#: kchart_view.cc:94
 msgid "Bo&x && Whisker"
 msgstr ""
 
-#: kchart_view.cc:103
+#: kchart_view.cc:100
 msgid "&Configure Colors..."
 msgstr "&ปรับแต่งค่าสี..."
 
-#: kchart_view.cc:107
+#: kchart_view.cc:104
 msgid "&Configure Font..."
 msgstr "&ปรับแต่งรูปแบบตัวอักษร..."
 
-#: kchart_view.cc:111
+#: kchart_view.cc:108
 msgid "&Configure Background..."
 msgstr "&ปรับแต่งพื้นหลัง..."
 
-#: kchart_view.cc:115
+#: kchart_view.cc:112
 msgid "&Configure Legend..."
 msgstr "&ปรับแต่งแถบข้อความกำกับ..."
 
-#: kchart_view.cc:118
+#: kchart_view.cc:115
 msgid "&Configure Sub Type Chart..."
 msgstr ""
 "&ปรับแต่งประเภทย่อยของแผนภ"
 "ูมิ..."
 
-#: kchart_view.cc:121
+#: kchart_view.cc:118
 msgid "&Configure Header Footer..."
 msgstr "&ปรับแต่งหัวและท้ายกระดาษ..."
 
-#: kchart_view.cc:125
+#: kchart_view.cc:122
 msgid "Page Layout..."
 msgstr "การจัดวางหน้ากระดาษ..."
 
-#: main.cc:27
+#: main.cc:28
 msgid "File to open"
 msgstr "แฟ้มที่จะเปิด"
 
-#: sheetdlg.cc:38
+#: sheetdlg.cc:39
 msgid "# Rows:"
 msgstr "# แถว:"
 
-#: sheetdlg.cc:43
+#: sheetdlg.cc:44
 msgid "# Cols:"
 msgstr "# คอลัมน์:"
 
-#: kchart_aboutdata.h:12
+#: kchart_aboutdata.h:28
 msgid "KOffice Chart Generator"
 msgstr ""
 "ตัวสร้างแผนภูมิของโปรแกรม"
 "ชุดสำนักงาน K"
 
-#: kchart_aboutdata.h:17
+#: kchart_aboutdata.h:34
 msgid "KChart"
 msgstr "สร้างแผนภูมิ K"
 
-#: kchart_aboutdata.h:19
-msgid "(c) 1998-2002, Kalle Dalheimer and Klarälvdalens Datakonsult AB"
+#: kchart_aboutdata.h:36
+#, fuzzy
+msgid "(c) 1998-2004, Kalle Dalheimer and Klarälvdalens Datakonsult AB"
 msgstr "(c) 1998-2002, Kalle Dalheimer และ Klarälvdalens Datakonsult AB"
 
-#: kchart_aboutdata.h:20
+#: kchart_aboutdata.h:37
+#, fuzzy
 msgid ""
 "The drawing engine which forms the base of KChart\n"
 "is also available as a commercial product\n"
-"from Klaralvdalens Datakonsult AB,\n"
-"please contact info@klaralvdalens-datakonsult.se\n"
-"for more information!"
+"from Klarälvdalens Datakonsult AB.\n"
+"Contact info@klaralvdalens-datakonsult.se\n"
+"for more information."
 msgstr ""
 "กลไกการวาดที่อยู่ในฟอร์มพ"
 "ื้นฐานของ สร้างแผนภูมิ K "
@@ -1135,14 +1138,25 @@ msgid ""
 "Your emails"
 msgstr "donga_n@yahoo.com"
 
+#~ msgid "&Configure..."
+#~ msgstr "&ปรับแต่ง..."
+
+#~ msgid "&Load Config"
+#~ msgstr "โ&หลดค่าที่ปรับแต่ง"
+
+#~ msgid "&Save Config"
+#~ msgstr "&บันทึกค่าที่ปรับแต่ง"
+
+#~ msgid "&Default Config"
+#~ msgstr "ค่าที่ปรับแต่งโดย&ปริยาย"
+
 #~ msgid "Cross"
 #~ msgstr "ไขว้"
 
 #~ msgid "&Plot color:"
 #~ msgstr "ສີການ&ວາດແຜນພູມ:"
 
-#~ msgid ""
-#~ "This color is used for plotting some chart aspects, most notably in pies."
+#~ msgid "This color is used for plotting some chart aspects, most notably in pies."
 #~ msgstr "ນີ້ເປັນສີທີຈະໃຊ້ໃນການວາດແຜນພູມທີບໍ່ໃສ່ແຜນພູມກົງ"
 
 #~ msgid "&Volume color:"
@@ -1188,12 +1202,8 @@ msgstr "donga_n@yahoo.com"
 #~ msgid "&Title color"
 #~ msgstr "สีแถบกำกับแกน"
 
-#~ msgid ""
-#~ "This color is used for displaying titles for the axes. This setting can "
-#~ "be overridden by the settings for the individual axes."
-#~ msgstr ""
-#~ "นี่เป็นสีที่ถูกใช้ในการแสดงผลแถบกำกับแกนต่างๆ ซึ่งค่าที่ตั้งไว้นี้ อาจจะถูกเปลี่ยนไปได้ "
-#~ "ในการตั้งค่ากำกับของแต่ละแกนเอง"
+#~ msgid "This color is used for displaying titles for the axes. This setting can be overridden by the settings for the individual axes."
+#~ msgstr "นี่เป็นสีที่ถูกใช้ในการแสดงผลแถบกำกับแกนต่างๆ ซึ่งค่าที่ตั้งไว้นี้ อาจจะถูกเปลี่ยนไปได้ ในการตั้งค่ากำกับของแต่ละแกนเอง"
 
 #~ msgid "&Parameter"
 #~ msgstr "พารามิเตอร์"
