@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-12-11 03:10+0100\n"
+"POT-Creation-Date: 2004-01-11 01:36+0100\n"
 "PO-Revision-Date: 2003-01-14 18:41+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -43,8 +43,8 @@ msgid ""
 "_: Screen saver category\n"
 "Fractals"
 msgstr ""
-"ໃຫ້ໂປຼຣເເກຼມຮັກສາຈໍພາບເຮັດວງກອັດໂຕໂນມັດ "
-" ิ"
+"ໃຫ້ໂປຼຣເເກຼມຮັກສາຈໍພາບເຮັ"
+"ດວງກອັດໂຕໂນມັດ  ิ"
 
 #: category_list.cpp:11
 msgid ""
@@ -85,11 +85,11 @@ msgstr ""
 "ให้โปรแกรมรักษาจอภาพทำงาน"
 "อัตโนมัติ"
 
-#: scrnsave.cpp:188
+#: scrnsave.cpp:175
 msgid "Screen Saver"
 msgstr "โปรแกรมรักษาจอภาพ"
 
-#: scrnsave.cpp:198
+#: scrnsave.cpp:187
 msgid ""
 "This is a list of the available screen savers. Select the one you want to "
 "use."
@@ -99,11 +99,11 @@ msgstr ""
 "เลือกโปรแกรมที่คุณต้องการ"
 "ใช้"
 
-#: scrnsave.cpp:202
+#: scrnsave.cpp:191
 msgid "&Setup..."
 msgstr "ตั้งค่า ..."
 
-#: scrnsave.cpp:206
+#: scrnsave.cpp:195
 msgid ""
 "If the screen saver you selected has customizable features, you can set them "
 "up by clicking this button."
@@ -114,36 +114,39 @@ msgstr ""
 "คุณสามารถตั้งค่ามันได้ "
 "โดยคลิกที่ปุ่มนี้"
 
-#: scrnsave.cpp:209
+#: scrnsave.cpp:198
 msgid "&Test"
 msgstr "ทดสอบ"
 
-#: scrnsave.cpp:213
+#: scrnsave.cpp:202
 msgid ""
 "You can try out the screen saver by clicking this button. (Also, the preview "
 "image shows you what the screen saver will look like.)"
 msgstr ""
-"ເຈົ້ັັັັາສາມາທົດສອບໂປຼແກຼມຮັກສາຈໍພາບໄ້ດ້ໂດຍຄຼິກທີ່ປຸ່ມນີ້(ເຖິງວ່າສ່ວນສະ"
-"ແດງຕົວຢ່າງຈະສະແດງໃຫ້ເຫັນຢູ່ແລ້ວວ່າມັນຈະທຳງານແນວໃດ) "
+"ເຈົ້ັັັັາສາມາທົດສອບໂປຼແກຼ"
+"ມຮັກສາຈໍພາບໄ້ດ້ໂດຍຄຼິກທີ່"
+"ປຸ່ມນີ້(ເຖິງວ່າສ່ວນສະແດງຕົ"
+"ວຢ່າງຈະສະແດງໃຫ້ເຫັນຢູ່ແລ້"
+"ວວ່າມັນຈະທຳງານແນວໃດ) "
 
-#: scrnsave.cpp:225
+#: scrnsave.cpp:213
 msgid "Here you can see a preview of the selected screen saver."
 msgstr ""
 "คุณสามารถดูตัวอย่างของโปร"
 "แกรมรักษาจอภาพที่คุณเลือก"
 "ได้ที่นี่"
 
-#: scrnsave.cpp:227
+#: scrnsave.cpp:215
 msgid "Settings"
 msgstr "ตั้งค่า"
 
-#: scrnsave.cpp:233
+#: scrnsave.cpp:222
 msgid "Start screen saver a&utomatically"
 msgstr ""
 "ให้โปรแกรมรักษาจอภาพทำงาน"
 "อัตโนมัติ"
 
-#: scrnsave.cpp:235
+#: scrnsave.cpp:224
 #, fuzzy
 msgid ""
 "When you check this option, the selected screen saver will be started "
@@ -158,19 +161,19 @@ msgstr ""
 "โดยสามารถกำหนดได้ในกล่องด"
 "้านล่างนี้"
 
-#: scrnsave.cpp:244
+#: scrnsave.cpp:233
 msgid "After:"
 msgstr "หลังจาก:"
 
-#: scrnsave.cpp:250
+#: scrnsave.cpp:239
 msgid " minutes"
 msgstr " นาที"
 
-#: scrnsave.cpp:251
+#: scrnsave.cpp:240
 msgid "1 minute"
 msgstr "1 นาที"
 
-#: scrnsave.cpp:258
+#: scrnsave.cpp:247
 #, fuzzy
 msgid ""
 "Choose the period of inactivity after which the screen saver should start. "
@@ -186,13 +189,23 @@ msgstr ""
 "กษาจอภาพทำงานอัตโนมัติ "
 "ให้ยกเลิกตัวเลือกนี้"
 
-#: scrnsave.cpp:264
+#: scrnsave.cpp:253
+msgid "Make the screen saver aware of power management"
+msgstr ""
+
+#: scrnsave.cpp:258
+msgid ""
+"Enable this option if you want to disable the screen saver while watching TV "
+"or movies."
+msgstr ""
+
+#: scrnsave.cpp:260
 msgid "&Require password to stop screen saver"
 msgstr ""
 "ต้องการรหัสผ่านในการออกจา"
 "กโปรแกรมรักษาจอภาพ"
 
-#: scrnsave.cpp:269
+#: scrnsave.cpp:265
 msgid ""
 "If you check this option, the display will be locked when the screen saver "
 "starts. To restore the display, enter your account password at the prompt."
@@ -206,11 +219,11 @@ msgstr ""
 "จะต้องใส่รหัสผ่านของ "
 "บัญชีผู้ใช้ของคุณเสียก่อน"
 
-#: scrnsave.cpp:276
+#: scrnsave.cpp:272
 msgid "&Priority:"
 msgstr "ความสำคัญ:"
 
-#: scrnsave.cpp:288
+#: scrnsave.cpp:284
 msgid ""
 "Use this slider to change the processing priority for the screen saver over "
 "other jobs that are being executed in the background. For a "
@@ -225,25 +238,46 @@ msgstr ""
 "การตั้งค่าความสำคัญสูงๆ "
 "จะทำให้แสดงผลได้ดี"
 
-#: scrnsave.cpp:299
+#: scrnsave.cpp:295
 msgid ""
 "_: Low Priority\n"
 "Low"
 msgstr "ต่ำ"
 
-#: scrnsave.cpp:306
+#: scrnsave.cpp:302
 msgid ""
 "_: High Priority\n"
 "High"
 msgstr "สูง"
 
-#: scrnsave.cpp:511
+#: scrnsave.cpp:310
+msgid "Autolock"
+msgstr ""
+
+#: scrnsave.cpp:315
+msgid "Top-Left corner"
+msgstr ""
+
+#: scrnsave.cpp:323
+msgid "Top-Right corner"
+msgstr ""
+
+#: scrnsave.cpp:330
+msgid "Bottom-Left corner"
+msgstr ""
+
+#: scrnsave.cpp:337
+msgid "Bottom-Right corner"
+msgstr ""
+
+#: scrnsave.cpp:588
 msgid "Loading..."
 msgstr ""
 
-#: scrnsave.cpp:886
+#: scrnsave.cpp:1005
+#, fuzzy
 msgid ""
-"<h1>Screen saver</h1> This module allows you to enable and configure a "
+"<h1>Screen Saver</h1> This module allows you to enable and configure a "
 "screen saver. Note that you can enable a screen saver even if you have power "
 "saving features enabled for your display."
 "<p> Besides providing an endless variety of entertainment and preventing "
@@ -291,4 +325,3 @@ msgstr ""
 
 #~ msgid "&Wait for:"
 #~ msgstr "รอจนถึง:"
-
