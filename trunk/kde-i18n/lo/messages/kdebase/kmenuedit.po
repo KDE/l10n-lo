@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-12-05 03:00+0100\n"
+"POT-Creation-Date: 2003-12-22 01:34+0100\n"
 "PO-Revision-Date: 2003-01-13 14:03+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -26,133 +26,150 @@ msgid ""
 "Your emails"
 msgstr "neuk@yahoo.com"
 
-#: basictab.cpp:71
+#: basictab.cpp:73
+msgid "Enable &launch feedback"
+msgstr ""
+
+#: basictab.cpp:76
 msgid "&Name:"
 msgstr "ຊື່:"
 
-#: basictab.cpp:72
+#: basictab.cpp:77
 msgid "&Comment:"
 msgstr "ຄຳອະທິບາຍ:"
 
-#: basictab.cpp:73
+#: basictab.cpp:78
 msgid "Co&mmand:"
 msgstr "ຄຳສັ່ງ:"
 
-#: basictab.cpp:74
-msgid "&Type:"
-msgstr "ປະເພດ:"
-
-#: basictab.cpp:97
-msgid "Application"
-msgstr "Application"
-
-#: basictab.cpp:98
-msgid "Link"
-msgstr "Link"
-
-#: basictab.cpp:117
+#: basictab.cpp:115
 msgid "&Work path:"
 msgstr "ພາທທີ່ໃຊ້ທຳງານ:"
 
-#: basictab.cpp:135
+#: basictab.cpp:133
 msgid "Run in term&inal"
 msgstr "ປະມວນຜົນໃນເທີມິນັລ"
 
-#: basictab.cpp:141
+#: basictab.cpp:139
 msgid "Terminal &options:"
 msgstr "ຕົວເລືອກເທີມິນັລ:"
 
-#: basictab.cpp:158
+#: basictab.cpp:156
 msgid "Run as a &different user"
-msgstr "ປະມວນຜົນໂດຍໃຊ້ຫມາຍເລກຜູ້ໃຊ້ອື່ນ"
+msgstr ""
+"ປະມວນຜົນໂດຍໃຊ້ຫມາຍເລກຜູ້ໃ"
+"ຊ້ອື່ນ"
 
-#: basictab.cpp:164
+#: basictab.cpp:162
 msgid "&Username:"
 msgstr "ຊື່ຜູ້ໃຊ້:"
 
-#: basictab.cpp:195
+#: basictab.cpp:193
 msgid "Current shortcut &key:"
 msgstr "ປຸ່ມພີມລັດປັດຈຸບັນ:"
 
-#: desktopfileeditor.cpp:46
-msgid "&Reset"
-msgstr "ຕັ້ງຄ່າໃຫມ່"
+#: basictab.cpp:391
+msgid ""
+"<qt>The key <b>%1</b> can not be used here because it is already used to "
+"activate <b>%2</b>."
+msgstr ""
 
-#: kmenuedit.cpp:37
+#: basictab.cpp:396
+msgid "<qt>The key <b>%1</b> can not be used here because it is already in use."
+msgstr ""
+
+#: kmenuedit.cpp:43
 msgid "Edit K Menu"
 msgstr "ແກ້ໄຂເມນູ K"
 
-#: kmenuedit.cpp:65
+#: kmenuedit.cpp:77
 msgid "&New Submenu..."
 msgstr "ສ້າງເມນູຍ່ອຍໃຫມ່"
 
-#: kmenuedit.cpp:66
+#: kmenuedit.cpp:78
 msgid "New &Item..."
 msgstr "ສ້າງລາຍການໃຫມ່"
 
-#: kmenuedit.cpp:71
-msgid "Show &Hidden Items"
-msgstr "ສະແດງລາຍການທີ່ເຊື່ອງໄວ້"
+#: kmenuedit.cpp:162
+msgid ""
+"You have made changes to the menu.\n"
+"Do you want to save the changes or discard them?"
+msgstr ""
 
-#: kmenuedit.cpp:108
-msgid "&Re-add"
-msgstr "ເຮັດການເພີ້ມຊຳ້"
+#: kmenuedit.cpp:164
+msgid "Save Menu Changes?"
+msgstr ""
 
 #: main.cpp:30
 msgid "KDE Menu editor"
-msgstr ""
-"ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ "
-"KDE"
+msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
 #: main.cpp:35
 msgid "KDE Menu Editor"
-msgstr ""
-"ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ "
-"KDE"
+msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
 #: main.cpp:38
 msgid "Maintainer"
 msgstr "ຜູ້ເບິ່ງແຍງ"
 
 #: main.cpp:39
+#, fuzzy
+msgid "Previous Maintainer"
+msgstr "ຜູ້ເບິ່ງແຍງ"
+
+#: main.cpp:40
 msgid "Original Author"
 msgstr "ຜູ້ຂງນດັ້ງເດີມ"
 
-#: treeview.cpp:90
+#: treeview.cpp:85
 msgid " [Hidden]"
 msgstr " [ຖືກເຊື່ອງໄວ້]"
 
-#: treeview.cpp:341
-msgid "Settings"
-msgstr "ຕັ້ງຄ່າ"
-
-#: treeview.cpp:751
-msgid "Submenu name:"
-msgstr "ຊື່ເມນູຍ່ອຍ:"
-
-#: treeview.cpp:752
+#: treeview.cpp:718
 msgid "New Submenu"
 msgstr "ສ້າງເມນູຍ່ອຍໃຫມ່"
 
-#: treeview.cpp:809
-msgid "A file exists with that name. Please provide another name."
-msgstr "ມີແຟ້ມທີ່ມີຊື່ນັ້ນຢູ່ແລ້ວ ກະລຸນາຕື່ມຊື່ອື່ນໆ"
+#: treeview.cpp:719
+msgid "Submenu name:"
+msgstr "ຊື່ເມນູຍ່ອຍ:"
 
-#: treeview.cpp:809 treeview.cpp:878
-msgid "File Exists"
-msgstr "ມີແຟ້ມຢູ່ແລ້ວ"
-
-#: treeview.cpp:835
-msgid "Item name:"
-msgstr "ໍໍຊື່ລາຍການ:"
-
-#: treeview.cpp:836
+#: treeview.cpp:787
 msgid "New Item"
 msgstr "ສ້າງລາຍການໃຫມ່"
 
-#: treeview.cpp:878
-msgid "A file already exists with that name. Please provide another name."
-msgstr "ມີແຟ້ມທີ່ມີຊື່ນັ້ນຢູ່ແລ້ວ ກະລຸນາຕື່ມຊື່ອື່ນໆ"
+#: treeview.cpp:788
+msgid "Item name:"
+msgstr "ໍໍຊື່ລາຍການ:"
+
+#~ msgid "&Type:"
+#~ msgstr "ປະເພດ:"
+
+#~ msgid "Application"
+#~ msgstr "Application"
+
+#~ msgid "Link"
+#~ msgstr "Link"
+
+#~ msgid "&Reset"
+#~ msgstr "ຕັ້ງຄ່າໃຫມ່"
+
+#~ msgid "Show &Hidden Items"
+#~ msgstr "ສະແດງລາຍການທີ່ເຊື່ອງໄວ້"
+
+#~ msgid "&Re-add"
+#~ msgstr "ເຮັດການເພີ້ມຊຳ້"
+
+#~ msgid "Settings"
+#~ msgstr "ຕັ້ງຄ່າ"
+
+#~ msgid "A file already exists with that name. Please provide another name."
+#~ msgstr "ມີແຟ້ມທີ່ມີຊື່ນັ້ນຢູ່ແລ້ວ ກະລຸນາຕື່ມຊື່ອື່ນໆ"
+
+#~ msgid "File Exists"
+#~ msgstr "ມີແຟ້ມຢູ່ແລ້ວ"
+
+#~ msgid "A file exists with that name. Please provide another name."
+#~ msgstr "ມີແຟ້ມທີ່ມີຊື່ນັ້ນຢູ່ແລ້ວ ກະລຸນາຕື່ມຊື່ອື່ນໆ"
 
 #~ msgid "Show &Removed Items"
 #~ msgstr "แสดงรายการที่ถูกลบไปแล้ว"
@@ -195,4 +212,3 @@ msgstr "ມີແຟ້ມທີ່ມີຊື່ນັ້ນຢູ່ແລ້
 
 #~ msgid "Name"
 #~ msgstr "ชื่อ"
-

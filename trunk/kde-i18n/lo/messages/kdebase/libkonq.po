@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-06-03 01:32+0200\n"
+"POT-Creation-Date: 2003-12-22 01:34+0100\n"
 "PO-Revision-Date: 2003-01-11 14:28+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,16 +14,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: knewmenu.cc:62 knewmenu.cc:73
-msgid "Create Ne&w"
+#: knewmenu.cc:67 knewmenu.cc:79
+#, fuzzy
+msgid "Create New"
 msgstr "ສາ້ງໃຫມ່"
 
-#: knewmenu.cc:299
+#: knewmenu.cc:96
+msgid "Device"
+msgstr ""
+
+#: knewmenu.cc:367
 #, fuzzy
 msgid "<qt>The template file <b>%1</b> doesn't exist.</qt>"
 msgstr "ຍັງບໍມີແຟມຕົ້ນແບບ %1 !"
 
-#: knewmenu.cc:312
+#: knewmenu.cc:380
 msgid "File name:"
 msgstr "ຊື່ຟາຍ:"
 
@@ -117,60 +122,19 @@ msgstr ""
 msgid "<p><b>%1</b> doesn't seem to exist anymore</p>"
 msgstr "ຄືຈະບໍ່ມີປະກົດອີກຕໍ່ໄປ"
 
-#: konq_dirpart.cc:355
+#: konq_dirpart.cc:354
 #, c-format
 msgid "Search result: %1"
 msgstr "ຜົນການຄົ້ນຫາ: %1"
 
-#: konq_operations.cc:96
+#: konq_operations.cc:99
 msgid "You can't trash the trash bin."
 msgstr ""
 "ທາ່ນສາມາດຖີ້ມຂີ້ເຫືຍອລົງຖ"
 "ັງຂີ້ເຫືຍອໄດ້"
 
-#: konq_operations.cc:287
-msgid "<p>Do you really want to delete <b>%1</b> from <b>%2</b>?</p>"
-msgstr ""
-"<p>ທາ່ນຕອ້ງການລຶບ <b>%1</b> ຈາກ <b>%2</b> "
-"ແທ້ຫລືບໍ่ ?</p>"
-
-#: konq_operations.cc:288
-msgid "Delete File"
-msgstr "ລຶບແຟ້ມ"
-
-#: konq_operations.cc:295
-msgid "<p>Do you really want to shred <b>%1</b>?</p>"
-msgstr ""
-"<p>ທາ່ນຕອ້ງການທຳລາຍ <b>%1</b> "
-"ຖີມແທ້ຫລືບໍ่ ?</p>"
-
-#: konq_operations.cc:296
-msgid "Shred File"
-msgstr "ທຳລາຍແຟ້ມ"
-
-#: konq_operations.cc:297 konq_operations.cc:331
-msgid "Shred"
-msgstr "ທຳລາຍ"
-
-#: konq_operations.cc:304
-msgid "<p>Do you really want to move <b>%1</b> to the trash?</p>"
-msgstr ""
-"<p>ທາ່ນຕອ້ງການທີ່ຈະຖີ້ມ <b>%1</b> "
-"ລົງຖັງຂີ້ເຫືຍອແທ້ຫລືບໍ่ ?</p>"
-
-#: konq_operations.cc:305 konq_operations.cc:340
-msgid "Move to Trash"
-msgstr "ຖີ້ືມລົງຖັງຂີ້ເຫືຍອ"
-
-#: konq_operations.cc:306 konq_operations.cc:341
-msgid ""
-"_: Verb\n"
-"Trash"
-msgstr "ຖັງຂີ້ເຫືຍອ"
-
-#: konq_operations.cc:319
-#, c-format
-#, fuzzy
+#: konq_operations.cc:280
+#, fuzzy, c-format
 msgid ""
 "_n: Do you really want to delete this item?\n"
 "Do you really want to delete these %n items?"
@@ -178,13 +142,12 @@ msgstr ""
 "ທາ່ນຕອ້ງການລຶບທັງ %n "
 "ລາຍການນີ້ ແມ່ນຫລືບໍ่ ?"
 
-#: konq_operations.cc:321
+#: konq_operations.cc:282
 msgid "Delete Files"
 msgstr "ລຶບແຟ້ມ"
 
-#: konq_operations.cc:328
-#, c-format
-#, fuzzy
+#: konq_operations.cc:289
+#, fuzzy, c-format
 msgid ""
 "_n: Do you really want to shred this item?\n"
 "Do you really want to shred these %n items?"
@@ -192,135 +155,195 @@ msgstr ""
 "ທາ່ນຕອ້ງການທຳລາຍທັ້ງ %n "
 "ລາຍການນີ້ແທ້ຫລືບໍ ?"
 
-#: konq_operations.cc:330
+#: konq_operations.cc:291
 msgid "Shred Files"
 msgstr "ທຳລາຍແຟ້ມ"
 
-#: konq_operations.cc:338
-#, c-format
-#, fuzzy
+#: konq_operations.cc:292
+msgid "Shred"
+msgstr "ທຳລາຍ"
+
+#: konq_operations.cc:299
+#, fuzzy, c-format
 msgid ""
-"_n: Do you really want to move this item to the trashcan?\n"
-"Do you really want to move these %n items to the trashcan?"
+"_n: Do you really want to move this item to the trash?\n"
+"Do you really want to move these %n items to the trash?"
 msgstr ""
 "ທາ່ນຕອ້ງການຖີມ %n "
 "ລາຍການນີ້້ລົງຖັງຂີ້ເຫຍືອ "
 "ແມ່ນຫລືບໍ ?"
 
-#: konq_operations.cc:395
-msgid "You can't drop a directory onto itself"
+#: konq_operations.cc:301
+msgid "Move to Trash"
+msgstr "ຖີ້ືມລົງຖັງຂີ້ເຫືຍອ"
+
+#: konq_operations.cc:302
+msgid ""
+"_: Verb\n"
+"Trash"
+msgstr "ຖັງຂີ້ເຫືຍອ"
+
+#: konq_operations.cc:353
+#, fuzzy
+msgid "You cannot drop a folder on to itself"
 msgstr ""
 "ທາ່ນບໍ່ສາມາດລາກແລະວາງໄດເລ"
 "ັກເທີລີ ໄປເທີງໂຕມັນເອງໄດ້"
 
-#: konq_operations.cc:625
-msgid "&Copy Here"
-msgstr "ຄັດລອກໄວ້ບອ່ນນີ້"
-
-#: konq_operations.cc:627
+#: konq_operations.cc:605
 msgid "&Move Here"
 msgstr "ຍາ້ຍໄວ້ບອ່ນນີ້"
 
-#: konq_operations.cc:628
+#: konq_operations.cc:607
+msgid "&Copy Here"
+msgstr "ຄັດລອກໄວ້ບອ່ນນີ້"
+
+#: konq_operations.cc:608
 msgid "&Link Here"
 msgstr "ລີ້ງໄວ້ບອ່ນນີ້"
 
-#: konq_operations.cc:630
+#: konq_operations.cc:610
 msgid "Set as &Wallpaper"
 msgstr "ປັບໃຊ້ເປັນພາບພື້ນຫລັງ"
 
-#: konq_operations.cc:632
+#: konq_operations.cc:612
 msgid "C&ancel"
 msgstr "ຍົກເລີກ"
 
-#: konq_popupmenu.cc:273
+#: konq_operations.cc:811 konq_operations.cc:828
+msgid "New Folder"
+msgstr ""
+
+#: konq_operations.cc:829
+#, fuzzy
+msgid "Enter folder name:"
+msgstr "ປ້ອນຊື່ໄດເລກເທີລິ"
+
+#: konq_popupmenu.cc:381
 msgid "&Open"
 msgstr "ເ&ປີດ"
 
-#: konq_popupmenu.cc:273
+#: konq_popupmenu.cc:381
 msgid "Open in New &Window"
 msgstr "ເປີດໃນ&ຫນ້ຕ່າງໃຫມ່"
 
-#: konq_popupmenu.cc:278
+#: konq_popupmenu.cc:388
 #, fuzzy
 msgid "Open the trash in a new window"
 msgstr "ເປີດເອກະສານໃນຫນ້າຕາ່ງໃຫມ່"
 
-#: konq_popupmenu.cc:280
+#: konq_popupmenu.cc:390
 msgid "Open the document in a new window"
 msgstr "ເປີດເອກະສານໃນຫນ້າຕາ່ງໃຫມ່"
 
-#: konq_popupmenu.cc:289
+#: konq_popupmenu.cc:402
 msgid "&Empty Trash Bin"
 msgstr "ເ&ທຖັງຂີເຫືຍອຖີມ"
 
-#: konq_popupmenu.cc:293 konq_popupmenu.cc:614
+#: konq_popupmenu.cc:406 konq_popupmenu.cc:796
 msgid "&Properties"
 msgstr "ຄຸນສົມບັດิ..."
 
-#: konq_popupmenu.cc:316
-msgid "Create Director&y..."
+#: konq_popupmenu.cc:431
+#, fuzzy
+msgid "Create &Folder..."
 msgstr "ສາ້ງໄດເລກເທີລີໃຫມ່"
 
-#: konq_popupmenu.cc:380
-msgid "&Add to Bookmarks"
-msgstr "ເ&ພີ່ມໃນທີ່ຄັ່ນຫນັງສື"
+#: konq_popupmenu.cc:498
+#, fuzzy
+msgid "&Bookmark This Page"
+msgstr "ທີ່ຄັນຫນັງສື"
 
-#: konq_popupmenu.cc:529
+#: konq_popupmenu.cc:500
+msgid "&Bookmark This Location"
+msgstr ""
+
+#: konq_popupmenu.cc:503
+#, fuzzy
+msgid "&Bookmark This Folder"
+msgstr "ທີ່ຄັນຫນັງສື"
+
+#: konq_popupmenu.cc:505
+#, fuzzy
+msgid "&Bookmark This Link"
+msgstr "ທີ່ຄັນຫນັງສື"
+
+#: konq_popupmenu.cc:507
+#, fuzzy
+msgid "&Bookmark This File"
+msgstr "ທີ່ຄັນຫນັງສື"
+
+#: konq_popupmenu.cc:709
 msgid "&Open With"
 msgstr "ເປີດໃຊ้້&ດ້ວຍ"
 
-#: konq_popupmenu.cc:534 konq_popupmenu.cc:562
+#: konq_popupmenu.cc:714 konq_popupmenu.cc:742
 msgid "&Open With..."
 msgstr "ເປີດໃ້ໍຊ้&ດວ້ຍ..."
 
-#: konq_popupmenu.cc:555
+#: konq_popupmenu.cc:735
 msgid "&Other..."
 msgstr "&ອື່ນໆ..."
 
-#: konq_popupmenu.cc:576
+#: konq_popupmenu.cc:762
 msgid "Ac&tions"
 msgstr ""
 
-#: konq_popupmenu.cc:607
-msgid "&Edit File Type..."
-msgstr "ແ&ກ້ໄຂຊະນີດຂອງແຟ້ມ..."
-
-#: konq_popupmenu.cc:629
+#: konq_popupmenu.cc:811
 msgid "Share"
 msgstr "ໃຊ້ຮວ່ມກັນ"
 
-#: konq_popupmenu.cc:689
-msgid "Enter directory name:"
-msgstr "ປ້ອນຊື່ໄດເລກເທີລິ"
-
-#: konq_popupmenu.cc:689
-msgid "Directory"
-msgstr "ໄດເລກເທີລິ"
-
-#: konq_popupmenu.cc:690
-msgid "New Directory"
-msgstr "ສາ້ງໄດເລກເທີລິໃຫມ່"
-
-#: konq_undo.cc:235
+#: konq_undo.cc:237
 msgid "Und&o"
 msgstr "ຍົກເລີກ"
 
-#: konq_undo.cc:239
+#: konq_undo.cc:241
 msgid "Und&o: Copy"
 msgstr "ຍົກເລີກ: ຄັດອອກ"
 
-#: konq_undo.cc:241
+#: konq_undo.cc:243
 msgid "Und&o: Link"
 msgstr "ຍົກເລີກ: ລີງ"
 
-#: konq_undo.cc:243
+#: konq_undo.cc:245
 msgid "Und&o: Move"
 msgstr "ຍົກເລີກ: ຍາ້ຍ"
 
-#: konq_undo.cc:245
-msgid "Und&o: Create Directory"
+#: konq_undo.cc:247
+#, fuzzy
+msgid "Und&o: Create Folder"
 msgstr "ຍົກເລີກ: ສາ້ງໄດເລກເທີລິໃຫມ່"
+
+#~ msgid "Directory"
+#~ msgstr "ໄດເລກເທີລິ"
+
+#~ msgid "New Directory"
+#~ msgstr "ສາ້ງໄດເລກເທີລິໃຫມ່"
+
+#~ msgid "&Edit File Type..."
+#~ msgstr "ແ&ກ້ໄຂຊະນີດຂອງແຟ້ມ..."
+
+#, fuzzy
+#~ msgid "KSpread"
+#~ msgstr "ທຳລາຍ"
+
+#~ msgid "&Add to Bookmarks"
+#~ msgstr "ເ&ພີ່ມໃນທີ່ຄັ່ນຫນັງສື"
+
+#~ msgid "<p>Do you really want to delete <b>%1</b> from <b>%2</b>?</p>"
+#~ msgstr "<p>ທາ່ນຕອ້ງການລຶບ <b>%1</b> ຈາກ <b>%2</b> ແທ້ຫລືບໍ่ ?</p>"
+
+#~ msgid "Delete File"
+#~ msgstr "ລຶບແຟ້ມ"
+
+#~ msgid "<p>Do you really want to shred <b>%1</b>?</p>"
+#~ msgstr "<p>ທາ່ນຕອ້ງການທຳລາຍ <b>%1</b> ຖີມແທ້ຫລືບໍ่ ?</p>"
+
+#~ msgid "Shred File"
+#~ msgstr "ທຳລາຍແຟ້ມ"
+
+#~ msgid "<p>Do you really want to move <b>%1</b> to the trash?</p>"
+#~ msgstr "<p>ທາ່ນຕອ້ງການທີ່ຈະຖີ້ມ <b>%1</b> ລົງຖັງຂີ້ເຫືຍອແທ້ຫລືບໍ่ ?</p>"
 
 #~ msgid "Open With..."
 #~ msgstr "ເປີດໃຊ้້&ດວ້ຍ..."
@@ -330,6 +353,3 @@ msgstr "ຍົກເລີກ: ສາ້ງໄດເລກເທີລິໃຫ�
 
 #~ msgid "<!-- This file was generated by Konqueror -->"
 #~ msgstr "<!-- ແຟມນີ້ຖືກສາ້ງດວ້ຍຄອນເຄວເລີ์ -->"
-
-#~ msgid "Bookmarks"
-#~ msgstr "ທີ່ຄັນຫນັງສື"
