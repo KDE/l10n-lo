@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-02-03 01:24+0100\n"
+"POT-Creation-Date: 2005-02-19 01:29+0100\n"
 "PO-Revision-Date: 2003-01-23 20:01+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -51,7 +51,7 @@ msgid "&Column"
 msgstr "ຄໍລຳ້&໌"
 
 #. i18n: file kspread.rc line 96
-#: kspread_view.cc:924 rc.cpp:36
+#: kspread_view.cc:928 rc.cpp:36
 #, no-c-format
 msgid "&Sheet"
 msgstr "ແ&ຜນງານ"
@@ -74,87 +74,81 @@ msgstr "ຂໍ້&ມູນ"
 msgid "&Protect Document"
 msgstr ""
 
-#. i18n: file kspread.rc line 188
-#: rc.cpp:57 xml_doc.cc:2802
-#, no-c-format
-msgid "Math"
-msgstr "ຄະນິດສາດ"
-
-#. i18n: file kspread.rc line 193
-#: rc.cpp:60
+#. i18n: file kspread.rc line 183
+#: rc.cpp:57
 #, no-c-format
 msgid "Navigation"
 msgstr ""
 
-#. i18n: file kspread.rc line 199
+#. i18n: file kspread.rc line 189
 #: dialogs/kspread_dlg_csv.cc:130 dialogs/kspread_dlg_layout.cc:1152
-#: dialogs/kspread_dlg_special.cc:49 rc.cpp:63
+#: dialogs/kspread_dlg_special.cc:49 rc.cpp:60
 #, no-c-format
 msgid "Format"
 msgstr "ລືບ"
 
-#. i18n: file kspread.rc line 225
-#: rc.cpp:66
+#. i18n: file kspread.rc line 211
+#: rc.cpp:63
 #, no-c-format
 msgid "Color/Border"
 msgstr "ສີ/ເສັ້ນຂອບ"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 34
-#: rc.cpp:75 rc.cpp:78
+#: rc.cpp:72 rc.cpp:75
 #, no-c-format
 msgid "Subtotal"
 msgstr "ບໍ່ສົມບູນ"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 85
-#: rc.cpp:81
+#: rc.cpp:78
 #, no-c-format
 msgid "Add Subtotal to:"
 msgstr "ເພີ່ມ ຍັງບໍ່ສົມບູນຫາ:"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 93
-#: rc.cpp:84
+#: rc.cpp:81
 #, no-c-format
 msgid "Use function:"
 msgstr "ແທກຟັງຊັນ"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 106
-#: rc.cpp:87
+#: rc.cpp:84
 #, no-c-format
 msgid "At each change in:"
 msgstr "ເທີງແຕ່ລະການປ່ຽນແປງຂ້າງໃນ:"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 112
-#: dialogs/kspread_dlg_database.cc:242 rc.cpp:90
+#: dialogs/kspread_dlg_database.cc:242 rc.cpp:87
 #, no-c-format
 msgid "Columns"
 msgstr "ສະດົມ์"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 149
-#: rc.cpp:96
+#: rc.cpp:93
 #, no-c-format
 msgid "&Replace current Subtotals"
 msgstr "&ປ່ຽນ ທັງໝົດ ບໍ່ສົມບູນ"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 163
-#: rc.cpp:99
+#: rc.cpp:96
 #, no-c-format
 msgid "&Page break between groups"
 msgstr "&ຢຸູດ ຫນ້າ ລະຫວ່າງ ກຸ່ມ"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 171
-#: rc.cpp:102
+#: rc.cpp:99
 #, no-c-format
 msgid "&Summary below data"
 msgstr "&ສັງລວມຂໍ້ມູນຂ້າງລຸ່ມ"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 185
-#: rc.cpp:105
+#: rc.cpp:102
 #, no-c-format
 msgid "Summary &only"
 msgstr "ສັງລວມ &ສະເພາະ"
 
 #. i18n: file dialogs/kspreadsubtotal.ui line 210
-#: rc.cpp:108
+#: rc.cpp:105
 #, no-c-format
 msgid "&Ignore empty cells when looking for changes"
 msgstr ""
@@ -162,81 +156,81 @@ msgstr ""
 "ທຳການປ່ຽນ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 58
-#: rc.cpp:111
+#: rc.cpp:108
 #, no-c-format
 msgid "Layout Direction:"
 msgstr ""
 
 #. i18n: file dialogs/sheet_properties_base.ui line 64
-#: dialogs/sheet_properties.cc:64 dialogs/sheet_properties.cc:79 rc.cpp:114
+#: dialogs/sheet_properties.cc:64 dialogs/sheet_properties.cc:79 rc.cpp:111
 #, no-c-format
 msgid "Left To Right"
 msgstr ""
 
 #. i18n: file dialogs/sheet_properties_base.ui line 69
-#: dialogs/sheet_properties.cc:67 dialogs/sheet_properties.cc:82 rc.cpp:117
+#: dialogs/sheet_properties.cc:67 dialogs/sheet_properties.cc:82 rc.cpp:114
 #, fuzzy, no-c-format
 msgid "Right To Left"
 msgstr "ລຽງຊິດດ້າຍຊ້າຍ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 83
-#: rc.cpp:120
+#: rc.cpp:117
 #, fuzzy, no-c-format
 msgid "&Automatic Recalculation"
 msgstr "່&ຄຳນວນໃຫມອັດຕະໂນມັດ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 91
-#: rc.cpp:123
+#: rc.cpp:120
 #, fuzzy, no-c-format
 msgid "Show &Grid"
 msgstr "&ສະແດງກຣິດ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 99
-#: rc.cpp:126
+#: rc.cpp:123
 #, fuzzy, no-c-format
 msgid "Show Page &Borders"
 msgstr "ສະແດງຂອບຫນ້າເຈັ້ຍ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 107
-#: rc.cpp:129
+#: rc.cpp:126
 #, fuzzy, no-c-format
 msgid "Show &Formula"
 msgstr "&ສະແດງສູດ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 115
-#: rc.cpp:132
+#: rc.cpp:129
 #, fuzzy, no-c-format
 msgid "&Hide Zero"
 msgstr "ູ&ເຊື່ອງຄ່າທີ່ເປັນສູນ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 123
-#: rc.cpp:135
+#: rc.cpp:132
 #, fuzzy, no-c-format
 msgid "Show Formula &Indicator"
 msgstr "ີ&ສະແດງຕົວບົ່ງວ່າມຫມາຍເຫດ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 131
-#: rc.cpp:138
+#: rc.cpp:135
 #, fuzzy, no-c-format
 msgid "Show Column As &Numbers"
 msgstr "ົ&ສະແດງຫມາຍເລກສະດມ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 139
-#: rc.cpp:141
+#: rc.cpp:138
 #, fuzzy, no-c-format
 msgid "Use &LC Mode"
 msgstr "&ໂຫມດ LC"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 147
-#: rc.cpp:144
+#: rc.cpp:141
 #, fuzzy, no-c-format
 msgid "&Convert First Letter to Uppercase"
 msgstr ""
 "ແປງຕົວອັກສອນຕົວທຳອິດເປັນຕ"
 "ົວພິມໃຫຍ່"
 
-#: commands.cc:77 dialogs/kspread_dlg_layout.cc:2881 kspread_undo.cc:2092
-#: kspread_view.cc:809
+#: commands.cc:77 dialogs/kspread_dlg_layout.cc:2874 kspread_undo.cc:2092
+#: kspread_view.cc:813
 msgid "Merge Cells"
 msgstr "ປະສານເຊລ์"
 
@@ -250,7 +244,7 @@ msgstr "ປະສານເຊລ์"
 msgid "Dissociate Cell"
 msgstr "ແຍກເຊລ"
 
-#: commands.cc:135 kspread_view.cc:6010 kspread_view.cc:6028
+#: commands.cc:135 kspread_view.cc:6027 kspread_view.cc:6045
 msgid "Rename Sheet"
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 
@@ -259,7 +253,7 @@ msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 msgid "Hide Sheet %1"
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
-#: commands.cc:177 kspread_view.cc:940
+#: commands.cc:177 kspread_view.cc:944
 msgid "Hide Sheet"
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
@@ -278,8 +272,8 @@ msgstr "ສະແດງແຜ່ນງານ..."
 msgid "Add Sheet"
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
-#: commands.cc:262 kspread_view.cc:928 kspread_view.cc:5965
-#: kspread_view.cc:5970
+#: commands.cc:262 kspread_view.cc:932 kspread_view.cc:5982
+#: kspread_view.cc:5987
 msgid "Remove Sheet"
 msgstr "ລືບແຜ່ນງານ"
 
@@ -288,7 +282,7 @@ msgstr "ລືບແຜ່ນງານ"
 msgid "Change Sheet Properties"
 msgstr "ຮູບແບບແຜ່ນງານ..."
 
-#: commands.cc:395 kspread_undo.cc:316 kspread_view.cc:856
+#: commands.cc:395 kspread_undo.cc:316 kspread_view.cc:860
 msgid "Insert Columns"
 msgstr "ສອດຖັນ"
 
@@ -296,6 +290,11 @@ msgstr "ສອດຖັນ"
 #, fuzzy
 msgid "Set Page Layout"
 msgstr "ການຈັດວາງຫນ້າເຈັ້ຍ"
+
+#: commands.cc:566
+#, fuzzy
+msgid "Set Link"
+msgstr "ການແຊກການເຊື່ອມໂຍງ"
 
 #: dialogs/kspread_dlg_list.cc:111 dialogs/kspread_dlg_sort.cc:245
 #: kspread_autofill.cc:138
@@ -497,19 +496,19 @@ msgstr "ກວ້າງ: %1 %2"
 msgid "Hide Column"
 msgstr "ຂ່ອນສະດົມ"
 
-#: dialogs/kspread_dlg_anchor.cc:137 dialogs/kspread_dlg_anchor.cc:219
-#: dialogs/kspread_dlg_anchor.cc:302 dialogs/kspread_dlg_anchor.cc:426
+#: dialogs/kspread_dlg_anchor.cc:172 dialogs/kspread_dlg_anchor.cc:242
+#: dialogs/kspread_dlg_anchor.cc:311 dialogs/kspread_dlg_anchor.cc:416
 #: kspread_canvas.cc:5277
 msgid "Comment:"
 msgstr "ຫມາຍເຫດุ:"
 
-#: kspread_cell.cc:980
+#: kspread_cell.cc:986
 msgid "REFERENCE TO COLUMN OR ROW IS OUT OF RANGE"
 msgstr ""
 "ອ້າງເຖິງແຖວຫລືຖັນທີ່ຢູ່ນອ"
 "ນຂອບເຂດ"
 
-#: kspread_cell.cc:1874 kspread_cell.cc:1941
+#: kspread_cell.cc:1880 kspread_cell.cc:1947
 msgid ""
 "Error in cell %1\n"
 "\n"
@@ -517,29 +516,29 @@ msgstr ""
 "ມີຂໍ້ຜິດພາດໃນເຊັດ %1\n"
 "\n"
 
-#: kspread_cell.cc:5087 kspread_functions_text.cc:678
+#: kspread_cell.cc:5114 kspread_functions_text.cc:678
 msgid "True"
 msgstr "ຈີງ"
 
-#: kspread_cell.cc:5087 kspread_functions_text.cc:678
+#: kspread_cell.cc:5114 kspread_functions_text.cc:678
 msgid "False"
 msgstr "ບໍ່ຈີງ"
 
-#: kspread_doc.cc:886
+#: kspread_doc.cc:892
 #, fuzzy
 msgid "Invalid document. No office:body."
 msgstr ""
 "ເອກະສານບໍ່ຖືກຕອ້ງ "
 "ບໍ່ມີສ່ວນແທັກແມບ"
 
-#: kspread_doc.cc:894
+#: kspread_doc.cc:900
 #, fuzzy
 msgid "Invalid document. No office:spreadsheet."
 msgstr ""
 "ເອກະສານບໍ່ຖືກຕອ້ງ "
 "ບໍ່ມີສ່ວນແທັກແມບ"
 
-#: kspread_doc.cc:942
+#: kspread_doc.cc:947
 #, c-format
 msgid ""
 "Invalid document. Expected mimetype application/x-kspread or "
@@ -550,7 +549,7 @@ msgstr ""
 "หรือ application/vnd.kde.kspread, "
 "ແຕ່ໄດ້ຮັບປະເພດ %1"
 
-#: kspread_doc.cc:950
+#: kspread_doc.cc:955
 msgid ""
 "This document was created with a newer version of KSpread (syntax version: "
 "%1)\n"
@@ -564,23 +563,23 @@ msgstr ""
 "ລຸ້ນນີ້ອາດຈະມີຂໍ້ມູນບາງສ່"
 "ວນສູນຫາຍໄປ"
 
-#: kspread_doc.cc:952
+#: kspread_doc.cc:957
 #, fuzzy
 msgid "File Format Mismatch"
 msgstr "ປະເພດຂອງແຟ້ມບໍ່ເຫມາະສົມ"
 
-#: kspread_doc.cc:1015
+#: kspread_doc.cc:1020
 #, fuzzy
 msgid "Styles cannot be loaded."
 msgstr "ບໍ່ສາມາດໂຫລດໄດຣເວີຣໄດ້ "
 
-#: kspread_doc.cc:1025
+#: kspread_doc.cc:1030
 msgid "Invalid document. No map tag."
 msgstr ""
 "ເອກະສານບໍ່ຖືກຕອ້ງ "
 "ບໍ່ມີສ່ວນແທັກແມບ"
 
-#: kspread_doc.cc:1400
+#: kspread_doc.cc:1405
 #, c-format
 msgid "Sheet%1"
 msgstr "ແຜ່ນງານ %1"
@@ -3058,7 +3057,7 @@ msgstr "ZWD"
 #: dialogs/kspread_dlg_csv.cc:588 dialogs/kspread_dlg_csv.cc:711
 #: dialogs/kspread_dlg_layout.cc:1183 dialogs/kspread_dlg_special.cc:48
 #: dialogs/kspread_dlg_validity.cc:69 kspread_functions.cc:48
-#: kspread_view.cc:817 xml_doc.cc:5094 xml_doc.cc:5490 xml_doc.cc:5592
+#: kspread_view.cc:821 xml_doc.cc:5094 xml_doc.cc:5490 xml_doc.cc:5592
 #: xml_doc.cc:5604
 #, no-c-format
 msgid "Text"
@@ -3178,8 +3177,8 @@ msgstr "#Div/0"
 msgid "Manual"
 msgstr "ເຮັດເອງ"
 
-#: dialogs/kspread_dlg_layout.cc:1268 dialogs/kspread_dlg_layout.cc:1822
-#: dialogs/kspread_dlg_layout.cc:1903 dialogs/kspread_dlg_preference.cc:407
+#: dialogs/kspread_dlg_layout.cc:1268 dialogs/kspread_dlg_layout.cc:1815
+#: dialogs/kspread_dlg_layout.cc:1896 dialogs/kspread_dlg_preference.cc:407
 #: kspread_functions_information.cc:125
 msgid "Automatic"
 msgstr "ອັດຕະໂນມັດ"
@@ -3221,7 +3220,7 @@ msgstr "AM"
 msgid "Change Font"
 msgstr "ປ່ຽນຮູບແບບຕົວອັກສອນ"
 
-#: kspread_sheet.cc:1715 kspread_view.cc:688
+#: kspread_sheet.cc:1715 kspread_view.cc:692
 msgid "Vertical Text"
 msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 
@@ -3288,11 +3287,11 @@ msgstr ""
 msgid "Format Money"
 msgstr "ຮູບບແບບເງີນຕາ"
 
-#: kspread_sheet.cc:4926 kspread_view.cc:694
+#: kspread_sheet.cc:4926 kspread_view.cc:698
 msgid "Increase Indent"
 msgstr "ເພີ່ມລະຍະການຍັບ"
 
-#: kspread_sheet.cc:4980 kspread_view.cc:699
+#: kspread_sheet.cc:4980 kspread_view.cc:703
 msgid "Decrease Indent"
 msgstr "ລົດລະຍະການຍັບ"
 
@@ -3365,25 +3364,25 @@ msgstr "ລືບສະດົມ"
 msgid "Remove Rows"
 msgstr "ົລືບແຖວ"
 
-#: kspread_undo.cc:442 kspread_view.cc:885
+#: kspread_undo.cc:442 kspread_view.cc:889
 msgid "Insert Rows"
 msgstr "ສອດແຖວ"
 
-#: kspread_undo.cc:486 kspread_view.cc:893
+#: kspread_undo.cc:486 kspread_view.cc:897
 msgid "Hide Rows"
 msgstr "ເຊືອງແຖວ"
 
-#: kspread_undo.cc:542 kspread_view.cc:864
+#: kspread_undo.cc:542 kspread_view.cc:868
 msgid "Hide Columns"
 msgstr "ເຊື່ອງຖັນ"
 
 #: dialogs/kspread_dlg_showColRow.cc:51 kspread_undo.cc:599
-#: kspread_view.cc:905
+#: kspread_view.cc:909
 msgid "Show Rows"
 msgstr "ສະແດງແຖວ"
 
 #: dialogs/kspread_dlg_showColRow.cc:47 kspread_undo.cc:656
-#: kspread_view.cc:876
+#: kspread_view.cc:880
 msgid "Show Columns"
 msgstr "ສະແດງຖັນ"
 
@@ -3437,694 +3436,694 @@ msgstr "ຮູຸບແບບເຊລ"
 msgid "Insert Data From Database"
 msgstr "ແຊກຫາຂໍ້ມູນຈາກຖານຂໍ້ມູນ"
 
-#: kspread_view.cc:591
+#: kspread_view.cc:595
 msgid "Cell Format..."
 msgstr "ຮູບແບບເຊລ..."
 
-#: kspread_view.cc:593
+#: kspread_view.cc:597
 msgid "Set the cell formatting."
 msgstr "ຕັ້ງຄ່າຮູບແບບເຊລ"
 
-#: kspread_view.cc:597
+#: kspread_view.cc:601
 msgid "Resets to the default format."
 msgstr ""
 "ປັບໃຫ້ກັບໄປໃຊ້ຮູບແບບປະລີຍ"
 "າຍ"
 
-#: dialogs/kspread_dlg_anchor.cc:149 dialogs/kspread_dlg_anchor.cc:231
-#: dialogs/kspread_dlg_anchor.cc:324 dialogs/kspread_dlg_anchor.cc:439
-#: dialogs/kspread_dlg_layout.cc:2427 dialogs/kspread_dlg_layout.cc:2683
-#: dialogs/kspread_dlg_layout.cc:2718 kspread_view.cc:599
+#: dialogs/kspread_dlg_anchor.cc:184 dialogs/kspread_dlg_anchor.cc:254
+#: dialogs/kspread_dlg_anchor.cc:333 dialogs/kspread_dlg_anchor.cc:429
+#: dialogs/kspread_dlg_layout.cc:2420 dialogs/kspread_dlg_layout.cc:2676
+#: dialogs/kspread_dlg_layout.cc:2711 kspread_view.cc:603
 msgid "Bold"
 msgstr "ຕັວໜາ"
 
-#: dialogs/kspread_dlg_layout.cc:2449 kspread_view.cc:609
+#: dialogs/kspread_dlg_layout.cc:2442 kspread_view.cc:613
 msgid "Underline"
 msgstr "ຂີດເສັ້ນໄຕ້"
 
-#: kspread_view.cc:614
+#: kspread_view.cc:618
 msgid "Strike Out"
 msgstr "ເສັ້ນພາດກາງ"
 
-#: kspread_view.cc:619
+#: kspread_view.cc:623
 msgid "Select Font..."
 msgstr "ເລືອກຮູບແບບຕົວອັກສອນ"
 
-#: kspread_view.cc:624
+#: kspread_view.cc:628
 msgid "Select Font Size"
 msgstr "ເລືອກຂະຫນາດຕົວອັກສອນ"
 
-#: kspread_view.cc:629
+#: kspread_view.cc:633
 msgid "Increase Font Size"
 msgstr "ເພີ່ມຂະຫນາດຕົວອັກສອນ"
 
-#: kspread_view.cc:632
+#: kspread_view.cc:636
 msgid "Decrease Font Size"
 msgstr "ລົດຂະຫນາດຕົວອັກສອນ"
 
-#: kspread_view.cc:635
+#: kspread_view.cc:639
 msgid "Text Color"
 msgstr "ສີຕົວອັກສອນ"
 
-#: kspread_view.cc:640
+#: kspread_view.cc:644
 msgid "Align Left"
 msgstr "ລຽງຊິດດ້າຍຊ້າຍ"
 
-#: kspread_view.cc:645
+#: kspread_view.cc:649
 msgid "Left justify the cell contents."
 msgstr ""
 "ຈັດລຽງນເນື້ອຫາເຊລຊິດດ້ານຊ"
 "້າຍຂອງເຊລ"
 
-#: kspread_view.cc:647
+#: kspread_view.cc:651
 msgid "Align Center"
 msgstr "ລຽງເຄີ່ງກາງ"
 
-#: kspread_view.cc:652
+#: kspread_view.cc:656
 msgid "Center the cell contents."
 msgstr ""
 "ຈັດລຽງເນື້ອຫາເຊລໃຫ້ຢູ່ເຄີ"
 "່ງກາງກາງເຊລ"
 
-#: kspread_view.cc:654
+#: kspread_view.cc:658
 msgid "Align Right"
 msgstr "ລຽງຊິດດ້ານຂວາ"
 
-#: kspread_view.cc:659
+#: kspread_view.cc:663
 msgid "Right justify the cell contents."
 msgstr ""
 "ຈັດລຽງເນື້ອຫາ່ເຊລຊິດດ້ານຂ"
 "ວາຂອງເຊລ"
 
-#: kspread_view.cc:661
+#: kspread_view.cc:665
 msgid "Align Top"
 msgstr "ລຽງຊິດດ້ານເທີງ"
 
-#: kspread_view.cc:666
+#: kspread_view.cc:670
 msgid "Align cell contents along the top of the cell."
 msgstr ""
 "ຈັດລຽງເນືອ້ຫາເຊລຊິດດ້ານເທ"
 "ີງຂອງເຊລ"
 
-#: kspread_view.cc:668
+#: kspread_view.cc:672
 msgid "Align Middle"
 msgstr "ລຽງທາງກາງ"
 
-#: kspread_view.cc:673
+#: kspread_view.cc:677
 msgid "Align cell contents centered in the cell."
 msgstr ""
 "ຈັດລຽງເນຶ້ອຫາເຊບໃຫ້ຢູ່ຕຳແ"
 "ຫນ່ງເຄີງການເຊລ"
 
-#: kspread_view.cc:675
+#: kspread_view.cc:679
 msgid "Align Bottom"
 msgstr "ລຽງຊິດດ້ານລຸ່ມ"
 
-#: kspread_view.cc:680
+#: kspread_view.cc:684
 msgid "Align cell contents along the bottom of the cell."
 msgstr ""
 "ຈັດລຽງເນື່ອຫາເຊລຊິດດ້ານລຸ"
 "່ມຂອງເຊລ"
 
-#: kspread_view.cc:682
+#: kspread_view.cc:686
 #, fuzzy
 msgid "Wrap Text"
 msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 
-#: kspread_view.cc:686
+#: kspread_view.cc:690
 msgid "Make the cell text wrap onto multiple lines."
 msgstr ""
 "ສ້າງໃຫ້ມີການຕັດຄຳຂໍ້ຄວາມໃ"
 "ນເຊລເປັນແບບຫລາຍແຖວ"
 
-#: kspread_view.cc:692
+#: kspread_view.cc:696
 msgid "Print cell contents vertically."
 msgstr "ພິມເນື້ອຫາເຊລທາງແນວຕັ້ງ"
 
-#: kspread_view.cc:697
+#: kspread_view.cc:701
 msgid "Increase the indentation."
 msgstr "ເພີ່ມລະຍະການຍັບ"
 
-#: kspread_view.cc:702
+#: kspread_view.cc:706
 msgid "Decrease the indentation."
 msgstr "ລົດລະຍະການຍັບ"
 
-#: kspread_view.cc:704
+#: kspread_view.cc:708
 msgid "Change Angle..."
 msgstr "ປ່ຽງຄ່າມຸມ..."
 
-#: kspread_view.cc:706
+#: kspread_view.cc:710
 msgid "Change the angle that cell contents are printed."
 msgstr ""
 "ປ່ຽງມຸມທີ່ຈະໃຫ້ເນື້ອຫາເຊລ"
 "ຖືກພິມອ່ຽງໄປ"
 
-#: kspread_view.cc:708
+#: kspread_view.cc:712
 msgid "Percent Format"
 msgstr "ຮູບແບບຮ້ອຍລະ"
 
-#: kspread_view.cc:712
+#: kspread_view.cc:716
 msgid "Set the cell formatting to look like a percentage."
 msgstr ""
 "ຕັ້ງຄ່າຮູບແບບເຊລໃນຮູບແບບຮ"
 "້ອຍລະ"
 
-#: kspread_view.cc:714
+#: kspread_view.cc:718
 msgid "Increase Precision"
 msgstr "ເພີ່ມຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:716
+#: kspread_view.cc:720
 msgid "Increase the decimal precision shown onscreen."
 msgstr ""
 "ເພີ່ມຈຳນວນເລກທົດສະນິຍົມທີ"
 "່ຈະສະແດງເທີງຫນ້າຈໍ"
 
-#: kspread_view.cc:718
+#: kspread_view.cc:722
 msgid "Decrease Precision"
 msgstr "ລົດຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:720
+#: kspread_view.cc:724
 msgid "Decrease the decimal precision shown onscreen."
 msgstr ""
 "ລົດຈຳນວນເລກທົດສະນິຍົມຈະສະ"
 "ແດງເທີງຫນ້າຈໍ"
 
-#: kspread_view.cc:722
+#: kspread_view.cc:726
 msgid "Money Format"
 msgstr "ຮູບແບບເງິນຕາ"
 
-#: kspread_view.cc:726
+#: kspread_view.cc:730
 msgid "Set the cell formatting to look like your local currency."
 msgstr ""
 "ສະແດງຮູບແບບເຊລໃນການສະແດງຮ"
 "ູບແບບເງິນຕາໃຫ້ເປັນແບບທ້ອງ"
 "ຖິ່ນ"
 
-#: kspread_view.cc:728
+#: kspread_view.cc:732
 msgid "Upper Case"
 msgstr "ຕົວພິມໃຫຍ່"
 
-#: kspread_view.cc:730
+#: kspread_view.cc:734
 msgid "Convert all letters to upper case."
 msgstr ""
 "ແປງຕົວອັກສອນທັງຫມົດເປັນຕົ"
 "ວພີ່ມໃຫຍ່"
 
-#: kspread_view.cc:732
+#: kspread_view.cc:736
 msgid "Lower Case"
 msgstr "ຕົວພິມນອ້ຍ"
 
-#: kspread_view.cc:734
+#: kspread_view.cc:738
 msgid "Convert all letters to lower case."
 msgstr ""
 "ແປງຕົວອັກສອນທັງຫມົດເປັນຕົ"
 "ວພິມເລັກ"
 
-#: kspread_view.cc:736
+#: kspread_view.cc:740
 msgid "Convert First Letter to Upper Case"
 msgstr ""
 "ແປງຕົວອັກສອນຕົວທຳອິດເປັນຕ"
 "ົວພິມໃຫຍ່"
 
-#: kspread_view.cc:738
+#: kspread_view.cc:742
 msgid "Capitalize the first letter."
 msgstr ""
 "ຕົວອັກສອນຕົວທຳອິດເປັນຕົວພ"
 "ິມໃຫຍ່"
 
-#: kspread_view.cc:740
+#: kspread_view.cc:744
 msgid "Background Color"
 msgstr "ສີພື້ນຫລັງ"
 
-#: kspread_view.cc:745
+#: kspread_view.cc:749
 msgid "Set the background color."
 msgstr "ປ່ຽນສີພື້ນຫລັງ"
 
-#: kspread_view.cc:747
+#: kspread_view.cc:751
 msgid "Border Left"
 msgstr "ເສັ້ນຂອບດ້ານຊ້າຍ"
 
-#: kspread_view.cc:749
+#: kspread_view.cc:753
 msgid "Set a left border to the selected area."
 msgstr ""
 "ຕັ້ງຄ່າຂອບດ້ານຊ້າຍໃຫ້ພື້ນ"
 "ທີ່ທີ່ເລືອກ"
 
-#: kspread_view.cc:751
+#: kspread_view.cc:755
 msgid "Border Right"
 msgstr "ເສັ້ນຂອບດ້ານຂວາ"
 
-#: kspread_view.cc:753
+#: kspread_view.cc:757
 msgid "Set a right border to the selected area."
 msgstr ""
 "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານຂວາໃຫ້"
 "ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:755
+#: kspread_view.cc:759
 msgid "Border Top"
 msgstr "ເສັ້ນຂອບດ້ານເທີງ"
 
-#: kspread_view.cc:757
+#: kspread_view.cc:761
 msgid "Set a top border to the selected area."
 msgstr ""
 "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານເທີງໃຫ"
 "້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:759
+#: kspread_view.cc:763
 msgid "Border Bottom"
 msgstr "ເສັ້ນຂອບດ້ານລຸ່ມ"
 
-#: kspread_view.cc:761
+#: kspread_view.cc:765
 msgid "Set a bottom border to the selected area."
 msgstr ""
 "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານລຸ່ມໃຫ"
 "້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:763
+#: kspread_view.cc:767
 msgid "All Borders"
 msgstr "ເສັ້ນຂອບທັງຫມົດ"
 
-#: kspread_view.cc:765
+#: kspread_view.cc:769
 msgid "Set a border around all cells in the selected area."
 msgstr ""
 "ຕັ້ງຄ່າໃຫ້ທຸກເຊລໃນພຶ້ນທີເ"
 "ລືອກມີເສັ້ນຂອບອ້ອມຮອບ"
 
-#: kspread_view.cc:767
+#: kspread_view.cc:771
 msgid "Remove Borders"
 msgstr "ລືບເສັ້ນຂອບ"
 
-#: kspread_view.cc:769
+#: kspread_view.cc:773
 msgid "Remove all borders in the selected area."
 msgstr ""
 "ລືບເສັ້ນຂອບທັງຫມົດອອກຈອກພ"
 "ື້ນທີ່ເລືອກ"
 
-#: kspread_view.cc:771
+#: kspread_view.cc:775
 msgid "Border Outline"
 msgstr "ເສັ້ນຂອບຮອບນອກ"
 
-#: kspread_view.cc:773
+#: kspread_view.cc:777
 msgid "Set a border to the outline of the selected area."
 msgstr ""
 "ຕັ້ງຄ່າໃຫ້ມີເສັ້ນຂອບຮອບນອ"
 "ກພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:775
+#: kspread_view.cc:779
 msgid "Border Color"
 msgstr "ສີຂອງເສັ້ນຂອບ"
 
-#: kspread_view.cc:779
+#: kspread_view.cc:783
 msgid "Select a new border color."
 msgstr "ເລືອກສີເສັ້ນຂອບໃຫມ່"
 
-#: kspread_view.cc:781
+#: kspread_view.cc:785
 #, fuzzy
 msgid "St&yle"
 msgstr "ຮູບແບບ:"
 
-#: kspread_view.cc:783
+#: kspread_view.cc:787
 #, fuzzy
 msgid "Apply a predefined style to the selected cells."
 msgstr ""
 "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານເທີງໃຫ"
 "້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:787
+#: kspread_view.cc:791
 #, fuzzy
 msgid "Create Style From Cell..."
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kspread_view.cc:789
+#: kspread_view.cc:793
 msgid "Create a new style based on the currently selected cell."
 msgstr ""
 
-#: kspread_view.cc:793
+#: kspread_view.cc:797
 msgid "Modify Cell"
 msgstr "ແກ້ໄຂເຊລ"
 
-#: kspread_view.cc:795
+#: kspread_view.cc:799
 msgid "Edit the highlighted cell."
 msgstr "ແກ້ໄຂການເນັ້ນສີເຊລ"
 
-#: kspread_view.cc:797
+#: kspread_view.cc:801
 msgid "Insert Cells..."
 msgstr "ແຊກເຊລ..."
 
-#: kspread_view.cc:799
+#: kspread_view.cc:803
 msgid "Insert a blank cell into the spreadsheet."
 msgstr ""
 "ແຊກເຊລເປົ່າເຂົ້າໄປຍັງແຜນງ"
 "ານ"
 
-#: kspread_view.cc:801
+#: kspread_view.cc:805
 msgid "Remove Cells..."
 msgstr "ລືບເຊລ..."
 
-#: kspread_view.cc:803
+#: kspread_view.cc:807
 msgid "Removes the current cell from the spreadsheet."
 msgstr ""
 "ລືບເຊລປະຈຸບັນອອກຈາກແຜ່ນງາ"
 "ນ"
 
-#: kspread_view.cc:807
+#: kspread_view.cc:811
 msgid "Delete all contents and formatting of the current cell."
 msgstr ""
 "ລຶບເນື່ອຫາແລະຮູບແບບທັງຫມົ"
 "ດອອກຈາກເຊລປະຈຸບັນ"
 
-#: kspread_view.cc:811
+#: kspread_view.cc:815
 msgid "Merge the selected region into one large cell."
 msgstr ""
 "ລວມຂອບເຂດທີເລືອກໄວ້ໃຫ້ເປັ"
 "ນເຊລຂະຫນາດໃຫຍ່ເຊລດ່ຽວ"
 
-#: kspread_view.cc:813
+#: kspread_view.cc:817
 msgid "Dissociate Cells"
 msgstr "ແຍກເຊລ"
 
-#: kspread_view.cc:815
+#: kspread_view.cc:819
 msgid "Unmerge the current cell."
 msgstr "ຍົກເລີກການຜະສົມເຊລປະຈຸບັນ"
 
-#: kspread_view.cc:819
+#: kspread_view.cc:823
 msgid "Remove the contents of the current cell."
 msgstr ""
 "ລືບເນື້ອຫາອອກຈາກເຊລປະຈຸບັ"
 "ນ"
 
-#: kspread_view.cc:821
+#: kspread_view.cc:825
 msgid "Conditional Cell Attributes..."
 msgstr "ຮູບແບບເງື່ອນໄຂຂອງເຊລ..."
 
-#: kspread_view.cc:823
+#: kspread_view.cc:827
 msgid "Set cell format based on certain conditions."
 msgstr ""
 "ຕັ້ງຄ່າຮູບແບບຂອງເຊລຕາມເງື"
 "່ອນໄຂທີ່ຕອ້ງການ"
 
-#: dialogs/kspread_dlg_conditional.cc:291 kspread_view.cc:826
+#: dialogs/kspread_dlg_conditional.cc:291 kspread_view.cc:830
 msgid "Conditional Cell Attributes"
 msgstr "ຮູບແບບເງືອນໄຂເຊລ"
 
-#: kspread_view.cc:828
+#: kspread_view.cc:832
 msgid "Remove the conditional cell formatting."
 msgstr "ລືບຮູບແບບເງືອນໄຂເຊລ"
 
-#: kspread_view.cc:830
+#: kspread_view.cc:834
 msgid "Validity..."
 msgstr "ການກວດສອບ..."
 
-#: kspread_view.cc:832
+#: kspread_view.cc:836
 msgid "Set tests to confirm cell data is valid."
 msgstr ""
 "ຕັ້ງຄ່າການທົດສອບເພື່ອຢືນຍ"
 "ັນວ່າຂໍ້ມູນຂອງເຊລມີຄວາມຕອ"
 "້ງ"
 
-#: dialogs/kspread_dlg_validity.cc:45 kspread_view.cc:834
+#: dialogs/kspread_dlg_validity.cc:45 kspread_view.cc:838
 msgid "Validity"
 msgstr "ການກວດສອບ"
 
-#: kspread_view.cc:836
+#: kspread_view.cc:840
 msgid "Remove the validity tests on this cell."
 msgstr ""
 "ລື່ບຕົວທົດສອບຄວາມຖືກຕ້ອງເ"
 "ທີງເຊລນີ້"
 
-#: kspread_view.cc:838
+#: kspread_view.cc:842
 msgid "&Add/Modify Comment..."
 msgstr "ເ&ີ່ພມ/ແກ້ໄຂຫມາຍເຫດ..."
 
-#: kspread_view.cc:840
+#: kspread_view.cc:844
 msgid "Edit a comment for this cell."
 msgstr "ແກ້ໄຂຫມາຍເຫດຂອງເຊລນີ້"
 
-#: kspread_view.cc:842
+#: kspread_view.cc:846
 msgid "&Remove Comment"
 msgstr "&ລືຍຫມາຍເຫດ"
 
-#: kspread_view.cc:844 kspread_view.cc:848
+#: kspread_view.cc:848 kspread_view.cc:852
 msgid "Remove this cell's comment."
 msgstr "ລືບຫມາຍເຫດຂອງເຊລນີ້"
 
-#: dialogs/kspread_dlg_special.cc:50 kspread_view.cc:846
+#: dialogs/kspread_dlg_special.cc:50 kspread_view.cc:850
 msgid "Comment"
 msgstr "ຫມາຍເຫດ"
 
-#: kspread_view.cc:852
+#: kspread_view.cc:856
 msgid "Resize Column..."
 msgstr "ປັບຂະຫນາດຖັນ..."
 
-#: kspread_view.cc:854
+#: kspread_view.cc:858
 msgid "Change the width of a column."
 msgstr "ປັບຄວາມກວ້າງຂອງຖັນ"
 
-#: kspread_view.cc:858
+#: kspread_view.cc:862
 msgid "Inserts a new column into the spreadsheet."
 msgstr "ແຊກຖັນໃຫມ່ໄປຍັງແຜ່ນງານ"
 
-#: kspread_view.cc:860
+#: kspread_view.cc:864
 msgid "Delete Columns"
 msgstr "ລືບຖັນ"
 
-#: kspread_view.cc:862
+#: kspread_view.cc:866
 msgid "Removes a column from the spreadsheet."
 msgstr "ລືບຖັນອອກຈາກແຜ່ນງານ"
 
-#: kspread_view.cc:866
+#: kspread_view.cc:870
 msgid "Hide the column from view."
 msgstr "ເຊື່ອງຖັນຈາກການສະແດງ"
 
-#: kspread_view.cc:868
+#: kspread_view.cc:872
 msgid "Show Columns..."
 msgstr "ສະແດງຖັນ..."
 
-#: kspread_view.cc:870
+#: kspread_view.cc:874
 msgid "Show hidden columns."
 msgstr "ສະແດງຖັນທີ່ຖືກເຊື່ອງໄວ້"
 
-#: kspread_view.cc:872
+#: kspread_view.cc:876
 msgid "Equalize Column"
 msgstr "ປັບຂະຫນາດຖັນໃຫ້ເທົ່າກັນ"
 
-#: kspread_view.cc:874
+#: kspread_view.cc:878
 msgid "Resizes selected columns to be the same size."
 msgstr ""
 "ປັບຂະຫນາດຖັນທີ່ເລືອກໄວ້ໃຫ"
 "້ມີຂະຫນາດເທົ່າກັນ"
 
-#: kspread_view.cc:878
+#: kspread_view.cc:882
 msgid "Show hidden columns in the selection."
 msgstr ""
 "ສະແດງຖັນທີີຖືກເຊືອງໄວ້ໃນຊ"
 "່ວງທີ່ເລືອກໄວ້"
 
-#: kspread_view.cc:881
+#: kspread_view.cc:885
 msgid "Resize Row..."
 msgstr "່ປັບຂະຫນາດແຖວ..."
 
-#: kspread_view.cc:883
+#: kspread_view.cc:887
 msgid "Change the height of a row."
 msgstr "ປັບຄວາມສູງຂອງແຖວ"
 
-#: kspread_view.cc:887
+#: kspread_view.cc:891
 msgid "Inserts a new row into the spreadsheet."
 msgstr "ແຊກແຖວໃຫມ່ໄປຍັງແຜ່ນງານ"
 
-#: kspread_view.cc:889
+#: kspread_view.cc:893
 msgid "Delete Rows"
 msgstr "ລືບແຖວ"
 
-#: kspread_view.cc:891
+#: kspread_view.cc:895
 msgid "Removes a row from the spreadsheet."
 msgstr "ລືບແຖວອອກຈາກແຜ່ນງານ"
 
-#: kspread_view.cc:895
+#: kspread_view.cc:899
 msgid "Hide a row from view."
 msgstr "ເຊື່ອງແຖວຈາກການສະແດງຜົນ"
 
-#: kspread_view.cc:897
+#: kspread_view.cc:901
 msgid "Show Rows..."
 msgstr "ສະແດງແຖວ..."
 
-#: kspread_view.cc:899
+#: kspread_view.cc:903
 msgid "Show hidden rows."
 msgstr "ສະແດງແຖວທີ່ຖືກເຊື່ອງໄວ້"
 
-#: kspread_view.cc:901
+#: kspread_view.cc:905
 msgid "Equalize Row"
 msgstr ""
 "ປັບຂະຫນາດແຖວໃຫ້ເທົ່າກນັปร"
 "ับขนาดแถวให้เท่ากัน"
 
-#: kspread_view.cc:903
+#: kspread_view.cc:907
 msgid "Resizes selected rows to be the same size."
 msgstr ""
 "ປັບຂະຫນາດແຖວທີ່ເລືອກໄວ້ໃຫ"
 "້ມີຂະຫນາດເທົ່າກັນ"
 
-#: kspread_view.cc:908
+#: kspread_view.cc:912
 msgid "Show hidden rows in the selection."
 msgstr ""
 "ສະແດງແຖວທີ່ຖືກເຊື່ອງໄວ້ໃນ"
 "ຊ່ວງທີ່ເລືອກໄວ້"
 
-#: kspread_view.cc:910
+#: kspread_view.cc:914
 msgid "Adjust Row && Column"
 msgstr "ປັບຄ່າແຖວແລະ && ຖັນໃຫ້ພໍດີ"
 
-#: kspread_view.cc:912
+#: kspread_view.cc:916
 msgid "Adjusts row/column size so that the contents will fit."
 msgstr ""
 "ປັບຄ່າແຖວແລະຖັນໃຫ້ພໍດີກັບ"
 "ເນື້ອຫາ"
 
-#: kspread_view.cc:915
+#: kspread_view.cc:919
 #, fuzzy
 msgid "Sheet Properties..."
 msgstr "ຮູບແບບແຜ່ນງານ..."
 
-#: kspread_view.cc:917
+#: kspread_view.cc:921
 msgid "Modify current sheet's properties."
 msgstr ""
 
-#: kspread_view.cc:919
+#: kspread_view.cc:923
 msgid "Insert Sheet"
 msgstr "ແຊກແຜ່ນງານ"
 
-#: kspread_view.cc:921 kspread_view.cc:926
+#: kspread_view.cc:925 kspread_view.cc:930
 msgid "Insert a new sheet."
 msgstr "ແຊກແຜ່ນງານໃຫມ່"
 
-#: kspread_view.cc:930
+#: kspread_view.cc:934
 msgid "Remove the active sheet."
 msgstr "ລືບແຜ່ນງານທີແອກທີບຢູ່"
 
-#: kspread_view.cc:932
+#: kspread_view.cc:936
 msgid "Rename Sheet..."
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ..."
 
-#: kspread_view.cc:934
+#: kspread_view.cc:938
 msgid "Rename the active sheet."
 msgstr ""
 "ປ່ຽນຊື່່ແຜ່ນງານທີ່ແອັກທີບ"
 "ຢູ່"
 
-#: kspread_view.cc:936
+#: kspread_view.cc:940
 msgid "Show Sheet..."
 msgstr "ສະແດງແຜ່ນງານ..."
 
-#: kspread_view.cc:938
+#: kspread_view.cc:942
 msgid "Show a hidden sheet."
 msgstr ""
 "ສະແດງແຜ່ນງານທີ່ຖືກເຊື່ອງໄ"
 "ວ້"
 
-#: kspread_view.cc:942
+#: kspread_view.cc:946
 msgid "Hide the active sheet."
 msgstr "ເຊື່ອງງານທີ່ແອັກທີບຢູ່"
 
-#: kspread_view.cc:944
+#: kspread_view.cc:948
 #, fuzzy
 msgid "AutoFormat..."
 msgstr "ຮູບແບບເຊລ..."
 
-#: kspread_view.cc:946
+#: kspread_view.cc:950
 msgid "Set the worksheet formatting."
 msgstr ""
 "ຕັ້ງຄ່າຮູບແບບຕ່າງຂອງແຜ່ນງ"
 "ານ"
 
-#: kspread_view.cc:948
+#: kspread_view.cc:952
 msgid "Area Name..."
 msgstr "ຊື່ພື້ນທີ່..."
 
-#: kspread_view.cc:950
+#: kspread_view.cc:954
 #, fuzzy
 msgid "Set a name for a region of the spreadsheet."
 msgstr ""
 "ຕັ້ງຊື່ພື້ນທີ່ຂອງແຜ່ນງານຕ"
 "າລາງຄຳນວນ"
 
-#: kspread_view.cc:952
+#: kspread_view.cc:956
 msgid "Show Area..."
 msgstr "ສະແດງພື້ນທີ່..."
 
-#: kspread_view.cc:954
+#: kspread_view.cc:958
 #, fuzzy
 msgid "Display a named area."
 msgstr ""
 "ສະແດງພື້່ນທີ່ທີ່ຖືກກຳນົດຊ"
 "ື່"
 
-#: kspread_view.cc:956
+#: kspread_view.cc:960
 msgid "&Function..."
 msgstr "&ຟັງຊັ້ນ..."
 
-#: kspread_view.cc:958
+#: kspread_view.cc:962
 msgid "Insert math expression."
 msgstr "ແສກນິພົບຄະນິດສາດ..."
 
-#: kspread_view.cc:960
+#: kspread_view.cc:964
 msgid "&Series..."
 msgstr "&ລ່ຽນ..."
 
-#: kspread_view.cc:962
+#: kspread_view.cc:966
 msgid "Insert a series."
 msgstr "ແສກຂະຫນານ"
 
-#: kspread_view.cc:964
+#: kspread_view.cc:968
 msgid "&Link..."
 msgstr "&ການເຊື່ອມໂຢງ..."
 
-#: kspread_view.cc:966
+#: kspread_view.cc:970
 #, fuzzy
 msgid "Insert an Internet hyperlink."
 msgstr ""
 "ແສກການເຊືອມໂຢງໄປຍັງອິນເຕີ"
 "ເນັດ"
 
-#: kspread_view.cc:968
+#: kspread_view.cc:972
 #, fuzzy
 msgid "S&pecial Character..."
 msgstr "ວາງແບບພິເສດ..."
 
-#: kspread_view.cc:970
+#: kspread_view.cc:974
 msgid "Insert one or more symbols or letters not found on the keyboard."
 msgstr ""
 
-#: kspread_view.cc:972
+#: kspread_view.cc:976
 #, fuzzy
 msgid "&Object"
 msgstr "&ວັດຖຸ..."
 
-#: kspread_view.cc:974
+#: kspread_view.cc:978
 msgid "Insert an object from another program."
 msgstr "ແຊກວັດຖຸຈາກໂປຣແກຣມອື່ນຯ"
 
-#: kspread_view.cc:976
+#: kspread_view.cc:980
 msgid "&Chart"
 msgstr "&ແຜນພູມ"
 
-#: kspread_view.cc:978
+#: kspread_view.cc:982
 msgid "Insert a chart."
 msgstr "ແຊກແຜນພູມ"
 
-#: kspread_view.cc:981
+#: kspread_view.cc:985
 msgid "From &Database..."
 msgstr "&ຈາກຖານຂໍ້ມູນ..."
 
-#: kspread_view.cc:983
+#: kspread_view.cc:987
 #, fuzzy
 msgid "Insert data from a SQL database."
 msgstr "ແຊກຂໍ້ມູນຈາກຖານຂໍ້ມູນແບບSQL"
 
-#: kspread_view.cc:986
+#: kspread_view.cc:990
 msgid "From &Text File..."
 msgstr "&ຈາກແຟ້ມຂໍ້ຄວາມ...."
 
-#: kspread_view.cc:988
+#: kspread_view.cc:992
 #, fuzzy
 msgid "Insert data from a text file to the current cursor position/selection."
 msgstr ""
@@ -4132,11 +4131,11 @@ msgstr ""
 "ຍັງຕຳແຫນ່ງເຄເຊີ/ຕຳແຫນ່ງທີ່"
 "ເລືອກໃນປັດຈຸບັນ"
 
-#: kspread_view.cc:990
+#: kspread_view.cc:994
 msgid "From &Clipboard..."
 msgstr "&ຈາກຄິບບອດ..."
 
-#: kspread_view.cc:992
+#: kspread_view.cc:996
 #, fuzzy
 msgid "Insert CSV data from the clipboard to the current cursor position/selection."
 msgstr ""
@@ -4145,254 +4144,254 @@ msgstr ""
 "ີ/ຕຳແຫນ່ງທີ່ເລືອກໃນປັດຈຸບັ"
 "ນ"
 
-#: kspread_view.cc:994
+#: kspread_view.cc:998
 msgid "Transform Object..."
 msgstr "ແປງວັດຖຸ..."
 
-#: kspread_view.cc:996
+#: kspread_view.cc:1000
 msgid "Rotate the contents of the cell."
 msgstr "ຫມຸມເນື້ອຫາຂອງເຊລ"
 
-#: kspread_view.cc:999
+#: kspread_view.cc:1003
 msgid "&Sort..."
 msgstr "&ລຽງລຳດັບ..."
 
-#: kspread_view.cc:1001
+#: kspread_view.cc:1005
 msgid "Sort a group of cells."
 msgstr "ລຽງລຳດັບກຸ່ມຂອງເຊລ"
 
-#: kspread_view.cc:1003
+#: kspread_view.cc:1007
 msgid "Sort &Decreasing"
 msgstr "&ລຽງລຳດັບຈາກຫລາຍໄປຫານ້ອຍ"
 
-#: kspread_view.cc:1005
+#: kspread_view.cc:1009
 msgid "Sort a group of cells in decreasing (last to first) order."
 msgstr ""
 "ລຽງລຳດັບກຸ່ມເຊລແບບຫລາຍໄປຫ"
 "ານ້ອຍ(ຕົວສຸດທ້າຍໄປຕົວທຳອິດ)"
 
-#: kspread_view.cc:1007
+#: kspread_view.cc:1011
 msgid "Sort &Increasing"
 msgstr "&ລຽງລຳດັບຈາກນ້ອຍໄປຫາຫລາຍ"
 
-#: kspread_view.cc:1009
+#: kspread_view.cc:1013
 msgid "Sort a group of cells in ascending (first to last) order."
 msgstr ""
 "ລຽງລຳດັບກຸ່ມເຊລແບບນອ້ຍໄປຫ"
 "າຫລາຍ(ຕົວທຳອິດໄປຕົວສຸດທ້າຍ)"
 
-#: kspread_view.cc:1011
+#: kspread_view.cc:1015
 #, fuzzy
 msgid "Page Layout..."
 msgstr "ການຈັດວາງຫນ້າເຈັ້ຍ..."
 
-#: kspread_view.cc:1013
+#: kspread_view.cc:1017
 msgid "Specify the layout of the spreadsheet for a printout."
 msgstr ""
 "ກຳນົດການຈັດວາງຫນ້າເຈັ້ຍຂອ"
 "ງແຜ່ນງານສຳລັບການພິມ"
 
-#: kspread_view.cc:1015
+#: kspread_view.cc:1019
 msgid "Define Print Range"
 msgstr "ກຳນົດຊ່ວງການພິມ"
 
-#: kspread_view.cc:1017 kspread_view.cc:1021
+#: kspread_view.cc:1021 kspread_view.cc:1025
 msgid "Define the print range in the current sheet."
 msgstr ""
 "ກຳນົດຊ່ວງານພິມຂອງແຜ່ນງານປ"
 "ະຈຸບັນ"
 
-#: kspread_view.cc:1019
+#: kspread_view.cc:1023
 msgid "Reset Print Range"
 msgstr "ປັບຊ່ວງການພິມເປັນຄ່າເກົ່າ"
 
-#: kspread_view.cc:1023
+#: kspread_view.cc:1027
 msgid "Show Page Borders"
 msgstr "ສະແດງຂອບຫນ້າເຈັ້ຍ"
 
-#: kspread_view.cc:1026
+#: kspread_view.cc:1030
 #, fuzzy
 msgid "Hide Page Borders"
 msgstr "ສະແດງຂອບຫນ້າເຈັ້ຍ"
 
-#: kspread_view.cc:1030
+#: kspread_view.cc:1034
 msgid "Show on the spreadsheet where the page borders will be."
 msgstr ""
 
-#: kspread_view.cc:1032
+#: kspread_view.cc:1036
 msgid "Recalculate Sheet"
 msgstr "ຄຳນວນແຜ່ນງານໃຫມ່"
 
-#: kspread_view.cc:1034
+#: kspread_view.cc:1038
 msgid "Recalculate the value of every cell in the current worksheet."
 msgstr ""
 "ຄຳນວນຄ່າຂອງທຸກເຊລທີ່ຢູ່ໃນ"
 "ແຜ່ນງານປະຈຸບັນ"
 
-#: kspread_view.cc:1036
+#: kspread_view.cc:1040
 msgid "Recalculate Workbook"
 msgstr "ຄຳນວນປື້້ມເຮັດວຽກໃຫມ່"
 
-#: kspread_view.cc:1038
+#: kspread_view.cc:1042
 msgid "Recalculate the value of every cell in all worksheets."
 msgstr ""
 "ຄຳນວນຄ່າຂອງທຸກເຊລໃນແຜ່ນງາ"
 "ນທັງຫມົດກໃຫມ່ອີກເທື່ອ"
 
-#: kspread_view.cc:1040
+#: kspread_view.cc:1044
 #, fuzzy
 msgid "Protect &Sheet..."
 msgstr "ແຜ່ນງານຖັດໄປ"
 
-#: kspread_view.cc:1042
+#: kspread_view.cc:1046
 msgid "Protect the sheet from being modified."
 msgstr ""
 
-#: kspread_view.cc:1046
+#: kspread_view.cc:1050
 #, fuzzy
 msgid "Protect &Doc..."
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:1048
+#: kspread_view.cc:1052
 msgid "Protect the document from being modified."
 msgstr ""
 
-#: kspread_view.cc:1055
+#: kspread_view.cc:1059
 msgid "Copy the cell object to the clipboard."
 msgstr "ຄັດລອກວັດຖຸເຊລໄປຍັງຄິບບອດ"
 
-#: kspread_view.cc:1058
+#: kspread_view.cc:1062
 #, fuzzy
 msgid "Paste the contents of the clipboard at the cursor."
 msgstr ""
 "ວາງເນື້ອຫາຈາກຄິບບອດໄປຍັງຕ"
 "ຳແຫນ່ງເຄເຊີ"
 
-#: kspread_view.cc:1061
+#: kspread_view.cc:1065
 msgid "Move the cell object to the clipboard."
 msgstr "ຍ້າຍວັດຖຸເຊລໄປຍັງຄິບບອດ"
 
-#: kspread_view.cc:1063
+#: kspread_view.cc:1067
 msgid "Special Paste..."
 msgstr "ວາງແບບພິເສດ..."
 
-#: kspread_view.cc:1065
+#: kspread_view.cc:1069
 msgid "Paste the contents of the clipboard with special options."
 msgstr ""
 "ວາງເນື້ອຫາຈາກຄິບບອດຕົວເລື"
 "ອກພິເສດ"
 
-#: kspread_view.cc:1067
+#: kspread_view.cc:1071
 #, fuzzy
 msgid "Paste with Insertion"
 msgstr "ວາງພ້ອມກັບທຳການແຊກ..."
 
-#: kspread_view.cc:1069
+#: kspread_view.cc:1073
 msgid "Inserts a cell from the clipboard into the spreadsheet."
 msgstr ""
 "ແຊກເຊລຈາກຄິບບອດເຂົ້າໄປຍັງ"
 "ແຜ່ນງານ"
 
-#: kspread_view.cc:1077
+#: kspread_view.cc:1081
 #, fuzzy
 msgid "&Right"
 msgstr "ນຳ້ຫນັກ:"
 
-#: kspread_view.cc:1080
+#: kspread_view.cc:1084
 #, fuzzy
 msgid "&Left"
 msgstr "&ຂໍ້ຄວາມ "
 
-#: kspread_view.cc:1083
+#: kspread_view.cc:1087
 #, fuzzy
 msgid "&Down"
 msgstr "ດົງ"
 
-#: kspread_view.cc:1086
+#: kspread_view.cc:1090
 msgid "&Up"
 msgstr ""
 
-#: kspread_view.cc:1091
+#: kspread_view.cc:1095
 msgid "Style Manager..."
 msgstr ""
 
-#: kspread_view.cc:1093
+#: kspread_view.cc:1097
 msgid "Edit and organize cell styles."
 msgstr ""
 
-#: kspread_view.cc:1095
+#: kspread_view.cc:1099
 msgid "Autosum"
 msgstr "ຜົນລວມອັດຕະໂນມັດ"
 
-#: kspread_view.cc:1097
+#: kspread_view.cc:1101
 msgid "Insert the 'sum' function"
 msgstr "ແຊກຟັງຊັ້ນ 'ຜົນລວມ'"
 
-#: kspread_view.cc:1101
+#: kspread_view.cc:1105
 msgid "Check the spelling."
 msgstr "ກວດສອບຄຳສະກົດ"
 
-#: kspread_view.cc:1103
+#: kspread_view.cc:1107
 msgid "Formula Selection"
 msgstr "ການເລືອກສູດ"
 
-#: kspread_view.cc:1105
+#: kspread_view.cc:1109
 msgid "Insert a function."
 msgstr "ສອດຟັງຊັ້ນ"
 
-#: kspread_view.cc:1113 kspread_view.cc:3092
+#: kspread_view.cc:1117 kspread_view.cc:3109
 msgid "Others..."
 msgstr "ອື່ນຯ..."
 
-#: kspread_view.cc:1124
+#: kspread_view.cc:1128
 msgid "&Consolidate..."
 msgstr "ພະສານ&ເຊລ.."
 
-#: kspread_view.cc:1126
+#: kspread_view.cc:1130
 msgid "Create a region of summary data from a group of similar regions."
 msgstr ""
 "ສ້າງຂອບເຂດຂອງການລວມຄ່າຂໍ້"
 "ມູນຈາກກຸ່ມຂອງຂອບເຂດທີ່ຄ້າ"
 "ຍກັນ"
 
-#: kspread_view.cc:1128
+#: kspread_view.cc:1132
 msgid "&Goal Seek..."
 msgstr "&ຄົ້ນຫາຈຸດປະສົງ.."
 
-#: kspread_view.cc:1130
+#: kspread_view.cc:1134
 #, fuzzy
 msgid "Repeating calculation to find a specific value."
 msgstr ""
 "ເວົ້າຄືນການຄຳນວນແລະຊອກຫາຂ"
 "ະໜາດສະເພາະ"
 
-#: kspread_view.cc:1132
+#: kspread_view.cc:1136
 msgid "&Subtotals..."
 msgstr "&ລຽງລຳດັບ..."
 
-#: kspread_view.cc:1134
+#: kspread_view.cc:1138
 msgid "Create different kind of subtotals to a list or database."
 msgstr ""
 "ເຮັດໃຫ້ເກີດຄວາມແຕກຕ່າງ "
 "ສະນີດຂອງຄວາມບໍ່ສົມບູນບັນດ"
 "າບັນຊີຫລືຖານຂໍ້ມູນ"
 
-#: kspread_view.cc:1136
+#: kspread_view.cc:1140
 msgid "&Text to Columns..."
 msgstr "&ຂໍ້ຄວາມໄປຍັງຖັນ..."
 
-#: kspread_view.cc:1138
+#: kspread_view.cc:1142
 #, fuzzy
 msgid "Expand the content of cells to multiple columns."
 msgstr ""
 "ຂະຫຍາຍເນື້ອຫາຂອງເຊລເປັນຫລ"
 "າຍຯຖັນ"
 
-#: kspread_view.cc:1140
+#: kspread_view.cc:1144
 msgid "&Multiple Operations..."
 msgstr "&ຄູນຄ່າ"
 
-#: kspread_view.cc:1142
+#: kspread_view.cc:1146
 msgid ""
 "Apply the same formula to various cells using different values for the "
 "parameter."
@@ -4402,15 +4401,15 @@ msgstr ""
 "ແຕກຕ່າງທາງຂະໜາດຂອງພາລາມິເ"
 "ຕີ "
 
-#: kspread_view.cc:1144
+#: kspread_view.cc:1148
 msgid "&Create Template From Document..."
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kspread_view.cc:1147
+#: kspread_view.cc:1151
 msgid "Custom Lists..."
 msgstr "ລາຍການກຳນົດເອງ..."
 
-#: kspread_view.cc:1149
+#: kspread_view.cc:1153
 #, fuzzy
 msgid "Create custom lists for sorting or autofill."
 msgstr ""
@@ -4418,110 +4417,110 @@ msgstr ""
 "ນລຽງລຳດັບຫລືຕື່ມເຕັມອັດຕະ"
 "ໂນມັດ"
 
-#: kspread_view.cc:1153
+#: kspread_view.cc:1157
 msgid "Goto Cell..."
 msgstr "ໄປຍັງເຊລ..."
 
-#: kspread_view.cc:1155
+#: kspread_view.cc:1159
 msgid "Move to a particular cell."
 msgstr "ຍ້າຍໄປຍັງເຊລບາງສ່ວນ"
 
-#: kspread_view.cc:1157
+#: kspread_view.cc:1161
 msgid "Next Sheet"
 msgstr "ແຜ່ນງານຖັດໄປ"
 
-#: kspread_view.cc:1159
+#: kspread_view.cc:1163
 msgid "Move to the next sheet."
 msgstr "ໄປຍັງແຜ່ນງານຖັດໄປ"
 
-#: kspread_view.cc:1161
+#: kspread_view.cc:1165
 msgid "Previous Sheet"
 msgstr "ແຜ່ນງານກ່ອນຫນ້ານີ້"
 
-#: kspread_view.cc:1163
+#: kspread_view.cc:1167
 msgid "Move to the previous sheet."
 msgstr "ໄປຍັງແຜ່ນງານກອ່ນຫນ້ານີ້"
 
-#: kspread_view.cc:1165
+#: kspread_view.cc:1169
 msgid "First Sheet"
 msgstr "ແຜ່ນງານແຜ່ນທຳອິດ"
 
-#: kspread_view.cc:1167
+#: kspread_view.cc:1171
 msgid "Move to the first sheet."
 msgstr "ໄປຍັງແຜ່ນງານແຜ່ນທຳອິດ"
 
-#: kspread_view.cc:1169
+#: kspread_view.cc:1173
 msgid "Last Sheet"
 msgstr "ແຜ່ນງານແຜ່ນສຸດທ້າຍ"
 
-#: kspread_view.cc:1171
+#: kspread_view.cc:1175
 msgid "Move to the last sheet."
 msgstr "ໄປຍັງແຜ່ນງານແຜ່ນສຸດທ້າຍ"
 
-#: kspread_view.cc:1175
+#: kspread_view.cc:1179
 #, fuzzy
 msgid "Show Status Bar"
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1178
+#: kspread_view.cc:1182
 #, fuzzy
 msgid "Hide Status Bar"
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1182
+#: kspread_view.cc:1186
 #, fuzzy
 msgid "Show the status bar."
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1184
+#: kspread_view.cc:1188
 #, fuzzy
 msgid "Show Tab Bar"
 msgstr "ສະແດງຕາຕະລາງ"
 
-#: kspread_view.cc:1187
+#: kspread_view.cc:1191
 #, fuzzy
 msgid "Hide Tab Bar"
 msgstr "ເຊື່ອງຕາລາງ"
 
-#: kspread_view.cc:1191
+#: kspread_view.cc:1195
 #, fuzzy
 msgid "Show the tab bar."
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1193
+#: kspread_view.cc:1197
 #, fuzzy
 msgid "Show Formula Bar"
 msgstr "&ສະແດງສູດ"
 
-#: kspread_view.cc:1196
+#: kspread_view.cc:1200
 #, fuzzy
 msgid "Hide Formula Bar"
 msgstr "ູ&ເຊື່ອງຄ່າທີ່ເປັນສູນ"
 
-#: kspread_view.cc:1200
+#: kspread_view.cc:1204
 #, fuzzy
 msgid "Show the formula bar."
 msgstr "ື&ສະແດງແຖບເຄື່ອງມືສູດ"
 
-#: kspread_view.cc:1202
+#: kspread_view.cc:1206
 #, fuzzy
 msgid "Show Comment Indicator"
 msgstr "ີ&ສະແດງຕົວບົ່ງວ່າມຫມາຍເຫດ"
 
-#: kspread_view.cc:1205
+#: kspread_view.cc:1209
 #, fuzzy
 msgid "Hide Comment Indicator"
 msgstr "ີ&ສະແດງຕົວບົ່ງວ່າມຫມາຍເຫດ"
 
-#: kspread_view.cc:1209
+#: kspread_view.cc:1213
 msgid "Show indicator for cells with comments."
 msgstr ""
 
-#: kspread_view.cc:1211
+#: kspread_view.cc:1215
 msgid "Configure KSpread..."
 msgstr "ປັບແຕ່ງເຈັ້ຍຄຳນວນ K..."
 
-#: kspread_view.cc:1213
+#: kspread_view.cc:1217
 msgid "Set various KSpread options."
 msgstr ""
 "ຕັ້ງຄ່າຕົວເລືອກຕ່າງ ຯ "
@@ -4534,89 +4533,93 @@ msgstr ""
 #: dialogs/kspread_dlg_sort.cc:363 dialogs/kspread_dlg_sort.cc:365
 #: dialogs/kspread_dlg_sort.cc:374 dialogs/kspread_dlg_sort.cc:376
 #: dialogs/kspread_dlg_sort.cc:576 dialogs/kspread_dlg_sort.cc:578
-#: kspread_view.cc:1217
+#: kspread_view.cc:1221
 msgid "None"
 msgstr "ບໍ່ແມ່ນ"
 
-#: kspread_view.cc:1221
+#: kspread_view.cc:1225
 msgid "No calculation"
 msgstr "ບໍ່ມີການຄຳນວນ"
 
 #: dialogs/kspread_dlg_cons.cc:75 dialogs/kspread_dlg_preference.cc:442
-#: dialogs/kspread_dlg_subtotal.cc:268 kspread_view.cc:1223
+#: dialogs/kspread_dlg_subtotal.cc:268 kspread_view.cc:1227
 msgid "Sum"
 msgstr "ຜົນລວມ"
 
-#: kspread_view.cc:1227
+#: kspread_view.cc:1231
 #, fuzzy
 msgid "Calculate using sum."
 msgstr "ຄຳນວນຜົນລວມ"
 
 #: dialogs/kspread_dlg_cons.cc:79 dialogs/kspread_dlg_preference.cc:443
-#: dialogs/kspread_dlg_subtotal.cc:264 kspread_view.cc:1229
+#: dialogs/kspread_dlg_subtotal.cc:264 kspread_view.cc:1233
 msgid "Min"
 msgstr "ຄ່ານ້ອຍທີ່ສຸດ"
 
-#: kspread_view.cc:1233
+#: kspread_view.cc:1237
 #, fuzzy
 msgid "Calculate using minimum."
 msgstr "ຄຳນວນຄ່ານອ້ຍທີ່ສຸດ"
 
 #: dialogs/kspread_dlg_cons.cc:78 dialogs/kspread_dlg_preference.cc:444
-#: dialogs/kspread_dlg_subtotal.cc:263 kspread_view.cc:1235
+#: dialogs/kspread_dlg_subtotal.cc:263 kspread_view.cc:1239
 msgid "Max"
 msgstr "ຄ່າຫລາຍທີ່ສຸດ"
 
-#: kspread_view.cc:1239
+#: kspread_view.cc:1243
 #, fuzzy
 msgid "Calculate using maximum."
 msgstr "ຄຳນວນຄ່າຫລາຍທີ່ສຸດ"
 
 #: dialogs/kspread_dlg_cons.cc:76 dialogs/kspread_dlg_preference.cc:445
-#: dialogs/kspread_dlg_subtotal.cc:260 kspread_view.cc:1241
+#: dialogs/kspread_dlg_subtotal.cc:260 kspread_view.cc:1245
 msgid "Average"
 msgstr "ຄ່າສະເລ່ຍ"
 
-#: kspread_view.cc:1245
+#: kspread_view.cc:1249
 #, fuzzy
 msgid "Calculate using average."
 msgstr "ຄຳນວນຄ່າສະເລ່ຍ"
 
 #: dialogs/kspread_dlg_cons.cc:77 dialogs/kspread_dlg_preference.cc:446
-#: dialogs/kspread_dlg_subtotal.cc:261 kspread_view.cc:1247
+#: dialogs/kspread_dlg_subtotal.cc:261 kspread_view.cc:1251
 msgid "Count"
 msgstr "ນັບຈຳນວນ"
 
-#: kspread_view.cc:1251
+#: kspread_view.cc:1255
 #, fuzzy
 msgid "Calculate using the count."
 msgstr "ຄຳນວນນັບຈຳນວນ"
 
-#: kspread_view.cc:1255
+#: kspread_view.cc:1259
 msgid "Run Internal Tests..."
 msgstr ""
 
-#: kspread_view.cc:2031
+#: kspread_view.cc:1261
+msgid "Run Inspector..."
+msgstr ""
+
+#: kspread_view.cc:2048
 msgid "Spell Checking"
 msgstr "ການກວດຄຳສະກົດ"
 
-#: kspread_view.cc:2170
+#: kspread_view.cc:2187
 msgid "Spell checking is complete."
 msgstr "ການກວດຄຳສະກົດຮຽບຮອ້ຍແລ້ວ"
 
-#: kspread_view.cc:2217
+#: kspread_view.cc:2234
 msgid "Do you want to check the spelling in the next table?"
 msgstr ""
 "ທ່ານຕ້ອງການຈະກວດຄຳສະກົດໃນ"
 "ຕາລາງຖັດໄປແມ່ນຫລືບໍ່ ?"
 
-#: kspread_view.cc:2276
+#: kspread_view.cc:2293
 msgid "Correct Misspelled Word"
 msgstr ""
 "ແກ້ຄຳທີ່ສະກົດຜິດໃຫ້ຖືກຕອ້"
 "ງ"
 
-#: kspread_view.cc:2336
+#: kspread_view.cc:2353
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
@@ -4627,87 +4630,87 @@ msgstr ""
 "ແຕ່ງເສັ້ນທາງໃນຕົວແປພາດໃຫ້"
 "ຊີ້ໄປຍັງໂປຣແກຣມIສະກົດ ແລ້ວ"
 
-#: kspread_view.cc:2342
+#: kspread_view.cc:2359
 msgid "ISpell seems to have crashed."
 msgstr ""
 "ເບິ່ງຄືວ່າ Iສະກົດ "
 "ຈະທຳງານຜິດພາດ"
 
-#: kspread_view.cc:3220 kspread_view.cc:3241 kspread_view.cc:3947
+#: kspread_view.cc:3237 kspread_view.cc:3258 kspread_view.cc:3964
 msgid "You must select multiple cells."
 msgstr ""
 "ທ່ານຕ້ອງເລືອກເຊລຫລາຍເຊລກ່"
 "ອນ"
 
-#: kspread_view.cc:3664
+#: kspread_view.cc:3681
 #, fuzzy
 msgid "You cannot change a protected sheet"
 msgstr ""
 "ທ່ານບໍ່ສາມາດລືບແຜ່ນງານທີມ"
 "ເຫລືອຢູ່ແຜ່ນດ່ຽວໄດ້"
 
-#: kspread_view.cc:3692
+#: kspread_view.cc:3709
 msgid "You cannot hide the last visible table."
 msgstr ""
 "ທ່ານບໍ່ສາມາດເຊື່ອງຕະລາງຕົ"
 "ວສຸດທ້າຍໄດ້າແລ້ວ"
 
-#: kspread_view.cc:3867 kspread_view.cc:4251 kspread_view.cc:4266
-#: kspread_view.cc:4432 kspread_view.cc:5397 kspread_view.cc:5544
-#: kspread_view.cc:5555 kspread_view.cc:5566 kspread_view.cc:5578
-#: kspread_view.cc:5907
+#: kspread_view.cc:3884 kspread_view.cc:4268 kspread_view.cc:4283
+#: kspread_view.cc:4449 kspread_view.cc:5414 kspread_view.cc:5561
+#: kspread_view.cc:5572 kspread_view.cc:5583 kspread_view.cc:5595
+#: kspread_view.cc:5924
 #, fuzzy
 msgid "Area too large."
 msgstr "ພື້ນທີ່ໃຫຍ່ເກີນໄປ !"
 
-#: kspread_view.cc:3977
+#: kspread_view.cc:3994
 msgid "You must not select an area containing more than one column."
 msgstr ""
 "ທ່ານຕ້ອງບໍ່ເລືອກພື້ນທີ່ທີ"
 "່ມີຫລາຍກວ່າຫນື່ງຖັນ"
 
-#: kspread_view.cc:4287
+#: kspread_view.cc:4304
 msgid "You must select multiple cells"
 msgstr ""
 "ທ່ານຕ້ອງເລືອກເຊລຫລາຍເຊລກ່"
 "ອນ"
 
-#: kspread_view.cc:4410
+#: kspread_view.cc:4427
 msgid "Nothing to print."
 msgstr "ບໍ່ມີສິ່ງທີ່ຈະພິມ"
 
-#: kspread_view.cc:4511
+#: kspread_view.cc:4528
 #, fuzzy
 msgid "Protect Document"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:4526
+#: kspread_view.cc:4543
 #, fuzzy
 msgid "Unprotect Document"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:4539 kspread_view.cc:4589
+#: kspread_view.cc:4556 kspread_view.cc:4606
 #, fuzzy
 msgid "Incorrect password"
 msgstr ""
 "ไม่สนใจคำที่เป็นตัวพิมพ์ใ"
 "หญ่"
 
-#: kspread_view.cc:4559
+#: kspread_view.cc:4576
 #, fuzzy
 msgid "Protect Sheet"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: kspread_view.cc:4575
+#: kspread_view.cc:4592
 #, fuzzy
 msgid "Unprotect Sheet"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: kspread_view.cc:4966 kspread_view.cc:4975
+#: kspread_view.cc:4983 kspread_view.cc:4992
 msgid "Delete Embedded Document"
 msgstr "ລືບເອກະສານທີ່ຝັ່ງຢູ່"
 
-#: kspread_view.cc:4975
+#: kspread_view.cc:4992
 msgid ""
 "You are about to remove this embedded document.\n"
 "Do you want to continue?"
@@ -4717,52 +4720,52 @@ msgstr ""
 "ທ່ານຕ້ອງການຈະເຮັດຕໍ່ໄປຫລື"
 "ບໍ່ ?"
 
-#: kspread_view.cc:5019
+#: kspread_view.cc:5036
 msgid "Adjust Column"
 msgstr "ປັບຂະຫນາດຖັນໃຫ້ພໍດີ"
 
-#: kspread_view.cc:5104
+#: kspread_view.cc:5121
 msgid "Adjust Row"
 msgstr "ປັບຂະຫນາດແຖວໃຫ້ພໍດີ"
 
-#: kspread_view.cc:5306
+#: kspread_view.cc:5323
 msgid "Selection List..."
 msgstr "ລາຍການການເລືອກ..."
 
-#: kspread_view.cc:5805
+#: kspread_view.cc:5822
 #, fuzzy
 msgid "Create Style From Cell"
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kspread_view.cc:5806 kspread_view.cc:6010 kspread_view.cc:6028
+#: kspread_view.cc:5823 kspread_view.cc:6027 kspread_view.cc:6045
 msgid "Enter name:"
 msgstr "ຕື່ມຊື່:"
 
-#: kspread_view.cc:5816
+#: kspread_view.cc:5833
 #, fuzzy
 msgid "The style name cannot be empty."
 msgstr ""
 "ຊື່ຕາລາງບໍ່ສາມາດວ່າງໄວ້ໄດ"
 "້"
 
-#: dialogs/kspread_dlg_layout.cc:219 kspread_view.cc:5823
+#: dialogs/kspread_dlg_layout.cc:219 kspread_view.cc:5840
 #, fuzzy
 msgid "A style with this name already exists."
 msgstr "ມີແຟ້ມຢູ່ແລ້ວ"
 
-#: kspread_view.cc:5913
+#: kspread_view.cc:5930
 msgid "No charting component registered"
 msgstr ""
 "ຄອມໂພເນັນແຜນພູມຍັງບໍ່ໄດ້ລ"
 "ົງທະບຽນໄວ້"
 
-#: kspread_view.cc:5965
+#: kspread_view.cc:5982
 msgid "You cannot delete the only sheet."
 msgstr ""
 "ທ່ານບໍ່ສາມາດລືບແຜ່ນງານທີມ"
 "ເຫລືອຢູ່ແຜ່ນດ່ຽວໄດ້"
 
-#: kspread_view.cc:5969
+#: kspread_view.cc:5986
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -4772,14 +4775,14 @@ msgstr ""
 "ທ່ານຕ້ອງການເຮັດຕໍ່ໄປແມ່ນຫ"
 "ລືບໍ່ ?"
 
-#: kspread_view.cc:6004
+#: kspread_view.cc:6021
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr ""
 "ທ່ານບໍ່ສາມາດລືບແຜ່ນງານທີມ"
 "ເຫລືອຢູ່ແຜ່ນດ່ຽວໄດ້"
 
-#: kspread_view.cc:6017
+#: kspread_view.cc:6034
 msgid "Sheet name contains illegal characters. Only numbers and letters are allowed."
 msgstr ""
 "ຊື່ຊິດສ "
@@ -4787,41 +4790,41 @@ msgstr ""
 "ບບ.ພຽງແຕ່ຕົວອັກສອນທີ່ແມ່ນອ"
 "ຸນຸຍາດ"
 
-#: kspread_view.cc:6018 kspread_view.cc:6036 kspread_view.cc:6046
+#: kspread_view.cc:6035 kspread_view.cc:6053 kspread_view.cc:6063
 msgid "Change Sheet Name"
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 
-#: kspread_view.cc:6036
+#: kspread_view.cc:6053
 msgid "Sheet name cannot be empty."
 msgstr ""
 "ຊື່ຕາລາງບໍ່ສາມາດວ່າງໄວ້ໄດ"
 "້"
 
-#: dialogs/kspread_dlg_area.cc:90 kspread_view.cc:6046
+#: dialogs/kspread_dlg_area.cc:90 kspread_view.cc:6063
 msgid "This name is already used."
 msgstr "ມີການໄຊ້ຊື່ນີ້ຢູ່ແລ້ວ"
 
-#: kspread_view.cc:6359
+#: kspread_view.cc:6376
 #, c-format
 msgid " Sum: %1"
 msgstr "ຜົນລວມ: %1"
 
-#: kspread_view.cc:6363
+#: kspread_view.cc:6380
 #, c-format
 msgid "Average: %1"
 msgstr "ຄ່າສະເລ່ຍ: %1"
 
-#: kspread_view.cc:6366
+#: kspread_view.cc:6383
 #, c-format
 msgid "Min: %1"
 msgstr "ຄ່ານ້ອຍທີ່ສຸດ: %1"
 
-#: kspread_view.cc:6369
+#: kspread_view.cc:6386
 #, c-format
 msgid "Max: %1"
 msgstr "ຄ່າຫລາຍທີ່ສຸດ: %1"
 
-#: kspread_view.cc:6372
+#: kspread_view.cc:6389
 #, c-format
 msgid "Count: %1"
 msgstr "ນັບຈຳນວນ: %1"
@@ -10277,6 +10280,12 @@ msgstr ""
 #, no-c-format
 msgid "A1=4;A2=6;IF(A1>A2;5;3) returns 3"
 msgstr "A1=4;A2=6;IF(A1>A2;5;3) ຈະໄດ້ຄ່າ 3"
+
+#. i18n: file extensions/math.xml line 5
+#: xml_doc.cc:2802
+#, no-c-format
+msgid "Math"
+msgstr "ຄະນິດສາດ"
 
 #. i18n: file extensions/math.xml line 11
 #: dialogs/kspread_dlg_formula.cc:54 xml_doc.cc:2805
@@ -16366,23 +16375,43 @@ msgstr ""
 "(c) 1998-2001, "
 "ກຸ່ມຜູ້ພັດທະນາເຈັ້ຍຄຳນວນ K"
 
-#: dialogs/kspread_dlg_anchor.cc:48
+#: dialogs/kspread_dlg_anchor.cc:49
 msgid "Insert Link"
 msgstr "ການແຊກການເຊື່ອມໂຍງ"
 
-#: dialogs/kspread_dlg_anchor.cc:53
+#: dialogs/kspread_dlg_anchor.cc:54
 msgid "Internet"
 msgstr "ອີນເຕີເນັດ"
 
-#: dialogs/kspread_dlg_anchor.cc:56
+#: dialogs/kspread_dlg_anchor.cc:57
 msgid "Mail"
 msgstr "ຈົດໜາຍ"
 
-#: dialogs/kspread_dlg_anchor.cc:62
+#: dialogs/kspread_dlg_anchor.cc:63
 msgid "Cell"
 msgstr "ແຊລ"
 
-#: dialogs/kspread_dlg_anchor.cc:101
+#: dialogs/kspread_dlg_anchor.cc:82
+#, fuzzy
+msgid "Internet address is empty"
+msgstr "ທີ່ຢູ່ອີນເຕີເັນດ"
+
+#: dialogs/kspread_dlg_anchor.cc:89
+#, fuzzy
+msgid "Mail address is empty"
+msgstr "ພື້ນທີ່ຂໍ້ຄວາມທີ່ວ່າງຢູ່!"
+
+#: dialogs/kspread_dlg_anchor.cc:96
+#, fuzzy
+msgid "File name is empty"
+msgstr "ພື້ນທີ່ຂໍ້ຄວາມທີ່ວ່າງຢູ່!"
+
+#: dialogs/kspread_dlg_anchor.cc:103
+#, fuzzy
+msgid "Destination cell is empty"
+msgstr "ພື້ທີ່ຂໍ້ຄວາມຫລືແຊລວ່າງ"
+
+#: dialogs/kspread_dlg_anchor.cc:136
 msgid ""
 "Cell is not empty.\n"
 "Do you want to continue?"
@@ -16390,44 +16419,32 @@ msgstr ""
 "ແຊລບໍ່ວ່າງ\n"
 "ທ່ານຕ້ອງການທຳຕໍ່ໄປຫລືບໍ່?"
 
-#: dialogs/kspread_dlg_anchor.cc:144
+#: dialogs/kspread_dlg_anchor.cc:179
 msgid "Internet address:"
 msgstr "ທີ່ຢູ່ອີນເຕີເັນດ"
 
-#: dialogs/kspread_dlg_anchor.cc:170 dialogs/kspread_dlg_anchor.cc:460
-#, fuzzy
-msgid "Area text or cell is empty."
-msgstr "ພື້ທີ່ຂໍ້ຄວາມຫລືແຊລວ່າງ"
-
-#: dialogs/kspread_dlg_anchor.cc:226
+#: dialogs/kspread_dlg_anchor.cc:249
 msgid "Email:"
 msgstr "ອີ່ແມລ"
 
-#: dialogs/kspread_dlg_anchor.cc:252 dialogs/kspread_dlg_anchor.cc:367
-#, fuzzy
-msgid "Area text or mail is empty."
-msgstr ""
-"ພື້ທີ່ຂໍ້ຄວາມຫລືຈົດໜາຍວ່າ"
-"ງ"
-
-#: dialogs/kspread_dlg_anchor.cc:309
+#: dialogs/kspread_dlg_anchor.cc:318
 #, fuzzy
 msgid "Recent file:"
 msgstr "ໄຟເມື່ອກິ:"
 
-#: dialogs/kspread_dlg_anchor.cc:318
+#: dialogs/kspread_dlg_anchor.cc:327
 msgid "File location:"
 msgstr "ຕຳແໜ່ງຂອງຟາຍ"
 
-#: dialogs/kspread_dlg_anchor.cc:344
+#: dialogs/kspread_dlg_anchor.cc:353
 msgid "No Entries"
 msgstr "ບໍ່ມີລາຍການ"
 
-#: dialogs/kspread_dlg_anchor.cc:433
+#: dialogs/kspread_dlg_anchor.cc:423
 msgid "Cell:"
 msgstr "ແຊລ"
 
-#: dialogs/kspread_dlg_angle.cc:50 dialogs/kspread_dlg_layout.cc:2869
+#: dialogs/kspread_dlg_angle.cc:50 dialogs/kspread_dlg_layout.cc:2862
 msgid "Angle:"
 msgstr "ມຸມ"
 
@@ -17257,8 +17274,8 @@ msgstr "ຮູບແບບເວລາ"
 msgid "Custom"
 msgstr "ກຳນົດເອງ"
 
-#: dialogs/kspread_dlg_layout.cc:1191 dialogs/kspread_dlg_layout.cc:3582
-#: dialogs/kspread_dlg_layout.cc:4713
+#: dialogs/kspread_dlg_layout.cc:1191 dialogs/kspread_dlg_layout.cc:3575
+#: dialogs/kspread_dlg_layout.cc:4706
 msgid "Preview"
 msgstr "ຕົວຢ່າງ"
 
@@ -17286,232 +17303,232 @@ msgstr "ຮູບແບບ:"
 msgid "Currency:"
 msgstr "ເງີນຕຣາ"
 
-#: dialogs/kspread_dlg_layout.cc:1428
+#: dialogs/kspread_dlg_layout.cc:1421
 msgid "Halves 1/2"
 msgstr "ເຄີ່ງຫນື່ງ 1/2"
 
-#: dialogs/kspread_dlg_layout.cc:1429
+#: dialogs/kspread_dlg_layout.cc:1422
 msgid "Quarters 1/4"
 msgstr "ຫນື່ງໃນສີ່ 1/4"
 
-#: dialogs/kspread_dlg_layout.cc:1430
+#: dialogs/kspread_dlg_layout.cc:1423
 #, fuzzy
 msgid "Eighths 1/8"
 msgstr "ຫນື່ງໃນແປດ 1/8"
 
-#: dialogs/kspread_dlg_layout.cc:1431
+#: dialogs/kspread_dlg_layout.cc:1424
 #, fuzzy
 msgid "Sixteenths 1/16"
 msgstr "ຫນື່ງໃນສິບຫົກ 1/16"
 
-#: dialogs/kspread_dlg_layout.cc:1432
+#: dialogs/kspread_dlg_layout.cc:1425
 #, fuzzy
 msgid "Tenths 1/10"
 msgstr "ຫນື່ງໃນສິບ 1/10"
 
-#: dialogs/kspread_dlg_layout.cc:1433
+#: dialogs/kspread_dlg_layout.cc:1426
 #, fuzzy
 msgid "Hundredths 1/100"
 msgstr "ຫນື່ງໃນຣ້ອຍ 1/100"
 
-#: dialogs/kspread_dlg_layout.cc:1434
+#: dialogs/kspread_dlg_layout.cc:1427
 msgid "One digit 5/9"
 msgstr "ຫນື່ງໜ່ວຍ 5/9"
 
-#: dialogs/kspread_dlg_layout.cc:1435
+#: dialogs/kspread_dlg_layout.cc:1428
 msgid "Two digits 15/22"
 msgstr "ສອງໜ່ວຍ 15/22"
 
-#: dialogs/kspread_dlg_layout.cc:1436
+#: dialogs/kspread_dlg_layout.cc:1429
 msgid "Three digits 153/652"
 msgstr "ສາມໜ່ວຍ 153/652"
 
-#: dialogs/kspread_dlg_layout.cc:1468 dialogs/kspread_dlg_layout.cc:1469
-#: dialogs/kspread_dlg_layout.cc:1540 dialogs/kspread_dlg_layout.cc:1541
+#: dialogs/kspread_dlg_layout.cc:1461 dialogs/kspread_dlg_layout.cc:1462
+#: dialogs/kspread_dlg_layout.cc:1533 dialogs/kspread_dlg_layout.cc:1534
 msgid "System: "
 msgstr "ລະບົບ: "
 
-#: dialogs/kspread_dlg_layout.cc:1477
+#: dialogs/kspread_dlg_layout.cc:1470
 #, fuzzy
 msgid " (=[mm]::ss)"
 msgstr "(=ມມ::ສສ)"
 
-#: dialogs/kspread_dlg_layout.cc:1478
+#: dialogs/kspread_dlg_layout.cc:1471
 #, fuzzy
 msgid " (=[hh]::mm::ss)"
 msgstr "(=ມມ::ສສ)"
 
-#: dialogs/kspread_dlg_layout.cc:1479
+#: dialogs/kspread_dlg_layout.cc:1472
 #, fuzzy
 msgid " (=[hh]::mm)"
 msgstr "(=ມມ::ສສ)"
 
-#: dialogs/kspread_dlg_layout.cc:2049
+#: dialogs/kspread_dlg_layout.cc:2042
 #, fuzzy
 msgid "Protection"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: dialogs/kspread_dlg_layout.cc:2054
+#: dialogs/kspread_dlg_layout.cc:2047
 #, fuzzy
 msgid "&Protected"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: dialogs/kspread_dlg_layout.cc:2058
+#: dialogs/kspread_dlg_layout.cc:2051
 #, fuzzy
 msgid "&Hide formula"
 msgstr "ູ&ເຊື່ອງຄ່າທີ່ເປັນສູນ"
 
-#: dialogs/kspread_dlg_layout.cc:2061
+#: dialogs/kspread_dlg_layout.cc:2054
 #, fuzzy
 msgid "Hide &all"
 msgstr "ເຊື່ອງຕາລາງ"
 
-#: dialogs/kspread_dlg_layout.cc:2065
+#: dialogs/kspread_dlg_layout.cc:2058
 #, fuzzy
 msgid "Printing"
 msgstr "ຊ່ວງການພິມ:"
 
-#: dialogs/kspread_dlg_layout.cc:2070
+#: dialogs/kspread_dlg_layout.cc:2063
 #, fuzzy
 msgid "&Do not print text"
 msgstr "ຢ່າພິມຂໍ້ຄວາມ"
 
-#: dialogs/kspread_dlg_layout.cc:2225
+#: dialogs/kspread_dlg_layout.cc:2218
 msgid "Functionality"
 msgstr "ຊະນິດຂອງເຊລ"
 
-#: dialogs/kspread_dlg_layout.cc:2231 dialogs/kspread_dlg_layout.cc:2426
-#: dialogs/kspread_dlg_layout.cc:2681 dialogs/kspread_dlg_layout.cc:2720
+#: dialogs/kspread_dlg_layout.cc:2224 dialogs/kspread_dlg_layout.cc:2419
+#: dialogs/kspread_dlg_layout.cc:2674 dialogs/kspread_dlg_layout.cc:2713
 msgid "Normal"
 msgstr "ເຊລປັກະຕິ"
 
-#: dialogs/kspread_dlg_layout.cc:2232
+#: dialogs/kspread_dlg_layout.cc:2225
 msgid "Button"
 msgstr "ເຊລແບບປຸ່ມ"
 
-#: dialogs/kspread_dlg_layout.cc:2233
+#: dialogs/kspread_dlg_layout.cc:2226
 msgid "Select"
 msgstr "ເຊລການເລືອກ"
 
-#: dialogs/kspread_dlg_layout.cc:2239
+#: dialogs/kspread_dlg_layout.cc:2232
 msgid "Action"
 msgstr "ການກະທຳ"
 
-#: dialogs/kspread_dlg_layout.cc:2259
+#: dialogs/kspread_dlg_layout.cc:2252
 #, fuzzy
 msgid "Do not print text"
 msgstr "ຢ່າພິມຂໍ້ຄວາມ"
 
-#: dialogs/kspread_dlg_layout.cc:2331
+#: dialogs/kspread_dlg_layout.cc:2324
 msgid "Requested Font"
 msgstr "ແບບອັກສອນ"
 
-#: dialogs/kspread_dlg_layout.cc:2337 dialogs/kspread_dlg_layout.cc:2464
+#: dialogs/kspread_dlg_layout.cc:2330 dialogs/kspread_dlg_layout.cc:2457
 msgid "Family:"
 msgstr "ຕະກູນ:"
 
-#: dialogs/kspread_dlg_layout.cc:2341 dialogs/kspread_dlg_layout.cc:2471
+#: dialogs/kspread_dlg_layout.cc:2334 dialogs/kspread_dlg_layout.cc:2464
 msgid "Size:"
 msgstr "ຂະນາດ:"
 
-#: dialogs/kspread_dlg_layout.cc:2345 dialogs/kspread_dlg_layout.cc:2478
+#: dialogs/kspread_dlg_layout.cc:2338 dialogs/kspread_dlg_layout.cc:2471
 msgid "Weight:"
 msgstr "ນຳ້ຫນັກ:"
 
-#: dialogs/kspread_dlg_layout.cc:2349
+#: dialogs/kspread_dlg_layout.cc:2342
 msgid "Text color:"
 msgstr "ສີຂໍ້ຄວາມ:"
 
-#: dialogs/kspread_dlg_layout.cc:2361 dialogs/kspread_dlg_layout.cc:2485
+#: dialogs/kspread_dlg_layout.cc:2354 dialogs/kspread_dlg_layout.cc:2478
 msgid "Style:"
 msgstr "ຮູບແບບ:"
 
-#: dialogs/kspread_dlg_layout.cc:2443
+#: dialogs/kspread_dlg_layout.cc:2436
 msgid "Strike out"
 msgstr "ເສັ້ນພາດກາງ"
 
-#: dialogs/kspread_dlg_layout.cc:2459
+#: dialogs/kspread_dlg_layout.cc:2452
 msgid "Actual Font"
 msgstr "ແບບອັກສອນປົກະຕິ"
 
-#: dialogs/kspread_dlg_layout.cc:2498
+#: dialogs/kspread_dlg_layout.cc:2491
 msgid "Dolor Ipse"
 msgstr "ຕົວອັກສອນ - ຕົວອັກສອນ"
 
-#: dialogs/kspread_dlg_layout.cc:2805
+#: dialogs/kspread_dlg_layout.cc:2798
 msgid "Standard"
 msgstr "ມາດຕະຖານ"
 
-#: dialogs/kspread_dlg_layout.cc:2834
+#: dialogs/kspread_dlg_layout.cc:2827
 msgid "Middle"
 msgstr "ກາງ"
 
-#: dialogs/kspread_dlg_layout.cc:2847
+#: dialogs/kspread_dlg_layout.cc:2840
 msgid "Text Option"
 msgstr "ຕົວເລອືກຊຂໍ້ຄວາມ"
 
-#: dialogs/kspread_dlg_layout.cc:2852
+#: dialogs/kspread_dlg_layout.cc:2845
 #, fuzzy
 msgid "Wrap text"
 msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 
-#: dialogs/kspread_dlg_layout.cc:2857
+#: dialogs/kspread_dlg_layout.cc:2850
 msgid "Vertical text"
 msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 
-#: dialogs/kspread_dlg_layout.cc:2863
+#: dialogs/kspread_dlg_layout.cc:2856
 msgid "Rotation"
 msgstr "ການຫູມນ"
 
-#: dialogs/kspread_dlg_layout.cc:2887
+#: dialogs/kspread_dlg_layout.cc:2880
 msgid "Merge cells"
 msgstr "ປະສານເຊລ์"
 
-#: dialogs/kspread_dlg_layout.cc:2893
+#: dialogs/kspread_dlg_layout.cc:2886
 msgid "Indent"
 msgstr "ການເຍືອງ"
 
-#: dialogs/kspread_dlg_layout.cc:2906
+#: dialogs/kspread_dlg_layout.cc:2899
 msgid "Size of Cell"
 msgstr "ຂະນາດຂອງເຊລ์"
 
-#: dialogs/kspread_dlg_layout.cc:2912 dialogs/kspread_dlg_resize2.cc:130
+#: dialogs/kspread_dlg_layout.cc:2905 dialogs/kspread_dlg_resize2.cc:130
 msgid "Width:"
 msgstr "ກ້ວາງ:"
 
-#: dialogs/kspread_dlg_layout.cc:2925
+#: dialogs/kspread_dlg_layout.cc:2918
 msgid "Default width (%1 %2)"
 msgstr "ຄວາມກວ້າງປິຣຍາຍ (%1 %2)"
 
-#: dialogs/kspread_dlg_layout.cc:2932 dialogs/kspread_dlg_resize2.cc:60
+#: dialogs/kspread_dlg_layout.cc:2925 dialogs/kspread_dlg_resize2.cc:60
 msgid "Height:"
 msgstr "ສູງ:"
 
-#: dialogs/kspread_dlg_layout.cc:2946
+#: dialogs/kspread_dlg_layout.cc:2939
 msgid "Default height (%1 %2)"
 msgstr "ຄວາມສູງປິຣຍາຍ (%1 %2)"
 
-#: dialogs/kspread_dlg_layout.cc:3478
+#: dialogs/kspread_dlg_layout.cc:3471
 msgid "Preselect"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: dialogs/kspread_dlg_layout.cc:3517 dialogs/kspread_dlg_layout.cc:4604
+#: dialogs/kspread_dlg_layout.cc:3510 dialogs/kspread_dlg_layout.cc:4597
 msgid "Pattern"
 msgstr "ລວດລາຍ"
 
-#: dialogs/kspread_dlg_layout.cc:3547 dialogs/kspread_dlg_layout.cc:4677
+#: dialogs/kspread_dlg_layout.cc:3540 dialogs/kspread_dlg_layout.cc:4670
 msgid "Color:"
 msgstr "ສີ:"
 
-#: dialogs/kspread_dlg_layout.cc:3552
+#: dialogs/kspread_dlg_layout.cc:3545
 msgid "Customize"
 msgstr "ກຳນົດເອງ"
 
-#: dialogs/kspread_dlg_layout.cc:4686
+#: dialogs/kspread_dlg_layout.cc:4679
 msgid "Background color:"
 msgstr "ສີພື້ນຫລັງ:"
 
-#: dialogs/kspread_dlg_layout.cc:4702
+#: dialogs/kspread_dlg_layout.cc:4695
 msgid "No Color"
 msgstr "ບໍ່ມີສີ"
 
@@ -18432,6 +18449,14 @@ msgid ""
 "Your emails"
 msgstr "sheshofu@hotmail.com"
 
+#, fuzzy
+#~ msgid "Area text or cell is empty."
+#~ msgstr "ພື້ທີ່ຂໍ້ຄວາມຫລືແຊລວ່າງ"
+
+#, fuzzy
+#~ msgid "Area text or mail is empty."
+#~ msgstr "ພື້ທີ່ຂໍ້ຄວາມຫລືຈົດໜາຍວ່າງ"
+
 #~ msgid "false"
 #~ msgstr "ບໍ່ຈີງ"
 
@@ -18724,9 +18749,6 @@ msgstr "sheshofu@hotmail.com"
 
 #~ msgid "Integer values"
 #~ msgstr "ຄ່າຈຳນວນເຕັມ"
-
-#~ msgid "Area Text or cell is empty!"
-#~ msgstr "ພື້ທີ່ຂໍ້ຄວາມຫລືແຊລວ່າງ"
 
 #~ msgid "KSpread Question"
 #~ msgstr "ຄຳຖາມເຈັ້ຍຄຳນວນ K"
