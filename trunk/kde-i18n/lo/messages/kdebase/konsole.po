@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-12-20 03:12+0100\n"
+"POT-Creation-Date: 2004-01-15 01:58+0100\n"
 "PO-Revision-Date: 2003-01-13 13:51+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,11 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: TEWidget.cpp:545 TEWidget.cpp:547
+#: TEWidget.cpp:738 TEWidget.cpp:740
 msgid "Size: XXX x XXX"
 msgstr "ຂະຫນາດ: XXX x XXX"
 
-#: TEWidget.cpp:552
+#: TEWidget.cpp:745
 msgid "Size: %1 x %2"
 msgstr "ຂະຫນາດ: %1 x %2"
 
@@ -34,363 +34,436 @@ msgid ""
 "Your emails"
 msgstr "neuk@yahoo.com"
 
-#: konsole.cpp:270
-msgid "Session Toolbar"
-msgstr "ແຖບເຄື່ອງມືເຊສຊັນ"
-
-#: konsole.cpp:429 konsole_child.cpp:88 konsole_part.cpp:296
+#: konsole.cpp:505 konsole_child.cpp:96 konsole_part.cpp:332
 msgid "&Suspend Task"
 msgstr "ຫຍຸດທາສກ໌ໄວ້ຊົ່ວຄາວ"
 
-#: konsole.cpp:430 konsole_child.cpp:89 konsole_part.cpp:297
+#: konsole.cpp:506 konsole_child.cpp:97 konsole_part.cpp:333
 msgid "&Continue Task"
 msgstr "ເຮັດທາສກ໌ທີ່ຄ້າງໄວ້ຕໍ່ໄປ"
 
-#: konsole.cpp:431 konsole_child.cpp:90 konsole_part.cpp:298
+#: konsole.cpp:507 konsole_child.cpp:98 konsole_part.cpp:334
 msgid "&Hangup"
 msgstr "ຫຍຸດ"
 
-#: konsole.cpp:432 konsole_child.cpp:91 konsole_part.cpp:299
+#: konsole.cpp:508 konsole_child.cpp:99 konsole_part.cpp:335
 msgid "&Interrupt Task"
 msgstr "ຂັດຈັບຫວະທາສກ໌"
 
-#: konsole.cpp:433 konsole_child.cpp:92 konsole_part.cpp:300
+#: konsole.cpp:509 konsole_child.cpp:100 konsole_part.cpp:336
 msgid "&Terminate Task"
 msgstr "ຈົບການທຳງານຂອງທາສກ໌"
 
-#: konsole.cpp:434 konsole_child.cpp:93 konsole_part.cpp:301
+#: konsole.cpp:510 konsole_child.cpp:101 konsole_part.cpp:337
 msgid "&Kill Task"
 msgstr "ຂ້າທາສກ໌"
 
-#: konsole.cpp:435 konsole_child.cpp:94 konsole_part.cpp:302
+#: konsole.cpp:511 konsole_child.cpp:102 konsole_part.cpp:338
 msgid "User Signal &1"
 msgstr "ສັນຍານຂອງຜູ້ໃຊ້ &1"
 
-#: konsole.cpp:436 konsole_child.cpp:95 konsole_part.cpp:303
+#: konsole.cpp:512 konsole_child.cpp:103 konsole_part.cpp:339
 msgid "User Signal &2"
 msgstr "ສັນຍານຂອງຜູ້ໃຊ້ &2"
 
-#: konsole.cpp:444 konsole.cpp:618 konsole_child.cpp:108 konsole_part.cpp:424
+#: konsole.cpp:522 konsole.cpp:724 konsole_child.cpp:105 konsole_part.cpp:479
 msgid "&Send Signal"
 msgstr "ສົ່ງສັນຍານ"
 
-#: konsole.cpp:474
+#: konsole.cpp:552
 msgid "&Move Session Left"
 msgstr "ຍ້າຍເຊສຊັນໄປດ້ານຊ້າຍ"
 
-#: konsole.cpp:480
+#: konsole.cpp:558
 msgid "M&ove Session Right"
 msgstr "ຍ້າຍເຊສຊັນໄປດ້ານຂວາ"
 
-#: konsole.cpp:521 konsole_part.cpp:310
-msgid "Sc&rollbar"
-msgstr "ແຖບເລື່ອນ"
+#: konsole.cpp:598
+msgid "&Tab Bar"
+msgstr ""
 
-#: konsole.cpp:524 konsole_part.cpp:313
+#: konsole.cpp:601 konsole.cpp:609 konsole_part.cpp:353
 msgid "&Hide"
 msgstr "ເຊື່ອງ"
 
-#: konsole.cpp:524 konsole_part.cpp:313
+#: konsole.cpp:601
+#, fuzzy
+msgid "&Top"
+msgstr "&Stop"
+
+#: konsole.cpp:606 konsole_part.cpp:349
+msgid "Sc&rollbar"
+msgstr "ແຖບເລື່ອນ"
+
+#: konsole.cpp:609 konsole_part.cpp:353
 msgid "&Left"
 msgstr "ດ້ານຊ້າຍ"
 
-#: konsole.cpp:524 konsole_part.cpp:313
+#: konsole.cpp:609 konsole_part.cpp:353
 msgid "&Right"
 msgstr "ດ້ານຂວາ"
 
-#: konsole.cpp:534 konsole_part.cpp:319
+#: konsole.cpp:622 konsole_part.cpp:359
 msgid "&Bell"
 msgstr "ອອດເຕືອນ"
 
-#: konsole.cpp:537 konsole_part.cpp:322
-msgid "&None"
-msgstr "ບໍ່ມີ"
+#: konsole.cpp:625
+#, fuzzy
+msgid "System &Bell"
+msgstr "ສີລະບົບ"
 
-#: konsole.cpp:538 konsole_part.cpp:323
-msgid "&System Notification"
+#: konsole.cpp:626
+#, fuzzy
+msgid "System &Notification"
 msgstr "ການແຈ້ງເຕືອນຂອງລະບົບ"
 
-#: konsole.cpp:539 konsole_part.cpp:324
+#: konsole.cpp:627 konsole_part.cpp:365
 msgid "&Visible Bell"
 msgstr "ສະແດງຮູບກະດິ່ງ"
 
-#: konsole.cpp:544 konsole_part.cpp:329
+#: konsole.cpp:632 konsole_part.cpp:370
 msgid "&Font"
 msgstr "ຮູບແບບຕົວອັກສອນ"
 
-#: konsole.cpp:547 konsole_part.cpp:332
+#: konsole.cpp:635 konsole_part.cpp:373
 msgid "&Normal"
 msgstr "ປົກະຕິ"
 
-#: konsole.cpp:548 konsole_part.cpp:333
+#: konsole.cpp:636 konsole_part.cpp:374
 msgid "&Tiny"
 msgstr "ກະທັດຮັດ"
 
-#: konsole.cpp:549 konsole_part.cpp:334
+#: konsole.cpp:637 konsole_part.cpp:375
 msgid "&Small"
 msgstr "ນ້ອຍ"
 
-#: konsole.cpp:550 konsole_part.cpp:335
+#: konsole.cpp:638 konsole_part.cpp:376
 msgid "&Medium"
 msgstr "ປານກາງ"
 
-#: konsole.cpp:551 konsole_part.cpp:336
+#: konsole.cpp:639 konsole_part.cpp:377
 msgid "&Large"
 msgstr "ໃຫຍ່"
 
-#: konsole.cpp:552 konsole_part.cpp:337
+#: konsole.cpp:640 konsole_part.cpp:378
 msgid "&Huge"
 msgstr "ໃຫຍ່ຫລາຍ"
 
-#: konsole.cpp:554
+#: konsole.cpp:642
 msgid "L&inux"
 msgstr "ລິນຸກຊ໌"
 
-#: konsole.cpp:555 konsole_part.cpp:340
+#: konsole.cpp:643 konsole_part.cpp:381
 msgid "&Unicode"
 msgstr "ຢູນິໂຄ້ດ"
 
-#: konsole.cpp:557 konsole.cpp:576 konsole_part.cpp:342
+#: konsole.cpp:645 konsole.cpp:669 konsole_part.cpp:383
 msgid "&Custom..."
 msgstr "ກຳນົດເອງ..."
 
-#: konsole.cpp:561 konsole_part.cpp:350
+#: konsole.cpp:651 konsole_part.cpp:393
 msgid "&Keyboard"
 msgstr "ແປ້ນພີມແບບ"
 
-#: konsole.cpp:564 konsole_part.cpp:357
+#: konsole.cpp:655 konsole_part.cpp:403
 msgid "Sch&ema"
 msgstr "ຮູບແບບຊຸດສີ"
 
-#: konsole.cpp:567
+#: konsole.cpp:660
 msgid "S&ize"
 msgstr "ຂະຫນາດ"
 
-#: konsole.cpp:570
+#: konsole.cpp:663
 msgid "40x15 (&Small)"
 msgstr "40x15 (ນ້ອຍ)"
 
-#: konsole.cpp:571
+#: konsole.cpp:664
 msgid "80x24 (&VT100)"
 msgstr "80x24 (&VT100)"
 
-#: konsole.cpp:572
+#: konsole.cpp:665
 msgid "80x25 (&IBM PC)"
 msgstr "80x25 (ໄອບີເອັມ ພີຊີ)"
 
-#: konsole.cpp:573
+#: konsole.cpp:666
 msgid "80x40 (&XTerm)"
 msgstr "80x40 (ເທີມິນອລ &X)"
 
-#: konsole.cpp:574
+#: konsole.cpp:667
 msgid "80x52 (IBM V&GA)"
 msgstr "80x52 (ໄອບີເອັມວີຈີເອ)"
 
-#: konsole.cpp:580
+#: konsole.cpp:674
 msgid "Hist&ory..."
 msgstr "ປະວັດຕິການໃຊ້ງານ..."
 
-#: konsole.cpp:604
+#: konsole.cpp:680
+msgid "&Save as Default"
+msgstr ""
+
+#: konsole.cpp:703
 msgid "&Tip of the Day"
 msgstr "ເຄັດລັບປະຈຳວັນ..."
 
-#: konsole.cpp:622
+#: konsole.cpp:717 konsole_child.cpp:79 konsole_part.cpp:465
+msgid "Set Selection End"
+msgstr ""
+
+#: konsole.cpp:728
 msgid "New Sess&ion"
 msgstr "ເຊສຊັນໃຫມ່"
 
-#: konsole.cpp:631 konsole_part.cpp:427
+#: konsole.cpp:741 konsole_part.cpp:485
 msgid "S&ettings"
 msgstr "ຕັ້ງຄ່າ"
 
-#: konsole.cpp:669
-msgid "Previous Session"
+#: konsole.cpp:781
+#, fuzzy
+msgid "Go to Previous Session"
 msgstr "ເຊສຊັນກ່ອນ"
 
-#: konsole.cpp:671
-msgid "Next Session"
+#: konsole.cpp:783
+#, fuzzy
+msgid "Go to Next Session"
 msgstr "ເຊສຊັນຖັດໄປ"
 
-#: konsole.cpp:674
+#: konsole.cpp:786
 msgid "Switch to Session 1"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 1"
 
-#: konsole.cpp:675
+#: konsole.cpp:787
 msgid "Switch to Session 2"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 2"
 
-#: konsole.cpp:676
+#: konsole.cpp:788
 msgid "Switch to Session 3"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 3"
 
-#: konsole.cpp:677
+#: konsole.cpp:789
 msgid "Switch to Session 4"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 4"
 
-#: konsole.cpp:678
+#: konsole.cpp:790
 msgid "Switch to Session 5"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 5"
 
-#: konsole.cpp:679
+#: konsole.cpp:791
 msgid "Switch to Session 6"
-msgstr "ສະຫລັບໄປຍັງເຊສຊັນ สลับไปยังเซสชัน 6"
+msgstr ""
+"ສະຫລັບໄປຍັງເຊສຊັນ "
+"สลับไปยังเซสชัน 6"
 
-#: konsole.cpp:680
+#: konsole.cpp:792
 msgid "Switch to Session 7"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 7"
 
-#: konsole.cpp:681
+#: konsole.cpp:793
 msgid "Switch to Session 8"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 8"
 
-#: konsole.cpp:682
+#: konsole.cpp:794
 msgid "Switch to Session 9"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 9"
 
-#: konsole.cpp:683
+#: konsole.cpp:795
 msgid "Switch to Session 10"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 10"
 
-#: konsole.cpp:684
+#: konsole.cpp:796
 msgid "Switch to Session 11"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 11"
 
-#: konsole.cpp:685
+#: konsole.cpp:797
 msgid "Switch to Session 12"
 msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 12"
 
-#: konsole.cpp:687
+#: konsole.cpp:799
 msgid "Bigger Font"
 msgstr "ຕົວອັກສອນໃຫຍ່ກວ່າ"
 
-#: konsole.cpp:688
+#: konsole.cpp:800
 msgid "Smaller Font"
 msgstr "ຕົວອັກສອນນ້ອຍກວ່າ"
 
-#: konsole.cpp:698
-msgid "&New"
-msgstr "ເປີດໃຫມ່"
+#: konsole.cpp:802
+msgid "Toggle Bidi"
+msgstr ""
 
-#: konsole.cpp:749
-msgid "Session"
-msgstr "ເຊສຊັນ"
-
-#: konsole.cpp:753
-msgid "Bookmarks"
-msgstr "ທີ່ຂັ້ນຫນັງສື"
-
-#: konsole.cpp:754
-msgid "Settings"
-msgstr "ຕັ້ງຄ່າ"
-
-#: konsole.cpp:764
-msgid "C&lear Terminal"
-msgstr "ລ້າງເທີມິນອລ"
-
-#: konsole.cpp:766
-msgid "&Reset && Clear Terminal"
-msgstr "ຣີເຊັດແລະລ້າງເທີມິນອລ"
-
-#: konsole.cpp:768
-msgid "&Find in History..."
-msgstr "ຄົ້ນໃນປະວັດການໃຊ້ງານ..."
-
-#: konsole.cpp:776
-msgid "Find Pre&vious"
-msgstr "ຄົ້ນຫາກ່ອນຫນ້ານີ້"
-
-#: konsole.cpp:780
-msgid "S&ave History As..."
-msgstr "ບັນທຶກປະວັດການໃຊ້ງານເປັນ..."
-
-#: konsole.cpp:784
-msgid "Clear &History"
-msgstr "ລ້າງປະວັດການໃຊ້ງານ"
-
-#: konsole.cpp:788
-msgid "Clear All H&istories"
-msgstr "ລ້າງປະວັດການໃຊ້ງານທັງຫມົດ"
-
-#: konsole.cpp:791
+#: konsole.cpp:809 konsole.cpp:993
 msgid "&Detach Session"
 msgstr "ປິດເຊສຊັນ"
 
-#: konsole.cpp:795 konsole_child.cpp:114
+#: konsole.cpp:812 konsole.cpp:997 konsole_child.cpp:113
 msgid "&Rename Session..."
 msgstr "ປ່ງນຊື່ເຊສຊັນ..."
 
-#: konsole.cpp:797
-msgid "&ZModem Upload..."
-msgstr "&ZModemUpload..."
-
-#: konsole.cpp:799
+#: konsole.cpp:816 konsole.cpp:1001
 msgid "Monitor for &Activity"
 msgstr "ທີ່ກວດສອບສຳຫລັບການໂຕ້ຕອບ"
 
-#: konsole.cpp:801
+#: konsole.cpp:820 konsole.cpp:1003
 msgid "Monitor for &Silence"
-msgstr "ທີ່ກວດສອບສຳຫລັບບໍ່ມີການໂຕ້ຕອບ"
+msgstr ""
+"ທີ່ກວດສອບສຳຫລັບບໍ່ມີການໂຕ"
+"້ຕອບ"
 
-#: konsole.cpp:803
+#: konsole.cpp:824 konsole.cpp:1005
 msgid "Send &Input to All Sessions"
-msgstr "ສົ່ງຂໍ້ມູນນຳເຂົ້າໄປຍັງທຸກເຊສຊັນ"
+msgstr ""
+"ສົ່ງຂໍ້ມູນນຳເຂົ້າໄປຍັງທຸກ"
+"ເຊສຊັນ"
 
-#: konsole.cpp:810
-msgid "F&ull-Screen"
-msgstr "ປັບໃຫ້ເຕັມຈໍ"
+#: konsole.cpp:830
+#, fuzzy
+msgid "Switch to Tab"
+msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 1"
 
-#: konsole.cpp:814
-msgid "Save Sessions &Profile..."
-msgstr "ບັນທຶກໂປຣໄຟລ໌ຂອງເຊສຊັນ..."
-
-#: konsole.cpp:820 konsole_child.cpp:119
+#: konsole.cpp:836 konsole.cpp:1021 konsole.cpp:1081 konsole_child.cpp:118
 msgid "C&lose Session"
 msgstr "ປິດເຊສຊັນ"
 
-#: konsole.cpp:824
+#: konsole.cpp:844
+msgid "Tab Options"
+msgstr ""
+
+#: konsole.cpp:846
+msgid "T&ext && Icons"
+msgstr ""
+
+#: konsole.cpp:846
+msgid "&Text Only"
+msgstr ""
+
+#: konsole.cpp:846
+msgid "&Icons Only"
+msgstr ""
+
+#: konsole.cpp:853
+msgid "Dynamic Hide"
+msgstr ""
+
+#: konsole.cpp:882
+msgid ""
+"Click for new standard session\n"
+"Click and hold for session menu"
+msgstr ""
+
+#: konsole.cpp:947
+msgid "Session"
+msgstr "ເຊສຊັນ"
+
+#: konsole.cpp:953
+msgid "Settings"
+msgstr "ຕັ້ງຄ່າ"
+
+#: konsole.cpp:963
+msgid "Paste Selection"
+msgstr ""
+
+#: konsole.cpp:966
+msgid "C&lear Terminal"
+msgstr "ລ້າງເທີມິນອລ"
+
+#: konsole.cpp:968
+msgid "&Reset && Clear Terminal"
+msgstr "ຣີເຊັດແລະລ້າງເທີມິນອລ"
+
+#: konsole.cpp:970
+msgid "&Find in History..."
+msgstr "ຄົ້ນໃນປະວັດການໃຊ້ງານ..."
+
+#: konsole.cpp:978
+msgid "Find Pre&vious"
+msgstr "ຄົ້ນຫາກ່ອນຫນ້ານີ້"
+
+#: konsole.cpp:982
+msgid "S&ave History As..."
+msgstr "ບັນທຶກປະວັດການໃຊ້ງານເປັນ..."
+
+#: konsole.cpp:986
+msgid "Clear &History"
+msgstr "ລ້າງປະວັດການໃຊ້ງານ"
+
+#: konsole.cpp:990
+msgid "Clear All H&istories"
+msgstr "ລ້າງປະວັດການໃຊ້ງານທັງຫມົດ"
+
+#: konsole.cpp:999
+msgid "&ZModem Upload..."
+msgstr "&ZModemUpload..."
+
+#: konsole.cpp:1014
+msgid "Save Sessions &Profile..."
+msgstr "ບັນທຶກໂປຣໄຟລ໌ຂອງເຊສຊັນ..."
+
+#: konsole.cpp:1023
+msgid "&Print Screen..."
+msgstr ""
+
+#: konsole.cpp:1028
 msgid "New Session"
 msgstr "ເຊສຊັນໃຫມ່"
 
-#: konsole.cpp:825
+#: konsole.cpp:1029
 msgid "Activate Menu"
 msgstr "ເອີ້ນເມນູ"
 
-#: konsole.cpp:826
+#: konsole.cpp:1030
 msgid "List Sessions"
 msgstr "ລາຍການເຊສຊັນ"
 
-#: konsole.cpp:867
+#: konsole.cpp:1076
 msgid ""
 "You have open sessions (besides the current one). These will be killed if "
 "you continue.\n"
 "Are you sure you want to quit?"
 msgstr ""
-"ທ່ານມີເຊສຊັນທີ່ທຳງານຄ້າງຢູ່\nແລະຈະຫຍຸດການທຳງານຖ້າທ່ານເລືອກເຮັດຕໍ່ໄປ\n"
+"ທ່ານມີເຊສຊັນທີ່ທຳງານຄ້າງຢ"
+"ູ່\n"
+"ແລະຈະຫຍຸດການທຳງານຖ້າທ່ານເ"
+"ລືອກເຮັດຕໍ່ໄປ\n"
 "\n"
-"ທ່ານແນ່ໃຈວ່າຕ້ອງການອອກຈິງຫລືບໍ່ ?"
+"ທ່ານແນ່ໃຈວ່າຕ້ອງການອອກຈິງ"
+"ຫລືບໍ່ ?"
 
-#: konsole.cpp:870
+#: konsole.cpp:1079
 msgid "Really Quit?"
 msgstr "ຕ້ອງການອອກແທ້ຫລືບໍ່ ?"
 
-#: konsole.cpp:895
+#: konsole.cpp:1112
 msgid ""
 "The application running in Konsole does not respond to the close request. Do "
 "you want Konsole to close anyway?"
-msgstr "ແອພພຣິເຄຊັນທີ່ກຳລັງທຳງານຢູ່ໃນຄອນໂຊລບໍ່ຕອບສະຫນອງຕໍ່ການຮ້ອງຂໍຈົບການທຳງານ ທ່ານຕອງການຈະປິດການທຳງານຄອນໂຊລຕໍ່ໄປຫລືບໍ່ ?"
+msgstr ""
+"ແອພພຣິເຄຊັນທີ່ກຳລັງທຳງານຢ"
+"ູ່ໃນຄອນໂຊລບໍ່ຕອບສະຫນອງຕໍ່"
+"ການຮ້ອງຂໍຈົບການທຳງານ "
+"ທ່ານຕອງການຈະປິດການທຳງານຄອ"
+"ນໂຊລຕໍ່ໄປຫລືບໍ່ ?"
 
-#: konsole.cpp:897
+#: konsole.cpp:1114
 msgid "Application Does Not Respond"
 msgstr "ແອພພຣິເຄຊັນບໍ່ຕອບສະຫນອງ"
 
-#: konsole.cpp:952
-msgid "Enter name under which the profile should be saved:"
-msgstr "ຕື່ມຊື່ທາງດ້ານລຸ່ມ ທີ່ຈະໃຫ້ບັນທຶກໂປຣໄຟລ໌:"
+#: konsole.cpp:1206 konsole.cpp:3363 konsole_child.cpp:254
+msgid "Rename Session"
+msgstr "ປ່ງນຊື່ເຊສຊັນ"
 
-#: konsole.cpp:953
+#: konsole.cpp:1207 konsole.cpp:3364 konsole_child.cpp:255
+msgid "Session name:"
+msgstr "ຊື່ເຊສຊັນ:"
+
+#: konsole.cpp:1285
 msgid "Save Sessions Profile"
 msgstr "ບັນທຶກໂປຣໄຟລ໌ຂອງເຊສຊັນ"
 
-#: konsole.cpp:1346 konsole_part.cpp:613
+#: konsole.cpp:1286
+msgid "Enter name under which the profile should be saved:"
+msgstr ""
+"ຕື່ມຊື່ທາງດ້ານລຸ່ມ "
+"ທີ່ຈະໃຫ້ບັນທຶກໂປຣໄຟລ໌:"
+
+#: konsole.cpp:1735 konsole_part.cpp:677
 msgid ""
 "Font `%1' not found.\n"
 "Check README.linux.console for help."
@@ -399,25 +472,28 @@ msgstr ""
 "ກະລຸນາກວດສອບທີ່ README.linux.console "
 "ສຳຫລັບລາຍລະອງດ"
 
-#: konsole.cpp:1359
+#: konsole.cpp:1753
 msgid "Use the right mouse button to bring back the menu"
-msgstr "ໃຊ້ເມົາສ໌ປຸ່ມຂວາເພື່ອເອີ້ນເມນູ"
+msgstr ""
+"ໃຊ້ເມົາສ໌ປຸ່ມຂວາເພື່ອເອີ້"
+"ນເມນູ"
 
-#: konsole.cpp:1664
+#: konsole.cpp:2250
 msgid ""
 "_: abbreviation of number\n"
 "%1 No. %2"
 msgstr "%1 ຫມາຍເລກ %2"
 
-#: konsole.cpp:1723
-msgid "Session List:"
+#: konsole.cpp:2308
+#, fuzzy
+msgid "Session List"
 msgstr "ລາຍການເຊສຊັນ:"
 
-#: konsole.cpp:2054
+#: konsole.cpp:2692
 msgid "`%1' terminated abnormally."
 msgstr "`%1' ຈົບການທຳງານຢ່າງຜິດປົກະຕິ"
 
-#: konsole.cpp:2057
+#: konsole.cpp:2695
 msgid ""
 "\n"
 "Return code = "
@@ -425,106 +501,114 @@ msgstr ""
 "\n"
 "ຄ່າທີ່ສົ່ງກັລ = "
 
-#: konsole.cpp:2356
+#: konsole.cpp:3032
 msgid "New "
 msgstr "ເປີດ "
 
-#: konsole.cpp:2385
+#: konsole.cpp:3061
 msgid "New Shell at Bookmark"
-msgstr "ເປີດເຊລລ໌ໃຫມ່ທີ່ຂັ້ນຫນັງສື"
+msgstr ""
+"ເປີດເຊລລ໌ໃຫມ່ທີ່ຂັ້ນຫນັງສ"
+"ື"
 
-#: konsole.cpp:2388
+#: konsole.cpp:3064
 msgid "Shell at Bookmark"
 msgstr "ເອີ້ນເຊລລ໌ທີ່ຂັ້ນຫນັງສື"
 
-#: konsole.cpp:2399
+#: konsole.cpp:3075
 #, c-format
 msgid ""
 "_: Screen is a program controlling screens!\n"
 "Screen at %1"
 msgstr "ຫນ້າຈໍທີ່ %1"
 
-#: konsole.cpp:2630
-msgid "Session name:"
-msgstr "ຊື່ເຊສຊັນ:"
-
-#: konsole.cpp:2631 konsole_child.cpp:215
-msgid "Rename Session"
-msgstr "ປ່ງນຊື່ເຊສຊັນ"
-
-#: konsole.cpp:2678 konsole_part.cpp:845
+#: konsole.cpp:3399 konsole_part.cpp:922
 msgid "History Configuration"
 msgstr "ປັບແຕ່ງປະວັດການໃຊ້ງານ"
 
-#: konsole.cpp:2686 konsole_part.cpp:853
+#: konsole.cpp:3407 konsole_part.cpp:930
 msgid "&Enable"
 msgstr "ເປີດໃຊ້ງານ"
 
-#: konsole.cpp:2693 konsole_part.cpp:860
+#: konsole.cpp:3410
+#, fuzzy
+msgid "&Number of lines: "
+msgstr "ຈຳນວນບັນທັດ: "
+
+#: konsole.cpp:3414 konsole_part.cpp:937
 msgid ""
 "_: Unlimited (number of lines)\n"
 "Unlimited"
 msgstr "ບໍ່ຈຳກັດ"
 
-#: konsole.cpp:2695 konsole_part.cpp:862
+#: konsole.cpp:3418 konsole_part.cpp:939
 msgid "&Set Unlimited"
 msgstr "ຕັ້ງຄ່າບໍ່ຈຳກັດ"
 
-#: konsole.cpp:2700
-msgid "Number of lines: "
-msgstr "ຈຳນວນບັນທັດ: "
-
-#: konsole.cpp:2855
+#: konsole.cpp:3576
 msgid ""
 "End of history reached.\n"
 "Continue from the beginning?"
-msgstr "ທ່ານຢູ່ໃນສ່ວນທ້າຍສຸດຂອງປະວັດການໃຊ້ງານແລ້ວ\nຕ້ອງການເຮັດຕໍ່ໂດຍເລີ້ມຈາກຕອນຕົ້ນຫລືບໍ່ ?"
+msgstr ""
+"ທ່ານຢູ່ໃນສ່ວນທ້າຍສຸດຂອງປະ"
+"ວັດການໃຊ້ງານແລ້ວ\n"
+"ຕ້ອງການເຮັດຕໍ່ໂດຍເລີ້ມຈາກ"
+"ຕອນຕົ້ນຫລືບໍ່ ?"
 
-#: konsole.cpp:2856 konsole.cpp:2864 konsole.cpp:2873
+#: konsole.cpp:3577 konsole.cpp:3585 konsole.cpp:3594
 msgid "Find"
 msgstr "ຄົ້ນຫາ"
 
-#: konsole.cpp:2863
+#: konsole.cpp:3584
 msgid ""
 "Beginning of history reached.\n"
 "Continue from the end?"
-msgstr "ທ່ານຢູ່ໃນສ່ວນເລີ້ມຕົ້ນຂອງປະວັດການໃຊ້ງານແລ້ວ\nຕ້ອງການເຮັດຕໍ່ໂດຍເລີ້ມຈາກສ່ວນທ້າຍຫລືບໍ່ ?"
+msgstr ""
+"ທ່ານຢູ່ໃນສ່ວນເລີ້ມຕົ້ນຂອງ"
+"ປະວັດການໃຊ້ງານແລ້ວ\n"
+"ຕ້ອງການເຮັດຕໍ່ໂດຍເລີ້ມຈາກ"
+"ສ່ວນທ້າຍຫລືບໍ່ ?"
 
-#: konsole.cpp:2872
+#: konsole.cpp:3593
 msgid "Search string '%1' not found."
 msgstr ""
 "ບໍ່ພົບຂໍ້້ຄວາມ '%1' "
 "ທີ່ຕ້ອງການຄົ້ນຫາ"
 
-#: konsole.cpp:2887
+#: konsole.cpp:3608
 msgid "Save History"
 msgstr "ບັນທຶກປະວັດການໃຊ້ງານ"
 
-#: konsole.cpp:2891
-msgid "This is not a local file.\n"
-msgstr "ນີ້ບໍ່ແມ່ນແຟ້ມພາຍໃນລະບົບ\n"
+#: konsole.cpp:3612
+msgid ""
+"This is not a local file.\n"
+msgstr ""
+"ນີ້ບໍ່ແມ່ນແຟ້ມພາຍໃນລະບົບ\n"
 
-#: konsole.cpp:2901
+#: konsole.cpp:3622
 msgid ""
 "A file with this name already exists.\n"
 "Do you want to overwrite it?"
-msgstr "ມີແຟ້ມທີ່ໍຊື່ນີ້ຢູ່ແລ້ວ\nທ່ານຕ້ອງການຂງນທັບມັນຫລືບໍ່ ?"
-
-#: konsole.cpp:2906
-msgid "Unable to write to file."
 msgstr ""
-"ບໍ່ສາມາດຂງນໄປຍັງແຟ້ມໄດ"
-"้"
+"ມີແຟ້ມທີ່ໍຊື່ນີ້ຢູ່ແລ້ວ\n"
+"ທ່ານຕ້ອງການຂງນທັບມັນຫລືບໍ"
+"່ ?"
 
-#: konsole.cpp:2915
+#: konsole.cpp:3627
+msgid "Unable to write to file."
+msgstr "ບໍ່ສາມາດຂງນໄປຍັງແຟ້ມໄດ้"
+
+#: konsole.cpp:3636
 msgid "Could not save history."
-msgstr "ບໍ່ສາມາດບັນທຶກປະວັດການໃຊ້ງານໄດ້"
+msgstr ""
+"ບໍ່ສາມາດບັນທຶກປະວັດການໃຊ້"
+"ງານໄດ້"
 
-#: konsole.cpp:2926
+#: konsole.cpp:3647
 msgid "<p>The current session already has a ZModem file transfer in progress."
 msgstr "<p>The current session already has ZModem file transfer in progress."
 
-#: konsole.cpp:2935
+#: konsole.cpp:3656
 msgid ""
 "<p>No suitable ZModem software was found on the system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
@@ -532,11 +616,11 @@ msgstr ""
 "<p>No suitable ZModem software was found on the system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 
-#: konsole.cpp:2942
+#: konsole.cpp:3663
 msgid "Select Files to Upload"
 msgstr "Select Files to Upload"
 
-#: konsole.cpp:2960
+#: konsole.cpp:3681
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on the system.\n"
@@ -546,140 +630,170 @@ msgstr ""
 "software was found on the system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 
-#: konsole.cpp:2967
+#: konsole.cpp:3688
+#, fuzzy
 msgid ""
 "A ZModem file transfer attempt has been detected.\n"
-"Please specify the directory you want to store the file(s):"
+"Please specify the folder you want to store the file(s):"
 msgstr ""
 "A ZModem file transfer attempt has been detected.\n"
 "Please specify the directory you want to store the file(s): "
 
-#: konsole.cpp:2970
+#: konsole.cpp:3691
 msgid "&Download"
 msgstr "&Download"
 
-#: konsole.cpp:2971 konsole.cpp:2972
-msgid "Start downloading file to specified directory."
+#: konsole.cpp:3692 konsole.cpp:3693
+#, fuzzy
+msgid "Start downloading file to specified folder."
 msgstr "Start downloading file to specified directory."
 
-#: konsole.cpp:2989
+#: konsole.cpp:3709
+#, c-format
+msgid "Print %1"
+msgstr ""
+
+#: konsole.cpp:3736
 msgid "Size Configuration"
 msgstr "ປັບແຕ່ງຂະຫນາດ"
 
-#: konsole.cpp:3003
+#: konsole.cpp:3750
 msgid "Number of columns:"
 msgstr "ຈຳນວນຖັນ:"
 
-#: konsole.cpp:3006 konsole_part.cpp:867
+#: konsole.cpp:3753 konsole_part.cpp:944
 msgid "Number of lines:"
 msgstr "ຈຳນວນແຖວ:"
 
-#: konsole.cpp:3034
+#: konsole.cpp:3781
 msgid "As &regular expression"
 msgstr "ເປັນເງື່ອນໄຂການຄົ້ນຫາ"
 
-#: konsole.cpp:3037
+#: konsole.cpp:3784
 msgid "&Edit..."
 msgstr "ປະວັດການໃຊ້ງານ..."
 
-#: konsole_child.cpp:111
+#: konsole_child.cpp:110
 msgid "&Attach Session"
 msgstr "ເປີດເຊສຊັນ"
 
-#: konsole_child.cpp:214
-msgid "Session name"
-msgstr "ຊື່ເຊສຊັນ"
-
-#: konsole_part.cpp:91 main.cpp:141
+#: konsole_part.cpp:101 main.cpp:149
 msgid "Konsole"
 msgstr "ຄອນໂຊລ"
 
-#: konsole_part.cpp:339
+#: konsole_part.cpp:363
+msgid "&None"
+msgstr "ບໍ່ມີ"
+
+#: konsole_part.cpp:364
+msgid "&System Notification"
+msgstr "ການແຈ້ງເຕືອນຂອງລະບົບ"
+
+#: konsole_part.cpp:380
 msgid "&Linux"
 msgstr "ລິນຸກຊ໌"
 
-#: konsole_part.cpp:359
+#: konsole_part.cpp:407
 msgid "&History..."
 msgstr "ປະວັດການໃຊ້ງານ..."
 
-#: konsole_part.cpp:368
+#: konsole_part.cpp:416
 msgid "Li&ne Spacing"
 msgstr "ລະຍະຫ່າງລະຫວ່າງແຖວ"
 
-#: konsole_part.cpp:379
+#: konsole_part.cpp:427
 msgid "&0"
 msgstr "&0"
 
-#: konsole_part.cpp:380
+#: konsole_part.cpp:428
 msgid "&1"
 msgstr "&1"
 
-#: konsole_part.cpp:381
+#: konsole_part.cpp:429
 msgid "&2"
 msgstr "&2"
 
-#: konsole_part.cpp:382
+#: konsole_part.cpp:430
 msgid "&3"
 msgstr "&3"
 
-#: konsole_part.cpp:383
+#: konsole_part.cpp:431
 msgid "&4"
 msgstr "&4"
 
-#: konsole_part.cpp:384
+#: konsole_part.cpp:432
 msgid "&5"
 msgstr "&5"
 
-#: konsole_part.cpp:385
+#: konsole_part.cpp:433
 msgid "&6"
 msgstr "&6"
 
-#: konsole_part.cpp:386
+#: konsole_part.cpp:434
 msgid "&7"
 msgstr "&7"
 
-#: konsole_part.cpp:387
+#: konsole_part.cpp:435
 msgid "&8"
 msgstr "&8"
 
-#: konsole_part.cpp:393
+#: konsole_part.cpp:441
 msgid "Blinking &Cursor"
 msgstr "ກະພິບເຄີເຊີຣ໌"
 
-#: konsole_part.cpp:398
+#: konsole_part.cpp:446
 msgid "Show Fr&ame"
 msgstr "ສະແດງຂອບ"
 
-#: konsole_part.cpp:403
+#: konsole_part.cpp:451
 msgid "Wor&d Connectors..."
 msgstr "ຕົວເຊື່ອມຄຳ..."
 
-#: konsole_part.cpp:430
+#: konsole_part.cpp:489
 msgid "&Close Terminal Emulator"
 msgstr "ປິດຕົວຈຳລອງເທີມິນອລ"
 
-#: konsole_part.cpp:796
-msgid ""
-"Characters other than alphanumerics considered part of a word when double "
-"clicking:"
-msgstr "ຕົວອັກສອນທີ່ບໍ່ໃຊ້ກຸ່ມຕົວອັກສອນປົກະຕິ ຈະຖືກພິຈາລະນາໃຫ້ເປັນສ່ວນຫນຶ່ງຂອງຄຳເມື່ອດັບເບິນຄຣິກ"
+#: konsole_part.cpp:678
+msgid "Font Not Found"
+msgstr ""
 
-#: konsole_part.cpp:797
+#: konsole_part.cpp:872
 msgid "Word Connectors"
 msgstr "ຕົວເຊື່ອມຄຳ..."
 
-#: konsolebookmarkmenu.cpp:90
-msgid "Netscape Bookmarks"
-msgstr "ທີ່ຂັ້ນຫນັງສືຂອງເນັຕສເຄບ"
+#: konsole_part.cpp:873
+msgid ""
+"Characters other than alphanumerics considered part of a word when double "
+"clicking:"
+msgstr ""
+"ຕົວອັກສອນທີ່ບໍ່ໃຊ້ກຸ່ມຕົວ"
+"ອັກສອນປົກະຕິ "
+"ຈະຖືກພິຈາລະນາໃຫ້ເປັນສ່ວນຫ"
+"ນຶ່ງຂອງຄຳເມື່ອດັບເບິນຄຣິກ"
 
-#: kwrited.cpp:94
+#: konsolebookmarkhandler.cpp:62
+msgid "Konsole Bookmarks Editor"
+msgstr ""
+
+#: kwrited.cpp:55
+#, c-format
+msgid "KWrited - Listening on Device %1"
+msgstr ""
+
+#: kwrited.cpp:88
+msgid "WriteDaemon"
+msgstr ""
+
+#: kwrited.cpp:89
 msgid "KDE Daemon for receiving 'write' messages."
 msgstr ""
 "ເດມອນ KDE "
 "ສຳຫລັບຮັບຂໍ້ຄວາມທີ່ 'write'"
 
-#: kwrited.cpp:101
-msgid "kwrited is already running."
+#: kwrited.cpp:96
+#, fuzzy
+msgid ""
+"kwrited is already running.\n"
 msgstr "kwrited ກຳລັງທຳງານຢູ່ແລ້ວ"
 
 #: main.cpp:35
@@ -702,7 +816,10 @@ msgstr "ປ່ງນຫົວເລື່່ອງຫນ້າຕ່າງ"
 msgid ""
 "Specify terminal type as set in the TERM\n"
 "environment variable"
-msgstr "ປະເພດຂອງເທີມິນອລຖືກກຳນົດໄວ້ທີ່\nຕົວແປແວດລ້ອມ TERM"
+msgstr ""
+"ປະເພດຂອງເທີມິນອລຖືກກຳນົດໄ"
+"ວ້ທີ່\n"
+"ຕົວແປແວດລ້ອມ TERM"
 
 #: main.cpp:44
 msgid "ignored"
@@ -714,111 +831,147 @@ msgstr "Do not close Konsole when command exits"
 
 #: main.cpp:46
 msgid "Do not save lines in history"
-msgstr "ຢ່າບັນທຶກແຖວໄວ້ໃນປະວັດການໃ່ຊ້ງານ"
+msgstr ""
+"ຢ່າບັນທຶກແຖວໄວ້ໃນປະວັດການ"
+"ໃ່ຊ້ງານ"
 
 #: main.cpp:47
 msgid "Do not display menubar"
 msgstr "ຢ່າສະແດງແຖບເມນູ"
 
-#: main.cpp:48
-msgid "Do not display toolbar"
+#: main.cpp:49
+#, fuzzy
+msgid "Do not display tab bar"
 msgstr "ຢ່າສະແດງແຖບເຄື່ອງມື"
 
-#: main.cpp:49
+#: main.cpp:50
 msgid "Do not display frame"
 msgstr "ຢ່າສະແດງຂອບ"
 
-#: main.cpp:50
+#: main.cpp:51
 msgid "Do not display scrollbar"
 msgstr "ຢ່າສະແດງແຖບເລື່ອນ"
 
-#: main.cpp:51
-msgid "Do not use XFT (Anti-Aliasing)"
-msgstr "ຢ່າໃຊ້ XFT (ສະແດງຜົນບໍ່ມີຮອຍຫຍັກ)"
-
 #: main.cpp:52
-msgid "Terminal size in columns x lines"
-msgstr "ຂະຫນາດຂອງເທີມິນອລເປັນຖັນ x ແຖວ"
+msgid "Do not use XFT (Anti-Aliasing)"
+msgstr ""
+"ຢ່າໃຊ້ XFT "
+"(ສະແດງຜົນບໍ່ມີຮອຍຫຍັກ)"
 
 #: main.cpp:53
-msgid "Open the given session type instead of the default shell"
-msgstr "ເປີດເຊສຊັນທີ່ກຳນົດໃຫ້ ແທນເຊລລ໌ໂດຍປຣິຍາຍ"
+msgid "Terminal size in columns x lines"
+msgstr ""
+"ຂະຫນາດຂອງເທີມິນອລເປັນຖັນ x "
+"ແຖວ"
 
 #: main.cpp:54
+#, fuzzy
+msgid "Terminal size is fixed"
+msgstr ""
+"ຂະຫນາດຂອງເທີມິນອລເປັນຖັນ x "
+"ແຖວ"
+
+#: main.cpp:55
+msgid "Open the given session type instead of the default shell"
+msgstr ""
+"ເປີດເຊສຊັນທີ່ກຳນົດໃຫ້ "
+"ແທນເຊລລ໌ໂດຍປຣິຍາຍ"
+
+#: main.cpp:56
+msgid "List available session types."
+msgstr ""
+
+#: main.cpp:57
 msgid "Use given .keytab file"
 msgstr "ໃຊ້ແຟ້ມ keytab ທີ່ໃຫ້"
 
-#: main.cpp:55
+#: main.cpp:58
 msgid "Start with given sessions profile"
-msgstr "ເລີ້ມດ້ວຍໂປຣໄຟລ໌ເຊສຊັນທີ່ໃຫ້"
+msgstr ""
+"ເລີ້ມດ້ວຍໂປຣໄຟລ໌ເຊສຊັນທີ່"
+"ໃຫ້"
 
-#: main.cpp:56
+#: main.cpp:59
+msgid "List available profiles."
+msgstr ""
+
+#: main.cpp:60
 msgid "Use given .schema file"
 msgstr "ໃຊ້ແຟ້ມ .schema ທີ່ໃຫ້"
 
-#: main.cpp:57
+#: main.cpp:61
 msgid "Enable extended DCOP functions"
-msgstr "ເປີດໃຊ້ງານຟັງກ໌ຊັນເພີ້ມເຕີມຂອງ DCOP"
+msgstr ""
+"ເປີດໃຊ້ງານຟັງກ໌ຊັນເພີ້ມເຕ"
+"ີມຂອງ DCOP"
 
-#: main.cpp:58
+#: main.cpp:62
 msgid "Change working directory of the konsole to 'dir'"
-msgstr "ປ່ງນໄດເຣກທໍລີທຳງານຂອງຄອນໂຊລໄປເປັນ 'dir'"
+msgstr ""
+"ປ່ງນໄດເຣກທໍລີທຳງານຂອງຄອນໂ"
+"ຊລໄປເປັນ 'dir'"
 
-#: main.cpp:59
+#: main.cpp:63
 msgid "Execute 'command' instead of shell"
 msgstr "ປະມວນຜົນຄຳສັ່ງ 'command' ຈາກເຊລລ໌"
 
-#: main.cpp:61
+#: main.cpp:65
 msgid "Arguments for 'command'"
 msgstr "ອາກຣູເມນຕ໌ສຳຫລັບ 'command'"
 
-#: main.cpp:144
+#: main.cpp:152
 msgid "Maintainer"
 msgstr "ຜູ້ເບິ່ງແຍງ"
 
-#: main.cpp:145
+#: main.cpp:153
 msgid "Author"
 msgstr "ຜູ້ຂງນ"
 
-#: main.cpp:147
+#: main.cpp:155
 msgid "bug fixing and improvements"
 msgstr "ການແກ້ໄຂບັກແລະປັບປຸງ"
 
-#: main.cpp:150 main.cpp:186 main.cpp:189 main.cpp:192 main.cpp:195
+#: main.cpp:158 main.cpp:194 main.cpp:197 main.cpp:200 main.cpp:203
 msgid "bug fixing"
 msgstr "ການແກ້ໄຂບັກ"
 
-#: main.cpp:153
+#: main.cpp:161
 msgid "Solaris support and work on history"
 msgstr ""
 "ສະຫນັບສະຫນູນ Solaris "
 "ແລະທຳງານບົນປະວັດການໃຊ້"
 
-#: main.cpp:156
+#: main.cpp:164
 msgid "faster startup, bug fixing"
-msgstr "ແກ້ໄຂບັກ, ການເລີ້ມການທຳງານຢ່າງໄວວາ"
+msgstr ""
+"ແກ້ໄຂບັກ, "
+"ການເລີ້ມການທຳງານຢ່າງໄວວາ"
 
-#: main.cpp:159
+#: main.cpp:167
 msgid "decent marking"
 msgstr "ເຮັດເຄື່ອງຫມາຍ"
 
-#: main.cpp:162
+#: main.cpp:170
 msgid ""
 "partification\n"
 "Toolbar and session names"
-msgstr "ການແບ່ງສ່ວນ\nແຖບເຄື່ອງມືແລະຊື່ເຊສຊັນ"
+msgstr ""
+"ການແບ່ງສ່ວນ\n"
+"ແຖບເຄື່ອງມືແລະຊື່ເຊສຊັນ"
 
-#: main.cpp:166
+#: main.cpp:174
 msgid ""
 "partification\n"
 "overall improvements"
-msgstr "ການແບ່ງສ່ວນ\nການປັບປຸງທັງຫມົດ"
+msgstr ""
+"ການແບ່ງສ່ວນ\n"
+"ການປັບປຸງທັງຫມົດ"
 
-#: main.cpp:170
+#: main.cpp:178
 msgid "transparency"
 msgstr "ໂປ່ງໃສ"
 
-#: main.cpp:173
+#: main.cpp:181
 msgid ""
 "most of main.C donated via kvt\n"
 "overall improvements"
@@ -826,50 +979,76 @@ msgstr ""
 "main.C ຈຳນວນຫລາຍ ທີ່ໃຫ້ຜ່ານ kvt\n"
 "ປັບປຸງໂດຍ ລວມທັງຫມົດ"
 
-#: main.cpp:177
+#: main.cpp:185
 msgid "schema and selection improvements"
-msgstr "ປັບປຸງຮູບແບບຊຸດສີແລະການເລືອກ"
+msgstr ""
+"ປັບປຸງຮູບແບບຊຸດສີແລະການເລ"
+"ືອກ"
 
-#: main.cpp:180
+#: main.cpp:188
 msgid "SGI Port"
 msgstr "ພອຣ໌ຕຈາກ SGI"
 
-#: main.cpp:183
+#: main.cpp:191
 msgid "FreeBSD port"
 msgstr "ພອຣ໌ຕຈາກ FreeBSD"
 
-#: main.cpp:197
+#: main.cpp:205
 msgid ""
 "Thanks to many others.\n"
 "The above list only reflects the contributors\n"
 "I managed to keep track of."
-msgstr "ຂໍຂອບໃຈ\nໃນລາຍການຈະເປັນພງງຜູ້ມີສ່ວນຮ່ວມ\nທີ່ໄດ້ບັນທຶກໄວ້ເທົ່ານັ້ນ"
-
-#: main.cpp:233
-msgid "You can't use BOTH -ls and -e.\n"
-msgstr "ທ່ານບໍ່ສາມາດໃ່ຊ້ທັງຕົວເລືອກ -ls ແລະ -e ພ້ອມກັນໄດ້\n"
-
-#: main.cpp:304
-msgid "expected --vt_sz <#columns>x<#lines> ie. 80x40\n"
 msgstr ""
-"ຕ້ອງການ  --vt_sz <#ຖັນ>x<#ແຖວ>"
-" ເຊັ່ນ 80x40\n"
+"ຂໍຂອບໃຈ\n"
+"ໃນລາຍການຈະເປັນພງງຜູ້ມີສ່ວ"
+"ນຮ່ວມ\n"
+"ທີ່ໄດ້ບັນທຶກໄວ້ເທົ່ານັ້ນ"
 
-#: schema.cpp:173 schema.cpp:207
+#: main.cpp:241
+msgid ""
+"You can't use BOTH -ls and -e.\n"
+msgstr ""
+"ທ່ານບໍ່ສາມາດໃ່ຊ້ທັງຕົວເລື"
+"ອກ -ls ແລະ -e ພ້ອມກັນໄດ້\n"
+
+#: main.cpp:343
+msgid ""
+"expected --vt_sz <#columns>x<#lines> ie. 80x40\n"
+msgstr ""
+"ຕ້ອງການ  --vt_sz <#ຖັນ>x<#ແຖວ> ເຊັ່ນ "
+"80x40\n"
+
+#: printsettings.cpp:32
+msgid "Printer &friendly mode (black text, no background)"
+msgstr ""
+
+#: printsettings.cpp:34
+msgid "&Pixel for pixel"
+msgstr ""
+
+#: printsettings.cpp:36
+msgid "Print &header"
+msgstr ""
+
+#: schema.cpp:170 schema.cpp:204
 msgid "[no title]"
 msgstr "[ບໍ່ມີຫົວເລື່ອງ]"
 
-#: schema.cpp:220
+#: schema.cpp:217
 msgid "Konsole Default"
 msgstr "ຄ່າປຣິຍາຍຂອງຄອນໂຊລ"
 
 #: schemas.cpp:1
 msgid "Black on Light Color"
-msgstr "ຕົວອັກສອນດຳເທິງພື້ນສະຫວ່າງ"
+msgstr ""
+"ຕົວອັກສອນດຳເທິງພື້ນສະຫວ່າ"
+"ງ"
 
 #: schemas.cpp:2
 msgid "Black on Light Yellow"
-msgstr "ຕົວອັກສອນດຳເທິງພື້ນເຫລືອງສະຫວ່າງ"
+msgstr ""
+"ຕົວອັກສອນດຳເທິງພື້ນເຫລືອງ"
+"ສະຫວ່າງ"
 
 #: schemas.cpp:3
 msgid "Black on White"
@@ -951,11 +1130,40 @@ msgstr "VT420PC"
 msgid "XTerm (XFree 3.x.x)"
 msgstr "ເທີມິນອລ X (XFree 3.x.x)"
 
-#: session.cpp:227
+#: session.cpp:167
+#, fuzzy
+msgid "Silence in session '%1'"
+msgstr "ສະຫລັບໄປຍັງເຊສຊັນ 1"
+
+#: session.cpp:176
+msgid "Bell in session '%1'"
+msgstr ""
+
+#: session.cpp:184
+msgid "Activity in session '%1'"
+msgstr ""
+
+#: session.cpp:280
 msgid "<Finished>"
 msgstr "<Finished>"
 
-#: session.cpp:462
+#: session.cpp:287
+msgid "Session '%1' exited with status %2."
+msgstr ""
+
+#: session.cpp:291
+msgid "Session '%1' exited with signal %2 and dumped core."
+msgstr ""
+
+#: session.cpp:293
+msgid "Session '%1' exited with signal %2."
+msgstr ""
+
+#: session.cpp:296
+msgid "Session '%1' exited unexpectedly."
+msgstr ""
+
+#: session.cpp:546
 msgid "ZModem Progress"
 msgstr "ZModem Progress"
 
@@ -964,14 +1172,24 @@ msgid ""
 "<p>"
 "...that you can start new Konsole sessions by pressing the \"New\" button in "
 "the Konsole toolbar?\n"
-msgstr "<p>...ທ່ານສາມາດເປີດເຊສຊັນຄອນໂຊລໃຫມ່ໄດ້ ໂດຍການກົດທີ່ປຸ່ມ \"ເປີດໃຫມ່\" ໃນແຖບເຄື່ອງມືຂອງຄອນໂຊລ ?\n"
+msgstr ""
+"<p>...ທ່ານສາມາດເປີດເຊສຊັນຄອນໂ"
+"ຊລໃຫມ່ໄດ້ ໂດຍການກົດທີ່ປຸ່ມ "
+"\"ເປີດໃຫມ່\" "
+"ໃນແຖບເຄື່ອງມືຂອງຄອນໂຊລ ?\n"
 
 #: tips.cpp:7
 msgid ""
 "<p>...that pressing and holding the \"New\" button in the Konsole toolbar "
 "will allow you to\n"
 "select what session type the \"New\" button starts?\n"
-msgstr "<p>...ເມື່ອທ່ານກົດປຸ່ມ \"ເປີດໃຫມ່\"ເທິງແຖບເຄື່ອງມື່ຂອງຄອນໂຊລຄ້າງໄວ້ ຈະເຮັດໃຫ້ທ່ານສາມາດ\nເລືອກປະເພດຂອງເຊສຊັນຈາກປຸ່ມ \"ເປີດໃຫມ່\" ໄດ້ ?\n"
+msgstr ""
+"<p>...ເມື່ອທ່ານກົດປຸ່ມ "
+"\"ເປີດໃຫມ່\"ເທິງແຖບເຄື່ອງມື່"
+"ຂອງຄອນໂຊລຄ້າງໄວ້ "
+"ຈະເຮັດໃຫ້ທ່ານສາມາດ\n"
+"ເລືອກປະເພດຂອງເຊສຊັນຈາກປຸ່"
+"ມ \"ເປີດໃຫມ່\" ໄດ້ ?\n"
 
 #: tips.cpp:12
 msgid ""
@@ -980,8 +1198,8 @@ msgid ""
 "the toolbar?\n"
 msgstr ""
 "<p>...ການກົດປຸ່ມພີມ Ctrl+Alt+N "
-"ຈະໃຫ້ຜົນຄືກັບການກົດທີ່ປຸ່ມ \"ເປີດໃຫມ່\" "
-"ໃນແຖບເຄື່ອງມື ?\n"
+"ຈະໃຫ້ຜົນຄືກັບການກົດທີ່ປຸ່"
+"ມ \"ເປີດໃຫມ່\" ໃນແຖບເຄື່ອງມື ?\n"
 
 #: tips.cpp:16
 msgid ""
@@ -989,9 +1207,12 @@ msgid ""
 "Shift key and\n"
 "pressing the Left or Right Arrow keys?\n"
 msgstr ""
-"<p>...ທ່ານສາມາດສັບປ່ງນເຊສຊັນຂອງຄອນໂຊລໄດ້ ໂດຍການກົດປຸ່ມພີມ Shift "
+"<p>...ທ່ານສາມາດສັບປ່ງນເຊສຊັນຂ"
+"ອງຄອນໂຊລໄດ້ "
+"ໂດຍການກົດປຸ່ມພີມ Shift "
 "ຄ້າງໄວ້\n"
-"ແລະກົດປຸ່ມພີມລູກສອນຊ້າຍ ຫລືຂວາ ?\n"
+"ແລະກົດປຸ່ມພີມລູກສອນຊ້າຍ "
+"ຫລືຂວາ ?\n"
 
 #: tips.cpp:21
 msgid ""
@@ -1003,13 +1224,18 @@ msgid ""
 "then\n"
 "want to set the panel to auto-hide.\n"
 msgstr ""
-"<p>...ທ່ານສາມາດສ້າງເທີມິນອລ 'ຄືຄອນໂຊລລິນຸກຊ໌' ໄດ້ "
-"? \n"
-"<p>ເຊິ່ງເຮັດໄດ້ໂດຍບໍ່ໃຫ້ສະແດງແຖບເມນູ, ແຖບເຄື່ອງມື ແລະແຖບເລື່ອນຂອງຄອນໂຊລ ຈາກນັ້ນ "
-"ເລືອກຮູບແບບຕົວອັກສອນແບບລິນຸກຊ์\n"
+"<p>...ທ່ານສາມາດສ້າງເທີມິນອລ "
+"'ຄືຄອນໂຊລລິນຸກຊ໌' ໄດ້ ? \n"
+"<p>ເຊິ່ງເຮັດໄດ້ໂດຍບໍ່ໃຫ້ສະແ"
+"ດງແຖບເມນູ, ແຖບເຄື່ອງມື "
+"ແລະແຖບເລື່ອນຂອງຄອນໂຊລ "
+"ຈາກນັ້ນ "
+"ເລືອກຮູບແບບຕົວອັກສອນແບບລິ"
+"ນຸກຊ์\n"
 "ແລະຊຸດສີແບບລິນຸກຊ໌ "
 "ແລະເປີດໃຊ້ງານໂຫມດເຕັມຈໍ\n"
-"ແລະອາດຈະຕ້ອງຕັ້ງໃຫ້ພາເນລທຳການເຊື່ອງອັດຕະໂນມັດດ້ວຍ\n"
+"ແລະອາດຈະຕ້ອງຕັ້ງໃຫ້ພາເນລທ"
+"ຳການເຊື່ອງອັດຕະໂນມັດດ້ວຍ\n"
 
 #: tips.cpp:28
 msgid ""
@@ -1019,34 +1245,50 @@ msgid ""
 "the\n"
 "Konsole toolbar, making it easier to remember the content of the session.\n"
 msgstr ""
-"<p>...ທ່ານສາມາດປ່ງນຊື່ເຊສຊັນຄອນໂຊລໄດ້ "
+"<p>...ທ່ານສາມາດປ່ງນຊື່ເຊສຊັນຄ"
+"ອນໂຊລໄດ້ "
 "ດ້ວຍການກົດເມົາສ໌ປຸ່ມຂວາ\n"
-"ແລະເລືອກ "
-"\"ປ່ງນຊື່ເຊສຊັນ\"? "
-"ເຊິ່ງຈະມີການປ່ງນແປງໃນ\nແຖບເຄື່ອງມືຄອນໂຊລ ເພື່ອໃຫ້ຮູ້ເຖິງເນື້ນຫາຂອງເຊສຊັນໄດ້ງ່າຍຂື້ນ\n"
+"ແລະເລືອກ \"ປ່ງນຊື່ເຊສຊັນ\"? "
+"ເຊິ່ງຈະມີການປ່ງນແປງໃນ\n"
+"ແຖບເຄື່ອງມືຄອນໂຊລ "
+"ເພື່ອໃຫ້ຮູ້ເຖິງເນື້ນຫາຂອງ"
+"ເຊສຊັນໄດ້ງ່າຍຂື້ນ\n"
 
 #: tips.cpp:34
 msgid ""
 "<p>...that you can rename a Konsole session by double-clicking its button\n"
 "in the Konsole toolbar?\n"
-msgstr "<p>...ທ່ານສາມາດປ່ງນຊື່ເຊສຊັນຄອນໂຊລໄດ້ງ່າຍໆ ດ້ວຍດັບເບິລຄຣິກທີ່ປຸ່ມ\nເທິງແຖບເຄື່ອງມືຂອງຄອນໂຊລ ?\n"
+msgstr ""
+"<p>...ທ່ານສາມາດປ່ງນຊື່ເຊສຊັນຄ"
+"ອນໂຊລໄດ້ງ່າຍໆ "
+"ດ້ວຍດັບເບິລຄຣິກທີ່ປຸ່ມ\n"
+"ເທິງແຖບເຄື່ອງມືຂອງຄອນໂຊລ ?\n"
 
 #: tips.cpp:39
-msgid "<p>...that you can activate the menu with the Ctrl+Alt+M shortcut?\n"
-msgstr "<p>...ທ່ານສາມາດເອີ້ນໃຊ້ງານເມນູໄດ້ດ້ວຍແປ້ນພີມລັດ Ctrl+Alt+M ?\n"
+msgid ""
+"<p>...that you can activate the menu with the Ctrl+Alt+M shortcut?\n"
+msgstr ""
+"<p>...ທ່ານສາມາດເອີ້ນໃຊ້ງານເມນ"
+"ູໄດ້ດ້ວຍແປ້ນພີມລັດ Ctrl+Alt+M ?\n"
 
 #: tips.cpp:43
 msgid ""
 "<p>...that you can rename your current Konsole session with the Ctrl+Alt+S "
 "shortcut?\n"
-msgstr "<p>...ທ່ານສາມາດປ່ງນຊື່ເຊສຊັນຄອນໂຊລໄດ້ດ້ວຍແປ້ນພີມລັດ Ctrl+Alt+S  ?\n"
+msgstr ""
+"<p>...ທ່ານສາມາດປ່ງນຊື່ເຊສຊັນຄ"
+"ອນໂຊລໄດ້ດ້ວຍແປ້ນພີມລັດ "
+"Ctrl+Alt+S  ?\n"
 
 #: tips.cpp:47
 msgid ""
 "<p>...that you can create your own session types by using the session\n"
 "type editor which you can find under \"Settings/Configure Konsole...\"?\n"
 msgstr ""
-"<p>...ທ່ານສາມາດສ້າງເຊສຊັນຂອງທ່ານເອງໄດ້ ດ້ວຍການໃຊ້ ເຄື່ອງມືແກ້ໄຂ\nປະເພດເຊສຊັນ ເຊິ່ງຢູ່ໃນສ່ວນ "
+"<p>...ທ່ານສາມາດສ້າງເຊສຊັນຂອງທ"
+"່ານເອງໄດ້ ດ້ວຍການໃຊ້ "
+"ເຄື່ອງມືແກ້ໄຂ\n"
+"ປະເພດເຊສຊັນ ເຊິ່ງຢູ່ໃນສ່ວນ "
 "\"ຕັ້ງຄ່າ/ປັບແຕ່ງຄອນໂຊລ...\"?\n"
 
 #: tips.cpp:52
@@ -1055,8 +1297,10 @@ msgid ""
 "which you can find under \"Settings/Configure Konsole...\"?\n"
 "</p>\n"
 msgstr ""
-"<p>...ທ່ານສາມາດສ້າງຊຸດສີເອງໄດ້ "
-"ດ້ວຍການໃຊ້ເຄື່ອງມືແກ້ໄຂຊຸດສີ\n"
+"<p>...ທ່ານສາມາດສ້າງຊຸດສີເອງໄດ"
+"້ "
+"ດ້ວຍການໃຊ້ເຄື່ອງມືແກ້ໄຂຊຸ"
+"ດສີ\n"
 "ເຊິ່ງຢູ່ໃນສ່ວນ "
 "\"ຕັ້ງຄ່າ/ປັບແຕ່ງຄອນໂຊລ...\"?\n"
 "</p>\n"
@@ -1070,10 +1314,12 @@ msgid ""
 "Arrow keys?\n"
 "</p>\n"
 msgstr ""
-"<p>...ທ່ານສາມາດຮງງລຳດັບປຸ່ມ"
-"ເຊສຊັນໃນແຖບເຄື່ອງມືໄດ້ໂດຍໃຊ້ເມນູ \"ມຸມມອງ\"\n"
+"<p>...ທ່ານສາມາດຮງງລຳດັບປຸ່ມເຊ"
+"ສຊັນໃນແຖບເຄື່ອງມືໄດ້ໂດຍໃຊ"
+"້ເມນູ \"ມຸມມອງ\"\n"
 "ຫລືກົດປຸ່ມພີມ Shift ແລະ Ctrl "
-"ຕາມດ້ວຍປຸ່ມພີມລູກສອນຊ້າຍຫລືຂວາ ?\n"
+"ຕາມດ້ວຍປຸ່ມພີມລູກສອນຊ້າຍຫ"
+"ລືຂວາ ?\n"
 "</p>\n"
 
 #: tips.cpp:65
@@ -1096,29 +1342,34 @@ msgstr ""
 "<p>...ທ່ານສາມາດເລື່ອນຫນ້າໄດ້ "
 "ດ້ວຍການກົດປຸ່ມພີມ Shift "
 "ຄ້າງໄວ້\n"
-"ຕາມດ້ວຍການກົດປຸ່ມລູກສອນຂຶ້ນຫລືລົງ ?\n"
+"ຕາມດ້ວຍການກົດປຸ່ມລູກສອນຂຶ"
+"້ນຫລືລົງ ?\n"
 
 #: tips.cpp:75
 msgid ""
 "<p>...that you can insert the clipboard by holding down the Shift key and \n"
 "pressing the Insert key?\n"
 msgstr ""
-"<p>...ທ່ານສາມາດແຊກເຂົ້າໄປໃນຄຣິບບອຣ໌ດໄດ້ "
+"<p>...ທ່ານສາມາດແຊກເຂົ້າໄປໃນຄຣ"
+"ິບບອຣ໌ດໄດ້ "
 "ດ້ວຍການກົດປຸ່ມພີມ Shift "
 "ຄ້າງໄວ້\n"
 "ຕາມດ້ວຍການກົດ Insert ?\n"
 
 #: tips.cpp:80
+#, fuzzy
 msgid ""
-"<p>...that you can insert the X selection by holding down the Shift and \n"
+"<p>...that you can insert the X selection by holding down the Shift and\n"
 "Ctrl keys and pressing the Insert key?\n"
 msgstr ""
-"<p>...ທ່ານສາມາດແຊກການເລືອກຂອງ X ໄດ້ ດ້ວຍການກົດປຸ່ມພີມ Shift "
+"<p>...ທ່ານສາມາດແຊກການເລືອກຂອງ "
+"X ໄດ້ ດ້ວຍການກົດປຸ່ມພີມ Shift "
 "ແລະ\n"
 "Ctrl ຄ້າງໄວ້ ຕາມດ້ວຍການກົດ Insert ?\n"
 
 #: tips.cpp:85
-msgid "<p>...that you can drag &amp; drop selected text?\n"
+msgid ""
+"<p>...that you can drag &amp; drop selected text?\n"
 msgstr ""
 "<p>...ທ່ານສາມາດໃຊ້ການລາກ &amp; "
 "ວາງຂໍ້ຄວາມທີ່ເລືອກໄວ້ໄດ້ ?\n"
@@ -1129,14 +1380,19 @@ msgid ""
 "button will append a carriage return after pasting the selection buffer?\n"
 msgstr ""
 "<p>...ການກົດປຸ່ມພີມ Ctrl ຄ້າງໄວ້ "
-"ຂະນະທຳການວາງສ່ວນທີ່ເລືອກດ້ວຍເມົາສ໌ປຸ່ມກາງ\nຈະເປັນການສົ່ງໄປຍັງພັຟເຟີຣ໌ການເລືອກ ແທນທີ່ຈະເຮັດການວາງ ?\n"
+"ຂະນະທຳການວາງສ່ວນທີ່ເລືອກດ"
+"້ວຍເມົາສ໌ປຸ່ມກາງ\n"
+"ຈະເປັນການສົ່ງໄປຍັງພັຟເຟີຣ"
+"໌ການເລືອກ "
+"ແທນທີ່ຈະເຮັດການວາງ ?\n"
 
 #: tips.cpp:94
 msgid ""
 "<p>...that you can turn off the terminal size hint under "
 "\"Settings/Configure Konsole...\"?\n"
 msgstr ""
-"<p>...ທ່ານສາມາດປິດການສະແດງຂະຫນາດຂອງເທີມິນອລໄດ້ ທີ່ເມນູ "
+"<p>...ທ່ານສາມາດປິດການສະແດງຂະຫ"
+"ນາດຂອງເທີມິນອລໄດ້ ທີ່ເມນູ "
 "\"ຕັ້ງຄ່າ/ປັບແຕ່ງຄອນໂຊລ...\"?\n"
 
 #: tips.cpp:98
@@ -1150,40 +1406,74 @@ msgstr ""
 "ບໍ່ສົນໃຈອັກຂະຫລະຈົບແຖວ ?\n"
 
 #: tips.cpp:102
+#, fuzzy
 msgid ""
-"<p>...that when a program evaluates the right mouse button you can still \n"
+"<p>...that pressing the Ctrl and Alt keys while selecting text will let "
+"Konsole select columns?\n"
+msgstr ""
+"<p>...ການກົດປຸ່ມພີມ Ctrl "
+"ຂະນະເຮັດການເລືອກຂໍ້ຄວາມ "
+"ຈະເຮັດໃຫ້ຄອນໂຊລ "
+"ບໍ່ສົນໃຈອັກຂະຫລະຈົບແຖວ ?\n"
+
+#: tips.cpp:106
+#, fuzzy
+msgid ""
+"<p>...that when a program evaluates the right mouse button you can still\n"
 "get the right mouse button pop-up menu while pressing the Shift key?\n"
 msgstr ""
-"<p>...ເມື່ອໂປຣແກຣມຈະມີການກວດສອບເມົາສ໌ປຸ່ມຂວາ "
+"<p>...ເມື່ອໂປຣແກຣມຈະມີການກວດສ"
+"ອບເມົາສ໌ປຸ່ມຂວາ "
 "ທ່ານຍັງຄົງສາມາດ\n"
-"ເອີ້ນເມນູຈາກການກົດເມົາສ໌ປຸ່ມຂວາໄດ້ ໂດຍຕ້ອງກົດປຸ່ມພີມ "
-"Shift ຄ້າງໄວ້ດ້ວຍ ?\n"
+"ເອີ້ນເມນູຈາກການກົດເມົາສ໌ປ"
+"ຸ່ມຂວາໄດ້ "
+"ໂດຍຕ້ອງກົດປຸ່ມພີມ Shift "
+"ຄ້າງໄວ້ດ້ວຍ ?\n"
 
-#: tips.cpp:107
+#: tips.cpp:111
+#, fuzzy
 msgid ""
 "<p>...that when a program evaluates the left mouse button you can still "
-"select \n"
+"select\n"
 "text while pressing the Shift key?\n"
 msgstr ""
-"<p>...ເມື່ອໂປຣແກຣມຈະມີການກວດສອບເມົາສ໌ປຸ່ມຊ້າຍ "
-"ທ່ານຍັງສາມາດ\nເລືອກຂໍ້ຄວາມໄດ້ "
+"<p>...ເມື່ອໂປຣແກຣມຈະມີການກວດສ"
+"ອບເມົາສ໌ປຸ່ມຊ້າຍ "
+"ທ່ານຍັງສາມາດ\n"
+"ເລືອກຂໍ້ຄວາມໄດ້ "
 "ໂດຍການກົດປຸ່ມພີມ Shift "
 "ຄ້າງໄວ້ດ້ວຍ ?\n"
 
-#: tips.cpp:112
+#: tips.cpp:116
 msgid ""
 "<p>...that you can let Konsole set the current directory as the window "
 "title?\n"
 "For Bash, put 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' in your ~/.bashrc "
 ".\n"
 msgstr ""
-"<p>...ທ່ານສາມາດໃຫ້ຄອນໂຊລຕັ້ງຄ່າແຖບເລື່ອງຫນ້າຕ່າງໂດຍໃຊ້"
+"<p>...ທ່ານສາມາດໃຫ້ຄອນໂຊລຕັ້ງຄ"
+"່າແຖບເລື່ອງຫນ້າຕ່າງໂດຍໃຊ້"
 "ຊື່ໄດເຣກທໍລີປັດຈຸບັນໄດ້ ?\n"
 "ສຳຫລັບເຊລລ໌ Bash ໃຫ້ໃສ່ 'export "
 "PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]' ເຂົ້າໄປໃນແຟ້ມ "
 "~/.bashrc\n"
 
-#: tips.cpp:117
+#: tips.cpp:121
+#, fuzzy
+msgid ""
+"<p>...that you can let Konsole set the current directory as the session "
+"name?\n"
+"For Bash, put 'export PS1=$PS1\"\\[\\e]30;\\H:\\w\\a\\]\"' in your ~/.bashrc "
+".\n"
+msgstr ""
+"<p>...ທ່ານສາມາດໃຫ້ຄອນໂຊລຕັ້ງຄ"
+"່າແຖບເລື່ອງຫນ້າຕ່າງໂດຍໃຊ້"
+"ຊື່ໄດເຣກທໍລີປັດຈຸບັນໄດ້ ?\n"
+"ສຳຫລັບເຊລລ໌ Bash ໃຫ້ໃສ່ 'export "
+"PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]' ເຂົ້າໄປໃນແຟ້ມ "
+"~/.bashrc\n"
+
+#: tips.cpp:126
 msgid ""
 "<p>...that if you let your shell pass the current directory to Konsole "
 "within the prompt\n"
@@ -1193,39 +1483,91 @@ msgid ""
 "working directory\n"
 "on non-Linux systems too?\n"
 msgstr ""
-"<p>...ຫາກທ່ານໃຫ້ເຊລລ໌ຂອງທ່ານສົ່າງຄ່າໄດເຣກທໍລີປັດຈຸບັນໄປຍັງ"
-"ພຣອມຕ໌ຂອງຄອນໂຊລ\nໃຫ້ຕັ້ງຄ່າຕົວແປ ເຊັ່ນ "
+"<p>...ຫາກທ່ານໃຫ້ເຊລລ໌ຂອງທ່ານສ"
+"ົ່າງຄ່າໄດເຣກທໍລີປັດຈຸບັນໄ"
+"ປຍັງພຣອມຕ໌ຂອງຄອນໂຊລ\n"
+"ໃຫ້ຕັ້ງຄ່າຕົວແປ ເຊັ່ນ "
 "ສຳຫລັບເຊລລ໌ Bash ໃຫ້ຕັ້ງ 'export "
 "PS1=$PS1\"\\[\\e]31;\\w\\a\\]\"' ໄວ້ໃນແຟ້ມ ~/.bashrc "
 "ຈາກນັ້ນ\n"
-"ຈະສາມາດເຮັດທີ່ຂັ້ນຫນັງສືມັນໄດ້ ແລະຕົວຈັດການເຊສຊັນ "
-"ຈະສາມາດຈົດຈຳໄດເຣກທໍລີປັດຈຸບັນຂອງທ່ານໄດ້ "
-"ແລະເທິງລະບົບທີ່ບໍ່ແມ່ນລິນຸກຊ໌ກໍ່ເຊັ່ນກັນ ?\n"
+"ຈະສາມາດເຮັດທີ່ຂັ້ນຫນັງສືມ"
+"ັນໄດ້ ແລະຕົວຈັດການເຊສຊັນ "
+"ຈະສາມາດຈົດຈຳໄດເຣກທໍລີປັດຈ"
+"ຸບັນຂອງທ່ານໄດ້ "
+"ແລະເທິງລະບົບທີ່ບໍ່ແມ່ນລິນ"
+"ຸກຊ໌ກໍ່ເຊັ່ນກັນ ?\n"
 
-#: tips.cpp:124
+#: tips.cpp:133
+#, fuzzy
 msgid ""
 "<p>...that double-clicking will select a whole word?\n"
-"<p>When you don't release the mouse button after the second click you \n"
+"<p>When you don't release the mouse button after the second click you\n"
 "can extend your selection by additional words when moving the mouse.\n"
 msgstr ""
-"<p>...ການກົດເມົາສ໌ສອງຄັ້ງຕິດກັນ ຈະເປັນການເລືອກຄຳ ?\n"
-"<p>ຫາກທ່ານບໍ່ໄດ້ປ່ອຍປຸ່ມເມົາສ໌ຫລັງຈາກການກົດຄັ້ງທີສອງແລ້ວ\nທ່ານຍັງຄົງສາມາດເລືອກຄຳອື່ນເພີ້ມເຕີມໄດ້ "
+"<p>...ການກົດເມົາສ໌ສອງຄັ້ງຕິດກ"
+"ັນ ຈະເປັນການເລືອກຄຳ ?\n"
+"<p>ຫາກທ່ານບໍ່ໄດ້ປ່ອຍປຸ່ມເມົ"
+"າສ໌ຫລັງຈາກການກົດຄັ້ງທີສອງ"
+"ແລ້ວ\n"
+"ທ່ານຍັງຄົງສາມາດເລືອກຄຳອື່"
+"ນເພີ້ມເຕີມໄດ້ "
 "ໂດຍການເຄື່ອນເມົາສ໌\n"
 
-#: tips.cpp:130
+#: tips.cpp:139
+#, fuzzy
 msgid ""
 "<p>...that triple-clicking will select a whole line?\n"
-"<p>When you don't release the mouse button after the third click you \n"
+"<p>When you don't release the mouse button after the third click you\n"
 "can extend your selection by additional lines when moving the mouse.\n"
 msgstr ""
-"<p>...ການກົດປຸ່ມເມົາສ໌ສາມຄັ້ງຕິດກັນ "
+"<p>...ການກົດປຸ່ມເມົາສ໌ສາມຄັ້ງ"
+"ຕິດກັນ "
 "ຈະເປັນການເລືອກທັງແຖວ ?\n"
-"<p>ຫາດທ່ານບໍ່ໄດ້ປ່ອຍປຸ່ມເມົາສ໌ຫລັງການກົດຄັ້ງທີສາມ "
-"ທ່ານຍັງຄົງສາມາດ\nເລືອກແຖວອື່ນເພີ້ມເຕີມໄດ້ ດ້ວຍການເຄື່ອນເມົາສ໌\n"
+"<p>ຫາດທ່ານບໍ່ໄດ້ປ່ອຍປຸ່ມເມົ"
+"າສ໌ຫລັງການກົດຄັ້ງທີສາມ "
+"ທ່ານຍັງຄົງສາມາດ\n"
+"ເລືອກແຖວອື່ນເພີ້ມເຕີມໄດ້ "
+"ດ້ວຍການເຄື່ອນເມົາສ໌\n"
+
+#: tips.cpp:145
+msgid ""
+"<p>...that if you drag &amp; drop a URL into a Konsole window you are "
+"presented with a\n"
+"menu giving the option to copy or move the specified file into the current "
+"working directory,\n"
+"as well as just pasting the URL as text.\n"
+"<p>This works with any type of URL which KDE supports.\n"
+msgstr ""
+
+#: tips.cpp:152
+msgid ""
+"<p>...that the \"Settings/Configure Shortcuts...\" dialog allows you to "
+"define keyboard shortcuts for actions\n"
+"not shown in the menu, like activating menu, changing font and for listing "
+"and switching sessions?\n"
+msgstr ""
 
 #: zmodem_dialog.cpp:28
 msgid "&Stop"
 msgstr "&Stop"
+
+#~ msgid "Bookmarks"
+#~ msgstr "ທີ່ຂັ້ນຫນັງສື"
+
+#~ msgid "Session Toolbar"
+#~ msgstr "ແຖບເຄື່ອງມືເຊສຊັນ"
+
+#~ msgid "&New"
+#~ msgstr "ເປີດໃຫມ່"
+
+#~ msgid "Session name"
+#~ msgstr "ຊື່ເຊສຊັນ"
+
+#~ msgid "F&ull-Screen"
+#~ msgstr "ປັບໃຫ້ເຕັມຈໍ"
+
+#~ msgid "Netscape Bookmarks"
+#~ msgstr "ທີ່ຂັ້ນຫນັງສືຂອງເນັຕສເຄບ"
 
 #~ msgid ""
 #~ "Not all sessions could be closed. Please end all sessions running under "
@@ -1290,4 +1632,3 @@ msgstr "&Stop"
 #~ msgstr ""
 #~ "<p>...คุณสามารถตั้งค่าความจุของประวัติการใช้ได้อย่าง \"ไม่จำกัด\" ? </p>\n"
 #~ "<p>โดยตั้งให้เป็นค่า 0 บรรทัด\n"
-
