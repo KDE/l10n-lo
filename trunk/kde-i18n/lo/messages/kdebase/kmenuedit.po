@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-12-22 01:34+0100\n"
+"POT-Creation-Date: 2004-08-03 01:18+0200\n"
 "PO-Revision-Date: 2003-01-13 14:03+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -26,120 +26,163 @@ msgid ""
 "Your emails"
 msgstr "neuk@yahoo.com"
 
-#: basictab.cpp:73
+#: basictab.cpp:76
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:76
+#: basictab.cpp:77
+msgid "&Place in system tray"
+msgstr ""
+
+#: basictab.cpp:80
 msgid "&Name:"
 msgstr "ຊື່:"
 
-#: basictab.cpp:77
+#: basictab.cpp:81
+msgid "&Description:"
+msgstr ""
+
+#: basictab.cpp:82
 msgid "&Comment:"
 msgstr "ຄຳອະທິບາຍ:"
 
-#: basictab.cpp:78
+#: basictab.cpp:83
 msgid "Co&mmand:"
 msgstr "ຄຳສັ່ງ:"
 
-#: basictab.cpp:115
+#: basictab.cpp:128
 msgid "&Work path:"
 msgstr "ພາທທີ່ໃຊ້ທຳງານ:"
 
-#: basictab.cpp:133
+#: basictab.cpp:146
 msgid "Run in term&inal"
 msgstr "ປະມວນຜົນໃນເທີມິນັລ"
 
-#: basictab.cpp:139
+#: basictab.cpp:152
 msgid "Terminal &options:"
 msgstr "ຕົວເລືອກເທີມິນັລ:"
 
-#: basictab.cpp:156
-msgid "Run as a &different user"
+#: basictab.cpp:169
+#, fuzzy
+msgid "&Run as a different user"
 msgstr ""
 "ປະມວນຜົນໂດຍໃຊ້ຫມາຍເລກຜູ້ໃ"
 "ຊ້ອື່ນ"
 
-#: basictab.cpp:162
+#: basictab.cpp:175
+#, fuzzy
 msgid "&Username:"
 msgstr "ຊື່ຜູ້ໃຊ້:"
 
-#: basictab.cpp:193
+#: basictab.cpp:206
 msgid "Current shortcut &key:"
 msgstr "ປຸ່ມພີມລັດປັດຈຸບັນ:"
 
-#: basictab.cpp:391
+#: basictab.cpp:470
 msgid ""
 "<qt>The key <b>%1</b> can not be used here because it is already used to "
 "activate <b>%2</b>."
 msgstr ""
 
-#: basictab.cpp:396
+#: basictab.cpp:475
 msgid "<qt>The key <b>%1</b> can not be used here because it is already in use."
 msgstr ""
 
-#: kmenuedit.cpp:43
-msgid "Edit K Menu"
-msgstr "ແກ້ໄຂເມນູ K"
+#: kcontrol_main.cpp:32
+#, fuzzy
+msgid "KDE control center editor"
+msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
-#: kmenuedit.cpp:77
+#: kcontrol_main.cpp:38
+#, fuzzy
+msgid "KDE Control Center Editor"
+msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
+
+#: kcontrol_main.cpp:41 main.cpp:38
+msgid "Maintainer"
+msgstr "ຜູ້ເບິ່ງແຍງ"
+
+#: kcontrol_main.cpp:42 main.cpp:39
+#, fuzzy
+msgid "Previous Maintainer"
+msgstr "ຜູ້ເບິ່ງແຍງ"
+
+#: kcontrol_main.cpp:43 main.cpp:40
+msgid "Original Author"
+msgstr "ຜູ້ຂງນດັ້ງເດີມ"
+
+#: kmenuedit.cpp:75
 msgid "&New Submenu..."
 msgstr "ສ້າງເມນູຍ່ອຍໃຫມ່"
 
-#: kmenuedit.cpp:78
+#: kmenuedit.cpp:76
 msgid "New &Item..."
 msgstr "ສ້າງລາຍການໃຫມ່"
 
-#: kmenuedit.cpp:162
+#: kmenuedit.cpp:78
+msgid "New &Separator"
+msgstr ""
+
+#: kmenuedit.cpp:165
+msgid ""
+"You have made changes to the Control Center.\n"
+"Do you want to save the changes or discard them?"
+msgstr ""
+
+#: kmenuedit.cpp:167
+msgid "Save Control Center Changes?"
+msgstr ""
+
+#: kmenuedit.cpp:173
 msgid ""
 "You have made changes to the menu.\n"
 "Do you want to save the changes or discard them?"
 msgstr ""
 
-#: kmenuedit.cpp:164
+#: kmenuedit.cpp:175
 msgid "Save Menu Changes?"
 msgstr ""
 
 #: main.cpp:30
-msgid "KDE Menu editor"
+#, fuzzy
+msgid "KDE menu editor"
 msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
 #: main.cpp:35
 msgid "KDE Menu Editor"
 msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
-#: main.cpp:38
-msgid "Maintainer"
-msgstr "ຜູ້ເບິ່ງແຍງ"
+#: menufile.cpp:100 menufile.cpp:113
+#, c-format
+msgid "Could not write to %1"
+msgstr ""
 
-#: main.cpp:39
-#, fuzzy
-msgid "Previous Maintainer"
-msgstr "ຜູ້ເບິ່ງແຍງ"
-
-#: main.cpp:40
-msgid "Original Author"
-msgstr "ຜູ້ຂງນດັ້ງເດີມ"
-
-#: treeview.cpp:85
+#: treeview.cpp:87
 msgid " [Hidden]"
 msgstr " [ຖືກເຊື່ອງໄວ້]"
 
-#: treeview.cpp:718
+#: treeview.cpp:831
 msgid "New Submenu"
 msgstr "ສ້າງເມນູຍ່ອຍໃຫມ່"
 
-#: treeview.cpp:719
+#: treeview.cpp:832
 msgid "Submenu name:"
 msgstr "ຊື່ເມນູຍ່ອຍ:"
 
-#: treeview.cpp:787
+#: treeview.cpp:902
 msgid "New Item"
 msgstr "ສ້າງລາຍການໃຫມ່"
 
-#: treeview.cpp:788
+#: treeview.cpp:903
 msgid "Item name:"
 msgstr "ໍໍຊື່ລາຍການ:"
+
+#: treeview.cpp:1383
+msgid "Menu changes could not be saved because of the following problem:"
+msgstr ""
+
+#~ msgid "Edit K Menu"
+#~ msgstr "ແກ້ໄຂເມນູ K"
 
 #~ msgid "&Type:"
 #~ msgstr "ປະເພດ:"
