@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-11-28 01:27+0100\n"
+"POT-Creation-Date: 2005-02-15 01:40+0100\n"
 "PO-Revision-Date: 2003-01-14 21:11+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -161,17 +161,17 @@ msgstr ""
 msgid "End of session"
 msgstr "จบเซสชัน"
 
-#: kcookiespolicies.cpp:109
+#: kcookiespolicies.cpp:112
 msgid "New Cookie Policy"
 msgstr "ข้อกำหนดการใช้คุกกี้ใหม่"
 
-#: kcookiespolicies.cpp:148
+#: kcookiespolicies.cpp:151
 msgid "Change Cookie Policy"
 msgstr ""
 "เปลี่ยนข้อกำหนดการใช้คุกก"
 "ี้"
 
-#: kcookiespolicies.cpp:173
+#: kcookiespolicies.cpp:176
 msgid ""
 "<qt>A policy already exists for"
 "<center><b>%1</b></center>Do you want to replace it?</qt>"
@@ -181,17 +181,17 @@ msgstr ""
 "คุณต้องการเขียนทับมันหรือ"
 "ไม่ ?</qt>"
 
-#: kcookiespolicies.cpp:177
+#: kcookiespolicies.cpp:180
 msgid "Duplicate Policy"
 msgstr "ข้อกำหนดซ้ำกัน"
 
-#: kcookiespolicies.cpp:402
+#: kcookiespolicies.cpp:405
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
 
-#: kcookiespolicies.cpp:449
+#: kcookiespolicies.cpp:452
 #, fuzzy
 msgid ""
 "<h1>Cookies</h1> Cookies contain information that Konqueror (or any other "
@@ -527,288 +527,6 @@ msgstr ""
 "พพลิเคชันใหม่ "
 "เพื่อให้การเปลี่ยนแปลงมีผ"
 "ล"
-
-#: ksmboptdlg.cpp:24
-msgid ""
-"Note: kio_smb is a SMB client only. The server, if any, cannot be configured "
-"from here."
-msgstr ""
-"ข้อควรจำ: kio_smb "
-"เป็นเพียงไคลเอนต์ของ SMB "
-"เท่านั้น "
-"ดังนั้นจึงไม่สามารถปรับแต"
-"่งเซิร์ฟเวอร์ได้จากที่นี่"
-
-#: ksmboptdlg.cpp:37
-msgid "Network Settings"
-msgstr "ตั้งค่าระบบเครือข่าย"
-
-#: ksmboptdlg.cpp:48
-msgid "&Browse server:"
-msgstr "เรียกดูเซิร์ฟเวอร์:"
-
-#: ksmboptdlg.cpp:55
-msgid ""
-"Here you can specify the server that provides browsing information, such as "
-"the list of servers."
-msgstr ""
-"คุณสามารถกำหนดข้อมูลเพื่อ"
-"ใช้ในการเรียกดูเซิร์ฟเวอร"
-"์ได้ที่นี่ "
-"เช่นรายการของเซิร์ฟเวอร์"
-
-#: ksmboptdlg.cpp:66
-msgid "Other options:"
-msgstr "ตัวเลือกอื่น:"
-
-#: ksmboptdlg.cpp:71
-msgid "B&roadcast address:"
-msgstr "ที่อยู่บอร์ดคาสต์:"
-
-#: ksmboptdlg.cpp:78
-msgid ""
-"Enter the broadcast address of your network here. Usually, this is an IP "
-"address with 255 as the last of the four numbers."
-msgstr ""
-"เติมที่อยู่บอร์ดคาสต์เครื"
-"อข่ายของคุณที่นี่ "
-"ซึ่งโดยทั่วไป "
-"หมายเลขไอพีนี้ "
-"มักจะลงท้ายด้วยตัวเลข 255"
-
-#: ksmboptdlg.cpp:82
-msgid "&WINS address:"
-msgstr "ที่อยู่เซิร์ฟเวอร์ &WINS:"
-
-#: ksmboptdlg.cpp:89
-msgid "Specify the address of the WINS server here (if any)."
-msgstr ""
-"กำหนดที่อยู่เซิร์ฟเวอร์ WINS "
-"ที่นี่ (หากมี)"
-
-#: ksmboptdlg.cpp:102
-msgid "User Settings"
-msgstr "ตั้งค่าผู้ใช้"
-
-#: ksmboptdlg.cpp:104
-msgid ""
-"In this area, you can configure which shares to access. You can also remove "
-"shares that you no longer want to access or that have been revoked."
-msgstr ""
-"คุณสามารถปรับแต่งการเข้าใ"
-"ช้งานทรัพยากรที่ใช้ร่วมกั"
-"นได้ในตำแหน่งนี้ "
-"คุณสามารถเอาทรัพยากรที่ไม"
-"่ต้องการให้ใช้แล้วออกได้"
-
-#: ksmboptdlg.cpp:122
-msgid "&Server:"
-msgstr "เซิร์ฟเวอร์:"
-
-#: ksmboptdlg.cpp:130
-msgid ""
-"Enter the name of the server here on which you want to access a share. This "
-"must be the SMB name, not the DNS name. But usually, these two are the same."
-msgstr ""
-"เติมชื่อของเซิร์ฟเวอร์ที่"
-"คุณต้องการเข้าใช้งานทรัพย"
-"ากรที่นี่ "
-"โดยต้องเป็นชื่อของเซิร์ฟเ"
-"วอร์ SMB ไม่ใช่ชื่อ DNS "
-"แต่โดยมากแล้ว "
-"จะเป็นค่าเดียวกัน"
-
-#: ksmboptdlg.cpp:134
-msgid "S&hare:"
-msgstr "ทรัพยากร:"
-
-#: ksmboptdlg.cpp:142
-msgid "Enter the name of the share here that you want to access."
-msgstr ""
-"เติมชื่อของทรัพยากรที่ต้อ"
-"งการให้ใช้ร่วมกันที่นี่"
-
-#: ksmboptdlg.cpp:146
-msgid "&Login:"
-msgstr "ล็อกอิน:"
-
-#: ksmboptdlg.cpp:154
-#, fuzzy
-msgid "Enter your username on the SMB server here."
-msgstr ""
-"เติมชื่อผู้ใช้บนเซิร์ฟเวอ"
-"ร์ SMB ของคุณที่นี่"
-
-#: ksmboptdlg.cpp:158
-msgid "&Password:"
-msgstr "รหัสผ่าน:"
-
-#: ksmboptdlg.cpp:167
-msgid "Enter your password on the SMB server here."
-msgstr ""
-"เติมรหัสผ่านบนเซิร์ฟเวอร์ "
-"SMB ของคุณที่นี่"
-
-#. i18n: file socksbase.ui line 251
-#: ksmboptdlg.cpp:171 rc.cpp:544
-#, no-c-format
-msgid "&Add"
-msgstr "เพิ่ม"
-
-#: ksmboptdlg.cpp:176
-msgid "Click this button to add access to a share as specified in the fields above."
-msgstr ""
-"คลิ้กที่ปุ่มนี้ "
-"เพื่อเพิ่มการเข้าใช้งานทร"
-"ัพยากรที่คุณกำหนดในช่องด้"
-"านบน"
-
-#: ksmboptdlg.cpp:180
-msgid "Click this button to delete the currently selected share in the list."
-msgstr ""
-"คลิ้กที่ปุ่มนี้ "
-"เพื่อลบรายการทรัพยากรที่ค"
-"ุณเลือกไว้จากรายการ"
-
-#: ksmboptdlg.cpp:186
-msgid "Known bindings:"
-msgstr "การจับคู่ที่รู้จัก:"
-
-#: ksmboptdlg.cpp:191
-msgid ""
-"This box lists the currently configured shares. You can add and delete "
-"entries by using the buttons <em>Add...</em> and <em>Delete</em>"
-msgstr ""
-"แสดงถึงรายการการปรับแต่งท"
-"รัพยากรที่ให้ใช้ร่วมกันใน"
-"ปัจจุบัน "
-"คุณสามารถเพิ่มและลบมันได้ "
-"โดยใช้ปุ่ม <em>เพิ่ม...</em> และ "
-"<em>ลบ</em>"
-
-#: ksmboptdlg.cpp:203
-msgid "Password Policy (while browsing)"
-msgstr ""
-"ข้อกำหนดรหัสผ่าน "
-"(ขณะเรียกดู)"
-
-#: ksmboptdlg.cpp:206
-msgid "Add &new bindings"
-msgstr "เพิ่มการจับคู่ใหม่"
-
-#: ksmboptdlg.cpp:208
-msgid ""
-"Select this option if you want a new entry in the above list to be created "
-"when a password is requested while browsing."
-msgstr ""
-"เลือกใช้ตัวเลือกนี้ "
-"หากคุณต้องการสร้างรายการใ"
-"หม่ในช่องรายการด้านบน "
-"เมื่อมีความต้องการใช้รหัส"
-"ผ่านขณะเรียกดู"
-
-#: ksmboptdlg.cpp:210
-#, fuzzy
-msgid "Do not s&tore new bindings"
-msgstr "ไม่ต้องบรรจุการจับคู่ใหม่"
-
-#: ksmboptdlg.cpp:213
-msgid ""
-"If this option is selected, no new entries are created in the above list "
-"while browsing."
-msgstr ""
-"เปิดใช้ตัวเลือกนี้ "
-"จะไม่มีการสร้างรายการใหม่"
-"ในช่องรายการด้านบน "
-"เมื่อมีการเรียกดู"
-
-#: ksmboptdlg.cpp:378
-msgid "server: "
-msgstr "เซิร์ฟเวอร์: "
-
-#: ksmboptdlg.cpp:379
-msgid "share: "
-msgstr "ทรัพยากร: "
-
-#: ksmboptdlg.cpp:380
-msgid "login: "
-msgstr "ล็อกอิน: "
-
-#: ksmboptdlg.cpp:381
-msgid "with password"
-msgstr "พร้อมรหัสผ่าน"
-
-#: ksmboptdlg.cpp:501
-msgid ""
-"<h1>Windows Shares</h1>Konqueror is able to access shared windows "
-"filesystems if properly configured. If there is a specific computer from "
-"which you want to browse, fill in the <em>Browse server</em> field. This is "
-"mandatory if you do not run Samba locally. The <em>Broadcast address</em> "
-"and <em>WINS address</em> fields will also be available if you use the "
-"native code, or the location of the 'smb.conf' file the options are read "
-"from when using Samba. In any case, the broadcast address (interfaces in "
-"smb.conf) must be set up if it is guessed incorrectly or you have multiple "
-"cards. A WINS server usually improves performance, and greatly reduces the "
-"network load."
-"<p>The bindings are used to assign a default user for a given server, "
-"possibly with the corresponding password, or for accessing specific shares. "
-"If you choose, new bindings will be created for logins and shares accessed "
-"during browsing. You can edit all of them from here. Passwords will be "
-"stored locally, and scrambled so as to render them unreadable to the human "
-"eye. For security reasons you may wish not to do that, as entries with "
-"passwords are clearly indicated as such.<p>"
-msgstr ""
-"<h1>"
-"การใช้งานร่วมกับวินโดว์ส</h1>"
-"Konqueror "
-"สามารถเข้าใช้งานทรัพยากร "
-"ของไฟล์ระบบแบบวินโดว์สได้ "
-"หากมีการปรับแต่ง "
-"หากไม่กำหนดคอมพิวเตอร์ "
-"ที่คุณต้องการเรียกดู "
-"ในช่อง "
-"<em>เรียกดูเซิร์ฟเวอร์</em>  "
-"ซึ่งจำเป็นเมื่อคุณไม่ได้ใ"
-"ช้งานเซิร์ฟเวอร์ Samba "
-"บนระบบคุณ ช่องข้อมูล "
-"<em>ที่อยู่บอร์ดคาสต์</em> และ "
-"<em>ที่อยู่เซิร์เวอร์ WINS</em> "
-"จะสามารถใช้ได้ "
-"หากคุณใช้งานเนทีฟโค้ด "
-"หรือสามารถอ่านแฟ้ม 'smb.conf' "
-"ได้เมื่อมีการใช้งานเซิร์ฟ"
-"เวอร์ Samba ในกรณีทั่วไป "
-"ที่อยู่บอร์ดคาสต์ (อยู่ใน "
-"smb.conf) ต้องถูกตั้งค่าไว้ "
-"หากมีการเดาที่ไม่ถูกต้อง "
-"หรือกรณีที่คุณมี "
-"การ์ดเน็ตเวอร์กหลายใบ "
-"เซิร์ฟเวอร์ WINS "
-"จะถูกใช้เพื่อเร่งความเร็ว "
-"และช่วยลดโหลดของระบบเครือ"
-"ข่าย"
-"<p> "
-"การจับคู่จะถูกใช้เพื่อกำห"
-"นดผู้ใช้ปริยายของเซิร์ฟเว"
-"อร์ "
-"ซึ่งอาจต้องใช้รหัสผ่านสำห"
-"รับทรัพยากรบางตัว "
-"หากคุณเลือกใช้ "
-"การจับคู่ใหม่สำหรับล็อกอิ"
-"นและการเข้าใช้ทรัพยากรจะถ"
-"ูกสร้าง "
-"เมื่อมีการเรียกดูโดยคุณสา"
-"มารถแก้ไขค่าของมันได้ทั้ง"
-"หมดจากที่นี่ "
-"รหัสผ่านจะถูกเก็บไว้ภายใน"
-"ระบบด้วยรูปแบบที่ไม่สามาร"
-"ถอ่านได้ "
-"เพื่อความปลอดภัยที่มากขึ้"
-"น "
-"คุณอาจจะไม่ต้องการทำเช่นน"
-"ั้น "
-"และอาจต้องการให้มันสามารถ"
-"อ่านได้ก็ได้<p>"
 
 #: main.cpp:85
 msgid ""
@@ -1213,31 +931,31 @@ msgstr ""
 msgid "NO &PROXY:"
 msgstr ""
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 41
+#. i18n: file kcookiesmanagementdlg_ui.ui line 33
 #: rc.cpp:114
 #, no-c-format
 msgid "Domain [Group]"
 msgstr "โดเมน [กลุ่ม]"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 52
+#. i18n: file kcookiesmanagementdlg_ui.ui line 44
 #: rc.cpp:117
 #, no-c-format
 msgid "Host [Set By]"
 msgstr "โฮสต์ [ตั้งโดย]"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 93
+#. i18n: file kcookiesmanagementdlg_ui.ui line 85
 #: rc.cpp:120 rc.cpp:239 rc.cpp:685
 #, fuzzy, no-c-format
 msgid "D&elete"
 msgstr "ลบ"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 101
+#. i18n: file kcookiesmanagementdlg_ui.ui line 93
 #: rc.cpp:123 rc.cpp:242 rc.cpp:691
 #, fuzzy, no-c-format
 msgid "Delete A&ll"
 msgstr "ลบทั้งหมด"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 109
+#. i18n: file kcookiesmanagementdlg_ui.ui line 101
 #: rc.cpp:126
 #, fuzzy, no-c-format
 msgid "Change &Policy..."
@@ -1245,73 +963,73 @@ msgstr ""
 "เปลี่ยนข้อกำหนดการใช้คุกก"
 "ี้"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 117
+#. i18n: file kcookiesmanagementdlg_ui.ui line 109
 #: rc.cpp:129
 #, no-c-format
 msgid "&Reload List"
 msgstr "เรียกรายการอีกครั้ง"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 152
+#. i18n: file kcookiesmanagementdlg_ui.ui line 144
 #: rc.cpp:132 rc.cpp:256
 #, fuzzy, no-c-format
 msgid "..."
 msgstr "สร้างใหม่..."
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 155
+#. i18n: file kcookiesmanagementdlg_ui.ui line 147
 #: rc.cpp:135 rc.cpp:259
 #, fuzzy, no-c-format
 msgid "Clear Search"
 msgstr "ລ້າງແຄສ"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 163
+#. i18n: file kcookiesmanagementdlg_ui.ui line 155
 #: rc.cpp:138 rc.cpp:262
 #, fuzzy, no-c-format
 msgid "&Search:"
 msgstr "เซิร์ฟเวอร์:"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 174
+#. i18n: file kcookiesmanagementdlg_ui.ui line 166
 #: rc.cpp:141
 #, no-c-format
 msgid "Search interactively for domains and hosts"
 msgstr ""
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 189
+#. i18n: file kcookiesmanagementdlg_ui.ui line 181
 #: rc.cpp:145
 #, fuzzy, no-c-format
 msgid "Details"
 msgstr "รายละเอียดคุกกี้"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 268
+#. i18n: file kcookiesmanagementdlg_ui.ui line 216
 #: rc.cpp:148
 #, fuzzy, no-c-format
 msgid "Name:"
 msgstr "ชื่อ:"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 287
+#. i18n: file kcookiesmanagementdlg_ui.ui line 227
 #: rc.cpp:151
 #, fuzzy, no-c-format
 msgid "Value:"
 msgstr "ค่า:"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 306
+#. i18n: file kcookiesmanagementdlg_ui.ui line 238
 #: rc.cpp:154
 #, no-c-format
 msgid "Domain:"
 msgstr "โดเมน:"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 325
+#. i18n: file kcookiesmanagementdlg_ui.ui line 249
 #: rc.cpp:157
 #, no-c-format
 msgid "Path:"
 msgstr "พาธ:"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 344
+#. i18n: file kcookiesmanagementdlg_ui.ui line 260
 #: rc.cpp:160
 #, fuzzy, no-c-format
 msgid "Expires:"
 msgstr "หมดอายุ:"
 
-#. i18n: file kcookiesmanagementdlg_ui.ui line 363
+#. i18n: file kcookiesmanagementdlg_ui.ui line 271
 #: rc.cpp:163
 #, fuzzy, no-c-format
 msgid "Secure:"
@@ -2180,6 +1898,12 @@ msgstr "พาธ:"
 msgid "This is the list of additional paths that will be searched."
 msgstr ""
 
+#. i18n: file socksbase.ui line 251
+#: rc.cpp:544
+#, no-c-format
+msgid "&Add"
+msgstr "เพิ่ม"
+
 #. i18n: file socksbase.ui line 299
 #: rc.cpp:550
 #, no-c-format
@@ -2578,16 +2302,6 @@ msgstr "ผู้ใช้ปริยาย:"
 msgid "Default password:"
 msgstr "รหัสผ่านปริยาย:"
 
-#: smbrodlg.cpp:58
-msgid "Workgroup:"
-msgstr "เวอร์กกรุป:"
-
-#: smbrodlg.cpp:62
-msgid "Show hidden shares"
-msgstr ""
-"แสดงทรัพยากรที่ซ่อนไว้ด้ว"
-"ย"
-
 #: smbrodlg.cpp:69
 msgid "MS Windows encoding:"
 msgstr "การเข้ารหัสแบบวินโดว์ส:"
@@ -2778,6 +2492,113 @@ msgstr ""
 "ตามด้วยการคลิ้กในส่วนที่ต"
 "้องการดูความช่วยเหลือสั้น "
 "ๆ"
+
+#~ msgid "Note: kio_smb is a SMB client only. The server, if any, cannot be configured from here."
+#~ msgstr "ข้อควรจำ: kio_smb เป็นเพียงไคลเอนต์ของ SMB เท่านั้น ดังนั้นจึงไม่สามารถปรับแต่งเซิร์ฟเวอร์ได้จากที่นี่"
+
+#~ msgid "Network Settings"
+#~ msgstr "ตั้งค่าระบบเครือข่าย"
+
+#~ msgid "&Browse server:"
+#~ msgstr "เรียกดูเซิร์ฟเวอร์:"
+
+#~ msgid "Here you can specify the server that provides browsing information, such as the list of servers."
+#~ msgstr "คุณสามารถกำหนดข้อมูลเพื่อใช้ในการเรียกดูเซิร์ฟเวอร์ได้ที่นี่ เช่นรายการของเซิร์ฟเวอร์"
+
+#~ msgid "Other options:"
+#~ msgstr "ตัวเลือกอื่น:"
+
+#~ msgid "B&roadcast address:"
+#~ msgstr "ที่อยู่บอร์ดคาสต์:"
+
+#~ msgid "Enter the broadcast address of your network here. Usually, this is an IP address with 255 as the last of the four numbers."
+#~ msgstr "เติมที่อยู่บอร์ดคาสต์เครือข่ายของคุณที่นี่ ซึ่งโดยทั่วไป หมายเลขไอพีนี้ มักจะลงท้ายด้วยตัวเลข 255"
+
+#~ msgid "&WINS address:"
+#~ msgstr "ที่อยู่เซิร์ฟเวอร์ &WINS:"
+
+#~ msgid "Specify the address of the WINS server here (if any)."
+#~ msgstr "กำหนดที่อยู่เซิร์ฟเวอร์ WINS ที่นี่ (หากมี)"
+
+#~ msgid "User Settings"
+#~ msgstr "ตั้งค่าผู้ใช้"
+
+#~ msgid "In this area, you can configure which shares to access. You can also remove shares that you no longer want to access or that have been revoked."
+#~ msgstr "คุณสามารถปรับแต่งการเข้าใช้งานทรัพยากรที่ใช้ร่วมกันได้ในตำแหน่งนี้ คุณสามารถเอาทรัพยากรที่ไม่ต้องการให้ใช้แล้วออกได้"
+
+#~ msgid "&Server:"
+#~ msgstr "เซิร์ฟเวอร์:"
+
+#~ msgid "Enter the name of the server here on which you want to access a share. This must be the SMB name, not the DNS name. But usually, these two are the same."
+#~ msgstr "เติมชื่อของเซิร์ฟเวอร์ที่คุณต้องการเข้าใช้งานทรัพยากรที่นี่ โดยต้องเป็นชื่อของเซิร์ฟเวอร์ SMB ไม่ใช่ชื่อ DNS แต่โดยมากแล้ว จะเป็นค่าเดียวกัน"
+
+#~ msgid "S&hare:"
+#~ msgstr "ทรัพยากร:"
+
+#~ msgid "Enter the name of the share here that you want to access."
+#~ msgstr "เติมชื่อของทรัพยากรที่ต้องการให้ใช้ร่วมกันที่นี่"
+
+#~ msgid "&Login:"
+#~ msgstr "ล็อกอิน:"
+
+#, fuzzy
+#~ msgid "Enter your username on the SMB server here."
+#~ msgstr "เติมชื่อผู้ใช้บนเซิร์ฟเวอร์ SMB ของคุณที่นี่"
+
+#~ msgid "&Password:"
+#~ msgstr "รหัสผ่าน:"
+
+#~ msgid "Enter your password on the SMB server here."
+#~ msgstr "เติมรหัสผ่านบนเซิร์ฟเวอร์ SMB ของคุณที่นี่"
+
+#~ msgid "Click this button to add access to a share as specified in the fields above."
+#~ msgstr "คลิ้กที่ปุ่มนี้ เพื่อเพิ่มการเข้าใช้งานทรัพยากรที่คุณกำหนดในช่องด้านบน"
+
+#~ msgid "Click this button to delete the currently selected share in the list."
+#~ msgstr "คลิ้กที่ปุ่มนี้ เพื่อลบรายการทรัพยากรที่คุณเลือกไว้จากรายการ"
+
+#~ msgid "Known bindings:"
+#~ msgstr "การจับคู่ที่รู้จัก:"
+
+#~ msgid "This box lists the currently configured shares. You can add and delete entries by using the buttons <em>Add...</em> and <em>Delete</em>"
+#~ msgstr "แสดงถึงรายการการปรับแต่งทรัพยากรที่ให้ใช้ร่วมกันในปัจจุบัน คุณสามารถเพิ่มและลบมันได้ โดยใช้ปุ่ม <em>เพิ่ม...</em> และ <em>ลบ</em>"
+
+#~ msgid "Password Policy (while browsing)"
+#~ msgstr "ข้อกำหนดรหัสผ่าน (ขณะเรียกดู)"
+
+#~ msgid "Add &new bindings"
+#~ msgstr "เพิ่มการจับคู่ใหม่"
+
+#~ msgid "Select this option if you want a new entry in the above list to be created when a password is requested while browsing."
+#~ msgstr "เลือกใช้ตัวเลือกนี้ หากคุณต้องการสร้างรายการใหม่ในช่องรายการด้านบน เมื่อมีความต้องการใช้รหัสผ่านขณะเรียกดู"
+
+#, fuzzy
+#~ msgid "Do not s&tore new bindings"
+#~ msgstr "ไม่ต้องบรรจุการจับคู่ใหม่"
+
+#~ msgid "If this option is selected, no new entries are created in the above list while browsing."
+#~ msgstr "เปิดใช้ตัวเลือกนี้ จะไม่มีการสร้างรายการใหม่ในช่องรายการด้านบน เมื่อมีการเรียกดู"
+
+#~ msgid "server: "
+#~ msgstr "เซิร์ฟเวอร์: "
+
+#~ msgid "share: "
+#~ msgstr "ทรัพยากร: "
+
+#~ msgid "login: "
+#~ msgstr "ล็อกอิน: "
+
+#~ msgid "with password"
+#~ msgstr "พร้อมรหัสผ่าน"
+
+#~ msgid "<h1>Windows Shares</h1>Konqueror is able to access shared windows filesystems if properly configured. If there is a specific computer from which you want to browse, fill in the <em>Browse server</em> field. This is mandatory if you do not run Samba locally. The <em>Broadcast address</em> and <em>WINS address</em> fields will also be available if you use the native code, or the location of the 'smb.conf' file the options are read from when using Samba. In any case, the broadcast address (interfaces in smb.conf) must be set up if it is guessed incorrectly or you have multiple cards. A WINS server usually improves performance, and greatly reduces the network load.<p>The bindings are used to assign a default user for a given server, possibly with the corresponding password, or for accessing specific shares. If you choose, new bindings will be created for logins and shares accessed during browsing. You can edit all of them from here. Passwords will be stored locally, and scrambled so as to render them unreadable to the human eye. For security reasons you may wish not to do that, as entries with passwords are clearly indicated as such.<p>"
+#~ msgstr "<h1>การใช้งานร่วมกับวินโดว์ส</h1>Konqueror สามารถเข้าใช้งานทรัพยากร ของไฟล์ระบบแบบวินโดว์สได้ หากมีการปรับแต่ง หากไม่กำหนดคอมพิวเตอร์ ที่คุณต้องการเรียกดู ในช่อง <em>เรียกดูเซิร์ฟเวอร์</em>  ซึ่งจำเป็นเมื่อคุณไม่ได้ใช้งานเซิร์ฟเวอร์ Samba บนระบบคุณ ช่องข้อมูล <em>ที่อยู่บอร์ดคาสต์</em> และ <em>ที่อยู่เซิร์เวอร์ WINS</em> จะสามารถใช้ได้ หากคุณใช้งานเนทีฟโค้ด หรือสามารถอ่านแฟ้ม 'smb.conf' ได้เมื่อมีการใช้งานเซิร์ฟเวอร์ Samba ในกรณีทั่วไป ที่อยู่บอร์ดคาสต์ (อยู่ใน smb.conf) ต้องถูกตั้งค่าไว้ หากมีการเดาที่ไม่ถูกต้อง หรือกรณีที่คุณมี การ์ดเน็ตเวอร์กหลายใบ เซิร์ฟเวอร์ WINS จะถูกใช้เพื่อเร่งความเร็ว และช่วยลดโหลดของระบบเครือข่าย<p> การจับคู่จะถูกใช้เพื่อกำหนดผู้ใช้ปริยายของเซิร์ฟเวอร์ ซึ่งอาจต้องใช้รหัสผ่านสำหรับทรัพยากรบางตัว หากคุณเลือกใช้ การจับคู่ใหม่สำหรับล็อกอินและการเข้าใช้ทรัพยากรจะถูกสร้าง เมื่อมีการเรียกดูโดยคุณสามารถแก้ไขค่าของมันได้ทั้งหมดจากที่นี่ รหัสผ่านจะถูกเก็บไว้ภายในระบบด้วยรูปแบบที่ไม่สามารถอ่านได้ เพื่อความปลอดภัยที่มากขึ้น คุณอาจจะไม่ต้องการทำเช่นนั้น และอาจต้องการให้มันสามารถอ่านได้ก็ได้<p>"
+
+#~ msgid "Workgroup:"
+#~ msgstr "เวอร์กกรุป:"
+
+#~ msgid "Show hidden shares"
+#~ msgstr "แสดงทรัพยากรที่ซ่อนไว้ด้วย"
 
 #, fuzzy
 #~ msgid "UAProviderDlgUI"
