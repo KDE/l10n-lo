@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-01-03 01:38+0100\n"
+"POT-Creation-Date: 2005-02-01 01:22+0100\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 msgid "File '%1' is not readable"
 msgstr "ບໍ່ສາມາດອ່ານແຟ້ມ \"%1\" ໄດ້"
 
-#: kio/global.cpp:691 kio/job.cpp:1670 kio/job.cpp:3095 kio/job.cpp:3554
+#: kio/global.cpp:715 kio/job.cpp:1670 kio/job.cpp:3095 kio/job.cpp:3554
 #: kio/paste.cpp:60
 msgid "File Already Exists"
 msgstr "ມີແຟ້ມນີ້ຢູ່ແລ້ວ"
 
-#: kio/global.cpp:701 kio/job.cpp:2812
+#: kio/global.cpp:725 kio/job.cpp:2812
 #, fuzzy
 msgid "Folder Already Exists"
 msgstr "ມີແຟ້ມນີ້ຢູ່ແລ້ວ"
@@ -167,55 +167,55 @@ msgstr ""
 msgid "&Skip File"
 msgstr "&ແຟ້ມ"
 
-#: kio/kfilemetainfo.cpp:826
+#: kio/kfilemetainfo.cpp:828
 msgid "s"
 msgstr "s"
 
-#: kio/kfilemetainfo.cpp:829
+#: kio/kfilemetainfo.cpp:831
 msgid "ms"
 msgstr "ms "
 
-#: kio/kfilemetainfo.cpp:832
+#: kio/kfilemetainfo.cpp:834
 msgid "bps"
 msgstr "bps"
 
-#: kio/kfilemetainfo.cpp:835
+#: kio/kfilemetainfo.cpp:837
 msgid "pixels"
 msgstr "ພິກເຊລ"
 
-#: kio/kfilemetainfo.cpp:838
+#: kio/kfilemetainfo.cpp:840
 msgid "in"
 msgstr "ຄົ້ນຫາ"
 
-#: kio/kfilemetainfo.cpp:841
+#: kio/kfilemetainfo.cpp:843
 msgid "cm"
 msgstr "cm"
 
-#: kio/kfilemetainfo.cpp:844
+#: kio/kfilemetainfo.cpp:846
 msgid "B"
 msgstr "B"
 
-#: kio/kfilemetainfo.cpp:847
+#: kio/kfilemetainfo.cpp:849
 msgid "KB"
 msgstr "KB"
 
-#: kio/kfilemetainfo.cpp:850
+#: kio/kfilemetainfo.cpp:852
 msgid "fps"
 msgstr "fps"
 
-#: kio/kfilemetainfo.cpp:853
+#: kio/kfilemetainfo.cpp:855
 msgid "dpi"
 msgstr "dpi"
 
-#: kio/kfilemetainfo.cpp:856
+#: kio/kfilemetainfo.cpp:858
 msgid "bpp"
 msgstr "bpp"
 
-#: kio/kfilemetainfo.cpp:859
+#: kio/kfilemetainfo.cpp:861
 msgid "Hz"
 msgstr ""
 
-#: kio/kfilemetainfo.cpp:862
+#: kio/kfilemetainfo.cpp:864
 msgid "mm"
 msgstr ""
 
@@ -554,7 +554,7 @@ msgstr ""
 msgid "Stalled"
 msgstr "ຢຸູດການທຳງານຊົ່ວຂະນະ"
 
-#: kio/defaultprogress.cpp:325
+#: kio/defaultprogress.cpp:324
 msgid "%1/s ( %2 remaining )"
 msgstr "%1/s (ເຫລືອເວລາ %2)"
 
@@ -640,12 +640,18 @@ msgstr "%1 KB"
 msgid "%1 B"
 msgstr "%1 ໄບ"
 
-#: kio/global.cpp:115
+#: kio/global.cpp:109
+msgid ""
+"_n: 1 day %1\n"
+"%n days %1"
+msgstr ""
+
+#: kio/global.cpp:139
 #, fuzzy
 msgid "No Items"
 msgstr "ບັນທຶກຫຍໍ້"
 
-#: kio/global.cpp:115
+#: kio/global.cpp:139
 #, fuzzy, c-format
 msgid ""
 "_n: One Item\n"
@@ -654,12 +660,12 @@ msgstr ""
 "_n ໜຶ່ງລາຍການ\n"
 "%n ລາຍການ"
 
-#: kio/global.cpp:117
+#: kio/global.cpp:141
 #, fuzzy
 msgid "No Files"
 msgstr "ແຟ້ມ"
 
-#: kio/global.cpp:117
+#: kio/global.cpp:141
 #, fuzzy, c-format
 msgid ""
 "_n: One File\n"
@@ -668,16 +674,16 @@ msgstr ""
 "_n ຫນື່ງ ແຟ້ມ\n"
 "%n ແຟ້ມ"
 
-#: kio/global.cpp:121
+#: kio/global.cpp:145
 msgid "(%1 Total)"
 msgstr "(ທັງຫມົດ %1)"
 
-#: kio/global.cpp:124
+#: kio/global.cpp:148
 #, fuzzy
 msgid "No Folders"
 msgstr "ໂຟລເດີໃຫມ່:"
 
-#: kio/global.cpp:124
+#: kio/global.cpp:148
 #, fuzzy, c-format
 msgid ""
 "_n: One Folder\n"
@@ -686,24 +692,24 @@ msgstr ""
 "_n ຫນື່ງ ແຟ້ມ\n"
 "%n ແຟ້ມ"
 
-#: kio/global.cpp:183
+#: kio/global.cpp:207
 #, fuzzy, c-format
 msgid "Could not read %1."
 msgstr "ບໍ່ສາມາດອ່ານ %1 ໄດ້"
 
-#: kio/global.cpp:186
+#: kio/global.cpp:210
 #, fuzzy, c-format
 msgid "Could not write to %1."
 msgstr "ບໍ່ສາມາດຂຽນໄປຍັງ %1 ໄດ້"
 
-#: kio/global.cpp:189
+#: kio/global.cpp:213
 #, fuzzy, c-format
 msgid "Could not start process %1."
 msgstr ""
 "ບໍ່ສາມາດເລີ່ມການທຳງານໂປຣເ"
 "ຊສ %1 ໄດ້"
 
-#: kio/global.cpp:192
+#: kio/global.cpp:216
 #, c-format
 msgid ""
 "Internal Error\n"
@@ -716,7 +722,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kio/global.cpp:195
+#: kio/global.cpp:219
 #, fuzzy, c-format
 msgid "Malformed URL %1."
 msgstr ""
@@ -724,65 +730,65 @@ msgstr ""
 "%1\n"
 "ຜິດພາດ"
 
-#: kio/global.cpp:198
+#: kio/global.cpp:222
 msgid "The protocol %1 is not supported."
 msgstr "ບໍ່ສະນັບສະນຸນໂປຣໂຕຄອນ %1"
 
-#: kio/global.cpp:201
+#: kio/global.cpp:225
 msgid "The protocol %1 is only a filter protocol."
 msgstr ""
 "ໂປຣໂຕຄອນ %1 "
 "ເປັນໄດ້ສະເພາະໂປຣໂຕຄອນຕົວກ"
 "ອງ"
 
-#: kio/global.cpp:208
+#: kio/global.cpp:232
 #, fuzzy
 msgid "%1 is a folder, but a file was expected."
 msgstr ""
 "ຕ້ອງການແຟ້ ແຕ່ %1 "
 "ເປັນໄດເລັກທໍລີ"
 
-#: kio/global.cpp:211
+#: kio/global.cpp:235
 #, fuzzy
 msgid "%1 is a file, but a folder was expected."
 msgstr ""
 "ຕ້ອງການໄດເລັກທໍລີ ແຕ່ %1 "
 "ເປັນແຟ້ມ"
 
-#: kio/global.cpp:214
+#: kio/global.cpp:238
 #, fuzzy
 msgid "The file or folder %1 does not exist."
 msgstr ""
 "ຍັງບໍ່ມີ "
 "ແຟ້ມຫລືໄດເລັກທໍລີ%1"
 
-#: kio/global.cpp:217
+#: kio/global.cpp:241
 msgid "A file named %1 already exists."
 msgstr "ແຟ້ມຊື່ %1 ມີຢູ່ແລ້ວ"
 
-#: kio/global.cpp:220
+#: kio/global.cpp:244
 #, fuzzy
 msgid "A folder named %1 already exists."
 msgstr "ແຟ້ມຊື່ %1 ມີຢູ່ແລ້ວ"
 
-#: kio/global.cpp:223
+#: kio/global.cpp:247
 #, fuzzy
 msgid "No hostname specified."
 msgstr "ຍັງບໍ່ໄດ້ກຳນົດໂຮສຕ໌!"
 
-#: kio/global.cpp:223
+#: kio/global.cpp:247
 #, c-format
 msgid "Unknown host %1"
 msgstr "ບໍ່ຮູ້ຈັກໂຫສ %1"
 
-#: kio/global.cpp:226
+#: kio/global.cpp:250
 #, fuzzy, c-format
 msgid "Access denied to %1."
 msgstr ""
 "ໄດ້ຮັບການປະຕິເສດໃຫ້ເຂົ້າໃ"
 "ຊ້%1"
 
-#: kio/global.cpp:229
+#: kio/global.cpp:253
 #, fuzzy, c-format
 msgid ""
 "Access denied.\n"
@@ -791,14 +797,14 @@ msgstr ""
 "ບໍ່ໄດ້ຮັບການປະຕິເສດ\n"
 "ບໍ່ສາມາດຂຽນໄປຍັງ %1 ໄດ້"
 
-#: kio/global.cpp:232
+#: kio/global.cpp:256
 #, fuzzy, c-format
 msgid "Could not enter folder %1."
 msgstr ""
 "ບໍ່ສາມາດເຂົ້າໄປຍັງໄດເລັກທ"
 "ໍລີ %1 ໄດ້"
 
-#: kio/global.cpp:235
+#: kio/global.cpp:259
 #, fuzzy
 msgid "The protocol %1 does not implement a folder service."
 msgstr ""
@@ -806,47 +812,47 @@ msgstr ""
 "ຍັງບໍ່ໄດ້ກຳນົດໄດເລັກທໍລີຂ"
 "ອງບໍລີການ"
 
-#: kio/global.cpp:238
+#: kio/global.cpp:262
 #, fuzzy, c-format
 msgid "Found a cyclic link in %1."
 msgstr "ພົບລິງແບບວົນຮອບ (cyclic link) ໃນ %1"
 
-#: kio/global.cpp:244
+#: kio/global.cpp:268
 #, fuzzy, c-format
 msgid "Found a cyclic link while copying %1."
 msgstr ""
 "ພົບລິງແບບວົນຮອບ (cyclic link) "
 "ຂະນະທຳການສຳເນົາ %1"
 
-#: kio/global.cpp:247
+#: kio/global.cpp:271
 #, fuzzy, c-format
 msgid "Could not create socket for accessing %1."
 msgstr ""
 "ບໍ່ສາມາດສ້າງຊອກເກດເພື່ອກາ"
 "ນເຂົ້າໃຊ້ %1 ໄດ້"
 
-#: kio/global.cpp:250
+#: kio/global.cpp:274
 #, fuzzy, c-format
 msgid "Could not connect to host %1."
 msgstr ""
 "ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບໂຫສ์ %1 "
 "ໄດ້"
 
-#: kio/global.cpp:253
+#: kio/global.cpp:277
 #, fuzzy
 msgid "Connection to host %1 is broken."
 msgstr ""
 "ການເຊື່ອກຕໍ່ກັບໂຫສ໌ %1 "
 "ຖືກຕັດຂາດ"
 
-#: kio/global.cpp:256
+#: kio/global.cpp:280
 #, fuzzy
 msgid "The protocol %1 is not a filter protocol."
 msgstr ""
 "ໂປໂຕຄອນ %1 "
 "ບໍ່ແມ່ນໂປໂຕຄອນແບບຕົວກາງ"
 
-#: kio/global.cpp:259
+#: kio/global.cpp:283
 #, c-format
 msgid ""
 "Could not mount device.\n"
@@ -857,7 +863,7 @@ msgstr ""
 "ຮັບລາຍງານຄວາມຜິດພາດ:\n"
 "%1"
 
-#: kio/global.cpp:262
+#: kio/global.cpp:286
 #, c-format
 msgid ""
 "Could not unmount device.\n"
@@ -869,90 +875,90 @@ msgstr ""
 "\n"
 "%1"
 
-#: kio/global.cpp:265
+#: kio/global.cpp:289
 #, fuzzy, c-format
 msgid "Could not read file %1."
 msgstr "ບໍ່ສາມາດອ່ານແຟ້ມ %1 ໄດ້"
 
-#: kio/global.cpp:268
+#: kio/global.cpp:292
 #, fuzzy, c-format
 msgid "Could not write to file %1."
 msgstr "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມ %1 ໄດ້"
 
-#: kio/global.cpp:271
+#: kio/global.cpp:295
 #, fuzzy, c-format
 msgid "Could not bind %1."
 msgstr "ບໍ່ສາມາດ bind %1 ໄດ້"
 
-#: kio/global.cpp:274
+#: kio/global.cpp:298
 #, fuzzy, c-format
 msgid "Could not listen %1."
 msgstr ""
 "ບໍ່ສາມາດຄອຍຮັບການເຊື່ອມຕໍ"
 "່້ %1 ໄດ້"
 
-#: kio/global.cpp:277
+#: kio/global.cpp:301
 #, fuzzy, c-format
 msgid "Could not accept %1."
 msgstr ""
 "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊ"
 "ື່ອມຕໍ່ %1 ໄດ້"
 
-#: kio/global.cpp:283
+#: kio/global.cpp:307
 #, fuzzy, c-format
 msgid "Could not access %1."
 msgstr "ບໍ່ສາມາດເຂົ້າໃຊ້ງານ %1 ໄດ້"
 
-#: kio/global.cpp:286
+#: kio/global.cpp:310
 #, fuzzy, c-format
 msgid "Could not terminate listing %1."
 msgstr ""
 "ບໍ່ສາມາດຈົບການຄອຍຮັບການເຊ"
 "ື່ອມຕໍ່ %1 ໄດ້"
 
-#: kio/global.cpp:289
+#: kio/global.cpp:313
 #, fuzzy, c-format
 msgid "Could not make folder %1."
 msgstr ""
 "ບໍ່ສາມາດສ້າງໄດເລັກທໍລີ %1 "
 "ໄດ້"
 
-#: kio/global.cpp:292
+#: kio/global.cpp:316
 #, fuzzy, c-format
 msgid "Could not remove folder %1."
 msgstr "ບໍ່ສາມາດປ່ຽນຊື່ແຟ້ມ %1 ໄດ້"
 
-#: kio/global.cpp:295
+#: kio/global.cpp:319
 #, fuzzy, c-format
 msgid "Could not resume file %1."
 msgstr ""
 "ບໍ່ສາມາດກັບໄປທຳງານຕໍ່ຍັງແ"
 "ຟ້ມ %1 ໄດ້"
 
-#: kio/global.cpp:298
+#: kio/global.cpp:322
 #, fuzzy, c-format
 msgid "Could not rename file %1."
 msgstr "ບໍ່ສາມາດປ່ຽນຊື່ແຟ້ມ %1 ໄດ້"
 
-#: kio/global.cpp:301
+#: kio/global.cpp:325
 #, fuzzy, c-format
 msgid "Could not change permissions for %1."
 msgstr ""
 "ບໍ່ສາມາດປ່ຽນສິດໃນການອະນຸຍ"
 "າດສຳລັບ %1 ໄດ້"
 
-#: kio/global.cpp:304
+#: kio/global.cpp:328
 #, fuzzy, c-format
 msgid "Could not delete file %1."
 msgstr "ບໍ່ສາມາດລືບແຟ້ມ %1 ໄດ້"
 
-#: kio/global.cpp:307
+#: kio/global.cpp:331
 msgid "The process for the %1 protocol died unexpectedly."
 msgstr ""
 "ໂປເຊສຂອງໂປຣໂຕຄອນ %1 "
 "ຕາຍຢ່າງບໍ່ຄາດຄິດ"
 
-#: kio/global.cpp:310
+#: kio/global.cpp:334
 #, fuzzy, c-format
 msgid ""
 "Error. Out of memory.\n"
@@ -961,7 +967,7 @@ msgstr ""
 "ຜິດພາດຫນ່ວຍຄວາມຈຳບໍ່ພຽງພໍ\n"
 "%1"
 
-#: kio/global.cpp:313
+#: kio/global.cpp:337
 #, c-format
 msgid ""
 "Unknown proxy host\n"
@@ -970,13 +976,13 @@ msgstr ""
 "ບໍ່ຮູ້ຈັກໂຫສພອກຊີ\n"
 "%1"
 
-#: kio/global.cpp:316
+#: kio/global.cpp:340
 msgid "Authorization failed, %1 authentication not supported"
 msgstr ""
 "ກວດສອບສິດລົ້ມເຫລວບໍ່ສະນັບ"
 "ສະນຸນການກວດສອບ %1"
 
-#: kio/global.cpp:319
+#: kio/global.cpp:343
 #, c-format
 msgid ""
 "User canceled action\n"
@@ -985,7 +991,7 @@ msgstr ""
 "ບໍ່ສາມາດຍົກເລີກການກະທຳ\n"
 "%1 ໄດ້"
 
-#: kio/global.cpp:322
+#: kio/global.cpp:346
 #, c-format
 msgid ""
 "Internal error in server\n"
@@ -994,7 +1000,7 @@ msgstr ""
 "ເກີດຂໍ້ຜິດພາດພາຍໃນເຊີບເວີ\n"
 "%1"
 
-#: kio/global.cpp:325
+#: kio/global.cpp:349
 #, c-format
 msgid ""
 "Timeout on server\n"
@@ -1003,7 +1009,7 @@ msgstr ""
 "ຫມົດເວລາເທີງເຊີບເວີ\n"
 "%1"
 
-#: kio/global.cpp:328
+#: kio/global.cpp:352
 #, c-format
 msgid ""
 "Unknown error\n"
@@ -1012,7 +1018,7 @@ msgstr ""
 "ບໍ່ຮູ້ຈັກຂໍ້ຜິດພາດ\n"
 "%1"
 
-#: kio/global.cpp:331
+#: kio/global.cpp:355
 #, c-format
 msgid ""
 "Unknown interrupt\n"
@@ -1021,7 +1027,7 @@ msgstr ""
 "ບໍ່ຮູ້ຈັກອິນເທີຣັບ\n"
 "%1"
 
-#: kio/global.cpp:342
+#: kio/global.cpp:366
 msgid ""
 "Could not delete original file %1.\n"
 "Please check permissions."
@@ -1030,7 +1036,7 @@ msgstr ""
 "ໄດ้້\n"
 "ໂປຣດກວດສອບສິດຂອງທ່ານ"
 
-#: kio/global.cpp:345
+#: kio/global.cpp:369
 msgid ""
 "Could not delete partial file %1.\n"
 "Please check permissions."
@@ -1039,7 +1045,7 @@ msgstr ""
 "ໄດ້\n"
 "ກະລຸນາກວດສອບສິດຂອງທ່ານ"
 
-#: kio/global.cpp:348
+#: kio/global.cpp:372
 msgid ""
 "Could not rename original file %1.\n"
 "Please check permissions."
@@ -1048,7 +1054,7 @@ msgstr ""
 "້ມ %1 ໄດ້\n"
 "ກະລຸນາກວດສອບສິດຂອງທ່ານ"
 
-#: kio/global.cpp:351
+#: kio/global.cpp:375
 msgid ""
 "Could not rename partial file %1.\n"
 "Please check permissions."
@@ -1057,7 +1063,7 @@ msgstr ""
 "ນ %1 ໄດ້\n"
 "ກະລຸນາກວດສອບສິດຂອງທ່ານນ"
 
-#: kio/global.cpp:354
+#: kio/global.cpp:378
 msgid ""
 "Could not create symlink %1.\n"
 "Please check permissions."
@@ -1065,7 +1071,7 @@ msgstr ""
 "ບໍ່ສາມາດສ້າງລິງ %1 ໄດ້\n"
 "ກະລຸນາກວດສອບສິດຂອງທ່ານ"
 
-#: kio/global.cpp:360
+#: kio/global.cpp:384
 msgid ""
 "Could not write file %1.\n"
 "Disk full."
@@ -1073,7 +1079,7 @@ msgstr ""
 "ບໍ່ສາມາດຂຽນແຟ້ມ \"%1\" ໄດ້\n"
 "ເນື່ອງຈາກດິສເຕັມ"
 
-#: kio/global.cpp:363
+#: kio/global.cpp:387
 #, c-format
 msgid ""
 "The source and destination are the same file.\n"
@@ -1083,18 +1089,18 @@ msgstr ""
 "ແຟ້ມດ່ຽວກັນ\n"
 "%1"
 
-#: kio/global.cpp:369
+#: kio/global.cpp:393
 msgid "%1 is required by the server, but is not available."
 msgstr ""
 "ເຊີເວີຕ້ອງການ %1 "
 "ແຕ່ມັນຍັງບໍ່ມີຢູ່"
 
-#: kio/global.cpp:371
+#: kio/global.cpp:395
 #, fuzzy
 msgid "Access to restricted port in POST denied."
 msgstr "Accesst to restricted port in POST denied"
 
-#: kio/global.cpp:374
+#: kio/global.cpp:398
 msgid ""
 "Unknown error code %1\n"
 "%2\n"
@@ -1105,7 +1111,7 @@ msgstr ""
 "ກະລຸນາສົ່ງລາຍງານຄວາມຜິດພາ"
 "ດຄົບຖ້ວນ ໄປຍັງ http://bugs.kde.org"
 
-#: kio/global.cpp:384
+#: kio/global.cpp:408
 #, fuzzy, c-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr ""
@@ -1113,7 +1119,7 @@ msgstr ""
 "ບໍ່ສະນັບສະນຸດການໃຊ້ງານການ"
 "ເຊື່ອມຕໍ່ທີ່ເປີດຢູ່"
 
-#: kio/global.cpp:386
+#: kio/global.cpp:410
 #, fuzzy, c-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr ""
@@ -1121,7 +1127,7 @@ msgstr ""
 "ບໍ່ສະນັບສະນຸດການໃຊ້ງານການ"
 "ເຊື່ອມຕໍ່ທີ່ເປີດຢູ່"
 
-#: kio/global.cpp:388
+#: kio/global.cpp:412
 #, fuzzy, c-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr ""
@@ -1129,17 +1135,17 @@ msgstr ""
 "ໃຊ້ງານແຟ້ມທີ່ເຂົ້າໃຊ້ງານຢ"
 "ູ່"
 
-#: kio/global.cpp:390
+#: kio/global.cpp:414
 #, fuzzy
 msgid "Writing to %1 is not supported."
 msgstr "ບໍ່ສະນັບສະນຸນການຂຽນໄປຍັງ %1"
 
-#: kio/global.cpp:392
+#: kio/global.cpp:416
 #, fuzzy, c-format
 msgid "There are no special actions available for protocol %1."
 msgstr "ບໍ່ມີການສຳລັບໂປຣໂຕຄອນ %1"
 
-#: kio/global.cpp:394
+#: kio/global.cpp:418
 #, fuzzy, c-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr ""
@@ -1147,28 +1153,28 @@ msgstr ""
 "ບໍ່ສະນັບສະນຸນການຮຽກສະແດງລ"
 "າຍການໄດເລັກທໍລີ"
 
-#: kio/global.cpp:396
+#: kio/global.cpp:420
 #, fuzzy
 msgid "Retrieving data from %1 is not supported."
 msgstr ""
 "ບໍ່ສະນັບສະນຸນການຮັບຂໍ້ມູນ"
 "ຈາກ %1"
 
-#: kio/global.cpp:398
+#: kio/global.cpp:422
 #, fuzzy
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr ""
 "ບໍ່ສະນັບສະນຸນການຮັບຂໍ້ມູນ"
 "ຈາກ %1"
 
-#: kio/global.cpp:400
+#: kio/global.cpp:424
 #, fuzzy
 msgid "Renaming or moving files within %1 is not supported."
 msgstr ""
 "ບໍ່ສະນັບສະນຸນການປ່ຽນຊື່ຫລ"
 "ືຍ້າຍແຟ້ມພາຍໃນ %1"
 
-#: kio/global.cpp:402
+#: kio/global.cpp:426
 #, fuzzy, c-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr ""
@@ -1176,28 +1182,28 @@ msgstr ""
 "ບໍ່ສະນັບສະນຸນການສ້າງລີງສັ"
 "ນຍາລັກ"
 
-#: kio/global.cpp:404
+#: kio/global.cpp:428
 #, fuzzy
 msgid "Copying files within %1 is not supported."
 msgstr ""
 "ບໍ່ສະນັບສະນຸນທຳສຳເນົາແຟ້ມ"
 "ພາຍໃນ %1"
 
-#: kio/global.cpp:406
+#: kio/global.cpp:430
 #, fuzzy
 msgid "Deleting files from %1 is not supported."
 msgstr ""
 "ບໍ່ສະນັບສະນຸນການລືບແຟ້ມຈາ"
 "ກ %1"
 
-#: kio/global.cpp:408
+#: kio/global.cpp:432
 #, fuzzy, c-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr ""
 "ໂປໂຕຄອນບໍ່ສະນັບສະນຸນການສ້"
 "າງໄດເລັກທໍລີ %1 "
 
-#: kio/global.cpp:410
+#: kio/global.cpp:434
 #, fuzzy, c-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr ""
@@ -1205,72 +1211,72 @@ msgstr ""
 "ບໍ່ສະນັບສະນຸນການປ່ຽນແອທິບ"
 "ິວຂອງແຟ້ມ"
 
-#: kio/global.cpp:412
+#: kio/global.cpp:436
 #, fuzzy
 msgid "Using sub-URLs with %1 is not supported."
 msgstr ""
 "ບໍ່ສະນັບສະນຸນການໃຊ້ URL "
 "ຍ່ອຍກັບ %1"
 
-#: kio/global.cpp:414
+#: kio/global.cpp:438
 #, fuzzy, c-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr ""
 "ໂປໂຕຄອນບໍ່ສະນັບສະນຸນການຂໍ"
 "ແຟ້ມແບບຫລາຍແຟ້ມ %1 "
 
-#: kio/global.cpp:416
+#: kio/global.cpp:440
 #, fuzzy
 msgid "Protocol %1 does not support action %2."
 msgstr "ບໍ່ສະນັບສະນຸນໂປຣໂຕຄອນ %1"
 
-#: kio/global.cpp:436 kio/global.cpp:518
+#: kio/global.cpp:460 kio/global.cpp:542
 msgid "(unknown)"
 msgstr "(ບໍ່ຮູ້ຈັກ)"
 
-#: kio/global.cpp:448
+#: kio/global.cpp:472
 #, fuzzy
 msgid "<b>Technical reason</b>: "
 msgstr "<b>ເຫດຜົນທາງເທັກນິກ</b>: "
 
-#: kio/global.cpp:449
+#: kio/global.cpp:473
 #, fuzzy
 msgid "</p><p><b>Details of the request</b>:"
 msgstr ""
 "</p>"
 "<p><b>ລາຍລະອຽດຂອງສິ່ງຮ້ອງຂໍ</b>:"
 
-#: kio/global.cpp:450
+#: kio/global.cpp:474
 msgid "</p><ul><li>URL: %1</li>"
 msgstr "</p><ul><li>URL: %1</li>"
 
-#: kio/global.cpp:452
+#: kio/global.cpp:476
 msgid "<li>Protocol: %1</li>"
 msgstr "<li>ໂປຣໂຕຄອນ: %1</li>"
 
-#: kio/global.cpp:454
+#: kio/global.cpp:478
 #, fuzzy
 msgid "<li>Date and time: %1</li>"
 msgstr "<li>ມື້ແລະເວລາ: %1</li>"
 
-#: kio/global.cpp:455
+#: kio/global.cpp:479
 #, fuzzy
 msgid "<li>Additional information: %1</li></ul>"
 msgstr "<li>ລາຍລະອຽດເພີ່ມເຕີ່ມ: %1</li></ul>"
 
-#: kio/global.cpp:457
+#: kio/global.cpp:481
 #, fuzzy
 msgid "<p><b>Possible causes</b>:</p><ul><li>"
 msgstr "<p><b>ອາດຈະເນືອງມາຈາກ</b>:</p><ul><li>"
 
-#: kio/global.cpp:462
+#: kio/global.cpp:486
 #, fuzzy
 msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 msgstr ""
 "<p><b>ໂຊລູຊັນທີ່ເປັນໄປໄດ້</b>:</p>"
 "<ul><li>"
 
-#: kio/global.cpp:528
+#: kio/global.cpp:552
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
@@ -1281,21 +1287,21 @@ msgstr ""
 "ການທາງເທັກນິດໃນການຂໍ "
 "ຄຳແນະນຳ"
 
-#: kio/global.cpp:531
+#: kio/global.cpp:555
 msgid "Contact the administrator of the server for further assistance."
 msgstr ""
 "ຕິດຕໍ່ຜູ້ດູແລລະບົບ "
 "ຫລືບໍລິການທາງເທັກນິກໃນການ"
 "ຂໍຮັບຄຳແນະນຳ"
 
-#: kio/global.cpp:534
+#: kio/global.cpp:558
 msgid "Check your access permissions on this resource."
 msgstr ""
 "ໂປດກວດສອບສິດທີ່ໄດ້ຮັບອະນຸ"
 "ຍາດໃຊ້ສັບພະຍາກອນນີ້ຂອງທ່າ"
 "ນ"
 
-#: kio/global.cpp:535
+#: kio/global.cpp:559
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
@@ -1304,14 +1310,14 @@ msgstr ""
 "ດຈະບໍ່ພຽງພໍໃນການທຳປະຕິບັດ"
 "ການເທີງສັບພະຍາກອນນີ້"
 
-#: kio/global.cpp:537
+#: kio/global.cpp:561
 msgid "The file may be in use (and thus locked) by another user or application."
 msgstr ""
 "ແຟ້ມອາດຈະຖືກໃຊ້ຢູ່(ແລະອາດຖ"
 "ືກລອກໄວ້) "
 "ໂດຍຜູ້ໃຊ້ຫລືແອບພິເຄຊັ້ນ"
 
-#: kio/global.cpp:539
+#: kio/global.cpp:563
 msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
@@ -1321,20 +1327,20 @@ msgstr ""
 "ັງໃຊ້ງານແຟ້ມຫລືລອກແຟ້ມໄວ້"
 "ຢູ່ຫລືບໍ่່"
 
-#: kio/global.cpp:541
+#: kio/global.cpp:565
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr ""
 "ແມມວ່າອາດຈະບໍ່ຄືກັນແລະອາດ"
 "ຈະເກີດຄວາມຜິດພາດທາງຮາດແວຂ"
 "ື້ນໄດ້"
 
-#: kio/global.cpp:543
+#: kio/global.cpp:567
 msgid "You may have encountered a bug in the program."
 msgstr ""
 "ທ່ານອາດຈະເຂົ້າຖື່ງສ່ວນທີ່"
 "ເປັນຄວາມຜິດພາດຂອງໂປຣແກຣ"
 
-#: kio/global.cpp:544
+#: kio/global.cpp:568
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
@@ -1345,7 +1351,7 @@ msgstr ""
 "ນຄວາມຜິດພາດໃນລາຍອຽດດ້ານລຸ"
 "່ມນີ້"
 
-#: kio/global.cpp:546
+#: kio/global.cpp:570
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
@@ -1355,7 +1361,7 @@ msgstr ""
 "ານມັກຈະມີເຄື່ອງມືສຳລັບໃຊ້"
 "ອັບເດດໃຫ້ຢູ່ແລ້ວ"
 
-#: kio/global.cpp:548
+#: kio/global.cpp:572
 msgid ""
 "When all else fails, please consider helping the KDE team or the third party "
 "maintainer of this software by submitting a high quality bug report. If the "
@@ -1388,13 +1394,13 @@ msgstr ""
 "ດອື່ນຯທີ່ທ່ານເຫັນວ່າມີປະໂ"
 "ຫຍດ ໃນການແກ້ໄຂຄວາມຜິດພາດ"
 
-#: kio/global.cpp:556
+#: kio/global.cpp:580
 msgid "There may have been a problem with your network connection."
 msgstr ""
 "ອາດຈະມີປັນຫາການເຊື່ອມຕໍ່ກ"
 "ັບລະບົບເຄືອຂ່າຍຂອງທ່ານ"
 
-#: kio/global.cpp:559
+#: kio/global.cpp:583
 msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
@@ -1406,7 +1412,7 @@ msgstr ""
 "ງານອິນເຕີ "
 "ເນັກໂດຍບໍ່ມີປັນຫາກມາກ່ອນ"
 
-#: kio/global.cpp:562
+#: kio/global.cpp:586
 msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
@@ -1415,56 +1421,56 @@ msgstr ""
 "ເສັ້່ນທາງສືສານລະຫວ່າງເຊີບ"
 "ເວີແລະຄອມພິວເຕີນີ້"
 
-#: kio/global.cpp:564
+#: kio/global.cpp:588
 msgid "Try again, either now or at a later time."
 msgstr ""
 "ໂປດລອງໃຫມ່ອີກຄັ້ງໃນຕອນ "
 "ຫລືໃນພາຍຫລັງ"
 
-#: kio/global.cpp:565
+#: kio/global.cpp:589
 msgid "A protocol error or incompatibility may have occurred."
 msgstr ""
 "ໂປໂຕຄອນຜິດພາດຫລືອາດຈະເກີດ"
 "ການເຂົ້າກັນບໍ່ໄດ້ຂື້ນມາ"
 
-#: kio/global.cpp:566
+#: kio/global.cpp:590
 msgid "Ensure that the resource exists, and try again."
 msgstr ""
 "ໂປດແນ່ໃຈວ່າທັບພະຍາກອນຍັງມ"
 "ີຢູ່ແລະລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:567
+#: kio/global.cpp:591
 msgid "The specified resource may not exist."
 msgstr ""
 "ທັບພະຍາກອນທີ່ກຳນົດອາດຈະຍັ"
 "ງບໍ່ມີ"
 
-#: kio/global.cpp:568
+#: kio/global.cpp:592
 msgid "You may have incorrectly typed the location."
 msgstr ""
 "ທ່ານອາດຈະພິມຕຳແຫນ່ງທີ່ຢູ່"
 "ບໍ່ຖືກຕ້ອງ"
 
-#: kio/global.cpp:569
+#: kio/global.cpp:593
 msgid "Double-check that you have entered the correct location and try again."
 msgstr ""
 "ໂປດກວດສອບຊຳ້ວ່າທ່ານໄດ້ເຕີ"
 "່ມຕຳແໜ່ງທີ່ຢູ່ທີ່ຖືກຕ້ອງແ"
 "ລ້ວແລະລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:571
+#: kio/global.cpp:595
 msgid "Check your network connection status."
 msgstr ""
 "ໂປດກວດສອບສະຖານະການເຊື່ອມຕ"
 "ໍ່ລະບົບເຄືອຂ່າຍຂອງທ່ານ"
 
-#: kio/global.cpp:575
+#: kio/global.cpp:599
 msgid "Cannot Open Resource For Reading"
 msgstr ""
 "ບໍ່ສາມາດເປີດໃຊ້ພະຍາກອນເພື"
 "່ອທຳການອ່ານໄດ້"
 
-#: kio/global.cpp:576
+#: kio/global.cpp:600
 #, fuzzy
 msgid ""
 "This means that the contents of the requested file or folder "
@@ -1477,7 +1483,7 @@ msgstr ""
 "ໄດ້ເນື່ອງຈາກບໍ່ມີສິດໃນການ"
 "ອ່ານ"
 
-#: kio/global.cpp:579
+#: kio/global.cpp:603
 #, fuzzy
 msgid "You may not have permissions to read the file or open the folder."
 msgstr ""
@@ -1485,13 +1491,13 @@ msgstr ""
 "ຟ້ມຫລືເປີດໃຊ້ໄດເລັກທໍລີນີ"
 "້"
 
-#: kio/global.cpp:585
+#: kio/global.cpp:609
 msgid "Cannot Open Resource For Writing"
 msgstr ""
 "ບໍ່ສາມາດເປີດທັບພະຍາກອນເພື"
 "່ອທຳການຂຽນໄດ້"
 
-#: kio/global.cpp:586
+#: kio/global.cpp:610
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
 "requested, because access with permission to write could not be obtained."
@@ -1502,15 +1508,15 @@ msgstr ""
 "ະຍັງບໍ່ມີສິດໃນການເຂົ້າໃຊ້"
 "ແລະຂຽນໄປໄດ້"
 
-#: kio/global.cpp:594
+#: kio/global.cpp:618
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "ບໍ່ສາມາດເລີ່ມໂປໂຕຄອນ %1 ໄດ້"
 
-#: kio/global.cpp:595
+#: kio/global.cpp:619
 msgid "Unable to Launch Process"
 msgstr "ບໍ່ສາມາດຮຽກທຳງານໂປຣເຊສໄດ້"
 
-#: kio/global.cpp:596
+#: kio/global.cpp:620
 msgid ""
 "The program on your computer which provides access to the "
 "<strong>%1</strong> protocol could not be started. This is usually due to "
@@ -1523,7 +1529,7 @@ msgstr ""
 "ໄ້ດ້ໍືຊື່ງອາດຈະເກີດຈາກປັນຫ"
 "າທາງເທັກນິກ"
 
-#: kio/global.cpp:599
+#: kio/global.cpp:623
 msgid ""
 "The program which provides compatibility with this protocol may not have "
 "been updated with your last update of KDE. This can cause the program to be "
@@ -1538,11 +1544,11 @@ msgstr ""
 "ໂປຣແຣກມລຸ້ນປະຈຸບັນທີ່ທ່ານ"
 "ໃຊ້ຢູ່ແລະບໍ່ສາມາດທຳງານໄດ້"
 
-#: kio/global.cpp:607
+#: kio/global.cpp:631
 msgid "Internal Error"
 msgstr "ຂໍ້ຜິດພາດພາຍໃນ"
 
-#: kio/global.cpp:608
+#: kio/global.cpp:632
 msgid ""
 "The program on your computer which provides access to the "
 "<strong>%1</strong> protocol has reported an internal error."
@@ -1552,14 +1558,14 @@ msgstr ""
 "ງຕ້ອງການເຂົ້າໃຊ້ງານໂປຣໂຕຣ"
 "ຄອນ <strong>%1</strong>"
 
-#: kio/global.cpp:616
+#: kio/global.cpp:640
 #, fuzzy
 msgid "Improperly Formatted URL"
 msgstr ""
 "ຮູບແບບ URL "
 "ບໍ່ຖືກຕ້ອງຫລືສົມບູນ "
 
-#: kio/global.cpp:617
+#: kio/global.cpp:641
 #, fuzzy
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource "
@@ -1583,12 +1589,12 @@ msgstr ""
 "ມ.ສວນ່ຂະຫຍາຍ?ຕົວແປ=ຄ່າ</strong>"
 "</blockquote>"
 
-#: kio/global.cpp:626
+#: kio/global.cpp:650
 #, c-format
 msgid "Unsupported Protocol %1"
 msgstr "ບໍ່ສະນັບສະນຸນໂປຣໂຕຄອນ %1"
 
-#: kio/global.cpp:627
+#: kio/global.cpp:651
 msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
 "currently installed on this computer."
@@ -1599,13 +1605,13 @@ msgstr ""
 "ຕົວປະຈຸບັນທີ່ຕິດຕັ້ງໃນຄອມ"
 "ພິວເຕີນີ้້"
 
-#: kio/global.cpp:630
+#: kio/global.cpp:654
 msgid "The requested protocol may not be supported."
 msgstr ""
 "ບໍ່ສະນັບສະນຸນໂປໂຕຄອນທີ່ຮ້"
 "ອງຂໍມາ"
 
-#: kio/global.cpp:631
+#: kio/global.cpp:655
 msgid ""
 "The versions of the %1 protocol supported by this computer and the server "
 "may be incompatible."
@@ -1615,7 +1621,7 @@ msgstr ""
 "ຄອມພິວເຕີນີ້ແລະເຊີບເວີອາດ"
 "ຈະເຂົ້າກັນລໍ່ໄດ້່"
 
-#: kio/global.cpp:633
+#: kio/global.cpp:657
 #, fuzzy
 msgid ""
 "You may perform a search on the Internet for a KDE program (called a "
@@ -1631,19 +1637,19 @@ msgstr ""
 "ືງ <a href=\"http://apps.kde.com/\">http://apps.kde.com/</a> ແລະ "
 "<a href=\"http://freshmeat.net/\">http://freshmeat.net/</a>"
 
-#: kio/global.cpp:642
+#: kio/global.cpp:666
 msgid "URL Does Not Refer to a Resource."
 msgstr ""
 "ຕຳແຫນ່ງ URL "
 "ບໍ່ໄດ້ອ້າງຖື່ງແຫລ່ງທີ່ມາ"
 
-#: kio/global.cpp:643
+#: kio/global.cpp:667
 msgid "Protocol is a Filter Protocol"
 msgstr ""
 "ໂປຣໂຕຄອນເປັນໂປຣໂຕຄອນແບບຕົ"
 "ວກອງ"
 
-#: kio/global.cpp:644
+#: kio/global.cpp:668
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource "
 "<strong>L</strong>ocator (URL) that you entered did not refer to a specific "
@@ -1653,7 +1659,7 @@ msgstr ""
 "<strong>L</strong>ທີ່ທ່ານຕື່ມບໍ່ໄດ້ອ້"
 "າງອີງຖືງແຫລ່ງ"
 
-#: kio/global.cpp:647
+#: kio/global.cpp:671
 msgid ""
 "KDE is able to communicate through a protocol within a protocol; the "
 "protocol specified is only for use in such situations, however this is not "
@@ -1672,12 +1678,12 @@ msgstr ""
 "ແລະເບິ່ງຄືຈະເປັນຄວາມຜິດພາ"
 "ດໃນການຂຽນໂປຣແກຣມ"
 
-#: kio/global.cpp:655
+#: kio/global.cpp:679
 #, c-format
 msgid "Unsupported Action: %1"
 msgstr "ບໍ່ສະຫນັບສະຫນຸນການກະທຳ: %1"
 
-#: kio/global.cpp:656
+#: kio/global.cpp:680
 msgid ""
 "The requested action is not supported by the KDE program which is "
 "implementing the <strong>%1</strong> protocol."
@@ -1688,7 +1694,7 @@ msgstr ""
 "ເຊິ່ງເປັນຕົວກຳນົດໂປຣໂຕຄອລ "
 "<strong>%1</strong>"
 
-#: kio/global.cpp:659
+#: kio/global.cpp:683
 msgid ""
 "This error is very much dependent on the KDE program. The additional "
 "information should give you more information than is available to the KDE "
@@ -1702,17 +1708,17 @@ msgstr ""
 "່ມີຢູ່ ໃນສ່ວນສະຖາປັດຕະຍະກຳ "
 "input/output ຂອງ KDE "
 
-#: kio/global.cpp:662
+#: kio/global.cpp:686
 msgid "Attempt to find another way to accomplish the same outcome."
 msgstr ""
 "ກຳລັງຫາທາງອື່ນເພື່ອໃຫ້ໄດ້"
 "ຜົນລັບແບບດຽວກັນ"
 
-#: kio/global.cpp:667
+#: kio/global.cpp:691
 msgid "File Expected"
 msgstr "ຕ້ອງການແຟ້ມ"
 
-#: kio/global.cpp:668
+#: kio/global.cpp:692
 #, fuzzy
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
@@ -1722,18 +1728,18 @@ msgstr ""
 "ມ ແຕ່ກັບພົບວ່າ  <strong>%1</strong> "
 "ເປັນໄດເຣກທໍລີ"
 
-#: kio/global.cpp:670
+#: kio/global.cpp:694
 msgid "This may be an error on the server side."
 msgstr ""
 "ອາດຈະເກີດຄວາມຜິດພາດທາງຝັ່"
 "ງເຊີບເວີ"
 
-#: kio/global.cpp:675
+#: kio/global.cpp:699
 #, fuzzy
 msgid "Folder Expected"
 msgstr "ຕ້ອງການແຟ້ມ"
 
-#: kio/global.cpp:676
+#: kio/global.cpp:700
 #, fuzzy
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
@@ -1743,19 +1749,19 @@ msgstr ""
 "ຣກທໍລີ ແຕ່ກັບພົບວ່າ  "
 "<strong>%1</strong>ເປັນແຟ້ມ"
 
-#: kio/global.cpp:683
+#: kio/global.cpp:707
 #, fuzzy
 msgid "File or Folder Does Not Exist"
 msgstr "ຍັງບໍ່ມີແຟ້ມຫລືໄດເຣກທໍລີ"
 
-#: kio/global.cpp:684
+#: kio/global.cpp:708
 #, fuzzy
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr ""
 "ແຟ້ມຫລືໄດເຣກທໍລີ <strong>%1</strong> "
 "ທີ່ກຳນົດຍັງບໍ່ມີ"
 
-#: kio/global.cpp:692
+#: kio/global.cpp:716
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
@@ -1765,26 +1771,26 @@ msgstr ""
 "ເນື່ອງຈາກມີແຟ້ມເຊິ່ງມີຊື່"
 "ດຽວກັນຢູ່ແລ້ວ"
 
-#: kio/global.cpp:694
+#: kio/global.cpp:718
 msgid "Try moving the current file out of the way first, and then try again."
 msgstr ""
 "ລອງທຳການຍ້າຍແຟ້ມປັດຈຸບັນອ"
 "ອກໄປກ່ອນ "
 "ແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:696
+#: kio/global.cpp:720
 msgid "Delete the current file and try again."
 msgstr ""
 "ລຶບແຟ້ມທີ່ໃຊ້ໃນປັດຈຸບັນ "
 "ແລະລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:697
+#: kio/global.cpp:721
 msgid "Choose an alternate filename for the new file."
 msgstr ""
 "ເລືອກຊື່ແຟ້ມເປັນຊື່ອື່ນ "
 "ສຳຫລັບແຟ້ມໃຫມ່"
 
-#: kio/global.cpp:702
+#: kio/global.cpp:726
 #, fuzzy
 msgid ""
 "The requested folder could not be created because a folder with the same "
@@ -1795,7 +1801,7 @@ msgstr ""
 "ເນື່ອງຈາກມີແຟ້ມເຊິ່ງມີຊື່"
 "ດຽວກັນຢູ່ແລ້ວ"
 
-#: kio/global.cpp:704
+#: kio/global.cpp:728
 #, fuzzy
 msgid "Try moving the current folder out of the way first, and then try again."
 msgstr ""
@@ -1803,25 +1809,25 @@ msgstr ""
 "ອກໄປກ່ອນ "
 "ແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:706
+#: kio/global.cpp:730
 #, fuzzy
 msgid "Delete the current folder and try again."
 msgstr ""
 "ລຶບແຟ້ມທີ່ໃຊ້ໃນປັດຈຸບັນ "
 "ແລະລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:707
+#: kio/global.cpp:731
 #, fuzzy
 msgid "Choose an alternate name for the new folder."
 msgstr ""
 "ເລືອກຊື່ແຟ້ມເປັນຊື່ອື່ນ "
 "ສຳຫລັບແຟ້ມໃຫມ່"
 
-#: kio/global.cpp:711
+#: kio/global.cpp:735
 msgid "Unknown Host"
 msgstr "ໂຮສຕ໌ທີ່ໍບໍ່ຮູ້ຈັກ"
 
-#: kio/global.cpp:712
+#: kio/global.cpp:736
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
 "<strong>%1</strong>, could not be located on the Internet."
@@ -1833,39 +1839,39 @@ msgstr ""
 "ບໍ່ສາມາດຫາຕຳແຫນ່ງເທິງອິນເ"
 "ຕ່ເນຕໄດ້"
 
-#: kio/global.cpp:715
+#: kio/global.cpp:739
 msgid "The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr ""
 "ຊື່ %1 ທີ່ທ່ານພີມມາ "
 "ອາດຈະບໍ່ມີຢູ່ "
 "ຫລືອາດຈະເກີດຈາກການພີມຜິດ"
 
-#: kio/global.cpp:722
+#: kio/global.cpp:746
 msgid "Access Denied"
 msgstr ""
 "ໄດ້ຮັບການປະຕິເສດໃຫ້ເຂົ້າໃ"
 "ຊ້"
 
-#: kio/global.cpp:723
+#: kio/global.cpp:747
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr ""
 "ໄດ້ຮັບການປະຕິເສດໃນການໃຊ້ງ"
 "ານຊັບພະຍາກອນ <strong>%1</strong>"
 
-#: kio/global.cpp:725 kio/global.cpp:941
+#: kio/global.cpp:749 kio/global.cpp:965
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr ""
 "ທ່ານອາດຈະລືມໃສ່ລາຍລະອຽດຫລ"
 "ືໃສ່ລາຍລະອຽດບໍ່ຖືກຕ້ອງສຳຫ"
 "ລັບການກວດສອບສິດ"
 
-#: kio/global.cpp:727 kio/global.cpp:943
+#: kio/global.cpp:751 kio/global.cpp:967
 msgid "Your account may not have permission to access the specified resource."
 msgstr ""
 "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽ"
 "ນໄປຍັງຊັບພະຍາກອນນີ້"
 
-#: kio/global.cpp:729 kio/global.cpp:945 kio/global.cpp:957
+#: kio/global.cpp:753 kio/global.cpp:969 kio/global.cpp:981
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
@@ -1875,11 +1881,11 @@ msgstr ""
 "ໄດ້ຕື່ມລາຍລະອຽດສ່ວນການກວດ"
 "ສອບສິດ ຖຶກຕ້ອງແລ້ວ"
 
-#: kio/global.cpp:735
+#: kio/global.cpp:759
 msgid "Write Access Denied"
 msgstr "ໄດ້ຮັບການປະຕິເສດໃນການຂຽນ"
 
-#: kio/global.cpp:736
+#: kio/global.cpp:760
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
@@ -1887,14 +1893,14 @@ msgstr ""
 "ໄດ້ຮັບການປະຕິເສດໃຫ້ທຳການຂ"
 "ຽນໄປຍັງແຟ້ມ <strong>%1</strong>"
 
-#: kio/global.cpp:743
+#: kio/global.cpp:767
 #, fuzzy
 msgid "Unable to Enter Folder"
 msgstr ""
 "ບໍ່ສາມາດເຂົ້າໄປຍັງໄດເຣກທໍ"
 "ລີໄດ້"
 
-#: kio/global.cpp:744
+#: kio/global.cpp:768
 #, fuzzy
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
@@ -1905,18 +1911,18 @@ msgstr ""
 "ໄດເຣກທໍລີ <strong>%1</strong> "
 "ທີ່ຮ້ອງຂໍມາ"
 
-#: kio/global.cpp:752
+#: kio/global.cpp:776
 #, fuzzy
 msgid "Folder Listing Unavailable"
 msgstr ""
 "ບໍ່ສາມາດເອີ້ນເບິ່ງພາຍໃນໄດ"
 "ເຣກທໍລີໄດ້"
 
-#: kio/global.cpp:753
+#: kio/global.cpp:777
 msgid "Protocol %1 is not a Filesystem"
 msgstr "ໂປຣໂຕຄອລ %1 ບໍ່ແມ່ນລະບົບແຟ້ມ"
 
-#: kio/global.cpp:754
+#: kio/global.cpp:778
 #, fuzzy
 msgid ""
 "This means that a request was made which requires determining the contents "
@@ -1929,11 +1935,11 @@ msgstr ""
 "ທີ່ສະຫນັບສະຫນຸນໂປຣໂຕຄອລນີ"
 "້ ບໍ່ສາມາດເຮັດເຊັ່ນນັ້ນໄດ້"
 
-#: kio/global.cpp:762
+#: kio/global.cpp:786
 msgid "Cyclic Link Detected"
 msgstr "ກວດສອບພົບລິງແບບວົນຮອບ"
 
-#: kio/global.cpp:763
+#: kio/global.cpp:787
 #, fuzzy
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
@@ -1953,7 +1959,7 @@ msgstr ""
 "ແຟ້ມທີ່ທຳການລິງໄປຍັງຕົວມັ"
 "ນເອງ ເປັນຕົ້ນ"
 
-#: kio/global.cpp:767 kio/global.cpp:789
+#: kio/global.cpp:791 kio/global.cpp:813
 msgid ""
 "Delete one part of the loop in order that it does not cause an infinite "
 "loop, and try again."
@@ -1963,11 +1969,11 @@ msgstr ""
 "ນການວົນຮອບບໍ່ຮູ້ຈົບ "
 "ແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:776
+#: kio/global.cpp:800
 msgid "Request Aborted By User"
 msgstr "ຕ້ອງການຍົກເລີກໂດຍຜູ້ໃຊ້"
 
-#: kio/global.cpp:777 kio/global.cpp:1070
+#: kio/global.cpp:801 kio/global.cpp:1094
 msgid "The request was not completed because it was aborted."
 msgstr ""
 "ບໍ່ສາມາດເຮັດສິ່ງທີ່ຮ້ອງຂໍ"
@@ -1975,19 +1981,19 @@ msgstr ""
 "ເນື່ອງຈາກມັນຖືກຍົກເລີກເສຍ"
 "ກ່ອນ"
 
-#: kio/global.cpp:779 kio/global.cpp:973 kio/global.cpp:1072
+#: kio/global.cpp:803 kio/global.cpp:997 kio/global.cpp:1096
 msgid "Retry the request."
 msgstr ""
 "ພະຍາຍາມເຮັດສິ່ງທີ່ຮ້ອງຂໍມ"
 "າ"
 
-#: kio/global.cpp:783
+#: kio/global.cpp:807
 msgid "Cyclic Link Detected During Copy"
 msgstr ""
 "ພົບລິງແບບວົນຮອບຂະນະທຳການຄ"
 "ັດລອກ"
 
-#: kio/global.cpp:784
+#: kio/global.cpp:808
 #, fuzzy
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
@@ -2007,17 +2013,17 @@ msgstr ""
 "ແຟ້ມທີ່ທຳການລິງໄປຍັງຕົວມັ"
 "ນເອງ ເປັນຕົ້ນ"
 
-#: kio/global.cpp:794
+#: kio/global.cpp:818
 msgid "Could Not Create Network Connection"
 msgstr ""
 "ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ເ"
 "ຄືອຂ່າຍໄດ້"
 
-#: kio/global.cpp:795
+#: kio/global.cpp:819
 msgid "Could Not Create Socket"
 msgstr "ບໍ່ສາມາດສ້າງຊັອກເກັຕໄດ້"
 
-#: kio/global.cpp:796
+#: kio/global.cpp:820
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
@@ -2027,7 +2033,7 @@ msgstr ""
 "ສຳຫລັບການສື່ສານໃນເຄືອຂ່າຍ "
 "(ຊັອກເກັຕ) ຕາມຕ້ອງການໄດ້"
 
-#: kio/global.cpp:798 kio/global.cpp:911 kio/global.cpp:922 kio/global.cpp:931
+#: kio/global.cpp:822 kio/global.cpp:935 kio/global.cpp:946 kio/global.cpp:955
 msgid ""
 "The network connection may be incorrectly configured, or the network "
 "interface may not be enabled."
@@ -2038,13 +2044,13 @@ msgstr ""
 "ຫລືອຸປະກອນເຄືອຂ່າຍອາດຈະຍັ"
 "ງບໍ່ເປີດໃຊ້ງານ"
 
-#: kio/global.cpp:804
+#: kio/global.cpp:828
 msgid "Connection to Server Refused"
 msgstr ""
 "ການເຊື່ອມຕໍ່ໄປຍັງເຊີບເວີຖ"
 "ືກປະຕິເສດ"
 
-#: kio/global.cpp:805
+#: kio/global.cpp:829
 msgid ""
 "The server <strong>%1</strong> refused to allow this computer to make a "
 "connection."
@@ -2053,7 +2059,7 @@ msgstr ""
 "ປະຕິເສດການຂໍອະນຸຍາດເຂົ້າໃ"
 "ຊ້ງານຂອງຄອມພິວເຕີນີ້"
 
-#: kio/global.cpp:807
+#: kio/global.cpp:831
 msgid ""
 "The server, while currently connected to the Internet, may not be configured "
 "to allow requests."
@@ -2064,7 +2070,7 @@ msgstr ""
 "ອາດຈະຍັງບໍ່ໄດ້ປັບແຕ່ງໃຫ້ຮ"
 "ັບການເຊື່ອມຕໍ່ທີ່ຮ້ອງຂໍໄປ"
 
-#: kio/global.cpp:809
+#: kio/global.cpp:833
 msgid ""
 "The server, while currently connected to the Internet, may not be running "
 "the requested service (%1)."
@@ -2076,7 +2082,7 @@ msgstr ""
 "ັບການເຊື່ອມຕໍ່ບໍລິການທີ່ຮ"
 "້ອງຂໍໄປ (%1)"
 
-#: kio/global.cpp:811
+#: kio/global.cpp:835
 msgid ""
 "A network firewall (a device which restricts Internet requests), either "
 "protecting your network or the network of the server, may have intervened, "
@@ -2089,13 +2095,13 @@ msgstr ""
 "ອາດຈະບໍ່ອະນຸຍາດໃຫ້ມີການເຊ"
 "ື່ອມຕໍ່ທີ່ຮ້ອງຂໍໄປ"
 
-#: kio/global.cpp:818
+#: kio/global.cpp:842
 msgid "Connection to Server Closed Unexpectedly"
 msgstr ""
 "ການເຊື່ອມຕໍ່ໄປຍັງເຊີບເວີຢ"
 "ຸດຕິຢ່າງບໍ່ຄາດຄິດ"
 
-#: kio/global.cpp:819
+#: kio/global.cpp:843
 msgid ""
 "Although a connection was established to <strong>%1</strong>"
 ", the connection was closed at an unexpected point in the communication."
@@ -2106,7 +2112,7 @@ msgstr ""
 "ານຍຸຕິການເຊື່ອມຕໍ່ໃນາງຈຸດ"
 "ຂອງການສື່ສາມຢ່າງບໍ່ຄາດຄິດ"
 
-#: kio/global.cpp:822
+#: kio/global.cpp:846
 msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
@@ -2116,19 +2122,19 @@ msgstr ""
 "ອມຕໍ່ຈາກການໂຕ້ຕອບທີ່ຜິດພາ"
 "ດ"
 
-#: kio/global.cpp:828
+#: kio/global.cpp:852
 #, fuzzy
 msgid "URL Resource Invalid"
 msgstr "ແຫລ່ງ URL ບໍ່ຖືກຕອ້ງ"
 
-#: kio/global.cpp:829
+#: kio/global.cpp:853
 msgid "Protocol %1 is not a Filter Protocol"
 msgstr ""
 "ໂປໂຕຄອນ %1 "
 "ບໍ່ແມ່ນໃຊ້ໂປຣໂຄດຄອນແບບຕົວ"
 "ກອງ"
 
-#: kio/global.cpp:830
+#: kio/global.cpp:854
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource "
 "<strong>L</strong>ocator (URL) that you entered did not refer to a valid "
@@ -2140,7 +2146,7 @@ msgstr ""
 "ົ້າຖືງສັບພະຍາກອນທີ່ກຳນົດ<stro"
 "ng>%1%2</strong>"
 
-#: kio/global.cpp:835
+#: kio/global.cpp:859
 msgid ""
 "KDE is able to communicate through a protocol within a protocol. This "
 "request specified a protocol be used as such, however this protocol is not "
@@ -2158,17 +2164,17 @@ msgstr ""
 "ບິ່ງວ່າຈະເປັນຂໍ້ຜິດພາດຈາກ"
 "ການຂຽນໂປຣແກຣມ"
 
-#: kio/global.cpp:843
+#: kio/global.cpp:867
 msgid "Unable to Initialize Input/Output Device"
 msgstr ""
 "ບໍ່ສາມາດເລີ່ມການໃຊ້ອຸປະກອ"
 "ນນຳເຂົ້າ/ສົ່ງອອກ"
 
-#: kio/global.cpp:844
+#: kio/global.cpp:868
 msgid "Could Not Mount Device"
 msgstr "ບໍ່ສາມາດເມາອຸປະກອນໄດ້"
 
-#: kio/global.cpp:845
+#: kio/global.cpp:869
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
 "error was: <strong>%1</strong>"
@@ -2177,7 +2183,7 @@ msgstr ""
 "ອຸປະກອນທີ່ຮ້ອງຂໍມາໄດ້ຊື່ງ"
 "ລາຍງານຄວາມຜິດພາດຄື:<strong>%1</strong>"
 
-#: kio/global.cpp:848
+#: kio/global.cpp:872
 msgid ""
 "The device may not be ready, for example there may be no media in a "
 "removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
@@ -2195,7 +2201,7 @@ msgstr ""
 "ອຸປະກອນດັ່ງກ່າວຍັງບໍ່ໄດ້ທ"
 "ຳການເຊື່ອມຕໍ່"
 
-#: kio/global.cpp:852
+#: kio/global.cpp:876
 msgid ""
 "You may not have permissions to initialize (\"mount\") the device. On UNIX "
 "systems, often system administrator privileges are required to initialize a "
@@ -2209,7 +2215,7 @@ msgstr ""
 "ອາດຈະຫວງຫ້າມການເຂົ້າໃຊ້ງາ"
 "ນອະປະກອນບາງຕົວ"
 
-#: kio/global.cpp:856
+#: kio/global.cpp:880
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
@@ -2222,19 +2228,19 @@ msgstr ""
 "ກໍຕ້ອງເຊື່ອມຕໍ່ແລະເປີດແລ້"
 "ວ ຈາກນັ້ນລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:862
+#: kio/global.cpp:886
 msgid "Unable to Uninitialize Input/Output Device"
 msgstr ""
 "ບໍ່ສາມາດຍົກເລີກການເອີ້ນໃຊ"
 "້ອຸປະກອນນຳເຂົ້າ/ສົ່ງອອກໄດ້"
 
-#: kio/global.cpp:863
+#: kio/global.cpp:887
 msgid "Could Not Unmount Device"
 msgstr ""
 "ບໍ່ສາມາດຍົກເລີກການເມົານທ໌"
 "ອຸປະກອນໄດ້"
 
-#: kio/global.cpp:864
+#: kio/global.cpp:888
 msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
 "reported error was: <strong>%1</strong>"
@@ -2244,7 +2250,7 @@ msgstr ""
 "ນທີ່ຮ້ອງຂໍມາໄດ້ຊື່ງລາຍງານ"
 "ຄວາມຜິດພາດຄື: <strong>%1</strong>"
 
-#: kio/global.cpp:867
+#: kio/global.cpp:891
 msgid ""
 "The device may be busy, that is, still in use by another application or "
 "user. Even such things as having an open browser window on a location on "
@@ -2261,7 +2267,7 @@ msgstr ""
 "ຸປະກອນຢູ່ໃນສະຖານະຖືກໃຊ້ງາ"
 "ນຢູ່"
 
-#: kio/global.cpp:871
+#: kio/global.cpp:895
 msgid ""
 "You may not have permissions to uninitialize (\"unmount\") the device. On "
 "UNIX systems, system administrator privileges are often required to "
@@ -2275,7 +2281,7 @@ msgstr ""
 "້ອງການໃຫ້ມີການຍົກເລີກການໃ"
 "ຊ້ງານອຸປະກອນ"
 
-#: kio/global.cpp:875
+#: kio/global.cpp:899
 msgid "Check that no applications are accessing the device, and try again."
 msgstr ""
 "ກະລຸນາກວດສອບວ່າບໍ່ມີແອບພິ"
@@ -2283,13 +2289,13 @@ msgstr ""
 "ງານອຸປະກອນຢູ່ແລ້ວລອງໃຫມ່ອ"
 "ີກຄັ້ງ"
 
-#: kio/global.cpp:880
+#: kio/global.cpp:904
 msgid "Cannot Read From Resource"
 msgstr ""
 "ບໍ່ສາມາດອ່ານຈາກສັບພະຍາກອນ"
 "ໄດ້"
 
-#: kio/global.cpp:881
+#: kio/global.cpp:905
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while reading the contents of the resource."
@@ -2300,20 +2306,20 @@ msgstr ""
 "ພະຍາຍາມອ່ານເນື້ອຫາພາຍໃນສັ"
 "ບພະຍາກອນນັ້ນ"
 
-#: kio/global.cpp:884
+#: kio/global.cpp:908
 msgid "You may not have permissions to read from the resource."
 msgstr ""
 "ທ່ານອາດຈະຍັງບໍ່ໄດ້ຮັບອະນຸ"
 "ຍາດໃຫ້ອ່ານຈາກສັບພະຍາກອນນິ"
 "້"
 
-#: kio/global.cpp:893
+#: kio/global.cpp:917
 msgid "Cannot Write to Resource"
 msgstr ""
 "ບໍ່ສາມາດຂຽນໄປຍັງສັບພະຍາກອ"
 "ນໄດ້"
 
-#: kio/global.cpp:894
+#: kio/global.cpp:918
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while writing to the resource."
@@ -2324,23 +2330,23 @@ msgstr ""
 "ນເມື່ອມີການຂຽນໄປຍັງສັບພະຍ"
 "າກອນນັ້ນ"
 
-#: kio/global.cpp:897
+#: kio/global.cpp:921
 msgid "You may not have permissions to write to the resource."
 msgstr ""
 "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽ"
 "ນໄປຍັງສັບພະຍາກອນ"
 
-#: kio/global.cpp:906 kio/global.cpp:917
+#: kio/global.cpp:930 kio/global.cpp:941
 msgid "Could Not Listen for Network Connections"
 msgstr ""
 "ບໍ່ສາມາດຖ້າຮັບການເຊື່ອມຕໍ"
 "່ຂອງເຄືອຂ່າຍໄດ້"
 
-#: kio/global.cpp:907
+#: kio/global.cpp:931
 msgid "Could Not Bind"
 msgstr "ບໍ່ສາມາດ bind ໄດ້"
 
-#: kio/global.cpp:908 kio/global.cpp:919
+#: kio/global.cpp:932 kio/global.cpp:943
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be established to listen for incoming "
@@ -2353,19 +2359,19 @@ msgstr ""
 "ເພື່ອຖ້າຮັບການເຊື່ອມຕໍ່ເຄ"
 "ື່ອຂ່າຍທີ່ມີເຂົ້າມາໄດ້"
 
-#: kio/global.cpp:918
+#: kio/global.cpp:942
 msgid "Could Not Listen"
 msgstr ""
 "ບໍ່ສາມາດຖ້າຮັບການເຊື່ີອມຕ"
 "ໍ່ໄດ້"
 
-#: kio/global.cpp:928
+#: kio/global.cpp:952
 msgid "Could Not Accept Network Connection"
 msgstr ""
 "ບໍ່ສາມາດຍອກຮັບການເຊື່ອມຕໍ"
 "່ເຄືອຂ່າຍໄດ້"
 
-#: kio/global.cpp:929
+#: kio/global.cpp:953
 msgid ""
 "This is a fairly technical error in which an error occurred while attempting "
 "to accept an incoming network connection."
@@ -2377,37 +2383,37 @@ msgstr ""
 "ການເຊື່ອມຕໍ່ລະບົບເຄືອຂ່າຍ"
 "ທີ່ມີເຂົ້າມາ"
 
-#: kio/global.cpp:933
+#: kio/global.cpp:957
 msgid "You may not have permissions to accept the connection."
 msgstr ""
 "ທ່ານອາດຈະບໍ່ໄດ້ຮັບອະນຸຍາດ"
 "ໃຫ້ສາມາດຮັບການເຊື່ອມຕໍ່"
 
-#: kio/global.cpp:938
+#: kio/global.cpp:962
 #, c-format
 msgid "Could Not Login: %1"
 msgstr "ບໍ່ສາມາດລອກອິນ: %1 ໄດ້"
 
-#: kio/global.cpp:939
+#: kio/global.cpp:963
 msgid "An attempt to login to perform the requested operation was unsuccessful."
 msgstr ""
 "ຄວາມພະຍາຍາມໃນການລອກອິນເພື"
 "່ອປະຕິບັດສິ່ງທີ່ຮ້ອງຂໍບໍ່"
 "ສຳເລັດ"
 
-#: kio/global.cpp:950
+#: kio/global.cpp:974
 msgid "Could Not Determine Resource Status"
 msgstr ""
 "ບໍ່ສາມາດຮຽກສະຖານະຂອງສັບພະ"
 "ຍາກອນໄດ້"
 
-#: kio/global.cpp:951
+#: kio/global.cpp:975
 msgid "Could Not Stat Resource"
 msgstr ""
 "ບໍ່ສາມາດຫາສະຖານະຂອງສັບພະຍ"
 "າກອນໄດ້"
 
-#: kio/global.cpp:952
+#: kio/global.cpp:976
 msgid ""
 "An attempt to determine information about the status of the resource "
 "<strong>%1</strong>, such as the resource name, type, size, etc., was "
@@ -2418,71 +2424,71 @@ msgstr ""
 "ເຊັ່ນ ຊື່ ປະເພດ ຂະຫນາດ "
 "ເປັນຕົ້ນ ບໍ່ສຳເລັດ"
 
-#: kio/global.cpp:955
+#: kio/global.cpp:979
 msgid "The specified resource may not have existed or may not be accessible."
 msgstr ""
 "ສັບພະຍາກອນທີ່ກຳນົດຍັງບໍ່ມ"
 "ີຫລືບໍ່ສາມາດເຂົ້າໃຊ້ງານໄດ"
 "້"
 
-#: kio/global.cpp:963
+#: kio/global.cpp:987
 msgid "Could Not Cancel Listing"
 msgstr ""
 "ບໍ່ສາມາດຍົກເລີກການຄອຍຮັບກ"
 "ານເຊື່ອມຕໍ່ໄດ້"
 
-#: kio/global.cpp:964
+#: kio/global.cpp:988
 msgid "FIXME: Document this"
 msgstr ""
 "ແກ້ໄຂຂ້ອຍ: "
 "ສ້າງເອກະສານທີ່ນີ້"
 
-#: kio/global.cpp:968
+#: kio/global.cpp:992
 #, fuzzy
 msgid "Could Not Create Folder"
 msgstr "ບໍ່ສາມາດສ້າງຊັອກເກັຕໄດ້"
 
-#: kio/global.cpp:969
+#: kio/global.cpp:993
 #, fuzzy
 msgid "An attempt to create the requested folder failed."
 msgstr ""
 "ລົ້ມເຫລວໃນການພະຍາຍາມສ້າງໄ"
 "ດເລັກທໍລີທີ່ຮ້ອງຂໍມາ"
 
-#: kio/global.cpp:970
+#: kio/global.cpp:994
 #, fuzzy
 msgid "The location where the folder was to be created may not exist."
 msgstr ""
 "ຕຳແຫນ່ງທີ່ໄດເລັກທໍລີຈະຖືກ"
 "ສ້າງຍັງບໍ່ມີຢ"
 
-#: kio/global.cpp:977
+#: kio/global.cpp:1001
 #, fuzzy
 msgid "Could Not Remove Folder"
 msgstr "ບໍ່ສາມາດລືບໄດເລັກທໍລີໄດ້"
 
-#: kio/global.cpp:978
+#: kio/global.cpp:1002
 #, fuzzy
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
 msgstr ""
 "ລົ້ມເຫລວໃນການພະຍາຍາມລຶບໄດ"
 "ເລັກທໍລີ <strong>%1</strong>"
 
-#: kio/global.cpp:980
+#: kio/global.cpp:1004
 #, fuzzy
 msgid "The specified folder may not exist."
 msgstr ""
 "ໄດເລັກທໍລີທີ່ກຳນົດຍັງບໍ່ມ"
 "ີຢູ່"
 
-#: kio/global.cpp:981
+#: kio/global.cpp:1005
 #, fuzzy
 msgid "The specified folder may not be empty."
 msgstr ""
 "ໄດເລັກທໍລີທີ່ກຳນົດອາດຈະບໍ"
 "່ແມ່ນໄດເລັກທໍລີວ່າງ"
 
-#: kio/global.cpp:984
+#: kio/global.cpp:1008
 #, fuzzy
 msgid "Ensure that the folder exists and is empty, and try again."
 msgstr ""
@@ -2490,13 +2496,13 @@ msgstr ""
 "ໍລີຢູ່ແລະເປັນໄດເລັກທໍລີວ່"
 "າງຈາກນັ້ນລອງໃຫມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:989
+#: kio/global.cpp:1013
 msgid "Could Not Resume File Transfer"
 msgstr ""
 "ບໍ່ສາມາດກັບໄປທຳການຮັບສົ່ງ"
 "ແຟ້ມຕໍ່ໄດ້"
 
-#: kio/global.cpp:990
+#: kio/global.cpp:1014
 msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong>"
 " be resumed at a certain point of the transfer. This was not possible."
@@ -2507,39 +2513,39 @@ msgstr ""
 "%1</strong> ຄ້າງໄວ້ "
 "ປາກົດວ່າບໍ່ສາມາດທຳງານໄດ້"
 
-#: kio/global.cpp:993
+#: kio/global.cpp:1017
 msgid "The protocol, or the server, may not support file resuming."
 msgstr ""
 "ໂປໂຕຄອນຫລືເຊີບເວີອາດຈະບໍ່"
 "ສະນັບສະນຸນການທຳງານຄ້າງຢູ່"
 "ກັບແຟ້ມ"
 
-#: kio/global.cpp:995
+#: kio/global.cpp:1019
 msgid "Retry the request without attempting to resume transfer."
 msgstr ""
 "ພະຍາຍາມເຮັດສິ່ງທີ່ຮ້ອງຂໍໃ"
 "ຫມ່ໂດຍບໍ່ກັບມາທຳງານຕໍ່ໃນຈ"
 "ຸດທີ່ຄ້າງໄວ້"
 
-#: kio/global.cpp:1000
+#: kio/global.cpp:1024
 msgid "Could Not Rename Resource"
 msgstr ""
 "ບໍ່ສາມາດປ່ຽນຊື່ສັບພະຍາກອນ"
 "ໄດ້"
 
-#: kio/global.cpp:1001
+#: kio/global.cpp:1025
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr ""
 "ລົ້ມເຫລວໃນການພະຍາຍາມປ່ຽນຊ"
 "ື່ສັບພະຍາກອນ <strong>%1</strong>"
 
-#: kio/global.cpp:1009
+#: kio/global.cpp:1033
 msgid "Could Not Alter Permissions of Resource"
 msgstr ""
 "ບໍ່ສາມາດປ່ຽນສິດທີອະນຸຍາດຂ"
 "ອງສັບພະຍາກອນໄດ້"
 
-#: kio/global.cpp:1010
+#: kio/global.cpp:1034
 msgid ""
 "An attempt to alter the permissions on the specified resource "
 "<strong>%1</strong> failed."
@@ -2548,23 +2554,23 @@ msgstr ""
 "ນຸຍາດຂອງສັບພະຍາກອນ<strong>%1</strong> "
 "ທີ່ກຳນົດ"
 
-#: kio/global.cpp:1017
+#: kio/global.cpp:1041
 msgid "Could Not Delete Resource"
 msgstr "ບໍ່ສາມາດລືບສັບພະຍາກອນໄດ້"
 
-#: kio/global.cpp:1018
+#: kio/global.cpp:1042
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr ""
 "ລົ້ມເຫລວໃນການພະຍາຍາມລືບສັ"
 "ບພະຍາກອນ <strong>%1</strong>"
 
-#: kio/global.cpp:1025
+#: kio/global.cpp:1049
 msgid "Unexpected Program Termination"
 msgstr ""
 "ກະລຸນາຈົບການທຳງານຢ່າງບໍ່ຄ"
 "າດຄິດ"
 
-#: kio/global.cpp:1026
+#: kio/global.cpp:1050
 msgid ""
 "The program on your computer which provides access to the "
 "<strong>%1</strong> protocol has unexpectedly terminated."
@@ -2574,11 +2580,11 @@ msgstr ""
 "trong>%1</strong> "
 "ຈົບການທຳງານຢ່າງບໍ່ຄາດຄິດ"
 
-#: kio/global.cpp:1034
+#: kio/global.cpp:1058
 msgid "Out of Memory"
 msgstr "ຫນ່ວຍຄວາມຈຳບໍ່ພງງພໍ"
 
-#: kio/global.cpp:1035
+#: kio/global.cpp:1059
 msgid ""
 "The program on your computer which provides access to the "
 "<strong>%1</strong> protocol could not obtain the memory required to "
@@ -2591,11 +2597,11 @@ msgstr ""
 "ຈາກໜວ່ຍຄວາມຈຳທີ່ຕ້ອງການໃຊ"
 "້ມີບໍ່ພຽງພໍ"
 
-#: kio/global.cpp:1043
+#: kio/global.cpp:1067
 msgid "Unknown Proxy Host"
 msgstr "ບໍ່ຮູ້ຈັກໂຫສພອກຊີ"
 
-#: kio/global.cpp:1044
+#: kio/global.cpp:1068
 msgid ""
 "While retrieving information about the specified proxy host, "
 "<strong>%1</strong>, an Unknown Host error was encountered. An unknown host "
@@ -2611,7 +2617,7 @@ msgstr ""
 "ໂຫສດັ່ງກາ່ວອາດຈະບໍ່ມີຢູ່ເ"
 "ທີງອິນເຕີເນັດ"
 
-#: kio/global.cpp:1048
+#: kio/global.cpp:1072
 #, fuzzy
 msgid ""
 "There may have been a problem with your network configuration, specifically "
@@ -2626,20 +2632,20 @@ msgstr ""
 "ານໂດຍສະເພາະສ່ວນຊື່ໂຫສຂອງພ"
 "ອກຊີ"
 
-#: kio/global.cpp:1052
+#: kio/global.cpp:1076
 msgid "Double-check your proxy settings and try again."
 msgstr ""
 "ໂປດກວດສອບການຕັ້ງຄ່າພອກຊີຂ"
 "ອງທ່ານຢ່າງຮອບຄອບແລ້ວລອງໃຫ"
 "ມ່ອີກຄັ້ງ"
 
-#: kio/global.cpp:1057
+#: kio/global.cpp:1081
 msgid "Authentication Failed: Method %1 Not Supported"
 msgstr ""
 "ການກວດສອບສິດລົ້ມເຫລວບໍ່ສະ"
 "ນັບສະນຸນການກວດສອບก %1"
 
-#: kio/global.cpp:1059
+#: kio/global.cpp:1083
 #, c-format
 msgid ""
 "Although you may have supplied the correct authentication details, the "
@@ -2656,7 +2662,7 @@ msgstr ""
 "ສະນຸນໃຫ້ໃຊ້ຈາກໂປໂຕຄອນ  %1 "
 "ຂອງໂປຣແກຣ KDE "
 
-#: kio/global.cpp:1063
+#: kio/global.cpp:1087
 msgid ""
 "Please file a bug at <a "
 "href=\"http://bugs.kde.org/\">http://bugs.kde.org/</a> to inform the KDE "
@@ -2668,17 +2674,17 @@ msgstr ""
 "ໄດ້ຮູ້ເຖີງວີທີ່ການກວດສອບສ"
 "ິດທີ່ຍັງບໍ່ສະນັບສະນຸນ"
 
-#: kio/global.cpp:1069
+#: kio/global.cpp:1093
 msgid "Request Aborted"
 msgstr ""
 "ສິ່ງທີ່ຮ້ອງຂໍມາຖືກຍົກເລີກ"
 "ແລ້ວ"
 
-#: kio/global.cpp:1076
+#: kio/global.cpp:1100
 msgid "Internal Error in Server"
 msgstr "ເກີດຂໍ້ຜິດພາດພາຍໃນເຊີບເວີ"
 
-#: kio/global.cpp:1077
+#: kio/global.cpp:1101
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
 "protocol has reported an internal error: %0."
@@ -2688,7 +2694,7 @@ msgstr ""
 "ໄດ້ລາຍງານຄວາມຜິດພາດພາຍໃນວ"
 "່າ: %0"
 
-#: kio/global.cpp:1080
+#: kio/global.cpp:1104
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
 "consider submitting a full bug report as detailed below."
@@ -2700,14 +2706,14 @@ msgstr ""
 "ດການເກີດຂໍ້ຜິດພາດທີ່ສົມບູ"
 "ນດັງລາຍລະອຽດດ້ານລຸ່ມນີ້"
 
-#: kio/global.cpp:1083
+#: kio/global.cpp:1107
 msgid "Contact the administrator of the server to advise them of the problem."
 msgstr ""
 "ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂ"
 "ອງເຊີບເວີເພື່ອແຈ້ງໃຫ້ຮູ້ຖ"
 "ືງປັນຫາທີ່ເກີດຂື້ນ"
 
-#: kio/global.cpp:1085
+#: kio/global.cpp:1109
 #, fuzzy
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
@@ -2719,11 +2725,11 @@ msgstr ""
 "ໃຫ້ທຳການລາຍງານຄວາມຜິດພາດໄ"
 "ປຍັງເຂົາໂດຍຕົງ"
 
-#: kio/global.cpp:1090
+#: kio/global.cpp:1114
 msgid "Timeout Error"
 msgstr "ຂໍ້ຜິດພາດຈາກການຫມົດເວລາ"
 
-#: kio/global.cpp:1091
+#: kio/global.cpp:1115
 msgid ""
 "Although contact was made with the server, a response was not received "
 "within the amount of time allocated for the request as "
@@ -2755,18 +2761,18 @@ msgstr ""
 "ໂດຍເລືອກ ລະບົບເຄືອຂ່າຍ-> "
 "ປັບແຕ່ງ"
 
-#: kio/global.cpp:1102
+#: kio/global.cpp:1126
 msgid "The server was too busy responding to other requests to respond."
 msgstr ""
 "ເຊີບເວີບໍ່ວ່າງທີ່ຈະຕອບກັບ"
 "ມາຍັງສ່ວນທີ່ຣ້ອງຂໍເຂົ້່າມ"
 "າ"
 
-#: kio/global.cpp:1108
+#: kio/global.cpp:1132
 msgid "Unknown Error"
 msgstr "ຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"
 
-#: kio/global.cpp:1109
+#: kio/global.cpp:1133
 msgid ""
 "The program on your computer which provides access to the "
 "<strong>%1</strong> protocol has reported an unknown error: %2."
@@ -2776,13 +2782,13 @@ msgstr ""
 "ໄດ້ເກີດຄວາມຜິດພາດທີ່ບໍຮູ້"
 "ຈັກ: %2"
 
-#: kio/global.cpp:1117
+#: kio/global.cpp:1141
 msgid "Unknown Interruption"
 msgstr ""
 "ບໍ່ຮູ້ຈັກການອີນເຕີເນັດທີ່"
 "ເກີດຂື້ນ"
 
-#: kio/global.cpp:1118
+#: kio/global.cpp:1142
 msgid ""
 "The program on your computer which provides access to the "
 "<strong>%1</strong> protocol has reported an interruption of an unknown "
@@ -2794,13 +2800,13 @@ msgstr ""
 "ໄດ້ລາຍງານຄວາມຜິດພາດຂອງການ"
 "ອິນເຕີລັບທີ່ບໍ່ຮູ້ຈັກ: %2"
 
-#: kio/global.cpp:1126
+#: kio/global.cpp:1150
 msgid "Could Not Delete Original File"
 msgstr ""
 "ບໍ່ສາມາດລືບແຟ້ມດັ່ງເດີມໄດ"
 "้້"
 
-#: kio/global.cpp:1127
+#: kio/global.cpp:1151
 msgid ""
 "The requested operation required the deleting of the original file, most "
 "likely at the end of a file move operation. The original file "
@@ -2812,13 +2818,13 @@ msgstr ""
 "ແຕ່ບໍ່ສາມາດລືບແຟ້ມດັ່ງເດີ"
 "ມ<strong>%1</strong> ໄດ້"
 
-#: kio/global.cpp:1136
+#: kio/global.cpp:1160
 msgid "Could Not Delete Temporary File"
 msgstr ""
 "ບໍ່ສາມາດລືບແຟ້ມຊົ່ວຄາວໄດ້"
 "้"
 
-#: kio/global.cpp:1137
+#: kio/global.cpp:1161
 msgid ""
 "The requested operation required the creation of a temporary file in which "
 "to save the new file while being downloaded. This temporary file "
@@ -2830,13 +2836,13 @@ msgstr ""
 "ດາວໂລດແລ້ວແຕ່ບໍ່ສາມາດລືບແ"
 "ຟ້ມຊົ່ວຄາວ <strong>%1</strong> ໄດ້"
 
-#: kio/global.cpp:1146
+#: kio/global.cpp:1170
 msgid "Could Not Rename Original File"
 msgstr ""
 "ບໍ່ສາມາດປ່ຽນຊື່ແຟ້ມດັ່ງເດ"
 "ີມໄດ້"
 
-#: kio/global.cpp:1147
+#: kio/global.cpp:1171
 msgid ""
 "The requested operation required the renaming of the original file "
 "<strong>%1</strong>, however it could not be renamed."
@@ -2847,13 +2853,13 @@ msgstr ""
 "ແຕ່ບໍ່ສາມາດປ່ຽນຊື່ໄດ້แต่ไ"
 "ม่สามารถเปลี่ยน"
 
-#: kio/global.cpp:1155
+#: kio/global.cpp:1179
 msgid "Could Not Rename Temporary File"
 msgstr ""
 "ບໍ່ສາມາດປ່ຽນຊື່ແຟ້ມຊົ່ວຄາ"
 "ວໄດ້"
 
-#: kio/global.cpp:1156
+#: kio/global.cpp:1180
 msgid ""
 "The requested operation required the creation of a temporary file "
 "<strong>%1</strong>, however it could not be created."
@@ -2862,31 +2868,31 @@ msgstr ""
 "ການຈະສ້າງແຟ້ມຊົ່ວຄາວ<strong>"
 "%1</strong>ແຕ່ບໍ່ສາມາດສ້າງໄດ้້"
 
-#: kio/global.cpp:1164
+#: kio/global.cpp:1188
 msgid "Could Not Create Link"
 msgstr "ບໍ່ສາມາດສ້າງລີງໄດ້"
 
-#: kio/global.cpp:1165
+#: kio/global.cpp:1189
 msgid "Could Not Create Symbolic Link"
 msgstr ""
 "ບໍ່ສາມາດສ້າງລີງແບບສັນຍາລັ"
 "ກໄດ້"
 
-#: kio/global.cpp:1166
+#: kio/global.cpp:1190
 msgid "The requested symbolic link %1 could not be created."
 msgstr ""
 "ບໍ່ສາມາດສ້າງລີງແບບສັນຍາລັ"
 "ກ %1 ທີ່ຮ້ອງຂໍໄດ້"
 
-#: kio/global.cpp:1173
+#: kio/global.cpp:1197
 msgid "No Content"
 msgstr "ເນື້ອຫາ"
 
-#: kio/global.cpp:1178
+#: kio/global.cpp:1202
 msgid "Disk Full"
 msgstr "ດິສເຕັມ"
 
-#: kio/global.cpp:1179
+#: kio/global.cpp:1203
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
 "inadequate disk space."
@@ -2897,7 +2903,7 @@ msgstr ""
 "ຈະຍັງບໍ່ມີສິດໃນ "
 "ການຂ້າໃຊ້ແລະຂຽນໄປໄດ້"
 
-#: kio/global.cpp:1181
+#: kio/global.cpp:1205
 msgid ""
 "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
 "archiving files to removable media storage such as CD-Recordable discs; or "
@@ -2907,7 +2913,7 @@ msgstr ""
 "archiving files to removable media storage such as CD-Recordable discs; or "
 "3) obtain more storage capacity."
 
-#: kio/global.cpp:1188
+#: kio/global.cpp:1212
 #, fuzzy
 msgid "Source and Destination Files Identical"
 msgstr ""
@@ -2915,7 +2921,7 @@ msgstr ""
 "ຟ້ມດ່ຽວກັນ\n"
 "%1"
 
-#: kio/global.cpp:1189
+#: kio/global.cpp:1213
 #, fuzzy
 msgid ""
 "The operation could not be completed because the source and destination "
@@ -2925,14 +2931,14 @@ msgstr ""
 "ຟ້ມດ່ຽວກັນ\n"
 "%1"
 
-#: kio/global.cpp:1191
+#: kio/global.cpp:1215
 #, fuzzy
 msgid "Choose a different filename for the destination file."
 msgstr ""
 "ເລືອກຊື່ແຟ້ມເປັນຊື່ອື່ນສຳ"
 "ລັບແຟ້ມໃຫມ່"
 
-#: kio/global.cpp:1202
+#: kio/global.cpp:1226
 msgid "Undocumented Error"
 msgstr "ຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"
 
@@ -3043,42 +3049,42 @@ msgstr ""
 "ບໍ່ສາມາດຄົ້ນຫາໂປຣແກຣມ \"%1\" "
 "ໄດ້"
 
-#: kio/kfileitem.cpp:646
+#: kio/kfileitem.cpp:643
 msgid "Symbolic Link"
 msgstr "ລິງແບບສັນຍາລັກ"
 
-#: kio/kfileitem.cpp:648
+#: kio/kfileitem.cpp:645
 msgid "%1 (Link)"
 msgstr "%1 (ລິງຄ໌)"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:249
-#: bookmarks/kbookmarkmenu.cc:797 kfile/kpropertiesdialog.cpp:3745
-#: kio/kfileitem.cpp:687
+#: bookmarks/kbookmarkmenu.cc:791 kfile/kpropertiesdialog.cpp:3745
+#: kio/kfileitem.cpp:684
 msgid "Name:"
 msgstr "ຊື່:"
 
-#: kfile/kpropertiesdialog.cpp:885 kio/kfileitem.cpp:688
+#: kfile/kpropertiesdialog.cpp:884 kio/kfileitem.cpp:685
 msgid "Type:"
 msgstr "ປະເພດ:"
 
-#: kio/kfileitem.cpp:692
+#: kio/kfileitem.cpp:689
 #, fuzzy
 msgid "Link to %1 (%2)"
 msgstr "ຍ້າຍໄປຍັງ %1"
 
-#: kfile/kpropertiesdialog.cpp:930 kio/kfileitem.cpp:697
+#: kfile/kpropertiesdialog.cpp:930 kio/kfileitem.cpp:694
 msgid "Size:"
 msgstr "ຂະຫນາດ"
 
-#: kfile/kpropertiesdialog.cpp:992 kio/kfileitem.cpp:700
+#: kfile/kpropertiesdialog.cpp:992 kio/kfileitem.cpp:699
 msgid "Modified:"
 msgstr "ແກ້ໄຂເມື່ອ:"
 
-#: kio/kfileitem.cpp:703
+#: kio/kfileitem.cpp:702
 msgid "Owner:"
 msgstr "ເຈົ້າຂອງ"
 
-#: kio/kfileitem.cpp:704
+#: kio/kfileitem.cpp:703
 msgid "Permissions:"
 msgstr "ສິດທີອະນຸຍາດ"
 
@@ -3714,7 +3720,7 @@ msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:405
 #, fuzzy
-msgid "&Create"
+msgid "C&reate"
 msgstr "ສ້າງເມື່ອ:"
 
 #: misc/kwalletd/kwalletd.cpp:409 misc/kwalletd/kwalletd.cpp:587
@@ -4111,7 +4117,7 @@ msgstr "ພື້ນທີ່ທຳງານ"
 msgid "Documents"
 msgstr "ເອກະສານ"
 
-#: kfile/kdiroperator.cpp:1179 kfile/kfilespeedbar.cpp:57
+#: kfile/kdiroperator.cpp:1252 kfile/kfilespeedbar.cpp:57
 #, fuzzy
 msgid "Home Folder"
 msgstr "ໂທລະສັບຂອງທີ່ພັກ"
@@ -4132,7 +4138,7 @@ msgstr "ເຄືອຂ່າຍ"
 msgid "Menu Editor"
 msgstr "ເຄື່ອງມືແກ້ໄຂເມນູ"
 
-#: kfile/kcustommenueditor.cpp:94 kfile/kdiroperator.cpp:1173
+#: kfile/kcustommenueditor.cpp:94 kfile/kdiroperator.cpp:1246
 msgid "Menu"
 msgstr "ເມນູ"
 
@@ -4321,52 +4327,52 @@ msgstr "ສະແດງຕົວຢ່າງ"
 msgid "No preview available."
 msgstr "ບໍ່ສາມາດສະແດງຕົວຢ່າງໄດ້"
 
-#: kfile/kdirselectdialog.cpp:88
+#: kfile/kdirselectdialog.cpp:89
 #, fuzzy
 msgid "Select Folder"
 msgstr "ລຶບແຟ້ມ"
 
-#: kfile/kdirselectdialog.cpp:105
+#: kfile/kdirselectdialog.cpp:106
 #, fuzzy
 msgid "Folder"
 msgstr "ຕົວກອງ"
 
-#: kfile/kdiroperator.cpp:1184 kfile/kdirselectdialog.cpp:121
+#: kfile/kdiroperator.cpp:1257 kfile/kdirselectdialog.cpp:122
 #, fuzzy
 msgid "New Folder..."
 msgstr "ໂຟລເດີໃຫມ່:"
 
-#: kfile/kdirselectdialog.cpp:124
+#: kfile/kdirselectdialog.cpp:125
 #, fuzzy
 msgid "Show Hidden Folders"
 msgstr "ສະແດງແຟ້ມທີ່ຖືກເຊື່ອງ"
 
-#: kfile/kdiroperator.cpp:386 kfile/kdiroperator.cpp:388
-#: kfile/kdirselectdialog.cpp:398 kfile/kdirselectdialog.cpp:400
+#: kfile/kdiroperator.cpp:388 kfile/kdiroperator.cpp:392
+#: kfile/kdirselectdialog.cpp:399 kfile/kdirselectdialog.cpp:403
 #, fuzzy
 msgid "New Folder"
 msgstr "ໂຟລເດີໃຫມ່:"
 
-#: kfile/kdiroperator.cpp:387 kfile/kdirselectdialog.cpp:399
+#: kfile/kdiroperator.cpp:393 kfile/kdirselectdialog.cpp:404
 #, fuzzy, c-format
 msgid ""
 "Create new folder in:\n"
 "%1"
 msgstr "ສ້າງໄດເຣກທໍລີໃຫມ່ໃນ: "
 
-#: kfile/kdiroperator.cpp:416 kfile/kdirselectdialog.cpp:422
+#: kfile/kdiroperator.cpp:421 kfile/kdirselectdialog.cpp:427
 #, fuzzy
 msgid "A file or folder named %1 already exists."
 msgstr "ໄດເລັກທໍລີຊື່ %1 ມີຢູ່ແລ້ວ"
 
-#: kfile/kdiroperator.cpp:420 kfile/kdirselectdialog.cpp:426
+#: kfile/kdiroperator.cpp:425 kfile/kdirselectdialog.cpp:431
 #, fuzzy
 msgid "You do not have permission to create that folder."
 msgstr ""
 "ທ່ານບໍ່ມີສິດໃນການສ້າງໄດເຣ"
 "ກທໍລີນີ້"
 
-#: bookmarks/kbookmarkmenu.cc:803 kfile/kpropertiesdialog.cpp:922
+#: bookmarks/kbookmarkmenu.cc:797 kfile/kpropertiesdialog.cpp:922
 #: kfile/kurlrequesterdlg.cpp:47
 msgid "Location:"
 msgstr "ຕຳແຫນ່ງ:"
@@ -4800,19 +4806,19 @@ msgid ""
 "files more manageable."
 msgstr ""
 
-#: kfile/kfileiconview.cpp:61
+#: kfile/kfileiconview.cpp:62
 msgid "Small Icons"
 msgstr "ໄອຄອນນ້ອຍ"
 
-#: kfile/kfileiconview.cpp:66
+#: kfile/kfileiconview.cpp:67
 msgid "Large Icons"
 msgstr "ໄອຄອນໃຫຍ່"
 
-#: kfile/kfileiconview.cpp:74
+#: kfile/kfileiconview.cpp:75
 msgid "Thumbnail Previews"
 msgstr "ສະແດງຕົວຢ່າງເປັນພາບນ້ອຍໆ"
 
-#: kfile/kfileiconview.cpp:117
+#: kfile/kfileiconview.cpp:119
 msgid "Icon View"
 msgstr "ແບບໄອຄອນ"
 
@@ -4821,19 +4827,19 @@ msgstr "ແບບໄອຄອນ"
 msgid "Open file dialog"
 msgstr "ເປີດກ່ອງເລືອກແຟ້ມ"
 
-#: kfile/kdiroperator.cpp:442
+#: kfile/kdiroperator.cpp:447
 #, fuzzy
 msgid "You did not select a file to delete."
 msgstr ""
 "ທ່ານຍັງບໍ່ໄດ້ເລືອກແຟ້ມທີ່"
 "ຈະລຶບ"
 
-#: kfile/kdiroperator.cpp:443
+#: kfile/kdiroperator.cpp:448
 #, fuzzy
 msgid "Nothing to Delete"
 msgstr "ບໍ່ມີຫຍັງທີ່ຈະລືບ"
 
-#: kfile/kdiroperator.cpp:465
+#: kfile/kdiroperator.cpp:470
 msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
@@ -4841,11 +4847,11 @@ msgstr ""
 "<qt>ທ່ານຕ້ອງການທີ່ຈະລຶບ\n"
 " <b>'%1'</b> ຈິງຫລືບໍ່ ?</qt>"
 
-#: kfile/kdiroperator.cpp:467
+#: kfile/kdiroperator.cpp:472
 msgid "Delete File"
 msgstr "ລຶບແຟ້ມ"
 
-#: kfile/kdiroperator.cpp:472
+#: kfile/kdiroperator.cpp:477
 #, fuzzy, c-format
 msgid ""
 "_n: translators: not called for n == 1\n"
@@ -4854,74 +4860,119 @@ msgstr ""
 "_n ທ່ານຕ້ອງການລຶບທັງ \n"
 "%n ລາຍການນີ້ ຈຶງຫລືບໍ່?"
 
-#: kfile/kdiroperator.cpp:474
+#: kfile/kdiroperator.cpp:479
 msgid "Delete Files"
 msgstr "ລຶບແຟ້ມ"
 
-#: kfile/kdiroperator.cpp:584 kfile/kdiroperator.cpp:642
+#: kfile/kdiroperator.cpp:510
+#, fuzzy
+msgid "You did not select a file to trash."
+msgstr ""
+"ທ່ານຍັງບໍ່ໄດ້ເລືອກແຟ້ມທີ່"
+"ຈະລຶບ"
+
+#: kfile/kdiroperator.cpp:511
+#, fuzzy
+msgid "Nothing to Trash"
+msgstr "ບໍ່ມີຫຍັງທີ່ຈະລືບ"
+
+#: kfile/kdiroperator.cpp:533
+#, fuzzy
+msgid ""
+"<qt>Do you really want to trash\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>ທ່ານຕ້ອງການທີ່ຈະລຶບ\n"
+" <b>'%1'</b> ຈິງຫລືບໍ່ ?</qt>"
+
+#: kfile/kdiroperator.cpp:535
+#, fuzzy
+msgid "Trash File"
+msgstr "ຖັງຂີ້ເຫຍື້ອ"
+
+#: kfile/kdiroperator.cpp:540
+#, fuzzy, c-format
+msgid ""
+"_n: translators: not called for n == 1\n"
+"Do you really want to trash these %n items?"
+msgstr ""
+"_n ທ່ານຕ້ອງການລຶບທັງ \n"
+"%n ລາຍການນີ້ ຈຶງຫລືບໍ່?"
+
+#: kfile/kdiroperator.cpp:542
+#, fuzzy
+msgid "Trash Files"
+msgstr "ແຟ້ມຊົ່ວຄາວ"
+
+#: kfile/kdiroperator.cpp:657 kfile/kdiroperator.cpp:715
 #, fuzzy
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 "ໄດເຣັກເທີຣີທີ່ກຳນົດຍັງບໍ່"
 "ມີ ຫລືບໍ່ສາມາດອ່ານໄດ້"
 
-#: kfile/kdiroperator.cpp:836 kfile/kdiroperator.cpp:1233
+#: kfile/kdiroperator.cpp:909 kfile/kdiroperator.cpp:1309
 #: kfile/kfiledetailview.cpp:64
 msgid "Detailed View"
 msgstr "ສະແດງລາຍລະອຽດ"
 
-#: kfile/kdiroperator.cpp:841 kfile/kdiroperator.cpp:1231
+#: kfile/kdiroperator.cpp:914 kfile/kdiroperator.cpp:1307
 msgid "Short View"
 msgstr "ມຸມເບິ່ງແບບຫຍໍ້"
 
-#: kfile/kdiroperator.cpp:1175
+#: kfile/kdiroperator.cpp:1248
 #, fuzzy
 msgid "Parent Folder"
 msgstr "ລຶບແຟ້ມ"
 
-#: kfile/kdiroperator.cpp:1194
+#: kfile/kdiroperator.cpp:1259
+#, fuzzy
+msgid "Move to Trash"
+msgstr "ຍ້າຍໄປຍັງ%1"
+
+#: kfile/kdiroperator.cpp:1270
 msgid "Sorting"
 msgstr "ການລງງລຳດັບ"
 
-#: kfile/kdiroperator.cpp:1195
+#: kfile/kdiroperator.cpp:1271
 msgid "By Name"
 msgstr "ຕາມຊື່"
 
-#: kfile/kdiroperator.cpp:1198
+#: kfile/kdiroperator.cpp:1274
 msgid "By Date"
 msgstr "ຕາມວັນທີ"
 
-#: kfile/kdiroperator.cpp:1201
+#: kfile/kdiroperator.cpp:1277
 msgid "By Size"
 msgstr "ຕາມຂະຫນາດ"
 
-#: kfile/kdiroperator.cpp:1204
+#: kfile/kdiroperator.cpp:1280
 msgid "Reverse"
 msgstr "ກັບເປັນກົງກັນຂ້າມ"
 
-#: kfile/kdiroperator.cpp:1214
+#: kfile/kdiroperator.cpp:1290
 #, fuzzy
 msgid "Folders First"
 msgstr "ລງງໄດເຣັກເທີຣີກ່ອນ"
 
-#: kfile/kdiroperator.cpp:1216
+#: kfile/kdiroperator.cpp:1292
 msgid "Case Insensitive"
 msgstr "ພິຈາລະນາຕົວນ້ອຍ-ໃຫ່ຍ"
 
-#: kfile/kdiroperator.cpp:1236
+#: kfile/kdiroperator.cpp:1312
 msgid "Show Hidden Files"
 msgstr "ສະແດງແຟ້ມທີ່ຖືກເຊື່ອງ"
 
-#: kfile/kdiroperator.cpp:1239
+#: kfile/kdiroperator.cpp:1315
 #, fuzzy
 msgid "Separate Folders"
 msgstr "ລຶບແຟ້ມ"
 
-#: kfile/kdiroperator.cpp:1243
+#: kfile/kdiroperator.cpp:1319
 msgid "Show Preview"
 msgstr "ສະແດງຕົວຢ່າງ"
 
-#: kfile/kdiroperator.cpp:1247
+#: kfile/kdiroperator.cpp:1323
 #, fuzzy
 msgid "Hide Preview"
 msgstr "ສະແດງຕົວຢ່າງ"
@@ -5328,10 +5379,11 @@ msgid ""
 msgstr ""
 
 #: kfile/kpropertiesdialog.cpp:1886
+#, fuzzy
 msgid ""
-"_: File permission, sets user or group ID on execution\n"
+"_: File permission\n"
 "Sticky"
-msgstr "ຢືດໄ້ວ້"
+msgstr "ຕົວສະຕິກກີ້"
 
 #: kfile/kpropertiesdialog.cpp:1890
 msgid ""
@@ -5428,7 +5480,7 @@ msgstr "&ແອບພິເຄຊັ້ນ"
 msgid "Add File Type for %1"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:835 kfile/kpropertiesdialog.cpp:3034
+#: bookmarks/kbookmarkmenu.cc:829 kfile/kpropertiesdialog.cpp:3034
 msgid "&Add"
 msgstr "&ເພີ້ມ"
 
@@ -5733,17 +5785,17 @@ msgstr ""
 "ມັນຈະຖືກໃຊ້ກັບແອພພຣິເຄຊັນ"
 "ທັງຫມົດ"
 
-#: tests/kurifiltertest.cpp:126
+#: tests/kurifiltertest.cpp:144
 #, fuzzy
 msgid "kurifiltertest"
 msgstr "ທົດສອບເຄື່ອງພິມ"
 
-#: tests/kurifiltertest.cpp:127
+#: tests/kurifiltertest.cpp:145
 msgid "Unit test for the URI filter plugin framework."
 msgstr ""
 
-#: tests/kurifiltertest.cpp:132
-msgid "Use space as keyword delimeter for web shortcuts."
+#: tests/kurifiltertest.cpp:150
+msgid "Use space as keyword delimeter for web shortcuts"
 msgstr ""
 
 #: _translatorinfo.cpp:1
@@ -6151,8 +6203,8 @@ msgstr "ຕົວເລືອກ"
 
 #. i18n: file ./kfile/knotifywidgetbase.ui line 406
 #: rc.cpp:205
-#, no-c-format
-msgid "Player Settings..."
+#, fuzzy, no-c-format
+msgid "Player Settings"
 msgstr "ຕັ້ງຄ່າ..."
 
 #. i18n: file ./kfile/kpropertiesmimetypebase.ui line 27
@@ -6486,17 +6538,17 @@ msgstr ""
 msgid "Quick Actions"
 msgstr "ການກະທຳ"
 
-#: bookmarks/kbookmarkmenu.cc:837
+#: bookmarks/kbookmarkmenu.cc:831
 #, fuzzy
 msgid "&New Folder..."
 msgstr "ໂຟລເດີໃຫມ່:"
 
-#: bookmarks/kbookmarkmenu.cc:954
+#: bookmarks/kbookmarkmenu.cc:948
 #, fuzzy
 msgid "Bookmark"
 msgstr "ທີ່ຂັ້ນຫນັງສື"
 
-#: bookmarks/kbookmarkmenu.cc:1121
+#: bookmarks/kbookmarkmenu.cc:1115
 msgid "Netscape Bookmarks"
 msgstr "ທີ່ຂັ້ນຫນັງສືຂອງເນຕສເຄບ"
 
@@ -6518,7 +6570,7 @@ msgstr ""
 msgid "New folder:"
 msgstr "ໂຟລເດີໃຫມ່:"
 
-#: bookmarks/kbookmark.cc:277
+#: bookmarks/kbookmark.cc:286
 msgid "--- separator ---"
 msgstr "--- ຕົວແບ່ງ ---"
 
@@ -6792,8 +6844,10 @@ msgid "Exposure:"
 msgstr "ຫມົດອາຍຸ:"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:294
-msgid "&Next >>"
-msgstr "&ຕໍ່ໄປ >>"
+msgid ""
+"_: Next cookie\n"
+"&Next >>"
+msgstr ""
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:299
 msgid "Show details of the next cookie"
@@ -7119,6 +7173,14 @@ msgstr ""
 msgid "No metainfo for %1"
 msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 
+#~ msgid "&Next >>"
+#~ msgstr "&ຕໍ່ໄປ >>"
+
+#~ msgid ""
+#~ "_: File permission, sets user or group ID on execution\n"
+#~ "Sticky"
+#~ msgstr "ຢືດໄ້ວ້"
+
 #~ msgid "%1% of %2 "
 #~ msgstr "%1% ຈາກ %2 "
 
@@ -7145,9 +7207,6 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 #, fuzzy
 #~ msgid "A&dvanced Permissions..."
 #~ msgstr "ສິດໃນການເຂົ້າໃຊ້"
-
-#~ msgid "Temporary Files"
-#~ msgstr "ແຟ້ມຊົ່ວຄາວ"
 
 #, fuzzy
 #~ msgid "Hide Hidden Folders"
@@ -8060,11 +8119,6 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 #~ "_: font style\n"
 #~ "Book Oblique"
 #~ msgstr "ຕົວອຽງບຸກຄ໌"
-
-#~ msgid ""
-#~ "_: window operation\n"
-#~ "Sticky"
-#~ msgstr "ຕົວສະຕິກກີ້"
 
 #~ msgid ""
 #~ "_: window operation\n"
@@ -9329,9 +9383,6 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 
 #~ msgid "Northern Saami"
 #~ msgstr "ຊາມິເຫນືອ"
-
-#~ msgid "Trash"
-#~ msgstr "ຖັງຂີ້ເຫຍື້ອ"
 
 #~ msgid ""
 #~ "You reached the end of the list\n"
@@ -12945,9 +12996,6 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 
 #~ msgid "Restart"
 #~ msgstr "ເລີ່ມທຳງານໃຫມ່"
-
-#~ msgid "Move to %1"
-#~ msgstr "ຍ້າຍໄປຍັງ%1"
 
 #~ msgid "Operation failed."
 #~ msgstr "ປະຕິບັດການຫລົ້ມເຫລວ"
