@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-20 01:20+0200\n"
+"POT-Creation-Date: 2005-01-03 01:39+0100\n"
 "PO-Revision-Date: 2003-01-14 14:59+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -26,111 +26,19 @@ msgid ""
 "Your emails"
 msgstr "donga_n@yahoo.com"
 
-#: kcmkded.cpp:57
+#: kcmkded.cpp:53
 msgid "kcmkded"
 msgstr "kcmkded"
 
-#: kcmkded.cpp:57
+#: kcmkded.cpp:53
 msgid "KDE Service Manager"
 msgstr "ໂຕຈັດການບໍລິການເທິງ KDE"
 
-#: kcmkded.cpp:59
+#: kcmkded.cpp:55
 msgid "(c) 2002 Daniel Molkentin"
 msgstr "(c) 2002 Daniel Molkentin"
 
-#: kcmkded.cpp:64
-msgid "Running"
-msgstr "ທໍາງານຢູ່"
-
-#: kcmkded.cpp:65
-msgid "Not running"
-msgstr "ຍັງບໍ່ທໍາງານ"
-
-#: kcmkded.cpp:69
-msgid "Load-on-Demand Services"
-msgstr "ບໍລິການໂຫລດເມື່ອຕ້ອງການ"
-
-#: kcmkded.cpp:70
-msgid ""
-"This is a list of available KDE services which will be started on demand. "
-"They are only listed for convenience, as you cannot manipulate these "
-"services."
-msgstr ""
-"ນີ້ເປັນລາຍການບໍລິການຂອງ KDE "
-"ທີ່ມີຢູ່ "
-"ຊຶ່ງຈະເລີ່ມການທໍາງານອັດຕະ"
-"ໂນມັດເມື່ອຕ້ອງການໃຊ້ງານ "
-"ຊຶ່ງຈະສະແດງໃຫ້ເຫັນເທົ່ານັ"
-"້ນัທ່ານບໍ່ສາມາດຈັດການແມ່ນ"
-"ຫຍັງກັບມັນໄດ้້"
-
-#: kcmkded.cpp:76 kcmkded.cpp:90
-msgid "Service"
-msgstr "ບໍລິການ"
-
-#: kcmkded.cpp:77 kcmkded.cpp:91
-msgid "Description"
-msgstr "ລາຍລະອງດ"
-
-#: kcmkded.cpp:78 kcmkded.cpp:92
-msgid "Status"
-msgstr "ສະຖານະ"
-
-#: kcmkded.cpp:82
-msgid "Startup Services"
-msgstr "ບໍລິການທີ່ເລີ່ມທໍາງານ"
-
-#: kcmkded.cpp:83
-msgid ""
-"This shows all KDE services that can be loaded on KDE startup. Checked "
-"services will be invoked on next startup. Be careful with deactivation of "
-"unknown services."
-msgstr ""
-"ນີ້ສະແດງບໍລິການທັງຫມົດຂອງ "
-"KDE ທີ່ຈະຖືກໂຫລດເມື່ອ KDE "
-"ເລີ່ມການທໍາງານບໍລິການທີ່ຖ"
-"ືກເລືອກໄວ້ຈະຖືກໂຫລດໃນການເ"
-"ລີ່ມການທໍາງານໃນຄັ້ງຕໍ່ໄປກ"
-"ະລຸນາລະມັດລະວັງໃນການຍົກເລ"
-"ີກການໂຫລດບໍລິການທີ່ບໍ່ແນ່"
-"ໃຈ"
-
-#: kcmkded.cpp:89
-msgid "Use"
-msgstr "ໃຊ้້"
-
-#: kcmkded.cpp:97
-msgid "Start"
-msgstr "ເລີ່ມ"
-
-#: kcmkded.cpp:183
-msgid "Alarm Daemon"
-msgstr "ເດຍມອນ Alarm"
-
-#: kcmkded.cpp:184
-msgid "Monitors KOrganizer/KAlarm schedules"
-msgstr ""
-
-#: kcmkded.cpp:268
-#, fuzzy
-msgid "Unable to contact KDED."
-msgstr "ບໍ່ສາມາດຕິດຕໍ່ກັບ KDED ໄດ້ !"
-
-#: kcmkded.cpp:364
-#, fuzzy
-msgid "Unable to start service."
-msgstr ""
-"ບໍ່ສາມາດເລີ່ມການທໍາງານຂອງ"
-"ບໍລິການໄດ້!"
-
-#: kcmkded.cpp:388
-#, fuzzy
-msgid "Unable to stop service."
-msgstr ""
-"ບໍ່ສາມາດຢຸດການທໍາງານຂອງບໍ"
-"ລິການໄດ້!"
-
-#: kcmkded.cpp:400
+#: kcmkded.cpp:59
 #, fuzzy
 msgid ""
 "<h1>Service Manager</h1>"
@@ -177,6 +85,93 @@ msgstr ""
 "ເຊັ່ນວ່າ:ສັ່ງຍົກເລີກການທໍາ"
 "ງານຂອງບໍລິການທີ່ທ່ານບໍ່ແນ"
 "່ໃຈຫລືບໍ່ຮູ້ຈັກ !</b></p>"
+
+#: kcmkded.cpp:67
+msgid "Running"
+msgstr "ທໍາງານຢູ່"
+
+#: kcmkded.cpp:68
+msgid "Not running"
+msgstr "ຍັງບໍ່ທໍາງານ"
+
+#: kcmkded.cpp:72
+msgid "Load-on-Demand Services"
+msgstr "ບໍລິການໂຫລດເມື່ອຕ້ອງການ"
+
+#: kcmkded.cpp:73
+msgid ""
+"This is a list of available KDE services which will be started on demand. "
+"They are only listed for convenience, as you cannot manipulate these "
+"services."
+msgstr ""
+"ນີ້ເປັນລາຍການບໍລິການຂອງ KDE "
+"ທີ່ມີຢູ່ "
+"ຊຶ່ງຈະເລີ່ມການທໍາງານອັດຕະ"
+"ໂນມັດເມື່ອຕ້ອງການໃຊ້ງານ "
+"ຊຶ່ງຈະສະແດງໃຫ້ເຫັນເທົ່ານັ"
+"້ນัທ່ານບໍ່ສາມາດຈັດການແມ່ນ"
+"ຫຍັງກັບມັນໄດ้້"
+
+#: kcmkded.cpp:79 kcmkded.cpp:93
+msgid "Service"
+msgstr "ບໍລິການ"
+
+#: kcmkded.cpp:80 kcmkded.cpp:94
+msgid "Description"
+msgstr "ລາຍລະອງດ"
+
+#: kcmkded.cpp:81 kcmkded.cpp:95
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#: kcmkded.cpp:85
+msgid "Startup Services"
+msgstr "ບໍລິການທີ່ເລີ່ມທໍາງານ"
+
+#: kcmkded.cpp:86
+msgid ""
+"This shows all KDE services that can be loaded on KDE startup. Checked "
+"services will be invoked on next startup. Be careful with deactivation of "
+"unknown services."
+msgstr ""
+"ນີ້ສະແດງບໍລິການທັງຫມົດຂອງ "
+"KDE ທີ່ຈະຖືກໂຫລດເມື່ອ KDE "
+"ເລີ່ມການທໍາງານບໍລິການທີ່ຖ"
+"ືກເລືອກໄວ້ຈະຖືກໂຫລດໃນການເ"
+"ລີ່ມການທໍາງານໃນຄັ້ງຕໍ່ໄປກ"
+"ະລຸນາລະມັດລະວັງໃນການຍົກເລ"
+"ີກການໂຫລດບໍລິການທີ່ບໍ່ແນ່"
+"ໃຈ"
+
+#: kcmkded.cpp:92
+msgid "Use"
+msgstr "ໃຊ้້"
+
+#: kcmkded.cpp:100
+msgid "Start"
+msgstr "ເລີ່ມ"
+
+#: kcmkded.cpp:239 kcmkded.cpp:330
+#, fuzzy
+msgid "Unable to contact KDED."
+msgstr "ບໍ່ສາມາດຕິດຕໍ່ກັບ KDED ໄດ້ !"
+
+#: kcmkded.cpp:324
+#, fuzzy
+msgid "Unable to start service."
+msgstr ""
+"ບໍ່ສາມາດເລີ່ມການທໍາງານຂອງ"
+"ບໍລິການໄດ້!"
+
+#: kcmkded.cpp:346
+#, fuzzy
+msgid "Unable to stop service."
+msgstr ""
+"ບໍ່ສາມາດຢຸດການທໍາງານຂອງບໍ"
+"ລິການໄດ້!"
+
+#~ msgid "Alarm Daemon"
+#~ msgstr "ເດຍມອນ Alarm"
 
 #~ msgid "KWrite Daemon"
 #~ msgstr "ຂງນເດຍມອນ K"
