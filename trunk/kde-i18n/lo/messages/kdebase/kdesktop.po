@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-01-12 01:57+0100\n"
+"POT-Creation-Date: 2004-07-16 01:18+0200\n"
 "PO-Revision-Date: 2003-01-14 16:27+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,38 +14,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: lock/lockdlg.cc:75
-msgid "<nobr><b>The screen is locked</b><br>"
-msgstr ""
-
 #: lock/lockdlg.cc:76
-msgid "<nobr><b>The screen is locked by %1</b><br>"
+msgid "<nobr><b>The session is locked</b><br>"
 msgstr ""
 
-#: lock/lockdlg.cc:86
+#: lock/lockdlg.cc:77
+msgid "<nobr><b>The session is locked by %1</b><br>"
+msgstr ""
+
+#: lock/lockdlg.cc:87
 #, fuzzy
-msgid "&Start New Session"
+msgid "&Start New Session..."
 msgstr ""
 "\n"
 "່ເລີ່ມ\n"
 "&ໃຫມ່\n"
 "sesion\n"
 
-#: lock/lockdlg.cc:186
+#: lock/lockdlg.cc:88
+msgid "Unl&ock"
+msgstr ""
+
+#: lock/lockdlg.cc:188
 msgid "<b>Unlocking failed</b>"
 msgstr ""
 
-#: lock/lockdlg.cc:192
+#: lock/lockdlg.cc:194
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr ""
 
-#: lock/lockdlg.cc:416
+#: lock/lockdlg.cc:420
 msgid ""
-"Cannot unlock the screen, as the authentication system fails to work.\n"
+"Cannot unlock the session because the authentication system failed to work.\n"
 "You must kill kdesktop_lock (pid %1) manually."
 msgstr ""
 
-#: lock/lockdlg.cc:489
+#: lock/lockdlg.cc:518
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
 "current one."
@@ -56,25 +60,35 @@ msgid ""
 "sessions by pressing CTRL, ALT and the appropriate F-key at the same time."
 msgstr ""
 
-#: lock/lockprocess.cc:651
+#: krootwm.cc:748 lock/lockdlg.cc:529
+#, fuzzy
+msgid "&Start New Session"
+msgstr ""
+"\n"
+"່ເລີ່ມ\n"
+"&ໃຫມ່\n"
+"sesion\n"
+
+#: lock/lockprocess.cc:659
 msgid ""
-"Will not lock the screen, as unlocking would be impossible:\n"
+"Will not lock the session, as unlocking would be impossible:\n"
 msgstr ""
 
-#: lock/lockprocess.cc:655
+#: lock/lockprocess.cc:663
 msgid "Cannot start <i>kcheckpass</i>."
 msgstr ""
 
-#: lock/lockprocess.cc:656
+#: lock/lockprocess.cc:664
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
 msgstr ""
 
-#: lock/lockprocess.cc:700
+#: lock/lockprocess.cc:708
 msgid "No appropriate greeter plugin configured."
 msgstr ""
 
 #: lock/main.cc:51
-msgid "Force screen locking"
+#, fuzzy
+msgid "Force session locking"
 msgstr "บังคับให้ทำการล็อคหน้าจอ"
 
 #: lock/main.cc:52
@@ -96,39 +110,40 @@ msgid "KDesktop Locker"
 msgstr "พื้นที่ทำงาน"
 
 #: lock/main.cc:63
-msgid "Screen Locker for KDesktop"
+#, fuzzy
+msgid "Session Locker for KDesktop"
 msgstr ""
 "่ตัวล็อคหน้าจอสำหรับพื้นท"
 "ี่ทำงาน"
 
-#: desktop.cc:661
+#: desktop.cc:666
 msgid "Set as Primary Background Color"
 msgstr "ตั้งเป็นสีหลักของพื้นหลัง"
 
-#: desktop.cc:662
+#: desktop.cc:667
 msgid "Set as Secondary Background Color"
 msgstr "ตั้งเป็นสีรองของพื้นหลัง"
 
-#: desktop.cc:678
+#: desktop.cc:683
 #, fuzzy
 msgid "&Save to Desktop..."
 msgstr ""
 "ช่วยเหลือเกี่ยวกับพื้นที่"
 "ทำงาน..."
 
-#: desktop.cc:680
+#: desktop.cc:685
 msgid "Set as &Wallpaper"
 msgstr "ตั้งเป็นภาพพื้นหลัง"
 
-#: desktop.cc:688
+#: desktop.cc:693
 msgid "Enter a name for the image below:"
 msgstr ""
 
-#: desktop.cc:697
+#: desktop.cc:702
 msgid "image.png"
 msgstr ""
 
-#: desktop.cc:745
+#: desktop.cc:754
 #, fuzzy
 msgid ""
 "Could not logout properly.\n"
@@ -150,17 +165,13 @@ msgstr ""
 "ใช้งานอยู่จะไม่ถูกบันทึกไ"
 "ว้"
 
-#: kdiconview.cc:380
+#: kdiconview.cc:395
 msgid "&Rename"
 msgstr "เปลี่ยนชื่อ"
 
-#: kdiconview.cc:381
+#: kdiconview.cc:396
 msgid "&Move to Trash"
 msgstr "ทิ้งลงถังขยะ"
-
-#: kdiconview.cc:384
-msgid "&Shred"
-msgstr "ทำลายทิ้ง"
 
 #: krootwm.cc:129
 msgid "Run Command..."
@@ -170,7 +181,7 @@ msgstr "ประมวลผลคำสั่ง..."
 msgid "Configure Desktop..."
 msgstr "ปรับแต่งพื้นที่ทำงาน..."
 
-#: krootwm.cc:135 krootwm.cc:332
+#: krootwm.cc:135 krootwm.cc:350
 msgid "Disable Desktop Menu"
 msgstr ""
 "ปิดการใช้งานเมนูของพื้นที"
@@ -187,118 +198,151 @@ msgstr ""
 "ชั้น"
 
 #: krootwm.cc:147
-msgid "By Name"
+msgid "By Name (Case Sensitive)"
 msgstr ""
+"ตามชื่อ "
+"(พิจารณาตัวเล็ก-ตัวใหญ่)"
 
 #: krootwm.cc:149
+msgid "By Name (Case Insensitive)"
+msgstr ""
+"ตามชื่อ "
+"(ไม่พิจารณาตัวเล็ก-ตัวใหญ่)"
+
+#: krootwm.cc:151
 msgid "By Size"
 msgstr "ตามขนาด"
 
-#: krootwm.cc:151
+#: krootwm.cc:153
 msgid "By Type"
 msgstr "ตามประเภท"
 
-#: krootwm.cc:154
+#: krootwm.cc:155
+msgid "By Date"
+msgstr ""
+
+#: krootwm.cc:158
 msgid "Directories First"
 msgstr "เรียงไดเรกทอรีก่อน"
 
-#: krootwm.cc:157
+#: krootwm.cc:161
 #, fuzzy
 msgid "Line Up Horizontally"
 msgstr "ในแนวนอน"
 
-#: krootwm.cc:160
+#: krootwm.cc:164
 #, fuzzy
 msgid "Line Up Vertically"
 msgstr "ในแนวตั้ง"
 
-#: krootwm.cc:163
+#: krootwm.cc:167
 msgid "Align to Grid"
 msgstr ""
 
-#: krootwm.cc:169
+#: krootwm.cc:174
 msgid "Refresh Desktop"
 msgstr "ปรับปรุงพื้นที่ทำงานใหม่"
 
-#: kdesktopbindings.cpp:30 krootwm.cc:175
-msgid "Lock Screen"
+#: kdesktopbindings.cpp:30 krootwm.cc:180
+#, fuzzy
+msgid "Lock Session"
 msgstr "ล็อคหน้าจอ"
 
-#: krootwm.cc:180
+#: krootwm.cc:185
 msgid "Logout \"%1\"..."
 msgstr "ล็อกเอาต์ \"%1\"..."
 
-#: krootwm.cc:191
-msgid "Start New Session"
+#: krootwm.cc:196
+#, fuzzy
+msgid "Start New Session..."
 msgstr ""
+"\n"
+"່ເລີ່ມ\n"
+"&ໃຫມ່\n"
+"sesion\n"
 
-#: krootwm.cc:310 krootwm.cc:388
+#: krootwm.cc:328 krootwm.cc:406
 #, fuzzy
 msgid "Sort Icons"
 msgstr "จัดเรียงไอคอน"
 
-#: krootwm.cc:312
+#: krootwm.cc:330
 msgid "Line Up Icons"
 msgstr "เรียงไอคอนในแนวเดียวกัน"
 
-#: krootwm.cc:339
+#: krootwm.cc:357
 msgid "Enable Desktop Menu"
 msgstr ""
 "เปิดการใช้งานเมนูของพื้นท"
 "ี่ทำงาน"
 
-#: krootwm.cc:395
+#: krootwm.cc:413
 #, fuzzy
 msgid "Icons"
 msgstr "จัดเรียงไอคอน"
 
-#: krootwm.cc:401 krootwm.cc:458
+#: krootwm.cc:419 krootwm.cc:473
 msgid "Windows"
 msgstr "หน้าต่าง"
 
-#: krootwm.cc:451
+#: krootwm.cc:466
 msgid "New"
 msgstr "สร้างใหม่"
 
-#: kdesktopbindings.cpp:14 krootwm.cc:457 krootwm.cc:628
+#: kdesktopbindings.cpp:14 krootwm.cc:472 krootwm.cc:679
 msgid "Desktop"
 msgstr "พื้นที่ทำงาน"
 
-#: krootwm.cc:693
+#: krootwm.cc:743
+#, fuzzy
+msgid "Warning - New Session"
+msgstr ""
+"\n"
+"່ເລີ່ມ\n"
+"&ໃຫມ່\n"
+"sesion\n"
+
+#: krootwm.cc:751
 msgid ""
 "<p>You have chosen to open another desktop session."
 "<br>The current session will be hidden and a new login screen will be "
 "displayed."
 "<br>An F-key is assigned to each session; F%1 is usually assigned to the "
 "first session, F%2 to the second session and so on. You can switch between "
-"sessions by pressing CTRL, ALT and the appropriate F-key at the same "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same "
 "time.</p>"
 msgstr ""
 
-#: main.cc:40
-msgid "The KDE Desktop."
+#: krootwm.cc:763
+#, fuzzy
+msgid "&Lock current session"
+msgstr "ล็อคหน้าจอ"
+
+#: main.cc:43
+#, fuzzy
+msgid "The KDE desktop"
 msgstr "พื้นที่ทำงานของ KDE"
 
-#: main.cc:46
+#: main.cc:49
 msgid "Use this if the desktop window appears as a real window"
 msgstr ""
 "ใช้นี่ "
 "หากพื้นที่ทำงานแสดงผลเป็น"
 "หน้าต่าง"
 
-#: main.cc:47
+#: main.cc:50
 msgid "Use this to disable the Autostart folder"
 msgstr ""
 "ใช้นี่เพื่อยกเลิกการทำงาน"
 "ของโฟลเดอร์ Autostart"
 
-#: main.cc:48
+#: main.cc:51
 msgid "Wait for kded to finish building database"
 msgstr ""
 "โปรดรอให้ kded "
 "สร้างฐานข้อมูลเสร็จก่อน"
 
-#: main.cc:140
+#: main.cc:143
 msgid "KDesktop"
 msgstr "พื้นที่ทำงาน"
 
@@ -348,7 +392,7 @@ msgstr ""
 "เริ่มการทำงานคอมพิวเตอร์ใ"
 "หม่โดยไม่ต้องถามยืนยัน"
 
-#: minicli.cpp:90 minicli.cpp:617
+#: minicli.cpp:90 minicli.cpp:624
 msgid "&Options >>"
 msgstr "ตัวเลือก >>"
 
@@ -356,56 +400,61 @@ msgstr "ตัวเลือก >>"
 msgid "&Run"
 msgstr "ประมวลผล"
 
-#: minicli.cpp:385
+#: minicli.cpp:394
 msgid "<qt>The user <b>%1</b> does not exist on this system.</qt>"
 msgstr ""
 "<qt>ยังไม่มีบัญชีผู้ใช้ <b>%1</b> "
 "ในระบบ</qt>"
 
-#: minicli.cpp:395
+#: minicli.cpp:404
+#, fuzzy
 msgid ""
-"You don't exist!\n"
+"You do not exist.\n"
 msgstr ""
 "ยังไม่มีบัญชีผู้ใช้ของคุณ "
 "!\n"
 
-#: minicli.cpp:420
-msgid "Incorrect password! Please try again."
+#: minicli.cpp:429
+#, fuzzy
+msgid "Incorrect password; please try again."
 msgstr ""
 "รหัสผ่านผิดพลาด ! "
 "โปรดลองอีกครั้ง"
 
-#: minicli.cpp:531
+#: minicli.cpp:537
+#, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
-"You do not have permission to execute this command!"
+"You do not have permission to execute this command."
 msgstr ""
 "<center><b>%1</b></center>\n"
 "คุณไม่ได้รับอนุญาตให้เรีย"
 "กทำงานคำสั่งนี้ !"
 
-#: minicli.cpp:556
+#: minicli.cpp:563
+#, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
-"Could not run the specified command!"
+"Could not run the specified command."
 msgstr ""
 "<center><b>%1</b></center>\n"
 "ไม่สามารถเรียกทำงานคำสั่ง"
 "ที่กำหนดได้ !"
 
-#: minicli.cpp:568
+#: minicli.cpp:575
+#, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
-"The specified command does not exist!"
+"The specified command does not exist."
 msgstr ""
 "<center><b>%1</b></center>\n"
 "ไม่มีคำสั่งที่ระบุ !"
 
-#: minicli.cpp:605
+#: minicli.cpp:612
 msgid "&Options <<"
 msgstr "ตัวเลือก <<"
 
-#: minicli.cpp:813
+#: minicli.cpp:817
 msgid ""
 "Running a realtime application can be very dangerous. If the application "
 "misbehaves, the system might hang unrecoverably.\n"
@@ -420,44 +469,22 @@ msgstr ""
 "คุณแน่ใจที่จะทำต่อไปหรือไ"
 "ม่ ?"
 
-#: minicli.cpp:816
+#: minicli.cpp:820
 msgid "Warning - Run Command"
 msgstr "คำเตือน - ประมวลผลคำสั่ง"
 
-#: rc.cpp:2
+#: minicli.cpp:820
 #, fuzzy
-msgid "Enter the name of the application you want to run or the URL you want to view"
-msgstr ""
-"ใส่ชื่อแอพพลิเคชันที่ต้อง"
-"การเรียกทำงาน หรือ URL "
-"ที่ต้องการให้แสดง"
+msgid "&Run Realtime"
+msgstr "เรียลไทม์"
 
-#: rc.cpp:3
-#, fuzzy
-msgid "Com&mand:"
-msgstr "คำสั่ง:"
-
-#: rc.cpp:4 rc.cpp:29
-#, fuzzy
-msgid ""
-"Enter the command you wish to execute or the address of the resource you "
-"want to open. This can be a remote URL like \"www.kde.org\" or a local one "
-"like \"~/.kderc\"."
-msgstr ""
-"เติมคำสั่งที่คุณต้องการปร"
-"ะมวลผล "
-"หรือที่อยู่ของทรัพยากรที่"
-"คุณต้องการเปิด "
-"ซึ่งอาจเป็นรูปแบบเหมือน URL "
-"เช่น \"www.kde.org\" หรือแบบภายใน "
-"เช่น \"~/.kderc\""
-
-#: rc.cpp:8
+#: rc.cpp:5
+#, no-c-format
 msgid "Run with realtime &scheduling"
 msgstr ""
 
-#: rc.cpp:9
-#, fuzzy
+#: rc.cpp:7
+#, fuzzy, no-c-format
 msgid ""
 "<qt>Select whether realtime scheduling should be enabled for the "
 "application. The scheduler governs which process will run and which will "
@@ -506,35 +533,38 @@ msgstr ""
 "เพื่อเลือกการจัดลำดับแบบน"
 "ี้"
 
-#: rc.cpp:10
+#: rc.cpp:14
+#, fuzzy, no-c-format
 msgid "User&name:"
 msgstr "ชื่อผู้ใช้:"
 
-#: rc.cpp:11 rc.cpp:21
-#, fuzzy
+#: rc.cpp:16 rc.cpp:36
+#, fuzzy, no-c-format
 msgid "Enter the user you want to run the application as here."
 msgstr ""
 "เติมชื่อผู้ใช้ที่คุณต้องก"
 "ารใช้สิทธิ์ในการทำงานแอพพ"
 "ลเคชัน"
 
-#: rc.cpp:12 rc.cpp:14
-#, fuzzy
+#: rc.cpp:18 rc.cpp:22
+#, fuzzy, no-c-format
 msgid "Enter the password here for the user you specified above."
 msgstr ""
 "เติมรหัสผ่านที่ร้องขอที่น"
 "ี่"
 
-#: rc.cpp:13
+#: rc.cpp:20
+#, no-c-format
 msgid "Pass&word:"
 msgstr "รหัสผ่าน:"
 
-#: rc.cpp:15
-#, fuzzy
+#: rc.cpp:24
+#, fuzzy, no-c-format
 msgid "Run in &terminal window"
 msgstr "ทำงานในเทอร์มินัล"
 
-#: rc.cpp:16
+#: rc.cpp:26
+#, no-c-format
 msgid ""
 "Check this option if the application you want to run is a text mode "
 "application. The application will then be run in a terminal emulator window."
@@ -546,13 +576,13 @@ msgstr ""
 "แอพพลิเคชันจะทำงานในหน้าต"
 "่างจำลองเทอร์มินัล"
 
-#: rc.cpp:17
-#, fuzzy
+#: rc.cpp:28
+#, fuzzy, no-c-format
 msgid "&Priority:"
 msgstr "ระดับความสำคัญ:"
 
-#: rc.cpp:18 rc.cpp:23 rc.cpp:25 rc.cpp:26
-#, fuzzy
+#: rc.cpp:30 rc.cpp:40 rc.cpp:44 rc.cpp:46
+#, fuzzy, no-c-format
 msgid ""
 "The priority that the command will be run with can be set here. From left to "
 "right, it goes from low to high. The center position is the default value. "
@@ -569,14 +599,15 @@ msgstr ""
 "เพื่อปรับค่าความสำคัญที่ส"
 "ูงกว่าค่าปริยาย"
 
-#: rc.cpp:19
-#, fuzzy
+#: rc.cpp:32
+#, fuzzy, no-c-format
 msgid "Run with a &different priority"
 msgstr ""
 "สั่งทำงานด้วยระดับความสำค"
 "ัญอื่น"
 
-#: rc.cpp:20
+#: rc.cpp:34
+#, no-c-format
 msgid ""
 "Check this option if you want to run the application with a different "
 "priority. A higher priority tells the operating system to give more "
@@ -590,21 +621,25 @@ msgstr ""
 "ให้เวลาในการประมวลผลกับแอ"
 "พพลิเคชันของคุณมากกว่า"
 
-#: rc.cpp:22
+#: rc.cpp:38
+#, no-c-format
 msgid "Low"
 msgstr ""
 
-#: rc.cpp:24
+#: rc.cpp:42
+#, no-c-format
 msgid "High"
 msgstr "สูง"
 
-#: rc.cpp:27
+#: rc.cpp:48
+#, no-c-format
 msgid "Run as a different &user"
 msgstr ""
 "สั่งทำงานโดยใช้สิทธิ์ของผ"
 "ู้ใช้อื่น"
 
-#: rc.cpp:28
+#: rc.cpp:50
+#, no-c-format
 msgid ""
 "Check this option if you want to run the application with a different user "
 "id. Every process has a user id associated with it. This id code determines "
@@ -622,6 +657,40 @@ msgstr ""
 "ที่สามารถใช้ได้ "
 "และต้องการรหัสผ่านของผู้ใ"
 "ช้นี้ สำหรับตัวเลือกนี้"
+
+#: rc.cpp:52
+#, fuzzy, no-c-format
+msgid "Com&mand:"
+msgstr "คำสั่ง:"
+
+#: rc.cpp:54 rc.cpp:57
+#, fuzzy, no-c-format
+msgid ""
+"Enter the command you wish to execute or the address of the resource you "
+"want to open. This can be a remote URL like \"www.kde.org\" or a local one "
+"like \"~/.kderc\"."
+msgstr ""
+"เติมคำสั่งที่คุณต้องการปร"
+"ะมวลผล "
+"หรือที่อยู่ของทรัพยากรที่"
+"คุณต้องการเปิด "
+"ซึ่งอาจเป็นรูปแบบเหมือน URL "
+"เช่น \"www.kde.org\" หรือแบบภายใน "
+"เช่น \"~/.kderc\""
+
+#: rc.cpp:59
+#, fuzzy, no-c-format
+msgid "Enter the name of the application you want to run or the URL you want to view"
+msgstr ""
+"ใส่ชื่อแอพพลิเคชันที่ต้อง"
+"การเรียกทำงาน หรือ URL "
+"ที่ต้องการให้แสดง"
+
+#~ msgid "Lock Screen"
+#~ msgstr "ล็อคหน้าจอ"
+
+#~ msgid "&Shred"
+#~ msgstr "ทำลายทิ้ง"
 
 #~ msgid "Bookmarks"
 #~ msgstr "ที่คั่นหนังสือ"
@@ -656,9 +725,6 @@ msgstr ""
 
 #~ msgid "Normal"
 #~ msgstr "ปกติ"
-
-#~ msgid "Realtime"
-#~ msgstr "เรียลไทม์"
 
 #~ msgid "none"
 #~ msgstr "ไม่มี"
@@ -700,12 +766,6 @@ msgstr ""
 
 #~ msgid "Fancy desktop background for kdm"
 #~ msgstr "พื้นหลังพื้นที่ทำงานแบบแฟนซีสำหรับ kdm"
-
-#~ msgid "By Name (Case Sensitive)"
-#~ msgstr "ตามชื่อ (พิจารณาตัวเล็ก-ตัวใหญ่)"
-
-#~ msgid "By Name (Case Insensitive)"
-#~ msgstr "ตามชื่อ (ไม่พิจารณาตัวเล็ก-ตัวใหญ่)"
 
 #~ msgid "Icon Operations"
 #~ msgstr "ปฏิบัติการของไอคอน"

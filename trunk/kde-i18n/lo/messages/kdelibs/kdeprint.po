@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-01-15 01:57+0100\n"
+"POT-Creation-Date: 2004-07-16 01:16+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -170,8 +170,9 @@ msgid "Local printer queue (%1)"
 msgstr "ູຄິວຂອງເຄື່ອງພິມພາຍໃນ (%1)"
 
 #: lpd/kmlpdmanager.cpp:87
+#, fuzzy
 msgid ""
-"_: Unknown Type of local printer queue\n"
+"_: Unknown type of local printer queue\n"
 "Unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
 
@@ -431,26 +432,6 @@ msgstr "ທີ່ພັກຂໍ້ມູນ"
 msgid "Spooler Settings"
 msgstr "ຕັ້ງຄ່າທີ່ພັກຂໍ້ມູນ"
 
-#: cups/kmcupsuimanager.cpp:115 lpr/kmlpruimanager.cpp:58
-msgid "&Local printer (parallel, serial, USB)"
-msgstr ""
-"&ເຄື່ອງພີມແບບຕໍຊື້ "
-"(ພອດຂະໜານ, ອະນຸກົມ, USB)"
-
-#: cups/kmcupsuimanager.cpp:117 lpr/kmlpruimanager.cpp:59
-msgid "&Remote LPD queue"
-msgstr "&ເຄື່ອງພີມແບບເຄືອຂ່າຍ LPD"
-
-#: lpr/kmlpruimanager.cpp:60
-msgid "&Network printer (TCP)"
-msgstr "&ເຄື່ອງພິມແບບເຄືອຂ່າຍ(TCP)"
-
-#: cups/kmcupsuimanager.cpp:119 lpr/kmlpruimanager.cpp:61
-msgid "&SMB shared printer (Windows)"
-msgstr ""
-"ເຄືອງພີມແບບເຄືອຂ່າຍ &SMB "
-"(ວີນໂດ)"
-
 #: lpr/lpchelper.cpp:235 lpr/lpchelper.cpp:273 lpr/lpchelper.cpp:291
 #: lpr/lpchelper.cpp:314
 #, fuzzy
@@ -573,18 +554,18 @@ msgstr "ບູລີມ"
 msgid "Printcap Entry: %1"
 msgstr "ລາຍການ Printcap: %1"
 
-#: kprintdialog.cpp:93
+#: kprintdialog.cpp:94
 msgid ""
 " <qt> The <em>Location</em> may describe where the selected printer is "
 "located. The Location description is created by the administrator of the "
 "print system (or may be left empty). </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:98
+#: kprintdialog.cpp:99
 msgid " <qt> The <em>Type</em> indicates your printer type. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:100
+#: kprintdialog.cpp:101
 msgid ""
 " <qt> The <em>State</em>"
 " indicates the state of the print queue on the print server (which could be "
@@ -592,14 +573,14 @@ msgid ""
 "or similar. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:104
+#: kprintdialog.cpp:105
 msgid ""
 " <qt> The <em>Comment</em> may describe the selected printer. This comment "
 "is created by the administrator of the print system (or may be left empty). "
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:108
+#: kprintdialog.cpp:109
 msgid ""
 " <qt>"
 "Use this combo box to select the printer to which you want to print. If you "
@@ -616,13 +597,13 @@ msgid ""
 "the remote server.</li> </ul> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:124
+#: kprintdialog.cpp:125
 msgid ""
 " <qt> This button takes you to where you can make decisions regarding all "
 "supported print job options. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:127
+#: kprintdialog.cpp:128
 msgid ""
 " <qt>"
 "<p> This button reduces the list of visible printers to a shorter, more "
@@ -635,7 +616,7 @@ msgid ""
 "Configuration</em> dialog).</p> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:136
+#: kprintdialog.cpp:137
 msgid ""
 "<qt> This button starts the <em>KDE Add Printer Wizard</em>. (<b>NOT</b> if "
 "you use <em>\"Generic LPD</em>\" or <em>\"LPRng\"</em>, or <em>\"Print "
@@ -643,7 +624,7 @@ msgid ""
 "or <em>\"RLPR\"</em>) to add locally defined printers to your system. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:142
+#: kprintdialog.cpp:143
 msgid ""
 " <qt> You can enter any command that would also print for you in a "
 "<em>konsole</em> window. "
@@ -651,14 +632,14 @@ msgid ""
 "<pre>a2ps -P &lt;printername&gt; --medium=A3</pre>. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:146
+#: kprintdialog.cpp:147
 msgid ""
 " <qt>This button expands or reduces the KDE printing dialog. KDEPrint will "
 "remember what you do here; next time, it will start this dialog 'expanded' "
 "or 'collapsed', depending on the mode you are using this time.... </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:152
+#: kprintdialog.cpp:153
 msgid ""
 " <qt> This button starts a new dialog where you can adjust various settings "
 "of your printing system. Amongst them: "
@@ -671,15 +652,15 @@ msgid ""
 "more....  </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:163
+#: kprintdialog.cpp:164
 msgid " <qt> This button takes you to the complete <em>KDEPrint Manual</em>. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:167
+#: kprintdialog.cpp:168
 msgid " <qt> This button cancels your print job and quits the kprinter dialog. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:171
+#: kprintdialog.cpp:172
 msgid ""
 " <qt> This button sends the job to the printing process. If you are sending "
 "non-PostScript files, you may be asked if you want KDE to convert the files "
@@ -687,7 +668,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:177
+#: kprintdialog.cpp:178
 msgid ""
 " <qt>"
 "<p>"
@@ -699,7 +680,7 @@ msgid ""
 "quickly.</p> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:186
+#: kprintdialog.cpp:187
 msgid ""
 " <qt> The \"Output file:\" shows you where your file will be saved if you "
 "decide to \"Print to File\" your job, using one of the KDE <em>Special "
@@ -708,20 +689,20 @@ msgid ""
 "and/or editing the line on the right. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:193
+#: kprintdialog.cpp:194
 msgid ""
 " <qt> Edit this line to create a path and filename that suits you. (Only "
 "available if you \"Print to File\") </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:197
+#: kprintdialog.cpp:198
 msgid ""
 " <qt> This button calls the \"File Open\" dialog to let you choose a "
 "directory and file name where your \"Print-to-File\" job should be saved. "
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:202
+#: kprintdialog.cpp:203
 msgid ""
 " <qt> This button calls the \"File Open\" dialog to allow you to select a "
 "file for printing. Note, that  "
@@ -733,32 +714,32 @@ msgid ""
 "\"multi-file job\" to the printing system. </ul> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:213
+#: kprintdialog.cpp:214
 msgid ""
 " <qt> This button removes the highlighted file from the list of files to be "
 "printed. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:217
+#: kprintdialog.cpp:218
 msgid ""
 " <qt> This button tries to open the highlighted file, so you can view or "
 "edit it before you send it to the printing system. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:222
+#: kprintdialog.cpp:223
 msgid ""
 " <qt> This button moves the highlighted file up in the list of files to be "
 "printed. (In effect, this changes the order of the files' printout.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:227
+#: kprintdialog.cpp:228
 msgid ""
 " <qt>"
 " This button moves the highlighted file down in the list of files to be "
 "printed. (In effect, this changes the order of the files' printout.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:232
+#: kprintdialog.cpp:233
 msgid ""
 " <qt> Enable this checkbox if you want to see a preview of your printout. A "
 "preview lets you check if, for instance, your intended \"poster\" or "
@@ -766,7 +747,7 @@ msgid ""
 "also lets you cancel the job if something looks wrong.  </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:239
+#: kprintdialog.cpp:240
 msgid ""
 " <qt>"
 " This button sets the current printer as the user's default. (Button is only "
@@ -775,136 +756,138 @@ msgid ""
 "application\"</em> is disabled.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:252 management/kmmainview.cpp:299 management/kmwend.cpp:90
-#: management/smbview.cpp:36
+#: kprintdialog.cpp:253 management/kmmainview.cpp:290 management/kmwend.cpp:90
+#: management/smbview.cpp:37
 msgid "Printer"
 msgstr "ເຄື່ອງພິມ"
 
-#: kprintdialog.cpp:265 management/kmspecialprinterdlg.cpp:56
+#: kprintdialog.cpp:266 management/kmspecialprinterdlg.cpp:56
 #: management/kxmlcommanddlg.cpp:114
 msgid "&Name:"
 msgstr "&ຊື່:"
 
-#: kprintdialog.cpp:267 management/kminfopage.cpp:50
+#: kprintdialog.cpp:268 management/kminfopage.cpp:50
 msgid ""
 "_: Status\n"
 "State:"
 msgstr "ສະຖານະ:"
 
-#: kprintdialog.cpp:269 management/kminfopage.cpp:48
+#: kprintdialog.cpp:270 management/kminfopage.cpp:48
 msgid "Type:"
 msgstr "ປະເພດ:"
 
-#: kprintdialog.cpp:271 management/kmwname.cpp:40
+#: kprintdialog.cpp:272 management/kmwname.cpp:40
 msgid "Location:"
 msgstr "ຕຳແຫນ່ງ:"
 
-#: kprintdialog.cpp:273 management/kxmlcommanddlg.cpp:175
+#: kprintdialog.cpp:274 management/kxmlcommanddlg.cpp:175
 msgid "Comment:"
 msgstr "ຄຳອະທິບາຍ:"
 
-#: kprintdialog.cpp:276
-msgid "P&roperties..."
-msgstr "&ຄຸນສົມບັດ..."
+#: kprintdialog.cpp:277
+#, fuzzy
+msgid "P&roperties"
+msgstr "ຄຸນສົມບບັດ"
 
-#: kprintdialog.cpp:278
+#: kprintdialog.cpp:279
 msgid "System Op&tions..."
 msgstr "&ຕົວເລືອກຂອງລະບົບ..."
 
-#: kprintdialog.cpp:280
+#: kprintdialog.cpp:281
 msgid "Set as &Default"
 msgstr "&ຕັ້ງເປັນຄ່າປະລິຍາຍ"
 
-#: kprintdialog.cpp:287
+#: kprintdialog.cpp:288
 #, fuzzy
 msgid "Toggle printer filtering"
 msgstr ""
 "ເປີດ/ປິດການໃຊ້ງາານຕົວກອງເຄ"
 "ື່ອງພິມ"
 
-#: kprintdialog.cpp:292
+#: kprintdialog.cpp:293
 msgid "Add printer..."
 msgstr "ເພີ່ມເຄືອງພິມ..."
 
-#: cups/ippreportdlg.cpp:34 cups/ippreportdlg.cpp:41 kprintdialog.cpp:294
+#: cups/ippreportdlg.cpp:34 cups/ippreportdlg.cpp:41 kprintdialog.cpp:295
 msgid "&Print"
 msgstr "&ພິມ"
 
-#: kprintdialog.cpp:300
+#: kprintdialog.cpp:301
 msgid "Previe&w"
 msgstr "&ສະແດງຕົວຢ່າງ"
 
-#: kprintdialog.cpp:302
+#: kprintdialog.cpp:303
 msgid "O&utput file:"
 msgstr "&ພິມເປັນແຟ້ມ:"
 
-#: kprintdialog.cpp:308
+#: kprintdialog.cpp:309
 msgid "Print co&mmand:"
 msgstr "ຄຳສັ່ງ&ການພິມ:"
 
-#: kprintdialog.cpp:317
+#: kprintdialog.cpp:318
 #, fuzzy
 msgid "Show/hide advanced options"
 msgstr ""
 "ຊ້ອນ/ສະແດງຕົວເລືອກເພີ່ມເຕີ"
 "່ມ"
 
-#: kprintdialog.cpp:319
+#: kprintdialog.cpp:320
 msgid "&Keep this dialog open after printing"
 msgstr ""
 "&ເປີດກ່ອງໂຕ້ຕອບນີ້ໄວ້ຫລັງຈ"
 "າກການພິມ"
 
-#: kprintdialog.cpp:531 kprintdialog.cpp:903
+#: kprintdialog.cpp:532 kprintdialog.cpp:918
 msgid "An error occurred while retrieving the printer list:"
 msgstr ""
 "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງລາ"
 "ຍການເຄື່ອງພິມ:"
 
-#: kprintdialog.cpp:694
+#: kprintdialog.cpp:696
+#, fuzzy
 msgid "The output filename is empty."
 msgstr ""
 "ຍັງບໍ່ໄດ້ຕື່ມຊື່ແຟ້ມທີ່ຈະ"
 "ໃຊ້ພິມ"
 
-#: kprintdialog.cpp:727
+#: kprintdialog.cpp:735
 msgid "You don't have write permissions to this file."
 msgstr ""
 "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽ"
 "ນໄປຍັງແຟ້ມນີ້"
 
-#: kprintdialog.cpp:733
+#: kprintdialog.cpp:741
 #, fuzzy
 msgid "The output directory does not exist."
 msgstr ""
 "ຍັງບໍ່ມີ "
 "ແຟ້ມຫລືໄດເລັກທໍລີ%1"
 
-#: kprintdialog.cpp:735
+#: kprintdialog.cpp:743
 msgid "You don't have write permissions in that directory."
 msgstr ""
 "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽ"
 "ໜໄປຍັງໄດເລັກທໍລີ"
 
-#: kprintdialog.cpp:842
+#: kprintdialog.cpp:854
 msgid "Collaps&e"
 msgstr "&ຫຍໍ້ເກັບ"
 
-#: kprintdialog.cpp:851
+#: kprintdialog.cpp:866
 msgid "&Expand"
 msgstr "&ຂະຫຍາຍ"
 
-#: kprintdialog.cpp:893
+#: kprintdialog.cpp:908
 msgid "Initializing printing system..."
 msgstr ""
 "ເລີ່ມການຮຍກໃຊ້ລະບົບການພິມ.."
 "."
 
-#: kprintdialog.cpp:929
+#: kprintdialog.cpp:944
 msgid "Print to File"
 msgstr "ພິມອອກເປັນແຟ້ມ"
 
-#: kmprinter.cpp:181 kprintdialog.cpp:947
+#: kmprinter.cpp:197 kprintdialog.cpp:962
 msgid "All Files"
 msgstr "ທຸກແຟ້ມ"
 
@@ -1079,29 +1062,30 @@ msgstr ""
 "່ານບໍ່ຕ້ອງການໃ້ຊ້ແບນເນີໃຫ"
 "້ເລືອກ <b>ບໍ່ມີี</b></p>"
 
-#: cups/cupsaddsmb2.cpp:54 cups/cupsaddsmb2.cpp:362
+#: cups/cupsaddsmb2.cpp:55 cups/cupsaddsmb2.cpp:363
 msgid "&Export"
 msgstr "&ສົ່ງອອກ"
 
-#: cups/cupsaddsmb2.cpp:60
+#: cups/cupsaddsmb2.cpp:61
 msgid "Export printer driver to Windows clients"
 msgstr ""
 "ສົ່ງອອກໄດຣເວີເຄືອ່ງພິມໄປຍ"
 "ັງໄຄແອນວິນໂດຍສ໌"
 
-#: cups/cupsaddsmb2.cpp:71
+#: cups/cupsaddsmb2.cpp:72
+#, fuzzy
 msgid "&Username:"
 msgstr "&ຊື່ຜູ້ໃຊ້:"
 
-#: cups/cupsaddsmb2.cpp:72
+#: cups/cupsaddsmb2.cpp:73
 msgid "&Samba server:"
 msgstr "ເຊີບເວີ &Samba:"
 
-#: cups/cupsaddsmb2.cpp:73 management/kmwpassword.cpp:50
+#: cups/cupsaddsmb2.cpp:74 management/kmwpassword.cpp:50
 msgid "&Password:"
 msgstr "&ລະຫັດຜ່ານ:"
 
-#: cups/cupsaddsmb2.cpp:78
+#: cups/cupsaddsmb2.cpp:79
 msgid ""
 "<p><b>Samba server</b></p>Adobe Windows PostScript driver files plus the "
 "CUPS printer PPD will be exported to the <tt>[print$]</tt> special share of "
@@ -1123,7 +1107,8 @@ msgstr ""
 "ງເບື້ອງແຊມບາ ກ່ອນທີ່ຈະຄລິກ "
 "<b>ສົ່ງອອກ </b>ປຸ່ມເບື້້ອງລຸ່ມ."
 
-#: cups/cupsaddsmb2.cpp:87
+#: cups/cupsaddsmb2.cpp:88
+#, fuzzy
 msgid ""
 "<p><b>Samba username</b></p>User needs to have write access to the "
 "<tt>[print$]</tt> share on the Samba server. <tt>[print$]</tt>"
@@ -1137,7 +1122,7 @@ msgstr ""
 "does not work for Samba servers configured with <tt>security = share</tt> "
 "(but works fine with <tt>security = user</tt>)."
 
-#: cups/cupsaddsmb2.cpp:95
+#: cups/cupsaddsmb2.cpp:96
 msgid ""
 "<p><b>Samba password</b></p>The Samba setting <tt>encrypt passwords = "
 "yes</tt> (default) requires prior use of <tt>smbpasswd -a [username]</tt> "
@@ -1153,31 +1138,31 @@ msgstr ""
 "ຊມບາແບບເອັນຄຣິບ "
 "ແລະຈະໃຫ້ແຊມບາຈຳມັນໄດ້."
 
-#: cups/cupsaddsmb2.cpp:266
+#: cups/cupsaddsmb2.cpp:267
 #, fuzzy, c-format
 msgid "Creating folder %1"
 msgstr "ກຳ່ລັງສ້າງໄດເຣັກເທີຣີ%1"
 
-#: cups/cupsaddsmb2.cpp:274
+#: cups/cupsaddsmb2.cpp:275
 #, c-format
 msgid "Uploading %1"
 msgstr "ກຳ່ລັງອັບໂຫລດ%1"
 
-#: cups/cupsaddsmb2.cpp:282
+#: cups/cupsaddsmb2.cpp:283
 #, c-format
 msgid "Installing driver for %1"
 msgstr "ກຳ່ລັງຕິດຕັ້ງໄດຣເວີສຳຫລັບ%1"
 
-#: cups/cupsaddsmb2.cpp:290
+#: cups/cupsaddsmb2.cpp:291
 #, c-format
 msgid "Installing printer %1"
 msgstr "ກຳ່ລັງຕິດຕັ້ງເຄືອ່ງພິມ%1"
 
-#: cups/cupsaddsmb2.cpp:332
+#: cups/cupsaddsmb2.cpp:333
 msgid "Driver successfully exported."
 msgstr "ສົ່ງອອກໄດຣເວີຮງບຮ້ອຍແລ້ວ"
 
-#: cups/cupsaddsmb2.cpp:342
+#: cups/cupsaddsmb2.cpp:343
 msgid ""
 "Operation failed. Possible reasons are: permission denied or invalid Samba "
 "configuration (see <a href=\"man:/cupsaddsmb\">cupsaddsmb</a> manual page "
@@ -1197,17 +1182,18 @@ msgstr ""
 "ง โดยใช้ล็อกอิน/รหัสผ่าน "
 "อื่นๆ"
 
-#: cups/cupsaddsmb2.cpp:351
+#: cups/cupsaddsmb2.cpp:352
 msgid "Operation aborted (process killed)."
 msgstr ""
 "ປະຕິບັດການຖືກຍົກເລີກ(ກະລຸນ"
 "າເຊັກຖືກຂ້າ)"
 
-#: cups/cupsaddsmb2.cpp:357
-msgid "<h3>Operation failed!</h3><p>%1</p>"
+#: cups/cupsaddsmb2.cpp:358
+#, fuzzy
+msgid "<h3>Operation failed.</h3><p>%1</p>"
 msgstr "<h3>ປະຕິບັດການຫລົ້າເຫລວ !</h3><p>%1</p>"
 
-#: cups/cupsaddsmb2.cpp:372
+#: cups/cupsaddsmb2.cpp:373
 #, fuzzy
 msgid ""
 "You are about to prepare the <b>%1</b> driver to be shared out to Windows "
@@ -1237,7 +1223,7 @@ msgstr ""
 "ອສຶກສາກ່ງວກັບຄວາມສາມາດນີ້"
 "ເພີ່ມເຕີມ"
 
-#: cups/cupsaddsmb2.cpp:392
+#: cups/cupsaddsmb2.cpp:393
 msgid ""
 "Some driver files are missing. You can get them on <a "
 "href=\"http://www.adobe.com\">Adobe</a> web site. See <a "
@@ -1252,24 +1238,24 @@ msgstr ""
 "href=\"http://www.cups.org\">CUPS</a> ລຸ້ນ 1.1.11 "
 "ຫລືສູງກວ່າ)"
 
-#: cups/cupsaddsmb2.cpp:403
+#: cups/cupsaddsmb2.cpp:404
 #, c-format
 msgid "Preparing to upload driver to host %1"
 msgstr ""
 "ກຳ່ລັງຕງມການອັບໂຫລດໄດເວີໄ"
 "ປຍັງໂຮດສຕ໌%1"
 
-#: cups/cupsaddsmb2.cpp:408 management/networkscanner.cpp:149
+#: cups/cupsaddsmb2.cpp:409 management/networkscanner.cpp:149
 msgid "&Abort"
 msgstr "&ຍົກເລີກ"
 
-#: cups/cupsaddsmb2.cpp:414
+#: cups/cupsaddsmb2.cpp:415
 msgid "The driver for printer <b>%1</b> could not be found."
 msgstr ""
 "ບໍ່ພົບໄດເວີສຳຫລັບເຄື່ອງພິ"
 "ມ <b>%1</b>"
 
-#: cups/cupsaddsmb2.cpp:454
+#: cups/cupsaddsmb2.cpp:455
 #, c-format
 msgid "Preparing to install driver on host %1"
 msgstr ""
@@ -1281,19 +1267,20 @@ msgid "Remote IPP Printer Selection"
 msgstr "ເລືອກເຄື່ອງພິມໄລຍະໄກແບບ IPP"
 
 #: cups/kmwippselect.cpp:49
-msgid "You must select a printer!"
+#, fuzzy
+msgid "You must select a printer."
 msgstr ""
 "ທ່ານຕ້ອງເລືອກເຄື່ອງພິມກ່ອ"
 "ນ!"
 
-#: cups/ipprequest.cpp:101
+#: cups/ipprequest.cpp:110
 #, fuzzy
 msgid "You don't have access to the requested resource."
 msgstr ""
 "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽ"
 "ນໄປຍັງສັບພະຍາກອນ"
 
-#: cups/ipprequest.cpp:104
+#: cups/ipprequest.cpp:113
 #, fuzzy
 msgid "You are not authorized to access the requested resource."
 msgstr ""
@@ -1301,25 +1288,25 @@ msgstr ""
 "ນເຂົ້າໃຊ້ໄດເລັກທໍລີໃຫ້ໃຊ້"
 "ຮ່ວມກັນ"
 
-#: cups/ipprequest.cpp:107
+#: cups/ipprequest.cpp:116
 #, fuzzy
 msgid "The requested operation cannot be completed."
 msgstr ""
 "ບໍ່ສາມາດທຳປະຕິບັດການທີ່ຮ້"
 "ອງຂໍມາໃຫ້ສຳເລັດໄດ້"
 
-#: cups/ipprequest.cpp:110
+#: cups/ipprequest.cpp:119
 #, fuzzy
 msgid "The requested service is currently unavailable."
 msgstr ""
 "ເຊີເວີຕ້ອງການ %1 "
 "ແຕ່ມັນຍັງບໍ່ມີຢູ່"
 
-#: cups/ipprequest.cpp:113
+#: cups/ipprequest.cpp:122
 msgid "The target printer is not accepting print jobs."
 msgstr ""
 
-#: cups/ipprequest.cpp:224
+#: cups/ipprequest.cpp:233
 msgid ""
 "Connection to CUPS server failed. Check that the CUPS server is correctly "
 "installed and running."
@@ -1333,25 +1320,25 @@ msgstr ""
 "ັລັງຕິດຕັ້ງໄວ້ຢ່າງຖືກຕ້ອງ"
 "ແລ້ວແລະກຳລັງທຳງານຢູ່"
 
-#: cups/ipprequest.cpp:227
+#: cups/ipprequest.cpp:236
 msgid "The IPP request failed for an unknown reason."
 msgstr ""
 "ລົ້ມເຫລວໃນການຮ້ອງຂໍ IPP "
 "ໂດຍບໍ່ຮູ້ສາເຫດ"
 
-#: cups/ipprequest.cpp:328
+#: cups/ipprequest.cpp:344
 msgid "Attribute"
 msgstr "ແອດທິບິວ"
 
-#: cups/ipprequest.cpp:329
+#: cups/ipprequest.cpp:345
 msgid "Values"
 msgstr "ູຄ່າ"
 
-#: cups/ipprequest.cpp:360
+#: cups/ipprequest.cpp:376
 msgid "True"
 msgstr "ຖືກ"
 
-#: cups/ipprequest.cpp:360
+#: cups/ipprequest.cpp:376
 msgid "False"
 msgstr "ຜິດ"
 
@@ -1384,11 +1371,11 @@ msgstr "ບໍ່ມີໂຄຕາ"
 msgid "None"
 msgstr "ບໍ່ມີ"
 
-#: cups/kmwipp.cpp:34
+#: cups/kmwipp.cpp:35
 msgid "Remote IPP server"
 msgstr "ເຊີບເວີ์ IPP ໄລຍະໄກ"
 
-#: cups/kmwipp.cpp:37
+#: cups/kmwipp.cpp:39
 msgid ""
 "<p>Enter the information concerning the remote IPP server owning the "
 "targeted printer. This wizard will poll the server before continuing.</p>"
@@ -1399,25 +1386,27 @@ msgstr ""
 "ບຖາມເຊີບເວີກ່ອນທຳການຕໍ່ໄປ</"
 "p>"
 
-#: cups/kmwipp.cpp:40 management/kmwlpd.cpp:46 rlpr/kmproprlpr.cpp:34
+#: cups/kmwipp.cpp:42 management/kmwlpd.cpp:46 rlpr/kmproprlpr.cpp:34
 #: rlpr/kmwrlpr.cpp:62
 msgid "Host:"
 msgstr "ໂຮດສ໌:"
 
-#: cups/kmwipp.cpp:41
+#: cups/kmwipp.cpp:43
 msgid "Port:"
 msgstr "ພອດທ໌:"
 
-#: cups/kmwipp.cpp:49
-msgid "Empty server name!"
-msgstr "ຍັງບໍ່ຕື່ມຊື່ເຊີບເວີ!"
+#: cups/kmwipp.cpp:52 management/kmwsmb.cpp:79
+msgid "Empty server name."
+msgstr "ໍບໍ່ມີຊື່້ເຊີບເວີ"
 
-#: cups/kmwipp.cpp:56
-msgid "Incorrect port number!"
+#: cups/kmwipp.cpp:59
+#, fuzzy
+msgid "Incorrect port number."
 msgstr "ຫມາຍເລກພອດບໍ່ຖືກຕ້ອງ!"
 
-#: cups/kmwipp.cpp:69
-msgid "<nobr>Unable to connect to <b>%1</b> on port <b>%2</b> !</nobr>"
+#: cups/kmwipp.cpp:72
+#, fuzzy
+msgid "<nobr>Unable to connect to <b>%1</b> on port <b>%2</b> .</nobr>"
 msgstr ""
 "<nobr>ບໍ່ສາມາດເຊື່ອມຕໍ່ໄປຍັງ<b>"
 "%1</b> ທາງພອດ <b>%2</b> ໄດ້!</nobr>"
@@ -1546,8 +1535,8 @@ msgstr ""
 msgid "Additional Tags"
 msgstr "ແທກເພີ່ມເຕີມ"
 
-#: cups/kptagspage.cpp:51 kfilelist.cpp:93 kpfilterpage.cpp:308
-#: management/kmjobviewer.cpp:235 management/kmwend.cpp:51
+#: cups/kptagspage.cpp:51 kfilelist.cpp:93 kpfilterpage.cpp:309
+#: management/kmjobviewer.cpp:237 management/kmwend.cpp:51
 #: management/kxmlcommanddlg.cpp:141 management/kxmlcommanddlg.cpp:544
 msgid "Name"
 msgstr "ຊື່"
@@ -1566,27 +1555,64 @@ msgstr ""
 "ຊື່ແທກຈະຕ້ອງບໍ່ມີຊ່ອງວ່າງ: "
 "<b>%1</b>"
 
-#: cups/kmcupsuimanager.cpp:83 cups/kmcupsuimanager.cpp:86
-#: cups/kmcupsuimanager.cpp:89 cups/kmcupsuimanager.cpp:92
-#: cups/kmcupsuimanager.cpp:95 cups/kmcupsuimanager.cpp:98
-#: cups/kmcupsuimanager.cpp:101 cups/kmcupsuimanager.cpp:104
-#: cups/kmcupsuimanager.cpp:107 cups/kmcupsuimanager.cpp:110
-msgid "<qt><p> </p>. </qt>"
+#: cups/kmcupsuimanager.cpp:84
+msgid ""
+"<qt>"
+"<p>Print queue on remote CUPS server</p>"
+"<p>Use this for a print queue installed on a remote machine running a CUPS "
+"server. This allows to use remote printers when CUPS browsing is turned "
+"off.</p></qt>"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:121
-msgid "Ne&twork printer (TCP)"
-msgstr "ເຄື່ອງ&ພີມແບບເຄືອຂ່າຍ (TCP)"
+#: cups/kmcupsuimanager.cpp:91
+msgid ""
+"<qt>"
+"<p>Network IPP printer</p>"
+"<p>Use this for a network-enabled printer using the IPP protocol. Modern "
+"high-end printers can use this mode. Use this mode instead of TCP if your "
+"printer can do both.</p></qt>"
+msgstr ""
 
-#: cups/kmcupsuimanager.cpp:123
+#: cups/kmcupsuimanager.cpp:98
+msgid ""
+"<qt>"
+"<p>Fax/Modem printer</p>"
+"<p>Use this for a fax/modem printer. This requires the installation of the "
+"<a href=\"http://vigna.dsi.unimi.it/fax4CUPS/\">fax4CUPS</a> backend. "
+"Documents sent on this printer will be faxed to the given target fax "
+"number.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:105
+msgid ""
+"<qt>"
+"<p>Other printer</p>"
+"<p>Use this for any printer type. To use this option, you must know the URI "
+"of the printer you want to install. Refer to the CUPS documentation for more "
+"information about the printer URI. This option is mainly useful for printer "
+"types using 3rd party backends not covered by the other "
+"possibilities.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:113
+msgid ""
+"<qt>"
+"<p>Class of printers</p>"
+"<p>Use this to create a class of printers. When sending a document to a "
+"class, the document is actually sent to the first available (idle) printer "
+"in the class. Refer to the CUPS documentation for more information about "
+"class of printers.</p></qt>"
+msgstr ""
+
+#: cups/kmcupsuimanager.cpp:126
 msgid "Re&mote CUPS server (IPP/HTTP)"
 msgstr "ເຊີບເວີ &CUPS ແບບໄລຍະໄກ(IPP/HTTP)"
 
-#: cups/kmcupsuimanager.cpp:125
+#: cups/kmcupsuimanager.cpp:127
 msgid "Network printer w/&IPP (IPP/HTTP)"
 msgstr "ເຄືອ່ງພິມແບບເຄືອຂ່າຍ&IPP (IPP/HTTP)"
 
-#: cups/kmcupsuimanager.cpp:127
+#: cups/kmcupsuimanager.cpp:128
 msgid "S&erial Fax/Modem printer"
 msgstr ""
 "&ເຄືອ່ງພິມແບບອະນຸກົມໂທລະສາ"
@@ -1596,15 +1622,15 @@ msgstr ""
 msgid "Other &printer type"
 msgstr "&ເຄືອ່ງພິມປະເພດອື່ນໆ"
 
-#: cups/kmcupsuimanager.cpp:133
+#: cups/kmcupsuimanager.cpp:131
 msgid "Cl&ass of printers"
 msgstr "&ຄລາດສ໌ຂອງເຄືອ່ງພິມ"
 
-#: cups/kmcupsuimanager.cpp:212
+#: cups/kmcupsuimanager.cpp:209
 msgid "Priority"
 msgstr "ລຳດັບຄວາມສຳຄັນ"
 
-#: cups/kmcupsuimanager.cpp:214
+#: cups/kmcupsuimanager.cpp:211
 msgid "Billing Information"
 msgstr "ຂໍ້ມູນຄ່າໃຊ້ຈ່າຍ"
 
@@ -1623,42 +1649,44 @@ msgstr ""
 msgid "You must select a device."
 msgstr "ທ່ານຕ້ອງເລືອກອຸປະກອນກ່ອນ"
 
-#: cups/kmcupsmanager.cpp:742
-msgid "Library libcupsdconf not found. Check your installation."
+#: cups/kmcupsmanager.cpp:745
+#, fuzzy
+msgid "Library cupsdconf not found. Check your installation."
 msgstr ""
 "ບໍພົບໄລບາລີ libcupsdconf "
 "ກະລຸນາກວດສອດການຕີດຕັງ"
 
-#: cups/kmcupsmanager.cpp:748
-msgid "Symbol %1 not found in libcupsdconf library."
+#: cups/kmcupsmanager.cpp:751
+#, fuzzy
+msgid "Symbol %1 not found in cupsdconf library."
 msgstr ""
 "ບໍພົບສັນຍາລັກ์ %1 ໃນໄລບາລີ "
 "libcupsdconf"
 
-#: cups/kmcupsmanager.cpp:823
+#: cups/kmcupsmanager.cpp:826
 msgid "&Export Driver..."
 msgstr "&ສົງອອກໄດເວີ..."
 
-#: cups/kmcupsmanager.cpp:825
+#: cups/kmcupsmanager.cpp:828
 msgid "&Printer IPP Report..."
 msgstr "&ລາຍງານເຄືອງພືມ IPP..."
 
-#: cups/kmcupsmanager.cpp:871
+#: cups/kmcupsmanager.cpp:874
 #, c-format
 msgid "IPP report for %1"
 msgstr "ລາຍງານ IPP ສຳລັບ %1"
 
-#: cups/kmcupsmanager.cpp:875
+#: cups/kmcupsmanager.cpp:878
 msgid "Unable to retrieve printer information. Error received:"
 msgstr ""
 "ບໍສາດຮັບຄ່າຂໍ້ມູນການພີມໄດ"
 "້;"
 
-#: cups/kmcupsmanager.cpp:887
+#: cups/kmcupsmanager.cpp:890
 msgid "Connected to %1:%2"
 msgstr "ເຊື່ອດຕໍໄປທີ່ %1:%2 ແລ້ວ"
 
-#: cups/kmcupsmanager.cpp:925 cups/kmcupsmanager.cpp:952
+#: cups/kmcupsmanager.cpp:928 cups/kmcupsmanager.cpp:955
 #, c-format
 msgid ""
 "Connection to CUPS server failed. Check that the CUPS server is correctly "
@@ -1671,17 +1699,17 @@ msgstr ""
 "ອງແລ້ວ ແລະກຳລັງເຮັດວຽກຢູ່ "
 "ຂໍ້ຜິດພາດຄື; %1"
 
-#: cups/kmcupsmanager.cpp:926
+#: cups/kmcupsmanager.cpp:929
 msgid "the IPP request failed for an unknown reason"
 msgstr ""
 "ລົ້ມເຫຼວໃນການຮ້ອງຂໍ IPP "
 "ໂດຍບໍຮູ້ເຫດຜົນ"
 
-#: cups/kmcupsmanager.cpp:953
+#: cups/kmcupsmanager.cpp:956
 msgid "connection refused"
 msgstr "ຖືກປະຕີເສດການເຊື່ອດຕໍ່"
 
-#: cups/kmcupsmanager.cpp:953
+#: cups/kmcupsmanager.cpp:956
 msgid "host not found"
 msgstr "ບໍພົບໂຝດ"
 
@@ -1724,18 +1752,21 @@ msgid "&IPP Report..."
 msgstr "ລາຍງານ &IPP..."
 
 #: cups/kmwippprinter.cpp:112
-msgid "You must enter a printer URI!"
+#, fuzzy
+msgid "You must enter a printer URI."
 msgstr ""
 "ທ່ານຕ້ອງໃສ່ URI "
 "ເຄືອ່ງພິມເສຍກ່ອນ!"
 
 #: cups/kmwippprinter.cpp:119 management/kmwsocket.cpp:116
-msgid "No printer found at this address/port!"
+#, fuzzy
+msgid "No printer found at this address/port."
 msgstr ""
 "ບໍ່ພົບເຄືອ່ງພິມທີ່ຕຳແຫ່ນງ"
 "ທີ່ຢູ່ /ພອດຕ໌ນີ້ !"
 
 #: cups/kmwippprinter.cpp:139 management/kmwsocket.cpp:135
+#, fuzzy
 msgid ""
 "_: Unknown host - 1 is the IP\n"
 "<Unknown> (%1)"
@@ -1913,7 +1944,8 @@ msgstr ""
 "ືກັບຜູ້ໃຊ້ທັງຫມົດກໍ່ໄດ້</p>"
 
 #: cups/kmwquota.cpp:130
-msgid "You must at least specify one quota limit!"
+#, fuzzy
+msgid "You must specify at least one quota limit."
 msgstr ""
 "ທ່ານຕ້ອງກຳນົດການຈຳກັດໂຄຕາ"
 "ຢ່າງຫນ້ອຍນື່ງໂຄຕາ!"
@@ -2084,7 +2116,7 @@ msgstr "ຍັງບໍ່ໄດ້ກຳເຄືອ່ງພິມ์์"
 msgid "Queue"
 msgstr "ຄິວ"
 
-#: management/kmwsmb.cpp:79 rlpr/kmrlprmanager.cpp:45
+#: management/kmwsmb.cpp:81 rlpr/kmrlprmanager.cpp:45
 msgid "Empty printer name."
 msgstr "ບໍ່ມີຊື່ເຄືອ່ງພິມ"
 
@@ -2146,7 +2178,7 @@ msgstr ""
 "&ໃຊ້ການເຊື່ອມຕໍ່ກົງ(ຕ້ອງການ"
 "ສິດທິຂອງຜູ້ເບິ່ງແຍງລະບົບ)"
 
-#: management/kmwsmb.cpp:45 tools/escputil/escpwidget.cpp:96
+#: management/kmwsmb.cpp:46 tools/escputil/escpwidget.cpp:96
 msgid "Printer:"
 msgstr "ເຄືອ່ງພິມ:"
 
@@ -2221,11 +2253,11 @@ msgstr ""
 "ຫຍຸດປະຕິບັດການເນື່ອງຈາກຂໍ"
 "້ຜິດພາດ"
 
-#: kpfilterpage.cpp:311 tools/escputil/escpwidget.cpp:214
+#: kpfilterpage.cpp:312 tools/escputil/escpwidget.cpp:214
 msgid "Output"
 msgstr "ສົ່ງອອກ"
 
-#: management/kmmainview.cpp:73
+#: management/kmmainview.cpp:71
 msgid ""
 "The printer %1 already exists. Continuing will overwrite existing printer. "
 "Do you want to continue?"
@@ -2236,260 +2268,275 @@ msgstr ""
 "ຈະຂງນທັບເຄືອງພິມນີ້ທ່ານຕ້"
 "ອງການທຳຕໍ່ໄປຫລືບໍ່?"
 
-#: management/kmmainview.cpp:143 management/kmmainview.cpp:760
-#: management/kmmainview.cpp:863
+#: management/kmmainview.cpp:132 management/kmmainview.cpp:779
+#: management/kmmainview.cpp:855 management/kmmainview.cpp:879
 msgid "Initializing manager..."
 msgstr "ເລີ່ມການຮງກໃຊ້ຕົວຈັດການ...."
 
-#: management/kmmainview.cpp:191
+#: management/kmmainview.cpp:179
 msgid "&Icons,&List,&Tree"
 msgstr "ໄອຄອນ,ລີດສ໌,ທຣີ"
 
-#: management/kmmainview.cpp:195
+#: management/kmmainview.cpp:183
 msgid "Start/Stop Printer"
 msgstr "ເລີ່ມ/ຢຸດເຄືອ່ງພິມ"
 
-#: management/kmmainview.cpp:197
+#: management/kmmainview.cpp:185
 msgid "&Start Printer"
 msgstr "&ເລີ່ມເຄື່ອງພິມ"
 
-#: management/kmmainview.cpp:198
+#: management/kmmainview.cpp:186
 msgid "Sto&p Printer"
 msgstr "&ຢຸດເຄື່ອງພິມ"
 
-#: management/kmmainview.cpp:200
+#: management/kmmainview.cpp:188
 msgid "Enable/Disable Job Spooling"
 msgstr ""
 "ເປີດ/ປິດການໃຊ້ງານທີ່ພັກຂໍ້"
 "ມູນການພິມ"
 
-#: management/kmmainview.cpp:202
+#: management/kmmainview.cpp:190
 msgid "&Enable Job Spooling"
 msgstr ""
 "&ເປີດການໃຊ້ງານທີ່ຢຸດຂໍ້ມູນ"
 "ການພິມ"
 
-#: management/kmmainview.cpp:203
+#: management/kmmainview.cpp:191
 msgid "&Disable Job Spooling"
 msgstr ""
 "&ປິດການໃຊ້ງານທີ່ຢຸດຂໍ້ມູນກ"
 "ານພິມ"
 
-#: management/kmmainview.cpp:206
+#: management/kmmainview.cpp:194
 #, fuzzy
 msgid "&Configure..."
 msgstr "&ປັບແຕ່ງ%1..."
 
-#: management/kmmainview.cpp:207
+#: management/kmmainview.cpp:195
 msgid "Add &Printer/Class..."
 msgstr "&ເພີ່ມເຄື່ອງພິມ/ຄລາດສ໌..."
 
-#: management/kmmainview.cpp:208
+#: management/kmmainview.cpp:196
 msgid "Add &Special (pseudo) Printer..."
 msgstr "&ເພີ່ມເຄື່ອງພິມພິເສດ..."
 
-#: management/kmmainview.cpp:209
+#: management/kmmainview.cpp:197
 msgid "Set as &Local Default"
 msgstr ""
 "&ປັບໃຫ້ເປັນຄ່າປະຣິຍາຍຂອງລະ"
 "ບົບ"
 
-#: management/kmmainview.cpp:210
+#: management/kmmainview.cpp:198
 msgid "Set as &User Default"
 msgstr ""
 "&ປັບໃຫ້ເປັນຄ່າປະຣິຍາຍຂອງຜູ"
 "້ໃຊ້"
 
-#: management/kmmainview.cpp:211
+#: management/kmmainview.cpp:199
 msgid "&Test Printer..."
 msgstr "&ທົດສອບເຄື່ອງພິມ"
 
-#: management/kmmainview.cpp:212
+#: management/kmmainview.cpp:200
 msgid "Configure &Manager..."
 msgstr "&ປັບແຕ່ງຕົວຈັດການ"
 
-#: management/kmmainview.cpp:213
+#: management/kmmainview.cpp:201
 msgid "Initialize Manager/&View"
 msgstr "ລິເລີ່ມຕົວຈັດການ/&ວິວວ໌"
 
-#: management/kmmainview.cpp:215
+#: management/kmmainview.cpp:203
 msgid "&Orientation"
 msgstr "&ທິດທາງການຈັດວາງ"
 
-#: management/kmmainview.cpp:218
+#: management/kmmainview.cpp:206
 msgid "&Vertical,&Horizontal"
 msgstr "ແນວຕັ້ງ,ແນວນອນ"
 
-#: management/kmmainview.cpp:222
+#: management/kmmainview.cpp:210
 msgid "R&estart Server"
 msgstr "&ເລີ່ມທຳງານເຊີບເວີໃຫມ່"
 
-#: management/kmmainview.cpp:223
+#: management/kmmainview.cpp:211
 msgid "Configure &Server..."
 msgstr "&ເປັບແຕ່ງເຊີບເວີ"
 
-#: management/kmmainview.cpp:225
-msgid "View &Toolbar"
+#: management/kmmainview.cpp:214
+#, fuzzy
+msgid "Hide &Toolbar"
+msgstr "ແຖບເຄື່ອງມືວີດີໂອ"
+
+#: management/kmmainview.cpp:216
+#, fuzzy
+msgid "Show Me&nu Toolbar"
+msgstr "&ສະແດງເຄື່ອງມື"
+
+#: management/kmmainview.cpp:217
+#, fuzzy
+msgid "Hide Me&nu Toolbar"
 msgstr "&ສະແດງແຖບເຄື່ອງມື"
 
-#: management/kmmainview.cpp:227
-msgid "View Me&nu Toolbar"
-msgstr "&ສະແດງແຖບເຄື່ອງມື"
-
-#: management/kmmainview.cpp:229
-msgid "Show/Hide Pr&inter Details"
+#: management/kmmainview.cpp:219
+#, fuzzy
+msgid "Show Pr&inter Details"
 msgstr ""
 "&ເຊື່ອງ/ສະແດງຕົວເລືອກເພີ່ມເ"
 "ຕີມ"
 
-#: management/kmmainview.cpp:233
+#: management/kmmainview.cpp:220
+#, fuzzy
+msgid "Hide Pr&inter Details"
+msgstr ""
+"&ເຊື່ອງ/ສະແດງຕົວເລືອກເພີ່ມເ"
+"ຕີມ"
+
+#: management/kmmainview.cpp:224
 msgid "Toggle Printer &Filtering"
 msgstr ""
 "&ເປີດ/ປິດການໃຊ້ງານຕົວກອງເຄື"
 "່ອງພິມ"
 
-#: management/kmmainview.cpp:237
+#: management/kmmainview.cpp:228
 msgid "%1 &Handbook"
 msgstr "&ຄູ່ມື %1"
 
-#: management/kmmainview.cpp:238
+#: management/kmmainview.cpp:229
 msgid "%1 &Web Site"
 msgstr "%1&ເວບໄຊ"
 
-#: management/kmmainview.cpp:240
+#: management/kmmainview.cpp:231
 msgid "Pri&nter Tools"
 msgstr "&ເຄື່ອງຂອງເຄື່ອງພິມ"
 
-#: management/kmmainview.cpp:305
+#: management/kmmainview.cpp:296
 msgid "Print Server"
 msgstr "ຫົວພິມ"
 
-#: management/kmmainview.cpp:311
+#: management/kmmainview.cpp:302
 msgid "Print Manager"
 msgstr "ຫົວພິມ"
 
-#: management/kmmainview.cpp:328
+#: management/kmmainview.cpp:319
 msgid "Documentation"
 msgstr "ເອກະສານ"
 
-#: management/kmmainview.cpp:348
+#: management/kmmainview.cpp:340
 msgid "An error occurred while retrieving the printer list."
 msgstr ""
 "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງຮັ"
 "ບລາຍການເຄື່ອງພິມ"
 
-#: management/kmmainview.cpp:494
+#: management/kmmainview.cpp:514
 #, c-format
 msgid "Unable to modify the state of printer %1."
 msgstr ""
 "ບໍ່ສາມາດແກ້ໄຂສະຖານະເຄື່ອງ"
 "ພິມ%1ໄດ້"
 
-#: management/kmmainview.cpp:505
+#: management/kmmainview.cpp:525
 msgid "Do you really want to remove %1?"
 msgstr "ທ່ານຕ້ອງການລົບ%1ແທ້ຫລືບໍ່?"
 
-#: management/kmmainview.cpp:509
+#: management/kmmainview.cpp:529
 #, c-format
 msgid "Unable to remove special printer %1."
 msgstr ""
 "ບໍ່ສາມາດລົບເຄື່ອງພິມພິເສດ%1"
 "ໄດ້"
 
-#: management/kmmainview.cpp:512
+#: management/kmmainview.cpp:532
 #, c-format
 msgid "Unable to remove printer %1."
 msgstr "ບໍ່ສາມາດລົບເຄື່ອງພິມ%1ໄດ້"
 
-#: management/kmmainview.cpp:542
+#: management/kmmainview.cpp:562
 #, c-format
 msgid "Configure %1"
 msgstr "ປັບແຕ່ງ%1"
 
-#: management/kmmainview.cpp:549
+#: management/kmmainview.cpp:569
 #, c-format
 msgid "Unable to modify settings of printer %1."
 msgstr ""
 "ບໍ່ສາມາດແກ້ໄຂການປັບແຕ່ງເຄ"
 "ື່ອງພິມ%1"
 
-#: management/kmmainview.cpp:553
+#: management/kmmainview.cpp:573
 #, c-format
 msgid "Unable to load a valid driver for printer %1."
 msgstr ""
 "ບໍ່ສາມາດຮງກໃຊ້ໄດຣເວີທີ່ຖື"
 "ກຕ້ອງຂອງເຄື່ອງພິມ%1 ໄດ້"
 
-#: management/kmmainview.cpp:565
+#: management/kmmainview.cpp:585
 msgid "Unable to create printer."
 msgstr "ບໍ່ສາມາດສ້າງເຄື່ອງພິມໄດ້"
 
-#: management/kmmainview.cpp:577
+#: management/kmmainview.cpp:597
 msgid "Unable to define printer %1 as default."
 msgstr ""
 "ບໍ່່ສາມາດກຳນົດເຄື່ອງພິມ%1 "
 "ໃຫ້ເປັນຄ່າປະຣິຍາຍໄດ້"
 
-#: management/kminstancepage.cpp:265 management/kmmainview.cpp:612
+#: management/kminstancepage.cpp:265 management/kmmainview.cpp:632
 msgid "You are about to print a test page on %1. Do you want to continue?"
 msgstr ""
 "ທ່ານກຳ່ລັງຈະທຳການພິມຫນ້າທ"
 "ົດສອບການພິມໄປຍັງ%1ຕ້ອງການທຳ"
 "ຕໍ່ໄປຫລືບໍ່?"
 
-#: management/kminstancepage.cpp:265 management/kmmainview.cpp:612
+#: management/kminstancepage.cpp:265 management/kmmainview.cpp:632
 msgid "Print Test Page"
 msgstr "ພິມຫນ້າທົດສອບ"
 
-#: management/kminstancepage.cpp:270 management/kmmainview.cpp:615
+#: management/kminstancepage.cpp:270 management/kmmainview.cpp:635
 #, c-format
 msgid "Test page successfully sent to printer %1."
 msgstr ""
 "ສົ່ງຫນ້າທົດສອບການພິມໄປຍັງ"
 "ເຄືອ່ງພິມ%1ຮງບຮ້ອຍແລ້ວ"
 
-#: management/kmmainview.cpp:617
+#: management/kmmainview.cpp:637
 #, c-format
 msgid "Unable to test printer %1."
 msgstr ""
 "ບໍ່ສາມາດທົດສອບເຄື່ອງພິມ%1ໄດ"
 "້"
 
-#: management/kmmainview.cpp:630
+#: management/kmmainview.cpp:650
 msgid "Error message received from manager:</p><p>%1</p>"
 msgstr ""
 "ໄດ້ຮັບຂໍ້ຄວາມຜິດພາດຈາກຕົວ"
 "ຈັດການ:</p><p>%1</p>"
 
-#: management/kmmainview.cpp:632
+#: management/kmmainview.cpp:652
 msgid "Internal error (no error message)."
 msgstr ""
 "ເກີດຂໍ້ຜິດພາດພາຍໃນ(ບໍ່ໄດ້ຮ"
 "ັບຂໍ້ຄວາມຜິດພາດ)"
 
-#: management/kmmainview.cpp:650
+#: management/kmmainview.cpp:670
 msgid "Unable to restart print server."
 msgstr ""
 "ບໍ່ສາມາດເລີ່ມການທຳງານເຊີບ"
 "ເວີການພິມໃຫມ່ໄດ້"
 
-#: management/kmmainview.cpp:656
+#: management/kmmainview.cpp:675
 msgid "Restarting server..."
 msgstr ""
 "ກຳ່ລັງເລີ່ມການທຳງານເຊີບເວ"
 "ີໃຫມ່...."
 
-#: management/kmmainview.cpp:667
+#: management/kmmainview.cpp:685
 msgid "Unable to configure print server."
 msgstr ""
 "ບໍ່ສາມາດປັບແຕ່ງເຊີບເວີການ"
 "ພິມໄດ້"
 
-#: management/kmmainview.cpp:673
+#: management/kmmainview.cpp:690
 msgid "Configuring server..."
 msgstr "ກຳ່ລັງປັບແຕ່ງເຊີບເວີ..."
 
-#: management/kmmainview.cpp:820
+#: management/kmmainview.cpp:838
 msgid ""
 "Unable to start printer tool. Possible reasons are: no printer selected, the "
 "selected printer doesn't have any local device defined (printer port), or "
@@ -2503,7 +2550,7 @@ msgstr ""
 "ງພິມ),ຫລືບໍ່ພົບໄບແບຣຣີຂອງເຄ"
 "ື່ອງມື"
 
-#: management/kmmainview.cpp:844
+#: management/kmmainview.cpp:862
 msgid "Unable to retrieve the printer list."
 msgstr ""
 "ບໍ່ສາມາດຮັບລາຍການເຄື່ອງພິ"
@@ -2572,6 +2619,10 @@ msgstr ""
 #: management/kmwizard.cpp:207 management/kmwizard.cpp:234
 msgid "&Finish"
 msgstr "&ສຳເລັດ"
+
+#: management/kdeprint_management_module.cpp:48
+msgid "Select Command"
+msgstr "ເລືອກຄຳສັ່ງ"
 
 #: management/kmwlocal.cpp:38
 msgid "Local Port Selection"
@@ -2689,10 +2740,11 @@ msgid ""
 msgstr "ບໍ່ຮູ້ຈັກ"
 
 #: management/kminfopage.cpp:44 management/kmpropgeneral.cpp:38
+#, fuzzy
 msgid ""
 "_: Physical Location\n"
 "Location:"
-msgstr ""
+msgstr "ຕຳແຫນ່ງ"
 
 #: management/kminfopage.cpp:46 management/kmpropgeneral.cpp:39
 #: management/kmwname.cpp:41
@@ -2734,6 +2786,7 @@ msgid "Special (pseudo) printer"
 msgstr "ເຄືອ່ງພິມແບບພິເສດ"
 
 #: management/kminfopage.cpp:121
+#, fuzzy
 msgid ""
 "_: Unknown class of printer\n"
 "Unknown"
@@ -2752,7 +2805,8 @@ msgid "Class printers:"
 msgstr "ຄລາດສ໌ເຄື່ອງພິມ"
 
 #: management/kmwclass.cpp:79
-msgid "You must select at least one printer!"
+#, fuzzy
+msgid "You must select at least one printer."
 msgstr ""
 "ທ່ານຕ້ອງເລືອກເຄື່ອງພິມກ່ອ"
 "ນ ຢ່າງຫນ້ອຍຫນຶ່ງເຄື່ອງ!"
@@ -2856,12 +2910,13 @@ msgstr ""
 msgid "Print to file:"
 msgstr "ພິມໄປຍັງແຟ້ມ:"
 
-#: management/kmwfile.cpp:60
-msgid "Empty file name!"
-msgstr "ບໍ່ມີຊື່ແຟ້ມ!"
+#: management/kmconfiggeneral.cpp:137 management/kmwfile.cpp:60
+msgid "Empty file name."
+msgstr "ບໍ່ມີແຟ້ມ"
 
 #: management/kmwfile.cpp:66
-msgid "Directory does not exist!"
+#, fuzzy
+msgid "Directory does not exist."
 msgstr "ຍັງບໍ່ມີໄດເຣັກເທີຣີ!"
 
 #: management/kmconfigpreview.cpp:35
@@ -3034,20 +3089,23 @@ msgid "Driver Database"
 msgstr "ຖານຂໍ້ມູນໄດຣເວີ"
 
 #: management/kmdbcreator.cpp:171
-msgid "Error while creating driver database: abnormal child process termination!"
+#, fuzzy
+msgid "Error while creating driver database: abnormal child-process termination."
 msgstr ""
 "ໂພຣເຊດລູກຈົບການທຳງານຢ່າງປ"
 "ົກກະຕິຂະນະກຳ່ັລັງສ້າງຖານຂ"
 "ໍ້ມູນ!"
 
-#: management/kmwpassword.cpp:36
+#: management/kmwpassword.cpp:37
 msgid "User Identification"
 msgstr "ການສະແດງຕົວຂອງຜູ້ໃຊ້"
 
-#: management/kmwpassword.cpp:42
+#: management/kmwpassword.cpp:43
+#, fuzzy
 msgid ""
-"<p>This backend may require a login/password to work properly. Fill in the "
-"required entries or enable <b>Guest account</b> to use anonymous access.</p>"
+"<p>This backend may require a login/password to work properly. Select the "
+"type of access to use and fill in the login and password entries if "
+"needed.</p>"
 msgstr ""
 "<p>ແບກເກນນີ້ຕ້ອງການຊື່ີຜູ້ໃ"
 "ຊ้້/ລະຫັດຜ່ານໃນການທຳງານສ່ວ"
@@ -3060,12 +3118,28 @@ msgstr ""
 msgid "&Login:"
 msgstr "&ລອກອິນ:"
 
-#: management/kmwpassword.cpp:51
-msgid "&Guest account"
+#: management/kmwpassword.cpp:53
+msgid "&Anonymous (no login/password)"
+msgstr ""
+
+#: management/kmwpassword.cpp:54
+#, fuzzy
+msgid "&Guest account (login=\"guest\")"
 msgstr "&ຜູ້ໃຊ้້ Guest"
 
-#: management/kmwpassword.cpp:81
-msgid "User name is empty!"
+#: management/kmwpassword.cpp:55
+#, fuzzy
+msgid "Nor&mal account"
+msgstr "&ຜູ້ໃຊ้້ Guest"
+
+#: management/kmwpassword.cpp:88
+#, fuzzy
+msgid "Select one option"
+msgstr "ເລືອກຕົວອັກສອນ"
+
+#: management/kmwpassword.cpp:90
+#, fuzzy
+msgid "User name is empty."
 msgstr "ຍັງບໍ່ຕື່ມຊື່ຜູ້ໃຊ້!"
 
 #: management/kmwsocket.cpp:38
@@ -3083,13 +3157,15 @@ msgid "P&ort:"
 msgstr "&ພອດທ໌:"
 
 #: management/kmwsocket.cpp:98
-msgid "You must enter a printer address!"
+#, fuzzy
+msgid "You must enter a printer address."
 msgstr ""
 "ທ່ານຕ້ອງຕື່ມທີ່ຢູ່ຂອງເຄື່"
 "ອງພິມກ່ອນ!"
 
 #: management/kmwsocket.cpp:109
-msgid "Wrong port number!"
+#, fuzzy
+msgid "Wrong port number."
 msgstr "ຫມາຍເລກພອດທ໌ຜິດ!"
 
 #: management/kmpropcontainer.cpp:35
@@ -3112,7 +3188,8 @@ msgid "Raw printer"
 msgstr "ເຄື່ອງພິມທຳມະດາ"
 
 #: management/kmwdriver.cpp:113
-msgid "Internal error: unable to locate the driver!"
+#, fuzzy
+msgid "Internal error: unable to locate the driver."
 msgstr ""
 "ຂໍ້ຜິດພາດພາຍໃນ:ບໍ່ສາມາດຫາໄ"
 "ດຣເວີໄດ້!"
@@ -3122,8 +3199,8 @@ msgid "No Printer"
 msgstr "ບໍ່ມີເຄື່ອງພິມ"
 
 #: management/kmjobviewer.cpp:138 management/kmjobviewer.cpp:177
-#: management/kmjobviewer.cpp:192 management/kmjobviewer.cpp:208
-#: management/kmjobviewer.cpp:353 management/kmjobviewer.cpp:537
+#: management/kmjobviewer.cpp:194 management/kmjobviewer.cpp:210
+#: management/kmjobviewer.cpp:356 management/kmjobviewer.cpp:543
 msgid "All Printers"
 msgstr "ທຸກເຄື່ອງພິມ"
 
@@ -3133,87 +3210,94 @@ msgid "Print Jobs for %1"
 msgstr "ງານພິມສຳຫລັບ%1"
 
 #: management/kmjobviewer.cpp:170 management/kmjobviewer.cpp:172
-#: management/kmjobviewer.cpp:333
+#: management/kmjobviewer.cpp:336
 #, c-format
 msgid "Max.: %1"
 msgstr "ສູງສຸດ:%1"
 
 #: management/kmconfigjobs.cpp:41 management/kmjobviewer.cpp:170
-#: management/kmjobviewer.cpp:333
+#: management/kmjobviewer.cpp:336
 msgid "Unlimited"
 msgstr "ບໍ່ຈຳກັດ"
 
-#: management/kmjobviewer.cpp:233
+#: management/kmjobviewer.cpp:235
 msgid "Job ID"
 msgstr "ຫມາຍເລກງານພິມ"
 
-#: management/kmjobviewer.cpp:234
+#: management/kmjobviewer.cpp:236
 msgid "Owner"
 msgstr "ເຈົ້າຂອງ"
 
-#: management/kmjobviewer.cpp:236
+#: management/kmjobviewer.cpp:238
 msgid ""
 "_: Status\n"
 "State"
 msgstr "ສະຖານະ"
 
-#: management/kmjobviewer.cpp:237
+#: management/kmjobviewer.cpp:239
 msgid "Size (KB)"
 msgstr "ຂະຫນາດ (KB)"
 
-#: management/kmjobviewer.cpp:238
+#: management/kmjobviewer.cpp:240
 msgid "Page(s)"
 msgstr "ຫນ້າ"
 
-#: management/kmjobviewer.cpp:260
+#: management/kmjobviewer.cpp:262
 msgid "&Hold"
 msgstr "&ຢຸດຢູ່"
 
-#: management/kmjobviewer.cpp:261
+#: management/kmjobviewer.cpp:263
 msgid "&Resume"
 msgstr "&ທຳງານທີ່ຄ້າງໄວ້"
 
-#: management/kmjobviewer.cpp:262
+#: management/kmjobviewer.cpp:264
 msgid "R&emove"
 msgstr "&ລົບ"
 
-#: management/kmjobviewer.cpp:263
+#: management/kmjobviewer.cpp:265
 msgid "Res&tart"
 msgstr "&ເລີ່ມທຳງານໃຫມ່"
 
-#: management/kmjobviewer.cpp:264
+#: management/kmjobviewer.cpp:266
 msgid "&Move to Printer..."
 msgstr "&ຍ້າຍໄປຍັງເຄື່ອງພິມ..."
 
-#: management/kmjobviewer.cpp:270
+#: management/kmjobviewer.cpp:272
 msgid "&Toggle Completed Jobs"
 msgstr ""
 "&ສະຫລັບໄປຍັງງານທີ່ຮງບຮ້ອຍແ"
 "ລ້ວ"
 
-#: management/kmjobviewer.cpp:273
+#: management/kmjobviewer.cpp:275
 msgid "Show Only User Jobs"
 msgstr ""
 "ສະແດງສະເພາະງານພິມຂອງຜູ້ໃຊ"
 "้້"
 
-#: management/kmjobviewer.cpp:281
+#: management/kmjobviewer.cpp:276
+#, fuzzy
+msgid "Hide Only User Jobs"
+msgstr ""
+"ສະແດງສະເພາະງານພິມຂອງຜູ້ໃຊ"
+"้້"
+
+#: management/kmjobviewer.cpp:284
 msgid "User Name"
 msgstr "ຊື່ຜູ້ໃຊ້"
 
-#: management/kmjobviewer.cpp:298
+#: management/kmjobviewer.cpp:301
 msgid "&Select Printer"
 msgstr "&ເລືອກເຄື່ອງພິມ"
 
-#: management/kmjobviewer.cpp:327
+#: management/kmjobviewer.cpp:330
 msgid "Refresh"
 msgstr "ຮຽກໃຫມ່"
 
-#: management/kmjobviewer.cpp:331
+#: management/kmjobviewer.cpp:334
 msgid "Keep window permanent"
 msgstr "ຮັກສາຄວາມຖາວອນຂອງຫນ້າຈໍ"
 
-#: management/kmjobviewer.cpp:475
+#: management/kmjobviewer.cpp:479
 msgid ""
 "Unable to perform action \"%1\" on selected jobs. Error received from "
 "manager:"
@@ -3221,28 +3305,28 @@ msgstr ""
 "ບໍ່ສາມາດທຳການ \"%1\" "
 "ເທິງງານພິມທີ່ເລືອກໄວ້ໄດ້"
 
-#: management/kmjobviewer.cpp:487
+#: management/kmjobviewer.cpp:491
 msgid "Hold"
 msgstr "ຢຸດຢູ່"
 
-#: management/kmjobviewer.cpp:492
+#: management/kmjobviewer.cpp:496
 msgid "Resume"
 msgstr "ທຳງານທີ່ຄ້າງໄວ້"
 
-#: management/kmjobviewer.cpp:502
+#: management/kmjobviewer.cpp:506
 msgid "Restart"
 msgstr "ເລີ່ມທຳງານໃຫມ່"
 
-#: management/kmjobviewer.cpp:510
+#: management/kmjobviewer.cpp:514
 #, c-format
 msgid "Move to %1"
 msgstr "ຍ້າຍໄປຍັງ%1"
 
-#: management/kmjobviewer.cpp:668
+#: management/kmjobviewer.cpp:674
 msgid "Operation failed."
 msgstr "ປະຕິບັດການຫລົ້ມເຫລວ"
 
-#: management/kmconfigjobs.cpp:34 management/kmjobviewer.cpp:693
+#: management/kmconfigjobs.cpp:34 management/kmjobviewer.cpp:699
 msgid "Print Job Settings"
 msgstr "ຕັ້ງຄ່າງານພິມ"
 
@@ -3298,11 +3382,7 @@ msgstr ""
 "ໃຫ້ທ່ານຈະບໍ່ສາມາດທົດສອບເຄ"
 "ື່ອງພິມຂອງທ່ານໄດ້"
 
-#: management/kmconfiggeneral.cpp:137
-msgid "Empty file name."
-msgstr "ບໍ່ມີແຟ້ມ"
-
-#: management/smbview.cpp:37
+#: management/smbview.cpp:38
 msgid "Comment"
 msgstr "ຄຳອະທິບາຍ"
 
@@ -3449,25 +3529,30 @@ msgstr ""
 msgid "SMB Printer Settings"
 msgstr "ປັບແຕ່ງເຄືອ່ງພິມແບບ SMB"
 
-#: management/kmwsmb.cpp:40
+#: management/kmwsmb.cpp:41
 msgid "Scan"
 msgstr "ຄົ້ນຫາ"
 
-#: management/kmwsmb.cpp:41
+#: management/kmwsmb.cpp:42
 msgid "Abort"
 msgstr "ເລີກເຮັດ"
 
-#: management/kmwsmb.cpp:43
+#: management/kmwsmb.cpp:44
 msgid "Workgroup:"
 msgstr "ເວີກກຣຸບ"
 
-#: management/kmwsmb.cpp:44
+#: management/kmwsmb.cpp:45
 msgid "Server:"
 msgstr "ເຊີບເວີ"
 
-#: management/kmwsmb.cpp:77
-msgid "Empty server name."
-msgstr "ໍບໍ່ມີຊື່້ເຊີບເວີ"
+#: management/kmwsmb.cpp:99
+#, fuzzy, c-format
+msgid "Login: %1"
+msgstr "&ລອກອິນ:"
+
+#: management/kmwsmb.cpp:99
+msgid "<anonymous>"
+msgstr ""
 
 #: management/kmpropmembers.cpp:40
 msgid "Class Members"
@@ -3692,7 +3777,7 @@ msgstr ""
 "&ຮູບແບບນຳເຂົ້າທີ່ສະຫນັບສະຫ"
 "ນູນ"
 
-#: kpfilterpage.cpp:309 management/kxmlcommanddlg.cpp:839
+#: kpfilterpage.cpp:310 management/kxmlcommanddlg.cpp:839
 msgid "Requirements"
 msgstr "ຄວາມຕ້ອງການ"
 
@@ -3717,9 +3802,10 @@ msgid "LPD Queue Information"
 msgstr "ຂໍ້ມູນຄິວຂອງເຊີບເວີ LPD"
 
 #: management/kmwlpd.cpp:44
+#, fuzzy
 msgid ""
-"<p>Enter the information concerning the remote LPD queue. This wizard will "
-"check them before continuing.</p>"
+"<p>Enter the information concerning the remote LPD queue; this wizard will "
+"check it before continuing.</p>"
 msgstr ""
 "<p>ໃສ່ຂໍ້່ມູນກ່ງວກັບຄິວເຄື່"
 "ອງພິມໄລຍະໄກLPD "
@@ -3727,11 +3813,13 @@ msgstr ""
 "ບມັນກ່ອນທີ່ຈະທຳງານຕໍ່ໄປ</p>"
 
 #: management/kmwlpd.cpp:54
-msgid "Some information is missing!"
+#, fuzzy
+msgid "Some information is missing."
 msgstr "ຂໍ້ມູນບາງສ່ວນສູນຫາຍໄປ!"
 
 #: management/kmwlpd.cpp:61
-msgid "Can't find queue %1 on server %2! Do you want to continue anyway?"
+#, fuzzy
+msgid "Can not find queue %1 on server %2; do you want to continue anyway?"
 msgstr ""
 "ບໍ່ສາມາດຄົ້ນຫາຄິວ %1 ເທິງ %2 "
 "ໄດ້!ທ່ານຕ້ອງການທຳຕໍ່ໄປຫລືບ"
@@ -3795,7 +3883,8 @@ msgid "Driver Information"
 msgstr "ຂໍ້ມູນໄດຣເວີ"
 
 #: management/kmwdriverselect.cpp:62
-msgid "You must select a driver!"
+#, fuzzy
+msgid "You must select a driver."
 msgstr "ທ່ານຕ້ອງເລືອກໄດຣເວີກ່ອນ!"
 
 #: management/kmwdriverselect.cpp:82
@@ -3899,39 +3988,35 @@ msgstr "ຮູບແບບໄດຣເວີບໍ່ຖືກຕ້ອງ"
 msgid "Other"
 msgstr "ອຶ່ນໆ"
 
-#: management/kxmlcommandselector.cpp:47
-msgid "Select Command"
-msgstr "ເລືອກຄຳສັ່ງ"
-
-#: management/kxmlcommandselector.cpp:67
+#: management/kxmlcommandselector.cpp:54
 #, fuzzy
 msgid "New command"
 msgstr "ຄຳສັ່ງໃຫມ່"
 
-#: management/kxmlcommandselector.cpp:68
+#: management/kxmlcommandselector.cpp:55
 #, fuzzy
 msgid "Edit command"
 msgstr "ແກ້ໄຂຄຳສັ່ງ"
 
-#: management/kxmlcommandselector.cpp:85
+#: management/kxmlcommandselector.cpp:72
 msgid "&Browse..."
 msgstr "&ເລືອກແຟ້ມ..."
 
-#: management/kxmlcommandselector.cpp:86
+#: management/kxmlcommandselector.cpp:73
 msgid "Use co&mmand:"
 msgstr "&ໃຊ້ຄຳສັ່ງ:"
 
-#: management/kxmlcommandselector.cpp:187
+#: management/kxmlcommandselector.cpp:174
 msgid "Command Name"
 msgstr "ຊື່ຄຳສັ່ງ"
 
-#: management/kxmlcommandselector.cpp:187
+#: management/kxmlcommandselector.cpp:174
 msgid "Enter an identification name for the new command:"
 msgstr ""
 "ຕື່ມຊື່ສຳຫລັບສະແດງຕົວແທນຄ"
 "ຳສັ່ງໃຫມ່:"
 
-#: management/kxmlcommandselector.cpp:196
+#: management/kxmlcommandselector.cpp:183
 msgid ""
 "A command named %1 already exists. Do you want to continue and edit the "
 "existing one?"
@@ -3940,25 +4025,26 @@ msgstr ""
 "ງການເຮັດຕໍ່ໄປແລະແກ້ໄຂຕົວທ"
 "ີ່ມີຢູ່ແລ້ວຫລືບໍ່?"
 
-#: management/kxmlcommandselector.cpp:233
-msgid "Internal Error. The XML driver for the command %1 could not be found."
+#: management/kxmlcommandselector.cpp:220
+#, fuzzy
+msgid "Internal error. The XML driver for the command %1 could not be found."
 msgstr ""
 "ເກີດຄວາມຜິດພາດພາຍໃນບໍ່ພົບ"
 "ໄດຣເວີ XML ສຳຫລັບຄຳສັ່ງ%1"
 
-#: management/kxmlcommandselector.cpp:251
+#: management/kxmlcommandselector.cpp:238
 msgid "output"
 msgstr "ສົ່ງອອກ"
 
-#: management/kxmlcommandselector.cpp:255
+#: management/kxmlcommandselector.cpp:242
 msgid "undefined"
 msgstr "ຍັງບໍ່ກຳນົດ"
 
-#: management/kxmlcommandselector.cpp:260
+#: management/kxmlcommandselector.cpp:247
 msgid "not allowed"
 msgstr "ບໍ່ອະນຸຍາດ"
 
-#: management/kxmlcommandselector.cpp:266
+#: management/kxmlcommandselector.cpp:253
 msgid "(Unavailable: requirements not satisfied)"
 msgstr ""
 "(ບໍ່ສາມາດຫາມາໄ້ດ້:ສິ່ງທີ່ຕ້"
@@ -4033,16 +4119,18 @@ msgid "Name:"
 msgstr "ຊື່:"
 
 #: management/kmwname.cpp:48
-msgid "You must supply at least a name!"
+#, fuzzy
+msgid "You must supply at least a name."
 msgstr ""
 "ທ່ານຕ້ອງຕື່ມຢ່າງຫນ້ອຍຫນຶ່"
 "ງຊື່"
 
 #: management/kmwname.cpp:56
+#, fuzzy
 msgid ""
-"This is usually not a good idea to include spaces in printer name. This may "
+"It is usually not a good idea to include spaces in printer name: it may "
 "prevent your printer from working correctly. The wizard can strip all spaces "
-"from the string you entered, resulting in %1. What do you want to do?"
+"from the string you entered, resulting in %1; what do you want to do?"
 msgstr ""
 "ເປັນຄວາມຄິດທີ່ບໍ່ດີທີ່ຈະໃ"
 "ຫ້ຊື່ເຄື່ອງພິມຊ່ອງວ່າເພຣາ"
@@ -4058,17 +4146,70 @@ msgstr ""
 msgid "Strip"
 msgstr "ລົບຊ່ອງວ່າງ"
 
-#: kprinterimpl.cpp:487 management/kmwname.cpp:62
+#: kprinterimpl.cpp:503 management/kmwname.cpp:62
 msgid "Keep"
 msgstr "ບໍ່ແປງ"
 
-#: management/kmwbackend.cpp:52
+#: management/kmwbackend.cpp:54
 msgid "Backend Selection"
 msgstr "ການເລືອກແບບແບກເຄນດ໌"
 
-#: management/kmwbackend.cpp:66
-msgid "You must select a backend!"
+#: management/kmwbackend.cpp:68
+#, fuzzy
+msgid "You must select a backend."
 msgstr "ທ່ານຕ້ອງເລືອກແບກເຄນກ່ອນ!"
+
+#: management/kmwbackend.cpp:115
+msgid "&Local printer (parallel, serial, USB)"
+msgstr ""
+"&ເຄື່ອງພີມແບບຕໍຊື້ "
+"(ພອດຂະໜານ, ອະນຸກົມ, USB)"
+
+#: management/kmwbackend.cpp:116
+msgid ""
+"<qt>"
+"<p>Locally-connected printer</p>"
+"<p>Use this for a printer connected to the computer via a parallel, serial "
+"or USB port.</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:122
+msgid "&SMB shared printer (Windows)"
+msgstr ""
+"ເຄືອງພີມແບບເຄືອຂ່າຍ &SMB "
+"(ວີນໂດ)"
+
+#: management/kmwbackend.cpp:123
+msgid ""
+"<qt>"
+"<p>Shared Windows printer</p>"
+"<p>Use this for a printer installed on a Windows server and shared on the "
+"network using the SMB protocol (samba).</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:130
+msgid "&Remote LPD queue"
+msgstr "&ເຄື່ອງພີມແບບເຄືອຂ່າຍ LPD"
+
+#: management/kmwbackend.cpp:131
+msgid ""
+"<qt>"
+"<p>Print queue on a remote LPD server</p>"
+"<p>Use this for a print queue existing on a remote machine running a LPD "
+"print server.</p></qt>"
+msgstr ""
+
+#: management/kmwbackend.cpp:137
+msgid "Ne&twork printer (TCP)"
+msgstr "ເຄື່ອງ&ພີມແບບເຄືອຂ່າຍ (TCP)"
+
+#: management/kmwbackend.cpp:138
+msgid ""
+"<qt>"
+"<p>Network TCP printer</p>"
+"<p>Use this for a network-enabled printer using TCP (usually on port 9100) "
+"as communication protocol. Most network printers can use this mode.</p></qt>"
+msgstr ""
 
 #: management/kminstancepage.cpp:61
 msgid ""
@@ -4139,7 +4280,8 @@ msgstr ""
 "ື່ມເພືອ່ໃຊ້ຄ່າປະຣິຍາຍ):"
 
 #: management/kminstancepage.cpp:142 management/kminstancepage.cpp:187
-msgid "Instance name may not contain any space!"
+#, fuzzy
+msgid "Instance name must not contain any spaces or slashes."
 msgstr ""
 "ຊື່ອິນສະແຕນຊ໌ຈະຕ້ອງບໍ່ມຊ່"
 "ອງວ່າງ!"
@@ -4432,7 +4574,7 @@ msgstr ""
 msgid "Initialization..."
 msgstr "ເລີມການຮຽກໃຊ້..."
 
-#: kprinter.cpp:283 kprinter.cpp:902
+#: kprinter.cpp:283 kprinter.cpp:903
 #, c-format
 msgid "Generating print data: page %1"
 msgstr ""
@@ -4493,14 +4635,14 @@ msgstr ""
 msgid "Parallel Port #%1"
 msgstr "ພອດຂະຫນາດ #%1"
 
-#: kmmanager.cpp:486 kmmanager.cpp:502 kxmlcommand.cpp:659
+#: kmmanager.cpp:486 kmmanager.cpp:502 kxmlcommand.cpp:661
 #, c-format
 msgid "Unable to load KDE print management library: %1"
 msgstr ""
 "ບໍ່ສາມາດຮຽກໄລບາລີການຈົກກາ"
 "ນພິມຂອງ KDE: %1 ໄດ້"
 
-#: kmmanager.cpp:491 kxmlcommand.cpp:667
+#: kmmanager.cpp:491 kxmlcommand.cpp:669
 msgid "Unable to find wizard object in management library."
 msgstr ""
 "ບໍ່ສາມາດຄົ້ນຫາອອບເຈັກວິຊາ"
@@ -4582,6 +4724,7 @@ msgstr ""
 "ງກາ່ວຍັງທຳງານຢູ່"
 
 #: kprinterimpl.cpp:283
+#, fuzzy
 msgid ""
 "_: 1 is the command that <files> is given to\n"
 "Check the command syntax:\n"
@@ -4612,7 +4755,14 @@ msgstr ""
 "ໃນກອງຄຸນສົມບັດເຄື່ອງພິມສຳ"
 "ລັບຂໍ້ມູນທີ່ຫລາຍກວ່ານີ້</p>"
 
-#: kprinterimpl.cpp:366
+#: kprinterimpl.cpp:355
+#, fuzzy
+msgid "<p>Could not load filter description for <b>%1</b>.</p>"
+msgstr ""
+"ບໍ່ສາມາດປ່ຽນສິດໃນການອະນຸຍ"
+"າດສຳລັບ %1 ໄດ້"
+
+#: kprinterimpl.cpp:371
 msgid ""
 "<p>Error while reading filter description for <b>%1</b>. Empty command line "
 "received.</p>"
@@ -4621,7 +4771,7 @@ msgstr ""
 "ອຽດສຳລັບ<b>%1</b> "
 "ໂດຍໄດ້ຮັບຄຳສັ່ງວ່າງ</p>"
 
-#: kprinterimpl.cpp:380
+#: kprinterimpl.cpp:385
 msgid ""
 "The MIME type %1 is not supported as input of the filter chain (this may "
 "happen with non-CUPS spoolers when performing page selection on a "
@@ -4639,32 +4789,32 @@ msgstr ""
 "ແປງແຟ້ມນີ້ໃຫ້ຢູ່ໃນຮູບແບບທ"
 "ີ່ສະນັບສະນຸນແທນຫລືບໍ່ ?</p>"
 
-#: kprinterimpl.cpp:384 kprinterimpl.cpp:486
+#: kprinterimpl.cpp:389 kprinterimpl.cpp:502
 msgid "Convert"
 msgstr "ແປງ"
 
-#: kprinterimpl.cpp:394
+#: kprinterimpl.cpp:399
 msgid "Select MIME Type"
 msgstr "ເລືອກປະເພດ MIME"
 
-#: kprinterimpl.cpp:395
+#: kprinterimpl.cpp:400
 msgid "Select the target format for the conversion:"
 msgstr ""
 "ເລືອກຮູບແບບເປົ້າຫມາຍສຳລັບ"
 "ການແປງ:"
 
-#: kprinterimpl.cpp:399 kprinterimpl.cpp:425
+#: kprinterimpl.cpp:404 kprinterimpl.cpp:430
 msgid "Operation aborted."
 msgstr "ຍົກເລີກປະຕິບັດການ"
 
-#: kprinterimpl.cpp:405
+#: kprinterimpl.cpp:410
 msgid "No appropriate filter found. Select another target format."
 msgstr ""
 "ບໍ່ມີຕົວກອງການແປງຮູບແບບທີ"
 "່ຕ້ອງການກະລຸນາເລືອກຮູບແບບ"
 "ເປົ້າຫມາຍແບບອື່ນ"
 
-#: kprinterimpl.cpp:418
+#: kprinterimpl.cpp:423
 msgid ""
 "<qt>Operation failed with message:"
 "<br>%1<br>Select another target format.</qt>"
@@ -4676,17 +4826,21 @@ msgstr ""
 "ກະລຸນາເລືອກຮູບແບບເປົ້າຫມາ"
 "ຍແບບອື່ນ </qt>"
 
-#: kprinterimpl.cpp:436
+#: kprinterimpl.cpp:441
 msgid "Filtering print data"
 msgstr "ກຳລັງກອງຂໍ້ມູນການພິມ"
 
-#: kprinterimpl.cpp:440
+#: kprinterimpl.cpp:445
 msgid "Error while filtering. Command was: <b>%1</b>."
 msgstr ""
 "ຜິດພາດຂະນະທຳການກອງຮູບແບບຄ"
 "ຳສັ່ງຄື: <b>%1</b>"
 
-#: kprinterimpl.cpp:481
+#: kprinterimpl.cpp:487
+msgid "<qt>The print file is empty and will be ignored:<p>%1</p></qt>"
+msgstr ""
+
+#: kprinterimpl.cpp:497
 msgid ""
 "The file format %1 is not directly supported by the current print system. "
 "KDE can try to convert this file automatically to a supported format. But "
@@ -4705,7 +4859,7 @@ msgstr ""
 "ຫ້ KDE ທຳການແປງແຟ້ມນີ້ໄປເປັນ "
 "%2 ຫລືບໍ່ ?"
 
-#: kprinterimpl.cpp:495
+#: kprinterimpl.cpp:511
 msgid ""
 "No appropriate filter was found to convert the file format %1 into %2. Do "
 "you want to print the file using its original format?"
@@ -4715,7 +4869,7 @@ msgstr ""
 "ທ່ານຕ້ອງກາານພິມແຟ້ມນີ້ໂດຍ"
 "ໃຊ້ຮູບແບບດັ່ງເດີມຫລືບໍ່?"
 
-#: kprinterimpl.cpp:500
+#: kprinterimpl.cpp:516
 msgid "Skip"
 msgstr "ຂ້າມ"
 
@@ -4820,10 +4974,11 @@ msgid "R&everse portrait"
 msgstr "&ແນວຕັ້ງກັບດ້ານ"
 
 #: kpgeneralpage.cpp:145
+#, fuzzy
 msgid ""
 "_: duplex orientation\n"
 "&None"
-msgstr "&ບໍມີ"
+msgstr "&ດ້ານຍາວ"
 
 #: kpgeneralpage.cpp:146
 msgid ""
@@ -4844,6 +4999,10 @@ msgstr "&ຈາກ:"
 #: kpgeneralpage.cpp:160
 msgid "En&d:"
 msgstr "&ເຖີ່ງ:"
+
+#: ppdloader.cpp:173
+msgid "(line %1): "
+msgstr ""
 
 #: droptionview.cpp:60
 msgid "Value:"
@@ -4906,7 +5065,8 @@ msgstr ""
 "ລະບົບ"
 
 #: kdeprintd.cpp:181
-msgid "Provide root's password"
+#, fuzzy
+msgid "Provide root's Password"
 msgstr ""
 "ຕ້ອງການລະຫັດຜ່ານຂອງຜູ້ດູແ"
 "ລລະບົບ"
@@ -4928,7 +5088,8 @@ msgstr ""
 "ການກວດສອບສິດການເຂົ້າໃຊ້ງາ"
 "ນລົ້ມເຫລວ !"
 
-#: rc.cpp:3 rc.cpp:7
+#: rc.cpp:6 rc.cpp:14
+#, no-c-format
 msgid "&PageMarks"
 msgstr "&ຄັ້ນຫນ້າ"
 
@@ -5169,7 +5330,8 @@ msgid "Printer Configuration"
 msgstr "ປັບແຕ່ງເຄື່ອງພິມ"
 
 #: kprinterpropertydialog.cpp:138
-msgid "No configurable options for that printer!"
+#, fuzzy
+msgid "No configurable options for that printer."
 msgstr ""
 "ບໍ່ມີຕົວເລືອກໃດຯ "
 "ສຳລັບປັບແຕ່ງເຄື່ອງພິມ!"
@@ -5223,6 +5385,15 @@ msgstr "ເຊັນຕິແມັດ (ຊມ.)"
 msgid "JCL"
 msgstr ""
 
+#: kmvirtualmanager.cpp:161
+msgid ""
+"<qt>You are about to set a pseudo-printer as your personal default. This "
+"setting is specific to KDE and will not be available outside KDE "
+"applications. Note that this will only make your personal default printer as "
+"undefined for non-KDE applications and should not prevent you from printing "
+"normally. Do you really want to set <b>%1</b> as your personal default?</qt>"
+msgstr ""
+
 #: kpposterpage.cpp:40
 msgid "Poster"
 msgstr "ວ່າງ"
@@ -5260,13 +5431,13 @@ msgstr "Link/unlink poster and print size"
 msgid "Unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
 
-#: kxmlcommand.cpp:780
+#: kxmlcommand.cpp:785
 msgid "One of the command object's requirements is not met."
 msgstr ""
 "ບໍ່ພົບຄຳສັ່ງທີ່ອອບເຈັກີຕ້"
 "ອງການຢ່າງໜອ້ຍຫນື່ງຕົວ"
 
-#: kxmlcommand.cpp:788 kxmlcommand.cpp:793
+#: kxmlcommand.cpp:793 kxmlcommand.cpp:798
 #, c-format
 msgid "The command does not contain the required tag %1."
 msgstr ""
@@ -5301,13 +5472,13 @@ msgstr "ຍ້າຍຕົວກອງ"
 msgid "Configure filter"
 msgstr "ປັບແຕ່ງຕົວກອງ"
 
-#: kpfilterpage.cpp:181
+#: kpfilterpage.cpp:182
 msgid "Internal error: unable to load filter."
 msgstr ""
 "ຂໍ້ຜິດພາດພາຍໃນ: "
 "ບໍ່ສາມາດຮຽກໃຊ້ຕົວກອງໄດ້"
 
-#: kpfilterpage.cpp:296
+#: kpfilterpage.cpp:297
 msgid ""
 "<p>The filter chain is wrong. The output format of at least one filter is "
 "not supported by its follower. See <b>Filters</b> tab for more "
@@ -5320,7 +5491,7 @@ msgstr ""
 "ເບື່ງທີ່ແຖບ <b>ຕົວກອງ</b> "
 "ສຳລັບລາຍລະອຽດ</p>"
 
-#: kpfilterpage.cpp:310
+#: kpfilterpage.cpp:311
 msgid "Input"
 msgstr "ນຳເຂົ້າ"
 
@@ -5343,6 +5514,49 @@ msgstr "&ລະດັບສີເທົາ"
 #: kpqtpage.cpp:89
 msgid "Ot&her"
 msgstr "ອື່ນ&ຯ"
+
+#~ msgid "P&roperties..."
+#~ msgstr "&ຄຸນສົມບັດ..."
+
+#~ msgid "View &Toolbar"
+#~ msgstr "&ສະແດງແຖບເຄື່ອງມື"
+
+#~ msgid "Empty server name!"
+#~ msgstr "ຍັງບໍ່ຕື່ມຊື່ເຊີບເວີ!"
+
+#~ msgid "Empty file name!"
+#~ msgstr "ບໍ່ມີຊື່ແຟ້ມ!"
+
+#~ msgid "&Network printer (TCP)"
+#~ msgstr "&ເຄື່ອງພິມແບບເຄືອຂ່າຍ(TCP)"
+
+#, fuzzy
+#~ msgid "Unknown Driver"
+#~ msgstr "ມຸມມອງທີ່ບໍ່ຮູ້ຈັກ"
+
+#, fuzzy
+#~ msgid "Status"
+#~ msgstr "ສະຖານະ:"
+
+#, fuzzy
+#~ msgid "Unknown State"
+#~ msgstr "ບໍ່ຮູ້ຈັກຫົວເລື່ອງ"
+
+#, fuzzy
+#~ msgid "Unknown Protocol"
+#~ msgstr "ບໍ່ຮູ້ຈັກໂປໂຕຄອນ \"%1\"\n"
+
+#, fuzzy
+#~ msgid "ev_longname"
+#~ msgstr "ໍຊື່ແຟ້ມຕິດຕາມການທຳງານ"
+
+#, fuzzy
+#~ msgid "en"
+#~ msgstr "ເມນູ"
+
+#, fuzzy
+#~ msgid "duplex orientation"
+#~ msgstr "&ບໍມີ"
 
 #~ msgid "Directory"
 #~ msgstr "ໄດເຣັກເທີຣີ"
@@ -5791,9 +6005,6 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "&Properties..."
 #~ msgstr "&ຄຸນສົມບັດ..."
 
-#~ msgid "Properties"
-#~ msgstr "ຄຸນສົມບບັດ"
-
 #~ msgid "&Start"
 #~ msgstr "&ເລີ່ມ"
 
@@ -5907,9 +6118,6 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid "Show &Menubar"
 #~ msgstr "&ສະແດງແຖບເມນູ"
-
-#~ msgid "Show &Toolbar"
-#~ msgstr "&ສະແດງເຄື່ອງມື"
 
 #~ msgid "Show &Statusbar"
 #~ msgstr "&ສະແດງແຖບສະຖານະ"
@@ -7887,9 +8095,6 @@ msgstr "ອື່ນ&ຯ"
 #~ "<qt>ບໍ່ສາມາດເຂົ້າໄປໃນ <b>%1</b>\n"
 #~ "ທ່ານຍັງບໍ່ໄດ້ຮັບສິດໃຫ້ເຂົ້າໃຊ້ໃນຕຳແຫນ່ງນີ້</qt>"
 
-#~ msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
-#~ msgstr "ບໍ່ສາມາດປ່ຽນສິດໃນການອະນຸຍາດສຳລັບ %1 ໄດ້"
-
 #~ msgid "Open with:"
 #~ msgstr "ເປີດໃຊ້ດ້ວຍ:"
 
@@ -7933,9 +8138,6 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid "Unable to create io-slave: %1"
 #~ msgstr "ບໍ່ສາມາດສ້າງ io-slave: %1"
-
-#~ msgid "Unknown protocol '%1'.\n"
-#~ msgstr "ບໍ່ຮູ້ຈັກໂປໂຕຄອນ \"%1\"\n"
 
 #~ msgid "Can not find io-slave for protocol '%1'."
 #~ msgstr "ບໍ່ພົບ io-slave ສຳລັບໂປໂຕຄອນ '%1'"
@@ -8208,9 +8410,6 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "&Preview"
 #~ msgstr "&ສະແດງຕົວຢ່າງ"
 
-#~ msgid "Unknown View"
-#~ msgstr "ມຸມມອງທີ່ບໍ່ຮູ້ຈັກ"
-
 #~ msgid "Desktop"
 #~ msgstr "ພື້ນທີ່ທຳງານ"
 
@@ -8238,9 +8437,6 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid "Menu Editor"
 #~ msgstr "ເຄື່ອງມືແກ້ໄຂເມນູ"
-
-#~ msgid "Menu"
-#~ msgstr "ເມນູ"
 
 #~ msgid "Move Up"
 #~ msgstr "ຍ້າຍຂື້ນ"
@@ -9080,9 +9276,6 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "KDE Scripts"
 #~ msgstr "ສະຄິບ KDE"
 
-#~ msgid "Video Toolbar"
-#~ msgstr "ແຖບເຄື່ອງມືວີດີໂອ"
-
 #~ msgid "Fullscreen &Mode"
 #~ msgstr "&ໂຫມດເຕັມຫນ້າຈໍ"
 
@@ -9109,9 +9302,6 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid "Custom"
 #~ msgstr "ກຳນົດເອງ"
-
-#~ msgid "Unknown type"
-#~ msgstr "ບໍ່ຮູ້ຈັກຫົວເລື່ອງ"
 
 #~ msgid "Disable automatic startup on login."
 #~ msgstr "ປິດການໃຊ້ງານເລີ່ມທຳງານອັດຕະໂນມັດເມື່ອລັອກອິນ"
@@ -11500,9 +11690,6 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "dir to save rendered images in"
 #~ msgstr "ໄດເຣັກເທີຣີທີ່ຈະໃຊ້ບັນທຶກພາບ"
 
-#~ msgid "log filename"
-#~ msgstr "ໍຊື່ແຟ້ມຕິດຕາມການທຳງານ"
-
 #~ msgid "TestRender"
 #~ msgstr "ທົດສອບການສະແດງຜົນ"
 
@@ -13096,9 +13283,6 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "File format:"
 #~ msgstr "ຮູບແບບແຟ້ມ:"
 
-#~ msgid "State"
-#~ msgstr "ສະຖານະ:"
-
 #~ msgid "Signature:"
 #~ msgstr "ລາຍເຊັນ:"
 
@@ -13505,9 +13689,6 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid "Close"
 #~ msgstr "ປິດ"
-
-#~ msgid "Select Font"
-#~ msgstr "ເລືອກຕົວອັກສອນ"
 
 #~ msgid ""
 #~ "_: QMessageBox\n"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-12-22 01:34+0100\n"
+"POT-Creation-Date: 2004-07-16 01:17+0200\n"
 "PO-Revision-Date: 2003-01-14 15:29+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -41,7 +41,8 @@ msgstr ""
 "ສາມາດອ່ານໄດ້ຫລືອອກແບບມາບໍ"
 "່ດີ"
 
-#: rc.cpp:1 rc.cpp:2
+#: rc.cpp:2 rc.cpp:4
+#, no-c-format
 msgid ""
 "<b>Stylesheets</b>"
 "<p>See http://www.w3.org/Style/CSS for further information on cascading "
@@ -51,15 +52,18 @@ msgstr ""
 "<p>ເບິ່ງລາຍລະອງດຂອງ cascading style sheets "
 "ໄດ້ທີ่່ http://www.w3.org/Style/CSS</p>"
 
-#: rc.cpp:3
+#: rc.cpp:6
+#, no-c-format
 msgid "&General"
 msgstr "ທົ່ວໄປ"
 
-#: rc.cpp:4
+#: rc.cpp:8
+#, no-c-format
 msgid "Stylesheets"
 msgstr "ສະຕາຍຊິດ"
 
-#: rc.cpp:5
+#: rc.cpp:10
+#, no-c-format
 msgid ""
 "<b>Stylesheets</b>"
 "<p>Use this groupbox to determine how Konqueror will render style sheets.</p>"
@@ -69,11 +73,13 @@ msgstr ""
 "່າຈະໃຫ້ຄອນເຄຍເຣີຈະທຳການສະ"
 "ແດງຢ່າງໃດ</p>"
 
-#: rc.cpp:6
+#: rc.cpp:12
+#, no-c-format
 msgid "Use &user-defined stylesheet"
 msgstr "ໃຊ້ສະຕາຍຊິດທີ່ກຳນົດເອງ"
 
-#: rc.cpp:7
+#: rc.cpp:14
+#, no-c-format
 msgid ""
 "<b>Use user-defined stylesheet</b>"
 "<p>If this box is checked, Konqueror will try to load a user-defined style "
@@ -97,15 +103,15 @@ msgstr ""
 "ອງ cascading style sheets ໄດ້ທີ່ี่ "
 "http://www.w3.org/Style/CSS)</p>"
 
-#: rc.cpp:8
-#, fuzzy
+#: rc.cpp:16
+#, fuzzy, no-c-format
 msgid "U&se accessibility stylesheet defined in \"Customize\"-tab"
 msgstr ""
 "ໃຊ້ຄວາມສາມາດຂອງສະຕາຍຊິດກຳ"
 "ນົດໃນແທັບ \"ກຳນົດເອງ\""
 
-#: rc.cpp:9
-#, fuzzy
+#: rc.cpp:18
+#, fuzzy, no-c-format
 msgid ""
 "<b>Use accessibility stylesheet defined in "
 "&quot;Customize&quot;-tab</b>"
@@ -125,11 +131,13 @@ msgstr ""
 "ກຳນົດເອງແລະເລືອກຕົວເລືອກຕ"
 "່າງໆທີ່ຕ້ອງການ</p>"
 
-#: rc.cpp:10
+#: rc.cpp:20
+#, no-c-format
 msgid "Us&e default stylesheet"
 msgstr "ໃຊ້ສະຕາຍຊິດປະຣິຍາຍ"
 
-#: rc.cpp:11
+#: rc.cpp:22
+#, no-c-format
 msgid ""
 "<b>Use default stylesheet</b>"
 "<p>Select this option to use the default stylesheet.</p>"
@@ -138,41 +146,49 @@ msgstr ""
 "<p>ເລືອກຕົວເລືອກນີ້ເພື່ອໃ້ຫ"
 "້ໃຊ້ສະຕາຍຊິດປະຣິຍາຍ</p>"
 
-#: rc.cpp:12
+#: rc.cpp:24
+#, no-c-format
 msgid "Custom&ize"
 msgstr "ກຳນົດເອງ"
 
-#: rc.cpp:13
+#: rc.cpp:26
+#, no-c-format
 msgid "Colors"
 msgstr "ສີ"
 
-#: rc.cpp:14
+#: rc.cpp:28
+#, no-c-format
 msgid "&Black on white"
 msgstr "ດຳເທິງພື້ນຂາວ"
 
-#: rc.cpp:15
+#: rc.cpp:30
+#, no-c-format
 msgid "<b>Black on White</b><p>This is what you normally see.</p>"
 msgstr ""
 "<b>ດຳເທິງພື້ນຂາວ</b>"
 "<p>ເປັນລັກສະນະທີ່ປົກກະຕິທີ່"
 "ທ່ານເຫັນ</p>"
 
-#: rc.cpp:16
+#: rc.cpp:32
+#, no-c-format
 msgid "&White on black"
 msgstr "ຂາວເທິງພື້ນດຳ"
 
-#: rc.cpp:17
+#: rc.cpp:34
+#, no-c-format
 msgid "<b>White on Black</b><p>This is your classic inverse color scheme.</p>"
 msgstr ""
 "<b>ຂາວເທິງພື້ນດຳ</b>"
 "<p>ນີ້ເປັນຊຸດສີທີ່ກັບກັນຊຸດ"
 "ສີເດີມໆ</p>"
 
-#: rc.cpp:18
+#: rc.cpp:36
+#, no-c-format
 msgid "Cus&tom"
 msgstr "ກຳນົດເອງ"
 
-#: rc.cpp:19
+#: rc.cpp:38
+#, no-c-format
 msgid ""
 "<b>Custom</b>"
 "<p>Select this option to define a custom color for the default font.</p>"
@@ -181,7 +197,8 @@ msgstr ""
 "<p>ເລືອກຕົວເລືອກນີ້ເພື່ອກຳນ"
 "ົດສີສຳຫລັບຕົວອັກສອນເອງ</p>"
 
-#: rc.cpp:21 rc.cpp:23
+#: rc.cpp:41 rc.cpp:45
+#, no-c-format
 msgid ""
 "<b>Foreground color</b>"
 "<p>The foreground color is the color that the text is drawn in.</p>"
@@ -190,11 +207,13 @@ msgstr ""
 "<p>ສີພື້ນຫນ້າເປັນສີທີ່ໃຊ້ກັ"
 "ບຕົວອັກສອນ</p>"
 
-#: rc.cpp:22
+#: rc.cpp:43
+#, no-c-format
 msgid "&Foreground:"
 msgstr "ພື້ນຫນ້າ:"
 
-#: rc.cpp:25
+#: rc.cpp:48
+#, no-c-format
 msgid ""
 "<b>Background</b>"
 "<p>Behind this door lays the ability to choose a custom default "
@@ -204,11 +223,13 @@ msgstr ""
 "<p>ສາມາດເລືອກພື້ນຫລັງຮູບແບບ"
 "ຕ່າງໆ ໄດ້ເອງ</p>"
 
-#: rc.cpp:26
+#: rc.cpp:50
+#, no-c-format
 msgid "Bac&kground:"
 msgstr "ພື້ນຫລັງ:"
 
-#: rc.cpp:27
+#: rc.cpp:52
+#, no-c-format
 msgid ""
 "<b>Background</b>"
 "<p>This background color is the one displayed behind the text by default. A "
@@ -220,11 +241,13 @@ msgstr ""
 "ຄວາມຊຶ່ງສາມາດປ່ງນໄປໃຊ້ພາບ"
 "ພື້ນຫລັງແທນໄດ້</p>"
 
-#: rc.cpp:28
+#: rc.cpp:54
+#, no-c-format
 msgid "Use same color for all text"
 msgstr "ໃຊ້ສີດງວກັນກັບທຸກຂໍ້ຄວາມ"
 
-#: rc.cpp:29
+#: rc.cpp:56
+#, no-c-format
 msgid ""
 "<b>Use same color for all text</b>"
 "<p>"
@@ -240,20 +263,23 @@ msgstr ""
 "ກສອນທີ່ກຳນົດໄວ້ໃນສະຕາຍຊິດ</"
 "p>"
 
-#: rc.cpp:30
+#: rc.cpp:58
+#, no-c-format
 msgid "Images"
 msgstr "ພາບ"
 
-#: rc.cpp:31
-#, fuzzy
+#: rc.cpp:60
+#, fuzzy, no-c-format
 msgid "<b>Images</b><p>"
 msgstr "<b>ພາບ</b><p></b>"
 
-#: rc.cpp:32
+#: rc.cpp:62
+#, no-c-format
 msgid "&Suppress images"
 msgstr "ງົດໃຊ້ພາບ"
 
-#: rc.cpp:33
+#: rc.cpp:64
+#, no-c-format
 msgid ""
 "<b>Suppress images</b>"
 "<p>Selecting this will prevent Konqueror from loading images.</p>"
@@ -262,11 +288,13 @@ msgstr ""
 "<p>ເລືອກຕົວເລືອກນີ້ເພື່ອບໍ່"
 "ໃຫ້ຄອນເຄຍເຣີໂຫລດຮູບພາບ</p>"
 
-#: rc.cpp:34
+#: rc.cpp:66
+#, no-c-format
 msgid "Suppress background images"
 msgstr "ົງົດໃຊ້ພາບພື້ນຫລັງ"
 
-#: rc.cpp:35
+#: rc.cpp:68
+#, no-c-format
 msgid ""
 "<b>Suppress background images</b>"
 "<p>Selecting this option will prevent Konqueror from loading background "
@@ -277,11 +305,13 @@ msgstr ""
 "ໃຫ້ຄອນເຄຍເຣີທຳການໂຫລດພາບພ"
 "ື້ນຫລັງ</p>"
 
-#: rc.cpp:36
+#: rc.cpp:70
+#, no-c-format
 msgid "&Preview"
 msgstr "ສະແດງຕົວຢ່າງ"
 
-#: rc.cpp:37
+#: rc.cpp:72
+#, no-c-format
 msgid ""
 "<b>Preview</b>"
 "<p>Click on this button to see what your selections look like in action.</p>"
@@ -291,11 +321,13 @@ msgstr ""
 "ວ່າສິ່ງທີ່ທ່ານເລືອກໄວ້ຈະຖ"
 "ືກສະແດງຢ່າງໃດ</p>"
 
-#: rc.cpp:38
+#: rc.cpp:74
+#, no-c-format
 msgid "Font Family"
 msgstr "ຕະກູນຕົວອັກສອນ"
 
-#: rc.cpp:39
+#: rc.cpp:76
+#, no-c-format
 msgid ""
 "<b>Font family</b>"
 "<p>A font family is a group of fonts that resemble one another, with family "
@@ -308,23 +340,27 @@ msgstr ""
 "ຕົວຫນາ,ຕົວອງງຫລືຫມາຍເລກຂະຫ"
 "ນາດຕ່າງໆ</p>"
 
-#: rc.cpp:40
+#: rc.cpp:78
+#, no-c-format
 msgid "Base fa&mily:"
 msgstr "ຕະກູນພື້ນຖານ:"
 
-#: rc.cpp:41
+#: rc.cpp:80
+#, no-c-format
 msgid "<p>This is the currently selected font family</p>"
 msgstr ""
 "<p>ນີ້ເປັນຕະກູນຕົວອັກສອນທີ່"
 "ຖືກເລືອກຢູ່ໃນປະຈຸບັນ</p>"
 
-#: rc.cpp:42
+#: rc.cpp:82
+#, no-c-format
 msgid "Use same family for all text"
 msgstr ""
 "ໃຊ້ຕະກູນດງວກັນກັບທຸກຂໍ້ຄວ"
 "າມ"
 
-#: rc.cpp:43
+#: rc.cpp:84
+#, no-c-format
 msgid ""
 "<b>Use same family for all text</b>"
 "<p>Select this option to override custom fonts everywhere in favor of the "
@@ -337,67 +373,83 @@ msgstr ""
 "ທີ່ກຳນົດໃນທຸກຕຳແຫນ່ງທີ່ເປ"
 "ັນຕົວອັກສອນພື້ນຖານ ้"
 
-#: rc.cpp:45
+#: rc.cpp:88
+#, no-c-format
 msgid "7"
 msgstr "7"
 
-#: rc.cpp:46
+#: rc.cpp:90
+#, no-c-format
 msgid "8"
 msgstr "8"
 
-#: rc.cpp:47
+#: rc.cpp:92
+#, no-c-format
 msgid "9"
 msgstr "9"
 
-#: rc.cpp:48
+#: rc.cpp:94
+#, no-c-format
 msgid "10"
 msgstr "10"
 
-#: rc.cpp:49
+#: rc.cpp:96
+#, no-c-format
 msgid "11"
 msgstr "11"
 
-#: rc.cpp:50
+#: rc.cpp:98
+#, no-c-format
 msgid "12"
 msgstr "12"
 
-#: rc.cpp:51
+#: rc.cpp:100
+#, no-c-format
 msgid "14"
 msgstr "14"
 
-#: rc.cpp:52
+#: rc.cpp:102
+#, no-c-format
 msgid "16"
 msgstr "16"
 
-#: rc.cpp:53
+#: rc.cpp:104
+#, no-c-format
 msgid "20"
 msgstr "20"
 
-#: rc.cpp:54
+#: rc.cpp:106
+#, no-c-format
 msgid "24"
 msgstr "24"
 
-#: rc.cpp:55
+#: rc.cpp:108
+#, no-c-format
 msgid "32"
 msgstr "32"
 
-#: rc.cpp:56
+#: rc.cpp:110
+#, no-c-format
 msgid "48"
 msgstr "48"
 
-#: rc.cpp:57
+#: rc.cpp:112
+#, no-c-format
 msgid "64"
 msgstr "64"
 
-#: rc.cpp:58
+#: rc.cpp:114
+#, no-c-format
 msgid "Base font si&ze:"
 msgstr "່່ຂະນາດຕົວອັກສອນພື້ນຖານ:"
 
-#: rc.cpp:59
+#: rc.cpp:116
+#, no-c-format
 msgid "&Use same size for all elements"
 msgstr "ໃຊ້ຂະນາດດງວກັນກັບທຸກສ່ວນ"
 
-#: rc.cpp:60
+#: rc.cpp:118
+#, no-c-format
 msgid ""
 "<b>Use same size for all elements</b>"
 "<p>Select this option to override custom font sizes in favor of the base "
@@ -409,12 +461,13 @@ msgstr ""
 "ວອັກສອນພື້ນຖານທຸກສ່ວນສະແດ"
 "ງໃນຂະຫນາດດງວກັນທັ້ງຫມົດ</p>"
 
-#: rc.cpp:61
+#: rc.cpp:120
+#, no-c-format
 msgid "Preview"
 msgstr "່່ສະແດງຕົວຢ່າງ"
 
-#: rc.cpp:62
-#, fuzzy
+#: rc.cpp:122
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "\n"
