@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-05-20 01:17+0200\n"
+"POT-Creation-Date: 2004-10-23 01:16+0200\n"
 "PO-Revision-Date: 2003-01-06 15:58+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,277 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: colorscm.cpp:121
-msgid ""
-"This is a preview of the color settings which will be applied if you click "
-"\"Apply\" or \"OK\". You can click on different parts of this preview image. "
-"The widget name in the \"Widget color\" box will change to reflect the part "
-"of the preview image you clicked."
-msgstr ""
-"ສະແດງຕົວຢ່າງຂອງສີທີ່ຈະຖືກ"
-"ນຳໄປໃຊ້ເມືອ່ທ່ານຄລິກ\"ມີຜົນ"
-"ທັນທີี\" ຫລື \"ຕົກລົງ\" "
-"ທ່ານສາມາດຄລິກໃນສ່ວນຕ່າງໆຂ"
-"ອງພາບດ້ວຍຕົວຢ່າງນີ້ໄດ້ໍໍຊ"
-"ຶ່ງຄອນໂທນທີ່ຊື່\"ສີຄອນໂທນ\" "
-"ຈະປ່ງນໄປຕາມສີໃນສ່ວນຂອງພາບ"
-"ທີ່ທານຄລິກ"
-
-#: colorscm.cpp:133
-msgid "Color Scheme"
-msgstr "ຊຸດສີ"
-
-#: colorscm.cpp:142
-msgid ""
-"This is a list of predefined color schemes, including any that you may have "
-"created. You can preview an existing color scheme by selecting it from the "
-"list. The current scheme will be replaced by the selected color scheme."
-"<p> Warning: if you have not yet applied any changes you may have made to "
-"the current scheme, those changes will be lost if you select another color "
-"scheme."
-msgstr ""
-"ນີ້ເປັນລາຍການຊຸດສີທີ່ມີກາ"
-"ນກຳນົດໄວ້ແລ້ວລວມເຖິງຊຸດສີ"
-"ທີ່ທ່ານອາດຈະສ້າງຂຶ້ນເອງທ່"
-"ານສາມາດເບິ່ງຕົວຢ່າງຊຸດສີບ"
-"ໍ່ໄດ້ໂດຍການເລືອກມັນຈາກລາຍ"
-"ການຊຸດສີປະຈຸບັນທີ່ກຳລັງສະ"
-"ແດງຕົວຢ່າງຢູ່ຈະຖືກແທນທີ່ດ"
-"້ວຍຊຸດສີທີ່ທ່ານເລືອກ"
-"<p> "
-"ຄຳເຕືອນ:ຫາກທ່ານຍັງບໍ່ໄດ້ໃຫ"
-"້ການປ່ງນແປງທີ່ມີຜົນໄປແລ້ວ"
-"ສິ່ງທີ່ທ່ານໄດ້ປ່ງນແປງໄວ້ຈ"
-"ະສູນຫາຍໄປຈາກການເລືອກຊຸດສີ"
-"ອື່ນໆ"
-
-#: colorscm.cpp:150
-msgid "&Save Scheme..."
-msgstr "ບັນທຶກຊຸດສີ..."
-
-#: colorscm.cpp:153
-msgid ""
-"Press this button if you want to save the current color settings as a color "
-"scheme. You will be prompted for a name."
-msgstr ""
-"ກົດປຸ່ມນີ້ຫາກຕ້ອງການບັນທຶ"
-"ກການປັບຄ່າສີໃນປະຈຸບັນໃຫ້ເ"
-"ປັນຊຸດສີໃຫມ່ຊຶ່ງທ່ານຈະຕ້ອ"
-"ງຕື່ມຊື່ມັນ"
-
-#: colorscm.cpp:157
-#, fuzzy
-msgid "R&emove Scheme"
-msgstr "ລົດຊຸດສີ"
-
-#: colorscm.cpp:161
-msgid ""
-"Press this button to remove the selected color scheme. Note that this button "
-"is disabled if you do not have permission to delete the color scheme."
-msgstr ""
-"ກົດປຸ່ມນີ້ເພື່ອລົບຊຸດສີທີ"
-"່ເລືອກໄວ້ອອກຈາກລາຍການປຸ່ມ"
-"ນີ້ຈະບໍ່ຖືກເປີດໃ້ຫ້ໃຊ້ຖ້າ"
-"ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ລົ"
-"ບຊຸດສີໄດ້"
-
-#: colorscm.cpp:165
-#, fuzzy
-msgid "I&mport Scheme..."
-msgstr "&ນຳເຂົ້າຊຸດສີ"
-
-#: colorscm.cpp:168
-msgid ""
-"Press this button to import a new color scheme. Note that the color scheme "
-"will only be available for the current user."
-msgstr ""
-"ກົດປຸ່ມນີ້່ເພືອ່ນຳເຂົ້າຊຸ"
-"ດສີໃຫມ່ຊຶ່ງຊຸດສີນີ້ຈະໃຊ້ໄ"
-"ດ້ກັບຜູ້ໃ້ຊ້ແຕ່ລະຄົນ"
-
-#: colorscm.cpp:176
-#, fuzzy
-msgid "&Widget Color"
-msgstr "ສີຂອງຄອນໂທນ"
-
-#: colorscm.cpp:187
-msgid "Inactive Title Bar"
-msgstr "ຫົວເລື່ອງທີ່ບໍ່ໄດ້ທຳງານ"
-
-#: colorscm.cpp:188
-msgid "Inactive Title Text"
-msgstr ""
-"ຂໍ້ຄວາມຫົວເລື່ອງທີ່ບໍ່ໄດ້"
-"ເຮັດວງກ"
-
-#: colorscm.cpp:189
-msgid "Inactive Title Blend"
-msgstr ""
-"ລະດັບຄວາມເຂັ້ນສີຫົວເລືອ່ງ"
-"ທີ່ບໍ່ໄດ້ທຳງານ"
-
-#: colorscm.cpp:190
-msgid "Active Title Bar"
-msgstr "ແຖວຫົວເລື່ອງທີ່ທຳງານຢູຸ່"
-
-#: colorscm.cpp:191
-msgid "Active Title Text"
-msgstr ""
-"ຂໍ້ຄວາມຫົວເລືອ່ງທີ່ທຳງານຢ"
-"ູຸ່"
-
-#: colorscm.cpp:192
-msgid "Active Title Blend"
-msgstr ""
-"ລະດັບຄວາມເຂັ້ນຂອງຫົວເລືອ່"
-"ງທີ່ທຳງານຢູ່"
-
-#: colorscm.cpp:193
-msgid "Window Background"
-msgstr "ພື້ນຫລັງຫນ້າຈໍ"
-
-#: colorscm.cpp:194
-msgid "Window Text"
-msgstr "ຂໍ້ຄວາມໃນຫນ້າຈໍ"
-
-#: colorscm.cpp:195
-msgid "Selected Background"
-msgstr "ເລືອກພື້ນຫລັງ"
-
-#: colorscm.cpp:196
-msgid "Selected Text"
-msgstr "ຂໍ້ຄວາມທີ່ເລືອກໄວ້"
-
-#: colorscm.cpp:197
-msgid "Standard Background"
-msgstr "ພື້ນຫລັງມາດຕະຖານ"
-
-#: colorscm.cpp:198
-msgid "Standard Text"
-msgstr "ຂໍ້ຄວາມມາດຕະຖານ"
-
-#: colorscm.cpp:199
-msgid "Button Background"
-msgstr "ພື້ນຫລັງຂອງປຸ່ມ"
-
-#: colorscm.cpp:200
-msgid "Button Text"
-msgstr "ຂໍ້ຄວາມເທິງປຸ່ມ"
-
-#: colorscm.cpp:201
-msgid "Active Title Button"
-msgstr ""
-"ຂໍ້ຄວາມເທິງຸປຸ່ມທີ່ທຳງານຢ"
-"ູ່"
-
-#: colorscm.cpp:202
-msgid "Inactive Title Button"
-msgstr ""
-"ຂໍ້ຄວາມເທິງປຸ່ມທີ່ບໍ່ໄດ້ທ"
-"ຳງານ"
-
-#: colorscm.cpp:203
-#, fuzzy
-msgid "Active Window Frame"
-msgstr "ຫນ້າຈໍທີ່ທຳງານຢູ່"
-
-#: colorscm.cpp:204
-#, fuzzy
-msgid "Active Window Handle"
-msgstr "ຫນ້າຈໍທີ່ທຳງານຢູ່"
-
-#: colorscm.cpp:205
-#, fuzzy
-msgid "Inactive Window Frame"
-msgstr "ຫນ້າຈໍທີ່ບໍ່ໄດ້ທຳງານ"
-
-#: colorscm.cpp:206
-#, fuzzy
-msgid "Inactive Window Handle"
-msgstr "ຫນ້າຈໍທີ່ບໍ່ໄດ້ທຳງານ"
-
-#: colorscm.cpp:207
-msgid "Link"
-msgstr "ລິງຄ໌"
-
-#: colorscm.cpp:208
-msgid "Followed Link"
-msgstr "ຕາມລິງຄ໌"
-
-#: colorscm.cpp:209
-msgid "Alternate Background in Lists"
-msgstr "ພື້ນຫລັງອື່ນໆໃນລາຍການ"
-
-#: colorscm.cpp:215
-msgid ""
-"Click here to select an element of the KDE desktop whose color you want to "
-"change. You may either choose the \"widget\" here, or click on the "
-"corresponding part of the preview image above."
-msgstr ""
-"ຄລິກທີ່ນີ້ເພື່ອເລືອກລາຍກາ"
-"ນເດດສ໌ທອບຂອງ KDE "
-"ທີ່ມີສີທີ່ທ່ານຕ້ອງການປ່ງນ"
-"ທ່ານອາດຈະຕ້ອງເລືອກ\"ຄອນໂທນ\" "
-"່ທີ່ນີ້ຫລືຄລິກເທິງສ່ວນຕ່າ"
-"ງໆຂອງພາບຕົວຢ່າງກໍ່ໄດ້"
-
-#: colorscm.cpp:226
-msgid ""
-"Click here to bring up a dialog box where you can choose a color for the "
-"\"widget\" selected in the above list."
-msgstr ""
-"ຄລິກເພືອ່ໃຫ້ສະແດງກ່ອງໂຕ້ຕ"
-"ອບຊຶ່ງທ່ານຈະສາມາດເລືອກສີສ"
-"ຳຫລັບ    \"ຄອນໂທນ \" "
-"ທີ່ທ່ານເລືອກໄວ້"
-
-#: colorscm.cpp:230
-#, fuzzy
-msgid "Con&trast"
-msgstr "ການຕັດກັນຂອງສີ"
-
-#: colorscm.cpp:243
-msgid ""
-"Use this slider to change the contrast level of the current color scheme. "
-"Contrast does not affect all of the colors, only the edges of 3D objects."
-msgstr ""
-"ໃຊ້ແຖບເລື່ອນນີ້ເພືອ່ປັບລະ"
-"ດັບຄ່າສີທີ່ຕັດກັນຂອງຊຸດປະ"
-"ຈຸບັນສີທີ່ຕັດກັນນີ້ບໍ່ໄດ້"
-"ມີຜົນກັບທຸກໆສີແຕ່ຈະມີຜົນສ"
-"ະເພາະໃນສ່ວນຂອງຄອນໂທນທີ່ເປ"
-"ັນແບບ 3ມິຕິເທົ່ານັ້ນ"
-
-#: colorscm.cpp:247
-msgid ""
-"_: Low Contrast\n"
-"Low"
-msgstr "ຕຳ່"
-
-#: colorscm.cpp:251
-msgid ""
-"_: High Contrast\n"
-"High"
-msgstr "ສູງ"
-
-#: colorscm.cpp:254
-msgid "Apply colors to &non-KDE applications"
-msgstr ""
-"ປັບໃຊ້ຊຸດສີກັບອັບພລິກເຄເຊ"
-"ິນທີ່ບໍ່ແມ່ນແບບ KDE ດ້ວຍ"
-
-#: colorscm.cpp:258
-msgid "Check this box to apply the current color scheme to GTK applications."
-msgstr ""
-
-#: colorscm.cpp:417
+#: colorscm.cpp:100
 #, fuzzy
 msgid ""
-"<h1>Colors</h1> This module allows you to choose the color scheme used for "
-"the KDE desktop. The different elements of the desktop, such as title bars, "
-"menu text, etc., are called \"widgets\". You can choose the widget whose "
-"color you want to change by selecting it from a list, or by clicking on a "
-"graphical representation of the desktop."
+" the color scheme used for the KDE desktop. The different elements of the "
+"desktop, such as title bars, menu text, etc., are called \"widgets\". You "
+"can choose the widget whose color you want to change by selecting it from a "
+"list, or by clicking on a graphical representation of the desktop."
 "<p>"
 " You can save color settings as complete color schemes, which can also be "
 "modified or deleted. KDE comes with several predefined color schemes on "
@@ -321,7 +57,273 @@ msgstr ""
 "່ງລາຍລະອງດໄດ້ທີ່ໂມດູນ\"ຮູບແ"
 "ບບ\"ທີ່ຢູ່ພາຍໃຕ້ສ່ວນ\"ທີມ\""
 
-#: colorscm.cpp:492
+#: colorscm.cpp:132
+msgid ""
+"This is a preview of the color settings which will be applied if you click "
+"\"Apply\" or \"OK\". You can click on different parts of this preview image. "
+"The widget name in the \"Widget color\" box will change to reflect the part "
+"of the preview image you clicked."
+msgstr ""
+"ສະແດງຕົວຢ່າງຂອງສີທີ່ຈະຖືກ"
+"ນຳໄປໃຊ້ເມືອ່ທ່ານຄລິກ\"ມີຜົນ"
+"ທັນທີี\" ຫລື \"ຕົກລົງ\" "
+"ທ່ານສາມາດຄລິກໃນສ່ວນຕ່າງໆຂ"
+"ອງພາບດ້ວຍຕົວຢ່າງນີ້ໄດ້ໍໍຊ"
+"ຶ່ງຄອນໂທນທີ່ຊື່\"ສີຄອນໂທນ\" "
+"ຈະປ່ງນໄປຕາມສີໃນສ່ວນຂອງພາບ"
+"ທີ່ທານຄລິກ"
+
+#: colorscm.cpp:144
+msgid "Color Scheme"
+msgstr "ຊຸດສີ"
+
+#: colorscm.cpp:153
+msgid ""
+"This is a list of predefined color schemes, including any that you may have "
+"created. You can preview an existing color scheme by selecting it from the "
+"list. The current scheme will be replaced by the selected color scheme."
+"<p> Warning: if you have not yet applied any changes you may have made to "
+"the current scheme, those changes will be lost if you select another color "
+"scheme."
+msgstr ""
+"ນີ້ເປັນລາຍການຊຸດສີທີ່ມີກາ"
+"ນກຳນົດໄວ້ແລ້ວລວມເຖິງຊຸດສີ"
+"ທີ່ທ່ານອາດຈະສ້າງຂຶ້ນເອງທ່"
+"ານສາມາດເບິ່ງຕົວຢ່າງຊຸດສີບ"
+"ໍ່ໄດ້ໂດຍການເລືອກມັນຈາກລາຍ"
+"ການຊຸດສີປະຈຸບັນທີ່ກຳລັງສະ"
+"ແດງຕົວຢ່າງຢູ່ຈະຖືກແທນທີ່ດ"
+"້ວຍຊຸດສີທີ່ທ່ານເລືອກ"
+"<p> "
+"ຄຳເຕືອນ:ຫາກທ່ານຍັງບໍ່ໄດ້ໃຫ"
+"້ການປ່ງນແປງທີ່ມີຜົນໄປແລ້ວ"
+"ສິ່ງທີ່ທ່ານໄດ້ປ່ງນແປງໄວ້ຈ"
+"ະສູນຫາຍໄປຈາກການເລືອກຊຸດສີ"
+"ອື່ນໆ"
+
+#: colorscm.cpp:161
+msgid "&Save Scheme..."
+msgstr "ບັນທຶກຊຸດສີ..."
+
+#: colorscm.cpp:164
+msgid ""
+"Press this button if you want to save the current color settings as a color "
+"scheme. You will be prompted for a name."
+msgstr ""
+"ກົດປຸ່ມນີ້ຫາກຕ້ອງການບັນທຶ"
+"ກການປັບຄ່າສີໃນປະຈຸບັນໃຫ້ເ"
+"ປັນຊຸດສີໃຫມ່ຊຶ່ງທ່ານຈະຕ້ອ"
+"ງຕື່ມຊື່ມັນ"
+
+#: colorscm.cpp:168
+#, fuzzy
+msgid "R&emove Scheme"
+msgstr "ລົດຊຸດສີ"
+
+#: colorscm.cpp:172
+msgid ""
+"Press this button to remove the selected color scheme. Note that this button "
+"is disabled if you do not have permission to delete the color scheme."
+msgstr ""
+"ກົດປຸ່ມນີ້ເພື່ອລົບຊຸດສີທີ"
+"່ເລືອກໄວ້ອອກຈາກລາຍການປຸ່ມ"
+"ນີ້ຈະບໍ່ຖືກເປີດໃ້ຫ້ໃຊ້ຖ້າ"
+"ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ລົ"
+"ບຊຸດສີໄດ້"
+
+#: colorscm.cpp:176
+#, fuzzy
+msgid "I&mport Scheme..."
+msgstr "&ນຳເຂົ້າຊຸດສີ"
+
+#: colorscm.cpp:179
+msgid ""
+"Press this button to import a new color scheme. Note that the color scheme "
+"will only be available for the current user."
+msgstr ""
+"ກົດປຸ່ມນີ້່ເພືອ່ນຳເຂົ້າຊຸ"
+"ດສີໃຫມ່ຊຶ່ງຊຸດສີນີ້ຈະໃຊ້ໄ"
+"ດ້ກັບຜູ້ໃ້ຊ້ແຕ່ລະຄົນ"
+
+#: colorscm.cpp:187
+#, fuzzy
+msgid "&Widget Color"
+msgstr "ສີຂອງຄອນໂທນ"
+
+#: colorscm.cpp:198
+msgid "Inactive Title Bar"
+msgstr "ຫົວເລື່ອງທີ່ບໍ່ໄດ້ທຳງານ"
+
+#: colorscm.cpp:199
+msgid "Inactive Title Text"
+msgstr ""
+"ຂໍ້ຄວາມຫົວເລື່ອງທີ່ບໍ່ໄດ້"
+"ເຮັດວງກ"
+
+#: colorscm.cpp:200
+msgid "Inactive Title Blend"
+msgstr ""
+"ລະດັບຄວາມເຂັ້ນສີຫົວເລືອ່ງ"
+"ທີ່ບໍ່ໄດ້ທຳງານ"
+
+#: colorscm.cpp:201
+msgid "Active Title Bar"
+msgstr "ແຖວຫົວເລື່ອງທີ່ທຳງານຢູຸ່"
+
+#: colorscm.cpp:202
+msgid "Active Title Text"
+msgstr ""
+"ຂໍ້ຄວາມຫົວເລືອ່ງທີ່ທຳງານຢ"
+"ູຸ່"
+
+#: colorscm.cpp:203
+msgid "Active Title Blend"
+msgstr ""
+"ລະດັບຄວາມເຂັ້ນຂອງຫົວເລືອ່"
+"ງທີ່ທຳງານຢູ່"
+
+#: colorscm.cpp:204
+msgid "Window Background"
+msgstr "ພື້ນຫລັງຫນ້າຈໍ"
+
+#: colorscm.cpp:205
+msgid "Window Text"
+msgstr "ຂໍ້ຄວາມໃນຫນ້າຈໍ"
+
+#: colorscm.cpp:206
+msgid "Selected Background"
+msgstr "ເລືອກພື້ນຫລັງ"
+
+#: colorscm.cpp:207
+msgid "Selected Text"
+msgstr "ຂໍ້ຄວາມທີ່ເລືອກໄວ້"
+
+#: colorscm.cpp:208
+msgid "Standard Background"
+msgstr "ພື້ນຫລັງມາດຕະຖານ"
+
+#: colorscm.cpp:209
+msgid "Standard Text"
+msgstr "ຂໍ້ຄວາມມາດຕະຖານ"
+
+#: colorscm.cpp:210
+msgid "Button Background"
+msgstr "ພື້ນຫລັງຂອງປຸ່ມ"
+
+#: colorscm.cpp:211
+msgid "Button Text"
+msgstr "ຂໍ້ຄວາມເທິງປຸ່ມ"
+
+#: colorscm.cpp:212
+msgid "Active Title Button"
+msgstr ""
+"ຂໍ້ຄວາມເທິງຸປຸ່ມທີ່ທຳງານຢ"
+"ູ່"
+
+#: colorscm.cpp:213
+msgid "Inactive Title Button"
+msgstr ""
+"ຂໍ້ຄວາມເທິງປຸ່ມທີ່ບໍ່ໄດ້ທ"
+"ຳງານ"
+
+#: colorscm.cpp:214
+#, fuzzy
+msgid "Active Window Frame"
+msgstr "ຫນ້າຈໍທີ່ທຳງານຢູ່"
+
+#: colorscm.cpp:215
+#, fuzzy
+msgid "Active Window Handle"
+msgstr "ຫນ້າຈໍທີ່ທຳງານຢູ່"
+
+#: colorscm.cpp:216
+#, fuzzy
+msgid "Inactive Window Frame"
+msgstr "ຫນ້າຈໍທີ່ບໍ່ໄດ້ທຳງານ"
+
+#: colorscm.cpp:217
+#, fuzzy
+msgid "Inactive Window Handle"
+msgstr "ຫນ້າຈໍທີ່ບໍ່ໄດ້ທຳງານ"
+
+#: colorscm.cpp:218
+msgid "Link"
+msgstr "ລິງຄ໌"
+
+#: colorscm.cpp:219
+msgid "Followed Link"
+msgstr "ຕາມລິງຄ໌"
+
+#: colorscm.cpp:220
+msgid "Alternate Background in Lists"
+msgstr "ພື້ນຫລັງອື່ນໆໃນລາຍການ"
+
+#: colorscm.cpp:226
+msgid ""
+"Click here to select an element of the KDE desktop whose color you want to "
+"change. You may either choose the \"widget\" here, or click on the "
+"corresponding part of the preview image above."
+msgstr ""
+"ຄລິກທີ່ນີ້ເພື່ອເລືອກລາຍກາ"
+"ນເດດສ໌ທອບຂອງ KDE "
+"ທີ່ມີສີທີ່ທ່ານຕ້ອງການປ່ງນ"
+"ທ່ານອາດຈະຕ້ອງເລືອກ\"ຄອນໂທນ\" "
+"່ທີ່ນີ້ຫລືຄລິກເທິງສ່ວນຕ່າ"
+"ງໆຂອງພາບຕົວຢ່າງກໍ່ໄດ້"
+
+#: colorscm.cpp:237
+msgid ""
+"Click here to bring up a dialog box where you can choose a color for the "
+"\"widget\" selected in the above list."
+msgstr ""
+"ຄລິກເພືອ່ໃຫ້ສະແດງກ່ອງໂຕ້ຕ"
+"ອບຊຶ່ງທ່ານຈະສາມາດເລືອກສີສ"
+"ຳຫລັບ    \"ຄອນໂທນ \" "
+"ທີ່ທ່ານເລືອກໄວ້"
+
+#: colorscm.cpp:241
+#, fuzzy
+msgid "Con&trast"
+msgstr "ການຕັດກັນຂອງສີ"
+
+#: colorscm.cpp:254
+msgid ""
+"Use this slider to change the contrast level of the current color scheme. "
+"Contrast does not affect all of the colors, only the edges of 3D objects."
+msgstr ""
+"ໃຊ້ແຖບເລື່ອນນີ້ເພືອ່ປັບລະ"
+"ດັບຄ່າສີທີ່ຕັດກັນຂອງຊຸດປະ"
+"ຈຸບັນສີທີ່ຕັດກັນນີ້ບໍ່ໄດ້"
+"ມີຜົນກັບທຸກໆສີແຕ່ຈະມີຜົນສ"
+"ະເພາະໃນສ່ວນຂອງຄອນໂທນທີ່ເປ"
+"ັນແບບ 3ມິຕິເທົ່ານັ້ນ"
+
+#: colorscm.cpp:258
+msgid ""
+"_: Low Contrast\n"
+"Low"
+msgstr "ຕຳ່"
+
+#: colorscm.cpp:262
+msgid ""
+"_: High Contrast\n"
+"High"
+msgstr "ສູງ"
+
+#: colorscm.cpp:265
+msgid "Apply colors to &non-KDE applications"
+msgstr ""
+"ປັບໃຊ້ຊຸດສີກັບອັບພລິກເຄເຊ"
+"ິນທີ່ບໍ່ແມ່ນແບບ KDE ດ້ວຍ"
+
+#: colorscm.cpp:269
+#, fuzzy
+msgid "Check this box to apply the current color scheme to non-KDE applications."
+msgstr ""
+"ປັບໃຊ້ຊຸດສີກັບອັບພລິກເຄເຊ"
+"ິນທີ່ບໍ່ແມ່ນແບບ KDE ດ້ວຍ"
+
+#: colorscm.cpp:473
 msgid ""
 "This color scheme could not be removed.\n"
 "Perhaps you do not have permission to alter the filesystem where the color "
@@ -334,15 +336,15 @@ msgstr ""
 "ທີ່ເກັບຂໍ້ມູນຂອງຮູບແບບສີี"
 "้"
 
-#: colorscm.cpp:525 colorscm.cpp:545
+#: colorscm.cpp:506 colorscm.cpp:526
 msgid "Save Color Scheme"
 msgstr "ບັນທຶກຊຸດສີ"
 
-#: colorscm.cpp:526
+#: colorscm.cpp:507
 msgid "Enter a name for the color scheme:"
 msgstr "ໃສ່ຊື່ຂອງຊຸດສີ:"
 
-#: colorscm.cpp:543
+#: colorscm.cpp:524
 msgid ""
 "A color scheme with the name '%1' already exists.\n"
 "Do you want to overwrite it?\n"
@@ -350,24 +352,24 @@ msgstr ""
 "ຊຸດສີี '%1' ມີຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການຂງນທັບຫລືບໍ່?\n"
 
-#: colorscm.cpp:546
+#: colorscm.cpp:527
 msgid "Overwrite"
 msgstr "ຂງນທັບ"
 
-#: colorscm.cpp:594
+#: colorscm.cpp:575
 #, fuzzy
 msgid "Import failed."
 msgstr "ການນຳເຂົ້າລົ້ມເຫລວ!"
 
-#: colorscm.cpp:602
+#: colorscm.cpp:583
 msgid "Untitled Theme"
 msgstr "ຊຸດສີຍັງບໍ່ມີຊື່"
 
-#: colorscm.cpp:845
+#: colorscm.cpp:825
 msgid "Current Scheme"
 msgstr "ຊຸດສີປະຈຸບັນ"
 
-#: colorscm.cpp:846
+#: colorscm.cpp:826
 msgid "KDE Default"
 msgstr "ຄ່າປະລິຍາຍຂອງKDE"
 

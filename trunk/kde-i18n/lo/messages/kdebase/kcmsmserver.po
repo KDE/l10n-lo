@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-16 01:17+0200\n"
+"POT-Creation-Date: 2004-10-23 01:16+0200\n"
 "PO-Revision-Date: 2003-01-14 16:35+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: kcmsmserver.cpp:139
+#: kcmsmserver.cpp:42
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
 "includes options such as whether or not the session exit (logout) should be "
@@ -32,22 +32,26 @@ msgstr ""
 "ຳງານຄ້າງໄວ້ເມື່ອລັອກອິນຄັ"
 "້ງຕໍ່ໄປ"
 
-#: rc.cpp:2
+#. i18n: file smserverconfigdlg.ui line 16
+#: rc.cpp:3
 #, no-c-format
 msgid "Session Manager"
 msgstr "ໂປຣແກຣມຈັດການເຊສຊັນ"
 
-#: rc.cpp:4
+#. i18n: file smserverconfigdlg.ui line 40
+#: rc.cpp:6
 #, no-c-format
 msgid "General"
 msgstr "ທົ່ວໄໍປ"
 
-#: rc.cpp:6
+#. i18n: file smserverconfigdlg.ui line 51
+#: rc.cpp:9
 #, no-c-format
 msgid "Conf&irm logout"
 msgstr "ຢືນຢັນການລັອກເອົ້່າ"
 
-#: rc.cpp:8
+#. i18n: file smserverconfigdlg.ui line 54
+#: rc.cpp:12
 #, no-c-format
 msgid ""
 "Check this option if you want the session manager to display a logout "
@@ -58,17 +62,20 @@ msgstr ""
 "ແດງໄດອະລັອກຢືນຢັນການລັອກເ"
 "ອົ້າ"
 
-#: rc.cpp:10
+#. i18n: file smserverconfigdlg.ui line 62
+#: rc.cpp:15
 #, no-c-format
 msgid "O&ffer shutdown options"
 msgstr ""
 
-#: rc.cpp:12
+#. i18n: file smserverconfigdlg.ui line 72
+#: rc.cpp:18
 #, no-c-format
 msgid "On Login"
 msgstr "ເມື່ອລັອກອິນ"
 
-#: rc.cpp:14
+#. i18n: file smserverconfigdlg.ui line 79
+#: rc.cpp:21
 #, no-c-format
 msgid ""
 "<ul>\n"
@@ -82,33 +89,38 @@ msgid ""
 "</ul>"
 msgstr ""
 
-#: rc.cpp:20
+#. i18n: file smserverconfigdlg.ui line 90
+#: rc.cpp:28
 #, no-c-format
 msgid "Restore &previous session"
 msgstr ""
 "ເອີ້ນຄືນເຊສຊັນທີ່ໄດ້ບັນທຶ"
 "ກໄວ້"
 
-#: rc.cpp:22
+#. i18n: file smserverconfigdlg.ui line 98
+#: rc.cpp:31
 #, no-c-format
 msgid "Restore &manually saved session"
 msgstr ""
 "ເອີ້ນຄືນເຊສຊັນທີ່ໄດ້ບັນທຶ"
 "ກໄວ້"
 
-#: rc.cpp:24
+#. i18n: file smserverconfigdlg.ui line 106
+#: rc.cpp:34
 #, fuzzy, no-c-format
 msgid "Start with an empty &session"
 msgstr ""
 "ເລີ່ມທຳງານໂດຍເປັນເຊສຊັນວ່"
 "າງ"
 
-#: rc.cpp:26
+#. i18n: file smserverconfigdlg.ui line 116
+#: rc.cpp:37
 #, no-c-format
 msgid "Default Shutdown Option"
 msgstr ""
 
-#: rc.cpp:28
+#. i18n: file smserverconfigdlg.ui line 119
+#: rc.cpp:40
 #, no-c-format
 msgid ""
 "Here you can choose what should happen by default when you log out. This "
@@ -121,32 +133,38 @@ msgstr ""
 "ໍລະນີທີ່ທ່ານທຳການລັອກອິນໂ"
 "ດຍຜ່ານທາງ KDM ເທົ່ານັ້ນ"
 
-#: rc.cpp:30
+#. i18n: file smserverconfigdlg.ui line 130
+#: rc.cpp:43
 #, no-c-format
 msgid "&End current session"
 msgstr ""
 
-#: rc.cpp:32
+#. i18n: file smserverconfigdlg.ui line 138
+#: rc.cpp:46
 #, no-c-format
 msgid "&Turn off computer"
 msgstr "ປິດເຄື່ອງຄອມພິວເຕີ"
 
-#: rc.cpp:34
+#. i18n: file smserverconfigdlg.ui line 146
+#: rc.cpp:49
 #, no-c-format
 msgid "&Restart computer"
 msgstr "ເລີ່ມທຳງານຄອມພິວເຕີໃຫມ່"
 
-#: rc.cpp:36
+#. i18n: file smserverconfigdlg.ui line 156
+#: rc.cpp:52
 #, no-c-format
 msgid "Advanced"
 msgstr ""
 
-#: rc.cpp:38
+#. i18n: file smserverconfigdlg.ui line 167
+#: rc.cpp:55
 #, no-c-format
 msgid "Applications to be e&xcluded from sessions:"
 msgstr ""
 
-#: rc.cpp:40
+#. i18n: file smserverconfigdlg.ui line 179
+#: rc.cpp:58
 #, no-c-format
 msgid ""
 "Here you can enter a colon-separated list of applications that should not be "
@@ -166,10 +184,5 @@ msgstr ""
 #~ msgid "&Save session for future logins"
 #~ msgstr "บันทึกเซสชันที่เปิดอยู่สำหรับการล็อกอินครั้งต่อไป"
 
-#~ msgid ""
-#~ "Check this option if you want the session manager to save the running "
-#~ "session when logging out. At login time the last saved session will be "
-#~ "restored."
-#~ msgstr ""
-#~ "เลือกตัวเลือกนี้ เพื่อให้โปรแกรมจัดการเซสชัน เรียกคืนเซสชันเดิมที่ทำงานค้างไว้ "
-#~ "เมื่อล็อกอินครั้งต่อไป"
+#~ msgid "Check this option if you want the session manager to save the running session when logging out. At login time the last saved session will be restored."
+#~ msgstr "เลือกตัวเลือกนี้ เพื่อให้โปรแกรมจัดการเซสชัน เรียกคืนเซสชันเดิมที่ทำงานค้างไว้ เมื่อล็อกอินครั้งต่อไป"
