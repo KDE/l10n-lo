@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-12-11 01:18+0100\n"
+"POT-Creation-Date: 2005-01-17 01:36+0100\n"
 "PO-Revision-Date: 2003-01-12 12:30+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -264,7 +264,7 @@ msgstr "ສີການເຕືອນ:"
 
 #. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 241
 #: SensorDisplayLib/DancingBarsSettings.cc:143 SensorDisplayLib/LogFile.cc:90
-#: ksgrd/StyleSettings.cc:68 rc.cpp:96 rc.cpp:114 rc.cpp:129
+#: ksgrd/StyleSettings.cc:68 rc.cpp:96 rc.cpp:114 rc.cpp:129 rc.cpp:153
 #, no-c-format
 msgid "Background color:"
 msgstr "ສີພື້ນຫລັງ:"
@@ -295,7 +295,7 @@ msgstr "ໂຫລດຜູ້ໃຊ້"
 msgid "Idle Load"
 msgstr "ໂຫລດວ່າງ"
 
-#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:155
+#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:155
 msgid "System Load"
 msgstr "ໂຫລດລະບົບ"
 
@@ -616,7 +616,7 @@ msgid ""
 "Your emails"
 msgstr "neuk@yahoo.com"
 
-#: Workspace.cc:49
+#: Workspace.cc:52
 msgid ""
 "This is your work space. It holds your worksheets. You need to create a new "
 "worksheet (Menu File->New) before you can drag sensors here."
@@ -628,16 +628,16 @@ msgstr ""
 "ກ່ອນທີ່ທ່ານຈະສາມາດລາກຕົວກ"
 "ວດຈັບມາຍັງທີ່ນີ້ໄດ້"
 
-#: Workspace.cc:101 ksysguard.cc:160
+#: Workspace.cc:104 ksysguard.cc:160
 msgid "Process Table"
 msgstr "ຕາລາງໂປຣເຊສ"
 
-#: Workspace.cc:131
+#: Workspace.cc:134
 #, c-format
 msgid "Sheet %1"
 msgstr "ຊີດ%1"
 
-#: Workspace.cc:159 Workspace.cc:299
+#: Workspace.cc:162 Workspace.cc:302
 msgid ""
 "The worksheet '%1' contains unsaved data.\n"
 "Do you want to save the worksheet?"
@@ -648,33 +648,33 @@ msgstr ""
 "ທ່ານຕ້ອງການບັນທຶກຊີດງານຫລ"
 "ືບໍ່ ?"
 
-#: Workspace.cc:175 Workspace.cc:229
+#: Workspace.cc:178 Workspace.cc:232
 msgid "*.sgrd|Sensor Files"
 msgstr "*.sgrd|ແຟ້ມການກວດຈັບ"
 
-#: Workspace.cc:178
+#: Workspace.cc:181
 msgid "Select Worksheet to Load"
 msgstr ""
 "ເລືອກຊີດງານທີ່ຕ້ອງການຮງກໃ"
 "ຊ້"
 
-#: Workspace.cc:223 Workspace.cc:263
+#: Workspace.cc:226 Workspace.cc:266
 #, fuzzy
 msgid "You do not have a worksheet that could be saved."
 msgstr ""
 "ທ່ານບໍ່ມີຊີດງານທີ່ສາມາດບັ"
 "ນທຶກລົງໄປໄດ້!"
 
-#: Workspace.cc:233
+#: Workspace.cc:236
 msgid "Save Current Worksheet As"
 msgstr "ບັນທຶກຊີດງານປັດຈຸບັນເປັນ"
 
-#: Workspace.cc:314
+#: Workspace.cc:317
 #, fuzzy
 msgid "There are no worksheets that could be deleted."
 msgstr "ບໍ່ມີຊີດງານທີ່ສາມາດລຶບໄດ້!"
 
-#: Workspace.cc:438
+#: Workspace.cc:441
 #, fuzzy
 msgid "Cannot find file ProcessTable.sgrd."
 msgstr ""
@@ -1354,7 +1354,9 @@ msgstr "ຫຍຸດການຕິດຕາມການທຳງານ"
 msgid "S&tart Logging"
 msgstr "ເລີ້ມຕິດຕາມການທຳງານ"
 
-#: SensorDisplayLib/LogFile.cc:88
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 94
+#: SensorDisplayLib/LogFile.cc:88 rc.cpp:150
+#, no-c-format
 msgid "Foreground color:"
 msgstr "ສີພື້ນຫນ້າ:"
 
@@ -1623,18 +1625,6 @@ msgstr "ສີເສັ້ນກຣິດ:"
 msgid "Log File Settings"
 msgstr "ຕັ້ງຄ່າແຟ້ມບັນທືກຕິດຕາມ"
 
-#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 94
-#: rc.cpp:150
-#, fuzzy, no-c-format
-msgid "Foreground Color:"
-msgstr "สีพื้นหน้า"
-
-#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 102
-#: rc.cpp:153
-#, fuzzy, no-c-format
-msgid "Background Color:"
-msgstr "สีพื้นหลัง"
-
 #. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 187
 #: rc.cpp:161
 #, no-c-format
@@ -1873,6 +1863,14 @@ msgstr ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
+
+#, fuzzy
+#~ msgid "Foreground Color:"
+#~ msgstr "สีพื้นหน้า"
+
+#, fuzzy
+#~ msgid "Background Color:"
+#~ msgstr "สีพื้นหลัง"
 
 #, fuzzy
 #~ msgid "&Work Sheet Properties"
