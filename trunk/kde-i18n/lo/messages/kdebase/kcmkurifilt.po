@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-08-01 01:24+0200\n"
+"POT-Creation-Date: 2004-11-23 01:21+0100\n"
 "PO-Revision-Date: 2003-01-14 16:34+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,16 +14,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
+#: plugins/ikws/searchproviders.i18n:2
+msgid ""
+"_: NOTE_TO_THE_TRANSLATORS\n"
+"By default, the web shortcuts will all go to the\n"
+"international versions of each site (e.g. google.com),\n"
+"not to the local site (e.g. google.de).  To change this,\n"
+"add extra 'Query[foo]=...' lines to the .desktop files\n"
+"in kdebase/kcontrol/ebrowsing/plugins/ikws/searchproviders.\n"
+"For example, in google.desktop, copy the original\n"
+"Query=...\n"
+"line to\n"
+"Query[foo]=...\n"
+"and change its URL so it uses google.foo instead of google.com.\n"
+"(translate this message as DONE when you have added the extra\n"
+"query URLs; otherwise, leave it untranslated as a reminder.)"
+msgstr ""
+
 #: filteropts.cpp:39
 #, fuzzy
 msgid "Under construction..."
 msgstr "ຢູ່ໃນລະຫ່ວາງການສ້າງ..."
 
-#: main.cpp:52
-msgid "&Filters"
-msgstr "ຕົວກັ່ນຕອງ"
-
-#: main.cpp:111
+#: main.cpp:45
+#, fuzzy
 msgid ""
 "<h1>Enhanced Browsing</h1> In this module you can configure some enhanced "
 "browsing features of KDE. "
@@ -34,7 +48,7 @@ msgid ""
 "<h2>Web Shortcuts</h2>Web Shortcuts are a quick way of using Web search "
 "engines. For example, type \"altavista:frobozz\" or \"av:frobozz\" and "
 "Konqueror will do a search on AltaVista for \"frobozz\". Even easier: just "
-"press Alt+F2 (if you haven't changed this shortcut) and enter the shortcut "
+"press Alt+F2 (if you have not changed this shortcut) and enter the shortcut "
 "in the KDE Run Command dialog."
 msgstr ""
 "<h1>ເພີມເຕີມການເອີ້ນເບີ່ງເວັ"
@@ -70,12 +84,18 @@ msgstr ""
 "ແລະຕຶ່ມຕົວຫຍໍ້ໃນກ່ອງປະມວນ"
 "ຜົນຄຳສັ່ງຂອງ KDE"
 
-#: rc.cpp:2
+#: main.cpp:61
+msgid "&Filters"
+msgstr "ຕົວກັ່ນຕອງ"
+
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 27
+#: rc.cpp:3
 #, fuzzy, no-c-format
 msgid "&Enable Web shortcuts"
 msgstr "ເປີດໃຊ້ງານຕົວຫຍໍ້ຂອງເວັບ"
 
-#: rc.cpp:4
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 32
+#: rc.cpp:6
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -94,24 +114,28 @@ msgstr ""
 "່າ <em>KDE</em> ໂດຍໃຊ້ URI "
 "ທີ່ກຳນົດໃຊ້ກັບ <em>ຕົວຫຍໍ້</em>"
 
-#: rc.cpp:8
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 56
+#: rc.cpp:11
 #, no-c-format
 msgid "&Keyword delimiter:"
 msgstr ""
 
-#: rc.cpp:10 rc.cpp:46
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 62
+#: rc.cpp:14 rc.cpp:66
 #, no-c-format
 msgid ""
 "Choose the delimiter that separates the keyword from the phrase or word to "
 "be searched."
 msgstr ""
 
-#: rc.cpp:12
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 81
+#: rc.cpp:17
 #, fuzzy, no-c-format
 msgid "Default &search engine:"
 msgstr "เครื่องมือค้นหา:"
 
-#: rc.cpp:14 rc.cpp:20
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 89
+#: rc.cpp:20 rc.cpp:28
 #, no-c-format
 msgid ""
 "<qt>\n"
@@ -121,29 +145,34 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:18
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 95
+#: rc.cpp:25
 #, no-c-format
 msgid "None"
 msgstr ""
 
-#: rc.cpp:24
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 123
+#: rc.cpp:33
 #, fuzzy, no-c-format
 msgid "Chan&ge..."
 msgstr "ປງ່ນ..."
 
-#: rc.cpp:26
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 126
+#: rc.cpp:36
 #, fuzzy, no-c-format
 msgid "Modify a search provider."
 msgstr ""
 "ແກ້ໄຂຜູ້ໃຫ້ບໍລິການຄົ້ນຂໍ້"
 "ມູນ"
 
-#: rc.cpp:28
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 137
+#: rc.cpp:39
 #, no-c-format
 msgid "De&lete"
 msgstr ""
 
-#: rc.cpp:30
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 140
+#: rc.cpp:42
 #, fuzzy, no-c-format
 msgid "Delete the selected search provider."
 msgstr ""
@@ -151,12 +180,14 @@ msgstr ""
 "ເພື່ອປ່ງນລາຍການຜູ້ໃຫ້ບໍລິ"
 "ການຄົ້ນຂໍ້ມູນ"
 
-#: rc.cpp:32
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 148
+#: rc.cpp:45
 #, no-c-format
 msgid "&New..."
 msgstr ""
 
-#: rc.cpp:34
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 151
+#: rc.cpp:48
 #, fuzzy, no-c-format
 msgid "Add a search provider."
 msgstr ""
@@ -164,17 +195,20 @@ msgstr ""
 "ເພື່ອເພີມລາຍການໃຫ້ຜູ້ບໍລິ"
 "ການຄົ້ນຂໍ້ມູນ"
 
-#: rc.cpp:36
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 174
+#: rc.cpp:51
 #, no-c-format
 msgid "Name"
 msgstr "ຊຶ່"
 
-#: rc.cpp:38
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 185
+#: rc.cpp:54
 #, no-c-format
 msgid "Shortcuts"
 msgstr "ຕົວຫຍໍ້"
 
-#: rc.cpp:40
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 204
+#: rc.cpp:57
 #, fuzzy, no-c-format
 msgid "List of search providers and their associated shortcuts."
 msgstr ""
@@ -183,17 +217,20 @@ msgstr ""
 "ແລະການໃຊ້ກັບ URI "
 "ເຫມືອນຫຼືຕົວຫຍໍ້"
 
-#: rc.cpp:42
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 210
+#: rc.cpp:60
 #, no-c-format
 msgid "Colon"
 msgstr ""
 
-#: rc.cpp:44
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 215
+#: rc.cpp:63
 #, no-c-format
 msgid "Space"
 msgstr ""
 
-#: rc.cpp:48 rc.cpp:63
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 27
+#: rc.cpp:69 rc.cpp:90
 #, no-c-format
 msgid "Enter the human readable name of the search provider here."
 msgstr ""
@@ -202,12 +239,14 @@ msgstr ""
 "่ເຂົ້າໃຈໃນຂອງຜູ້ໃຫ້ບໍລິກາ"
 "ນ ຄົ້ນຂໍ້ມູນທີ່ນີ້ี่"
 
-#: rc.cpp:50
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 35
+#: rc.cpp:72
 #, no-c-format
 msgid "&Charset:"
 msgstr "ຊຸດລະຫັດອັກຂະລະ:"
 
-#: rc.cpp:52
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 41
+#: rc.cpp:75
 #, fuzzy, no-c-format
 msgid "Select the character set that will be used to encode your search query"
 msgstr ""
@@ -215,12 +254,14 @@ msgstr ""
 "ອງ "
 "ການໃຊ້ກັບການຮງກຄົ້ນຂໍ້ມູນ"
 
-#: rc.cpp:54
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 49
+#: rc.cpp:78
 #, no-c-format
 msgid "Search &URI:"
 msgstr "ຄົ້ນຫາ &URI:"
 
-#: rc.cpp:56 rc.cpp:75
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 58
+#: rc.cpp:81 rc.cpp:106
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -273,14 +314,16 @@ msgstr ""
 "หากไม่มีตัวที่เข้าจ่ายจาก"
 "ทางซ้าย ของรายการอ้างอิง"
 
-#: rc.cpp:61
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 66
+#: rc.cpp:87
 #, no-c-format
 msgid "Search &provider name:"
 msgstr ""
 "ຊື່ຜູ້ໃຫ້ບໍລິການຄົ້ນຫາຂໍ້"
 "ມູນ:"
 
-#: rc.cpp:65 rc.cpp:71
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 82
+#: rc.cpp:93 rc.cpp:101
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -295,12 +338,14 @@ msgstr ""
 "ສາມາດໃຊ້ໃນຮູບແບບເຊັ່ນ <em>av</em>"
 ": <em>my search</em>."
 
-#: rc.cpp:69
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 90
+#: rc.cpp:98
 #, no-c-format
 msgid "UR&I shortcuts:"
 msgstr "ຕົວຫຍໍ້ UR&I:"
 
-#: rc.cpp:80
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 117
+#: rc.cpp:112
 #, no-c-format
 msgid "Select the character set that will be used to encode your search query."
 msgstr ""
@@ -308,7 +353,7 @@ msgstr ""
 "ອງ "
 "ການໃຊ້ກັບການຮງກຄົ້ນຂໍ້ມູນ"
 
-#: plugins/ikws/ikwsopts.cpp:92
+#: plugins/ikws/ikwsopts.cpp:93
 msgid ""
 "In this module you can configure the web shortcuts feature. Web shortcuts "
 "allow you to quickly search or lookup words on the Internet. For example, to "
@@ -356,7 +401,7 @@ msgstr ""
 msgid "Keep It"
 msgstr "เก็บมันไว้"
 
-#: plugins/shorturi/kshorturifilter.cpp:229
+#: plugins/shorturi/kshorturifilter.cpp:253
 #, fuzzy
 msgid "<qt><b>%1</b> does not have a home folder.</qt>"
 msgstr ""
@@ -364,46 +409,32 @@ msgstr ""
 "จะไม่ใช่ไดเรกทอรีส่วนตัวข"
 "องคุณนะ !</qt>"
 
-#: plugins/shorturi/kshorturifilter.cpp:230
+#: plugins/shorturi/kshorturifilter.cpp:254
 msgid "<qt>There is no user called <b>%1</b>.</qt>"
 msgstr ""
 "<qt>ไม่มีผู้ใช้ที่เรียกว่า "
 "<b>%1</b> นี้</qt>"
 
-#: plugins/shorturi/kshorturifilter.cpp:443
+#: plugins/shorturi/kshorturifilter.cpp:467
 msgid "<qt>The file or folder <b>%1</b> does not exist."
 msgstr ""
 
-#: plugins/shorturi/kshorturifilter.cpp:460
+#: plugins/shorturi/kshorturifilter.cpp:484
 msgid "&ShortURLs"
 msgstr "URL ย่อ"
 
 #, fuzzy
 #~ msgid ""
 #~ "<qt>\n"
-#~ "Enter the URI that is used to do a search on the search engine here.<br/"
-#~ ">The whole text to be searched for can be specified as \\{@} or \\{0}.<br/"
-#~ ">\n"
-#~ "Recommended is \\{@}, since it removes all query variables (name=value) "
-#~ "from the resulting string whereas \\{0} will be substituted with the "
-#~ "unmodified query string.<br/>You can use \\{1} ... \\{n} to specify "
-#~ "certain words from the query and \\{name} to specify a value given by "
-#~ "'name=value' in the user query.<br/>In addition it is possible to specify "
-#~ "multiple references (names, numbers and strings) at once (\\{name1,"
-#~ "name2,...,\"string\"}).<br\\>The first matching value (from the left) "
-#~ "will be used as substitution value for the resulting URI.<br/>A quoted "
-#~ "string can be used as default value if nothing matches from the left of "
-#~ "the reference list.\n"
+#~ "Enter the URI that is used to do a search on the search engine here.<br/>The whole text to be searched for can be specified as \\{@} or \\{0}.<br/>\n"
+#~ "Recommended is \\{@}, since it removes all query variables (name=value) from the resulting string whereas \\{0} will be substituted with the unmodified query string.<br/>You can use \\{1} ... \\{n} to specify certain words from the query and \\{name} to specify a value given by 'name=value' in the user query.<br/>In addition it is possible to specify multiple references (names, numbers and strings) at once (\\{name1,name2,...,\"string\"}).<br\\>The first matching value (from the left) will be used as substitution value for the resulting URI.<br/>A quoted string can be used as default value if nothing matches from the left of the reference list.\n"
 #~ "</qt>"
 #~ msgstr ""
 #~ "ຕື່ມຕຳແຫນ່ງ URL ທີ່ຈະໃຊ້ສຳການຄົ້ນຫາເທິງເຄື່ອງມືຄົ້ນຫາທີ່ນີ້\n"
 #~ "ເຊິ່ງຂໍ້ຄວາມທີ່ໃຊ້ຄົ້ນຫາສາມາດກຳນົດເປັນ\\{@} ຫລື \\{0} ໄດ້ \n"
-#~ "ເຊິ່ງຂໍ້ແນະນຳໃຫ້ໃຊ้ \\{@} ตั้งแต่มันลบตัวแปรค้นหาทั้งหมด (ชื่อ=ค่า) ออกจาก "
-#~ "ข้อความผลลัพธ์การค้นหา โดยที่ \\{0} จะถูกแทนที่ด้วยข้อความค้นหาที่ยังไม่แก้ไข\n"
-#~ "คุณสามารถใช้ \\{1} ... \\{n} เพื่อกำหนดคำจากการค้นหา และ \\{ชื่อ} "
-#~ "เพื่อกำหนดตัวแปรที่ให้จาก 'ชื่อ=ค่า' ในคำร้องขอค้นข้อมูล\n"
-#~ "เพิ่มเติมคือ มันสามารถกำหนดส่วนอ้างอิงได้หลายอย่าง (ชื่อ, ตัวเลข และข้อความ) ในครั้งเดียว "
-#~ "(\\{ชื่อ1,ชื่อ2,...,\"ข้อความ\"})\n"
+#~ "ເຊິ່ງຂໍ້ແນະນຳໃຫ້ໃຊ้ \\{@} ตั้งแต่มันลบตัวแปรค้นหาทั้งหมด (ชื่อ=ค่า) ออกจาก ข้อความผลลัพธ์การค้นหา โดยที่ \\{0} จะถูกแทนที่ด้วยข้อความค้นหาที่ยังไม่แก้ไข\n"
+#~ "คุณสามารถใช้ \\{1} ... \\{n} เพื่อกำหนดคำจากการค้นหา และ \\{ชื่อ} เพื่อกำหนดตัวแปรที่ให้จาก 'ชื่อ=ค่า' ในคำร้องขอค้นข้อมูล\n"
+#~ "เพิ่มเติมคือ มันสามารถกำหนดส่วนอ้างอิงได้หลายอย่าง (ชื่อ, ตัวเลข และข้อความ) ในครั้งเดียว (\\{ชื่อ1,ชื่อ2,...,\"ข้อความ\"})\n"
 #~ "ค่าที่เข้าข่ายการค้นหา (จากทางซ้าย) จะถูกใช้เป็นค่าแทนผลลัพธ์ URI\n"
 #~ "ข้อความอ้างอิงสามารถจะใช้เป็นค่าปริยายได้ หากไม่มีตัวที่เข้าจ่ายจากทางซ้าย ของรายการอ้างอิง"
 
@@ -422,21 +453,11 @@ msgstr "URL ย่อ"
 #~ msgid "Add..."
 #~ msgstr "ເພີ່ມ..."
 
-#~ msgid ""
-#~ "Click here to delete the currently selected search provider from the list."
+#~ msgid "Click here to delete the currently selected search provider from the list."
 #~ msgstr "ຄິກນີ่້ ເພື່ອລົບຜູ້ໃຫ້ບໍລິການຄົ້ນຂໍ້ມູນອອກຈາກລາຍການ"
 
-#~ msgid ""
-#~ "In this module, you can choose whether to use Internet Keywords or not. "
-#~ "You can also configure various Internet search engines that KDE can use "
-#~ "for keyword search. This allows you, for example, to enter a pseudo-URI "
-#~ "like gg:smetana to search the Google search engine for web pages about "
-#~ "the Czech composer Bedrich Smetana."
-#~ msgstr ""
-#~ "kcmkurifilt.poໂມດູນນີ້ ໃຫ້ທ່ານສາມາດເລືອກໄດ້ວ່າຈະໃຊ້ຄີເວີດອີນເຕີເນັດຫຼືບໍ່ "
-#~ "ເຈົ້າສາມາດປັບແຕ່ງເຄື່ອງມືຄົ້ນຫາຂໍ້ມູນທີ່ KDE ຈະໃຊ້ສຳລັບຄົ້ນຫາຄີເວິດ ໄດ້ ຕົວຢ່າງເຊັ່ນຕື່ມຄືຮູບແບບ URI "
-#~ "ເຊັ່ນ gg:smetana ເພື່ອໃຊ້ຄົ້ນຫາດ້ວຍເຄື່ອງມື ຄົ້ນຫາຂອງ Google ສຳລັບເວັບເພດກ່ງວກັບ Czech "
-#~ "composer Bedrich Smetana ເປັນຕົ້ນ"
+#~ msgid "In this module, you can choose whether to use Internet Keywords or not. You can also configure various Internet search engines that KDE can use for keyword search. This allows you, for example, to enter a pseudo-URI like gg:smetana to search the Google search engine for web pages about the Czech composer Bedrich Smetana."
+#~ msgstr "kcmkurifilt.poໂມດູນນີ້ ໃຫ້ທ່ານສາມາດເລືອກໄດ້ວ່າຈະໃຊ້ຄີເວີດອີນເຕີເນັດຫຼືບໍ່ ເຈົ້າສາມາດປັບແຕ່ງເຄື່ອງມືຄົ້ນຫາຂໍ້ມູນທີ່ KDE ຈະໃຊ້ສຳລັບຄົ້ນຫາຄີເວິດ ໄດ້ ຕົວຢ່າງເຊັ່ນຕື່ມຄືຮູບແບບ URI ເຊັ່ນ gg:smetana ເພື່ອໃຊ້ຄົ້ນຫາດ້ວຍເຄື່ອງມື ຄົ້ນຫາຂອງ Google ສຳລັບເວັບເພດກ່ງວກັບ Czech composer Bedrich Smetana ເປັນຕົ້ນ"
 
 #~ msgid "Importing Search Providers is not implemented yet."
 #~ msgstr "ການນຳເຂົ້າຜູ້ໃຫ້ບໍລີການຄົ້ນຫາຂໍ້ ມູນຍັງບໍ່ໄດ້ຖືກກຳນົດໄວ้້"
@@ -450,26 +471,8 @@ msgstr "URL ย่อ"
 #~ msgid "Enable Int&ernet keywords"
 #~ msgstr "เปิดใช้งานคีย์เวิร์ดอินเตอร์เน็ต"
 
-#~ msgid ""
-#~ "If this box is checked, KDE will let you use <em>Internet Keywords</em> "
-#~ "in its browser's address bar. This means you can simply type normal words "
-#~ "and phrases, such as \"KDE\", to automatically get redirected to the "
-#~ "appropriate site. For further details on this feature visit <b>http://www."
-#~ "internetkeywords.org</b> or simply type <b>IKW Dev</b> in the browser "
-#~ "location bar."
-#~ msgstr ""
-#~ "หากเปิดใช้งานตัวเลือกนี้ KDE จะให้คุณใช้ <em>คีย์เวิร์ดอินเตอร์เน็ต</em> "
-#~ "ในแถบที่อยู่ของบราวเซอร์ ซึ่งจะทำให้คุณสามารถพิมพ์ข้อความธรรมดา เช่น \"KDE\" "
-#~ "เพื่อไปยังไซต์ที่เกี่ยวข้องได้อัตโนมัติ สำหรับรายละเอียด ของคุณสมบัตินี้ที่มากกว่านี้่ "
-#~ "โปรดดูที่<b>http://www.internetkeywords.org</b> หรือแค่พิมพ์ <b>IKW Dev</b> "
-#~ "ในแถบที่อยู่ของบราวเซอร์"
+#~ msgid "If this box is checked, KDE will let you use <em>Internet Keywords</em> in its browser's address bar. This means you can simply type normal words and phrases, such as \"KDE\", to automatically get redirected to the appropriate site. For further details on this feature visit <b>http://www.internetkeywords.org</b> or simply type <b>IKW Dev</b> in the browser location bar."
+#~ msgstr "หากเปิดใช้งานตัวเลือกนี้ KDE จะให้คุณใช้ <em>คีย์เวิร์ดอินเตอร์เน็ต</em> ในแถบที่อยู่ของบราวเซอร์ ซึ่งจะทำให้คุณสามารถพิมพ์ข้อความธรรมดา เช่น \"KDE\" เพื่อไปยังไซต์ที่เกี่ยวข้องได้อัตโนมัติ สำหรับรายละเอียด ของคุณสมบัตินี้ที่มากกว่านี้่ โปรดดูที่<b>http://www.internetkeywords.org</b> หรือแค่พิมพ์ <b>IKW Dev</b> ในแถบที่อยู่ของบราวเซอร์"
 
-#~ msgid ""
-#~ "Allows you to select a search provider that will be used in case what you "
-#~ "typed is not an <em>Internet Keyword</em>. Select \"None\" if you do not "
-#~ "want to do a search in this case, and you will get a directory listing of "
-#~ "relevant keywords."
-#~ msgstr ""
-#~ "อนุญาตให้คุณเลือกผู้ให้บริการค้นหาข้อมูลที่จะใช้ ในกรณีที่ สิ่งที่คุณพิมพ์ "
-#~ "ไม่ใช่<em>คีย์เวิร์ดอินเตอร์เน็ต</em> เลือก \"ไม่มี\" ในกรณีที่คุณไม่ต้องการให้ค้นหา "
-#~ "และคุณจะเลือกดูไดเรกทอรีจากคีย์เวิร์ดที่ใส่ไปเท่านั้น"
+#~ msgid "Allows you to select a search provider that will be used in case what you typed is not an <em>Internet Keyword</em>. Select \"None\" if you do not want to do a search in this case, and you will get a directory listing of relevant keywords."
+#~ msgstr "อนุญาตให้คุณเลือกผู้ให้บริการค้นหาข้อมูลที่จะใช้ ในกรณีที่ สิ่งที่คุณพิมพ์ ไม่ใช่<em>คีย์เวิร์ดอินเตอร์เน็ต</em> เลือก \"ไม่มี\" ในกรณีที่คุณไม่ต้องการให้ค้นหา และคุณจะเลือกดูไดเรกทอรีจากคีย์เวิร์ดที่ใส่ไปเท่านั้น"
