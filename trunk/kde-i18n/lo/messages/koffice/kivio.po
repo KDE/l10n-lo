@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-11-15 02:58+0100\n"
+"POT-Creation-Date: 2003-11-11 02:01+0100\n"
 "PO-Revision-Date: 2003-01-18 16:04+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,522 +14,63 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: kiviopart/kiviosdk/kivio_layer.cpp:44
-msgid "Untitled Layer"
-msgstr "ເລເຢີຍັງບໍ່ມີຊື່"
+#: kiviopart/ui/kivio_protection_panel.cpp:37
+#: kiviopart/ui/kivio_protection_panel.cpp:43
+#: kiviopart/ui/kivio_protection_panel.cpp:66
+#: kiviopart/ui/kivio_protection_panel.cpp:74
+#: kiviopart/ui/kivio_protection_panel.cpp:99
+#: kiviopart/ui/kivio_protection_panel.cpp:107
+#: kiviopart/ui/kivio_protection_panel.cpp:132
+#: kiviopart/ui/kivio_protection_panel.cpp:140
+#: kiviopart/ui/kivio_protection_panel.cpp:165
+#: kiviopart/ui/kivio_protection_panel.cpp:173
+#: kiviopart/ui/kivio_protection_panel.cpp:199
+#: kiviopart/ui/kivio_protection_panel.cpp:207
+msgid "Change Protection Attribute"
+msgstr "ປ່ຽນຄ່າການປອ້ງກັນ"
 
-#: kiviopart/add_spawner_set_dlg.cpp:200
-msgid "Load Stencil Set"
-msgstr "ໂຫລດຊຸດລວດລາຍ"
+#: kiviopart/ui/kiviostencilformatdlg.cpp:33
+#, fuzzy
+msgid "Stencil & Connector Format"
+msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
 
-#: kiviopart/add_spawner_set_dlg.cpp:213
-msgid "Set Name"
-msgstr "ຊື່ຊຸດ"
-
-#: kiviopart/add_spawner_set_dlg.cpp:332
-msgid "Unknown - .desc does not exist"
-msgstr "ບໍ່ຮູ້ຈັກ-ຍັງບໍ່ມີ desc"
-
-#: kiviopart/add_spawner_set_dlg.cpp:335
-msgid "Unknown - .desc could not be opened"
-msgstr ""
-"ບໍ່ຮູ້ຈັກ-ບໍ່ສາມາດເປີດ desc ໄດ້ "
-"้"
-
-#: kiviopart/kivio_dlg_pageshow.cpp:48
-msgid "Hidden Pages"
-msgstr "ຫນ້າທີ່ເຊື່ອງ"
-
-#: kiviopart/kivio_dlg_pageshow.cpp:88
-msgid "Show Page"
-msgstr "ສະແດງຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_aboutdata.h:31 kiviopart/kivio_doc.cpp:166
-msgid "Kivio"
-msgstr "kivio"
-
-#: kiviopart/kivio_doc.cpp:403
-#, c-format
-msgid "Page%1"
-msgstr "ຫນ້າ%1"
-
-#: kiviopart/kivio_doc.cpp:653
-msgid "Cannot delete stencil set because there are still stencils in use."
-msgstr "ບໍ່ສາມາດລົບຊຸດລວດລາຍໄດ້ເນື່ອງຈາກຍັງມີການໃຊ້ວຽກອົບ"
-
-#: kiviopart/kivio_doc.cpp:654
-msgid "Cannot Delete Stencil Set"
-msgstr "ບໍ່ສາມາດລົບຊຸດລວດລາຍໄດ້"
-
-#: kiviopart/kivio_doc.cpp:663
-msgid ""
-"The clipboard contains stencils which belong to the set you are trying to "
-"remove.\n"
-"Would you like to delete what is on the clipboard?\n"
-"(Saying no will cause this stencil set to not be removed.)"
-msgstr ""
-"ມີລວດລາຍທີ່ເປັນຂອງຊຸດລວດລາຍທີ່ເຈົ້າພະຍາຍາມຈະລືບຢູ່ໃນຄີບອດ\nເຈົ້າຕອ້ງການທີ່ຈະລືບໂຕອົບໃນ "
-"ຄີບອດເເມ່ນບໍ່? "
-"ຈະບໍ່ສາມາດລືບລວດລາຍນີ້ໄດ້ "
-
-#: kiviopart/kivio_doc.cpp:664
-msgid "Clear the clipboard?"
-msgstr "ລາ້ງຄີບອດແມ່ນຫືຼບໍ່ແມ່ນ?"
-
-#: kiviopart/kivio_doc.cpp:828
-msgid "Get Stencil Sets"
-msgstr "ຊຸດລວດລາຍຂື້ນຕື່ມ"
-
-#: kiviopart/kivio_icon_view.cpp:107
-msgid ""
-"_: untitled stencil\n"
-"Untitled"
-msgstr "ຍັງບໍ່ກຳນົດຊື່"
-
-#: kiviopart/kivio_page.cpp:84
-msgid "Layer 1"
-msgstr "ເລເຢີ1"
-
-#: kiviopart/kivio_page.cpp:437
-msgid "Add Stencil"
-msgstr "ເພີມຊຸດລວດລາຍ"
-
-#: kiviopart/kivio_page.cpp:635
-msgid ""
-"One of the selected stencils has protection from deletion and cannot be "
-"deleted."
-msgstr "ມີລວດລາຍຢາ່ງຫນອ້ຍນື່ງໂຕຂອງຊຸດລວດລາຍມີການປອ້ງກັນການລືບໄວ້ເຮັດໃຫ້ບໍ່ສາມາດລືບໄດ້"
-
-#: kiviopart/kivio_page.cpp:636
-msgid "Protection From Deletion"
-msgstr "ມີການປອ້ງກັນການລືບໄວ้"
-
-#: kiviopart/kivio_page.cpp:646 kiviopart/kivio_page.cpp:675
-msgid "Remove Stencil"
-msgstr "ລືບຊຸດລວດລາຍ"
-
-#: kiviopart/kivio_page.cpp:999
-msgid ""
-"One of the stencils has protection from deletion. You cannot cut or delete "
-"this stencil."
-msgstr ""
-"ມີລວດລາຍຢາ່ງຫນອ້ຍນື່ງໂຕມີການປອ້ງກັນການລືບໄວ້ເຮັດໃຫ້ເຈົ້າຈະບໍ່ສາມາດຕັດຫືຼລືບລວດ "
-"ລາຍນີ້ໄດ້"
-
-#: kiviopart/kivio_page.cpp:999
-msgid "Protection From Delete"
-msgstr "ປ້ອງກັນການລືບ"
-
-#: kiviopart/kivio_page.cpp:1142 kiviopart/ui/kivio_layer_panel.cpp:58
-msgid "Remove Layer"
-msgstr "ລືບເລເຢີ"
-
-#: kiviopart/kivio_tabbar.cpp:352
-msgid "Page Name"
-msgstr "ຊື່ຫນ້າ"
-
-#: kiviopart/kivio_tabbar.cpp:352
-msgid "Enter page name:"
-msgstr "ຕື່ມຊື່ຫນ້າ"
-
-#: kiviopart/kivio_tabbar.cpp:360
-msgid "Page name cannot be empty."
-msgstr "ຊື່ຫນ້າບໍ່ສາມາດທ່ວງໄວ້ໄດ້"
-
-#: kiviopart/kivio_tabbar.cpp:360 kiviopart/kivio_tabbar.cpp:370
-msgid "Change Page Name"
-msgstr "ປ່ຽນຊື່ຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_tabbar.cpp:370
-msgid "This name is already used."
-msgstr "ມີຊື່ນີ້ຢູ່ແລ້ວ"
-
-#: kiviopart/kivio_tabbar.cpp:374
-msgid "Rename Page"
-msgstr "ປ່ຽນຊື່ຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_tabbar.cpp:580
-msgid "You cannot hide the last visible page."
-msgstr "ເຈົ້າບໍ່ສາມາດເຊອື່ງຫນ້າທີເບີ່ງເຫັນໄດ້ລ່າສຸດໄດ້"
-
-#: kiviopart/kivio_tabbar.cpp:591
-msgid "Hide page"
-msgstr "ເຊື່ອງຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:287
-msgid "Geometry"
-msgstr "ຄ່າເລຂາຄະນິດ"
-
-#: kiviopart/kivio_view.cpp:294
-msgid "Stencil Geometry Panel"
-msgstr "ຄາ່ເລຂາຄະນິດຂອງລວດລາຍ"
-
-#: kiviopart/kivio_view.cpp:302 kiviopart/kivio_view.cpp:305
-msgid "View Manager"
-msgstr "ໂຕຈັດການສະແດງຜົນ"
-
-#: kiviopart/kivio_view.cpp:313 kiviopart/kivio_view.cpp:316
-msgid "Bird's Eye"
-msgstr "ຈຸດເບີ່ງຈາກມູມສູງ"
-
-#: kiviopart/kivio_view.cpp:324
-msgid "Layers"
-msgstr "ເລເຢີ"
-
-#: kiviopart/kivio_view.cpp:327
-msgid "Layers Manager"
-msgstr "ໂຕຈັດການເລເຢີ"
-
-#: kiviopart/kivio_view.cpp:335 kiviopart/kivio_view.cpp:338 rc.cpp:119
-msgid "Protection"
-msgstr "ການປ້ອງກັນ"
-
-#: kiviopart/kivio_view.cpp:350
-msgid "Add Stencil Set"
-msgstr "ຕື່ມຊຸດລວດລາຍ"
-
-#: kiviopart/kivio_view.cpp:353
-msgid "Align && Distribute..."
-msgstr "ຈັດລຽງ&& ແລະແຍກສວ່ນ..."
-
-#: kiviopart/kivio_view.cpp:360
-msgid "Select None"
-msgstr "ບໍ່ເລື່ອກທັງຫມົດ"
-
-#: kiviopart/kivio_view.cpp:362 plugins/kivioselecttool/tool_select.cpp:952
-msgid "Group Selected Stencils"
-msgstr "ລວມກຸ້ມລວດລາຍທີ່ເລື່ອກໄວ້"
-
-#: kiviopart/kivio_view.cpp:363 plugins/kivioselecttool/tool_select.cpp:953
-msgid "Ungroup Selected Stencils"
-msgstr "ຍົກເລີກລວມກຸ້ມລວດລາຍທີ່ເລື່ອກໄວ້"
-
-#: kiviopart/kivio_view.cpp:365 plugins/kivioselecttool/tool_select.cpp:957
-msgid "Bring to Front"
-msgstr "ນຳມາໄວ້ທາງຫນ້າ"
-
-#: kiviopart/kivio_view.cpp:366 plugins/kivioselecttool/tool_select.cpp:958
-msgid "Send to Back"
-msgstr "ສົ່ງໄປຢູ່ທາງຫັຼງ"
-
-#: kiviopart/kivio_view.cpp:369
-msgid "Set Foreground Color"
-msgstr "ຕັ້ງຄາ່ສີພື້ນຫນ້າ"
-
-#: kiviopart/kivio_view.cpp:371
-msgid "Set Background Color"
-msgstr "ຕັ້ງຄ່າສີພື້ນຫັຼງ"
-
-#: kiviopart/kivio_view.cpp:375
-msgid "Set Font Family"
-msgstr "ຕັ້ງຄ່າຕະກຸນຕົວອັກສອນ"
-
-#: kiviopart/kivio_view.cpp:378
-msgid "Set Font Size"
-msgstr "ຕັ້ງຄ່າຂະຫນາດຕົວອັກສອນ"
-
-#: kiviopart/kivio_view.cpp:383
-msgid "Set Text Color"
-msgstr "ຕັ້ງຄ່າສີຂໍ້ຄວາມ"
-
-#: kiviopart/kivio_view.cpp:386
-msgid "Toggle Bold Text"
-msgstr "ເຮັດຂໍ້ຄວາມເປັນໂຕຫນ້າ"
-
-#: kiviopart/kivio_view.cpp:389
-msgid "Toggle Italics Text"
-msgstr "ເຮັດຂໍ້ຄວາມເປັນໂຕ ອຽງ"
-
-#: kiviopart/kivio_view.cpp:392
-msgid "Toggle Underline Text"
-msgstr "ຂີດເສັ້ນໃຕ້ຂໍ້ຄວາມ"
-
-#: kiviopart/kivio_view.cpp:400
-msgid "Set Line Width"
+#: kiviopart/ui/kiviostencilformatdlg.cpp:45
+#, fuzzy
+msgid "Line &width:"
 msgstr "ຕັ້ງຄ່າຄວາມກ້ວາງເສັ້ນ"
 
-#: kiviopart/kivio_view.cpp:408
-msgid "Paper Layout..."
-msgstr "ການຈັດວາງຫນ້າເຈ້ຍ.."
+#: kiviopart/ui/kiviostencilformatdlg.cpp:48
+#, fuzzy
+msgid "Line &color:"
+msgstr "ສະກີດ"
 
-#: kiviopart/kivio_view.cpp:409 kiviopart/kivio_view.cpp:609
-msgid "Insert Page"
-msgstr "ແທກຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:410 kiviopart/kivio_view.cpp:657
-#: kiviopart/kivio_view.cpp:661 kiviopart/kivio_view.cpp:665
-msgid "Remove Page"
-msgstr "ລືບຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:412
-msgid "Rename Page..."
-msgstr "ປ່ຽນຊື່ຫນ້າ"
-
-#: kiviopart/kivio_view.cpp:414
-msgid "Show Page..."
-msgstr "ສະແດງຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:415
-msgid "Hide Page"
-msgstr "ເຊື່ອງຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:416
-msgid "Export Page..."
-msgstr "ສົ່ງອອກຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:418
-msgid "Show Page Borders"
-msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:421
-msgid "Show Page Margins"
-msgstr "ສະແດງຮີມເຈ້ຍ"
-
-#: kiviopart/kivio_view.cpp:424
-msgid "Show Rulers"
-msgstr "ສະແດງໄ້້ມ້ບັນທັດ"
-
-#: kiviopart/kivio_view.cpp:428
-msgid "Show Grid"
-msgstr "ສະແດງກີດ"
-
-#: kiviopart/kivio_view.cpp:431
-msgid "Snap Grid"
-msgstr "ຍ້າຍໄປບ່ອນກີດ"
-
-#: kiviopart/kivio_view.cpp:435
-msgid "Show Guides"
-msgstr "ສະແດງເສັ້ນນຳຮອ່ງ"
-
-#: kiviopart/kivio_view.cpp:438
-msgid "Snap Guides"
-msgstr "ຍ້າຍໄປບອ່ນເສັ້ນນຳຮອ່ງ"
-
-#: kiviopart/kivio_view.cpp:657
-msgid "You cannot delete the only page of the document."
-msgstr "ເຈົ້າບໍ່ສາມາດລືບຫນ້າເຈ້ຍທີ່ມີພຽງຫນ້າດ່ຽວໄດ້"
-
-#: kiviopart/kivio_view.cpp:661
-msgid ""
-"You are going to remove the active page.\n"
-"Do you want to continue?"
-msgstr "ເຈົ້າກຳລັງຈະເຮັດການລືບຫນ້າເຈ້ຍທີ່ກຳລັງເຮັດວງກຢູ່/nຕອ້ງການເຮັດຕໍ່ໄປແມ່ນຫືຼບໍ່?"
-
-#: kiviopart/kivio_view.cpp:889
-msgid "Change Foreground Color"
-msgstr "ປ່ຽນສີພື້ນຫນ້າ"
-
-#: kiviopart/kivio_view.cpp:896
-msgid "Change Fg Color"
-msgstr "ປ່ຽສີພື້ນຫນ້າ"
-
-#: kiviopart/kivio_view.cpp:916
-msgid "Change Background Color"
-msgstr "ປ່ຽນສີພື້ນຫັຼງ"
-
-#: kiviopart/kivio_view.cpp:924
-msgid "Change Bg Color"
-msgstr "ປ່ຽນສີພື້ນຫັຼງ"
-
-#: kiviopart/kivio_view.cpp:945 kiviopart/kivio_view.cpp:952
-msgid "Change Text Color"
-msgstr "ປ່ຽນສີຂໍ້ຄວາມ"
-
-#: kiviopart/kivio_view.cpp:971 kiviopart/kivio_view.cpp:978
-msgid "Change Line Width"
-msgstr "ປ່ຽນຄວາມກວາ້ງເສັ້ນ"
-
-#: kiviopart/kivio_view.cpp:1050 kiviopart/kivio_view.cpp:1052
-#: kiviopart/kivio_view.cpp:1080 kiviopart/kivio_view.cpp:1082
-#: kiviopart/kivio_view.cpp:1110 kiviopart/kivio_view.cpp:1111
-#: kiviopart/kivio_view.cpp:1131 kiviopart/kivio_view.cpp:1139
-#: kiviopart/kivio_view.cpp:1141 kiviopart/kivio_view.cpp:1168
-#: kiviopart/kivio_view.cpp:1170
-msgid "Change Stencil Font"
-msgstr "ປ່ຽນແບບອັກສອນຂອງລວດລາຍ"
-
-#: kiviopart/kivio_view.cpp:1247
-msgid "Change Begin Arrow"
-msgstr "ປ່ຽນລູກສອນເລີ່ມຕົ້ນ"
-
-#: kiviopart/kivio_view.cpp:1254 kiviopart/kivio_view.cpp:1281
-msgid "Change Arrow"
-msgstr "ປ່ຽນລູກສອນ"
-
-#: kiviopart/kivio_view.cpp:1274
-msgid "Change End Arrow"
-msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
-
-#: kiviopart/kivio_view.cpp:1305
-msgid "Change Size of Begin Arrow"
-msgstr "ປ່ຽນຂະຫນາດຂອງລູກສອນເລີ່ມຕົ້ນ"
-
-#: kiviopart/kivio_view.cpp:1311 kiviopart/kivio_view.cpp:1335
-#: kiviopart/kivio_view.cpp:1341
-msgid "Change Size of End Arrow"
-msgstr "ປ່ຽນຂະຫນາດຂອງລູກສອນສິ້ນສຸດ"
-
-#: kiviopart/kivio_view.cpp:1361 kiviopart/kivio_view.cpp:1367
-msgid "Change Stencil Horizontal Alignment"
-msgstr "ປ່ຽນການຈັດລຽງລວດລາຍທາງແນວນອນ"
-
-#: kiviopart/kivio_view.cpp:1389 kiviopart/kivio_view.cpp:1395
-msgid "Change Stencil Vertical Alignment"
-msgstr "ປ່ຽນການຈັດລຽງທາງແນວຕັ້ງ"
-
-#: kiviopart/kivio_view.cpp:1448 plugins/kivioselecttool/tool_select.cpp:926
-msgid "Resize Stencil"
-msgstr "ປັບຂະຫນາດລວດລາຍ"
-
-#: kiviopart/kivio_view.cpp:1464 plugins/kivioselecttool/tool_select.cpp:893
-#: plugins/kivioselecttool/tool_select.cpp:899
-msgid "Move Stencil"
-msgstr "ຍາ້ຍລວດລາຍ"
-
-#: kiviopart/kivio_view.cpp:1642
-msgid "Image Files: ("
-msgstr "ແຟ້ມຮູບ:("
-
-#: kiviopart/kivio_viewmanager_panel.cpp:142
-msgid "Add Current View"
-msgstr "ຕື່ມເຂົ້າໄປໃນຈຸດເບິ່ງປັດຈຸບັນ"
-
-#: kiviopart/kivio_viewmanager_panel.cpp:143
-msgid "Remove Item"
-msgstr "ລືບລາຍການ"
-
-#: kiviopart/kivio_viewmanager_panel.cpp:144
-msgid "Rename Item"
-msgstr "ປ່ຽນຊື່ລາຍການ"
-
-#: kiviopart/kivio_viewmanager_panel.cpp:145
-msgid "Move Item Up"
-msgstr "ຍາ້ຍລາຍການຂື້ນ"
-
-#: kiviopart/kivio_viewmanager_panel.cpp:146
-msgid "Move Item Down"
-msgstr "ຍາ້ຍລາຍການລົງ"
-
-#: kiviopart/kivio_viewmanager_panel.cpp:213
-msgid "Rename View Item"
-msgstr "ປ່ຽນຊື່ລາຍການຈຸດເບີ່ງ"
-
-#: kiviopart/kivio_viewmanager_panel.cpp:213
-msgid "View item name:"
-msgstr "ຊື່ລາຍການຈຸດເບີ່ງ"
-
-#: kiviopart/main.cpp:36
-msgid "File to open"
-msgstr "ແຟ້ມທີ່ຈະເປີດໃຊ້"
-
-#: kiviopart/main.cpp:66
-msgid "Kivio by theKompany.com"
-msgstr "kivio ໂດຍ thekompany. com"
-
-#: kiviopart/stencil_text_dlg.cpp:24
-msgid "Stencil Text"
-msgstr "ລວດລາຍຂໍ້ຄວາມ"
-
-#: kiviopart/stencilbardockmanager.cpp:95
-msgid "Stencil Sets"
-msgstr "ຊຸດລວດລາຍ"
-
-#: kiviopart/tklib/tkunits.cpp:27
-msgid "pt"
-msgstr "pt"
-
-#: kiviopart/tklib/tkunits.cpp:28
-msgid "mm"
-msgstr "ມມ."
-
-#: kiviopart/tklib/tkunits.cpp:30
-msgid "pi"
-msgstr "pi"
-
-#: kiviopart/tklib/tkunits.cpp:31
-msgid "cm"
-msgstr "ຊມ."
-
-#: kiviopart/tklib/tkunits.cpp:32
-msgid "dd"
-msgstr "dd"
-
-#: kiviopart/tklib/tkunits.cpp:33
-msgid "cc"
-msgstr "cc"
-
-#: kiviopart/tklib/tkunits.cpp:37
-msgid "point"
-msgstr "point"
-
-#: kiviopart/tklib/tkunits.cpp:38
-msgid "millimeter"
-msgstr "millimeter"
-
-#: kiviopart/tklib/tkunits.cpp:39
-msgid "inch"
-msgstr "ມື"
-
-#: kiviopart/tklib/tkunits.cpp:40
-msgid "pica"
-msgstr "ພີຄາ"
-
-#: kiviopart/tklib/tkunits.cpp:41
-msgid "centimeter"
-msgstr "centimeter"
-
-#: kiviopart/tklib/tkunits.cpp:42
-msgid "didot"
-msgstr "didot"
-
-#: kiviopart/tklib/tkunits.cpp:43
-msgid "cicero"
-msgstr "cicero"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:38
-msgid "Zoom In"
-msgstr "ຂະຫຍາຍ"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:39
-msgid "Zoom Out"
-msgstr "ຍໍ້"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:40
-msgid "Show Page Border"
-msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:41
-msgid "View Page Only"
-msgstr "ສະແດງຫນ້າເຈ້ຍເທົ່ານັ້ນ"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:42
-#: kiviopart/ui/kivio_birdeye_panel.cpp:43
-msgid "Autoresize"
-msgstr "ປັບຂະຫນາດອັດຕະໂນມັດ"
-
-#: kiviopart/ui/kivio_layer_panel.cpp:49
-msgid "view"
-msgstr "ສະແດງ"
-
-#: kiviopart/ui/kivio_layer_panel.cpp:50
-msgid "print"
-msgstr "ພີມ"
+#: kiviopart/ui/kiviostencilformatdlg.cpp:51
+#, fuzzy
+msgid "&Fill color:"
+msgstr "ສີເສັ້ນນຳລອ່ງ"
 
 #: kiviopart/ui/kivio_layer_panel.cpp:51
-msgid "editable"
+#, fuzzy
+msgid "Editable"
 msgstr "ແກ້ໄຂໄດ້"
 
 #: kiviopart/ui/kivio_layer_panel.cpp:52
-msgid "connect"
+#, fuzzy
+msgid "Connect"
 msgstr "ເຊື່ອມຕໍ່"
 
 #: kiviopart/ui/kivio_layer_panel.cpp:53
-msgid "name"
+#, fuzzy
+msgid "Name"
 msgstr "ຊື່"
 
 #: kiviopart/ui/kivio_layer_panel.cpp:57
 msgid "New Layer"
 msgstr "ເລເຢີໃຫມ่"
+
+#: kiviopart/kivio_page.cpp:1054 kiviopart/ui/kivio_layer_panel.cpp:58
+msgid "Remove Layer"
+msgstr "ລືບເລເຢີ"
 
 #: kiviopart/ui/kivio_layer_panel.cpp:59
 #: kiviopart/ui/kivio_layer_panel.cpp:136
@@ -558,452 +99,792 @@ msgstr "ຕື່ມເລເຢີ"
 msgid "Layer name:"
 msgstr "ຊື່ເລເຢີ"
 
-#: kiviopart/ui/pagesetupdialog.cpp:161 kiviopart/ui/pagesetupdialog.cpp:165
-#: kiviopart/ui/pagesetupdialog.cpp:171
-msgid "Change Page Layout"
-msgstr "ປ່ຽນການຈັດວາງຫນ້າເຈ້ຍ"
-
-#: kiviopart/ui/stencilsbaroptionsdialog.cpp:89
-msgid "Select Background Pixmap"
-msgstr "ເລືອກຮູບພື້ນຫັຼງ"
-
-#: kiviopart/ui/stencilsbaroptionsdialog.cpp:101
-msgid "Only local files are currently supported."
-msgstr "ໃນຕອນນີ້ຈະໃຊ້ໄດ້ພຽງແຟ້ມທີ່ມີພາຍໃນລະບົບເທົ່ານັ້ນ"
-
-#: kiviopart/ui/kivio_protection_panel.cpp:37
-#: kiviopart/ui/kivio_protection_panel.cpp:43
-#: kiviopart/ui/kivio_protection_panel.cpp:66
-#: kiviopart/ui/kivio_protection_panel.cpp:74
-#: kiviopart/ui/kivio_protection_panel.cpp:99
-#: kiviopart/ui/kivio_protection_panel.cpp:107
-#: kiviopart/ui/kivio_protection_panel.cpp:132
-#: kiviopart/ui/kivio_protection_panel.cpp:140
-#: kiviopart/ui/kivio_protection_panel.cpp:165
-#: kiviopart/ui/kivio_protection_panel.cpp:173
-#: kiviopart/ui/kivio_protection_panel.cpp:199
-#: kiviopart/ui/kivio_protection_panel.cpp:207
-msgid "Change Protection Attribute"
-msgstr "ປ່ຽນຄ່າການປອ້ງກັນ"
-
-#: plugins/kivioselecttool/tool_select.cpp:51
-msgid "Select"
-msgstr "ເລືອກ"
-
-#: plugins/kivioselecttool/tool_select.cpp:62
-msgid "Select Tool Menu"
-msgstr "Menu ເຄື່ອງມືເລືອກ"
-
-#: plugins/kivioconnectortool/tool_connector.cpp:46
-msgid "Edit Stencil Connector"
-msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
-
-#: plugins/kiviotexttool/tool_text.cpp:48
-msgid "Edit Stencil Text..."
-msgstr "ແກ້ໄຂລວດລາຍຂໍ້ຄວາມ"
-
-#: plugins/kiviotexttool/tool_text.cpp:122
-#: plugins/kiviotexttool/tool_text.cpp:128
-msgid "Change Stencil Text"
-msgstr "ປ່ຽນລວດລາຍຂໍ້ຄວາມ"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:43
-msgid "Hand"
-msgstr "ມື"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:49
-msgid "Zoom Plus"
-msgstr "ຂະຫຍາຍ"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:52
-msgid "Zoom Minus"
-msgstr "ຍໍ້"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:55
-msgid "Zoom Width"
-msgstr "ຂະຫຍາຍໃຫ້ພໍດີກັບຄວາມກວ້າງ"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:58
-msgid "Zoom Height"
-msgstr "ຂະຫຍາຍໃຫ້ພໍດີກັບຄວາມສູງ"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:61
-msgid "Zoom Page"
-msgstr "ຂະຫຍຍາຍໃຫ້ເຫັນຫມົດຫນ້າ"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:64
-msgid "Zoom Selected"
-msgstr "ຂະຫຍາຍສວ່ນທີ່ເລືອກ"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:67
-msgid "Zoom All Objects"
-msgstr "ຂະຫຍາຍວັດ໗ຸທຸກຕົວ"
-
-#: plugins/kiviozoomtool/tool_zoom.cpp:85
-msgid "Zoom Menu"
-msgstr "Menuຫຍໍ້/ຂະຫຍາຍ"
-
-#: rc.cpp:1
-msgid "Align and Distribute"
-msgstr "ຈັດລຽງແລະແຍກສວ່ນ"
-
-#: rc.cpp:2
-msgid "&Align"
-msgstr "&ຈັດລຽງ"
-
-#: rc.cpp:4 rc.cpp:22
-msgid "Ce&nter"
-msgstr "ສື່&ກາງ"
-
-#: rc.cpp:5 rc.cpp:17
-msgid "&Right"
-msgstr "ດາ້ນ&ຂວາ"
-
-#: rc.cpp:6 rc.cpp:14
-msgid "&Left"
-msgstr "ດາ້ນ&ຊາ້ຍ"
-
-#: rc.cpp:8 rc.cpp:23
-msgid "&Top"
-msgstr "ດາ້ນ&ເທີ່ງ"
-
-#: rc.cpp:10 rc.cpp:15
-msgid "C&enter"
-msgstr "ເຄີ່ງ&ກາງ"
-
-#: rc.cpp:11
-msgid "Center of &page"
-msgstr "ກາງ&ຫນ້າເຈ້ຍ"
-
-#: rc.cpp:12
-msgid "&Distribute"
-msgstr "ແຍກ&ສວ່ນ"
-
-#: rc.cpp:16
-msgid "S&pacing"
-msgstr "&ໄລຍະຫາ່ງ"
-
-#: rc.cpp:19
-msgid "E&xtent of selection"
-msgstr "&ປັບໃຊ້ກັບການເລືອກ"
-
-#: rc.cpp:20
-msgid "Extent of pa&ge"
-msgstr "ປັບໃຊ້ກັບຫນ້າ&ເຈ້ຍ"
-
-#: rc.cpp:25
-msgid "&Spacing"
-msgstr "&ໄລຍະຫາ່ງ"
-
-#: rc.cpp:29
-msgid "&Add"
-msgstr "&ເພີ່ມ"
-
-#: rc.cpp:30 rc.cpp:37
-msgid "&Move"
-msgstr "&ຍາ້ຍ"
-
-#: rc.cpp:31 rc.cpp:38
-msgid "Move &By"
-msgstr "ຍາ້ຍ&ເປັນໄລຍະ"
-
-#: rc.cpp:33 rc.cpp:40
-msgid "D&elete All"
-msgstr "&ລືບທັງຫມົດ"
-
-#: rc.cpp:34 rc.cpp:41
-msgid "&Select All"
-msgstr "&ເລືອກທັງຫມົດ"
-
-#: rc.cpp:35 rc.cpp:42
-msgid "C&lear Selection"
-msgstr "ລາ້ງ&ການເລືອກ"
-
-#: rc.cpp:43
-msgid "Guides Setup"
-msgstr "ຕັ້ງຄ່າເສັ້ນນຳລອ່ງ"
-
-#: rc.cpp:45
-msgid "S&nap to guides"
-msgstr "ຍັບ&ເຂົ້າໄປຫາເສັ້ນນຳລອ່ງ"
-
-#: rc.cpp:46
-msgid "&Show guides"
-msgstr "ສະແດງເສັ້ນ&ນຳລອ່ງ"
-
-#: rc.cpp:47
-msgid "Guides color:"
-msgstr "ສີເສັ້ນນຳລອ່ງ"
-
-#: rc.cpp:49
-msgid "Selected guides color:"
-msgstr "ສີເສັ້ນນຳລອ່ງທີ່ຖືກເລືອກ:"
-
-#: rc.cpp:51
-#, c-format
-msgid "%"
-msgstr "%"
-
-#: rc.cpp:52
-msgid "Configure Kivio"
-msgstr "ປັບແຕ່ງ Kivio ."
-
-#: rc.cpp:56
-msgid "Text"
-msgstr "ຂໍ້ຄວາມ"
-
-#: rc.cpp:57
-msgid "PageID"
-msgstr "ຫມາຍເລກຫນ້າ"
-
-#: rc.cpp:58
-msgid "Page Caption"
-msgstr "ແຖບຫົວເລື່ອງຫນ້າ"
-
-msgid "0"
-msgstr "O"
-
-#: rc.cpp:62
-msgid "Size"
-msgstr "ຂະຫນາດ"
-
-#: rc.cpp:63
-msgid "1"
-msgstr "1"
-
-#: rc.cpp:64
-msgid "Page Size"
-msgstr "ຂະຫນາດເຈ້ຍ"
-
-#: rc.cpp:65
-msgid "Grid"
-msgstr "ກີດ"
-
-#: rc.cpp:66
-msgid "2"
-msgstr "2"
-
-#: rc.cpp:67
-msgid "Page Grid"
-msgstr "ກີດເທີງຫນ້າເຈ້ຍ"
-
-#: rc.cpp:68 rc.cpp:70
-msgid "Guides"
-msgstr "ເສັ້ນນຳລອ່ງ"
-
-#: rc.cpp:69
-msgid "3"
-msgstr "3"
-
-#: rc.cpp:72
-msgid "4"
-msgstr "4"
-
-#: rc.cpp:73
-msgid "Horizontal Guides"
-msgstr "ເສັ້ນນຳລອ່ງແນວທາງນອນ"
-
-#: rc.cpp:75
-msgid "5"
-msgstr "5"
-
-#: rc.cpp:76
-msgid "Vertical Guides"
-msgstr "ເສັ້ນນຳລອ່ງທາງແນວຕັ້ງ"
-
-#: rc.cpp:77 rc.cpp:79
-msgid "All Guides"
-msgstr "ເສັ້ນນຳລອ່ງທັງຫມົດ"
-
-#: rc.cpp:78
-msgid "6"
-msgstr "6"
-
-#: rc.cpp:80
-msgid "StencilsBar"
-msgstr "ແຖບຊຸດລວດລາຍ"
-
-#: rc.cpp:81
-msgid "7"
-msgstr "7"
-
-#: rc.cpp:82
-msgid "Stencils Bar Visual"
-msgstr "ລັກສະນະຊຸດລວດລາຍ"
-
-#: rc.cpp:83
-msgid "Select Category"
-msgstr "ເລືອກຫມວດຫມູ່"
-
-#: rc.cpp:85
-msgid "Grid Setup"
-msgstr "ຕັ້ງຄ່າກີດ"
-
-#: rc.cpp:88
-msgid "&Place horizontal grid lines every:"
-msgstr "ໃຫ้້&ມີເສັ້ນກີດໃນແນວນອນທຸກຊວ່ງ:"
-
-#: rc.cpp:89
-msgid "P&lace vertical grid lines every:"
-msgstr "ໃຫ້&ມີເສັ້ນກີດໃນແນວຕັ້ງທຸກຊວ່ງ"
-
-#: rc.cpp:90
-msgid "Snap Distance"
-msgstr "ຊວ່ງໄລຍະການຍັບເຂົ້າຫາ"
-
-#: rc.cpp:91
-msgid "&Snap to grid horizontal distance:"
-msgstr "ໄລຍະການໃຫ้້&ຍາ້ຍໄປຫາບອ່ນກີດທາງແນວນອນ"
-
-#: rc.cpp:92
-msgid "S&nap to grid vertical distance:"
-msgstr "ໄລຍະການຍາ້ຍ&ໄປທາງແນວຕັ້ງ:"
-
-#: rc.cpp:93
-msgid "Grid color:"
-msgstr "ສະກີດ"
-
-#: rc.cpp:94
-msgid "Snap to g&rid"
-msgstr "ຍາ້ຍໄປຫາ&ກີດ"
-
-#: rc.cpp:95
-msgid "Show &grid"
-msgstr "ສະແດງ&ກີດ"
-
-#: rc.cpp:97
-msgid "Show page &borders"
-msgstr "ສະແດງກອນ&ເຈ້ຍ"
-
-#: rc.cpp:98
-msgid "Show page &margins"
-msgstr "ສະແດງແຄມ&ເຈ້ຍ"
-
-#: rc.cpp:99
-msgid "Show &rules"
-msgstr "ສະແດງໄມ້ບັນ&ທັດ"
-
-#: rc.cpp:100
-msgid "&Default units:"
-msgstr "&ຫວ່ຍບັນລະຍາຍ"
-
-#: rc.cpp:102
-msgid "Margins"
-msgstr "ແຄມເຈ້ຍ"
-
-#: rc.cpp:103
-msgid "&Right:"
-msgstr "&ຂວາ"
-
-#: rc.cpp:104
-msgid "&Format:"
-msgstr "&ຊະນີດເຈ້ຍ"
-
-#: rc.cpp:105
-msgid "&Left:"
-msgstr "&ຊາ້ຍ"
-
-#: rc.cpp:106
-msgid "&Top:"
-msgstr "&ເທິງ"
-
-#: rc.cpp:107
-msgid "&Orientation:"
-msgstr "&ທີດທາງ"
-
-#: rc.cpp:108
-msgid "&Width:"
-msgstr "&ກວາ້ງ"
-
-#: rc.cpp:109
-msgid "&Height:"
-msgstr "&ສູງ"
-
-#: rc.cpp:110
-msgid "&Bottom:"
-msgstr "&ລຸ່ມ"
-
-#: rc.cpp:111
-msgid "Re&size all pages in this document"
-msgstr "ປ່ຽນ&ຂະຫນາດກັບທຸກຫນ້າໃນເອກກະສານນີ້"
-
-#: rc.cpp:112
-msgid "&Make these options the default for this document"
-msgstr "ໃຊ້&ຄາ່ຕົວເລືອກເຫົ່ຼານີ້ເປັນຄາ່ໂດຍບໍ່ມີເງື່ອນໄຂສໍາລັບເອກະສານນີ້"
-
-#: rc.cpp:113
-msgid "Ma&ke these options the default for all documents"
-msgstr "ໃຊ้້&ຄາ່ຕົວເລືອກເຫົ່ຼານີ້ເປັນຄາ່ໂດຍບໍ່ມີເງືອນໄຂສໍາທຸກເອກກະສານ"
-
-#: rc.cpp:116
-msgid "Background &pixmap:"
-msgstr "ຮູບ&ພື້ນຫັຼງ"
-
-#: rc.cpp:117
-msgid "&Background color:"
-msgstr "ສີี&ພື້ນຫັຼງ"
-
-#: rc.cpp:120
-msgid "&X position"
-msgstr "ຕຳແຫນ່ງ&x"
-
-#: rc.cpp:121
-msgid "Toggles the ability to protect the x position of the selected stencils"
-msgstr "ເປີດປີດການປ້ອງກັນການປ່ຽນຕຳແຫນ່ງxຂອງລວດລາຍທີ່ເລືອກ"
-
-#: rc.cpp:122
-msgid "&Y position"
-msgstr "&Yຕຳແຫນ່ງ"
-
-#: rc.cpp:123
-msgid "Toggles the ability to protect the y position of the selected stencils"
-msgstr "ເປີດປີດການປອ້ງກັນການປ່ຽນຕຳແຫນ່ງ y ຂອງລວດລາຍທີ່ເລືອກ"
-
-#: rc.cpp:125
-msgid "Toggles the ability to change the height of the selected stencils"
-msgstr "ເປີດປີດການໃຫ້ປ່ຽນຄາ່ຄວາມສູງຂອງຮູບລວດລາຍທີ່ເລືອກ"
-
-#: rc.cpp:127
-msgid "Toggles the ability to change the width of the selected stencils"
-msgstr "ເປີດປີດການໃຫ້ປ່ຽນຄາ່ຄວາມກວາ້ງຂອງຮູບລວດລາຍທີ່ເລືອກ"
-
-#: rc.cpp:128
-msgid "&Aspect ratio"
-msgstr "ອັດ&ຕາສວ່ນຮູບຮາ່ງ"
-
-#: rc.cpp:129
-msgid "Toggles the ability to change the aspect ratio of the selected stencils"
-msgstr "ເປີດປີດການອະນຸຍາດໃຫ້ປ່ຽນອັດຕາສວ່ນລວດລາຍທີ່ເລືອກ"
-
-#: rc.cpp:130
-msgid "&Deletion"
-msgstr "ຈາກການ&ລືບ"
-
-#: rc.cpp:131
-msgid "Toggles the ability to delete the selected stencils"
-msgstr "ເປີດປີດການປອ້ງກັນການລືບຮູບລວດລາຍທີ່ເລືອກ"
-
-#: rc.cpp:132
+#: kiviopart/ui/export_page_dialog.cpp:12
 msgid "Export Page"
 msgstr "ສົ່ງອອກຫນ້າເຈ້ຍ"
 
-#: rc.cpp:133
-msgid "&Quality:"
-msgstr "&ຄຸນນະພາບ"
+#: kiviopart/ui/kiviooptionsdialog.cpp:91
+msgid "Settings"
+msgstr ""
 
-#: rc.cpp:134
-msgid "&Border:"
-msgstr "&ຂອບ"
+#: kiviopart/ui/kiviooptionsdialog.cpp:101
+#, fuzzy
+msgid "Page Settings"
+msgstr "ແຖບຫົວເລື່ອງຫນ້າ"
 
-#: rc.cpp:136
+#: kiviopart/ui/kiviooptionsdialog.cpp:110
+#, fuzzy
+msgid "Default &units:"
+msgstr "&ຫວ່ຍບັນລະຍາຍ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:115
+#, fuzzy
+msgid "Default layout:"
+msgstr "&ຫວ່ຍບັນລະຍາຍ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:121
+#: kiviopart/ui/kiviooptionsdialog.cpp:130
+#, fuzzy
+msgid "Change..."
+msgstr "ສະແດງຫນ້າເຈ້ຍ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:124
+#, fuzzy
+msgid "Default font:"
+msgstr "&ຫວ່ຍບັນລະຍາຍ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:133
+msgid "Show page &borders"
+msgstr "ສະແດງກອນ&ເຈ້ຍ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:135
+msgid "Show page &margins"
+msgstr "ສະແດງແຄມ&ເຈ້ຍ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:137
+#, fuzzy
+msgid "Show page &rulers"
+msgstr "ສະແດງກອນ&ເຈ້ຍ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:162
+msgid "Grid"
+msgstr "ກີດ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:162
+#, fuzzy
+msgid "Grid Settings"
+msgstr "ຕັ້ງຄ່າກີດ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:175
+msgid "Show &grid"
+msgstr "ສະແດງ&ກີດ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:177
+msgid "Snap to g&rid"
+msgstr "ຍາ້ຍໄປຫາ&ກີດ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:179
+#, fuzzy
+msgid "Grid &color:"
+msgstr "ສະກີດ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:183
+#, fuzzy
+msgid "&Horizontal:"
+msgstr "ເສັ້ນນຳລອ່ງແນວທາງນອນ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:187
+#, fuzzy
+msgid "&Vertical:"
+msgstr "ເສັ້ນນຳລອ່ງທາງແນວຕັ້ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:191
+msgid "Snap Distance"
+msgstr "ຊວ່ງໄລຍະການຍັບເຂົ້າຫາ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:192
+#, fuzzy
+msgid "H&orizontal:"
+msgstr "ເສັ້ນນຳລອ່ງແນວທາງນອນ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:196
+#, fuzzy
+msgid "V&ertical:"
+msgstr "ເສັ້ນນຳລອ່ງທາງແນວຕັ້ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:218
+#, fuzzy
+msgid "Guide Lines"
+msgstr "ເສັ້ນນຳລອ່ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:218
+msgid "Guide Line Settings"
+msgstr ""
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:230
+#: kiviopart/ui/kiviotextformatdlg.cpp:58
+#, fuzzy
+msgid "Position"
+msgstr "&Yຕຳແຫນ່ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:238
+msgid "Guide Line Properties"
+msgstr ""
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:242
+#, fuzzy
+msgid "&Horizontal"
+msgstr "ເສັ້ນນຳລອ່ງແນວທາງນອນ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:244
+#, fuzzy
+msgid "&Vertical"
+msgstr "ເສັ້ນນຳລອ່ງທາງແນວຕັ້ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:249
+#, fuzzy
+msgid "&Position:"
+msgstr "&Yຕຳແຫນ່ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:272
+msgid "&Show guides"
+msgstr "ສະແດງເສັ້ນ&ນຳລອ່ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:274
+msgid "S&nap to guides"
+msgstr "ຍັບ&ເຂົ້າໄປຫາເສັ້ນນຳລອ່ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:276
+#, fuzzy
+msgid "&Guide color:"
+msgstr "ສີເສັ້ນນຳລອ່ງ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:279
+#, fuzzy
+msgid "S&elected guide color:"
+msgstr "ສີເສັ້ນນຳລອ່ງທີ່ຖືກເລືອກ:"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:294
+#, fuzzy
+msgid "&Manager"
+msgstr "ໂຕຈັດການສະແດງຜົນ"
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:295
+msgid "&Look && Feel"
+msgstr ""
+
+#: kiviopart/ui/kiviooptionsdialog.cpp:393
+msgid "Format: %1, Width: %2 %4, Height: %3 %5"
+msgstr ""
+
+#: kiviopart/ui/kivio_birdeye_panel.cpp:41
+msgid "Zoom In"
+msgstr "ຂະຫຍາຍ"
+
+#: kiviopart/ui/kivio_birdeye_panel.cpp:42
+msgid "Zoom Out"
+msgstr "ຍໍ້"
+
+#: kiviopart/ui/kivio_birdeye_panel.cpp:43
+msgid "Show Page Border"
+msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
+
+#: kiviopart/ui/kivio_birdeye_panel.cpp:44
+#: kiviopart/ui/kivio_birdeye_panel.cpp:45
+msgid "Autoresize"
+msgstr "ປັບຂະຫນາດອັດຕະໂນມັດ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:35 rc.cpp:70
+#, fuzzy
+msgid "Text Format"
+msgstr "ໂໂຮູບແບບ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:47
+#, fuzzy
+msgid "Text color:"
+msgstr "ຕັ້ງຄ່າສີຂໍ້ຄວາມ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:60 rc.cpp:40 rc.cpp:49
+msgid "&Top"
+msgstr "ດາ້ນ&ເທີ່ງ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:61
+#, fuzzy
+msgid "&Center"
+msgstr "ເຄີ່ງ&ກາງ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:65 rc.cpp:34 rc.cpp:55
+msgid "&Left"
+msgstr "ດາ້ນ&ຊາ້ຍ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:66 rc.cpp:41 rc.cpp:50
+msgid "C&enter"
+msgstr "ເຄີ່ງ&ກາງ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:67 rc.cpp:37 rc.cpp:57
+msgid "&Right"
+msgstr "ດາ້ນ&ຂວາ"
+
+#: kiviopart/ui/kiviotextformatdlg.cpp:69
+#, fuzzy
+msgid "Preview"
+msgstr "ສະແດງ"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:38
+#, fuzzy
+msgid "Arrowhead Format"
+msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
+
+#: kiviopart/kivioarrowheadaction.cpp:50
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:50
+msgid "Start Arrowhead"
+msgstr ""
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:51
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:63
+#, fuzzy
+msgid "&Type:"
+msgstr "&ເທິງ"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:55
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:67
+msgid "&Width:"
+msgstr "&ກວາ້ງ"
+
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:58
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:70
+msgid "&Height:"
+msgstr "&ສູງ"
+
+#: kiviopart/kivioarrowheadaction.cpp:51
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:62
+#, fuzzy
+msgid "End Arrowhead"
+msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
+
+#: kiviopart/kivioarrowheadaction.cpp:174
+#: kiviopart/ui/kivioarrowheadformatdlg.cpp:91
+msgid ""
+"_: no line end\n"
+"None"
+msgstr ""
+
+#: kiviopart/ui/kivioaligndialog.cpp:32
+#, fuzzy
+msgid "Align & Distribute"
+msgstr "ຈັດລຽງ&& ແລະແຍກສວ່ນ..."
+
+#: kiviopart/kivio_view.cpp:143 kiviopart/kivio_view.cpp:1716
+msgid "X: %1 %3 Y: %2 %4"
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:316
+msgid "Geometry"
+msgstr "ຄ່າເລຂາຄະນິດ"
+
+#: kiviopart/kivio_view.cpp:323
+msgid "Stencil Geometry Panel"
+msgstr "ຄາ່ເລຂາຄະນິດຂອງລວດລາຍ"
+
+#: kiviopart/kivio_view.cpp:331 kiviopart/kivio_view.cpp:334
+msgid "View Manager"
+msgstr "ໂຕຈັດການສະແດງຜົນ"
+
+#: kiviopart/kivio_view.cpp:342 kiviopart/kivio_view.cpp:345
+msgid "Bird's Eye"
+msgstr "ຈຸດເບີ່ງຈາກມູມສູງ"
+
+#: kiviopart/kivio_view.cpp:353
+msgid "Layers"
+msgstr "ເລເຢີ"
+
+#: kiviopart/kivio_view.cpp:356
+msgid "Layers Manager"
+msgstr "ໂຕຈັດການເລເຢີ"
+
+#: kiviopart/kivio_view.cpp:364 kiviopart/kivio_view.cpp:367 rc.cpp:17
+msgid "Protection"
+msgstr "ການປ້ອງກັນ"
+
+#: kiviopart/kivio_view.cpp:374
+msgid "Add Stencil Set"
+msgstr "ຕື່ມຊຸດລວດລາຍ"
+
+#: kiviopart/kivio_view.cpp:378
+msgid "Align && Distribute..."
+msgstr "ຈັດລຽງ&& ແລະແຍກສວ່ນ..."
+
+#: kiviopart/kivio_view.cpp:386
+msgid "Select None"
+msgstr "ບໍ່ເລື່ອກທັງຫມົດ"
+
+#: kiviopart/kivio_view.cpp:390
+msgid "Group Selected Stencils"
+msgstr "ລວມກຸ້ມລວດລາຍທີ່ເລື່ອກໄວ້"
+
+#: kiviopart/kivio_view.cpp:391
+msgid "Ungroup Selected Stencils"
+msgstr ""
+"ຍົກເລີກລວມກຸ້ມລວດລາຍທີ່ເລ"
+"ື່ອກໄວ້"
+
+#: kiviopart/kivio_view.cpp:393
+msgid "Bring to Front"
+msgstr "ນຳມາໄວ້ທາງຫນ້າ"
+
+#: kiviopart/kivio_view.cpp:394
+msgid "Send to Back"
+msgstr "ສົ່ງໄປຢູ່ທາງຫັຼງ"
+
+#: kiviopart/kivio_view.cpp:396
+#, fuzzy
+msgid "&Text..."
+msgstr "ຂໍ້ຄວາມ"
+
+#: kiviopart/kivio_view.cpp:399
+#, fuzzy
+msgid "&Stencils && Connectors..."
+msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
+
+#: kiviopart/kivio_view.cpp:402
+#, fuzzy
+msgid "&Arrowheads..."
+msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
+
+#: kiviopart/kivio_view.cpp:404 kiviopart/kivio_view.cpp:516
+msgid "Arrowheads allow you to add an arrow to the beginning and/or end of a line."
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:407
+msgid "Set Foreground Color"
+msgstr "ຕັ້ງຄາ່ສີພື້ນຫນ້າ"
+
+#: kiviopart/kivio_view.cpp:408
+msgid ""
+"The foreground color allows you to choose a color for the lines of the "
+"stencils."
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:410
+msgid "Set Background Color"
+msgstr "ຕັ້ງຄ່າສີພື້ນຫັຼງ"
+
+#: kiviopart/kivio_view.cpp:411
+msgid "You can choose a color for the background of a stencil by using this button."
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:415
+msgid "Set Font Family"
+msgstr "ຕັ້ງຄ່າຕະກຸນຕົວອັກສອນ"
+
+#: kiviopart/kivio_view.cpp:418
+msgid "Set Font Size"
+msgstr "ຕັ້ງຄ່າຂະຫນາດຕົວອັກສອນ"
+
+#: kiviopart/kivio_view.cpp:423
+msgid "Set Text Color"
+msgstr "ຕັ້ງຄ່າສີຂໍ້ຄວາມ"
+
+#: kiviopart/kivio_view.cpp:426
+msgid "Toggle Bold Text"
+msgstr "ເຮັດຂໍ້ຄວາມເປັນໂຕຫນ້າ"
+
+#: kiviopart/kivio_view.cpp:429
+msgid "Toggle Italics Text"
+msgstr "ເຮັດຂໍ້ຄວາມເປັນໂຕ ອຽງ"
+
+#: kiviopart/kivio_view.cpp:432
+msgid "Toggle Underline Text"
+msgstr "ຂີດເສັ້ນໃຕ້ຂໍ້ຄວາມ"
+
+#: kiviopart/kivio_view.cpp:435
+#, fuzzy
+msgid "Align &Left"
+msgstr "ດາ້ນ&ຊາ້ຍ"
+
+#: kiviopart/kivio_view.cpp:439
+#, fuzzy
+msgid "Align &Center"
+msgstr "ເຄີ່ງ&ກາງ"
+
+#: kiviopart/kivio_view.cpp:444
+#, fuzzy
+msgid "Align &Right"
+msgstr "ດາ້ນ&ຂວາ"
+
+#: kiviopart/kivio_view.cpp:448
+msgid "Superscript"
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:452
+msgid "Subscript"
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:470
+msgid "Set Line Width"
+msgstr "ຕັ້ງຄ່າຄວາມກ້ວາງເສັ້ນ"
+
+#: kiviopart/kivio_view.cpp:471
+msgid ""
+"The line width allows setting the width of outlines, either using predefined "
+"values or user input"
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:475
+#, fuzzy
+msgid "Page Layout..."
+msgstr "ການຈັດວາງຫນ້າເຈ້ຍ.."
+
+#: kiviopart/kivio_view.cpp:476 kiviopart/kivio_view.cpp:669
+msgid "Insert Page"
+msgstr "ແທກຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_view.cpp:477 kiviopart/kivio_view.cpp:717
+#: kiviopart/kivio_view.cpp:721 kiviopart/kivio_view.cpp:725
+msgid "Remove Page"
+msgstr "ລືບຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_view.cpp:479
+msgid "Rename Page..."
+msgstr "ປ່ຽນຊື່ຫນ້າ"
+
+#: kiviopart/kivio_view.cpp:481
+msgid "Show Page..."
+msgstr "ສະແດງຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_tabbar.cpp:591 kiviopart/kivio_view.cpp:482
+msgid "Hide Page"
+msgstr "ເຊື່ອງຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_view.cpp:483
+msgid "Export Page..."
+msgstr "ສົ່ງອອກຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_view.cpp:485
+msgid "Show Page Borders"
+msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_view.cpp:488
+msgid "Show Page Margins"
+msgstr "ສະແດງຮີມເຈ້ຍ"
+
+#: kiviopart/kivio_view.cpp:491
+msgid "Show Rulers"
+msgstr "ສະແດງໄ້້ມ້ບັນທັດ"
+
+#: kiviopart/kivio_view.cpp:495
+msgid "Show Grid"
+msgstr "ສະແດງກີດ"
+
+#: kiviopart/kivio_view.cpp:498
+msgid "Snap Grid"
+msgstr "ຍ້າຍໄປບ່ອນກີດ"
+
+#: kiviopart/kivio_view.cpp:502
+msgid "Show Guides"
+msgstr "ສະແດງເສັ້ນນຳຮອ່ງ"
+
+#: kiviopart/kivio_view.cpp:505
+msgid "Snap Guides"
+msgstr "ຍ້າຍໄປບອ່ນເສັ້ນນຳຮອ່ງ"
+
+#: kiviopart/kivio_view.cpp:509
+#, fuzzy
+msgid "Zoom &Level"
+msgstr "Menuຫຍໍ້/ຂະຫຍາຍ"
+
+#: kiviopart/kivio_view.cpp:511
+msgid ""
+"This allows you to zoom in or out of a document. You can either choose one "
+"of the predefined zoomfactors or enter a new zoomfactor (in percent)."
+msgstr ""
+
+#: kiviopart/kivio_view.cpp:515
+#, fuzzy
+msgid "Arrowheads"
+msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
+
+#: kiviopart/kivio_view.cpp:717
+msgid "You cannot delete the only page of the document."
+msgstr ""
+"ເຈົ້າບໍ່ສາມາດລືບຫນ້າເຈ້ຍທ"
+"ີ່ມີພຽງຫນ້າດ່ຽວໄດ້"
+
+#: kiviopart/kivio_view.cpp:721
+msgid ""
+"You are going to remove the active page.\n"
+"Do you want to continue?"
+msgstr ""
+"ເຈົ້າກຳລັງຈະເຮັດການລືບຫນ້"
+"າເຈ້ຍທີ່ກຳລັງເຮັດວງກຢູ່/nຕອ"
+"້ງການເຮັດຕໍ່ໄປແມ່ນຫືຼບໍ່?"
+
+#: kiviopart/kivio_view.cpp:915
+msgid "Change Foreground Color"
+msgstr "ປ່ຽນສີພື້ນຫນ້າ"
+
+#: kiviopart/kivio_view.cpp:922
+msgid "Change Fg Color"
+msgstr "ປ່ຽສີພື້ນຫນ້າ"
+
+#: kiviopart/kivio_view.cpp:942
+msgid "Change Background Color"
+msgstr "ປ່ຽນສີພື້ນຫັຼງ"
+
+#: kiviopart/kivio_view.cpp:950
+msgid "Change Bg Color"
+msgstr "ປ່ຽນສີພື້ນຫັຼງ"
+
+#: kiviopart/kivio_view.cpp:971 kiviopart/kivio_view.cpp:978
+msgid "Change Text Color"
+msgstr "ປ່ຽນສີຂໍ້ຄວາມ"
+
+#: kiviopart/kivio_view.cpp:997 kiviopart/kivio_view.cpp:1005
+msgid "Change Line Width"
+msgstr "ປ່ຽນຄວາມກວາ້ງເສັ້ນ"
+
+#: kiviopart/kivio_view.cpp:1081 kiviopart/kivio_view.cpp:1083
+#: kiviopart/kivio_view.cpp:1111 kiviopart/kivio_view.cpp:1113
+#: kiviopart/kivio_view.cpp:1141 kiviopart/kivio_view.cpp:1142
+#: kiviopart/kivio_view.cpp:1162 kiviopart/kivio_view.cpp:1170
+#: kiviopart/kivio_view.cpp:1172 kiviopart/kivio_view.cpp:1199
+#: kiviopart/kivio_view.cpp:1201
+msgid "Change Stencil Font"
+msgstr "ປ່ຽນແບບອັກສອນຂອງລວດລາຍ"
+
+#: kiviopart/kivio_view.cpp:1303
+msgid "Change Begin Arrow"
+msgstr "ປ່ຽນລູກສອນເລີ່ມຕົ້ນ"
+
+#: kiviopart/kivio_view.cpp:1310 kiviopart/kivio_view.cpp:1338
+msgid "Change Arrow"
+msgstr "ປ່ຽນລູກສອນ"
+
+#: kiviopart/kivio_view.cpp:1331
+msgid "Change End Arrow"
+msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
+
+#: kiviopart/kivio_view.cpp:1362
+msgid "Change Size of Begin Arrow"
+msgstr ""
+"ປ່ຽນຂະຫນາດຂອງລູກສອນເລີ່ມຕ"
+"ົ້ນ"
+
+#: kiviopart/kivio_view.cpp:1368 kiviopart/kivio_view.cpp:1391
+#: kiviopart/kivio_view.cpp:1397
+msgid "Change Size of End Arrow"
+msgstr ""
+"ປ່ຽນຂະຫນາດຂອງລູກສອນສິ້ນສຸ"
+"ດ"
+
+#: kiviopart/kivio_view.cpp:1417 kiviopart/kivio_view.cpp:1423
+msgid "Change Stencil Horizontal Alignment"
+msgstr ""
+"ປ່ຽນການຈັດລຽງລວດລາຍທາງແນວ"
+"ນອນ"
+
+#: kiviopart/kivio_view.cpp:1445 kiviopart/kivio_view.cpp:1451
+msgid "Change Stencil Vertical Alignment"
+msgstr "ປ່ຽນການຈັດລຽງທາງແນວຕັ້ງ"
+
+#: kiviopart/kivio_view.cpp:1505 plugins/kivioselecttool/tool_select.cpp:990
+msgid "Resize Stencil"
+msgstr "ປັບຂະຫນາດລວດລາຍ"
+
+#: kiviopart/kivio_page.cpp:1099 kiviopart/kivio_page.cpp:1136
+#: kiviopart/kivio_page.cpp:1146 kiviopart/kivio_page.cpp:1158
+#: kiviopart/kivio_page.cpp:1398 kiviopart/kivio_page.cpp:1403
+#: kiviopart/kivio_view.cpp:1522 plugins/kivioselecttool/tool_select.cpp:935
+#: plugins/kivioselecttool/tool_select.cpp:943
+msgid "Move Stencil"
+msgstr "ຍາ້ຍລວດລາຍ"
+
+#: kiviopart/kivio_view.cpp:1621
+#, fuzzy
+msgid "Image Files ("
+msgstr "ແຟ້ມຮູບ:("
+
+#: kiviopart/kivio_view.cpp:1809 kiviopart/kivio_view.cpp:1811
+#: kiviopart/kivio_view.cpp:1812 kiviopart/kivio_view.cpp:1813
+#: kiviopart/kivio_view.cpp:1814 kiviopart/kivio_view.cpp:1815
+#: kiviopart/kivio_view.cpp:1816 kiviopart/kivio_view.cpp:1817
+#: kiviopart/kivio_view.cpp:1818 kiviopart/kivio_view.cpp:1819
+#: kiviopart/kivio_view.cpp:1820 kiviopart/kivio_view.cpp:1821
+#: kiviopart/kivio_view.cpp:1822 kiviopart/kivio_view.cpp:1831
+#: kiviopart/kivio_zoomaction.cpp:32 kiviopart/kivio_zoomaction.cpp:33
+#: kiviopart/kivio_zoomaction.cpp:34 kiviopart/kivio_zoomaction.cpp:35
+#: kiviopart/kivio_zoomaction.cpp:36 kiviopart/kivio_zoomaction.cpp:37
+#: kiviopart/kivio_zoomaction.cpp:38 kiviopart/kivio_zoomaction.cpp:39
+#: kiviopart/kivio_zoomaction.cpp:40 kiviopart/kivio_zoomaction.cpp:41
+#: kiviopart/kivio_zoomaction.cpp:42 kiviopart/kivio_zoomaction.cpp:43
+#: kiviopart/kivio_zoomaction.cpp:87 kiviopart/kivio_zoomaction.cpp:89
+#: kiviopart/kivio_zoomaction.cpp:94
+msgid "%1%"
+msgstr ""
+
+#: kiviopart/kivio_aboutdata.h:32 kiviopart/kivio_doc.cpp:181
+msgid "Kivio"
+msgstr "kivio"
+
+#: kiviopart/kivio_doc.cpp:438
+#, c-format
+msgid "Page%1"
+msgstr "ຫນ້າ%1"
+
+#: kiviopart/kivio_doc.cpp:728
+msgid "Cannot delete stencil set because there are still stencils in use."
+msgstr ""
+"ບໍ່ສາມາດລົບຊຸດລວດລາຍໄດ້ເນ"
+"ື່ອງຈາກຍັງມີການໃຊ້ວຽກອົບ"
+
+#: kiviopart/kivio_doc.cpp:729
+msgid "Cannot Delete Stencil Set"
+msgstr "ບໍ່ສາມາດລົບຊຸດລວດລາຍໄດ້"
+
+#: kiviopart/kivio_doc.cpp:738
+msgid ""
+"The clipboard contains stencils which belong to the set you are trying to "
+"remove.\n"
+"Would you like to delete what is on the clipboard?\n"
+"(Saying no will cause this stencil set to not be removed.)"
+msgstr ""
+"ມີລວດລາຍທີ່ເປັນຂອງຊຸດລວດລ"
+"າຍທີ່ເຈົ້າພະຍາຍາມຈະລືບຢູ່"
+"ໃນຄີບອດ\n"
+"ເຈົ້າຕອ້ງການທີ່ຈະລືບໂຕອົບ"
+"ໃນ ຄີບອດເເມ່ນບໍ່? "
+"ຈະບໍ່ສາມາດລືບລວດລາຍນີ້ໄດ້ "
+
+#: kiviopart/kivio_doc.cpp:739
+msgid "Clear the clipboard?"
+msgstr "ລາ້ງຄີບອດແມ່ນຫືຼບໍ່ແມ່ນ?"
+
+#: kiviopart/stencilbardockmanager.cpp:95
+msgid "Stencil Sets"
+msgstr "ຊຸດລວດລາຍ"
+
+#: kiviopart/main.cpp:29
+msgid "File to open"
+msgstr "ແຟ້ມທີ່ຈະເປີດໃຊ້"
+
+#: kiviopart/kiviosdk/kivio_layer.cpp:45
+msgid "Untitled Layer"
+msgstr "ເລເຢີຍັງບໍ່ມີຊື່"
+
+#: kiviopart/kivio_tabbar.cpp:352
+msgid "Page Name"
+msgstr "ຊື່ຫນ້າ"
+
+#: kiviopart/kivio_tabbar.cpp:352
+msgid "Enter page name:"
+msgstr "ຕື່ມຊື່ຫນ້າ"
+
+#: kiviopart/kivio_tabbar.cpp:360
+msgid "Page name cannot be empty."
+msgstr "ຊື່ຫນ້າບໍ່ສາມາດທ່ວງໄວ້ໄດ້"
+
+#: kiviopart/kivio_tabbar.cpp:360 kiviopart/kivio_tabbar.cpp:370
+msgid "Change Page Name"
+msgstr "ປ່ຽນຊື່ຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_tabbar.cpp:370
+msgid "This name is already used."
+msgstr "ມີຊື່ນີ້ຢູ່ແລ້ວ"
+
+#: kiviopart/kivio_tabbar.cpp:374
+msgid "Rename Page"
+msgstr "ປ່ຽນຊື່ຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_tabbar.cpp:580
+msgid "You cannot hide the last visible page."
+msgstr ""
+"ເຈົ້າບໍ່ສາມາດເຊອື່ງຫນ້າທີ"
+"ເບີ່ງເຫັນໄດ້ລ່າສຸດໄດ້"
+
+#: kiviopart/kivio_page.cpp:92
+msgid "Layer 1"
+msgstr "ເລເຢີ1"
+
+#: kiviopart/kivio_page.cpp:439
+msgid "Add Stencil"
+msgstr "ເພີມຊຸດລວດລາຍ"
+
+#: kiviopart/kivio_page.cpp:624
+msgid ""
+"One of the selected stencils has protection from deletion and cannot be "
+"deleted."
+msgstr ""
+"ມີລວດລາຍຢາ່ງຫນອ້ຍນື່ງໂຕຂອ"
+"ງຊຸດລວດລາຍມີການປອ້ງກັນການ"
+"ລືບໄວ້ເຮັດໃຫ້ບໍ່ສາມາດລືບໄ"
+"ດ້"
+
+#: kiviopart/kivio_page.cpp:625
+msgid "Protection From Deletion"
+msgstr "ມີການປອ້ງກັນການລືບໄວ้"
+
+#: kiviopart/kivio_page.cpp:635 kiviopart/kivio_page.cpp:639
+msgid "Remove Stencil"
+msgstr "ລືບຊຸດລວດລາຍ"
+
+#: kiviopart/kivio_page.cpp:957
+msgid ""
+"One of the stencils has protection from deletion. You cannot cut or delete "
+"this stencil."
+msgstr ""
+"ມີລວດລາຍຢາ່ງຫນອ້ຍນື່ງໂຕມີ"
+"ການປອ້ງກັນການລືບໄວ້ເຮັດໃຫ"
+"້ເຈົ້າຈະບໍ່ສາມາດຕັດຫືຼລືບ"
+"ລວດ ລາຍນີ້ໄດ້"
+
+#: kiviopart/kivio_page.cpp:957
+msgid "Protection From Delete"
+msgstr "ປ້ອງກັນການລືບ"
+
+#: kiviopart/kivio_icon_view.cpp:63
+msgid ""
+"_: untitled stencil\n"
+"Untitled"
+msgstr "ຍັງບໍ່ກຳນົດຊື່"
+
+#: kiviopart/stencil_text_dlg.cpp:24
+msgid "Stencil Text"
+msgstr "ລວດລາຍຂໍ້ຄວາມ"
+
+#: kiviopart/kivio_dlg_pageshow.cpp:37 kiviopart/kivio_dlg_pageshow.cpp:75
+msgid "Show Page"
+msgstr "ສະແດງຫນ້າເຈ້ຍ"
+
+#: kiviopart/kivio_dlg_pageshow.cpp:48
+msgid "Select hidden page to show:"
+msgstr ""
+
+#: kiviopart/kivio_viewmanager_panel.cpp:143
+msgid "Add Current View"
+msgstr ""
+"ຕື່ມເຂົ້າໄປໃນຈຸດເບິ່ງປັດຈ"
+"ຸບັນ"
+
+#: kiviopart/kivio_viewmanager_panel.cpp:144
+msgid "Remove Item"
+msgstr "ລືບລາຍການ"
+
+#: kiviopart/kivio_viewmanager_panel.cpp:145
+msgid "Rename Item"
+msgstr "ປ່ຽນຊື່ລາຍການ"
+
+#: kiviopart/kivio_viewmanager_panel.cpp:146
+msgid "Move Item Up"
+msgstr "ຍາ້ຍລາຍການຂື້ນ"
+
+#: kiviopart/kivio_viewmanager_panel.cpp:147
+msgid "Move Item Down"
+msgstr "ຍາ້ຍລາຍການລົງ"
+
+#: kiviopart/kivio_viewmanager_panel.cpp:214
+msgid "Rename View Item"
+msgstr "ປ່ຽນຊື່ລາຍການຈຸດເບີ່ງ"
+
+#: kiviopart/kivio_viewmanager_panel.cpp:214
+msgid "View item name:"
+msgstr "ຊື່ລາຍການຈຸດເບີ່ງ"
+
+#: kiviopart/kivio_config.cpp:87
+msgid "Change Page Layout"
+msgstr "ປ່ຽນການຈັດວາງຫນ້າເຈ້ຍ"
+
+#: rc.cpp:2
 msgid "C&rop picture to edges"
 msgstr "&ຕັດຮູບພາບທີ່ເກີນຮູບອອກ"
 
-#: rc.cpp:137
+#: rc.cpp:3
 msgid "Don't export extra blank space to file"
-msgstr "ຢາ່ສົ່ງອອກຊອ່ງວາ່ງພີເສດໄປຍັງແຟ້ມ"
+msgstr ""
+"ຢາ່ສົ່ງອອກຊອ່ງວາ່ງພີເສດໄປ"
+"ຍັງແຟ້ມ"
 
-#: rc.cpp:138
+#: rc.cpp:4
+#, fuzzy
 msgid ""
 "<b>Crop picture to edges</b><br>\n"
 "This will eliminate all blank portions of the drawing. The picture will only "
@@ -1011,46 +892,73 @@ msgid ""
 "upper right corner of the page, then only the upper right corner will be "
 "exported."
 msgstr ""
-"<b>ຕັດຮູບສວ່ນທີ່ເກີນຈາກຂອບອອກ</b><br>\nຮູບທີ່ໃຫ່ຍກວ່າຂະຫນາດຂອງລວດລາຍ "
-"ຈະຖືກຕັດຖີ້ມຫາກຮູບລວດລາຍຂອງເຈົ້າຢູ່ໃນຕຳແຫນ່ງດາ້ນຂວາເທີງຂອງຫນ້າຈະເຮັດໃຫ້ມີພຽງ "
-"ມູມຂວາລຸ່ມເທົ່ານັ້ນທີ່ຈະໃຊ້ຕັດ"
+"<b>ຕັດຮູບສວ່ນທີ່ເກີນຈາກຂອບອ"
+"ອກ</b><br>\n"
+"ຮູບທີ່ໃຫ່ຍກວ່າຂະຫນາດຂອງລວ"
+"ດລາຍ "
+"ຈະຖືກຕັດຖີ້ມຫາກຮູບລວດລາຍຂ"
+"ອງເຈົ້າຢູ່ໃນຕຳແຫນ່ງດາ້ນຂວ"
+"າເທີງຂອງຫນ້າຈະເຮັດໃຫ້ມີພຽ"
+"ງ "
+"ມູມຂວາລຸ່ມເທົ່ານັ້ນທີ່ຈະໃ"
+"ຊ້ຕັດ"
 
-#: rc.cpp:139
+#: rc.cpp:5
 msgid "&Selected stencils"
 msgstr "&ລວດລາຍທີ່ເລືອກໄດ້"
 
-#: rc.cpp:140
+#: rc.cpp:6
 msgid "Export the selected stencils on the current page"
-msgstr "ສັ່ງອອກລວດລາຍທີ່ເລືອກໄວ້ເທີ່ງຫນ້າປັດຈຸບັນ"
+msgstr ""
+"ສັ່ງອອກລວດລາຍທີ່ເລືອກໄວ້ເ"
+"ທີ່ງຫນ້າປັດຈຸບັນ"
 
-#: rc.cpp:141
+#: rc.cpp:7
+#, fuzzy
 msgid ""
 "<b>Selected Stencils</b><br>\n"
 "Export only the selected stencils to file."
-msgstr "<b>ລວດລາຍທີ່ເລືອກໄ້ວ้້</b><br>\nສົ່ງອອກລວດລາຍທີ່ເລືອກໄວ້ເທົ່ານັ້ນໄປຍັງແຟ້ມ"
+msgstr ""
+"<b>ລວດລາຍທີ່ເລືອກໄ້ວ้້</b><br>\n"
+"ສົ່ງອອກລວດລາຍທີ່ເລືອກໄວ້ເ"
+"ທົ່ານັ້ນໄປຍັງແຟ້ມ"
 
-#: rc.cpp:142
+#: rc.cpp:8
 msgid "&All stencils"
 msgstr "&ລວດລາຍທັງຫມົດ"
 
-#: rc.cpp:143
+#: rc.cpp:9
 msgid "Export all stencils on the current page"
-msgstr "ສົ່ງອອກທຸກລວດລາຍເທີ່ງຫນ້າປັດຈຸບັນ"
+msgstr ""
+"ສົ່ງອອກທຸກລວດລາຍເທີ່ງຫນ້າ"
+"ປັດຈຸບັນ"
 
-#: rc.cpp:144
+#: rc.cpp:10
+#, fuzzy
 msgid ""
 "<b>All Stencils</b><br>\n"
 "This will cause the entire page to be exported to the file. This means that "
 "<i>all</i> stencils will be exported."
 msgstr ""
-"<b>ລວດລາຍທັງຫມົດ</b><br>\nຈະມີການສົ່ງອອກຫນ້າເຈ້ຍໄປເປັນແຟ້ມຊີງຫມາຍ "
-"ຄວາມວາ່<i>ທຸກ</i>ລວດລາຍຈະຖືກສັ່ງອອກໄປຫາແຟ້ມນຳກັນ"
+"<b>ລວດລາຍທັງຫມົດ</b><br>\n"
+"ຈະມີການສົ່ງອອກຫນ້າເຈ້ຍໄປເ"
+"ປັນແຟ້ມຊີງຫມາຍ "
+"ຄວາມວາ່<i>ທຸກ</i>ລວດລາຍຈະຖືກສັ"
+"່ງອອກໄປຫາແຟ້ມນຳກັນ"
 
-#: rc.cpp:145
+#: rc.cpp:11
+msgid "&Quality:"
+msgstr "&ຄຸນນະພາບ"
+
+#: rc.cpp:12
 msgid "The higher the quality, the more space the file takes up."
-msgstr "ຍີ່ງໃຫ້ມີຄຸນນະພາບທີ່ສູງຂື້ນຂະຫນາດຂອງແຟ້ມກໍ່ຈະເພີ່ມຂື້ນຕາມກັນໄປ"
+msgstr ""
+"ຍີ່ງໃຫ້ມີຄຸນນະພາບທີ່ສູງຂື"
+"້ນຂະຫນາດຂອງແຟ້ມກໍ່ຈະເພີ່ມ"
+"ຂື້ນຕາມກັນໄປ"
 
-#: rc.cpp:146
+#: rc.cpp:13
+#, fuzzy
 msgid ""
 "<b>Quality</b><br>\n"
 "Not all file formats use this. But for those that do, this affects the "
@@ -1058,745 +966,1214 @@ msgid ""
 "higher the number, the better the picture looks. The downside is the higher "
 "the number, the larger the filesize."
 msgstr ""
-"<b>ຄຸນນະພາບ</b><br>\nແຟ້ມບາງປະເພດເທົ່ານັ້ນທີ່ຈະໃຊ້ຕົວເລືອກນີ້ໄດ້ໂດຍມັນຈະມີຜົນກັບ "
-"ມີຜົນກັບຄຸນນະພາບຂອງຮູບທີ່ຈະສົ່ງອອກໂດຍມີຄາ່100 ຈະມີຄຸນນະພາບທີ່ດີທີ່ສຸດຊີ່ງຄາ່ຍີ່ງ "
-"ສູງຄຸນນະພາບກໍ່ຈະຍີ່ງສູງໄປນຳກັນອີກຢາ່ງນື່ງຫາກຮູບຍີ່ງມີຄຸນນະພາບແລ້ວຂະຫນາດຂອງແຟ້ມ "
-"ກໍ່ຈະໃຫ່ຍຕາມໄປດວ້ຍ"
+"<b>ຄຸນນະພາບ</b><br>\n"
+"ແຟ້ມບາງປະເພດເທົ່ານັ້ນທີ່ຈ"
+"ະໃຊ້ຕົວເລືອກນີ້ໄດ້ໂດຍມັນຈ"
+"ະມີຜົນກັບ "
+"ມີຜົນກັບຄຸນນະພາບຂອງຮູບທີ່"
+"ຈະສົ່ງອອກໂດຍມີຄາ່100 "
+"ຈະມີຄຸນນະພາບທີ່ດີທີ່ສຸດຊີ"
+"່ງຄາ່ຍີ່ງ "
+"ສູງຄຸນນະພາບກໍ່ຈະຍີ່ງສູງໄປ"
+"ນຳກັນອີກຢາ່ງນື່ງຫາກຮູບຍີ່"
+"ງມີຄຸນນະພາບແລ້ວຂະຫນາດຂອງແ"
+"ຟ້ມ ກໍ່ຈະໃຫ່ຍຕາມໄປດວ້ຍ"
 
-#: rc.cpp:147
+#: rc.cpp:14
 msgid "An optional border of whitespace around the page, in pixels"
-msgstr "ຄາ່ຕົວເລືອກພື້ນທີ່ຮອບຫນ້າເຈ້ຍມີຫນວ່ຍເປັນພີກເຊລ"
+msgstr ""
+"ຄາ່ຕົວເລືອກພື້ນທີ່ຮອບຫນ້າ"
+"ເຈ້ຍມີຫນວ່ຍເປັນພີກເຊລ"
 
-#: rc.cpp:148
+#: rc.cpp:15
+#, fuzzy
 msgid ""
 "<b>Border</b><br>\n"
 "Places a blank border around the edges of the image. This can be used if for "
 "one reason or another, the stencils don't fit into the export page with a "
 "0-pixel border (default)."
 msgstr ""
-"<b>ກອບເຈ້ຍ</b><br>\nກຳນົດກອບຊອາງວາ່ງຮອບພື້ນທີ່ຮູບຂີ່ງມັກໃຊ້ໃນຫາຼຍກໍລະນີ "
-"ໂດຍລວດລາຍຈະບໍ່ພໍດີກັບຫນ້າທີ່ສົ່ງອອກຫາກກຳນົດກອບໄວ້ບອ່ນี่0ພີກເຊລ(ຄາ່ບໍ່ມີເງືອນໄຂ)"
+"<b>ກອບເຈ້ຍ</b><br>\n"
+"ກຳນົດກອບຊອາງວາ່ງຮອບພື້ນທີ"
+"່ຮູບຂີ່ງມັກໃຊ້ໃນຫາຼຍກໍລະນ"
+"ີ "
+"ໂດຍລວດລາຍຈະບໍ່ພໍດີກັບຫນ້າ"
+"ທີ່ສົ່ງອອກຫາກກຳນົດກອບໄວ້ບ"
+"ອ່ນี่0ພີກເຊລ(ຄາ່ບໍ່ມີເງືອນໄ"
+"ຂ)"
 
-#: rc.cpp:150
-msgid ""
-"<b>Cancel</b><br>\n"
-"Abort the page export."
+#: rc.cpp:16
+msgid "&Border:"
+msgstr "&ຂອບ"
+
+#: rc.cpp:18
+msgid "&X position"
+msgstr "ຕຳແຫນ່ງ&x"
+
+#: rc.cpp:19
+msgid "Toggles the ability to protect the x position of the selected stencils"
 msgstr ""
-"<b>ຍົກເລີກ</b><br>\n"
-"ຍົກເລີກການສົ່ງອອກຫນ້າເຈ້ຍ"
+"ເປີດປີດການປ້ອງກັນການປ່ຽນຕ"
+"ຳແຫນ່ງxຂອງລວດລາຍທີ່ເລືອກ"
 
-#: rc.cpp:152
-msgid ""
-"<b>OK</b><br>\n"
-"Export the page with the current settings."
-msgstr "<b>ຕົກລົງ</b><br>\nສົ່ງອອກຫນ້າເຈ້ຍດວ້ຍຄາ່ທີ່ຕັ້ງໄວ້ໃນປັດຈຸບັນ"
+#: rc.cpp:20
+msgid "&Y position"
+msgstr "&Yຕຳແຫນ່ງ"
 
-#: rc.cpp:153
-msgid "About Kivio"
-msgstr "ກ່ຽວກັບKivio"
-
-#: rc.cpp:154
-msgid "<b>Kivio 1.0 - The Open Language of Business</b>"
-msgstr "<b>Kivio 1.0 - ພາສາເປີດຂອງທຸລະກີດ</b>"
-
-#: rc.cpp:156
-msgid ""
-"<center><font size=+4><b>Kivio 1.0</b></font></center>\n"
-"<center><b>Copyright (C)</b> 2000 - 2001  <a "
-"href=\"http://www.thekompany.com\">The Kompany.com</a></center>\n"
-"<br><br><br><br><br><br>\n"
-"Welcome to <b>Kivio</b> - an Open Source flowcharting tool brought to your "
-"desktop by <a href=\"http://www.thekompany.com\">The_Kompany.com: \"Where "
-"Open Source is at Home (TM)\"</a>"
+#: rc.cpp:21
+msgid "Toggles the ability to protect the y position of the selected stencils"
 msgstr ""
-"<center><font size=+4><b>Kivio 1.0</b></font></center> "
-"\n"
-"<center><b>ສະຫງວນລີຄະສີດ (C)</b> 2000 - 2001  <a "
-"href=\"http://www.thekompany.com\">The Kompany.c "
-"om</a></center>\n"
-"<br><br><br><br><br><br>\n"
-"ຍີນດີຕອ້ນຮັບສູ່b>Kivio</b> - "
-"ເຄື່ອງມືສາ້ງຊາຣຕແບນເປ ຊວຣສ໌ນຳມາສູ່ເດສກ໌ທວ"
-"ຂອງເຈົ້າໂດຍ <a "
-"href=\"http://www.thekompany.com\">The_Kompany.com: \"Where Open Source is "
-"at Home (TM)\"</a>"
+"ເປີດປີດການປອ້ງກັນການປ່ຽນຕ"
+"ຳແຫນ່ງ y ຂອງລວດລາຍທີ່ເລືອກ"
 
-#: rc.cpp:157
-msgid "A&uthors"
-msgstr "&ຜູ້ຂຽນ"
-
-#: rc.cpp:158
-msgid ""
-"The Kompany.com - \"Where Open Source is at Home\"(TM)\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"<a href=\"http://www.thekompany.com\">http://www.thekompany.com</a>\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"Development\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"Additional Stencils\n"
-"<br>\n"
-"<br>Dave Marotti\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"Initial idea\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"Development\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"Basic Stencils Set"
+#: rc.cpp:23
+msgid "Toggles the ability to change the height of the selected stencils"
 msgstr ""
-"The Kompany.com - \"Where Open Source is at Home\"(TM)\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"<a href=\"http://www.thekompany.com\">http://www.thekompany.com</a>\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"ພັດທະນາ<br>&nbsp;&nbsp;&nbsp;\n"
-"ລວດລາຍເພີ່ມຕຶ່ມ>\n"
-"<br>Dave Marotti\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"p;&nbsp;&nbsp;\n"
-"ພັດທະນາ\n"
-"<br>&nbsp;&nbsp;&nbsp;\n"
-"ຊຸດລວດລາຍພື້ນຖານ "
+"ເປີດປີດການໃຫ້ປ່ຽນຄາ່ຄວາມສ"
+"ູງຂອງຮູບລວດລາຍທີ່ເລືອກ"
 
-#: rc.cpp:159
-msgid "&License"
-msgstr "&ລິຂະສີດ"
-
-#: rc.cpp:160
-msgid ""
-"This program is distributed under the terms of the GPL v2.\n"
-"\n"
-"\t\t    GNU GENERAL PUBLIC LICENSE\n"
-"\t\t       Version 2, June 1991\n"
-"\n"
-" Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
-"                          675 Mass Ave, Cambridge, MA 02139, USA\n"
-" Everyone is permitted to copy and distribute verbatim copies\n"
-" of this license document, but changing it is not allowed.\n"
-"\n"
-"\t\t\t    Preamble\n"
-"\n"
-"  The licenses for most software are designed to take away your\n"
-"freedom to share and change it.  By contrast, the GNU General Public\n"
-"License is intended to guarantee your freedom to share and change free\n"
-"software--to make sure the software is free for all its users.  This\n"
-"General Public License applies to most of the Free Software\n"
-"Foundation's software and to any other program whose authors commit to\n"
-"using it.  (Some other Free Software Foundation software is covered by\n"
-"the GNU Library General Public License instead.)  You can apply it to\n"
-"your programs, too.\n"
-"\n"
-"  When we speak of free software, we are referring to freedom, not\n"
-"price.  Our General Public Licenses are designed to make sure that you\n"
-"have the freedom to distribute copies of free software (and charge for\n"
-"this service if you wish), that you receive source code or can get it\n"
-"if you want it, that you can change the software or use pieces of it\n"
-"in new free programs; and that you know you can do these things.\n"
-"\n"
-"  To protect your rights, we need to make restrictions that forbid\n"
-"anyone to deny you these rights or to ask you to surrender the rights.\n"
-"These restrictions translate to certain responsibilities for you if you\n"
-"distribute copies of the software, or if you modify it.\n"
-"\n"
-"  For example, if you distribute copies of such a program, whether\n"
-"gratis or for a fee, you must give the recipients all the rights that\n"
-"you have.  You must make sure that they, too, receive or can get the\n"
-"source code.  And you must show them these terms so they know their\n"
-"rights.\n"
-"\n"
-"  We protect your rights with two steps: (1) copyright the software, and\n"
-"(2) offer you this license which gives you legal permission to copy,\n"
-"distribute and/or modify the software.\n"
-"\n"
-"  Also, for each author's protection and ours, we want to make certain\n"
-"that everyone understands that there is no warranty for this free\n"
-"software.  If the software is modified by someone else and passed on, we\n"
-"want its recipients to know that what they have is not the original, so\n"
-"that any problems introduced by others will not reflect on the original\n"
-"authors' reputations.\n"
-"\n"
-"  Finally, any free program is threatened constantly by software\n"
-"patents.  We wish to avoid the danger that redistributors of a free\n"
-"program will individually obtain patent licenses, in effect making the\n"
-"program proprietary.  To prevent this, we have made it clear that any\n"
-"patent must be licensed for everyone's free use or not licensed at all.\n"
-"\n"
-"  The precise terms and conditions for copying, distribution and\n"
-"modification follow.\n"
-"\n"
-"\t\t    GNU GENERAL PUBLIC LICENSE\n"
-"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
-"\n"
-"  0. This License applies to any program or other work which contains\n"
-"a notice placed by the copyright holder saying it may be distributed\n"
-"under the terms of this General Public License.  The \"Program\", below,\n"
-"refers to any such program or work, and a \"work based on the Program\"\n"
-"means either the Program or any derivative work under copyright law:\n"
-"that is to say, a work containing the Program or a portion of it,\n"
-"either verbatim or with modifications and/or translated into another\n"
-"language.  (Hereinafter, translation is included without limitation in\n"
-"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
-"\n"
-"Activities other than copying, distribution and modification are not\n"
-"covered by this License; they are outside its scope.  The act of\n"
-"running the Program is not restricted, and the output from the Program\n"
-"is covered only if its contents constitute a work based on the\n"
-"Program (independent of having been made by running the Program).\n"
-"Whether that is true depends on what the Program does.\n"
-"\n"
-"  1. You may copy and distribute verbatim copies of the Program's\n"
-"source code as you receive it, in any medium, provided that you\n"
-"conspicuously and appropriately publish on each copy an appropriate\n"
-"copyright notice and disclaimer of warranty; keep intact all the\n"
-"notices that refer to this License and to the absence of any warranty;\n"
-"and give any other recipients of the Program a copy of this License\n"
-"along with the Program.\n"
-"\n"
-"You may charge a fee for the physical act of transferring a copy, and\n"
-"you may at your option offer warranty protection in exchange for a fee.\n"
-"\n"
-"  2. You may modify your copy or copies of the Program or any portion\n"
-"of it, thus forming a work based on the Program, and copy and\n"
-"distribute such modifications or work under the terms of Section 1\n"
-"above, provided that you also meet all of these conditions:\n"
-"\n"
-"    a) You must cause the modified files to carry prominent notices\n"
-"    stating that you changed the files and the date of any change.\n"
-"\n"
-"    b) You must cause any work that you distribute or publish, that in\n"
-"    whole or in part contains or is derived from the Program or any\n"
-"    part thereof, to be licensed as a whole at no charge to all third\n"
-"    parties under the terms of this License.\n"
-"\n"
-"    c) If the modified program normally reads commands interactively\n"
-"    when run, you must cause it, when started running for such\n"
-"    interactive use in the most ordinary way, to print or display an\n"
-"    announcement including an appropriate copyright notice and a\n"
-"    notice that there is no warranty (or else, saying that you provide\n"
-"    a warranty) and that users may redistribute the program under\n"
-"    these conditions, and telling the user how to view a copy of this\n"
-"    License.  (Exception: if the Program itself is interactive but\n"
-"    does not normally print such an announcement, your work based on\n"
-"    the Program is not required to print an announcement.)\n"
-"\n"
-"These requirements apply to the modified work as a whole.  If\n"
-"identifiable sections of that work are not derived from the Program,\n"
-"and can be reasonably considered independent and separate works in\n"
-"themselves, then this License, and its terms, do not apply to those\n"
-"sections when you distribute them as separate works.  But when you\n"
-"distribute the same sections as part of a whole which is a work based\n"
-"on the Program, the distribution of the whole must be on the terms of\n"
-"this License, whose permissions for other licensees extend to the\n"
-"entire whole, and thus to each and every part regardless of who wrote it.\n"
-"\n"
-"Thus, it is not the intent of this section to claim rights or contest\n"
-"your rights to work written entirely by you; rather, the intent is to\n"
-"exercise the right to control the distribution of derivative or\n"
-"collective works based on the Program.\n"
-"\n"
-"In addition, mere aggregation of another work not based on the Program\n"
-"with the Program (or with a work based on the Program) on a volume of\n"
-"a storage or distribution medium does not bring the other work under\n"
-"the scope of this License.\n"
-"\n"
-"  3. You may copy and distribute the Program (or a work based on it,\n"
-"under Section 2) in object code or executable form under the terms of\n"
-"Sections 1 and 2 above provided that you also do one of the following:\n"
-"\n"
-"    a) Accompany it with the complete corresponding machine-readable\n"
-"    source code, which must be distributed under the terms of Sections\n"
-"    1 and 2 above on a medium customarily used for software interchange; "
-"or,\n"
-"\n"
-"    b) Accompany it with a written offer, valid for at least three\n"
-"    years, to give any third party, for a charge no more than your\n"
-"    cost of physically performing source distribution, a complete\n"
-"    machine-readable copy of the corresponding source code, to be\n"
-"    distributed under the terms of Sections 1 and 2 above on a medium\n"
-"    customarily used for software interchange; or,\n"
-"\n"
-"    c) Accompany it with the information you received as to the offer\n"
-"    to distribute corresponding source code.  (This alternative is\n"
-"    allowed only for noncommercial distribution and only if you\n"
-"    received the program in object code or executable form with such\n"
-"    an offer, in accord with Subsection b above.)\n"
-"\n"
-"The source code for a work means the preferred form of the work for\n"
-"making modifications to it.  For an executable work, complete source\n"
-"code means all the source code for all modules it contains, plus any\n"
-"associated interface definition files, plus the scripts used to\n"
-"control compilation and installation of the executable.  However, as a\n"
-"special exception, the source code distributed need not include\n"
-"anything that is normally distributed (in either source or binary\n"
-"form) with the major components (compiler, kernel, and so on) of the\n"
-"operating system on which the executable runs, unless that component\n"
-"itself accompanies the executable.\n"
-"\n"
-"If distribution of executable or object code is made by offering\n"
-"access to copy from a designated place, then offering equivalent\n"
-"access to copy the source code from the same place counts as\n"
-"distribution of the source code, even though third parties are not\n"
-"compelled to copy the source along with the object code.\n"
-"\n"
-"  4. You may not copy, modify, sublicense, or distribute the Program\n"
-"except as expressly provided under this License.  Any attempt\n"
-"otherwise to copy, modify, sublicense or distribute the Program is\n"
-"void, and will automatically terminate your rights under this License.\n"
-"However, parties who have received copies, or rights, from you under\n"
-"this License will not have their licenses terminated so long as such\n"
-"parties remain in full compliance.\n"
-"\n"
-"  5. You are not required to accept this License, since you have not\n"
-"signed it.  However, nothing else grants you permission to modify or\n"
-"distribute the Program or its derivative works.  These actions are\n"
-"prohibited by law if you do not accept this License.  Therefore, by\n"
-"modifying or distributing the Program (or any work based on the\n"
-"Program), you indicate your acceptance of this License to do so, and\n"
-"all its terms and conditions for copying, distributing or modifying\n"
-"the Program or works based on it.\n"
-"\n"
-"  6. Each time you redistribute the Program (or any work based on the\n"
-"Program), the recipient automatically receives a license from the\n"
-"original licensor to copy, distribute or modify the Program subject to\n"
-"these terms and conditions.  You may not impose any further\n"
-"restrictions on the recipients' exercise of the rights granted herein.\n"
-"You are not responsible for enforcing compliance by third parties to\n"
-"this License.\n"
-"\n"
-"  7. If, as a consequence of a court judgment or allegation of patent\n"
-"infringement or for any other reason (not limited to patent issues),\n"
-"conditions are imposed on you (whether by court order, agreement or\n"
-"otherwise) that contradict the conditions of this License, they do not\n"
-"excuse you from the conditions of this License.  If you cannot\n"
-"distribute so as to satisfy simultaneously your obligations under this\n"
-"License and any other pertinent obligations, then as a consequence you\n"
-"may not distribute the Program at all.  For example, if a patent\n"
-"license would not permit royalty-free redistribution of the Program by\n"
-"all those who receive copies directly or indirectly through you, then\n"
-"the only way you could satisfy both it and this License would be to\n"
-"refrain entirely from distribution of the Program.\n"
-"\n"
-"If any portion of this section is held invalid or unenforceable under\n"
-"any particular circumstance, the balance of the section is intended to\n"
-"apply and the section as a whole is intended to apply in other\n"
-"circumstances.\n"
-"\n"
-"It is not the purpose of this section to induce you to infringe any\n"
-"patents or other property right claims or to contest validity of any\n"
-"such claims; this section has the sole purpose of protecting the\n"
-"integrity of the free software distribution system, which is\n"
-"implemented by public license practices.  Many people have made\n"
-"generous contributions to the wide range of software distributed\n"
-"through that system in reliance on consistent application of that\n"
-"system; it is up to the author/donor to decide if he or she is willing\n"
-"to distribute software through any other system and a licensee cannot\n"
-"impose that choice.\n"
-"\n"
-"This section is intended to make thoroughly clear what is believed to\n"
-"be a consequence of the rest of this License.\n"
-"\n"
-"  8. If the distribution and/or use of the Program is restricted in\n"
-"certain countries either by patents or by copyrighted interfaces, the\n"
-"original copyright holder who places the Program under this License\n"
-"may add an explicit geographical distribution limitation excluding\n"
-"those countries, so that distribution is permitted only in or among\n"
-"countries not thus excluded.  In such case, this License incorporates\n"
-"the limitation as if written in the body of this License.\n"
-"\n"
-"  9. The Free Software Foundation may publish revised and/or new versions\n"
-"of the General Public License from time to time.  Such new versions will\n"
-"be similar in spirit to the present version, but may differ in detail to\n"
-"address new problems or concerns.\n"
-"\n"
-"Each version is given a distinguishing version number.  If the Program\n"
-"specifies a version number of this License which applies to it and \"any\n"
-"later version\", you have the option of following the terms and conditions\n"
-"either of that version or of any later version published by the Free\n"
-"Software Foundation.  If the Program does not specify a version number of\n"
-"this License, you may choose any version ever published by the Free "
-"Software\n"
-"Foundation.\n"
-"\n"
-"  10. If you wish to incorporate parts of the Program into other free\n"
-"programs whose distribution conditions are different, write to the author\n"
-"to ask for permission.  For software which is copyrighted by the Free\n"
-"Software Foundation, write to the Free Software Foundation; we sometimes\n"
-"make exceptions for this.  Our decision will be guided by the two goals\n"
-"of preserving the free status of all derivatives of our free software and\n"
-"of promoting the sharing and reuse of software generally.\n"
-"\n"
-"\t\t\t    NO WARRANTY\n"
-"\n"
-"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
-"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
-"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
-"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
-"EXPRESSED\n"
-"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
-"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
-"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
-"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
-"REPAIR OR CORRECTION.\n"
-"\n"
-"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
-"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
-"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
-"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
-"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
-"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
-"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
-"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
-"POSSIBILITY OF SUCH DAMAGES.\n"
-"\n"
-"\t\t     END OF TERMS AND CONDITIONS"
+#: rc.cpp:25
+msgid "Toggles the ability to change the width of the selected stencils"
 msgstr ""
-"ໂປຼແກຣມນີ້"
-"ແຈກຈ່າຍໃຕ້ເງື່ອນໄຂລິຂະສິດແບບ"
-" GPL v2\n"
-"\n"
-"\t\t    GNU GENERAL PUBLIC LICENSE\n"
-"\t\t       Version 2, June 1991\n"
-"\n"
-" Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
-"                          675 Mass Ave, Cambridge, MA 02139, USA\n"
-" Everyone is permitted to copy and distribute verbatim copies\n"
-" of this license document, but changing it is not allowed.\n"
-"\n"
-"\t\t\t    Preamble\n"
-"\n"
-"  The licenses for most software are designed to take away your\n"
-"freedom to share and change it.  By contrast, the GNU General Public\n"
-"License is intended to guarantee your freedom to share and change free\n"
-"software--to make sure the software is free for all its users.  This\n"
-"General Public License applies to most of the Free Software\n"
-"Foundation's software and to any other program whose authors commit to\n"
-"using it.  (Some other Free Software Foundation software is covered by\n"
-"the GNU Library General Public License instead.)  You can apply it to\n"
-"your programs, too.\n"
-"\n"
-"  When we speak of free software, we are referring to freedom, not\n"
-"price.  Our General Public Licenses are designed to make sure that you\n"
-"have the freedom to distribute copies of free software (and charge for\n"
-"this service if you wish), that you receive source code or can get it\n"
-"if you want it, that you can change the software or use pieces of it\n"
-"in new free programs; and that you know you can do these things.\n"
-"\n"
-"  To protect your rights, we need to make restrictions that forbid\n"
-"anyone to deny you these rights or to ask you to surrender the rights.\n"
-"These restrictions translate to certain responsibilities for you if you\n"
-"distribute copies of the software, or if you modify it.\n"
-"\n"
-"  For example, if you distribute copies of such a program, whether\n"
-"gratis or for a fee, you must give the recipients all the rights that\n"
-"you have.  You must make sure that they, too, receive or can get the\n"
-"source code.  And you must show them these terms so they know their\n"
-"rights.\n"
-"\n"
-"  We protect your rights with two steps: (1) copyright the software, and\n"
-"(2) offer you this license which gives you legal permission to copy,\n"
-"distribute and/or modify the software.\n"
-"\n"
-"  Also, for each author's protection and ours, we want to make certain\n"
-"that everyone understands that there is no warranty for this free\n"
-"software.  If the software is modified by someone else and passed on, we\n"
-"want its recipients to know that what they have is not the original, so\n"
-"that any problems introduced by others will not reflect on the original\n"
-"authors' reputations.\n"
-"\n"
-"  Finally, any free program is threatened constantly by software\n"
-"patents.  We wish to avoid the danger that redistributors of a free\n"
-"program will individually obtain patent licenses, in effect making the\n"
-"program proprietary.  To prevent this, we have made it clear that any\n"
-"patent must be licensed for everyone's free use or not licensed at all.\n"
-"\n"
-"  The precise terms and conditions for copying, distribution and\n"
-"modification follow.\n"
-"\n"
-"\t\t    GNU GENERAL PUBLIC LICENSE\n"
-"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
-"\n"
-"  0. This License applies to any program or other work which contains\n"
-"a notice placed by the copyright holder saying it may be distributed\n"
-"under the terms of this General Public License.  The \"Program\", below,\n"
-"refers to any such program or work, and a \"work based on the Program\"\n"
-"means either the Program or any derivative work under copyright law:\n"
-"that is to say, a work containing the Program or a portion of it,\n"
-"either verbatim or with modifications and/or translated into another\n"
-"language.  (Hereinafter, translation is included without limitation in\n"
-"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
-"\n"
-"Activities other than copying, distribution and modification are not\n"
-"covered by this License; they are outside its scope.  The act of\n"
-"running the Program is not restricted, and the output from the Program\n"
-"is covered only if its contents constitute a work based on the\n"
-"Program (independent of having been made by running the Program).\n"
-"Whether that is true depends on what the Program does.\n"
-"\n"
-"  1. You may copy and distribute verbatim copies of the Program's\n"
-"source code as you receive it, in any medium, provided that you\n"
-"conspicuously and appropriately publish on each copy an appropriate\n"
-"copyright notice and disclaimer of warranty; keep intact all the\n"
-"notices that refer to this License and to the absence of any warranty;\n"
-"and give any other recipients of the Program a copy of this License\n"
-"along with the Program.\n"
-"\n"
-"You may charge a fee for the physical act of transferring a copy, and\n"
-"you may at your option offer warranty protection in exchange for a fee.\n"
-"\n"
-"  2. You may modify your copy or copies of the Program or any portion\n"
-"of it, thus forming a work based on the Program, and copy and\n"
-"distribute such modifications or work under the terms of Section 1\n"
-"above, provided that you also meet all of these conditions:\n"
-"\n"
-"    a) You must cause the modified files to carry prominent notices\n"
-"    stating that you changed the files and the date of any change.\n"
-"\n"
-"    b) You must cause any work that you distribute or publish, that in\n"
-"    whole or in part contains or is derived from the Program or any\n"
-"    part thereof, to be licensed as a whole at no charge to all third\n"
-"    parties under the terms of this License.\n"
-"\n"
-"    c) If the modified program normally reads commands interactively\n"
-"    when run, you must cause it, when started running for such\n"
-"    interactive use in the most ordinary way, to print or display an\n"
-"    announcement including an appropriate copyright notice and a\n"
-"    notice that there is no warranty (or else, saying that you provide\n"
-"    a warranty) and that users may redistribute the program under\n"
-"    these conditions, and telling the user how to view a copy of this\n"
-"    License.  (Exception: if the Program itself is interactive but\n"
-"    does not normally print such an announcement, your work based on\n"
-"    the Program is not required to print an announcement.)\n"
-"\n"
-"These requirements apply to the modified work as a whole.  If\n"
-"identifiable sections of that work are not derived from the Program,\n"
-"and can be reasonably considered independent and separate works in\n"
-"themselves, then this License, and its terms, do not apply to those\n"
-"sections when you distribute them as separate works.  But when you\n"
-"distribute the same sections as part of a whole which is a work based\n"
-"on the Program, the distribution of the whole must be on the terms of\n"
-"this License, whose permissions for other licensees extend to the\n"
-"entire whole, and thus to each and every part regardless of who wrote it.\n"
-"\n"
-"Thus, it is not the intent of this section to claim rights or contest\n"
-"your rights to work written entirely by you; rather, the intent is to\n"
-"exercise the right to control the distribution of derivative or\n"
-"collective works based on the Program.\n"
-"\n"
-"In addition, mere aggregation of another work not based on the Program\n"
-"with the Program (or with a work based on the Program) on a volume of\n"
-"a storage or distribution medium does not bring the other work under\n"
-"the scope of this License.\n"
-"\n"
-"  3. You may copy and distribute the Program (or a work based on it,\n"
-"under Section 2) in object code or executable form under the terms of\n"
-"Sections 1 and 2 above provided that you also do one of the following:\n"
-"\n"
-"    a) Accompany it with the complete corresponding machine-readable\n"
-"    source code, which must be distributed under the terms of Sections\n"
-"    1 and 2 above on a medium customarily used for software interchange; "
-"or,\n"
-"\n"
-"    b) Accompany it with a written offer, valid for at least three\n"
-"    years, to give any third party, for a charge no more than your\n"
-"    cost of physically performing source distribution, a complete\n"
-"    machine-readable copy of the corresponding source code, to be\n"
-"    distributed under the terms of Sections 1 and 2 above on a medium\n"
-"    customarily used for software interchange; or,\n"
-"\n"
-"    c) Accompany it with the information you received as to the offer\n"
-"    to distribute corresponding source code.  (This alternative is\n"
-"    allowed only for noncommercial distribution and only if you\n"
-"    received the program in object code or executable form with such\n"
-"    an offer, in accord with Subsection b above.)\n"
-"\n"
-"The source code for a work means the preferred form of the work for\n"
-"making modifications to it.  For an executable work, complete source\n"
-"code means all the source code for all modules it contains, plus any\n"
-"associated interface definition files, plus the scripts used to\n"
-"control compilation and installation of the executable.  However, as a\n"
-"special exception, the source code distributed need not include\n"
-"anything that is normally distributed (in either source or binary\n"
-"form) with the major components (compiler, kernel, and so on) of the\n"
-"operating system on which the executable runs, unless that component\n"
-"itself accompanies the executable.\n"
-"\n"
-"If distribution of executable or object code is made by offering\n"
-"access to copy from a designated place, then offering equivalent\n"
-"access to copy the source code from the same place counts as\n"
-"distribution of the source code, even though third parties are not\n"
-"compelled to copy the source along with the object code.\n"
-"\n"
-"  4. You may not copy, modify, sublicense, or distribute the Program\n"
-"except as expressly provided under this License.  Any attempt\n"
-"otherwise to copy, modify, sublicense or distribute the Program is\n"
-"void, and will automatically terminate your rights under this License.\n"
-"However, parties who have received copies, or rights, from you under\n"
-"this License will not have their licenses terminated so long as such\n"
-"parties remain in full compliance.\n"
-"\n"
-"  5. You are not required to accept this License, since you have not\n"
-"signed it.  However, nothing else grants you permission to modify or\n"
-"distribute the Program or its derivative works.  These actions are\n"
-"prohibited by law if you do not accept this License.  Therefore, by\n"
-"modifying or distributing the Program (or any work based on the\n"
-"Program), you indicate your acceptance of this License to do so, and\n"
-"all its terms and conditions for copying, distributing or modifying\n"
-"the Program or works based on it.\n"
-"\n"
-"  6. Each time you redistribute the Program (or any work based on the\n"
-"Program), the recipient automatically receives a license from the\n"
-"original licensor to copy, distribute or modify the Program subject to\n"
-"these terms and conditions.  You may not impose any further\n"
-"restrictions on the recipients' exercise of the rights granted herein.\n"
-"You are not responsible for enforcing compliance by third parties to\n"
-"this License.\n"
-"\n"
-"  7. If, as a consequence of a court judgment or allegation of patent\n"
-"infringement or for any other reason (not limited to patent issues),\n"
-"conditions are imposed on you (whether by court order, agreement or\n"
-"otherwise) that contradict the conditions of this License, they do not\n"
-"excuse you from the conditions of this License.  If you cannot\n"
-"distribute so as to satisfy simultaneously your obligations under this\n"
-"License and any other pertinent obligations, then as a consequence you\n"
-"may not distribute the Program at all.  For example, if a patent\n"
-"license would not permit royalty-free redistribution of the Program by\n"
-"all those who receive copies directly or indirectly through you, then\n"
-"the only way you could satisfy both it and this License would be to\n"
-"refrain entirely from distribution of the Program.\n"
-"\n"
-"If any portion of this section is held invalid or unenforceable under\n"
-"any particular circumstance, the balance of the section is intended to\n"
-"apply and the section as a whole is intended to apply in other\n"
-"circumstances.\n"
-"\n"
-"It is not the purpose of this section to induce you to infringe any\n"
-"patents or other property right claims or to contest validity of any\n"
-"such claims; this section has the sole purpose of protecting the\n"
-"integrity of the free software distribution system, which is\n"
-"implemented by public license practices.  Many people have made\n"
-"generous contributions to the wide range of software distributed\n"
-"through that system in reliance on consistent application of that\n"
-"system; it is up to the author/donor to decide if he or she is willing\n"
-"to distribute software through any other system and a licensee cannot\n"
-"impose that choice.\n"
-"\n"
-"This section is intended to make thoroughly clear what is believed to\n"
-"be a consequence of the rest of this License.\n"
-"\n"
-"  8. If the distribution and/or use of the Program is restricted in\n"
-"certain countries either by patents or by copyrighted interfaces, the\n"
-"original copyright holder who places the Program under this License\n"
-"may add an explicit geographical distribution limitation excluding\n"
-"those countries, so that distribution is permitted only in or among\n"
-"countries not thus excluded.  In such case, this License incorporates\n"
-"the limitation as if written in the body of this License.\n"
-"\n"
-"  9. The Free Software Foundation may publish revised and/or new versions\n"
-"of the General Public License from time to time.  Such new versions will\n"
-"be similar in spirit to the present version, but may differ in detail to\n"
-"address new problems or concerns.\n"
-"\n"
-"Each version is given a distinguishing version number.  If the Program\n"
-"specifies a version number of this License which applies to it and \"any\n"
-"later version\", you have the option of following the terms and conditions\n"
-"either of that version or of any later version published by the Free\n"
-"Software Foundation.  If the Program does not specify a version number of\n"
-"this License, you may choose any version ever published by the Free "
-"Software\n"
-"Foundation.\n"
-"\n"
-"  10. If you wish to incorporate parts of the Program into other free\n"
-"programs whose distribution conditions are different, write to the author\n"
-"to ask for permission.  For software which is copyrighted by the Free\n"
-"Software Foundation, write to the Free Software Foundation; we sometimes\n"
-"make exceptions for this.  Our decision will be guided by the two goals\n"
-"of preserving the free status of all derivatives of our free software and\n"
-"of promoting the sharing and reuse of software generally.\n"
-"\n"
-"\t\t\t    NO WARRANTY\n"
-"\n"
-"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
-"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
-"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
-"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
-"EXPRESSED\n"
-"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
-"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
-"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
-"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
-"REPAIR OR CORRECTION.\n"
-"\n"
-"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
-"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
-"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
-"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
-"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
-"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
-"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
-"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
-"POSSIBILITY OF SUCH DAMAGES.\n"
-"\n"
-"\t\t     END OF TERMS AND CONDITIONS"
+"ເປີດປີດການໃຫ້ປ່ຽນຄາ່ຄວາມກ"
+"ວາ້ງຂອງຮູບລວດລາຍທີ່ເລືອກ"
 
-#: rc.cpp:161
-msgid "&Stencils"
-msgstr "&ລວດລາຍ"
+#: rc.cpp:26
+msgid "&Aspect ratio"
+msgstr "ອັດ&ຕາສວ່ນຮູບຮາ່ງ"
 
-#: rc.cpp:162
-msgid ""
-"To further enhance your Kivio experience you can buy other stencil sets from "
-"<br><a "
-"href=\"http://www.thekompany.com/products\">"
-"http://www.thekompany.com/products</a>"
+#: rc.cpp:27
+msgid "Toggles the ability to change the aspect ratio of the selected stencils"
 msgstr ""
-"ເພືອຂະຫຍາຍຄວາມສາມາດຂອງKivioເຈົ້າສາມາດຊື້ຊຸດລວດລາຍເພີ່ມຕຶ່ມມາໃຊ້ໄດ້ຈາກ "
-"<br><a "
-"href=\"http://www.thekompany.com/products\">"
-"http://www.thekompany.com/products</a>"
+"ເປີດປີດການອະນຸຍາດໃຫ້ປ່ຽນອ"
+"ັດຕາສວ່ນລວດລາຍທີ່ເລືອກ"
 
-#: rc.cpp:166
+#: rc.cpp:28
+msgid "&Deletion"
+msgstr "ຈາກການ&ລືບ"
+
+#: rc.cpp:29
+msgid "Toggles the ability to delete the selected stencils"
+msgstr ""
+"ເປີດປີດການປອ້ງກັນການລືບຮູ"
+"ບລວດລາຍທີ່ເລືອກ"
+
+#: rc.cpp:31
+#, c-format
+msgid "%"
+msgstr "%"
+
+#: rc.cpp:32
+msgid "&Align"
+msgstr "&ຈັດລຽງ"
+
+#: rc.cpp:35 rc.cpp:58
+msgid "Ce&nter"
+msgstr "ສື່&ກາງ"
+
+#: rc.cpp:36 rc.cpp:59
+#, fuzzy
+msgid "N&one"
+msgstr "&ຍາ້ຍ"
+
+#: rc.cpp:38
+msgid "Center of &page"
+msgstr "ກາງ&ຫນ້າເຈ້ຍ"
+
+#: rc.cpp:42 rc.cpp:51
+#, fuzzy
+msgid "&None"
+msgstr "&ຍາ້ຍ"
+
+#: rc.cpp:44
+msgid "&Distribute"
+msgstr "ແຍກ&ສວ່ນ"
+
+#: rc.cpp:46
+msgid "E&xtent of selection"
+msgstr "&ປັບໃຊ້ກັບການເລືອກ"
+
+#: rc.cpp:47
+msgid "Extent of pa&ge"
+msgstr "ປັບໃຊ້ກັບຫນ້າ&ເຈ້ຍ"
+
+#: rc.cpp:52
+msgid "&Spacing"
+msgstr "&ໄລຍະຫາ່ງ"
+
+#: rc.cpp:56
+msgid "S&pacing"
+msgstr "&ໄລຍະຫາ່ງ"
+
+#: rc.cpp:62
 msgid "&Docker"
 msgstr "&ກັບເຄື່ອງມື"
 
-#: rc.cpp:167
+#: rc.cpp:63
 msgid "P&age"
 msgstr "&ຫນ້າເຈ້ຍ"
 
-#: rc.cpp:168
+#: rc.cpp:64
 msgid "F&ormat"
 msgstr "&ຮູບແບບ"
 
-#: rc.cpp:170
-msgid "Stencils"
-msgstr "ລວດລາຍ"
-
-#: rc.cpp:173
-msgid "Colors"
-msgstr "ສີ"
-
-#: rc.cpp:174
-msgid "Arrows"
-msgstr "ລູກສອນ"
-
-#: rc.cpp:175
+#: rc.cpp:69
 msgid "Format"
 msgstr "ໂໂຮູບແບບ"
 
-#: rc.cpp:176
+#: rc.cpp:71
 msgid "Tools"
 msgstr "ເຄື່ອງມື"
 
-#: kiviopart/kivio_aboutdata.h:26
-msgid "KOffice Kivio Application"
-msgstr "ApplicationKivioໃນຊຸດ Koffice"
+#: rc.cpp:75
+#, fuzzy
+msgid "Zoom Tool"
+msgstr "ຂະຫຍາຍ"
 
-#: kiviopart/kivio_aboutdata.h:34
+#: rc.cpp:76
+#, fuzzy
+msgid "&Zoom Tool"
+msgstr "ຂະຫຍາຍ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:45
+msgid "By pressing this button you can zoom in on a specific area."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:46
+msgid "Hand"
+msgstr "ມື"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:47
+#, fuzzy
+msgid "You can drag the document by using the mouse."
+msgstr ""
+"ເຈົ້າບໍ່ສາມາດລືບຫນ້າເຈ້ຍທ"
+"ີ່ມີພຽງຫນ້າດ່ຽວໄດ້"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:53
+msgid "Zoom Plus"
+msgstr "ຂະຫຍາຍ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:54
+msgid "You can zoom in on the document by pressing this button."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:57
+msgid "Zoom Minus"
+msgstr "ຍໍ້"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:58
+msgid "By pressing this button you can zoom out of the document."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:61
+msgid "Zoom Width"
+msgstr "ຂະຫຍາຍໃຫ້ພໍດີກັບຄວາມກວ້າງ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:62
+msgid "You can zoom the document that it fits into the window width."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:65
+msgid "Zoom Height"
+msgstr "ຂະຫຍາຍໃຫ້ພໍດີກັບຄວາມສູງ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:66
+msgid "You can zoom the document that it fits into the window height."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:69
+msgid "Zoom Page"
+msgstr "ຂະຫຍຍາຍໃຫ້ເຫັນຫມົດຫນ້າ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:70
+msgid "The Zoom Page button shows the entire page."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:73
+msgid "Zoom Selected"
+msgstr "ຂະຫຍາຍສວ່ນທີ່ເລືອກ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:74
 msgid ""
-"Main author and the original author of Queesio, from which this source is "
-"based"
-msgstr "ຜູ້ຂງນຫັຼກແລະຜູ້ລິເລີ່ມຂງນ Queesio ຊືງເປັນພື້ນຖານຂອງໂປແກຣມນີ້"
+"By pressing this button you zoom in on the document, so that all "
+"<b>selected</b> objects are visible."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:77
+msgid "Zoom All Objects"
+msgstr "ຂະຫຍາຍວັດ໗ຸທຸກຕົວ"
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:78
+msgid ""
+"You are able to zoom in on the document, so that all objects are visible by "
+"pressing this button."
+msgstr ""
+
+#: plugins/kiviozoomtool/tool_zoom.cpp:96
+msgid "Zoom Menu"
+msgstr "Menuຫຍໍ້/ຂະຫຍາຍ"
+
+#: plugins/kiviotexttool/tool_text.cpp:49
+msgid "Edit Stencil Text..."
+msgstr "ແກ້ໄຂລວດລາຍຂໍ້ຄວາມ"
+
+#: plugins/kiviotexttool/tool_text.cpp:123
+#: plugins/kiviotexttool/tool_text.cpp:129
+msgid "Change Stencil Text"
+msgstr "ປ່ຽນລວດລາຍຂໍ້ຄວາມ"
+
+#: plugins/kivioconnectortool/tool_connector.cpp:48
+#: plugins/kiviosmlconnector/tool_connector.cpp:48
+msgid "Edit Stencil Connector"
+msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
+
+#: plugins/kivioselecttool/tool_select.cpp:52
+msgid "Select"
+msgstr "ເລືອກ"
+
+#: kiviopart/kivio_aboutdata.h:27
+msgid "KOffice Flowchart And Diagram Tool"
+msgstr ""
 
 #: kiviopart/kivio_aboutdata.h:35
-msgid "GUI widgets"
-msgstr "ຄອນໂທຣສວ່ນຕິດຕໍ່ຜູ້ໃຊ້ແບບກຣາຟິກ"
+#, fuzzy
+msgid "Maintainer"
+msgstr "ໂຕຈັດການສະແດງຜົນ"
+
+#: kiviopart/kivio_aboutdata.h:36 kiviopart/kivio_aboutdata.h:37
+msgid "Development"
+msgstr ""
+
+#: kiviopart/kivio_aboutdata.h:38
+msgid "Development/Documentation"
+msgstr ""
+
+#: kiviopart/kivio_aboutdata.h:40
+msgid "Initial idea, development and basic stencil sets."
+msgstr ""
+
+#: kiviopart/kivio_aboutdata.h:41
+msgid "Development and additional stencil sets."
+msgstr ""
+
+#, fuzzy
+#~ msgid "ExportPageDialogBase"
+#~ msgstr "กล่องตัวเลือกหน้ากระดาษ"
+
+#, fuzzy
+#~ msgid "KivioBirdEyePanelBase"
+#~ msgstr "กล่องเครื่องมือเลเยอร์ Kivio"
+
+#, fuzzy
+#~ msgid "Stencils Bar"
+#~ msgstr "ແຖບຊຸດລວດລາຍ"
+
+#, fuzzy
+#~ msgid "Stencils Bar Settings"
+#~ msgstr "ລັກສະນະຊຸດລວດລາຍ"
+
+#, fuzzy
+#~ msgid "Background &color:"
+#~ msgstr "ສີี&ພື້ນຫັຼງ"
+
+#, fuzzy
+#~ msgid "Background &picture:"
+#~ msgstr "ຮູບ&ພື້ນຫັຼງ"
+
+#~ msgid "Hidden Pages"
+#~ msgstr "ຫນ້າທີ່ເຊື່ອງ"
+
+#~ msgid ""
+#~ "<b>Cancel</b><br>\n"
+#~ "Abort the page export."
+#~ msgstr ""
+#~ "<b>ຍົກເລີກ</b><br>\n"
+#~ "ຍົກເລີກການສົ່ງອອກຫນ້າເຈ້ຍ"
+
+#~ msgid ""
+#~ "<b>OK</b><br>\n"
+#~ "Export the page with the current settings."
+#~ msgstr ""
+#~ "<b>ຕົກລົງ</b><br>\n"
+#~ "ສົ່ງອອກຫນ້າເຈ້ຍດວ້ຍຄາ່ທີ່ຕັ້ງໄວ້ໃນປັດຈຸບັນ"
+
+#, fuzzy
+#~ msgid "Vview"
+#~ msgstr "ສະແດງ"
+
+#~ msgid "print"
+#~ msgstr "ພີມ"
+
+#~ msgid "Hide page"
+#~ msgstr "ເຊື່ອງຫນ້າເຈ້ຍ"
+
+#~ msgid "pt"
+#~ msgstr "pt"
+
+#~ msgid "mm"
+#~ msgstr "ມມ."
+
+#~ msgid "pi"
+#~ msgstr "pi"
+
+#~ msgid "cm"
+#~ msgstr "ຊມ."
+
+#~ msgid "dd"
+#~ msgstr "dd"
+
+#~ msgid "cc"
+#~ msgstr "cc"
+
+#~ msgid "point"
+#~ msgstr "point"
+
+#~ msgid "millimeter"
+#~ msgstr "millimeter"
+
+#~ msgid "inch"
+#~ msgstr "ມື"
+
+#~ msgid "pica"
+#~ msgstr "ພີຄາ"
+
+#~ msgid "centimeter"
+#~ msgstr "centimeter"
+
+#~ msgid "didot"
+#~ msgstr "didot"
+
+#~ msgid "cicero"
+#~ msgstr "cicero"
+
+#~ msgid "Select Tool Menu"
+#~ msgstr "Menu ເຄື່ອງມືເລືອກ"
+
+#~ msgid "Stencils"
+#~ msgstr "ລວດລາຍ"
+
+#~ msgid "Colors"
+#~ msgstr "ສີ"
+
+#~ msgid "Arrows"
+#~ msgstr "ລູກສອນ"
+
+#~ msgid "Load Stencil Set"
+#~ msgstr "ໂຫລດຊຸດລວດລາຍ"
+
+#~ msgid "Set Name"
+#~ msgstr "ຊື່ຊຸດ"
+
+#~ msgid "Unknown - .desc does not exist"
+#~ msgstr "ບໍ່ຮູ້ຈັກ-ຍັງບໍ່ມີ desc"
+
+#~ msgid "Unknown - .desc could not be opened"
+#~ msgstr "ບໍ່ຮູ້ຈັກ-ບໍ່ສາມາດເປີດ desc ໄດ້ ้"
+
+#~ msgid "View Page Only"
+#~ msgstr "ສະແດງຫນ້າເຈ້ຍເທົ່ານັ້ນ"
+
+#~ msgid "Align and Distribute"
+#~ msgstr "ຈັດລຽງແລະແຍກສວ່ນ"
+
+#~ msgid "Get Stencil Sets"
+#~ msgstr "ຊຸດລວດລາຍຂື້ນຕື່ມ"
+
+#~ msgid "Kivio by theKompany.com"
+#~ msgstr "kivio ໂດຍ thekompany. com"
+
+#~ msgid "Select Background Pixmap"
+#~ msgstr "ເລືອກຮູບພື້ນຫັຼງ"
+
+#~ msgid "Only local files are currently supported."
+#~ msgstr "ໃນຕອນນີ້ຈະໃຊ້ໄດ້ພຽງແຟ້ມທີ່ມີພາຍໃນລະບົບເທົ່ານັ້ນ"
+
+#~ msgid "&Add"
+#~ msgstr "&ເພີ່ມ"
+
+#~ msgid "Move &By"
+#~ msgstr "ຍາ້ຍ&ເປັນໄລຍະ"
+
+#~ msgid "D&elete All"
+#~ msgstr "&ລືບທັງຫມົດ"
+
+#~ msgid "&Select All"
+#~ msgstr "&ເລືອກທັງຫມົດ"
+
+#~ msgid "C&lear Selection"
+#~ msgstr "ລາ້ງ&ການເລືອກ"
+
+#~ msgid "Guides Setup"
+#~ msgstr "ຕັ້ງຄ່າເສັ້ນນຳລອ່ງ"
+
+#~ msgid "Configure Kivio"
+#~ msgstr "ປັບແຕ່ງ Kivio ."
+
+#~ msgid "PageID"
+#~ msgstr "ຫມາຍເລກຫນ້າ"
+
+#~ msgid "0"
+#~ msgstr "O"
+
+#~ msgid "Size"
+#~ msgstr "ຂະຫນາດ"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Page Size"
+#~ msgstr "ຂະຫນາດເຈ້ຍ"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "Page Grid"
+#~ msgstr "ກີດເທີງຫນ້າເຈ້ຍ"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "All Guides"
+#~ msgstr "ເສັ້ນນຳລອ່ງທັງຫມົດ"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "Select Category"
+#~ msgstr "ເລືອກຫມວດຫມູ່"
+
+#~ msgid "&Place horizontal grid lines every:"
+#~ msgstr "ໃຫ้້&ມີເສັ້ນກີດໃນແນວນອນທຸກຊວ່ງ:"
+
+#~ msgid "P&lace vertical grid lines every:"
+#~ msgstr "ໃຫ້&ມີເສັ້ນກີດໃນແນວຕັ້ງທຸກຊວ່ງ"
+
+#~ msgid "&Snap to grid horizontal distance:"
+#~ msgstr "ໄລຍະການໃຫ้້&ຍາ້ຍໄປຫາບອ່ນກີດທາງແນວນອນ"
+
+#~ msgid "S&nap to grid vertical distance:"
+#~ msgstr "ໄລຍະການຍາ້ຍ&ໄປທາງແນວຕັ້ງ:"
+
+#~ msgid "Show &rules"
+#~ msgstr "ສະແດງໄມ້ບັນ&ທັດ"
+
+#~ msgid "Margins"
+#~ msgstr "ແຄມເຈ້ຍ"
+
+#~ msgid "&Right:"
+#~ msgstr "&ຂວາ"
+
+#~ msgid "&Format:"
+#~ msgstr "&ຊະນີດເຈ້ຍ"
+
+#~ msgid "&Left:"
+#~ msgstr "&ຊາ້ຍ"
+
+#~ msgid "&Orientation:"
+#~ msgstr "&ທີດທາງ"
+
+#~ msgid "&Bottom:"
+#~ msgstr "&ລຸ່ມ"
+
+#~ msgid "Re&size all pages in this document"
+#~ msgstr "ປ່ຽນ&ຂະຫນາດກັບທຸກຫນ້າໃນເອກກະສານນີ້"
+
+#~ msgid "&Make these options the default for this document"
+#~ msgstr "ໃຊ້&ຄາ່ຕົວເລືອກເຫົ່ຼານີ້ເປັນຄາ່ໂດຍບໍ່ມີເງື່ອນໄຂສໍາລັບເອກະສານນີ້"
+
+#~ msgid "Ma&ke these options the default for all documents"
+#~ msgstr "ໃຊ้້&ຄາ່ຕົວເລືອກເຫົ່ຼານີ້ເປັນຄາ່ໂດຍບໍ່ມີເງືອນໄຂສໍາທຸກເອກກະສານ"
+
+#~ msgid "About Kivio"
+#~ msgstr "ກ່ຽວກັບKivio"
+
+#~ msgid "<b>Kivio 1.0 - The Open Language of Business</b>"
+#~ msgstr "<b>Kivio 1.0 - ພາສາເປີດຂອງທຸລະກີດ</b>"
+
+#~ msgid ""
+#~ "<center><font size=+4><b>Kivio 1.0</b></font></center>\n"
+#~ "<center><b>Copyright (C)</b> 2000 - 2001  <a href=\"http://www.thekompany."
+#~ "com\">The Kompany.com</a></center>\n"
+#~ "<br><br><br><br><br><br>\n"
+#~ "Welcome to <b>Kivio</b> - an Open Source flowcharting tool brought to "
+#~ "your desktop by <a href=\"http://www.thekompany.com\">The_Kompany.com: "
+#~ "\"Where Open Source is at Home (TM)\"</a>"
+#~ msgstr ""
+#~ "<center><font size=+4><b>Kivio 1.0</b></font></center> \n"
+#~ "<center><b>ສະຫງວນລີຄະສີດ (C)</b> 2000 - 2001  <a href=\"http://www."
+#~ "thekompany.com\">The Kompany.c om</a></center>\n"
+#~ "<br><br><br><br><br><br>\n"
+#~ "ຍີນດີຕອ້ນຮັບສູ່b>Kivio</b> - ເຄື່ອງມືສາ້ງຊາຣຕແບນເປ ຊວຣສ໌ນຳມາສູ່ເດສກ໌ທວຂອງເຈົ້າໂດຍ <a href="
+#~ "\"http://www.thekompany.com\">The_Kompany.com: \"Where Open Source is at "
+#~ "Home (TM)\"</a>"
+
+#~ msgid "A&uthors"
+#~ msgstr "&ຜູ້ຂຽນ"
+
+#~ msgid ""
+#~ "The Kompany.com - \"Where Open Source is at Home\"(TM)\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "<a href=\"http://www.thekompany.com\">http://www.thekompany.com</a>\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "Development\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "Additional Stencils\n"
+#~ "<br>\n"
+#~ "<br>Dave Marotti\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "Initial idea\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "Development\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "Basic Stencils Set"
+#~ msgstr ""
+#~ "The Kompany.com - \"Where Open Source is at Home\"(TM)\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "<a href=\"http://www.thekompany.com\">http://www.thekompany.com</a>\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "ພັດທະນາ<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "ລວດລາຍເພີ່ມຕຶ່ມ>\n"
+#~ "<br>Dave Marotti\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "p;&nbsp;&nbsp;\n"
+#~ "ພັດທະນາ\n"
+#~ "<br>&nbsp;&nbsp;&nbsp;\n"
+#~ "ຊຸດລວດລາຍພື້ນຖານ "
+
+#~ msgid "&License"
+#~ msgstr "&ລິຂະສີດ"
+
+#~ msgid ""
+#~ "This program is distributed under the terms of the GPL v2.\n"
+#~ "\n"
+#~ "\t\t    GNU GENERAL PUBLIC LICENSE\n"
+#~ "\t\t       Version 2, June 1991\n"
+#~ "\n"
+#~ " Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
+#~ "                          675 Mass Ave, Cambridge, MA 02139, USA\n"
+#~ " Everyone is permitted to copy and distribute verbatim copies\n"
+#~ " of this license document, but changing it is not allowed.\n"
+#~ "\n"
+#~ "\t\t\t    Preamble\n"
+#~ "\n"
+#~ "  The licenses for most software are designed to take away your\n"
+#~ "freedom to share and change it.  By contrast, the GNU General Public\n"
+#~ "License is intended to guarantee your freedom to share and change free\n"
+#~ "software--to make sure the software is free for all its users.  This\n"
+#~ "General Public License applies to most of the Free Software\n"
+#~ "Foundation's software and to any other program whose authors commit to\n"
+#~ "using it.  (Some other Free Software Foundation software is covered by\n"
+#~ "the GNU Library General Public License instead.)  You can apply it to\n"
+#~ "your programs, too.\n"
+#~ "\n"
+#~ "  When we speak of free software, we are referring to freedom, not\n"
+#~ "price.  Our General Public Licenses are designed to make sure that you\n"
+#~ "have the freedom to distribute copies of free software (and charge for\n"
+#~ "this service if you wish), that you receive source code or can get it\n"
+#~ "if you want it, that you can change the software or use pieces of it\n"
+#~ "in new free programs; and that you know you can do these things.\n"
+#~ "\n"
+#~ "  To protect your rights, we need to make restrictions that forbid\n"
+#~ "anyone to deny you these rights or to ask you to surrender the rights.\n"
+#~ "These restrictions translate to certain responsibilities for you if you\n"
+#~ "distribute copies of the software, or if you modify it.\n"
+#~ "\n"
+#~ "  For example, if you distribute copies of such a program, whether\n"
+#~ "gratis or for a fee, you must give the recipients all the rights that\n"
+#~ "you have.  You must make sure that they, too, receive or can get the\n"
+#~ "source code.  And you must show them these terms so they know their\n"
+#~ "rights.\n"
+#~ "\n"
+#~ "  We protect your rights with two steps: (1) copyright the software, and\n"
+#~ "(2) offer you this license which gives you legal permission to copy,\n"
+#~ "distribute and/or modify the software.\n"
+#~ "\n"
+#~ "  Also, for each author's protection and ours, we want to make certain\n"
+#~ "that everyone understands that there is no warranty for this free\n"
+#~ "software.  If the software is modified by someone else and passed on, we\n"
+#~ "want its recipients to know that what they have is not the original, so\n"
+#~ "that any problems introduced by others will not reflect on the original\n"
+#~ "authors' reputations.\n"
+#~ "\n"
+#~ "  Finally, any free program is threatened constantly by software\n"
+#~ "patents.  We wish to avoid the danger that redistributors of a free\n"
+#~ "program will individually obtain patent licenses, in effect making the\n"
+#~ "program proprietary.  To prevent this, we have made it clear that any\n"
+#~ "patent must be licensed for everyone's free use or not licensed at all.\n"
+#~ "\n"
+#~ "  The precise terms and conditions for copying, distribution and\n"
+#~ "modification follow.\n"
+#~ "\n"
+#~ "\t\t    GNU GENERAL PUBLIC LICENSE\n"
+#~ "   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+#~ "\n"
+#~ "  0. This License applies to any program or other work which contains\n"
+#~ "a notice placed by the copyright holder saying it may be distributed\n"
+#~ "under the terms of this General Public License.  The \"Program\", below,\n"
+#~ "refers to any such program or work, and a \"work based on the Program\"\n"
+#~ "means either the Program or any derivative work under copyright law:\n"
+#~ "that is to say, a work containing the Program or a portion of it,\n"
+#~ "either verbatim or with modifications and/or translated into another\n"
+#~ "language.  (Hereinafter, translation is included without limitation in\n"
+#~ "the term \"modification\".)  Each licensee is addressed as \"you\".\n"
+#~ "\n"
+#~ "Activities other than copying, distribution and modification are not\n"
+#~ "covered by this License; they are outside its scope.  The act of\n"
+#~ "running the Program is not restricted, and the output from the Program\n"
+#~ "is covered only if its contents constitute a work based on the\n"
+#~ "Program (independent of having been made by running the Program).\n"
+#~ "Whether that is true depends on what the Program does.\n"
+#~ "\n"
+#~ "  1. You may copy and distribute verbatim copies of the Program's\n"
+#~ "source code as you receive it, in any medium, provided that you\n"
+#~ "conspicuously and appropriately publish on each copy an appropriate\n"
+#~ "copyright notice and disclaimer of warranty; keep intact all the\n"
+#~ "notices that refer to this License and to the absence of any warranty;\n"
+#~ "and give any other recipients of the Program a copy of this License\n"
+#~ "along with the Program.\n"
+#~ "\n"
+#~ "You may charge a fee for the physical act of transferring a copy, and\n"
+#~ "you may at your option offer warranty protection in exchange for a fee.\n"
+#~ "\n"
+#~ "  2. You may modify your copy or copies of the Program or any portion\n"
+#~ "of it, thus forming a work based on the Program, and copy and\n"
+#~ "distribute such modifications or work under the terms of Section 1\n"
+#~ "above, provided that you also meet all of these conditions:\n"
+#~ "\n"
+#~ "    a) You must cause the modified files to carry prominent notices\n"
+#~ "    stating that you changed the files and the date of any change.\n"
+#~ "\n"
+#~ "    b) You must cause any work that you distribute or publish, that in\n"
+#~ "    whole or in part contains or is derived from the Program or any\n"
+#~ "    part thereof, to be licensed as a whole at no charge to all third\n"
+#~ "    parties under the terms of this License.\n"
+#~ "\n"
+#~ "    c) If the modified program normally reads commands interactively\n"
+#~ "    when run, you must cause it, when started running for such\n"
+#~ "    interactive use in the most ordinary way, to print or display an\n"
+#~ "    announcement including an appropriate copyright notice and a\n"
+#~ "    notice that there is no warranty (or else, saying that you provide\n"
+#~ "    a warranty) and that users may redistribute the program under\n"
+#~ "    these conditions, and telling the user how to view a copy of this\n"
+#~ "    License.  (Exception: if the Program itself is interactive but\n"
+#~ "    does not normally print such an announcement, your work based on\n"
+#~ "    the Program is not required to print an announcement.)\n"
+#~ "\n"
+#~ "These requirements apply to the modified work as a whole.  If\n"
+#~ "identifiable sections of that work are not derived from the Program,\n"
+#~ "and can be reasonably considered independent and separate works in\n"
+#~ "themselves, then this License, and its terms, do not apply to those\n"
+#~ "sections when you distribute them as separate works.  But when you\n"
+#~ "distribute the same sections as part of a whole which is a work based\n"
+#~ "on the Program, the distribution of the whole must be on the terms of\n"
+#~ "this License, whose permissions for other licensees extend to the\n"
+#~ "entire whole, and thus to each and every part regardless of who wrote "
+#~ "it.\n"
+#~ "\n"
+#~ "Thus, it is not the intent of this section to claim rights or contest\n"
+#~ "your rights to work written entirely by you; rather, the intent is to\n"
+#~ "exercise the right to control the distribution of derivative or\n"
+#~ "collective works based on the Program.\n"
+#~ "\n"
+#~ "In addition, mere aggregation of another work not based on the Program\n"
+#~ "with the Program (or with a work based on the Program) on a volume of\n"
+#~ "a storage or distribution medium does not bring the other work under\n"
+#~ "the scope of this License.\n"
+#~ "\n"
+#~ "  3. You may copy and distribute the Program (or a work based on it,\n"
+#~ "under Section 2) in object code or executable form under the terms of\n"
+#~ "Sections 1 and 2 above provided that you also do one of the following:\n"
+#~ "\n"
+#~ "    a) Accompany it with the complete corresponding machine-readable\n"
+#~ "    source code, which must be distributed under the terms of Sections\n"
+#~ "    1 and 2 above on a medium customarily used for software interchange; "
+#~ "or,\n"
+#~ "\n"
+#~ "    b) Accompany it with a written offer, valid for at least three\n"
+#~ "    years, to give any third party, for a charge no more than your\n"
+#~ "    cost of physically performing source distribution, a complete\n"
+#~ "    machine-readable copy of the corresponding source code, to be\n"
+#~ "    distributed under the terms of Sections 1 and 2 above on a medium\n"
+#~ "    customarily used for software interchange; or,\n"
+#~ "\n"
+#~ "    c) Accompany it with the information you received as to the offer\n"
+#~ "    to distribute corresponding source code.  (This alternative is\n"
+#~ "    allowed only for noncommercial distribution and only if you\n"
+#~ "    received the program in object code or executable form with such\n"
+#~ "    an offer, in accord with Subsection b above.)\n"
+#~ "\n"
+#~ "The source code for a work means the preferred form of the work for\n"
+#~ "making modifications to it.  For an executable work, complete source\n"
+#~ "code means all the source code for all modules it contains, plus any\n"
+#~ "associated interface definition files, plus the scripts used to\n"
+#~ "control compilation and installation of the executable.  However, as a\n"
+#~ "special exception, the source code distributed need not include\n"
+#~ "anything that is normally distributed (in either source or binary\n"
+#~ "form) with the major components (compiler, kernel, and so on) of the\n"
+#~ "operating system on which the executable runs, unless that component\n"
+#~ "itself accompanies the executable.\n"
+#~ "\n"
+#~ "If distribution of executable or object code is made by offering\n"
+#~ "access to copy from a designated place, then offering equivalent\n"
+#~ "access to copy the source code from the same place counts as\n"
+#~ "distribution of the source code, even though third parties are not\n"
+#~ "compelled to copy the source along with the object code.\n"
+#~ "\n"
+#~ "  4. You may not copy, modify, sublicense, or distribute the Program\n"
+#~ "except as expressly provided under this License.  Any attempt\n"
+#~ "otherwise to copy, modify, sublicense or distribute the Program is\n"
+#~ "void, and will automatically terminate your rights under this License.\n"
+#~ "However, parties who have received copies, or rights, from you under\n"
+#~ "this License will not have their licenses terminated so long as such\n"
+#~ "parties remain in full compliance.\n"
+#~ "\n"
+#~ "  5. You are not required to accept this License, since you have not\n"
+#~ "signed it.  However, nothing else grants you permission to modify or\n"
+#~ "distribute the Program or its derivative works.  These actions are\n"
+#~ "prohibited by law if you do not accept this License.  Therefore, by\n"
+#~ "modifying or distributing the Program (or any work based on the\n"
+#~ "Program), you indicate your acceptance of this License to do so, and\n"
+#~ "all its terms and conditions for copying, distributing or modifying\n"
+#~ "the Program or works based on it.\n"
+#~ "\n"
+#~ "  6. Each time you redistribute the Program (or any work based on the\n"
+#~ "Program), the recipient automatically receives a license from the\n"
+#~ "original licensor to copy, distribute or modify the Program subject to\n"
+#~ "these terms and conditions.  You may not impose any further\n"
+#~ "restrictions on the recipients' exercise of the rights granted herein.\n"
+#~ "You are not responsible for enforcing compliance by third parties to\n"
+#~ "this License.\n"
+#~ "\n"
+#~ "  7. If, as a consequence of a court judgment or allegation of patent\n"
+#~ "infringement or for any other reason (not limited to patent issues),\n"
+#~ "conditions are imposed on you (whether by court order, agreement or\n"
+#~ "otherwise) that contradict the conditions of this License, they do not\n"
+#~ "excuse you from the conditions of this License.  If you cannot\n"
+#~ "distribute so as to satisfy simultaneously your obligations under this\n"
+#~ "License and any other pertinent obligations, then as a consequence you\n"
+#~ "may not distribute the Program at all.  For example, if a patent\n"
+#~ "license would not permit royalty-free redistribution of the Program by\n"
+#~ "all those who receive copies directly or indirectly through you, then\n"
+#~ "the only way you could satisfy both it and this License would be to\n"
+#~ "refrain entirely from distribution of the Program.\n"
+#~ "\n"
+#~ "If any portion of this section is held invalid or unenforceable under\n"
+#~ "any particular circumstance, the balance of the section is intended to\n"
+#~ "apply and the section as a whole is intended to apply in other\n"
+#~ "circumstances.\n"
+#~ "\n"
+#~ "It is not the purpose of this section to induce you to infringe any\n"
+#~ "patents or other property right claims or to contest validity of any\n"
+#~ "such claims; this section has the sole purpose of protecting the\n"
+#~ "integrity of the free software distribution system, which is\n"
+#~ "implemented by public license practices.  Many people have made\n"
+#~ "generous contributions to the wide range of software distributed\n"
+#~ "through that system in reliance on consistent application of that\n"
+#~ "system; it is up to the author/donor to decide if he or she is willing\n"
+#~ "to distribute software through any other system and a licensee cannot\n"
+#~ "impose that choice.\n"
+#~ "\n"
+#~ "This section is intended to make thoroughly clear what is believed to\n"
+#~ "be a consequence of the rest of this License.\n"
+#~ "\n"
+#~ "  8. If the distribution and/or use of the Program is restricted in\n"
+#~ "certain countries either by patents or by copyrighted interfaces, the\n"
+#~ "original copyright holder who places the Program under this License\n"
+#~ "may add an explicit geographical distribution limitation excluding\n"
+#~ "those countries, so that distribution is permitted only in or among\n"
+#~ "countries not thus excluded.  In such case, this License incorporates\n"
+#~ "the limitation as if written in the body of this License.\n"
+#~ "\n"
+#~ "  9. The Free Software Foundation may publish revised and/or new "
+#~ "versions\n"
+#~ "of the General Public License from time to time.  Such new versions will\n"
+#~ "be similar in spirit to the present version, but may differ in detail to\n"
+#~ "address new problems or concerns.\n"
+#~ "\n"
+#~ "Each version is given a distinguishing version number.  If the Program\n"
+#~ "specifies a version number of this License which applies to it and \"any\n"
+#~ "later version\", you have the option of following the terms and "
+#~ "conditions\n"
+#~ "either of that version or of any later version published by the Free\n"
+#~ "Software Foundation.  If the Program does not specify a version number "
+#~ "of\n"
+#~ "this License, you may choose any version ever published by the Free "
+#~ "Software\n"
+#~ "Foundation.\n"
+#~ "\n"
+#~ "  10. If you wish to incorporate parts of the Program into other free\n"
+#~ "programs whose distribution conditions are different, write to the "
+#~ "author\n"
+#~ "to ask for permission.  For software which is copyrighted by the Free\n"
+#~ "Software Foundation, write to the Free Software Foundation; we sometimes\n"
+#~ "make exceptions for this.  Our decision will be guided by the two goals\n"
+#~ "of preserving the free status of all derivatives of our free software "
+#~ "and\n"
+#~ "of promoting the sharing and reuse of software generally.\n"
+#~ "\n"
+#~ "\t\t\t    NO WARRANTY\n"
+#~ "\n"
+#~ "  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO "
+#~ "WARRANTY\n"
+#~ "FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
+#~ "OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
+#~ "PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
+#~ "EXPRESSED\n"
+#~ "OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
+#~ "MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK "
+#~ "AS\n"
+#~ "TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
+#~ "PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
+#~ "REPAIR OR CORRECTION.\n"
+#~ "\n"
+#~ "  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN "
+#~ "WRITING\n"
+#~ "WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
+#~ "REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR "
+#~ "DAMAGES,\n"
+#~ "INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES "
+#~ "ARISING\n"
+#~ "OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT "
+#~ "LIMITED\n"
+#~ "TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
+#~ "YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY "
+#~ "OTHER\n"
+#~ "PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
+#~ "POSSIBILITY OF SUCH DAMAGES.\n"
+#~ "\n"
+#~ "\t\t     END OF TERMS AND CONDITIONS"
+#~ msgstr ""
+#~ "ໂປຼແກຣມນີ້ແຈກຈ່າຍໃຕ້ເງື່ອນໄຂລິຂະສິດແບບ GPL v2\n"
+#~ "\n"
+#~ "\t\t    GNU GENERAL PUBLIC LICENSE\n"
+#~ "\t\t       Version 2, June 1991\n"
+#~ "\n"
+#~ " Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
+#~ "                          675 Mass Ave, Cambridge, MA 02139, USA\n"
+#~ " Everyone is permitted to copy and distribute verbatim copies\n"
+#~ " of this license document, but changing it is not allowed.\n"
+#~ "\n"
+#~ "\t\t\t    Preamble\n"
+#~ "\n"
+#~ "  The licenses for most software are designed to take away your\n"
+#~ "freedom to share and change it.  By contrast, the GNU General Public\n"
+#~ "License is intended to guarantee your freedom to share and change free\n"
+#~ "software--to make sure the software is free for all its users.  This\n"
+#~ "General Public License applies to most of the Free Software\n"
+#~ "Foundation's software and to any other program whose authors commit to\n"
+#~ "using it.  (Some other Free Software Foundation software is covered by\n"
+#~ "the GNU Library General Public License instead.)  You can apply it to\n"
+#~ "your programs, too.\n"
+#~ "\n"
+#~ "  When we speak of free software, we are referring to freedom, not\n"
+#~ "price.  Our General Public Licenses are designed to make sure that you\n"
+#~ "have the freedom to distribute copies of free software (and charge for\n"
+#~ "this service if you wish), that you receive source code or can get it\n"
+#~ "if you want it, that you can change the software or use pieces of it\n"
+#~ "in new free programs; and that you know you can do these things.\n"
+#~ "\n"
+#~ "  To protect your rights, we need to make restrictions that forbid\n"
+#~ "anyone to deny you these rights or to ask you to surrender the rights.\n"
+#~ "These restrictions translate to certain responsibilities for you if you\n"
+#~ "distribute copies of the software, or if you modify it.\n"
+#~ "\n"
+#~ "  For example, if you distribute copies of such a program, whether\n"
+#~ "gratis or for a fee, you must give the recipients all the rights that\n"
+#~ "you have.  You must make sure that they, too, receive or can get the\n"
+#~ "source code.  And you must show them these terms so they know their\n"
+#~ "rights.\n"
+#~ "\n"
+#~ "  We protect your rights with two steps: (1) copyright the software, and\n"
+#~ "(2) offer you this license which gives you legal permission to copy,\n"
+#~ "distribute and/or modify the software.\n"
+#~ "\n"
+#~ "  Also, for each author's protection and ours, we want to make certain\n"
+#~ "that everyone understands that there is no warranty for this free\n"
+#~ "software.  If the software is modified by someone else and passed on, we\n"
+#~ "want its recipients to know that what they have is not the original, so\n"
+#~ "that any problems introduced by others will not reflect on the original\n"
+#~ "authors' reputations.\n"
+#~ "\n"
+#~ "  Finally, any free program is threatened constantly by software\n"
+#~ "patents.  We wish to avoid the danger that redistributors of a free\n"
+#~ "program will individually obtain patent licenses, in effect making the\n"
+#~ "program proprietary.  To prevent this, we have made it clear that any\n"
+#~ "patent must be licensed for everyone's free use or not licensed at all.\n"
+#~ "\n"
+#~ "  The precise terms and conditions for copying, distribution and\n"
+#~ "modification follow.\n"
+#~ "\n"
+#~ "\t\t    GNU GENERAL PUBLIC LICENSE\n"
+#~ "   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+#~ "\n"
+#~ "  0. This License applies to any program or other work which contains\n"
+#~ "a notice placed by the copyright holder saying it may be distributed\n"
+#~ "under the terms of this General Public License.  The \"Program\", below,\n"
+#~ "refers to any such program or work, and a \"work based on the Program\"\n"
+#~ "means either the Program or any derivative work under copyright law:\n"
+#~ "that is to say, a work containing the Program or a portion of it,\n"
+#~ "either verbatim or with modifications and/or translated into another\n"
+#~ "language.  (Hereinafter, translation is included without limitation in\n"
+#~ "the term \"modification\".)  Each licensee is addressed as \"you\".\n"
+#~ "\n"
+#~ "Activities other than copying, distribution and modification are not\n"
+#~ "covered by this License; they are outside its scope.  The act of\n"
+#~ "running the Program is not restricted, and the output from the Program\n"
+#~ "is covered only if its contents constitute a work based on the\n"
+#~ "Program (independent of having been made by running the Program).\n"
+#~ "Whether that is true depends on what the Program does.\n"
+#~ "\n"
+#~ "  1. You may copy and distribute verbatim copies of the Program's\n"
+#~ "source code as you receive it, in any medium, provided that you\n"
+#~ "conspicuously and appropriately publish on each copy an appropriate\n"
+#~ "copyright notice and disclaimer of warranty; keep intact all the\n"
+#~ "notices that refer to this License and to the absence of any warranty;\n"
+#~ "and give any other recipients of the Program a copy of this License\n"
+#~ "along with the Program.\n"
+#~ "\n"
+#~ "You may charge a fee for the physical act of transferring a copy, and\n"
+#~ "you may at your option offer warranty protection in exchange for a fee.\n"
+#~ "\n"
+#~ "  2. You may modify your copy or copies of the Program or any portion\n"
+#~ "of it, thus forming a work based on the Program, and copy and\n"
+#~ "distribute such modifications or work under the terms of Section 1\n"
+#~ "above, provided that you also meet all of these conditions:\n"
+#~ "\n"
+#~ "    a) You must cause the modified files to carry prominent notices\n"
+#~ "    stating that you changed the files and the date of any change.\n"
+#~ "\n"
+#~ "    b) You must cause any work that you distribute or publish, that in\n"
+#~ "    whole or in part contains or is derived from the Program or any\n"
+#~ "    part thereof, to be licensed as a whole at no charge to all third\n"
+#~ "    parties under the terms of this License.\n"
+#~ "\n"
+#~ "    c) If the modified program normally reads commands interactively\n"
+#~ "    when run, you must cause it, when started running for such\n"
+#~ "    interactive use in the most ordinary way, to print or display an\n"
+#~ "    announcement including an appropriate copyright notice and a\n"
+#~ "    notice that there is no warranty (or else, saying that you provide\n"
+#~ "    a warranty) and that users may redistribute the program under\n"
+#~ "    these conditions, and telling the user how to view a copy of this\n"
+#~ "    License.  (Exception: if the Program itself is interactive but\n"
+#~ "    does not normally print such an announcement, your work based on\n"
+#~ "    the Program is not required to print an announcement.)\n"
+#~ "\n"
+#~ "These requirements apply to the modified work as a whole.  If\n"
+#~ "identifiable sections of that work are not derived from the Program,\n"
+#~ "and can be reasonably considered independent and separate works in\n"
+#~ "themselves, then this License, and its terms, do not apply to those\n"
+#~ "sections when you distribute them as separate works.  But when you\n"
+#~ "distribute the same sections as part of a whole which is a work based\n"
+#~ "on the Program, the distribution of the whole must be on the terms of\n"
+#~ "this License, whose permissions for other licensees extend to the\n"
+#~ "entire whole, and thus to each and every part regardless of who wrote "
+#~ "it.\n"
+#~ "\n"
+#~ "Thus, it is not the intent of this section to claim rights or contest\n"
+#~ "your rights to work written entirely by you; rather, the intent is to\n"
+#~ "exercise the right to control the distribution of derivative or\n"
+#~ "collective works based on the Program.\n"
+#~ "\n"
+#~ "In addition, mere aggregation of another work not based on the Program\n"
+#~ "with the Program (or with a work based on the Program) on a volume of\n"
+#~ "a storage or distribution medium does not bring the other work under\n"
+#~ "the scope of this License.\n"
+#~ "\n"
+#~ "  3. You may copy and distribute the Program (or a work based on it,\n"
+#~ "under Section 2) in object code or executable form under the terms of\n"
+#~ "Sections 1 and 2 above provided that you also do one of the following:\n"
+#~ "\n"
+#~ "    a) Accompany it with the complete corresponding machine-readable\n"
+#~ "    source code, which must be distributed under the terms of Sections\n"
+#~ "    1 and 2 above on a medium customarily used for software interchange; "
+#~ "or,\n"
+#~ "\n"
+#~ "    b) Accompany it with a written offer, valid for at least three\n"
+#~ "    years, to give any third party, for a charge no more than your\n"
+#~ "    cost of physically performing source distribution, a complete\n"
+#~ "    machine-readable copy of the corresponding source code, to be\n"
+#~ "    distributed under the terms of Sections 1 and 2 above on a medium\n"
+#~ "    customarily used for software interchange; or,\n"
+#~ "\n"
+#~ "    c) Accompany it with the information you received as to the offer\n"
+#~ "    to distribute corresponding source code.  (This alternative is\n"
+#~ "    allowed only for noncommercial distribution and only if you\n"
+#~ "    received the program in object code or executable form with such\n"
+#~ "    an offer, in accord with Subsection b above.)\n"
+#~ "\n"
+#~ "The source code for a work means the preferred form of the work for\n"
+#~ "making modifications to it.  For an executable work, complete source\n"
+#~ "code means all the source code for all modules it contains, plus any\n"
+#~ "associated interface definition files, plus the scripts used to\n"
+#~ "control compilation and installation of the executable.  However, as a\n"
+#~ "special exception, the source code distributed need not include\n"
+#~ "anything that is normally distributed (in either source or binary\n"
+#~ "form) with the major components (compiler, kernel, and so on) of the\n"
+#~ "operating system on which the executable runs, unless that component\n"
+#~ "itself accompanies the executable.\n"
+#~ "\n"
+#~ "If distribution of executable or object code is made by offering\n"
+#~ "access to copy from a designated place, then offering equivalent\n"
+#~ "access to copy the source code from the same place counts as\n"
+#~ "distribution of the source code, even though third parties are not\n"
+#~ "compelled to copy the source along with the object code.\n"
+#~ "\n"
+#~ "  4. You may not copy, modify, sublicense, or distribute the Program\n"
+#~ "except as expressly provided under this License.  Any attempt\n"
+#~ "otherwise to copy, modify, sublicense or distribute the Program is\n"
+#~ "void, and will automatically terminate your rights under this License.\n"
+#~ "However, parties who have received copies, or rights, from you under\n"
+#~ "this License will not have their licenses terminated so long as such\n"
+#~ "parties remain in full compliance.\n"
+#~ "\n"
+#~ "  5. You are not required to accept this License, since you have not\n"
+#~ "signed it.  However, nothing else grants you permission to modify or\n"
+#~ "distribute the Program or its derivative works.  These actions are\n"
+#~ "prohibited by law if you do not accept this License.  Therefore, by\n"
+#~ "modifying or distributing the Program (or any work based on the\n"
+#~ "Program), you indicate your acceptance of this License to do so, and\n"
+#~ "all its terms and conditions for copying, distributing or modifying\n"
+#~ "the Program or works based on it.\n"
+#~ "\n"
+#~ "  6. Each time you redistribute the Program (or any work based on the\n"
+#~ "Program), the recipient automatically receives a license from the\n"
+#~ "original licensor to copy, distribute or modify the Program subject to\n"
+#~ "these terms and conditions.  You may not impose any further\n"
+#~ "restrictions on the recipients' exercise of the rights granted herein.\n"
+#~ "You are not responsible for enforcing compliance by third parties to\n"
+#~ "this License.\n"
+#~ "\n"
+#~ "  7. If, as a consequence of a court judgment or allegation of patent\n"
+#~ "infringement or for any other reason (not limited to patent issues),\n"
+#~ "conditions are imposed on you (whether by court order, agreement or\n"
+#~ "otherwise) that contradict the conditions of this License, they do not\n"
+#~ "excuse you from the conditions of this License.  If you cannot\n"
+#~ "distribute so as to satisfy simultaneously your obligations under this\n"
+#~ "License and any other pertinent obligations, then as a consequence you\n"
+#~ "may not distribute the Program at all.  For example, if a patent\n"
+#~ "license would not permit royalty-free redistribution of the Program by\n"
+#~ "all those who receive copies directly or indirectly through you, then\n"
+#~ "the only way you could satisfy both it and this License would be to\n"
+#~ "refrain entirely from distribution of the Program.\n"
+#~ "\n"
+#~ "If any portion of this section is held invalid or unenforceable under\n"
+#~ "any particular circumstance, the balance of the section is intended to\n"
+#~ "apply and the section as a whole is intended to apply in other\n"
+#~ "circumstances.\n"
+#~ "\n"
+#~ "It is not the purpose of this section to induce you to infringe any\n"
+#~ "patents or other property right claims or to contest validity of any\n"
+#~ "such claims; this section has the sole purpose of protecting the\n"
+#~ "integrity of the free software distribution system, which is\n"
+#~ "implemented by public license practices.  Many people have made\n"
+#~ "generous contributions to the wide range of software distributed\n"
+#~ "through that system in reliance on consistent application of that\n"
+#~ "system; it is up to the author/donor to decide if he or she is willing\n"
+#~ "to distribute software through any other system and a licensee cannot\n"
+#~ "impose that choice.\n"
+#~ "\n"
+#~ "This section is intended to make thoroughly clear what is believed to\n"
+#~ "be a consequence of the rest of this License.\n"
+#~ "\n"
+#~ "  8. If the distribution and/or use of the Program is restricted in\n"
+#~ "certain countries either by patents or by copyrighted interfaces, the\n"
+#~ "original copyright holder who places the Program under this License\n"
+#~ "may add an explicit geographical distribution limitation excluding\n"
+#~ "those countries, so that distribution is permitted only in or among\n"
+#~ "countries not thus excluded.  In such case, this License incorporates\n"
+#~ "the limitation as if written in the body of this License.\n"
+#~ "\n"
+#~ "  9. The Free Software Foundation may publish revised and/or new "
+#~ "versions\n"
+#~ "of the General Public License from time to time.  Such new versions will\n"
+#~ "be similar in spirit to the present version, but may differ in detail to\n"
+#~ "address new problems or concerns.\n"
+#~ "\n"
+#~ "Each version is given a distinguishing version number.  If the Program\n"
+#~ "specifies a version number of this License which applies to it and \"any\n"
+#~ "later version\", you have the option of following the terms and "
+#~ "conditions\n"
+#~ "either of that version or of any later version published by the Free\n"
+#~ "Software Foundation.  If the Program does not specify a version number "
+#~ "of\n"
+#~ "this License, you may choose any version ever published by the Free "
+#~ "Software\n"
+#~ "Foundation.\n"
+#~ "\n"
+#~ "  10. If you wish to incorporate parts of the Program into other free\n"
+#~ "programs whose distribution conditions are different, write to the "
+#~ "author\n"
+#~ "to ask for permission.  For software which is copyrighted by the Free\n"
+#~ "Software Foundation, write to the Free Software Foundation; we sometimes\n"
+#~ "make exceptions for this.  Our decision will be guided by the two goals\n"
+#~ "of preserving the free status of all derivatives of our free software "
+#~ "and\n"
+#~ "of promoting the sharing and reuse of software generally.\n"
+#~ "\n"
+#~ "\t\t\t    NO WARRANTY\n"
+#~ "\n"
+#~ "  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO "
+#~ "WARRANTY\n"
+#~ "FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
+#~ "OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
+#~ "PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
+#~ "EXPRESSED\n"
+#~ "OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
+#~ "MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK "
+#~ "AS\n"
+#~ "TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
+#~ "PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
+#~ "REPAIR OR CORRECTION.\n"
+#~ "\n"
+#~ "  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN "
+#~ "WRITING\n"
+#~ "WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
+#~ "REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR "
+#~ "DAMAGES,\n"
+#~ "INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES "
+#~ "ARISING\n"
+#~ "OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT "
+#~ "LIMITED\n"
+#~ "TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
+#~ "YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY "
+#~ "OTHER\n"
+#~ "PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
+#~ "POSSIBILITY OF SUCH DAMAGES.\n"
+#~ "\n"
+#~ "\t\t     END OF TERMS AND CONDITIONS"
+
+#~ msgid "&Stencils"
+#~ msgstr "&ລວດລາຍ"
+
+#~ msgid ""
+#~ "To further enhance your Kivio experience you can buy other stencil sets "
+#~ "from <br><a href=\"http://www.thekompany.com/products\">http://www."
+#~ "thekompany.com/products</a>"
+#~ msgstr ""
+#~ "ເພືອຂະຫຍາຍຄວາມສາມາດຂອງKivioເຈົ້າສາມາດຊື້ຊຸດລວດລາຍເພີ່ມຕຶ່ມມາໃຊ້ໄດ້ຈາກ <br><a href="
+#~ "\"http://www.thekompany.com/products\">http://www.thekompany.com/"
+#~ "products</a>"
+
+#~ msgid "KOffice Kivio Application"
+#~ msgstr "ApplicationKivioໃນຊຸດ Koffice"
+
+#~ msgid ""
+#~ "Main author and the original author of Queesio, from which this source is "
+#~ "based"
+#~ msgstr "ຜູ້ຂງນຫັຼກແລະຜູ້ລິເລີ່ມຂງນ Queesio ຊືງເປັນພື້ນຖານຂອງໂປແກຣມນີ້"
+
+#~ msgid "GUI widgets"
+#~ msgstr "ຄອນໂທຣສວ່ນຕິດຕໍ່ຜູ້ໃຊ້ແບບກຣາຟິກ"
 
 #~ msgid "&Ok"
 #~ msgstr "ตกลง"
@@ -1817,12 +2194,6 @@ msgstr "ຄອນໂທຣສວ່ນຕິດຕໍ່ຜູ້ໃຊ້ແບ
 #~ msgid "BirdsEyeView"
 #~ msgstr "มุมมองแบบมุมสูง"
 
-#~ msgid "KivioLayerPanelBase"
-#~ msgstr "กล่องเครื่องมือเลเยอร์ Kivio"
-
-#~ msgid "PageOptionsDialogBase"
-#~ msgstr "กล่องตัวเลือกหน้ากระดาษ"
-
 #~ msgid "PageSetupDialogbase"
 #~ msgstr "กล่องตั้งค่าหน้ากระดาษ"
 
@@ -1838,4 +2209,3 @@ msgstr "ຄອນໂທຣສວ່ນຕິດຕໍ່ຜູ້ໃຊ້ແບ
 
 #~ msgid "Send To Back"
 #~ msgstr "ส่งไปอยู่ด้านหลัง"
-
