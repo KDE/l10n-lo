@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-07-31 01:32+0200\n"
+"POT-Creation-Date: 2004-06-24 01:18+0200\n"
 "PO-Revision-Date: 2003-01-12 13:42+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,16 +14,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: kstart.cpp:193
-msgid "Command to execute."
+#: kstart.cpp:267
+#, fuzzy
+msgid "Command to execute"
 msgstr "ຄຳສັ່ງທີ່ຈະປະມວນຜົນ"
 
-#: kstart.cpp:195
+#: kstart.cpp:269
+msgid "A regular expression matching the window title"
+msgstr ""
+
+#: kstart.cpp:270
 #, fuzzy
 msgid ""
-"A regular expression matching the window title.\n"
-"If you do not specify one, then the very first window\n"
-"to appear will be taken. NOT RECOMMENDED!"
+"A string matching the window class (WM_CLASS property)\n"
+"The window class can be found out by running\n"
+"'xprop | grep WM_CLASS' and clicking on a window.\n"
+"NOTE: If you specify neither window title nor window class,\n"
+"then the very first window to appear will be taken;\n"
+"omitting both options is NOT recommended."
 msgstr ""
 "ຖ້າທ່ານບໍ່ໄດ້ກຳນົດເງື່ອນໄ"
 "ຂໃນການຄົ້ນຫາຫົວເລື່ອງຫນ້າ"
@@ -31,41 +39,54 @@ msgstr ""
 "ຫນ້າຕ່າງທຳອິດຈະຖືກຮງກໃຫ້ປ"
 "ະກົດສະເຫມີ ຈື່ງບໍ່ຂໍແນະນຳ !"
 
-#: kstart.cpp:198
-msgid "Desktop where to make the window appear. "
+#: kstart.cpp:276
+#, fuzzy
+msgid "Desktop on which to make the window appear"
 msgstr ""
 "ພື້ນທີ່ທຳງານທີ່ຕ້ອງການໃຫ້"
 "ຫນ້າຕ່າງປະກົດ"
 
-#: kstart.cpp:199
+#: kstart.cpp:277
+#, fuzzy
 msgid ""
 "Make the window appear on the desktop that was active\n"
-"when starting the application. "
+"when starting the application"
 msgstr ""
 "ໃຫ້ຫນ້າຕ່າງປະກົດພື້ນທີ່ທຳ"
 "ງານທີ່ກຳລັງແອກທີບຢູ່\n"
 "ເມື່ອເລີ້ມການທຳງານຂອງແອພພ"
 "ຣີເຄຊັນ"
 
-#: kstart.cpp:200
+#: kstart.cpp:278
 msgid "Make the window appear on all desktops"
 msgstr ""
 "ເຮັດໃັຫ້ຫນ້າຕ່າງປະກົດຢູ່ທ"
 "ຸກພື້ນທີ່ທຳງານ"
 
-#: kstart.cpp:201
+#: kstart.cpp:279
 msgid "Iconify the window"
 msgstr "ຫຍໍ້ຫນ້າຕ່າງເປັນໄອຄອນ"
 
-#: kstart.cpp:202
+#: kstart.cpp:280
 msgid "Maximize the window"
 msgstr "່ຂະຫຍາຍຫນ້າຕ່າງໃຫຍ່ສຸດ"
 
-#: kstart.cpp:203
-msgid "Show window fullscreen. Implies type Override."
+#: kstart.cpp:281
+#, fuzzy
+msgid "Maximize the window vertically"
+msgstr "່ຂະຫຍາຍຫນ້າຕ່າງໃຫຍ່ສຸດ"
+
+#: kstart.cpp:282
+#, fuzzy
+msgid "Maximize the window horizontally"
+msgstr "່ຂະຫຍາຍຫນ້າຕ່າງໃຫຍ່ສຸດ"
+
+#: kstart.cpp:283
+#, fuzzy
+msgid "Show window fullscreen. Implies type Override"
 msgstr "Show window fullscreen Implies type Override."
 
-#: kstart.cpp:204
+#: kstart.cpp:284
 msgid ""
 "The window type: Normal, Desktop, Dock, Tool, \n"
 "Menu, Dialog, TopMenu or Override"
@@ -74,7 +95,7 @@ msgstr ""
 "ພື້ນທີ່ທຳງານ, Dock, ເຄື່ອງມື, \n"
 " ເມນູ, ກ່ອງໂຕ້ຕອບ ຫລືໃຊ້ແທນ"
 
-#: kstart.cpp:205
+#: kstart.cpp:285
 msgid ""
 "Jump to the window even if it is started on a \n"
 "different virtual desktop"
@@ -83,43 +104,44 @@ msgstr ""
 "ເຖິງວ່າມັນຈະເລີ້ມການທຳງານ\n"
 "ໃນພື້ນທີ່ທຳງານອື່ນກໍຕາມ"
 
-#: kstart.cpp:208
+#: kstart.cpp:288
 #, fuzzy
 msgid "Try to keep the window above other windows"
 msgstr ""
 "ເຮັດໃຫ້ຫນ້າຕ່າງຢູ່ເຫນືອຫນ"
 "້າຕ່າງອື່່ນສະເຫມີ"
 
-#: kstart.cpp:210
+#: kstart.cpp:290
 #, fuzzy
 msgid "Try to keep the window below other windows"
 msgstr ""
 "ເຮັດໃຫ້ຫນ້າຕ່າງຢູ່ເຫນືອຫນ"
 "້າຕ່າງອື່່ນສະເຫມີ"
 
-#: kstart.cpp:211
+#: kstart.cpp:291
 msgid "The window does not get an entry in the taskbar"
 msgstr ""
 "ຫນ້າຕ່າງບໍ່ປະກົດໃນສ່ວນແຖບ"
 "ຫນ້າຕ່າງງານ"
 
-#: kstart.cpp:212
+#: kstart.cpp:292
 msgid "The window does not get an entry on the pager"
 msgstr ""
 "ຫນ້າຕ່າງບໍ່ປະກົດໃນສ່ວນເພຈ"
 "ເຈີ"
 
-#: kstart.cpp:213
-msgid "The window is sent to the system tray in Kicker."
+#: kstart.cpp:293
+#, fuzzy
+msgid "The window is sent to the system tray in Kicker"
 msgstr ""
 "ຫນ້າຕ່າງຖືກສົ່ງໄປຍັງສ່ວນແ"
 "ຖບຫນ້າຕ່າງງານໃນ Kicker"
 
-#: kstart.cpp:220
+#: kstart.cpp:300
 msgid "KStart"
 msgstr "KStart"
 
-#: kstart.cpp:221
+#: kstart.cpp:301
 msgid ""
 "Utility to launch applications with special window properties \n"
 "such as iconified, maximized, a certain virtual desktop, a special "
@@ -135,7 +157,7 @@ msgstr ""
 ", ຮູບແບບຫນ້າຕ່າງແບບພິເສດ "
 "ແລະອື່ນໆ"
 
-#: kstart.cpp:241
+#: kstart.cpp:321
 msgid "No command specified"
 msgstr "ຍັງບໍ່ໄດ້ລະບຸຄຳສັ່ງ"
 
