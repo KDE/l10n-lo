@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-12-29 14:53+0100\n"
+"POT-Creation-Date: 2005-02-03 01:19+0100\n"
 "PO-Revision-Date: 2003-01-11 18:03+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -179,7 +179,7 @@ msgstr ""
 msgid "All Changes Will Be Lost"
 msgstr ""
 
-#: kospage.cpp:339
+#: kospage.cpp:350
 msgid ""
 "<b>Window activation:</b> <i>Focus on click</i>"
 "<br><b>Titlebar double-click:</b> <i>Shade window</i>"
@@ -201,7 +201,7 @@ msgstr ""
 "<br><b>ชุดแป้นพิมพ์:</b> "
 "<i>ค่าปริยายของ KDE</i><br>"
 
-#: kospage.cpp:351
+#: kospage.cpp:362
 #, fuzzy
 msgid ""
 "<b>Window activation:</b> <i>Focus follows mouse</i>"
@@ -224,7 +224,7 @@ msgstr ""
 "<br><b>ชุดแป้นพิมพ์:</b> "
 "<i></i>ระบบยูนิกซ์<br>"
 
-#: kospage.cpp:363
+#: kospage.cpp:374
 msgid ""
 "<b>Window activation:</b> <i>Focus on click</i>"
 "<br><b>Titlebar double-click:</b> <i>Maximize window</i>"
@@ -246,7 +246,7 @@ msgstr ""
 "<br><b>ชุดแป้นพิมพ์:</b> "
 "<i>วินโดว์ส</i><br>"
 
-#: kospage.cpp:375
+#: kospage.cpp:386
 msgid ""
 "<b>Window activation:</b> <i>Focus on click</i>"
 "<br><b>Titlebar double-click:</b> <i>Shade window</i>"
@@ -379,8 +379,9 @@ msgid ""
 "date and time formats, etc.), language, desktop behavior and more.</p>\n"
 "<p>You will be able to change all the settings later using the KDE Control "
 "Center. You may choose to postpone your personalization until later by "
-"clicking on <b>Skip Wizard</b>. However, new users are encouraged to use "
-"this simple method.</p>\n"
+"clicking on <b>Skip Wizard</b>. Any changes made so far, will then be "
+"reversed, except for the country and language settings. However, new users "
+"are encouraged to use this simple method.</p>\n"
 "<p>If you already like your KDE configuration and wish to quit the Wizard, "
 "click <b>Skip Wizard</b>, then <b>Quit</b>.</p>"
 msgstr ""
@@ -559,8 +560,22 @@ msgstr ""
 "ษณะการทำงาน "
 "เป็นแบบที่คุณต้องการได้"
 
-#. i18n: file krefinepagedlg.ui line 33
+#. i18n: file kospagedlg.ui line 168
 #: rc.cpp:61
+#, no-c-format
+msgid ""
+"For motion impaired users, KDE provides keyboard gestures to activate "
+"special keyboard settings."
+msgstr ""
+
+#. i18n: file kospagedlg.ui line 179
+#: rc.cpp:64
+#, no-c-format
+msgid "Enable accessibility related keyboard gestures"
+msgstr ""
+
+#. i18n: file krefinepagedlg.ui line 33
+#: rc.cpp:67
 #, fuzzy, no-c-format
 msgid ""
 "<h3>Finished</h3>\n"
@@ -575,7 +590,7 @@ msgstr ""
 "น\" จากเมนูระบบ"
 
 #. i18n: file krefinepagedlg.ui line 81
-#: rc.cpp:65
+#: rc.cpp:71
 #, fuzzy, no-c-format
 msgid ""
 "You can refine the settings you made by starting the KDE Control Center by "
@@ -589,7 +604,7 @@ msgstr ""
 "น\" จากเมนูระบบ"
 
 #. i18n: file krefinepagedlg.ui line 133
-#: rc.cpp:68
+#: rc.cpp:74
 #, no-c-format
 msgid "You can also start the KDE Control Center using the button below."
 msgstr ""
@@ -598,13 +613,13 @@ msgstr ""
 "โดยการใช้ปุ่มด้านล่างนี้"
 
 #. i18n: file krefinepagedlg.ui line 203
-#: rc.cpp:71
+#: rc.cpp:77
 #, no-c-format
 msgid "&Launch KDE Control Center"
 msgstr "เรียกศูนย์ควบคุม KDE"
 
 #. i18n: file kstylepagedlg.ui line 32
-#: rc.cpp:74
+#: rc.cpp:80
 #, no-c-format
 msgid ""
 "Please choose the way your computer should look by selecting one of the "
@@ -617,49 +632,49 @@ msgstr ""
 "หนึ่ง ด้านล่างนี้"
 
 #. i18n: file kstylepagedlg.ui line 89
-#: rc.cpp:77
+#: rc.cpp:83
 #, no-c-format
 msgid "Preview"
 msgstr "แสดงตัวอย่าง"
 
 #. i18n: file stylepreview.ui line 42
-#: rc.cpp:80
+#: rc.cpp:86
 #, no-c-format
 msgid "Tab 1"
 msgstr "แท็บ 1"
 
 #. i18n: file stylepreview.ui line 61
-#: rc.cpp:83
+#: rc.cpp:89
 #, no-c-format
 msgid "Button"
 msgstr "ปุ่ม"
 
 #. i18n: file stylepreview.ui line 72
-#: rc.cpp:86
+#: rc.cpp:92
 #, no-c-format
 msgid "ComboBox"
 msgstr "กล่องคอมโบ"
 
 #. i18n: file stylepreview.ui line 92
-#: rc.cpp:89
+#: rc.cpp:95
 #, no-c-format
 msgid "Button Group"
 msgstr "กลุ่มของปุ่ม"
 
 #. i18n: file stylepreview.ui line 103
-#: rc.cpp:92 rc.cpp:95
+#: rc.cpp:98 rc.cpp:101
 #, no-c-format
 msgid "RadioButton"
 msgstr "ปุ่มวิทยุ"
 
 #. i18n: file stylepreview.ui line 136
-#: rc.cpp:98
+#: rc.cpp:104
 #, no-c-format
 msgid "CheckBox"
 msgstr "กล่องเช็กต์"
 
 #. i18n: file stylepreview.ui line 165
-#: rc.cpp:101
+#: rc.cpp:107
 #, no-c-format
 msgid "Tab 2"
 msgstr "แท็บ 2"
