@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-09-11 03:01+0200\n"
+"POT-Creation-Date: 2003-07-31 01:32+0200\n"
 "PO-Revision-Date: 2003-01-14 15:54+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,70 +14,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: smtp.cc:262 smtp.cc:331
-msgid "The sender address is missing."
-msgstr "ບໍ່ມີທີ່ຢູ່ຜູ້ສົ່ງ"
-
-#: smtp.cc:273
-msgid "SMTPProtocol::smtp_open failed (%1)"
-msgstr "SMTPProtocol::smtp_open ລົ້ມເຫຼວ (%1)"
-
-#: smtp.cc:282
+#: command.cc:124
 msgid ""
-"The server did not accept the sender address.\n"
-"The server responded: \"%1\""
+"The server rejected both EHLO and HELO commands as unknown or "
+"unimplemented.\n"
+"Please contact the server's system administrator."
 msgstr ""
-"ເຊີເວີບໍ່ຍອມຮັບທີ່ຢູ່ຜູ້ສົ່ງ:\n"
-"%1"
 
-#: smtp.cc:305
+#: command.cc:138
 msgid ""
-"The attempt to start sending the message content failed.\n"
-"The server responded: \"%1\""
+"Unexpected server response to %1 command.\n"
+"%2"
 msgstr ""
-"ລົ້ມເຫຼວໃນການພະຍາຍາມເຮີ່ມທຳການສົ່ງເນື້ອຫາຈົດຫມາຍ\n"
-"ໂດຍເຊີຟເວີແຈ້ງວ່າ:\n"
-"%1"
 
-#: smtp.cc:379
+#: command.cc:158
 msgid ""
-"The message content was not accepted.\n"
-"The server responded: \"%1\""
+"Your SMTP server does not support TLS. Disable TLS, if you want to connect "
+"without encryption."
 msgstr ""
-"ລົ້ມເຫຼວໃນການພະຍາຍາມທຳການສົ່ງເນື້ອຫາຈົດຫມາຍ\n"
-"ໂດຍເຊີເວີແຈ້ງວ່າ:\n"
-"%1"
+"ເຊີຟໄເວີ์ SMTP "
+"ບໍ່ສະຫນັບສະຫນູນ TLS "
+"ທ່ານອາດປິດການໃຊ້ງານ TLS "
+"ໄດ້ຫາກທ່ານຕ້ອງການເຊື່ອມຕໍ"
+"່ໂດຍບໍ່ມີການເຂົ້າລະຫັດ"
 
-#: smtp.cc:396
-msgid ""
-"One of the recipients was not accepted.\n"
-"The server responded: \"%1\""
-msgstr ""
-"ລົ້ມເຫຼວໃນການພະຍາຍາມເລີ່ມທຳການສົ່ງເນື້ອຫາຈົດຫມາຍ\n"
-"ໂດຍເຊີຟເວີແຈ້ງວ່າ:\n"
-"%1"
-
-#: smtp.cc:464 smtp.cc:487
-msgid "Invalid SMTP response received."
-msgstr ""
-"ໄດ້ຮັບການຕອບຮັບ SMTP "
-"ທີ່ບໍ່ຖືກຕ້ອງ"
-
-#: smtp.cc:520
-msgid "Invalid SMTP response received: \"%1\""
-msgstr ""
-"ໄດ້ຮັບການຕອບຮັບ SMTP "
-"ທີ່ບໍ່ຖືກຕ້ອງ: %1"
-
-#: smtp.cc:571
-msgid "The server did not accept the connection: \"%1\""
-msgstr "ເຊີຟເວີບໍ່ຍອມຮັບການເຊື່ອມຕໍ່: %1"
-
-#: smtp.cc:609 smtp.cc:657
-msgid "The server responded: \"%1\""
-msgstr "ເຊີຟເວີແຈ້ງວ່າ: %1"
-
-#: smtp.cc:633
+#: command.cc:172
 msgid ""
 "Your SMTP server claims to support TLS, but negotiation was unsuccessful.\n"
 "You can disable TLS in KDE using the crypto settings module."
@@ -87,50 +48,203 @@ msgstr ""
 "ແຕ່ບໍ່ສາມາດທຳໄດ້ສຳເລັດ\n"
 "ທ່ານສາມາດປິດກາຍໃຊ້ງານ TLS ໃນ "
 "KDE ໄດ້ "
-"ໂດຍໃຊ້ໂມດູນຕັ້ງຄ່າການເຂົ້າລະຫັດ"
+"ໂດຍໃຊ້ໂມດູນຕັ້ງຄ່າການເຂົ້"
+"າລະຫັດ"
 
-#: smtp.cc:638
+#: command.cc:177
 msgid "Connection Failed"
 msgstr "ການເຊື່ອມຕໍ່ລົ້ມເຫຼວ"
 
-#: smtp.cc:678
-msgid ""
-"Your SMTP server does not support TLS. Disable TLS, if you want to connect "
-"without encryption."
-msgstr ""
-"ເຊີຟໄເວີ์ SMTP ບໍ່ສະຫນັບສະຫນູນ TLS "
-"ທ່ານອາດປິດການໃຊ້ງານ TLS "
-"ໄດ້ຫາກທ່ານຕ້ອງການເຊື່ອມຕໍ່ໂດຍບໍ່ມີການເຂົ້າລະຫັດ"
-
-#: smtp.cc:690
-msgid "Username and password for your SMTP account:"
-msgstr "ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານສຳລັບບັນຊີຜູ້ໃຊ້ SMTP ຂອງທ່ານ:"
-
-#: smtp.cc:692
-msgid "When prompted, you ran away."
-msgstr "ເມື່ອມີການຖາມທ່ານໃດ້ສາກໄປແລ້ວ"
-
-#: smtp.cc:739
+#: command.cc:197
 msgid "No compatible authentication methods found."
-msgstr "ບໍ່ພົບວິທີການກວດສອບສິດທິທີ່ເຫມາະສົມ"
+msgstr ""
+"ບໍ່ພົບວິທີການກວດສອບສິດທິທ"
+"ີ່ເຫມາະສົມ"
 
-#: smtp.cc:760
+#: command.cc:202
+msgid ""
+"You have requested to authenticate to the server, but the server doesn't "
+"seem to support authentication.\n"
+"Try disabling authentication entirely."
+msgstr ""
+
+#: command.cc:208
 msgid ""
 "Your SMTP server doesn't support %1.\n"
 "Choose a different authentication method."
 msgstr ""
 "ເຊີຟເວີ SMTP ບໍ່ສະຫນັບສະຫນູນ %1\n"
-"ໂປດເລືອກວິທີການກວດສອບສິດທິແບບອື່ນ"
+"ໂປດເລືອກວິທີການກວດສອບສິດທ"
+"ິແບບອື່ນ"
 
-#: smtp.cc:790
+#: command.cc:262
+#, fuzzy
+msgid ""
+"Your SMTP server doesn't support %1.\n"
+"Choose a different authentication method.\n"
+"%2"
+msgstr ""
+"ເຊີຟເວີ SMTP ບໍ່ສະຫນັບສະຫນູນ %1\n"
+"ໂປດເລືອກວິທີການກວດສອບສິດທ"
+"ິແບບອື່ນ"
+
+#: command.cc:267
+#, fuzzy, c-format
+msgid ""
+"Your SMTP server doesn't support authentication.\n"
+"%2"
+msgstr ""
+"ເຊີຟເວີ SMTP ບໍ່ສະຫນັບສະຫນູນ %1\n"
+"ໂປດເລືອກວິທີການກວດສອບສິດທ"
+"ິແບບອື່ນ"
+
+#: command.cc:271
+#, fuzzy, c-format
 msgid ""
 "Authentication failed.\n"
 "Most likely the password is wrong.\n"
-"The server responded: \"%1\""
+"%1"
 msgstr ""
 "ການກວດສອບສິດທິລົ້ມເຫຼວ\n"
-"ຊື່ງເບິ່ງຄືວ່າລະຫັດຜ່ານຈະບໍ່ຖືກຕ້ອງ\n"
+"ຊື່ງເບິ່ງຄືວ່າລະຫັດຜ່ານຈະ"
+"ບໍ່ຖືກຕ້ອງ\n"
 "ໂດຍເຊີຟເວີແຈ້ງວ່າ: %1"
+
+#: command.cc:409
+msgid "Could not read data from application."
+msgstr ""
+
+#: command.cc:426
+#, fuzzy, c-format
+msgid ""
+"The message content was not accepted.\n"
+"%1"
+msgstr ""
+"ລົ້ມເຫຼວໃນການພະຍາຍາມທຳການ"
+"ສົ່ງເນື້ອຫາຈົດຫມາຍ\n"
+"ໂດຍເຊີເວີແຈ້ງວ່າ:\n"
+"%1"
+
+#: response.cc:105
+#, fuzzy, c-format
+msgid ""
+"The server responded:\n"
+"%1"
+msgstr "ເຊີຟເວີແຈ້ງວ່າ: %1"
+
+#: response.cc:108
+msgid "The server responded: \"%1\""
+msgstr "ເຊີຟເວີແຈ້ງວ່າ: %1"
+
+#: response.cc:111
+msgid "This is a temporary failure. You may try again later."
+msgstr ""
+
+#: smtp.cc:151
+msgid "The application sent an invalid request."
+msgstr ""
+
+#: smtp.cc:213
+msgid "The sender address is missing."
+msgstr "ບໍ່ມີທີ່ຢູ່ຜູ້ສົ່ງ"
+
+#: smtp.cc:221
+msgid "SMTPProtocol::smtp_open failed (%1)"
+msgstr "SMTPProtocol::smtp_open ລົ້ມເຫຼວ (%1)"
+
+#: smtp.cc:229
+msgid ""
+"Your server does not support sending of 8-bit messages.\n"
+"Please use base64 or quoted-printable encoding."
+msgstr ""
+
+#: smtp.cc:308
+#, fuzzy
+msgid "Invalid SMTP response (%1) received."
+msgstr ""
+"ໄດ້ຮັບການຕອບຮັບ SMTP "
+"ທີ່ບໍ່ຖືກຕ້ອງ"
+
+#: smtp.cc:490
+#, fuzzy, c-format
+msgid ""
+"The server did not accept the connection.\n"
+"%1"
+msgstr ""
+"ເຊີຟເວີບໍ່ຍອມຮັບການເຊື່ອມ"
+"ຕໍ່: %1"
+
+#: smtp.cc:540
+msgid "Username and password for your SMTP account:"
+msgstr ""
+"ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານສຳລັ"
+"ບບັນຊີຜູ້ໃຊ້ SMTP ຂອງທ່ານ:"
+
+#: smtp.cc:542
+msgid "When prompted, you ran away."
+msgstr ""
+"ເມື່ອມີການຖາມທ່ານໃດ້ສາກໄປ"
+"ແລ້ວ"
+
+#: transactionstate.cc:53
+#, fuzzy, c-format
+msgid ""
+"The server did not accept a blank sender address.\n"
+"%1"
+msgstr ""
+"ເຊີເວີບໍ່ຍອມຮັບທີ່ຢູ່ຜູ້ສ"
+"ົ່ງ:\n"
+"%1"
+
+#: transactionstate.cc:56
+#, fuzzy
+msgid ""
+"The server did not accept the sender address \"%1\".\n"
+"%2"
+msgstr ""
+"ເຊີເວີບໍ່ຍອມຮັບທີ່ຢູ່ຜູ້ສ"
+"ົ່ງ:\n"
+"%1"
+
+#: transactionstate.cc:97
+#, c-format
+msgid ""
+"Message sending failed since the following recipients were rejected by the "
+"server:\n"
+"%1"
+msgstr ""
+
+#: transactionstate.cc:107
+#, fuzzy, c-format
+msgid ""
+"The attempt to start sending the message content failed.\n"
+"%1"
+msgstr ""
+"ລົ້ມເຫຼວໃນການພະຍາຍາມເຮີ່ມ"
+"ທຳການສົ່ງເນື້ອຫາຈົດຫມາຍ\n"
+"ໂດຍເຊີຟເວີແຈ້ງວ່າ:\n"
+"%1"
+
+#: transactionstate.cc:111
+msgid "Unhandled error condition. Please send a bug report."
+msgstr ""
+
+#, fuzzy
+#~ msgid ""
+#~ "The server did not accept the recipient \"%1\".\n"
+#~ "%2"
+#~ msgstr "ເຊີຟເວີບໍ່ຍອມຮັບການເຊື່ອມຕໍ່: %1"
+
+#~ msgid ""
+#~ "One of the recipients was not accepted.\n"
+#~ "The server responded: \"%1\""
+#~ msgstr ""
+#~ "ລົ້ມເຫຼວໃນການພະຍາຍາມເລີ່ມທຳການສົ່ງເນື້ອຫາຈົດຫມາຍ\n"
+#~ "ໂດຍເຊີຟເວີແຈ້ງວ່າ:\n"
+#~ "%1"
+
+#~ msgid "Invalid SMTP response received: \"%1\""
+#~ msgstr "ໄດ້ຮັບການຕອບຮັບ SMTP ທີ່ບໍ່ຖືກຕ້ອງ: %1"
 
 #~ msgid ""
 #~ "The server didn't accept the message content:\n"
@@ -145,4 +259,3 @@ msgstr ""
 #~ msgstr ""
 #~ "เซิร์ฟเวอร์ไม่ยอมรับผู้รับจดหมาย\n"
 #~ "โดยแจ้งว่า: %1"
-

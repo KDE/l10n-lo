@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-11-08 02:55+0100\n"
+"POT-Creation-Date: 2003-07-31 01:32+0200\n"
 "PO-Revision-Date: 2003-01-12 13:42+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -19,27 +19,39 @@ msgid "Command to execute."
 msgstr "ຄຳສັ່ງທີ່ຈະປະມວນຜົນ"
 
 #: kstart.cpp:195
+#, fuzzy
 msgid ""
 "A regular expression matching the window title.\n"
 "If you do not specify one, then the very first window\n"
-"to appear will be taken. Not recommended!"
+"to appear will be taken. NOT RECOMMENDED!"
 msgstr ""
-"ຖ້າທ່ານບໍ່ໄດ້ກຳນົດເງື່ອນໄຂໃນການຄົ້ນຫາຫົວເລື່ອງຫນ້າຕ່າງແລ້ວແລະກະ\n"
-"ຫນ້າຕ່າງທຳອິດຈະຖືກຮງກໃຫ້ປະກົດສະເຫມີ ຈື່ງບໍ່ຂໍແນະນຳ !"
+"ຖ້າທ່ານບໍ່ໄດ້ກຳນົດເງື່ອນໄ"
+"ຂໃນການຄົ້ນຫາຫົວເລື່ອງຫນ້າ"
+"ຕ່າງແລ້ວແລະກະ\n"
+"ຫນ້າຕ່າງທຳອິດຈະຖືກຮງກໃຫ້ປ"
+"ະກົດສະເຫມີ ຈື່ງບໍ່ຂໍແນະນຳ !"
 
 #: kstart.cpp:198
 msgid "Desktop where to make the window appear. "
-msgstr "ພື້ນທີ່ທຳງານທີ່ຕ້ອງການໃຫ້ຫນ້າຕ່າງປະກົດ"
+msgstr ""
+"ພື້ນທີ່ທຳງານທີ່ຕ້ອງການໃຫ້"
+"ຫນ້າຕ່າງປະກົດ"
 
 #: kstart.cpp:199
 msgid ""
 "Make the window appear on the desktop that was active\n"
 "when starting the application. "
-msgstr "ໃຫ້ຫນ້າຕ່າງປະກົດພື້ນທີ່ທຳງານທີ່ກຳລັງແອກທີບຢູ່\nເມື່ອເລີ້ມການທຳງານຂອງແອພພຣີເຄຊັນ"
+msgstr ""
+"ໃຫ້ຫນ້າຕ່າງປະກົດພື້ນທີ່ທຳ"
+"ງານທີ່ກຳລັງແອກທີບຢູ່\n"
+"ເມື່ອເລີ້ມການທຳງານຂອງແອພພ"
+"ຣີເຄຊັນ"
 
 #: kstart.cpp:200
 msgid "Make the window appear on all desktops"
-msgstr "ເຮັດໃັຫ້ຫນ້າຕ່າງປະກົດຢູ່ທຸກພື້ນທີ່ທຳງານ"
+msgstr ""
+"ເຮັດໃັຫ້ຫນ້າຕ່າງປະກົດຢູ່ທ"
+"ຸກພື້ນທີ່ທຳງານ"
 
 #: kstart.cpp:201
 msgid "Iconify the window"
@@ -57,35 +69,57 @@ msgstr "Show window fullscreen Implies type Override."
 msgid ""
 "The window type: Normal, Desktop, Dock, Tool, \n"
 "Menu, Dialog, TopMenu or Override"
-msgstr "ປະເພດຫນ້າຕ່າງ: ປົກະຕິ, ພື້ນທີ່ທຳງານ, Dock, ເຄື່ອງມື, \n ເມນູ, ກ່ອງໂຕ້ຕອບ ຫລືໃຊ້ແທນ"
+msgstr ""
+"ປະເພດຫນ້າຕ່າງ: ປົກະຕິ, "
+"ພື້ນທີ່ທຳງານ, Dock, ເຄື່ອງມື, \n"
+" ເມນູ, ກ່ອງໂຕ້ຕອບ ຫລືໃຊ້ແທນ"
 
 #: kstart.cpp:205
 msgid ""
 "Jump to the window even if it is started on a \n"
 "different virtual desktop"
-msgstr "ກະໂດດໄປຍັງຫນ້າຕ່າງ ເຖິງວ່າມັນຈະເລີ້ມການທຳງານ\nໃນພື້ນທີ່ທຳງານອື່ນກໍຕາມ"
-
-#: kstart.cpp:207
-msgid "Make the window always stay on top of any other window"
-msgstr "ເຮັດໃຫ້ຫນ້າຕ່າງຢູ່ເຫນືອຫນ້າຕ່າງອື່່ນສະເຫມີ"
+msgstr ""
+"ກະໂດດໄປຍັງຫນ້າຕ່າງ "
+"ເຖິງວ່າມັນຈະເລີ້ມການທຳງານ\n"
+"ໃນພື້ນທີ່ທຳງານອື່ນກໍຕາມ"
 
 #: kstart.cpp:208
-msgid "The window does not get an entry in the taskbar"
-msgstr "ຫນ້າຕ່າງບໍ່ປະກົດໃນສ່ວນແຖບຫນ້າຕ່າງງານ"
-
-#: kstart.cpp:209
-msgid "The window does not get an entry on the pager"
-msgstr "ຫນ້າຕ່າງບໍ່ປະກົດໃນສ່ວນເພຈເຈີ"
+#, fuzzy
+msgid "Try to keep the window above other windows"
+msgstr ""
+"ເຮັດໃຫ້ຫນ້າຕ່າງຢູ່ເຫນືອຫນ"
+"້າຕ່າງອື່່ນສະເຫມີ"
 
 #: kstart.cpp:210
-msgid "The window is sent to the system tray in Kicker."
-msgstr "ຫນ້າຕ່າງຖືກສົ່ງໄປຍັງສ່ວນແຖບຫນ້າຕ່າງງານໃນ Kicker"
+#, fuzzy
+msgid "Try to keep the window below other windows"
+msgstr ""
+"ເຮັດໃຫ້ຫນ້າຕ່າງຢູ່ເຫນືອຫນ"
+"້າຕ່າງອື່່ນສະເຫມີ"
 
-#: kstart.cpp:217
+#: kstart.cpp:211
+msgid "The window does not get an entry in the taskbar"
+msgstr ""
+"ຫນ້າຕ່າງບໍ່ປະກົດໃນສ່ວນແຖບ"
+"ຫນ້າຕ່າງງານ"
+
+#: kstart.cpp:212
+msgid "The window does not get an entry on the pager"
+msgstr ""
+"ຫນ້າຕ່າງບໍ່ປະກົດໃນສ່ວນເພຈ"
+"ເຈີ"
+
+#: kstart.cpp:213
+msgid "The window is sent to the system tray in Kicker."
+msgstr ""
+"ຫນ້າຕ່າງຖືກສົ່ງໄປຍັງສ່ວນແ"
+"ຖບຫນ້າຕ່າງງານໃນ Kicker"
+
+#: kstart.cpp:220
 msgid "KStart"
 msgstr "KStart"
 
-#: kstart.cpp:218
+#: kstart.cpp:221
 msgid ""
 "Utility to launch applications with special window properties \n"
 "such as iconified, maximized, a certain virtual desktop, a special "
@@ -93,11 +127,15 @@ msgid ""
 "and so on."
 msgstr ""
 "ເຄື່ອງມືຮງກແອພພຣີເຄຊັນ "
-"ພ້ອມຄຸນສົມບັດພິເສດຂອງຫນ້າຕ່າງ \n"
-"ເຊັ່ນ ຫຍໍ້ເປັນໄອຄອນ, ຂະຫຍາຍໃຫຍ່ສຸດ, "
-"ເທິງພື້ນທີ່ທຳງານສະເຫມືອນ\n, ຮູບແບບຫນ້າຕ່າງແບບພິເສດ ແລະອື່ນໆ"
+"ພ້ອມຄຸນສົມບັດພິເສດຂອງຫນ້າ"
+"ຕ່າງ \n"
+"ເຊັ່ນ ຫຍໍ້ເປັນໄອຄອນ, "
+"ຂະຫຍາຍໃຫຍ່ສຸດ, "
+"ເທິງພື້ນທີ່ທຳງານສະເຫມືອນ\n"
+", ຮູບແບບຫນ້າຕ່າງແບບພິເສດ "
+"ແລະອື່ນໆ"
 
-#: kstart.cpp:238
+#: kstart.cpp:241
 msgid "No command specified"
 msgstr "ຍັງບໍ່ໄດ້ລະບຸຄຳສັ່ງ"
 
@@ -112,4 +150,3 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "neuk@yahoo.com"
-
