@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-08-03 01:18+0200\n"
+"POT-Creation-Date: 2004-10-26 01:17+0200\n"
 "PO-Revision-Date: 2003-01-13 14:03+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -26,65 +26,81 @@ msgid ""
 "Your emails"
 msgstr "neuk@yahoo.com"
 
-#: basictab.cpp:76
+#: basictab.cpp:78
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
+"%f - a single file name\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
+"%u - a single URL\n"
+"%U - a list of URLs\n"
+"%d - the folder of the file to open\n"
+"%D - a list of folders\n"
+"%i - the icon\n"
+"%m - the mini-icon\n"
+"%c - the caption"
+msgstr ""
+
+#: basictab.cpp:90
 msgid "Enable &launch feedback"
 msgstr ""
 
-#: basictab.cpp:77
+#: basictab.cpp:91
 msgid "&Place in system tray"
 msgstr ""
 
-#: basictab.cpp:80
+#: basictab.cpp:94
 msgid "&Name:"
 msgstr "ຊື່:"
 
-#: basictab.cpp:81
+#: basictab.cpp:95
 msgid "&Description:"
 msgstr ""
 
-#: basictab.cpp:82
+#: basictab.cpp:96
 msgid "&Comment:"
 msgstr "ຄຳອະທິບາຍ:"
 
-#: basictab.cpp:83
+#: basictab.cpp:97
 msgid "Co&mmand:"
 msgstr "ຄຳສັ່ງ:"
 
-#: basictab.cpp:128
+#: basictab.cpp:143
 msgid "&Work path:"
 msgstr "ພາທທີ່ໃຊ້ທຳງານ:"
 
-#: basictab.cpp:146
+#: basictab.cpp:161
 msgid "Run in term&inal"
 msgstr "ປະມວນຜົນໃນເທີມິນັລ"
 
-#: basictab.cpp:152
+#: basictab.cpp:167
 msgid "Terminal &options:"
 msgstr "ຕົວເລືອກເທີມິນັລ:"
 
-#: basictab.cpp:169
+#: basictab.cpp:184
 #, fuzzy
 msgid "&Run as a different user"
 msgstr ""
 "ປະມວນຜົນໂດຍໃຊ້ຫມາຍເລກຜູ້ໃ"
 "ຊ້ອື່ນ"
 
-#: basictab.cpp:175
+#: basictab.cpp:190
 #, fuzzy
 msgid "&Username:"
 msgstr "ຊື່ຜູ້ໃຊ້:"
 
-#: basictab.cpp:206
+#: basictab.cpp:221
 msgid "Current shortcut &key:"
 msgstr "ປຸ່ມພີມລັດປັດຈຸບັນ:"
 
-#: basictab.cpp:470
+#: basictab.cpp:485
 msgid ""
 "<qt>The key <b>%1</b> can not be used here because it is already used to "
 "activate <b>%2</b>."
 msgstr ""
 
-#: basictab.cpp:475
+#: basictab.cpp:490
 msgid "<qt>The key <b>%1</b> can not be used here because it is already in use."
 msgstr ""
 
@@ -98,48 +114,48 @@ msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KD
 msgid "KDE Control Center Editor"
 msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
-#: kcontrol_main.cpp:41 main.cpp:38
+#: kcontrol_main.cpp:41 main.cpp:68
 msgid "Maintainer"
 msgstr "ຜູ້ເບິ່ງແຍງ"
 
-#: kcontrol_main.cpp:42 main.cpp:39
+#: kcontrol_main.cpp:42 main.cpp:69
 #, fuzzy
 msgid "Previous Maintainer"
 msgstr "ຜູ້ເບິ່ງແຍງ"
 
-#: kcontrol_main.cpp:43 main.cpp:40
+#: kcontrol_main.cpp:43 main.cpp:70
 msgid "Original Author"
 msgstr "ຜູ້ຂງນດັ້ງເດີມ"
 
-#: kmenuedit.cpp:75
+#: kmenuedit.cpp:65
 msgid "&New Submenu..."
 msgstr "ສ້າງເມນູຍ່ອຍໃຫມ່"
 
-#: kmenuedit.cpp:76
+#: kmenuedit.cpp:66
 msgid "New &Item..."
 msgstr "ສ້າງລາຍການໃຫມ່"
 
-#: kmenuedit.cpp:78
-msgid "New &Separator"
+#: kmenuedit.cpp:68
+msgid "New S&eparator"
 msgstr ""
 
-#: kmenuedit.cpp:165
+#: kmenuedit.cpp:153
 msgid ""
 "You have made changes to the Control Center.\n"
 "Do you want to save the changes or discard them?"
 msgstr ""
 
-#: kmenuedit.cpp:167
+#: kmenuedit.cpp:155
 msgid "Save Control Center Changes?"
 msgstr ""
 
-#: kmenuedit.cpp:173
+#: kmenuedit.cpp:161
 msgid ""
 "You have made changes to the menu.\n"
 "Do you want to save the changes or discard them?"
 msgstr ""
 
-#: kmenuedit.cpp:175
+#: kmenuedit.cpp:163
 msgid "Save Menu Changes?"
 msgstr ""
 
@@ -149,6 +165,14 @@ msgid "KDE menu editor"
 msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
 #: main.cpp:35
+msgid "Sub menu to pre-select"
+msgstr ""
+
+#: main.cpp:36
+msgid "Menu entry to pre-select"
+msgstr ""
+
+#: main.cpp:65
 msgid "KDE Menu Editor"
 msgstr "ເຄື່ອງມືແກ້ໄຂເມນູສຳຫລັບ KDE"
 
@@ -161,23 +185,23 @@ msgstr ""
 msgid " [Hidden]"
 msgstr " [ຖືກເຊື່ອງໄວ້]"
 
-#: treeview.cpp:831
+#: treeview.cpp:910
 msgid "New Submenu"
 msgstr "ສ້າງເມນູຍ່ອຍໃຫມ່"
 
-#: treeview.cpp:832
+#: treeview.cpp:911
 msgid "Submenu name:"
 msgstr "ຊື່ເມນູຍ່ອຍ:"
 
-#: treeview.cpp:902
+#: treeview.cpp:981
 msgid "New Item"
 msgstr "ສ້າງລາຍການໃຫມ່"
 
-#: treeview.cpp:903
+#: treeview.cpp:982
 msgid "Item name:"
 msgstr "ໍໍຊື່ລາຍການ:"
 
-#: treeview.cpp:1383
+#: treeview.cpp:1462
 msgid "Menu changes could not be saved because of the following problem:"
 msgstr ""
 
@@ -226,9 +250,7 @@ msgstr ""
 #~ msgid " [Removed]"
 #~ msgstr " [ถูกลบ]"
 
-#~ msgid ""
-#~ "This is a root item. You don't have permission to delete it. Hide it "
-#~ "instead."
+#~ msgid "This is a root item. You don't have permission to delete it. Hide it instead."
 #~ msgstr "นี่เป็นรายการราก ซึ่งคุณไม่มีสิทธิ์ที่จะลบมัน ดังนั้น ถ้าต้องการลบ ให้เลือกซ่อนแทน"
 
 #, fuzzy
@@ -236,9 +258,7 @@ msgstr ""
 #~ msgstr "ไม่อนุญาต"
 
 #, fuzzy
-#~ msgid ""
-#~ "This is a root item. Only your modifications have been deleted. If you "
-#~ "want to completely remove this item hide it instead."
+#~ msgid "This is a root item. Only your modifications have been deleted. If you want to completely remove this item hide it instead."
 #~ msgstr "นี่เป็นรายการราก ซึ่งคุณไม่มีสิทธิ์ที่จะลบมัน ดังนั้น ถ้าต้องการลบ ให้เลือกซ่อนแทน"
 
 #~ msgid "Name:"
