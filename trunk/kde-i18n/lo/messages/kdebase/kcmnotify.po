@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-10-25 02:49+0200\n"
+"POT-Creation-Date: 2003-10-21 01:28+0200\n"
 "PO-Revision-Date: 2003-01-14 14:39+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,7 +14,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: knotify.cpp:182
+#: knotify.cpp:58
+msgid "Event source:"
+msgstr ""
+
+#: knotify.cpp:176
 msgid ""
 "<h1>System Notifications</h1>"
 "KDE allows for a great deal of control over how you will be notified when "
@@ -27,39 +31,44 @@ msgid ""
 "<li>By recording the event in a logfile without any additional visual or "
 "audible alert.</ul>"
 msgstr ""
-""
 "<h1>ການແຈ້ງເຕືອນຂອງລະບົບ</h1> KDE > "
-"ອະນຸຍາດໃຫ້ທ່ານຄວບຄຸມວ່າທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນຢ່າງໃດເ"
-"ເມື່ອເກີດເຫດການບາງຢ່າງຂື້ນຊື່ງມີຕົວເລືອກຕ່າງໆຄື: "
+"ອະນຸຍາດໃຫ້ທ່ານຄວບຄຸມວ່າທ່"
+"ານຈະໄດ້ຮັບການແຈ້ງເຕືອນຢ່າ"
+"ງໃດເເມື່ອເກີດເຫດການບາງຢ່າ"
+"ງຂື້ນຊື່ງມີຕົວເລືອກຕ່າງໆຄ"
+"ື: "
 "<ul>"
 "<li> "
-"ຖືກກຳນົດມາໂດຍແອັບພລິເຄຊັນ<li>ໂດຍສົ່ງສງງບີ໊ບຫລືສງງອື່ນ<li>ສະແດງຜ່ານໄດອາລັອກ"
-"ພ້ອມລາຍລະອງດອື່ນໆ"
-"<li>ໂດຍບັນທຶກເຫດການໃນແຟ້ມຕິດຕາມການເຮັດວງກ"
-"ໂດຍບໍ່ຕ້ອງແຈ້ງໃຫ້ຜູ້"
-"ໃຊ້ຮູ້</ul> "
+"ຖືກກຳນົດມາໂດຍແອັບພລິເຄຊັນ<l"
+"i>"
+"ໂດຍສົ່ງສງງບີ໊ບຫລືສງງອື່ນ"
+"<li>ສະແດງຜ່ານໄດອາລັອກພ້ອມລາຍ"
+"ລະອງດອື່ນໆ"
+"<li>ໂດຍບັນທຶກເຫດການໃນແຟ້ມຕິດ"
+"ຕາມການເຮັດວງກໂດຍບໍ່ຕ້ອງແຈ"
+"້ງໃຫ້ຜູ້ໃຊ້ຮູ້</ul> "
 
-#: knotify.cpp:201
+#: knotify.cpp:195
 msgid "KNotify"
 msgstr "ການແຈ້ງເຕືອນຂອງລະບົບ"
 
-#: knotify.cpp:202
+#: knotify.cpp:196
 msgid "System Notification Control Panel Module"
 msgstr "ໂມດູນການແຈ້ງເຕືອນຂອງລະບົບ"
 
-#: knotify.cpp:205
+#: knotify.cpp:199
 msgid "Original implementation"
 msgstr "ການກຳນົດດັ້ງເດີມ"
 
-#: knotify.cpp:217
+#: knotify.cpp:211
 msgid "Player Settings"
 msgstr "ຕິດຕັ້ງຜູ້ໃຊ້"
 
-#: knotify.cpp:224
+#: knotify.cpp:219
 msgid "Use e&xternal player: "
 msgstr "ໃຊ້ໂປຼແກມຫລິ້ນພາຍນອກ:"
 
-#: knotify.cpp:232
+#: knotify.cpp:228
 msgid "&Volume: "
 msgstr "ລະດັບສງງ"
 
@@ -67,17 +76,13 @@ msgstr "ລະດັບສງງ"
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr ""
-"Thanomsub Noppaburana "
-"Khampheng Indavong"
+msgstr "Thanomsub Noppaburana Khampheng Indavong"
 
 #: _translatorinfo.cpp:3
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr ""
-"donga_n@yahoo.com "
-"t_indavong@yahoo.com"
+msgstr "donga_n@yahoo.com t_indavong@yahoo.com"
 
 #~ msgid ""
 #~ "This will cause the notifications for *All Applications* to be reset to "
@@ -130,4 +135,3 @@ msgstr ""
 
 #~ msgid "No Description"
 #~ msgstr "ไม่มีรายละเอียด"
-
