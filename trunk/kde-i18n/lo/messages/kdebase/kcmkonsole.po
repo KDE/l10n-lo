@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-09-19 02:58+0200\n"
+"POT-Creation-Date: 2003-10-25 01:34+0200\n"
 "PO-Revision-Date: 2003-01-14 17:07+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -26,23 +26,36 @@ msgid ""
 "Your emails"
 msgstr "donga_n@yahoo.com"
 
-#: kcmkonsole.cpp:49
+#: kcmkonsole.cpp:44
 msgid ""
 "_: normal line spacing\n"
 "Normal"
 msgstr "ປົກກະຕິ"
 
-#: kcmkonsole.cpp:152
+#: kcmkonsole.cpp:155
 msgid ""
 "The Ctrl+S/Ctrl+Q flow control setting will only affect newly started "
 "Konsole sessions.\n"
 "The 'stty' command can be used to change the flow control settings of "
 "existing Konsole sessions."
 msgstr ""
-"ການຕິດຕັ້ງ THE Ctrl+S/Ctrl+Q  ຈະເປັນຜົນຕໍ່ເຊເຊິນຂອງຄອນໂຊນ \n"
-"ຄຳສັ່ງ ' stty ' ສາມາດໃຫ້ຖືກໃຊ້ປຸ່ງນການຕິດຕັ້ງຄອນໂຊນທີ່ມີຢູ່."
+"ການຕິດຕັ້ງ THE Ctrl+S/Ctrl+Q  "
+"ຈະເປັນຜົນຕໍ່ເຊເຊິນຂອງຄອນໂ"
+"ຊນ \n"
+"ຄຳສັ່ງ ' stty ' "
+"ສາມາດໃຫ້ຖືກໃຊ້ປຸ່ງນການຕິດ"
+"ຕັ້ງຄອນໂຊນທີ່ມີຢູ່."
 
-#: kcmkonsole.cpp:180
+#: kcmkonsole.cpp:163
+msgid ""
+"You have chosen to enable bidirectional text rendering by default.\n"
+"Note that bidirectional text may not always be shown correctly, especially "
+"when selecting parts of text written right-to-left. This is a known issue "
+"which cannot be resolved at the moment due to the nature of text handling in "
+"console-based applications."
+msgstr ""
+
+#: kcmkonsole.cpp:186
 msgid ""
 "<h1>Konsole</h1> With this module you can configure Konsole, the KDE "
 "terminal application. You can configure the generic Konsole options (which "
@@ -51,74 +64,74 @@ msgid ""
 msgstr ""
 "<h1>konsole</h1>"
 " ເຈົ້າສາມາດປັບແຕ່ງ konsole - "
-"ເທີລ໌ມີນັດຂອງ KDE ໄດ"
-"ຜ່ານທາງໂມດູນນີ້"
-"ເຈົ້າສາມາດປັບແຕ່ງຕົວເລືອກ"
-"ທົ່ວໄປຂອງ konsole "
-"ເຊັ່ນຊຸດຮູບແບບຂອງ konsole"
+"ເທີລ໌ມີນັດຂອງ KDE "
+"ໄດຜ່ານທາງໂມດູນນີ້ເຈົ້າສາມ"
+"າດປັບແຕ່ງຕົວເລືອກທົ່ວໄປຂອ"
+"ງ konsole ເຊັ່ນຊຸດຮູບແບບຂອງ konsole"
 
-#: kcmkonsole.cpp:190
+#: kcmkonsole.cpp:196
 msgid "KCM Konsole"
 msgstr "KCM ຄອນໂຊນລ"
 
-#: kcmkonsole.cpp:191
+#: kcmkonsole.cpp:197
 msgid "KControl module for Konsole configuration"
 msgstr "ໂມດຸນKControl ສຳຫລັບປັບແຕ່ງ konsole"
 
 #: rc.cpp:1
-msgid "KCMKonsoleDialog"
-msgstr "KCM ຄອນໂຊນລ"
-
-#: rc.cpp:2
 msgid "&General"
 msgstr "ທົ່ວໄປ"
 
-#: rc.cpp:3
+#: rc.cpp:2
 msgid "Misc"
 msgstr "ແລະອືນໆ"
 
-#: rc.cpp:4
-msgid "Show terminal si&ze when resizing"
-msgstr "ສະແດງຂະຫນາດເທີຣ໌ມີນັດເມືອມີການປັບຂະຫນາດ"
+#: rc.cpp:3
+#, fuzzy
+msgid "Show terminal si&ze after resizing"
+msgstr ""
+"ສະແດງຂະຫນາດເທີຣ໌ມີນັດເມືອ"
+"ມີການປັບຂະຫນາດ"
 
-#: rc.cpp:5
+#: rc.cpp:4
 msgid "Show &frame"
 msgstr "ສະແດງຟະເລັມ"
 
-#: rc.cpp:6
-msgid "&Confirm quit with open sessions"
+#: rc.cpp:5
+#, fuzzy
+msgid "&Confirm quit when closing more then one session"
 msgstr ""
-"ຖາມຢືນຢັນການອອກ"
-"ເມື່ອເປີດເຊດສ໌ຊັນອື່ນຄ້າງໄວ້"
-"้"
+"ຖາມຢືນຢັນການອອກເມື່ອເປີດເ"
+"ຊດສ໌ຊັນອື່ນຄ້າງໄວ้້"
+
+#: rc.cpp:6
+msgid "&Blinking cursor"
+msgstr "ກະພິບເຄີ໌ເຊີຣ໌์"
 
 #: rc.cpp:7
-msgid "&Blinking cursor"
-msgstr ""
-"ກະພິບເຄີ໌ເຊີຣ໌"
-"์"
-
-#: rc.cpp:8
 msgid "&Require Ctrl key for drag and drop"
 msgstr ""
-"ຕ້ອງການໃຊ້ປຸ່ມພິມ Ctrl"
-"ສຳລັບການດືງແລະວາງດ້ວຍ"
+"ຕ້ອງການໃຊ້ປຸ່ມພິມ "
+"Ctrlສຳລັບການດືງແລະວາງດ້ວຍ"
 
-#: rc.cpp:9
+#: rc.cpp:8
 msgid "Triple click selects &only from the current word forward"
 msgstr ""
-"ຄິກສາມຄັ້ງເພື່ອເລືອກສະເພາະ"
-"ຈາກຄຳປັດຈຸບັນແປ້ນຕົ້ນໄປ"
+"ຄິກສາມຄັ້ງເພື່ອເລືອກສະເພາ"
+"ະຈາກຄຳປັດຈຸບັນແປ້ນຕົ້ນໄປ"
 
-#: rc.cpp:10
+#: rc.cpp:9
 msgid "Allow progr&ams to resize terminal window"
 msgstr ""
-"ອານຸຍາດໃຫ້ໂປຣແກຣມປັບຂະຫນາດຕ່າງເທີລ໌ມີນັດໄດ້ "
-"้"
+"ອານຸຍາດໃຫ້ໂປຣແກຣມປັບຂະຫນາ"
+"ດຕ່າງເທີລ໌ມີນັດໄດ້ ้"
 
-#: rc.cpp:11
+#: rc.cpp:10
 msgid "Use Ctrl+S/Ctrl+Q flow control"
 msgstr "ໃຊ້ຄຳສັງ Ctrl+S/Ctrl+Q flow control"
+
+#: rc.cpp:11
+msgid "Enable bidirectional text rendering"
+msgstr ""
 
 #: rc.cpp:12
 msgid "&Line spacing:"
@@ -126,7 +139,9 @@ msgstr "ໄລຍະຫ່າງບັນທັດ"
 
 #: rc.cpp:13
 msgid "Seconds to detect s&ilence:"
-msgstr "ເວລາເປັນວິນາທີເພື່ອກວດສອບງງບໆ:"
+msgstr ""
+"ເວລາເປັນວິນາທີເພື່ອກວດສອບ"
+"ງງບໆ:"
 
 #: rc.cpp:14
 msgid "Double Click"
@@ -135,8 +150,9 @@ msgstr "ດັບເບີນຄີກ"
 #: rc.cpp:15
 msgid "Consider the following characters &part of a word when double clicking:"
 msgstr ""
-"ພິຈາລະນາໃຫ້ອັກຂະລະຕໍ່ໄປນີ້"
-"ເປັນສ່ວນຫນື່ງຂອງຄຳເມື່ອດັບເບີນຄິກ"
+"ພິຈາລະນາໃຫ້ອັກຂະລະຕໍ່ໄປນີ"
+"້ເປັນສ່ວນຫນື່ງຂອງຄຳເມື່ອດ"
+"ັບເບີນຄິກ"
 
 #: rc.cpp:16
 msgid "&Schema"
@@ -166,7 +182,7 @@ msgstr "ສີເຊັວລ์:"
 msgid "&Bold"
 msgstr "ຕົວຫນາ"
 
-#: rc.cpp:24 rc.cpp:83
+#: rc.cpp:24 rc.cpp:76
 msgid "Custom"
 msgstr "ກຳຫນົດເອງ"
 
@@ -276,7 +292,9 @@ msgstr "ຊຸດຮູບແບບ"
 
 #: rc.cpp:51
 msgid "S&et as default schema"
-msgstr "ຕັ້ງໃຫ້ເປັນຊຸດຮູບແບບໂດບອະທິບາຍ"
+msgstr ""
+"ຕັ້ງໃຫ້ເປັນຊຸດຮູບແບບໂດບອະ"
+"ທິບາຍ"
 
 #: rc.cpp:52
 msgid "&Save Schema..."
@@ -330,215 +348,233 @@ msgstr "ຊັດເຈນ"
 msgid "Konsole Session Editor"
 msgstr "ເຄືອ່ງມືແກ້ໄຂເຊດສ໌ຊັນ Konsole"
 
-#: rc.cpp:66
-msgid "General"
-msgstr "ທົ່ວໄປ"
-
 #: rc.cpp:67
-msgid "&Name:"
-msgstr "ຊື່:"
-
-#: rc.cpp:68
-msgid "E&xecute:"
-msgstr "ຕີລາຄາ:"
-
-#: rc.cpp:69
-msgid "&Directory:"
-msgstr "ໄດເລັກທໍລີ"
-
-#: rc.cpp:70
-msgid "Session"
-msgstr "ເຊດສ໌ຊັນ"
-
-#: rc.cpp:71
-msgid "Sa&ve Session..."
-msgstr "ບັນທືກເຊດສ໌ເຊີນ"
-
-#: rc.cpp:72
-msgid "&Remove Session"
-msgstr "ລົບເຊັດສ໌ເຊີນ"
-
-#: rc.cpp:74
 msgid "<Default>"
 msgstr "<ຄ່າປະລິຍາຍ>"
 
-#: rc.cpp:75
+#: rc.cpp:68
 msgid "Normal"
 msgstr "ປົກກະຕິ"
 
-#: rc.cpp:76
+#: rc.cpp:69
 msgid "Tiny"
 msgstr "ກະທັດລັດ"
 
-#: rc.cpp:77
+#: rc.cpp:70
 msgid "Small"
 msgstr "ນ້ອຍ"
 
-#: rc.cpp:78
+#: rc.cpp:71
 msgid "Medium"
 msgstr "ປານກາງ"
 
-#: rc.cpp:79
+#: rc.cpp:72
 msgid "Large"
 msgstr "ໃຫຍ່"
 
-#: rc.cpp:80
+#: rc.cpp:73
 msgid "Huge"
 msgstr "ໃຫຍ່ທີ່ສຸດ"
 
-#: rc.cpp:81
+#: rc.cpp:74
 msgid "Linux"
 msgstr "ລີນຸກຊ໌"
 
-#: rc.cpp:82
+#: rc.cpp:75
 msgid "Unicode"
 msgstr "ຢູນີໂຄດ"
 
-#: rc.cpp:84
+#: rc.cpp:77
 msgid "&Font:"
 msgstr "ຮູບແບບຕົວອັກສອນ"
 
-#: rc.cpp:85
+#: rc.cpp:78
 msgid "Sc&hema:"
 msgstr "ຊຸດຮູບແບບ:"
 
-#: rc.cpp:86
+#: rc.cpp:79
 msgid "$&TERM:"
 msgstr "$&TERM:"
 
-#: rc.cpp:87
+#: rc.cpp:80
 msgid "&Keytab:"
 msgstr "&Keytab:"
 
-#: rc.cpp:88
+#: rc.cpp:82
 msgid "&Icon:"
 msgstr "ໄອຄອນ:"
 
-#: schemaeditor.cpp:244 schemaeditor.cpp:562 sessioneditor.cpp:106
+#: rc.cpp:83
+msgid "Session"
+msgstr "ເຊດສ໌ຊັນ"
+
+#: rc.cpp:84
+msgid "Sa&ve Session..."
+msgstr "ບັນທືກເຊດສ໌ເຊີນ"
+
+#: rc.cpp:85
+msgid "&Remove Session"
+msgstr "ລົບເຊັດສ໌ເຊີນ"
+
+#: rc.cpp:86
+msgid "General"
+msgstr "ທົ່ວໄປ"
+
+#: rc.cpp:87
+msgid "&Name:"
+msgstr "ຊື່:"
+
+#: rc.cpp:88
+msgid "E&xecute:"
+msgstr "ຕີລາຄາ:"
+
+#: rc.cpp:89
+msgid "&Directory:"
+msgstr "ໄດເລັກທໍລີ"
+
+#: schemaeditor.cpp:245 schemaeditor.cpp:566 sessioneditor.cpp:113
 msgid "untitled"
 msgstr "ຍັງບໍ່ມີຫົວເລື່ອງ"
 
-#: schemaeditor.cpp:264
+#: schemaeditor.cpp:270
 msgid "Select Background Image"
 msgstr "ເລືອກພາບພື້ນຫລັງ"
 
-#: schemaeditor.cpp:311
+#: schemaeditor.cpp:317
 msgid "You are trying to remove a system schema. Are you sure?"
-msgstr "ເຈົ້າກຳ່ລັງລົບຮູບແບບຂອງລະບົບ ເຈົ່າແນ່ໃຈຫລື່ບໍ່ ?"
+msgstr ""
+"ເຈົ້າກຳ່ລັງລົບຮູບແບບຂອງລະ"
+"ບົບ ເຈົ່າແນ່ໃຈຫລື່ບໍ່ ?"
 
-#: schemaeditor.cpp:312
+#: schemaeditor.cpp:318
 msgid "Removing System Schema"
 msgstr "ລືບຮູບແບບຂອງລະບົບ"
 
-#: schemaeditor.cpp:322
+#: schemaeditor.cpp:330
+#, fuzzy
 msgid ""
 "Cannot remove the schema.\n"
-"Maybe it is a system schema\n"
+"Maybe it is a system schema.\n"
 msgstr ""
-"ບໍ່ສາມາດລືບຊຸດຮູບແບບຖີ້ມໄດ້ "
-"ມັນອາດຈະເປັນຊຸດຮູບແບບຂອງລະບົບ\n"
+"ບໍ່ສາມາດລືບຊຸດຮູບແບບຖີ້ມໄ"
+"ດ້ "
+"ມັນອາດຈະເປັນຊຸດຮູບແບບຂອງລ"
+"ະບົບ\n"
 
-#: schemaeditor.cpp:323
+#: schemaeditor.cpp:331
 msgid "Error Removing Schema"
 msgstr "ຜິດພາດໃນການລົບຮູບແບບ"
 
-#: schemaeditor.cpp:350 sessioneditor.cpp:288
-msgid "Filename:"
-msgstr "ຊື່ແຟ້ມ:"
-
-#: schemaeditor.cpp:351
+#: schemaeditor.cpp:356
 msgid "Save Schema"
 msgstr "ບັນທືກຊຸດຮູບແບບ"
 
-#: schemaeditor.cpp:430
+#: schemaeditor.cpp:357 sessioneditor.cpp:295
+msgid "Filename:"
+msgstr "ຊື່ແຟ້ມ:"
+
+#: schemaeditor.cpp:435
+#, fuzzy
 msgid ""
 "Cannot save the schema.\n"
-"Maybe permission denied\n"
+"Maybe permission denied.\n"
 msgstr ""
-"ບໍ່ສາມາດບັນທືກຊຸດຮູບແບບໄດ้້\n"
+"ບໍ່ສາມາດບັນທືກຊຸດຮູບແບບໄດ"
+"้້\n"
 "ອາດຈະບໍ່ໄດ້ຮັບອານຸຍາດ\n"
 
-#: schemaeditor.cpp:431
+#: schemaeditor.cpp:436
 msgid "Error Saving Schema"
 msgstr "ຜິດພາດໃນການບັນທືກຮູບແບບ"
 
-#: schemaeditor.cpp:497
+#: schemaeditor.cpp:500
 msgid ""
 "The schema has been modified.\n"
 "Do you want to save the changes?"
 msgstr ""
 "ມີການແກ້ໄຂຊຸດຮູບແບບ\n"
-"ເຈົ້າຕ້ອງການບັນທືກການປ່ງນແປງກ່ອນຫລື່ບໍ່"
+"ເຈົ້າຕ້ອງການບັນທືກການປ່ງນ"
+"ແປງກ່ອນຫລື່ບໍ່"
 
-#: schemaeditor.cpp:499
+#: schemaeditor.cpp:502
 msgid "Schema Modified"
 msgstr "ຊຸດຮູບແບບຖືກແກ້ໄຂ"
 
-#: schemaeditor.cpp:543
+#: schemaeditor.cpp:546
 msgid "Cannot find the schema."
 msgstr "ບໍ່ສາມາດຄົ້ນຫາຊຸດຮູບແບບ"
 
-#: schemaeditor.cpp:544 schemaeditor.cpp:554
+#: schemaeditor.cpp:547 schemaeditor.cpp:558
 msgid "Error Loading Schema"
 msgstr ""
-"ຜິດພາດໃນການເອີ້ນໃຊ້ຊຸດຮູບແບບ"
-"ู"
+"ຜິດພາດໃນການເອີ້ນໃຊ້ຊຸດຮູບ"
+"ແບບู"
 
-#: schemaeditor.cpp:553
+#: schemaeditor.cpp:557
 msgid "Cannot load the schema."
 msgstr ""
-"ບໍ່ສາມາດເອີ້ນໃຊ້ຊຸດຮູບແບບໄດ້"
-"้"
+"ບໍ່ສາມາດເອີ້ນໃຊ້ຊຸດຮູບແບບ"
+"ໄດ้້"
 
-#: sessioneditor.cpp:88
+#: sessioneditor.cpp:99
 msgid "XTerm (XFree 4.x.x)"
 msgstr "ເທີລ໌ມີນັດX (XFree 4.x.x)"
 
-#: sessioneditor.cpp:164
+#: sessioneditor.cpp:167
 msgid "Unnamed"
 msgstr "ຍັງບໍ່ມີຊື"
 
-#: sessioneditor.cpp:240
+#: sessioneditor.cpp:248
 msgid ""
 "The session has been modified.\n"
 "Do you want to save the changes?"
 msgstr ""
 "ມີການແກ້ໄຂເຊເຊິນ\n"
-"ເຈົ້າຕ້ອງການບັນທືກການປ່ງນແປງຫລືບໍ่່?"
+"ເຈົ້າຕ້ອງການບັນທືກການປ່ງນ"
+"ແປງຫລືບໍ่່?"
 
-#: sessioneditor.cpp:242
+#: sessioneditor.cpp:250
 msgid "Session Modified"
 msgstr "ເຊເຊິນຖືກແກ້ໄຂ"
 
-#: sessioneditor.cpp:258
+#: sessioneditor.cpp:266
 msgid "Konsole Default"
 msgstr "ຄາ່ປະລິຍາຍຂອງໂຄນໂຊນລ໌"
 
-#: sessioneditor.cpp:289
+#: sessioneditor.cpp:294
 msgid "Save Session"
 msgstr "ບັນທືກເຊເຊິນ"
 
-#: sessioneditor.cpp:327
+#: sessioneditor.cpp:330
 msgid "You are trying to remove a system session. Are you sure?"
 msgstr ""
-"ເຈົ້າກຳລັງຈະເຮັດການລຶບເຊເຊິນຂອງລະບົບ"
-"ເຈົ້່າແນ່ໃຈຫລືບໍ่່ ?"
+"ເຈົ້າກຳລັງຈະເຮັດການລຶບເຊເ"
+"ຊິນຂອງລະບົບເຈົ້່າແນ່ໃຈຫລື"
+"ບໍ่່ ?"
 
-#: sessioneditor.cpp:328
+#: sessioneditor.cpp:331
 msgid "Removing System Session"
 msgstr "ລືບເຊເຊິນຂອງລະບົບ"
 
-#: sessioneditor.cpp:335
+#: sessioneditor.cpp:338
+#, fuzzy
 msgid ""
 "Cannot remove the session.\n"
-"Maybe it is a system session\n"
+"Maybe it is a system session.\n"
 msgstr ""
 "ບໍ່ສາມາດລືບເຊເຊິນໄດ้\n"
 "ມັນອາດເປັນເຊເຊິນຂອງລະບົບ\n"
 
-#: sessioneditor.cpp:336
+#: sessioneditor.cpp:339
 msgid "Error Removing Session"
 msgstr "ຜິດພາດໃນການລືບເຊເຊິນ"
+
+#, fuzzy
+#~ msgid "&Folder:"
+#~ msgstr "ຕົວຫນາ"
+
+#~ msgid "KCMKonsoleDialog"
+#~ msgstr "KCM ຄອນໂຊນລ"
 
 #~ msgid "&Write Daemon"
 #~ msgstr "เดมอน Write"
@@ -570,4 +606,3 @@ msgstr "ຜິດພາດໃນການລືບເຊເຊິນ"
 
 #~ msgid "&Warn for Open Sessions on Quit"
 #~ msgstr "เตือนก่อนออก หากเปิดเซสชันค้างไว้"
-
