@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-16 01:18+0200\n"
+"POT-Creation-Date: 2004-12-29 14:53+0100\n"
 "PO-Revision-Date: 2003-01-11 18:03+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -23,8 +23,9 @@ msgid "Description"
 msgstr "รายละเอียด"
 
 #: kstylepage.cpp:55
-msgid "Keramik"
-msgstr ""
+#, fuzzy
+msgid "Plastik"
+msgstr "แพลทตินัม (แม็คอินทอช)"
 
 #: kstylepage.cpp:55
 msgid "Light"
@@ -45,13 +46,13 @@ msgid "Classic KDE style"
 msgstr "รูปแบบ KDE คลาสสิค"
 
 #: kstylepage.cpp:63
-#, fuzzy
-msgid "Plastik"
-msgstr "แพลทตินัม (แม็คอินทอช)"
+msgid "Keramik"
+msgstr ""
 
 #: kstylepage.cpp:64
-msgid "A modern, yet simple style"
-msgstr ""
+#, fuzzy
+msgid "The previous default style"
+msgstr "รูปแบบปริยายของ KDE"
 
 #: kstylepage.cpp:67
 msgid "Sunshine"
@@ -298,7 +299,8 @@ msgid "Panel Background Picture"
 msgstr "ภาพพื้นหลังพาเนล"
 
 #: keyecandypage.cpp:83
-msgid "Panel Icon Zooming"
+#, fuzzy
+msgid "Panel Icon Popups"
 msgstr "การขยายไอคอนบนพาเนล"
 
 #: keyecandypage.cpp:85
@@ -323,25 +325,25 @@ msgstr "ไอคอนพื้นที่ทำงานขนาดใหญ
 msgid "Large Panel Icons"
 msgstr "ไอคอนพาเนลขนาดใหญ่"
 
-#: keyecandypage.cpp:104
+#: keyecandypage.cpp:102
+msgid "Smoothed Fonts (Antialiasing)"
+msgstr "ตัวอักษรแบบไร้รอยหยัก"
+
+#: keyecandypage.cpp:106
 #, fuzzy
 msgid "Preview Images"
 msgstr "แสดงตัวอย่าง"
 
-#: keyecandypage.cpp:106
+#: keyecandypage.cpp:108
 msgid "Icons on Buttons"
 msgstr "ไอคอนบนปุ่ม"
 
-#: keyecandypage.cpp:110
+#: keyecandypage.cpp:112
 #, fuzzy
 msgid "Animated Combo Boxes"
 msgstr ""
 "แสดงคอมโบบ็อกซ์แบบเคลื่อน"
 "ไหว"
-
-#: keyecandypage.cpp:114
-msgid "Smoothed Fonts (Antialiasing)"
-msgstr "ตัวอักษรแบบไร้รอยหยัก"
 
 #: keyecandypage.cpp:116
 msgid "Fading Tooltips"
@@ -360,14 +362,16 @@ msgstr "เมนูแบบค่อยๆ ปรากฏ"
 msgid "Preview Other Files"
 msgstr ""
 
-#: rc.cpp:2
+#. i18n: file kcountrypagedlg.ui line 64
+#: rc.cpp:3
 #, no-c-format
 msgid "Please choose your language:"
 msgstr ""
 "โปรดเลือกภาษาที่ต้องการใช"
 "้:"
 
-#: rc.cpp:4
+#. i18n: file kcountrypagedlg.ui line 82
+#: rc.cpp:6
 #, fuzzy, no-c-format
 msgid ""
 "<p>This Personalizer will help you configure the basic setup of your KDE "
@@ -412,17 +416,20 @@ msgstr ""
 "จากนั้นเลือกออกและเรียกคื"
 "นค่าเดิม</P>"
 
-#: rc.cpp:8
+#. i18n: file kcountrypagedlg.ui line 100
+#: rc.cpp:11
 #, no-c-format
 msgid "<h3>Welcome to KDE %VERSION%!</h3>"
 msgstr "<h3>ยินดีต้อนรับสู่ KDE %VERSION%!</h3>"
 
-#: rc.cpp:10
+#. i18n: file kcountrypagedlg.ui line 148
+#: rc.cpp:14
 #, no-c-format
 msgid "Please choose your country:"
 msgstr "โปรดเลือกประเทศของคุณ:"
 
-#: rc.cpp:12
+#. i18n: file keyecandypagedlg.ui line 64
+#: rc.cpp:17
 #, fuzzy, no-c-format
 msgid ""
 "<P>KDE offers many visually appealing special effects, such as smoothed "
@@ -452,7 +459,8 @@ msgstr ""
 "เพื่อไม่ให้ประสิทธิภาพโดย"
 "รวมของเครื่องต่ำลง"
 
-#: rc.cpp:15
+#. i18n: file keyecandypagedlg.ui line 96
+#: rc.cpp:21
 #, fuzzy, no-c-format
 msgid ""
 "Slow Processor\n"
@@ -461,7 +469,8 @@ msgstr ""
 "โปรเซสเซอร์ความเร็วต่ำ\n"
 "(ลูกเล่นน้อยกว่า)"
 
-#: rc.cpp:18
+#. i18n: file keyecandypagedlg.ui line 107
+#: rc.cpp:25
 #, no-c-format
 msgid "Slow processors perform poorly with effects"
 msgstr ""
@@ -469,7 +478,8 @@ msgstr ""
 "ควรใช้ลูกเล่นให้น้อยเข้าไ"
 "ว้"
 
-#: rc.cpp:20
+#. i18n: file keyecandypagedlg.ui line 137
+#: rc.cpp:28
 #, fuzzy, no-c-format
 msgid ""
 "Fast Processor\n"
@@ -478,7 +488,8 @@ msgstr ""
 "โปรเซสเซอร์ความเร็วสูง\n"
 "(ลูกเล่นมากกว่า)"
 
-#: rc.cpp:23
+#. i18n: file keyecandypagedlg.ui line 145
+#: rc.cpp:32
 #, no-c-format
 msgid "Fast processors can support all effects"
 msgstr ""
@@ -486,44 +497,52 @@ msgstr ""
 "สามารถใช้งานลูกเล่นทั้งหม"
 "ดได้"
 
-#: rc.cpp:25
+#. i18n: file keyecandypagedlg.ui line 183
+#: rc.cpp:35
 #, no-c-format
 msgid "Show &Details >>"
 msgstr "แสดงรายละเอียด >>"
 
-#: rc.cpp:27
+#. i18n: file kospagedlg.ui line 60
+#: rc.cpp:38
 #, no-c-format
 msgid "Description:"
 msgstr "รายละเอียด:"
 
-#: rc.cpp:29
+#. i18n: file kospagedlg.ui line 68
+#: rc.cpp:41
 #, fuzzy, no-c-format
 msgid "Select Preferred System Behavior"
 msgstr ""
 "โปรดเลือกลักษณะการทำงานขอ"
 "งระบบให้เป็นแบบ"
 
-#: rc.cpp:31
+#. i18n: file kospagedlg.ui line 79
+#: rc.cpp:44
 #, no-c-format
 msgid "KDE (TM)"
 msgstr "KDE (TM)"
 
-#: rc.cpp:33
+#. i18n: file kospagedlg.ui line 90
+#: rc.cpp:47
 #, no-c-format
 msgid "UNIX (R)"
 msgstr "UNIX (R)"
 
-#: rc.cpp:35
+#. i18n: file kospagedlg.ui line 98
+#: rc.cpp:50
 #, no-c-format
 msgid "Microsoft Windows (R)"
 msgstr "Microsoft Windows (R)"
 
-#: rc.cpp:37
+#. i18n: file kospagedlg.ui line 106
+#: rc.cpp:53
 #, no-c-format
 msgid "Apple MacOS (R)"
 msgstr "Apple MacOS (R)"
 
-#: rc.cpp:39
+#. i18n: file kospagedlg.ui line 126
+#: rc.cpp:56
 #, fuzzy, no-c-format
 msgid ""
 "<b>System Behavior</b><br>\n"
@@ -540,7 +559,8 @@ msgstr ""
 "ษณะการทำงาน "
 "เป็นแบบที่คุณต้องการได้"
 
-#: rc.cpp:43
+#. i18n: file krefinepagedlg.ui line 33
+#: rc.cpp:61
 #, fuzzy, no-c-format
 msgid ""
 "<h3>Finished</h3>\n"
@@ -554,7 +574,8 @@ msgstr ""
 "\"ตัวช่วยตั้งค่าพื้นที่ทำงา"
 "น\" จากเมนูระบบ"
 
-#: rc.cpp:46
+#. i18n: file krefinepagedlg.ui line 81
+#: rc.cpp:65
 #, fuzzy, no-c-format
 msgid ""
 "You can refine the settings you made by starting the KDE Control Center by "
@@ -567,7 +588,8 @@ msgstr ""
 "\"ตัวช่วยตั้งค่าพื้นที่ทำงา"
 "น\" จากเมนูระบบ"
 
-#: rc.cpp:48
+#. i18n: file krefinepagedlg.ui line 133
+#: rc.cpp:68
 #, no-c-format
 msgid "You can also start the KDE Control Center using the button below."
 msgstr ""
@@ -575,12 +597,14 @@ msgstr ""
 "KDE ได้ "
 "โดยการใช้ปุ่มด้านล่างนี้"
 
-#: rc.cpp:50
+#. i18n: file krefinepagedlg.ui line 203
+#: rc.cpp:71
 #, no-c-format
 msgid "&Launch KDE Control Center"
 msgstr "เรียกศูนย์ควบคุม KDE"
 
-#: rc.cpp:52
+#. i18n: file kstylepagedlg.ui line 32
+#: rc.cpp:74
 #, no-c-format
 msgid ""
 "Please choose the way your computer should look by selecting one of the "
@@ -592,42 +616,50 @@ msgstr ""
 "โดยเลือกจากรายการใดรายการ"
 "หนึ่ง ด้านล่างนี้"
 
-#: rc.cpp:54
+#. i18n: file kstylepagedlg.ui line 89
+#: rc.cpp:77
 #, no-c-format
 msgid "Preview"
 msgstr "แสดงตัวอย่าง"
 
-#: rc.cpp:56
+#. i18n: file stylepreview.ui line 42
+#: rc.cpp:80
 #, no-c-format
 msgid "Tab 1"
 msgstr "แท็บ 1"
 
-#: rc.cpp:58
+#. i18n: file stylepreview.ui line 61
+#: rc.cpp:83
 #, no-c-format
 msgid "Button"
 msgstr "ปุ่ม"
 
-#: rc.cpp:60
+#. i18n: file stylepreview.ui line 72
+#: rc.cpp:86
 #, no-c-format
 msgid "ComboBox"
 msgstr "กล่องคอมโบ"
 
-#: rc.cpp:62
+#. i18n: file stylepreview.ui line 92
+#: rc.cpp:89
 #, no-c-format
 msgid "Button Group"
 msgstr "กลุ่มของปุ่ม"
 
-#: rc.cpp:64 rc.cpp:66
+#. i18n: file stylepreview.ui line 103
+#: rc.cpp:92 rc.cpp:95
 #, no-c-format
 msgid "RadioButton"
 msgstr "ปุ่มวิทยุ"
 
-#: rc.cpp:68
+#. i18n: file stylepreview.ui line 136
+#: rc.cpp:98
 #, no-c-format
 msgid "CheckBox"
 msgstr "กล่องเช็กต์"
 
-#: rc.cpp:70
+#. i18n: file stylepreview.ui line 165
+#: rc.cpp:101
 #, no-c-format
 msgid "Tab 2"
 msgstr "แท็บ 2"
@@ -667,18 +699,14 @@ msgstr "แท็บ 2"
 #~ "Are you sure you want to quit the personalizer?\n"
 #~ "If not, press 'Cancel'.\n"
 #~ "To quit and keep the current settings, press 'Quit & Keep'.\n"
-#~ "To quit and revert all settings to those before KPersonalizer started, "
-#~ "press 'Quit & Revert'.\n"
-#~ "This wizard can be restarted at any time by selecting 'K->System->Desktop "
-#~ "Settings Wizard'.\n"
+#~ "To quit and revert all settings to those before KPersonalizer started, press 'Quit & Revert'.\n"
+#~ "This wizard can be restarted at any time by selecting 'K->System->Desktop Settings Wizard'.\n"
 #~ msgstr ""
 #~ "คุณแน่ใจหรือว่า ต้องการออกจากการปรับแต่งรูปแบบส่วนตัวนี้ ?\n"
 #~ "หากไม่ ให้เลือก 'ยกเลิก'\n"
 #~ "หากต้องการออกและเก็บค่าที่เปลี่ยนแปลงไปแล้ว ให้เลือก 'ออกและเก็บค่า'\n"
-#~ "หากต้องการออก และให้กลับไปใช้ค่าเดิมก่อนเริ่มการปรับแต่งรูปแบบส่วนตัว ให้เลือก "
-#~ "'ออกและใช้ค่าเดิม'\n"
-#~ "คุณสามารถเรียกตัวช่วยเหลือนี้ในครั้งอื่น ๆ ได้ที่เมนู 'K->ระบบ-"
-#~ ">ตัวช่วยเหลือปรับแต่งพื้นที่ทำงาน'\n"
+#~ "หากต้องการออก และให้กลับไปใช้ค่าเดิมก่อนเริ่มการปรับแต่งรูปแบบส่วนตัว ให้เลือก 'ออกและใช้ค่าเดิม'\n"
+#~ "คุณสามารถเรียกตัวช่วยเหลือนี้ในครั้งอื่น ๆ ได้ที่เมนู 'K->ระบบ->ตัวช่วยเหลือปรับแต่งพื้นที่ทำงาน'\n"
 
 #~ msgid "Really Quit?"
 #~ msgstr "ต้องการออกจริงหรือไม่ ?"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-25 01:16+0200\n"
+"POT-Creation-Date: 2004-12-29 14:52+0100\n"
 "PO-Revision-Date: 2003-01-11 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,27 +14,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: app/kateexternaltools.cpp:268
+#: app/kateexternaltools.cpp:421
 msgid "Edit External Tool"
 msgstr ""
 
-#: app/kateexternaltools.cpp:282
+#: app/kateexternaltools.cpp:435
 #, fuzzy
-msgid "&Name:"
+msgid "&Label:"
 msgstr "ໍຊື່"
 
-#: app/kateexternaltools.cpp:287
+#: app/kateexternaltools.cpp:440
 msgid "The name will be displayed in the 'Tools->External' menu"
 msgstr ""
 
-#: app/kateexternaltools.cpp:291
+#: app/kateexternaltools.cpp:450
 #, fuzzy
-msgid "Co&mmand:"
-msgstr "คำอธิบาย"
+msgid "S&cript:"
+msgstr "ສຄຣິບທ໌ KDE"
 
-#: app/kateexternaltools.cpp:296
+#: app/kateexternaltools.cpp:455
 msgid ""
-"<p>The command to execute to invoke the tool. The following macros will be "
+"<p>"
+"The script to execute to invoke the tool. The script is passed to /bin/sh "
+"for execution. The following macros will be "
 "expanded:</p>"
 "<ul>"
 "<li><code>%URL</code> - the URL of the current "
@@ -43,7 +45,7 @@ msgid ""
 "documents."
 "<li><code>%directory</code> - the URL of the directory containing the "
 "current document."
-"<li><code>filename</code> - the filename of the current "
+"<li><code>%filename</code> - the filename of the current "
 "document."
 "<li><code>%line</code> - the current line of the text cursor in the current "
 "view."
@@ -53,46 +55,98 @@ msgid ""
 "view.<li><code>%text</code> - the text of the current document.</ul>"
 msgstr ""
 
-#: app/kateexternaltools.cpp:319
+#: app/kateexternaltools.cpp:473
 msgid "&Executable:"
 msgstr ""
 
-#: app/kateexternaltools.cpp:324
+#: app/kateexternaltools.cpp:478
 msgid ""
 "The executable used by the command. This is used to check if a tool should "
 "be displayed; if not set, the first word of <em>command</em> will be used."
 msgstr ""
 
-#: app/kateexternaltools.cpp:330
+#: app/kateexternaltools.cpp:484
 msgid "&Mime types:"
 msgstr ""
 
-#: app/kateexternaltools.cpp:335
+#: app/kateexternaltools.cpp:489
 msgid ""
 "A semicolon-separated list of mime types for which this tool should be "
-"available; if this is left empty, the tool is always available.To choose "
+"available; if this is left empty, the tool is always available. To choose "
 "from known mimetypes, press the button on the right."
 msgstr ""
 
-#: app/kateexternaltools.cpp:345
+#: app/kateexternaltools.cpp:498
+msgid "Click for a dialog that can help you creating a list of mimetypes."
+msgstr ""
+
+#: app/kateexternaltools.cpp:502
+#, fuzzy
+msgid "&Save:"
+msgstr "ໍຊື່"
+
+#: app/kateexternaltools.cpp:506
+#, fuzzy
+msgid "None"
+msgstr "ຮງບຮອ້ຍ"
+
+#: app/kateexternaltools.cpp:506
+#, fuzzy
+msgid "Current Document"
+msgstr ""
+"ໄດເຣັກທໍຣີປະຈະບັນຂອງເອກະສ"
+"ານ"
+
+#: app/kateexternaltools.cpp:506
+#, fuzzy
+msgid "All Documents"
+msgstr "ເອກະສານ"
+
+#: app/kateexternaltools.cpp:510
+msgid ""
+"You can elect to save the current or all [modified] documents prior to "
+"running the command. This is helpful if you want to pass URLs to an "
+"application like, for example, an FTP client."
+msgstr ""
+
+#: app/kateexternaltools.cpp:517
+msgid "&Command line name:"
+msgstr ""
+
+#: app/kateexternaltools.cpp:522
+msgid ""
+"If you specify a name here, you can invoke the command from the view command "
+"lines with exttool-the_name_you_specified_here. Please do not use spaces or "
+"tabs in the name."
+msgstr ""
+
+#: app/kateexternaltools.cpp:533
 msgid "You must specify at least a name and a command"
 msgstr ""
 
-#: app/kateexternaltools.cpp:363
+#: app/kateexternaltools.cpp:542
+msgid "Select the MimeTypes for which to enable this tool."
+msgstr ""
+
+#: app/kateexternaltools.cpp:544
+msgid "Select Mime Types"
+msgstr ""
+
+#: app/kateexternaltools.cpp:561
 #, fuzzy
 msgid "&New..."
 msgstr "ເອກະສານໃຫມ່"
 
-#: app/kateexternaltools.cpp:371
+#: app/kateexternaltools.cpp:569
 #, fuzzy
 msgid "&Edit..."
 msgstr "ສົ່ງຈົດຫມາຍ..."
 
-#: app/kateexternaltools.cpp:375
+#: app/kateexternaltools.cpp:573
 msgid "Insert &Separator"
 msgstr ""
 
-#: app/kateexternaltools.cpp:395
+#: app/kateexternaltools.cpp:595
 msgid "This list shows all the configured tools, represented by their menu text."
 msgstr ""
 
@@ -121,44 +175,50 @@ msgstr "ທັບ"
 msgid " BLK "
 msgstr "ບລັອກ"
 
-#: app/katemainwindow.cpp:206
+#: app/katemainwindow.cpp:193 app/katesavemodifieddialog.cpp:152
+#, fuzzy
+msgid "Documents"
+msgstr "ເອກະສານ"
+
+#: app/katemainwindow.cpp:196 app/katesavemodifieddialog.cpp:149
 msgid "Projects"
 msgstr "ໂຄງການ"
 
-#: app/katemainwindow.cpp:215
-msgid "Selector"
-msgstr "ກ່ອງເລືອກແຟ້ມ"
+#: app/katemainwindow.cpp:205
+msgid "Filesystem browser"
+msgstr ""
 
-#: app/kategrepdialog.cpp:73 app/katemainwindow.cpp:218
+#: app/kategrepdialog.cpp:73 app/katemainwindow.cpp:208
 msgid "Find in Files"
 msgstr "ຄົ້ນຫາໃນແຟ້ມ"
 
-#: app/katemainwindow.cpp:223
+#: app/katemainwindow.cpp:213
 msgid "Terminal"
 msgstr "ປາຍທາງ"
 
-#: app/katemainwindow.cpp:234
-msgid "KDE Scri&pts"
+#: app/katemainwindow.cpp:224
+#, fuzzy
+msgid "&KDE Scripts"
 msgstr "ສຄຣິບທ໌ KDE"
 
-#: app/katemainwindow.cpp:235
+#: app/katemainwindow.cpp:225
 msgid "This shows all available scripts and allows them to be executed."
 msgstr ""
 "ສະແດງສຄຣິທ໌ທັງຫມົດທີ່ມີຢູ"
 "່ແລະອະນຸຍາດໃຫ້ປະມວນຜົນມັນ"
 "ໄດ້"
 
-#: app/katemainwindow.cpp:239
+#: app/katemainwindow.cpp:229
 msgid "Create a new document"
 msgstr "ສ້າງເອກະສານໃຫມ່"
 
-#: app/katemainwindow.cpp:240
+#: app/katemainwindow.cpp:230
 msgid "Open an existing document for editing"
 msgstr ""
 "ເປີດເອກະສານທີ່ມີຢູ່ແລ້ວເພ"
 "ື່ອທຳການແກ້ໄຂມັນ"
 
-#: app/katemainwindow.cpp:243 app/kwritemain.cpp:150
+#: app/katemainwindow.cpp:233 app/kwritemain.cpp:151
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
@@ -169,115 +229,62 @@ msgstr ""
 "່ານເປີດໃໍ້ຊ້ມັນໄດ້ອີກຄັ້ງ"
 "ໄດ້ງ່າຍໆ"
 
-#: app/katemainwindow.cpp:245
+#: app/katemainwindow.cpp:235
 msgid "Save A&ll"
 msgstr "ບັນທືກ&ທັງຫມົດ"
 
-#: app/katemainwindow.cpp:246
+#: app/katemainwindow.cpp:236
 msgid "Save all open, modified documents to disc."
 msgstr ""
 "ບັນທືກເອກະສານທີ່ເປີດຢູ່ຫລ"
 "ືມີການແກ້ໄຂທັງຫມົດລົງຍັງດ"
 "ີສຄ໌"
 
-#: app/katemainwindow.cpp:248
+#: app/katemainwindow.cpp:238
 msgid "Close the current document."
 msgstr "ປິດເອກະສານປະຈຸບັນ"
 
-#: app/katemainwindow.cpp:250
+#: app/katemainwindow.cpp:240
 msgid "Clos&e All"
 msgstr "ປິດທັງຫມົດ"
 
-#: app/katemainwindow.cpp:251
+#: app/katemainwindow.cpp:241
 msgid "Close all open documents."
 msgstr ""
 "ປິດເອກະສານທີ່ເປີດຢູ່ທັງຫມ"
 "ົດ"
 
-#: app/katemainwindow.cpp:253
+#: app/katemainwindow.cpp:243
 msgid "Send one or more of the open documents as email attachments."
 msgstr ""
 "ສົ່ງເອກະສານທີ່ເປີດຢູ່ແນບໄ"
 "ປທາງອີເມລ"
 
-#: app/katemainwindow.cpp:255
+#: app/katemainwindow.cpp:245
 msgid "Close this window"
 msgstr "ປິດຫນ້າຕ່າງນີ້"
 
-#: app/katemainwindow.cpp:258
+#: app/katemainwindow.cpp:248
 msgid "Create a new Kate view (a new window with the same document list)."
 msgstr ""
 "ສ້າງມຸມມອງຂອງ KATE "
 "ໃຫມ່(ຫນ້າຕ່າງພ້ອມດ້ວຍລາຍກາ"
 "ນເອກະສານແບບດງວກັນ)"
 
-#: app/katemainwindow.cpp:260
-msgid "Split &Vertical"
-msgstr "ແຍກໃນແນວຕັ້ງ"
-
-#: app/katemainwindow.cpp:261
-msgid "Split the currently active view vertically into two views."
-msgstr ""
-"ແຍກມຸມເບິ່ງທີ່ແອັກທີຟ໌ຢູ່"
-"ໃນປະຈຸບັນເປັນສອງມຸມເບິ່ງໃ"
-"ນທາງແນວຕັ້ງ"
-
-#: app/katemainwindow.cpp:263
-msgid "Split &Horizontal"
-msgstr "ແຍກໃນແນວນອນ"
-
-#: app/katemainwindow.cpp:264
-msgid "Split the currently active view horizontally into two views."
-msgstr ""
-"ແຍກມຸມເບິ່ງທີ່ແອັກທີຟ໌ຢູ່"
-"ໃນປະຈຸບັນເປັນສອງມຸມມອງໃນແ"
-"ນວນອນ"
-
-#: app/katemainwindow.cpp:266
-#, fuzzy
-msgid "Close &Current View"
-msgstr "ປິດເອກະສານປະຈຸບັນ"
-
-#: app/katemainwindow.cpp:267
-msgid "Close the currently active splitted view"
-msgstr ""
-"ປິດມຸມເບິ່ງທີ່ແຍກໄວ້ທີ່ແອ"
-"ັກທີຟ໌ຢູ່ໃນປະຈຸບັນ"
-
-#: app/kateconfigdialog.cpp:278 app/kateconfigdialog.cpp:279
-#: app/katemainwindow.cpp:269 app/katemainwindow.cpp:547
+#: app/kateconfigdialog.cpp:253 app/kateconfigdialog.cpp:254
+#: app/katemainwindow.cpp:250 app/katemainwindow.cpp:520
 msgid "External Tools"
 msgstr ""
 
-#: app/katemainwindow.cpp:270
+#: app/katemainwindow.cpp:251
 msgid "Launch external helper applications"
 msgstr ""
 
-#: app/katemainwindow.cpp:275
-msgid "Next View"
-msgstr "ມຸມເບິ່ງຕໍ່ໄປ"
-
-#: app/katemainwindow.cpp:276
-msgid "Make the next split view the active one."
-msgstr ""
-"ໃຫ້ມຸມເບິ່ງທີ່ແຍກໄວ້ຕົວຖັ"
-"ດໄປເປັນຕົວທີ່ແອັກທີຟ໌"
-
-#: app/katemainwindow.cpp:278
-msgid "Previous View"
-msgstr "ມຸມເບິ່ງກ່ອນຫນ້ານີ້"
-
-#: app/katemainwindow.cpp:279
-msgid "Make the previous split view the active one."
-msgstr ""
-"ໃຫ້ມຸມເບິ່ງທີ່ແຍກໄວ້ກ່ອນຫ"
-"ນ້າເປັນຕົວທີ່ແອັກທີຟ໌"
-
-#: app/katemainwindow.cpp:284
+#: app/katemainwindow.cpp:256
 msgid "Open W&ith"
 msgstr "ເປີດດ້ວຍ"
 
-#: app/katemainwindow.cpp:285
+#: app/katemainwindow.cpp:257
 msgid ""
 "Open the current document using another application registered for its file "
 "type, or an application of your choice."
@@ -287,68 +294,76 @@ msgstr ""
 "ລັບໃຊ້ກັບປະເພດແຟ້ມຫລືດ້ວຍ"
 "ແອພພລິເຄຊັນທີ່ທ່ານຕ້ອງການ"
 
-#: app/katemainwindow.cpp:290 app/kwritemain.cpp:173
+#: app/katemainwindow.cpp:262 app/kwritemain.cpp:174
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr ""
 "ປັບແຕ່ງການກຳນົດປຸ່ມພິມລັດ"
 "ຂອງແອັພພລິເຄຊັນ"
 
-#: app/katemainwindow.cpp:293 app/kwritemain.cpp:176
+#: app/katemainwindow.cpp:265 app/kwritemain.cpp:177
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr ""
 "ປັບແຕ່ງເລືອກລາຍການທີ່ຈະໃຫ"
 "້ປະກົດເທິງແຖບເຄື່ອງມື"
 
-#: app/katemainwindow.cpp:297
+#: app/katemainwindow.cpp:268
 #, fuzzy
 msgid "&New Project..."
 msgstr "ເອກະສານໃຫມ່"
 
-#: app/katemainwindow.cpp:298
+#: app/katemainwindow.cpp:269
 #, fuzzy
 msgid "&Open Project..."
 msgstr "ເປີດເອກະສານ"
 
-#: app/katemainwindow.cpp:299
+#: app/katemainwindow.cpp:270
 msgid "&Save Project"
 msgstr "ບັນທືກເອກະສານ"
 
-#: app/katemainwindow.cpp:300
+#: app/katemainwindow.cpp:271
 msgid "&Close Project"
 msgstr "ປິດເອກະສານປະຈຸບັນ"
 
-#: app/katemainwindow.cpp:305
+#: app/katemainwindow.cpp:276
 msgid "Configure various aspects of this application and the editing component."
 msgstr ""
 "ປັບແຕ່ງຊັດສ່ວນຂອງແອັພພລິເ"
 "ຄຊັນແລະຄອມໂພເນັນແກ້ໄຂຂໍ້ຄ"
 "ວາມນີ້"
 
-#: app/katemainwindow.cpp:309
+#: app/katemainwindow.cpp:280
 msgid "&Pipe to Console"
 msgstr ""
 
-#: app/katemainwindow.cpp:312
+#: app/katemainwindow.cpp:283
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 "ສະແດງເຄັດລັບທີ່ສຳຄັນໆໃນກາ"
 "ນໃຊ້ງານແອັພພລິເຄຊັນນີ້"
 
-#: app/katemainwindow.cpp:316
+#: app/katemainwindow.cpp:287
 msgid "Contents &Plugins"
 msgstr "ປລັກອິນຂອງເນື້ອຫາ"
 
-#: app/katemainwindow.cpp:317
+#: app/katemainwindow.cpp:288
 msgid "This shows help files for various available plugins."
 msgstr ""
 "ສະແດງແຟ້ມຊ່ວຍເຫລືອສຳລັບປລ"
 "ັກອິນທີ່ມີຢູ່"
 
-#: app/katemainwindow.cpp:640 app/katemainwindow.cpp:648
+#: app/katedocmanager.cpp:390 app/katemainwindow.cpp:314
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#: app/katedocmanager.cpp:391 app/katemainwindow.cpp:315
+msgid "Closing Aborted"
+msgstr ""
+
+#: app/katemainwindow.cpp:595 app/katemainwindow.cpp:603
 msgid "&Other..."
 msgstr "ອື່ນໆ..."
 
-#: app/katemainwindow.cpp:704
+#: app/katemainwindow.cpp:659
 #, fuzzy
 msgid ""
 "<p>The current document has not been saved, and cannot be attached to an "
@@ -361,20 +376,20 @@ msgstr ""
 "<p>ທ່ານຕ້ອງການທຳການບັນທຶກມັ"
 "ນກ່ອນຫລືບໍ່?"
 
-#: app/katemainwindow.cpp:707
+#: app/katemainwindow.cpp:662
 msgid "Cannot Send Unsaved File"
 msgstr ""
 "ບໍ່ສາມາດສົ່ງແຟ້ມທີ່ຍັງບໍ່"
 "ໄດ້ບັນທືກໄດ້"
 
-#: app/katemainwindow.cpp:715 app/katemainwindow.cpp:736
+#: app/katemainwindow.cpp:670 app/katemainwindow.cpp:691
 msgid "The file could not be saved. Please check if you have write permission."
 msgstr ""
 "ບໍ່ສາມາດບັນທືກແຟ້ມໄດ້ "
 "ຈົ່ງກວດສອບວ່າທ່ານມີສິດໃນກ"
 "ານຂງນແຟ້ມນີ້ໄດ້ຫລືບໍ"
 
-#: app/katemainwindow.cpp:726
+#: app/katemainwindow.cpp:681
 #, fuzzy
 msgid ""
 "<p>The current file:"
@@ -390,18 +405,18 @@ msgstr ""
 "<p>ທ່ານຕ້ອງການຈະທຳການບັນທືກ"
 "ກ່ອນທຳການສົ່ງມັນຫລືບໍ?"
 
-#: app/katemainwindow.cpp:729
+#: app/katemainwindow.cpp:684
 #, fuzzy
 msgid "Save Before Sending?"
 msgstr ""
 "ທຳການສົ່ງກ່ອນທຳການບັນທຶກຫ"
 "ລືບໍ?"
 
-#: app/katemainwindow.cpp:861 app/kateprojectmanager.cpp:314
+#: app/katemainwindow.cpp:815 app/kateprojectmanager.cpp:318
 msgid "Kate Project Files"
 msgstr "ຄອມໄພເລີຂອງໂຄງການ"
 
-#: app/katemainwindow.cpp:861
+#: app/katemainwindow.cpp:815
 msgid "Open Kate Project"
 msgstr "ເປີດແຟ້ມKate"
 
@@ -434,11 +449,11 @@ msgstr ""
 "ສະແດງເອກະສານທັງຫມົດ&nbsp;&gt;&gt;</stro"
 "ng>"
 
-#: app/kateconfigplugindialogpage.cpp:82 app/katemailfilesdialog.cpp:61
+#: app/kateconfigplugindialogpage.cpp:81 app/katemailfilesdialog.cpp:61
 msgid "Name"
 msgstr "ໍຊື່"
 
-#: app/katemailfilesdialog.cpp:62
+#: app/katefilelist.cpp:127 app/katemailfilesdialog.cpp:62
 msgid "URL"
 msgstr "URL"
 
@@ -453,34 +468,36 @@ msgstr ""
 "ເພື່ອສົ່ງເອກະສານທີ່ເລືອກໄ"
 "ວ້"
 
-#: app/kateconfigdialog.cpp:93 app/kateconfigdialog.cpp:99
-#: app/kateconfigdialog.cpp:261 app/kateconfigdialog.cpp:270
-#: app/kateconfigdialog.cpp:278 app/kateconfigdialog.cpp:325
+#: app/kateconfigdialog.cpp:91 app/kateconfigdialog.cpp:97
+#: app/kateconfigdialog.cpp:236 app/kateconfigdialog.cpp:245
+#: app/kateconfigdialog.cpp:253 app/kateconfigdialog.cpp:301
 msgid "Application"
 msgstr "ແອພພລິເຄຊັນ"
 
-#: app/kateconfigdialog.cpp:99
+#: app/kateconfigdialog.cpp:97
 msgid "General"
 msgstr "ທົ່ວໄປ"
 
-#: app/kateconfigdialog.cpp:100
+#: app/kateconfigdialog.cpp:98
 msgid "General Options"
 msgstr "ຕົວເລືອກທົ່ວໄປ"
 
-#: app/kateconfigdialog.cpp:107
-msgid "Startup"
+#: app/kateconfigdialog.cpp:105
+#, fuzzy
+msgid "Start&up"
 msgstr "ເມື່ອເລີ່ມໂປຣແກຣມ"
 
-#: app/kateconfigdialog.cpp:112
+#: app/kateconfigdialog.cpp:110
 #, fuzzy
 msgid "Reopen &projects at startup"
 msgstr "ເປີດແຟ້ມທີ່ເຄີຍໃຊ້"
 
-#: app/kateconfigdialog.cpp:120
-msgid "Reopen &files at startup"
+#: app/kateconfigdialog.cpp:118
+#, fuzzy
+msgid "R&eopen files at startup"
 msgstr "ເປີດແຟ້ມທີ່ເຄີຍໃຊ້"
 
-#: app/kateconfigdialog.cpp:124
+#: app/kateconfigdialog.cpp:122
 msgid ""
 "If this is enabled Kate will attempt to reopen files that were open when you "
 "closed last time. Cursor position will be recovered if possible. "
@@ -496,14 +513,14 @@ msgstr ""
 "ຫາກແຟ້ມບໍ່ມີຢູ່ແລ້ວ "
 "ກໍ່ຈະບໍ່ທຳການເປີດ"
 
-#: app/kateconfigdialog.cpp:132
+#: app/kateconfigdialog.cpp:130
 #, fuzzy
 msgid "Restore &window configuration"
 msgstr ""
 "ເອີ້ນຄຶນການປັບແຕ່ງມຸມເບິ່"
 "ງ"
 
-#: app/kateconfigdialog.cpp:135
+#: app/kateconfigdialog.cpp:133
 msgid ""
 "Check this if you want all your views and frames restored each time you open "
 "Kate"
@@ -514,35 +531,18 @@ msgstr ""
 "ແລະເຟລມທັງຫມົດຂອງທ່ານທຸກຄ"
 "ັ້ງທີ່ເລີ່ມການທຳງານ Kate"
 
-#: app/kateconfigdialog.cpp:143
-msgid "Default GUI mode for new windows:"
+#: app/kateconfigdialog.cpp:137
+msgid "&Appearance"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:147
+#: app/kateconfigdialog.cpp:142
 #, fuzzy
-msgid "Toplevel Mode"
-msgstr "ໂຫມດສະແດງເຄື່ອງມື:"
-
-#: app/kateconfigdialog.cpp:147
-msgid "Childframe Mode"
-msgstr ""
-
-#: app/kateconfigdialog.cpp:147 app/kateconfigdialog.cpp:150
-msgid "Tab Page Mode"
-msgstr ""
-
-#: app/kateconfigdialog.cpp:147 app/kateconfigdialog.cpp:150
-#, fuzzy
-msgid "IDEAL Mode"
-msgstr "โหมด IDEAl"
-
-#: app/kateconfigdialog.cpp:167
-msgid "Show full &path in title"
+msgid "&Show full path in title"
 msgstr ""
 "ສະແດງເສັ້ນທາງເຕັມຮູບແບບເທ"
 "ິງແຖບຫົວຂອງຫນ້າຕ່າງ"
 
-#: app/kateconfigdialog.cpp:169
+#: app/kateconfigdialog.cpp:144
 msgid ""
 "If this option is checked, the full document path will be shown in the "
 "window caption."
@@ -552,11 +552,11 @@ msgstr ""
 "ທີ່ເອກະສານເກັບຢູ່ເທິງແຖບຫ"
 "ວົເລື່ອງຫນ້າຕ່າງດ້ວຍ"
 
-#: app/kateconfigdialog.cpp:174
+#: app/kateconfigdialog.cpp:149
 msgid "Sort &files alphabetically in the file list"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:177
+#: app/kateconfigdialog.cpp:152
 #, fuzzy
 msgid "If this is checked, the files in the file list will be sorted alphabetically."
 msgstr ""
@@ -565,18 +565,18 @@ msgstr ""
 "ທີ່ເອກະສານເກັບຢູ່ເທິງແຖບຫ"
 "ວົເລື່ອງຫນ້າຕ່າງດ້ວຍ"
 
-#: app/kateconfigdialog.cpp:181
+#: app/kateconfigdialog.cpp:156
 #, fuzzy
-msgid "Behavior"
+msgid "&Behavior"
 msgstr "พฤติกรรมการเลือก"
 
-#: app/kateconfigdialog.cpp:186
+#: app/kateconfigdialog.cpp:161
 msgid "&Number of recent files:"
 msgstr ""
 "ຈຳນວນຂອງແຟ້ມທີ່ເຄີຍເອິ້ນໃ"
 "ຊ้້"
 
-#: app/kateconfigdialog.cpp:191
+#: app/kateconfigdialog.cpp:166
 msgid ""
 "<qt>Sets the number of recent files remembered by Kate."
 "<p><strong>NOTE: </strong>If you set this lower than the current value, the "
@@ -590,13 +590,13 @@ msgstr ""
 "ລາຍການຈະມີການປ່ງນແປງແລະບາ"
 "ງລາຍການອາດຈະຫາຍໄປ</qt>"
 
-#: app/kateconfigdialog.cpp:200
+#: app/kateconfigdialog.cpp:175
 msgid "Allow Kate to use more than one UN&IX process"
 msgstr ""
 "ອະນຸຍາດໃຫ้້ Kate "
 "ໃຊ້ງານໄດ້ຫລາຍໂປຣເຊສ໌"
 
-#: app/kateconfigdialog.cpp:204
+#: app/kateconfigdialog.cpp:179
 msgid ""
 "If this is unchecked, Kate will only use one UNIX process. If you try "
 "running it again, the current process will get the focus, and open any files "
@@ -617,14 +617,14 @@ msgstr ""
 "ມັນຈະເປີດຫນ້າຕ່າງໂປຣເຊສ໌ໃ"
 "ຫມ່ຂອງKate ໃຫ້"
 
-#: app/kateconfigdialog.cpp:211
+#: app/kateconfigdialog.cpp:186
 msgid "Sync &terminal emulator with active document"
 msgstr ""
 "ປ່ງນຕຳແຫນ່ງໃນຕົວຈຳລອງເທີມ"
 "ິນອລໄປຍັງຕຳແຫນ່ງທີ່ເອກະສາ"
 "ນແອກທີຟຢູ່"
 
-#: app/kateconfigdialog.cpp:214
+#: app/kateconfigdialog.cpp:189
 msgid ""
 "If this is checked, the built in Konsole will <code>cd</code> to the "
 "directory of the active document when started and whenever the active "
@@ -639,101 +639,101 @@ msgstr ""
 "ດຈະມີການປ່ງນແປງຫາກເອກະສານ"
 "ດັ່ງກ່າວເປັນແຟ້ມໃນລະບົບ"
 
-#: app/kateconfigdialog.cpp:221
+#: app/kateconfigdialog.cpp:196
 msgid "Wa&rn about files modified by foreign processes"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:224
+#: app/kateconfigdialog.cpp:199
 msgid ""
 "If enabled, a passive popup message will be displayed whenever a local file "
 "is modified, created or deleted by another process."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:230
+#: app/kateconfigdialog.cpp:205
 msgid "Meta-Information"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:235
+#: app/kateconfigdialog.cpp:210
 msgid "Keep &meta-information past sessions"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:238
+#: app/kateconfigdialog.cpp:213
 msgid ""
 "Check this if you want document configuration like for example bookmarks to "
 "be saved past editor sessions. The configuration will be restored if the "
 "document has not changed when reopened."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:246
+#: app/kateconfigdialog.cpp:221
 msgid "&Delete unused meta-information after:"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:248
+#: app/kateconfigdialog.cpp:223
 msgid "(never)"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:249
+#: app/kateconfigdialog.cpp:224
 msgid " day(s)"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:261
+#: app/kateconfigdialog.cpp:236
 msgid "File Selector"
 msgstr "ກ່ອງເລືອກແຟ້ມ"
 
-#: app/kateconfigdialog.cpp:263
+#: app/kateconfigdialog.cpp:238
 msgid "File Selector Settings"
 msgstr "ຕັ້ງຄ່າກ່ອງເລືອກແຟ້ມ"
 
-#: app/kateconfigdialog.cpp:270 app/kateconfigdialog.cpp:325
+#: app/kateconfigdialog.cpp:245 app/kateconfigdialog.cpp:301
 msgid "Plugins"
 msgstr "ປລັກອິນ"
 
-#: app/kateconfigdialog.cpp:271
+#: app/kateconfigdialog.cpp:246
 msgid "Plugin Manager"
 msgstr "ຕົວຈັດການປລັກອິນ"
 
-#: app/kateconfigdialog.cpp:286 app/kateconfigdialog.cpp:292
+#: app/kateconfigdialog.cpp:261 app/kateconfigdialog.cpp:267
 msgid "Editor"
 msgstr "ແກ້ໄຂຂໍ້ຄວາມ"
 
-#: app/kategrepdialog.cpp:93
+#: app/kategrepdialog.cpp:94
 #, fuzzy
 msgid "Pattern:"
 msgstr "ຮູບແບບ:"
 
-#: app/kategrepdialog.cpp:108
+#: app/kategrepdialog.cpp:110
 msgid "Case sensitive"
 msgstr ""
 
-#: app/kategrepdialog.cpp:113
+#: app/kategrepdialog.cpp:115
 msgid "Regular expression"
 msgstr ""
 
-#: app/kategrepdialog.cpp:119
+#: app/kategrepdialog.cpp:121
 #, fuzzy
 msgid "Template:"
 msgstr "ຕົ້ນແບບ:"
 
-#: app/kategrepdialog.cpp:138
+#: app/kategrepdialog.cpp:140
 #, fuzzy
 msgid "Files:"
 msgstr "ແຟ້ມ:"
 
-#: app/kategrepdialog.cpp:151
+#: app/kategrepdialog.cpp:155
 #, fuzzy
 msgid "Directory:"
 msgstr "ໄດເຣກເທີຣີ:"
 
-#: app/kategrepdialog.cpp:167
+#: app/kategrepdialog.cpp:172
 #, fuzzy
 msgid "Recursive"
 msgstr "ຄົ້ນຫາໃນສ່ວນຍອ່ຍ"
 
-#: app/kategrepdialog.cpp:175 app/kategrepdialog.cpp:430
+#: app/kategrepdialog.cpp:180 app/kategrepdialog.cpp:453
 msgid "Find"
 msgstr ""
 
-#: app/kategrepdialog.cpp:190
+#: app/kategrepdialog.cpp:195
 #, fuzzy
 msgid ""
 "<p>Enter the expression you want to search for here."
@@ -810,7 +810,7 @@ msgstr ""
 "<br>ເຮັດໄດ້ໂດຍຜ່ານທາງເຄື່ອງຫ"
 "ມາຍ\\\\<i>n</i>"
 
-#: app/kategrepdialog.cpp:213
+#: app/kategrepdialog.cpp:218
 #, fuzzy
 msgid ""
 "Enter the file name pattern of the files to search here.\n"
@@ -822,7 +822,7 @@ msgstr ""
 "ໂດຍໃຫ້ແຍກດ້ວຍເຄື່ອງຫມາຍຈຸ"
 "ລະພາກ"
 
-#: app/kategrepdialog.cpp:216
+#: app/kategrepdialog.cpp:221
 #, c-format
 msgid ""
 "You can choose a template for the pattern from the combo box\n"
@@ -840,20 +840,20 @@ msgstr ""
 "ໍຊຶ່ງເປັນຮູບແບບດງວກັນກັບເ"
 "ງື່ອນໄຂສຳລັບການຄົ້ນຫາ"
 
-#: app/kategrepdialog.cpp:221
+#: app/kategrepdialog.cpp:226
 msgid "Enter the directory which contains the files you want to search in."
 msgstr ""
 "ຕື່ມໄດເຣັກທໍຣີທີ່ເກັບແຟ້ມ"
 "ທີ່ທ່ານຕ້ອງການຄົ້ນຫາ"
 
-#: app/kategrepdialog.cpp:223
+#: app/kategrepdialog.cpp:228
 msgid "Check this box to search in all subdirectories."
 msgstr ""
 "ເຮັດເຄື່ອງຫມາຍທີ່ກ່ອງນີ້ເ"
 "ພື່ອຄົ້ນຫາໃນທຸກໄດເຣັກທໍຣີ"
 "ຍ່ອຍນຳ"
 
-#: app/kategrepdialog.cpp:225
+#: app/kategrepdialog.cpp:230
 #, fuzzy
 msgid "If this option is enabled (the default), the search will be case sensitive."
 msgstr ""
@@ -862,7 +862,7 @@ msgstr ""
 "ທີ່ເອກະສານເກັບຢູ່ເທິງແຖບຫ"
 "ວົເລື່ອງຫນ້າຕ່າງດ້ວຍ"
 
-#: app/kategrepdialog.cpp:227
+#: app/kategrepdialog.cpp:232
 msgid ""
 "<p>If this is enabled, your pattern will be passed unmodified to "
 "<em>grep(1)</em>. Otherwise, all characters that are not letters will be "
@@ -870,7 +870,7 @@ msgid ""
 "as part of the expression."
 msgstr ""
 
-#: app/kategrepdialog.cpp:232
+#: app/kategrepdialog.cpp:237
 #, fuzzy
 msgid ""
 "The results of the grep run are listed here. Select a\n"
@@ -885,11 +885,11 @@ msgstr ""
 "ອງການໃນເຄື່ອງມືແກ້ໄຂຂໍ້ຄວ"
 "າມ"
 
-#: app/kategrepdialog.cpp:434
+#: app/kategrepdialog.cpp:457
 msgid "<strong>Error:</strong><p>"
 msgstr ""
 
-#: app/kategrepdialog.cpp:434
+#: app/kategrepdialog.cpp:457
 msgid "Grep Tool Error"
 msgstr ""
 
@@ -916,23 +916,28 @@ msgstr ""
 "ິນໄດ້ໂດຍທ່ານຕ້ອງກຳນົດແຟ້ມ"
 "ເຊັ່ນກັນ"
 
-#: app/katemain.cpp:35
+#: app/katemain.cpp:35 app/kwritemain.cpp:534
+msgid "Set encoding for the file to open"
+msgstr ""
+
+#: app/katemain.cpp:36 app/kwritemain.cpp:535
 msgid "Navigate to this line"
 msgstr "ນຳໄປຍັງແຖວນີ້"
 
-#: app/katemain.cpp:36
+#: app/katemain.cpp:37 app/kwritemain.cpp:536
 msgid "Navigate to this column"
 msgstr "ນຳໄປຍັງຖັນນີ້"
 
-#: app/katemain.cpp:37
-msgid "Files to load"
-msgstr "ແຟ້ມທີ່ຈະເອິ້ນ"
+#: app/katemain.cpp:38 app/kwritemain.cpp:537
+#, fuzzy
+msgid "Document to open"
+msgstr "ເອກະສານທີ່ຈະເປີດ"
 
-#: app/katemain.cpp:45
+#: app/katemain.cpp:46
 msgid "Kate"
 msgstr "Kate"
 
-#: app/katemain.cpp:46
+#: app/katemain.cpp:47
 #, fuzzy
 msgid "Kate - Advanced Text Editor"
 msgstr ""
@@ -940,148 +945,148 @@ msgstr ""
 "ເຄື່ອງມືແກ້ໄຂຂໍ້ຄວາມເທິງ KDE "
 "ຂັ້ນກ້າວຫນ້າ"
 
-#: app/katemain.cpp:47 app/kwritemain.cpp:545
+#: app/katemain.cpp:48 app/kwritemain.cpp:549
 #, fuzzy
 msgid "(c) 2000-2004 The Kate Authors"
 msgstr "(c) 2000-2001 ຜູ້ຂງນ Kate"
 
-#: app/katemain.cpp:49 app/kwritemain.cpp:547
+#: app/katemain.cpp:50 app/kwritemain.cpp:551
 msgid "Maintainer"
 msgstr "ພາຊະນະບັນຈຸ"
 
-#: app/katemain.cpp:50 app/katemain.cpp:51 app/katemain.cpp:52
-#: app/katemain.cpp:57 app/kwritemain.cpp:548 app/kwritemain.cpp:549
-#: app/kwritemain.cpp:550 app/kwritemain.cpp:555
+#: app/katemain.cpp:51 app/katemain.cpp:52 app/katemain.cpp:53
+#: app/katemain.cpp:58 app/kwritemain.cpp:552 app/kwritemain.cpp:553
+#: app/kwritemain.cpp:554 app/kwritemain.cpp:559
 msgid "Core Developer"
 msgstr "ຜູ້ພັດທະນາແກນຫລັກ"
 
-#: app/katemain.cpp:53 app/kwritemain.cpp:551
+#: app/katemain.cpp:54 app/kwritemain.cpp:555
 msgid "The cool buffersystem"
 msgstr "ระบบพักข้อมูลที่เยี่ยมยอด"
 
-#: app/katemain.cpp:54 app/kwritemain.cpp:552
+#: app/katemain.cpp:55 app/kwritemain.cpp:556
 #, fuzzy
 msgid "The Editing Commands"
 msgstr "คำสั่งแก้ไข..."
 
-#: app/katemain.cpp:55 app/kwritemain.cpp:553
+#: app/katemain.cpp:56 app/kwritemain.cpp:557
 msgid "Testing, ..."
 msgstr "ກຳລັງທົດສອບ..."
 
-#: app/katemain.cpp:56 app/kwritemain.cpp:554
+#: app/katemain.cpp:57 app/kwritemain.cpp:558
 #, fuzzy
 msgid "Former Core Developer"
 msgstr "ຜູ້ພັດທະນາແກນຫລັກ"
 
-#: app/katemain.cpp:58 app/kwritemain.cpp:556
+#: app/katemain.cpp:59 app/kwritemain.cpp:560
 msgid "KWrite Author"
 msgstr "ຜູ້ຂງນ KWrite"
 
-#: app/katemain.cpp:59 app/kwritemain.cpp:557
+#: app/katemain.cpp:60 app/kwritemain.cpp:561
 msgid "KWrite port to KParts"
 msgstr "KWrite ພອດມາຍັງ KParts"
 
-#: app/katemain.cpp:62 app/kwritemain.cpp:560
+#: app/katemain.cpp:63 app/kwritemain.cpp:564
 msgid "KWrite Undo History, Kspell integration"
 msgstr ""
 "ປະວັດການເອິ້ນຄຶນເທິງ KWrite, "
 "ການຮວມ Kspell ເຂົ້າໄປ"
 
-#: app/katemain.cpp:63 app/kwritemain.cpp:561
+#: app/katemain.cpp:64 app/kwritemain.cpp:565
 msgid "KWrite XML Syntax highlighting support"
 msgstr ""
 "ສະນັບສະຫນຸນການຕົວເນັ້ນໄວຍ"
 "ະກອນ์ XML ເທິງ KWrite"
 
-#: app/katemain.cpp:64 app/kwritemain.cpp:562
+#: app/katemain.cpp:65 app/kwritemain.cpp:566
 msgid "Patches and more"
 msgstr "ແພັດຈ໌ແລະອຶ່ນໆ"
 
-#: app/katemain.cpp:65
+#: app/katemain.cpp:66
 msgid "Developer & Highlight wizard"
 msgstr ""
 
-#: app/katemain.cpp:67 app/kwritemain.cpp:564
+#: app/katemain.cpp:68 app/kwritemain.cpp:568
 msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
 msgstr ""
 "ການເຮັດຕົວເນັ້ນສຳລັບປແຟ້ມ "
 "RPM Spec, Perl, Diff ແລະອີກຫລາຍ"
 
-#: app/katemain.cpp:68 app/kwritemain.cpp:565
+#: app/katemain.cpp:69 app/kwritemain.cpp:569
 msgid "Highlighting for VHDL"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ VHDL "
 
-#: app/katemain.cpp:69 app/kwritemain.cpp:566
+#: app/katemain.cpp:70 app/kwritemain.cpp:570
 msgid "Highlighting for SQL"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ SQL"
 
-#: app/katemain.cpp:70 app/kwritemain.cpp:567
+#: app/katemain.cpp:71 app/kwritemain.cpp:571
 msgid "Highlighting for Ferite"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ Ferite"
 
-#: app/katemain.cpp:71 app/kwritemain.cpp:568
+#: app/katemain.cpp:72 app/kwritemain.cpp:572
 msgid "Highlighting for ILERPG"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ ILERPG"
 
-#: app/katemain.cpp:72 app/kwritemain.cpp:569
+#: app/katemain.cpp:73 app/kwritemain.cpp:573
 msgid "Highlighting for LaTeX"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ LaTeX"
 
-#: app/katemain.cpp:73 app/kwritemain.cpp:570
+#: app/katemain.cpp:74 app/kwritemain.cpp:574
 msgid "Highlighting for Makefiles, Python"
 msgstr ""
 "ການເຮັດຕົວເນັ້ນສຳລັບ Makefiles, "
 "Python"
 
-#: app/katemain.cpp:74 app/kwritemain.cpp:571
+#: app/katemain.cpp:75 app/kwritemain.cpp:575
 msgid "Highlighting for Python"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ Python"
 
-#: app/katemain.cpp:76 app/kwritemain.cpp:573
+#: app/katemain.cpp:77 app/kwritemain.cpp:577
 msgid "Highlighting for Scheme"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ Scheme"
 
-#: app/katemain.cpp:77 app/kwritemain.cpp:574
+#: app/katemain.cpp:78 app/kwritemain.cpp:578
 msgid "PHP Keyword/Datatype list"
 msgstr ""
 "ລາຍການຄີເວີດ/ຊະນິດຂໍ້ມູນຊອ"
 "ງ PHP"
 
-#: app/katemain.cpp:78 app/kwritemain.cpp:575
+#: app/katemain.cpp:79 app/kwritemain.cpp:579
 msgid "Very nice help"
 msgstr "ລະບົບຊ່ວຍເຫລືອທີ່ດີເລີດ"
 
-#: app/katemain.cpp:79 app/kwritemain.cpp:576
+#: app/katemain.cpp:80 app/kwritemain.cpp:580
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr ""
 "ແລະຄົນອຶ່ນໆທີ່ຮ່ວມກັນກະທຳ"
 "ຊຶ່ງຂ້າພະເຈົ້າອາດຈະລືມໄປແ"
 "ດ່"
 
-#: app/katemain.cpp:81 app/kwritemain.cpp:578
+#: _translatorinfo.cpp:1 app/katemain.cpp:82 app/kwritemain.cpp:582
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "Vilaphonh Manivanh"
 
-#: app/katemain.cpp:81 app/kwritemain.cpp:578
+#: _translatorinfo.cpp:3 app/katemain.cpp:82 app/kwritemain.cpp:582
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "vilaphonh1981@hotmail.com"
 
-#: app/katedocmanager.cpp:311
+#: app/katedocmanager.cpp:354
 msgid ""
 "<p>The document '%1' has been modified, but not saved."
 "<p>Do you want to save your changes or discard them?"
 msgstr ""
 
-#: app/katedocmanager.cpp:313
+#: app/katedocmanager.cpp:356
 #, fuzzy
 msgid "Close Document"
 msgstr "ເອກະສານ"
 
-#: app/katedocmanager.cpp:377
+#: app/katedocmanager.cpp:436
 msgid "Reopening files from the last session..."
 msgstr ""
 "ເປີດແຟ້ມທີ່ເປີດຄ້າງໄວ້ໃນກ"
@@ -1091,31 +1096,44 @@ msgstr ""
 msgid "Add Directories/Files to Project"
 msgstr ""
 
-#: app/katefilelist.cpp:173
+#: app/katefilelist.cpp:124
+msgid "Sort &by"
+msgstr ""
+
+#: app/katefilelist.cpp:127
+msgid "Opening Order"
+msgstr ""
+
+#: app/katefilelist.cpp:127
+#, fuzzy
+msgid "Document Name"
+msgstr "ເອກະສານ"
+
+#: app/katefilelist.cpp:260
 msgid "The document<br><code>%1</code><br>was changed on disk by another process."
 msgstr ""
 
-#: app/katefilelist.cpp:175
+#: app/katefilelist.cpp:262
 msgid "The document<br><code>%1</code><br>was created on disk by another process."
 msgstr ""
 
-#: app/katefilelist.cpp:177
+#: app/katefilelist.cpp:264
 msgid "The document<br><code>%1</code><br>was deleted from disk by another process"
 msgstr ""
 
-#: app/katefilelist.cpp:261
+#: app/katefilelist.cpp:333
 msgid "<b>This file was changed (modified) on disc by another program.</b><br />"
 msgstr ""
 
-#: app/katefilelist.cpp:263
+#: app/katefilelist.cpp:335
 msgid "<b>This file was changed (created) on disc by another program.</b><br />"
 msgstr ""
 
-#: app/katefilelist.cpp:265
+#: app/katefilelist.cpp:337
 msgid "<b>This file was changed (deleted) on disc by another program.</b><br />"
 msgstr ""
 
-#: app/kwritemain.cpp:82
+#: app/kwritemain.cpp:83
 #, fuzzy
 msgid ""
 "A KDE text-editor component could not be found;\n"
@@ -1126,98 +1144,93 @@ msgstr ""
 "ກະລຸນາກວດສອບການຕິດຕັ້ງ KDE "
 "ຂອງທ່ານ"
 
-#: app/kwritemain.cpp:141
+#: app/kwritemain.cpp:142
 msgid "Use this to close the current document"
 msgstr ""
 "ໃຊ້ນີ້ເພື່ອສັ່ງປິດເອກະສານ"
 "ທີ່ເປີດຢູ່ໃນປະຈຸບັນ"
 
-#: app/kwritemain.cpp:144
+#: app/kwritemain.cpp:145
 msgid "Use this command to print the current document"
 msgstr ""
 "ໃໍ້ຊ້ຄຳສັ່ງນີ້ເພື່ອສັງພິມ"
 "ເອກະສານປະຈຸບັນ"
 
-#: app/kwritemain.cpp:145
+#: app/kwritemain.cpp:146
 msgid "Use this command to create a new document"
 msgstr ""
 "ໃໍຊ້ຄຳສັ່ງນີ້ເພື່ອສ້າງເອກ"
 "ະສານໃຫມ່"
 
-#: app/kwritemain.cpp:146
+#: app/kwritemain.cpp:147
 msgid "Use this command to open an existing document for editing"
 msgstr ""
 "ໃຊ້ຄຳສັ່ງນີ້ເພື່ອເປີດເອກະ"
 "ສານທີ່ມີຢູ່ສຳລັບການແກ້ໄຂ"
 
-#: app/kwritemain.cpp:154
+#: app/kwritemain.cpp:155
 msgid "Create another view containing the current document"
 msgstr ""
 "ສ້າງມຸມມອງໃຫມ່ໂດຍມີເອກະສາ"
 "ນປະຈຸບັນນຳ"
 
-#: app/kwritemain.cpp:156
+#: app/kwritemain.cpp:157
 msgid "Choose Editor..."
 msgstr "ເລືອກເຄື່ອງມືແກ້ໄຂ..."
 
-#: app/kwritemain.cpp:158
+#: app/kwritemain.cpp:159
 msgid "Override the system wide setting for the default editing component"
 msgstr ""
 "ແທນທີ່ການຕັ້ງຄ່າຂອງລະບົບສ"
 "ຳລັບຄອມໂພເນັນການແກ້ໄຂປະລິ"
 "ຍາຍ"
 
-#: app/kwritemain.cpp:160
+#: app/kwritemain.cpp:161
 msgid "Close the current document view"
 msgstr ""
 "ເປິດມຸມມອງຂອງເອກະສານປະຈຸບ"
 "ັນ"
 
-#: app/kwritemain.cpp:166
+#: app/kwritemain.cpp:167
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""
 "ໃຊ້ຄຳສັ່ງນີ້ເພື່ອສະແດງຫຼື"
 "ເຊື່ງແຖບສະຖານະຂອງມຸມມອງ"
 
-#: app/kwritemain.cpp:168
+#: app/kwritemain.cpp:169
 msgid "Sho&w Path"
 msgstr "ສະແດງພາດເສັ່ນທາງ"
 
-#: app/kwritemain.cpp:170
+#: app/kwritemain.cpp:171
 msgid "Hide Path"
 msgstr ""
 
-#: app/kwritemain.cpp:171
+#: app/kwritemain.cpp:172
 msgid "Show the complete document path in the window caption"
 msgstr ""
 "ສະແດງເສັ່ນທາງສົມບູນໃປທີ່ເ"
 "ອກະສານໃນແຖບຫົວເລື່ອງຫນ່າຕ"
 "່າງ"
 
-#: app/kateviewmanager.cpp:449 app/kwritemain.cpp:232
+#: app/kateviewmanager.cpp:377 app/kwritemain.cpp:233
 msgid "Open File"
 msgstr "ເປີດແຟ້ມ"
 
-#: app/kwritemain.cpp:256
+#: app/kwritemain.cpp:257
 msgid ""
 "The given file could not be read, check if it exists or if it is readable "
 "for the current user."
 msgstr ""
 
-#: app/kwritemain.cpp:532
+#: app/kwritemain.cpp:533
 msgid "Read the contents of stdin"
 msgstr ""
 
-#: app/kwritemain.cpp:533
-#, fuzzy
-msgid "Document to open"
-msgstr "ເອກະສານທີ່ຈະເປີດ"
-
-#: app/kwritemain.cpp:543
+#: app/kwritemain.cpp:547
 msgid "KWrite"
 msgstr "KWrite"
 
-#: app/kwritemain.cpp:544
+#: app/kwritemain.cpp:548
 #, fuzzy
 msgid "KWrite - Text Editor"
 msgstr ""
@@ -1225,36 +1238,119 @@ msgstr ""
 "ເຄື່ອງມືແກ້ໄຂຂໍ້ຄວາມເທິງ KDE "
 "ຂັ້ນກ້າວຫນ້າ"
 
-#: app/kateapp.cpp:268 app/kwritemain.cpp:641
+#: app/kateapp.cpp:306 app/kwritemain.cpp:679
 msgid "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
 
-#: app/kwritemain.cpp:655
+#: app/kwritemain.cpp:693
 msgid "Choose Editor Component"
 msgstr ""
 "ເລືອກຄອມໂພເນັນເຄື່ອງມືແກ້"
 "ໄຂຂໍ້ຄວາມ"
 
-#: app/kateprojectmanager.cpp:287
+#: app/kateviewmanager.cpp:96
+msgid "New Tab"
+msgstr ""
+
+#: app/kateviewmanager.cpp:99
+#, fuzzy
+msgid "Close Current Tab"
+msgstr "ປິດເອກະສານປະຈຸບັນ"
+
+#: app/kateviewmanager.cpp:103
+msgid "Activate Next Tab"
+msgstr ""
+
+#: app/kateviewmanager.cpp:108
+msgid "Activate Previous Tab"
+msgstr ""
+
+#: app/kateviewmanager.cpp:115
+#, fuzzy
+msgid "Split Ve&rtical"
+msgstr "ແຍກໃນແນວຕັ້ງ"
+
+#: app/kateviewmanager.cpp:118
+msgid "Split the currently active view vertically into two views."
+msgstr ""
+"ແຍກມຸມເບິ່ງທີ່ແອັກທີຟ໌ຢູ່"
+"ໃນປະຈຸບັນເປັນສອງມຸມເບິ່ງໃ"
+"ນທາງແນວຕັ້ງ"
+
+#: app/kateviewmanager.cpp:120
+msgid "Split &Horizontal"
+msgstr "ແຍກໃນແນວນອນ"
+
+#: app/kateviewmanager.cpp:123
+msgid "Split the currently active view horizontally into two views."
+msgstr ""
+"ແຍກມຸມເບິ່ງທີ່ແອັກທີຟ໌ຢູ່"
+"ໃນປະຈຸບັນເປັນສອງມຸມມອງໃນແ"
+"ນວນອນ"
+
+#: app/kateviewmanager.cpp:125
+#, fuzzy
+msgid "Cl&ose Current View"
+msgstr "ປິດເອກະສານປະຈຸບັນ"
+
+#: app/kateviewmanager.cpp:129
+msgid "Close the currently active splitted view"
+msgstr ""
+"ປິດມຸມເບິ່ງທີ່ແຍກໄວ້ທີ່ແອ"
+"ັກທີຟ໌ຢູ່ໃນປະຈຸບັນ"
+
+#: app/kateviewmanager.cpp:131
+msgid "Next View"
+msgstr "ມຸມເບິ່ງຕໍ່ໄປ"
+
+#: app/kateviewmanager.cpp:134
+msgid "Make the next split view the active one."
+msgstr ""
+"ໃຫ້ມຸມເບິ່ງທີ່ແຍກໄວ້ຕົວຖັ"
+"ດໄປເປັນຕົວທີ່ແອັກທີຟ໌"
+
+#: app/kateviewmanager.cpp:136
+msgid "Previous View"
+msgstr "ມຸມເບິ່ງກ່ອນຫນ້ານີ້"
+
+#: app/kateviewmanager.cpp:138
+msgid "Make the previous split view the active one."
+msgstr ""
+"ໃຫ້ມຸມເບິ່ງທີ່ແຍກໄວ້ກ່ອນຫ"
+"ນ້າເປັນຕົວທີ່ແອັກທີຟ໌"
+
+#: app/kateviewmanager.cpp:148
+#, fuzzy
+msgid "Open a new tab"
+msgstr ""
+"ເອິ້ນ Kate "
+"ເຮັດວງກໃນຫນ້າຕ່າງໃຫມ່"
+
+#: app/kateviewmanager.cpp:156
+#, fuzzy
+msgid "Close the current tab"
+msgstr "ປິດເອກະສານປະຈຸບັນ"
+
+#: app/kateprojectmanager.cpp:293
 msgid "New Project"
 msgstr "ປິດໂຄງການປະຈຸບັນ"
 
-#: app/kateprojectmanager.cpp:296
+#: app/kateprojectmanager.cpp:300
 #, fuzzy
 msgid "Project type:"
 msgstr "ປະເພດເອກະສານ"
 
-#: app/kateprojectmanager.cpp:302
+#: app/kateprojectmanager.cpp:306
 #, fuzzy
 msgid "Project name:"
 msgstr "ຊື່ໂີຄງການ"
 
-#: app/kateprojectmanager.cpp:306
+#: app/kateprojectmanager.cpp:310
 #, fuzzy
 msgid "Project file:"
 msgstr "ຄອມໄພເລີຂອງໂຄງການ"
 
-#: app/kateprojectmanager.cpp:341
+#: app/kateprojectmanager.cpp:345
 msgid "You must enter a project name and file"
 msgstr ""
 "ທ່ານຄວນຈະຕື່ມຊື່ໂຄງການແລະ"
@@ -1288,12 +1384,12 @@ msgstr "ເປີດແຟ້ມ"
 msgid "F&ind:"
 msgstr ""
 
-#: app/kateconfigplugindialogpage.cpp:83
+#: app/kateconfigplugindialogpage.cpp:82
 #, fuzzy
 msgid "Comment"
 msgstr "คำอธิบาย"
 
-#: app/kateconfigplugindialogpage.cpp:84
+#: app/kateconfigplugindialogpage.cpp:83
 msgid ""
 "Here you can see all available Kate plugins. Those with a check mark are "
 "loaded, and will be loaded again the next time Kate is started."
@@ -1304,14 +1400,58 @@ msgstr ""
 "ຫລດອີກເທຶ່ອຫນຶ່ງໃນການເລີ່"
 "ມການເຮັດວງກຄັ້ງຕໍ່ໄປຂອງ KATE"
 
-#: app/katefileselector.cpp:179
+#: app/katesavemodifieddialog.cpp:77
+msgid "Save As (%1)"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:128
+#, fuzzy
+msgid "Save Documents"
+msgstr "ເອກະສານ"
+
+#: app/katesavemodifieddialog.cpp:131
+#, fuzzy
+msgid "&Save selected"
+msgstr "ທີ່ເລືອກໄວ້:"
+
+#: app/katesavemodifieddialog.cpp:138
+msgid "&Abort closing"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:142
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:144
+msgid "Title"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:145
+#, fuzzy
+msgid "Location"
+msgstr "ແອພພລິເຄຊັນ"
+
+#: app/katesavemodifieddialog.cpp:164
+#, fuzzy
+msgid "Se&lect All"
+msgstr "ກ່ອງເລືອກແຟ້ມ"
+
+#: app/katesavemodifieddialog.cpp:211
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr ""
+
+#: app/katefileselector.cpp:175
 #, fuzzy
 msgid "Current Document Folder"
 msgstr ""
 "ໄດເຣັກທໍຣີປະຈະບັນຂອງເອກະສ"
 "ານ"
 
-#: app/katefileselector.cpp:207
+#: app/katefileselector.cpp:203
 #, fuzzy
 msgid ""
 "<p>Here you can enter a path for a folder to display."
@@ -1334,7 +1474,7 @@ msgstr ""
 "ົາສ໌ປຸ່ມຂວາແລະເລືອກຕົວຕື່"
 "ມທີ່ຕ້ອງການ"
 
-#: app/katefileselector.cpp:212
+#: app/katefileselector.cpp:208
 msgid ""
 "<p>Here you can enter a name filter to limit which files are displayed."
 "<p>To clear the filter, toggle off the filter button to the left."
@@ -1350,7 +1490,7 @@ msgstr ""
 "ສຸດໃຫ້ສະລັບປຸ່ມຕົວກອງມາຕຳ"
 "ແຫນ່ງເປີດ"
 
-#: app/katefileselector.cpp:216
+#: app/katefileselector.cpp:212
 msgid ""
 "<p>This button clears the name filter when toggled off, or reapplies the "
 "last filter used when toggled on."
@@ -1360,63 +1500,63 @@ msgstr ""
 "ົວກອງລ່າສຸດເມື່ອສະລັບມາທາ"
 "ງເປີດ"
 
-#: app/katefileselector.cpp:330
+#: app/katefileselector.cpp:326
 #, fuzzy
 msgid "Apply last filter (\"%1\")"
 msgstr "ເອິ້ນໃຊ້ຕົວກອງລ່າສຸດ (\"%1\")"
 
-#: app/katefileselector.cpp:335
+#: app/katefileselector.cpp:331
 #, fuzzy
 msgid "Clear filter"
 msgstr "ລ້າງຕົວກອງ"
 
-#: app/katefileselector.cpp:536
+#: app/katefileselector.cpp:532
 msgid "Toolbar"
 msgstr "ແຖບເຄື່ອງມື"
 
-#: app/katefileselector.cpp:538
+#: app/katefileselector.cpp:534
 msgid "A&vailable actions:"
 msgstr "ການກະທຳທີ່ມີຢູ່"
 
-#: app/katefileselector.cpp:539
+#: app/katefileselector.cpp:535
 msgid "S&elected actions:"
 msgstr "ການກະທຳທີ່ເລືອກໄວ້"
 
-#: app/katefileselector.cpp:547
+#: app/katefileselector.cpp:543
 msgid "Auto Synchronization"
 msgstr "ປ່ງນຕຳແຫນ່ງອັດຕະໂນມັດ"
 
-#: app/katefileselector.cpp:548
+#: app/katefileselector.cpp:544
 msgid "When a docu&ment becomes active"
 msgstr "ເມື່ອເອກະສານກັບມາແອທິຟ໌"
 
-#: app/katefileselector.cpp:549
+#: app/katefileselector.cpp:545
 msgid "When the file selector becomes visible"
 msgstr ""
 "ເມື່ອສາມາດເບິ່ງເຫັນກ່ອງເລ"
 "ືອກແຟ້ມ"
 
-#: app/katefileselector.cpp:556
+#: app/katefileselector.cpp:552
 msgid "Remember &locations:"
 msgstr "ຈົດຈຳຕຳແຫນ່ງ:"
 
-#: app/katefileselector.cpp:563
+#: app/katefileselector.cpp:559
 msgid "Remember &filters:"
 msgstr "ຈົດຈຳຕົວກອງ:"
 
-#: app/katefileselector.cpp:570
+#: app/katefileselector.cpp:566
 msgid "Session"
 msgstr "ເຊສຊັນ"
 
-#: app/katefileselector.cpp:571
+#: app/katefileselector.cpp:567
 msgid "Restore loca&tion"
 msgstr "ເອີ້ນຄຶນຕຳແຫນ່ງ"
 
-#: app/katefileselector.cpp:572
+#: app/katefileselector.cpp:568
 msgid "Restore last f&ilter"
 msgstr "ເອິ້ນຄືນຕົວກອງລ່າສຸດ"
 
-#: app/katefileselector.cpp:592
+#: app/katefileselector.cpp:588
 #, fuzzy
 msgid ""
 "<p>Decides how many locations to keep in the history of the location combo "
@@ -1426,7 +1566,7 @@ msgstr ""
 "ຫ້ເກັບໃນກ່ອງປະຫວັດການເອິ້"
 "ນໃຊ້ຕຳແຫນ່ງ"
 
-#: app/katefileselector.cpp:597
+#: app/katefileselector.cpp:593
 #, fuzzy
 msgid "<p>Decides how many filters to keep in the history of the filter combo box."
 msgstr ""
@@ -1434,7 +1574,7 @@ msgstr ""
 "ເກັບໄວ້ໃນກ່ອງປະວັດການເອິ້"
 "ນໃຊ້ຕົວກອງ"
 
-#: app/katefileselector.cpp:602
+#: app/katefileselector.cpp:598
 #, fuzzy
 msgid ""
 "<p>These options allow you to have the File Selector automatically change "
@@ -1462,7 +1602,7 @@ msgstr ""
 "ແຫນ່ງເອງໄດ້ສະເຫມີໂດຍການກົ"
 "ດປຸ່ມຕຳແຫນ່ງແຖບເຄື່ອງມື"
 
-#: app/katefileselector.cpp:611
+#: app/katefileselector.cpp:607
 msgid ""
 "<p>If this option is enabled (default), the location will be restored when "
 "you start Kate."
@@ -1479,7 +1619,7 @@ msgstr ""
 "ຕຳແຫນ່ງທີ່ຖຶກຄ້າງໄວ້ຈະຖຶກ"
 "ເອິ້ນຄຶນສະເຫມີ"
 
-#: app/katefileselector.cpp:615
+#: app/katefileselector.cpp:611
 msgid ""
 "<p>If this option is enabled (default), the current filter will be restored "
 "when you start Kate."
@@ -1502,15 +1642,23 @@ msgstr ""
 "ຢ່າງມັນອາດຈະເຮັດວງກແທນການ"
 "ເອິ້ນຄຶນຕຳແຫນ່ງກໍ່ໄດ້"
 
-#: rc.cpp:6
+#. i18n: file ./data/kateui.rc line 43
+#: rc.cpp:9
 #, no-c-format
 msgid "&Project"
 msgstr "ໂຄງການ"
 
-#: rc.cpp:8
+#. i18n: file ./data/kateui.rc line 54
+#: rc.cpp:12
 #, no-c-format
 msgid "&Document"
 msgstr "ເອກະສານ"
+
+#. i18n: file ./data/kateui.rc line 86
+#: rc.cpp:24
+#, no-c-format
+msgid "&Window"
+msgstr ""
 
 #: tips.cpp:3
 msgid ""
@@ -1534,7 +1682,7 @@ msgstr ""
 "<strong>ຕັ້ງຄ່າ-&gt;ປັບແຕ່ງ</strong> "
 "ເພື່ອເອີ້ນໃຊ້ມັນ</p>\n"
 
-#: tips.cpp:10
+#: tips.cpp:11
 msgid ""
 "<p>You can swap the characters on each side of the cursor just by pressing\n"
 "<strong>Ctrl+T</strong></p>\n"
@@ -1544,7 +1692,7 @@ msgstr ""
 "ດ້ວການກົດ\n"
 "<strong>CTRL + T</strong></p>\n"
 
-#: tips.cpp:15
+#: tips.cpp:17
 msgid ""
 "<p>You can export the current document as a HTML file, including\n"
 "syntax highlighting.</p>\n"
@@ -1559,7 +1707,7 @@ msgstr ""
 "<p>ໂດຍການເລືອກ <strong>ແຟ້ມ -&gt; "
 "ສົ່ງອອກ -&gt; HTML...</strong></p>\n"
 
-#: tips.cpp:21
+#: tips.cpp:24
 msgid ""
 "<p>You can split the Kate editor as many times as you like and\n"
 "in either direction. Each frame has its own status bar and\n"
@@ -1581,7 +1729,7 @@ msgstr ""
 "ແບ່ງມຸມເບິ່ງ[ ໃນແນວນອນ | "
 "ໃນແນວຕ້ັງ ]</strong></p>\n"
 
-#: tips.cpp:28
+#: tips.cpp:32
 msgid ""
 "<p>You can drag the Tool views (<em>File List</em> and <em>File "
 "Selector</em>)\n"
@@ -1599,10 +1747,12 @@ msgstr ""
 "ອອກຈາກຫນ້າຕ່າງຫລັກກໍ່ໄດ້</p>"
 "\n"
 
-#: tips.cpp:34
+#: tips.cpp:39
+#, fuzzy
 msgid ""
-"<p>Kate has a build in terminal emulator, just press <strong>F7</strong> to\n"
-"show or hide it as you desire.</p>\n"
+"<p>Kate has a built-in terminal emulator, just click on "
+"<strong>\"Terminal\"</strong> at\n"
+"the bottom to show or hide it as you desire.</p>\n"
 msgstr ""
 "<p>Kate "
 "ມີຕົວຈຳລອງເທີມິນອລຢູ່ນຳພາ"
@@ -1611,13 +1761,14 @@ msgstr ""
 "ເພື່ອໃຫ້ສະແດງຫລືເຊື່ອງມັນ"
 "ໄດ້ຕາມຄວາມຕ້ອງການ</p>\n"
 
-#: tips.cpp:39
+#: tips.cpp:45
+#, fuzzy
 msgid ""
-"<p>Kate can highlight the current line with a \n"
+"<p>Kate can highlight the current line with a\n"
 "<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" "
-"width=\"100%\"><tr><td>different \n"
+"width=\"100%\"><tr><td>different\n"
 "background color.<strong>|</strong></td></tr></table></p>\n"
-"<p>You can set the color in the <em>Colors</em> page of the configuration \n"
+"<p>You can set the color in the <em>Colors</em> page of the configuration\n"
 "dialog.</p>\n"
 msgstr ""
 "<p>Kate "
@@ -1631,15 +1782,15 @@ msgstr ""
 "້າ <em>ສີ</em> ໃນກ່ອງປັບແຕ່ງ\n"
 "</p>\n"
 
-#: tips.cpp:47
+#: tips.cpp:54
+#, fuzzy
 msgid ""
 "<p>You can open the currently edited file in any other application from "
-"within \n"
+"within\n"
 "Kate.</p>\n"
-"<p>Choose <strong>File -&gt; Open With</strong> for the list of programs \n"
+"<p>Choose <strong>File -&gt; Open With</strong> for the list of programs\n"
 "configured\n"
-"for the document type. There is also an option <strong>Other...</strong> to "
-"\n"
+"for the document type. There is also an option <strong>Other...</strong> to\n"
 "choose any application on your system.</p>\n"
 msgstr ""
 "<p>ທ່ານສາມາດເປີດແຟ້ມທີ່ຖືກແ"
@@ -1658,9 +1809,10 @@ msgstr ""
 "ເທິງລະບົບຂອງທ່ານໄດ້ເຊັ່ນກ"
 "ັນ</p>\n"
 
-#: tips.cpp:56
+#: tips.cpp:64
+#, fuzzy
 msgid ""
-"<p>You can configure the editor to always display the line numbers and/or \n"
+"<p>You can configure the editor to always display the line numbers and/or\n"
 "bookmark panes when started from the <strong>View Defaults</strong> page of "
 "the\n"
 "configuration dialog.</p>\n"
@@ -1673,10 +1825,11 @@ msgstr ""
 "<strong>ມຸມເບິ່ງປະລິຍາຍ</strong>\n"
 "ໃນກ່ອງການປັບແຕ່ງ</p>\n"
 
-#: tips.cpp:62
+#: tips.cpp:71
+#, fuzzy
 msgid ""
 "<p>You can download new or updated <em>Syntax highlight definitions</em> "
-"from \n"
+"from\n"
 "the <strong>Highlighting</strong> page in the configuration dialog.</p>\n"
 "<p>Just click the <em>Download...</em> button on the <em>Highlight "
 "Modes</em>\n"
@@ -1693,12 +1846,13 @@ msgstr ""
 "(ທ່ານຈະຕ້ອງເຊື່ອມຕໍ່ອິນເຕີ"
 "ເນັດກ່ອນແລ້ວ...)</p>\n"
 
-#: tips.cpp:69
+#: tips.cpp:79
+#, fuzzy
 msgid ""
 "<p>You can cycle through all open documents by pressing "
-"<strong>Alt+Left</strong> \n"
+"<strong>Alt+Left</strong>\n"
 "or <strong>Alt+Right</strong>. The next/previous document will immediately "
-"be displayed \n"
+"be displayed\n"
 "in the active frame.</p>\n"
 msgstr ""
 "<p>ທ່ານສາມາດເລືອກເອກະສານທີ່"
@@ -1709,15 +1863,15 @@ msgstr ""
 "ນກ່ອນຫນ້າ/ຖັດໄປໃນ\n"
 "ກອບທີ່ແອັກທີບຢູ່</p>\n"
 
-#: tips.cpp:75
+#: tips.cpp:86
+#, fuzzy
 msgid ""
 "<p>You can do cool sed-like regular expression replacements using "
-"<em>Editing \n"
-"Command</em>.</p>\n"
-"<p>For example, press <strong>Ctrl+M</strong> and enter "
-"<code>s/oldtext/newtext/g</code> \n"
+"<em>Command Line</em>.</p>\n"
+"<p>For example, press <strong>F7</strong> and enter <code>s "
+"/oldtext/newtext/g</code>\n"
 "to replace &quot;oldtext&quot; with &quot;newtext&quot; throughout the "
-"current \n"
+"current\n"
 "line.</p>\n"
 msgstr ""
 "<p>ທ່ານສາມາດສ້າງເງື່ອນໄຂການ"
@@ -1733,10 +1887,10 @@ msgstr ""
 "ບັນທັດປະຈຸບັນ \n"
 "ตัวอย่างเช่น</p>\n"
 
-#: tips.cpp:83
+#: tips.cpp:94
+#, fuzzy
 msgid ""
-"<p>You can repeat your last search by just pressing <strong>F3</strong>, or "
-"\n"
+"<p>You can repeat your last search by just pressing <strong>F3</strong>, or\n"
 "<strong>Shift+F3</strong> if you want to search backwards.</p>\n"
 msgstr ""
 "<p>ທ່ານສາມາດສັງສັ່ງເພື່ອທຳກ"
@@ -1746,16 +1900,14 @@ msgstr ""
 "ຫາກທ່ານຕ້ອງຄົ້ນຫາແບບຍ້ອນຫ"
 "ລັງ</p>\n"
 
-#: tips.cpp:88
+#: tips.cpp:100
 #, fuzzy
 msgid ""
 "<p>You can filter the files displayed in the <em>File Selector</em> tool "
-"view. \n"
+"view.\n"
 "</p>\n"
-"<p>Simply enter your filter in the filter entry at the bottom, for example: "
-"\n"
-"<code>*.html *.php</code> if you only want to see HTML and PHP files in the "
-"\n"
+"<p>Simply enter your filter in the filter entry at the bottom, for example:\n"
+"<code>*.html *.php</code> if you only want to see HTML and PHP files in the\n"
 "current folder.</p>\n"
 "<p>The File Selector will even remember your filters for you.</strong></p>\n"
 msgstr ""
@@ -1776,14 +1928,15 @@ msgstr ""
 "ອງທີ່ທ່ານໃຊ້ໄວ້\n"
 "<strong>:-)</strong></p>\n"
 
-#: tips.cpp:97
+#: tips.cpp:110
+#, fuzzy
 msgid ""
 "<p>You can have two views - or even more - of the same document in Kate. "
-"Editing \n"
+"Editing\n"
 "in either will be reflected in both.</p>\n"
 "<p>So if you find yourself scrolling up and down to look at text at the "
-"other \n"
-"end of a document, just press <strong>Ctrl+Shift+T</strong> to split \n"
+"other\n"
+"end of a document, just press <strong>Ctrl+Shift+T</strong> to split\n"
 "horizontally.</p>\n"
 msgstr ""
 "<p>ທ່ານສາມາດມີມຸມເບິ່ງຂອງເອ"
@@ -1802,14 +1955,66 @@ msgstr ""
 "ເພື່ອແບ່ງມຸມເບິ່ງໃນແນວນອນ</"
 "p>\n"
 
-#: tips.cpp:105
+#: tips.cpp:119
+#, fuzzy
 msgid ""
-"<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to the \n"
+"<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to the\n"
 "next/previous frame.</p>\n"
 msgstr ""
 "<p><strong>F8/SHIFT + F8</strong> "
 "ເພື່ອສະລັບໄປຍັງແຟ້ມຖັດໄປ/ກ"
 "່ອນຫນ່າ</p>\n"
+
+#: plugins/ktts/katekttsd.cpp:62
+msgid "&Speak Text"
+msgstr ""
+
+#: plugins/katepartktts/katepartkttsd.cpp:78 plugins/ktts/katekttsd.cpp:108
+msgid "Starting KTTSD failed"
+msgstr ""
+
+#: plugins/katepartktts/katepartkttsd.cpp:94
+#: plugins/katepartktts/katepartkttsd.cpp:100 plugins/ktts/katekttsd.cpp:124
+#: plugins/ktts/katekttsd.cpp:130
+msgid "DCOP Call failed"
+msgstr ""
+
+#: plugins/katepartktts/katepartkttsd.cpp:95 plugins/ktts/katekttsd.cpp:125
+msgid "The DCOP call setText failed"
+msgstr ""
+
+#: plugins/katepartktts/katepartkttsd.cpp:101 plugins/ktts/katekttsd.cpp:131
+msgid "The DCOP call startText failed"
+msgstr ""
+
+#: plugins/katepartktts/katepartkttsd.cpp:57
+msgid "Cannot Read source"
+msgstr ""
+
+#: plugins/katepartktts/katepartkttsd.cpp:58
+msgid ""
+"You cannot read anything except plain texts with\n"
+"this plugin, sorry."
+msgstr ""
+
+#~ msgid "Files to load"
+#~ msgstr "ແຟ້ມທີ່ຈະເອິ້ນ"
+
+#, fuzzy
+#~ msgid "Closing documents ..."
+#~ msgstr "ປິດເອກະສານທີ່ເປີດຢູ່ທັງຫມົດ"
+
+#, fuzzy
+#~ msgid "Comma&nd:"
+#~ msgstr "คำอธิบาย"
+
+#, fuzzy
+#~ msgid "Toplevel Mode"
+#~ msgstr "ໂຫມດສະແດງເຄື່ອງມື:"
+
+#, fuzzy
+#~ msgid "IDEAL Mode"
+#~ msgstr "โหมด IDEAl"
 
 #~ msgid " Line: 1 Col: 0 "
 #~ msgstr "ແຖວທີ : 1 ຖັນທີ : 0 "
@@ -1823,9 +2028,6 @@ msgstr ""
 
 #~ msgid "&Available:"
 #~ msgstr "ທີ່ມີຢູ່:"
-
-#~ msgid "&Selected:"
-#~ msgstr "ທີ່ເລືອກໄວ້:"
 
 #~ msgid "Untitled %1"
 #~ msgstr "ບໍ່ກຳນົດຊື່ %1"
@@ -1857,12 +2059,8 @@ msgstr ""
 #~ msgstr "ສະແດງທຸກສ່ວນທີ່ຢູ່ພາຍໃນຂະຫນະປັບຂະຫນາດມຸມເບິ່ງ"
 
 #, fuzzy
-#~ msgid ""
-#~ "If this is disabled, resizing views will display a <i>rubberband</i> to "
-#~ "show the new sizes until you release the mouse button."
-#~ msgstr ""
-#~ "ຫາກປິດການໃຊ້ງານຕົວເລືອກນີ້ ເມື່ອມີການປັບຂະຫນາດມຸມເບິ່ງ้ຈະມີການສະແດງພງງ<i>ໂຄງ</i> "
-#~ "ໃນຂະຫນາດໃຫມ່ເທົ່ານັ້ນຈົນກວ່າທ່ານຈະປ່ອຍປຸ່ມເມົາສ໌"
+#~ msgid "If this is disabled, resizing views will display a <i>rubberband</i> to show the new sizes until you release the mouse button."
+#~ msgstr "ຫາກປິດການໃຊ້ງານຕົວເລືອກນີ້ ເມື່ອມີການປັບຂະຫນາດມຸມເບິ່ງ้ຈະມີການສະແດງພງງ<i>ໂຄງ</i> ໃນຂະຫນາດໃຫມ່ເທົ່ານັ້ນຈົນກວ່າທ່ານຈະປ່ອຍປຸ່ມເມົາສ໌"
 
 #~ msgid "Description"
 #~ msgstr "ລາຍລະອງດ"
@@ -1892,8 +2090,7 @@ msgstr ""
 #~ msgid "Tool Views"
 #~ msgstr "ມຸມມອງເຄື່ອງມື"
 
-#~ msgid ""
-#~ "Shows all available tool views and allows showing and hiding of them."
+#~ msgid "Shows all available tool views and allows showing and hiding of them."
 #~ msgstr "ສະແດງເຄື່ອງມືທັງຫມົດທີ່ອະນຸຍາດໃຫ້ທຳການສະແດງ/ເຊື່ອງມັນໄດ້"
 
 #, fuzzy
@@ -1911,16 +2108,8 @@ msgstr ""
 #~ msgstr "ຮູບແບບຄລາສ໌ສິກ"
 
 #, fuzzy
-#~ msgid ""
-#~ "Choose how you want the toolviews managed.<BR><ul><li><b>Modern Style</b> "
-#~ "The toolviews will behave similar to the views in Konqueror's navigation "
-#~ "panel.</li><li><b>Classic Style</b> The toolviews (filelist, "
-#~ "fileselector, ...) can be docked anywhere and made floating.</li></ul>"
-#~ msgstr ""
-#~ "ເລືອກວິທີການທີ່ທ່ານຕ້ອງການໃຫ້ຈັດການກັບການສະແດງເຄື່ອງມື<BR><ul><li><b>ຮູບແບບສະໄຫມໃຫມ່</b> "
-#~ "ການສະແດງເຄື່ອງມືຈະຄ້າຍກັບທີ່ສະແດງເທິງແຖບດ້ານຂ້າງຂອງ ຄອນເຄີຣ໌ເຣີຣ໌</li></"
-#~ "ul><li><b>ຮູບແບບຄລາສ໌ສິກ</b> ການສະແດງເຄື່ອງມື (ລາຍການແຟ້ມ, ຊ່ອງເລືອກແຟ້ມ, ...) "
-#~ "ສາມາດຈະຝັງໄວ້ໃນທີ່ໃດໆແລະສາມາດຈະແຍກເປັນຫນ້າຕ່າງລອຍໄດ້</li>"
+#~ msgid "Choose how you want the toolviews managed.<BR><ul><li><b>Modern Style</b> The toolviews will behave similar to the views in Konqueror's navigation panel.</li><li><b>Classic Style</b> The toolviews (filelist, fileselector, ...) can be docked anywhere and made floating.</li></ul>"
+#~ msgstr "ເລືອກວິທີການທີ່ທ່ານຕ້ອງການໃຫ້ຈັດການກັບການສະແດງເຄື່ອງມື<BR><ul><li><b>ຮູບແບບສະໄຫມໃຫມ່</b> ການສະແດງເຄື່ອງມືຈະຄ້າຍກັບທີ່ສະແດງເທິງແຖບດ້ານຂ້າງຂອງ ຄອນເຄີຣ໌ເຣີຣ໌</li></ul><li><b>ຮູບແບບຄລາສ໌ສິກ</b> ການສະແດງເຄື່ອງມື (ລາຍການແຟ້ມ, ຊ່ອງເລືອກແຟ້ມ, ...) ສາມາດຈະຝັງໄວ້ໃນທີ່ໃດໆແລະສາມາດຈະແຍກເປັນຫນ້າຕ່າງລອຍໄດ້</li>"
 
 #, fuzzy
 #~ msgid "Find in files"
@@ -1932,12 +2121,8 @@ msgstr ""
 #~ msgid "Find in Files..."
 #~ msgstr "ຄົ້ນຫາໃນແຟ້ມ..."
 
-#~ msgid ""
-#~ "Look up text in a selection of files in a given directory (and below)."
+#~ msgid "Look up text in a selection of files in a given directory (and below)."
 #~ msgstr "ຄົ້ນຫາຂໍ້ຄວາມຊອງການເລືອກແຟ້ມໃນໄດເຣັກທໍຣີທີ່ກຳນົດ(ຂ້າງລຸ່ມ)"
-
-#~ msgid "Done"
-#~ msgstr "ຮງບຮອ້ຍ"
 
 #~ msgid "Ready"
 #~ msgstr "ພອ້ມ"
@@ -1974,12 +2159,8 @@ msgstr ""
 #~ msgstr "กำลังทดสอบ"
 
 #, fuzzy
-#~ msgid ""
-#~ "This lists files you have opened recently, and allows you to easily open "
-#~ "them again."
-#~ msgstr ""
-#~ "รายการแฟ้มนี้ เป็นรายการแสดงแฟ้มที่คุณได้เปิดใช้อยู่ในปัจจุบัน "
-#~ "และอนุญาตให้คุณได้เปิดใช้มันอีกครั้งได้ง่าย ๆ"
+#~ msgid "This lists files you have opened recently, and allows you to easily open them again."
+#~ msgstr "รายการแฟ้มนี้ เป็นรายการแสดงแฟ้มที่คุณได้เปิดใช้อยู่ในปัจจุบัน และอนุญาตให้คุณได้เปิดใช้มันอีกครั้งได้ง่าย ๆ"
 
 #~ msgid "Search in Files"
 #~ msgstr "ค้นหาในแฟ้ม"
@@ -1996,24 +2177,8 @@ msgstr ""
 #~ msgid "Kate &SDI"
 #~ msgstr "แบบ Kate &SDI"
 
-#~ msgid ""
-#~ "<qt>Choose which interface you like best.<p><strong>Kate MDI</strong> "
-#~ "(default):<br>All documents are kept within one main window, and you must "
-#~ "choose the document to edit from the \"Document\" menu, or from the File "
-#~ "List.<p><strong>Kate SDI</strong>:<br>A Single Document Interface opens "
-#~ "only one document in each window. The File List/File Selector will have "
-#~ "it's own window by default. You can <code>ALT-TAB</code> your way to the "
-#~ "desired document.<p><strong>Note:</strong> You need to restart Kate for "
-#~ "this setting to take effect.</qt>"
-#~ msgstr ""
-#~ "<qt>เลือกรูปแบบส่วนติดต่อที่คุณชอบ<p><strong>แบบ Kate MDI</strong> (default):"
-#~ "<br>ทุกเอกสารจะถูกแสดงในหน้าต่างหลักเพียงหน้าต่างเดียว "
-#~ "และคุณต้องเลือกเอกสารที่จะแก้ไขจากเมนู \"เอกสาร\" "
-#~ "หรือจากช่องรายการแฟ้ม<p><strong>แบบ Kate SDI</strong>:<br>รูปแบบเอกสารเดี่ยว "
-#~ "จะเปิดแต่ละเอกสารต่อหนึ่งหน้าต่าง และรายการแฟ้มก็จะแยกเป็นหน้าต่างต่างหาก "
-#~ "ซึ่งคุณสามารถใช้ปุ่มพิมพ์ <code>ALT-TAB</code> "
-#~ "เพื่อใช้เลือกเอกสารได้<p><strong>ข้อควรจำ:</strong> คุณต้องเริ่มการทำงาน Kate ใหม่ "
-#~ "เพื่อให้ตัวเล่ือกนี้มีผล</qt>"
+#~ msgid "<qt>Choose which interface you like best.<p><strong>Kate MDI</strong> (default):<br>All documents are kept within one main window, and you must choose the document to edit from the \"Document\" menu, or from the File List.<p><strong>Kate SDI</strong>:<br>A Single Document Interface opens only one document in each window. The File List/File Selector will have it's own window by default. You can <code>ALT-TAB</code> your way to the desired document.<p><strong>Note:</strong> You need to restart Kate for this setting to take effect.</qt>"
+#~ msgstr "<qt>เลือกรูปแบบส่วนติดต่อที่คุณชอบ<p><strong>แบบ Kate MDI</strong> (default):<br>ทุกเอกสารจะถูกแสดงในหน้าต่างหลักเพียงหน้าต่างเดียว และคุณต้องเลือกเอกสารที่จะแก้ไขจากเมนู \"เอกสาร\" หรือจากช่องรายการแฟ้ม<p><strong>แบบ Kate SDI</strong>:<br>รูปแบบเอกสารเดี่ยว จะเปิดแต่ละเอกสารต่อหนึ่งหน้าต่าง และรายการแฟ้มก็จะแยกเป็นหน้าต่างต่างหาก ซึ่งคุณสามารถใช้ปุ่มพิมพ์ <code>ALT-TAB</code> เพื่อใช้เลือกเอกสารได้<p><strong>ข้อควรจำ:</strong> คุณต้องเริ่มการทำงาน Kate ใหม่ เพื่อให้ตัวเล่ือกนี้มีผล</qt>"
 
 #~ msgid "Colors"
 #~ msgstr "สี"
