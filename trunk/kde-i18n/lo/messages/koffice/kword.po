@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-12-22 03:22+0100\n"
+"POT-Creation-Date: 2003-06-03 01:36+0200\n"
 "PO-Revision-Date: 2003-01-21 12:16+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "F&ormat"
 msgstr "&ຮູບແບບ"
 
-#: kwconfig.cc:90 rc.cpp:6 rc.cpp:25
+#: kwconfig.cc:91 rc.cpp:6 rc.cpp:25
 msgid "Formula"
 msgstr "ສູດ"
 
@@ -102,7 +102,7 @@ msgstr ""
 "<p>Bookmarks allow you to jump between parts of your document. "
 "<br>Please provide the name of your bookmark.</p>"
 
-#: kwframestylemanager.cc:244 kwtablestylemanager.cc:283 mailmerge.cc:477
+#: kwframestylemanager.cc:244 kwtablestylemanager.cc:284 mailmerge.cc:477
 #: mailmerge/sql/qtsqlopeneditor.cc:98 rc.cpp:40
 msgid "Name:"
 msgstr "ຊື່:"
@@ -129,7 +129,9 @@ msgstr "&ຕາຕະລາງທີ່ມີຢູ່:"
 
 #: rc.cpp:48
 msgid "&Fields of the selected table:"
-msgstr "&ຊ່ອງຂໍ່ມູນຕາຕະລາງທີ່ເລືອກໃວ້:"
+msgstr ""
+"&ຊ່ອງຂໍ່ມູນຕາຕະລາງທີ່ເລືອກ"
+"ໃວ້:"
 
 #: rc.cpp:49
 msgid "Query Result"
@@ -196,9 +198,11 @@ msgstr "ຄ່າປາລິຍາຍ"
 
 #: configfootnotedia.cc:39
 msgid "Configure Endnote/Footnote"
-msgstr "ປັບແຕ່ງເຊີງອອດ/ອ້າງອີງທ້າຍບົດ"
+msgstr ""
+"ປັບແຕ່ງເຊີງອອດ/ອ້າງອີງທ້າຍ"
+"ບົດ"
 
-#: configfootnotedia.cc:50 kwtextframeset.cc:3461
+#: configfootnotedia.cc:50 kwtextframeset.cc:3567
 msgid "Footnotes"
 msgstr "ເຊີງອອດ"
 
@@ -211,30 +215,36 @@ msgid "Separator Line"
 msgstr "ເສັ້ນຕົວແບ່ງ"
 
 #: configfootnotedia.cc:68
+#, fuzzy
 msgid ""
-"Configure the seperator line. The seperator line is drawn directly above the "
+"Configure the separator line. The separator line is drawn directly above the "
 "frame for the footnotes"
 msgstr ""
-"Configure the seperator line. The seperator line is drawn "
-"directly above the frame for the footnotes"
+"Configure the seperator line. The seperator line is drawn directly above the "
+"frame for the footnotes"
 
 #: configfootnotedia.cc:73
+#, fuzzy
 msgid "Position"
 msgstr "ຕຳແໜ່ງໜ່ວຍເປັນ %1"
 
 #: configfootnotedia.cc:74
+#, fuzzy
 msgid ""
-"The seperator can be positioned horizontally by picking one of the three "
+"The separator can be positioned horizontally by picking one of the three "
 "alignments"
 msgstr ""
-"The seperator can be positioned horizontally by picking "
-"one of the three alignments"
+"The seperator can be positioned horizontally by picking one of the three "
+"alignments"
 
 #: configfootnotedia.cc:82
+#, fuzzy
 msgid ""
 "_: Position\n"
 "Left"
-msgstr "_: Position\n  Left"
+msgstr ""
+"_: Position\n"
+"  Left"
 
 #: configfootnotedia.cc:85
 msgid ""
@@ -258,32 +268,35 @@ msgid " %"
 msgstr "%"
 
 #: configfootnotedia.cc:117
+#, fuzzy
 msgid ""
 "_: arg is a unit such as pt\n"
-"&Width (%1)"
+"&Width (%1):"
 msgstr ""
 "_: arg is a unit such as pt\n"
 "&Width(%1)"
 
 #: configfootnotedia.cc:119
+#, fuzzy
 msgid ""
-"The width is the thickness of the seperator line, set to 0 for no seperator "
+"The width is the thickness of the separator line, set to 0 for no seperator "
 "line"
 msgstr ""
-"The width is the thickness of the seperator line, set to "
-"0 for no seperator line"
+"The width is the thickness of the seperator line, set to 0 for no seperator "
+"line"
 
 #: configfootnotedia.cc:127
 msgid "&Size on page:"
 msgstr "&Size on page:"
 
 #: configfootnotedia.cc:129
+#, fuzzy
 msgid ""
-"The size of the seperator line can be defined in a percentage of the width "
+"The size of the separator line can be defined in a percentage of the width "
 "of the page"
 msgstr ""
-"The size of the seperator line can be defined in a percentage "
-"of the width of the page"
+"The size of the seperator line can be defined in a percentage of the width "
+"of the page"
 
 #: configfootnotedia.cc:137
 msgid "Style:"
@@ -310,136 +323,128 @@ msgid "Dash Dot Dot Line"
 msgstr "ເສັ້ນຂີດ-ຈຸດ-ຈຸດ"
 
 #: configfootnotedia.cc:149
+#, fuzzy
 msgid ""
-"The seperator line can be drawn as a solid line or as a line which has a "
+"The separator line can be drawn as a solid line or as a line which has a "
 "pattern; the pattern can be set in the style-type"
 msgstr ""
-"The seperator line can be drawn as a solid line or as a "
-"line which has a pattern; the pattern can be set in the "
-"style-type"
+"The seperator line can be drawn as a solid line or as a line which has a "
+"pattern; the pattern can be set in the style-type"
 
 #: configfootnotedia.cc:170 configfootnotedia.cc:171 configfootnotedia.cc:178
 #: configfootnotedia.cc:179
 msgid "Change End-/Footnote Variable Settings"
-msgstr "ປ່ງນການຕັ້ງຄ່າຕົວແປເຊີງອອດ/ອ້າງອິງທ້າຍເລື່ອງ"
+msgstr ""
+"ປ່ງນການຕັ້ງຄ່າຕົວແປເຊີງອອ"
+"ດ/ອ້າງອິງທ້າຍເລື່ອງ"
 
 #: configfootnotedia.cc:200 configfootnotedia.cc:201
 msgid "Change Footnote Line Separator Settings"
-msgstr "ປ່ງນການຕັ້ງຄ່າເສັ້ນຕົວບົ່ງເຊີງອອດ"
+msgstr ""
+"ປ່ງນການຕັ້ງຄ່າເສັ້ນຕົວບົ່"
+"ງເຊີງອອດ"
 
 #: contents.cc:51
 msgid "Table of Contents"
 msgstr "ສາລະບານ"
 
-#: deldia.cc:48
+#: deldia.cc:49
 msgid "Delete the row from the table."
 msgstr "ລຶບແຖວອອກຈາກຕາຕະລາງ"
 
-#: deldia.cc:49
+#: deldia.cc:50
 msgid "Delete the column from the table."
 msgstr "ລຶບຄໍລຳ້ອອກຈາກຕາຕະລາງ"
 
-#: deldia.cc:58
-msgid "Delete Rows:"
-msgstr "ລຶບແຖວ:"
+#: deldia.cc:59
+#, fuzzy
+msgid "Delete rows:"
+msgstr "ลบแถวที่:"
 
-#: deldia.cc:58
-msgid "Delete Columns:"
-msgstr "ລຶບຄໍລຳ້:"
+#: deldia.cc:59
+#, fuzzy
+msgid "Delete columns:"
+msgstr "ลบคอลัมน์ที่:"
 
-#: deldia.cc:79
+#: deldia.cc:80
 msgid "Delete the whole table"
 msgstr "ລຶບອອກຈາກຕາຕະລາງທັງໝົດ"
 
-#: deldia.cc:83
+#: deldia.cc:84
 msgid "Delete all selected rows"
 msgstr "ລຶບແຖວທີ່ເລືອກໄວ້ທັງໝົດ"
 
-#: deldia.cc:83
+#: deldia.cc:84
 msgid "Delete all selected cells"
 msgstr "ລຶບເຊລທີ່ເລືອກໄວ້ທັງໝົດ"
 
-#: deldia.cc:104
-msgid "Remove rows"
-msgstr "ລຶບແຖວ"
-
-#: deldia.cc:107 tabledia.cc:248
-msgid "Remove row"
-msgstr "ລຶບແຖວ"
-
-#: deldia.cc:113
-msgid "Remove columns"
-msgstr "ລຶບຄໍລຳ້"
-
-#: deldia.cc:116 tabledia.cc:277
-msgid "Remove column"
-msgstr "ລຶບຄໍລຳ້"
-
-#: docstruct.cc:332
+#: docstruct.cc:333
 msgid "Arrangement"
 msgstr "ກະຈາຍເຕັມຄວາມກວ້າງ"
 
-#: docstruct.cc:336
+#: docstruct.cc:337
 msgid "Text Frames/Frame Sets"
 msgstr "ກອບ/ຊຸດກອບຂໍ່ຄວາມ"
 
-#: docstruct.cc:340
+#: docstruct.cc:341
 msgid "Formula Frames"
 msgstr "ກອບສູດ"
 
-#: docstruct.cc:344
+#: docstruct.cc:345
 msgid "Tables"
 msgstr "ຕາຕະລາງ"
 
-#: docstruct.cc:349
+#: docstruct.cc:350
 msgid "Pictures"
 msgstr "ຮູບພາບ"
 
-#: docstruct.cc:353
+#: docstruct.cc:354
 msgid "Embedded Objects"
 msgstr "ຝັງວັດຖຸ"
 
-#: docstruct.cc:454 docstruct.cc:506 docstruct.cc:543 docstruct.cc:582
-#: docstruct.cc:620 docstruct.cc:657
+#: docstruct.cc:455 docstruct.cc:507 docstruct.cc:544 docstruct.cc:583
+#: docstruct.cc:621 docstruct.cc:658
 msgid "Empty"
 msgstr "ວ່າງ"
 
-#: docstruct.cc:489
+#: docstruct.cc:490
 #, c-format
 msgid "Page %1"
 msgstr "ໜ້າທີ່ %1"
 
-#: docstruct.cc:491
+#: docstruct.cc:492
 #, c-format
 msgid "Column %1"
 msgstr "ຄໍລຳ້ທີ່ %1"
 
-#: docstruct.cc:494
+#: docstruct.cc:495
 #, c-format
 msgid "Text Frame %1"
 msgstr "ກອບຂໍ່ຄວາມ %1"
 
-#: docstruct.cc:533
-#, c-format
-msgid "Formula frame %1"
+#: docstruct.cc:534
+#, fuzzy, c-format
+msgid "Formula Frame %1"
 msgstr "ກອບສູດ %1"
 
-#: docstruct.cc:572 kwtableframeset.cc:55
+#: docstruct.cc:573 kwtableframeset.cc:56
 #, c-format
 msgid "Table %1"
 msgstr "ຕາຕະລາງ %1"
 
-#: docstruct.cc:609
+#: docstruct.cc:610
 msgid "Picture (%1) %2"
 msgstr "ຮູບພາບ (%1) %2"
 
-#: docstruct.cc:677
+#: docstruct.cc:678
 msgid "Document Structure"
 msgstr "ໂຄງສ້າງເອກະສານ"
 
 #: footnotedia.cc:43
 msgid "Insert Footnote/Endnote"
-msgstr "ແທຣກເຊີງອອດ/ອ້າງອີງທ້າຍເລື່ອງ"
+msgstr ""
+"ແທຣກເຊີງອອດ/ອ້າງອີງທ້າຍເລື"
+"່ອງ"
 
 #: footnotedia.cc:47
 msgid "Numbering"
@@ -453,25 +458,26 @@ msgstr "&ອັດຕະໂນມັດ"
 msgid "&Manual"
 msgstr "ປັບດ້ວຍ&ຕົນເອງ"
 
-#: footnotedia.cc:67
+#: footnotedia.cc:69
 msgid "&Footnote"
 msgstr "&ເຊີງອອດ"
 
-#: footnotedia.cc:68
+#: footnotedia.cc:70
 msgid "&Endnote"
 msgstr "ອ້າງອີງ&ທ້າຍເລື່ອງ"
 
-#: footnotedia.cc:79
+#: footnotedia.cc:81
 msgid "C&onfigure..."
 msgstr "&ປັບແຕ່ງ"
 
 #: framedia.cc:98
-#, c-format
-msgid "Frame Properties For %1"
+#, fuzzy, c-format
+msgid "Frame Properties for %1"
 msgstr "&ຄຸນສົມບັດຂອງກອບ%1"
 
 #: framedia.cc:110
-msgid "Frame Properties For New Frame"
+#, fuzzy
+msgid "Frame Properties for New Frame"
 msgstr "ຄຸນສົມບັດຂອງກອບ"
 
 #: framedia.cc:125
@@ -479,20 +485,23 @@ msgid "Frames Properties"
 msgstr "ຄຸນສົມບັດຂອງກອບ"
 
 #: framedia.cc:137
-#, c-format
-msgid "Frame Settings For %1"
+#, fuzzy, c-format
+msgid "Frame Settings for %1"
 msgstr "&ຕັ້ງຄ່າກອບ %1"
 
 #: framedia.cc:258
 msgid "Frame is a copy of the previous frame"
-msgstr "ກອບເປັນສຳເນົາຂອງກອບຕົວກ່ອນ"
+msgstr ""
+"ກອບເປັນສຳເນົາຂອງກອບຕົວກ່ອ"
+"ນ"
 
 #: framedia.cc:293 kwinsertpicdia.cc:101
 msgid "Retain original aspect ratio"
 msgstr "ຮັກສາອັດຕາສ່ວນໄວ້"
 
 #: framedia.cc:332
-msgid "If Text is too long for Frame"
+#, fuzzy
+msgid "If Text is Too Long for Frame"
 msgstr "ຫາກຂໍ່ຄວາມຍາວເກີນກວ່າກອບ"
 
 #: framedia.cc:336
@@ -508,12 +517,15 @@ msgid "Don't show the extra text"
 msgstr "ບໍ່ສະແດງຂໍ່ຄວາມພິເສດ"
 
 #: framedia.cc:385
-msgid "On new Page Creation"
+#, fuzzy
+msgid "On New Page Creation"
 msgstr "ເມື່ອຂື້ນໜ້າໃໝ່"
 
 #: framedia.cc:389
 msgid "Reconnect frame to current flow"
-msgstr "ເຊື່ອມກອບເຂົ້າກັບສ່ວນປະຈຸບັນ"
+msgstr ""
+"ເຊື່ອມກອບເຂົ້າກັບສ່ວນປະຈຸ"
+"ບັນ"
 
 #: framedia.cc:395
 msgid "Don't create a followup frame"
@@ -537,7 +549,9 @@ msgstr "ຂະໜາດຊ່ອງວ່າງ (%1):"
 
 #: framedia.cc:467
 msgid "Closest to Binding"
-msgstr "ຈັບຂິດເຂົ້າກັບທີ່ຈັບຄູ່ໃວ້"
+msgstr ""
+"ຈັບຂິດເຂົ້າກັບທີ່ຈັບຄູ່ໃວ"
+"້"
 
 #: framedia.cc:468
 msgid "Closest to Page Edge"
@@ -545,7 +559,9 @@ msgstr "ຈັດຂິດເຂົ້າກັບຂອບເຈ້ຍ"
 
 #: framedia.cc:482
 msgid "Changes will be applied to all frames in frameset"
-msgstr "ການປ່ງນແປງຈະມີຜົນກັບກອບທັງໝົດໃນຊຸດກອບ"
+msgstr ""
+"ການປ່ງນແປງຈະມີຜົນກັບກອບທັ"
+"ງໝົດໃນຊຸດກອບ"
 
 #: framedia.cc:485
 msgid "Protect content"
@@ -553,7 +569,9 @@ msgstr "ປ້ອງກັນເນື້ອໃນ"
 
 #: framedia.cc:486
 msgid "Disallow changes to be made to the contents of the frame(s)"
-msgstr "ບໍ່ອານຸຍາດໃຫ້ເຮັດການປ່ງນແປງເນື້ອໃນພາຍໃນກອບ"
+msgstr ""
+"ບໍ່ອານຸຍາດໃຫ້ເຮັດການປ່ງນແ"
+"ປງເນື້ອໃນພາຍໃນກອບ"
 
 #: framedia.cc:537
 msgid "Text Run Around"
@@ -573,7 +591,9 @@ msgstr "&ຂໍ່ຄວາມຢູ່ຮອບໆພື້ນທີ່ກອ�
 
 #: framedia.cc:555
 msgid "Text will &not run around this frame"
-msgstr "&ບໍ່ໃຫ້ຂໍ່ຄວາມຮອບຂ່າງພື້ນທີ່ກອບ"
+msgstr ""
+"&ບໍ່ໃຫ້ຂໍ່ຄວາມຮອບຂ່າງພື້ນທ"
+"ີ່ກອບ"
 
 #: framedia.cc:579
 msgid "Run Around Side"
@@ -593,7 +613,9 @@ msgstr "ດ້ານທີ່&ຍາວທີ່ສຸດ"
 
 #: framedia.cc:622
 msgid "Distance between frame and text (%1):"
-msgstr "ໄລຍະຫ່າງລະຫວ່າງກອບແລະຂໍ່ຄວາມ(%1):"
+msgstr ""
+"ໄລຍະຫ່າງລະຫວ່າງກອບແລະຂໍ່ຄ"
+"ວາມ(%1):"
 
 #: framedia.cc:720
 msgid "Connect Text Frames"
@@ -601,7 +623,9 @@ msgstr "ເຊື່ອມກອບຂໍ່ຄວາມ"
 
 #: framedia.cc:728
 msgid "Select existing frameset to connect frame to"
-msgstr "ເລືອກຊຸດກອບທີ່ມີຢູ່ເພື່ອເຊື່ອມກອບ"
+msgstr ""
+"ເລືອກຊຸດກອບທີ່ມີຢູ່ເພື່ອເ"
+"ຊື່ອມກອບ"
 
 #: framedia.cc:737
 msgid "No."
@@ -619,7 +643,7 @@ msgstr "ສ້າງຊຸດກອບໃໝ່"
 msgid "Name of frameset:"
 msgstr "ຊື່ຂອງຊຸດກອບ"
 
-#: framedia.cc:804 framedia.cc:1517 kwcanvas.cc:1263 kwtextframeset.cc:91
+#: framedia.cc:804 framedia.cc:1517 kwcanvas.cc:1316 kwtextframeset.cc:94
 #, c-format
 msgid "Text Frameset %1"
 msgstr "ຊຸດກອບຂໍ່ຄວາມ%1"
@@ -637,8 +661,8 @@ msgid "Protect size and position"
 msgstr "ຮັກສາຂະໜາດແລະຕຳແໜ່ງ"
 
 #: framedia.cc:885
-#, c-format
-msgid "Position in %1"
+#, fuzzy
+msgid "Position (%1)"
 msgstr "ຕຳແໜ່ງໜ່ວຍເປັນ%1"
 
 #: framedia.cc:888 framedia.cc:950
@@ -658,8 +682,8 @@ msgid "Height:"
 msgstr "ສູງ:"
 
 #: framedia.cc:943
-#, c-format
-msgid "Margins in %1"
+#, fuzzy
+msgid "Margins (%1)"
 msgstr "ແຄມເຈ້ຍໜ່ວຍເປັນ%1"
 
 #: framedia.cc:946
@@ -668,7 +692,10 @@ msgstr "ປັບການປ່ງນແປງຕາມກັນ"
 
 #: framedia.cc:947
 msgid "When this is checked any change in margins will be used for all directions"
-msgstr "ຫາກກາເຄື່ອງໝາຍທີ່ນີ້ການປ່ງນແປງໃນດ້ານໃດໆຈະຖືກປັບໃຊ້ກັບດ້ານອື່ນດວ້ຍ"
+msgstr ""
+"ຫາກກາເຄື່ອງໝາຍທີ່ນີ້ການປ່"
+"ງນແປງໃນດ້ານໃດໆຈະຖືກປັບໃຊ້"
+"ກັບດ້ານອື່ນດວ້ຍ"
 
 #: framedia.cc:961
 msgid "Right:"
@@ -688,7 +715,9 @@ msgstr "ພື້ນຫຼັງ"
 
 #: framedia.cc:1133
 msgid "Set new color on all selected frames"
-msgstr "ຕັ້ງຄ່າສີໃໝ່ເທິງກອບທີ່ເລືອກໄວ້ທັງໝົດ"
+msgstr ""
+"ຕັ້ງຄ່າສີໃໝ່ເທິງກອບທີ່ເລື"
+"ອກໄວ້ທັງໝົດ"
 
 #: framedia.cc:1140 kwframestylemanager.cc:585
 msgid "Background color:"
@@ -768,10 +797,12 @@ msgid ""
 "that name already exists. Please enter another name or select an existing "
 "frameset from the list."
 msgstr ""
-"ບໍ່ສາມາດສ້າງຊຸດກອບໃໝ່"
-"ຊື່ '%1' ໄດ້"
-"ເນື່ອງຈາກມີຊຸດກອບນີ້ຢູ່ແລ້ໂປດຕື່ມຊື່ໃໝ່ "
-"ຫຼືເລືອກຊຸດກອບທີ່ມີຢູ່ແລ້ວຈາກລາຍການ"
+"ບໍ່ສາມາດສ້າງຊຸດກອບໃໝ່ຊື່ "
+"'%1' "
+"ໄດ້ເນື່ອງຈາກມີຊຸດກອບນີ້ຢູ"
+"່ແລ້ໂປດຕື່ມຊື່ໃໝ່ "
+"ຫຼືເລືອກຊຸດກອບທີ່ມີຢູ່ແລ້"
+"ວຈາກລາຍການ"
 
 #: framedia.cc:1594
 msgid "A frameset with the name '%1' already exists. Please enter another name."
@@ -780,7 +811,7 @@ msgstr ""
 "ຢູ່ແລ້ວໂປດຕື່ມຊື່ໃໝ່"
 
 #: framedia.cc:1645 framedia.cc:1646 framedia.cc:1663 framedia.cc:1664
-#: kwtableframeset.cc:2063 kwtableframeset.cc:2066
+#: kwtableframeset.cc:2261 kwtableframeset.cc:2264
 msgid "Protect Content"
 msgstr "ປ້ອງກັນສ່ວນເນື້ອໃນ"
 
@@ -788,477 +819,559 @@ msgstr "ປ້ອງກັນສ່ວນເນື້ອໃນ"
 msgid "Frame Properties"
 msgstr "ຄຸນສົມບັດຂອງກອບ"
 
-#: framedia.cc:1832 framedia.cc:1936
+#: framedia.cc:1832 framedia.cc:1931
 msgid ""
 "The frame will not be resized because the new size would be greater than the "
 "size of the page."
-msgstr "ບໍ່ສາມາດປັບຂະໜາດກອບໄດ້ເນື່ອງຈາກຂະໜາດໃໝ່ມີຂະໜາດໃຫຍ່ກວ່າຂະໜາດຂອງໜ້າເຈ້ຍ"
+msgstr ""
+"ບໍ່ສາມາດປັບຂະໜາດກອບໄດ້ເນື"
+"່ອງຈາກຂະໜາດໃໝ່ມີຂະໜາດໃຫຍ່"
+"ກວ່າຂະໜາດຂອງໜ້າເຈ້ຍ"
 
-#: framedia.cc:1837 framedia.cc:1838 kwcanvas.cc:1267
+#: framedia.cc:1837 framedia.cc:1838 kwcanvas.cc:1320
 msgid "Create Text Frame"
 msgstr "ສ້າງງກອບຂໍ່ຄວາມ"
 
-#: framedia.cc:1871 kwview.cc:6014 kwview.cc:6023
+#: framedia.cc:1871 kwview.cc:6030 kwview.cc:6036
 msgid "Make Frameset Inline"
 msgstr "ເຮັດໃຫ້ຊຸດກອບຢູ່ພາຍໃນແຖວ"
 
-#: framedia.cc:1898 kwview.cc:6039
+#: framedia.cc:1893 kwview.cc:6050
 msgid "Make Frameset Non-Inline"
-msgstr "ເຮັດໃຫ້ຊຸດກອບບໍ່ຢູ່ພາຍໃນແຖວ"
+msgstr ""
+"ເຮັດໃຫ້ຊຸດກອບບໍ່ຢູ່ພາຍໃນແ"
+"ຖວ"
 
-#: framedia.cc:1907
+#: framedia.cc:1902
 msgid "Protect Size"
 msgstr "ຮັກສາຂະໜາດ"
 
-#: framedia.cc:1928 framedia.cc:1930 kwcanvas.cc:1190
+#: framedia.cc:1923 framedia.cc:1925 kwcanvas.cc:1240
 msgid "Resize Frame"
 msgstr "ປັບຂະໜາດກອບ"
 
-#: framedia.cc:1948 framedia.cc:1949
+#: framedia.cc:1943 framedia.cc:1944
 msgid "Change Margin Frame"
 msgstr "ປ່ງນໄລຍະຂອງກອບ"
 
-#: framedia.cc:2006
+#: framedia.cc:2001
+#, fuzzy
 msgid ""
-"You are about to reconnect the last Frame of the Frameset '%1'. The contents "
-"of this Frameset will be deleted.\n"
+"You are about to reconnect the last frame of the frameset '%1'. The contents "
+"of this frameset will be deleted.\n"
 "Are you sure you want to do that?"
 msgstr ""
-"ທ່ານໄດ້ເຮັດການເຊື່ອມກອບລ່າສຸດເຂົ້າກັບຊຸດກອບ"
-"ุ'%1' "
-"ແລະເນື້ອໃນພາຍໃນຊຸດກອບນີ້ຈະຖືກລຶບອອກໄປ"
-"\n"
-"ທ່ານແນ່ໃຈຫຼືບໍທີ່ຈະເຮັດເຊັ້ນນັ້ນ?"
+"ທ່ານໄດ້ເຮັດການເຊື່ອມກອບລ່"
+"າສຸດເຂົ້າກັບຊຸດກອບุ'%1' "
+"ແລະເນື້ອໃນພາຍໃນຊຸດກອບນີ້ຈ"
+"ະຖືກລຶບອອກໄປ\n"
+"ທ່ານແນ່ໃຈຫຼືບໍທີ່ຈະເຮັດເຊ"
+"ັ້ນນັ້ນ?"
 
-#: framedia.cc:2010
+#: framedia.cc:2005
 msgid "Reconnect Frame"
 msgstr "ເຊື່ອມກອບໃໝ່ອີກເທື່ອໜື່ງ"
 
-#: framedia.cc:2010
+#: framedia.cc:2005
 msgid "&Reconnect"
 msgstr "&ເຊື່ອມໃໝ່"
 
-#: insdia.cc:53 insdia.cc:121 kwview.cc:3927
+#: insdia.cc:54 kwview.cc:3971 kwview.cc:3986 tabledia.cc:251
 msgid "Insert Row"
 msgstr "ທະແລກດງວ"
 
-#: insdia.cc:53 insdia.cc:137 kwview.cc:3954
+#: insdia.cc:54 kwview.cc:4015 kwview.cc:4039 tabledia.cc:280
 msgid "Insert Column"
 msgstr "ທະແລກຄໍລຳ້"
 
-#: insdia.cc:57
+#: insdia.cc:58
 msgid "Insert New Row"
 msgstr "ທະແລກແຖວໃໝ່"
 
-#: insdia.cc:57
+#: insdia.cc:58
 msgid "Insert New Column"
 msgstr "ທະແລກຄໍລຳ້ໃໝ່"
 
-#: insdia.cc:62 kwinsertpagedia.cc:39
+#: insdia.cc:63 kwinsertpagedia.cc:39
 msgid "Before"
 msgstr "ກ່ອນ"
 
-#: insdia.cc:67 kwinsertpagedia.cc:38
+#: insdia.cc:68 kwinsertpagedia.cc:38
 msgid "After"
 msgstr "ຫຼັງ"
 
-#: insdia.cc:86 resizetabledia.cc:53
+#: insdia.cc:87 resizetabledia.cc:53
 msgid "Row:"
 msgstr "ແຖວທີ່"
 
-#: insdia.cc:86 resizetabledia.cc:53
+#: insdia.cc:87 resizetabledia.cc:53
 msgid "Column:"
 msgstr "ຄໍລຳ້ທີ່"
 
-#: kwcanvas.cc:208 kwview.cc:1746
+#: kwcanvas.cc:210 kwview.cc:1711
 msgid "Printing..."
 msgstr "ກຳລັງພິມ..."
 
-#: kwcanvas.cc:449 kwpartframeset.cc:173 kwview.cc:6031
+#: kwcanvas.cc:455 kwview.cc:6042
 msgid "Move Frame"
 msgstr "ຍ້າຍກອບ"
 
-#: kwcanvas.cc:565 kwtableframeset.cc:2492
-msgid "Read-only content cannot be changed. No modifications will be accepted"
-msgstr "ບໍ່ສາມາດປ່ງນແປງເນື້ອໃນທີ່ອ່ານໄດ້ຢ່າງດງວໄດ້ຈະມີການແກ້ໄຂໃດໆເກີດຂື້ນ"
+#: kwcanvas.cc:600 kwcanvas.cc:2505 kwtableframeset.cc:2699
+msgid "Read-only content cannot be changed. No modifications will be accepted."
+msgstr ""
+"ບໍ່ສາມາດປ່ງນແປງກອບທີ່ອ່ານ"
+"ໄດ້ຢ່າງດງວຈະບໍມີການປ່ງນແປ"
+"ງເກີດຂື້ນ"
 
-#: kwcanvas.cc:705
+#: kwcanvas.cc:741
 msgid "Insert Inline Table"
 msgstr "ທະແລກຕາຕະລາງເຂົ້າໄປໃນແຖວ"
 
-#: kwcanvas.cc:1282
+#: kwcanvas.cc:1336
 msgid "Connect Frame"
 msgstr "ເຊື່ອມກອບ"
 
-#: kwcanvas.cc:1324
-msgid "Create a Picture Frame"
+#: kwcanvas.cc:1379
+#, fuzzy
+msgid "Create Picture Frame"
 msgstr "ສ້າງກອບຮູບພາບ"
 
-#: kwcanvas.cc:1351
-msgid "Create a Formula Frame"
+#: kwcanvas.cc:1406
+#, fuzzy
+msgid "Create Formula Frame"
 msgstr "ສ້າງກອບສູດ"
 
-#: kwcanvas.cc:1365
+#: kwcanvas.cc:1420
 msgid ""
 "KWord is unable to insert the table because there is not enough space "
 "available."
 msgstr ""
 "ເອກະສານຂໍ່ຄວາມK "
-"ບໍ່ສາມາດທະແລກຕາຕະລາງໄດ້ເນື່ອງຈາກວ່າມີພື້ນທີ່ວ່າງບໍ່ພງງພໍ"
+"ບໍ່ສາມາດທະແລກຕາຕະລາງໄດ້ເນ"
+"ື່ອງຈາກວ່າມີພື້ນທີ່ວ່າງບໍ"
+"່ພງງພໍ"
 
-#: kwcanvas.cc:1370 kwtableframeset.cc:115
+#: kwcanvas.cc:1425 kwtableframeset.cc:122
 msgid "Create Table"
 msgstr "ສ້າງຕາຕະລາງ"
 
-#: kwcanvas.cc:1531
+#: kwcanvas.cc:1591
 msgid "Change Left Border Frame"
 msgstr "ປ່ງນເສັ້ນກອບດ້ານຊ້າຍ"
 
-#: kwcanvas.cc:1586
+#: kwcanvas.cc:1646
 msgid "Change Right Border Frame"
 msgstr "ປ່ງນເສັ້ນກອບດ້ານຂວາ"
 
-#: kwcanvas.cc:1642
+#: kwcanvas.cc:1702
 msgid "Change Top Border Frame"
 msgstr "ປ່ງນເສັ້ນກອບດ້ານເທິງ"
 
-#: kwcanvas.cc:1697
+#: kwcanvas.cc:1757
 msgid "Change Bottom Border Frame"
 msgstr "ປ່ງນເສັ້ນກອບດ້ານລຸ້ມ"
 
-#: kwcanvas.cc:1739
+#: kwcanvas.cc:1799
 msgid "Change Frame Background Color"
 msgstr "ປ່ງນສີພື້ນດ້ານຫຼັງຂອງກອບ"
 
-#: kwcanvas.cc:1964
+#: kwcanvas.cc:2033
 msgid "Paste Frames"
 msgstr "ວາງກອບ"
 
-#: kwcanvas.cc:2428
-msgid "Read-only content cannot be changed. No modifications will be accepted."
-msgstr "ບໍ່ສາມາດປ່ງນແປງກອບທີ່ອ່ານໄດ້ຢ່າງດງວຈະບໍມີການປ່ງນແປງເກີດຂື້ນ"
-
-#: kwcommand.cc:1895 kwinsertpagedia.cc:31 kwtextframeset.cc:3561
+#: kwcommand.cc:1730 kwinsertpagedia.cc:31 kwtextframeset.cc:3664
 msgid "Insert Page"
 msgstr "ທະແລກຕາຕະລາງ"
 
-#: kwcommand.cc:1896
+#: kwcommand.cc:1731
 #, c-format
+#, fuzzy
 msgid "Delete Page %1"
 msgstr "&ລຶບ"
 
-#: kwconfig.cc:72
+#: kwconfig.cc:73
 msgid "Configure KWord"
 msgstr "ປັບແຕ່ງເອກະສານຂໍ່ຄວາມK"
 
-#: kwconfig.cc:77 kwconfig.cc:241
+#: kwconfig.cc:78 kwconfig.cc:239
 msgid "Interface"
 msgstr "ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້"
 
-#: kwconfig.cc:77
+#: kwconfig.cc:78
 msgid "Interface Settings"
 msgstr "ຕັ້ງຄ່າສ່ວນຕິດຕໍ່ຜູ້ໃຊ້"
 
-#: kwconfig.cc:81
+#: kwconfig.cc:82
 msgid "Document"
 msgstr "ເອກະສານ"
 
-#: kwconfig.cc:81 kwconfig.cc:721
+#: kwconfig.cc:82 kwconfig.cc:765
 msgid "Document Settings"
 msgstr "ຕັ້ງຄ່າເອກະສານ"
 
-#: kwconfig.cc:86
+#: kwconfig.cc:87
 msgid "Spelling"
 msgstr "ຄຳສະກົດ"
 
-#: kwconfig.cc:86
+#: kwconfig.cc:87
 msgid "Spell Checker Behavior"
 msgstr "ລັກສະນະການກວດຄຳສະກົດ"
 
-#: kwconfig.cc:90
+#: kwconfig.cc:91
 msgid "Formula Defaults"
 msgstr "ສູດປາລິຍາຍ"
 
-#: kwconfig.cc:95 kwconfig.cc:415
+#: kwconfig.cc:96 kwconfig.cc:413
 msgid "Misc"
 msgstr "ເບັດຕເລັດ"
 
-#: kwconfig.cc:95
+#: kwconfig.cc:96
 msgid "Misc Settings"
 msgstr "ຕັ້ງຄ່າເບັດຕເລັດ"
 
-#: kwconfig.cc:99 kwconfig.cc:875 kwconfig.cc:882
+#: kwconfig.cc:100 kwconfig.cc:924 kwconfig.cc:931
 msgid "Path"
 msgstr "Path"
 
-#: kwconfig.cc:99
+#: kwconfig.cc:100
 msgid "Path Settings"
 msgstr "ຕັ້ງຄ່າຫຍໍ່ໜ້າ"
 
-#: kwconfig.cc:134 kwconfig.cc:142
-msgid "Change config"
+#: kwconfig.cc:135 kwconfig.cc:143
+#, fuzzy
+msgid "Change Config"
 msgstr "ປ່ງນການປັບແຕ່ງ"
 
-#: kwconfig.cc:266
+#: kwconfig.cc:264
 msgid "Show &status bar"
 msgstr "ສະແດງແຖບ&ສະຖານະ"
 
-#: kwconfig.cc:269
+#: kwconfig.cc:267
 msgid "Show s&crollbar"
 msgstr "ສະແດງແຖບ&ເລື່ອນ"
 
-#: kwconfig.cc:272
+#: kwconfig.cc:270
 msgid "PageUp/PageDown &moves the caret"
 msgstr "PageUp/PageDown &ຍ້າຍເຄີເຊີພິມ"
 
-#: kwconfig.cc:275
+#: kwconfig.cc:273
 msgid ""
 "If this option is enabled, the PageUp and PageDown keys move the text caret, "
 "similar to other KDE applications. If it is disabled, they move the "
 "scrollbars, similar to most other word processors."
 msgstr ""
-"ຫາກເປີດໃຊ້ຕົວເລືອກນີ້ເມື່ອມີການກົດປຸ່ມພິມ์ PageUp "
-"ແລະ PageDown "
-"ຈະເຮັດໃຫ້ມີການຍ້າຍຕຳແໜ່ງເຄີເຊີຂຂໍ້ຄວາມຄ້າຍກັນກັບໃນແອັບພຣິເຄຊັນ KDE "
-"ອື່ນຯ ຫາກປິດການໃຊ້ມັນຈະຍ້າຍແຖບເລື່ອນແທນເຊັ່ນດຽວກັນກັບໂປຣແກຣມປະເມີຜົນຄໍາອື່ນຯแทน "
+"ຫາກເປີດໃຊ້ຕົວເລືອກນີ້ເມື່"
+"ອມີການກົດປຸ່ມພິມ์ PageUp ແລະ "
+"PageDown "
+"ຈະເຮັດໃຫ້ມີການຍ້າຍຕຳແໜ່ງເ"
+"ຄີເຊີຂຂໍ້ຄວາມຄ້າຍກັນກັບໃນ"
+"ແອັບພຣິເຄຊັນ KDE ອື່ນຯ "
+"ຫາກປິດການໃຊ້ມັນຈະຍ້າຍແຖບເ"
+"ລື່ອນແທນເຊັ່ນດຽວກັນກັບໂປຣ"
+"ແກຣມປະເມີຜົນຄໍາອື່ນຯแทน "
 
-#: kwconfig.cc:281
+#: kwconfig.cc:279
 msgid "Number of recent &files:"
-msgstr "ຈໍານວນແ&ຟ້ມທີ່ເຄີຍເອີ້ນໃຊ້ທີ່ຈະເກັບ"
+msgstr ""
+"ຈໍານວນແ&ຟ້ມທີ່ເຄີຍເອີ້ນໃຊ້"
+"ທີ່ຈະເກັບ"
 
-#: kwconfig.cc:282
+#: kwconfig.cc:280
 msgid ""
 "The amount of files remembered in the file open dialog and in the recent "
 "files menu item"
-msgstr "ຈໍານວນຂອງແຟ້ມທັງໝົດທີ່ຈະໃຫ້ຈົດຈໍາໄວ້ໃນລາຍການແຟ້ມທີ່ເຄີຍເອີ້ນໃຊ້ແລະໃນກ່ອງເປີດແຟ້ມำนวนของแฟ้มทั้งหมดที่จะใ"
+msgstr ""
+"ຈໍານວນຂອງແຟ້ມທັງໝົດທີ່ຈະໃ"
+"ຫ້ຈົດຈໍາໄວ້ໃນລາຍການແຟ້ມທີ"
+"່ເຄີຍເອີ້ນໃຊ້ແລະໃນກ່ອງເປີ"
+"ດແຟ້ມำนวนของแฟ้มทั้งหมดที"
+"่จะใ"
 
-#: kwconfig.cc:289
+#: kwconfig.cc:287
 msgid "&Horizontal grid size:"
 msgstr "ຂະໜາດຂອງກີຣດທາງແຖວ&ນອນ:"
 
-#: kwconfig.cc:290
+#: kwconfig.cc:288
 msgid ""
 "The grid size on which frames, tabs and other content snaps while moving and "
 "scaling"
 msgstr ""
-"ຂະໜາດກຣີດຂອງແຕ່ລະກອບ,ແທັບແລະເນື້ອຫາອື່ອນຯ "
-"ທີ່ຈະຖືກເລື່ອນໃຫ້ໃກ້ກັບກີຣດເມື່ອມີການຍ້າຍຫຼືປະຂະໜາດ"
+"ຂະໜາດກຣີດຂອງແຕ່ລະກອບ,ແທັບແ"
+"ລະເນື້ອຫາອື່ອນຯ "
+"ທີ່ຈະຖືກເລື່ອນໃຫ້ໃກ້ກັບກີ"
+"ຣດເມື່ອມີການຍ້າຍຫຼືປະຂະໜາ"
+"ດ"
 
-#: kwconfig.cc:299
+#: kwconfig.cc:297
 msgid "&Vertical grid size:"
 msgstr "ຂະໜາດຂອງກີຣດທາງແຖວ&ຕັ້ງ: "
 
-#: kwconfig.cc:300
+#: kwconfig.cc:298
 msgid ""
 "The grid size on which frames and other content snaps while moving and "
 "scaling"
 msgstr ""
-"ຂະໜາດຂອງກີຣດແຕ່ລະກອບ, ແທັບແລະເນື້ອຫາອື່ນຯທີ່ຈະຖືກເລື່ອນໃຫ້ໃກ້ກັບກຣີດ "
+"ຂະໜາດຂອງກີຣດແຕ່ລະກອບ, "
+"ແທັບແລະເນື້ອຫາອື່ນຯທີ່ຈະຖ"
+"ືກເລື່ອນໃຫ້ໃກ້ກັບກຣີດ "
 "ເມື່ອມີການຍ້າຍຫຼືປັບຂະໜາດ"
 
-#: kwconfig.cc:309
+#: kwconfig.cc:307
 msgid "&Paragraph indent by toolbar buttons:"
-msgstr "ລະຍະເຍືອງຂອງ&ຫຍໍ້ໜ້າຕາມແຖບເຄື່ອງມື:"
+msgstr ""
+"ລະຍະເຍືອງຂອງ&ຫຍໍ້ໜ້າຕາມແຖບ"
+"ເຄື່ອງມື:"
 
-#: kwconfig.cc:310
+#: kwconfig.cc:308
+#, fuzzy
 msgid ""
-"Configure the indent width used when using the Increase or Decrease "
+"Configure the indent width used when using the 'Increase' or 'Decrease' "
 "indentation buttons on a paragraph."
 "<p>"
 "The lower the value the more often the buttons will have to be pressed to "
 "gain the same indentation"
 msgstr ""
-"ປັບແຕ່ງຄວາມກ້ວາງຂອງລະຍະເຍືອງທີ່ຈະໃຊ້ເມື່ອມີການກົດປູ່ມເພີ້ມຫຼືຫຼຸດລະຍະເຍືອງ"
-"ບົນຫຍໍ້ໜ້າ<p>ຄ່າທີ່ຕໍ່າຈະເຮັດໃຫ້ມີການກົດປູມຫຼາຍຄັ້ງເພື່ອໃຫ້ໄດ້ລະຍະເຍືອງດຽວກັນ."
+"ປັບແຕ່ງຄວາມກ້ວາງຂອງລະຍະເຍ"
+"ືອງທີ່ຈະໃຊ້ເມື່ອມີການກົດປ"
+"ູ່ມເພີ້ມຫຼືຫຼຸດລະຍະເຍືອງບ"
+"ົນຫຍໍ້ໜ້າ"
+"<p>ຄ່າທີ່ຕໍ່າຈະເຮັດໃຫ້ມີການ"
+"ກົດປູມຫຼາຍຄັ້ງເພື່ອໃຫ້ໄດ້"
+"ລະຍະເຍືອງດຽວກັນ."
 
-#: kwconfig.cc:317
+#: kwconfig.cc:315
 msgid "Preview mode - Number of pa&ges per row:"
-msgstr "ໂມດສະແດງຕົວຢ່າງ - ຈໍານວນຂອງໜ້າຕໍ່ແຖວ:"
+msgstr ""
+"ໂມດສະແດງຕົວຢ່າງ - "
+"ຈໍານວນຂອງໜ້າຕໍ່ແຖວ:"
 
-#: kwconfig.cc:318
+#: kwconfig.cc:316
 msgid ""
 "After selecting preview mode (via the \"View\" menu, option \"Preview "
 "mode\") this is the amount of pages KWord will position on one horizontal row"
 msgstr ""
-"ຫຼັງຈາກເລືອກໂໝດສະແດງຕົວຢ່າງ"
-" (ຜ່ານທາງເມນູ \"ມູມມອງ\" "
-"ໂຕເລືອກ "
-"\"ໂໝດສະແດງຕົວຢ່າງ\") "
-"ນີ້ເປັນຄ່າຂອງຈໍານວນໜ້າທີ່ຈະເຮັດໃຫ້ເອກະສານຂໍ້ຄວາມK "
+"ຫຼັງຈາກເລືອກໂໝດສະແດງຕົວຢ່"
+"າງ (ຜ່ານທາງເມນູ \"ມູມມອງ\" "
+"ໂຕເລືອກ \"ໂໝດສະແດງຕົວຢ່າງ\") "
+"ນີ້ເປັນຄ່າຂອງຈໍານວນໜ້າທີ່"
+"ຈະເຮັດໃຫ້ເອກະສານຂໍ້ຄວາມK "
 "ສະແດງຕໍ່ແຖວ"
 
-#: kwconfig.cc:433
+#: kwconfig.cc:431
 msgid "Units:"
 msgstr "ໜ່ວຍ:"
 
-#: kwconfig.cc:455
+#: kwconfig.cc:475
 msgid ""
 "Select the unit type used every time a distance or width/height is displayed "
 "or entered. This one setting is for the whole of KWord"
 msgstr ""
-"ເລືອກຊະນິດຂອງໜ່ວຍຂໍ້ມູນສໍາລັບໃຊ້ສະແດງລະຍະຫ່າງຫຼືຄວາມກ້ວາງ/ຄວາມສູງ "
-"ຊຶ່ງການຕັ້ງຄ່າຄັ້ງດຽວຈະມີຜົນທັງໝົດໃຫ້ແກ່ເອກະສານຂໍ້ຄວາມK"
+"ເລືອກຊະນິດຂອງໜ່ວຍຂໍ້ມູນສໍ"
+"າລັບໃຊ້ສະແດງລະຍະຫ່າງຫຼືຄວ"
+"າມກ້ວາງ/ຄວາມສູງ "
+"ຊຶ່ງການຕັ້ງຄ່າຄັ້ງດຽວຈະມີ"
+"ຜົນທັງໝົດໃຫ້ແກ່ເອກະສານຂໍ້"
+"ຄວາມK"
 
-#: kwconfig.cc:461
+#: kwconfig.cc:481
 msgid "Undo/redo limit:"
 msgstr "ຈກັດການເລືອກເຮັດ/ເຮັດຊໍ້າ:"
 
-#: kwconfig.cc:463
+#: kwconfig.cc:483
 msgid "Limit the amount of undo/redo actions remembered to save memory"
 msgstr ""
-"ຈໍາກັດລະດັບການເລີກເຮັດ/ເຮັດຊໍ້າ "
-"ທີ່ຈະເຮັດໃຫ້ຈື່ໄດ້ແລະເກັບໄວ້ໃນໜ່ວຍຄວາມຈໍາ"
+"ຈໍາກັດລະດັບການເລີກເຮັດ/ເຮັ"
+"ດຊໍ້າ "
+"ທີ່ຈະເຮັດໃຫ້ຈື່ໄດ້ແລະເກັບ"
+"ໄວ້ໃນໜ່ວຍຄວາມຈໍາ"
 
-#: kwconfig.cc:467
+#: kwconfig.cc:487
 msgid "Display &links"
 msgstr "ສະແດງການເ&ຊື່ອມໂຍງ"
 
-#: kwconfig.cc:469
+#: kwconfig.cc:489
 msgid "&Underline all links"
-msgstr "ຂີດເສັ້ນໃຕ້ການເ&ເຊື່ອມໂຍງທັງໝົດ"
+msgstr ""
+"ຂີດເສັ້ນໃຕ້ການເ&ເຊື່ອມໂຍງທ"
+"ັງໝົດ"
 
-#: kwconfig.cc:473
+#: kwconfig.cc:493
 msgid "Display c&omments"
 msgstr "ສະແດງ&ໝາຍເຫດุ"
 
-#: kwconfig.cc:476
+#: kwconfig.cc:496
 msgid "Display field code"
 msgstr "ສະແດງໂຄດຂອງຂໍ້ມູນ"
 
-#: kwconfig.cc:480
+#: kwconfig.cc:500
 msgid "View Formatting"
 msgstr "ຈັດຮູບແບບມຸມມອງ"
 
-#: kwconfig.cc:489
+#: kwconfig.cc:509
 msgid "View formatting end paragraph"
-msgstr "ຈັດຮູບແບບມຸມມອງຂອງການຈົບຫຍໍ້ໜ້າ"
+msgstr ""
+"ຈັດຮູບແບບມຸມມອງຂອງການຈົບຫ"
+"ຍໍ້ໜ້າ"
 
-#: kwconfig.cc:492
+#: kwconfig.cc:512
 msgid "View formatting space"
 msgstr "ສະແດງຮູບແບບຂອງຊ່ອງຫ່ວາງ"
 
-#: kwconfig.cc:495
+#: kwconfig.cc:515
 msgid "View formatting tabs"
 msgstr "ສະແດງຮູບແບບຂອງແທັບ็บ"
 
-#: kwconfig.cc:498
+#: kwconfig.cc:518
 msgid "View formatting break"
 msgstr "ສະແດງຮູບແບບຂອງໂຕຢຸດ"
 
-#: kwconfig.cc:547 kwconfig.cc:549 kwconfig.cc:559 kwconfig.cc:561
-#: kwconfig.cc:571 kwconfig.cc:573
+#: kwconfig.cc:586 kwconfig.cc:588 kwconfig.cc:598 kwconfig.cc:600
+#: kwconfig.cc:610 kwconfig.cc:612
 msgid "Change Display Link Command"
-msgstr "ປ່ຽນຄໍາສັ່ງສະແດງການເຊື່ອງໂຍງ"
+msgstr ""
+"ປ່ຽນຄໍາສັ່ງສະແດງການເຊື່ອງ"
+"ໂຍງ"
 
-#: kwconfig.cc:582 kwconfig.cc:584
+#: kwconfig.cc:621 kwconfig.cc:623
 msgid "Change Display Field Code Command"
-msgstr "ປ່ຽນຄໍາສັ່ງສະແດງໂຄດຂອງຂໍ້ມູນ"
+msgstr ""
+"ປ່ຽນຄໍາສັ່ງສະແດງໂຄດຂອງຂໍ້"
+"ມູນ"
 
-#: kwconfig.cc:646
+#: kwconfig.cc:685
 msgid "Document Defaults"
 msgstr "ຄ່າປະລິຍາຍຂອງເອກະສານ"
 
-#: kwconfig.cc:665
+#: kwconfig.cc:704
 msgid "Default column spacing:"
-msgstr "ລະຍະຫ່າງຂອງປະລິຍາຍຂອງຄໍລັມ์:"
+msgstr ""
+"ລະຍະຫ່າງຂອງປະລິຍາຍຂອງຄໍລັ"
+"ມ์:"
 
-#: kwconfig.cc:666
+#: kwconfig.cc:705
+#, fuzzy
 msgid ""
-"When setting a document to use more then one column This distance will be "
+"When setting a document to use more than one column this distance will be "
 "used to seperate the columns. This value is merely a default setting as the "
 "column spacing can be changed per document"
 msgstr ""
-"ເມື່ອຕັ້ງໃຫ້ເອກະສານໃຊ້ຄໍລັມຫຼາຍກ່ວານຶ່ງຄໍລັມລະຍະຫ່າງນີ້ຈະຖືກໃຊ້ໃນການແບ່ງໂຕແຕ່ລະຄໍລັມ"
-"ຊຶ່ງຄ່ານີ້ຈະຖືກໃຊ້ແທນຄ່າປະລິນຍາຍແລະສາມາດປ່ຽນແປງສໍາຫຼັບແຕ່ງລະອກະສານໄດ້"
+"ເມື່ອຕັ້ງໃຫ້ເອກະສານໃຊ້ຄໍລ"
+"ັມຫຼາຍກ່ວານຶ່ງຄໍລັມລະຍະຫ່"
+"າງນີ້ຈະຖືກໃຊ້ໃນການແບ່ງໂຕແ"
+"ຕ່ລະຄໍລັມຊຶ່ງຄ່ານີ້ຈະຖືກໃ"
+"ຊ້ແທນຄ່າປະລິນຍາຍແລະສາມາດປ"
+"່ຽນແປງສໍາຫຼັບແຕ່ງລະອກະສານ"
+"ໄດ້"
 
-#: kwconfig.cc:677
+#: kwconfig.cc:716
 msgid "Default font:"
 msgstr "ແບບອັກສອນປະລິນຍາຍ:"
 
-#: kwconfig.cc:686
+#: kwconfig.cc:725
 msgid "Choose..."
 msgstr "ເລືອກ..."
 
-#: kwconfig.cc:710
+#: kwconfig.cc:751
 msgid "Global language:"
 msgstr "Global language:"
 
-#: kwconfig.cc:727
+#: kwconfig.cc:762
+#, fuzzy
+msgid "Automatic hyphenation"
+msgstr "ອັດຕະໂນມັດ"
+
+#: kwconfig.cc:771
 msgid "Autosave every (min):"
 msgstr "ບັນທຶກອັດຕະໂນມັດທຸກ (ນາທີ):"
 
-#: kwconfig.cc:728
+#: kwconfig.cc:772
 msgid ""
 "A backup copy of the current document is created when a change has been "
 "made. The interval used to create backup documents is set here."
 msgstr ""
-"ຈະມີການສ້າງສໍາເນົາສໍາຮອງຂໍ້ມູນເອກະສານປະຈຸບັນເມື່ອມີການປ່ຽນແປງຂື້ນ"
-"ໂດຍສາມາດຕັ້ງຄ່າລະຍະເວລາທີ່ຈະທີ່ຈະໃຫ້ເຮັດການສ້າງສໍາເນົາສໍາຮອງຂໍ້ມູນໄດ້ທີ່ນີ້"
-"ี่"
+"ຈະມີການສ້າງສໍາເນົາສໍາຮອງຂ"
+"ໍ້ມູນເອກະສານປະຈຸບັນເມື່ອມ"
+"ີການປ່ຽນແປງຂື້ນໂດຍສາມາດຕັ"
+"້ງຄ່າລະຍະເວລາທີ່ຈະທີ່ຈະໃຫ"
+"້ເຮັດການສ້າງສໍາເນົາສໍາຮອງ"
+"ຂໍ້ມູນໄດ້ທີ່ນີ້ี่"
 
-#: kwconfig.cc:730
+#: kwconfig.cc:774
 msgid "No autosave"
 msgstr "ບໍ່ບັນທຶກອັດຕະໂນມັດิ"
 
-#: kwconfig.cc:731
+#: kwconfig.cc:775
 msgid " min"
 msgstr "ນາທີ "
 
-#: kwconfig.cc:740
-msgid "Create Backup File"
+#: kwconfig.cc:784
+#, fuzzy
+msgid "Create backup file"
 msgstr "ສ້າງຕາຕະລາງ"
 
-#: kwconfig.cc:743
+#: kwconfig.cc:787
 msgid "Starting page number:"
 msgstr "ເລີ້ມໝາຍເລກໝ້າທີເລກ:"
 
-#: kwconfig.cc:751
+#: kwconfig.cc:795
 msgid "Tab stop (%1):"
 msgstr "ລະຍະແທັບ (%1):"
 
-#: kwconfig.cc:757
+#: kwconfig.cc:801
 msgid "Cursor"
 msgstr "ເຄວຣ໌ເຊວຣ์"
 
-#: kwconfig.cc:761
+#: kwconfig.cc:805
 msgid "Cursor in protected area"
-msgstr "ເຄວຣ໌ເຊວຣໃນພື້ນທີ່ທີ່ມີການປ້ອງກັນ"
+msgstr ""
+"ເຄວຣ໌ເຊວຣໃນພື້ນທີ່ທີ່ມີກາ"
+"ນປ້ອງກັນ"
 
-#: kwconfig.cc:764
+#: kwconfig.cc:808
 msgid "Direct insert cursor"
 msgstr "Direct insert cursor"
 
-#: kwconfig.cc:821 kwconfig.cc:822
+#: kwconfig.cc:869 kwconfig.cc:870
 msgid "Change Starting Page Number"
-msgstr "ປ່ຽນເລກເລີ້ມຕົ້ນຂອງມາຍເລກໜ້າ"
+msgstr ""
+"ປ່ຽນເລກເລີ້ມຕົ້ນຂອງມາຍເລກ"
+"ໜ້າ"
 
-#: kwconfig.cc:831 kwconfig.cc:834
+#: kwconfig.cc:879 kwconfig.cc:882
 msgid "Change Tab Stop Value"
 msgstr "ປ່ຽນຄ່າລະຍະຢຸດໂຕແທັບ"
 
-#: kwconfig.cc:881
+#: kwconfig.cc:930
 msgid "Type"
 msgstr "Type"
 
-#: kwconfig.cc:883 kwconfig.cc:905 kwconfig.cc:941 kwconfig.cc:959
+#: kwconfig.cc:932 kwconfig.cc:954 kwconfig.cc:990 kwconfig.cc:1008
 msgid "Personal Expression"
 msgstr "ແກ້ໄຂຄໍາເວົ້າສ່ວນຕົວ"
 
-#: kwconfig.cc:884 kwconfig.cc:919 kwconfig.cc:944 kwconfig.cc:983
-msgid "Picture path"
+#: kwconfig.cc:933 kwconfig.cc:968 kwconfig.cc:993 kwconfig.cc:1032
+#, fuzzy
+msgid "Picture Path"
 msgstr "ຮູບພາບ %1"
 
-#: kwconfig.cc:885 kwconfig.cc:929 kwconfig.cc:947 kwconfig.cc:994
-msgid "Backup path"
+#: kwconfig.cc:934 kwconfig.cc:978 kwconfig.cc:996 kwconfig.cc:1043
+#, fuzzy
+msgid "Backup Path"
 msgstr "ຮູບພາບ %1"
 
-#: kwconfig.cc:886 kwconfig.cc:912 kwconfig.cc:951 kwconfig.cc:971
-msgid "Horizontal Line path"
+#: kwconfig.cc:935 kwconfig.cc:961
+#, fuzzy
+msgid "Horizontal Line Path"
 msgstr "ເສັ້ນທາງແນວນອນ"
 
-#: kwconfig.cc:888
-msgid "Modify path..."
+#: kwconfig.cc:937
+#, fuzzy
+msgid "Modify Path..."
 msgstr "Modify path..."
+
+#: kwconfig.cc:1000 kwconfig.cc:1020
+msgid "Horizontal Line path"
+msgstr "ເສັ້ນທາງແນວນອນ"
 
 #: kwcreatebookmarkdia.cc:43 kwcreatebookmarkdia.cc:98
 #: kwcreatebookmarkdia.cc:123
@@ -1267,105 +1380,113 @@ msgstr "ປ່ຽນຊື່ທີ່ຂັ້ນໜັງສື"
 
 #: kwcreatebookmarkdia.cc:64
 msgid "That name already exists, please choose another name."
-msgstr "ມີຊຸດກັຣບມືນີ້ຢູ່ແລ້ວໃຫ້ຕື່ມຊື່ໃໝ่"
+msgstr ""
+"ມີຊຸດກັຣບມືນີ້ຢູ່ແລ້ວໃຫ້ຕ"
+"ື່ມຊື່ໃໝ่"
 
 #: kwcreatebookmarkdia.cc:102
 msgid "Delete Bookmark"
 msgstr "ລຶບທີ່ຂັ້ນໜັງສ"
 
-#: kwaboutdata.h:37 kwdoc.cc:578
+#: kwaboutdata.h:37 kwdoc.cc:588
 msgid "KWord"
 msgstr "ເອກະສານຂໍ້ຄວາມ K"
 
-#: kwdoc.cc:1121
+#: kwdoc.cc:1132
 msgid "Invalid document. No mimetype specified."
-msgstr "ເອກະສານບໍ່ຖືກຕ້ອງຍັງບໍ່ໄດ້ກໍານົດປະເພດ mime"
+msgstr ""
+"ເອກະສານບໍ່ຖືກຕ້ອງຍັງບໍ່ໄດ"
+"້ກໍານົດປະເພດ mime"
 
-#: kwdoc.cc:1127
+#: kwdoc.cc:1138
 #, c-format
 msgid ""
 "Invalid document. Expected mimetype application/x-kword or "
 "application/vnd.kde.kword, got %1"
 msgstr ""
-"ເອກະສານບໍ່ຖືກຕ້ອງ"
-"ຕ້ອງການປະເພດ mime ແບບ application/x-kword "
-"ຫຼື application/vnd.kde.kword, ແຕ່ໄດ້ຮັບແບບ %1"
+"ເອກະສານບໍ່ຖືກຕ້ອງຕ້ອງການປ"
+"ະເພດ mime ແບບ application/x-kword ຫຼື "
+"application/vnd.kde.kword, ແຕ່ໄດ້ຮັບແບບ %1"
 
-#: kwdoc.cc:1134
+#: kwdoc.cc:1145
 msgid ""
 "This document was created with a newer version of KWord (syntax version: "
 "%1)\n"
 "Opening it in this version of KWord will lose some information."
 msgstr ""
 "ເອກະສານນີ້ຖືກສ້າງຈາກ KWord "
-"ລຸ້ນທີ່ໃໝ່ກ່ວາທີ່ເຮົາໃຊ້ຢู่ (ລຸ້ນ: %1)\n"
-"ການເປີດມັນໃນ KWord ລຸ້ນນີ້ອາດຈະເຮັດໃຫ້ຂໍ້ມູນບາງສ່ວນສູນຫາຍ "
+"ລຸ້ນທີ່ໃໝ່ກ່ວາທີ່ເຮົາໃຊ້ຢ"
+"ู่ (ລຸ້ນ: %1)\n"
+"ການເປີດມັນໃນ KWord "
+"ລຸ້ນນີ້ອາດຈະເຮັດໃຫ້ຂໍ້ມູນ"
+"ບາງສ່ວນສູນຫາຍ "
 
-#: kwdoc.cc:1136
-msgid "File format mismatch"
+#: kwdoc.cc:1147
+#, fuzzy
+msgid "File Format Mismatch"
 msgstr "ຮູບແບບແຟ້ມເຂົ້າກັນບໍ່ໄດ้"
 
-#: kwdoc.cc:1375
+#: kwdoc.cc:1386
 msgid "First Page Header"
 msgstr "ຫົວເຈ້ຍໜ້າທໍາອິດ"
 
-#: kwdoc.cc:1388
+#: kwdoc.cc:1399
 msgid "Odd Pages Header"
 msgstr "ຫົວເຈ້ຍໜ້າຄີກ"
 
-#: kwdoc.cc:1399
+#: kwdoc.cc:1410
 msgid "Even Pages Header"
 msgstr "ຫົວເຈ້ຍໜ້າຄູ່"
 
-#: kwdoc.cc:1410
+#: kwdoc.cc:1421
 msgid "First Page Footer"
 msgstr "ທ້າຍເຈ້ຍໜ້າທໍາອິດ"
 
-#: kwdoc.cc:1422
+#: kwdoc.cc:1433
 msgid "Odd Pages Footer"
 msgstr "ທ້າຍເຈ້ຍໜ້າຄີກ"
 
-#: kwdoc.cc:1434
+#: kwdoc.cc:1445
 msgid "Even Pages Footer"
 msgstr "ທ້າຍເຈ້ຍໜ້າຄ่ູ"
 
-#: kwdoc.cc:2063 kwdoc.cc:2071
+#: kwdoc.cc:2073 kwdoc.cc:2081
 msgid "Copy%1-%2"
 msgstr "ຕັດເລືອກ%1-%2"
 
-#: kwdoc.cc:2720
+#: kwdoc.cc:2730
 msgid "Create Part Frame"
 msgstr "ສ້າງກຣອບບາງສ່ວນ"
 
-#: kwdoc.cc:3982 kwdoc.cc:4072 kwtableframeset.cc:120 kwview.cc:2583
+#: kwdoc.cc:4003 kwdoc.cc:4093 kwtableframeset.cc:127 kwview.cc:2553
 msgid "Delete Table"
 msgstr "ລຶບຕາຕະລາງ"
 
-#: kwdoc.cc:3997
+#: kwdoc.cc:4018
 msgid "Delete Text Frame"
 msgstr "ລຶບກຣອບຂໍ້ຄວາມ"
 
-#: kwdoc.cc:4001
+#: kwdoc.cc:4022
 msgid "Delete Formula Frame"
 msgstr "ລຶບກຣອບສູດ"
 
-#: kwdoc.cc:4010
+#: kwdoc.cc:4031
 msgid "Delete Picture Frame"
 msgstr "ລຶບກຣອບຮູບພາບ"
 
-#: kwdoc.cc:4014
+#: kwdoc.cc:4035
 msgid "Delete Object Frame"
 msgstr "ລຶບກຣອບວັດຖຸ"
 
-#: kwdoc.cc:4018
+#: kwdoc.cc:4039
 msgid "Delete Horizontal Line"
 msgstr "ເສັ້ນທາງແນວນອນ"
 
-#: kwdoc.cc:4047
+#: kwdoc.cc:4068
 msgid "Delete Frames"
 msgstr "ລຶບກຣອບ"
 
-#: kwdoc.cc:4098 kwview.cc:2611 kwview.cc:2628 kwview.cc:2646
+#: kwdoc.cc:4119 kwview.cc:2581 kwview.cc:2598 kwview.cc:2616
 msgid "Delete Frame"
 msgstr "ລຶບກຣອບ"
 
@@ -1374,7 +1495,8 @@ msgid "Edit Personal Expression"
 msgstr "ແກ້ໄຂ້ຖ້ອຍຄໍາສ່ວນຕົວ"
 
 #: kweditpersonnalexpressiondia.cc:45
-msgid "Groupname"
+#, fuzzy
+msgid "Group name:"
 msgstr "ຊື່ກຸ່ມ"
 
 #: kweditpersonnalexpressiondia.cc:55
@@ -1386,7 +1508,7 @@ msgid "&New"
 msgstr "ສ້າງໃ&ໝ່"
 
 #: kweditpersonnalexpressiondia.cc:92 kwframestylemanager.cc:205
-#: kwtablestylemanager.cc:251
+#: kwtablestylemanager.cc:252
 msgid "New"
 msgstr "ສ້າງໃໝ່"
 
@@ -1398,18 +1520,19 @@ msgstr "ຫ່ວາງ"
 msgid "new group"
 msgstr "ກຸ່ມໃໝ່"
 
-#: kwframe.cc:1737
-#, c-format
-msgid "Picture %1"
-msgstr "ຮູບພາບ %1"
-
-#: kwframe.cc:1954
+#: kwformulaframe.cc:87
 #, c-format
 msgid "Formula %1"
 msgstr "ສູດ %1"
 
-#: kwframe.cc:2287
+#: kwframe.cc:1753
 #, c-format
+msgid "Picture %1"
+msgstr "ຮູບພາບ %1"
+
+#: kwframe.cc:1947
+#, c-format
+#, fuzzy
 msgid "Horizontal line %1"
 msgstr "ເສັ້ນທາງແນວນອນ"
 
@@ -1417,16 +1540,16 @@ msgstr "ເສັ້ນທາງແນວນອນ"
 msgid "Frame Style Manager"
 msgstr "ໂຕຈັດການຮູບແບບກຣອບ"
 
-#: kwframestylemanager.cc:153 kwtablestylemanager.cc:204
+#: kwframestylemanager.cc:153 kwtablestylemanager.cc:205
 msgid "Import From File..."
 msgstr "ນໍາເຂົ້າຈາກແຟ້ມ"
 
-#: kwframestylemanager.cc:225 kwtablestylemanager.cc:271
-#: kwtabletemplateselector.cc:556
+#: kwframestylemanager.cc:225 kwtablestylemanager.cc:272
+#: kwtabletemplateselector.cc:573
 msgid "Preview"
 msgstr "ສະແດງຕົວຢ່າງ"
 
-#: kwframestylemanager.cc:250 kwview.cc:7496
+#: kwframestylemanager.cc:250 kwview.cc:7507
 msgid "General"
 msgstr "ທົ່ວໄປ"
 
@@ -1434,30 +1557,35 @@ msgstr "ທົ່ວໄປ"
 msgid "New Framestyle Template (%1)"
 msgstr "ຕົ້ນແບບຂອງຮູບແບບກຣອບໃໝ่ (%1)"
 
-#: kwimportstyledia.cc:52 kwimportstyledia.cc:61 kwimportstyledia.cc:149
-#: kwimportstyledia.cc:157 kwimportstyledia.cc:167 kwimportstyledia.cc:206
-#: kwimportstyledia.cc:215 kwimportstyledia.cc:256 kwimportstyledia.cc:264
+#: kwimportstyledia.cc:52 kwimportstyledia.cc:61 kwimportstyledia.cc:135
+#: kwimportstyledia.cc:143 kwimportstyledia.cc:153 kwimportstyledia.cc:192
+#: kwimportstyledia.cc:201 kwimportstyledia.cc:242 kwimportstyledia.cc:250
 msgid "Import Style"
 msgstr "ນໍາເຂົ້າຮູບແບບ"
 
-#: kwimportstyledia.cc:60 kwimportstyledia.cc:214 kwview.cc:5948
-#: kwview.cc:6503
-msgid "File name is empty"
+#: kwimportstyledia.cc:60 kwimportstyledia.cc:200 kwview.cc:5973
+#: kwview.cc:6514
+#, fuzzy
+msgid "File name is empty."
 msgstr "ຊື່ແຟ້ມຫ່ວາງ"
 
-#: kwimportstyledia.cc:148 kwimportstyledia.cc:255
+#: kwimportstyledia.cc:134 kwimportstyledia.cc:241
 msgid "File does not contain any styles. It may be the wrong version."
-msgstr "ແຟ້ມບໍ່ສາມາດບັນຈຸແບບໃດຯມັນອາດເປັນລຸ້ນທີ່ບໍ່ຖືກຕ້ອງ"
+msgstr ""
+"ແຟ້ມບໍ່ສາມາດບັນຈຸແບບໃດຯມັ"
+"ນອາດເປັນລຸ້ນທີ່ບໍ່ຖືກຕ້ອງ"
 
-#: kwimportstyledia.cc:156 kwimportstyledia.cc:263 kwview.cc:6525
+#: kwimportstyledia.cc:142 kwimportstyledia.cc:249 kwview.cc:6536
 msgid "This file is not a KWord file!"
-msgstr "ແຟ້ມນີ້ບໍ່ໃຊ້ແຟ້ມເອກະສານຂໍ້ຄວມ K !"
+msgstr ""
+"ແຟ້ມນີ້ບໍ່ໃຊ້ແຟ້ມເອກະສານຂ"
+"ໍ້ຄວມ K !"
 
-#: kwimportstyledia.cc:172
+#: kwimportstyledia.cc:158
 msgid "Select style to import:"
 msgstr "ເລືອກຮູບແບບທີ່ຈະນໍາເຂົ້າ:"
 
-#: kwinserthorizontallinedia.cc:32 kwview.cc:7200
+#: kwinserthorizontallinedia.cc:32 kwview.cc:7211
 msgid "Insert Horizontal Line"
 msgstr "ເສັ້ນທາງແນວນອນ"
 
@@ -1479,7 +1607,9 @@ msgstr "ປ່ຽນຮູບແບບ..."
 
 #: kwinsertpicdia.cc:98
 msgid "Insert picture inline"
-msgstr "ແທກຮູບພາບເຂົ້າໄປພາຍໃນບັນທັດ"
+msgstr ""
+"ແທກຮູບພາບເຂົ້າໄປພາຍໃນບັນທ"
+"ັດ"
 
 #: kwinsertpicdia.cc:150
 msgid "Choose Picture"
@@ -1490,29 +1620,34 @@ msgstr " ປ່ຽນຮູບພາບ "
 msgid "Object %1"
 msgstr "ວັດຖຸ %1"
 
-#: kwpartframeset.cc:271
+#: kwpartframeset.cc:171
+#, fuzzy
+msgid "Move/Resize Frame"
+msgstr "ປັບຂະໜາດກອບ"
+
+#: kwpartframeset.cc:269
 msgid "Make Document External"
 msgstr "ຄ່າປະລິນຍາຍຂອງເອກະສານ"
 
-#: kwpartframeset.cc:277
+#: kwpartframeset.cc:275
 msgid "Make Document Internal"
 msgstr "ໃຫ້ຂໍ້ຄວາມເປັນໂຕອ່ຽງ"
 
-#: kwtableframeset.cc:1293 kwview.cc:4046
+#: kwtableframeset.cc:1395 kwview.cc:4133
 msgid "Join Cells"
 msgstr "ເຊື່ອມເຊວ์"
 
-#: kwtableframeset.cc:1434 kwview.cc:4083 kwview.cc:4092
+#: kwtableframeset.cc:1540 kwview.cc:4170 kwview.cc:4179
 msgid "Split Cells"
 msgstr "ແຍກເຊວ์"
 
-#: kwtableframeset.cc:1480
+#: kwtableframeset.cc:1594
 msgid ""
 "_: 1 is table name, 2 is a number\n"
 "%1 Auto Added Cell %2"
 msgstr "%1 ເພີ້ມເຊວ์ %2 ອັດຕະໂນມັດิ"
 
-#: kwtableframeset.cc:2169
+#: kwtableframeset.cc:2379
 msgid ""
 "_: Hello dear translator :), 1 is the table name, 2 and 3 are row and "
 "column\n"
@@ -1521,327 +1656,358 @@ msgstr ""
 "ຄໍລັມ\n"
 "%1 ເຊວທີ່ %2,%3"
 
-#: kwtablestylemanager.cc:183
+#: kwtablestylemanager.cc:184
 msgid "Table Style Manager"
 msgstr "ໂຕຈັດການຮູບແບບຕາຕະລາງ"
 
-#: kwtablestylemanager.cc:271
+#: kwtablestylemanager.cc:272
 msgid "Tablestyles preview"
 msgstr "ສະແດງຕົວຢ່າງຮູບແບບຕາຕະລາງ"
 
-#: kwtablestylemanager.cc:289
+#: kwtablestylemanager.cc:290
 msgid "Adjust"
 msgstr "ປັບຄ່າ"
 
-#: kwtablestylemanager.cc:295
+#: kwtablestylemanager.cc:296
 msgid "Framestyle:"
 msgstr "ຮູບແບບກຣອບ:"
 
-#: kwtablestylemanager.cc:299
+#: kwtablestylemanager.cc:300
 msgid "Textstyle:"
 msgstr "ຮູບແບບຂໍ້ຄວາມ:"
 
-#: kwtablestylemanager.cc:310 kwtablestylemanager.cc:314
+#: kwtablestylemanager.cc:311 kwtablestylemanager.cc:315
 msgid "Change..."
 msgstr "ປ່ຽນ..."
 
-#: kwtablestylemanager.cc:408
+#: kwtablestylemanager.cc:409
 msgid "New Tablestyle Template (%1)"
-msgstr "ຕົ້ນແບບຂອງຮູບແບບຕາຕະລາງໃໝ่ (%1)"
+msgstr ""
+"ຕົ້ນແບບຂອງຮູບແບບຕາຕະລາງໃໝ"
+"่ (%1)"
 
-#: kwtabletemplateselector.cc:536 tabledia.cc:203
+#: kwtabletemplateselector.cc:553 tabledia.cc:203
 msgid "Templates"
 msgstr "ຕົ້ນແບບ"
 
-#: kwtabletemplateselector.cc:549
+#: kwtabletemplateselector.cc:566
 msgid "&Customize"
 msgstr "ກໍານົເ&ອງ"
 
-#: kwtabletemplateselector.cc:559
+#: kwtabletemplateselector.cc:576
 msgid "Apply To"
 msgstr "ໃຫ້ມີຜົນກັບ"
 
-#: kwtabletemplateselector.cc:561
+#: kwtabletemplateselector.cc:578
 msgid "First row"
 msgstr "ແຖວທໍາອິດ"
 
-#: kwtabletemplateselector.cc:562
+#: kwtabletemplateselector.cc:579
 msgid "Last row"
 msgstr "ແຖວສຸດທ້າຍ"
 
-#: kwtabletemplateselector.cc:563
+#: kwtabletemplateselector.cc:580
 msgid "Body"
 msgstr "ເນື້ອຄວາມ"
 
-#: kwtabletemplateselector.cc:564
+#: kwtabletemplateselector.cc:581
 msgid "First column"
 msgstr "ຄໍລັມທໍາອິດ"
 
-#: kwtabletemplateselector.cc:565
+#: kwtabletemplateselector.cc:582
 msgid "Last column"
 msgstr "ຄໍລັມສຸດທ້າຍ"
 
-#: kwtextframeset.cc:1397 kwtextparag.cc:68
+#: kwtextframeset.cc:1410 kwtextparag.cc:68
 msgid "--- Frame Break ---"
 msgstr "--- ສິ່ນສຸດກຣອບ ---"
 
-#: kwtextframeset.cc:2357
+#: kwtextframeset.cc:2452
 msgid "Change Paragraph Attribute"
 msgstr "ປ່ຽນຄ່າຕ່າງຯ ຂອງຫຍໍ້ໜ້າ"
 
-#: kwtextframeset.cc:2368 kwtextframeset.cc:3199
+#: kwtextframeset.cc:2463 kwtextframeset.cc:3305
 msgid "Paste Text"
 msgstr "ວາງຂໍ້ຄວາມ"
 
-#: kwtextframeset.cc:2396
+#: kwtextframeset.cc:2491
 msgid "Insert Table of Contents"
 msgstr "ແທກສາລະບານ"
 
-#: kwtextframeset.cc:2443
+#: kwtextframeset.cc:2538
 msgid "Insert Break After Paragraph"
-msgstr "ແທກໂຕແບ່ງໜ້າ/ກຣອບທ້າຍການຫຍໍ້ໜ້າ "
+msgstr ""
+"ແທກໂຕແບ່ງໜ້າ/ກຣອບທ້າຍການຫຍ"
+"ໍ້ໜ້າ "
 
-#: kwtextframeset.cc:2692
+#: kwtextframeset.cc:2798
 #, c-format
 msgid "Endnote %1"
 msgstr "ອ້າງອີງທ້າຍເລື້ອງ%1"
 
-#: kwtextframeset.cc:2692
+#: kwtextframeset.cc:2798
 #, c-format
 msgid "Footnote %1"
 msgstr "ໝາຍທ້າຍ %1"
 
-#: kwtextframeset.cc:3396 kwtextframeset.cc:3398
+#: kwtextframeset.cc:3502 kwtextframeset.cc:3504
 msgid "Insert Expression"
 msgstr "ແທກຖ້ອຍຄໍາ"
 
-#: kwtextframeset.cc:3540
+#: kwtextframeset.cc:3646
 msgid "Insert Variable"
 msgstr "ແທກໂຕແປ"
 
-#: kwvariable.cc:221
-msgid "Change Page Number Variable"
-msgstr "ປ່ຽນຄ່າໂຕແປໝາຍເລກໜ້າ"
+#: kwvariable.cc:262
+msgid "ERROR"
+msgstr ""
 
-#: kwvariable.cc:394
+#: kwvariable.cc:310
 msgid "Footnote"
 msgstr "ໝາຍທ້າຍ"
 
-#: kwvariable.cc:394
+#: kwvariable.cc:310
 msgid "Endnote"
 msgstr "ອ້າງອີງທ້າຍເລື້ອງ"
 
-#: kwvariable.cc:598
-msgid "Change Field Variable"
-msgstr "ປ່ຽນຄ່າໂຕແປຊອງຂໍ້ມູນ"
-
-#: kwvariable.cc:650 kwvariable.cc:758
-msgid "Locale"
-msgstr "ຮູບແບບທ້ອງຖິ່ນ"
-
-#: kwvariable.cc:681
-msgid "Change Date Variable Type"
-msgstr "ປ່ຽນປະເພດຂອງໂຕແປວັນທีี่"
-
-#: kwvariable.cc:705
-msgid "Change Date Variable Format"
-msgstr "ປ່ຽນຮູບແບບຂອງໂຕແປວັນທี่"
-
-#: kwvariable.cc:789
-msgid "Change Time Variable Type"
-msgstr "ປ່ຽນປະເພດຂອງໂຕແປເວລາ"
-
-#: kwvariable.cc:813
-msgid "Change Time Variable Format"
-msgstr "ປ່ຽນຮູບແບບຂອງໂຕແປເວລາ"
-
-#: kwview.cc:449
+#: kwview.cc:415
 msgid "&Create Template From Document..."
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kwview.cc:452
+#: kwview.cc:418
 msgid "Save this document and use it later as a template"
-msgstr "ບັນທຶກເອກະສານນີ້ແລະໃຊ້ເປັນແມ່ແບບໃນພາຍຫຼັງ"
+msgstr ""
+"ບັນທຶກເອກະສານນີ້ແລະໃຊ້ເປັ"
+"ນແມ່ແບບໃນພາຍຫຼັງ"
 
-#: kwview.cc:453
+#: kwview.cc:419
 msgid ""
 "You can save this document as a template."
 "<br>"
 "<br>You can use this new template as a starting point for another document."
 msgstr ""
-"ເຮົາສາມາດບັນທຶກເອກະສານນີ້ເປັນແມ່ແບບໄດ້ <br>"
-"<br>ເຮົາສາມາດລົດໃຊ້ແມ່ແບບໃໝ່ນີ້ເປັນໂຕເລີ້ມສໍາລັບເອກະສານອື່ນໄດ້"
+"ເຮົາສາມາດບັນທຶກເອກະສານນີ້"
+"ເປັນແມ່ແບບໄດ້ "
+"<br>"
+"<br>ເຮົາສາມາດລົດໃຊ້ແມ່ແບບໃໝ່"
+"ນີ້ເປັນໂຕເລີ້ມສໍາລັບເອກະສ"
+"ານອື່ນໄດ້"
 
-#: kwview.cc:455
-msgid "Statistics..."
-msgstr "ສະຖິຕິ..."
+#: kwview.cc:421 kwview.cc:7484 kwview.cc:7690 kwview.cc:7749
+msgid "Statistics"
+msgstr "ສະທິຕิ"
 
-#: kwview.cc:456
+#: kwview.cc:422
 msgid "Sentence, word and letter counts for this document"
-msgstr "ຈໍານວນປະໂຫຍກ, ຄໍາແລະອັກຂະລະ ຂອງເອກະສານນີ້"
+msgstr ""
+"ຈໍານວນປະໂຫຍກ, "
+"ຄໍາແລະອັກຂະລະ "
+"ຂອງເອກະສານນີ້"
 
-#: kwview.cc:457
+#: kwview.cc:423
 msgid ""
 "Information on the number of letters, words, syllables and sentences for "
 "this document.<p>Evaluates readability using the Flesch reading score."
 msgstr ""
-"ຂໍ້ມູນຂອງຈໍານວນອັງຂະລະ, ຄໍ, ແຖບຂໍ້ຄວາມແລະປະໂຫຍກຂອງເອກະສານນ"
-"<p>ເຊິ່ງຈະບອກເຖິງພາບລວມຂອງເອກະສານໄດ້ຄາວຯ"
+"ຂໍ້ມູນຂອງຈໍານວນອັງຂະລະ, ຄໍ, "
+"ແຖບຂໍ້ຄວາມແລະປະໂຫຍກຂອງເອກ"
+"ະສານນ"
+"<p>ເຊິ່ງຈະບອກເຖິງພາບລວມຂອງເ"
+"ອກະສານໄດ້ຄາວຯ"
 
-#: kwview.cc:468
+#: kwview.cc:434
 msgid "Delete Page"
 msgstr "ລຶບຕະລາງ"
 
-#: kwview.cc:473
+#: kwview.cc:439
 msgid "Configure Mai&l Merge..."
-msgstr "ປັບແຕ່ງການລວມເຂົ້າກັນ&ຈົດໝາຍ..."
+msgstr ""
+"ປັບແຕ່ງການລວມເຂົ້າກັນ&ຈົດໝ"
+"າຍ..."
 
-#: kwview.cc:478
+#: kwview.cc:444
 msgid "Drag Mail Merge Variable"
-msgstr "ລາກໂຕແປການລວມເຂົ້າກັບຈົດໝາຍ"
+msgstr ""
+"ລາກໂຕແປການລວມເຂົ້າກັບຈົດໝ"
+"າຍ"
 
-#: kwview.cc:484
+#: kwview.cc:450
 msgid "&Delete Frame"
 msgstr "&ລຶບກຣອບ"
 
-#: kwview.cc:487 kwview.cc:488
+#: kwview.cc:453 kwview.cc:454
 msgid "Delete the currently selected frame(s)."
 msgstr "ລຶບກຣອບປະຈຸບັນທີ່ເລືອກໄວ้"
 
-#: kwview.cc:490 kwview.cc:2675
+#: kwview.cc:456 kwview.cc:2645
 msgid "Create Linked Copy"
 msgstr "ຂຶ້ນໜ້າໃໝ่"
 
-#: kwview.cc:491
+#: kwview.cc:457
 msgid "Create a copy of the current frame, always showing the same contents"
-msgstr ""
-"Create a copy of the current frame, always showing the same contents "
-" "
+msgstr "Create a copy of the current frame, always showing the same contents  "
 
-#: kwview.cc:492
+#: kwview.cc:458
 msgid ""
 "Create a copy of the current frame, that remains linked to it. This means "
 "they always show the same contents: modifying the contents in such a frame "
 "will update all its linked copies."
 msgstr ""
-"Create a copy of the current frame, that remains linked to it. "
-"this means they always show the same contents: modifying the contents in such a frame "
+"Create a copy of the current frame, that remains linked to it. this means "
+"they always show the same contents: modifying the contents in such a frame "
 "will update all its linked copies."
 
-#: kwview.cc:494
+#: kwview.cc:460
 msgid "Ra&ise Frame"
 msgstr "ປັບໃຫ້ກຣອບຢู่&ບົນສຸດ"
 
-#: kwview.cc:497
+#: kwview.cc:463
 msgid ""
 "Raise the currently selected frame so that it appears above all the other "
 "frames"
-msgstr "ປັບໃຫ້ກຣອບທີ່ເລືອກໄວ້ໃນປະຈຸບັນ ປະກົດຢູ່ດ້ານເທິງສຸດຂອງກຣອບອື່ນ"
+msgstr ""
+"ປັບໃຫ້ກຣອບທີ່ເລືອກໄວ້ໃນປະ"
+"ຈຸບັນ "
+"ປະກົດຢູ່ດ້ານເທິງສຸດຂອງກຣອ"
+"ບອື່ນ"
 
-#: kwview.cc:498
+#: kwview.cc:464
 msgid ""
 "Raise the currently selected frame so that it appears above all the other "
 "frames. This is only useful if frames overlap each other. If multiple frames "
 "are selected they are all raised in turn."
 msgstr ""
-"ປຣັບໃຫ້ກຣອບໄວ້ປະຈຸບັນປະກົດຢູ່ດ້ານເທິງຂອງກຣອບອື່ນຊຶ່ງມັກຈະຖືກໃຊ້ຫາກກຣອບຖືກທັບໂດຍກຣອບອື່ນຯ"
-"ແລະຫາກມີການເລືອກໄວ້ຫຼາຍກຣອບຈະເຮັດໃຫ້ທັງໝົດເລືອກໄວ້ຢູ່ດ້ານບົນດ້ວຍ"
+"ປຣັບໃຫ້ກຣອບໄວ້ປະຈຸບັນປະກົ"
+"ດຢູ່ດ້ານເທິງຂອງກຣອບອື່ນຊຶ"
+"່ງມັກຈະຖືກໃຊ້ຫາກກຣອບຖືກທັ"
+"ບໂດຍກຣອບອື່ນຯແລະຫາກມີການເ"
+"ລືອກໄວ້ຫຼາຍກຣອບຈະເຮັດໃຫ້ທ"
+"ັງໝົດເລືອກໄວ້ຢູ່ດ້ານບົນດ້"
+"ວຍ"
 
-#: kwview.cc:500
+#: kwview.cc:466
 msgid "&Lower Frame"
 msgstr "ປັບໃຫ້ກຣອບຢູ່ດ້ານ&ລຸ່ມ"
 
-#: kwview.cc:503
+#: kwview.cc:469
 msgid ""
 "Lower the currently selected frame so that it disappears under any frame "
 "that overlaps it"
 msgstr ""
-"ປັບໃຫ້ກຣອບທີ່ເລືອກໄວ້ໃນປະຈຸບັນປະກົດຢູ່ດ້ານລຸ່ມກຣອບອື່ນທີ່ທັບມັນຢູ່"
-"ู่"
+"ປັບໃຫ້ກຣອບທີ່ເລືອກໄວ້ໃນປະ"
+"ຈຸບັນປະກົດຢູ່ດ້ານລຸ່ມກຣອບ"
+"ອື່ນທີ່ທັບມັນຢู่ູ່"
 
-#: kwview.cc:504
+#: kwview.cc:470
 msgid ""
 "Lower the currently selected frame so that it disappears under any frame "
 "that overlaps it. If multiple frames are selected they are all lowered in "
 "turn."
 msgstr ""
-"ປັບໃຫ້ກຣອບທີ່ເລືອກໄວ້ໃນປະຈຸບັນປະກົດຢູ່ດ້ານລຸ່ມກຣອບອື່ນທີ່ທັບມັນຢູ່ "
-"ຫາກມີການເລືອກກຣອບຫຼາຍກຣອບຈະເຮັດໃຫ້ກຣອບທີ່ຖືກເລືອກທັງໝົດຖືກປັບໄປຢູ່ດ້ານລຸ່ມ"
+"ປັບໃຫ້ກຣອບທີ່ເລືອກໄວ້ໃນປະ"
+"ຈຸບັນປະກົດຢູ່ດ້ານລຸ່ມກຣອບ"
+"ອື່ນທີ່ທັບມັນຢູ່ "
+"ຫາກມີການເລືອກກຣອບຫຼາຍກຣອບ"
+"ຈະເຮັດໃຫ້ກຣອບທີ່ຖືກເລືອກທ"
+"ັງໝົດຖືກປັບໄປຢູ່ດ້ານລຸ່ມ"
 
-#: kwview.cc:506 kwview.cc:2414
+#: kwview.cc:472 kwview.cc:2384
 msgid "Bring to Front"
 msgstr "ນໍາມາໄວດ້ານເທິງ"
 
-#: kwview.cc:510 kwview.cc:2418
+#: kwview.cc:476 kwview.cc:2388
 msgid "Send to Back"
 msgstr "ນໍາໄປໄວ້ດ້ານລຸ່ມ"
 
-#: kwview.cc:516
+#: kwview.cc:482
 msgid "Text Mode"
 msgstr "ໂມດຂໍ້ຄວາມ"
 
-#: kwview.cc:519
+#: kwview.cc:485
 msgid "Only show the text of the document."
-msgstr "ສະແດງສະເພາະຂໍ້ຄວາມຂອງເອກະສານ"
+msgstr ""
+"ສະແດງສະເພາະຂໍ້ຄວາມຂອງເອກະ"
+"ສານ"
 
-#: kwview.cc:520
+#: kwview.cc:486
 msgid ""
 "Do not show any pictures, formatting or layout. KWord will display only the "
 "text for editing."
 msgstr ""
-"ບໍ່ໃຫ້ສະແດງພາບ,ການຈັດຮູບແບບ ຫຼືການຈັດວາງໃດຯເອກະສານຂໍ້ຄວາມ K "
-"ຈະສະແດງຂໍ້ຄວາມເພື່ອການແກ້ໄຂເທົ່ານັ້ນ"
+"ບໍ່ໃຫ້ສະແດງພາບ,ການຈັດຮູບແບ"
+"ບ "
+"ຫຼືການຈັດວາງໃດຯເອກະສານຂໍ້"
+"ຄວາມ K "
+"ຈະສະແດງຂໍ້ຄວາມເພື່ອການແກ້"
+"ໄຂເທົ່ານັ້ນ"
 
-#: kwview.cc:523
+#: kwview.cc:489
 msgid "&Page Mode"
 msgstr "ເ&ຄົາໂຄງໜ້າເຈ້ຍ"
 
-#: kwview.cc:526
+#: kwview.cc:492
+#, fuzzy
 msgid ""
 "Switch to page mode."
 "<br>"
 "<br> Page mode is designed to make editing your text easy."
 "<br>"
 "<br>This function is most frequently used to return to text editing after "
-"switching to Preview mode."
+"switching to preview mode."
 msgstr ""
 "ປັບເປັນໂມດເຄົາໂຄງໜ້າເຈ້ຍ "
 "<br>"
-"<br> ໂມດເຄົາໂຄງໜ້າເຈ້ຍຖືກອອກແບບມາໃຫ້ງ່າຍຕານແກ້ໄຂ"
+"<br> "
+"ໂມດເຄົາໂຄງໜ້າເຈ້ຍຖືກອອກແບ"
+"ບມາໃຫ້ງ່າຍຕານແກ້ໄຂ"
 "<br>"
-"<br>ຟັງຊັນນີ້ຖືກໃຊຕະຫຼອດ"
-"ເພື່ອປັບຈາກການທໍາການແກ້ໄຂຂໍ້ຄວາມໄປເປັນໂມດເຄົາໂຄງໜ້າເຈ້ຍ"
+"<br>ຟັງຊັນນີ້ຖືກໃຊຕະຫຼອດເພື່"
+"ອປັບຈາກການທໍາການແກ້ໄຂຂໍ້ຄ"
+"ວາມໄປເປັນໂມດເຄົາໂຄງໜ້າເຈ້"
+"ຍ"
 
-#: kwview.cc:527
+#: kwview.cc:493
 msgid "Switch to page editing mode."
-msgstr "ປັບໄປເປັນໂມດແກ້ໄຂແບບເຄົາໂຄງໜ້າເຈ້ຍ"
+msgstr ""
+"ປັບໄປເປັນໂມດແກ້ໄຂແບບເຄົາໂ"
+"ຄງໜ້າເຈ້ຍ"
 
-#: kwview.cc:531
+#: kwview.cc:497
 msgid "Pre&view Mode"
 msgstr "ໂມດສະແດງຕົວ&ຢ່າງ"
 
-#: kwview.cc:534
+#: kwview.cc:500
 msgid ""
 "Zoom out from your document to get a look at several pages of your "
 "document.<br><br>The number of pages per line can be customized."
 msgstr ""
-"ເຮັດການຫຍໍ້ເອກະສານເພື່ອເບິ່ງພາບໂດຍລວມບົນໜ້າເຈ້ຍຂອງເອກະສານຂອງເຮົາ"
+"ເຮັດການຫຍໍ້ເອກະສານເພື່ອເບ"
+"ິ່ງພາບໂດຍລວມບົນໜ້າເຈ້ຍຂອງ"
+"ເອກະສານຂອງເຮົາ"
 "<br>"
-"<br>ຊຶ່ງສາມາດປັບແຕ່ງຈໍານວນໜ້າເຈ້ຍແຖວທີ່ຈະໃຫ້ສະແດງໄດ้"
+"<br>ຊຶ່ງສາມາດປັບແຕ່ງຈໍານວນໜ້"
+"າເຈ້ຍແຖວທີ່ຈະໃຫ້ສະແດງໄດ้"
 
-#: kwview.cc:535
+#: kwview.cc:501
 msgid "Zoom out to a multiple page view."
-msgstr "ກຍໍ້ໜ້າເຈ້ຍເພື່ອສະແດງໜ້າເຈ້ຍເພື່ອສະແດງໜ້າເຈ້ຍຫຼາຍຯໜ້າ"
+msgstr ""
+"ກຍໍ້ໜ້າເຈ້ຍເພື່ອສະແດງໜ້າເ"
+"ຈ້ຍເພື່ອສະແດງໜ້າເຈ້ຍຫຼາຍຯ"
+"ໜ້າ"
 
-#: kwview.cc:539
+#: kwview.cc:505
 msgid "&Formatting Characters"
-msgstr "&ສະແດງອັກຂະລະແທນອັກຂະລະພິເສດ"
+msgstr ""
+"&ສະແດງອັກຂະລະແທນອັກຂະລະພິເ"
+"ສດ"
 
-#: kwview.cc:542
+#: kwview.cc:508
 msgid "Toggle the display of non-printing characters."
-msgstr "ປັບໃຫ້ສະແດງອັກຂະລະພິເສດທີ່ບໍ່ສາມາດພິມອອກໄດ້"
+msgstr ""
+"ປັບໃຫ້ສະແດງອັກຂະລະພິເສດທີ"
+"່ບໍ່ສາມາດພິມອອກໄດ້"
 
-#: kwview.cc:543
+#: kwview.cc:509
 msgid ""
 "Toggle the display of non-printing characters."
 "<br>"
@@ -1849,42 +2015,54 @@ msgid ""
 "When this is enabled, KWord shows you tabs, spaces, carriage returns and "
 "other non-printing characters."
 msgstr ""
-"ປັບໃຫ້ສະແດງອັກຂກລະພິເສດທີ່ບໍ່ສາມາດພິມອອກໄດ້"
+"ປັບໃຫ້ສະແດງອັກຂກລະພິເສດທີ"
+"່ບໍ່ສາມາດພິມອອກໄດ້"
 "<br>"
 "<br> "
-"ເມື່ອເປີດໃຊ້ໂຕເລືອກນີ້ເອກະສານຂໍ້ຄວາມ K ສະແດງແທັບ, ຊ່ອງຫ່ວາງ, "
-"ການຂຶ້ນບັນທັດໃໝ່ແລະອັກສອນພິເສດອື່ນຯທີ່ບໍ່ສາມາດພິມອອກໄດ້"
-"้"
+"ເມື່ອເປີດໃຊ້ໂຕເລືອກນີ້ເອກ"
+"ະສານຂໍ້ຄວາມ K ສະແດງແທັບ, "
+"ຊ່ອງຫ່ວາງ, "
+"ການຂຶ້ນບັນທັດໃໝ່ແລະອັກສອນ"
+"ພິເສດອື່ນຯທີ່ບໍ່ສາມາດພິມອ"
+"ອກໄດ้້"
 
-#: kwview.cc:545
+#: kwview.cc:511
 msgid "Frame &Borders"
 msgstr "&ຂອບເຈ້ຍ"
 
-#: kwview.cc:548
+#: kwview.cc:514
 msgid "Turns the border display on and off."
-msgstr "ສະຫຼັບການສະແດງ/ຊ່ອນເສັ້ນຂອບເຈ້ຍ"
+msgstr ""
+"ສະຫຼັບການສະແດງ/ຊ່ອນເສັ້ນຂອ"
+"ບເຈ້ຍ"
 
-#: kwview.cc:549
+#: kwview.cc:515
 msgid ""
 "Turns the border display on and off."
 "<br>"
 "<br>The borders are never printed. This option is useful to see how the "
 "document will appear on the printed page."
 msgstr ""
-"ສະລັບການສະແດງ/ຊ່ອນເສັ້ນຂອບເຈ້ຍ"
+"ສະລັບການສະແດງ/ຊ່ອນເສັ້ນຂອບ"
+"ເຈ້ຍ"
 "<br>"
-"<br>ເສັ້ນຂອບເຈ້ຍຈະບໍ່ຖືກພິມໄປດ້ວຍໂຕເລືອກນີ້ຈະຊ່ວຍໃຫ້ເຮົາເຫັນວ່າ:"
-"ເອກະສານຈະປະກົດຢູ່ບົນໜ້າທີ່ຈະຖືກພິມພໍຢ່າງໃດ"
+"<br>ເສັ້ນຂອບເຈ້ຍຈະບໍ່ຖືກພິມໄ"
+"ປດ້ວຍໂຕເລືອກນີ້ຈະຊ່ວຍໃຫ້ເ"
+"ຮົາເຫັນວ່າ:ເອກະສານຈະປະກົດຢ"
+"ູ່ບົນໜ້າທີ່ຈະຖືກພິມພໍຢ່າງ"
+"ໃດ"
 
-#: kwview.cc:551
+#: kwview.cc:517
 msgid "Show &Header"
 msgstr "ສະແດງ&ຫົວເຈ້ຍ"
 
-#: kwview.cc:554
+#: kwview.cc:520
 msgid "Shows and hides header display."
-msgstr "ສະແດງຫຼືຊ່ອນການສະແດງສ່ວນຫົວເຈ້ຍ"
+msgstr ""
+"ສະແດງຫຼືຊ່ອນການສະແດງສ່ວນຫ"
+"ົວເຈ້ຍ"
 
-#: kwview.cc:555
+#: kwview.cc:521
 msgid ""
 "Selecting this option toggles the display of headers in "
 "KWord."
@@ -1892,284 +2070,320 @@ msgid ""
 "<br>Headers are special frames at the top of each page which can contain "
 "page numbers or other information."
 msgstr ""
-"ເລືອກໂຕເລືອກນີ້ເພື່ອສະຫຼັບໃຫ້ສະແດງ/ຊ່ອນສ່ວນຫົວກະດາດໃນເອກະສານຂໍ້ຄວາມ K"
+"ເລືອກໂຕເລືອກນີ້ເພື່ອສະຫຼັ"
+"ບໃຫ້ສະແດງ/ຊ່ອນສ່ວນຫົວກະດາດ"
+"ໃນເອກະສານຂໍ້ຄວາມ "
+"K"
 "<br>"
-"<br>ສ່ວນຫົວເຈ້ຍເປັນກຣອບພິເສດທີ່ຢູ່ດ້ານເທິງຂອງແຕ່ລະໜ້າເຊິງອາດຈະບັນຈຸສ່ວນໝາຍເລກ "
-"ໜ້າຫຼືຂໍ້ມູນອື່ນຯຢູ່."
-"ู่"
+"<br>ສ່ວນຫົວເຈ້ຍເປັນກຣອບພິເສດ"
+"ທີ່ຢູ່ດ້ານເທິງຂອງແຕ່ລະໜ້າ"
+"ເຊິງອາດຈະບັນຈຸສ່ວນໝາຍເລກ "
+"ໜ້າຫຼືຂໍ້ມູນອື່ນຯຢູ່.ู่"
 
-#: kwview.cc:557
+#: kwview.cc:523
 msgid "Show Foo&ter"
 msgstr "ສະແດງ&ທ້າຍເຈ້ຍ"
 
-#: kwview.cc:560
+#: kwview.cc:526
 msgid "Shows and hides footer display."
-msgstr "ສະແດງແລະຊ່ອງການສະແດງສ່ວນທ້າຍຂອງເຈ້ຍ"
+msgstr ""
+"ສະແດງແລະຊ່ອງການສະແດງສ່ວນທ"
+"້າຍຂອງເຈ້ຍ"
 
-#: kwview.cc:561
+#: kwview.cc:527
 msgid ""
 "Selecting this option toggles the display of footers in KWord. "
 "<br>"
 "<br>Footers are special frames at the bottom of each page which can contain "
 "page numbers or other information."
 msgstr ""
-"ເລືອກໂຕເລືອກນີ້ ເພື່ອສະຫຼັບໃຫ້ສະແດງ/ຊ່ອນສ່ວນທ້າຍເຈ້ຍໃນເອກະສານຂໍ້ຄວາມ K"
+"ເລືອກໂຕເລືອກນີ້ "
+"ເພື່ອສະຫຼັບໃຫ້ສະແດງ/ຊ່ອນສ່"
+"ວນທ້າຍເຈ້ຍໃນເອກະສານຂໍ້ຄວາ"
+"ມ "
+"K"
 "<br>"
-"<br>ສ່ວນທ້າຍກະດາດເປັນກຣອບພິເສດທີ່ຢູ້ດ້ານລຸ່ມຂອງແຕ່ລະໜ້າ "
-"ຊຶ່ງອາດຈະບັນຈຸສ່ວນໝາຍເລກໜ້າຫຼືຂໍ້ມູນອື່ນຯຢູ່"
-"ู่"
+"<br>ສ່ວນທ້າຍກະດາດເປັນກຣອບພິເ"
+"ສດທີ່ຢູ້ດ້ານລຸ່ມຂອງແຕ່ລະໜ"
+"້າ "
+"ຊຶ່ງອາດຈະບັນຈຸສ່ວນໝາຍເລກໜ"
+"້າຫຼືຂໍ້ມູນອື່ນຯຢู่ູ່"
 
-#: kwview.cc:572
+#: kwview.cc:538
 msgid "Sp&ecial Character..."
 msgstr "ອັກຂະລະ&ພິເສດ..."
 
-#: kwview.cc:576 kwview.cc:577
+#: kwview.cc:542 kwview.cc:543
 msgid "Insert one or more symbols or letters not found on the keyboard."
 msgstr ""
-"່ແຊກສັນຍາລັກຫລືອັກຂະລະທີ່ບໍ່ມີຢູ່ເທິງແປ້ນພິມี"
-"์"
+"່ແຊກສັນຍາລັກຫລືອັກຂະລະທີ່"
+"ບໍ່ມີຢູ່ເທິງແປ້ນພິມี์"
 
-#: kwview.cc:583
+#: kwview.cc:549
 msgid "Page Break"
 msgstr "ຈົບແຖວ"
 
-#: kwview.cc:584
+#: kwview.cc:550
 msgid "Force the remainder of the text into the next page."
 msgstr ""
-"ບັງຄັບໃຫ້ຂໍ້ຄວາມສ່ວນທີ່ເຫລືອຢູ່ໃນໜ້າຖັດໄປ"
-" "
+"ບັງຄັບໃຫ້ຂໍ້ຄວາມສ່ວນທີ່ເຫ"
+"ລືອຢູ່ໃນໜ້າຖັດໄປ "
 
-#: kwview.cc:585
+#: kwview.cc:551
 msgid ""
 "This inserts a non-printing character at the current cursor position. All "
 "text after this point will be moved into the next page."
 msgstr ""
-"ການແຊກນີ້ຈະແຊກອັກຂະລະທີ່ພິມອອກບໍ່ໄດ້ໄປຍັງຕຳແໜ່ງເຄັດເຊີປະຈຸບັນ "
-"ี่ແລະຂໍ້ຄວາມທັ້ງໝົດທີ່ຢູ່ຫລັງຈາກຈຸດນີ້ຈະຖືກຍ້າຍໄປໜ້າໃໝ່"
-"่"
+"ການແຊກນີ້ຈະແຊກອັກຂະລະທີ່ພ"
+"ິມອອກບໍ່ໄດ້ໄປຍັງຕຳແໜ່ງເຄັ"
+"ດເຊີປະຈຸບັນ "
+"ี่ແລະຂໍ້ຄວາມທັ້ງໝົດທີ່ຢູ່"
+"ຫລັງຈາກຈຸດນີ້ຈະຖືກຍ້າຍໄປໜ"
+"້າໃໝ่່"
 
-#: kwview.cc:587
+#: kwview.cc:553
 msgid "&Hard Frame Break"
 msgstr "ຕົວແບ່ງ&ໜ້າ/ກອບ"
 
-#: kwview.cc:588
+#: kwview.cc:554
 msgid "Force the remainder of the text into the next frame."
 msgstr ""
-"ບັງຄັບໃຫ້ຂໍ້ຄວາມສ່ວນທີ່ເຫລືອຢູ່ໃນໜ້າຖັດໄປ"
-" "
+"ບັງຄັບໃຫ້ຂໍ້ຄວາມສ່ວນທີ່ເຫ"
+"ລືອຢູ່ໃນໜ້າຖັດໄປ "
 
-#: kwview.cc:589
+#: kwview.cc:555
 msgid ""
 "This inserts a non-printing character at the current cursor position. All "
 "text after this point will be moved into the next frame in the frameset."
 msgstr ""
-"ການແຊກນີ້ຈະແຊກອັກຂະລະທີ່ພິມອອກບໍ່ໄດ້ໄປຍັງຕຳແໜ່ງເຄັດເຊີປະຈຸບັນແລະຂໍ້ຄວາມທັ້ງໝົດ"
-"ທີ່ຢູ່ຫລັງຈາກຈຸດນີ້ຈະຖືກຍ້າຍໄປຍັງໜ້າໃໝ่"
-" "
-"่"
+"ການແຊກນີ້ຈະແຊກອັກຂະລະທີ່ພ"
+"ິມອອກບໍ່ໄດ້ໄປຍັງຕຳແໜ່ງເຄັ"
+"ດເຊີປະຈຸບັນແລະຂໍ້ຄວາມທັ້ງ"
+"ໝົດທີ່ຢູ່ຫລັງຈາກຈຸດນີ້ຈະຖ"
+"ືກຍ້າຍໄປຍັງໜ້າໃໝ่ ่"
 
-#: kwview.cc:592
+#: kwview.cc:558
 msgid "Page..."
 msgstr "ການ&ຈັດວາງໜ້າເຈ້ຍ"
 
-#: kwview.cc:596
+#: kwview.cc:562
 msgid "Link..."
 msgstr "ເຊືອມໂຍມ"
 
-#: kwview.cc:599 kwview.cc:600
-msgid "Insert a web address, email address or hyperlink to a file."
+#: kwview.cc:565 kwview.cc:566
+#, fuzzy
+msgid "Insert a Web address, email address or hyperlink to a file."
 msgstr ""
 "ແຊກຕຳແໜ່ງເວັບ, "
-"ທີ່ຢູ່ເມລຫລືການເຊື່ອມໂຍງໄປຍັງແຟ້ມ์ "
+"ທີ່ຢູ່ເມລຫລືການເຊື່ອມໂຍງໄ"
+"ປຍັງແຟ້ມ์ "
 
-#: kwview.cc:602
+#: kwview.cc:568
 msgid "Comment..."
 msgstr "ໝາຍເຫດ..."
 
-#: kwview.cc:605
+#: kwview.cc:571
 msgid "Insert a comment about the selected text."
-msgstr "ແຊກໝາຍເຫດກ່ຽວກັບຂໍ້ຄວາມທີ່ເລືອກໄວ้"
+msgstr ""
+"ແຊກໝາຍເຫດກ່ຽວກັບຂໍ້ຄວາມທີ"
+"່ເລືອກໄວ้"
 
-#: kwview.cc:606
+#: kwview.cc:572
 msgid ""
 "Insert a comment about the selected text. These comments are not designed to "
 "appear on the final page."
 msgstr ""
-"ແຊກໝາຍເຫດກ່ຽວກັບຂໍ້ຄວາມທີ່ເລືອກໄວ້ "
-"ໝາຍເຫດນີ້ຖືກອອກແບບໃຫ້ບໍ່ປະກົດໃນໜ້າທີ່ພິມ"
-"์"
+"ແຊກໝາຍເຫດກ່ຽວກັບຂໍ້ຄວາມທີ"
+"່ເລືອກໄວ້ "
+"ໝາຍເຫດນີ້ຖືກອອກແບບໃຫ້ບໍ່ປ"
+"ະກົດໃນໜ້າທີ່ພິມ์"
 
-#: kwview.cc:608
+#: kwview.cc:574
 msgid "Edit Comment..."
 msgstr "ແກ້ໄຂໝາຍເຫດ..."
 
-#: kwview.cc:611 kwview.cc:612
+#: kwview.cc:577 kwview.cc:578
 msgid "Change the content of a comment."
 msgstr "ປ່ຽນເນື້ອຫາຂອງໝາຍເຫດุ"
 
-#: kwview.cc:614
+#: kwview.cc:580
 msgid "Remove Comment"
 msgstr "ລົບໝາຍເຫດุ"
 
-#: kwview.cc:617 kwview.cc:618
+#: kwview.cc:583 kwview.cc:584
 msgid "Remove the selected document comment."
 msgstr ""
-"ລຶບໝາຍເຫດຂອງເອກະສານທີ່ເລືອກໄວ້"
-"้"
+"ລຶບໝາຍເຫດຂອງເອກະສານທີ່ເລື"
+"ອກໄວ้້"
 
-#: kwview.cc:619
-msgid "Copy Text Of Comment..."
+#: kwview.cc:585
+#, fuzzy
+msgid "Copy Text of Comment..."
 msgstr "ແກ້ໄຂໝາຍເຫດุ..."
 
-#: kwview.cc:624 kwview.cc:1161
-msgid "&Footnote..."
+#: kwview.cc:590
+#, fuzzy
+msgid "&Footnote/Endnote..."
 msgstr "&Footnote..."
 
-#: kwview.cc:627 kwview.cc:628
+#: kwview.cc:593 kwview.cc:594
 msgid "Insert a footnote referencing the selected text."
 msgstr ""
-"ແຊກFootnoteທີ່ອ້າງອີງເຖິງຂໍ້ຄວາມທີ່ເລືອກໄວ້"
-"้"
+"ແຊກFootnoteທີ່ອ້າງອີງເຖິງຂໍ້ຄວາ"
+"ມທີ່ເລືອກໄວ้້"
 
-#: kwview.cc:630 kwview.cc:3352
+#: kwview.cc:596 kwview.cc:3322
 msgid "Table of &Contents"
 msgstr "ສາ&ລະບານ"
 
-#: kwview.cc:633 kwview.cc:634
+#: kwview.cc:599 kwview.cc:600
 msgid "Insert table of contents at the current cursor position."
-msgstr "ແຊກສາລະບານເຂົ້າໄປຍັງຕຳແໜ່ງເຄັດເຊີປະຈຸບັນ"
+msgstr ""
+"ແຊກສາລະບານເຂົ້າໄປຍັງຕຳແໜ່"
+"ງເຄັດເຊີປະຈຸບັນ"
 
-#: kwview.cc:637
+#: kwview.cc:603
 msgid "&Variable"
 msgstr "&ຕົວແປ"
 
-#: kwview.cc:641
+#: kwview.cc:607
 msgid "Document &Information"
 msgstr "ຂໍ້ມູມ&ຍໍ່ຂອງເອກະສານ"
 
-#: kwview.cc:642
+#: kwview.cc:608
 msgid "&Date"
 msgstr "&ວັນທີ່"
 
-#: kwview.cc:643
+#: kwview.cc:609
 msgid "&Time"
 msgstr "ເວ&ລາ"
 
-#: kwview.cc:644
+#: kwview.cc:610
 msgid "&Page"
 msgstr "&ໜ້າ"
 
-#: kwview.cc:646 kwview.cc:1421
+#: kwview.cc:612 kwview.cc:1387
 msgid "&Custom"
 msgstr "&ກຳນົດເອງ"
 
-#: kwview.cc:655
+#: kwview.cc:621
 msgid "&Refresh All Variables"
 msgstr "ປັບປຸງຕົວ&ແປທັ້ງໝົດ"
 
-#: kwview.cc:658
+#: kwview.cc:624
 msgid "Update all variables to current values."
-msgstr "ປັບປຸງຄ່າຕົວແປທັ້ງໝົດໃຫ້ເປັນຄ່າປະຈຸບັນ"
+msgstr ""
+"ປັບປຸງຄ່າຕົວແປທັ້ງໝົດໃຫ້ເ"
+"ປັນຄ່າປະຈຸບັນ"
 
-#: kwview.cc:659
+#: kwview.cc:625
 msgid ""
 "Update all variables in the document to current values."
 "<br>"
 "<br>This will update page numbers, dates or any other variables that need "
 "updating."
 msgstr ""
-"ປັບປຸງຄ່າຕົວແປທັ້ງໝົດໃນເອກະສານໃຫ້ເປັນຄ່າປະຈຸບັນ"
+"ປັບປຸງຄ່າຕົວແປທັ້ງໝົດໃນເອ"
+"ກະສານໃຫ້ເປັນຄ່າປະຈຸບັນ"
 "<br>"
-"<br>ຈະມີການປັບປຸງໝາຍເລກໜາ,ວັນທີ່ຫລືຕົວແປໃດຯທີ່ຕ້ອງການປັບປຸງ"
+"<br>"
+"ຈະມີການປັບປຸງໝາຍເລກໜາ,ວັນທ"
+"ີ່ຫລືຕົວແປໃດຯທີ່ຕ້ອງການປັ"
+"ບປຸງ"
 
-#: kwview.cc:663
+#: kwview.cc:629
 msgid "&Expression"
 msgstr "&ຖ້ອຍຄຳ"
 
-#: kwview.cc:667
+#: kwview.cc:633
 msgid "Te&xt Frame"
 msgstr "&ຂອບຂໍ້ຄວາມ"
 
-#: kwview.cc:670 kwview.cc:671
+#: kwview.cc:636 kwview.cc:637
 msgid "Create a new text frame."
 msgstr "ສາ້ງຂອບຂໍ້ຄວາມໃຫມ່"
 
-#: kwview.cc:674
+#: kwview.cc:640
 msgid "For&mula"
 msgstr "&ສູດ"
 
-#: kwview.cc:677 kwview.cc:678
+#: kwview.cc:643 kwview.cc:644
 msgid "Insert a formula into a new frame."
 msgstr "ສາ້ງຂອບສູດໃຫ່ມ"
 
-#: kwview.cc:680
+#: kwview.cc:646
 msgid "&Table..."
 msgstr "&ຕາຕະລາງ..."
 
-#: kwview.cc:684
+#: kwview.cc:650
 msgid "Create a table."
 msgstr "ສາ້ງຕາຕະລາງ"
 
-#: kwview.cc:685
+#: kwview.cc:651
 msgid ""
 "Create a table."
 "<br><br>The table can either exist in a frame of its own or inline."
 msgstr ""
-"ສາ້ງຕາຕະລາງ<br>"
-"<br>ຕາຕະລາງສາມາດຢູ່ໄດ້ທັງໃນຂອບ ຫລືພາຍໃນບັນທັດ"
+"ສາ້ງຕາຕະລາງ"
+"<br>"
+"<br>ຕາຕະລາງສາມາດຢູ່ໄດ້ທັງໃນຂ"
+"ອບ ຫລືພາຍໃນບັນທັດ"
 
-#: kwview.cc:687
+#: kwview.cc:653
 msgid "P&icture..."
 msgstr "ຮູບ&ພາບ..."
 
-#: kwview.cc:691
+#: kwview.cc:657
 msgid "Create a new frame for a picture."
 msgstr "ສາ້ງຂອບໃຫ່ມສຳລັບຮູບພາບ"
 
-#: kwview.cc:692
+#: kwview.cc:658
 msgid "Create a new frame for a picture or diagram."
 msgstr ""
 "ສາ້ງຂອບໃຫ່ມສຳລັບ "
 "ຮູບພາບຫລືໄດອະແກຣມ"
 
-#: kwview.cc:695
+#: kwview.cc:661
 msgid "&Object Frame"
 msgstr "ຂອບວັດ&ຖุຸ"
 
-#: kwview.cc:698 kwview.cc:699
+#: kwview.cc:664 kwview.cc:665
 msgid "Insert an object into a new frame."
 msgstr "ແທກວັດຖຸເຂົ້າໄປຍັງຂອບໃຫ່ມ"
 
-#: kwview.cc:701
+#: kwview.cc:667
 msgid "Fi&le..."
 msgstr "ແ&ຟມ..."
 
-#: kwview.cc:707
+#: kwview.cc:673
 msgid "&Font..."
 msgstr "ແບບ&ອັກສອນ..."
 
-#: kwview.cc:710
+#: kwview.cc:676
 msgid "Change character size, font, boldface, italics, etc."
 msgstr ""
 "ປ່ຽນຂະໜາດອັກສອນ, "
 "ຮູບແບບອັກສອນ, ຕົວໜາ, "
 "ຕົວງ່ຽງເປັນຕົ້ນ"
 
-#: kwview.cc:711
+#: kwview.cc:677
 msgid "Change the attributes of the currently selected characters."
-msgstr "ປ່ຽນຄ່າຕ່າງຯຂອງຄວາມທີ່ເລືອກໄວ້ໃນປະຈຸບັນ"
+msgstr ""
+"ປ່ຽນຄ່າຕ່າງຯຂອງຄວາມທີ່ເລື"
+"ອກໄວ້ໃນປະຈຸບັນ"
 
-#: kwview.cc:713
+#: kwview.cc:679
 msgid "&Paragraph..."
 msgstr "ຮູບແບບ&ຍໍ້ໜ້າ..."
 
-#: kwview.cc:716
+#: kwview.cc:682
 msgid "Change paragraph margins, text flow, borders, bullets, numbering, etc."
 msgstr ""
-"ປ່ຽນລັກສະນະຂອງຫຍໍ້ໜ້າ,ລັກສະນະຂອງຄວາມ,ກອບ,"
-"ປຸ່ມໜ້າລາຍການ,ລຳດັບລາຍ ການເປັນຕົ້ນ "
+"ປ່ຽນລັກສະນະຂອງຫຍໍ້ໜ້າ,ລັກສ"
+"ະນະຂອງຄວາມ,ກອບ,ປຸ່ມໜ້າລາຍກາ"
+"ນ,ລຳດັບລາຍ ການເປັນຕົ້ນ "
 
-#: kwview.cc:717
+#: kwview.cc:683
 msgid ""
 "Change paragraph margins, text flow, borders, bullets, numbering, "
 "etc."
@@ -2179,404 +2393,470 @@ msgid ""
 "If no text is selected, the paragraph where the cursor is located will be "
 "changed."
 msgstr ""
-"ປ່ຽນລັກສະນະຂອງຫຍໍ້ໜ້າ,ລັກສະນະຂໍ້ຄວາມ,ກອບ,"
-"ປຸ່ມໜ້າລາຍກາຍ,ລຳດັບລາຍກາຍ ເປັນຕົ້ນ"
-"<p>ເລືອກຂໍ້ຄວາມໃນຫລາຍຯຫຍໍ້ໜ້າ "
-"ເພື່ອປຽ່ນຮູບແບບລັກາະນະຕ່າງຯ"
-"ຂອງຫຍໍ້ໜ້າທີ່ເລືອກໄວ້ທັ້ງໝົດ"
-"<p>ຫາກຍັງບໍ່ມີການເລືອກຂໍ້ຄວາມ"
-"ການປ່ຽນແປງຈະເກີດກັບຫຍໍ້ໜ້າທີ່ເຄັດເຊີຢู่"
+"ປ່ຽນລັກສະນະຂອງຫຍໍ້ໜ້າ,ລັກສ"
+"ະນະຂໍ້ຄວາມ,ກອບ,ປຸ່ມໜ້າລາຍກາ"
+"ຍ,ລຳດັບລາຍກາຍ "
+"ເປັນຕົ້ນ"
+"<p>ເລືອກຂໍ້ຄວາມໃນຫລາຍຯຫຍໍ້ໜ"
+"້າ "
+"ເພື່ອປຽ່ນຮູບແບບລັກາະນະຕ່າ"
+"ງຯຂອງຫຍໍ້ໜ້າທີ່ເລືອກໄວ້ທັ"
+"້ງໝົດ"
+"<p>ຫາກຍັງບໍ່ມີການເລືອກຂໍ້ຄວ"
+"າມການປ່ຽນແປງຈະເກີດກັບຫຍໍ້"
+"ໜ້າທີ່ເຄັດເຊີຢู่"
 
-#: kwview.cc:719
+#: kwview.cc:685
 msgid "F&rame/Frameset Properties..."
 msgstr "&ກອບ/ຊຸດກອບ..."
 
-#: kwview.cc:722
+#: kwview.cc:688
 msgid "Alter frameset properties."
 msgstr "ຄຸນສົມບັດອື່ນຂອງກອບ"
 
-#: kwview.cc:723
+#: kwview.cc:689
 msgid "Alter frameset properties.<p>Currently you can change the frame background."
 msgstr ""
 "ຄຸນສົມບັດອື່ນຂອງກອບ"
-"<p>ທ່ານສາມາດປ່ຽນພື້ນຫລັງຂອງກອບໄດ້ແລ້ວ"
+"<p>ທ່ານສາມາດປ່ຽນພື້ນຫລັງຂອງ"
+"ກອບໄດ້ແລ້ວ"
 
-#: kwview.cc:725
-msgid "P&age..."
-msgstr "ການ&ຈັດວາງໜ້າເຈ້ຍ..."
+#: kwview.cc:691
+#, fuzzy
+msgid "Page &Layout..."
+msgstr "ປ່ຽນຮູບແບບການຈັດວາງ"
 
-#: kwview.cc:728
+#: kwview.cc:694
 msgid "Change properties of entire page."
-msgstr "ປ່ຽນຄຸນສົມບັດການຈັດວາງໜ້າເຈ້ຍ"
+msgstr ""
+"ປ່ຽນຄຸນສົມບັດການຈັດວາງໜ້າ"
+"ເຈ້ຍ"
 
-#: kwview.cc:729
+#: kwview.cc:695
 msgid ""
 "Change properties of the entire page."
 "<p>"
 "Currently you can change paper size, paper orientation, header and footer "
 "sizes, and column settings."
 msgstr ""
-"ປ່ຽນຄຸນສົມບັດການຈັດວາງໜ້າເຈ້ຍ"
-"<p>ທ່ານສາມາດປ່ຽນຄ່າຂະໜາດເຈ້ຍ,ທິດທາງເຈ້ຍ,"
-"ຂະໜາດຫົວແລະທ້າຍເຈ້ຍແລະຕັ້ງຄ່າຄໍລັມໄດ້"
-"้"
+"ປ່ຽນຄຸນສົມບັດການຈັດວາງໜ້າ"
+"ເຈ້ຍ"
+"<p>ທ່ານສາມາດປ່ຽນຄ່າຂະໜາດເຈ້"
+"ຍ,ທິດທາງເຈ້ຍ,ຂະໜາດຫົວແລະທ້າ"
+"ຍເຈ້ຍແລະຕັ້ງຄ່າຄໍລັມໄດ้້"
 
-#: kwview.cc:732
-msgid "&Frame Style Manager..."
-msgstr "ຕົວຈັດການຮູບແບບ&ກອບ.."
+#: kwview.cc:698
+#, fuzzy
+msgid "&Frame Style Manager"
+msgstr "ໂຕຈັດການຮູບແບບກຣອບ"
 
-#: kwview.cc:735
+#: kwview.cc:701
 msgid "Change attributes of framestyles."
 msgstr "ປ່ຽນລັກສະນະຮູບແບບຂອງກອບ"
 
-#: kwview.cc:736
+#: kwview.cc:702
 msgid ""
 "Change background and borders of framestyles."
 "<p>Multiple framestyles can be changed using the dialog box."
 msgstr ""
 "ປ່ຽນຮູບຫລັງແລະຂອບຊຸດກອບ"
-"<p>"
-"ທ່ານສາມາດປ່ຽນຄ່າຫລາຍຯຊຸດກອບໄດ້ ໂດຍໃຊ້ກ່ອງນี้"
+"<p>ທ່ານສາມາດປ່ຽນຄ່າຫລາຍຯຊຸດ"
+"ກອບໄດ້ ໂດຍໃຊ້ກ່ອງນี้"
 
-#: kwview.cc:739
-msgid "&Style Manager..."
+#: kwview.cc:705
+#, fuzzy
+msgid "&Style Manager"
 msgstr "ຕົວຈັດການ&ຮູບແບບ..."
 
-#: kwview.cc:742
+#: kwview.cc:708
 msgid "Change attributes of styles."
 msgstr "ປ່ຽນລັກສະນະຂອງແບບ"
 
-#: kwview.cc:743
+#: kwview.cc:709
 msgid ""
 "Change font and paragraph attributes of styles."
 "<p>Multiple styles can be changed using the dialog box."
 msgstr ""
-"ປ່ຽນແບບອັກສອນແລະລັກສະນະຫຍໍ້ໜ້າຂອງຮູບແບບ"
-"<p>ທ່ານສາມາດປ່ຽນລັກສະນະຮູບແບບຫລາຍຯຕົວໄດ້ໂດຍໃຊ້ກ່ອງນີ້"
-"ี้"
+"ປ່ຽນແບບອັກສອນແລະລັກສະນະຫຍ"
+"ໍ້ໜ້າຂອງຮູບແບບ"
+"<p>ທ່ານສາມາດປ່ຽນລັກສະນະຮູບແ"
+"ບບຫລາຍຯຕົວໄດ້ໂດຍໃຊ້ກ່ອງນີ"
+"້ี้"
 
-#: kwview.cc:750
+#: kwview.cc:716
 msgid "Increase Font Size"
 msgstr "ເຜີ້ມຂະໜາດແບບອັກສອນ"
 
-#: kwview.cc:751
+#: kwview.cc:717
 msgid "Decrease Font Size"
 msgstr "ລົດຂະໜາດແບບອັກສອນ"
 
-#: kwview.cc:753
+#: kwview.cc:719
 msgid "Font Family"
 msgstr "ຕະກຸນຕົວອັກສອນ"
 
-#: kwview.cc:758 kwview.cc:760
+#: kwview.cc:724 kwview.cc:726
 msgid "St&yle"
 msgstr "ຮູບ&ແບບ"
 
-#: kwview.cc:768 kwview.cc:4870
+#: kwview.cc:734 kwview.cc:4957
 msgid "Default Format"
 msgstr "ຮູບແບບປະລິຍາຍ"
 
-#: kwview.cc:771 kwview.cc:772
+#: kwview.cc:737 kwview.cc:738
 msgid "Change font and paragraph attributes to their default values."
-msgstr "ປ່ຽນແບບອັກສອນແລະລັກສະນະຫຍໍ້ໜ້າໄປເປັນຄ່າປະລິຍາຂອງມັນ"
+msgstr ""
+"ປ່ຽນແບບອັກສອນແລະລັກສະນະຫຍ"
+"ໍ້ໜ້າໄປເປັນຄ່າປະລິຍາຂອງມັ"
+"ນ"
 
-#: kwview.cc:776
+#: kwview.cc:742
 msgid "&Bold"
 msgstr "ຕົວ&ໜາ"
 
-#: kwview.cc:779
+#: kwview.cc:745
 msgid "&Italic"
 msgstr "ຕົວ&ງ່ຽງ"
 
-#: kwview.cc:782
+#: kwview.cc:748
 msgid "&Underline"
 msgstr "ຕົວ&ຂີດເສັ້ນໃຕ้້"
 
-#: kwview.cc:785
+#: kwview.cc:751
 msgid "&Strike Out"
 msgstr "ຕົວເສັ້ນ&ພາດກາງ"
 
-#: kwview.cc:789
+#: kwview.cc:755
 msgid "Align &Left"
 msgstr "ຮຽງຊີດດ້ານ&ຊ້າຍ"
 
-#: kwview.cc:794
+#: kwview.cc:760
 msgid "Align &Center"
 msgstr "ຮຽງ&ເຄິ່ງກາງ"
 
-#: kwview.cc:798
+#: kwview.cc:764
 msgid "Align &Right"
 msgstr "ຮຽງຊິດດ້ານ&ຂວາ"
 
-#: kwview.cc:802
+#: kwview.cc:768
 msgid "Align &Block"
 msgstr "ກະ&ຈາຍເຕັມຂອບ"
 
-#: kwview.cc:807
+#: kwview.cc:773
 msgid "Superscript"
 msgstr "ຕົວຍົກ"
 
-#: kwview.cc:811
+#: kwview.cc:777
 msgid "Subscript"
 msgstr "ຕົວຫ້ອຍ"
 
-#: kwview.cc:816
+#: kwview.cc:782
 msgid "Increase Indent"
 msgstr "ເຜີ້ມໄລຍະການເຍືອງ"
 
-#: kwview.cc:821
+#: kwview.cc:787
 msgid "Decrease Indent"
 msgstr "ລົດໄລຍະການເຍືອງ"
 
-#: kwview.cc:826
+#: kwview.cc:792
 msgid "Text Color..."
 msgstr "ສີຂໍ້ຄວາມ..."
 
-#: kwview.cc:837
+#: kwview.cc:803
 msgid "Number"
 msgstr "ລາຍການລຳດັບ"
 
-#: kwview.cc:840
+#: kwview.cc:806
 msgid "Bullet"
 msgstr "ປຸ່ມໜ້າລາຍການ"
 
-#: kwview.cc:865
+#: kwview.cc:831
 msgid "Fra&mestyle"
 msgstr "ຮູບແບບ&ຂອບ"
 
-#: kwview.cc:867
+#: kwview.cc:833
 msgid "Framest&yle"
 msgstr "ຮູບ&ແບບຂອບ"
 
-#: kwview.cc:872
+#: kwview.cc:838
 msgid "Border Outline"
 msgstr "ຂອບຮອບນອກ"
 
-#: kwview.cc:874
+#: kwview.cc:840
 msgid "Border Left"
 msgstr "ຂອບດ້ານຊ້າຍ"
 
-#: kwview.cc:876
+#: kwview.cc:842
 msgid "Border Right"
 msgstr "ຂອບດ້ານຂວາ"
 
-#: kwview.cc:878
+#: kwview.cc:844
 msgid "Border Top"
 msgstr "ຂອບດ້ານເທິງ"
 
-#: kwview.cc:880
+#: kwview.cc:846
 msgid "Border Bottom"
 msgstr "ຂອບດ້ານລຸ່ມ"
 
-#: kwview.cc:882
+#: kwview.cc:848
 msgid "Border Style"
 msgstr "ຮູບແບບຂອບ"
 
-#: kwview.cc:895
+#: kwview.cc:861
 msgid "Border Width"
 msgstr "ຄວາມກ້ວາງຂອບ"
 
-#: kwview.cc:904
+#: kwview.cc:870
 msgid "Border Color"
 msgstr "ສີຂອບ"
 
-#: kwview.cc:909 kwview.cc:1829
+#: kwview.cc:875 kwview.cc:1794
 msgid "Text Background Color..."
 msgstr "ສີພື້ນຫລັງຂໍ້ຄວາມ..."
 
-#: kwview.cc:910 kwview.cc:911
+#: kwview.cc:876 kwview.cc:877
 msgid "Change background color for currently selected text."
-msgstr "ປ່ຽນສີພື້ນຫລັງຂອງຂໍ້ຄວາມທີ່ເລືອກໄວ้"
+msgstr ""
+"ປ່ຽນສີພື້ນຫລັງຂອງຂໍ້ຄວາມທ"
+"ີ່ເລືອກໄວ้"
 
-#: kwview.cc:920 kwview.cc:921
+#: kwview.cc:886 kwview.cc:887
 msgid "Adjust properties of the current table."
-msgstr "ຜັບຄຸນສົມບັດຂອງຕາຕະລາງປະຈຸບັນ"
+msgstr ""
+"ຜັບຄຸນສົມບັດຂອງຕາຕະລາງປະຈ"
+"ຸບັນ"
 
-#: kwview.cc:932
+#: kwview.cc:898
 msgid "&Insert Row..."
 msgstr "&ແທກແຖວ..."
 
-#: kwview.cc:935
+#: kwview.cc:901
 msgid "Insert one or more rows at cursor location."
 msgstr ""
-"ແທກແຖວໜຶ່ງແຖວຫລືຫລາຍກ່ວາໄປຍັງຕຳແໜ່ງເຄີເຊີຢູ່"
-"ู่"
+"ແທກແຖວໜຶ່ງແຖວຫລືຫລາຍກ່ວາໄ"
+"ປຍັງຕຳແໜ່ງເຄີເຊີຢู่ູ່"
 
-#: kwview.cc:936
+#: kwview.cc:902
 msgid "Insert one or more rows at current cursor location."
 msgstr ""
-"ແທກແຖວໜຶ່ງແຖວຫລືຫລາຍກ່ວາໄປຍັງຕຳແໜ່ງທີ່ເຄີເຊີຢ่ູ"
-"ู่"
+"ແທກແຖວໜຶ່ງແຖວຫລືຫລາຍກ່ວາໄ"
+"ປຍັງຕຳແໜ່ງທີ່ເຄີເຊີຢู่่ູ"
 
-#: kwview.cc:938
+#: kwview.cc:904
 msgid "I&nsert Column..."
 msgstr "ແທ&ກຄໍລັມ์..."
 
-#: kwview.cc:941 kwview.cc:942
+#: kwview.cc:907 kwview.cc:908
 msgid "Insert one or more columns into the current table."
-msgstr "ແທກຄໍລັມໜຶ່ງຫລືຫລາຍຄໍລັມໄປຍັງຕາຕະລາງປະຈຸບັນ"
+msgstr ""
+"ແທກຄໍລັມໜຶ່ງຫລືຫລາຍຄໍລັມໄ"
+"ປຍັງຕາຕະລາງປະຈຸບັນ"
 
-#: kwview.cc:944
+#: kwview.cc:910
 msgid "&Delete Selected Rows..."
 msgstr "&ລົບແຖວທີ່ເລືອກໄດ้..."
 
-#: kwview.cc:947 kwview.cc:948
+#: kwview.cc:913 kwview.cc:914
 msgid "Delete selected rows from the current table."
-msgstr "ລົບແຖວທີ່ເລືອກໄວ້ອອກຈາກຕາຕະລາງປະຈຸບັນ"
+msgstr ""
+"ລົບແຖວທີ່ເລືອກໄວ້ອອກຈາກຕາ"
+"ຕະລາງປະຈຸບັນ"
 
-#: kwview.cc:950
+#: kwview.cc:916
 msgid "D&elete Selected Columns..."
 msgstr "ລົບ&ຄໍລັມທີ່ເລືອກໄວ້..."
 
-#: kwview.cc:953
+#: kwview.cc:919
 msgid "Delete selected columns from the current table."
-msgstr "ລົບຄໍລັມທີ່ເລືອກໄວ້ອອກຈາກຕາຕະລາງປະຈຸບັນ"
+msgstr ""
+"ລົບຄໍລັມທີ່ເລືອກໄວ້ອອກຈາກ"
+"ຕາຕະລາງປະຈຸບັນ"
 
-#: kwview.cc:954
+#: kwview.cc:920
 msgid "Delete selected column from the current table."
-msgstr "ລົບຄໍລັມທີ່ເລືອກໄວ້ອອກຈາກຕາຕະລາງປະຈຸບັນ"
+msgstr ""
+"ລົບຄໍລັມທີ່ເລືອກໄວ້ອອກຈາກ"
+"ຕາຕະລາງປະຈຸບັນ"
 
-#: kwview.cc:956
+#: kwview.cc:922
 msgid "Resize Column..."
 msgstr "ປັບຂະໜາດຄໍລັມ..."
 
-#: kwview.cc:959 kwview.cc:960
+#: kwview.cc:925 kwview.cc:926
 msgid "Change the width of the currently selected column."
-msgstr "ປ່ຽນຄວາມກ້ວາງຂອງຄໍລັມທີ່ເລືອກໄວ้"
+msgstr ""
+"ປ່ຽນຄວາມກ້ວາງຂອງຄໍລັມທີ່ເ"
+"ລືອກໄວ้"
 
-#: kwview.cc:963
+#: kwview.cc:929
 msgid "&Join Cells"
 msgstr "ເ&ຊື່ອມເຊລລ์"
 
-#: kwview.cc:966
+#: kwview.cc:932
 msgid "Join two or more cells into one large cell."
-msgstr "ເຊື່ອມເຊລລສອງເຊລລຫລືຫລາຍກ່ວາເຊລລດຽວ"
+msgstr ""
+"ເຊື່ອມເຊລລສອງເຊລລຫລືຫລາຍກ"
+"່ວາເຊລລດຽວ"
 
-#: kwview.cc:967
+#: kwview.cc:933
 msgid ""
 "Join two or more cells into one large cell."
 "<p>This is a good way to create titles and labels within a table."
 msgstr ""
-"ເຊື່ອມເຊລລສອງເຊລລຫລືຫລາຍກ່ວາເປັນເຊລລດຽວ"
-"<p>ນີ້ເປັນວິທີການທີ່ເມາະສຳລັບການສ້າງຫົວເລື່ອງແລະແຖບຂໍ້ຄວາມໄວ້ໃນຕາຕະລາງ"
+"ເຊື່ອມເຊລລສອງເຊລລຫລືຫລາຍກ"
+"່ວາເປັນເຊລລດຽວ"
+"<p>ນີ້ເປັນວິທີການທີ່ເມາະສຳລ"
+"ັບການສ້າງຫົວເລື່ອງແລະແຖບຂ"
+"ໍ້ຄວາມໄວ້ໃນຕາຕະລາງ"
 
-#: kwview.cc:969
+#: kwview.cc:935
 msgid "&Split Cells..."
 msgstr "ແຍກ&ເຊລລ์..."
 
-#: kwview.cc:972
+#: kwview.cc:938
 msgid "Split one cell into two or more cells."
-msgstr "ແຍກເຊລລໜຶ່ງເຊລລໄປເປັນສອງເຊລລຫລືຫລາຍຫລາຍກ່ວາ"
+msgstr ""
+"ແຍກເຊລລໜຶ່ງເຊລລໄປເປັນສອງເ"
+"ຊລລຫລືຫລາຍຫລາຍກ່ວາ"
 
-#: kwview.cc:973
+#: kwview.cc:939
 msgid ""
 "Split one cell into two or more cells."
 "<p>Cells can be split horizontally, vertically or both directions at once."
 msgstr ""
-"ແຍກເຊລລໜື່ງເຊລລໄປເປັນສອງເຊລລກຫລືຫລາຍກ່ວາ"
-"<p>ເຊລລສາມາດຖືກແຍກອອກໄດ້ໃນແນວນອນ,ແນວຕັ້ງຫລືທັງສອງທິດທາງ"
+"ແຍກເຊລລໜື່ງເຊລລໄປເປັນສອງເ"
+"ຊລລກຫລືຫລາຍກ່ວາ"
+"<p>ເຊລລສາມາດຖືກແຍກອອກໄດ້ໃນແ"
+"ນວນອນ,ແນວຕັ້ງຫລືທັງສອງທິດທ"
+"າງ"
 
-#: kwview.cc:975
+#: kwview.cc:941
 msgid "Protect Cells"
 msgstr "ປ້ອງກັນເຊລລ"
 
-#: kwview.cc:978
+#: kwview.cc:944
 msgid "Prevent changes to content of selected cells."
-msgstr "ປ້ອງກັນບໍ່ໃຫ້ມີການປ່ຽນແປງເນື້ອຫາຂອງເຊລລທີ່ເລືອກໄວ้"
+msgstr ""
+"ປ້ອງກັນບໍ່ໃຫ້ມີການປ່ຽນແປງ"
+"ເນື້ອຫາຂອງເຊລລທີ່ເລືອກໄວ้"
 
-#: kwview.cc:979
+#: kwview.cc:945
 msgid ""
 "Toggles cell protection on and off."
 "<br>"
 "<br>When cell protection is on, the user can not alter the content or "
 "formatting of the text within the cell."
 msgstr ""
-"ເປີດໃຊ້ຫລືປິດການປ້ອງກັນເຊລລ์"
+"ເປີດໃຊ້ຫລືປິດການປ້ອງກັນເຊ"
+"ລລ์"
 "<br>"
-"<br>ເມື່ອເປີດໃຊ້ການປ້ອງກັນເຊລລ"
-"ຜູ້ໃຊ້ຈະບໍ່ສາມາດທຳການແກ້ໄຂຄ່າຕ່າງຯຂອງເຊລລໄດ้"
+"<br>ເມື່ອເປີດໃຊ້ການປ້ອງກັນເຊ"
+"ລລຜູ້ໃຊ້ຈະບໍ່ສາມາດທຳການແກ"
+"້ໄຂຄ່າຕ່າງຯຂອງເຊລລໄດ้"
 
-#: kwview.cc:981
+#: kwview.cc:947
 msgid "&Ungroup Table"
 msgstr "ແຍກ&ຕາຕະລາງ"
 
-#: kwview.cc:984
+#: kwview.cc:950
 msgid "Break a table into individual frames."
-msgstr "ແຍກຕາຕະລາງໄປເປັນຂອບຕ່າງຫາກ"
+msgstr ""
+"ແຍກຕາຕະລາງໄປເປັນຂອບຕ່າງຫາ"
+"ກ"
 
-#: kwview.cc:985
+#: kwview.cc:951
 msgid ""
 "Break a table into individual frames"
 "<p>Each frame can be moved independently around the page."
 msgstr ""
-"ແຍກຕາຕະລາງໄປເປັນຂອບຕ່າງຫາກ<p"
-">ແຕ່ລະຂອບສາມາດຍ້າຍໄປຮອບຯໜ້າເຈ້ຍໄດ້ໂດຍອິດສະຫລະ"
+"ແຍກຕາຕະລາງໄປເປັນຂອບຕ່າງຫາ"
+"ກ"
+"<p>ແຕ່ລະຂອບສາມາດຍ້າຍໄປຮອບຯໜ"
+"້າເຈ້ຍໄດ້ໂດຍອິດສະຫລະ"
 
-#: kwview.cc:987
+#: kwview.cc:953
 msgid "Delete &Table"
 msgstr "ລົບ&ຕາຕະລາງ"
 
-#: kwview.cc:990
+#: kwview.cc:956
 msgid "Delete the entire table."
 msgstr "ລົບເນື້ອຫາຂອງຕາຕະລາງ"
 
-#: kwview.cc:991
+#: kwview.cc:957
 msgid ""
 "Deletes all cells and the content within the cells of the currently selected "
 "table."
 msgstr ""
-"ລົບເຊລລທັງໝົດແລະເນື້ອຫາທີ່ຢູ່ພາຍໃນເຊລລ "
-"ອອກຈາກຕາຕະລາງທີ່ເລືອກໄວ້ໃນປະຈຸບັນ"
+"ລົບເຊລລທັງໝົດແລະເນື້ອຫາທີ"
+"່ຢູ່ພາຍໃນເຊລລ "
+"ອອກຈາກຕາຕະລາງທີ່ເລືອກໄວ້ໃ"
+"ນປະຈຸບັນ"
 
-#: kwview.cc:994
-msgid "T&able Style Manager..."
-msgstr "ຕົວຈັດການຮູບແບບ&ຕາຕະລາງ.."
+#: kwview.cc:960
+#, fuzzy
+msgid "T&able Style Manager"
+msgstr "ໂຕຈັດການຮູບແບບຕາຕະລາງ"
 
-#: kwview.cc:997
+#: kwview.cc:963
 msgid "Change attributes of tablestyles."
-msgstr "ປຽ່ນລັກສະນະຮູບແບບຂອງຕາຕະລາງ"
+msgstr ""
+"ປຽ່ນລັກສະນະຮູບແບບຂອງຕາຕະລ"
+"າງ"
 
-#: kwview.cc:998
+#: kwview.cc:964
 msgid ""
 "Change textstyle and framestyle of the tablestyles."
 "<p>Multiple tablestyles can be changed using the dialog box."
 msgstr ""
-"ປ່ຽນລັກສະນະຮູບແບບຂໍ້ຄວາມແລະຂອບຂອງຮູບແບບຕາຕະລາງ"
-"<p>ທ່ານສາມາດປ່ຽນຮູບແບບຕາຕະລາງຫລາຍຯຕາຕະລາງໄດ້ ໂດຍໃຊ້ກ່ອງນີ້"
-"ี้"
+"ປ່ຽນລັກສະນະຮູບແບບຂໍ້ຄວາມແ"
+"ລະຂອບຂອງຮູບແບບຕາຕະລາງ"
+"<p>ທ່ານສາມາດປ່ຽນຮູບແບບຕາຕະລ"
+"າງຫລາຍຯຕາຕະລາງໄດ້ "
+"ໂດຍໃຊ້ກ່ອງນີ້ี้"
 
-#: kwview.cc:1000 kwview.cc:1002
+#: kwview.cc:966 kwview.cc:968
 msgid "Table&style"
 msgstr "ຮູບແບບ&ຕາຕະລາງ"
 
-#: kwview.cc:1008 kwview.cc:6973
-msgid "Convert table to text"
+#: kwview.cc:974 kwview.cc:6984
+#, fuzzy
+msgid "Convert Table to Text"
 msgstr "ແຊກສາລະບານ"
 
-#: kwview.cc:1011 sortdia.cc:31
+#: kwview.cc:977 sortdia.cc:31
 msgid "Sort Text"
 msgstr "ຮູບແບບຂໍ້ຄວາມ"
 
-#: kwview.cc:1015
-msgid "Add expression"
+#: kwview.cc:981
+#, fuzzy
+msgid "Add Expression"
 msgstr "ເຜີ້້ມຖ້ອຍຄຳໃໝ"
 
-#: kwview.cc:1023
+#: kwview.cc:989
 msgid "Enable Autocorrection"
-msgstr "ເປີດໃຊ້ການແກ້ໄຂຄຳອັດຕະນຸມັດ"
+msgstr ""
+"ເປີດໃຊ້ການແກ້ໄຂຄຳອັດຕະນຸມ"
+"ັດ"
 
-#: kwview.cc:1026 kwview.cc:1027
+#: kwview.cc:992 kwview.cc:993
 msgid "Toggle autocorrection on and off."
-msgstr "ເປີດຫລືປິດການໃຊ້ການແກ້ໄຂຄຳອັດຕະນຸມັດิ"
+msgstr ""
+"ເປີດຫລືປິດການໃຊ້ການແກ້ໄຂຄ"
+"ຳອັດຕະນຸມັດิ"
 
-#: kwview.cc:1029
+#: kwview.cc:995
 msgid "Configure &Autocorrection..."
-msgstr "ປັບແຕ່ງການແກ້&ໄຂຄຳອັດຕະນຸມັດ..."
+msgstr ""
+"ປັບແຕ່ງການແກ້&ໄຂຄຳອັດຕະນຸມ"
+"ັດ..."
 
-#: kwview.cc:1032
+#: kwview.cc:998
 msgid "Change autocorrection options."
-msgstr "ປ່ຽນຄ່າຕົວເລືອກການແກ້ໄຂຄຳອັດຕະນຸມັດ"
+msgstr ""
+"ປ່ຽນຄ່າຕົວເລືອກການແກ້ໄຂຄຳ"
+"ອັດຕະນຸມັດ"
 
-#: kwview.cc:1033
+#: kwview.cc:999
 msgid ""
 "Change autocorrection options including:"
 "<p> "
@@ -2587,118 +2867,142 @@ msgid ""
 "<P>add/remove autocorrection replacement text</P> "
 "<LI><P>and basic autocorrection options</P>."
 msgstr ""
-"ປ່ຽນຄ່າເລືອກການແກ້ໄຂຄຳອັດຕະໂນມັດ ລວມໄປເຖິງ:"
+"ປ່ຽນຄ່າເລືອກການແກ້ໄຂຄຳອັດ"
+"ຕະໂນມັດ ລວມໄປເຖິງ:"
 "<p> "
 "<UL>"
 "<LI>"
-"<P>ການຍົກເວັ້ນການແກ້ໄຂຄຳອັດຕະນຸມັດ"
-"ิ</P> "
+"<P>ການຍົກເວັ້ນການແກ້ໄຂຄຳອັດ"
+"ຕະນຸມັດิ</P> "
 "<LI>"
 "<P>ເຜີ້ມ/ລົບ "
-"ຂໍ້ຄວາມແທນທີ່ສຳລັບການແກ້ໄຂຄຳອັດຕະໂນມັດ"
-"ิ</P> "
+"ຂໍ້ຄວາມແທນທີ່ສຳລັບການແກ້ໄ"
+"ຂຄຳອັດຕະໂນມັດิ</P> "
 "<LI>"
-"<P>ແລະຕົວເລືອກພື້ນຖານຂອງການແກ້ໄຂຄຳອັດຕາໂນມັດ</P>"
+"<P>ແລະຕົວເລືອກພື້ນຖານຂອງການ"
+"ແກ້ໄຂຄຳອັດຕາໂນມັດ</P>"
 
-#: kwview.cc:1035
+#: kwview.cc:1001
 msgid "Custom &Variables..."
 msgstr "ກຳນົດຕົວແປ&ເອງ..."
 
-#: kwview.cc:1039
-msgid "&Personal Expressions..."
-msgstr "ແກ້ໄຂຖ້ອຍຄຳ&ສ່ວນຕົວ..."
+#: kwview.cc:1005
+#, fuzzy
+msgid "Edit &Personal Expressions..."
+msgstr "ແກ້ໄຂ້ຖ້ອຍຄໍາສ່ວນຕົວ"
 
-#: kwview.cc:1042
+#: kwview.cc:1008
 msgid "Add or change one or more personal expressions."
 msgstr "ເຜີ້ມຫລືປ່ຽນຖ້ອຍຄຳສ່ວນຕົວ"
 
-#: kwview.cc:1043
+#: kwview.cc:1009
 msgid ""
 "Add or change one or more personal expressions."
 "<p>"
 "Personal expressions are a way to quickly insert commonly used phrases or "
 "text into your document."
 msgstr ""
-"ເຜີ້ມຫລືປ່ຽນຖ້ອຍຄຳສ່ວນຕົວ"
-"<p>ຖ້ອຍຄຳສ່ວນຕົວເປັນວິທີວ່ອງໄວສຳລັບແຊກຖ້ອຍຄຳ"
-"ຫລືຂໍ້ຄວາມທີ່ທ່ານໃຊ້ເລື້ອຍຯເຂົ້າໄປຍັງເອກະສານ"
+"ເຜີ້ມຫລືປ່ຽນຖ້ອຍຄຳສ່ວນຕົວ<p"
+">ຖ້ອຍຄຳສ່ວນຕົວເປັນວິທີວ່ອງ"
+"ໄວສຳລັບແຊກຖ້ອຍຄຳຫລືຂໍ້ຄວາ"
+"ມທີ່ທ່ານໃຊ້ເລື້ອຍຯເຂົ້າໄປ"
+"ຍັງເອກະສານ"
 
-#: kwview.cc:1045
+#: kwview.cc:1011
 msgid "Change Case..."
 msgstr "ປ່ຽນຕົວພິມ์..."
 
-#: kwview.cc:1048
+#: kwview.cc:1014
 msgid "Alter the capitalization of selected text."
-msgstr "ປ່ຽນຕົວພິມຂອງຂໍ້ຄວາມທີ່ເລືອກໄວ้"
+msgstr ""
+"ປ່ຽນຕົວພິມຂອງຂໍ້ຄວາມທີ່ເລ"
+"ືອກໄວ้"
 
-#: kwview.cc:1049
+#: kwview.cc:1015
 msgid ""
 "Alter the capitalization of selected text to one of five pre-defined "
 "patterns."
 "<p>You can also switch all letters from uppercase to lower case and from "
 "lower case to upper case in one move."
 msgstr ""
-"ປ່ຽນຕົວພິມຂອງຂໍ້ຄວາມທີ່ເລືອກໄວ້ໄປເປັນຮູບໜຶ່ງ"
-"ໃນຫ້າແບບທີ່ກຳນົດໄວ້"
-"<p>ທ່ານສາມາດປ່ຽນອັງຂະລະທັງໝົດຈາກຕົວພິມໃຫ່ຍั"
-"ໄປເປັນຕົວພິມນ້ອຍແລະຈາກຕົວພິມນ້ອຍໄປເປັນຕົວພິມຢູ່ໄດ້ໃນການສັ່ງພຽງໜຶ່ງຄັ້ງ"
+"ປ່ຽນຕົວພິມຂອງຂໍ້ຄວາມທີ່ເລ"
+"ືອກໄວ້ໄປເປັນຮູບໜຶ່ງໃນຫ້າແ"
+"ບບທີ່ກຳນົດໄວ້"
+"<p>ທ່ານສາມາດປ່ຽນອັງຂະລະທັງໝ"
+"ົດຈາກຕົວພິມໃຫ່ຍัໄປເປັນຕົວ"
+"ພິມນ້ອຍແລະຈາກຕົວພິມນ້ອຍໄປ"
+"ເປັນຕົວພິມຢູ່ໄດ້ໃນການສັ່ງ"
+"ພຽງໜຶ່ງຄັ້ງ"
 
-#: kwview.cc:1055
+#: kwview.cc:1021
 msgid "Change Picture..."
 msgstr "ປ່ຽນຮູບພາບ..."
 
-#: kwview.cc:1058
+#: kwview.cc:1024
 msgid "Change the picture in the currently selected frame."
-msgstr "ປ່ຽນຮູບພາບໃນຂອບທີ່ເລືອກໄວ້ໃນປະຈຸບັນ"
+msgstr ""
+"ປ່ຽນຮູບພາບໃນຂອບທີ່ເລືອກໄວ"
+"້ໃນປະຈຸບັນ"
 
-#: kwview.cc:1059
+#: kwview.cc:1025
 msgid ""
 "You can specify a different picture in the current frame."
 "<br>"
 "<br>KWord automatically resizes the new picture to fit within the old frame."
 msgstr ""
-"ທ່ານສາມາດກຳນົດພາບທີ່ແຕກຕ່າງກັນໃນຂອບປະຈຸບັນໄດ້"
-"้<br>"
+"ທ່ານສາມາດກຳນົດພາບທີ່ແຕກຕ່"
+"າງກັນໃນຂອບປະຈຸບັນໄດ้້"
+"<br>"
 "<br>ເອກະສານຂໍ້ຄວາມK "
-"ຈະປັບຂະໜາດພາບໃໝ່ໃຫ້ພໍດີກັບຂໍ້ເດີມໂດຍອັດຕານຸມັດิ"
+"ຈະປັບຂະໜາດພາບໃໝ່ໃຫ້ພໍດີກັ"
+"ບຂໍ້ເດີມໂດຍອັດຕານຸມັດิ"
 
-#: kwview.cc:1061
+#: kwview.cc:1027
 msgid "Configure Header/Footer..."
 msgstr "ປັບແຕ່ງຫົວ/ທ້າຍເຈ້ຍ..."
 
-#: kwview.cc:1064 kwview.cc:1065
+#: kwview.cc:1030 kwview.cc:1031
 msgid "Configure the currently selected header or footer."
-msgstr "ປັບແຕ່ງຫົວຫລືທ້າຍເຈ້ຍທີ່ເລືອກໄວ້ໃນປະຈຸບັນ"
+msgstr ""
+"ປັບແຕ່ງຫົວຫລືທ້າຍເຈ້ຍທີ່ເ"
+"ລືອກໄວ້ໃນປະຈຸບັນ"
 
-#: kwview.cc:1067
+#: kwview.cc:1033
 msgid "Inline Frame"
 msgstr "ຂອບພາຍໃນແຖວ"
 
-#: kwview.cc:1070
+#: kwview.cc:1036
 msgid "Convert current frame to an inline frame."
-msgstr "ແປງຂອບປະຈຸບັນໄປເປັນຂອບພາຍໃນແຖວ"
+msgstr ""
+"ແປງຂອບປະຈຸບັນໄປເປັນຂອບພາຍ"
+"ໃນແຖວ"
 
-#: kwview.cc:1071
+#: kwview.cc:1037
 msgid ""
 "Convert the current frame to an inline frame."
 "<br>"
 "<br>Place the inline frame within the text at the point nearest to the "
 "frames current position."
 msgstr ""
-"ແປງຂອບປະຈຸບັນໄປເປັນຂອບພາຍໃນແຖວ"
+"ແປງຂອບປະຈຸບັນໄປເປັນຂອບພາຍ"
+"ໃນແຖວ"
 "<br>"
-"<br>ວາງຂອບພາຍໃນແຖວເຂົ້າໄວ້ພາຍໃນຂໍ້ຄວາມ "
-"ທີ່ຕຳແໜ່ງໃກ້ກັບຕຳແໜ່ງຂອບປະຈຸບັນ"
+"<br>ວາງຂອບພາຍໃນແຖວເຂົ້າໄວ້ພາ"
+"ຍໃນຂໍ້ຄວາມ "
+"ທີ່ຕຳແໜ່ງໃກ້ກັບຕຳແໜ່ງຂອບປ"
+"ະຈຸບັນ"
 
-#: kwview.cc:1073
+#: kwview.cc:1039
 msgid "Open Link"
 msgstr "ເປີດສ່ວນເຊື່ອມໂຍງ"
 
-#: kwview.cc:1076
+#: kwview.cc:1042
 msgid "Open the link with the appropriate application."
-msgstr "ເປີດສ່ວນເຊື່ອມໂຍງດ້ວຍແອພພລີເຄຊັນທີ່ກ່ຽວຂ້ອງ"
+msgstr ""
+"ເປີດສ່ວນເຊື່ອມໂຍງດ້ວຍແອພພ"
+"ລີເຄຊັນທີ່ກ່ຽວຂ້ອງ"
 
-#: kwview.cc:1077
+#: kwview.cc:1043
 msgid ""
 "Open the link with the appropriate application."
 "<br>"
@@ -2706,722 +3010,842 @@ msgid ""
 "<br>Email addresses begin a new message addressed to the link."
 "<br>File links are opened by the appropriate viewer or editor."
 msgstr ""
-"ເປີດສ່ວນທີ່ເຊື່ອມໂຍງດ້ວຍແອພພລີເຄຊັນທີ່ກ່ຽວຂ້ອງ"
+"ເປີດສ່ວນທີ່ເຊື່ອມໂຍງດ້ວຍແ"
+"ອພພລີເຄຊັນທີ່ກ່ຽວຂ້ອງ"
 "<br>"
-"<br>ຕຳແໜ່ງເວັບຈະຖືກປິດໃຊ້ບຣາວເຊ์"
-"<br>ທີ່ອີເມລຈະຖືກເປີດເປັນການຂຽນຈົດໝາຍໄປຍັງທີ່ຢູ່ເຊື່ອມໂຍງ"
-"<br>ແຟ້ມທີ່ເຊື່ອມໂຍງຈະຖືກເປີດດ້ວຍຕົວສະແດງຜົນຫລືຕົວແກ້ໄຂຂອງມັນ"
+"<br>ຕຳແໜ່ງເວັບຈະຖືກປິດໃຊ້ບຣາ"
+"ວເຊ์"
+"<br>ທີ່ອີເມລຈະຖືກເປີດເປັນການ"
+"ຂຽນຈົດໝາຍໄປຍັງທີ່ຢູ່ເຊື່ອ"
+"ມໂຍງ"
+"<br>ແຟ້ມທີ່ເຊື່ອມໂຍງຈະຖືກເປີ"
+"ດດ້ວຍຕົວສະແດງຜົນຫລືຕົວແກ້"
+"ໄຂຂອງມັນ"
 
-#: kwview.cc:1079
+#: kwview.cc:1045
 msgid "Change Link..."
 msgstr "ປ່ຽນການເຊື່ອມໂຍງ..."
 
-#: kwview.cc:1082
+#: kwview.cc:1048
 msgid "Change the content of the currently selected link."
-msgstr "ປ່ຽນເນື້ອຫາຂອງສ່ວນທີ່ເຊື່ອມໂຍງປະຈຸບັນທີ່ເລືອກໄວ้"
+msgstr ""
+"ປ່ຽນເນື້ອຫາຂອງສ່ວນທີ່ເຊື່"
+"ອມໂຍງປະຈຸບັນທີ່ເລືອກໄວ้"
 
-#: kwview.cc:1083
+#: kwview.cc:1049
 msgid "Change the details of the currently selected link."
-msgstr "ປ່ຽນລາຍລະອຽດຂອງການເຊື່ອມໂຍງໃນປະຈຸບັນທີ່ເລືອກ้"
+msgstr ""
+"ປ່ຽນລາຍລະອຽດຂອງການເຊື່ອມໂ"
+"ຍງໃນປະຈຸບັນທີ່ເລືອກ้"
 
-#: kwview.cc:1085
+#: kwview.cc:1051
 msgid "Copy Link"
 msgstr "ເປີດສ່ວນເຊື່ອມໂຍງ"
 
-#: kwview.cc:1089
-msgid "Add to bookmark"
+#: kwview.cc:1055
+#, fuzzy
+msgid "Add to Bookmark"
 msgstr "ເຜີ້ມທີ່ຄັນໜັງສ..."
 
-#: kwview.cc:1093
+#: kwview.cc:1059
 msgid "Remove Link"
 msgstr "ລົບລາຍການ"
 
-#: kwview.cc:1097
+#: kwview.cc:1063
 msgid "Show Doc Structure"
 msgstr "ສະແດງໂຄງສ້າງເອກະສານ"
 
-#: kwview.cc:1100
+#: kwview.cc:1066
 msgid "Open document structure sidebar."
-msgstr "ເປີດແຖບໂຄງສ້າງເອກະສານດ້ານຂ້າງ"
+msgstr ""
+"ເປີດແຖບໂຄງສ້າງເອກະສານດ້ານ"
+"ຂ້າງ"
 
-#: kwview.cc:1101
+#: kwview.cc:1067
 msgid ""
 "Open document structure sidebar."
 "<p>This sidebar helps you organize your document and quickly find pictures, "
 "tables, etc."
 msgstr ""
-"ເປີດແຖບໂຄງສ້າງເອກະສານດ້ານຂ້າງ"
-"<p>ແຖບດ້ານນຈະຊ່ວຍໃຫ້ທ່ານຈັດການເອກະສານຂອງທ່ານ"
-"ແລະງ່າຍຕໍ່ການຄົ້ນຫາພາບ,ຕາຕະລາງ ເປັນຕົ້ນ"
+"ເປີດແຖບໂຄງສ້າງເອກະສານດ້ານ"
+"ຂ້າງ"
+"<p>ແຖບດ້ານນຈະຊ່ວຍໃຫ້ທ່ານຈັດ"
+"ການເອກະສານຂອງທ່ານແລະງ່າຍຕ"
+"ໍ່ການຄົ້ນຫາພາບ,ຕາຕະລາງ "
+"ເປັນຕົ້ນ"
 
-#: kwview.cc:1103
+#: kwview.cc:1069
 msgid "Show Rulers"
 msgstr "ສະແດງແຖບແຖວ"
 
-#: kwview.cc:1106
+#: kwview.cc:1072
 msgid "Shows or hides rulers."
 msgstr "ສະແດງຫລືເຊື່ອງແຖບແຖວ"
 
-#: kwview.cc:1107
+#: kwview.cc:1073
 msgid ""
 "The rulers are the white measuring spaces top and left of the document. The "
 "rulers show the position and width of pages and of frames and can be used to "
 "position tabulators among others."
 "<p>Uncheck this to disable the rulers from being displayed."
 msgstr ""
-"ແຖບແຖວຈະມີສ່ວນພື້ນທີ່ທີ່ມີສີຂາວທາງດ້ານເທິງແລະດ້ານຊ້າຍຂອງເອກະສານ"
-"ເຊິ່ງຈະສະແດງຕຳແໜ່ງແລະຄວາມກ້ວາງຂອງໜ້າແລະຂອບ"
-"ແລະສາມາດຈະໃຊ້ສະແດງຕຳແໜ່ງແທັບຫລືອື່ນຯໄດ້ເຊັ່ນກັນ"
-"<p>ຍົກເລີກການເປີດຕົວປ່ຽນນີ້ເພື່ອບໍ່ໃຫ້ສະແດງແຖບແຖວ"
+"ແຖບແຖວຈະມີສ່ວນພື້ນທີ່ທີ່ມ"
+"ີສີຂາວທາງດ້ານເທິງແລະດ້ານຊ"
+"້າຍຂອງເອກະສານເຊິ່ງຈະສະແດງ"
+"ຕຳແໜ່ງແລະຄວາມກ້ວາງຂອງໜ້າແ"
+"ລະຂອບແລະສາມາດຈະໃຊ້ສະແດງຕຳ"
+"ແໜ່ງແທັບຫລືອື່ນຯໄດ້ເຊັ່ນກ"
+"ັນ"
+"<p>ຍົກເລີກການເປີດຕົວປ່ຽນນີ້"
+"ເພື່ອບໍ່ໃຫ້ສະແດງແຖບແຖວ"
 
-#: kwview.cc:1112
+#: kwview.cc:1078
 msgid "&Configure Completion..."
 msgstr "&ປັບແຕ່ງການເຮັດໃຫ້ສົມບູນ์..."
 
-#: kwview.cc:1115
+#: kwview.cc:1081
 msgid "Change the words and options for autocompletion."
-msgstr "ປ່ຽນຄຳແລະເລືອກຂອງການທຳໃຫ້ສົມບູນອັດຕະໂນມັດ"
+msgstr ""
+"ປ່ຽນຄຳແລະເລືອກຂອງການທຳໃຫ້"
+"ສົມບູນອັດຕະໂນມັດ"
 
-#: kwview.cc:1116
+#: kwview.cc:1082
 msgid "Add words or change the options for autocompletion."
-msgstr "ເຜີ້ມຄຳຫລືປ່ຽນຕົວເລືອກຂອງການທຳໃຫ້ສົມບູນອັດຕະໂນມັດ"
+msgstr ""
+"ເຜີ້ມຄຳຫລືປ່ຽນຕົວເລືອກຂອງ"
+"ການທຳໃຫ້ສົມບູນອັດຕະໂນມັດ"
 
-#: kwview.cc:1120
-msgid "Insert non-breaking Space"
+#: kwview.cc:1086
+#, fuzzy
+msgid "Insert Non-Breaking Space"
 msgstr "ແຊກຊ່ອງວ່າງທີ່ບໍ່ໃຫ້ຢຸດ"
 
-#: kwview.cc:1122
+#: kwview.cc:1088
 msgid "Insert Soft Hyphen"
 msgstr "ຄ່ອຍແຊກເຄື່ອງຂີດສັ້ນ"
 
-#: kwview.cc:1124
+#: kwview.cc:1090
 msgid "Line Break"
 msgstr "ຈົບແຖວ"
 
-#: kwview.cc:1127
+#: kwview.cc:1093
 msgid "Completion"
 msgstr "ທຳໃຫ້ສົມບູນ์"
 
-#: kwview.cc:1146
+#: kwview.cc:1112
 msgid "Edit Variable..."
 msgstr "ແກ້ໄຂຕົວແປ..."
 
-#: kwview.cc:1149
+#: kwview.cc:1115
 msgid "Apply Autocorrection"
-msgstr ""
-"ປັບໃຊ້ການແກ້ໄຂອັດຕະໂນມັດ"
-"ิ"
+msgstr "ປັບໃຊ້ການແກ້ໄຂອັດຕະໂນມັດิ"
 
-#: kwview.cc:1152 kwview.cc:1153
+#: kwview.cc:1118 kwview.cc:1119
 msgid "Manually force KWord to scan the entire document and apply autocorrection."
 msgstr ""
 "ບັງຄັບໃຫ້ເອກະສານຂໍ້ຄວາມ K "
-"ທຳການຄົ້ນຫາໃນສ່ວນເໜືອເເອກະສານແລະປັບແກ້ໄຂຄຳອັດຕະໂນມັດ"
-"ิ"
+"ທຳການຄົ້ນຫາໃນສ່ວນເໜືອເເອກ"
+"ະສານແລະປັບແກ້ໄຂຄຳອັດຕະໂນມ"
+"ັດิ"
 
-#: kwview.cc:1155
+#: kwview.cc:1121
 msgid "Create Style From Selection"
 msgstr "ສ້າງຮູບແບບສ່ວນທີ່ເລືອກໄວ้"
 
-#: kwview.cc:1158 kwview.cc:1159
+#: kwview.cc:1124 kwview.cc:1125
 msgid "Create a new style based on the currently selected text."
-msgstr "ສ້າງຮູບແບບໃໝ່ໂດຍມີພື້ນຖານຈາກຂໍ້ຄວາມທີ່ເລືອກໄວ้"
+msgstr ""
+"ສ້າງຮູບແບບໃໝ່ໂດຍມີພື້ນຖານ"
+"ຈາກຂໍ້ຄວາມທີ່ເລືອກໄວ้"
 
-#: kwview.cc:1164 kwview.cc:1165
+#: kwview.cc:1127
+msgid "&Footnote..."
+msgstr "&Footnote..."
+
+#: kwview.cc:1130 kwview.cc:1131
 msgid "Change the look of footnotes."
 msgstr "ປ່ຽນລັກສະນະຂອງFootnotes"
 
-#: kwview.cc:1167 kwview.cc:5703
+#: kwview.cc:1133 kwview.cc:5728
 msgid "Edit Footnote"
 msgstr "ແກ້ໄຂFootnote"
 
-#: kwview.cc:1170 kwview.cc:1171
+#: kwview.cc:1136 kwview.cc:1137
 msgid "Change the content of the currently selected footnote."
-msgstr "ປ່ຽນເນື້ອຫາຂອງFootnoteປະຈຸບັນທີ່ເລືອກ"
+msgstr ""
+"ປ່ຽນເນື້ອຫາຂອງFootnoteປະຈຸບັນທີ"
+"່ເລືອກ"
 
-#: kwview.cc:1174
+#: kwview.cc:1140
 msgid "Change Footnote/Endnote Parameter"
-msgstr "ປ່ຽນພາຣາມິເຕີFootnote/ອ້າງອີງທ້າຍເລື້ອງ"
+msgstr ""
+"ປ່ຽນພາຣາມິເຕີFootnote/ອ້າງອີງທ້"
+"າຍເລື້ອງ"
 
-#: kwview.cc:1178
+#: kwview.cc:1144
 msgid "Save Picture..."
 msgstr "ບັນທຶກຮູບພາບ..."
 
-#: kwview.cc:1181
+#: kwview.cc:1147
 msgid "Save the picture in a separate file."
-msgstr "ບັນທຶກຮູບພາບເປັນແຟ້ມຕ່າງຫາກ"
+msgstr ""
+"ບັນທຶກຮູບພາບເປັນແຟ້ມຕ່າງຫ"
+"າກ"
 
-#: kwview.cc:1182
+#: kwview.cc:1148
 msgid ""
 "Save the picture in the currently selected frame in a separate file, outside "
 "the KWord document."
 msgstr ""
-"ບັນທຶກຮູບພາບໃນຂອບປະຈຸບັນທີ່ເລືອກໄວ ໄປເປັນແຟ້ມ"
-"ນອກເໜືອແຟ້ມເອກະສານຂໍ້ຄວາມ"
+"ບັນທຶກຮູບພາບໃນຂອບປະຈຸບັນທ"
+"ີ່ເລືອກໄວ "
+"ໄປເປັນແຟ້ມນອກເໜືອແຟ້ມເອກະ"
+"ສານຂໍ້ຄວາມ"
 
-#: kwview.cc:1184
+#: kwview.cc:1150
 msgid "Autospellcheck"
 msgstr "ກວດຄຳສະກົດອັດຕະໂນມັດิ"
 
-#: kwview.cc:1189
+#: kwview.cc:1155
 msgid "Go to Foot End Note"
 msgstr "ໄປຍັງFootnote/ອ້າງອີງທ້າຍເລື່ອງ"
 
-#: kwview.cc:1193
+#: kwview.cc:1159
 msgid "Edit Text Frameset"
 msgstr "ແກ້ໄຂຊຸດຂອບຂໍ້ຄວາມ"
 
-#: kwview.cc:1197
+#: kwview.cc:1163
 msgid "Delete Frameset"
 msgstr "ລົບຂອບ"
 
-#: kwview.cc:1201
+#: kwview.cc:1167
 msgid "Edit Frameset Properties"
 msgstr "ຄຸນສົມບັດຂອງຂອບ"
 
-#: kwview.cc:1206
+#: kwview.cc:1172
 msgid "Select Frameset"
 msgstr "ເລືອກຊຸດຂອບ"
 
-#: kwview.cc:1211
+#: kwview.cc:1177
 msgid "&Bookmark..."
 msgstr "&ເຜີ້ມທີ່ຄົ້ນໜັງສື..."
 
-#: kwview.cc:1214
+#: kwview.cc:1180
 msgid "Select Bookmark..."
 msgstr "ເລືອກທີ່ຄົ້ນໜັງສ..."
 
-#: kwview.cc:1218
+#: kwview.cc:1184
 msgid "Import Style..."
 msgstr "ນຳເຂົ້າຮູບແບບ..."
 
-#: kwview.cc:1222
-msgid "&Create Framestyle From Frame"
+#: kwview.cc:1188
+#, fuzzy
+msgid "&Create Framestyle From Frame..."
 msgstr "&ສ້າງຮູບແບບຂອບໃໝ່ຈາກຂອບ"
 
-#: kwview.cc:1225
+#: kwview.cc:1191
 msgid "Create a new style based on the currently selected frame."
 msgstr ""
-"ສ້າງຮູບແບບໃໝ່ໂດຍມີພື້ນຖານມາຈາກຂອບປະຈຸບັນທີ່ເລືອກໄວ້"
+"ສ້າງຮູບແບບໃໝ່ໂດຍມີພື້ນຖານ"
+"ມາຈາກຂອບປະຈຸບັນທີ່ເລືອກໄວ"
+"้້"
+
+#: kwview.cc:1192
+msgid "Create a new framestyle based on the currently selected frame."
+msgstr ""
+"ສ້າງຮູບແບບຂອບໃໝ່ໂດຍມີພື້ນ"
+"ມາຈາກຂອບປະຈຸບັນທີ່ເລືອກໄວ"
 "้"
 
-#: kwview.cc:1226
-msgid "Create a new framestyle based on the currently selected frame."
-msgstr "ສ້າງຮູບແບບຂອບໃໝ່ໂດຍມີພື້ນມາຈາກຂອບປະຈຸບັນທີ່ເລືອກໄວ้"
-
-#: kwview.cc:1228
+#: kwview.cc:1194
 msgid "Type Anywhere Cursor"
 msgstr "ຊະນິດເຄີຣເຊີຣທຸກຯບ່ອນ"
 
-#: kwview.cc:1232 kwview.cc:7016 kwview.cc:7023 kwview.cc:7041
-msgid "Convert to text box"
+#: kwview.cc:1198 kwview.cc:7027 kwview.cc:7034 kwview.cc:7052
+#, fuzzy
+msgid "Convert to Text Box"
 msgstr "ແຊກສາລະບັນ"
 
-#: kwview.cc:1237
+#: kwview.cc:1203
 msgid "Ignore All"
 msgstr "ບໍ່ສົນໃຈໝົດ"
 
-#: kwview.cc:1241
-msgid "Horizontal line..."
+#: kwview.cc:1207
+#, fuzzy
+msgid "Horizontal Line..."
 msgstr "ເສັ້ນທາງແນວນອນ"
 
-#: kwview.cc:1245
+#: kwview.cc:1211
 msgid "Change Horizontal Line..."
 msgstr "ປ່ຽນເສັ້ນທາງແນວນອນ"
 
-#: kwview.cc:1249
-msgid "Add word to dictionary"
+#: kwview.cc:1215
+#, fuzzy
+msgid "Add Word to Dictionary"
 msgstr "ເຜີ້ມຄຳເຂົ້າdictionary"
 
-#: kwview.cc:1253
+#: kwview.cc:1219
 msgid "Store Document Internally"
 msgstr "ເກັບເອກະສານໄວ້ຂ້າງໃນ"
 
-#: kwview.cc:1458
+#: kwview.cc:1424
 msgid "New..."
 msgstr "ສ້າງໃໝ่..."
 
-#: kwview.cc:1518
+#: kwview.cc:1484
 msgid "Page %1/%2"
 msgstr "ໜ້າ %1/%2"
 
-#: kwview.cc:1555
+#: kwview.cc:1521
 msgid ""
 "_: Statusbar info\n"
 "%1. Frame: %2, %3  -  %4, %5 (width: %6, height: %7) (%8)"
 msgstr "%1ຂອບ: %2, %3  -  %4, %5 (ກ້ວາງ: %6,ສູງ: %7) (%8)"
 
-#: kwview.cc:1565
+#: kwview.cc:1531
 msgid "%1 frames selected"
 msgstr "ເລືອກໄວ้້ %1 ຂອບ"
 
-#: kwview.cc:1827 kwview.cc:5788
-msgid "Frame Background Color"
+#: kwview.cc:1792 kwview.cc:5813
+#, fuzzy
+msgid "Frame Background Color..."
 msgstr "ປ່ຽນສີພື້ນຫລັງຂອງຂອບ"
 
-#: kwview.cc:2406
+#: kwview.cc:2376
 msgid "Raise frame"
 msgstr "ປັບຂອບຢູ່ດ້ານເທິງສຸດ"
 
-#: kwview.cc:2410
+#: kwview.cc:2380
 msgid "Lower frame"
 msgstr "ປັບຂອບຢູ່ດ້ານລຸ່ມ"
 
-#: kwview.cc:2580
+#: kwview.cc:2550
 msgid ""
 "You are about to delete a table.\n"
 "Doing so will delete all the text in the table.\n"
 "Are you sure you want to do that?"
 msgstr ""
-"ທ່ານກຳລັງຈະລົບຕາຕະລາງໂດຍຈະມີການລົບຂໍ້ຄວາມ \n"
-"ທັ້ງໝົດທີ່ມີຢູ່ໃນຕາຕະລາງດ້ວຍ้\n"
-"ທ່ານໃຈຫລືວ່າຕ້ອງການຈະທຳເຊັ່ນນັ້ນ ?"
+"ທ່ານກຳລັງຈະລົບຕາຕະລາງໂດຍຈ"
+"ະມີການລົບຂໍ້ຄວາມ \n"
+"ທັ້ງໝົດທີ່ມີຢູ່ໃນຕາຕະລາງດ"
+"້ວຍ้\n"
+"ທ່ານໃຈຫລືວ່າຕ້ອງການຈະທຳເຊ"
+"ັ່ນນັ້ນ ?"
 
-#: kwview.cc:2606
+#: kwview.cc:2576
 msgid ""
 "You are about to delete the last Frame of the Frameset '%1'. The contents of "
 "this Frameset will not appear anymore!\n"
 "Are you sure you want to do that?"
 msgstr ""
-"ທ່ານກຳລັງລົບຂອບສຸດທ້າຍຂອງຊຸດຂອບ '%1'ຫລັງຈາກນັ້ນ "
-"ຈະບໍ່ປາກົດເນື້ອຫາທີ່ມີຢູ່ພາຍໃນຂອບນີ້ອີກ !\n"
-"ທ່ານແນ່ໃຈຫລືບໍ່ຕ້ອງການຈະທຳເຊັ່ນນັ້ນ ?"
+"ທ່ານກຳລັງລົບຂອບສຸດທ້າຍຂອງ"
+"ຊຸດຂອບ '%1'ຫລັງຈາກນັ້ນ "
+"ຈະບໍ່ປາກົດເນື້ອຫາທີ່ມີຢູ່"
+"ພາຍໃນຂອບນີ້ອີກ !\n"
+"ທ່ານແນ່ໃຈຫລືບໍ່ຕ້ອງການຈະທ"
+"ຳເຊັ່ນນັ້ນ ?"
 
-#: kwview.cc:2627 kwview.cc:2645
+#: kwview.cc:2597 kwview.cc:2615
 msgid "Do you want to delete this frame?"
-msgstr "ທ່ານຕ້ອງການຈະລົບກວນຂອບນີ້ຫລືບ่ ?"
+msgstr ""
+"ທ່ານຕ້ອງການຈະລົບກວນຂອບນີ້"
+"ຫລືບ่ ?"
 
-#: kwview.cc:2696 kwview.cc:2728 kwview.cc:2729
+#: kwview.cc:2666 kwview.cc:2698 kwview.cc:2699
 msgid "Change Custom Variable"
 msgstr "ປ່ຽນຕົວແປທີ່ກຳນົດເອງ"
 
-#: kwview.cc:2803 kwview.cc:2804 kwview.cc:2838 kwview.cc:2983
+#: kwview.cc:2773 kwview.cc:2774 kwview.cc:2808 kwview.cc:2953
 msgid "Zoom to Width"
-msgstr "ຫຍໍ້/ຂະຫຍາຍໃຫ້ພໍດີກັບຄວາມກ້ວາງ"
+msgstr ""
+"ຫຍໍ້/ຂະຫຍາຍໃຫ້ພໍດີກັບຄວາມກ"
+"້ວາງ"
 
-#: kwview.cc:2808 kwview.cc:2809 kwview.cc:2841 kwview.cc:2988
+#: kwview.cc:2778 kwview.cc:2779 kwview.cc:2811 kwview.cc:2958
 msgid "Zoom to Whole Page"
 msgstr "ຫຍໍ້/ຂະຫຍາຍໃຫ້ເຫັນທາງໜ້າ"
 
-#: kwview.cc:2884
+#: kwview.cc:2854
 msgid "Show Header"
 msgstr "ສະແດງຫົວເຈ້ຍ"
 
-#: kwview.cc:2884
+#: kwview.cc:2854
 msgid "Hide Header"
 msgstr "ຊ້ອນຫົວເຈ້ຍ"
 
-#: kwview.cc:2932
+#: kwview.cc:2902
 msgid "Show Footer"
 msgstr "ສະແດງທ້າຍເຈ້ຍ"
 
-#: kwview.cc:2932
+#: kwview.cc:2902
 msgid "Hide Footer"
 msgstr "ຊ້ອນທ້າຍເຈ້ຍ"
 
-#: kwview.cc:3126 kwview.cc:3151
+#: kwview.cc:3096 kwview.cc:3121
 msgid "Insert Picture Inline"
 msgstr "ຊ້ອນຮູບພາບເຂົ້າໄປໃນແຖວ"
 
-#: kwview.cc:3170 kwview.cc:3183
+#: kwview.cc:3140 kwview.cc:3153
 msgid "Set cursor where you want to insert inline frame."
-msgstr "ປັບເຄີຣເຊີຣໄປຍັງຕຳແໜ່ງທີ່ທ່ານຕ້ອງການແຊກຂອບໄວ້ພາຍໃນແຖວ"
+msgstr ""
+"ປັບເຄີຣເຊີຣໄປຍັງຕຳແໜ່ງທີ່"
+"ທ່ານຕ້ອງການແຊກຂອບໄວ້ພາຍໃນ"
+"ແຖວ"
 
-#: kwview.cc:3171
+#: kwview.cc:3141
 msgid "Insert Inline Frame"
 msgstr "ແຊກຂອບເຂົ້າໄປໃນແຖວ"
 
-#: kwview.cc:3335
+#: kwview.cc:3305
 msgid "You can only insert footnotes or endnotes into the first frameset."
 msgstr ""
-"ທ່ານທຳໄດ້ພຽງແຕ່ແຊກFootnotesຫລືອ້າງອີງທ້າຍເລື່ອງ"
-"ເຂົ້າໄປໃນຂຸດຂອບທຳອິດເທົ່ານັ້ນ"
+"ທ່ານທຳໄດ້ພຽງແຕ່ແຊກFootnotesຫລືອ"
+"້າງອີງທ້າຍເລື່ອງເຂົ້າໄປໃນ"
+"ຂຸດຂອບທຳອິດເທົ່ານັ້ນ"
 
-#: kwview.cc:3337
+#: kwview.cc:3307
 msgid "Insert Footnote"
 msgstr "ແຊກFootnote"
 
-#: kwview.cc:3352
+#: kwview.cc:3322
 msgid "Update Table of &Contents"
 msgstr "ປັບປຸງ&ສາລະບານ"
 
-#: kwview.cc:3406
+#: kwview.cc:3395
 msgid "Change Font"
 msgstr "ປ່ຽນແບບອັກສອນ"
 
-#: kwview.cc:3452 kwview.cc:3487 kwview.cc:3500 kwview.cc:3511 kwview.cc:3521
-#: kwview.cc:3531 kwview.cc:3544 kwview.cc:3554 kwview.cc:3564 kwview.cc:3575
-#: kwview.cc:3587 kwview.cc:3598 kwview.cc:3612
+#: kwview.cc:3439 kwview.cc:3474 kwview.cc:3487 kwview.cc:3498 kwview.cc:3508
+#: kwview.cc:3518 kwview.cc:3531 kwview.cc:3541 kwview.cc:3551 kwview.cc:3562
+#: kwview.cc:3574 kwview.cc:3585 kwview.cc:3599
 msgid "Paragraph Settings"
 msgstr "ຕັ້ງຄ່າຫຍໍ້ໜ້າ"
 
-#: kwview.cc:3688 kwview.cc:5129 kwview.cc:5994
+#: kwview.cc:3677 kwview.cc:5210 kwview.cc:6009
 msgid "Change Layout"
 msgstr "ປ່ຽນຮູບແບບການຈັດວາງ"
 
-#: kwview.cc:3706
+#: kwview.cc:3696
 msgid "You must select a frame first."
 msgstr "ທ່ານຕ້ອງເລືອກຂອບກ່ອນ"
 
-#: kwview.cc:3707
+#: kwview.cc:3697
 msgid "Format Frameset"
 msgstr "ຮູບແບບສຸດຂອບ"
 
-#: kwview.cc:3860
+#: kwview.cc:3828
 msgid "Insert Table"
 msgstr "ແຊກຕາຕະລາງ"
 
-#: kwview.cc:3882
+#: kwview.cc:3851
 msgid "Insert Formula"
 msgstr "ແຊກສູດ"
 
-#: kwview.cc:3912
+#: kwview.cc:3902
+#, fuzzy
+msgid "Remove Rows"
+msgstr "ລຶບແຖວ"
+
+#: kwview.cc:3905 tabledia.cc:248
+#, fuzzy
+msgid "Remove Row"
+msgstr "ລຶບແຖວ"
+
+#: kwview.cc:3928
+#, fuzzy
+msgid "Remove Columns"
+msgstr "ລຶບຄໍລຳ້"
+
+#: kwview.cc:3931 tabledia.cc:277
+#, fuzzy
+msgid "Remove Column"
+msgstr "ລຶບຄໍລຳ້"
+
+#: kwview.cc:3956
 msgid "Adjust Table"
 msgstr "ປັບຕາຕະລາງ"
 
-#: kwview.cc:3970
+#: kwview.cc:4057
 msgid ""
 "The table has only one row. Deleting this row will delete the table.\n"
 "Do you want to delete the table?"
 msgstr ""
-"ຕາຕະລາງມີພຽງຕົວດຽວການລົບແຖວນີ້ "
-"ຈະໝາຍເຖິງການລົບທັ້ງຕາຕະລາງ"
-"ທ່ານຕ້ອງການລົບທັ້ງຕາຕະລາງຫລືບ"
+"ຕາຕະລາງມີພຽງຕົວດຽວການລົບແ"
+"ຖວນີ້ "
+"ຈະໝາຍເຖິງການລົບທັ້ງຕາຕະລາ"
+"ງທ່ານຕ້ອງການລົບທັ້ງຕາຕະລາ"
+"ງຫລືບ"
 
-#: kwview.cc:3973 kwview.cc:3984
+#: kwview.cc:4060 kwview.cc:4071
 msgid "Delete Row"
 msgstr "ລົບແຖວ"
 
-#: kwview.cc:4002
+#: kwview.cc:4089
 msgid ""
 "The table has only one column. Deleting this column will delete the table.\n"
 "Do you want to delete the table?"
 msgstr ""
-"ຕາຕະລາງນີ້ມີພຽງໜຶ່ງຄໍລັມ ການລົບຄໍລັມນ"
-"ຈະໝາຍເຖິງການລົບທັ້ງຕາຕະລາງຫລືບ"
+"ຕາຕະລາງນີ້ມີພຽງໜຶ່ງຄໍລັມ "
+"ການລົບຄໍລັມນຈະໝາຍເຖິງການລ"
+"ົບທັ້ງຕາຕະລາງຫລືບ"
 
-#: kwview.cc:4005 kwview.cc:4016
+#: kwview.cc:4092 kwview.cc:4103
 msgid "Delete Column"
 msgstr "ລົບຄໍລັມ์"
 
-#: kwview.cc:4028 resizetabledia.cc:88 resizetabledia.cc:105
+#: kwview.cc:4115 resizetabledia.cc:86 resizetabledia.cc:100
 msgid "Resize Column"
 msgstr "ປັບຂະໜາດຄໍລັມ์"
 
-#: kwview.cc:4044
+#: kwview.cc:4131
 msgid ""
 "You have to select some cells which are next to each other and are not "
 "already joined."
 msgstr ""
-"ທ່ານໄດ້ເລືອກບາງເຊລລທີ່ລະບົບການເຊືອມໄປຍັງຕົວອື່ນແລະມັນຍັງບໍ່ຖືກເຊື່ອມໄວ້"
-"้"
+"ທ່ານໄດ້ເລືອກບາງເຊລລທີ່ລະບ"
+"ົບການເຊືອມໄປຍັງຕົວອື່ນແລະ"
+"ມັນຍັງບໍ່ຖືກເຊື່ອມໄວ้້"
 
-#: kwview.cc:4081
+#: kwview.cc:4168
 msgid "You have to put the cursor into a table before splitting cells."
-msgstr "ທ່ານໄດ້ນຳເຄີຣເຊີຣເຂົ້າໄປໃນຕາຕະລາງກ່ອນການແຍກເຊລລ์"
+msgstr ""
+"ທ່ານໄດ້ນຳເຄີຣເຊີຣເຂົ້າໄປໃ"
+"ນຕາຕະລາງກ່ອນການແຍກເຊລລ์"
 
-#: kwview.cc:4091
+#: kwview.cc:4178
 msgid ""
 "There is not enough space to split the cell into that many parts, make it "
 "bigger first"
 msgstr ""
-"ພື້ນທີ່ທີ່ມີຢູບໍ່ພຽງພໍສຳລັບການແຍກເຊລລອອກເປັນສ່ວນຕ່າງຯຈຳນວນຫລາຍ"
-"ກະລຸນາເຮັດພື້ນທີ່ໃຫ້ໃຫຍ່ຂຶ້ນເສຍກ່ອນ"
+"ພື້ນທີ່ທີ່ມີຢູບໍ່ພຽງພໍສຳລ"
+"ັບການແຍກເຊລລອອກເປັນສ່ວນຕ່"
+"າງຯຈຳນວນຫລາຍກະລຸນາເຮັດພື້"
+"ນທີ່ໃຫ້ໃຫຍ່ຂຶ້ນເສຍກ່ອນ"
 
-#: kwview.cc:4114
+#: kwview.cc:4201
 msgid "Ungroup Table"
 msgstr "ຍົກເລີກຈັດກຸ່ມຕາຕະລາງ"
 
-#: kwview.cc:4204
+#: kwview.cc:4291
 msgid "Apply Style to Frame"
 msgstr "ປັບໃຊ້ຮູບແບບກັບຂອບ"
 
-#: kwview.cc:4204
+#: kwview.cc:4291
 msgid "Apply Style to Frames"
 msgstr "ປັບໃຊ້ຮູບແບບກັບຂອບ"
 
-#: kwview.cc:4250 kwview.cc:4265
+#: kwview.cc:4337 kwview.cc:4352
 msgid "Apply Framestyle to Frame"
 msgstr "ປັບໃຊ້ຮູບແບບຂອບກັບຂອບ"
 
-#: kwview.cc:4265
+#: kwview.cc:4352
 msgid "Apply Framestyle to Frames"
 msgstr "ປັບໃຊ້ຮູບແບບຂອບກັບຂອບ"
 
-#: kwview.cc:4270
+#: kwview.cc:4357
 msgid "Apply Framestyle"
 msgstr "ປັບໃຊ້ຮູບແບບຂອບ"
 
-#: kwview.cc:4322 kwview.cc:4337 kwview.cc:4342
+#: kwview.cc:4409 kwview.cc:4424 kwview.cc:4429
 msgid "Apply Tablestyle to Frame"
 msgstr "ປັບໃຊ້ຮູບແບບຕາຕະລາງກັບຂອບ"
 
-#: kwview.cc:4337
+#: kwview.cc:4424
 msgid "Apply Tablestyle to Frames"
 msgstr "ປັບໃຊ້ຮູບແບບຕາຕະລາງກັບຂອບ"
 
-#: kwview.cc:4387
+#: kwview.cc:4474
 msgid "Change Text Size"
 msgstr "ປ່ຽນຂະໜາດຂໍ້ຄວາມ"
 
-#: kwview.cc:4410
+#: kwview.cc:4497
 msgid "Change Text Font"
 msgstr "ປ່ຽນແບບອັກສອນຂ"
 
-#: kwview.cc:4459
+#: kwview.cc:4546
 msgid "Make Text Bold"
 msgstr "ໃຫ້ຂໍ້ຄວາມເປັນຕົວໜາ"
 
-#: kwview.cc:4479
+#: kwview.cc:4566
 msgid "Make Text Italic"
 msgstr "ໃຫ້ຂໍ້ຄວາມເປັນຕົວງ່ຽງ"
 
-#: kwview.cc:4499
+#: kwview.cc:4586
 msgid "Underline Text"
 msgstr "ຂີດເສັ້ນໃຕ້ຂໍ້ຄວາມ"
 
-#: kwview.cc:4518
-msgid "Strike out Text"
+#: kwview.cc:4605
+#, fuzzy
+msgid "Strike Out Text"
 msgstr "ຂໍ້ຄວາມເສັ້ນພາດກາງ"
 
-#: kwview.cc:4544
+#: kwview.cc:4631
 msgid "Set Text Color"
 msgstr "ຕັ້ງຄ່າສີຂໍ້ຄວາມ"
 
-#: kwview.cc:4565
-msgid "Left-align Text"
+#: kwview.cc:4652
+#, fuzzy
+msgid "Left-Align Text"
 msgstr "ຈັດຮຽງຂໍ້ຄວາມຊິດດ້ານຊ້າຍ"
 
-#: kwview.cc:4589
+#: kwview.cc:4676
 msgid "Center Text"
 msgstr "ຈັດຮຽງຂໍ້ຄວາມທາງກາງ"
 
-#: kwview.cc:4613
-msgid "Right-align Text"
+#: kwview.cc:4700
+#, fuzzy
+msgid "Right-Align Text"
 msgstr "ຈັດຮຽງຂໍ້ຄວາມຊິດດ້ານຊ້າຍ"
 
-#: kwview.cc:4637
+#: kwview.cc:4724
 msgid "Justify Text"
 msgstr "ກະຈາຍເຕັມຂອບ"
 
-#: kwview.cc:4678
+#: kwview.cc:4765
 msgid "Change List Type"
 msgstr "ປ່ຽນປະເພດລາຍການ"
 
-#: kwview.cc:4699
+#: kwview.cc:4786
 msgid "Make Text Superscript"
 msgstr "ປັບຂໍ້ຄວາມເປັນຕົວຍົກ"
 
-#: kwview.cc:4719
+#: kwview.cc:4806
 msgid "Make Text Subscript"
 msgstr "ປັບຂໍ້ຄວາມເປັນຕົວຫ້ອຍ"
 
-#: kwview.cc:4742
+#: kwview.cc:4829
 msgid "Change Case of Text"
 msgstr "ປ່ຽນຕົວພິມຂອງຂໍ້ຄວາມ"
 
-#: kwview.cc:4778
+#: kwview.cc:4865
 msgid "Increase Paragraph Depth"
 msgstr "ຂໍ້ຄວາມຫຍໍ້ໜ້າທຳມະດາ"
 
-#: kwview.cc:4827
+#: kwview.cc:4914
 msgid "Decrease Paragraph Depth"
 msgstr "ຂໍ້ຄວາມຫຍໍ້ໜ້າທຳມະດາ"
 
-#: kwview.cc:5023 kwview.cc:5030 kwview.cc:5038 kwview.cc:5046
+#: kwview.cc:5110 kwview.cc:5117 kwview.cc:5125 kwview.cc:5133
 msgid "Change Border"
 msgstr "ປ່ຽນຂອບ"
 
-#: kwview.cc:5091
+#: kwview.cc:5178
 msgid "Change Tabulator"
 msgstr "ປ່ຽນການຕັ້ງແທັບ"
 
-#: kwview.cc:5154
+#: kwview.cc:5235
 msgid "Change First Line Indent"
-msgstr "ປ່ຽນຄຳສັ່ງສະແດງການເຊື່ອມໂຍງ"
+msgstr ""
+"ປ່ຽນຄຳສັ່ງສະແດງການເຊື່ອມໂ"
+"ຍງ"
 
-#: kwview.cc:5174 kwview.cc:5196
+#: kwview.cc:5255 kwview.cc:5277
 msgid "Change Indent"
 msgstr "ປ່ຽນແບບອັກສອນ"
 
-#: kwview.cc:5307 kwview.cc:5333
+#: kwview.cc:5387 kwview.cc:5447
 msgid "Spell Checking"
 msgstr "ການກວດຄຳສະກົດ"
 
-#: kwview.cc:5445
-msgid "Correct Misspelled Word"
-msgstr "ເຮັດຄຳທີ່ສະກົດບໍ່ຖືກໃຫ້ຖືກຕ້ອງ"
-
-#: kwview.cc:5474
+#: kwview.cc:5446
 msgid "SpellCheck selection finished."
-msgstr "ຈົບການຄັດເລືອກການກວດຄຳສະກົດ"
+msgstr ""
+"ຈົບການຄັດເລືອກການກວດຄຳສະກ"
+"ົດ"
 
-#: kwview.cc:5475
-msgid "Spell checking"
-msgstr "ການກວດຄຳສະກົດ"
+#: kwview.cc:5488
+msgid "Correct Misspelled Word"
+msgstr ""
+"ເຮັດຄຳທີ່ສະກົດບໍ່ຖືກໃຫ້ຖື"
+"ກຕ້ອງ"
 
-#: kwview.cc:5528
+#: kwview.cc:5554
 msgid "ISpell seems to have crashed."
-msgstr "ເບິ່ງຄືວ່າISpellຈະທຳງານລົ້ມແຫລວ "
+msgstr ""
+"ເບິ່ງຄືວ່າISpellຈະທຳງານລົ້ມແຫ"
+"ລວ "
 
-#: kwview.cc:5552
+#: kwview.cc:5577
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
 msgstr ""
 "ບໍ່ສາມາດເລີ້ມທຳງານISpellໄດ້ ้\n"
-"ກະລຸນາກວດສອບວ່າທ່ານໄດ້ປັບແຕ່ງ ISpellເຂົ້າໄປໃນ "
+"ກະລຸນາກວດສອບວ່າທ່ານໄດ້ປັບ"
+"ແຕ່ງ ISpellເຂົ້າໄປໃນ "
 "PATHຂອງທ່ານແລ້ວ "
 
-#: kwview.cc:5703
+#: kwview.cc:5728
 msgid "Edit Endnote"
 msgstr "ແກ້ໄຂອ້ຽງອີງທ້າຍເລື່ອງ"
 
-#: kwview.cc:5704
+#: kwview.cc:5729
 msgid "Change Footnote Parameter"
 msgstr "ປ່ຽນພາຣາມິເຕີຂອງFootnote"
 
-#: kwview.cc:5704
+#: kwview.cc:5729
 msgid "Change Endnote Parameter"
-msgstr "ປ່ຽນພາຣາມິເຕີຂອງອ້າງອີງທ້າຍເລື່ອງ"
+msgstr ""
+"ປ່ຽນພາຣາມິເຕີຂອງອ້າງອີງທ້"
+"າຍເລື່ອງ"
 
-#: kwview.cc:5911
+#: kwview.cc:5936
 msgid "Change Picture"
 msgstr "ປ່ຽນຮູບພາບ"
 
-#: kwview.cc:5941 kwview.cc:5949 kwview.cc:5959
+#: kwview.cc:5966 kwview.cc:5974 kwview.cc:5984
 msgid "Save Picture"
 msgstr "ບັນທຶກຮູບພາບ"
 
-#: kwview.cc:5958
-msgid "Error during saving"
-msgstr "ເກີດຂໍ້ຄວາມຜິດພາດລະຫ່ວາງບັນທຶກ"
+#: kwview.cc:5983
+#, fuzzy
+msgid "Error during saving."
+msgstr ""
+"ເກີດຂໍ້ຄວາມຜິດພາດລະຫ່ວາງບ"
+"ັນທຶກ"
 
-#: kwview.cc:6077
+#: kwview.cc:6088
 msgid "Change Link"
 msgstr "ປ່ຽນການເຊື່ອມໂຍງ"
 
-#: kwview.cc:6193
+#: kwview.cc:6204
 msgid "Change Note Text"
 msgstr "ປ່ຽນຂໍ້ຄວາມບັນທຶກ"
 
-#: kwview.cc:6248
+#: kwview.cc:6259
 msgid "Apply Autoformat"
 msgstr "ປັບໃຊ້ຮູບແບບອັດຕະນຸມັດิ"
 
-#: kwview.cc:6401
+#: kwview.cc:6412
 msgid "Change Footnote Parameters"
 msgstr "ປ່ຽນພາຣາມິເຕີຂອງFootncte"
 
-#: kwview.cc:6495 kwview.cc:6504 kwview.cc:6526 kwview.cc:6546 kwview.cc:6769
-#: kwview.cc:6781
+#: kwview.cc:6506 kwview.cc:6515 kwview.cc:6537 kwview.cc:6557 kwview.cc:6780
+#: kwview.cc:6792
 msgid "Insert File"
 msgstr "ແຊກແຟ້ມ"
 
-#: kwview.cc:6545
-msgid "File name is not a KWord file!."
-msgstr "ຊື່ແຟ້ມບໍ່ແມ່ນແຟ້ມເອກະສານຂໍ້ຄວາມ ้K !"
+#: kwview.cc:6556
+#, fuzzy
+msgid "File name is not a KWord file!"
+msgstr ""
+"ຊື່ແຟ້ມບໍ່ແມ່ນແຟ້ມເອກະສານ"
+"ຂໍ້ຄວາມ ้K !"
 
-#: kwview.cc:7140 kwview.cc:7145 kwview.cc:7151
+#: kwview.cc:7151 kwview.cc:7156 kwview.cc:7162
 msgid "Normal"
 msgstr "ຕົວທຳມະດາ"
 
-#: kwview.cc:7224
+#: kwview.cc:7235
 msgid "Change HorizontalLine"
 msgstr "ປ່ຽນເສັ້ນທາງແນວນອນ"
 
-#: kwview.cc:7294
+#: kwview.cc:7305
 msgid "Replace Word"
 msgstr "ແທນທີ່ຄຳ"
 
-#: kwview.cc:7473 kwview.cc:7679 kwview.cc:7738
-msgid "Statistics"
-msgstr "ສະທິຕิ"
-
-#: kwview.cc:7503
+#: kwview.cc:7514
 msgid "Text"
 msgstr "ໂໝດຂໍ້ຄວາມ"
 
-#: kwview.cc:7509
-msgid "Selected text"
+#: kwview.cc:7520
+#, fuzzy
+msgid "Selected Text"
 msgstr "ຄັດເລືອກຂໍ້ຄວາມ"
 
-#: kwview.cc:7622
+#: kwview.cc:7633
 msgid "Counting..."
 msgstr "ກຳລັງນັບ..."
 
-#: kwview.cc:7658 kwview.cc:7749
+#: kwview.cc:7669 kwview.cc:7760
 #, c-format
 msgid "approximately %1"
 msgstr "ປະມານ %1"
 
-#: kwview.cc:7689
-msgid "Number Of Pages:"
+#: kwview.cc:7700
+#, fuzzy
+msgid "Number of pages:"
 msgstr "ຈຳນວນໜ້າເຈ້ຍ"
-
-#: kwview.cc:7694
-msgid "Number Of Frames:"
-msgstr "ຈຳນວນໂຄງສ້າງ"
-
-#: kwview.cc:7699
-msgid "Number Of Pictures:"
-msgstr "ຈຳນວນຮູບ"
 
 #: kwview.cc:7705
-msgid "Number Of Tables:"
-msgstr "ຈຳນວນຕາຕະລາງ"
+#, fuzzy
+msgid "Number of frames:"
+msgstr "ຈຳນວນໂຄງສ້າງ"
 
 #: kwview.cc:7710
-msgid "Number Of Embedded Objects:"
+#, fuzzy
+msgid "Number of pictures:"
+msgstr "ຈຳນວນຮູບ"
+
+#: kwview.cc:7716
+#, fuzzy
+msgid "Number of tables:"
+msgstr "ຈຳນວນຕາຕະລາງ"
+
+#: kwview.cc:7721
+#, fuzzy
+msgid "Number of embedded objects:"
 msgstr "ຝັງຈຳນວນວັດຖุ"
 
-#: kwview.cc:7715
-msgid "Number Of Formula FrameSet:"
+#: kwview.cc:7726
+#, fuzzy
+msgid "Number of formula frameset:"
 msgstr "ຈຳນວນໜ້າເຈ້ຍ"
 
-#: kwview.cc:7732
-msgid "&Include text from foot- and end-notes"
-msgstr "ລວມຂໍ້ຄວາມຈາກທ້າຍຫລືຕອນຈົບຂອງຂໍ້ຄວາມສຳຄັນ"
+#: kwview.cc:7743
+#, fuzzy
+msgid "&Include text from foot- and endnotes"
+msgstr ""
+"ລວມຂໍ້ຄວາມຈາກທ້າຍຫລືຕອນຈົ"
+"ບຂອງຂໍ້ຄວາມສຳຄັນ"
 
-#: kwview.cc:7752
+#: kwview.cc:7763
 msgid "Characters including spaces:"
 msgstr "ຕົວອັກສອນລວມຊ່ອງຫວ່າງ:"
 
-#: kwview.cc:7757
+#: kwview.cc:7768
 msgid "Characters without spaces:"
 msgstr "ຕົວອັກສອນບໍ່ລວມຊ່ອງຫວ່າງ:"
 
-#: kwview.cc:7762
+#: kwview.cc:7773
 msgid "Syllables:"
 msgstr "ພະຍາງ:"
 
-#: kwview.cc:7767
+#: kwview.cc:7778
 msgid "Words:"
 msgstr "ຄຳ:"
 
-#: kwview.cc:7772
+#: kwview.cc:7783
 msgid "Sentences:"
 msgstr "ປະໂຫຍກ :"
 
-#: kwview.cc:7777
+#: kwview.cc:7788
 msgid "Lines:"
 msgstr "ຫົວຂໍ້ຍ່ອຍ"
 
-#: kwview.cc:7783
+#: kwview.cc:7794
 msgid "Flesch reading ease:"
 msgstr "ການທຳໃຫ້ອ່ານງ່າຍ:"
 
 #: mailmerge.cc:121
-msgid "No plugins supporting the requested action were found"
-msgstr "ບໍ່ເຫັນpluginsທີ່ສະນັບສະໜູນການກະທຳທີ່ຮ້ອງຂໍໄປ"
+#, fuzzy
+msgid "No plugins supporting the requested action were found."
+msgstr ""
+"ບໍ່ເຫັນpluginsທີ່ສະນັບສະໜູນການ"
+"ກະທຳທີ່ຮ້ອງຂໍໄປ"
 
 #: mailmerge.cc:234
 msgid "Do you really want to replace the current datasource?"
-msgstr "ທ່ານແນ່ໃຈບໍ່ຈະຕ້ອງການແທນທີ່ແຫລ່ງຂໍ້ຄວາມປະຈຸບັນຫລືບໍ่ ?"
+msgstr ""
+"ທ່ານແນ່ໃຈບໍ່ຈະຕ້ອງການແທນທ"
+"ີ່ແຫລ່ງຂໍ້ຄວາມປະຈຸບັນຫລືບ"
+"ໍ่ ?"
 
 #: mailmerge.cc:304 mailmerge.cc:340
 msgid "Mail Merge - Configuration"
-msgstr "ລວມເຂົ້າກັບຈົດໝາຍ - ການປັບແຕ່ງ"
+msgstr ""
+"ລວມເຂົ້າກັບຈົດໝາຍ - "
+"ການປັບແຕ່ງ"
 
 #: mailmerge.cc:311
 msgid "&Available sources:"
@@ -3457,7 +3881,9 @@ msgstr "ສ້າງເອກະສານໃໝ่"
 
 #: mailmerge.cc:466
 msgid "Mail Merge - Variable Name"
-msgstr "ລວມເຂົ້າກັບຈົດໝາຍ - ຊື່ຕົວແປ"
+msgstr ""
+"ລວມເຂົ້າກັບຈົດໝາຍ - "
+"ຊື່ຕົວແປ"
 
 #: main.cc:27
 msgid "File to open"
@@ -3757,13 +4183,17 @@ msgstr "Gray traditional"
 msgid ""
 "_: Style name\n"
 "Blue top and bottom"
-msgstr "ສ່ວນເໜືອສຸດແລະທ້າຍສຸດຂອງສີຟ້າ"
+msgstr ""
+"ສ່ວນເໜືອສຸດແລະທ້າຍສຸດຂອງສ"
+"ີຟ້າ"
 
 #: stylenames.cc:71
 msgid ""
 "_: Style name\n"
 "Gray top and bottom"
-msgstr "ສ່ວນເໜືອສຸດແລະທ້າຍສຸດຂອງສີເທົາ"
+msgstr ""
+"ສ່ວນເໜືອສຸດແລະທ້າຍສຸດຂອງສ"
+"ີເທົາ"
 
 #: tabledia.cc:71
 msgid "Table Settings"
@@ -3791,34 +4221,33 @@ msgstr "ຕາຕະລາງຢູ່&ພາຍໃນແຖວ"
 
 #: tabledia.cc:149 tabledia.cc:212
 msgid "Reapply template to table"
-msgstr "ປັບໃຊ້ແມ່ແບບກັບຕາຕະລາງອີກຄັ້ງ"
+msgstr ""
+"ປັບໃຊ້ແມ່ແບບກັບຕາຕະລາງອີກ"
+"ຄັ້ງ"
 
 #: tabledia.cc:244
-msgid "Add new rows to table"
+#, fuzzy
+msgid "Add New Rows to Table"
 msgstr "ເຜີ້ມແຖວໃໝ່ໄປຍັງຕາຕະລາງ"
 
 #: tabledia.cc:244
-msgid "Remove rows from table"
+#, fuzzy
+msgid "Remove Rows From Table"
 msgstr "ລົບແຖວອອກຈາກຕາຕະລາງ"
 
-#: tabledia.cc:251
-msgid "Insert row"
-msgstr "ແຊກແຖວ"
-
 #: tabledia.cc:272
-msgid "Add new columns to table"
+#, fuzzy
+msgid "Add New Columns to Table"
 msgstr "ເຜີ້ມຄໍລັມໃໝ່ໄປຍັງຕາຕະລາງ"
 
 #: tabledia.cc:272
-msgid "Remove columns from table"
+#, fuzzy
+msgid "Remove Columns From Table"
 msgstr "ລົບຄໍລັມອອກຈາກຕາຕະລາງ"
 
-#: tabledia.cc:280
-msgid "Insert column"
-msgstr "ແຊກຄໍລັມ์"
-
 #: tabledia.cc:293 tabledia.cc:294
-msgid "Apply template to table"
+#, fuzzy
+msgid "Apply Template to Table"
 msgstr "ປັບໃຊ້ແມ່ແບບກັບຕາຕະລາງ"
 
 #: xml_doc.cc:1
@@ -3858,8 +4287,8 @@ msgid "Good Evening"
 msgstr "ສະບາຍດີຕອນແລງ"
 
 #: xml_doc.cc:10
-msgid "Email:"
-msgstr "Email:"
+msgid "Email"
+msgstr "อีเมล์"
 
 #: xml_doc.cc:11
 msgid "To:"
@@ -3869,7 +4298,7 @@ msgstr "ເຖິງ:"
 msgid "From:"
 msgstr "ຈາກ:"
 
-#: xml_doc.cc:13 xml_doc.cc:25
+#: xml_doc.cc:13
 msgid "Subject:"
 msgstr "ເລື່ອງ:"
 
@@ -3886,7 +4315,8 @@ msgid "Fwd:"
 msgstr "ສົ່ງຕໍ່:"
 
 #: xml_doc.cc:17
-msgid "Closing:"
+#, fuzzy
+msgid "Closing"
 msgstr "ຄຳລົງທ້າຍ:"
 
 #: xml_doc.cc:18
@@ -3917,12 +4347,13 @@ msgstr "ດ້ວຍຄວາມຂອບໃຈຢ່າງສູງ"
 msgid "Thanks,"
 msgstr "ຂໍສະແດງຄວາມຂອບໃຈ"
 
-#: xml_doc.cc:26
+#: xml_doc.cc:25 xml_doc.cc:26
 msgid "Subject"
 msgstr "ເລື່ຶອງ"
 
 #: xml_doc.cc:27
-msgid "Salutation:"
+#, fuzzy
+msgid "Salutation"
 msgstr "ກ່າວດ້ວຍຄວາມເຄົາລົບ:"
 
 #: xml_doc.cc:28
@@ -3931,9 +4362,16 @@ msgstr "ຮຽນ/ຂໍຮຽນ:"
 
 #: xml_doc.cc:29
 msgid "Ladies and Gentlemen:"
-msgstr "ທ່ານສຸພາບບູລຸດແລະສຸພາບສັດຕຣີ:"
+msgstr ""
+"ທ່ານສຸພາບບູລຸດແລະສຸພາບສັດ"
+"ຕຣີ:"
 
-#: xml_doc.cc:31 xml_doc.cc:32
+#: xml_doc.cc:31
+#, fuzzy
+msgid "Attention"
+msgstr "ສິ່ງທີ່ສົ່ງມາດ້ວຍ:"
+
+#: xml_doc.cc:32
 msgid "Attention:"
 msgstr "ສິ່ງທີ່ສົ່ງມາດ້ວຍ:"
 
@@ -3942,7 +4380,8 @@ msgid "ATTN:"
 msgstr "ສິ່ງທີ່ສົ່ງມາ:"
 
 #: xml_doc.cc:34
-msgid "Instructions:"
+#, fuzzy
+msgid "Instructions"
 msgstr "ຫົວຂໍ້ເອກະສານ:"
 
 #: xml_doc.cc:35
@@ -3984,19 +4423,23 @@ msgid "Mail Merge - Editor"
 msgstr "ລວມເຂົ້າກັບຈົດໝາຍ-ຕົວແກ້ໄຂ"
 
 #: mailmerge/serialletter_classicplugin.cc:376
-msgid "Add Record"
+#, fuzzy
+msgid "Add record"
 msgstr "ເພີ້ມReocrd"
 
 #: mailmerge/serialletter_classicplugin.cc:383
-msgid "Add Entry"
+#, fuzzy
+msgid "Add entry"
 msgstr "ເພີ້ມລາຍການ"
 
 #: mailmerge/serialletter_classicplugin.cc:390
-msgid "Remove Record"
+#, fuzzy
+msgid "Remove record"
 msgstr "ລົບRecord"
 
 #: mailmerge/serialletter_classicplugin.cc:397
-msgid "Remove Entry"
+#, fuzzy
+msgid "Remove entry"
 msgstr "ລົບລາຍການ"
 
 #: mailmerge/serialletter_classicplugin.cc:468
@@ -4040,42 +4483,61 @@ msgid "NOT"
 msgstr "ບໍ່"
 
 #: mailmerge/sql/qtsqlopeneditor.cc:41
-msgid "Mail Merge - Setup database connection"
-msgstr "ລວມເຂົ້າກັບຈົດໝາຍ -ຕັ້ງຄ່າການເຊື່ອມຕໍ່ຖານຂໍ້ມູມ "
+#, fuzzy
+msgid "Mail Merge - Setup Database Connection"
+msgstr ""
+"ລວມເຂົ້າກັບຈົດໝາຍ "
+"-ຕັ້ງຄ່າການເຊື່ອມຕໍ່ຖານຂໍ້"
+"ມູມ "
 
 #: mailmerge/sql/qtsqlopeneditor.cc:61 mailmerge/sql/qtsqlopeneditor.cc:83
 msgid "<not saved>"
 msgstr "<ຍັງບໍ່ມີການບັນທຶກ>"
 
 #: mailmerge/sql/qtsqlopeneditor.cc:98
-msgid "Store settings"
+#, fuzzy
+msgid "Store Settings"
 msgstr "ເກັບຄ່າທີ່ຕັ້ງໄວ້"
 
 #: mailmerge/sql/serialletter_qtsql_base.cc:94
 msgid "Please enter the password for the database connection"
-msgstr "ກະລຸນາເຕີມລະຫັດສຳລັບການເຊື່ອມຕໍ່ຖານຂໍ້ມູນ"
+msgstr ""
+"ກະລຸນາເຕີມລະຫັດສຳລັບການເຊ"
+"ື່ອມຕໍ່ຖານຂໍ້ມູນ"
 
 #: mailmerge/sql/serialletter_qtsql_base.cc:103
 msgid "Unable to create database object"
-msgstr "ບໍ່ສາມາດສ້າງວັດຖຸຖານຂໍ້ມູນ้"
+msgstr ""
+"ບໍ່ສາມາດສ້າງວັດຖຸຖານຂໍ້ມູ"
+"ນ้"
 
 #: mailmerge/sql/serialletter_qtsql_power_plugin.cc:81
 #: mailmerge/sql/serialletter_qtsqlplugin.cc:61
 msgid ">>>Illegal position within datasource<<<"
-msgstr ">>>ຕຳແໜ່ງພາຍໃນແຫລ່ງຂໍ້ມູນບໍ່ຖືກຕ້ອງ<<<"
+msgstr ""
+">>>ຕຳແໜ່ງພາຍໃນແຫລ່ງຂໍ້ມູນບໍ"
+"່ຖືກຕ້ອງ<<<"
 
 #: mailmerge/sql/serialletter_qtsql_power_plugin.cc:82
 #: mailmerge/sql/serialletter_qtsqlplugin.cc:62
 msgid ">>>Field %1 is unknown in the current database query<<<"
-msgstr ">>>ບໍ່ຮູ້ຈັກຊ່ອງຂໍ້ມູນ %1 ໃນການຮ້ອງຂໍຖານຂໍ້ມູນປະຈຸບັນ<<<"
+msgstr ""
+">>>ບໍ່ຮູ້ຈັກຊ່ອງຂໍ້ມູນ %1 "
+"ໃນການຮ້ອງຂໍຖານຂໍ້ມູນປະຈຸບ"
+"ັນ<<<"
 
 #: kwaboutdata.h:27
 msgid "KOffice Word Processor"
-msgstr "ໂປຣແກຣມປະມວນຜົນຄຳຂອງໂປຣແກຣມຊຸດສຳນັກງານ K"
+msgstr ""
+"ໂປຣແກຣມປະມວນຜົນຄຳຂອງໂປຣແກ"
+"ຣມຊຸດສຳນັກງານ K"
 
 #: kwaboutdata.h:39
 msgid "(c) 1998-2002, The KWord Team"
-msgstr "(c) 1998-2001, ກຸ່ມຜູ້ພັດທະນາເອກດະສານຂໍ້ຄວາມK"
+msgstr ""
+"(c) 1998-2001, "
+"ກຸ່ມຜູ້ພັດທະນາເອກດະສານຂໍ້"
+"ຄວາມK"
 
 #: kwaboutdata.h:50
 msgid "KFormula"
@@ -4092,6 +4554,70 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "donga_n@yahoo.com"
+
+#~ msgid "Change Page Number Variable"
+#~ msgstr "ປ່ຽນຄ່າໂຕແປໝາຍເລກໜ້າ"
+
+#~ msgid "Change Field Variable"
+#~ msgstr "ປ່ຽນຄ່າໂຕແປຊອງຂໍ້ມູນ"
+
+#~ msgid "Locale"
+#~ msgstr "ຮູບແບບທ້ອງຖິ່ນ"
+
+#~ msgid "Change Date Variable Type"
+#~ msgstr "ປ່ຽນປະເພດຂອງໂຕແປວັນທีี่"
+
+#~ msgid "Change Date Variable Format"
+#~ msgstr "ປ່ຽນຮູບແບບຂອງໂຕແປວັນທี่"
+
+#~ msgid "Change Time Variable Type"
+#~ msgstr "ປ່ຽນປະເພດຂອງໂຕແປເວລາ"
+
+#~ msgid "Change Time Variable Format"
+#~ msgstr "ປ່ຽນຮູບແບບຂອງໂຕແປເວລາ"
+
+#~ msgid "Delete Rows:"
+#~ msgstr "ລຶບແຖວ:"
+
+#~ msgid "Delete Columns:"
+#~ msgstr "ລຶບຄໍລຳ້:"
+
+#~ msgid ""
+#~ "Read-only content cannot be changed. No modifications will be accepted"
+#~ msgstr "ບໍ່ສາມາດປ່ງນແປງເນື້ອໃນທີ່ອ່ານໄດ້ຢ່າງດງວໄດ້ຈະມີການແກ້ໄຂໃດໆເກີດຂື້ນ"
+
+#~ msgid "Spell checking"
+#~ msgstr "ການກວດຄຳສະກົດ"
+
+#~ msgid "Convert table to text"
+#~ msgstr "ແຊກສາລະບານ"
+
+#~ msgid "Convert to text box"
+#~ msgstr "ແຊກສາລະບັນ"
+
+#~ msgid "Insert row"
+#~ msgstr "ແຊກແຖວ"
+
+#~ msgid "Insert column"
+#~ msgstr "ແຊກຄໍລັມ์"
+
+#~ msgid "Statistics..."
+#~ msgstr "ສະຖິຕິ..."
+
+#~ msgid "P&age..."
+#~ msgstr "ການ&ຈັດວາງໜ້າເຈ້ຍ..."
+
+#~ msgid "&Frame Style Manager..."
+#~ msgstr "ຕົວຈັດການຮູບແບບ&ກອບ.."
+
+#~ msgid "T&able Style Manager..."
+#~ msgstr "ຕົວຈັດການຮູບແບບ&ຕາຕະລາງ.."
+
+#~ msgid "&Personal Expressions..."
+#~ msgstr "ແກ້ໄຂຖ້ອຍຄຳ&ສ່ວນຕົວ..."
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
 
 #~ msgid "All"
 #~ msgstr "ทั้งหมด"
@@ -4190,14 +4716,6 @@ msgstr "donga_n@yahoo.com"
 #, fuzzy
 #~ msgid "EndNotes"
 #~ msgstr "อ้างอิงท้ายเรื่อง"
-
-#, fuzzy
-#~ msgid "Delete row:"
-#~ msgstr "ลบแถวที่:"
-
-#, fuzzy
-#~ msgid "Delete column:"
-#~ msgstr "ลบคอลัมน์ที่:"
 
 #~ msgid "Run around the &boundary rectangle of this frame"
 #~ msgstr "จัดวางล้อมรอบพื้นที่กรอบ"
@@ -4684,9 +5202,6 @@ msgstr "donga_n@yahoo.com"
 #~ msgid "Author Name"
 #~ msgstr "ชื่อผู้เขียน"
 
-#~ msgid "Email"
-#~ msgstr "อีเมล์"
-
 #~ msgid "Company Name"
 #~ msgstr "ชื่อบริษัท"
 
@@ -4695,4 +5210,3 @@ msgstr "donga_n@yahoo.com"
 
 #~ msgid "Variable Value Editor"
 #~ msgstr "แก้ไขค่าตัวแปร"
-
