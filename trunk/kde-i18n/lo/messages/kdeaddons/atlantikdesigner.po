@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-11-15 03:00+0100\n"
+"POT-Creation-Date: 2004-12-29 14:56+0100\n"
 "PO-Revision-Date: 2003-01-10 18:43+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,41 +14,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: designer/boardinfo.cpp:19
-msgid "Gameboard Information"
-msgstr "ຂໍ້ມູນກະດານ"
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
 
-#: designer/boardinfo.cpp:42
-msgid "Version"
-msgstr "ລຸ້ນ"
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
 
-#: designer/boardinfo.cpp:52
-msgid "URL:"
-msgstr "ຕຳແຫນ່ງ URL:"
+#: designer/main.cpp:12
+msgid "Atlantik Designer"
+msgstr ""
+"ເຄືອ່ງມືອອກແບບເກມແອັດແລນຕ"
+"ິກ"
 
-#: designer/boardinfo.cpp:60
-msgid "Description:"
-msgstr "ລາຍລະອງດ:"
+#: designer/main.cpp:13
+msgid "Atlantik gameboard designer"
+msgstr ""
+"ເຄື່ອງມືອອກແບບເກມກະດານແອັ"
+"ດແລນຕິກ"
 
-#: designer/boardinfo.cpp:72
-msgid "Background color:"
-msgstr "ສີພື້ນຫລັງ:"
+#: designer/main.cpp:15
+msgid "(c) 2002 Jason Katz-Brown"
+msgstr "(c)2002 Jason Katz-Brown"
 
-#: designer/boardinfo.cpp:79
-msgid "&Authors"
-msgstr "ຜູ້ຂງນ"
+#: designer/main.cpp:20
+msgid "main author"
+msgstr "ຜູ້ຂງນຫລັກ"
 
-#: designer/boardinfo.cpp:83
-msgid "&Thanks To"
-msgstr "ຂໍຂອບໃຈ"
-
-#: designer/boardinfo.cpp:123
-msgid "&Add Name"
-msgstr "ເພີ່ມຊື່"
-
-#: designer/boardinfo.cpp:127
-msgid "&Delete Name"
-msgstr "ລົບຊື່"
+#: designer/main.cpp:21
+msgid "libatlantikui"
+msgstr "libatlantikui"
 
 #: designer/designer.cpp:56
 msgid "&Edit Gameboard Info..."
@@ -86,259 +86,47 @@ msgstr "ຂວາ"
 msgid "Change Estate"
 msgstr "ປ່ງນທີ່ດິນ"
 
-#: designer/designer.cpp:180
+#: designer/designer.cpp:194
 msgid "New Estate"
 msgstr "ທີ່ດິນໃຫມ່"
 
-#: designer/designer.cpp:199
+#: designer/designer.cpp:213
 msgid "There are unsaved changes to gameboard. Save them?"
 msgstr ""
 "ຍັງບໍ່ມີການບັນທຶກເກມກະດານ "
 "ບັນທຶກມັນກ່ອນຫລືບໍ່?"
 
-#: designer/designer.cpp:199
+#: designer/designer.cpp:213
 msgid "Unsaved Changes"
-msgstr "ມີການປ່ງນແປງທີ່ຍັງບໍ່ໄດ້ບັນທຶກ"
+msgstr ""
+"ມີການປ່ງນແປງທີ່ຍັງບໍ່ໄດ້ບ"
+"ັນທຶກ"
 
-#: designer/designer.cpp:335
+#: designer/designer.cpp:351
 msgid "No Name"
 msgstr "ບໍ່ມີຊື່"
 
-#: designer/designer.cpp:513
+#: designer/designer.cpp:529
 msgid "This board file is invalid; cannot open."
 msgstr ""
-"ກະດານນີ້ບໍ່ຖືກຕ້ອງ"
-"ບໍ່ສາມາດເປີດໃ້ຊ້ໄດ້"
+"ກະດານນີ້ບໍ່ຖືກຕ້ອງບໍ່ສາມາ"
+"ດເປີດໃ້ຊ້ໄດ້"
 
-#: designer/designer.cpp:513
+#: designer/designer.cpp:529
 #, fuzzy
 msgid "There are only %1 estates specified in this file."
 msgstr "ມີການກຳນົດທີ່ດິນໃນແຟ້ມພງງ1%"
 
-#: designer/designer.cpp:540
-#, c-format
-#, fuzzy
+#: designer/designer.cpp:556
+#, fuzzy, c-format
 msgid "Jump to Estate %1"
 msgstr "ໄປຍັງທີ່ດິນ1%"
 
-#: designer/designer.cpp:931
+#: designer/designer.cpp:949
 msgid "Atlantik Gameboard Editor"
-msgstr "ເຄືອ່ງມືແກ້ໄຂເກມກະດານແອັດລັງຕິກ"
-
-#: designer/editor.cpp:188
-msgid "Type:"
-msgstr "ປະເພດ:"
-
-#: designer/editor.cpp:195
-msgid "This estate is Go"
-msgstr "this estate is Go "
-
-#: designer/editor.cpp:202
-msgid "Pass money:"
-msgstr "Pass money:"
-
-#: designer/editor.cpp:205 designer/editor.cpp:386 designer/editor.cpp:390
-#: designer/editor.cpp:839 designer/editor.cpp:841 designer/editor.cpp:843
-#: designer/editor.cpp:845 designer/editor.cpp:847 designer/editor.cpp:849
-#: designer/editor.cpp:854 designer/group.cpp:61 designer/group.cpp:67
-msgid "None"
-msgstr "ບໍ່ມີ"
-
-#: designer/editor.cpp:209
-msgid "Street"
-msgstr "ຖະຫນົນ"
-
-#: designer/editor.cpp:210
-msgid "Cards"
-msgstr "ກາດ"
-
-#: designer/editor.cpp:211
-msgid "Free Parking"
-msgstr "ຈອດຟຣີ"
-
-#: designer/editor.cpp:212 designer/editor.cpp:541
-msgid "Go to Jail"
-msgstr "ໄປເຂົ້່າຄຸກ"
-
-#: designer/editor.cpp:213
-msgid "Tax"
-msgstr "ພາສີ"
-
-#: designer/editor.cpp:214
-msgid "Jail"
-msgstr "ຄຸກ"
-
-#: designer/editor.cpp:384
-msgid "Fixed tax:"
-msgstr "ພາສີຕາຍຕົວ:"
-
-#: designer/editor.cpp:388
-msgid "Percentage tax:"
-msgstr "ອັດຕາພາສີ:"
-
-#: designer/editor.cpp:412 designer/group.cpp:49
-msgid "Background:"
-msgstr "ພື້ນຫລັງ:"
-
-#: designer/editor.cpp:443
-msgid "&New Stack"
-msgstr "&New stack"
-
-#: designer/editor.cpp:448
-msgid "Cards from"
-msgstr "ກາດ ຈາກ"
-
-#: designer/editor.cpp:464
-msgid "Add Stack"
-msgstr "Add stack"
-
-#: designer/editor.cpp:464
-msgid "Enter the name of the new stack below."
-msgstr "Enter the name of the new stack below."
-
-#: designer/editor.cpp:471
-msgid "That name is already on the list."
-msgstr "ມີຊື່ນີ້ໃນລາຍການຢູ່ແລ້ວ"
-
-#: designer/editor.cpp:534
-msgid "Pay"
-msgstr "ຈ່າຍ"
-
-#: designer/editor.cpp:535
-msgid "Pay Each Player"
-msgstr "ຈ່າຍຜູ້ຫລິ້ນແຕ່ລະຄົນ"
-
-#: designer/editor.cpp:536
-msgid "Collect"
-msgstr "ໄດ້ຮັບເງິນ"
-
-#: designer/editor.cpp:537
-msgid "Collect From Each Player"
-msgstr "ໄດ້ຮັບເງິນຈາກຜູ້ຫລິ້ນແຕ່ລະຄົນ"
-
-#: designer/editor.cpp:538
-msgid "Advance To"
-msgstr "Advance to"
-
-#: designer/editor.cpp:539
-msgid "Advance"
-msgstr "Advance"
-
-#: designer/editor.cpp:540
-msgid "Go Back"
-msgstr "ຖອຍທັບ"
-
-#: designer/editor.cpp:542
-msgid "Get out of Jail Free Card"
-msgstr "ການອອກຈາກຄຸກຟຣີ"
-
-#: designer/editor.cpp:543
-msgid "Advance to Nearest Utility"
-msgstr "Advance to nearest Utility"
-
-#: designer/editor.cpp:544
-msgid "Advance to Nearest Railroad"
-msgstr "Advance to Nearest Railroad "
-
-#: designer/editor.cpp:545
-msgid "Pay for Each House"
-msgstr "ຈ່າຍສຳຫລັບບ້ານແຕ່ລະຫລັງ"
-
-#: designer/editor.cpp:546
-msgid "Pay for Each Hotel"
-msgstr "ຈ່າຍສຳຫລັບໂຮງແຮມແຕ່ລະຫລັງ"
-
-#: designer/editor.cpp:634
-msgid "Estate(s)"
-msgstr "ທີ່ດິນ"
-
-#: designer/editor.cpp:652
-msgid "&Add Card..."
-msgstr "ເພີ່ມກາດ...."
-
-#: designer/editor.cpp:656
-msgid "&Rename..."
-msgstr "ປ່ງນຊື່...."
-
-#: designer/editor.cpp:672
-msgid "&More Properties"
-msgstr "ຄຸນສົມບັດຫລາຍ"
-
-#: designer/editor.cpp:676
-msgid "&Fewer Properties"
-msgstr "ຄຸນສົມບັດນ້ອຍ"
-
-#: designer/editor.cpp:720 designer/editor.cpp:742
-msgid "Add Card"
-msgstr "ເພີ່ມກາດ"
-
-#: designer/editor.cpp:720 designer/editor.cpp:742
-msgid "Enter the name of the new card below."
-msgstr "ຕື່ມຊື່ຂອງກາດໃຫມ່ດ້ານລຸ່ມນີ້"
-
-#: designer/editor.cpp:819
-msgid "&Rent by Number of Houses"
-msgstr "ເຊົ່າຕາມຈຳນວນຂອງບ້ານ"
-
-#: designer/editor.cpp:825
-msgid "None:"
-msgstr "ບໍ່ມີ:"
-
-#: designer/editor.cpp:826
-msgid "One:"
-msgstr "ຫນື່ງຫລັງ:"
-
-#: designer/editor.cpp:827
-msgid "Two:"
-msgstr "ສອງຫລັງ:"
-
-#: designer/editor.cpp:828
-msgid "Three:"
-msgstr "ສາມຫລັງ:"
-
-#: designer/editor.cpp:829
-msgid "Four:"
-msgstr "ສີ່ຫລັງ:"
-
-#: designer/editor.cpp:830
-msgid "Hotel:"
-msgstr "ໂຮງແຮມ:"
-
-#: designer/editor.cpp:838 designer/editor.cpp:840 designer/editor.cpp:842
-#: designer/editor.cpp:844 designer/editor.cpp:846 designer/editor.cpp:848
-#: designer/editor.cpp:855 designer/group.cpp:62 designer/group.cpp:68
-msgid "$"
-msgstr "$"
-
-#: designer/editor.cpp:852
-msgid "Price:"
-msgstr "ລາຄາ:"
-
-#: designer/editor.cpp:857
-msgid "Group:"
-msgstr "ກຸ່ມ:"
-
-#: designer/main.cpp:12
-msgid "Atlantik Designer"
 msgstr ""
-"ເຄືອ່ງມືອອກແບບເກມ"
-"ແອັດແລນຕິກ"
-
-#: designer/main.cpp:13
-msgid "Atlantik gameboard designer"
-msgstr "ເຄື່ອງມືອອກແບບເກມກະດານແອັດແລນຕິກ"
-
-#: designer/main.cpp:15
-msgid "(c) 2002 Jason Katz-Brown"
-msgstr "(c)2002 Jason Katz-Brown"
-
-#: designer/main.cpp:20
-msgid "main author"
-msgstr "ຜູ້ຂງນຫລັກ"
-
-#: designer/main.cpp:21
-msgid "libatlantikui"
-msgstr "libatlantikui"
+"ເຄືອ່ງມືແກ້ໄຂເກມກະດານແອັດ"
+"ລັງຕິກ"
 
 #: designer/group.cpp:23
 msgid "Group Editor"
@@ -352,6 +140,10 @@ msgstr "ສີ"
 msgid "Foreground:"
 msgstr "ພື້ນຫນ້າ:"
 
+#: designer/editor.cpp:413 designer/group.cpp:49
+msgid "Background:"
+msgstr "ພື້ນຫລັງ:"
+
 #: designer/group.cpp:54
 msgid "&Prices"
 msgstr "ລາຄາ"
@@ -359,6 +151,19 @@ msgstr "ລາຄາ"
 #: designer/group.cpp:59
 msgid "House price:"
 msgstr "ລາຄາບ້ານ:"
+
+#: designer/editor.cpp:206 designer/editor.cpp:387 designer/editor.cpp:391
+#: designer/editor.cpp:842 designer/editor.cpp:844 designer/editor.cpp:846
+#: designer/editor.cpp:848 designer/editor.cpp:850 designer/editor.cpp:852
+#: designer/editor.cpp:857 designer/group.cpp:61 designer/group.cpp:67
+msgid "None"
+msgstr "ບໍ່ມີ"
+
+#: designer/editor.cpp:841 designer/editor.cpp:843 designer/editor.cpp:845
+#: designer/editor.cpp:847 designer/editor.cpp:849 designer/editor.cpp:851
+#: designer/editor.cpp:858 designer/group.cpp:62 designer/group.cpp:68
+msgid "$"
+msgstr "$"
 
 #: designer/group.cpp:65
 msgid "Global price:"
@@ -376,7 +181,7 @@ msgstr "ຕົວແປຄ່າເຊົ່າ:"
 msgid "Expression:"
 msgstr "ພິເສດ:"
 
-#: designer/group.cpp:97
+#: designer/group.cpp:93
 msgid "&Add..."
 msgstr "ເພີ່ມ..."
 
@@ -385,10 +190,234 @@ msgid "Add Group"
 msgstr "ເພີ່ມກຸ່ມ"
 
 #: designer/group.cpp:107
-msgid "Enter the name of the new group below:"
-msgstr "ຕື່ມຊື່ຂອງກຸ່ມໃຫມ່ດ້ານລຸ່ມນີ້"
+#, fuzzy
+msgid "Enter the name of the new group:"
+msgstr ""
+"ຕື່ມຊື່ຂອງກຸ່ມໃຫມ່ດ້ານລຸ່"
+"ມນີ້"
 
 #: designer/group.cpp:114
 msgid "That group is already on the list."
-msgstr "ມີກຸ່ມຊື່ນີ້ໃນລາຍການຢູ່ແລ້ວ"
+msgstr ""
+"ມີກຸ່ມຊື່ນີ້ໃນລາຍການຢູ່ແລ"
+"້ວ"
 
+#: designer/editor.cpp:189
+msgid "Type:"
+msgstr "ປະເພດ:"
+
+#: designer/editor.cpp:196
+#, fuzzy
+msgid "This estate is 'Go'"
+msgstr "this estate is Go "
+
+#: designer/editor.cpp:203
+msgid "Pass money:"
+msgstr "Pass money:"
+
+#: designer/editor.cpp:210
+msgid "Street"
+msgstr "ຖະຫນົນ"
+
+#: designer/editor.cpp:211
+msgid "Cards"
+msgstr "ກາດ"
+
+#: designer/editor.cpp:212
+msgid "Free Parking"
+msgstr "ຈອດຟຣີ"
+
+#: designer/editor.cpp:213 designer/editor.cpp:542
+msgid "Go to Jail"
+msgstr "ໄປເຂົ້່າຄຸກ"
+
+#: designer/editor.cpp:214
+msgid "Tax"
+msgstr "ພາສີ"
+
+#: designer/editor.cpp:215
+msgid "Jail"
+msgstr "ຄຸກ"
+
+#: designer/editor.cpp:385
+msgid "Fixed tax:"
+msgstr "ພາສີຕາຍຕົວ:"
+
+#: designer/editor.cpp:389
+msgid "Percentage tax:"
+msgstr "ອັດຕາພາສີ:"
+
+#: designer/editor.cpp:444
+msgid "&New Stack"
+msgstr "&New stack"
+
+#: designer/editor.cpp:449
+msgid "Cards from"
+msgstr "ກາດ ຈາກ"
+
+#: designer/editor.cpp:465
+msgid "Add Stack"
+msgstr "Add stack"
+
+#: designer/editor.cpp:465
+#, fuzzy
+msgid "Enter the name of the new stack:"
+msgstr "Enter the name of the new stack below."
+
+#: designer/editor.cpp:472
+msgid "That name is already on the list."
+msgstr "ມີຊື່ນີ້ໃນລາຍການຢູ່ແລ້ວ"
+
+#: designer/editor.cpp:535
+msgid "Pay"
+msgstr "ຈ່າຍ"
+
+#: designer/editor.cpp:536
+msgid "Pay Each Player"
+msgstr "ຈ່າຍຜູ້ຫລິ້ນແຕ່ລະຄົນ"
+
+#: designer/editor.cpp:537
+msgid "Collect"
+msgstr "ໄດ້ຮັບເງິນ"
+
+#: designer/editor.cpp:538
+msgid "Collect From Each Player"
+msgstr ""
+"ໄດ້ຮັບເງິນຈາກຜູ້ຫລິ້ນແຕ່ລ"
+"ະຄົນ"
+
+#: designer/editor.cpp:539
+msgid "Advance To"
+msgstr "Advance to"
+
+#: designer/editor.cpp:540
+msgid "Advance"
+msgstr "Advance"
+
+#: designer/editor.cpp:541
+msgid "Go Back"
+msgstr "ຖອຍທັບ"
+
+#: designer/editor.cpp:543
+msgid "Get out of Jail Free Card"
+msgstr "ການອອກຈາກຄຸກຟຣີ"
+
+#: designer/editor.cpp:544
+msgid "Advance to Nearest Utility"
+msgstr "Advance to nearest Utility"
+
+#: designer/editor.cpp:545
+msgid "Advance to Nearest Railroad"
+msgstr "Advance to Nearest Railroad "
+
+#: designer/editor.cpp:546
+msgid "Pay for Each House"
+msgstr "ຈ່າຍສຳຫລັບບ້ານແຕ່ລະຫລັງ"
+
+#: designer/editor.cpp:547
+msgid "Pay for Each Hotel"
+msgstr "ຈ່າຍສຳຫລັບໂຮງແຮມແຕ່ລະຫລັງ"
+
+#: designer/editor.cpp:635
+msgid "Estate(s)"
+msgstr "ທີ່ດິນ"
+
+#: designer/editor.cpp:655
+msgid "&Add Card..."
+msgstr "ເພີ່ມກາດ...."
+
+#: designer/editor.cpp:659
+msgid "&Rename..."
+msgstr "ປ່ງນຊື່...."
+
+#: designer/editor.cpp:675
+msgid "&More Properties"
+msgstr "ຄຸນສົມບັດຫລາຍ"
+
+#: designer/editor.cpp:679
+msgid "&Fewer Properties"
+msgstr "ຄຸນສົມບັດນ້ອຍ"
+
+#: designer/editor.cpp:723 designer/editor.cpp:745
+msgid "Add Card"
+msgstr "ເພີ່ມກາດ"
+
+#: designer/editor.cpp:723 designer/editor.cpp:745
+#, fuzzy
+msgid "Enter the name of the new card:"
+msgstr ""
+"ຕື່ມຊື່ຂອງກາດໃຫມ່ດ້ານລຸ່ມ"
+"ນີ້"
+
+#: designer/editor.cpp:822
+msgid "&Rent by Number of Houses"
+msgstr "ເຊົ່າຕາມຈຳນວນຂອງບ້ານ"
+
+#: designer/editor.cpp:828
+msgid "None:"
+msgstr "ບໍ່ມີ:"
+
+#: designer/editor.cpp:829
+msgid "One:"
+msgstr "ຫນື່ງຫລັງ:"
+
+#: designer/editor.cpp:830
+msgid "Two:"
+msgstr "ສອງຫລັງ:"
+
+#: designer/editor.cpp:831
+msgid "Three:"
+msgstr "ສາມຫລັງ:"
+
+#: designer/editor.cpp:832
+msgid "Four:"
+msgstr "ສີ່ຫລັງ:"
+
+#: designer/editor.cpp:833
+msgid "Hotel:"
+msgstr "ໂຮງແຮມ:"
+
+#: designer/editor.cpp:855
+msgid "Price:"
+msgstr "ລາຄາ:"
+
+#: designer/editor.cpp:860
+msgid "Group:"
+msgstr "ກຸ່ມ:"
+
+#: designer/boardinfo.cpp:19
+msgid "Gameboard Information"
+msgstr "ຂໍ້ມູນກະດານ"
+
+#: designer/boardinfo.cpp:42
+#, fuzzy
+msgid "Version:"
+msgstr "ລຸ້ນ"
+
+#: designer/boardinfo.cpp:52
+msgid "URL:"
+msgstr "ຕຳແຫນ່ງ URL:"
+
+#: designer/boardinfo.cpp:60
+msgid "Description:"
+msgstr "ລາຍລະອງດ:"
+
+#: designer/boardinfo.cpp:72
+msgid "Background color:"
+msgstr "ສີພື້ນຫລັງ:"
+
+#: designer/boardinfo.cpp:79
+msgid "&Authors"
+msgstr "ຜູ້ຂງນ"
+
+#: designer/boardinfo.cpp:83
+msgid "&Thanks To"
+msgstr "ຂໍຂອບໃຈ"
+
+#: designer/boardinfo.cpp:123
+msgid "&Add Name"
+msgstr "ເພີ່ມຊື່"
+
+#: designer/boardinfo.cpp:127
+msgid "&Delete Name"
+msgstr "ລົບຊື່"
