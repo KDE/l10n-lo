@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-06-23 02:43+0200\n"
+"POT-Creation-Date: 2003-06-23 21:04+0200\n"
 "PO-Revision-Date: 2003-01-18 12:05+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,124 +14,146 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: main.cc:67
-msgid "Related Words"
-msgstr "ຄຳທີ່ສຳພັນກັນ"
-
-#: main.cc:72
+#: main.cc:81
 msgid "(No match)"
 msgstr "(ບໍ່ມີຄຳສຳພັນກັນ)"
 
-#: main.cc:82
+#: main.cc:91
 msgid "&Search for:"
 msgstr "&ຄົ້ນຫາຄຳ:"
 
-#: main.cc:91
+#: main.cc:92
+#, fuzzy
+msgid "S&earch"
+msgstr "&ຄົ້ນຫາຄຳ:"
+
+#: main.cc:104
 msgid "Forward"
 msgstr "ຕໍ່ໄປ"
 
-#: main.cc:105
+#: main.cc:106
+msgid "Change Language..."
+msgstr ""
+
+#: main.cc:121
 msgid "&Thesaurus"
 msgstr "ຄຳ&ພ້ອງ"
 
-#: main.cc:112
+#: main.cc:128
 msgid "Synonyms"
 msgstr "ຄຳທີ່ມີຄວາມໜາຍຄືກັນ"
 
-#: main.cc:115
+#: main.cc:131
 msgid "More General Words"
 msgstr "ຄຳທົວໄປອຶ່ນໆ"
 
-#: main.cc:118
+#: main.cc:134
 msgid "More Specific Words"
 msgstr "ຄຳທີ່ກາໍນົດອື່ນໆ"
 
-#: main.cc:151
+#: main.cc:167
 msgid "&WordNet"
 msgstr "&ເວິດເນັດ"
 
-#: main.cc:172
+#: main.cc:188
 msgid "&Replace with:"
 msgstr "&ແທນທີ່ດ້ວຍ:"
 
-#: main.cc:238
+#: main.cc:261
 msgid "&Replace"
 msgstr "&ແທາທີ່"
 
-#: main.cc:381
-msgid "<b>Error:</b> Failed to execute grep."
+#: main.cc:314
+#, fuzzy, c-format
+msgid "Related Words - %1"
+msgstr "ຄຳທີ່ສຳພັນກັນ"
+
+#: main.cc:409
+msgid ""
+"The thesaurus file '%1' was not found. Please use 'Change Language...' to "
+"select a thesaurus file."
+msgstr ""
+
+#: main.cc:428
+#, fuzzy
+msgid "Failed to execute grep."
 msgstr ""
 "<b>ຜິດພາດ:</b> "
-"ລົມເຫລວໃນການປະມວນຜົນຄຳສັ່ງ grep"
+"ລົມເຫລວໃນການປະມວນຜົນຄຳສັ່"
+"ງ grep"
 
-#: main.cc:393
+#: main.cc:440
 #, c-format
 msgid "<b>Error:</b> Failed to execute grep. Output:<br>%1"
 msgstr ""
 "<b>ຜິດພາດ:</b> "
-"ລົມເຫລວໃນການປະມວນຜົນຄຳສັ່ງ grepຜົນໄດ້ຮັບຄື:<br>%1"
+"ລົມເຫລວໃນການປະມວນຜົນຄຳສັ່"
+"ງ grepຜົນໄດ້ຮັບຄື:<br>%1"
 
-#: main.cc:552
+#: main.cc:599
 msgid "Synonyms/Hypernyms - Ordered by Frequency"
 msgstr ""
-"ຄຳທີ່ມີຄວາມໝາຍຄຶກັນ/ຄຳທີ່ສອດຄ່ອງກັນ - "
+"ຄຳທີ່ມີຄວາມໝາຍຄຶກັນ/ຄຳທີ່ສ"
+"ອດຄ່ອງກັນ - "
 "ລຽງລຳດັບຕາມຄວາມຖີ່"
 
-#: main.cc:553
+#: main.cc:600
 msgid "Synonyms - Ordered by Similarity of Meaning (verbs only)"
 msgstr ""
 "ຄຳທີ່ມີຄວາມໝາຍຄືກັນ - "
-"ລຽງລຳດັບຕາມຄວາມໝາຍທົວໄປ (ຄຳກິລິຍາເທົ່ານັ້ນ)"
+"ລຽງລຳດັບຕາມຄວາມໝາຍທົວໄປ "
+"(ຄຳກິລິຍາເທົ່ານັ້ນ)"
 
-#: main.cc:554
+#: main.cc:601
 msgid "Antonyms - Words with Opposite Meanings"
 msgstr ""
 "ຄຳທີ່ມີຄວາມໝາຍກົງກັນຂ້າມ - "
 "ຄຳທີ່ມີຄວາມໝາຍກົງກັນຂ້າມ"
 
-#: main.cc:555
-#, c-format
-msgid "Hyponyms - ...is a (kind of) %1"
+#: main.cc:602
+#, fuzzy, c-format
+msgid "Hyponyms - ... is a (kind of) %1"
 msgstr "Hyponyms - ...is a (kind of) %1"
 
-#: main.cc:556
-msgid "Meronyms - %1 has a..."
+#: main.cc:603
+#, fuzzy
+msgid "Meronyms - %1 has a ..."
 msgstr "Meronyms - %1 has a..."
 
-#: main.cc:558
-#, c-format
-msgid "Holonyms - ...has a %1"
+#: main.cc:605
+#, fuzzy, c-format
+msgid "Holonyms - ... has a %1"
 msgstr "Holonyms - ...has a %1"
 
-#: main.cc:559
+#: main.cc:606
 msgid "Attributes"
 msgstr "Attributes"
 
-#: main.cc:560
+#: main.cc:607
 msgid "Cause To (for some verbs only)"
 msgstr "Cause To (for some verbs only)"
 
-#: main.cc:561
+#: main.cc:608
 msgid "Verb Entailment (for some verbs only)"
 msgstr "Verb Entailment (for some verbs only)"
 
-#: main.cc:562
+#: main.cc:609
 msgid "Familiarity & Polysemy Count"
 msgstr "Familiarity & Polysemy Count"
 
-#: main.cc:564
+#: main.cc:611
 msgid "Verb Frames (examples of use)"
 msgstr "Verb Frames (examples of use)"
 
-#: main.cc:565
+#: main.cc:612
 msgid "List of Compound Words"
 msgstr "List of Compound Words"
 
-#: main.cc:566
+#: main.cc:613
 msgid "Overview of Senses"
 msgstr "Overview of Senses"
 
-#: main.cc:594
+#: main.cc:641
 msgid ""
 "<b>Error:</b> Failed to execute WordNet program 'wn'. WordNet has to be "
 "installed on your computer if you want to use it, and 'wn' has to be in your "
@@ -141,25 +163,28 @@ msgid ""
 "the English language."
 msgstr ""
 "<b>ຜິດພາດ:</b> "
-"ລົມເຫລວໃນການປະມວນຜົນໂປຼແກມເວິດເນັດwn' "
-"ຫາກທ່ານຕ້ອງການໃຊ້ມັນຈະຕ້ອງຕິດຕັ້ງເວິດເນັດ"
-"ແລະປັບເສັ້ນທາງໂປຼແກມ(ຟາດ) "
+"ລົມເຫລວໃນການປະມວນຜົນໂປຼແກ"
+"ມເວິດເນັດwn' "
+"ຫາກທ່ານຕ້ອງການໃຊ້ມັນຈະຕ້ອ"
+"ງຕິດຕັ້ງເວິດເນັດແລະປັບເສັ"
+"້ນທາງໂປຼແກມ(ຟາດ) "
 "ໃຫ້ຢູ່ໃນຕຳແໜ່ງທີ 'wn' ຢູ່ "
 "ທ່ານສາມາດຫາຫາເວີດເນັດໄດ້ "
 "href=\"http://www.cogsci.princeton.edu/~wn/\">"
-"http://www.cogsci.princeton.edu/~wn/</a> ຂໍຄອວຈຳ"
-"ໃນປະຈຸບັນ"
-"ເວີດເນັດສະໜບັສະໜູນສະເພາະພາສາອັງກິດເທົ່ານັ້ນ"
+"http://www.cogsci.princeton.edu/~wn/</a> "
+"ຂໍຄອວຈຳໃນປະຈຸບັນເວີດເນັດສ"
+"ະໜບັສະໜູນສະເພາະພາສາອັງກິດ"
+"ເທົ່ານັ້ນ"
 
-#: main.cc:612
+#: main.cc:659
 #, c-format
 msgid "<b>Error:</b> Failed to execute WordNet program 'wn'. Output:<br>%1"
 msgstr ""
 "<b>ຜີດພາດ;</b> "
-"ລົ້ມເຫຼວໃນການປະເມີນຜົນໂປແກຼມເວີດເນັດ 'wn' "
+"ລົ້ມເຫຼວໃນການປະເມີນຜົນໂປແ"
+"ກຼມເວີດເນັດ 'wn' "
 "ຜົນສົ່ງອອກຄື;<br>%1"
 
-#: main.cc:619
+#: main.cc:666
 msgid "No match for '%1'."
 msgstr "ບໍມີຄຳທີ່ສອດຄ້ອງກັນ '%1'"
-
