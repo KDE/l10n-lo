@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-01-10 01:27+0100\n"
+"POT-Creation-Date: 2004-07-30 01:19+0200\n"
 "PO-Revision-Date: 2003-01-11 12:46+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -31,22 +31,22 @@ msgstr "donga_n@yahoo.com"
 msgid "Advanced Background Settings"
 msgstr "เพิ่มเติม"
 
-#: bgadvanced.cpp:115
+#: bgadvanced.cpp:100
 msgid "Unlimited"
 msgstr ""
 
-#: bgadvanced.cpp:116
+#: bgadvanced.cpp:101
 msgid " KB"
 msgstr " KB"
 
-#: bgadvanced.cpp:231
+#: bgadvanced.cpp:241
 msgid "%1 min."
 msgstr "%1 ນາທີ"
 
-#: bgadvanced.cpp:268
+#: bgadvanced.cpp:278
 #, fuzzy
 msgid ""
-"Unable to remove the program! The program is global and can only be removed "
+"Unable to remove the program: the program is global and can only be removed "
 "by the system administrator."
 msgstr ""
 "ບໍ່ສາມາດລົບໂປຣແກຣມຊຶ່ງເປັ"
@@ -54,73 +54,73 @@ msgstr ""
 "ິ່ງແຍງລະບົບເທົ່ານັ້ນທີ່ສາ"
 "ມາດລົບມັນຖິ້ມໄດ້"
 
-#: bgadvanced.cpp:270
+#: bgadvanced.cpp:280
 msgid "Cannot Remove Program"
 msgstr "ບໍ່ສາມາດລົບໂປຣແກຣມໄດ້"
 
-#: bgadvanced.cpp:274
+#: bgadvanced.cpp:284
 msgid "Are you sure you want to remove the program `%1'?"
 msgstr ""
 "ທ່ານຕ້ອງການລົບໂປຣແກຣມ `%1' "
 "ແທ້ຫລືບໍ່?"
 
-#: bgadvanced.cpp:276
+#: bgadvanced.cpp:286
 #, fuzzy
 msgid "Remove Background Program"
 msgstr "เลือกโปรแกรมสร้างพื้นหลัง"
 
-#: bgadvanced.cpp:357
+#: bgadvanced.cpp:367
 msgid "Configure Background Program"
 msgstr ""
 "ປັບແຕ່ງໂປຣແກຣມສ້າງພື້ນຫລັ"
 "ງ"
 
-#: bgadvanced.cpp:365
+#: bgadvanced.cpp:375
 msgid "&Name:"
 msgstr "ຊື່:"
 
-#: bgadvanced.cpp:371
+#: bgadvanced.cpp:381
 #, fuzzy
 msgid "Co&mment:"
 msgstr "ຄຳອະທິບາຍ:"
 
-#: bgadvanced.cpp:377
+#: bgadvanced.cpp:387
 #, fuzzy
 msgid "Comman&d:"
 msgstr "ຄຳສັ່ງ:"
 
-#: bgadvanced.cpp:383
+#: bgadvanced.cpp:393
 msgid "&Preview cmd:"
 msgstr "ຄຳສັ່ງໃຊ້ສະແດງຕົວຢ່າງ:"
 
-#: bgadvanced.cpp:389
+#: bgadvanced.cpp:399
 msgid "&Executable:"
 msgstr "ແຟ້ມປະມວນຜົນໄດ້:"
 
-#: bgadvanced.cpp:395
+#: bgadvanced.cpp:405
 msgid "&Refresh time:"
 msgstr "ຊ່ວງເວລາປັບປຸງ:"
 
-#: bgadvanced.cpp:400 bgwallpaper.cpp:105
+#: bgadvanced.cpp:410 bgwallpaper.cpp:105
 #, fuzzy
 msgid " min"
 msgstr " นาที"
 
-#: bgadvanced.cpp:407
+#: bgadvanced.cpp:417
 msgid "New Command"
 msgstr "ຄຳສັ່ງໃຫມ່"
 
-#: bgadvanced.cpp:410
+#: bgadvanced.cpp:420
 msgid "New Command <%1>"
 msgstr "ຄຳສັ່ງໃຫມ่່ <%1>"
 
-#: bgadvanced.cpp:437
+#: bgadvanced.cpp:447
 msgid ""
 "You did not fill in the `Name' field.\n"
 "This is a required field."
 msgstr "ທ່ານຍັງບໍ່ໄດ້ອອກຊ່ອງຊື່"
 
-#: bgadvanced.cpp:445
+#: bgadvanced.cpp:455
 msgid ""
 "There is already a program with the name `%1'.\n"
 "Do you want to overwrite it?"
@@ -128,7 +128,7 @@ msgstr ""
 "ມີໂປຣແກຣມ%1ຢູ່ແລ້ວທ່ານຕ້ອງກ"
 "ານຂງນທັບມັນຫລືບໍ່?"
 
-#: bgadvanced.cpp:452
+#: bgadvanced.cpp:462
 msgid ""
 "You did not fill in the `Executable' field.\n"
 "This is a required field."
@@ -136,7 +136,7 @@ msgstr ""
 "ທ່ານຍັງບໍ່ໄດ້ອອກຊ່ອງຊື່'ແຟ"
 "້ມທີ່ໃຊ້ທຳງານ'"
 
-#: bgadvanced.cpp:457
+#: bgadvanced.cpp:467
 msgid ""
 "You did not fill in the `Command' field.\n"
 "This is a required field."
@@ -144,7 +144,11 @@ msgstr ""
 "ທ່ານຍັງບໍ່ໄດ້ອອກຊ່ອງ'ຄຳສັ່"
 "ງ'"
 
-#: bgdialog.cpp:276
+#: bgdialog.cpp:94
+msgid "Open file dialog"
+msgstr ""
+
+#: bgdialog.cpp:280
 msgid ""
 "<h1>Background</h1> This module allows you to control the appearance of the "
 "virtual desktops. KDE offers a variety of options for customization, "
@@ -203,101 +207,109 @@ msgstr ""
 "ซึ่งจะแสดงแผนที่โลกในช่วง"
 "กลางวัน/กลางคืน"
 
-#: bgdialog.cpp:301
+#: bgdialog.cpp:305
 #, fuzzy
 msgid "Single Color"
 msgstr "ສີດງວ"
 
-#: bgdialog.cpp:302
+#: bgdialog.cpp:306
 msgid "Horizontal Gradient"
 msgstr "ລງງສີໃນແນວນອນ"
 
-#: bgdialog.cpp:303
+#: bgdialog.cpp:307
 msgid "Vertical Gradient"
 msgstr "ລງງສີໃນແນວຕັ້ງ"
 
-#: bgdialog.cpp:304
+#: bgdialog.cpp:308
 msgid "Pyramid Gradient"
 msgstr "ປະສົມສີໃນແບບປີລາມິດ"
 
-#: bgdialog.cpp:305
+#: bgdialog.cpp:309
 msgid "Pipecross Gradient"
 msgstr "ລງງສີແບບທໍ່ໄຂ່ວ"
 
-#: bgdialog.cpp:306
+#: bgdialog.cpp:310
 msgid "Elliptic Gradient"
 msgstr "ລງງສີໃນແບບວົງຮີ"
 
-#: bgdialog.cpp:358
+#: bgdialog.cpp:378
 msgid "Centered"
 msgstr "ທາງກາງ"
 
-#: bgdialog.cpp:359
+#: bgdialog.cpp:379
 msgid "Tiled"
 msgstr "ລງງຕໍ່ເນື່ອງ"
 
-#: bgdialog.cpp:360
+#: bgdialog.cpp:380
 msgid "Center Tiled"
 msgstr "ລງງຕໍ່ເນື່ອງຈາກທາງກາງ"
 
-#: bgdialog.cpp:361
+#: bgdialog.cpp:381
 msgid "Centered Maxpect"
 msgstr "ທາງກາງແລະປັບໃຫ້ເຕັມຈໍ"
 
-#: bgdialog.cpp:362
+#: bgdialog.cpp:382
 msgid "Tiled Maxpect"
 msgstr ""
 "ລງງຕໍ່ເນື່ອງແລະປັບໃຫ້ເຕັມ"
 "ຈໍ"
 
-#: bgdialog.cpp:363
+#: bgdialog.cpp:383
 msgid "Scaled"
 msgstr "ປັບຂະຫນາດໃຫ້ເຕັມຈໍ"
 
-#: bgdialog.cpp:364
+#: bgdialog.cpp:384
 msgid "Centered Auto Fit"
 msgstr ""
 "ທາງກາງແລະປັບໃຫ້ພໍດີອັດຕະໂ"
 "ນມັດ"
 
-#: bgdialog.cpp:367
+#: bgdialog.cpp:387
 msgid "No Blending"
 msgstr "ບໍ່ໃຫ້ມີການໄລ່ລງງສີ"
 
-#: bgdialog.cpp:370
+#: bgdialog.cpp:388
+msgid "Flat"
+msgstr ""
+
+#: bgdialog.cpp:391
 #, fuzzy
 msgid "Pyramid"
 msgstr "ไล่เฉดสีในแบบปิรามิด"
 
-#: bgdialog.cpp:371
+#: bgdialog.cpp:392
 #, fuzzy
 msgid "Pipecross"
 msgstr "ผสมสีในแบบท่อไขว้"
 
-#: bgdialog.cpp:372
+#: bgdialog.cpp:393
 #, fuzzy
 msgid "Elliptic"
 msgstr "ผสมสีในแบบวงรี"
 
-#: bgdialog.cpp:373
+#: bgdialog.cpp:394
 #, fuzzy
 msgid "Intensity"
 msgstr "ປະສົມສີໃຫ້ເຂັ້ມ"
 
-#: bgdialog.cpp:374
+#: bgdialog.cpp:395
 #, fuzzy
 msgid "Saturation"
 msgstr "ผสมสีแบบชุ่มสี"
 
-#: bgdialog.cpp:375
+#: bgdialog.cpp:396
 #, fuzzy
 msgid "Contrast"
 msgstr "ผสมสีให้ตัดกัน"
 
-#: bgdialog.cpp:376
+#: bgdialog.cpp:397
 #, fuzzy
 msgid "Hue Shift"
 msgstr "ປະສົມສີໂດຍເລື້ອນສີ"
+
+#: bgdialog.cpp:431
+msgid "Select Wallpaper"
+msgstr "ເລືອກພາບພື້ນຫຼັງ"
 
 #: bgwallpaper.cpp:97
 msgid "Setup Slide Show"
@@ -308,27 +320,30 @@ msgstr ""
 msgid "Select Image"
 msgstr "ເລືອກ"
 
-#: main.cpp:112
+#: main.cpp:71
 msgid "kcmbackground"
 msgstr "ພື້່ນຫລັງ"
 
-#: main.cpp:112
+#: main.cpp:71
 msgid "KDE Background Control Module"
 msgstr "ໂມດູນຄວບຄຸມພື້ນຫລັງຂອງ KDE"
 
-#: main.cpp:114
+#: main.cpp:73
 msgid "(c) 1997-2002 Martin R. Jones"
 msgstr "(c) 1997-2002 Martin R.Jones"
 
-#: rc.cpp:1 rc.cpp:69
+#: rc.cpp:2 rc.cpp:164
+#, no-c-format
 msgid "Background Program"
 msgstr "ໃຊ້ໂປຮແກມສ່າງ"
 
-#: rc.cpp:2 rc.cpp:65 rc.cpp:70 rc.cpp:133
+#: rc.cpp:4 rc.cpp:156 rc.cpp:166 rc.cpp:318
+#, no-c-format
 msgid "&Add..."
 msgstr "ເພີ່ມ..."
 
-#: rc.cpp:3 rc.cpp:71
+#: rc.cpp:6 rc.cpp:168
+#, no-c-format
 msgid ""
 "<qt>\n"
 "<p>"
@@ -343,18 +358,21 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:5 rc.cpp:73
+#: rc.cpp:13 rc.cpp:175
+#, no-c-format
 msgid ""
 "Click here to remove programs from this list. Please note that it does not "
 "remove the program from your system, it only removes it from the available "
 "options in the background drawing programs list."
 msgstr ""
 
-#: rc.cpp:6 rc.cpp:74
+#: rc.cpp:15 rc.cpp:177
+#, no-c-format
 msgid "&Modify..."
 msgstr "ແກ້ໄຂ..."
 
-#: rc.cpp:7 rc.cpp:75
+#: rc.cpp:17 rc.cpp:179
+#, no-c-format
 msgid ""
 "<qt>\n"
 "<p>Click here to modify the programs options. You usually can get the "
@@ -370,19 +388,23 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:8 rc.cpp:76
+#: rc.cpp:22 rc.cpp:184
+#, no-c-format
 msgid "Program"
 msgstr "โปรแกรม"
 
-#: rc.cpp:9 rc.cpp:77
+#: rc.cpp:24 rc.cpp:186
+#, no-c-format
 msgid "Comment"
 msgstr "ຄຳອະທິບາຍ"
 
-#: rc.cpp:10 rc.cpp:78
+#: rc.cpp:26 rc.cpp:188
+#, no-c-format
 msgid "Refresh"
 msgstr "ປັບປຸງ"
 
-#: rc.cpp:11 rc.cpp:79
+#: rc.cpp:28 rc.cpp:190
+#, no-c-format
 msgid ""
 "<qt>\n"
 "<p>"
@@ -404,11 +426,13 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:12 rc.cpp:80
+#: rc.cpp:38 rc.cpp:200
+#, no-c-format
 msgid "Use the following program for drawing the background:"
 msgstr ""
 
-#: rc.cpp:13 rc.cpp:81
+#: rc.cpp:40 rc.cpp:202
+#, no-c-format
 msgid ""
 "Check here if you want to allow a program to draw your desktop background. "
 "Below you can find the list of programs currently available for drawing the "
@@ -416,31 +440,35 @@ msgid ""
 "modify the existing ones to fit your needs."
 msgstr ""
 
-#: rc.cpp:14 rc.cpp:82
-#, fuzzy
+#: rc.cpp:42 rc.cpp:204
+#, fuzzy, no-c-format
 msgid "Background Icon Text"
 msgstr "ພື້ນຫລັງ"
 
-#: rc.cpp:15 rc.cpp:83
-#, fuzzy
+#: rc.cpp:44 rc.cpp:206
+#, fuzzy, no-c-format
 msgid "&Text color:"
 msgstr "ทำการผสมสีแบบ:"
 
-#: rc.cpp:16 rc.cpp:20 rc.cpp:84 rc.cpp:88
+#: rc.cpp:46 rc.cpp:52 rc.cpp:208 rc.cpp:214
+#, no-c-format
 msgid "Click here to change the color of the desktop font."
 msgstr ""
 
-#: rc.cpp:18 rc.cpp:86
+#: rc.cpp:49 rc.cpp:211
+#, no-c-format
 msgid ""
 "Click here to select the solid background color. Choose a different color "
 "from the background text color to assure readability."
 msgstr ""
 
-#: rc.cpp:21 rc.cpp:89
+#: rc.cpp:54 rc.cpp:216
+#, no-c-format
 msgid "&Use solid color behind text:"
 msgstr ""
 
-#: rc.cpp:22 rc.cpp:90
+#: rc.cpp:56 rc.cpp:218
+#, no-c-format
 msgid ""
 "Check here if you want to use a solid background color. This is useful to "
 "ensure that the desktop text will be identifiable against all background "
@@ -448,27 +476,31 @@ msgid ""
 "will not make a desktop text of a similar color difficult to read."
 msgstr ""
 
-#: rc.cpp:23 rc.cpp:91
+#: rc.cpp:58 rc.cpp:220
+#, no-c-format
 msgid "&Enable shadow"
 msgstr ""
 
-#: rc.cpp:24 rc.cpp:92
+#: rc.cpp:60 rc.cpp:222
+#, no-c-format
 msgid ""
 "Check here to enable a shadow outline around the desktop font. This also "
 "improves the readability of the desktop text against backgrounds of a "
 "similar color."
 msgstr ""
 
-#: rc.cpp:25 rc.cpp:93
+#: rc.cpp:62 rc.cpp:224
+#, no-c-format
 msgid "Memory Usage"
 msgstr ""
 
-#: rc.cpp:26 rc.cpp:94
-#, fuzzy
+#: rc.cpp:64 rc.cpp:226
+#, fuzzy, no-c-format
 msgid "Size of background cache:"
 msgstr "เลือกโปรแกรมสร้างพื้นหลัง:"
 
-#: rc.cpp:27 rc.cpp:29 rc.cpp:95 rc.cpp:97
+#: rc.cpp:66 rc.cpp:70 rc.cpp:228 rc.cpp:232
+#, no-c-format
 msgid ""
 "In this box you can enter how much memory KDE should use for caching the "
 "background(s). If you have different backgrounds for the different desktops "
@@ -476,16 +508,18 @@ msgid ""
 "use."
 msgstr ""
 
-#: rc.cpp:28 rc.cpp:96
+#: rc.cpp:68 rc.cpp:230
+#, no-c-format
 msgid " k"
 msgstr ""
 
-#: rc.cpp:30 rc.cpp:98
+#: rc.cpp:72 rc.cpp:234
+#, no-c-format
 msgid "Setting for &desktop:"
 msgstr ""
 
-#: rc.cpp:31 rc.cpp:33 rc.cpp:99 rc.cpp:101
-#, fuzzy
+#: rc.cpp:74 rc.cpp:78 rc.cpp:236 rc.cpp:240
+#, fuzzy, no-c-format
 msgid ""
 "Choose the desktop you wish to configure the background for from this list. "
 "If you want the same background settings to be applied to all desktops "
@@ -501,17 +535,18 @@ msgstr ""
 "ແລະລາຍການນີ້ຈະບໍ່ຖືກເປີດໃ"
 "ຫ້ໃຊ້"
 
-#: rc.cpp:32 rc.cpp:100
-#, fuzzy
+#: rc.cpp:76 rc.cpp:238
+#, fuzzy, no-c-format
 msgid "All Desktops"
 msgstr "ພື້ນທີ່ເຮັດວງກ"
 
-#: rc.cpp:34 rc.cpp:102
+#: rc.cpp:80 rc.cpp:242
+#, no-c-format
 msgid "Monitor"
 msgstr ""
 
-#: rc.cpp:35 rc.cpp:103
-#, fuzzy
+#: rc.cpp:82 rc.cpp:244
+#, fuzzy, no-c-format
 msgid ""
 "This picture of a monitor contains a preview of what the current settings "
 "will look like on your desktop."
@@ -522,24 +557,26 @@ msgstr ""
 "ເປັນແນວໃດເທິງພື້ນທີ່ເຮັດວ"
 "ງກຈິງ"
 
-#: rc.cpp:36 rc.cpp:104
-#, fuzzy
+#: rc.cpp:84 rc.cpp:246
+#, fuzzy, no-c-format
 msgid "Advanced Options..."
 msgstr "เพิ่มเติม"
 
-#: rc.cpp:37 rc.cpp:105
+#: rc.cpp:86 rc.cpp:248
+#, no-c-format
 msgid ""
 "Click this button to set the icon text colors and shadow, set up a program "
 "to run for the background picture or control the size of the background "
 "cache."
 msgstr ""
 
-#: rc.cpp:39 rc.cpp:107
+#: rc.cpp:90 rc.cpp:252
+#, no-c-format
 msgid "Posi&tion:"
 msgstr ""
 
-#: rc.cpp:40 rc.cpp:54 rc.cpp:108 rc.cpp:122
-#, fuzzy
+#: rc.cpp:92 rc.cpp:125 rc.cpp:254 rc.cpp:287
+#, fuzzy, no-c-format
 msgid ""
 "<qt>You can choose here how a background picture is shown on the desktop:\n"
 "<ul>\n"
@@ -587,8 +624,8 @@ msgstr ""
 "ປັບພາບໃຫ້ມີຂະຫນາດພໍດີກັບຫ"
 "ນ້າຈໍ (ພາບອາດຜິດພ້ງນໄດ້)</li></ul>"
 
-#: rc.cpp:41 rc.cpp:109
-#, fuzzy
+#: rc.cpp:102 rc.cpp:264
+#, fuzzy, no-c-format
 msgid ""
 "If you have selected to use a background picture you can choose various "
 "methods of blending the background colors with the picture. The default "
@@ -604,13 +641,13 @@ msgstr ""
 "ຊຶ່ງຈະທຳການສະແດງສະເພາະພາບ"
 "ພື້ນຫລັງເທົ່ານັ້ນ"
 
-#: rc.cpp:43 rc.cpp:111
-#, fuzzy
+#: rc.cpp:105 rc.cpp:267
+#, fuzzy, no-c-format
 msgid "Click to choose the primary background color."
 msgstr "ຄລີກເພື່ອເລືອກສີ"
 
-#: rc.cpp:45 rc.cpp:113
-#, fuzzy
+#: rc.cpp:108 rc.cpp:270
+#, fuzzy, no-c-format
 msgid ""
 "Click to choose the secondary background color. If no secondary color is "
 "required by the pattern selected this button will be disabled."
@@ -622,23 +659,23 @@ msgstr ""
 "ປຸ່ມນີ້ຈະບໍ່ສາມາດໃຊ້ງານໄດ"
 "້"
 
-#: rc.cpp:46 rc.cpp:114
-#, fuzzy
+#: rc.cpp:110 rc.cpp:272
+#, fuzzy, no-c-format
 msgid "Co&lors:"
 msgstr "สีที่ 2:"
 
-#: rc.cpp:47 rc.cpp:115
-#, fuzzy
+#: rc.cpp:112 rc.cpp:274
+#, fuzzy, no-c-format
 msgid "&Blending:"
 msgstr "ທຳການປະສົມສີແບບ:"
 
-#: rc.cpp:48 rc.cpp:116
-#, fuzzy
+#: rc.cpp:114 rc.cpp:276
+#, fuzzy, no-c-format
 msgid "Balance:"
 msgstr "ສົມດຸນ:"
 
-#: rc.cpp:49 rc.cpp:50 rc.cpp:117 rc.cpp:118
-#, fuzzy
+#: rc.cpp:116 rc.cpp:118 rc.cpp:278 rc.cpp:280
+#, fuzzy, no-c-format
 msgid ""
 "You can use this slider to control the degree of blending. You can "
 "experiment by moving the slider and looking at the effects in the preview "
@@ -653,13 +690,13 @@ msgstr ""
 "ແດງພາບຕົວຢ່າງຊິ່ງຢູ່ເບື້ອ"
 "ງເທິງ"
 
-#: rc.cpp:51 rc.cpp:119
-#, fuzzy
+#: rc.cpp:120 rc.cpp:282
+#, fuzzy, no-c-format
 msgid "Reverse roles"
 msgstr "ປ່ງນເປັນກົງກັນຂ້າມ"
 
-#: rc.cpp:52 rc.cpp:120
-#, fuzzy
+#: rc.cpp:122 rc.cpp:284
+#, fuzzy, no-c-format
 msgid ""
 "For some types of blending, you can reverse the role of the background and "
 "the picture by checking this option."
@@ -670,34 +707,38 @@ msgstr ""
 "ໃຫ້ເປັນແບບກົງກັນຂ້າມໄດ້ໂດ"
 "ຍຄລີກທີ່ຕົວເລືອກນີ້"
 
-#: rc.cpp:55 rc.cpp:123
-#, fuzzy
+#: rc.cpp:135 rc.cpp:297
+#, fuzzy, no-c-format
 msgid "Background"
 msgstr "ພື້່ນຫລັງ"
 
-#: rc.cpp:56 rc.cpp:124
-#, fuzzy
+#: rc.cpp:137 rc.cpp:299
+#, fuzzy, no-c-format
 msgid "&No picture"
 msgstr "ໃຊ້ໂປຮແກມສ່າງ"
 
-#: rc.cpp:57 rc.cpp:125
+#: rc.cpp:139 rc.cpp:301
+#, no-c-format
 msgid "No picture, color only"
 msgstr ""
 
-#: rc.cpp:58 rc.cpp:126
+#: rc.cpp:141 rc.cpp:303
+#, no-c-format
 msgid "&Slide show:"
 msgstr ""
 
-#: rc.cpp:59 rc.cpp:127
+#: rc.cpp:143 rc.cpp:305
+#, no-c-format
 msgid "&Picture:"
 msgstr ""
 
-#: rc.cpp:60 rc.cpp:128
-#, fuzzy
+#: rc.cpp:145 rc.cpp:307
+#, fuzzy, no-c-format
 msgid "Set&up..."
 msgstr "ຕັ້ງຄ່າ..."
 
-#: rc.cpp:61 rc.cpp:129
+#: rc.cpp:147 rc.cpp:309
+#, no-c-format
 msgid ""
 "Click this button to select a set of images to be used as background "
 "pictures. One picture at a time will be shown for a specified amount of "
@@ -705,23 +746,28 @@ msgid ""
 "shown at random or in the order you specify them."
 msgstr ""
 
-#: rc.cpp:62 rc.cpp:130
+#: rc.cpp:150 rc.cpp:312
+#, no-c-format
 msgid "Show the following pictures:"
 msgstr ""
 
-#: rc.cpp:63 rc.cpp:131
+#: rc.cpp:152 rc.cpp:314
+#, no-c-format
 msgid "&Show pictures in random order"
 msgstr ""
 
-#: rc.cpp:64 rc.cpp:132
+#: rc.cpp:154 rc.cpp:316
+#, no-c-format
 msgid "Change &picture after:"
 msgstr ""
 
-#: rc.cpp:67 rc.cpp:135
+#: rc.cpp:160 rc.cpp:322
+#, no-c-format
 msgid "Move &Down"
 msgstr ""
 
-#: rc.cpp:68 rc.cpp:136
+#: rc.cpp:162 rc.cpp:324
+#, no-c-format
 msgid "Move &Up"
 msgstr ""
 
@@ -891,9 +937,6 @@ msgstr ""
 
 #~ msgid "Contrast Blending"
 #~ msgstr "ປະສົມສີໃນແນວນອນ"
-
-#~ msgid "Select Wallpaper"
-#~ msgstr "ເລືອກພາບພື້ນຫຼັງ"
 
 #~ msgid "Currently only local wallpapers are allowed."
 #~ msgstr "ໃຊ້ໄດ້ສະເພາະພາບພື້ນຫຼັງທີ່ເປັນແຟ້ມພາຍໃນລະບົບເທົ່ານັ້ນ"
