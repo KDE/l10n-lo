@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-12-03 02:51+0100\n"
+"POT-Creation-Date: 2003-11-15 01:27+0100\n"
 "PO-Revision-Date: 2003-01-11 17:55+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -31,14 +31,16 @@ msgid ""
 "The reliable KDE session manager that talks the standard X11R6 \n"
 "session management protocol (XSMP)."
 msgstr ""
-"ໂປຣແກຣມຈັດການເຊສຊັນຂອງ ເຄດີອີ "
-"ຈະຕິດຕໍ່ກັບ\n"
-"ໂປຣໂຕຄອນຈັດການເຊສຊັນຂອາງX11R6 "
-"(XSMP)"
+"ໂປຣແກຣມຈັດການເຊສຊັນຂອງ "
+"ເຄດີອີ ຈະຕິດຕໍ່ກັບ\n"
+"ໂປຣໂຕຄອນຈັດການເຊສຊັນຂອາງX11R6"
+" (XSMP)"
 
 #: main.cpp:35
 msgid "Restores the saved user session if available"
-msgstr "ເອີ້ນຄືນເຊສຊັນກ່ອນຫນ້າທີຄ້າງໄວ້(ຖ້າມີ)"
+msgstr ""
+"ເອີ້ນຄືນເຊສຊັນກ່ອນຫນ້າທີຄ"
+"້າງໄວ້(ຖ້າມີ)"
 
 #: main.cpp:37
 msgid ""
@@ -46,59 +48,69 @@ msgid ""
 "participating in the session. Default is 'kwin'"
 msgstr ""
 "ເອີ້ນໃຫ້'ດັບເບິນຢູເອັມ "
-"(ໂປຣແກຣມຈັດການຫນ້າຈໍ)"
-"ເຮັດວູກ\n"
+"(ໂປຣແກຣມຈັດການຫນ້າຈໍ)ເຮັດວູ"
+"ກ\n"
 "ຫາກຍັງບໍ່ມີການເຮັດວູກ "
 "ໂປຣແກຣມໂດຍປະລິຍາຍຄື 'ເຄວິນ'"
 
 #: main.cpp:38
 msgid "Also allow remote connections."
-msgstr "ອະນຸຍາດການເຊື່ອມຕໍ່ຈາກເຄື່ອງອື່ນ"
+msgstr ""
+"ອະນຸຍາດການເຊື່ອມຕໍ່ຈາກເຄື"
+"່ອງອື່ນ"
 
-#: main.cpp:166
+#: main.cpp:182
 msgid "The KDE Session Manager"
 msgstr "ໂປຣແກຣມຈັດການເຊສຊັນ ເຄດີອີ"
 
-#: shutdown.cpp:81
+#: shutdown.cpp:80
 msgid "End Session for \"%1\""
 msgstr "ຈົບເຊສຊັນສຳລັບ\"%1\""
 
+#: shutdown.cpp:103
+#, fuzzy
+msgid "What do you want to do?"
+msgstr ""
+"ທ່ານຕ້ອງການຈະເຮັດຫຍັງຕໍ່ໄ"
+"ປ?"
+
+#: shutdown.cpp:104
+#, fuzzy
+msgid "&End session only"
+msgstr "ຈົບເຊສຊັນສຳລັບ\"%1\""
+
 #: shutdown.cpp:105
-msgid "What do you want to do next?"
-msgstr "ທ່ານຕ້ອງການຈະເຮັດຫຍັງຕໍ່ໄປ?"
-
-#: shutdown.cpp:106
-msgid "&Login as different user"
-msgstr "ລັອກອິນແປ້ນແລະຜູ້ໃຊ້ອື່ນ"
-
-#: shutdown.cpp:107
 msgid "&Turn off computer"
 msgstr "ແລະ ປິດເຄື່ອງຄອມພິວເຕີ"
 
-#: shutdown.cpp:108
+#: shutdown.cpp:106
 msgid "&Restart computer"
-msgstr "ເລີ່ມການເຮັດແລະວູກຄອມພິວເຕີ?ໃຫມ່"
+msgstr ""
+"ເລີ່ມການເຮັດແລະວູກຄອມພິວເ"
+"ຕີ?ໃຫມ່"
 
-#: shutdown.cpp:129
+#: shutdown.cpp:127
 msgid "Shutdown Mode"
 msgstr "ໂຫມດການປິດເຄື່ອງ"
 
-#: shutdown.cpp:130
+#: shutdown.cpp:128
 msgid "Sch&edule"
 msgstr "ແລະຕາຕະລາງງານ"
 
-#: shutdown.cpp:132
+#: shutdown.cpp:130
 msgid "&Force now"
 msgstr "ບັງຄັບໃຫ້ເຮັດດງວນີ້"
 
-#: shutdown.cpp:133
+#: shutdown.cpp:131
 msgid "&Try now"
 msgstr "ເຮັດດງວນີ້"
 
-#: shutdown.cpp:144
+#: shutdown.cpp:142
 msgid "&Logout"
 msgstr "ລັອກເອົາຕ໌"
 
+#~ msgid "&Login as different user"
+#~ msgstr "ລັອກອິນແປ້ນແລະຜູ້ໃຊ້ອື່ນ"
+
 #~ msgid "&Save session for future logins"
 #~ msgstr "บันทึกค่าของเซสชันปัจจุบัน สำหรับการล็อกอินครั้งต่อไป"
-
