@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-02-03 01:23+0100\n"
+"POT-Creation-Date: 2005-02-22 01:22+0100\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -186,7 +186,7 @@ msgstr "ສ້າງໂປຣເຈັກ"
 msgid "Opening object \"%1\" failed."
 msgstr ""
 
-#: core/kexiproject.cpp:450 main/keximainwindowimpl.cpp:2765
+#: core/kexiproject.cpp:450 main/keximainwindowimpl.cpp:2767
 msgid "Could not set empty name for this object."
 msgstr ""
 
@@ -328,7 +328,7 @@ msgid "\"%1\" value has to be entered."
 msgstr ""
 
 #: core/kexivalidator.h:75
-msgid "You can improve data in this row or use \"Cancel row changes\" function."
+msgid "You can correct data in this row or use \"Cancel row changes\" function."
 msgstr ""
 
 #: main/kexibrowser.cpp:74 main/keximainwindowimpl.cpp:605
@@ -336,7 +336,8 @@ msgstr ""
 msgid "Project Navigator"
 msgstr "ໂປຣເຈັກ"
 
-#: main/kexibrowser.cpp:103
+#: main/kexibrowser.cpp:103 main/startup/KexiStartup.cpp:323
+#: widget/kexidbconnectionwidget.cpp:227
 msgid "&Open"
 msgstr ""
 
@@ -408,7 +409,7 @@ msgstr "ຜູ້ພັດທະນາ"
 
 #: main/kexiaboutdata.h:50
 #, fuzzy
-msgid "Original Form Designer, Original UIModes & much more"
+msgid "Original Form Designer, Original user interface & much more"
 msgstr "ຈາກການດິໄຊ, UIMໂຫມດ & ຫລາຍ"
 
 #: main/kexiaboutdata.h:51
@@ -431,7 +432,8 @@ msgid "Initial design improvements"
 msgstr "ອອກແບບ, ການປັບປຸງໃຫ້ດີຂື້ນ"
 
 #: main/kexiaboutdata.h:55
-msgid "Icons and UI-Research"
+#, fuzzy
+msgid "Icons and user interface research"
 msgstr "ໄອຄອນ ແລະ UI-ເຂົ້າຫາຄືນ"
 
 #: main/kexiaboutdata.h:56
@@ -589,67 +591,85 @@ msgstr ""
 msgid "Open &Recent Project"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:235
-msgid "You have specified invalid port number \"%1\"."
-msgstr ""
-
-#: main/startup/KexiStartup.cpp:255
-msgid "Could not start Kexi application this way."
+#: main/startup/KexiStartup.cpp:204
+msgid ""
+"You have specified invalid argument (\"%1\") for \"type\" command-line "
+"option."
 msgstr ""
 
 #: main/startup/KexiStartup.cpp:259
+msgid "You have specified invalid port number \"%1\"."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:279
+msgid "Could not start Kexi application this way."
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:283
 msgid "You have used both \"createdb\" and \"dropdb\" startup options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:265
+#: main/startup/KexiStartup.cpp:289
 #, fuzzy
 msgid "No project name specified."
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
-#: main/startup/KexiStartup.cpp:275
+#: main/startup/KexiStartup.cpp:298
+#, fuzzy
+msgid "Opening database"
+msgstr "ຖານຂໍ້ມູນ"
+
+#: main/startup/KexiStartup.cpp:299
 msgid "Please enter the password."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:276
-#, c-format
-msgid "Please enter the password for user %1."
-msgstr ""
-
-#: main/startup/KexiStartup.cpp:280
+#: main/startup/KexiStartup.cpp:306
 #, fuzzy
 msgid "local database server"
 msgstr ""
 "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ "
 "ໄດເວີ !"
 
-#: main/startup/KexiStartup.cpp:281
+#: main/startup/KexiStartup.cpp:307
 #, fuzzy, c-format
 msgid "Database server: %1"
 msgstr "ຖານຂໍ້ມູນຜິດພາດ"
 
-#: main/startup/KexiStartup.cpp:285
+#: main/startup/KexiStartup.cpp:311
 msgid ""
 "_: unspecified user\n"
 "(unspecified)"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:288
+#: main/startup/KexiStartup.cpp:314
 #, fuzzy, c-format
 msgid "Username: %1"
 msgstr "ຜູ້ໃຊ້:"
 
-#: main/startup/KexiStartup.cpp:307
+#: main/startup/KexiStartup.cpp:322 widget/kexidbconnectionwidget.cpp:157
+#, fuzzy
+msgid "&Details"
+msgstr "ເປັນທົດສະນິຍົມ"
+
+#: main/startup/KexiStartup.cpp:347
 msgid "You have used both \"final-mode\" and \"design-mode\" startup options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:325
+#: main/startup/KexiStartup.cpp:365
 #, fuzzy
 msgid ""
 "Could not remove project.\n"
 "The file \"%1\" does not exist."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/startup/KexiStartup.cpp:365
+#: main/startup/KexiStartup.cpp:396
+#, fuzzy
+msgid ""
+"Could not open shortcut file\n"
+"\"%1\"."
+msgstr "ຕິດຕໍ່ ສາຂາ"
+
+#: main/startup/KexiStartup.cpp:469
 msgid ""
 "You have specified a few database objects to be opened automatically, using "
 "startup options.\n"
@@ -657,59 +677,66 @@ msgid ""
 "dropping projects."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:381
+#: main/startup/KexiStartup.cpp:485
 msgid "Project \"%1\" created successfully."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:391
+#: main/startup/KexiStartup.cpp:495
 msgid "Project \"%1\" dropped successfully."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:504
+#: main/startup/KexiStartup.cpp:608
 #, fuzzy
 msgid ""
 "Could not load project.\n"
 "The file \"%1\" does not exist."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: main/startup/KexiStartup.cpp:522
+#: main/startup/KexiStartup.cpp:639
 msgid ""
 "The project file \"%1\" is recognized as compatible with \"%2\" database "
 "driver, while you have asked for \"%3\" database driver to be used.\n"
 "Do you want to use \"%4\" database driver?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:535
+#: main/startup/KexiStartup.cpp:652
 msgid ""
 "Previous version of database file format (\"%1\") is detected in the \"%2\" "
 "project file.\n"
 "Do you want to convert the project to a new \"%3\" format (recommended)?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:546
+#: main/startup/KexiStartup.cpp:663
 msgid ""
 "Failed converting project file \"%1\" to a new \"%2\" format.\n"
 "The file format remain unchanged."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:558
+#: main/startup/KexiStartup.cpp:675
 msgid "Possible problems:"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:562
+#: main/startup/KexiStartup.cpp:679
 msgid "The file \"%1\" is not recognized as being supported by Kexi."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:564
+#: main/startup/KexiStartup.cpp:681
 #, c-format
 msgid ""
 "Database driver for this file type not found.\n"
 "Detected MIME type: %1"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:582
+#: main/startup/KexiStartup.cpp:700
 msgid "Could not load list of available projects for connection \"%1\""
 msgstr ""
+
+#: main/startup/KexiStartup.cpp:719
+#, fuzzy
+msgid ""
+"Failed saving connection data to\n"
+"\"%1\" file."
+msgstr "ຕິດຕໍ່ ສາຂາ"
 
 #: main/startup/KexiStartup_p.cpp:75
 msgid "Saving \"%1\" project file to a new \"%2\" database format..."
@@ -821,7 +848,7 @@ msgid "Command \"%1\" failed."
 msgstr "ໂປຣເຈັກ"
 
 #. i18n: file data/kexiui.rc line 92
-#: main/keximainwindowimpl.cpp:408 main/keximainwindowimpl.cpp:437 rc.cpp:102
+#: main/keximainwindowimpl.cpp:408 main/keximainwindowimpl.cpp:437 rc.cpp:105
 #, no-c-format
 msgid "&Window"
 msgstr ""
@@ -1171,7 +1198,7 @@ msgstr ""
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:723 main/keximainwindowimpl.cpp:2856
+#: main/keximainwindowimpl.cpp:723 main/keximainwindowimpl.cpp:2858
 msgid "Important Information"
 msgstr ""
 
@@ -1261,72 +1288,77 @@ msgstr "ໂປຣເຈັກ"
 msgid "Save Object As"
 msgstr "ໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:2230
+#: main/keximainwindowimpl.cpp:2232
 msgid ""
+"_: %1 is the type of the object (eg 'report', 'table', 'query') and %2 is "
+"its name For example: Table \"my_table\" allready exists\n"
 "%1 \"%2\" already exists.\n"
 "Please choose other name."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2246
+#: main/keximainwindowimpl.cpp:2248
 msgid "Saving new \"%1\" object failed."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2280
-msgid "<p>The object has been modified: %1 \"%2\".</p><p>Do you want to save it?</p>"
+#: main/keximainwindowimpl.cpp:2282
+msgid ""
+"_: %1 is the type of the object (eg 'Report', 'Table', 'query') and %2 is "
+"its name\n"
+"<p>%1 \"%2\" has been modified.</p><p>Do you want to save it?</p>"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2730
+#: main/keximainwindowimpl.cpp:2732
 #, fuzzy
 msgid "Do you want to remove:"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: main/keximainwindowimpl.cpp:2755
+#: main/keximainwindowimpl.cpp:2757
 #, fuzzy
 msgid "Could not remove object."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/keximainwindowimpl.cpp:2773
+#: main/keximainwindowimpl.cpp:2775
 #, fuzzy
 msgid "Renaming object \"%1\" failed."
 msgstr "ໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:2897
+#: main/keximainwindowimpl.cpp:2899
 msgid ""
 "Please note that forms are currently unstable functionality, provided "
 "<u>only for your preview</u>."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2900
+#: main/keximainwindowimpl.cpp:2902
 msgid "Forms will be available after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2904
+#: main/keximainwindowimpl.cpp:2906
 msgid "Forms will be hidden after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2929
+#: main/keximainwindowimpl.cpp:2931
 #, fuzzy
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:2934
+#: main/keximainwindowimpl.cpp:2936
 msgid "No Final Mode data found."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2942
+#: main/keximainwindowimpl.cpp:2944
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2972
+#: main/keximainwindowimpl.cpp:2974
 msgid "Specified plugin does not exist."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2980
+#: main/keximainwindowimpl.cpp:2982
 msgid "Specified object could not be opened."
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 78
-#: main/kexinamewidget.cpp:63 rc.cpp:138
+#: main/kexinamewidget.cpp:63 rc.cpp:141
 #, fuzzy, no-c-format
 msgid "Caption:"
 msgstr "ທີ່ຢູ່"
@@ -1343,11 +1375,15 @@ msgstr ""
 msgid "Database Location"
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:41
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 111
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:41 rc.cpp:525
+#, no-c-format
 msgid "Local"
 msgstr "ປະຈຸບັນ"
 
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:42
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 139
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:42 rc.cpp:528
+#, no-c-format
 msgid "Remote"
 msgstr "ຄວບຄຸມ"
 
@@ -1356,13 +1392,14 @@ msgid "Custom socket:"
 msgstr "ເລືອກ ຊອກເກັດເອງ"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 183
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:48 rc.cpp:404
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:48 rc.cpp:407
 #, no-c-format
 msgid "Host:"
 msgstr "ໂຫສ:"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 218
-#: main/projectWizard/kexicreateprojectpagelocation.cpp:50 rc.cpp:408
+#: main/projectWizard/kexicreateprojectpagelocation.cpp:50 rc.cpp:411
+#: rc.cpp:537
 #, no-c-format
 msgid "Port:"
 msgstr "ພອດ:"
@@ -1377,7 +1414,7 @@ msgstr "ໄດເວີ:"
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 87
 #: main/projectWizard/kexicreateproject.cpp:52
-#: main/projectWizard/kexicreateprojectpageengine.cpp:86 rc.cpp:321 rc.cpp:378
+#: main/projectWizard/kexicreateprojectpageengine.cpp:86 rc.cpp:324 rc.cpp:381
 #, no-c-format
 msgid "Engine"
 msgstr "ເຄື່ອງຈັກ"
@@ -1403,14 +1440,14 @@ msgid "Internal error while retrieving information. (No driver installed ?)"
 msgstr ""
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 30
-#: main/projectWizard/kexicreateproject.cpp:54 rc.cpp:385
+#: main/projectWizard/kexicreateproject.cpp:54 rc.cpp:388
 #, no-c-format
 msgid "Location"
 msgstr "ທີ່ຢູ່"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 270
 #: main/projectWizard/kexicreateproject.cpp:56
-#: main/projectWizard/kexicreateprojectpageauth.cpp:35 rc.cpp:417
+#: main/projectWizard/kexicreateprojectpageauth.cpp:35 rc.cpp:420 rc.cpp:540
 #, no-c-format
 msgid "Authentication"
 msgstr "ການຮັບຮອງ"
@@ -1426,7 +1463,7 @@ msgstr ""
 "ຖານຂໍ້ມູນ"
 
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 64
-#: main/projectWizard/kexicreateprojectpagedb.cpp:64 rc.cpp:375
+#: main/projectWizard/kexicreateprojectpagedb.cpp:64 rc.cpp:378 rc.cpp:510
 #, no-c-format
 msgid "Database"
 msgstr "ຖານຂໍ້ມູນ"
@@ -1455,7 +1492,7 @@ msgid "User:"
 msgstr "ຜູ້ໃຊ້:"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 294
-#: main/projectWizard/kexicreateprojectpageauth.cpp:39 rc.cpp:423
+#: main/projectWizard/kexicreateprojectpageauth.cpp:39 rc.cpp:426
 #, no-c-format
 msgid "Password:"
 msgstr "ລະຫັດ:"
@@ -1490,7 +1527,9 @@ msgid "\"%1\" function is not available"
 msgstr ""
 
 #: kexi_utils.h:42
-msgid "%1 for version %2 of %3 application."
+msgid ""
+"_: %1 is one of the sentence above ie This function is not available\n"
+" %1 for version %2 of %3 application."
 msgstr ""
 
 #: tests/gui/finddialog/main.cpp:29
@@ -1502,12 +1541,12 @@ msgstr "ທົ່ງ"
 msgid "(All columns)"
 msgstr ""
 
-#: main.cpp:47
+#: main.cpp:46
 #, fuzzy
 msgid "Options related to entire projects:"
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: main.cpp:49
+#: main.cpp:48
 msgid ""
 "Create a new, blank project using specified\n"
 "database driver and database name\n"
@@ -1516,20 +1555,20 @@ msgid ""
 "if overwriting is needed."
 msgstr ""
 
-#: main.cpp:55
+#: main.cpp:54
 msgid ""
 "Like --createdb, but also open newly\n"
 "created database.\n"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:57
 msgid ""
 "Drop (remove) a project using specified\n"
 "database driver and database name.\n"
 "You will be asked for confirmation."
 msgstr ""
 
-#: main.cpp:63
+#: main.cpp:62
 msgid ""
 "Database driver to be used\n"
 "for connecting to a database project\n"
@@ -1539,10 +1578,25 @@ msgid ""
 msgstr ""
 
 #: main.cpp:69
+msgid ""
+"Specifies a type of a file provided\n"
+"as argument. This option is useful\n"
+"if your filename has not set a valid \n"
+"extension and it's type cannot be detected\n"
+"unambiguously by looking at it's contents.\n"
+"This option is ignored if no file\n"
+"is specified as an argument.\n"
+"Available file types are:\n"
+"- \"project\" for a project file (the default)\n"
+"- \"shortcut\" for a shortcut file pointing\n"
+"  you to a project.\n"
+msgstr ""
+
+#: main.cpp:82
 msgid "Options related to opening objects within a project:"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:84
 msgid ""
 "\n"
 "Open object of type <object_type>\n"
@@ -1558,44 +1612,44 @@ msgid ""
 " --open query:\"My very big query\""
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:96
 msgid ""
 "\n"
 "Like --open, but the object will\n"
 "be opened in Design Mode, if one is available"
 msgstr ""
 
-#: main.cpp:86
+#: main.cpp:99
 msgid ""
 "\n"
 "Like --open, but the object will\n"
 "be opened in Text Mode, if one is available"
 msgstr ""
 
-#: main.cpp:89
+#: main.cpp:102
 msgid "Start new object design of type <object_type>"
 msgstr ""
 
-#: main.cpp:92
+#: main.cpp:105
 msgid ""
 "Start project in the Final Mode, regardless \n"
 "of the project settings"
 msgstr ""
 
-#: main.cpp:95
+#: main.cpp:108
 msgid ""
 "Start project in the Design Mode, regardless \n"
 "of the project settings"
 msgstr ""
 
-#: main.cpp:100
+#: main.cpp:113
 #, fuzzy
 msgid "Options related to database servers:"
 msgstr ""
 "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ "
 "ໄດເວີ !"
 
-#: main.cpp:103
+#: main.cpp:116
 msgid ""
 "User name to be used\n"
 "for connecting to a database project.\n"
@@ -1603,7 +1657,7 @@ msgid ""
 "is provided."
 msgstr ""
 
-#: main.cpp:114
+#: main.cpp:127
 msgid ""
 "Server (host) name to be used\n"
 "for connecting to a database project.\n"
@@ -1611,7 +1665,7 @@ msgid ""
 "is provided."
 msgstr ""
 
-#: main.cpp:119
+#: main.cpp:132
 msgid ""
 "Server's port name to be used\n"
 "for connecting to a database project.\n"
@@ -1619,7 +1673,7 @@ msgid ""
 "is provided."
 msgstr ""
 
-#: main.cpp:124
+#: main.cpp:137
 msgid ""
 "Server's local socket filename\n"
 "to be used for connecting to a database\n"
@@ -1627,7 +1681,7 @@ msgid ""
 "is provided."
 msgstr ""
 
-#: main.cpp:131
+#: main.cpp:144
 msgid ""
 "Database project filename\n"
 "or shortcut filename\n"
@@ -2044,7 +2098,7 @@ msgstr ""
 msgid "Unknown table \"%1\""
 msgstr ""
 
-#: kexidb/connectiondata.cpp:89
+#: kexidb/connectiondata.cpp:98
 msgid "file"
 msgstr ""
 
@@ -2261,11 +2315,7 @@ msgstr ""
 msgid "Row inserting on the server failed."
 msgstr ""
 
-#: kexidb/connection.cpp:2512
-msgid "Row deleting on the server failed."
-msgstr ""
-
-#: kexidb/connection.cpp:2534
+#: kexidb/connection.cpp:2512 kexidb/connection.cpp:2534
 msgid "Row deletion on the server failed."
 msgstr ""
 
@@ -2357,7 +2407,7 @@ msgid "&Project"
 msgstr "ໂປຣເຈັກ"
 
 #. i18n: file data/kexirelationhandlerui.rc line 11
-#: rc.cpp:45 rc.cpp:51 rc.cpp:129
+#: rc.cpp:45 rc.cpp:51 rc.cpp:132
 #, no-c-format
 msgid "Project"
 msgstr "ໂປຣເຈັກ"
@@ -2381,223 +2431,223 @@ msgid "Sort"
 msgstr "ພອດ:"
 
 #. i18n: file data/kexiui.rc line 107
-#: rc.cpp:108
+#: rc.cpp:111
 #, no-c-format
 msgid "&Other"
 msgstr ""
 
 #. i18n: file data/kexiui.rc line 122
-#: rc.cpp:114
+#: rc.cpp:117
 #, no-c-format
 msgid "Other &Licenses"
 msgstr ""
 
 #. i18n: file data/kexiui.rc line 152
-#: rc.cpp:123
+#: rc.cpp:126
 #, fuzzy, no-c-format
 msgid "Data"
 msgstr "ຂໍ້ມູນການພິມ"
 
 #. i18n: file ./main/projectsettingsui.ui line 16
-#: rc.cpp:126
+#: rc.cpp:129
 #, fuzzy, no-c-format
 msgid "Project Settings"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
 #. i18n: file ./main/projectsettingsui.ui line 46
-#: rc.cpp:132
+#: rc.cpp:135
 #, fuzzy, no-c-format
 msgid "Project Data"
 msgstr "ໂປຣເຈັກ"
 
 #. i18n: file ./main/projectsettingsui.ui line 67
-#: rc.cpp:135
+#: rc.cpp:138
 #, no-c-format
 msgid "Summary:"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 86
-#: rc.cpp:141
+#: rc.cpp:144
 #, no-c-format
 msgid "Icon:"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 120
-#: rc.cpp:145
+#: rc.cpp:148
 #, fuzzy, no-c-format
 msgid "Startup"
 msgstr "ຂໍ້ມູນການພິມ"
 
 #. i18n: file ./main/projectsettingsui.ui line 131
-#: rc.cpp:148
+#: rc.cpp:151
 #, no-c-format
 msgid "Automatically launch a document on startup"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 139
-#: rc.cpp:151
+#: rc.cpp:154
 #, fuzzy, no-c-format
 msgid "Part:"
 msgstr "ພອດ:"
 
 #. i18n: file ./main/projectsettingsui.ui line 145
-#: rc.cpp:154
+#: rc.cpp:157
 #, fuzzy, no-c-format
 msgid "Forms"
 msgstr "ຟອມ ໃຫມ່"
 
 #. i18n: file ./main/projectsettingsui.ui line 163
-#: rc.cpp:157
+#: rc.cpp:160
 #, fuzzy, no-c-format
 msgid "Item:"
 msgstr "ຕາຕະລາງ ໃຫມ່"
 
 #. i18n: file ./main/projectsettingsui.ui line 169
-#: rc.cpp:160
+#: rc.cpp:163
 #, no-c-format
 msgid "main"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 215
-#: rc.cpp:163 rc.cpp:257
+#: rc.cpp:166 rc.cpp:260
 #, fuzzy, no-c-format
 msgid "Actions"
 msgstr "ທີ່ຢູ່"
 
 #. i18n: file ./main/projectsettingsui.ui line 226
-#: rc.cpp:166
+#: rc.cpp:169
 #, no-c-format
 msgid "Menubar"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 235
-#: rc.cpp:169
+#: rc.cpp:172
 #, fuzzy, no-c-format
 msgid "Action"
 msgstr "ທີ່ຢູ່"
 
 #. i18n: file ./main/projectsettingsui.ui line 246
-#: rc.cpp:172
+#: rc.cpp:175
 #, fuzzy, no-c-format
 msgid "MyProject"
 msgstr "ໂປຣເຈັກ"
 
 #. i18n: file ./main/projectsettingsui.ui line 301
-#: rc.cpp:193 rc.cpp:218
+#: rc.cpp:196 rc.cpp:221
 #, no-c-format
 msgid "About Kexi"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 309
-#: rc.cpp:196 rc.cpp:221
+#: rc.cpp:199 rc.cpp:224
 #, fuzzy, no-c-format
 msgid "About MyProject"
 msgstr "ໂປຣເຈັກ"
 
 #. i18n: file ./main/projectsettingsui.ui line 394
-#: rc.cpp:203
+#: rc.cpp:206
 #, no-c-format
 msgid "-- Separator --"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 447
-#: rc.cpp:224
+#: rc.cpp:227
 #, no-c-format
 msgid "Artists"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 455
-#: rc.cpp:227
+#: rc.cpp:230
 #, fuzzy, no-c-format
 msgid "Albums"
 msgstr "ປ່ຽນ OR "
 
 #. i18n: file ./main/projectsettingsui.ui line 478
-#: rc.cpp:230
+#: rc.cpp:233
 #, no-c-format
 msgid "&New Action"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 486
-#: rc.cpp:233
+#: rc.cpp:236
 #, fuzzy, no-c-format
 msgid "&Delete Action"
 msgstr "ລືບແນວສອບຖາມ"
 
 #. i18n: file ./main/projectsettingsui.ui line 494
-#: rc.cpp:236
+#: rc.cpp:239
 #, no-c-format
 msgid "Toolbars"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 570
-#: rc.cpp:246
+#: rc.cpp:249
 #, no-c-format
 msgid "Toolbar:"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 614
-#: rc.cpp:251
+#: rc.cpp:254
 #, no-c-format
 msgid "Main"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 655
-#: rc.cpp:263
+#: rc.cpp:266
 #, no-c-format
 msgid "MDI Mode:"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 661
-#: rc.cpp:266
+#: rc.cpp:269
 #, no-c-format
 msgid "Use user settings"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 666
-#: rc.cpp:269
+#: rc.cpp:272
 #, no-c-format
 msgid "Toplevel"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 671
-#: rc.cpp:272
+#: rc.cpp:275
 #, fuzzy, no-c-format
 msgid "Child Frame"
 msgstr "ຊື່ ສາຂາ "
 
 #. i18n: file ./main/projectsettingsui.ui line 676
-#: rc.cpp:275
+#: rc.cpp:278
 #, fuzzy, no-c-format
 msgid "Tab Page"
 msgstr "ແຖບ ກວ້າງ"
 
 #. i18n: file ./main/projectsettingsui.ui line 681
-#: rc.cpp:278
+#: rc.cpp:281
 #, no-c-format
 msgid "IDEAL"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 709
-#: rc.cpp:281
+#: rc.cpp:284
 #, no-c-format
 msgid "Show Taskbar"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 725
-#: rc.cpp:284
+#: rc.cpp:287
 #, no-c-format
 msgid "Show Menubar"
 msgstr ""
 
 #. i18n: file ./main/projectsettingsui.ui line 751
-#: rc.cpp:293
+#: rc.cpp:296
 #, no-c-format
 msgid "&Ok"
 msgstr ""
 
 #. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 36
-#: rc.cpp:296
+#: rc.cpp:299
 #, no-c-format
 msgid ""
 "Kexi will create a new database project. Select a storage method which will "
@@ -2605,20 +2655,20 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 72
-#: rc.cpp:300
+#: rc.cpp:303
 #, no-c-format
 msgid "Always &use files for creating new projects"
 msgstr ""
 
 #. i18n: file ./main/startup/KexiOpenExistingFile.ui line 36
-#: rc.cpp:303
+#: rc.cpp:306
 #, no-c-format
 msgid ""
 "<b>Select existing Kexi project file to open:</b>\n"
 msgstr ""
 
 #. i18n: file ./main/startup/KexiOpenExistingFile.ui line 97
-#: rc.cpp:307
+#: rc.cpp:310
 #, no-c-format
 msgid ""
 "Click \"Advanced\" button if you want to find an existing project on a "
@@ -2626,13 +2676,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiOpenExistingFile.ui line 116
-#: rc.cpp:310 rc.cpp:342
+#: rc.cpp:313 rc.cpp:345
 #, no-c-format
 msgid "&Advanced "
 msgstr ""
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 64
-#: rc.cpp:313
+#: rc.cpp:316
 #, no-c-format
 msgid ""
 "<b>Select existing database server's connection from the list below and "
@@ -2643,38 +2693,38 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 76
-#: plugins/tables/kexialtertabledialog.cpp:267 rc.cpp:318 rc.cpp:506
-#: rc.cpp:566
+#: plugins/tables/kexialtertabledialog.cpp:267 rc.cpp:321 rc.cpp:570
+#: rc.cpp:630
 #, fuzzy, no-c-format
 msgid "Name"
 msgstr "ເຟຣມ"
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 98
-#: rc.cpp:324
+#: rc.cpp:327
 #, no-c-format
 msgid "Server Information"
 msgstr ""
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 180
-#: rc.cpp:327 widget/relations/kexirelationwidget.cpp:64
+#: rc.cpp:330 widget/relations/kexirelationwidget.cpp:64
 #, no-c-format
 msgid "&Add"
 msgstr "&ເພີ່ມ"
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 247
-#: rc.cpp:336
+#: rc.cpp:339
 #, no-c-format
 msgid "Click \"Back\" button if you want to open existing Kexi project file."
 msgstr ""
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 269
-#: rc.cpp:339
+#: rc.cpp:342
 #, no-c-format
 msgid "&Back"
 msgstr ""
 
 #. i18n: file ./main/startup/KexiNewFileDBWidget.ui line 104
-#: rc.cpp:345
+#: rc.cpp:348
 #, no-c-format
 msgid ""
 "Click \"Advanced\" button if you want to create a new database on a server "
@@ -2682,7 +2732,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiNewFileDBWidget.ui line 124
-#: rc.cpp:348
+#: rc.cpp:351
 #, no-c-format
 msgid ""
 "<P><b>Kexi will create a new database, which will be stored in a file on "
@@ -2691,7 +2741,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiNewFileDBWidget.ui line 144
-#: rc.cpp:352
+#: rc.cpp:355
 #, no-c-format
 msgid ""
 "Always &use files for creating new projects.\n"
@@ -2699,13 +2749,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiServerDBNamePage.ui line 24
-#: rc.cpp:356 rc.cpp:365
+#: rc.cpp:359 rc.cpp:368
 #, fuzzy, no-c-format
 msgid "Project caption: "
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
 #. i18n: file ./main/startup/KexiServerDBNamePage.ui line 32
-#: rc.cpp:359
+#: rc.cpp:362
 #, fuzzy, no-c-format
 msgid "Project's database name: "
 msgstr ""
@@ -2713,13 +2763,13 @@ msgstr ""
 "ຖານຂໍ້ມູນ"
 
 #. i18n: file ./main/startup/KexiDBTitlePage.ui line 17
-#: rc.cpp:362
+#: rc.cpp:365
 #, no-c-format
 msgid "KexiDBTitlePageBase"
 msgstr ""
 
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 44
-#: rc.cpp:368
+#: rc.cpp:371
 #, no-c-format
 msgid ""
 "<b>There are Kexi projects you have recently opened.</b>"
@@ -2727,217 +2777,301 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 53
-#: rc.cpp:372
+#: rc.cpp:375
 #, fuzzy, no-c-format
 msgid "Project Name"
 msgstr "ໂປຣເຈັກ"
 
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 86
-#: rc.cpp:381
+#: rc.cpp:384
 #, fuzzy, no-c-format
 msgid "Connection"
 msgstr "ປ່ຽນ OR "
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 41
-#: rc.cpp:388
+#: rc.cpp:391
 #, fuzzy, no-c-format
 msgid "Localhost"
 msgstr "ປະຈຸບັນ"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 52
-#: rc.cpp:391
+#: rc.cpp:394
 #, fuzzy, no-c-format
 msgid "Remote host"
 msgstr "ຄວບຄຸມ"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 112
-#: rc.cpp:395
+#: rc.cpp:398
 #, fuzzy, no-c-format
 msgid "Socket:"
 msgstr "ສັບພະຍາກອນ"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 128
-#: rc.cpp:398 rc.cpp:411
+#: rc.cpp:401 rc.cpp:414
 #, fuzzy, no-c-format
 msgid "Custom:"
 msgstr "ເລືອກ ຊອກເກັດເອງ"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 281
-#: rc.cpp:420
+#: rc.cpp:423
 #, fuzzy, no-c-format
 msgid "Username:"
 msgstr "ຜູ້ໃຊ້:"
 
 #. i18n: file ./main/projectWizard/kexicreateprojectpageconnectionwidget.ui line 302
-#: rc.cpp:426
+#: rc.cpp:429
 #, no-c-format
 msgid "Save password in the projectfile"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 16
-#: rc.cpp:429
+#: rc.cpp:432
 #, no-c-format
 msgid "Find Text"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 44
-#: rc.cpp:432
+#: rc.cpp:435
 #, no-c-format
 msgid "C&ase sensitive"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 64
-#: rc.cpp:435
+#: rc.cpp:438
 #, no-c-format
 msgid "Any part of field"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 69
-#: rc.cpp:438
+#: rc.cpp:441
 #, fuzzy, no-c-format
 msgid "Whole field"
 msgstr "ລືບ ຕາຕະລາງ?"
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 74
-#: rc.cpp:441
+#: rc.cpp:444
 #, no-c-format
 msgid "Start of field"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 89
-#: rc.cpp:444
+#: rc.cpp:447
 #, no-c-format
 msgid "Fi&nd:"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 100
-#: rc.cpp:447
+#: rc.cpp:450
 #, no-c-format
 msgid "Re&place with:"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 111
-#: rc.cpp:450
+#: rc.cpp:453
 #, fuzzy, no-c-format
 msgid "&Search:"
 msgstr "ຫາ:"
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 122
-#: rc.cpp:453
+#: rc.cpp:456
 #, no-c-format
 msgid "&Match:"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 131
-#: rc.cpp:456
+#: rc.cpp:459
 #, no-c-format
 msgid "Up"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 136
-#: rc.cpp:459
+#: rc.cpp:462
 #, fuzzy, no-c-format
 msgid "Down"
 msgstr "ສະແດງ"
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 141
-#: rc.cpp:462
+#: rc.cpp:465
 #, no-c-format
 msgid "All rows"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 167
-#: rc.cpp:465
+#: rc.cpp:468
 #, no-c-format
 msgid "&Look in column:"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 198
-#: rc.cpp:468
+#: rc.cpp:471
 #, no-c-format
 msgid "&Whole words only"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 209
-#: rc.cpp:471
+#: rc.cpp:474
 #, no-c-format
 msgid "Prompt on replace"
 msgstr ""
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 248
-#: rc.cpp:475
+#: rc.cpp:478
 #, fuzzy, no-c-format
 msgid "&Find next"
 msgstr "ຊື່ ສາຂາ "
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 267
-#: rc.cpp:482
+#: rc.cpp:485
 #, fuzzy, no-c-format
 msgid "&Replace"
 msgstr "ຄວບຄຸມ"
 
 #. i18n: file ./tests/gui/finddialog/kexifinddialogbase.ui line 275
-#: rc.cpp:485
+#: rc.cpp:488
 #, no-c-format
 msgid "&Replace All"
 msgstr ""
 
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 16
+#: rc.cpp:491
+#, fuzzy, no-c-format
+msgid "KexiDBConnectionWidgetDetailsBase"
+msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
+
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 41
+#: rc.cpp:494
+#, no-c-format
+msgid "Use socket &file instead of TCP/IP port:"
+msgstr ""
+
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 45
+#: rc.cpp:497
+#, no-c-format
+msgid "Alt+F"
+msgstr ""
+
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 92
+#: rc.cpp:500 rc.cpp:531
+#, fuzzy, no-c-format
+msgid "default"
+msgstr "ຍົກເລີກ ພອດ"
+
+#. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 157
+#: rc.cpp:504
+#, fuzzy, no-c-format
+msgid "&Description:"
+msgstr "ຟອມ ໃຫມ່"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 16
+#: rc.cpp:507
+#, fuzzy, no-c-format
+msgid "KexiConnectionWidget"
+msgstr "ປ່ຽນ OR "
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 46
+#: rc.cpp:513 widget/pixmapcollection.cpp:160
+#, fuzzy, no-c-format
+msgid "&Name:"
+msgstr "ເຟຣມ"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 62
+#: rc.cpp:516
+#, fuzzy, no-c-format
+msgid "&Title:"
+msgstr "ຕາຕະລາງ"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 76
+#: rc.cpp:519
+#, fuzzy, no-c-format
+msgid "&Engine:"
+msgstr "ເຄື່ອງຈັກ"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 100
+#: rc.cpp:522
+#, fuzzy, no-c-format
+msgid "Database location"
+msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 156
+#: rc.cpp:534
+#, fuzzy, no-c-format
+msgid "&Hostname:"
+msgstr "ໂຫສ:"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 218
+#: rc.cpp:543
+#, fuzzy, no-c-format
+msgid "&Username:"
+msgstr "ຜູ້ໃຊ້:"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 234
+#: rc.cpp:546
+#, fuzzy, no-c-format
+msgid "&Password:"
+msgstr "ລະຫັດ:"
+
+#. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 253
+#: rc.cpp:549
+#, no-c-format
+msgid "Save password in the shortcut file"
+msgstr ""
+
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 16
-#: rc.cpp:488
+#: rc.cpp:552
 #, no-c-format
 msgid "Parameter"
 msgstr ""
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 35
-#: rc.cpp:491
+#: rc.cpp:555
 #, fuzzy, no-c-format
 msgid "Name:"
 msgstr "ເຟຣມ"
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 51
-#: rc.cpp:494
+#: rc.cpp:558
 #, fuzzy, no-c-format
 msgid "kexi_"
 msgstr "Kexi"
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 96
-#: rc.cpp:497
+#: rc.cpp:561
 #, no-c-format
 msgid "Message:"
 msgstr ""
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 119
-#: rc.cpp:500
+#: rc.cpp:564
 #, no-c-format
 msgid "Type:"
 msgstr ""
 
 #. i18n: file ./plugins/queries/kexiparameterlisteditor.ui line 24
-#: rc.cpp:503
+#: rc.cpp:567
 #, fuzzy, no-c-format
 msgid "Parameters:"
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
 #. i18n: file ./plugins/queries/kexiparameterlisteditor.ui line 41
-#: plugins/tables/kexialtertabledialog.cpp:271 rc.cpp:509 rc.cpp:569
+#: plugins/tables/kexialtertabledialog.cpp:271 rc.cpp:573 rc.cpp:633
 #, no-c-format
 msgid "Type"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 20
-#: rc.cpp:518
+#: rc.cpp:582
 #, fuzzy, no-c-format
 msgid "Open File"
 msgstr "ເປີດ ຕາຕະລາງ"
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 28
-#: rc.cpp:521
+#: rc.cpp:585
 #, no-c-format
 msgid "Loading Import Plugin"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 39
-#: rc.cpp:524
+#: rc.cpp:588
 #, no-c-format
 msgid ""
 "Please be patient for a few seconds, while the appropriate plugin for your "
@@ -2945,49 +3079,49 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 52
-#: rc.cpp:527
+#: rc.cpp:591
 #, no-c-format
 msgid "dummySourcePage"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 60
-#: rc.cpp:530
+#: rc.cpp:594
 #, no-c-format
 msgid "Import Destination"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 71
-#: rc.cpp:533
+#: rc.cpp:597
 #, no-c-format
 msgid "Please Choose Where You Would Like to Import the Data To"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 85
-#: rc.cpp:536
+#: rc.cpp:600
 #, fuzzy, no-c-format
 msgid "New table"
 msgstr "ຕາຕະລາງ ໃຫມ່"
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 93
-#: rc.cpp:539
+#: rc.cpp:603
 #, no-c-format
 msgid "Existing table"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 106
-#: rc.cpp:542 rc.cpp:545
+#: rc.cpp:606 rc.cpp:609
 #, fuzzy, no-c-format
 msgid "Table:"
 msgstr "ຕາຕະລາງ"
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 148
-#: rc.cpp:548
+#: rc.cpp:612
 #, no-c-format
 msgid "Mapping Between Source and Destination Fields"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 159
-#: rc.cpp:551
+#: rc.cpp:615
 #, no-c-format
 msgid ""
 "Please choose into which fields of the selected destination table the "
@@ -2995,31 +3129,31 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 168
-#: rc.cpp:554 rc.cpp:605
+#: rc.cpp:618 rc.cpp:669
 #, no-c-format
 msgid "Destination Field"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 173
-#: rc.cpp:557 rc.cpp:608
+#: rc.cpp:621 rc.cpp:672
 #, fuzzy, no-c-format
 msgid "Source"
 msgstr "ສັບພະຍາກອນ"
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 193
-#: rc.cpp:560
+#: rc.cpp:624
 #, fuzzy, no-c-format
 msgid "Setup New Table"
 msgstr "ລືບ ຕາຕະລາງ?"
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 204
-#: rc.cpp:563
+#: rc.cpp:627
 #, fuzzy, no-c-format
 msgid "Table Properties"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ "
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 229
-#: rc.cpp:572
+#: rc.cpp:636
 #, no-c-format
 msgid "Default Value"
 msgstr "ບໍ່ໃຫ້ ຄ່າທຳງານ"
@@ -3027,73 +3161,73 @@ msgstr "ບໍ່ໃຫ້ ຄ່າທຳງານ"
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 237
 #: plugins/tables/kexialtertabledialog.cpp:101
 #: plugins/tables/kexialtertabledialog.cpp:309
-#: plugins/tables/kexitablepart.cpp:63 rc.cpp:575
+#: plugins/tables/kexitablepart.cpp:63 rc.cpp:639
 #, no-c-format
 msgid "Primary Key"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 245
-#: rc.cpp:578
+#: rc.cpp:642
 #, no-c-format
 msgid "Allow NULL"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 253
-#: rc.cpp:581 rc.cpp:611
+#: rc.cpp:645 rc.cpp:675
 #, no-c-format
 msgid "1"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 261
-#: rc.cpp:584 rc.cpp:614
+#: rc.cpp:648 rc.cpp:678
 #, no-c-format
 msgid "2"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 269
-#: rc.cpp:587 rc.cpp:617
+#: rc.cpp:651 rc.cpp:681
 #, no-c-format
 msgid "3"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 306
-#: rc.cpp:590
+#: rc.cpp:654
 #, no-c-format
 msgid "Add New Field"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 314
-#: rc.cpp:593
+#: rc.cpp:657
 #, fuzzy, no-c-format
 msgid "Delete Field"
 msgstr "ລືບ ຕາຕະລາງ?"
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 322
-#: rc.cpp:596
+#: rc.cpp:660
 #, no-c-format
 msgid "Move Field Down"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 330
-#: rc.cpp:599
+#: rc.cpp:663
 #, no-c-format
 msgid "Move Field Up"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 342
-#: rc.cpp:602
+#: rc.cpp:666
 #, fuzzy, no-c-format
 msgid "Field Mapping"
 msgstr "ຄວາມຍາວ"
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 408
-#: rc.cpp:620
+#: rc.cpp:684
 #, no-c-format
 msgid "Finishing"
 msgstr ""
 
 #. i18n: file ./plugins/importwizard/common/kexiimportwizardformbase.ui line 419
-#: rc.cpp:623
+#: rc.cpp:687
 #, no-c-format
 msgid ""
 "You have now provided all information needed for importing. Just click the "
@@ -3106,6 +3240,30 @@ msgstr ""
 #, fuzzy
 msgid "Fields"
 msgstr "ທົ່ງ"
+
+#: widget/kexidbconnectionwidget.cpp:68
+#, fuzzy
+msgid "Save changes"
+msgstr "ໂປຣເຈັກ"
+
+#: widget/kexidbconnectionwidget.cpp:69
+msgid "Save all changes made to this connection"
+msgstr ""
+
+#: widget/kexidbconnectionwidget.cpp:148
+#, fuzzy
+msgid "&Information"
+msgstr "ຟອມ ໃຫມ່"
+
+#: widget/kexidbconnectionwidget.cpp:225
+#, fuzzy
+msgid "Open database"
+msgstr "ຖານຂໍ້ມູນ"
+
+#: widget/kexidbconnectionwidget.cpp:227
+#, fuzzy
+msgid "Open database connection"
+msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
 #: widget/utils/kexirecordnavigator.cpp:66
 msgid "Row:"
@@ -3233,11 +3391,6 @@ msgstr "ຄວາມສຳພັນ"
 msgid "Load KDE Icon by Name"
 msgstr ""
 
-#: widget/pixmapcollection.cpp:160
-#, fuzzy
-msgid "&Name:"
-msgstr "ເຟຣມ"
-
 #: widget/pixmapcollection.cpp:168
 msgid "&Size:"
 msgstr ""
@@ -3328,47 +3481,47 @@ msgstr ""
 msgid "&Code Folding"
 msgstr "ລະຫັດ ທຳການລືບ"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:812
+#: widget/tableview/kexidataawareobjectiface.cpp:813
 #: widget/tableview/kexitableview.cpp:3291
 #: widget/tableview/kexitableviewdata.cpp:505
 msgid "The column's constraint is declared as NOT NULL."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:831
+#: widget/tableview/kexidataawareobjectiface.cpp:832
 #: widget/tableview/kexitableview.cpp:3310
 #: widget/tableview/kexitableviewdata.cpp:516
 msgid "The column's constraint is declared as NOT EMPTY."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:847
+#: widget/tableview/kexidataawareobjectiface.cpp:848
 #: widget/tableview/kexitableview.cpp:3326
 msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:880
+#: widget/tableview/kexidataawareobjectiface.cpp:881
 #: widget/tableview/kexitableview.cpp:3359
 msgid "Entered value is invalid."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1020
+#: widget/tableview/kexidataawareobjectiface.cpp:1021
 #: widget/tableview/kexitableview.cpp:826
 #, fuzzy
 msgid "Do you want to delete selected row?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1021
+#: widget/tableview/kexidataawareobjectiface.cpp:1022
 #: widget/tableview/kexitableview.cpp:827
 #, fuzzy
 msgid "&Delete row"
 msgstr "ລືບແນວສອບຖາມ"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1098
+#: widget/tableview/kexidataawareobjectiface.cpp:1106
 #: widget/tableview/kexitableview.cpp:978
 #, fuzzy
 msgid "Do you want to clear the contents of table %1?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1099
+#: widget/tableview/kexidataawareobjectiface.cpp:1107
 #: widget/tableview/kexitableview.cpp:979
 msgid "&Clear contents"
 msgstr ""
@@ -3522,181 +3675,185 @@ msgstr ""
 msgid "Edit Rich Text"
 msgstr "ແກ້ໄຂ ຈາກ"
 
-#: plugins/forms/kexidbfactory.cpp:140
+#: plugins/forms/kexidbfactory.cpp:146
 #, fuzzy
 msgid "Database Form"
 msgstr "ຖານຂໍ້ມູນຜິດພາດ"
 
-#: plugins/forms/kexidbfactory.cpp:141
+#: plugins/forms/kexidbfactory.cpp:147
 #, fuzzy
 msgid "DBForm"
 msgstr "ຟອມ ໃຫມ່"
 
-#: plugins/forms/kexidbfactory.cpp:142
+#: plugins/forms/kexidbfactory.cpp:148
 msgid "A db-aware form widget"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:148
+#: plugins/forms/kexidbfactory.cpp:154
 #, fuzzy
 msgid "Sub Form"
 msgstr "ຟອມ ໃຫມ່"
 
-#: plugins/forms/kexidbfactory.cpp:149
+#: plugins/forms/kexidbfactory.cpp:155
 #, fuzzy
 msgid "SubForm"
 msgstr "ຟອມ ໃຫມ່"
 
-#: plugins/forms/kexidbfactory.cpp:150
+#: plugins/forms/kexidbfactory.cpp:156
 msgid "A form widget included in another Form"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:160
+#: plugins/forms/kexidbfactory.cpp:166
 msgid "Line Edit"
 msgstr "ແກ້ໄຂ ເສັ້ນ"
 
-#: plugins/forms/kexidbfactory.cpp:161
+#: plugins/forms/kexidbfactory.cpp:167
 msgid ""
 "_: Widget name (see above)\n"
 "LineEdit"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:162
+#: plugins/forms/kexidbfactory.cpp:168
 msgid "A widget to input text"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:171
+#: plugins/forms/kexidbfactory.cpp:177
 #, fuzzy
 msgid "Text Label"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexidbfactory.cpp:172
+#: plugins/forms/kexidbfactory.cpp:178
 msgid ""
 "_: Widget name (see above)\n"
 "TextLabel"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:173
+#: plugins/forms/kexidbfactory.cpp:179
 msgid "A widget to display text"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:176
+#: plugins/forms/kexidbfactory.cpp:182
 #, fuzzy
 msgid "Data source"
 msgstr "ສັບພະຍາກອນ"
 
-#: plugins/forms/kexidbfactory.cpp:177
+#: plugins/forms/kexidbfactory.cpp:183
 #, fuzzy
 msgid "Form name"
 msgstr "ເຟຣມ"
 
-#: plugins/forms/kexiformpart.cpp:45
+#: plugins/forms/kexidataprovider.cpp:124
+msgid "NAME"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:46
 #, fuzzy
 msgid "Form"
 msgstr "ຟອມ ໃຫມ່"
 
-#: plugins/forms/kexiformpart.cpp:75 plugins/forms/kexiformpart.cpp:97
+#: plugins/forms/kexiformpart.cpp:79 plugins/forms/kexiformpart.cpp:101
 #, fuzzy
 msgid "Edit Tab Order"
 msgstr "ແກ້ໄຂ ຈາກ"
 
-#: plugins/forms/kexiformpart.cpp:76
+#: plugins/forms/kexiformpart.cpp:80
 msgid "Adjust Size"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:91
+#: plugins/forms/kexiformpart.cpp:95
 msgid "Show Form UI Code"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:96
+#: plugins/forms/kexiformpart.cpp:100
 msgid "Clear Widget Contents"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:98
+#: plugins/forms/kexiformpart.cpp:102
 msgid "Edit Pixmap Collection"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:99
+#: plugins/forms/kexiformpart.cpp:103
 #, fuzzy
 msgid "Edit Form Connections"
 msgstr "ປ່ຽນ OR "
 
-#: plugins/forms/kexiformpart.cpp:101
+#: plugins/forms/kexiformpart.cpp:105
 msgid "Lay Out Widgets &Horizontally"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:102
+#: plugins/forms/kexiformpart.cpp:106
 msgid "Lay Out Widgets &Vertically"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:103
+#: plugins/forms/kexiformpart.cpp:107
 msgid "Lay Out Widgets in &Grid"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:104
+#: plugins/forms/kexiformpart.cpp:108
 #, fuzzy
 msgid "&Break Layout"
 msgstr "ສ້າງ ແນວສອບຖາມ"
 
-#: plugins/forms/kexiformpart.cpp:106
+#: plugins/forms/kexiformpart.cpp:110
 msgid "Bring Widget to Front"
-msgstr ""
-
-#: plugins/forms/kexiformpart.cpp:107
-#, fuzzy
-msgid "Send Widget to Back"
-msgstr "ແຖບ ກວ້າງ"
-
-#: plugins/forms/kexiformpart.cpp:109
-msgid "Align Widgets Position"
 msgstr ""
 
 #: plugins/forms/kexiformpart.cpp:111
 #, fuzzy
+msgid "Send Widget to Back"
+msgstr "ແຖບ ກວ້າງ"
+
+#: plugins/forms/kexiformpart.cpp:113
+msgid "Align Widgets Position"
+msgstr ""
+
+#: plugins/forms/kexiformpart.cpp:115
+#, fuzzy
 msgid "To Left"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:112
+#: plugins/forms/kexiformpart.cpp:116
 msgid "To Right"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:113
+#: plugins/forms/kexiformpart.cpp:117
 msgid "To Top"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:114
+#: plugins/forms/kexiformpart.cpp:118
 msgid "To Bottom"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:115 plugins/forms/kexiformpart.cpp:120
+#: plugins/forms/kexiformpart.cpp:119 plugins/forms/kexiformpart.cpp:124
 #, fuzzy
 msgid "To Grid"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:117
+#: plugins/forms/kexiformpart.cpp:121
 msgid "Adjust Widgets Size"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:119
+#: plugins/forms/kexiformpart.cpp:123
 #, fuzzy
 msgid "To Fit"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:121
+#: plugins/forms/kexiformpart.cpp:125
 #, fuzzy
 msgid "To Shortest"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexiformpart.cpp:122
+#: plugins/forms/kexiformpart.cpp:126
 #, fuzzy
 msgid "To Tallest"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexiformpart.cpp:123
+#: plugins/forms/kexiformpart.cpp:127
 #, fuzzy
 msgid "To Narrowest"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:124
+#: plugins/forms/kexiformpart.cpp:128
 #, fuzzy
 msgid "To Widest"
 msgstr "ແຖບ ກວ້າງ"
@@ -4147,10 +4304,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "KexiOpenExistingFile"
 #~ msgstr "ສ້າງໂປຣເຈັກ"
-
-#, fuzzy
-#~ msgid "KexiConnSelectorBase"
-#~ msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
 #, fuzzy
 #~ msgid "Form1"
@@ -4684,9 +4837,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Query %1"
 #~ msgstr "Query"
-
-#~ msgid "Decimals"
-#~ msgstr "ເປັນທົດສະນິຍົມ"
 
 #~ msgid "Password for %1 on %2"
 #~ msgstr "ລະຫັດ ສຳລັບ %1 ເທີງ %2"
