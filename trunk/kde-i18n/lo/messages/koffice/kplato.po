@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-01-22 01:26+0100\n"
+"POT-Creation-Date: 2005-02-17 01:25+0100\n"
 "PO-Revision-Date: 2003-01-18 11:31+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -20,19 +20,19 @@ msgstr ""
 msgid "&Project"
 msgstr "&ໂຄງການ"
 
-#. i18n: file kplato.rc line 46
+#. i18n: file kplato.rc line 48
 #: rc.cpp:15
 #, no-c-format
 msgid "&Reports"
 msgstr ""
 
-#. i18n: file kplato.rc line 66
+#. i18n: file kplato.rc line 68
 #: rc.cpp:24
 #, no-c-format
 msgid "Project"
 msgstr "ໂຄງການ"
 
-#. i18n: file kplato.rc line 82
+#. i18n: file kplato.rc line 84
 #: rc.cpp:27
 #, no-c-format
 msgid "Report"
@@ -431,7 +431,7 @@ msgid "KPTTaskGeneralPanelBase"
 msgstr "Resource name:"
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 50
-#: kptresourceuseview.cc:66 kptresourceview.cc:72 rc.cpp:256 rc.cpp:398
+#: kptresourceuseview.cc:68 kptresourceview.cc:72 rc.cpp:256 rc.cpp:398
 #, no-c-format
 msgid "Name"
 msgstr ""
@@ -569,7 +569,7 @@ msgid "KPTTaskResourcesPanelBase"
 msgstr "Resource name:"
 
 #. i18n: file kpttaskresourcespanelbase.ui line 34
-#: kptmainprojectdialog.cc:43 kptprojectdialog.cc:53 kptview.cc:153 rc.cpp:342
+#: kptprojectdialog.cc:53 kptresourcesdialog.cc:36 kptview.cc:154 rc.cpp:342
 #, no-c-format
 msgid "Resources"
 msgstr "Resources"
@@ -701,7 +701,7 @@ msgid "<p align=\"right\">Calendar:</p>"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 172
-#: kptview.cc:197 rc.cpp:421 rc.cpp:458 rc.cpp:479 rc.cpp:491 rc.cpp:500
+#: kptview.cc:199 rc.cpp:421 rc.cpp:458 rc.cpp:479 rc.cpp:491 rc.cpp:500
 #: rc.cpp:503 rc.cpp:506 rc.cpp:509 rc.cpp:518 rc.cpp:527
 #, no-c-format
 msgid "Edit..."
@@ -961,15 +961,11 @@ msgstr ""
 msgid "Edit Interval"
 msgstr ""
 
-#: kptmainprojectdialog.cc:37 kptprojectdialog.cc:48
+#: kptmainprojectdialog.cc:35 kptprojectdialog.cc:48
 msgid "Project Settings"
 msgstr "ຕັ້ງຄ່າໂຄງການ"
 
-#: kptmainprojectdialog.cc:40
-msgid "General"
-msgstr ""
-
-#: kptmainprojectdialog.cc:66 kptmainprojectpanel.cc:87
+#: kptmainprojectdialog.cc:56 kptmainprojectpanel.cc:87
 #, fuzzy
 msgid "Modify main project"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
@@ -1097,11 +1093,21 @@ msgstr ""
 msgid "Resource Settings"
 msgstr "ຕັ້ງຄ່າໂຄງການ"
 
+#: kptresourcesdialog.cc:60
+#, fuzzy
+msgid "Modify resources"
+msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
+
 #: kptresourcespanel.cc:267
 msgid ""
 "Resources belong to resource groups, select the group first to add a new "
 "resource to"
 msgstr ""
+
+#: kptresourceuseview.cc:90
+#, fuzzy
+msgid "All resources"
+msgstr "Edit Resource"
 
 #: kptresourceview.cc:89
 #, fuzzy
@@ -1144,69 +1150,64 @@ msgstr ""
 msgid "Modify progress"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:136 kptview.cc:583
+#: kptview.cc:137 kptview.cc:597
 msgid "Indent Task"
 msgstr ""
 
-#: kptview.cc:138 kptview.cc:597
+#: kptview.cc:139 kptview.cc:611
 msgid "Unindent Task"
 msgstr ""
 
-#: kptview.cc:140
+#: kptview.cc:141
 msgid "Move Up"
 msgstr ""
 
-#: kptview.cc:142
+#: kptview.cc:143
 msgid "Move Down"
 msgstr ""
 
-#: kptview.cc:146
+#: kptview.cc:147
 msgid "Gantt"
 msgstr "Gantt"
 
-#: kptview.cc:147
+#: kptview.cc:148
 #, fuzzy
 msgid "Task links"
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:148
+#: kptview.cc:149
 #, fuzzy
 msgid "Progress"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:149
+#: kptview.cc:150
 msgid "Float"
 msgstr ""
 
-#: kptview.cc:151
+#: kptview.cc:152
 msgid "Network"
 msgstr ""
 
-#: kptview.cc:155
+#: kptview.cc:156
 #, fuzzy
 msgid "Resource use"
 msgstr "Resources"
 
-#: kptview.cc:158
+#: kptview.cc:159
 msgid "Task..."
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:160
+#: kptview.cc:161
 #, fuzzy
 msgid "Sub-Task..."
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:162
+#: kptview.cc:163
 msgid "Milestone..."
 msgstr "ເພີ້ນລະຍະເວລາ..."
 
-#: kptview.cc:166
-msgid "Edit Main Project..."
-msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
-
 #: kptview.cc:167
-#, fuzzy
-msgid "Edit Calendar..."
+msgid "Edit Main Project..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
 #: kptview.cc:168
@@ -1215,83 +1216,93 @@ msgid "Edit Standard Worktime..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
 #: kptview.cc:169
+#, fuzzy
+msgid "Edit Calendar..."
+msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
+
+#: kptview.cc:170
+#, fuzzy
+msgid "Edit Resources..."
+msgstr "Edit Resource"
+
+#: kptview.cc:171
 msgid "Calculate"
 msgstr ""
 
-#: kptview.cc:172
+#: kptview.cc:174
 msgid "Generate"
 msgstr ""
 
-#: kptview.cc:193
+#: kptview.cc:195
 msgid "Configure..."
 msgstr "Configure..."
 
-#: kptview.cc:199 kptview.cc:561
+#: kptview.cc:201 kptview.cc:575
 msgid "Delete Task"
 msgstr ""
 
-#: kptview.cc:202
+#: kptview.cc:204
 #, fuzzy
 msgid "Edit Resource..."
 msgstr "Edit Resource"
 
-#: kptview.cc:208
+#: kptview.cc:210
 #, fuzzy
 msgid "Print Debug"
 msgstr "Print debug"
 
-#: kptview.cc:210
+#: kptview.cc:212
 #, fuzzy
 msgid "Print Calendar Debug"
 msgstr "Print debug"
 
-#: kptview.cc:213
+#: kptview.cc:215
 msgid "Export Gantt"
 msgstr ""
 
-#: kptview.cc:409
+#: kptview.cc:423
 msgid "Add Subtask"
 msgstr ""
 
-#: kptview.cc:431
+#: kptview.cc:445
 #, fuzzy
 msgid "Add Task"
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:448
+#: kptview.cc:462
 msgid "Milestone"
 msgstr "ເພີ້ນລະຍະເວລາ..."
 
-#: kptview.cc:458
+#: kptview.cc:472
 #, fuzzy
 msgid "Add Milestone"
 msgstr "เพิ่มระยะเวลา..."
 
-#: kptview.cc:619
+#: kptview.cc:633
 #, fuzzy
 msgid "Move Task Up"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:640
+#: kptview.cc:654
 msgid "Move Task Down"
 msgstr ""
 
-#: kptview.cc:666
+#: kptview.cc:680
 #, fuzzy
 msgid "Add Relation"
 msgstr "Edit Resource"
 
-#: kptview.cc:677
+#: kptview.cc:691
 #, fuzzy
 msgid "Delete Relation"
 msgstr "Edit Resource"
 
-#: kptview.cc:855
+#: kptview.cc:869
 #, fuzzy
 msgid "Modify Name"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: main.cc:31
+#: main.cc:32
 msgid "File to open"
 msgstr "ແຟ້ນທີ່ຕ້ອງການເປີດ"
 
