@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-01-03 01:28+0100\n"
+"POT-Creation-Date: 2004-07-14 01:19+0200\n"
 "PO-Revision-Date: 2003-01-14 16:41+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,45 +14,68 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: imap4.cc:813
+#: imap4.cc:832
 msgid "What do you want to store in this folder?"
 msgstr ""
 "ທ່ານຕ້ອງການໃສ່ຫຍັງໄວ້ໃນໂຟ"
 "ລເດີນີ້ ?"
 
-#: imap4.cc:813
+#: imap4.cc:832
 msgid "Create Folder"
 msgstr "ສ້າງໂຟລເດີ"
 
-#: imap4.cc:814
+#: imap4.cc:833
 msgid "&Messages"
 msgstr "ຈົດຫມາຍ"
 
-#: imap4.cc:814
+#: imap4.cc:833
 msgid "&Subfolders"
 msgstr "ໂຟລເດີຍ່ອຍ"
 
-#: imap4.cc:1092
-msgid "Unsubscribe of folder %1 failed."
+#: imap4.cc:1124
+#, fuzzy
+msgid "Unsubscribe of folder %1 failed. The server returned: %2"
 msgstr "Unsubscribe of folder %1 failed."
 
-#: imap4.cc:1109
-msgid "Subscribe of folder %1 failed."
+#: imap4.cc:1144
+#, fuzzy
+msgid "Subscribe of folder %1 failed. The server returned: %2"
 msgstr "Subscribe of folder %1 failed."
 
-#: imap4.cc:1131 imap4.cc:1142
+#: imap4.cc:1176 imap4.cc:1187
 msgid "Changing the flags of message %1 failed."
 msgstr ""
 "ການປ່ງນສະຖານະຂອງຈົດຫມາຍ %1 "
 "ລົ້ມເຫຼວ"
 
-#: imap4.cc:1231
+#: imap4.cc:1220
+#, fuzzy
+msgid ""
+"Setting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1238
+#, fuzzy
+msgid ""
+"Deleting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1254 imap4.cc:1279
+#, fuzzy
+msgid ""
+"Retrieving the Access Control List on folder %1 failed. The server returned: "
+"%2"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1377
 msgid "Unable to close mailbox."
 msgstr ""
 "ບໍ່ສາມາດປິດກ່ອງຈົດຫມາຍໃດ້"
 "้"
 
-#: imap4.cc:1254
+#: imap4.cc:1400
 msgid "Unable to get information about folder %1. The server replied: %2"
 msgstr ""
 "ບໍ່ສາມາດທຳການກວດສອບສິດສ໌ຜ"
@@ -60,7 +83,7 @@ msgstr ""
 "ໂດຍເຊີຟເວີຕອບກັບມາວ່:\n"
 "%2"
 
-#: imap4.cc:1417
+#: imap4.cc:1563
 msgid ""
 "The server %1 supports neither IMAP4 nor IMAP4rev1.\n"
 "It identified itself with: %2"
@@ -70,7 +93,7 @@ msgstr ""
 "IMAP4rev1\n"
 "ມັນສະແດງຕົວມັມເອງເປັນ: %2"
 
-#: imap4.cc:1428
+#: imap4.cc:1574
 msgid ""
 "The server does not support TLS.\n"
 "Disable this security feature to connect unencrypted."
@@ -80,23 +103,25 @@ msgstr ""
 "ນີ້ເພື່ອທຳການເຊື່ອມຕໍ່ແບບ"
 "ບໍ່ເຂົ້າລະຫັດ"
 
-#: imap4.cc:1453
+#: imap4.cc:1599
 msgid "Starting TLS failed."
 msgstr "ການເລີ່ມການທຳງານ TLS ລົ້ມເຫຼວ"
 
-#: imap4.cc:1463
+#: imap4.cc:1609
 msgid "The authentication method %1 is not supported by the server."
 msgstr ""
 "ເຊີຟເວີບໍ່ສະຫນັບສະຫນູນວິທ"
 "ີການກວດສິດ %1"
 
-#: imap4.cc:1474
+#: imap4.cc:1620
+#, fuzzy
 msgid "Username and password for your IMAP account:"
 msgstr ""
 "ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານຂອງບ"
 "ັນຊີຜູ້ໃຊ້ IMAP ຂອງທ່ານ:"
 
-#: imap4.cc:1488
+#: imap4.cc:1634
+#, fuzzy
 msgid ""
 "In IMAP clear text login, only US-ASCII characters are possible. Please use "
 "a different authentication method that your server supports or try to get a "
@@ -110,7 +135,7 @@ msgstr ""
 "ສະຫນັບສະຫນູນຫຼືລອງປງ່ນເປັ"
 "ນຊື່ຜູ້ໃຊ້ອື່ນ"
 
-#: imap4.cc:1493
+#: imap4.cc:1639
 msgid ""
 "In IMAP clear text login, only US-ASCII characters are possible. Please use "
 "a different authentication method that your server supports or change your "
@@ -125,7 +150,7 @@ msgstr ""
 "ຫນູນຫຼືລອງປງ່ນລະຫັດຜ່ານຂອ"
 "ງທ່ານ"
 
-#: imap4.cc:1498
+#: imap4.cc:1644
 #, c-format
 msgid ""
 "Unable to login. Probably the password is wrong.\n"
@@ -138,7 +163,7 @@ msgstr ""
 "ໂດຍເຊີຟເວີຕອບກັບມາວ່າ:\n"
 "%1"
 
-#: imap4.cc:1504
+#: imap4.cc:1650
 msgid ""
 "Unable to authenticate via %1.\n"
 "The server replied:\n"
@@ -149,7 +174,7 @@ msgstr ""
 "ໂດຍເຊີຟເວີຕອບກັບມາວ່າ:\n"
 "%2"
 
-#: imap4.cc:1904
+#: imap4.cc:2086
 msgid "Unable to open folder %1. The server replied: %2"
 msgstr ""
 "ບໍ່ສາມາດທຳການກວດສອບສິດຜ່າ"

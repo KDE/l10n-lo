@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-07-31 01:32+0200\n"
+"POT-Creation-Date: 2004-07-14 01:19+0200\n"
 "PO-Revision-Date: 2003-01-14 15:54+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -63,14 +63,15 @@ msgstr ""
 
 #: command.cc:202
 msgid ""
-"You have requested to authenticate to the server, but the server doesn't "
+"You have requested to authenticate to the server, but the server does not "
 "seem to support authentication.\n"
 "Try disabling authentication entirely."
 msgstr ""
 
 #: command.cc:208
+#, fuzzy
 msgid ""
-"Your SMTP server doesn't support %1.\n"
+"Your SMTP server does not support %1.\n"
 "Choose a different authentication method."
 msgstr ""
 "ເຊີຟເວີ SMTP ບໍ່ສະຫນັບສະຫນູນ %1\n"
@@ -80,7 +81,7 @@ msgstr ""
 #: command.cc:262
 #, fuzzy
 msgid ""
-"Your SMTP server doesn't support %1.\n"
+"Your SMTP server does not support %1.\n"
 "Choose a different authentication method.\n"
 "%2"
 msgstr ""
@@ -91,7 +92,7 @@ msgstr ""
 #: command.cc:267
 #, fuzzy, c-format
 msgid ""
-"Your SMTP server doesn't support authentication.\n"
+"Your SMTP server does not support authentication.\n"
 "%2"
 msgstr ""
 "ເຊີຟເວີ SMTP ບໍ່ສະຫນັບສະຫນູນ %1\n"
@@ -140,32 +141,32 @@ msgstr "ເຊີຟເວີແຈ້ງວ່າ: %1"
 msgid "This is a temporary failure. You may try again later."
 msgstr ""
 
-#: smtp.cc:151
+#: smtp.cc:158
 msgid "The application sent an invalid request."
 msgstr ""
 
-#: smtp.cc:213
+#: smtp.cc:220
 msgid "The sender address is missing."
 msgstr "ບໍ່ມີທີ່ຢູ່ຜູ້ສົ່ງ"
 
-#: smtp.cc:221
+#: smtp.cc:228
 msgid "SMTPProtocol::smtp_open failed (%1)"
 msgstr "SMTPProtocol::smtp_open ລົ້ມເຫຼວ (%1)"
 
-#: smtp.cc:229
+#: smtp.cc:236
 msgid ""
 "Your server does not support sending of 8-bit messages.\n"
 "Please use base64 or quoted-printable encoding."
 msgstr ""
 
-#: smtp.cc:308
+#: smtp.cc:315
 #, fuzzy
 msgid "Invalid SMTP response (%1) received."
 msgstr ""
 "ໄດ້ຮັບການຕອບຮັບ SMTP "
 "ທີ່ບໍ່ຖືກຕ້ອງ"
 
-#: smtp.cc:490
+#: smtp.cc:497
 #, fuzzy, c-format
 msgid ""
 "The server did not accept the connection.\n"
@@ -174,13 +175,14 @@ msgstr ""
 "ເຊີຟເວີບໍ່ຍອມຮັບການເຊື່ອມ"
 "ຕໍ່: %1"
 
-#: smtp.cc:540
+#: smtp.cc:554
+#, fuzzy
 msgid "Username and password for your SMTP account:"
 msgstr ""
 "ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານສຳລັ"
 "ບບັນຊີຜູ້ໃຊ້ SMTP ຂອງທ່ານ:"
 
-#: smtp.cc:542
+#: smtp.cc:556
 msgid "When prompted, you ran away."
 msgstr ""
 "ເມື່ອມີການຖາມທ່ານໃດ້ສາກໄປ"
