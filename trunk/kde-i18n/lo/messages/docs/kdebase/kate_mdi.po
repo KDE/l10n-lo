@@ -87,7 +87,7 @@ msgstr ""
 #. Tag: link
 #: mdi.docbook:35
 #, no-c-format
-msgid "<link>The File List</link>"
+msgid "The File List"
 msgstr ""
 
 #. Tag: link
@@ -191,7 +191,7 @@ msgstr ""
 #. Tag: title
 #: mdi.docbook:95
 #, no-c-format
-msgid "<title>The File List</title>"
+msgid "The Document List"
 msgstr ""
 
 #. Tag: primary
@@ -231,25 +231,79 @@ msgstr ""
 #: mdi.docbook:109
 #, no-c-format
 msgid ""
-"The default location in the &kate; window is to the left of the editing "
-"area, in a dockable tab window shared with the <link "
-"linkend=\"kate-mdi-tools-file-selector\">File Selector</link>."
+"You can sort the list in a few different ways by rightclicking the list and "
+"selecting from the <guisubmenu>Sort By</guisubmenu> menu. The options are"
+msgstr ""
+
+#. Tag: guimenuitem
+#: mdi.docbook:116
+#, no-c-format
+msgid "Opening Order"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:117
+#, no-c-format
+msgid "Lists the documents in the order of opening"
+msgstr ""
+
+#. Tag: guimenuitem
+#: mdi.docbook:121
+#, no-c-format
+msgid "Document Name"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:122
+#, no-c-format
+msgid "Lists the documents alphabetically by their name."
+msgstr ""
+
+#. Tag: guimenuitem
+#: mdi.docbook:126
+#, no-c-format
+msgid "<guimenuitem>URL</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:127
+#, no-c-format
+msgid "Lists the documents alphabetically by URL."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:134
+#, no-c-format
+msgid ""
+"The document list will pr default visualize your history by shading the "
+"entries for the most recent documents with a background color. If the "
+"document was edited, an extra color is blended in. The most recent document "
+"has the strongest color, so that you can easily find the documents you are "
+"working on. This feature can be disabled in <link "
+"linkend=\"config-dialog-documentlist\">The Document List Page</link> of the "
+"configuration dialog."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:142
+#, no-c-format
+msgid "The default location in the &kate; window is to the left of the editing area."
 msgstr ""
 
 #. Tag: title
-#: mdi.docbook:115
+#: mdi.docbook:147
 #, no-c-format
 msgid "<title>The File Selector</title>"
 msgstr ""
 
 #. Tag: primary
-#: mdi.docbook:117
+#: mdi.docbook:149
 #, no-c-format
 msgid "File selector"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:117
+#: mdi.docbook:149
 #, no-c-format
 msgid ""
 "The File Selector is a folder viewer, allowing you to open files from a "
@@ -257,31 +311,31 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:121
+#: mdi.docbook:153
 #, no-c-format
 msgid "From top down, the file selector consist of the following elements:"
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:126
+#: mdi.docbook:158
 #, no-c-format
 msgid "A Toolbar"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:128
+#: mdi.docbook:160
 #, no-c-format
 msgid "This contains standard navigations tool buttons:"
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:131
+#: mdi.docbook:163
 #, no-c-format
 msgid "Home"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:132
+#: mdi.docbook:164
 #, no-c-format
 msgid ""
 "Pressing it will cause the folder view to <command>cd</command>"
@@ -289,13 +343,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:135
+#: mdi.docbook:167
 #, no-c-format
 msgid "<guibutton>Up</guibutton>"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:136
+#: mdi.docbook:168
 #, no-c-format
 msgid ""
 "This will cause the folder view to <command>cd</command> to the immediate "
@@ -303,13 +357,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:140
+#: mdi.docbook:172
 #, no-c-format
 msgid "Back"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:141
+#: mdi.docbook:173
 #, no-c-format
 msgid ""
 "Causes the folder view to <command>cd</command> to the previously displayed "
@@ -317,13 +371,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:145
+#: mdi.docbook:177
 #, no-c-format
 msgid "Forward"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:146
+#: mdi.docbook:178
 #, no-c-format
 msgid ""
 "Causes the folder view to <command>cd</command> to the next folder in the "
@@ -331,13 +385,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:150
+#: mdi.docbook:182
 #, no-c-format
 msgid "Sync"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:151
+#: mdi.docbook:183
 #, no-c-format
 msgid ""
 "This button will cause the folder view to <command>cd</command> to the "
@@ -347,13 +401,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:163
+#: mdi.docbook:195
 #, no-c-format
 msgid "A &URL; entry"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:165
+#: mdi.docbook:197
 #, no-c-format
 msgid ""
 "Here you can type the path of a folder to browse. The &URL; entry maintains "
@@ -362,7 +416,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:168
+#: mdi.docbook:200
 #, no-c-format
 msgid ""
 "The &URL; entry has folder auto-completion. The completion method can be set "
@@ -370,25 +424,25 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:175
+#: mdi.docbook:207
 #, no-c-format
 msgid "A Folder View"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:176
+#: mdi.docbook:208
 #, no-c-format
 msgid "This is a standard &kde; folder view."
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:180
+#: mdi.docbook:212
 #, no-c-format
 msgid "A Filter Entry"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:182
+#: mdi.docbook:214
 #, no-c-format
 msgid ""
 "The Filter entry allows you to enter a filter for the files displayed in the "
@@ -397,13 +451,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:186
+#: mdi.docbook:218
 #, no-c-format
 msgid "To display all files, enter a single asterisk <userinput>*</userinput>."
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:188
+#: mdi.docbook:220
 #, no-c-format
 msgid ""
 "The filter entry saves the last 10 filters entered between sessions, to use "
@@ -412,19 +466,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: mdi.docbook:200
+#: mdi.docbook:232
 #, no-c-format
 msgid "<title>The Built in Terminal Emulator</title>"
 msgstr ""
 
 #. Tag: primary
-#: mdi.docbook:202
+#: mdi.docbook:234
 #, no-c-format
 msgid "Terminal emulator"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:202
+#: mdi.docbook:234
 #, no-c-format
 msgid ""
 "The built in Terminal Emulator is a copy of the &kde; &konsole; terminal "
@@ -440,7 +494,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:215
+#: mdi.docbook:247
 #, no-c-format
 msgid ""
 "The default location in the &kate; window is at the bottom, below the "
@@ -448,9 +502,34 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:218
+#: mdi.docbook:250
 #, no-c-format
 msgid ""
 "You can configure the &konsole; using it's &RMB; menu, for more information, "
 "see the &konsole; manual."
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:256
+#, no-c-format
+msgid "External Tools"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:258
+#, no-c-format
+msgid ""
+"In the <guimenu>Tools</guimenu> menu you will find a submenu labeled "
+"<guisubmenu>External Tools</guisubmenu>. These tools invokes external "
+"applications with data related to the current document, for example its URL, "
+"directory, text or selection."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:263
+#, no-c-format
+msgid ""
+"External tools are user defined, you can add, edit or remove tools using the "
+"<link linkend=\"config-dialog-externaltools\">External Tools configuration "
+"panel</link>."
 msgstr ""
