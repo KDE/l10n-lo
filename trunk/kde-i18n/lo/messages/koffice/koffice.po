@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-02-02 01:27+0100\n"
+"POT-Creation-Date: 2005-02-14 02:14+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -62,7 +62,7 @@ msgid "Index"
 msgstr "ລະຍະເຍືອງ"
 
 #: kformula/kformulacommand.cc:127 kformula/kformulacommand.cc:184
-#: kotext/kotextobject.cc:1389 kotext/kotextobject.cc:1428
+#: kotext/kotextobject.cc:1399 kotext/kotextobject.cc:1438
 msgid "Remove Selected Text"
 msgstr "ລຶບຂໍ້ຄວາມທີ່ເລືອກໄວ້"
 
@@ -486,18 +486,18 @@ msgstr ""
 "ເກີດຂໍ້ຜິດພາດລະຫວ່າງການບັ"
 "ນທຶກເອກະສານທີ່ຝັງຢູ່"
 
-#: kofficecore/koDocument.cc:979 kofficecore/koDocument.cc:996
-#: kofficecore/koDocument.cc:1017 kofficecore/koDocument.cc:1038
+#: kofficecore/koDocument.cc:972 kofficecore/koDocument.cc:989
+#: kofficecore/koDocument.cc:1018
 #, fuzzy
 msgid "Not able to write '%1'. Partition full?"
 msgstr "ບໍ່ສາມາດຂຽນ maindoc.xml ໄດ້"
 
-#: kofficecore/koDocument.cc:988 kofficecore/koDocument.cc:1010
+#: kofficecore/koDocument.cc:981 kofficecore/koDocument.cc:997
 #, fuzzy
 msgid "Error while trying to write '%1'. Partition full?"
 msgstr "ບໍ່ສາມາດຂຽນ maindoc.xml ໄດ້"
 
-#: kofficecore/koDocument.cc:1289
+#: kofficecore/koDocument.cc:1269
 msgid ""
 "An autosaved file for an unnamed document exists in %1.\n"
 "This file is dated %2\n"
@@ -509,7 +509,7 @@ msgstr ""
 "ແຟ້ມນີ້ລົງວັນທີ %2\n"
 "ທ່ານຕ້ອງການເປີດມັນຫລືບໍ່ ?"
 
-#: kofficecore/koDocument.cc:1342
+#: kofficecore/koDocument.cc:1322
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -518,7 +518,7 @@ msgstr ""
 "ຮູບແບບ URL\n"
 "%1 ບໍ່ຖືກຕ້ອງ"
 
-#: kofficecore/koDocument.cc:1360
+#: kofficecore/koDocument.cc:1340
 msgid ""
 "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
@@ -528,14 +528,14 @@ msgstr ""
 "ທ່ານຕ້ອງການເປີດມັນແທນແມ່ນ"
 "ຫລືບໍ່ ?"
 
-#: kofficecore/koDocument.cc:1401 kofficecore/koMainWindow.cc:513
+#: kofficecore/koDocument.cc:1381 kofficecore/koMainWindow.cc:513
 #: kofficeui/koTemplateChooseDia.cc:86 kofficeui/koTemplateChooseDia.cc:687
 #, fuzzy
 msgid "The file %1 does not exist."
 msgstr "ຍັງບໍ່ມີແຟ້ມ %1"
 
-#: kofficecore/koDocument.cc:1459 kofficecore/koDocument.cc:1476
-#: kofficecore/koDocument.cc:1498
+#: kofficecore/koDocument.cc:1439 kofficecore/koDocument.cc:1456
+#: kofficecore/koDocument.cc:1478
 #, c-format
 msgid ""
 "Could not open\n"
@@ -544,7 +544,7 @@ msgstr ""
 "ບໍ່ສາມາດເປີດ\n"
 "%1 ໄດ້"
 
-#: kofficecore/koDocument.cc:1500
+#: kofficecore/koDocument.cc:1480
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
@@ -552,21 +552,21 @@ msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້\n"
 "ເນື່ອງຈາກ: %2"
 
-#: kofficecore/koDocument.cc:1574 kofficecore/koOasisStore.cpp:103
+#: kofficecore/koDocument.cc:1554 kofficecore/koOasisStore.cpp:145
 #, fuzzy, c-format
 msgid "Could not find %1"
 msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
 
-#: kofficecore/koDocument.cc:1586 kofficecore/koOasisStore.cpp:125
+#: kofficecore/koDocument.cc:1566
 #, fuzzy
 msgid ""
-"Parsing error in the main document at line %1, column %2\n"
-"Error message: %3"
+"Parsing error in %1 at line %2, column %3\n"
+"Error message: %4"
 msgstr ""
 "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, "
 "ຖັນ %2"
 
-#: kofficecore/koDocument.cc:1599
+#: kofficecore/koDocument.cc:1580
 #, fuzzy
 msgid "%1 is not a file."
 msgstr ""
@@ -574,7 +574,7 @@ msgstr ""
 "ບໍ່ແມ່ນການເຊື່ອມໂຍງທີຖືກຕ"
 "້ອງ"
 
-#: kofficecore/koDocument.cc:1615
+#: kofficecore/koDocument.cc:1596
 #, fuzzy
 msgid "Could not open the file for reading (check read permissions)."
 msgstr ""
@@ -582,14 +582,14 @@ msgstr ""
 "ານອ່ານໄດ້ "
 "(ກະລຸນາກວດສອບສິດການອ່ານ)"
 
-#: kofficecore/koDocument.cc:1625
+#: kofficecore/koDocument.cc:1606
 #, fuzzy
 msgid "Could not read the beginning of the file."
 msgstr ""
 "ບໍ່ສາມາດອ່ານຕອນຕົ້ນຂອງແຟ້"
 "ມໄດ້"
 
-#: kofficecore/koDocument.cc:1652
+#: kofficecore/koDocument.cc:1633
 #, fuzzy
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
@@ -598,21 +598,21 @@ msgstr ""
 "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, "
 "ຖັນ %2"
 
-#: kofficecore/koDocument.cc:1676
+#: kofficecore/koDocument.cc:1657
 #, fuzzy, c-format
 msgid "Not a valid KOffice file: %1"
 msgstr ""
 "ບໍ່ແມ່ນແຟ້ມຂອງ KOffice "
 "ທີ່ຖືກຕ້ອງ"
 
-#: kofficecore/koDocument.cc:1732
+#: kofficecore/koDocument.cc:1713
 #, fuzzy
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr ""
 "ເອກະສານບໍ່ຖືກຕ້ອງ: "
 "ບໍ່ມີແຟ້ມ 'maindoc.xml'"
 
-#: kofficecore/koDocument.cc:1892 kofficecore/koMainWindow.cc:999
+#: kofficecore/koDocument.cc:1873 kofficecore/koMainWindow.cc:999
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p>"
 "<p>Do you want to save it?</p>"
@@ -622,7 +622,7 @@ msgstr ""
 "<p>ທ່ານຕ້ອງການບັນທຶກມັນກ່ອນ"
 "ຫລືບໍ່ ?</p>"
 
-#: kofficecore/koDocument.cc:2065
+#: kofficecore/koDocument.cc:2046
 msgid "Internal error: saveXML not implemented"
 msgstr ""
 "ໍຂໍ້ຜິດພາດພາຍໃນ: "
@@ -1015,33 +1015,33 @@ msgstr "ຈົດຫມາຍແລະຂ່າວ"
 msgid "Bookmark"
 msgstr "Bookmark"
 
-#: kofficeui/koInsertLink.cc:197 kofficeui/koInsertLink.cc:269
-#: kofficeui/koInsertLink.cc:350 kofficeui/koInsertLink.cc:419
+#: kofficeui/koInsertLink.cc:205 kofficeui/koInsertLink.cc:279
+#: kofficeui/koInsertLink.cc:362 kofficeui/koInsertLink.cc:433
 msgid "Comment:"
 msgstr "ຄຳອະທິບາຍ:"
 
-#: kofficeui/koInsertLink.cc:205
+#: kofficeui/koInsertLink.cc:213
 msgid "Internet address:"
 msgstr "ທີ່ຢູ່ອິນເຕີເນັຕ:"
 
-#: kofficeui/koInsertLink.cc:277
+#: kofficeui/koInsertLink.cc:287
 msgid "Bookmark name:"
 msgstr "Bookmark name:"
 
-#: kofficeui/koInsertLink.cc:358
+#: kofficeui/koInsertLink.cc:370
 msgid "Target:"
 msgstr "ປາຍທາງ:"
 
-#: kofficeui/koInsertLink.cc:426
+#: kofficeui/koInsertLink.cc:440
 #, fuzzy
 msgid "Recent file:"
 msgstr "ຫົວເລື່ອງເອກະສານ"
 
-#: kofficeui/koInsertLink.cc:444
+#: kofficeui/koInsertLink.cc:458
 msgid "No Entries"
 msgstr "ບັນທຶກຊ່ອຍຈື່"
 
-#: kofficeui/koInsertLink.cc:454
+#: kofficeui/koInsertLink.cc:471
 msgid "File location:"
 msgstr "ຕຳແໜ່ງແຟ້ມ:"
 
@@ -1049,88 +1049,88 @@ msgstr "ຕຳແໜ່ງແຟ້ມ:"
 msgid "Page Preview"
 msgstr "ຕົວຢ່າງຫນ້າເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:126 kofficeui/koPageLayoutDia.cc:157
+#: kofficeui/koPageLayoutDia.cc:137 kofficeui/koPageLayoutDia.cc:168
 msgid "Page Layout"
 msgstr "ການຈັດວາງຫນ້າເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:294
+#: kofficeui/koPageLayoutDia.cc:305
 #, fuzzy
 msgid "Page Size && &Margins"
 msgstr "Page Size && Margins"
 
-#: kofficeui/koPageLayoutDia.cc:306
+#: kofficeui/koPageLayoutDia.cc:317
 msgid "Unit:"
 msgstr "ໜ່ວຍ:"
 
-#: kofficeui/koPageLayoutDia.cc:317
+#: kofficeui/koPageLayoutDia.cc:328
 #, c-format
 msgid "All values are given in %1."
 msgstr "ທຸກຄ່າມີໜ່ວຍເປັນ %1"
 
-#: kofficeui/koPageLayoutDia.cc:322
+#: kofficeui/koPageLayoutDia.cc:333
 msgid "Page Size"
 msgstr "ຕົວຢ່າງຫນ້າເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:329
+#: kofficeui/koPageLayoutDia.cc:340
 #, fuzzy
 msgid "&Size:"
 msgstr "ຂະຫນາດ:"
 
-#: kofficeui/koPageLayoutDia.cc:344 kotext/koParagDia.cc:1302
+#: kofficeui/koPageLayoutDia.cc:355 kotext/koParagDia.cc:1302
 #, fuzzy
 msgid "&Width:"
 msgstr "ກວ້າງ:"
 
-#: kofficeui/koPageLayoutDia.cc:354
+#: kofficeui/koPageLayoutDia.cc:365
 #, fuzzy
 msgid "&Height:"
 msgstr "ສູງ:"
 
-#: kofficeui/koPageLayoutDia.cc:371
+#: kofficeui/koPageLayoutDia.cc:382
 msgid "&Portrait"
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:376
+#: kofficeui/koPageLayoutDia.cc:387
 #, fuzzy
 msgid "La&ndscape"
 msgstr "ອັກຂະຫລະລະຫັດພິເສດ"
 
-#: kofficeui/koPageLayoutDia.cc:383
+#: kofficeui/koPageLayoutDia.cc:394
 msgid "Margins"
 msgstr "Margins"
 
-#: kofficeui/koPageLayoutDia.cc:482 kofficeui/koPageLayoutDia.cc:617
+#: kofficeui/koPageLayoutDia.cc:493 kofficeui/koPageLayoutDia.cc:628
 #, fuzzy
 msgid "H&eader && Footer"
 msgstr "ຫົວແລະທ້າຍເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:486
+#: kofficeui/koPageLayoutDia.cc:497
 msgid "Head Line"
 msgstr "ແຖວຫົວເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:491 kofficeui/koPageLayoutDia.cc:520
+#: kofficeui/koPageLayoutDia.cc:502 kofficeui/koPageLayoutDia.cc:531
 msgid "Left:"
 msgstr "ຊ້າຍ:"
 
-#: kofficeui/koPageLayoutDia.cc:498 kofficeui/koPageLayoutDia.cc:527
+#: kofficeui/koPageLayoutDia.cc:509 kofficeui/koPageLayoutDia.cc:538
 msgid "Mid:"
 msgstr "ກາງ:"
 
-#: kofficeui/koPageLayoutDia.cc:505 kofficeui/koPageLayoutDia.cc:534
+#: kofficeui/koPageLayoutDia.cc:516 kofficeui/koPageLayoutDia.cc:545
 msgid "Right:"
 msgstr "ຂວາ:"
 
-#: kofficeui/koPageLayoutDia.cc:515
+#: kofficeui/koPageLayoutDia.cc:526
 msgid "Foot Line"
 msgstr "ແຖວທ້າຍເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:543
+#: kofficeui/koPageLayoutDia.cc:554
 msgid "You can insert several tags in the text:"
 msgstr ""
 "ທ່ານສາມາດແຊກແທັກຕ່າງ ໆ "
 "ເຂົ້າໄປໃນຂໍ້ຄວາມໄດ້:"
 
-#: kofficeui/koPageLayoutDia.cc:546
+#: kofficeui/koPageLayoutDia.cc:557
 msgid ""
 "<qt>"
 "<ul>"
@@ -1148,7 +1148,7 @@ msgstr ""
 "<li>&lt;file&gt; ຊື່ແຟ້ມແບບພາທເຕັມ "
 "ຫລື URL</li></ul></qt>"
 
-#: kofficeui/koPageLayoutDia.cc:553
+#: kofficeui/koPageLayoutDia.cc:564
 msgid ""
 "<qt>"
 "<ul>"
@@ -1170,88 +1170,88 @@ msgstr ""
 "<li>&lt;email&gt; "
 "ທີ່ຢູ່ອີເມລ໌ຂອງທ່ານ</li></ul></qt>"
 
-#: kofficeui/koPageLayoutDia.cc:564
+#: kofficeui/koPageLayoutDia.cc:575
 #, fuzzy
 msgid "Col&umns"
 msgstr "ຖັນ:"
 
-#: kofficeui/koPageLayoutDia.cc:568
+#: kofficeui/koPageLayoutDia.cc:579
 #, fuzzy
 msgid "Co&lumns:"
 msgstr "ຖັນ:"
 
-#: kofficeui/koPageLayoutDia.cc:579
+#: kofficeui/koPageLayoutDia.cc:590
 #, fuzzy
 msgid "Column &spacing (%1):"
 msgstr "ລະຍະຫ່າງລະຫວ່າງຖັນ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:620
+#: kofficeui/koPageLayoutDia.cc:631
 #, fuzzy
 msgid "&Header"
 msgstr "ຫົວເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:625
+#: kofficeui/koPageLayoutDia.cc:636
 msgid "Different header for the first page"
 msgstr ""
 "ຫນ້າທຳອິດຫົດເຈ້ຍຕ່າງຈາກຫນ"
 "້າອື່ນ"
 
-#: kofficeui/koPageLayoutDia.cc:631
+#: kofficeui/koPageLayoutDia.cc:642
 msgid "Different header for even and odd pages"
 msgstr ""
 "ຫນ້າຄີກແລະຫນ້າຄູ່ມີຫົວເຈ້"
 "ຍຕ່າງກັນ"
 
-#: kofficeui/koPageLayoutDia.cc:637
+#: kofficeui/koPageLayoutDia.cc:648
 msgid "Spacing between header and body (%1):"
 msgstr ""
 "ລະຍະຫ່າງຈາກຫົວເຈ້ຍເຖິງຕົວ"
 "ຂໍ້ຄວາມ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:650
+#: kofficeui/koPageLayoutDia.cc:661
 #, fuzzy
 msgid "&Footer"
 msgstr "ທ້າຍເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:655
+#: kofficeui/koPageLayoutDia.cc:666
 msgid "Different footer for the first page"
 msgstr ""
 "ຫນ້າທຳອິດມີທ້າຍເຈ້ຍຕ່າງຈາ"
 "ກຫນ້າອື່ນ"
 
-#: kofficeui/koPageLayoutDia.cc:661
+#: kofficeui/koPageLayoutDia.cc:672
 msgid "Different footer for even and odd pages"
 msgstr ""
 "ຫນ້າຄີກແລະຫນ້າຄູ່ມີທ້າຍເຈ"
 "້ຍຕ່າງກັນ"
 
-#: kofficeui/koPageLayoutDia.cc:667
+#: kofficeui/koPageLayoutDia.cc:678
 msgid "Spacing between footer and body (%1):"
 msgstr ""
 "ລະຍະຫ່າງຈາກທ້າຍເຈ້ຍເຖິງຂໍ"
 "້ຄວາມ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:680
+#: kofficeui/koPageLayoutDia.cc:691
 #, fuzzy
 msgid "Foot&note/Endnote"
 msgstr "ເຊິງອັນ/ອ້າງອີງທ້າຍເລື່ອງ"
 
-#: kofficeui/koPageLayoutDia.cc:685
+#: kofficeui/koPageLayoutDia.cc:696
 msgid "Spacing between footnote and body (%1):"
 msgstr ""
 "ລະຍະຫ່າງຈາກເຊິງອັນເຖິງຕົວ"
 "ຂໍ້ຄວາມ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:853
+#: kofficeui/koPageLayoutDia.cc:864
 msgid "The page width is smaller than the left and right margins."
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:854 kofficeui/koPageLayoutDia.cc:861
+#: kofficeui/koPageLayoutDia.cc:865 kofficeui/koPageLayoutDia.cc:872
 #, fuzzy
 msgid "Page Layout Problem"
 msgstr "ການຈັດວາງຫນ້າເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:860
+#: kofficeui/koPageLayoutDia.cc:871
 msgid "The page height is smaller than the top and bottom margins."
 msgstr ""
 
@@ -3138,42 +3138,42 @@ msgstr "AM/PM"
 msgid "Correct in Days"
 msgstr "Correct in Days"
 
-#: kotext/koAutoFormat.cc:943 kotext/koAutoFormat.cc:956
+#: kotext/koAutoFormat.cc:946 kotext/koAutoFormat.cc:959
 msgid "Completion Word"
 msgstr "ເຮັດຄຳໃຫ້ສົມບູນ"
 
-#: kotext/koAutoFormat.cc:1141 kotext/koAutoFormat.cc:1239
-#: kotext/koAutoFormat.cc:1258 kotext/koAutoFormatDia.cc:178
+#: kotext/koAutoFormat.cc:1154 kotext/koAutoFormat.cc:1252
+#: kotext/koAutoFormat.cc:1271 kotext/koAutoFormatDia.cc:178
 msgid "Autocorrection"
 msgstr "ແກ້ໄຂໃຫຖືກຕ້ອງອັດຕະໂນມັດ"
 
-#: kotext/koAutoFormat.cc:1359 kotext/koAutoFormat.cc:1370
-#: kotext/koAutoFormat.cc:1792
+#: kotext/koAutoFormat.cc:1373 kotext/koAutoFormat.cc:1384
+#: kotext/koAutoFormat.cc:1806
 #, fuzzy
 msgid "Autocorrect Word"
 msgstr ""
 "ແກ້ໄຂຄຳໃຫ້ຖືກຕ້ອງອັດຕະໂນມ"
 "ັດิ"
 
-#: kotext/koAutoFormat.cc:1367
+#: kotext/koAutoFormat.cc:1381
 #, fuzzy
 msgid "Autocorrect Word with Format"
 msgstr ""
 "ແກ້ໄຂຄຳໃຫ້ຖືກຕ້ອງອັດຕະໂນມ"
 "ັດໂດຍໃຊ້ຮູບແບບ"
 
-#: kotext/koAutoFormat.cc:1441
+#: kotext/koAutoFormat.cc:1455
 msgid "Typographic Quote"
 msgstr "Typographic Quote"
 
-#: kotext/koAutoFormat.cc:1504
+#: kotext/koAutoFormat.cc:1518
 msgid "Autocorrect (capitalize first letter)"
 msgstr ""
 "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ("
 "ໃຫ້ອັກສອນຕົວທຳອິດເປັນຕົວພ"
 "ີມໃຫຍ່)"
 
-#: kotext/koAutoFormat.cc:1529
+#: kotext/koAutoFormat.cc:1543
 #, fuzzy
 msgid ""
 "Autocorrect (Convert two upper case letters to one upper case and one lower "
@@ -3185,43 +3185,43 @@ msgstr ""
 "ເປັນຕົວພີມໃຫຍ່ໜຶ່ງຕົວ "
 "ແລະຕົວພີມນ້ອຍໜຶ່ງຕົວ)"
 
-#: kotext/koAutoFormat.cc:1570
+#: kotext/koAutoFormat.cc:1584
 msgid "Autocorrect (replace 1/2... with "
 msgstr ""
 "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ "
 "(ແທນທີ່ 1/2... ດ້ວຍ "
 
-#: kotext/koAutoFormat.cc:1680
+#: kotext/koAutoFormat.cc:1694
 msgid "Insert Variable"
 msgstr "ແຊກຕົວແປ"
 
-#: kotext/koAutoFormat.cc:1782
+#: kotext/koAutoFormat.cc:1796
 #, fuzzy
 msgid "Autocorrection: Change Format"
 msgstr ""
 "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ: "
 "ປ່ຽນຮູບແບບ"
 
-#: kotext/koAutoFormat.cc:1828
+#: kotext/koAutoFormat.cc:1842
 msgid "Autocorrect (use bullet style)"
 msgstr ""
 "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ "
 "(ໃຊ້ຮູບແບບສັນຍາລັກ)"
 
-#: kotext/koAutoFormat.cc:1916
+#: kotext/koAutoFormat.cc:1930
 msgid "Autocorrect (use number style)"
 msgstr ""
 "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ "
 "(ໃຊ້ຮູບແບບຕົວເລກ)"
 
-#: kotext/koAutoFormat.cc:1996 kotext/koAutoFormat.cc:2025
+#: kotext/koAutoFormat.cc:2010 kotext/koAutoFormat.cc:2039
 msgid "Autocorrect (remove start and end line space)"
 msgstr ""
 "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ("
 "ລຶບຊ່ອງວ່າງຕອນຕົ້ນແລະທ້າຍ"
 "ແຖວ)"
 
-#: kotext/koAutoFormat.cc:2062
+#: kotext/koAutoFormat.cc:2076
 #, fuzzy
 msgid "Capitalize Name of Days"
 msgstr "Capitalize name of days"
@@ -3463,29 +3463,29 @@ msgstr ""
 msgid "Completion"
 msgstr "ການຕື່່ມໃຫ້ສົມບູນ"
 
-#: kotext/koAutoFormatDia.cc:1175
+#: kotext/koAutoFormatDia.cc:1176
 msgid "E&nable completion"
 msgstr "ເ&ປີດໃຊ້ການຕື່ມໃຫ້ສົມບູນ"
 
-#: kotext/koAutoFormatDia.cc:1180
+#: kotext/koAutoFormatDia.cc:1181
 #, fuzzy
 msgid "&Enable tool tip completion"
 msgstr "ເ&ປີດໃຊ້ການຕື່ມໃຫ້ສົມບູນ"
 
-#: kotext/koAutoFormatDia.cc:1181
+#: kotext/koAutoFormatDia.cc:1182
 msgid ""
 "If this option is enabled, a tool tip box will appear when you type the "
 "beginning of a word that exists in the completion list. To complete the "
 "word, press the TAB or ENTER key."
 msgstr ""
 
-#: kotext/koAutoFormatDia.cc:1183
+#: kotext/koAutoFormatDia.cc:1184
 msgid "&Automatically add new words to completion list"
 msgstr ""
 "ເພີ້ມຄຳໃຫມ່ເຂົ້າໄປຍັງລາຍກ"
 "ານຕື່ມໃຫ້ສົມບູນ&ອັດຕະໂນມັດ"
 
-#: kotext/koAutoFormatDia.cc:1184
+#: kotext/koAutoFormatDia.cc:1185
 msgid ""
 "If this option is enabled, any word typed in this document will "
 "automatically be added to the list of words used by the completion."
@@ -3497,38 +3497,60 @@ msgstr ""
 "ນຂອງຄຳທີ່ຈະໃຊ້ກັບການຕື່ມໃ"
 "ຫ້ສົມບູນ ໂດຍອັດຕະໂນມັດ"
 
-#: kotext/koAutoFormatDia.cc:1190
+#: kotext/koAutoFormatDia.cc:1191
 #, fuzzy
 msgid "Add Completion Entry..."
 msgstr ""
 "ເ&ພີ້ມລາຍການຕື່່ມໃຫ້ສົມບູນ."
 "."
 
-#: kotext/koAutoFormatDia.cc:1193
+#: kotext/koAutoFormatDia.cc:1194
 msgid "R&emove Completion Entry"
 msgstr "&ລຶບລາຍການຕື່່ມໃຫ້ສົມບູນ"
 
-#: kotext/koAutoFormatDia.cc:1196
+#: kotext/koAutoFormatDia.cc:1197
 msgid "&Save Completion List"
 msgstr ""
 "&ບັນທຶກລາຍການຕື່ມໃຫ້ສົມບູນ"
 "์"
 
-#: kotext/koAutoFormatDia.cc:1202
+#: kotext/koAutoFormatDia.cc:1203
 msgid "&Minimum word length:"
 msgstr "ຄວາມຍາວຂອງຄຳ&ນ້ອຍທີ່ສຸດ:"
 
-#: kotext/koAutoFormatDia.cc:1206
+#: kotext/koAutoFormatDia.cc:1207
 msgid "Ma&ximum number of completion words:"
 msgstr ""
 "ຈຳນວນ&ສູງສຸດຂອງຄຳໃນການຕື່ມ"
 "ໃຫ້ສົມບູນ:"
 
-#: kotext/koAutoFormatDia.cc:1209
+#: kotext/koAutoFormatDia.cc:1210
 msgid "A&ppend space"
 msgstr "ເ&ພີ້ມຊ່ອງວ່າງຕໍ່ທ້າຍ"
 
-#: kotext/koAutoFormatDia.cc:1239
+#: kotext/koAutoFormatDia.cc:1212
+msgid "Key used for competion"
+msgstr ""
+
+#: kotext/koAutoFormatDia.cc:1216
+#, fuzzy
+msgid "Enter"
+msgstr "ngtr"
+
+#: kotext/koAutoFormatDia.cc:1217
+msgid "Tab"
+msgstr ""
+
+#: kotext/koAutoFormatDia.cc:1218
+#, fuzzy
+msgid "Space"
+msgstr "ເພີ້ມຊ່ອງວ່າງ"
+
+#: kotext/koAutoFormatDia.cc:1219
+msgid "End"
+msgstr ""
+
+#: kotext/koAutoFormatDia.cc:1271
 msgid ""
 "Completion list saved.\n"
 "It will be used for all documents from now on."
@@ -3538,22 +3560,22 @@ msgstr ""
 "ມັນຈະຖືກໃຊ້ກັບເອກະສານທັງຫ"
 "ມົດຕັ້ງແຕ່່່ນີ້ເປັນຕົ້ນໄປ"
 
-#: kotext/koAutoFormatDia.cc:1240
+#: kotext/koAutoFormatDia.cc:1272
 msgid "Completion List Saved"
 msgstr ""
 "ບັນທຶກລາຍການຕື່່ມໃຫ້ສົມບູ"
 "ນແລ້ວ"
 
-#: kotext/koAutoFormatDia.cc:1246
+#: kotext/koAutoFormatDia.cc:1278
 msgid "Add Completion Entry"
 msgstr "ເພີ້ມລາຍການຕື່່ມໃຫ້ສົມບູນ"
 
-#: kotext/koAutoFormatDia.cc:1246
+#: kotext/koAutoFormatDia.cc:1278
 msgid "Enter entry:"
 msgstr "ຕື່ມລາຍການ:"
 
-#: kotext/koChangeCaseDia.cc:34 kotext/kotextobject.cc:1763
-#: kotext/kotextobject.cc:1839
+#: kotext/koChangeCaseDia.cc:34 kotext/kotextobject.cc:1773
+#: kotext/kotextobject.cc:1849
 msgid "Change Case"
 msgstr "ປ່ຽນຕົວພີມ"
 
@@ -3678,7 +3700,7 @@ msgstr "ພາດຜ່ານ:"
 msgid "&Word by word"
 msgstr "Word By Word"
 
-#: kotext/koFontDia.cc:456 kotext/kovariable.cc:2295
+#: kotext/koFontDia.cc:456 kotext/kovariable.cc:2297
 msgid "Position"
 msgstr "ຕຳແໜ່ງ"
 
@@ -4201,7 +4223,7 @@ msgstr ""
 msgid "General"
 msgstr "ທົ່ວໄປ"
 
-#: kotext/koStylist.cc:236 kotext/kovariable.cc:2282
+#: kotext/koStylist.cc:236 kotext/kovariable.cc:2284
 msgid "<None>"
 msgstr "<ບໍ່ມີ>"
 
@@ -4217,7 +4239,7 @@ msgstr "ໍໍືຊື່ລາຍການ"
 msgid "Variable Name"
 msgstr "ໍຊື່ຕົວແປ"
 
-#: kotext/koVariableDlgs.cc:165 kotext/kovariable.cc:911
+#: kotext/koVariableDlgs.cc:165 kotext/kovariable.cc:913
 msgid "Variable"
 msgstr "ຕົວແປ"
 
@@ -4331,64 +4353,64 @@ msgstr "ເສັ້ນແບບ ປະ ຈຸດ"
 msgid "Dash Dot Dot Line"
 msgstr "ເສັ້ນແບບ ປະ ຈຸດ ຈຸດ "
 
-#: kotext/kotextobject.cc:434 kotext/kotextobject.cc:473
-#: kotext/kotextobject.cc:492 kotext/kotextobject.cc:553
+#: kotext/kotextobject.cc:436 kotext/kotextobject.cc:475
+#: kotext/kotextobject.cc:494 kotext/kotextobject.cc:555
 msgid "Delete Text"
 msgstr "ລຶບຂໍ້ຄວາມ"
 
-#: kotext/kotextobject.cc:499 kotext/kotextview.cc:410
-#: kotext/kotextview.cc:415 kotext/kotextview.cc:446
+#: kotext/kotextobject.cc:501 kotext/kotextview.cc:419
+#: kotext/kotextview.cc:424 kotext/kotextview.cc:455
 msgid "Insert Text"
 msgstr "ແຊກຂໍ້ຄວາມ"
 
-#: kotext/kotextobject.cc:727 kotext/kotextview.cc:1361
+#: kotext/kotextobject.cc:737 kotext/kotextview.cc:1364
 msgid "Paste Text"
 msgstr "ວາງຂໍ້ຄວາມ"
 
-#: kotext/kotextobject.cc:808
+#: kotext/kotextobject.cc:818
 #, c-format
 msgid "Apply Style %1"
 msgstr "ປັບໃ່ຊ້ຮູບແບບ %1"
 
-#: kotext/kotextobject.cc:1016
+#: kotext/kotextobject.cc:1026
 msgid "Format Text"
 msgstr "ຮູບແບບຂໍ້ຄວາມ"
 
-#: kotext/kotextobject.cc:1104
+#: kotext/kotextobject.cc:1114
 msgid "Change List Type"
 msgstr "ປ່ຽນປະເພດຂອງລາຍການ"
 
-#: kotext/kotextobject.cc:1140
+#: kotext/kotextobject.cc:1150
 msgid "Change Alignment"
 msgstr "ປ່ຽນທິດທາງຈັດວາງ"
 
-#: kotext/kotextobject.cc:1177
+#: kotext/kotextobject.cc:1187
 msgid "Change First Line Indent"
 msgstr "ປ່ຽນລະຍະເຍືອງຂອງແຖວທຳອິດ"
 
-#: kotext/kotextobject.cc:1179
+#: kotext/kotextobject.cc:1189
 msgid "Change Indent"
 msgstr "ປ່ຽນລະຍະເຍືອງ"
 
-#: kotext/kotextobject.cc:1181
+#: kotext/kotextobject.cc:1191
 msgid "Change Paragraph Spacing"
 msgstr ""
 "ປ່ຽນລະຍະຫ່າງລະຫວ່າງຫຍໍ້ຫນ"
 "້າ"
 
-#: kotext/kotextobject.cc:1231
+#: kotext/kotextobject.cc:1241
 msgid "Change Line Spacing"
 msgstr "ປ່ຽນລະຍະຫ່າງລະຫວ່າງແຖວ"
 
-#: kotext/kotextobject.cc:1291
+#: kotext/kotextobject.cc:1301
 msgid "Change Borders"
 msgstr "ປ່ຽນຂອບ"
 
-#: kotext/kotextobject.cc:1330
+#: kotext/kotextobject.cc:1340
 msgid "Change Tabulator"
 msgstr "ປ່ຽນລະຍະແທັບ"
 
-#: kotext/kotextobject.cc:1372
+#: kotext/kotextobject.cc:1382
 msgid "Change Shadow"
 msgstr "ປ່ຽນເງົາ"
 
@@ -4396,44 +4418,44 @@ msgstr "ປ່ຽນເງົາ"
 msgid "Remove Word"
 msgstr "ລຶຍຄຳ"
 
-#: kotext/kotextview.cc:1190
+#: kotext/kotextview.cc:1186
 msgid "Replace Word"
 msgstr "ແທນທີ່ຄຳ"
 
-#: kotext/kotextview.cc:1202
+#: kotext/kotextview.cc:1203
 msgid "%1 is not a valid link."
 msgstr ""
 "%1 "
 "ບໍ່ແມ່ນການເຊື່ອມໂຍງທີຖືກຕ"
 "້ອງ"
 
-#: kotext/kotextview.cc:1209
+#: kotext/kotextview.cc:1212
 msgid "Insert Soft Hyphen"
 msgstr "ແຊກເຄື່ອງຫມາຍຂີດ"
 
-#: kotext/kotextview.cc:1215
+#: kotext/kotextview.cc:1218
 msgid "Insert Line Break"
 msgstr "ແຊກຕົວຫຍຸດແຖວ"
 
-#: kotext/kotextview.cc:1221
+#: kotext/kotextview.cc:1224
 #, fuzzy
 msgid "Insert Non-Breaking Space"
 msgstr "ແຊກຊ່ອງວ່າງທີ່ບໍ່ຫຍຸດ"
 
-#: kotext/kotextview.cc:1227
+#: kotext/kotextview.cc:1230
 #, fuzzy
 msgid "Insert Non-Breaking Hyphen"
 msgstr "ແຊກຊ່ອງວ່າງທີ່ບໍ່ຫຍຸດ"
 
-#: kotext/kotextview.cc:1240 kotext/kotextview.cc:1248
+#: kotext/kotextview.cc:1243 kotext/kotextview.cc:1251
 msgid "Insert Special Char"
 msgstr "ແຊກອັກຂະຫລະພິເສດ"
 
-#: kotext/kotextview.cc:1476
+#: kotext/kotextview.cc:1462
 msgid "Remove Comment"
 msgstr "ລຶຍຫມາຍເຫດ"
 
-#: kotext/kotextview.cc:1545
+#: kotext/kotextview.cc:1530
 #, fuzzy
 msgid "Remove Link"
 msgstr "ລຶບສະດົມ"
@@ -4469,334 +4491,334 @@ msgstr "รูปแบบกระดาษ"
 msgid "No value"
 msgstr "ບໍ່ມີຄ່າ"
 
-#: kotext/kovariable.cc:1166
+#: kotext/kovariable.cc:1168
 msgid "Date (Fixed)"
 msgstr "ວັນທີ (ຕາຍຕົວ)"
 
-#: kotext/kovariable.cc:1168 kotext/kovariable.cc:1176
+#: kotext/kovariable.cc:1170 kotext/kovariable.cc:1178
 msgid "Date"
 msgstr "ວັນທີ"
 
-#: kotext/kovariable.cc:1170
+#: kotext/kovariable.cc:1172
 msgid "Last Printing"
 msgstr "Last Printing"
 
-#: kotext/kovariable.cc:1172
+#: kotext/kovariable.cc:1174
 #, fuzzy
 msgid "File Creation"
 msgstr "ຕຳແໜ່ງແຟ້ມ:"
 
-#: kotext/kovariable.cc:1174
+#: kotext/kovariable.cc:1176
 #, fuzzy
 msgid "File Modification"
 msgstr "ຕຳແໜ່ງແຟ້ມ:"
 
-#: kotext/kovariable.cc:1343
+#: kotext/kovariable.cc:1345
 msgid "Current Date (fixed)"
 msgstr "ວັນທີປັດຈຸບັນ (ຕາຍຕົວ)"
 
-#: kotext/kovariable.cc:1344
+#: kotext/kovariable.cc:1346
 msgid "Current Date (variable)"
 msgstr "ວັນທີປັດຈຸບັນ (ຕົວແປ)"
 
-#: kotext/kovariable.cc:1345
+#: kotext/kovariable.cc:1347
 #, fuzzy
 msgid "Date of Last Printing"
 msgstr "Date Of Last Printing"
 
-#: kotext/kovariable.cc:1346
+#: kotext/kovariable.cc:1348
 #, fuzzy
 msgid "Date of File Creation"
 msgstr "Date Of Create Of File"
 
-#: kotext/kovariable.cc:1347
+#: kotext/kovariable.cc:1349
 #, fuzzy
 msgid "Date of File Modification"
 msgstr "Date Of Modification Of File"
 
-#: kotext/kovariable.cc:1365
+#: kotext/kovariable.cc:1367
 msgid "Date Format"
 msgstr "ຮູບແບບວັນທີ"
 
-#: kotext/kovariable.cc:1436
+#: kotext/kovariable.cc:1438
 msgid "Time (Fixed)"
 msgstr "ເວລາ (ຕາຍຕົວ)"
 
-#: kotext/kovariable.cc:1436
+#: kotext/kovariable.cc:1438
 msgid "Time"
 msgstr "ເວລາ"
 
-#: kotext/kovariable.cc:1559
+#: kotext/kovariable.cc:1561
 msgid "Current Time (fixed)"
 msgstr "ເວລາປັດຈຸບັນ (ຕາຍຕົວ)"
 
-#: kotext/kovariable.cc:1560
+#: kotext/kovariable.cc:1562
 msgid "Current Time (variable)"
 msgstr "ເວລາປັດຈຸບັນ (ຕົວແປ)"
 
-#: kotext/kovariable.cc:1573
+#: kotext/kovariable.cc:1575
 msgid "Time Format"
 msgstr "ຮູບແບບເວລາ"
 
-#: kotext/kovariable.cc:1649
+#: kotext/kovariable.cc:1651
 msgid "Custom Variable"
 msgstr "ກຳນົດຕົວແປເອງ"
 
-#: kotext/kovariable.cc:1716
+#: kotext/kovariable.cc:1718
 msgid "Custom..."
 msgstr "ກຳນົດເອງ..."
 
-#: kotext/kovariable.cc:1735
+#: kotext/kovariable.cc:1737
 msgid "Mail Merge"
 msgstr "ລວມເຂົ້າກັບຈົດຫມາຍ"
 
-#: kotext/kovariable.cc:1781
+#: kotext/kovariable.cc:1783
 msgid "&Mail Merge..."
 msgstr "ລວມເຂົ້າກັບ&ຈົດຫມາຍ..."
 
-#: kotext/kovariable.cc:1795
+#: kotext/kovariable.cc:1797
 msgid "Page Current Num"
 msgstr "ເລກຫນ້າປັດຈຸບັນ"
 
-#: kotext/kovariable.cc:1797
+#: kotext/kovariable.cc:1799
 msgid "Total Page Num"
 msgstr "ຈຳນວນຫນ້າທັງຫມົດ"
 
-#: kotext/kovariable.cc:1799 kotext/kovariable.cc:1806
+#: kotext/kovariable.cc:1801 kotext/kovariable.cc:1808
 msgid "Current Section"
 msgstr "ເຊັກຊັນປັດຈຸບັນ"
 
-#: kotext/kovariable.cc:1801
+#: kotext/kovariable.cc:1803
 msgid "Previous Page Number"
 msgstr "ຫມາຍເລກຫນ້າ"
 
-#: kotext/kovariable.cc:1803
+#: kotext/kovariable.cc:1805
 msgid "Next Page Number"
 msgstr "ຫມາຍເລກຫນ້າ"
 
-#: kotext/kovariable.cc:1914
+#: kotext/kovariable.cc:1916
 msgid "Page Number"
 msgstr "ຫມາຍເລກຫນ້າ"
 
-#: kotext/kovariable.cc:1915
+#: kotext/kovariable.cc:1917
 msgid "Number of Pages"
 msgstr "ຈຳນວນຫນ້າ"
 
-#: kotext/kovariable.cc:1916
+#: kotext/kovariable.cc:1918
 msgid "Section Title"
 msgstr "ັຫົວເລື່ອງເຊັກຊັນ"
 
-#: kotext/kovariable.cc:1917
+#: kotext/kovariable.cc:1919
 msgid "Previous Page"
 msgstr "ສະແດງຕົວຢ່າງ"
 
-#: kotext/kovariable.cc:1918
+#: kotext/kovariable.cc:1920
 msgid "Next Page"
 msgstr "ຮູບແບບຕໍ່ໄປ:"
 
-#: kotext/kovariable.cc:1947
+#: kotext/kovariable.cc:1949
 msgid "Filename"
 msgstr "ຊື່ແຟ້ມ"
 
-#: kotext/kovariable.cc:1950 kotext/kovariable.cc:2314
+#: kotext/kovariable.cc:1952 kotext/kovariable.cc:2316
 msgid "Directory Name"
 msgstr "ຊື່ໄດເຣກທໍລີ"
 
-#: kotext/kovariable.cc:1953
+#: kotext/kovariable.cc:1955
 msgid "Path Filename"
 msgstr "ເສັ້ນທາງໄປຍັງແຟ້ມ"
 
-#: kotext/kovariable.cc:1956
+#: kotext/kovariable.cc:1958
 msgid "Filename Without Extension"
 msgstr "ຊື່ແຟ້ມໂດຍບໍ່ມີສ່ວນຂະຫຍາຍ"
 
-#: kotext/kovariable.cc:1959 kotext/kovariable.cc:2293
+#: kotext/kovariable.cc:1961 kotext/kovariable.cc:2295
 msgid "Author Name"
 msgstr "ຊື່ຜູ້ຂຽນ"
 
-#: kotext/kovariable.cc:1962 kotext/kovariable.cc:2297
+#: kotext/kovariable.cc:1964 kotext/kovariable.cc:2299
 msgid "Email"
 msgstr "ທີ່ອີເມລ໌"
 
-#: kotext/kovariable.cc:1965
+#: kotext/kovariable.cc:1967
 msgid "Company Name"
 msgstr "ໍຊື່ບໍລິສັດ"
 
-#: kotext/kovariable.cc:1968
+#: kotext/kovariable.cc:1970
 #, fuzzy
 msgid "Telephone (Work)"
 msgstr "ໂທລະສັບ"
 
-#: kotext/kovariable.cc:1971
+#: kotext/kovariable.cc:1973
 #, fuzzy
 msgid "Telephone (Home)"
 msgstr "ໂທລະສັບ"
 
-#: kotext/kovariable.cc:1974 kotext/kovariable.cc:2301
+#: kotext/kovariable.cc:1976 kotext/kovariable.cc:2303
 msgid "Fax"
 msgstr "ໂທລະສານ"
 
-#: kotext/kovariable.cc:1977 kotext/kovariable.cc:2305
+#: kotext/kovariable.cc:1979 kotext/kovariable.cc:2307
 msgid "Country"
 msgstr "ປະເທດ"
 
-#: kotext/kovariable.cc:1980 kotext/kovariable.cc:2303
+#: kotext/kovariable.cc:1982 kotext/kovariable.cc:2305
 msgid "Postal Code"
 msgstr "ລະຫັດໄປສະນີ"
 
-#: kotext/kovariable.cc:1983 kotext/kovariable.cc:2304
+#: kotext/kovariable.cc:1985 kotext/kovariable.cc:2306
 msgid "City"
 msgstr "ເມືອງ"
 
-#: kotext/kovariable.cc:1986 kotext/kovariable.cc:2302
+#: kotext/kovariable.cc:1988 kotext/kovariable.cc:2304
 msgid "Street"
 msgstr "ຖະຫນົນ"
 
-#: kotext/kovariable.cc:1989
+#: kotext/kovariable.cc:1991
 msgid "Author Title"
 msgstr "ຄຳນຳຫນ້າຊື່ຜູ້ຂຽນ"
 
-#: kotext/kovariable.cc:1992 kotext/kovariable.cc:2294
+#: kotext/kovariable.cc:1994 kotext/kovariable.cc:2296
 msgid "Title"
 msgstr "ຫົວເລື່ອງ"
 
-#: kotext/kovariable.cc:1995
+#: kotext/kovariable.cc:1997
 #, fuzzy
 msgid "Subject"
 msgstr "ວັດຖຸ"
 
-#: kotext/kovariable.cc:1998
+#: kotext/kovariable.cc:2000
 msgid "Abstract"
 msgstr "ຂໍ້ມູນຫຍໍ້"
 
-#: kotext/kovariable.cc:2001
+#: kotext/kovariable.cc:2003
 msgid "Keywords"
 msgstr ""
 
-#: kotext/kovariable.cc:2004 kotext/kovariable.cc:2316
+#: kotext/kovariable.cc:2006 kotext/kovariable.cc:2318
 #, fuzzy
 msgid "Initials"
 msgstr "Initial"
 
-#: kotext/kovariable.cc:2007
+#: kotext/kovariable.cc:2009
 msgid "Field"
 msgstr "ຊ່ອງຂໍ້ມູນ"
 
-#: kotext/kovariable.cc:2296
+#: kotext/kovariable.cc:2298
 msgid "Company"
 msgstr "ບໍລິສັດ"
 
-#: kotext/kovariable.cc:2298
+#: kotext/kovariable.cc:2300
 #, fuzzy
 msgid "Telephone (work)"
 msgstr "ໂທລະສັບ"
 
-#: kotext/kovariable.cc:2299
+#: kotext/kovariable.cc:2301
 #, fuzzy
 msgid "Telephone (private)"
 msgstr "ໂທລະສັບ"
 
-#: kotext/kovariable.cc:2307
+#: kotext/kovariable.cc:2309
 msgid "Document Title"
 msgstr "ຫົວເລື່ອງເອກະສານ"
 
-#: kotext/kovariable.cc:2308
+#: kotext/kovariable.cc:2310
 msgid "Document Abstract"
 msgstr "ຂໍ້ມູນຫຍໍ້ຂອງເອກະສານ"
 
-#: kotext/kovariable.cc:2309
+#: kotext/kovariable.cc:2311
 #, fuzzy
 msgid "Document Subject"
 msgstr "ຂໍ້ມູນຫຍໍ້ຂອງເອກະສານ"
 
-#: kotext/kovariable.cc:2310
+#: kotext/kovariable.cc:2312
 #, fuzzy
 msgid "Document Keywords"
 msgstr "ຫົວເລື່ອງເອກະສານ"
 
-#: kotext/kovariable.cc:2312
+#: kotext/kovariable.cc:2314
 msgid "File Name"
 msgstr "ຊື່ແຟ້ມ"
 
-#: kotext/kovariable.cc:2313
+#: kotext/kovariable.cc:2315
 #, fuzzy
 msgid "File Name without Extension"
 msgstr "ຊື່ແຟ້ມໂດຍບໍ່ມີສ່ວນຂະຫຍາຍ"
 
-#: kotext/kovariable.cc:2315
+#: kotext/kovariable.cc:2317
 msgid "Directory && File Name"
 msgstr "ຊື່ໄດເຣກທໍລີແລະຊື່ແຟ້ມ"
 
-#: kotext/kovariable.cc:2397
+#: kotext/kovariable.cc:2399
 msgid "Link"
 msgstr "ການເຊື່ອມໂຍງ"
 
-#: kotext/kovariable.cc:2454
+#: kotext/kovariable.cc:2456
 msgid "Link..."
 msgstr "ການເຊື່ອມໂຍງ..."
 
-#: kotext/kovariable.cc:2485
+#: kotext/kovariable.cc:2487
 msgid "Note"
 msgstr "ບັນທຶກຊ່ອຍຈື່"
 
-#: kotext/kovariable.cc:2554
+#: kotext/kovariable.cc:2556
 msgid "Note..."
 msgstr "ບັນທຶກຊ່ອຍຈື່..."
 
-#: kotext/kovariable.cc:2604
+#: kotext/kovariable.cc:2606
 #, fuzzy
 msgid "<No title>"
 msgstr "<ບໍ່ມີ>"
 
-#: kotext/kovariable.cc:2620 kotext/kovariable.cc:2800
+#: kotext/kovariable.cc:2622 kotext/kovariable.cc:2802
 #, fuzzy
 msgid "Number of Words"
 msgstr "ສີຂອງຕົວເລກ:"
 
-#: kotext/kovariable.cc:2621 kotext/kovariable.cc:2804
+#: kotext/kovariable.cc:2623 kotext/kovariable.cc:2806
 #, fuzzy
 msgid "Number of Sentences"
 msgstr "ຈຳນວນຫນ້າ"
 
-#: kotext/kovariable.cc:2622 kotext/kovariable.cc:2808
+#: kotext/kovariable.cc:2624 kotext/kovariable.cc:2810
 #, fuzzy
 msgid "Number of Lines"
 msgstr "ຈຳນວນຫນ້າ"
 
-#: kotext/kovariable.cc:2623 kotext/kovariable.cc:2812
+#: kotext/kovariable.cc:2625 kotext/kovariable.cc:2814
 #, fuzzy
 msgid "Number of Characters"
 msgstr "ກຸ່ມຂອງອັກຂະຫລະ"
 
-#: kotext/kovariable.cc:2624 kotext/kovariable.cc:2816
+#: kotext/kovariable.cc:2626 kotext/kovariable.cc:2818
 #, fuzzy
 msgid "Number of Non-Whitespace Characters"
 msgstr "ກຸ່ມຂອງອັກຂະຫລະ"
 
-#: kotext/kovariable.cc:2625 kotext/kovariable.cc:2820
+#: kotext/kovariable.cc:2627 kotext/kovariable.cc:2822
 #, fuzzy
 msgid "Number of Syllables"
 msgstr "ຈຳນວນຫນ້າ"
 
-#: kotext/kovariable.cc:2626 kotext/kovariable.cc:2784
-#: kotext/kovariable.cc:2823
+#: kotext/kovariable.cc:2628 kotext/kovariable.cc:2786
+#: kotext/kovariable.cc:2825
 #, fuzzy
 msgid "Number of Frames"
 msgstr "ຈຳນວນຫນ້າ"
 
-#: kotext/kovariable.cc:2627 kotext/kovariable.cc:2796
+#: kotext/kovariable.cc:2629 kotext/kovariable.cc:2798
 #, fuzzy
 msgid "Number of Embedded Objects"
 msgstr ""
 "ບໍ່ສາມາດໂຫລດວັດຖຸຸທີ່ຝັງຢ"
 "ູ່ໄດ້"
 
-#: kotext/kovariable.cc:2628 kotext/kovariable.cc:2788
+#: kotext/kovariable.cc:2630 kotext/kovariable.cc:2790
 #, fuzzy
 msgid "Number of Pictures"
 msgstr "ຈຳນວນຫນ້າ"
 
-#: kotext/kovariable.cc:2630 kotext/kovariable.cc:2792
+#: kotext/kovariable.cc:2632 kotext/kovariable.cc:2794
 #, fuzzy
 msgid "Number of Tables"
 msgstr "ຈຳນວນຫນ້າ"
@@ -4823,6 +4845,15 @@ msgstr ""
 #, fuzzy
 msgid "KOffice Storage"
 msgstr "KOffice"
+
+#: kofficecore/koOasisStore.cpp:167
+#, fuzzy
+msgid ""
+"Parsing error in the main document at line %1, column %2\n"
+"Error message: %3"
+msgstr ""
+"ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, "
+"ຖັນ %2"
 
 #: kofficecore/koPageLayout.cpp:100
 #, fuzzy
@@ -8214,9 +8245,6 @@ msgstr ""
 
 #~ msgid "nless"
 #~ msgstr "nless"
-
-#~ msgid "ngtr"
-#~ msgstr "ngtr"
 
 #~ msgid "Rsh"
 #~ msgstr "Rsh"
