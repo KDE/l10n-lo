@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-05-06 02:26+0200\n"
+"POT-Creation-Date: 2003-09-23 01:29+0200\n"
 "PO-Revision-Date: 2003-01-14 15:08+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,16 +14,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: kcmlaunch.cpp:48
-msgid "Busy Cursor"
+#: kcmlaunch.cpp:45
+#, fuzzy
+msgid "Bus&y Cursor"
 msgstr "แสดงการเตือนทางเคอร์เซอร์"
 
-#: kcmlaunch.cpp:50
+#: kcmlaunch.cpp:47
+#, fuzzy
 msgid ""
 "<h1>Busy Cursor</h1>\n"
 "KDE offers a busy cursor for application startup notification.\n"
-"To enable the busy cursor, check 'Enable busy cursor'.\n"
-"To have the cursor blinking, check 'Enable blinking' below.\n"
+"To enable the busy cursor, select one kind of visual feedback\n"
+"from the combobox.\n"
 "It may occur, that some applications are not aware of this startup\n"
 "notification. In this case, the cursor stops blinking after the time\n"
 "given in the section 'Startup indication timeout'"
@@ -56,31 +58,41 @@ msgstr ""
 "'ช่วงเวลาให้แสดงว่าเริ่มทำ"
 "งาน'"
 
-#: kcmlaunch.cpp:68
-msgid "&Enable busy cursor"
+#: kcmlaunch.cpp:65
+#, fuzzy
+msgid "No Busy Cursor"
+msgstr "แสดงการเตือนทางเคอร์เซอร์"
+
+#: kcmlaunch.cpp:66
+#, fuzzy
+msgid "Passive Busy Cursor"
+msgstr "แสดงการเตือนทางเคอร์เซอร์"
+
+#: kcmlaunch.cpp:67
+msgid "Blinking Cursor"
 msgstr ""
-"เปิดใช้การเตือนทางเคอร์เซ"
-"อร์"
 
-#: kcmlaunch.cpp:78
-msgid "Enable &blinking"
-msgstr "เปิดใช้การกระพริบ"
+#: kcmlaunch.cpp:68
+#, fuzzy
+msgid "Bouncing Cursor"
+msgstr "แสดงการเตือนทางเคอร์เซอร์"
 
-#: kcmlaunch.cpp:84
+#: kcmlaunch.cpp:75
 msgid "&Startup indication timeout:"
 msgstr ""
 "ช่วงเวลาให้แสดงว่าเริ่มทำ"
 "งาน:"
 
-#: kcmlaunch.cpp:88 kcmlaunch.cpp:125
+#: kcmlaunch.cpp:79 kcmlaunch.cpp:116
 msgid " sec"
 msgstr " วินาที"
 
-#: kcmlaunch.cpp:95
-msgid "Taskbar Notification"
+#: kcmlaunch.cpp:86
+#, fuzzy
+msgid "Taskbar &Notification"
 msgstr "การแจ้งเตือนทางทาสก์บาร์"
 
-#: kcmlaunch.cpp:96
+#: kcmlaunch.cpp:87
 msgid ""
 "<H1>Taskbar Notification</H1>\n"
 "You can enable a second method of startup notification which is\n"
@@ -112,20 +124,24 @@ msgstr ""
 "'ช่วงเวลาให้แสดงว่าเริ่มทำ"
 "งาน'"
 
-#: kcmlaunch.cpp:114
+#: kcmlaunch.cpp:105
 msgid "Enable &taskbar notification"
 msgstr ""
 "เปิดใช้การแจ้งเตือนทางแถบ"
 "งาน"
 
-#: kcmlaunch.cpp:121
-msgid "Startup &indication timeout:"
+#: kcmlaunch.cpp:112
+#, fuzzy
+msgid "Start&up indication timeout:"
 msgstr ""
 "ช่วงเวลาให้แสดงว่าเริ่มทำ"
 "งาน:"
 
-#: kcmlaunch.cpp:283
-msgid "<h1>Launch</h1> You can configure the application-launch feedback here."
+#: kcmlaunch.cpp:277
+#, fuzzy
+msgid ""
+"<h1>Launch Feedback</h1> You can configure the application-launch feedback "
+"here."
 msgstr ""
 "<h1>เรียกทำงาน</h1> "
 "คุณสามารถปรับแต่ง "
@@ -133,6 +149,14 @@ msgstr ""
 "การเรียกให้แอพพลิเคชันทำง"
 "านได้ที่นี่"
 
+#~ msgid "&Enable busy cursor"
+#~ msgstr "เปิดใช้การเตือนทางเคอร์เซอร์"
+
+#~ msgid "Enable &blinking"
+#~ msgstr "เปิดใช้การกระพริบ"
+
+#~ msgid "Startup &indication timeout:"
+#~ msgstr "ช่วงเวลาให้แสดงว่าเริ่มทำงาน:"
+
 #~ msgid "Form1"
 #~ msgstr "ฟอร์ม1"
-
