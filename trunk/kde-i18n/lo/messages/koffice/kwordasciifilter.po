@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-09-02 03:02+0200\n"
+"POT-Creation-Date: 2003-03-03 02:07+0100\n"
 "PO-Revision-Date: 2003-01-18 11:24+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -16,11 +16,21 @@ msgstr ""
 
 #: ExportDialog.cc:38
 msgid "KWord's Plain Text Export Filter"
-msgstr "-ຕົວກ່ອງສົ່ອອກຂໍ້ຄວາມທຳມະດາຂອງ KWord"
+msgstr ""
+"-ຕົວກ່ອງສົ່ອອກຂໍ້ຄວາມທຳມະດ"
+"າຂອງ KWord"
+
+#: ExportDialog.cc:46 ImportDialog.cc:44
+msgid ""
+"_: Descriptive encoding name\n"
+"Other ( %1 )"
+msgstr ""
 
 #: ImportDialog.cc:35
 msgid "KWord's Plain Text Import Filter"
-msgstr "ໂຕກ່ອງນຳເຂົ້າຂໍ້ຄວາມທຳມະດາຂອງKWord"
+msgstr ""
+"ໂຕກ່ອງນຳເຂົ້າຂໍ້ຄວາມທຳມະດ"
+"າຂອງKWord"
 
 #: rc.cpp:1
 msgid "Plain Text Export Dialog"
@@ -47,17 +57,17 @@ msgid "End of Line"
 msgstr "ຈົບເເຖວເເບບ"
 
 #: rc.cpp:7
-msgid "Line &feed only"
-msgstr "ຂື້ນແຖວໃຫມ່ເທັ່ານັ້ນ"
+msgid "&UNIX style (recommended; line feed only)"
+msgstr ""
 
 #: rc.cpp:8
-msgid "&Both: line feed and carriage return"
-msgstr ""
-"ທັງຄູ່:"
-"ຂື້ແຖວໃຫມ່ແລະເຂ່ຍ"
+#, fuzzy
+msgid "&Windows style (carriage return and line feed)"
+msgstr "ທັງຄູ່:ຂື້ແຖວໃຫມ່ແລະເຂ່ຍ"
 
 #: rc.cpp:9
-msgid "&Carriage return only"
+#, fuzzy
+msgid "&MacOS style (carriage return only)"
 msgstr "ປັດເຂ່ຍເທົ່ານັ້ນ"
 
 #: rc.cpp:10
@@ -70,17 +80,20 @@ msgstr "ຈົບຢໍ້ຫນາ້ແບບ"
 
 #: rc.cpp:16
 msgid "&As is: At the end of line"
-msgstr ""
-"&ຫາກ:"
-"ຢູ່ທີ່ຕຳແຫນ່ງຈົບແຖວ"
+msgstr "&ຫາກ:ຢູ່ທີ່ຕຳແຫນ່ງຈົບແຖວ"
 
 #: rc.cpp:17
 msgid "&Sentence: If the end of line is the end of a sentence"
 msgstr ""
-"&ປະໂຫຍກ:"
-"ຫາກຈົບແຖວເປັນສ່ວນຈົບປະໂຫຍກ"
+"&ປະໂຫຍກ:ຫາກຈົບແຖວເປັນສ່ວນຈົ"
+"ບປະໂຫຍກ"
 
 #: rc.cpp:18
 msgid "Old &method: If the line is empty or has less than 40 characters"
-msgstr "ວິທີເ&ກົ່າ:ຫາກແຖວວ່າງຫລືຫລາຍກວ່າ 40 ອັກຂະຫລະ"
+msgstr ""
+"ວິທີເ&ກົ່າ:ຫາກແຖວວ່າງຫລືຫລາ"
+"ຍກວ່າ 40 ອັກຂະຫລະ"
 
+#, fuzzy
+#~ msgid "Line &feed only (Unix)"
+#~ msgstr "ຂື້ນແຖວໃຫມ່ເທັ່ານັ້ນ"
