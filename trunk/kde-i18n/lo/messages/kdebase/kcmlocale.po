@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-10-18 01:26+0200\n"
+"POT-Creation-Date: 2004-07-20 01:20+0200\n"
 "PO-Revision-Date: 2003-01-11 18:03+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,7 +14,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: toplevel.cpp:163
+#: toplevel.cpp:52
+msgid "KCMLocale"
+msgstr "ັປັບແຕ່ງຮູບແບບພາສາ"
+
+#: toplevel.cpp:54
+msgid "Regional settings"
+msgstr "ຕັ້ງຄ່າພື້ນທີ່ແລະພາສາ"
+
+#: toplevel.cpp:171
 msgid ""
 "Changed language settings apply only to newly started applications.\n"
 "To change the language of all programs, you will have to logout first."
@@ -26,11 +34,11 @@ msgstr ""
 "ປຣແກຣມທ່ານຈະຕ້ອງລັອກເອົ້າ"
 "ກ່ອນ"
 
-#: toplevel.cpp:167
+#: toplevel.cpp:175
 msgid "Applying Language Settings"
 msgstr "ປັບໃໍຊ້ພາສາທີ່ຕັ້ງຄ່າໄວ້"
 
-#: toplevel.cpp:208
+#: toplevel.cpp:216
 msgid ""
 "<h1>Country & Language</h1>\n"
 "<p>From here you can configure language, numeric, and time \n"
@@ -56,37 +64,29 @@ msgstr ""
 "ແລະໃໍຊ້ຈຸນລະພາກກັບການແບ່ງ"
 "ເລກຫລັກພັນເປັນຕົ້ນ</p>\n"
 
-#: toplevel.cpp:252
+#: toplevel.cpp:260
 msgid "Examples"
 msgstr "ຕົວຢ່າງ"
 
-#: toplevel.cpp:253
+#: toplevel.cpp:261
 msgid "&Locale"
 msgstr "ຮູບແບບູພາສາ"
 
-#: toplevel.cpp:254
+#: toplevel.cpp:262
 msgid "&Numbers"
 msgstr "ຮູບແບບຕົວເລກ"
 
-#: toplevel.cpp:255
+#: toplevel.cpp:263
 msgid "&Money"
 msgstr "ຮູບແບບເງິນຕາ"
 
-#: toplevel.cpp:256
+#: toplevel.cpp:264
 msgid "&Time && Dates"
 msgstr "ວັນແລະເວລາ"
 
-#: toplevel.cpp:257
+#: toplevel.cpp:265
 msgid "&Other"
 msgstr "ອື່ນໆ"
-
-#: toplevel.cpp:276
-msgid "KCMLocale"
-msgstr "ັປັບແຕ່ງຮູບແບບພາສາ"
-
-#: toplevel.cpp:278
-msgid "Regional settings"
-msgstr "ຕັ້ງຄ່າພື້ນທີ່ແລະພາສາ"
 
 #: kcmlocale.cpp:57
 msgid "Country:"
@@ -172,6 +172,7 @@ msgstr ""
 "ອກໂດຍອັດຕະໂນມັດ"
 
 #: kcmlocale.cpp:426
+#, fuzzy
 msgid ""
 "Here you can choose the languages that will be used by KDE. If the first "
 "language in the list is not available, the second will be used etc. If only "
@@ -179,7 +180,7 @@ msgid ""
 "translations packages for many languages from the place you got KDE "
 "from."
 "<p>Note that some applications may not be translated to your languages; in "
-"this case, they will automatically fall back to English US."
+"this case, they will automatically fall back to US English."
 msgstr ""
 "ທ່ານສາມາດເລືອກພາສາທີ່ຈະໃຊ"
 "້ໂດຍ KDE ໄດ້ທີ່ນີ້ ຖ້າມີພງງ "
@@ -307,10 +308,11 @@ msgstr ""
 "ໂດຍຈະເປັນຊ່ອງຫວ່າງ"
 
 #: localenum.cpp:188
+#, fuzzy
 msgid ""
-"Here you can specify text used to prefix negative numbers. This shouldn't be "
-"empty, so you can distinguish positive and negative numbers. It's normally "
-"set to minus (-)."
+"Here you can specify text used to prefix negative numbers. This should not "
+"be empty, so you can distinguish positive and negative numbers. It is "
+"normally set to minus (-)."
 msgstr ""
 "ໃຊ້ກຳນົດສັນຍາລັກທີ່ໃຊ້ນຳຫ"
 "ນ້າຕົວເລກທີ່ເປັນຄ່າລົບຊຶ່"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-09-21 01:27+0200\n"
+"POT-Creation-Date: 2004-07-20 01:20+0200\n"
 "PO-Revision-Date: 2003-01-10 19:10+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,20 +14,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: kcmaccess.cpp:60
+#: kcmaccess.cpp:61
+msgid "kaccess"
+msgstr "kaccess"
+
+#: kcmaccess.cpp:61
+msgid "KDE Accessibility Tool"
+msgstr "KDE Accessibility Tool"
+
+#: kcmaccess.cpp:63
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000,Matthias Hoeszer-Kluepfel"
+
+#: kcmaccess.cpp:65
+msgid "Author"
+msgstr "Author"
+
+#: kcmaccess.cpp:79
 msgid "Audible Bell"
 msgstr "ເປີດໃຊ້ງານກະດິງ"
 
-#: kcmaccess.cpp:67
+#: kcmaccess.cpp:86
 msgid "Use &system bell"
 msgstr "ໃຊ້ສງງກະດິງຂອງລະບົບ"
 
-#: kcmaccess.cpp:69
+#: kcmaccess.cpp:88
 #, fuzzy
 msgid "Us&e customized bell"
 msgstr "ກຳນົດສງງກະດິງເອງ"
 
-#: kcmaccess.cpp:71
+#: kcmaccess.cpp:90
 #, fuzzy
 msgid ""
 "If this option is checked, the default system bell will be used. See the "
@@ -44,7 +60,7 @@ msgstr ""
 "ຢ່າງທຳມະດາທີສຸດກໍ່ເປັນສງງ "
 "\"ປີບຯ\""
 
-#: kcmaccess.cpp:74
+#: kcmaccess.cpp:93
 msgid ""
 "Check this option if you want to use a customized bell, playing a sound "
 "file. If you do this, you will probably want to turn off the system bell."
@@ -63,11 +79,11 @@ msgstr ""
 "ເນື່ອງຈາກກະດິງແລະສງງກຳລັງ"
 "ຖືກຫລີ້ນຢู่ູ່"
 
-#: kcmaccess.cpp:81
+#: kcmaccess.cpp:100
 msgid "Sound &to play:"
 msgstr "ສງງທີ່ຫລີ້ນ:"
 
-#: kcmaccess.cpp:86
+#: kcmaccess.cpp:105
 msgid ""
 "If the option \"Use customized bell\" is enabled, you can choose a sound "
 "file here. Click \"Browse...\" to choose a sound file using the file dialog."
@@ -80,15 +96,15 @@ msgstr ""
 "ເພືອເລືອກແຟ້ມສງງຈາກກັບໂຕ້"
 "ຕອບແຟ້ມ"
 
-#: kcmaccess.cpp:103
+#: kcmaccess.cpp:122
 msgid "Visible Bell"
 msgstr "ເປີດໃຊ້ງານກະດິງ"
 
-#: kcmaccess.cpp:109
+#: kcmaccess.cpp:128
 msgid "&Use visible bell"
 msgstr "ເປີດໃຊ້ງານກະດິງ"
 
-#: kcmaccess.cpp:111
+#: kcmaccess.cpp:130
 msgid ""
 "This option will turn on the \"visible bell\", i.e. a visible notification "
 "shown every time that normally just a bell would occur. This is especially "
@@ -99,11 +115,11 @@ msgstr ""
 "ເຊັ່ນຮ້ອງເຕືອນທຸກຄັ້ງທີ່ຄ"
 "ວນຈະມີສງງ"
 
-#: kcmaccess.cpp:117
+#: kcmaccess.cpp:136
 msgid "I&nvert screen"
 msgstr "ກັບສີຈໍ"
 
-#: kcmaccess.cpp:120
+#: kcmaccess.cpp:139
 msgid "All screen colors will be inverted for the amount of time specified below."
 msgstr ""
 "ທຸກສີເທິງຫນ້າຈໍຈະຖືກກັບເປ"
@@ -111,11 +127,11 @@ msgstr ""
 "່ເຖິງເວລາທີ່ກຳນົດດ້ານລຸ່ມ"
 "ນີ້"
 
-#: kcmaccess.cpp:122
+#: kcmaccess.cpp:141
 msgid "F&lash screen"
 msgstr "ກະພລິບຫນ້າຈໍ"
 
-#: kcmaccess.cpp:124
+#: kcmaccess.cpp:143
 msgid ""
 "The screen will turn to a custom color for the amount of time specified "
 "below."
@@ -124,22 +140,22 @@ msgstr ""
 "ຄັ້ງເມືອ່ເຖິງເວລາທີ່ກຳນົດ"
 "ດ້ານລຸ່ມນີ້"
 
-#: kcmaccess.cpp:130
+#: kcmaccess.cpp:149
 msgid "Click here to choose the color used for the \"flash screen\" visible bell."
 msgstr ""
 "ຄລິກທີ່ນີ້ເພື່ອເລືກສີທີ່ຈ"
 "ະໃຊ້ກັບການເປີດໃຊ້ງານກະດິງ"
 "ແບບ\"ກະພລິບຫນ້າຈໍ\" "
 
-#: kcmaccess.cpp:137
+#: kcmaccess.cpp:156
 msgid "Duration:"
 msgstr "ຊ່ວງຈັງຫວະ"
 
-#: kcmaccess.cpp:138 kcmaccess.cpp:191 kcmaccess.cpp:209
+#: kcmaccess.cpp:157 kcmaccess.cpp:210 kcmaccess.cpp:228
 msgid " msec"
 msgstr "ມີນລີວິນາທີ"
 
-#: kcmaccess.cpp:140
+#: kcmaccess.cpp:159
 msgid ""
 "Here you can customize the duration of the \"visible bell\" effect being "
 "shown."
@@ -148,71 +164,55 @@ msgstr ""
 "ະຂອງເອັບເຟັກ\"ໃຊ້ງານກະດິງ\" "
 "ທີ່ຈະສະແດງ"
 
-#: kcmaccess.cpp:157
+#: kcmaccess.cpp:176
 msgid "&Bell"
 msgstr "ກະດິງ"
 
-#: kcmaccess.cpp:165
+#: kcmaccess.cpp:184
 msgid "S&ticky Keys"
 msgstr "ປຸ່ມຍຶດ"
 
-#: kcmaccess.cpp:171
+#: kcmaccess.cpp:190
 msgid "Use &sticky keys"
 msgstr "ໃຊ້ປຸ່ມຍຶດ"
 
-#: kcmaccess.cpp:176
+#: kcmaccess.cpp:195
 msgid "&Lock sticky keys"
 msgstr "ລັອກປຸ່ມຍຶດ"
 
-#: kcmaccess.cpp:179
+#: kcmaccess.cpp:198
 msgid "Slo&w Keys"
 msgstr "ປຸ່ມຊ້າ"
 
-#: kcmaccess.cpp:185
+#: kcmaccess.cpp:204
 msgid "&Use slow keys"
 msgstr "ໃຊ້ປ່ມຊ້າ"
 
-#: kcmaccess.cpp:193
+#: kcmaccess.cpp:212
 msgid "Dela&y:"
 msgstr "ຫນ່ວງເວລາ:"
 
-#: kcmaccess.cpp:197
+#: kcmaccess.cpp:216
 msgid "Bounce Keys"
 msgstr "ປຸ່ມເບົາຊ໌"
 
-#: kcmaccess.cpp:203
+#: kcmaccess.cpp:222
 msgid "Use bou&nce keys"
 msgstr "ໃຊ້ປຸ່ມເບົາຊ໌"
 
-#: kcmaccess.cpp:211
+#: kcmaccess.cpp:230
 #, fuzzy
 msgid "D&elay:"
 msgstr "ຫນ່ວງເວລາ:"
 
-#: kcmaccess.cpp:228
+#: kcmaccess.cpp:247
 msgid "&Keyboard"
 msgstr "ແປ້ນພິມ"
 
-#: kcmaccess.cpp:252
+#: kcmaccess.cpp:271
 #, fuzzy
 msgid "*.wav|WAV Files"
 msgstr "*.wav|ແຟ້ມ WAV"
-
-#: kcmaccess.cpp:422
-msgid "kaccess"
-msgstr "kaccess"
-
-#: kcmaccess.cpp:422
-msgid "KDE Accessibility Tool"
-msgstr "KDE Accessibility Tool"
-
-#: kcmaccess.cpp:424
-msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
-msgstr "(c) 2000,Matthias Hoeszer-Kluepfel"
-
-#: kcmaccess.cpp:426
-msgid "Author"
-msgstr "Author"
 
 #: _translatorinfo.cpp:1
 msgid ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-08-08 01:23+0200\n"
+"POT-Creation-Date: 2004-07-20 01:20+0200\n"
 "PO-Revision-Date: 2003-01-13 13:54+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -26,22 +26,20 @@ msgid ""
 "Your emails"
 msgstr "donga_n@yahoo.com"
 
-#: rc.cpp:1
-msgid "Form2"
-msgstr "ฟอร์ม2"
-
 #: rc.cpp:2
-msgid "<b>Unable to contact the KDE smartcard service!</b>"
+#, fuzzy, no-c-format
+msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr ""
 "<b>ບໍ່ສາມາດຕິດຕໍ່ກັບບໍລິການ"
 "ສາມາດກາດຂອງ KDE ໄດ้ !</b>"
 
-#: rc.cpp:3
+#: rc.cpp:4
+#, no-c-format
 msgid "Possible Reasons"
 msgstr "ເຫດທີ່ເປັນໄປໄດ້"
 
-#: rc.cpp:4
-#, fuzzy
+#: rc.cpp:6
+#, fuzzy, no-c-format
 msgid ""
 "\n"
 "1) The KDE daemon, 'kded' is not running. You can restart it by running the "
@@ -69,27 +67,27 @@ msgstr ""
 "ໂດຍທີ່ຕ້ອງມີການຕິດຕັ້ງໄລຣ"
 "ບຣາຣີีlibpcsclite ໄວ້ກ່ອນດ້ວຍ"
 
-#: rc.cpp:5
-msgid "SmartcardBase"
-msgstr "SmartcardBase"
-
-#: rc.cpp:6
+#: rc.cpp:11
+#, no-c-format
 msgid "Smartcard Support"
 msgstr "ສະນັບສະຫນູນສະມາດກາດສ"
 
-#: rc.cpp:7
+#: rc.cpp:13
+#, no-c-format
 msgid "&Enable smartcard support"
 msgstr ""
 "ເປິດໃຊ້ການສນັບສະຫນູນສະມາດ"
 "ກາດສ"
 
-#: rc.cpp:8
+#: rc.cpp:15
+#, no-c-format
 msgid "Enable &polling to autodetect card events"
 msgstr ""
 "ເປິດໃຊ້ການສຳຫລວດກາດສອັດຕະ"
 "ໂນມັດ"
 
-#: rc.cpp:9
+#: rc.cpp:17
+#, no-c-format
 msgid ""
 "In most cases you should have this enabled. It allows KDE to automatically "
 "detect card insertion and reader hotplug events."
@@ -100,14 +98,16 @@ msgstr ""
 "ສາມາດເຮັດການກວດສອບ.ການສງລແ"
 "ລະຖອດກາດສໄດ້ໂດຍອັດຕະໂນມັດ"
 
-#: rc.cpp:10
+#: rc.cpp:19
+#, no-c-format
 msgid "Automatically &launch card manager if inserted card is unclaimed"
 msgstr ""
 "ເອີ້ນຕົວຈັດການກາດສອັດຕະໂນ"
 "ມັດຫຫາກບໍ່ສາມາດຈັດການໂຕທີ"
 "່ສງບເຂົ້າມາໄດ້"
 
-#: rc.cpp:11
+#: rc.cpp:21
+#, no-c-format
 msgid ""
 "When you insert a smartcard, KDE can automatically launch a management tool "
 "if no other application attempts to use the card."
@@ -119,37 +119,45 @@ msgstr ""
 "ຫາກຍັງບໍ່ມີແອພພຣິເດຊັນອິນ"
 "ທ່ານເອີ້ນໃຊ້ກາດສນີ້"
 
-#: rc.cpp:12
+#: rc.cpp:23
+#, no-c-format
 msgid "&Beep on card insert and removal"
 msgstr ""
 "ບີບເຕືອນເມື່ອມີການສງບກ່ດສ"
 "ແລະຖອດກາດສ"
 
-#: rc.cpp:13
+#: rc.cpp:25
+#, no-c-format
 msgid "Readers"
 msgstr "ເຄື່ອງອ່ານ"
 
-#: rc.cpp:14
+#: rc.cpp:27
+#, no-c-format
 msgid "Reader"
 msgstr "ເຄື່ອງອ່ານ"
 
-#: rc.cpp:15
+#: rc.cpp:29
+#, no-c-format
 msgid "Type"
 msgstr "ປະເພດ"
 
-#: rc.cpp:16
+#: rc.cpp:31
+#, no-c-format
 msgid "Subtype"
 msgstr "ປະເພດຍ່ອຍ"
 
-#: rc.cpp:17
+#: rc.cpp:33
+#, no-c-format
 msgid "SubSubtype"
 msgstr "ປະເພດຍ່ອຍໆ"
 
-#: rc.cpp:18
+#: rc.cpp:35
+#, no-c-format
 msgid "PCSCLite Configuration"
 msgstr "ປັບແຕ່ງ PCSCLite"
 
-#: rc.cpp:19
+#: rc.cpp:37
+#, no-c-format
 msgid ""
 "To add new readers you have to modify /etc/readers.conf file and re-start "
 "pcscd"
@@ -158,27 +166,39 @@ msgstr ""
 "່ານຕ້ອງເຮັດການແກ້ໄຂແຟ້ມ/etc/rea"
 "ders.conf ແລະເລີ່ມການທຳງານ pcscd ໃຫມ່"
 
-#: smartcard.cpp:66
+#: smartcard.cpp:60
+msgid "kcmsmartcard"
+msgstr "kcmsmartcard"
+
+#: smartcard.cpp:60
+msgid "KDE Smartcard Control Module"
+msgstr "ໂມດູນຄວບຄູມສະມາດກາດສບົນKDE"
+
+#: smartcard.cpp:62
+msgid "(c) 2001 George Staikos"
+msgstr "(c) 2001 George Staikos"
+
+#: smartcard.cpp:74
 msgid "Change Module..."
 msgstr "ປງ່ນໂມດູນ"
 
-#: smartcard.cpp:128
+#: smartcard.cpp:136
 msgid "Unable to launch KCardChooser"
 msgstr ""
 "ບໍ່ສາມາດເອີ້ນໃຫ້ KCardChooser "
 "ທຳງານໄດ້"
 
-#: smartcard.cpp:177
+#: smartcard.cpp:185
 msgid "No card inserted"
 msgstr "ຍັງບໍ່ມີກາດສທີ່ສງບ"
 
-#: smartcard.cpp:216
+#: smartcard.cpp:224
 msgid "Smart card support disabled"
 msgstr ""
 "ປິດການໃຊ້ການສະນັບສະຫນູນສະ"
 "ມາດກາດສ"
 
-#: smartcard.cpp:227
+#: smartcard.cpp:235
 #, fuzzy
 msgid "No readers found. Check 'pcscd' is running"
 msgstr ""
@@ -186,21 +206,21 @@ msgstr ""
 "ໂປດກວດສອບວ່າ 'pcscd' "
 "ກຳລັງທຳງານຢູ່"
 
-#: smartcard.cpp:250 smartcard.cpp:270
+#: smartcard.cpp:258 smartcard.cpp:278
 msgid "NO ATR or no card inserted"
 msgstr "ຍັງບໍ່ມີກາດສທີ່ສງບ"
 
-#: smartcard.cpp:282
+#: smartcard.cpp:290
 msgid "Managed by: "
 msgstr "ຖຶກຈັດການໂດຍ: "
 
-#: smartcard.cpp:292
+#: smartcard.cpp:300
 msgid "No module managing this card"
 msgstr ""
 "ບໍ່ມີໂມດູນສຳລັບຈັດການກັບກ"
 "າດສນີ້"
 
-#: smartcard.cpp:381
+#: smartcard.cpp:389
 msgid ""
 "<h1>smartcard</h1> This module allows you to configure KDE support for "
 "smartcards. These can be used for various tasks such as storing SSL "
@@ -215,14 +235,8 @@ msgstr ""
 "ແລະການລ໊ອກອິນເຂົ້າສູ່ລະບົ"
 "ບ "
 
-#: smartcard.cpp:390
-msgid "kcmsmartcard"
-msgstr "kcmsmartcard"
+#~ msgid "Form2"
+#~ msgstr "ฟอร์ม2"
 
-#: smartcard.cpp:390
-msgid "KDE Smartcard Control Module"
-msgstr "ໂມດູນຄວບຄູມສະມາດກາດສບົນKDE"
-
-#: smartcard.cpp:392
-msgid "(c) 2001 George Staikos"
-msgstr "(c) 2001 George Staikos"
+#~ msgid "SmartcardBase"
+#~ msgstr "SmartcardBase"
