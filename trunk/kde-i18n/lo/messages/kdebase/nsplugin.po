@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-05-16 01:36+0200\n"
+"POT-Creation-Date: 2003-12-02 01:37+0100\n"
 "PO-Revision-Date: 2003-01-11 14:27+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -26,53 +26,56 @@ msgid ""
 "Your emails"
 msgstr "vilaphonh1981@hotmail.com"
 
-#: plugin_part.cpp:163
+#: plugin_part.cpp:169
 msgid "plugin"
 msgstr "ປລັກອິນ"
 
-#: plugin_part.cpp:254
+#: plugin_part.cpp:260
 #, c-format
 msgid "Loading Netscape plugin for %1"
 msgstr ""
 "ກຳລັງເອິ້ນໃຊ້ງານປລັກອິນຂອ"
 "ງເນັດສ໌ເຄັພ໌ສຳລັບ %1"
 
-#: plugin_part.cpp:265
-#, c-format
-#, fuzzy
+#: plugin_part.cpp:271
+#, fuzzy, c-format
 msgid "Unable to load Netscape plugin for %1"
 msgstr ""
 "ບໍ່ສາມາດເອິ້ນໃຊ້ງານປລັກອິ"
 "ນຂອງເນັດສ໌ເຄັພ໌ສຳລັບ"
 
-#: pluginscan.cpp:185
+#: pluginscan.cpp:187
 msgid "Netscape plugin mimeinfo"
 msgstr ""
 "ຂໍ້ມູນ mime "
 "ຂອງປລັກອິນຂອງເນັດສ໌ເຄພ໌"
 
-#: pluginscan.cpp:219
+#: pluginscan.cpp:221
 msgid "Unnamed plugin"
 msgstr "ປລັກອິນບໍ່ມີຊື່"
 
-#: pluginscan.cpp:480 pluginscan.cpp:483
+#: pluginscan.cpp:490 pluginscan.cpp:493
 msgid "Netscape plugin viewer"
 msgstr ""
 "ຕົວສະແດງປລັກອິນຂອງເນັດສ໌ເ"
 "ຄພ໌"
 
-#: pluginscan.cpp:535
+#: pluginscan.cpp:542
+msgid "Show progress output for GUI."
+msgstr ""
+
+#: pluginscan.cpp:549
 msgid "nspluginscan"
 msgstr ""
 "ຄົ້ນຫາປລັກອິນຂອງເນັດສ໌ເຄພ"
 "໌"
 
-#: viewer/nsplugin.cpp:692
+#: viewer/nsplugin.cpp:700
 #, c-format
 msgid "Submitting data to %1"
 msgstr ""
 
-#: viewer/nsplugin.cpp:720
+#: viewer/nsplugin.cpp:729
 #, c-format
 msgid "Requesting %1"
 msgstr "ກຳລັງຮ້ອງຂໍ %1"
@@ -90,7 +93,8 @@ msgstr ""
 "ຈາກນັ້ນໃຫ້ລອງອີກຄັ້ງ"
 
 #: viewer/viewer.cpp:247
-msgid "Error connecting to DCOP server"
+#, fuzzy
+msgid "Error Connecting to DCOP Server"
 msgstr ""
 "ການເຊື່ອມຕໍ່ໄປຍັງເຊີບເວີຣ"
 "໌ DCOP ຜິດພາດ"
