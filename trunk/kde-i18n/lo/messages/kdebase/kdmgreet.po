@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-12-03 02:50+0100\n"
+"POT-Creation-Date: 2004-01-10 01:27+0100\n"
 "PO-Revision-Date: 2003-01-13 16:57+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -13,45 +13,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: kdmconfig.cpp:199
+#: kdmconfig.cpp:184
 msgid "[fix kdmrc!]"
 msgstr "[ແກ້ໄຂ kdmrc!]"
 
-#: kdmshutdown.cpp:49
-msgid "Shutdown Type"
-msgstr "ປະເພດການປິດເຄື່ອງ"
+#: kconsole.cpp:75
+msgid "Cannot open console"
+msgstr ""
 
-#: kdmshutdown.cpp:53
-msgid "&Turn off computer"
-msgstr "ປິດເຄື່ອງຄອມພິວເຕີ"
-
-#: kdmshutdown.cpp:59
-msgid "&Restart computer"
-msgstr "ເລີ່ມການເຮັດວງກຄອມພິວເຕີໃຫມ່"
-
-#: kdmshutdown.cpp:94
-msgid "Shutdown Mode"
-msgstr "ໂມດການປິດເຄື່ອງໃຫມ່"
-
-#: kdmshutdown.cpp:97
+#: kconsole.cpp:156
 msgid ""
-"_: verb!\n"
-"&Schedule"
-msgstr "ຕາລາງງານ"
+"\n"
+"*** Cannot open console log source ***"
+msgstr ""
 
-#: kdmshutdown.cpp:102
-msgid "&Force now"
-msgstr "ບັງຄັບເຮັດດງວນີ້"
+#: kgdialog.cpp:64
+msgid "R&estart X Server"
+msgstr "ໃຫ້ເຊີເວີ X ເຮັດວງກໃຫມ່"
 
-#: kdmshutdown.cpp:108
-msgid "&Try now"
-msgstr "ເຮັດດງວນີ້"
+#: kgdialog.cpp:64
+msgid "Clos&e Connection"
+msgstr "ປິດການເຊືອມຕໍ່"
 
-#: kdmshutdown.cpp:128
-msgid "Root &password:"
-msgstr "ລະຫັດຜ່ານຜູ້ເບິ່ງລະບົບ"
+#: kgdialog.cpp:75
+msgid "Co&nsole Login"
+msgstr "ລອກອິນຄອນໂຊ "
 
-#: kchooser.cpp:62
+#: kgdialog.cpp:78
+msgid "&Shutdown..."
+msgstr "ປິດເຄື່ອງ..."
+
+#: kchooser.cpp:54
+msgid "&Local Login"
+msgstr "ລອກອິນຄອນໂໍຊ "
+
+#: kchooser.cpp:63
 msgid "XDMCP Host Menu"
 msgstr "ເມນູຮອດທ໌XDMCP "
 
@@ -63,11 +59,11 @@ msgstr "ຊື່ຮອດທ໌"
 msgid "Status"
 msgstr "ສະຖານະ"
 
-#: kchooser.cpp:78
+#: kchooser.cpp:77
 msgid "Hos&t:"
 msgstr "ຮອດທ໌"
 
-#: kchooser.cpp:79
+#: kchooser.cpp:78
 msgid "A&dd"
 msgstr "A&dd"
 
@@ -79,155 +75,253 @@ msgstr "&ຍອມຮັບ"
 msgid "&Refresh"
 msgstr "&ຣີເຟຣດ"
 
-#: kchooser.cpp:94 kgreeter.cpp:211
-msgid "R&estart X Server"
-msgstr "ໃຫ້ເຊີເວີ X ເຮັດວງກໃຫມ່"
-
-#: kchooser.cpp:95 kgreeter.cpp:212
-msgid "Clos&e Connection"
-msgstr "ປິດການເຊືອມຕໍ່"
-
-#: kchooser.cpp:99
-msgid "&Local Login"
-msgstr "ລອກອິນຄອນໂໍຊ "
-
-#: kchooser.cpp:103 kgreeter.cpp:220
-msgid "Co&nsole Login"
-msgstr "ລອກອິນຄອນໂຊ "
-
-#: kchooser.cpp:107 kgreeter.cpp:224
-msgid "&Shutdown..."
-msgstr "ປິດເຄື່ອງ..."
-
-#: kchooser.cpp:110 kgreeter.cpp:227
+#: kchooser.cpp:96 kgreeter.cpp:192
 msgid "&Menu"
 msgstr "ເມນູ "
 
-#: kchooser.cpp:225
+#: kchooser.cpp:173
 msgid "<unknown>"
 msgstr "<ບໍ່ຮູ້ຈັກ>"
 
-#: kchooser.cpp:263
+#: kchooser.cpp:211
 #, c-format
 msgid "Unknown host %1"
 msgstr "ໂຮດທ໌ທີ່ບໍ່ຮູ້ຈັກ %1"
 
-#: kgreeter.cpp:134
-msgid "&Login:"
-msgstr "ລອກອິນ:"
-
-#: kgreeter.cpp:137
-msgid "&Password:"
-msgstr "ລະຫັດຜ່ານ:"
-
-#: kgreeter.cpp:140
-msgid "Session &type:"
-msgstr "ປະເພດຂອງເຊສາຊັນ:"
-
-#: kgreeter.cpp:143
-msgid ""
-"_: session type\n"
-"(previous)"
-msgstr "(ເຊສຊັນລ່າສຸດ)"
-
-#: kgreeter.cpp:144
-msgid ""
-"_: session type\n"
-"(selected)"
-msgstr "(ເຊສຊັນທີ່ເລືອກ)"
-
-#: kgreeter.cpp:195
-msgid "G&o!"
-msgstr "ໄປ! "
-
-#: kgreeter.cpp:201
-msgid "&Clear"
-msgstr "ລ້າງ "
-
-#: kgreeter.cpp:216
-msgid "&Remote Login"
-msgstr "ລອກອິນຄອນໂຊ "
-
-#: kgreeter.cpp:433
-msgid "Login failed"
-msgstr "ລອກອິນລົ້ມເຫລວ"
-
-#: kgreeter.cpp:436
-msgid "Warning: Caps locked"
+#: kgverify.cpp:131
+msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr ""
-"ຄຳເຕືອນ: ປຸ່ມ Caps lock "
-"ຖືກເປີດໄໍຊ້ຢຢູ່"
 
-#: kgreeter.cpp:587
+#: kgverify.cpp:317
+msgid ""
+"Authenticating %1 ...\n"
+"\n"
+msgstr ""
+
+#: kgverify.cpp:347
+msgid "You are required to change your password immediately (password aged)."
+msgstr ""
+
+#: kgverify.cpp:352
+msgid "You are required to change your password immediately (root enforced)."
+msgstr ""
+
+#: kgverify.cpp:360
+#, fuzzy, c-format
+msgid ""
+"_n: Your account expires tomorrow.\n"
+"Your account expires in %n days."
+msgstr ""
+"ທະບງນຜູ້ໄຊ້ຂອງທ່ານຈະຫມົດອ"
+"າຍຸໃນ %1 ວັນ"
+
+#: kgverify.cpp:361
+msgid "Your account expires today."
+msgstr ""
+"ທະບງນຂອງທ່ານຈະຫມົດອາຍຸໃນມ"
+"ື້ນີ້"
+
+#: kgverify.cpp:369
+#, fuzzy, c-format
+msgid ""
+"_n: Your password expires tomorrow.\n"
+"Your password expires in %n days."
+msgstr ""
+"ລະຫັດຜ່ານຂອງທ່ານຈະຫມົດອາຍ"
+"ຸໃນ %1 ວັນ"
+
+#: kgverify.cpp:370
+msgid "Your password expires today."
+msgstr ""
+"ລະຫັດຜ່ານຂອງທ່ານຈະຫມົດອາຍ"
+"ຸໃນມື່ນີ້"
+
+#: kgverify.cpp:390
+#, fuzzy
 msgid ""
 "A critical error occurred.\n"
-"Please look at KDM's logfile for more information\n"
+"Please look at KDM's logfile(s) for more information\n"
 "or contact your system administrator."
 msgstr ""
 "ມີຂໍ້ຜິດພາດຮ້່ຍແຮງ\n"
-"ກະລຸນາເບິ່ງແຟ້ມການເຮັວງກຂອງ KDM ເພືອລາຍລະອງດ\n"
+"ກະລຸນາເບິ່ງແຟ້ມການເຮັວງກຂ"
+"ອງ KDM ເພືອລາຍລະອງດ\n"
 "ທີ່ຫລາຍກ່ວານີ້ "
-"ຫລືກະລຸນາຕິດຕໍ່ຜູ້ຮັກສາລະບົບຂອງທ່ານ"
+"ຫລືກະລຸນາຕິດຕໍ່ຜູ້ຮັກສາລະ"
+"ບົບຂອງທ່ານ"
 
-#: kgreeter.cpp:592
-msgid "Home directory not available."
+#: kgverify.cpp:397
+#, fuzzy
+msgid "Home folder not available."
 msgstr "ບໍ່ເຫັນໄດເລກເທີລີຂອງທ່ານ"
 
-#: kgreeter.cpp:595
+#: kgverify.cpp:402
 msgid "Root logins are not allowed."
-msgstr "ບໍ່ອະນຸາດລອກອິນດ້ວຍຜູ້ໄຊ້ root"
+msgstr ""
+"ບໍ່ອະນຸາດລອກອິນດ້ວຍຜູ້ໄຊ້ "
+"root"
 
-#: kgreeter.cpp:599
+#: kgverify.cpp:407
 msgid "Your login shell is not listed in /etc/shells."
 msgstr ""
 "ເຊວສຳລັບລອກອິນຂອງທ່ານ "
 "ບໍ່ມີໃນແຟ້ມ /etc/shells"
 
-#: kgreeter.cpp:602
+#: kgverify.cpp:412
 msgid "Your account has expired."
-msgstr "ທະບງນຜູ້ໄຊ້ຂອງທ່ານຫມົດອາຍຸແລ້ວ"
+msgstr ""
+"ທະບງນຜູ້ໄຊ້ຂອງທ່ານຫມົດອາຍ"
+"ຸແລ້ວ"
 
-#: kgreeter.cpp:605
-msgid "Your password has expired."
-msgstr "ລະຫັດຜ່ານຂອງທ່ານຫນົດອາຍຸແລ້ວ"
+#: kgverify.cpp:417
+#, fuzzy
+msgid "Your account has expired (failed to change password)."
+msgstr ""
+"ທະບງນຜູ້ໄຊ້ຂອງທ່ານຫມົດອາຍ"
+"ຸແລ້ວ"
 
-#: kgreeter.cpp:608
-msgid ""
-"You are not allowed to login\n"
-"at the moment."
-msgstr "ຍັງບໍ່ອະນຸບາດໃຫ້ທ່ານລອກອິນໃນຕອນນີ້"
+#: kgverify.cpp:422
+#, fuzzy
+msgid "You are not allowed to login at the moment."
+msgstr ""
+"ຍັງບໍ່ອະນຸບາດໃຫ້ທ່ານລອກອິ"
+"ນໃນຕອນນີ້"
 
-#: kgreeter.cpp:625
+#: kgverify.cpp:439
 msgid ""
 "Logins are not allowed at the moment.\n"
 "Try again later."
 msgstr ""
-"ຍັງບໍ່ອະນຸຍາດໃຫ້ລອກອາິນໃນຕອນນີ້\n"
+"ຍັງບໍ່ອະນຸຍາດໃຫ້ລອກອາິນໃນ"
+"ຕອນນີ້\n"
 "ລອງພະຍາຍາມໃຫມ່ໃນຕອນນີ້"
 
-#: kgreeter.cpp:660
-msgid "Your account expires today."
-msgstr "ທະບງນຂອງທ່ານຈະຫມົດອາຍຸໃນມື້ນີ້"
-
-#: kgreeter.cpp:662
-msgid "Your account expires tomorrow."
-msgstr "ທະບງນຜູ້ໄຊ້ຂອງທ່ານຈະຫມົດອາຍຸໃນມື້ອື່ນນີ້"
-
-#: kgreeter.cpp:665
-msgid "Your account expires in %1 days."
-msgstr "ທະບງນຜູ້ໄຊ້ຂອງທ່ານຈະຫມົດອາຍຸໃນ %1 ວັນ"
-
-#: kgreeter.cpp:670
-msgid "Your password expires today."
-msgstr "ລະຫັດຜ່ານຂອງທ່ານຈະຫມົດອາຍຸໃນມື່ນີ້"
-
-#: kgreeter.cpp:672
-msgid "Your password expires tomorrow."
-msgstr "ລະຫັດຜ່ານຂອງທ່ານຈະຫມົດອາຍຸຸໃນມື້ອື່ນນີ້"
-
-#: kgreeter.cpp:675
-msgid "Your password expires in %1 days."
+#: kgverify.cpp:498 kgverify.cpp:801
+msgid "Authentication failed"
 msgstr ""
-"ລະຫັດຜ່ານຂອງທ່ານຈະຫມົດອາຍຸໃນ "
-"%1 ວັນ"
 
+#: kgverify.cpp:643
+msgid ""
+"Authenticated user (%1) does not match requested user (%2).\n"
+msgstr ""
+
+#: kgverify.cpp:795
+#, fuzzy
+msgid "Warning: Caps Lock on"
+msgstr ""
+"ຄຳເຕືອນ: ປຸ່ມ Caps lock "
+"ຖືກເປີດໄໍຊ້ຢຢູ່"
+
+#: kgverify.cpp:799
+#, fuzzy
+msgid "Change failed"
+msgstr "ລອກອິນລົ້ມເຫລວ"
+
+#: kgverify.cpp:801
+msgid "Login failed"
+msgstr "ລອກອິນລົ້ມເຫລວ"
+
+#: kgverify.cpp:905
+msgid "Changing authentication token"
+msgstr ""
+
+#: kdmshutdown.cpp:61
+msgid "Shutdown Type"
+msgstr "ປະເພດການປິດເຄື່ອງ"
+
+#: kdmshutdown.cpp:65
+msgid "&Turn off computer"
+msgstr "ປິດເຄື່ອງຄອມພິວເຕີ"
+
+#: kdmshutdown.cpp:70
+msgid "&Restart computer"
+msgstr ""
+"ເລີ່ມການເຮັດວງກຄອມພິວເຕີໃ"
+"ຫມ່"
+
+#: kdmshutdown.cpp:114
+msgid "Shutdown Mode"
+msgstr "ໂມດການປິດເຄື່ອງໃຫມ່"
+
+#: kdmshutdown.cpp:117
+msgid ""
+"_: verb!\n"
+"&Schedule"
+msgstr "ຕາລາງງານ"
+
+#: kdmshutdown.cpp:121
+msgid "&Force now"
+msgstr "ບັງຄັບເຮັດດງວນີ້"
+
+#: kdmshutdown.cpp:126
+#, fuzzy
+msgid "Try &now"
+msgstr "ເຮັດດງວນີ້"
+
+#: kgreeter.cpp:187
+#, fuzzy
+msgid "L&ogin"
+msgstr "ລອກອິນ:"
+
+#: kgreeter.cpp:190
+msgid "&Clear"
+msgstr "ລ້າງ "
+
+#: kgreeter.cpp:228
+#, fuzzy
+msgid "Session &Type"
+msgstr "ປະເພດຂອງເຊສາຊັນ:"
+
+#: kgreeter.cpp:234
+msgid "&Authentication Method"
+msgstr ""
+
+#: kgreeter.cpp:239
+msgid "&Remote Login"
+msgstr "ລອກອິນຄອນໂຊ "
+
+#: kgreeter.cpp:390
+msgid "Custom"
+msgstr ""
+
+#: kgreeter.cpp:391
+msgid "Failsafe"
+msgstr ""
+
+#: kgreeter.cpp:486
+msgid " (previous)"
+msgstr ""
+
+#: kgreeter.cpp:544
+msgid ""
+"Your saved session type '%1' is not valid any more.\n"
+"Please select a new one, otherwise 'default' will be used."
+msgstr ""
+
+#~ msgid "Root &password:"
+#~ msgstr "ລະຫັດຜ່ານຜູ້ເບິ່ງລະບົບ"
+
+#~ msgid "&Password:"
+#~ msgstr "ລະຫັດຜ່ານ:"
+
+#~ msgid "Your password has expired."
+#~ msgstr "ລະຫັດຜ່ານຂອງທ່ານຫນົດອາຍຸແລ້ວ"
+
+#~ msgid ""
+#~ "_: session type\n"
+#~ "(previous)"
+#~ msgstr "(ເຊສຊັນລ່າສຸດ)"
+
+#~ msgid ""
+#~ "_: session type\n"
+#~ "(selected)"
+#~ msgstr "(ເຊສຊັນທີ່ເລືອກ)"
+
+#~ msgid "G&o!"
+#~ msgstr "ໄປ! "
+
+#~ msgid "Your account expires tomorrow."
+#~ msgstr "ທະບງນຜູ້ໄຊ້ຂອງທ່ານຈະຫມົດອາຍຸໃນມື້ອື່ນນີ້"
+
+#~ msgid "Your password expires tomorrow."
+#~ msgstr "ລະຫັດຜ່ານຂອງທ່ານຈະຫມົດອາຍຸຸໃນມື້ອື່ນນີ້"
