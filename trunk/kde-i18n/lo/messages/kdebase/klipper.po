@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-06-28 01:55+0200\n"
+"POT-Creation-Date: 2004-11-27 01:20+0100\n"
 "PO-Revision-Date: 2003-01-13 15:08+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -26,35 +26,35 @@ msgid ""
 "Your emails"
 msgstr "ືneuk@yahoo.com"
 
-#: configdialog.cpp:42
+#: configdialog.cpp:49
 msgid "&General"
 msgstr "ທົ່ງໄປ"
 
-#: configdialog.cpp:45
+#: configdialog.cpp:52
 msgid "Ac&tions"
 msgstr "ການກະທຳ"
 
-#: configdialog.cpp:48
+#: configdialog.cpp:55
 msgid "&Shortcuts"
 msgstr "ຄີລັດ"
 
-#: configdialog.cpp:92
+#: configdialog.cpp:99
 msgid "&Popup menu at mouse-cursor position"
 msgstr ""
 "ເອີ້ນປັອບອັບເມນູທີ່ຕຳແຫນ່"
 "ງເຄີເຊີເມົາສ໌"
 
-#: configdialog.cpp:94
+#: configdialog.cpp:101
 msgid "Save clipboard contents on e&xit"
 msgstr ""
 "ບັນທຶກເນື້ນຫາພາຍໃນຄຣິບບອຣ"
 "໌ດເມື່ອອອກຈາກການໃຊ້ງານ"
 
-#: configdialog.cpp:96
+#: configdialog.cpp:103
 msgid "Remove whitespace when executing actions"
 msgstr ""
 
-#: configdialog.cpp:98
+#: configdialog.cpp:105
 msgid ""
 "Sometimes, the selected text has some whitespace at the end, which, if "
 "loaded as URL in a browser would cause an error. Enabling this option "
@@ -62,17 +62,17 @@ msgid ""
 "original clipboard contents will not be modified)."
 msgstr ""
 
-#: configdialog.cpp:100
+#: configdialog.cpp:107
 msgid "&Replay actions on an item selected from history"
 msgstr ""
 "ໃຫ້ທຳການກະທຳເທິງລາຍການທີ່"
 "ເລືອກໄວ້ຈາກປະວັດການໃຊ້"
 
-#: configdialog.cpp:103
+#: configdialog.cpp:110
 msgid "Pre&vent empty clipboard"
 msgstr "ປ້ອງກັນຄຣິບບອຣ໌ດວ່າງ"
 
-#: configdialog.cpp:105
+#: configdialog.cpp:112
 msgid ""
 "Selecting this option has the effect, that the clipboard can never be "
 "emptied. E.g. when an application exits, the clipboard would usually be "
@@ -85,11 +85,11 @@ msgstr ""
 "ເມື່ອອອກຈາກແອພພຣິເຄຊັນແລ້"
 "ວ ຄຣິບບອຣ໌ດຄວນຈະຕ້ອງວ່າງ"
 
-#: configdialog.cpp:110
+#: configdialog.cpp:117
 msgid "&Ignore selection"
 msgstr "&Ignore selection"
 
-#: configdialog.cpp:112
+#: configdialog.cpp:119
 msgid ""
 "This option prevents the selection being recorded in the clipboard history. "
 "Only explicit clipboard changes are recorded."
@@ -97,13 +97,13 @@ msgstr ""
 "This option prevents the selection being recorded in the clipboard history. "
 "Only explicit clipboard changes are recorede."
 
-#: configdialog.cpp:116
+#: configdialog.cpp:123
 msgid "Clipboard/Selection Behavior"
 msgstr ""
 "ພຶດຕິກຳຂອງຄຣິບບອຣ໌ດ / "
 "ການເລືອກ"
 
-#: configdialog.cpp:120
+#: configdialog.cpp:127
 #, fuzzy
 msgid ""
 "<qt>There are two different clipboard buffers "
@@ -141,13 +141,13 @@ msgstr ""
 "ຳພັນລະຫວ່າງຄຣິບບອຣ໌ດ "
 "ແລະການເລືອກນີ້ໄດ້</qt>"
 
-#: configdialog.cpp:131
+#: configdialog.cpp:138
 msgid "Sy&nchronize contents of the clipboard and the selection"
 msgstr ""
 "ແລກປ່ງນເນື້ອຫາຂອງຄຣິບບອຣ໌"
 "ດແລະການເລືອກ"
 
-#: configdialog.cpp:134
+#: configdialog.cpp:141
 msgid ""
 "Selecting this option synchronizes these two buffers, so they work the same "
 "way as in KDE 1.x and 2.x."
@@ -158,13 +158,13 @@ msgstr ""
 "ງມັນຈະທຳງານໃນລັກສະນະດງວກັ"
 "ນກັບ KDE1.x และ KDE 2.x"
 
-#: configdialog.cpp:138
+#: configdialog.cpp:145
 msgid "Separate clipboard and selection"
 msgstr ""
 "ແຍກເນື້ອຫາຂອງຄຣິບບອຣ໌ດແລະ"
 "ການເລືອກ"
 
-#: configdialog.cpp:141
+#: configdialog.cpp:148
 msgid ""
 "Using this option will only set the selection when highlighting something "
 "and the clipboard when choosing e.g. \"Copy\" in a menubar."
@@ -176,27 +176,27 @@ msgstr ""
 "ແລະຄຣິບບອຣ໌ດເມື່ອມີການເລື"
 "່ອນແຖບເມນູ \"ຄັດລອກ\""
 
-#: configdialog.cpp:149
+#: configdialog.cpp:155
 msgid "Tim&eout for action popups:"
 msgstr ""
 "ຊ່ວງເວລາສຳຫລັບປັອບອັບຂອງກ"
 "ານກະທຳ:"
 
-#: configdialog.cpp:151
+#: configdialog.cpp:157
 msgid " sec"
 msgstr "ວິນາທີ"
 
-#: configdialog.cpp:152
+#: configdialog.cpp:158
 msgid "A value of 0 disables the timeout"
 msgstr "ຄ່າ 0 ຄືບໍ່ໃຊ້ຊ່ວງເວລາ"
 
-#: configdialog.cpp:155
+#: configdialog.cpp:161
 msgid "C&lipboard history size:"
 msgstr ""
 "ຂະຫນາດຂອງປະວັດການໃຊ້ຄຣິບບ"
 "ອຣ໌ດ:"
 
-#: configdialog.cpp:177
+#: configdialog.cpp:183
 #, fuzzy
 msgid ""
 "_n:  entry\n"
@@ -205,38 +205,38 @@ msgstr ""
 "_n:  entry\n"
 " entries"
 
-#: configdialog.cpp:223
+#: configdialog.cpp:229
 msgid "Action &list (right click to add/remove commands):"
 msgstr ""
 "ລາຍການກະທຳ(ກົດຂວາເພື່ອເອີ້"
 "ນຄຳສັ່ງ ເພີ້ມ/ເອົາອອກ):"
 
-#: configdialog.cpp:227
+#: configdialog.cpp:233
 msgid "Regular Expression (see http://doc.trolltech.com/qregexp.html#details)"
 msgstr ""
 "ເງື່ອນໄຂການຄົ້ນຫາ "
 "(ເບິ່ງທີ່ http://doc.trolltech.com/qregexp.html#details)"
 
-#: configdialog.cpp:228
+#: configdialog.cpp:234
 msgid "Description"
 msgstr "ລາຍລະອງດ"
 
-#: configdialog.cpp:280
+#: configdialog.cpp:286
 msgid "&Use graphical editor for editing regular expressions"
 msgstr ""
 "ໃຊ້ຕົວແກ້ໄຂແບບກຣາຟິກ "
 "ສຳຫລັບແກ້ໄຂເງື່ອນໄຂການຄົ້"
 "ນຫາ"
 
-#: configdialog.cpp:289
+#: configdialog.cpp:295
 msgid "&Add Action"
 msgstr "ເພີ້ມການກະທຳ"
 
-#: configdialog.cpp:292
+#: configdialog.cpp:298
 msgid "&Delete Action"
 msgstr "ລຶບການກະທຳ"
 
-#: configdialog.cpp:295
+#: configdialog.cpp:301
 #, c-format
 msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will "
@@ -248,47 +248,47 @@ msgstr ""
 "ຈະຖືກແທນທີ່ດ້ວຍເນື້ອຫາຈາກ"
 "ຄຣິບບອຣ໌ດ"
 
-#: configdialog.cpp:301
+#: configdialog.cpp:307
 msgid "Advanced..."
 msgstr "ເພີ້ມເຕີມ..."
 
-#: configdialog.cpp:326
+#: configdialog.cpp:332
 msgid "Add Command"
 msgstr "ເພີ້ມຄຳສັ່ງ"
 
-#: configdialog.cpp:327
+#: configdialog.cpp:333
 msgid "Remove Command"
 msgstr "ລຶບຄຳສັ່ງ"
 
-#: configdialog.cpp:337
+#: configdialog.cpp:343
 msgid "Click here to set the command to be executed"
 msgstr ""
 "ກົດທີ່ນີ້ເພື່ອຕັ້ງຄ່າຄຳສັ"
 "່ງທີ່ຈະເອີ້ນທຳງານ"
 
-#: configdialog.cpp:338
+#: configdialog.cpp:344
 msgid "<new command>"
 msgstr "<ຄຳສັ່ງໃຫມ່>"
 
-#: configdialog.cpp:360
+#: configdialog.cpp:366
 msgid "Click here to set the regexp"
 msgstr "ກົດທີ່ນີ້ເພື່ອປັບແຕ່ງ regexp"
 
-#: configdialog.cpp:361
+#: configdialog.cpp:367
 msgid "<new action>"
 msgstr "<ການເຮັດໃຫມ່>"
 
-#: configdialog.cpp:401
+#: configdialog.cpp:407
 msgid "Advanced Settings"
 msgstr "ຕັ້ງຄ່າເພີ້ມເຕີມ"
 
-#: configdialog.cpp:418
+#: configdialog.cpp:424
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr ""
 "ບໍ່ໃຫ້ໃຊ້ການກະທຳກັບຫນ້າຕ່"
 "າງທີ່ເປັນຊະນິດ WM_CLASS:"
 
-#: configdialog.cpp:421
+#: configdialog.cpp:427
 #, fuzzy
 msgid ""
 "<qt>This lets you specify windows in which Klipper should not invoke "
@@ -316,38 +316,67 @@ msgstr ""
 "ເຊິ່ງທ່ານຕ້ອງການເຂົ້າທີ່ນ"
 "ີ້</qt>"
 
-#: klipperbindings.cpp:10
+#: klipperbindings.cpp:29
 msgid "Clipboard"
 msgstr "คลิปบอร์ด"
 
-#: klipperbindings.cpp:12
+#: klipperbindings.cpp:31
 msgid "Show Klipper Popup-Menu"
 msgstr "แสดงเมนูป๊อปอัพของ klipper"
 
-#: klipperbindings.cpp:13
+#: klipperbindings.cpp:32
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 "สั่งเรียกการกระทำจากคลิปบ"
 "อร์ดปัจจุบันเอง"
 
-#: klipperbindings.cpp:14
+#: klipperbindings.cpp:33
 msgid "Enable/Disable Clipboard Actions"
 msgstr ""
 "เปิดใช้งาน/ปิดการใช้งานการ"
 "กระทำของคลิปบอร์ด"
 
-#: toplevel.cpp:75
+#: klipperpopup.cpp:99
 msgid "<empty clipboard>"
 msgstr "<คลิปบอร์ดว่าง>"
 
-#: toplevel.cpp:119
+#: klipperpopup.cpp:100
+msgid "<no matches>"
+msgstr ""
+
+#: klipperpopup.cpp:147
+msgid "Klipper - Clipboard Tool"
+msgstr ""
+"Klipper - "
+"เครื่องมือจัดการคลิปบอร์ด"
+
+#: popupproxy.cpp:154
+msgid "&More"
+msgstr ""
+
+#: toplevel.cpp:132
+#, fuzzy
+msgid "C&lear Clipboard History"
+msgstr "ล้างคลิปบอร์ด"
+
+#: toplevel.cpp:141
+msgid "&Configure Klipper..."
+msgstr ""
+
+#: toplevel.cpp:197
 #, fuzzy
 msgid "Klipper - clipboard tool"
 msgstr ""
 "Klipper - "
 "เครื่องมือจัดการคลิปบอร์ด"
 
-#: toplevel.cpp:201
+#: toplevel.cpp:456
+msgid ""
+"You can enable URL actions later by right-clicking on the Klipper icon and "
+"selecting 'Enable Actions'"
+msgstr ""
+
+#: toplevel.cpp:516
 msgid ""
 "Should Klipper start automatically\n"
 "when you login?"
@@ -357,83 +386,67 @@ msgstr ""
 "เมื่อคุณทำการล็อกอินหรือไ"
 "ม่ ?"
 
-#: toplevel.cpp:201
+#: toplevel.cpp:516
 msgid "Automatically Start Klipper?"
 msgstr ""
 "ให้ Klipper "
 "เริ่มการทำงานอัตโนมัติหรื"
 "อไม่ ?"
 
-#: toplevel.cpp:299
-msgid "Klipper - Clipboard Tool"
-msgstr ""
-"Klipper - "
-"เครื่องมือจัดการคลิปบอร์ด"
-
-#: toplevel.cpp:329
-#, fuzzy
-msgid "C&lear Clipboard History"
-msgstr "ล้างคลิปบอร์ด"
-
-#: toplevel.cpp:331
-msgid "&Configure Klipper..."
-msgstr ""
-
-#: toplevel.cpp:418
-msgid ""
-"You can enable URL actions later by right-clicking on the Klipper icon and "
-"selecting 'Enable Actions'"
-msgstr ""
-
-#: toplevel.cpp:514
+#: toplevel.cpp:567
 msgid "Enable &Actions"
 msgstr "เปิดใช้การกระทำ"
 
-#: toplevel.cpp:518
+#: toplevel.cpp:571
 msgid "&Actions Enabled"
 msgstr "การกระทำถูกเปิดใช้อยู่"
 
-#: toplevel.cpp:885
+#: toplevel.cpp:978
 #, fuzzy
 msgid "KDE cut & paste history utility"
 msgstr ""
 "เครื่องมือประวัติการใช้งา"
 "น การตัดและวางของ KDE"
 
-#: toplevel.cpp:889
+#: toplevel.cpp:982
 msgid "Klipper"
 msgstr "คลิปบอร์ด"
 
-#: toplevel.cpp:896
-msgid "Author, Maintainer"
-msgstr "ผู้เขียน, ผู้ดูแล"
+#: toplevel.cpp:989
+msgid "Author"
+msgstr ""
 
-#: toplevel.cpp:900
+#: toplevel.cpp:993
 msgid "Original Author"
 msgstr "ผู้เขียนดั้งเดิม"
 
-#: toplevel.cpp:904
+#: toplevel.cpp:997
 msgid "Contributor"
 msgstr "ผู้แจกจ่าย"
 
-#: toplevel.cpp:908
+#: toplevel.cpp:1001
 msgid "Bugfixes and optimizations"
 msgstr ""
 
-#: urlgrabber.cpp:162
+#: toplevel.cpp:1005
+#, fuzzy
+msgid "Maintainer"
+msgstr "ผู้เขียน, ผู้ดูแล"
+
+#: urlgrabber.cpp:172
 #, fuzzy
 msgid " - Actions For: "
 msgstr " -  การกระทำสำหรับ: "
 
-#: urlgrabber.cpp:183
+#: urlgrabber.cpp:193
 msgid "Disable This Popup"
 msgstr ""
 
-#: urlgrabber.cpp:187
+#: urlgrabber.cpp:197
 msgid "&Edit Contents..."
 msgstr "แก้ไขเนื้อหา..."
 
-#: urlgrabber.cpp:247
+#: urlgrabber.cpp:257
 msgid "Edit Contents"
 msgstr "แก้ไขเนื้อหา"
 
@@ -443,12 +456,8 @@ msgstr "แก้ไขเนื้อหา"
 #~ msgid "When the clipboard is set, set the selection as well"
 #~ msgstr "เมื่อคลิปบอร์ดถูกตั้งค่า ให้ทำการตั้งค่าการเลือกด้วย"
 
-#~ msgid ""
-#~ "Selecting this option will set both clipboard and selection, when "
-#~ "choosing e.g. \"Copy\" in a menubar."
-#~ msgstr ""
-#~ "การเลือกตัวเลือกนี้ จะทำให้มีการปรับค่าทั้งคลิปบอร์ดและการเลือก เมื่อมีการเลือกที่แถบเมนู "
-#~ "\"คัดลอก\""
+#~ msgid "Selecting this option will set both clipboard and selection, when choosing e.g. \"Copy\" in a menubar."
+#~ msgstr "การเลือกตัวเลือกนี้ จะทำให้มีการปรับค่าทั้งคลิปบอร์ดและการเลือก เมื่อมีการเลือกที่แถบเมนู \"คัดลอก\""
 
 #~ msgid " items"
 #~ msgstr " รายการ"

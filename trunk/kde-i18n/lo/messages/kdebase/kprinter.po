@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-06-22 01:19+0200\n"
+"POT-Creation-Date: 2004-11-27 01:20+0100\n"
 "PO-Revision-Date: 2003-01-11 18:01+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -58,6 +58,11 @@ msgstr ""
 #: main.cpp:41
 msgid "Files to load"
 msgstr "ແຟ້ມທີ່ຈະຮງກໃຊ້"
+
+#: main.cpp:47
+#, fuzzy
+msgid "KPrinter"
+msgstr "ການພິມຜິດພາດ"
 
 #: main.cpp:47
 msgid "A printer tool for KDE"
@@ -128,24 +133,28 @@ msgstr ""
 msgid "Multiple files (%1)"
 msgstr "ຫລາຍແຟ້ມ (%1)"
 
-#: printwrapper.cpp:345
+#: printwrapper.cpp:324
+msgid "Nothing to print."
+msgstr ""
+
+#: printwrapper.cpp:349
 msgid "Unable to open temporary file."
 msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມຊັ່ວຄາວໄດ"
 "້"
 
-#: printwrapper.cpp:360
+#: printwrapper.cpp:364
 msgid "Stdin is empty, no job sent."
 msgstr "Stdin ວ່າງ ບໍ່ມີງານພິມ"
 
-#: printwrapper.cpp:372
+#: printwrapper.cpp:376
 #, fuzzy, c-format
 msgid "Unable to copy file %1."
 msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມຊັ່ວຄາວໄດ"
 "້"
 
-#: printwrapper.cpp:389
+#: printwrapper.cpp:393
 msgid "Error while printing files"
 msgstr ""
 "ມີຂໍ້ຜິດພາດ "
@@ -154,9 +163,5 @@ msgstr ""
 #~ msgid "<nobr>File(s) sent to printer <b>%1</b>.</nobr>"
 #~ msgstr "<nobr>ส่งแฟ้มไปยังเครื่องพิมพ์ <b>%1</b> แล้ว</nobr>"
 
-#~ msgid ""
-#~ "Can't print from STDIN: use '--stdin' option, or specify a file to print "
-#~ "in the file selection area."
-#~ msgstr ""
-#~ "ไม่สามารถพิมพ์จาก STDIN ได้: ใช้ตัวเลือก '--stdin' หรือกำหนดแฟ้มที่จะพิมพ์ "
-#~ "ในพื้นที่การเลือกแฟ้ม"
+#~ msgid "Can't print from STDIN: use '--stdin' option, or specify a file to print in the file selection area."
+#~ msgstr "ไม่สามารถพิมพ์จาก STDIN ได้: ใช้ตัวเลือก '--stdin' หรือกำหนดแฟ้มที่จะพิมพ์ ในพื้นที่การเลือกแฟ้ม"
