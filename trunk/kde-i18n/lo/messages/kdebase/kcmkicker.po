@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-20 01:20+0200\n"
+"POT-Creation-Date: 2004-12-11 01:18+0100\n"
 "PO-Revision-Date: 2003-01-11 18:08+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -80,7 +80,8 @@ msgstr ""
 msgid "Main Panel"
 msgstr "ถาดพาเนลหลัก"
 
-#: hidingtab_impl.cpp:205 rc.cpp:136
+#. i18n: file hidingtab.ui line 374
+#: hidingtab_impl.cpp:205 rc.cpp:199
 #, fuzzy, no-c-format
 msgid "Show left panel-hiding bu&tton"
 msgstr ""
@@ -124,11 +125,11 @@ msgstr ""
 "ผิดพลาดในการโหลดแฟ้มภาพชุ"
 "ดตกแต่ง '%1' '%2'"
 
-#: lookandfeeltab_kcm.cpp:36 main.cpp:82
+#: lookandfeeltab_kcm.cpp:36 main.cpp:90
 msgid "kcmkicker"
 msgstr "kcmkicker"
 
-#: lookandfeeltab_kcm.cpp:36 main.cpp:82
+#: lookandfeeltab_kcm.cpp:36 main.cpp:90
 msgid "KDE Panel Control Module"
 msgstr "โมดูลพาเนลของ KDE"
 
@@ -140,7 +141,7 @@ msgstr ""
 "(c) 1999 - 2001 Matthias Elter\n"
 "(c) 2002 Aaron J. Seigo"
 
-#: lookandfeeltab_kcm.cpp:86 main.cpp:206
+#: lookandfeeltab_kcm.cpp:86 main.cpp:50
 msgid ""
 "<h1>Panel</h1> Here you can configure the KDE panel (also referred to as "
 "'kicker'). This includes options like the position and size of the panel, as "
@@ -168,25 +169,25 @@ msgstr ""
 "คลิ้กเมาส์ขวา "
 "เพื่อเข้าถึงคอนเท็กซ์เมนู"
 
-#: main.cpp:55
+#: main.cpp:63
 msgid "Arran&gement"
 msgstr "การจัดเรียง"
 
-#: main.cpp:59
+#: main.cpp:67
 #, fuzzy
 msgid "H&iding"
 msgstr "การซ่อน"
 
-#: main.cpp:63
+#: main.cpp:71
 msgid "&Menus"
 msgstr "เมนู"
 
-#: main.cpp:67
+#: main.cpp:75
 #, fuzzy
-msgid "&Appearance"
+msgid "A&ppearance"
 msgstr "ลักษณะที่ปรากฎ"
 
-#: main.cpp:84
+#: main.cpp:92
 #, fuzzy
 msgid ""
 "(c) 1999 - 2001 Matthias Elter\n"
@@ -263,22 +264,26 @@ msgstr "มุมขวาล่าง"
 msgid "All Screens"
 msgstr "หน้าจอ"
 
-#: positiontab_impl.cpp:517 rc.cpp:406
+#. i18n: file positiontab.ui line 409
+#: positiontab_impl.cpp:518 rc.cpp:530
 #, fuzzy, no-c-format
 msgid "Custom"
 msgstr "ปรับแต่งเอง"
 
-#: rc.cpp:2
+#. i18n: file advancedOptions.ui line 27
+#: rc.cpp:3
 #, fuzzy, no-c-format
 msgid "Panel Dimensions"
 msgstr "การเคลื่อนที่ของพาเนล"
 
-#: rc.cpp:4
+#. i18n: file advancedOptions.ui line 38
+#: rc.cpp:6
 #, no-c-format
 msgid "Allow Drag 'n Drop &resizing of panels"
 msgstr ""
 
-#: rc.cpp:6
+#. i18n: file advancedOptions.ui line 41
+#: rc.cpp:9
 #, fuzzy, no-c-format
 msgid ""
 "With this option enabled you can click and drag the edge of the panel to "
@@ -289,12 +294,14 @@ msgstr ""
 "freely resize it. The panel's size has to be set to \"Custom\". This option "
 "can also be set in the panel's context menu."
 
-#: rc.cpp:8
+#. i18n: file advancedOptions.ui line 49
+#: rc.cpp:12
 #, no-c-format
 msgid "&Hide button size:"
 msgstr "ຂະຫນາດຂອງປຸ່ມ:"
 
-#: rc.cpp:10 rc.cpp:14
+#. i18n: file advancedOptions.ui line 55
+#: rc.cpp:15 rc.cpp:21
 #, no-c-format
 msgid ""
 "This setting defines how large the panel hide buttons will be if they are "
@@ -305,22 +312,26 @@ msgstr ""
 "ຈະໃຫ້ມີຈຳນວນດ້ານຂອງຂອບຈໍເ"
 "ທົ່າໃດສຳລັບໃຊ້ກັບພາເນລ"
 
-#: rc.cpp:12 rc.cpp:394
+#. i18n: file advancedOptions.ui line 63
+#: rc.cpp:18 rc.cpp:536
 #, no-c-format
 msgid " pixels"
 msgstr " ພິກເຊລ"
 
-#: rc.cpp:16
+#. i18n: file advancedOptions.ui line 99
+#: rc.cpp:24
 #, fuzzy, no-c-format
 msgid "Applet Handles"
 msgstr "&Fade out applet handles"
 
-#: rc.cpp:18
+#. i18n: file advancedOptions.ui line 110
+#: rc.cpp:27
 #, no-c-format
 msgid "&Visible"
 msgstr ""
 
-#: rc.cpp:20
+#. i18n: file advancedOptions.ui line 119
+#: rc.cpp:30
 #, no-c-format
 msgid ""
 "<qt>\n"
@@ -330,12 +341,14 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:25
+#. i18n: file advancedOptions.ui line 127
+#: rc.cpp:36
 #, no-c-format
 msgid "&Fade out"
 msgstr ""
 
-#: rc.cpp:27
+#. i18n: file advancedOptions.ui line 133
+#: rc.cpp:39
 #, no-c-format
 msgid ""
 "<qt>\n"
@@ -346,12 +359,14 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:32
+#. i18n: file advancedOptions.ui line 141
+#: rc.cpp:45
 #, no-c-format
 msgid "&Hide"
 msgstr ""
 
-#: rc.cpp:34
+#. i18n: file advancedOptions.ui line 146
+#: rc.cpp:48
 #, no-c-format
 msgid ""
 "<qt>\n"
@@ -361,110 +376,130 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:38
+#. i18n: file advancedOptions.ui line 173
+#: rc.cpp:53
 #, no-c-format
 msgid "Transparency"
 msgstr ""
 
-#: rc.cpp:41 rc.cpp:59
+#. i18n: file advancedOptions.ui line 195
+#: rc.cpp:57 rc.cpp:84
 #, no-c-format
 msgid "Click on this button to set the color to use when tinting transparent panels."
 msgstr ""
 
-#: rc.cpp:43
+#. i18n: file advancedOptions.ui line 220
+#: rc.cpp:60
 #, no-c-format
 msgid "Min"
 msgstr ""
 
-#: rc.cpp:45 rc.cpp:47 rc.cpp:51 rc.cpp:55
+#. i18n: file advancedOptions.ui line 226
+#: rc.cpp:63 rc.cpp:66 rc.cpp:72 rc.cpp:78
 #, no-c-format
 msgid ""
 "Use this slider to set how much transparent panels should be tinted using "
 "the tint color."
 msgstr ""
 
-#: rc.cpp:49
+#. i18n: file advancedOptions.ui line 262
+#: rc.cpp:69
 #, no-c-format
 msgid "Max"
 msgstr ""
 
-#: rc.cpp:53
+#. i18n: file advancedOptions.ui line 276
+#: rc.cpp:75
 #, no-c-format
 msgid "Ti&nt amount:"
 msgstr ""
 
-#: rc.cpp:57
+#. i18n: file advancedOptions.ui line 290
+#: rc.cpp:81
 #, no-c-format
 msgid "Tint c&olor:"
 msgstr ""
 
-#: rc.cpp:61
+#. i18n: file applettab.ui line 24
+#: rc.cpp:87
 #, no-c-format
 msgid "Security Level"
 msgstr "ระดับความปลอดภัย"
 
-#: rc.cpp:63
+#. i18n: file applettab.ui line 35
+#: rc.cpp:90
 #, no-c-format
 msgid "Load only trusted applets internal"
 msgstr ""
 "เรียกใช้งานเฉพาะแอพเพล็ตท"
 "ี่ไว้ใจเท่านั้น"
 
-#: rc.cpp:65
+#. i18n: file applettab.ui line 43
+#: rc.cpp:93
 #, no-c-format
 msgid "Load startup config applets internal"
 msgstr ""
 "เรียกใช้แอพเพล็ตภายในที่ก"
 "ำหนดให้เริ่มต้น"
 
-#: rc.cpp:67
+#. i18n: file applettab.ui line 51
+#: rc.cpp:96
 #, no-c-format
 msgid "Load all applets internal"
 msgstr "เรียกใช้ทุกแอพเพล็ตภายใน"
 
-#: rc.cpp:69
+#. i18n: file applettab.ui line 67
+#: rc.cpp:99
 #, no-c-format
 msgid "List of Trusted Applets"
 msgstr "รายการของแอพเพล็ตที่ไว้ใจ"
 
-#: rc.cpp:71
+#. i18n: file applettab.ui line 84
+#: rc.cpp:102
 #, no-c-format
 msgid "Available Applets"
 msgstr "แอพเพล็ตที่มี"
 
-#: rc.cpp:73
+#. i18n: file applettab.ui line 133
+#: rc.cpp:105
 #, no-c-format
 msgid ">>"
 msgstr ">>"
 
-#: rc.cpp:75
+#. i18n: file applettab.ui line 172
+#: rc.cpp:108
 #, no-c-format
 msgid "<<"
 msgstr "<<"
 
-#: rc.cpp:77
+#. i18n: file applettab.ui line 197
+#: rc.cpp:111
 #, no-c-format
 msgid "Trusted Applets"
 msgstr "แอพเพล็ตที่ไว้ใจ"
 
-#: rc.cpp:80 rc.cpp:319
+#. i18n: file hidingtab.ui line 41
+#: rc.cpp:115 rc.cpp:469
 #, no-c-format
 msgid "S&ettings for:"
 msgstr ""
 
-#: rc.cpp:82
+#. i18n: file hidingtab.ui line 76
+#: rc.cpp:118
 #, no-c-format
 msgid "Hide Mode"
 msgstr "โหมดการซ่อน"
 
-#: rc.cpp:84
+#. i18n: file hidingtab.ui line 124
+#: rc.cpp:121
 #, no-c-format
 msgid "Allow other &windows to cover the panel"
 msgstr ""
 "อนุญาตให้หน้าต่างสามารถทั"
 "บถาดพาเนลได้"
 
-#: rc.cpp:86
+#. i18n: file hidingtab.ui line 127
+#: rc.cpp:124
 #, no-c-format
 msgid ""
 "If this option is selected, the panel will allow itself to be covered by "
@@ -475,14 +510,16 @@ msgstr ""
 "สามารถทับอยู่เหนือถาดพาเน"
 "ลได้"
 
-#: rc.cpp:88
-#, no-c-format
-msgid "&Only hide when a panel-hiding button is clicked"
+#. i18n: file hidingtab.ui line 135
+#: rc.cpp:127
+#, fuzzy, no-c-format
+msgid "On&ly hide when a panel-hiding button is clicked"
 msgstr ""
 "ทำการซ่อนเฉพาะเมื่อมีการค"
 "ลิ้กปุ่มการซ่อน"
 
-#: rc.cpp:90
+#. i18n: file hidingtab.ui line 141
+#: rc.cpp:130
 #, no-c-format
 msgid ""
 "If this option is selected, the only way to hide the panel will be to click "
@@ -493,14 +530,16 @@ msgstr ""
 "จากทางปุ่มที่อยู่ทางด้านข"
 "้างพาเนลเท่านั้น"
 
-#: rc.cpp:92
+#. i18n: file hidingtab.ui line 152
+#: rc.cpp:133
 #, no-c-format
 msgid "&Show panel when switching desktops"
 msgstr ""
 "แสดงพาเนลเมื่อทำการสลับพื"
 "้นที่ทำงาน"
 
-#: rc.cpp:94
+#. i18n: file hidingtab.ui line 155
+#: rc.cpp:136
 #, no-c-format
 msgid ""
 "If this option is enabled, the panel will automatically show itself for a "
@@ -516,12 +555,14 @@ msgstr ""
 "ว่า "
 "อยู่บนพื้นที่ทำงานใดแล้ว"
 
-#: rc.cpp:96
+#. i18n: file hidingtab.ui line 166
+#: rc.cpp:139
 #, fuzzy, no-c-format
 msgid "Hide a&utomatically"
 msgstr "ซ่อนอัตโนมัติ"
 
-#: rc.cpp:98
+#. i18n: file hidingtab.ui line 169
+#: rc.cpp:142
 #, no-c-format
 msgid ""
 "If this option is selected, the panel will automatically hide after a period "
@@ -543,17 +584,20 @@ msgstr ""
 "านมาก เช่น บนเครื่องแลปทอป "
 "เป็นต้น"
 
-#: rc.cpp:100
+#. i18n: file hidingtab.ui line 194
+#: rc.cpp:145
 #, no-c-format
 msgid " sec"
 msgstr " วินาที"
 
-#: rc.cpp:102
+#. i18n: file hidingtab.ui line 197
+#: rc.cpp:148
 #, no-c-format
 msgid "Immediately"
 msgstr "ทันที"
 
-#: rc.cpp:104 rc.cpp:108
+#. i18n: file hidingtab.ui line 200
+#: rc.cpp:151 rc.cpp:157
 #, no-c-format
 msgid ""
 "Here you can change the delay after which the panel will disappear if not "
@@ -565,14 +609,16 @@ msgstr ""
 "จากไม่มีการใช้งาน "
 "ได้ที่นี่"
 
-#: rc.cpp:106
+#. i18n: file hidingtab.ui line 219
+#: rc.cpp:154
 #, fuzzy, no-c-format
 msgid "after the &cursor leaves the panel"
 msgstr ""
 "หลังจากเคลื่อนเคอร์เซอร์อ"
 "อกจากถาดพาเนล"
 
-#: rc.cpp:110
+#. i18n: file hidingtab.ui line 263
+#: rc.cpp:160
 #, no-c-format
 msgid "&Raise when the pointer touches the screen's:"
 msgstr ""
@@ -580,7 +626,8 @@ msgstr ""
 "เมื่อเคอร์เซอร์อยู่ในพื้น"
 "ที่จอ:"
 
-#: rc.cpp:112
+#. i18n: file hidingtab.ui line 266
+#: rc.cpp:163
 #, no-c-format
 msgid ""
 "When this option is selected, moving the pointer to the specified edge of "
@@ -594,47 +641,56 @@ msgstr ""
 "จะทำให้มีการแสดงถาดพาเนลเ"
 "หนือหน้าต่างที่ทับมันอยู่"
 
-#: rc.cpp:114
+#. i18n: file hidingtab.ui line 272
+#: rc.cpp:166
 #, no-c-format
 msgid "Top Left Corner"
 msgstr "มุมบนซ้าย"
 
-#: rc.cpp:116
+#. i18n: file hidingtab.ui line 277
+#: rc.cpp:169
 #, no-c-format
 msgid "Top Edge"
 msgstr "ขอบบน"
 
-#: rc.cpp:118
+#. i18n: file hidingtab.ui line 282
+#: rc.cpp:172
 #, no-c-format
 msgid "Top Right Corner"
 msgstr "มุมบนขวา"
 
-#: rc.cpp:120
+#. i18n: file hidingtab.ui line 287
+#: rc.cpp:175
 #, no-c-format
 msgid "Right Edge"
 msgstr "ขอบขวา"
 
-#: rc.cpp:122
+#. i18n: file hidingtab.ui line 292
+#: rc.cpp:178
 #, no-c-format
 msgid "Bottom Right Corner"
 msgstr "มุมล่างขวา"
 
-#: rc.cpp:124
+#. i18n: file hidingtab.ui line 297
+#: rc.cpp:181
 #, no-c-format
 msgid "Bottom Edge"
 msgstr "ขอบล่าง"
 
-#: rc.cpp:126
+#. i18n: file hidingtab.ui line 302
+#: rc.cpp:184
 #, no-c-format
 msgid "Bottom Left Corner"
 msgstr "มุมล่างซ้าย"
 
-#: rc.cpp:128
+#. i18n: file hidingtab.ui line 307
+#: rc.cpp:187
 #, no-c-format
 msgid "Left Edge"
 msgstr "ขอบซ้าย"
 
-#: rc.cpp:130
+#. i18n: file hidingtab.ui line 317
+#: rc.cpp:190
 #, no-c-format
 msgid ""
 "Here you can set the location on the screen's edge that will bring the panel "
@@ -644,12 +700,14 @@ msgstr ""
 "ขอบหน้าจอที่จะให้พาเนลมาอ"
 "ยู่ด้านหน้า ได้ที่นี่"
 
-#: rc.cpp:132
+#. i18n: file hidingtab.ui line 360
+#: rc.cpp:193
 #, no-c-format
 msgid "Panel-Hiding Buttons"
 msgstr "ปุ่มซ่อนพาเนล"
 
-#: rc.cpp:134
+#. i18n: file hidingtab.ui line 363
+#: rc.cpp:196
 #, no-c-format
 msgid ""
 "This option controls the panel-hiding buttons, which are buttons with a "
@@ -668,7 +726,8 @@ msgstr ""
 "งกล่าวนี้ "
 "จะทำให้มีการซ่อนถาดพาเนล"
 
-#: rc.cpp:138
+#. i18n: file hidingtab.ui line 380
+#: rc.cpp:202
 #, no-c-format
 msgid ""
 "When this option is selected, a panel-hiding button appears on the left end "
@@ -678,14 +737,16 @@ msgstr ""
 "จะปรากฎปุ่มการซ่อนทางด้าน"
 "ซ้ายสุดของถาดพาเนล"
 
-#: rc.cpp:140
+#. i18n: file hidingtab.ui line 388
+#: rc.cpp:205
 #, no-c-format
 msgid "Show right panel-hiding &button"
 msgstr ""
 "แสดงปุ่มการซ่อนด้านขวาของ"
 "พาเนล"
 
-#: rc.cpp:142
+#. i18n: file hidingtab.ui line 394
+#: rc.cpp:208
 #, no-c-format
 msgid ""
 "When this option is selected, a panel-hiding button appears on the right end "
@@ -695,17 +756,20 @@ msgstr ""
 "จะปรากฎปุ่มการซ่อนทางด้าน"
 "ขวาสุดของถาดพาเนล"
 
-#: rc.cpp:144
+#. i18n: file hidingtab.ui line 435
+#: rc.cpp:211
 #, no-c-format
 msgid "Panel Animation"
 msgstr "การเคลื่อนที่ของพาเนล"
 
-#: rc.cpp:146
+#. i18n: file hidingtab.ui line 463
+#: rc.cpp:214
 #, no-c-format
 msgid "A&nimate panel hiding"
 msgstr "ซ่อนพาเนลแบบเคลื่อนที่"
 
-#: rc.cpp:148
+#. i18n: file hidingtab.ui line 466
+#: rc.cpp:217
 #, no-c-format
 msgid ""
 "When this option is selected the panel will \"slide\" off the screen when "
@@ -718,7 +782,8 @@ msgstr ""
 "ออกไปจากหน้าจอเมื่อมีการซ"
 "่อน"
 
-#: rc.cpp:150
+#. i18n: file hidingtab.ui line 531
+#: rc.cpp:220
 #, no-c-format
 msgid "Determines how quickly the panel hides if hiding animation is enabled."
 msgstr ""
@@ -727,22 +792,26 @@ msgstr ""
 "เมื่อมีการเปิดใช้งานการเค"
 "ลื่อนที่"
 
-#: rc.cpp:152
+#. i18n: file hidingtab.ui line 567
+#: rc.cpp:223
 #, no-c-format
 msgid "Fast"
 msgstr "เร็ว"
 
-#: rc.cpp:154
+#. i18n: file hidingtab.ui line 608
+#: rc.cpp:226
 #, no-c-format
 msgid "Medium"
 msgstr "ปานกลาง"
 
-#: rc.cpp:156
+#. i18n: file hidingtab.ui line 632
+#: rc.cpp:229
 #, no-c-format
 msgid "Slow"
 msgstr "ช้า"
 
-#: rc.cpp:158
+#. i18n: file lookandfeeltab.ui line 16
+#: rc.cpp:232
 #, no-c-format
 msgid ""
 "If this option is selected, informational tooltips will appear when the "
@@ -755,17 +824,20 @@ msgstr ""
 "ร์เมาส์มาอยู่เหนือไอคอน, "
 "ปุ่ม และแอพเพล็ตบนถาดพาเนล"
 
-#: rc.cpp:160
+#. i18n: file lookandfeeltab.ui line 27
+#: rc.cpp:235
 #, fuzzy, no-c-format
 msgid "General"
 msgstr "ทั่วไป"
 
-#: rc.cpp:162
+#. i18n: file lookandfeeltab.ui line 38
+#: rc.cpp:238
 #, no-c-format
 msgid "Enable icon &zooming"
 msgstr "เปิดใช้การย่อขยายไอคอน"
 
-#: rc.cpp:164
+#. i18n: file lookandfeeltab.ui line 41
+#: rc.cpp:241
 #, no-c-format
 msgid ""
 "When this option is selected the button icons are zoomed when the mouse "
@@ -776,12 +848,14 @@ msgstr ""
 "เมื่อมีการเคลื่อนเคอร์เซอ"
 "ร์เมาส์มาอยู่เหนือมัน"
 
-#: rc.cpp:166
-#, no-c-format
-msgid "Sh&ow tooltips"
+#. i18n: file lookandfeeltab.ui line 49
+#: rc.cpp:244
+#, fuzzy, no-c-format
+msgid "Show too&ltips"
 msgstr "แสดงทูลทิป"
 
-#: rc.cpp:168
+#. i18n: file lookandfeeltab.ui line 52
+#: rc.cpp:247
 #, no-c-format
 msgid ""
 "When this option is selected informational tooltips will appear when the "
@@ -793,41 +867,48 @@ msgstr ""
 "ร์เมาส์มาอยู่เหนือไอคอน, "
 "ปุ่ม และแอพเพล็ตบนถาดพาเนล"
 
-#: rc.cpp:170
+#. i18n: file lookandfeeltab.ui line 62
+#: rc.cpp:250
 #, fuzzy, no-c-format
 msgid "Button Backgrounds"
 msgstr "พื้นหลังของปุ่ม"
 
-#: rc.cpp:172
+#. i18n: file lookandfeeltab.ui line 73
+#: rc.cpp:253
 #, no-c-format
 msgid "&K menu:"
 msgstr "เมนู &K:"
 
-#: rc.cpp:174 rc.cpp:190
+#. i18n: file lookandfeeltab.ui line 79
+#: rc.cpp:256 rc.cpp:280
 #, no-c-format
 msgid "Choose a tile image for the K menu."
 msgstr ""
 "เลือกแฟ้มภาพพื้นหลังสำหรั"
 "บปุ่มเมนู K"
 
-#: rc.cpp:176
+#. i18n: file lookandfeeltab.ui line 87
+#: rc.cpp:259
 #, no-c-format
 msgid "&QuickBrowser menus:"
 msgstr "ปุ่มเมนูเรียกดูด่วน:"
 
-#: rc.cpp:178 rc.cpp:184
+#. i18n: file lookandfeeltab.ui line 93
+#: rc.cpp:262 rc.cpp:271
 #, no-c-format
 msgid "Choose a tile image for Quick Browser buttons."
 msgstr ""
 "เลือกแฟ้มภาพพื้นหลังสำหรั"
 "บปุ่มเมนูเรียกดูด่วน"
 
-#: rc.cpp:182 rc.cpp:188 rc.cpp:200 rc.cpp:213 rc.cpp:233
+#. i18n: file lookandfeeltab.ui line 104
+#: rc.cpp:268 rc.cpp:277 rc.cpp:294 rc.cpp:313 rc.cpp:342
 #, fuzzy, no-c-format
 msgid "Custom Color"
 msgstr "ปรับแต่งเอง"
 
-#: rc.cpp:193
+#. i18n: file lookandfeeltab.ui line 162
+#: rc.cpp:284
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -837,7 +918,8 @@ msgstr ""
 "จะปรากฎปุ่มการซ่อนทางด้าน"
 "ซ้ายสุดของถาดพาเนล"
 
-#: rc.cpp:196
+#. i18n: file lookandfeeltab.ui line 173
+#: rc.cpp:288
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -847,14 +929,16 @@ msgstr ""
 "จะปรากฎปุ่มการซ่อนทางด้าน"
 "ซ้ายสุดของถาดพาเนล"
 
-#: rc.cpp:202 rc.cpp:209
+#. i18n: file lookandfeeltab.ui line 202
+#: rc.cpp:297 rc.cpp:307
 #, no-c-format
 msgid "Choose a tile image for window list buttons."
 msgstr ""
 "เลือกแฟ้มภาพพื้นหลังสำหรั"
 "บปุ่มรายการหน้าต่าง"
 
-#: rc.cpp:205
+#. i18n: file lookandfeeltab.ui line 213
+#: rc.cpp:301
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -864,19 +948,22 @@ msgstr ""
 "จะปรากฎปุ่มการซ่อนทางด้าน"
 "ซ้ายสุดของถาดพาเนล"
 
-#: rc.cpp:207
+#. i18n: file lookandfeeltab.ui line 221
+#: rc.cpp:304
 #, no-c-format
 msgid "&Window list:"
 msgstr "ปุ่มรายการหน้าต่าง:"
 
-#: rc.cpp:215 rc.cpp:222
+#. i18n: file lookandfeeltab.ui line 256
+#: rc.cpp:316 rc.cpp:326
 #, no-c-format
 msgid "Choose a tile image for desktop access buttons."
 msgstr ""
 "เลือกแฟ้มภาพพื้นหลังสำหรั"
 "บปุ่มเข้าถึงพื้นที่ทำงาน"
 
-#: rc.cpp:218
+#. i18n: file lookandfeeltab.ui line 267
+#: rc.cpp:320
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -886,12 +973,14 @@ msgstr ""
 "จะปรากฎปุ่มการซ่อนทางด้าน"
 "ซ้ายสุดของถาดพาเนล"
 
-#: rc.cpp:220
+#. i18n: file lookandfeeltab.ui line 275
+#: rc.cpp:323
 #, no-c-format
 msgid "De&sktop access:"
 msgstr "ปุ่มเข้าถึงพื้นที่ทำงาน:"
 
-#: rc.cpp:225
+#. i18n: file lookandfeeltab.ui line 292
+#: rc.cpp:330
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -901,29 +990,34 @@ msgstr ""
 "จะปรากฎปุ่มการซ่อนทางด้าน"
 "ซ้ายสุดของถาดพาเนล"
 
-#: rc.cpp:227
+#. i18n: file lookandfeeltab.ui line 300
+#: rc.cpp:333
 #, no-c-format
 msgid "Applicatio&ns:"
 msgstr "แอพพลิเคชัน:"
 
-#: rc.cpp:229 rc.cpp:235
+#. i18n: file lookandfeeltab.ui line 306
+#: rc.cpp:336 rc.cpp:345
 #, no-c-format
 msgid "Choose a tile image for buttons that launch applications."
 msgstr ""
 "เลือกแฟ้มภาพพื้นหลังสำหรั"
 "บปุ่มเรียกแอพพลิเคชัน"
 
-#: rc.cpp:237
+#. i18n: file lookandfeeltab.ui line 362
+#: rc.cpp:348
 #, no-c-format
 msgid "Panel Background"
 msgstr "พื้นหลังพาเนล"
 
-#: rc.cpp:239
+#. i18n: file lookandfeeltab.ui line 393
+#: rc.cpp:351
 #, no-c-format
 msgid "Colorize to &match the desktop color scheme"
 msgstr ""
 
-#: rc.cpp:241
+#. i18n: file lookandfeeltab.ui line 399
+#: rc.cpp:354
 #, fuzzy, no-c-format
 msgid ""
 "If this option is selected, the panel background image will be colored to "
@@ -937,14 +1031,16 @@ msgstr ""
 "ก็จะแสดงด้วยสีปริยาย "
 "ดูที่โมดูล 'สี' เพิ่มเติม"
 
-#: rc.cpp:243
+#. i18n: file lookandfeeltab.ui line 446
+#: rc.cpp:357
 #, no-c-format
 msgid "This is a preview for the selected background image."
 msgstr ""
 "แสดงตัวอย่างของภาพพื้นหลั"
 "งที่เลือกไว้"
 
-#: rc.cpp:245
+#. i18n: file lookandfeeltab.ui line 466
+#: rc.cpp:360
 #, fuzzy, no-c-format
 msgid ""
 "Here you can choose a theme to be displayed by the panel. Press the 'Browse' "
@@ -962,39 +1058,46 @@ msgstr ""
 "'เปิดให้ใช้ภาพพื้นหลัง' "
 "เท่านั้น"
 
-#: rc.cpp:248
+#. i18n: file lookandfeeltab.ui line 474
+#: rc.cpp:364
 #, no-c-format
 msgid "Enable &background image"
 msgstr "เปิดใช้ภาพพื้นหลัง"
 
-#: rc.cpp:250
+#. i18n: file lookandfeeltab.ui line 482
+#: rc.cpp:367
 #, no-c-format
 msgid "Enable &transparency"
 msgstr ""
 
-#: rc.cpp:252
+#. i18n: file lookandfeeltab.ui line 500
+#: rc.cpp:370
 #, fuzzy, no-c-format
-msgid "Advanc&ed Options..."
+msgid "Advanc&ed Options"
 msgstr "<b>Advanced Options</b>"
 
-#: rc.cpp:254
+#. i18n: file lookandfeeltab.ui line 503
+#: rc.cpp:373
 #, no-c-format
 msgid ""
 "Click here to open the Advanced Options dialog. You can configure the applet "
 "handles look and feel, the tint transparency color and more."
 msgstr ""
 
-#: rc.cpp:256
+#. i18n: file menutab.ui line 24
+#: rc.cpp:376
 #, no-c-format
 msgid "K Menu"
 msgstr "เมนู K"
 
-#: rc.cpp:258
-#, no-c-format
-msgid "Optional Sub Menus"
+#. i18n: file menutab.ui line 67
+#: rc.cpp:379
+#, fuzzy, no-c-format
+msgid "Optional Menus"
 msgstr "เมนูย่อยเพิ่มเติม"
 
-#: rc.cpp:260
+#. i18n: file menutab.ui line 91
+#: rc.cpp:382
 #, no-c-format
 msgid ""
 "This is a list of the dynamic menus that can be displayed in the KDE menu in "
@@ -1007,24 +1110,28 @@ msgstr ""
 "นูของ KDE ได้ โดยใช้ปุ่ม เพิ่ม "
 "หรือ ลบ รายการเมนู"
 
-#: rc.cpp:262
+#. i18n: file menutab.ui line 127
+#: rc.cpp:385
 #, no-c-format
 msgid "Menu item format:"
 msgstr "รูปแบบรายการเมนู:"
 
-#: rc.cpp:264
+#. i18n: file menutab.ui line 130
+#: rc.cpp:388
 #, fuzzy, no-c-format
 msgid "Here you can choose how menu entries are shown."
 msgstr ""
 "คุณสามารถเปลี่ยนขนาดของปุ"
 "่มซ่อนได้ที่นี่"
 
-#: rc.cpp:266
+#. i18n: file menutab.ui line 138
+#: rc.cpp:391
 #, no-c-format
 msgid "&Name only"
 msgstr "ชื่อเท่านั้น"
 
-#: rc.cpp:268
+#. i18n: file menutab.ui line 141
+#: rc.cpp:394
 #, no-c-format
 msgid ""
 "When this option is selected, items in the K Menu will appear with the "
@@ -1035,12 +1142,14 @@ msgstr ""
 "จะมีลักษณะชื่อแอพพลิเคชัน"
 "อยู่ทางด้านข้างไอคอน"
 
-#: rc.cpp:270
+#. i18n: file menutab.ui line 149
+#: rc.cpp:397
 #, no-c-format
 msgid "Na&me (Description)"
 msgstr "ชื่อ (รายละเอียด)"
 
-#: rc.cpp:272
+#. i18n: file menutab.ui line 155
+#: rc.cpp:400
 #, no-c-format
 msgid ""
 "When this option is selected, items in the K Menu will appear with the "
@@ -1052,12 +1161,14 @@ msgstr ""
 "และรายละเอียดที่มีการกำหน"
 "ดไว้"
 
-#: rc.cpp:274
+#. i18n: file menutab.ui line 183
+#: rc.cpp:403
 #, no-c-format
 msgid "Des&cription (Name)"
 msgstr "รายละเอียด (ชื่อ)"
 
-#: rc.cpp:276
+#. i18n: file menutab.ui line 186
+#: rc.cpp:406
 #, no-c-format
 msgid ""
 "When this option is selected, items in the K Menu will appear with a brief "
@@ -1068,24 +1179,28 @@ msgstr ""
 "จากทางปุ่มที่อยู่ทางด้านข"
 "้างพาเนลเท่านั้น"
 
-#: rc.cpp:278
+#. i18n: file menutab.ui line 196
+#: rc.cpp:409
 #, no-c-format
 msgid "Edit &K Menu"
 msgstr "แก้ไขเมนู &K"
 
-#: rc.cpp:280
+#. i18n: file menutab.ui line 199
+#: rc.cpp:412
 #, no-c-format
 msgid ""
 "Start the editor for the K menu. Here you can add, edit, remove and hide "
 "applications."
 msgstr ""
 
-#: rc.cpp:282
+#. i18n: file menutab.ui line 207
+#: rc.cpp:415
 #, no-c-format
 msgid "Show &side image"
 msgstr "แสดงแถบภาพด้านข้าง"
 
-#: rc.cpp:284
+#. i18n: file menutab.ui line 215
+#: rc.cpp:418
 #, fuzzy, no-c-format
 msgid ""
 "<qt>When this option is selected an image will appear down the left-hand "
@@ -1112,17 +1227,20 @@ msgstr ""
 "ไว้ในไดเรกทอรี "
 "$KDEHOME/share/apps/kicker/pics</qt>"
 
-#: rc.cpp:288
+#. i18n: file menutab.ui line 242
+#: rc.cpp:423
 #, no-c-format
 msgid "QuickBrowser Menus"
 msgstr "เมนูเรียกดูด่วน"
 
-#: rc.cpp:290
+#. i18n: file menutab.ui line 261
+#: rc.cpp:426
 #, no-c-format
 msgid "Ma&ximum number of entries:"
 msgstr "จำนวนรายการสูงสุด:"
 
-#: rc.cpp:292 rc.cpp:294
+#. i18n: file menutab.ui line 267
+#: rc.cpp:429 rc.cpp:432
 #, no-c-format
 msgid ""
 "When browsing directories that contain a lot of files, the QuickBrowser can "
@@ -1141,12 +1259,14 @@ msgstr ""
 "ซึ่งเหมาะกับจอภาพที่มีควา"
 "มละเอียดต่ำ"
 
-#: rc.cpp:296
-#, no-c-format
-msgid "Sh&ow hidden files"
+#. i18n: file menutab.ui line 294
+#: rc.cpp:435
+#, fuzzy, no-c-format
+msgid "Show hidden fi&les"
 msgstr "แสดงแฟ้มที่ซ่อนไว้"
 
-#: rc.cpp:298
+#. i18n: file menutab.ui line 300
+#: rc.cpp:438
 #, no-c-format
 msgid ""
 "If this option is enabled, hidden files (i.e. files beginning with a dot) "
@@ -1157,17 +1277,20 @@ msgstr ""
 "(แฟ้มที่นำหน้าด้วยจุด) "
 "ในเมนูเรียกดูด่วนด้วย"
 
-#: rc.cpp:300
+#. i18n: file menutab.ui line 327
+#: rc.cpp:441
 #, no-c-format
 msgid "QuickStart Menu Items"
 msgstr "รายการเมนู \"เรียกใช้ด่วน\""
 
-#: rc.cpp:302
+#. i18n: file menutab.ui line 346
+#: rc.cpp:444
 #, no-c-format
 msgid "Maxim&um number of entries:"
 msgstr "จำนวนรายการสูงสุด:"
 
-#: rc.cpp:304
+#. i18n: file menutab.ui line 352
+#: rc.cpp:447
 #, no-c-format
 msgid ""
 "This option allows you to define the maximum number of applications that "
@@ -1179,7 +1302,8 @@ msgstr ""
 "ที่จะแสดงไว้ในรายการเมนูเ"
 "รียกทำงานด่วน"
 
-#: rc.cpp:306
+#. i18n: file menutab.ui line 369
+#: rc.cpp:450
 #, no-c-format
 msgid ""
 "This option allows you to define how many applications should be displayed "
@@ -1191,14 +1315,16 @@ msgstr ""
 "ที่จะแสดงไว้ในรายการเมนูเ"
 "รียกทำงานด่วน"
 
-#: rc.cpp:308
+#. i18n: file menutab.ui line 379
+#: rc.cpp:453
 #, no-c-format
 msgid "Sho&w the applications most recently used"
 msgstr ""
 "รายการแอพพลิเคชันที่เรียก"
 "ใช้บ่อยมาก"
 
-#: rc.cpp:310
+#. i18n: file menutab.ui line 385
+#: rc.cpp:456
 #, no-c-format
 msgid ""
 "When this option is selected the QuickStart menu area will be filled with "
@@ -1210,14 +1336,16 @@ msgstr ""
 "เป็นรายการแอพพลิเคชันที่ค"
 "ุณเรียกใช้บ่อยมาก"
 
-#: rc.cpp:312
+#. i18n: file menutab.ui line 393
+#: rc.cpp:459
 #, no-c-format
 msgid "Show &the applications most frequently used"
 msgstr ""
 "แอพพลิเคชันที่เรียกใช้ถี่"
 "มาก"
 
-#: rc.cpp:314
+#. i18n: file menutab.ui line 396
+#: rc.cpp:462
 #, no-c-format
 msgid ""
 "When this option is selected the QuickStart menu area will be filled with "
@@ -1229,7 +1357,8 @@ msgstr ""
 "เป็นรายการแอพพลิเคชันที่ค"
 "ุณเรียกใช้ถี่มาก"
 
-#: rc.cpp:316
+#. i18n: file positiontab.ui line 17
+#: rc.cpp:465
 #, no-c-format
 msgid ""
 "This is a list of all the panels currently active on your desktop. Select "
@@ -1241,12 +1370,14 @@ msgstr ""
 "เลือกตัวใดตัวหนึ่งเพื่อปร"
 "ับแต่ง"
 
-#: rc.cpp:321
+#. i18n: file positiontab.ui line 80
+#: rc.cpp:472
 #, no-c-format
 msgid "Screen"
 msgstr "หน้าจอ"
 
-#: rc.cpp:323
+#. i18n: file positiontab.ui line 136
+#: rc.cpp:475
 #, fuzzy, no-c-format
 msgid ""
 "This preview image shows how the panel will appear on your screen with the "
@@ -1268,24 +1399,28 @@ msgstr ""
 "จะเปลี่ยนไปตามทิศทางของถา"
 "ดพาเนล"
 
-#: rc.cpp:325
+#. i18n: file positiontab.ui line 188
+#: rc.cpp:478
 #, no-c-format
 msgid "Identify"
 msgstr "หมายเลขจอ"
 
-#: rc.cpp:327
+#. i18n: file positiontab.ui line 191
+#: rc.cpp:481
 #, no-c-format
 msgid "This button displays each monitor's identifying number"
 msgstr ""
 "ปุ่มนี้ใช้แสดงหมายเลขของจ"
 "อภาพ"
 
-#: rc.cpp:329
+#. i18n: file positiontab.ui line 209
+#: rc.cpp:484
 #, fuzzy, no-c-format
-msgid "Xinerama screen:"
+msgid "&Xinerama screen:"
 msgstr "หน้าจอแบบซีเนรามา"
 
-#: rc.cpp:331
+#. i18n: file positiontab.ui line 220
+#: rc.cpp:487
 #, no-c-format
 msgid ""
 "This menu selects which screen the Panel will be displayed on in a "
@@ -1296,86 +1431,14 @@ msgstr ""
 "บนระบบการแสดงผลแบบหลายจอภ"
 "าพ"
 
-#: rc.cpp:333
-#, no-c-format
-msgid "Position"
-msgstr "ตำแหน่ง"
-
-#: rc.cpp:335
-#, no-c-format
-msgid ""
-"Here you can set the position of the panel highlighted on the left side. You "
-"can put any panel on top or bottom of the screen and on the left or right "
-"side of the screen. There you can put it into the center or into either "
-"corner of the screen."
-msgstr ""
-
-#: rc.cpp:338
-#, no-c-format
-msgid "Alt+1"
-msgstr ""
-
-#: rc.cpp:341
-#, no-c-format
-msgid "Alt+2"
-msgstr ""
-
-#: rc.cpp:344
-#, no-c-format
-msgid "Alt+3"
-msgstr ""
-
-#: rc.cpp:347
-#, no-c-format
-msgid "Alt+="
-msgstr ""
-
-#: rc.cpp:350
-#, no-c-format
-msgid "Alt+-"
-msgstr ""
-
-#: rc.cpp:353
-#, no-c-format
-msgid "Alt+0"
-msgstr ""
-
-#: rc.cpp:356
-#, no-c-format
-msgid "Alt+9"
-msgstr ""
-
-#: rc.cpp:359
-#, no-c-format
-msgid "Alt+8"
-msgstr ""
-
-#: rc.cpp:362
-#, no-c-format
-msgid "Alt+7"
-msgstr ""
-
-#: rc.cpp:365
-#, no-c-format
-msgid "Alt+4"
-msgstr ""
-
-#: rc.cpp:368
-#, no-c-format
-msgid "Alt+5"
-msgstr ""
-
-#: rc.cpp:371
-#, no-c-format
-msgid "Alt+6"
-msgstr ""
-
-#: rc.cpp:373
+#. i18n: file positiontab.ui line 257
+#: rc.cpp:490
 #, no-c-format
 msgid "Len&gth"
 msgstr "ความยาว"
 
-#: rc.cpp:375
+#. i18n: file positiontab.ui line 261
+#: rc.cpp:493
 #, fuzzy, no-c-format
 msgid ""
 "This group of settings determines how the panel is aligned, including\n"
@@ -1388,7 +1451,8 @@ msgstr ""
 "อบของพาเนล "
 "และใช้กับหน้าจอใด"
 
-#: rc.cpp:378
+#. i18n: file positiontab.ui line 309
+#: rc.cpp:497
 #, no-c-format
 msgid ""
 "This slider defines how much of the screen's edge will be occupied by the "
@@ -1399,12 +1463,14 @@ msgstr ""
 "านของขอบจอเท่าใดสำหรับใช้"
 "กับพาเนล"
 
-#: rc.cpp:380
+#. i18n: file positiontab.ui line 326
+#: rc.cpp:500
 #, no-c-format
 msgid "%"
 msgstr "%"
 
-#: rc.cpp:382
+#. i18n: file positiontab.ui line 329
+#: rc.cpp:503
 #, no-c-format
 msgid ""
 "This spinbox defines how much of the screen's edge will be occupied by the "
@@ -1415,14 +1481,16 @@ msgstr ""
 "จะให้มีจำนวนด้านของขอบจอเ"
 "ท่าใดสำหรับใช้กับพาเนล"
 
-#: rc.cpp:384
-#, no-c-format
-msgid "E&xpand as required to fit contents"
+#. i18n: file positiontab.ui line 339
+#: rc.cpp:506
+#, fuzzy, no-c-format
+msgid "&Expand as required to fit contents"
 msgstr ""
 "ขยายให้พอดีกับขนาดที่ต้อง"
 "การ"
 
-#: rc.cpp:386
+#. i18n: file positiontab.ui line 342
+#: rc.cpp:509
 #, no-c-format
 msgid ""
 "When this option is selected, the panel will grow as necessary to "
@@ -1433,12 +1501,14 @@ msgstr ""
 "้พอดีกับส่วนต่าง ๆ "
 "ที่อยู่บนถาด"
 
-#: rc.cpp:388
+#. i18n: file positiontab.ui line 377
+#: rc.cpp:512
 #, fuzzy, no-c-format
 msgid "Si&ze"
 msgstr "ขนาด"
 
-#: rc.cpp:390
+#. i18n: file positiontab.ui line 380
+#: rc.cpp:515
 #, no-c-format
 msgid ""
 "This sets the size of the panel. You can also access this option via the "
@@ -1452,7 +1522,32 @@ msgstr ""
 "โดยการคลิ้กเมาส์ขวาบนพื้น"
 "ที่ว่างๆ ของพาเนล"
 
-#: rc.cpp:392
+#. i18n: file positiontab.ui line 389
+#: rc.cpp:518
+#, fuzzy, no-c-format
+msgid "Tiny"
+msgstr "กะทัดรัด"
+
+#. i18n: file positiontab.ui line 394
+#: rc.cpp:521
+#, no-c-format
+msgid "Small"
+msgstr "เล็ก"
+
+#. i18n: file positiontab.ui line 399
+#: rc.cpp:524
+#, fuzzy, no-c-format
+msgid "Normal"
+msgstr "ปกติ"
+
+#. i18n: file positiontab.ui line 404
+#: rc.cpp:527
+#, no-c-format
+msgid "Large"
+msgstr "ใหญ่"
+
+#. i18n: file positiontab.ui line 481
+#: rc.cpp:533
 #, no-c-format
 msgid "This slider defines the panel size when the Custom option is selected."
 msgstr ""
@@ -1460,7 +1555,8 @@ msgstr ""
 "ใช้กำหนดขนาดของถาดพาเนลเม"
 "ื่อเลือกตัวเลือกกำหนดเอง"
 
-#: rc.cpp:396
+#. i18n: file positiontab.ui line 504
+#: rc.cpp:539
 #, no-c-format
 msgid "This spinbox defines the panel size when the Custom option is selected."
 msgstr ""
@@ -1468,96 +1564,186 @@ msgstr ""
 "ใช้กำหนดขนาดของถาดพาเนลเม"
 "ื่อเลือกตัวเลือกกำหนดเอง"
 
-#: rc.cpp:398
-#, fuzzy, no-c-format
-msgid "Tiny"
-msgstr "กะทัดรัด"
-
-#: rc.cpp:400
+#. i18n: file positiontab.ui line 517
+#: rc.cpp:542
 #, no-c-format
-msgid "Small"
-msgstr "เล็ก"
+msgid "Allo&w free resizing"
+msgstr ""
 
-#: rc.cpp:402
+#. i18n: file positiontab.ui line 520
+#: rc.cpp:545
 #, fuzzy, no-c-format
-msgid "Normal"
-msgstr "ปกติ"
+msgid ""
+"When this option is selected, the panel can be resized by clicking on an "
+"edge with the mouse and dragging it."
+msgstr ""
+"หากเปิดใช้ตัวเลือกนี้ "
+"จะทำให้ถาดพาเนลปรับขนาดให"
+"้พอดีกับส่วนต่าง ๆ "
+"ที่อยู่บนถาด"
 
-#: rc.cpp:404
+#. i18n: file positiontab.ui line 530
+#: rc.cpp:548
 #, no-c-format
-msgid "Large"
-msgstr "ใหญ่"
+msgid "Position"
+msgstr "ตำแหน่ง"
 
-#: rc.cpp:407
+#. i18n: file positiontab.ui line 536
+#: rc.cpp:551
+#, no-c-format
+msgid ""
+"Here you can set the position of the panel highlighted on the left side. You "
+"can put any panel on top or bottom of the screen and on the left or right "
+"side of the screen. There you can put it into the center or into either "
+"corner of the screen."
+msgstr ""
+
+#. i18n: file positiontab.ui line 620
+#: rc.cpp:555
+#, no-c-format
+msgid "Alt+1"
+msgstr ""
+
+#. i18n: file positiontab.ui line 654
+#: rc.cpp:559
+#, no-c-format
+msgid "Alt+2"
+msgstr ""
+
+#. i18n: file positiontab.ui line 688
+#: rc.cpp:563
+#, no-c-format
+msgid "Alt+3"
+msgstr ""
+
+#. i18n: file positiontab.ui line 732
+#: rc.cpp:567
+#, no-c-format
+msgid "Alt+="
+msgstr ""
+
+#. i18n: file positiontab.ui line 766
+#: rc.cpp:571
+#, no-c-format
+msgid "Alt+-"
+msgstr ""
+
+#. i18n: file positiontab.ui line 800
+#: rc.cpp:575
+#, no-c-format
+msgid "Alt+0"
+msgstr ""
+
+#. i18n: file positiontab.ui line 844
+#: rc.cpp:579
+#, no-c-format
+msgid "Alt+9"
+msgstr ""
+
+#. i18n: file positiontab.ui line 878
+#: rc.cpp:583
+#, no-c-format
+msgid "Alt+8"
+msgstr ""
+
+#. i18n: file positiontab.ui line 912
+#: rc.cpp:587
+#, no-c-format
+msgid "Alt+7"
+msgstr ""
+
+#. i18n: file positiontab.ui line 956
+#: rc.cpp:591
+#, no-c-format
+msgid "Alt+4"
+msgstr ""
+
+#. i18n: file positiontab.ui line 990
+#: rc.cpp:595
+#, no-c-format
+msgid "Alt+5"
+msgstr ""
+
+#. i18n: file positiontab.ui line 1024
+#: rc.cpp:599
+#, no-c-format
+msgid "Alt+6"
+msgstr ""
+
+#: rc.cpp:600
 #, fuzzy
 msgid "KDE Button"
 msgstr "ขนาดของปุ่มซ่อน"
 
-#: rc.cpp:408
+#: rc.cpp:601
 msgid "Blue Wood"
 msgstr ""
 
-#: rc.cpp:409
+#: rc.cpp:602
 msgid "Green Wood"
 msgstr ""
 
-#: rc.cpp:410
+#: rc.cpp:603
 #, fuzzy
 msgid "Light Gray"
 msgstr "ขอบขวา"
 
-#: rc.cpp:411
+#: rc.cpp:604
 #, fuzzy
 msgid "Light Green"
 msgstr "ขอบขวา"
 
-#: rc.cpp:412
+#: rc.cpp:605
 msgid "Light Pastel"
 msgstr ""
 
-#: rc.cpp:413
+#: rc.cpp:606
 msgid "Light Purple"
 msgstr ""
 
-#: rc.cpp:414
+#: rc.cpp:607
 msgid "Nuts And Bolts"
 msgstr ""
 
-#: rc.cpp:415
+#: rc.cpp:608
 msgid "Red Wood"
 msgstr ""
 
-#: rc.cpp:416
+#: rc.cpp:609
 msgid "Solid Blue"
 msgstr ""
 
-#: rc.cpp:417
+#: rc.cpp:610
 msgid "Solid Gray"
 msgstr ""
 
-#: rc.cpp:418
+#: rc.cpp:611
 msgid "Solid Green"
 msgstr ""
 
-#: rc.cpp:419
+#: rc.cpp:612
 msgid "Solid Orange"
 msgstr ""
 
-#: rc.cpp:420
+#: rc.cpp:613
 msgid "Solid Pastel"
 msgstr ""
 
-#: rc.cpp:421
+#: rc.cpp:614
 msgid "Solid Purple"
 msgstr ""
 
-#: rc.cpp:422
+#: rc.cpp:615
 msgid "Solid Red"
 msgstr ""
 
-#: rc.cpp:423
+#: rc.cpp:616
 msgid "Solid Tigereye"
 msgstr ""
+
+#, fuzzy
+#~ msgid "PositionTabBase"
+#~ msgstr "การซ่อน"
 
 #~ msgid "Form2"
 #~ msgstr "ฟอร์ม2"
@@ -1571,10 +1757,6 @@ msgstr ""
 #~ msgstr "ตำแหน่ง"
 
 #, fuzzy
-#~ msgid "PositionTabBase"
-#~ msgstr "การซ่อน"
-
-#, fuzzy
 #~ msgid "&Panels:"
 #~ msgstr "ถาดพาเนล"
 
@@ -1585,13 +1767,8 @@ msgstr ""
 #~ msgid "Choose a tile image for legacy application buttons."
 #~ msgstr "เลือกแฟ้มภาพพื้นหลังสำหรับปุ่มแอพพลิเคชันอื่น ๆ"
 
-#~ msgid ""
-#~ "If this option is selected, you can choose a background image that will "
-#~ "be displayed on the panel. If it is not selected, the default colors will "
-#~ "be used, see the 'Colors' control module."
-#~ msgstr ""
-#~ "เมื่อเลือกตัวเลือกนี้ คุณจะสามารถเลือกภาพพื้นหลังที่จะใช้แสดงบนพาเนลได้ หากไม่เลือกใช้ "
-#~ "ก็จะแสดงด้วยสีปริยาย ดูที่โมดูล 'สี' เพิ่มเติม"
+#~ msgid "If this option is selected, you can choose a background image that will be displayed on the panel. If it is not selected, the default colors will be used, see the 'Colors' control module."
+#~ msgstr "เมื่อเลือกตัวเลือกนี้ คุณจะสามารถเลือกภาพพื้นหลังที่จะใช้แสดงบนพาเนลได้ หากไม่เลือกใช้ ก็จะแสดงด้วยสีปริยาย ดูที่โมดูล 'สี' เพิ่มเติม"
 
 #, fuzzy
 #~ msgid "advancedKickerOptions"
@@ -1616,14 +1793,8 @@ msgstr ""
 #~ msgid "&Legacy applications:"
 #~ msgstr "ปุ่มเรียกแอพพลิเคชันอื่น ๆ :"
 
-#~ msgid ""
-#~ "All applets that appear on the KDE panel have a small handle associated "
-#~ "with them. By selecting this option these handles will be faded out and "
-#~ "not shown by default."
-#~ msgstr ""
-#~ "ັັັAll applets that appear on the KDE panel have a small handel associated "
-#~ "with them By selecting this option these handles will be faded out and "
-#~ "not shown by default."
+#~ msgid "All applets that appear on the KDE panel have a small handle associated with them. By selecting this option these handles will be faded out and not shown by default."
+#~ msgstr "ັັັAll applets that appear on the KDE panel have a small handel associated with them By selecting this option these handles will be faded out and not shown by default."
 
 #, fuzzy
 #~ msgid "&Resizeable handle"
@@ -1632,8 +1803,7 @@ msgstr ""
 #~ msgid "Form1"
 #~ msgstr "ຟອມ1"
 
-#~ msgid ""
-#~ "This is a preview of the tile that will be used for window list buttons."
+#~ msgid "This is a preview of the tile that will be used for window list buttons."
 #~ msgstr "แสดงตัวอย่างภาพพื้นหลังที่จะถูกนำไปใช้กับปุ่มแสดงรายการหน้าต่าง"
 
 #~ msgid "When this option is selected the panel will be 24 pixels high."
@@ -1654,12 +1824,8 @@ msgstr ""
 #~ msgid "When this option is selected the panel will be 30 pixels high."
 #~ msgstr "หากเลือกตัวเลือกนี้ จะทำให้พาเนลมีความสูง 30 พิกเซล"
 
-#~ msgid ""
-#~ "When this option is selected the panel can be adjusted to any size "
-#~ "between 24 and 128 pixels using the slider below."
-#~ msgstr ""
-#~ "หากเลือกตัวเลือกนี้ จะสามารถปรับขนาดพาเนลได้ตามต้องการ ตั้งแต่ 24 ถึง 128 พิกเซล "
-#~ "โดยใช้แถบเลื่อนด้านล่างนี้"
+#~ msgid "When this option is selected the panel can be adjusted to any size between 24 and 128 pixels using the slider below."
+#~ msgstr "หากเลือกตัวเลือกนี้ จะสามารถปรับขนาดพาเนลได้ตามต้องการ ตั้งแต่ 24 ถึง 128 พิกเซล โดยใช้แถบเลื่อนด้านล่างนี้"
 
 #~ msgid "No Tile"
 #~ msgstr "ไม่เรียงต่อเนื่อง"
@@ -1749,65 +1915,28 @@ msgstr ""
 #~ msgid "Recent Documents"
 #~ msgstr "แสดงเมนูย่อย \"เอกสารที่เคยเรียกใช้\""
 
-#~ msgid ""
-#~ "This sets the position of the panel extension i.e. the screen border it "
-#~ "is attached to. You can also change this position by left-clicking on "
-#~ "some free space on the panel extension and dragging it to a screen border."
-#~ msgstr ""
-#~ "ตั้งค่าตำแหน่งของพาเนลเพิ่มเติม เช่น ขอบของหน้าจอที่จะให้ไปปรากฎ "
-#~ "คุณสามารถเปลี่ยนตำแหน่งมันได้ โดยการคลิกเมาส์ซ้ายบนพื้นที่ว่างๆ ของพาเนลเพิ่มเติม "
-#~ "และลากมันไปยังขอบหน้าจอด้านที่คุณต้องการ"
+#~ msgid "This sets the position of the panel extension i.e. the screen border it is attached to. You can also change this position by left-clicking on some free space on the panel extension and dragging it to a screen border."
+#~ msgstr "ตั้งค่าตำแหน่งของพาเนลเพิ่มเติม เช่น ขอบของหน้าจอที่จะให้ไปปรากฎ คุณสามารถเปลี่ยนตำแหน่งมันได้ โดยการคลิกเมาส์ซ้ายบนพื้นที่ว่างๆ ของพาเนลเพิ่มเติม และลากมันไปยังขอบหน้าจอด้านที่คุณต้องการ"
 
-#~ msgid ""
-#~ "This setting determines how the panel is aligned, i.e. how it's "
-#~ "positioned on the panel edge. Note that in order for this setting to have "
-#~ "any effect, the panel size has to be set to a value of less than 100%"
-#~ msgstr ""
-#~ "การตั้งค่านี้ จะพิจารณาถึงทิศทางการจัดวางของพาเนล เช่น "
-#~ "จะให้อยู่ในตำแหน่งไหนจากขอบของพาเนล ควรจำไว้ว่า การปรับแต่งนี้อาจจะมีผลกระทบบางส่วน, "
-#~ "และขนาดของพาเนลจะถูกตั้งให้มีค่าน้อยกว่า 100%"
+#~ msgid "This setting determines how the panel is aligned, i.e. how it's positioned on the panel edge. Note that in order for this setting to have any effect, the panel size has to be set to a value of less than 100%"
+#~ msgstr "การตั้งค่านี้ จะพิจารณาถึงทิศทางการจัดวางของพาเนล เช่น จะให้อยู่ในตำแหน่งไหนจากขอบของพาเนล ควรจำไว้ว่า การปรับแต่งนี้อาจจะมีผลกระทบบางส่วน, และขนาดของพาเนลจะถูกตั้งให้มีค่าน้อยกว่า 100%"
 
-#~ msgid ""
-#~ "If this option is selected, the only way to hide the panel extension will "
-#~ "be via the hide buttons at its side."
-#~ msgstr ""
-#~ "หากเลือกใช้ตัวเลือกนี้ จะทำให้สามารถซ่อนพาเนลเพิ่มเติมได้ ทางปุ่มซ่อนทางด้านข้างของมันเท่านั้น"
+#~ msgid "If this option is selected, the only way to hide the panel extension will be via the hide buttons at its side."
+#~ msgstr "หากเลือกใช้ตัวเลือกนี้ จะทำให้สามารถซ่อนพาเนลเพิ่มเติมได้ ทางปุ่มซ่อนทางด้านข้างของมันเท่านั้น"
 
-#~ msgid ""
-#~ "If this option is selected, the panel extension will automatically hide "
-#~ "after some time and reappear when you move the mouse to the screen edge "
-#~ "where the panel extension is hidden. This is particularly useful for "
-#~ "small screen resolutions, for example, on laptops."
-#~ msgstr ""
-#~ "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลเพิ่มเติม ทำการซ่อนอัตโนมัติหลังจากช่วงเวลาหนึ่ง และจะปรากฎอีก "
-#~ "เมื่อคุณเลื่อนเมาส์ไปยังขอบหน้าจอ ด้านที่พาเนลเพิ่มเติมแนบอยู่ คุณสมบัตินี้ "
-#~ "เหมาะสำหรับจอภาพที่มีความละเอียดไม่มากนัก เช่น เครื่องแลปทอป เป็นต้น"
+#~ msgid "If this option is selected, the panel extension will automatically hide after some time and reappear when you move the mouse to the screen edge where the panel extension is hidden. This is particularly useful for small screen resolutions, for example, on laptops."
+#~ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลเพิ่มเติม ทำการซ่อนอัตโนมัติหลังจากช่วงเวลาหนึ่ง และจะปรากฎอีก เมื่อคุณเลื่อนเมาส์ไปยังขอบหน้าจอ ด้านที่พาเนลเพิ่มเติมแนบอยู่ คุณสมบัตินี้ เหมาะสำหรับจอภาพที่มีความละเอียดไม่มากนัก เช่น เครื่องแลปทอป เป็นต้น"
 
-#~ msgid ""
-#~ "If this option is selected, the panel extension will allow itself to be "
-#~ "covered by other windows. Raise the panel extension to the top by moving "
-#~ "the mouse to the screen edge specified by the unhide location below."
-#~ msgstr ""
-#~ "หากเลือกใช้ตัวเลือกนี้ พาเนลเพิ่มเติมจะอนุญาตให้ตัวมันเองถูกหน้าต่างอื่นบังได้ "
-#~ "ส่วนการเรียกให้พาเนลเพิ่มเติมมาอยู่ด้านบน ทำได้โดยเคลื่อนเมาส์ไปยังขอบจอ "
-#~ "ด้านที่กำหนดให้ยกเลิกการซ่อนทางด้านล่างนี้"
+#~ msgid "If this option is selected, the panel extension will allow itself to be covered by other windows. Raise the panel extension to the top by moving the mouse to the screen edge specified by the unhide location below."
+#~ msgstr "หากเลือกใช้ตัวเลือกนี้ พาเนลเพิ่มเติมจะอนุญาตให้ตัวมันเองถูกหน้าต่างอื่นบังได้ ส่วนการเรียกให้พาเนลเพิ่มเติมมาอยู่ด้านบน ทำได้โดยเคลื่อนเมาส์ไปยังขอบจอ ด้านที่กำหนดให้ยกเลิกการซ่อนทางด้านล่างนี้"
 
-#~ msgid ""
-#~ "If this option is enabled, the panel extension will automatically show "
-#~ "itself for a brief period of time when the desktop is switched so you can "
-#~ "see which desktop you are on."
-#~ msgstr ""
-#~ "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลเพิ่มเติม จะทำการแสดงอัตโนมัติหลังจากช่วงเวลาหนึ่ง "
-#~ "เมื่อมีการสลับพื้นที่ทำงาน เพื่อให้คุณสามารถเห็นว่าคุณกำลังอยู่บนพื้นที่ทำงานใด"
+#~ msgid "If this option is enabled, the panel extension will automatically show itself for a brief period of time when the desktop is switched so you can see which desktop you are on."
+#~ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลเพิ่มเติม จะทำการแสดงอัตโนมัติหลังจากช่วงเวลาหนึ่ง เมื่อมีการสลับพื้นที่ทำงาน เพื่อให้คุณสามารถเห็นว่าคุณกำลังอยู่บนพื้นที่ทำงานใด"
 
-#~ msgid ""
-#~ "Here you can change the delay after which the panel extension will "
-#~ "disappear if not used."
+#~ msgid "Here you can change the delay after which the panel extension will disappear if not used."
 #~ msgstr "คุณสามารถเปลี่ยนค่าเวลาที่ไม่มีการใช้งาน เพื่อให้พาเนลเพิ่มเติมทำการซ่อนตัวเองได้ที่นี่"
 
-#~ msgid ""
-#~ "Here you can set the location on the screen's edge that will bring the "
-#~ "panel to front."
+#~ msgid "Here you can set the location on the screen's edge that will bring the panel to front."
 #~ msgstr "คุณสามารถตั้งค่าตำแหน่งบนขอบหน้าจอที่จะให้พาเนลมาอยู่ด้านหน้า ได้ที่นี่"
 
 #~ msgid "T&op"
@@ -1872,8 +2001,7 @@ msgstr ""
 #~ msgid "Show \"&Bookmarks\" submenu"
 #~ msgstr "แสดงเมนูย่อย \"ที่คั่นหนังสือ\""
 
-#~ msgid ""
-#~ "Choose whether to show the vertical image down the side of the K menu"
+#~ msgid "Choose whether to show the vertical image down the side of the K menu"
 #~ msgstr "เลือกว่า จะให้แสดงแถบภาพในแนวตั้งทางด้านข้างของเมนู K หรือไม่"
 
 #~ msgid "Show &hidden files in browser menus"
@@ -1897,38 +2025,17 @@ msgstr ""
 #~ msgid "&Percentage of desktop width/height to be used:"
 #~ msgstr "เปอร์เซ็นต์ความกว้าง/ความสูงของพื้นที่ทำงานที่จะใช้:"
 
-#~ msgid ""
-#~ "This sets the position of the panel i.e. the screen border it is attached "
-#~ "to. You can also change this position by left-clicking on some free space "
-#~ "on the panel and dragging it to a screen border."
-#~ msgstr ""
-#~ "ใช้ตั้งค่าตำแหน่งของพาเนล ซึ่งเป็นส่วนขอบด้านต่างๆ บนหน้าจอ คุณสามารถเปลี่ยนตำแหน่งนี้ได้ "
-#~ "ด้วยการคลิกที่พื้นที่ว่างๆ ของพาเนล แล้วลากไปไว้ในส่วนขอบของหน้าจอด้านต่างๆ"
+#~ msgid "This sets the position of the panel i.e. the screen border it is attached to. You can also change this position by left-clicking on some free space on the panel and dragging it to a screen border."
+#~ msgstr "ใช้ตั้งค่าตำแหน่งของพาเนล ซึ่งเป็นส่วนขอบด้านต่างๆ บนหน้าจอ คุณสามารถเปลี่ยนตำแหน่งนี้ได้ ด้วยการคลิกที่พื้นที่ว่างๆ ของพาเนล แล้วลากไปไว้ในส่วนขอบของหน้าจอด้านต่างๆ"
 
-#~ msgid ""
-#~ "Determines the speed of the animation shown when you click the panel's "
-#~ "hide buttons. To disable the animation, move the slider all the way to "
-#~ "the left."
-#~ msgstr ""
-#~ "กำหนดความเร็วการเคลื่อนไหวในการซ่อน ซึ่งจะมีการเคลื่อนไหวเมื่อคุณคลิกที่ปุ่มซ่อนของพาเนล"
+#~ msgid "Determines the speed of the animation shown when you click the panel's hide buttons. To disable the animation, move the slider all the way to the left."
+#~ msgstr "กำหนดความเร็วการเคลื่อนไหวในการซ่อน ซึ่งจะมีการเคลื่อนไหวเมื่อคุณคลิกที่ปุ่มซ่อนของพาเนล"
 
-#~ msgid ""
-#~ "Determines the speed of the animation shown when the panel automatically "
-#~ "hides itself. To disable the animation, move the slider all the way to "
-#~ "the left."
-#~ msgstr ""
-#~ "กำหนดความเร็วของการเคลื่อนไหวในการแสดง เมื่อพาเนลมีการซ่อนตัวมันเองอัตโนมัติ "
-#~ "หากต้องการยกเลิกการเคลื่อนไหว ให้เลื่อนแถบเลื่อนไปทางด้านซ้ายสุด"
+#~ msgid "Determines the speed of the animation shown when the panel automatically hides itself. To disable the animation, move the slider all the way to the left."
+#~ msgstr "กำหนดความเร็วของการเคลื่อนไหวในการแสดง เมื่อพาเนลมีการซ่อนตัวมันเองอัตโนมัติ หากต้องการยกเลิกการเคลื่อนไหว ให้เลื่อนแถบเลื่อนไปทางด้านซ้ายสุด"
 
-#~ msgid ""
-#~ "If this option is enabled, the panel will display panel buttons using "
-#~ "tile images instead of just drawing flat buttons. You can still enable or "
-#~ "disable usage of tiles for the different kinds of panel buttons, using "
-#~ "the options below."
-#~ msgstr ""
-#~ "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลแสดงปุ่มโดยใช้ภาพพื้นหลังบนปุ่มของพาเนล "
-#~ "คุณสามารถเปิดใช้งานหรือปิดการใช้งานภาพพื้นหลัง ให้แตกต่างกันบนปุ่มต่างๆ ของพาเนลได้ "
-#~ "โดยใช้ตัวเลือกด้านล่างนี้"
+#~ msgid "If this option is enabled, the panel will display panel buttons using tile images instead of just drawing flat buttons. You can still enable or disable usage of tiles for the different kinds of panel buttons, using the options below."
+#~ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลแสดงปุ่มโดยใช้ภาพพื้นหลังบนปุ่มของพาเนล คุณสามารถเปิดใช้งานหรือปิดการใช้งานภาพพื้นหลัง ให้แตกต่างกันบนปุ่มต่างๆ ของพาเนลได้ โดยใช้ตัวเลือกด้านล่างนี้"
 
 #~ msgid "Enable or disable the usage of a tile image for the K menu."
 #~ msgstr "เปิดใช้งานหรือปิดการใช้ภาพพื้นหลังสำหรับปุ่มเมนู K"
@@ -1936,71 +2043,44 @@ msgstr ""
 #~ msgid "This is a preview of the tile that will be used for the K menu."
 #~ msgstr "แสดงตัวอย่างภาพพื้นหลังที่จะถูกนำไปใช้กับปุ่มเมนู K"
 
-#~ msgid ""
-#~ "Enable or disable the usage of tile images for Quick Browser buttons."
+#~ msgid "Enable or disable the usage of tile images for Quick Browser buttons."
 #~ msgstr "เปิดใช้งานหรือปิดการใช้ภาพพื้นหลังสำหรับปุ่มเรียกดูด่วน"
 
-#~ msgid ""
-#~ "This is a preview of the tile that will be used for Quick Browser buttons."
+#~ msgid "This is a preview of the tile that will be used for Quick Browser buttons."
 #~ msgstr "แสดงตัวอย่างภาพพื้นหลังที่จะถูกนำไปใช้กับปุ่มเรียกดูด่วน"
 
-#~ msgid ""
-#~ "Enable or disable the usage of a tile image for buttons that launch "
-#~ "applications."
+#~ msgid "Enable or disable the usage of a tile image for buttons that launch applications."
 #~ msgstr "เปิดใช้งานหรือปิดการใช้ภาพพื้นหลังสำหรับปุ่มเรียกแอพพลิเคชัน"
 
-#~ msgid ""
-#~ "This is a preview of the tile that will be used for buttons that launch "
-#~ "applications."
+#~ msgid "This is a preview of the tile that will be used for buttons that launch applications."
 #~ msgstr "แสดงตัวอย่างภาพพื้นหลังที่จะถูกนำไปใช้กับปุ่มเรียกแอพพลิเคชัน"
 
-#~ msgid ""
-#~ "Enable or disable the usage of tile images for legacy application buttons."
+#~ msgid "Enable or disable the usage of tile images for legacy application buttons."
 #~ msgstr "เปิดใช้งานหรือปิดการใช้ภาพพื้นหลังสำหรับปุ่มเรียกแอพพลิเคชันอื่นๆ"
 
-#~ msgid ""
-#~ "This is a preview of the tile that will be used for legacy application "
-#~ "buttons."
+#~ msgid "This is a preview of the tile that will be used for legacy application buttons."
 #~ msgstr "แสดงตัวอย่างภาพพื้นหลังที่จะถูกนำไปใช้กับปุ่มแอพพลิเคชันอื่นๆ"
 
 #~ msgid "Enable or disable the usage of tile images for window list buttons."
 #~ msgstr "เปิดใช้งานหรือปิดการใช้ภาพพื้นหลังสำหรับปุ่มแสดงรายการหน้าต่าง"
 
-#~ msgid ""
-#~ "Enable or disable the usage of tile images for desktop access buttons."
+#~ msgid "Enable or disable the usage of tile images for desktop access buttons."
 #~ msgstr "เปิดใช้งานหรือปิดการใช้ภาพพื้นหลังสำหรับปุ่มเข้าถึงพื้นที่ทำงาน"
 
-#~ msgid ""
-#~ "This is a preview of the tile that will be used for desktop access "
-#~ "buttons."
+#~ msgid "This is a preview of the tile that will be used for desktop access buttons."
 #~ msgstr "แสดงตัวอย่างของภาพพื้นหลังที่จะถูกนำไปใช้กับปุ่มเข้าถึงพื้นที่ทำงาน"
 
 #~ msgid "Toggle menu entry details."
 #~ msgstr "เปิด/ปิดการแสดงส่วนรายละเอียดของเมนู"
 
-#~ msgid ""
-#~ "Enabling this option will make the panel show a bookmarks menu in your "
-#~ "KDE menu"
+#~ msgid "Enabling this option will make the panel show a bookmarks menu in your KDE menu"
 #~ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลแสดงเมนูที่คั่นหนังสือในเมนู KDE"
 
-#~ msgid ""
-#~ "Enabling this option will make the panel show a recent documents menu in "
-#~ "your KDE menu, containing shortcuts to your most recently edited "
-#~ "documents. This assumes you've been using KDE applications to edit those "
-#~ "documents, as other applications will not be able to take advantage of "
-#~ "this feature."
-#~ msgstr ""
-#~ "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลแสดงเมนูรายการเอกสารที่เคยเรียกใช้ในเมนู KDE ของคุณ "
-#~ "รวมทั้งช็อตคัทไปยังเอกสารที่ถูกเรียกแก้ไขบ่อยๆ ด้วย "
+#~ msgid "Enabling this option will make the panel show a recent documents menu in your KDE menu, containing shortcuts to your most recently edited documents. This assumes you've been using KDE applications to edit those documents, as other applications will not be able to take advantage of this feature."
+#~ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้พาเนลแสดงเมนูรายการเอกสารที่เคยเรียกใช้ในเมนู KDE ของคุณ รวมทั้งช็อตคัทไปยังเอกสารที่ถูกเรียกแก้ไขบ่อยๆ ด้วย "
 
-#~ msgid ""
-#~ "Enabling this option will show the 'Quick Browser' in your KDE menu, a "
-#~ "fast way of accessing your files via submenus. You can also add a Quick "
-#~ "Browser as a panel button, using the panel context menu."
-#~ msgstr ""
-#~ "เปิดใช้ตัวเลือกนี้ เพื่อให้แสดงเมนู 'เรียกดูด่วน' ในเมนู KDE ของคุณ "
-#~ "ซึ่งจะทำให้คุณสามารถเข้าถึงแฟ้มที่คุณต้องการได้อย่างรวดเร็ว ผ่านเมนูย่อย "
-#~ "คุณสามารถเพิ่มการเรียกดูด่วนนี้ ให้เป็นปุ่มบนพาเนลก็ได้ โดยใช้คอนเท็กซ์เมนูของพาเนล"
+#~ msgid "Enabling this option will show the 'Quick Browser' in your KDE menu, a fast way of accessing your files via submenus. You can also add a Quick Browser as a panel button, using the panel context menu."
+#~ msgstr "เปิดใช้ตัวเลือกนี้ เพื่อให้แสดงเมนู 'เรียกดูด่วน' ในเมนู KDE ของคุณ ซึ่งจะทำให้คุณสามารถเข้าถึงแฟ้มที่คุณต้องการได้อย่างรวดเร็ว ผ่านเมนูย่อย คุณสามารถเพิ่มการเรียกดูด่วนนี้ ให้เป็นปุ่มบนพาเนลก็ได้ โดยใช้คอนเท็กซ์เมนูของพาเนล"
 
 #~ msgid "Add selected item"
 #~ msgstr "เพิ่มรายการที่เลือกไว้"
@@ -2008,12 +2088,8 @@ msgstr ""
 #~ msgid "Remove selected item"
 #~ msgstr "ลบรายการที่เลือกไว้"
 
-#~ msgid ""
-#~ "The list of selected dynamic menus that will be added to the KDE menu. "
-#~ "Use the buttons to add or remove items. "
-#~ msgstr ""
-#~ "รายการที่เลือกไว้ของเมนูแบบไดนามิกที่มี ที่สามารถเพิ่มเข้าไปยังเมนูของ KDE ได้ โดยใช้ปุ่ม เพิ่ม "
-#~ "หรือ ลบ รายการเมนู"
+#~ msgid "The list of selected dynamic menus that will be added to the KDE menu. Use the buttons to add or remove items. "
+#~ msgstr "รายการที่เลือกไว้ของเมนูแบบไดนามิกที่มี ที่สามารถเพิ่มเข้าไปยังเมนูของ KDE ได้ โดยใช้ปุ่ม เพิ่ม หรือ ลบ รายการเมนู"
 
 #~ msgid "Enable automatic h&ide"
 #~ msgstr "เปิดใช้การซ่อนอัตโนมัติ"
@@ -2030,25 +2106,11 @@ msgstr ""
 #~ msgid "Ena&ble automatic hide animation"
 #~ msgstr "เปิดใช้การเคลื่อนไหวเมื่อซ่อนอัตโนมัติ"
 
-#~ msgid ""
-#~ "If hide buttons are enabled, check this option to make the panel softly "
-#~ "slide away when you click on the hide buttons. Otherwise it will just "
-#~ "disappear."
-#~ msgstr ""
-#~ "หากเปิดใช้งานปุ่มซ่อน เลือกตัวเลือกนี้จะทำให้พาเนลมีการเลื่อนอย่างช้าๆ เมื่อคุณคลิกที่ปุ่มซ่อน "
-#~ "หากไม่เลือก พาเนลก็จะแค่ไม่ปรากฎให้เห็นเท่านั้น"
+#~ msgid "If hide buttons are enabled, check this option to make the panel softly slide away when you click on the hide buttons. Otherwise it will just disappear."
+#~ msgstr "หากเปิดใช้งานปุ่มซ่อน เลือกตัวเลือกนี้จะทำให้พาเนลมีการเลื่อนอย่างช้าๆ เมื่อคุณคลิกที่ปุ่มซ่อน หากไม่เลือก พาเนลก็จะแค่ไม่ปรากฎให้เห็นเท่านั้น"
 
-#~ msgid ""
-#~ "If auto-hide panel is enabled, check this option to make the panel softly "
-#~ "slide down after a certain amount of time. Otherwise it will just "
-#~ "disappear."
-#~ msgstr ""
-#~ "หากเปิดใช้งานปุ่มซ่อน และมีการเลือกตัวเลือกนี้ เมื่ีอคุณคลิกบนปุ่มซ่อน "
-#~ "จะทำให้พาเนลสร้างการเคลื่อนไหวแบบเลื่อนลง ในเวลาที่กำหนด "
-#~ "ไม่เช่นนั้นก็จะเป็นเพียงการหายไปเท่านั้น"
+#~ msgid "If auto-hide panel is enabled, check this option to make the panel softly slide down after a certain amount of time. Otherwise it will just disappear."
+#~ msgstr "หากเปิดใช้งานปุ่มซ่อน และมีการเลือกตัวเลือกนี้ เมื่ีอคุณคลิกบนปุ่มซ่อน จะทำให้พาเนลสร้างการเคลื่อนไหวแบบเลื่อนลง ในเวลาที่กำหนด ไม่เช่นนั้นก็จะเป็นเพียงการหายไปเท่านั้น"
 
-#~ msgid ""
-#~ "Determines the speed of the auto-hide animation, i.e. the animation shown "
-#~ "when the panel disappears after a certain amount of time."
-#~ msgstr ""
-#~ "กำหนดความเร็วการเคลื่อนไหวในการซ่อนอัตโนมัติ ซึ่งจะมีการเคลื่อนไหวเมื่อถึงเวลาที่กำหนด"
+#~ msgid "Determines the speed of the auto-hide animation, i.e. the animation shown when the panel disappears after a certain amount of time."
+#~ msgstr "กำหนดความเร็วการเคลื่อนไหวในการซ่อนอัตโนมัติ ซึ่งจะมีการเคลื่อนไหวเมื่อถึงเวลาที่กำหนด"

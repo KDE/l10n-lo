@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-16 01:17+0200\n"
+"POT-Creation-Date: 2004-12-11 01:18+0100\n"
 "PO-Revision-Date: 2003-01-10 15:30+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,11 +14,112 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: mouse.cpp:86
+#: logitechmouse.cpp:92
+#, c-format
+msgid "Mouse type: %1"
+msgstr ""
+
+#: logitechmouse.cpp:225
+msgid ""
+"RF channel 1 has been set. Please press Connect button on mouse to "
+"re-establish link"
+msgstr ""
+
+#: logitechmouse.cpp:225 logitechmouse.cpp:229
+msgid "Press Connect button"
+msgstr ""
+
+#: logitechmouse.cpp:229
+msgid ""
+"RF channel 2 has been set. Please press Connect button on mouse to "
+"re-establish link"
+msgstr ""
+
+#: logitechmouse.cpp:356
+msgid "none"
+msgstr ""
+
+#: logitechmouse.cpp:359 logitechmouse.cpp:389
+msgid "Cordless Mouse"
+msgstr ""
+
+#: logitechmouse.cpp:362 logitechmouse.cpp:368 logitechmouse.cpp:371
+msgid "Cordless Wheel Mouse"
+msgstr ""
+
+#: logitechmouse.cpp:365
+msgid "Cordless MouseMan Wheel"
+msgstr ""
+
+#: logitechmouse.cpp:374
+msgid "Cordless TrackMan Wheel"
+msgstr ""
+
+#: logitechmouse.cpp:377
+msgid "TrackMan Live"
+msgstr ""
+
+#: logitechmouse.cpp:380
+msgid "Cordless TrackMan FX"
+msgstr ""
+
+#: logitechmouse.cpp:383
+msgid "Cordless MouseMan Optical"
+msgstr ""
+
+#: logitechmouse.cpp:386
+msgid "Cordless Optical Mouse"
+msgstr ""
+
+#: logitechmouse.cpp:392
+msgid "Cordless MouseMan Optical (2ch)"
+msgstr ""
+
+#: logitechmouse.cpp:395
+msgid "Cordless Optical Mouse (2ch)"
+msgstr ""
+
+#: logitechmouse.cpp:398
+msgid "Cordless Mouse (2ch)"
+msgstr ""
+
+#: logitechmouse.cpp:401
+msgid "Cordless Optical TrackMan"
+msgstr ""
+
+#: logitechmouse.cpp:404
+msgid "MX700 Cordless Optical Mouse"
+msgstr ""
+
+#: logitechmouse.cpp:407
+msgid "MX700 Cordless Optical Mouse (2ch)"
+msgstr ""
+
+#: logitechmouse.cpp:410
+msgid "Unknown mouse"
+msgstr ""
+
+#: mouse.cpp:81
+msgid ""
+"<h1>Mouse</h1> This module allows you to choose various options for the way "
+"in which your pointing device works. Your pointing device may be a mouse, "
+"trackball, or some other hardware that performs a similar function."
+msgstr ""
+"<h1>ເມົາສ໌</h1> ໂມດູລນີ້ "
+"ໃຫ້ທ່ານໄດ້ເລືອກປັບແຕ່ງອຸປ"
+"ະກອນຊີ້ຂອງທ່ານເຊິ່ງອາດເປັ"
+"ນເມົາສ໌ໃຫ້ທ່ານເລືອກປັບແຕ່"
+"ງ "
+"ອຸປະກອນຊີ້ຂອງທ່ານຊຶ່ງອາດເ"
+"ປັນເມົາສ໌,ແທັຣກບອນ "
+"ຫລືຮາດແວອື່ນໆທີ່່ມີການທຳງ"
+"ານຄ້າຍໆກັນ"
+
+#: mouse.cpp:100
 msgid "&General"
 msgstr "ທົ່ວໄປ"
 
-#: mouse.cpp:91
+#: mouse.cpp:105
 msgid ""
 "If you are left-handed, you may prefer to swap the functions of the left and "
 "right buttons on your pointing device by choosing the 'left-handed' option. "
@@ -35,7 +136,7 @@ msgstr ""
 "ຈະມີຜົນກັບປຸ່ມດ້ານຊ້າຍແລະ"
 "ຂວາເທົ່ານັ້ນ"
 
-#: mouse.cpp:101
+#: mouse.cpp:115
 msgid ""
 "The default behavior in KDE is to select and activate icons with a single "
 "click of the left button on your pointing device. This behavior is "
@@ -55,13 +156,13 @@ msgstr ""
 "ເປັນການສັ່ງເຮັດວງກ "
 "ໃຫ້ເລືອກຕົວເລືອກນີ້"
 
-#: mouse.cpp:109
+#: mouse.cpp:123
 msgid "Activates and opens a file or folder with a single click."
 msgstr ""
 "ເຮັດໃຫ້ຄລິກບາດດງວເປັນການເ"
 "ປີດແຟ້ມຫລືໂຟນເດີ"
 
-#: mouse.cpp:115
+#: mouse.cpp:129
 msgid ""
 "If you check this option, pausing the mouse pointer over an icon on the "
 "screen will automatically select that icon. This may be useful when single "
@@ -79,7 +180,7 @@ msgstr ""
 "ອກໄອຄອນເທົ່ານັ້ນໂດຍບໍ່ມີກ"
 "ານສັ່ງເຮັດວງກ"
 
-#: mouse.cpp:127
+#: mouse.cpp:141
 msgid ""
 "If you have checked the option to automatically select icons, this slider "
 "allows you to select how long the mouse pointer must be paused over the icon "
@@ -92,25 +193,25 @@ msgstr ""
 "ສ໌ຈະຕ້ອງໃຊ້ຢູ່ເຫນືອໄອຄອນກ"
 "່ອນທີ່ຈະ ທຳການເລືອກມັນ"
 
-#: mouse.cpp:132
+#: mouse.cpp:146
 msgid "Show feedback when clicking an icon"
 msgstr ""
 "ສະແດງການຕອບສະຫນອງເມື່ອຄລິ"
 "ກທີ່ໄອຄອນ"
 
-#: mouse.cpp:164
+#: mouse.cpp:178
 msgid "&Cursor Theme"
 msgstr ""
 
-#: mouse.cpp:168
+#: mouse.cpp:182
 msgid "Advanced"
 msgstr "ເພີ່ມເຕີມ"
 
-#: mouse.cpp:174
+#: mouse.cpp:188
 msgid "Pointer acceleration:"
 msgstr "ການເລັ່ງຄວາມໄວຕົວຊີ້:"
 
-#: mouse.cpp:179
+#: mouse.cpp:193
 #, fuzzy
 msgid ""
 "This option allows you to change the relationship between the distance that "
@@ -152,15 +253,15 @@ msgstr ""
 "ຂອງການປ່ງນຄ່າເຊິ່ງຢູ່ທາງດ"
 "້ານຊ້າຍຂອງແຖບເລື່ອນ"
 
-#: mouse.cpp:192
+#: mouse.cpp:206
 msgid "Pointer threshold:"
 msgstr "ໄລຍະຕົວຊີ້:"
 
-#: mouse.cpp:194 mouse.cpp:246
+#: mouse.cpp:208 mouse.cpp:260
 msgid " pixels"
 msgstr "ພິກເຊວລ໌"
 
-#: mouse.cpp:199
+#: mouse.cpp:213
 #, fuzzy
 msgid ""
 "The threshold is the smallest distance that the mouse pointer must move on "
@@ -201,15 +302,15 @@ msgstr ""
 "ູ່ທາງດ້ານຊ້າຍຂອງເເຖບເລື່ອ"
 "ນ"
 
-#: mouse.cpp:213
+#: mouse.cpp:227
 msgid "Double click interval:"
 msgstr "ຊ່ວງເວລາດັບເບິ້ລຄລິກ:"
 
-#: mouse.cpp:215 mouse.cpp:233 mouse.cpp:289 mouse.cpp:297
+#: mouse.cpp:229 mouse.cpp:247 mouse.cpp:303 mouse.cpp:311
 msgid " msec"
 msgstr "ມິລິວິນາທີ"
 
-#: mouse.cpp:220
+#: mouse.cpp:234
 msgid ""
 "The double click interval is the maximal time (in milliseconds) between two "
 "mouse clicks which turns them into a double click. If the second click "
@@ -229,11 +330,11 @@ msgstr ""
 "ຈະກາຍເປັນການຄລິກສອງຄັ້ງແຍ"
 "ກກັນແທນ"
 
-#: mouse.cpp:231
+#: mouse.cpp:245
 msgid "Drag start time:"
 msgstr "ເວລາເລີ່ມການລາກ:"
 
-#: mouse.cpp:238
+#: mouse.cpp:252
 msgid ""
 "If you click with the mouse (e.g. in a multi-line editor) and begin to move "
 "the mouse within the drag start time, a drag operation will be initiated."
@@ -245,11 +346,11 @@ msgstr ""
 "ີ່ຕັ້ງໄວ້ນີ້ຈະເປັນການເອິ້"
 "ນກະທຳການລາກແລະວາງ"
 
-#: mouse.cpp:244
+#: mouse.cpp:258
 msgid "Drag start distance:"
 msgstr "ໄລຍະທີ່ເລີ່ມການລາກ:"
 
-#: mouse.cpp:251
+#: mouse.cpp:265
 msgid ""
 "If you click with the mouse and begin to move the mouse at least the drag "
 "start distance, a drag operation will be initiated."
@@ -261,15 +362,15 @@ msgstr ""
 "ຈະເປັນການເອິ້ນການກະທຳການລ"
 "າກແລະວາງ"
 
-#: mouse.cpp:257
+#: mouse.cpp:271
 msgid "Mouse wheel scrolls by:"
 msgstr "ການເລື່ອນລໍ້ຂອງເມົາສ໌:"
 
-#: mouse.cpp:259
+#: mouse.cpp:273
 msgid " lines"
 msgstr "ແຖວ"
 
-#: mouse.cpp:264
+#: mouse.cpp:278
 msgid ""
 "If you use the wheel of a mouse, this value determines the number of lines "
 "to scroll for each wheel movement. Note that if this number exceeds the "
@@ -288,87 +389,78 @@ msgstr ""
 "໌ນີ້ຖຶກໃຊ້ຮ່ວມກັບການໃຊ້ປ່"
 "ຸມ page up/down"
 
-#: mouse.cpp:270 mouse.cpp:276
+#: mouse.cpp:284 mouse.cpp:290
 msgid "Mouse Navigation"
 msgstr "ນຳຮ່ອງເມົາສ໌"
 
-#: mouse.cpp:282
+#: mouse.cpp:296
 #, fuzzy
 msgid "&Move pointer with keyboard (using the num pad)"
 msgstr ""
 "ຍ້າຍເມົາສ໌ໂດຍໃຊ້ແປ້ນພິມພ໌("
 "ໃຊ້ປຸ່ມຕົວເລກ)"
 
-#: mouse.cpp:288
+#: mouse.cpp:302
 msgid "&Acceleration delay:"
 msgstr "ຫນ່ວງການເລັ່ງ:"
 
-#: mouse.cpp:296
+#: mouse.cpp:310
 #, fuzzy
 msgid "R&epeat interval:"
 msgstr "ໄລຍະການເລັ່ງ:"
 
-#: mouse.cpp:304
+#: mouse.cpp:318
 msgid "Acceleration &time:"
 msgstr "ການເລັ່ງຄວາມໄວຕົວຊີ້:"
 
-#: mouse.cpp:311
+#: mouse.cpp:325
 msgid "Ma&ximum speed:"
 msgstr "ຄວາມໄວສູງສຸດ:"
 
-#: mouse.cpp:318
+#: mouse.cpp:332
 msgid "Acceleration &profile:"
 msgstr "ໂປຣໄຟລ໌ການເລັ່ງຄວາມໄວ:"
 
-#: mouse.cpp:521
-msgid ""
-"<h1>Mouse</h1> This module allows you to choose various options for the way "
-"in which your pointing device works. Your pointing device may be a mouse, "
-"trackball, or some other hardware that performs a similar function."
-msgstr ""
-"<h1>ເມົາສ໌</h1> ໂມດູລນີ້ "
-"ໃຫ້ທ່ານໄດ້ເລືອກປັບແຕ່ງອຸປ"
-"ະກອນຊີ້ຂອງທ່ານເຊິ່ງອາດເປັ"
-"ນເມົາສ໌ໃຫ້ທ່ານເລືອກປັບແຕ່"
-"ງ "
-"ອຸປະກອນຊີ້ຂອງທ່ານຊຶ່ງອາດເ"
-"ປັນເມົາສ໌,ແທັຣກບອນ "
-"ຫລືຮາດແວອື່ນໆທີ່່ມີການທຳງ"
-"ານຄ້າຍໆກັນ"
-
-#: rc.cpp:2
+#. i18n: file kmousedlg.ui line 38
+#: rc.cpp:3
 #, no-c-format
 msgid "Button Order"
 msgstr ""
 
-#: rc.cpp:4
+#. i18n: file kmousedlg.ui line 89
+#: rc.cpp:6
 #, fuzzy, no-c-format
 msgid "Righ&t handed"
 msgstr "ໃຊ້ມືຂວາ"
 
-#: rc.cpp:6
+#. i18n: file kmousedlg.ui line 100
+#: rc.cpp:9
 #, no-c-format
 msgid "Le&ft handed"
 msgstr "ໃຊ້ມືຊ້າຍ"
 
-#: rc.cpp:8
+#. i18n: file kmousedlg.ui line 132
+#: rc.cpp:12
 #, no-c-format
 msgid "Re&verse scroll direction"
 msgstr ""
 
-#: rc.cpp:10
+#. i18n: file kmousedlg.ui line 135
+#: rc.cpp:15
 #, no-c-format
 msgid ""
 "Change the direction of scrolling for the mouse wheel or the 4th and 5th "
 "mouse buttons."
 msgstr ""
 
-#: rc.cpp:12
+#. i18n: file kmousedlg.ui line 143
+#: rc.cpp:18
 #, no-c-format
 msgid "Icons"
 msgstr "ໄອຄອນ"
 
-#: rc.cpp:14
+#. i18n: file kmousedlg.ui line 154
+#: rc.cpp:21
 #, no-c-format
 msgid "Dou&ble-click to open files and folders (select icons on first click)"
 msgstr ""
@@ -376,48 +468,112 @@ msgstr ""
 "ເມື່ອດັບເບີ້ນຄລີກ(ຄລີກຄັ້ງ"
 "ທຳອິດເປັນການເລືອກໄອຄອນ)"
 
-#: rc.cpp:16
+#. i18n: file kmousedlg.ui line 179
+#: rc.cpp:24
 #, fuzzy, no-c-format
 msgid "Visual f&eedback on activation"
 msgstr ""
 "ການຕອບສະຫນອງແບບສະເຫມືອນສຳ"
 "ລັບການກະທຳ"
 
-#: rc.cpp:18
+#. i18n: file kmousedlg.ui line 187
+#: rc.cpp:27
 #, fuzzy, no-c-format
 msgid "Cha&nge pointer shape over icons"
 msgstr ""
 "ປ່ງນຮູບຮ່າງເຄີເຊີເມື່ອຢູ່"
 "ເທິງໄອຄອນ"
 
-#: rc.cpp:20
+#. i18n: file kmousedlg.ui line 198
+#: rc.cpp:30
 #, no-c-format
 msgid "A&utomatically select icons"
 msgstr "ເລືອກໄອຄອນອັດຕະໂນມັດ"
 
-#: rc.cpp:22
+#. i18n: file kmousedlg.ui line 231
+#: rc.cpp:33
 #, no-c-format
 msgid "Short"
 msgstr "ສັ້ນໆ"
 
-#: rc.cpp:24
+#. i18n: file kmousedlg.ui line 273
+#: rc.cpp:36
 #, fuzzy, no-c-format
 msgid "Dela&y:"
 msgstr "ການຫນ່ວງ:"
 
-#: rc.cpp:26
+#. i18n: file kmousedlg.ui line 284
+#: rc.cpp:39
 #, no-c-format
 msgid "Long"
 msgstr "ຊ້າ"
 
-#: rc.cpp:28
+#. i18n: file kmousedlg.ui line 316
+#: rc.cpp:42
 #, no-c-format
 msgid "&Single-click to open files and folders"
 msgstr ""
 "ຄລີກຫນຶ່ງຄັ້ງເພື່ອເປີດແຟ້"
 "ມແລະໂຟນເດີ"
 
-#: core/themepage.cpp:60 xcursor/themepage.cpp:84
+#. i18n: file logitechmouse_base.ui line 24
+#: rc.cpp:45
+#, no-c-format
+msgid "Cordless Name"
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 32
+#: rc.cpp:48
+#, no-c-format
+msgid ""
+"You have a Logitech Mouse connected, and libusb was found at compile time, "
+"but it was not possible to access this mouse. This is probably caused by a "
+"permissions problem - you should consult the manual on how to fix this."
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 46
+#: rc.cpp:51
+#, no-c-format
+msgid "Sensor Resolution"
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 60
+#: rc.cpp:54
+#, no-c-format
+msgid "400 counts per inch"
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 71
+#: rc.cpp:57
+#, no-c-format
+msgid "800 counts per inch"
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 87
+#: rc.cpp:60
+#, no-c-format
+msgid "Battery Level"
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 111
+#: rc.cpp:63
+#, no-c-format
+msgid "RF Channel"
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 125
+#: rc.cpp:66
+#, no-c-format
+msgid "Channel 1"
+msgstr ""
+
+#. i18n: file logitechmouse_base.ui line 142
+#: rc.cpp:69
+#, no-c-format
+msgid "Channel 2"
+msgstr ""
+
+#: core/themepage.cpp:60
 msgid "Select the cursor theme you want to use:"
 msgstr ""
 
@@ -475,6 +631,10 @@ msgstr ""
 #, fuzzy
 msgid "Large white cursors"
 msgstr "ເຄີເຊີໃຫຍ່"
+
+#: xcursor/themepage.cpp:84
+msgid "Select the cursor theme you want to use (hover preview to test cursor):"
+msgstr ""
 
 #: xcursor/themepage.cpp:104
 msgid "Install New Theme..."
@@ -535,6 +695,17 @@ msgstr ""
 msgid "The old classic X cursors"
 msgstr ""
 
+#: xcursor/themepage.cpp:533
+msgid "System theme"
+msgstr ""
+
+#: xcursor/themepage.cpp:533
+msgid "Do not change cursor theme"
+msgstr ""
+
+#~ msgid "Form1"
+#~ msgstr "ຟອມ1"
+
 #~ msgid "Button Mapping"
 #~ msgstr "ແມັບປຸ່ມ"
 
@@ -551,18 +722,8 @@ msgstr ""
 #~ "ມາດຕະຖານຂອງວິນໂດວ໌ສ໌: ເຄີຣ໌ເຊີຣ໌ສີຂາວ"
 
 #, fuzzy
-#~ msgid ""
-#~ "KDE must be restarted for the change in cursor size or color to take "
-#~ "effect"
+#~ msgid "KDE must be restarted for the change in cursor size or color to take effect"
 #~ msgstr "ຕ້ອງທຳການເລີ່ມການທຳງານ KDE ໃຫມ່ ເພື່ອໃຫ້ການປ່ງນຂະຫນາດເຄີຣ໌ເຊີຣ໌ມີຜົນ"
 
-#~ msgid "Form1"
-#~ msgstr "ຟອມ1"
-
-#~ msgid ""
-#~ "Activates and opens a file or folder with a single click.When this option "
-#~ "is checked, the shape of the mouse pointer changes whenever it is over an "
-#~ "icon."
-#~ msgstr ""
-#~ "เลือกตัวเลือกนี้ เพื่อมให้มีการสั่งทำงาน และเปิดแฟ้มหรือโฟลเดอร์ ด้วยการคลิกหนึ่งครั้ง "
-#~ "รวมทั้งมีการเปลี่ยนรูปร่างทุกครั้ง เมื่อเลื่อนมาอยู่เหนือไอคอน"
+#~ msgid "Activates and opens a file or folder with a single click.When this option is checked, the shape of the mouse pointer changes whenever it is over an icon."
+#~ msgstr "เลือกตัวเลือกนี้ เพื่อมให้มีการสั่งทำงาน และเปิดแฟ้มหรือโฟลเดอร์ ด้วยการคลิกหนึ่งครั้ง รวมทั้งมีการเปลี่ยนรูปร่างทุกครั้ง เมื่อเลื่อนมาอยู่เหนือไอคอน"

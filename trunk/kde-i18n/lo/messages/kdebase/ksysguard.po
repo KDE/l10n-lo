@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-08-04 01:18+0200\n"
+"POT-Creation-Date: 2004-12-11 01:18+0100\n"
 "PO-Revision-Date: 2003-01-12 12:30+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,12 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: KSysGuardApplet.cc:304 WorkSheet.cc:93
+#: KSysGuardApplet.cc:313 WorkSheet.cc:93
 #, fuzzy, c-format
 msgid "Cannot open the file %1."
 msgstr "ບໍ່ສາມາດເປີດແຟ້ມ%1 ໄດ້"
 
-#: KSysGuardApplet.cc:313 WorkSheet.cc:101
+#: KSysGuardApplet.cc:322 WorkSheet.cc:101
 msgid "The file %1 does not contain valid XML."
 msgstr ""
 "ແຟ້ມ %1 ອາດຈະບໍ່ໄດ້ເປັນແຟ້ມ "
@@ -42,7 +42,7 @@ msgstr ""
 "ມີຂະຫນາດຂອງຊີດງານທີ່ໃຊ້ບໍ"
 "່ໄດ້"
 
-#: KSysGuardApplet.cc:448 WorkSheet.cc:221
+#: KSysGuardApplet.cc:460 WorkSheet.cc:221
 #, fuzzy, c-format
 msgid "Cannot save file %1"
 msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມ%1 ໄດ້"
@@ -60,17 +60,17 @@ msgstr ""
 "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄປຍັງ '%1' "
 "ໄດ້ !"
 
-#: KSysGuardApplet.cc:194 WorkSheet.cc:322
+#: KSysGuardApplet.cc:200 WorkSheet.cc:322
 msgid "Select Display Type"
 msgstr ""
 "ເລືອກປະເພດຂອງຊ່ອງການສະແດງ"
 "ຜົນ"
 
-#: KSysGuardApplet.cc:195 WorkSheet.cc:323
+#: KSysGuardApplet.cc:201 WorkSheet.cc:323
 msgid "&Signal Plotter"
 msgstr "ຕົວພລອຕສັນຍານ"
 
-#: KSysGuardApplet.cc:196 WorkSheet.cc:324
+#: KSysGuardApplet.cc:202 WorkSheet.cc:324
 msgid "&Multimeter"
 msgstr "ຕວດຈັບຫລາຍຕົວ"
 
@@ -82,13 +82,13 @@ msgstr "&ກຣາຟແທ່ງ"
 msgid "S&ensorLogger"
 msgstr "ຕົວຕິດຕາມຕົວກວດຈັບ"
 
-#: KSysGuardApplet.cc:243 WorkSheet.cc:457
+#: KSysGuardApplet.cc:252 WorkSheet.cc:457
 msgid "Do you really want to delete the display?"
 msgstr ""
 "ທ່ານຕ້ອງການລຶບຊ່ອງການສະແດ"
 "ງຜົນນີ້ ແມ່ນຫລືບໍ່?"
 
-#: KSysGuardApplet.cc:243 WorkSheet.cc:458
+#: KSysGuardApplet.cc:252 WorkSheet.cc:458
 #, fuzzy
 msgid "Delete Display"
 msgstr ""
@@ -118,8 +118,9 @@ msgstr ""
 msgid "Update interval:"
 msgstr "ຊ່ວງຈັງຫວະການອັບເດດ:"
 
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 68
 #: KSGAppletSettings.cc:67 WorkSheetSettings.cc:91 ksgrd/TimerSettings.cc:51
-#: rc.cpp:14
+#: rc.cpp:21
 #, no-c-format
 msgid " sec"
 msgstr "ວິນາທີ"
@@ -255,13 +256,15 @@ msgstr "ສີພື້ນຫນ້າ:"
 msgid "Second foreground color:"
 msgstr "ສີພື້ນຫນ້າ:"
 
-#: ksgrd/StyleSettings.cc:61 rc.cpp:84
+#. i18n: file ./SensorDisplayLib/SensorLoggerSettingsWidget.ui line 107
+#: ksgrd/StyleSettings.cc:61 rc.cpp:132
 #, no-c-format
 msgid "Alarm color:"
 msgstr "ສີການເຕືອນ:"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 241
 #: SensorDisplayLib/DancingBarsSettings.cc:143 SensorDisplayLib/LogFile.cc:90
-#: ksgrd/StyleSettings.cc:68 rc.cpp:62 rc.cpp:74 rc.cpp:82
+#: ksgrd/StyleSettings.cc:68 rc.cpp:96 rc.cpp:114 rc.cpp:129
 #, no-c-format
 msgid "Background color:"
 msgstr "ສີພື້ນຫລັງ:"
@@ -275,7 +278,7 @@ msgstr "່ຂະຫນາດຕົວອັກສອນ:"
 msgid "Sensor Colors"
 msgstr "ສີຕົວກວດຈັບ"
 
-#: ksgrd/ColorPicker.cc:50 ksgrd/StyleSettings.cc:91
+#: ksgrd/StyleSettings.cc:91
 msgid "Change Color..."
 msgstr "ປ່ງນສີ..."
 
@@ -292,7 +295,7 @@ msgstr "ໂຫລດຜູ້ໃຊ້"
 msgid "Idle Load"
 msgstr "ໂຫລດວ່າງ"
 
-#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:153
+#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:155
 msgid "System Load"
 msgstr "ໂຫລດລະບົບ"
 
@@ -340,7 +343,7 @@ msgstr "ຫນ່ວຍຄວາມຈຳທີ່ເຫລືອ"
 msgid "Process Count"
 msgstr "ຕົວນັບໂປຣເຊສ"
 
-#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:143
+#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:144
 msgid "Process Controller"
 msgstr "ຕົວຄວບຄຸມໂປຣເຊສ"
 
@@ -450,7 +453,7 @@ msgstr "ຊັອກເກັຕ"
 msgid "Total Number"
 msgstr "ຫມາຍເລກລວມ"
 
-#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:144
+#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:145
 msgid "Table"
 msgstr "ຕາລາງ"
 
@@ -472,109 +475,114 @@ msgid "Battery Charge"
 msgstr "ຊາຣ໌ແບຕເຕີຣີ"
 
 #: ksgrd/SensorManager.cc:96
+#, fuzzy
+msgid "Battery Usage"
+msgstr "ຊາຣ໌ແບຕເຕີຣີ"
+
+#: ksgrd/SensorManager.cc:97
 msgid "Remaining Time"
 msgstr "ເວລາທີ່ເຫລືອ"
 
-#: ksgrd/SensorManager.cc:97
+#: ksgrd/SensorManager.cc:98
 msgid "Interrupts"
 msgstr "ອິນເຕີຣັພ"
 
-#: ksgrd/SensorManager.cc:98
+#: ksgrd/SensorManager.cc:99
 msgid "Load Average (1 min)"
 msgstr "ໂຫລດສະເລ່ຍ (1 ນາທີ)"
 
-#: ksgrd/SensorManager.cc:99
+#: ksgrd/SensorManager.cc:100
 msgid "Load Average (5 min)"
 msgstr "ໂຫລດສະເລ່ຍ (5 ນາທີ)"
 
-#: ksgrd/SensorManager.cc:100
+#: ksgrd/SensorManager.cc:101
 msgid "Load Average (15 min)"
 msgstr "ໂຫລດສະເລ່ຍ (15 ນາທີ)"
 
-#: ksgrd/SensorManager.cc:101
+#: ksgrd/SensorManager.cc:102
 msgid "Clock Frequency"
 msgstr "ຄວາມຖີ່ສັນຍານໂມງ"
 
-#: ksgrd/SensorManager.cc:102
+#: ksgrd/SensorManager.cc:103
 msgid "Hardware Sensors"
 msgstr "ຕົວກວດຈັບຮາຣ໌ດແວຣ໌"
 
-#: ksgrd/SensorManager.cc:103
+#: ksgrd/SensorManager.cc:104
 msgid "Partition Usage"
 msgstr "ການໃຊ້ງານພື້ນທີ່"
 
-#: ksgrd/SensorManager.cc:104
+#: ksgrd/SensorManager.cc:105
 msgid "Used Space"
 msgstr "ພື້ນທີ່ທີ່ໃຊ້ໄປ"
 
-#: ksgrd/SensorManager.cc:105
+#: ksgrd/SensorManager.cc:106
 msgid "Free Space"
 msgstr "ພື້ນທີ່ວ່າງ"
 
-#: ksgrd/SensorManager.cc:106
+#: ksgrd/SensorManager.cc:107
 msgid "Fill Level"
 msgstr "ລະດັບການຕື່ມ"
 
-#: ksgrd/SensorManager.cc:110
+#: ksgrd/SensorManager.cc:111
 #, c-format
 msgid "CPU%1"
 msgstr "ຊີພີຢູ%1"
 
-#: ksgrd/SensorManager.cc:112
+#: ksgrd/SensorManager.cc:113
 #, c-format
 msgid "Disk%1"
 msgstr "ດິສກ໌%1"
 
-#: ksgrd/SensorManager.cc:117
+#: ksgrd/SensorManager.cc:118
 #, c-format
 msgid "Fan%1"
 msgstr "ພັດລົມ%1"
 
-#: ksgrd/SensorManager.cc:119
+#: ksgrd/SensorManager.cc:120
 #, c-format
 msgid "Temperature%1"
 msgstr "ອຸນຫະພູມ%1"
 
-#: ksgrd/SensorManager.cc:122
+#: ksgrd/SensorManager.cc:123
 msgid "Total"
 msgstr "ລວມ"
 
-#: ksgrd/SensorManager.cc:128
+#: ksgrd/SensorManager.cc:129
 #, c-format
 msgid "Int%1"
 msgstr "Int%1"
 
-#: ksgrd/SensorManager.cc:135
+#: ksgrd/SensorManager.cc:136
 msgid ""
 "_: the unit 1 per second\n"
 "1/s"
 msgstr "1/ວິນາທີ"
 
-#: ksgrd/SensorManager.cc:136
+#: ksgrd/SensorManager.cc:137
 msgid "kBytes"
 msgstr "ກິໂລໄບຕ໌"
 
-#: ksgrd/SensorManager.cc:137
+#: ksgrd/SensorManager.cc:138
 msgid ""
 "_: the unit minutes\n"
 "min"
 msgstr "ນາທີ"
 
-#: ksgrd/SensorManager.cc:138
+#: ksgrd/SensorManager.cc:139
 msgid ""
 "_: the frequency unit\n"
 "MHz"
 msgstr "MHz"
 
-#: ksgrd/SensorManager.cc:141
+#: ksgrd/SensorManager.cc:142
 msgid "Integer Value"
 msgstr "ຄ່າຈຳນວນເຕັມ"
 
-#: ksgrd/SensorManager.cc:142
+#: ksgrd/SensorManager.cc:143
 msgid "Floating Point Value"
 msgstr "ຄ່າທົດນິຍົມ"
 
-#: ksgrd/SensorManager.cc:279
+#: ksgrd/SensorManager.cc:280
 #, fuzzy
 msgid "Connection to %1 has been lost."
 msgstr ""
@@ -620,7 +628,7 @@ msgstr ""
 "ກ່ອນທີ່ທ່ານຈະສາມາດລາກຕົວກ"
 "ວດຈັບມາຍັງທີ່ນີ້ໄດ້"
 
-#: Workspace.cc:101 ksysguard.cc:158
+#: Workspace.cc:101 ksysguard.cc:160
 msgid "Process Table"
 msgstr "ຕາລາງໂປຣເຊສ"
 
@@ -877,14 +885,16 @@ msgstr "ແກ້ໄຂການປັບແຕ່ງກຣາຟແທ່ງ"
 msgid "Range"
 msgstr "ຊ່ວງ"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 25
 #: SensorDisplayLib/DancingBarsSettings.cc:50 WorkSheetSettings.cc:48
-#: rc.cpp:32 rc.cpp:66 rc.cpp:76 rc.cpp:90
+#: rc.cpp:48 rc.cpp:102 rc.cpp:120 rc.cpp:144
 #, no-c-format
 msgid "Title"
 msgstr "ຊື່ສ່ວນ"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 36
 #: SensorDisplayLib/DancingBarsSettings.cc:54
-#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:34
+#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:51
 #, no-c-format
 msgid "Enter the title of the display here."
 msgstr ""
@@ -931,12 +941,14 @@ msgstr ""
 "ຊ່ວງຂອງການສະແດງຜົນອັດຕະໂນ"
 "ມັດ"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:40
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 61
+#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:60
 #, no-c-format
 msgid "Alarms"
 msgstr "ເຕືອນ"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:16 rc.cpp:50
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 78
+#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:24 rc.cpp:75
 #, no-c-format
 msgid "Alarm for Minimum Value"
 msgstr "ເຕືອນເມື່ອເຖິງຄ່າຕຳ່ສຸດ"
@@ -947,27 +959,32 @@ msgstr "ເຕືອນເມື່ອເຖິງຄ່າຕຳ່ສຸດ"
 msgid "Enable alarm"
 msgstr "ເປີດໃຊ້ການເຕືອນ"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:20 rc.cpp:54
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 92
+#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:30 rc.cpp:81
 #, no-c-format
 msgid "Enable the minimum value alarm."
 msgstr "ເປີດໃຊ້ການເຕືອນຄ່າຕຳ່ສຸດ"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:22 rc.cpp:56
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 120
+#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:33 rc.cpp:84
 #, no-c-format
 msgid "Lower limit:"
 msgstr "ລະດັບຕຳ່ສຸດ:"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:24 rc.cpp:42
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 144
+#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:36 rc.cpp:63
 #, no-c-format
 msgid "Alarm for Maximum Value"
 msgstr "ເຕືອນເມື່ອເຖິງຄ່າສູງສຸດ"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:28 rc.cpp:46
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 158
+#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:42 rc.cpp:69
 #, no-c-format
 msgid "Enable the maximum value alarm."
 msgstr "ເປີດໃຊ້ການເຕືອນຄ່າສູງສຸດ"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:30 rc.cpp:48
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 186
+#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:45 rc.cpp:72
 #, no-c-format
 msgid "Upper limit:"
 msgstr "ລະດັບສູງສຸດ:"
@@ -1172,7 +1189,8 @@ msgstr ""
 "ຕື່ມຈຳນວນຂອງເສັ້ນໃນແນວນອນ"
 "ທີ່ນີ້"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:88
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 35
+#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:141
 #, no-c-format
 msgid "Text"
 msgstr "ສະແດງຂໍ້ຄວາມ"
@@ -1207,8 +1225,9 @@ msgstr ""
 "ຈະເຫັນໄດ້ເມື່ອຊ່ວງການສະແດ"
 "ງຜົນໃຫຍ່ພໍ"
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:58 rc.cpp:68 rc.cpp:78
-#: rc.cpp:92
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 206
+#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:87 rc.cpp:105
+#: rc.cpp:123 rc.cpp:147
 #, no-c-format
 msgid "Colors"
 msgstr "ສີ"
@@ -1254,15 +1273,15 @@ msgstr "ເລື່ອນຂື້ນ"
 msgid "Move Down"
 msgstr "ເລື່ອນລົງ"
 
-#: SensorDisplayLib/SensorLogger.cc:153 SensorDisplayLib/SensorLoggerDlg.cc:28
+#: SensorDisplayLib/SensorLogger.cc:152 SensorDisplayLib/SensorLoggerDlg.cc:28
 msgid "Sensor Logger"
 msgstr "ຕົວບັນທຶກຕົວກວດສອບ"
 
-#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:382
+#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:381
 msgid "&Properties"
 msgstr "คุณสมบัติ"
 
-#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:383
+#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:382
 msgid "&Remove Display"
 msgstr "ເອົາຊ່ອງສະແດງຜົນອອກ"
 
@@ -1293,44 +1312,45 @@ msgstr ""
 "<i>Properties</i> entry from the popup menu Select <i>Remove</i> to delete "
 "the display from the worksheet.</p>%1</qt>"
 
-#: SensorDisplayLib/SensorLogger.cc:138
+#: SensorDisplayLib/SensorLogger.cc:137
 msgid "Logging"
 msgstr "ກຳລັງຕິດຕາມການທຳງານ"
 
-#: SensorDisplayLib/SensorLogger.cc:139 rc.cpp:12
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 48
+#: SensorDisplayLib/SensorLogger.cc:138 rc.cpp:18
 #, no-c-format
 msgid "Timer Interval"
 msgstr "ຊ່ວງຈັງຫວະເວລາ"
 
-#: SensorDisplayLib/SensorLogger.cc:140
+#: SensorDisplayLib/SensorLogger.cc:139
 #, fuzzy
 msgid "Sensor Name"
 msgstr "ຊື່ຕົວກວດຈັບ"
 
-#: SensorDisplayLib/SensorLogger.cc:141
+#: SensorDisplayLib/SensorLogger.cc:140
 #, fuzzy
 msgid "Host Name"
 msgstr "ຊື່ໂຮສຕ໌"
 
-#: SensorDisplayLib/SensorLogger.cc:142
+#: SensorDisplayLib/SensorLogger.cc:141
 #, fuzzy
 msgid "Log File"
 msgstr "ແຟ້ມການຕິດຕາມ"
 
-#: SensorDisplayLib/SensorLogger.cc:385
+#: SensorDisplayLib/SensorLogger.cc:384
 msgid "&Remove Sensor"
 msgstr "ລຶບຕົວກວດຈັບ"
 
-#: SensorDisplayLib/SensorLogger.cc:386
+#: SensorDisplayLib/SensorLogger.cc:385
 #, fuzzy
 msgid "&Edit Sensor..."
 msgstr "ແກ້ໄຂຕົວກວດຈັບ"
 
-#: SensorDisplayLib/SensorLogger.cc:398
+#: SensorDisplayLib/SensorLogger.cc:397
 msgid "St&op Logging"
 msgstr "ຫຍຸດການຕິດຕາມການທຳງານ"
 
-#: SensorDisplayLib/SensorLogger.cc:400
+#: SensorDisplayLib/SensorLogger.cc:399
 msgid "S&tart Logging"
 msgstr "ເລີ້ມຕິດຕາມການທຳງານ"
 
@@ -1545,22 +1565,26 @@ msgstr ""
 msgid "Invalid argument."
 msgstr "ອາກຣູເມນຕ໌ບໍ່ຖືກຕ້ອງ !"
 
-#: rc.cpp:18 rc.cpp:52
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 89
+#: rc.cpp:27 rc.cpp:78
 #, no-c-format
 msgid "&Enable alarm"
 msgstr "ເປີດໃຊ້ການເຕືອນ"
 
-#: rc.cpp:26 rc.cpp:44
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 155
+#: rc.cpp:39 rc.cpp:66
 #, no-c-format
 msgid "E&nable alarm"
 msgstr "ເປີດໃຊ້ການເຕືອນ"
 
-#: rc.cpp:36
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 44
+#: rc.cpp:54
 #, no-c-format
 msgid "&Show unit"
 msgstr "ສະແດງຫນ່ວຍ"
 
-#: rc.cpp:38
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 47
+#: rc.cpp:57
 #, no-c-format
 msgid "Enable this to append the unit to the title of the display."
 msgstr ""
@@ -1569,47 +1593,68 @@ msgstr ""
 "າຍແຖບກຫົວເລື່ອງການສະແດງຜົ"
 "ນ"
 
-#: rc.cpp:60
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 225
+#: rc.cpp:90
 #, no-c-format
 msgid "Normal digit color:"
 msgstr "ສີຕົວເລກປົກະຕິ:"
 
-#: rc.cpp:64
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 233
+#: rc.cpp:93
 #, no-c-format
 msgid "Alarm digit color:"
 msgstr "ສີຕົວເລກທີ່ເຕືອນ:"
 
-#: rc.cpp:70 rc.cpp:80
+#. i18n: file ./SensorDisplayLib/ListViewSettingsWidget.ui line 82
+#: rc.cpp:108 rc.cpp:126
 #, no-c-format
 msgid "Text color:"
 msgstr "ສີຂໍ້ຄວາມ:"
 
-#: rc.cpp:72
+#. i18n: file ./SensorDisplayLib/ListViewSettingsWidget.ui line 90
+#: rc.cpp:111
 #, no-c-format
 msgid "Grid color:"
 msgstr "ສີເສັ້ນກຣິດ:"
 
-#: rc.cpp:86
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 17
+#: rc.cpp:138
 #, no-c-format
 msgid "Log File Settings"
 msgstr "ຕັ້ງຄ່າແຟ້ມບັນທືກຕິດຕາມ"
 
-#: rc.cpp:96
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 94
+#: rc.cpp:150
+#, fuzzy, no-c-format
+msgid "Foreground Color:"
+msgstr "สีพื้นหน้า"
+
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 102
+#: rc.cpp:153
+#, fuzzy, no-c-format
+msgid "Background Color:"
+msgstr "สีพื้นหลัง"
+
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 187
+#: rc.cpp:161
 #, no-c-format
 msgid "Select Font..."
 msgstr "ລືອກຕົວອັກສອນ..."
 
-#: rc.cpp:98
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 199
+#: rc.cpp:164
 #, no-c-format
 msgid "Filter"
 msgstr "ຕົວກອງ"
 
-#: rc.cpp:100
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 238
+#: rc.cpp:167
 #, no-c-format
 msgid "&Add"
 msgstr "ເພີ້ມ"
 
-#: rc.cpp:104
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 254
+#: rc.cpp:173
 #, no-c-format
 msgid "&Change"
 msgstr "ປ່ງນ"
@@ -1640,11 +1685,11 @@ msgstr ""
 "ຕື່ມແຖບຫົວເລື່ອງຂອງຊີດງານ"
 "ທີ່ນີ້"
 
-#: KSysGuardApplet.cc:197
+#: KSysGuardApplet.cc:203
 msgid "&Dancing Bars"
 msgstr "ແຖບເຕັ້່ນໄດ້"
 
-#: KSysGuardApplet.cc:224 KSysGuardApplet.cc:377
+#: KSysGuardApplet.cc:233 KSysGuardApplet.cc:386
 msgid ""
 "The KSysGuard applet does not support displaying of this type of sensor. "
 "Please choose another sensor."
@@ -1656,7 +1701,7 @@ msgstr ""
 "ກະລຸນາເລືອກຕົວກວດຈັບປະເພດ"
 "ອື່ນ"
 
-#: KSysGuardApplet.cc:320
+#: KSysGuardApplet.cc:329
 msgid ""
 "The file %1 does not contain a valid applet definition, which must have a "
 "document type 'KSysGuardApplet'."
@@ -1669,7 +1714,7 @@ msgstr ""
 "ເພດ\n"
 "'KSysGuardApplet'"
 
-#: KSysGuardApplet.cc:465
+#: KSysGuardApplet.cc:477
 msgid "Drag sensors from the KDE System Guard into this cell."
 msgstr ""
 "ລາກຕົວກວດຈັບຈາກ KDE System Guard "
@@ -1683,14 +1728,14 @@ msgstr "ສະແດງຕົວກວດຈັບ"
 msgid "Sensor Type"
 msgstr "ປະເພດຕົວກວດຈັບ"
 
-#: SensorBrowser.cc:79
+#: SensorBrowser.cc:81
 msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgstr ""
 "ລາກຕົວກວດຈັບໄປຍັງຊ່ອງທີ່ວ"
 "່າງເທິງຊີດງານ "
 "ຫລືແອພເພລັຕຂອງພາເນລ"
 
-#: SensorBrowser.cc:88
+#: SensorBrowser.cc:90
 msgid ""
 "The sensor browser lists the connected hosts and the sensors that they "
 "provide. Click and drag sensors into drop zones of a worksheet or the panel "
@@ -1713,7 +1758,7 @@ msgstr ""
 "ເຮັດໄດ້ໂດຍການລາກຕົວກວດຈັບ"
 "ອື່ນໆ ໄປຍັງພື້ນທີ່ສະແດງຜົນ"
 
-#: SensorBrowser.cc:149
+#: SensorBrowser.cc:151
 #, fuzzy
 msgid "Drag sensors to empty fields in a worksheet."
 msgstr ""
@@ -1725,7 +1770,7 @@ msgstr ""
 msgid "KDE system guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
-#: ksysguard.cc:71 ksysguard.cc:527
+#: ksysguard.cc:71 ksysguard.cc:531
 msgid "KDE System Guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
@@ -1760,58 +1805,66 @@ msgstr "ຍຸດຕິການເຊື່ອມຕໍ່ກັບໂຮສຕ
 msgid "&Worksheet Properties"
 msgstr "ຄຸູນສົມບັດຊີດງານ"
 
-#: ksysguard.cc:124
+#: ksysguard.cc:122
+msgid "Load Standard Sheets"
+msgstr ""
+
+#: ksysguard.cc:126
 msgid "Configure &Style..."
 msgstr "ປັບແຕ່ງຮູບແບບ..."
 
-#: ksysguard.cc:139
+#: ksysguard.cc:141
 msgid "Do you really want to restore the default worksheets?"
 msgstr ""
 "ທ່ານຕ້ອງການເອີ້ນຄືນຊີດງານ"
 "ປຣິຍາຍ ແມ່ນຫລືບໍ່ ?"
 
-#: ksysguard.cc:140
+#: ksysguard.cc:142
 msgid "Reset All Worksheets"
 msgstr ""
 "ປັບຄ່າທຸກຊີດງານເປັນຄ່າປຣິ"
 "ຍາຍ"
 
-#: ksysguard.cc:422
+#: ksysguard.cc:411
 #, fuzzy, c-format
 msgid ""
 "_n: 1 Process\n"
 "%n Processes"
 msgstr "%n ໂປຣເຊສ"
 
-#: ksysguard.cc:432
+#: ksysguard.cc:421
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr ""
 "ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ %1 %2, ເຫລືອ %3 "
 "%4"
 
-#: ksysguard.cc:440
+#: ksysguard.cc:479
+msgid "No swap space available"
+msgstr ""
+
+#: ksysguard.cc:481
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr ""
 "ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: "
 "່ໃຊ້ໄປ %1 %2, ເຫລືອ %3 %4"
 
-#: ksysguard.cc:486
+#: ksysguard.cc:490
 msgid "Show only process list of local host"
 msgstr ""
 "ສະແດງສະເພາະລາຍການໂປຣເຊສຂອ"
 "ງໂຮສຕ໌ນີ້ເທົ່ານັ້ນ"
 
-#: ksysguard.cc:487
+#: ksysguard.cc:491
 msgid "Optional worksheet files to load"
 msgstr ""
 "ແຟ້ມຕົວເລືອກຊີດງານທີ່່ຈະເ"
 "ອີ້ນໃຊ້"
 
-#: ksysguard.cc:529
+#: ksysguard.cc:533
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(c) 1996-2002 ກຸ່ມຜູ້ພັດທະນາ KSysGuard"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1905,12 +1958,6 @@ msgstr ""
 #~ msgid "Ok"
 #~ msgstr "ใช้ได้"
 
-#~ msgid "Foreground Color"
-#~ msgstr "สีพื้นหน้า"
-
-#~ msgid "Background Color"
-#~ msgstr "สีพื้นหลัง"
-
 #~ msgid "Alarm Color"
 #~ msgstr "สีการเตือน"
 
@@ -1926,15 +1973,8 @@ msgstr ""
 #~ msgid "Enter here the number of displays you want to embed into the panel."
 #~ msgstr "เติมจำนวนของการแสดงผลที่ต้องการฝังเข้าไปยังพาเนลที่นี่"
 
-#~ msgid ""
-#~ "This setting controls the width/height ratio for horizontal panels and "
-#~ "the height/width ratio for vertical panels (e.g. To have the displays in "
-#~ "a horizontal panel twice as wide as their height enter 200%. To have them "
-#~ "half as wide enter 50%)."
-#~ msgstr ""
-#~ "การตั้งค่านี้ จะควบคุมอัตราส่วนความกว้าง/ความยาว ของพาเนลแนวนอน และ อัตราส่วน "
-#~ "ความกว้าง/ความสูงของพาเนลแนวตั้ง (เช่น แสดงผลในพาเนลแนวนอน "
-#~ "โดยให้กว้างเป็นสองเท่าของความสูง)"
+#~ msgid "This setting controls the width/height ratio for horizontal panels and the height/width ratio for vertical panels (e.g. To have the displays in a horizontal panel twice as wide as their height enter 200%. To have them half as wide enter 50%)."
+#~ msgstr "การตั้งค่านี้ จะควบคุมอัตราส่วนความกว้าง/ความยาว ของพาเนลแนวนอน และ อัตราส่วน ความกว้าง/ความสูงของพาเนลแนวตั้ง (เช่น แสดงผลในพาเนลแนวนอน โดยให้กว้างเป็นสองเท่าของความสูง)"
 
 #~ msgid "Update Interval [seconds]"
 #~ msgstr "ช่วงระยะปรับปรุงข้อมูล [วินาที]"

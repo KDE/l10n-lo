@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-16 01:16+0200\n"
+"POT-Creation-Date: 2004-12-11 01:18+0100\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -28,15 +28,15 @@ msgstr ""
 "ເຄື່ອງມືສ້າງແຟ້ມໂພດສ໌ເຕີສ"
 "ະຄຣິບ"
 
-#: kpgeneralpage.cpp:86 lpd/lpdtools.cpp:28
+#: kpgeneralpage.cpp:87 lpd/lpdtools.cpp:28
 msgid "Ledger"
 msgstr "Ledger"
 
-#: kpgeneralpage.cpp:85 lpd/lpdtools.cpp:29
+#: kpgeneralpage.cpp:86 lpd/lpdtools.cpp:29
 msgid "US Legal"
 msgstr "US Legal"
 
-#: kpgeneralpage.cpp:84 lpd/lpdtools.cpp:30
+#: kpgeneralpage.cpp:85 lpd/lpdtools.cpp:30
 msgid "US Letter"
 msgstr "ເຈັ້ຍຈົດຫມາຍ US"
 
@@ -56,11 +56,11 @@ msgstr "B4"
 msgid "B5"
 msgstr "B5"
 
-#: kpgeneralpage.cpp:252 lpd/lpdtools.cpp:39 lpr/editentrydialog.cpp:50
+#: kpgeneralpage.cpp:253 lpd/lpdtools.cpp:39 lpr/editentrydialog.cpp:50
 msgid "Enabled"
 msgstr "ເປີດໃຊ້ງານ"
 
-#: kpgeneralpage.cpp:251 lpd/lpdtools.cpp:40 management/kmconfiggeneral.cpp:52
+#: kpgeneralpage.cpp:252 lpd/lpdtools.cpp:40 management/kmconfiggeneral.cpp:52
 msgid "Disabled"
 msgstr "ປິດການໃຊ້ງານ"
 
@@ -85,7 +85,7 @@ msgstr "ຄວາມເລິກສີ"
 msgid "Additional GS options"
 msgstr "ຕົວເລືອກ GS ເພີ່ມເຕີມ"
 
-#: driver.cpp:377 kpgeneralpage.cpp:119 lpd/lpdtools.cpp:307
+#: driver.cpp:377 kpgeneralpage.cpp:120 lpd/lpdtools.cpp:307
 #: management/kmconfiggeneral.cpp:44 management/kmpropgeneral.cpp:54
 #: management/kmwend.cpp:49
 msgid "General"
@@ -554,18 +554,18 @@ msgstr "ບູລີມ"
 msgid "Printcap Entry: %1"
 msgstr "ລາຍການ Printcap: %1"
 
-#: kprintdialog.cpp:94
+#: kprintdialog.cpp:97
 msgid ""
 " <qt> The <em>Location</em> may describe where the selected printer is "
 "located. The Location description is created by the administrator of the "
 "print system (or may be left empty). </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:99
+#: kprintdialog.cpp:102
 msgid " <qt> The <em>Type</em> indicates your printer type. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:101
+#: kprintdialog.cpp:104
 msgid ""
 " <qt> The <em>State</em>"
 " indicates the state of the print queue on the print server (which could be "
@@ -573,14 +573,14 @@ msgid ""
 "or similar. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:105
+#: kprintdialog.cpp:108
 msgid ""
 " <qt> The <em>Comment</em> may describe the selected printer. This comment "
 "is created by the administrator of the print system (or may be left empty). "
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:109
+#: kprintdialog.cpp:112
 msgid ""
 " <qt>"
 "Use this combo box to select the printer to which you want to print. If you "
@@ -592,18 +592,18 @@ msgid ""
 "Printer Wizard</em> which is available for the CUPS and RLPR printing "
 "systems (click button to the left of the 'Properties' button),</li> "
 "<li>...or you can try to connect to a remote CUPS print server by clicking "
-"the <em>System Options...</em> button below. A new dialog opens: click on "
-"the <em>CUPS server</em> icon and fill in the information required to use "
-"the remote server.</li> </ul> </qt>"
+"the <em>System Options</em> button below. A new dialog opens: click on the "
+"<em>CUPS server</em> icon and fill in the information required to use the "
+"remote server.</li> </ul> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:125
+#: kprintdialog.cpp:128
 msgid ""
 " <qt> This button takes you to where you can make decisions regarding all "
 "supported print job options. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:128
+#: kprintdialog.cpp:131
 msgid ""
 " <qt>"
 "<p> This button reduces the list of visible printers to a shorter, more "
@@ -611,12 +611,13 @@ msgid ""
 "<p>This is particularly useful in enterprise environments with lots of "
 "printers. The default is to show <b>all</b> printers.</p> "
 "<p>To create a personal filter list, click on the <em>\"System "
-"Options...</em>\" button at the bottom of this dialog. Then, in the new "
-"dialog, select <em>\"Filter\"</em> (left column in the <em>KDE Print "
-"Configuration</em> dialog).</p> </qt>"
+"Options</em>"
+"\" button at the bottom of this dialog. Then, in the new dialog, select "
+"<em>\"Filter\"</em> (left column in the <em>KDE Print Configuration</em> "
+"dialog).</p> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:137
+#: kprintdialog.cpp:140
 msgid ""
 "<qt> This button starts the <em>KDE Add Printer Wizard</em>. (<b>NOT</b> if "
 "you use <em>\"Generic LPD</em>\" or <em>\"LPRng\"</em>, or <em>\"Print "
@@ -624,7 +625,7 @@ msgid ""
 "or <em>\"RLPR\"</em>) to add locally defined printers to your system. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:143
+#: kprintdialog.cpp:146
 msgid ""
 " <qt> You can enter any command that would also print for you in a "
 "<em>konsole</em> window. "
@@ -632,14 +633,11 @@ msgid ""
 "<pre>a2ps -P &lt;printername&gt; --medium=A3</pre>. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:147
-msgid ""
-" <qt>This button expands or reduces the KDE printing dialog. KDEPrint will "
-"remember what you do here; next time, it will start this dialog 'expanded' "
-"or 'collapsed', depending on the mode you are using this time.... </qt>"
+#: kprintdialog.cpp:150
+msgid " <qt>This button shows or hides additional printing options.</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:153
+#: kprintdialog.cpp:151
 msgid ""
 " <qt> This button starts a new dialog where you can adjust various settings "
 "of your printing system. Amongst them: "
@@ -652,15 +650,15 @@ msgid ""
 "more....  </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:164
+#: kprintdialog.cpp:162
 msgid " <qt> This button takes you to the complete <em>KDEPrint Manual</em>. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:168
+#: kprintdialog.cpp:166
 msgid " <qt> This button cancels your print job and quits the kprinter dialog. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:172
+#: kprintdialog.cpp:170
 msgid ""
 " <qt> This button sends the job to the printing process. If you are sending "
 "non-PostScript files, you may be asked if you want KDE to convert the files "
@@ -668,7 +666,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:178
+#: kprintdialog.cpp:176
 msgid ""
 " <qt>"
 "<p>"
@@ -680,7 +678,7 @@ msgid ""
 "quickly.</p> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:187
+#: kprintdialog.cpp:185
 msgid ""
 " <qt> The \"Output file:\" shows you where your file will be saved if you "
 "decide to \"Print to File\" your job, using one of the KDE <em>Special "
@@ -689,20 +687,20 @@ msgid ""
 "and/or editing the line on the right. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:194
+#: kprintdialog.cpp:192
 msgid ""
 " <qt> Edit this line to create a path and filename that suits you. (Only "
 "available if you \"Print to File\") </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:198
+#: kprintdialog.cpp:196
 msgid ""
 " <qt> This button calls the \"File Open\" dialog to let you choose a "
 "directory and file name where your \"Print-to-File\" job should be saved. "
 "</qt>"
 msgstr ""
 
-#: kprintdialog.cpp:203
+#: kprintdialog.cpp:201
 msgid ""
 " <qt> This button calls the \"File Open\" dialog to allow you to select a "
 "file for printing. Note, that  "
@@ -714,32 +712,32 @@ msgid ""
 "\"multi-file job\" to the printing system. </ul> </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:214
+#: kprintdialog.cpp:212
 msgid ""
 " <qt> This button removes the highlighted file from the list of files to be "
 "printed. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:218
+#: kprintdialog.cpp:216
 msgid ""
 " <qt> This button tries to open the highlighted file, so you can view or "
 "edit it before you send it to the printing system. </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:223
+#: kprintdialog.cpp:221
 msgid ""
 " <qt> This button moves the highlighted file up in the list of files to be "
 "printed. (In effect, this changes the order of the files' printout.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:228
+#: kprintdialog.cpp:226
 msgid ""
 " <qt>"
 " This button moves the highlighted file down in the list of files to be "
 "printed. (In effect, this changes the order of the files' printout.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:233
+#: kprintdialog.cpp:231
 msgid ""
 " <qt> Enable this checkbox if you want to see a preview of your printout. A "
 "preview lets you check if, for instance, your intended \"poster\" or "
@@ -747,147 +745,150 @@ msgid ""
 "also lets you cancel the job if something looks wrong.  </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:240
+#: kprintdialog.cpp:238
 msgid ""
 " <qt>"
 " This button sets the current printer as the user's default. (Button is only "
-"visible if the <em>System Options...</em> --> <em>General</em> --> "
+"visible if the <em>System Options</em> --> <em>General</em> --> "
 "<em>Miscellaneous</em>: <em>\"Defaults to the last printer used in the "
 "application\"</em> is disabled.) </qt>"
 msgstr ""
 
-#: kprintdialog.cpp:253 management/kmmainview.cpp:290 management/kmwend.cpp:90
+#: kprintdialog.cpp:251 management/kmmainview.cpp:290 management/kmwend.cpp:90
 #: management/smbview.cpp:37
 msgid "Printer"
 msgstr "ເຄື່ອງພິມ"
 
-#: kprintdialog.cpp:266 management/kmspecialprinterdlg.cpp:56
+#: kprintdialog.cpp:264 management/kmspecialprinterdlg.cpp:56
 #: management/kxmlcommanddlg.cpp:114
 msgid "&Name:"
 msgstr "&ຊື່:"
 
-#: kprintdialog.cpp:268 management/kminfopage.cpp:50
+#: kprintdialog.cpp:266 management/kminfopage.cpp:50
 msgid ""
 "_: Status\n"
 "State:"
 msgstr "ສະຖານະ:"
 
-#: kprintdialog.cpp:270 management/kminfopage.cpp:48
+#: kprintdialog.cpp:268 management/kminfopage.cpp:48
 msgid "Type:"
 msgstr "ປະເພດ:"
 
-#: kprintdialog.cpp:272 management/kmwname.cpp:40
+#: kprintdialog.cpp:270 management/kmwname.cpp:40
 msgid "Location:"
 msgstr "ຕຳແຫນ່ງ:"
 
-#: kprintdialog.cpp:274 management/kxmlcommanddlg.cpp:175
+#: kprintdialog.cpp:272 management/kxmlcommanddlg.cpp:175
 msgid "Comment:"
 msgstr "ຄຳອະທິບາຍ:"
 
-#: kprintdialog.cpp:277
+#: kprintdialog.cpp:275
 #, fuzzy
 msgid "P&roperties"
 msgstr "ຄຸນສົມບບັດ"
 
-#: kprintdialog.cpp:279
-msgid "System Op&tions..."
+#: kprintdialog.cpp:277
+#, fuzzy
+msgid "System Op&tions"
 msgstr "&ຕົວເລືອກຂອງລະບົບ..."
 
-#: kprintdialog.cpp:281
+#: kprintdialog.cpp:279
 msgid "Set as &Default"
 msgstr "&ຕັ້ງເປັນຄ່າປະລິຍາຍ"
 
-#: kprintdialog.cpp:288
+#: kprintdialog.cpp:286
 #, fuzzy
 msgid "Toggle printer filtering"
 msgstr ""
 "ເປີດ/ປິດການໃຊ້ງາານຕົວກອງເຄ"
 "ື່ອງພິມ"
 
-#: kprintdialog.cpp:293
+#: kprintdialog.cpp:291
 msgid "Add printer..."
 msgstr "ເພີ່ມເຄືອງພິມ..."
 
-#: cups/ippreportdlg.cpp:34 cups/ippreportdlg.cpp:41 kprintdialog.cpp:295
+#: cups/ippreportdlg.cpp:34 cups/ippreportdlg.cpp:41 kprintdialog.cpp:293
 msgid "&Print"
 msgstr "&ພິມ"
 
-#: kprintdialog.cpp:301
+#: kprintdialog.cpp:299
 msgid "Previe&w"
 msgstr "&ສະແດງຕົວຢ່າງ"
 
-#: kprintdialog.cpp:303
+#: kprintdialog.cpp:301
 msgid "O&utput file:"
 msgstr "&ພິມເປັນແຟ້ມ:"
 
-#: kprintdialog.cpp:309
+#: kprintdialog.cpp:307
 msgid "Print co&mmand:"
 msgstr "ຄຳສັ່ງ&ການພິມ:"
 
-#: kprintdialog.cpp:318
+#: kprintdialog.cpp:316
 #, fuzzy
 msgid "Show/hide advanced options"
 msgstr ""
 "ຊ້ອນ/ສະແດງຕົວເລືອກເພີ່ມເຕີ"
 "່ມ"
 
-#: kprintdialog.cpp:320
+#: kprintdialog.cpp:318
 msgid "&Keep this dialog open after printing"
 msgstr ""
 "&ເປີດກ່ອງໂຕ້ຕອບນີ້ໄວ້ຫລັງຈ"
 "າກການພິມ"
 
-#: kprintdialog.cpp:532 kprintdialog.cpp:918
+#: kprintdialog.cpp:537 kprintdialog.cpp:925
 msgid "An error occurred while retrieving the printer list:"
 msgstr ""
 "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງລາ"
 "ຍການເຄື່ອງພິມ:"
 
-#: kprintdialog.cpp:696
+#: kprintdialog.cpp:701
 #, fuzzy
 msgid "The output filename is empty."
 msgstr ""
 "ຍັງບໍ່ໄດ້ຕື່ມຊື່ແຟ້ມທີ່ຈະ"
 "ໃຊ້ພິມ"
 
-#: kprintdialog.cpp:735
+#: kprintdialog.cpp:740
 msgid "You don't have write permissions to this file."
 msgstr ""
 "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽ"
 "ນໄປຍັງແຟ້ມນີ້"
 
-#: kprintdialog.cpp:741
+#: kprintdialog.cpp:746
 #, fuzzy
 msgid "The output directory does not exist."
 msgstr ""
 "ຍັງບໍ່ມີ "
 "ແຟ້ມຫລືໄດເລັກທໍລີ%1"
 
-#: kprintdialog.cpp:743
+#: kprintdialog.cpp:748
 msgid "You don't have write permissions in that directory."
 msgstr ""
 "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽ"
 "ໜໄປຍັງໄດເລັກທໍລີ"
 
-#: kprintdialog.cpp:854
-msgid "Collaps&e"
-msgstr "&ຫຍໍ້ເກັບ"
+#: kprintdialog.cpp:860
+#, fuzzy
+msgid "&Options <<"
+msgstr "&ຕົວເລືອກ"
 
-#: kprintdialog.cpp:866
-msgid "&Expand"
-msgstr "&ຂະຫຍາຍ"
+#: kprintdialog.cpp:873
+#, fuzzy
+msgid "&Options >>"
+msgstr "&ຕົວເລືອກ"
 
-#: kprintdialog.cpp:908
+#: kprintdialog.cpp:915
 msgid "Initializing printing system..."
 msgstr ""
 "ເລີ່ມການຮຍກໃຊ້ລະບົບການພິມ.."
 "."
 
-#: kprintdialog.cpp:944
+#: kprintdialog.cpp:951
 msgid "Print to File"
 msgstr "ພິມອອກເປັນແຟ້ມ"
 
-#: kmprinter.cpp:197 kprintdialog.cpp:962
+#: kmprinter.cpp:197 kprintdialog.cpp:969
 msgid "All Files"
 msgstr "ທຸກແຟ້ມ"
 
@@ -1067,7 +1068,8 @@ msgid "&Export"
 msgstr "&ສົ່ງອອກ"
 
 #: cups/cupsaddsmb2.cpp:61
-msgid "Export printer driver to Windows clients"
+#, fuzzy
+msgid "Export Printer Driver to Windows Clients"
 msgstr ""
 "ສົ່ງອອກໄດຣເວີເຄືອ່ງພິມໄປຍ"
 "ັງໄຄແອນວິນໂດຍສ໌"
@@ -1411,7 +1413,7 @@ msgstr ""
 "<nobr>ບໍ່ສາມາດເຊື່ອມຕໍ່ໄປຍັງ<b>"
 "%1</b> ທາງພອດ <b>%2</b> ໄດ້!</nobr>"
 
-#: cups/kmpropbanners.cpp:49 kpgeneralpage.cpp:137
+#: cups/kmpropbanners.cpp:49 kpgeneralpage.cpp:138
 msgid "Banners"
 msgstr "ແບນເນີ"
 
@@ -1555,7 +1557,7 @@ msgstr ""
 "ຊື່ແທກຈະຕ້ອງບໍ່ມີຊ່ອງວ່າງ: "
 "<b>%1</b>"
 
-#: cups/kmcupsuimanager.cpp:84
+#: cups/kmcupsuimanager.cpp:85
 msgid ""
 "<qt>"
 "<p>Print queue on remote CUPS server</p>"
@@ -1564,7 +1566,7 @@ msgid ""
 "off.</p></qt>"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:91
+#: cups/kmcupsuimanager.cpp:92
 msgid ""
 "<qt>"
 "<p>Network IPP printer</p>"
@@ -1573,7 +1575,7 @@ msgid ""
 "printer can do both.</p></qt>"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:98
+#: cups/kmcupsuimanager.cpp:99
 msgid ""
 "<qt>"
 "<p>Fax/Modem printer</p>"
@@ -1583,7 +1585,7 @@ msgid ""
 "number.</p></qt>"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:105
+#: cups/kmcupsuimanager.cpp:106
 msgid ""
 "<qt>"
 "<p>Other printer</p>"
@@ -1594,7 +1596,7 @@ msgid ""
 "possibilities.</p></qt>"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:113
+#: cups/kmcupsuimanager.cpp:114
 msgid ""
 "<qt>"
 "<p>Class of printers</p>"
@@ -1604,33 +1606,40 @@ msgid ""
 "class of printers.</p></qt>"
 msgstr ""
 
-#: cups/kmcupsuimanager.cpp:126
+#: cups/kmcupsuimanager.cpp:127
 msgid "Re&mote CUPS server (IPP/HTTP)"
 msgstr "ເຊີບເວີ &CUPS ແບບໄລຍະໄກ(IPP/HTTP)"
 
-#: cups/kmcupsuimanager.cpp:127
+#: cups/kmcupsuimanager.cpp:128
 msgid "Network printer w/&IPP (IPP/HTTP)"
 msgstr "ເຄືອ່ງພິມແບບເຄືອຂ່າຍ&IPP (IPP/HTTP)"
 
-#: cups/kmcupsuimanager.cpp:128
+#: cups/kmcupsuimanager.cpp:129
 msgid "S&erial Fax/Modem printer"
 msgstr ""
 "&ເຄືອ່ງພິມແບບອະນຸກົມໂທລະສາ"
 "ນ/ໂມເດັມ"
 
-#: cups/kmcupsuimanager.cpp:129
+#: cups/kmcupsuimanager.cpp:130
 msgid "Other &printer type"
 msgstr "&ເຄືອ່ງພິມປະເພດອື່ນໆ"
 
-#: cups/kmcupsuimanager.cpp:131
+#: cups/kmcupsuimanager.cpp:132
 msgid "Cl&ass of printers"
 msgstr "&ຄລາດສ໌ຂອງເຄືອ່ງພິມ"
 
-#: cups/kmcupsuimanager.cpp:209
+#: cups/kmcupsuimanager.cpp:169
+#, fuzzy
+msgid "An error occurred while retrieving the list of available backends:"
+msgstr ""
+"ເກີດຄວາມຜິດພາດໃນລະຫວ່າງລາ"
+"ຍການເຄື່ອງພິມ:"
+
+#: cups/kmcupsuimanager.cpp:215
 msgid "Priority"
 msgstr "ລຳດັບຄວາມສຳຄັນ"
 
-#: cups/kmcupsuimanager.cpp:211
+#: cups/kmcupsuimanager.cpp:217
 msgid "Billing Information"
 msgstr "ຂໍ້ມູນຄ່າໃຊ້ຈ່າຍ"
 
@@ -1668,13 +1677,14 @@ msgid "&Export Driver..."
 msgstr "&ສົງອອກໄດເວີ..."
 
 #: cups/kmcupsmanager.cpp:828
-msgid "&Printer IPP Report..."
+#, fuzzy
+msgid "&Printer IPP Report"
 msgstr "&ລາຍງານເຄືອງພືມ IPP..."
 
-#: cups/kmcupsmanager.cpp:874
+#: cups/kmcupsmanager.cpp:874 cups/kmwippprinter.cpp:218
 #, c-format
-msgid "IPP report for %1"
-msgstr "ລາຍງານ IPP ສຳລັບ %1"
+msgid "IPP Report for %1"
+msgstr "ລາຍງານ IPP ສຳຫລັບ %1"
 
 #: cups/kmcupsmanager.cpp:878
 msgid "Unable to retrieve printer information. Error received:"
@@ -1682,11 +1692,12 @@ msgstr ""
 "ບໍສາດຮັບຄ່າຂໍ້ມູນການພີມໄດ"
 "້;"
 
-#: cups/kmcupsmanager.cpp:890
-msgid "Connected to %1:%2"
-msgstr "ເຊື່ອດຕໍໄປທີ່ %1:%2 ແລ້ວ"
+#: cups/kmcupsmanager.cpp:891
+#, fuzzy
+msgid "Server"
+msgstr "ເຊີບເວີ"
 
-#: cups/kmcupsmanager.cpp:928 cups/kmcupsmanager.cpp:955
+#: cups/kmcupsmanager.cpp:931 cups/kmcupsmanager.cpp:958
 #, c-format
 msgid ""
 "Connection to CUPS server failed. Check that the CUPS server is correctly "
@@ -1699,17 +1710,17 @@ msgstr ""
 "ອງແລ້ວ ແລະກຳລັງເຮັດວຽກຢູ່ "
 "ຂໍ້ຜິດພາດຄື; %1"
 
-#: cups/kmcupsmanager.cpp:929
+#: cups/kmcupsmanager.cpp:932
 msgid "the IPP request failed for an unknown reason"
 msgstr ""
 "ລົ້ມເຫຼວໃນການຮ້ອງຂໍ IPP "
 "ໂດຍບໍຮູ້ເຫດຜົນ"
 
-#: cups/kmcupsmanager.cpp:956
+#: cups/kmcupsmanager.cpp:959
 msgid "connection refused"
 msgstr "ຖືກປະຕີເສດການເຊື່ອດຕໍ່"
 
-#: cups/kmcupsmanager.cpp:956
+#: cups/kmcupsmanager.cpp:959
 msgid "host not found"
 msgstr "ບໍພົບໂຝດ"
 
@@ -1748,8 +1759,9 @@ msgstr ""
 "ດ້</p>"
 
 #: cups/kmwippprinter.cpp:65
-msgid "&IPP Report..."
-msgstr "ລາຍງານ &IPP..."
+#, fuzzy
+msgid "&IPP Report"
+msgstr "ລາຍງານ IPP"
 
 #: cups/kmwippprinter.cpp:112
 #, fuzzy
@@ -1817,11 +1829,6 @@ msgstr ""
 "ບໍ່ສາມາດຮັບຂໍ້ມູນເຄືອ່ງພິ"
 "ມໄດ້ເຄືອ່ງພິມຕອບກັບມາວ່າ:"
 "<br><br>%1"
-
-#: cups/kmwippprinter.cpp:218
-#, c-format
-msgid "IPP Report for %1"
-msgstr "ລາຍງານ IPP ສຳຫລັບ %1"
 
 #: cups/kmwippprinter.cpp:222
 msgid "Unable to generate report. IPP request failed with message: %1 (0x%2)."
@@ -2040,7 +2047,8 @@ msgstr ""
 "ມໄດ້:"
 
 #: cups/kmcupsjobmanager.cpp:286
-msgid "&Job IPP Report..."
+#, fuzzy
+msgid "&Job IPP Report"
 msgstr "ລາບ&ງນພິມ IPP..."
 
 #: cups/kmcupsjobmanager.cpp:288
@@ -3251,15 +3259,17 @@ msgid "&Resume"
 msgstr "&ທຳງານທີ່ຄ້າງໄວ້"
 
 #: management/kmjobviewer.cpp:264
-msgid "R&emove"
-msgstr "&ລົບ"
+#, fuzzy
+msgid "Remo&ve"
+msgstr "ເອົາອອກ"
 
 #: management/kmjobviewer.cpp:265
 msgid "Res&tart"
 msgstr "&ເລີ່ມທຳງານໃຫມ່"
 
 #: management/kmjobviewer.cpp:266
-msgid "&Move to Printer..."
+#, fuzzy
+msgid "&Move to Printer"
 msgstr "&ຍ້າຍໄປຍັງເຄື່ອງພິມ..."
 
 #: management/kmjobviewer.cpp:272
@@ -4873,130 +4883,130 @@ msgstr ""
 msgid "Skip"
 msgstr "ຂ້າມ"
 
-#: kpgeneralpage.cpp:83
+#: kpgeneralpage.cpp:84
 msgid "ISO A4"
 msgstr "A4 ມາດຖະຖານ"
 
-#: kpgeneralpage.cpp:87
+#: kpgeneralpage.cpp:88
 msgid "Folio"
 msgstr "Folio"
 
-#: kpgeneralpage.cpp:88
+#: kpgeneralpage.cpp:89
 msgid "US #10 Envelope"
 msgstr "ຊ່ອງຈົດຫມາຍແບບ US #10"
 
-#: kpgeneralpage.cpp:89
+#: kpgeneralpage.cpp:90
 msgid "ISO DL Envelope"
 msgstr "ຊ່ອງຈົດຫມາຍແບບລ DL ມາດຕະຖານ"
 
-#: kpgeneralpage.cpp:90
+#: kpgeneralpage.cpp:91
 msgid "Tabloid"
 msgstr "ແຜ່ນໃສ"
 
-#: kpgeneralpage.cpp:91
+#: kpgeneralpage.cpp:92
 #, fuzzy
 msgid "ISO A3"
 msgstr "A4 ມາດຖະຖານ"
 
-#: kpgeneralpage.cpp:92
+#: kpgeneralpage.cpp:93
 #, fuzzy
 msgid "ISO A2"
 msgstr "A4 ມາດຖະຖານ"
 
-#: kpgeneralpage.cpp:93
+#: kpgeneralpage.cpp:94
 #, fuzzy
 msgid "ISO A1"
 msgstr "A4 ມາດຖະຖານ"
 
-#: kpgeneralpage.cpp:94
+#: kpgeneralpage.cpp:95
 #, fuzzy
 msgid "ISO A0"
 msgstr "A4 ມາດຖະຖານ"
 
-#: kpgeneralpage.cpp:103
+#: kpgeneralpage.cpp:104
 msgid "Upper Tray"
 msgstr "ຖາດດ້ານເທີງ"
 
-#: kpgeneralpage.cpp:104
+#: kpgeneralpage.cpp:105
 msgid "Lower Tray"
 msgstr "ຖາດດ້ານລຸ່ມ"
 
-#: kpgeneralpage.cpp:105
+#: kpgeneralpage.cpp:106
 msgid "Multi-Purpose Tray"
 msgstr "ຖາດຫລາຍຈຸດປະສົງ"
 
-#: kpgeneralpage.cpp:106
+#: kpgeneralpage.cpp:107
 msgid "Large Capacity Tray"
 msgstr "ຖາດຄວາມຈຸສູງ"
 
-#: kpgeneralpage.cpp:110
+#: kpgeneralpage.cpp:111
 msgid "Normal"
 msgstr "ທຳມະດາ"
 
-#: kpgeneralpage.cpp:111
+#: kpgeneralpage.cpp:112
 msgid "Transparency"
 msgstr "ແຜ່ນໃສ"
 
-#: kpgeneralpage.cpp:122 kpqtpage.cpp:72
+#: kpgeneralpage.cpp:123 kpqtpage.cpp:72
 msgid "Page s&ize:"
 msgstr "&ຂະຫນາດເຈັ້ຍ:"
 
-#: kpgeneralpage.cpp:124
+#: kpgeneralpage.cpp:125
 msgid "Paper t&ype:"
 msgstr "&ປະເພດເຈັ້ຍ:"
 
-#: kpgeneralpage.cpp:126
+#: kpgeneralpage.cpp:127
 msgid "Paper so&urce:"
 msgstr "&ແຫລ່ງຂອງເຈັ້ຍ:"
 
-#: kpgeneralpage.cpp:135
+#: kpgeneralpage.cpp:136
 msgid "Duplex Printing"
 msgstr "ພິມແບບສອງໜ້າ"
 
-#: kpgeneralpage.cpp:136 kpqtpage.cpp:85
+#: kpgeneralpage.cpp:137 kpqtpage.cpp:85
 msgid "Pages per Sheet"
 msgstr "ຫນ້າຕໍ່ແຜ່ນ"
 
-#: kpgeneralpage.cpp:138 kpqtpage.cpp:77
+#: kpgeneralpage.cpp:139 kpqtpage.cpp:77
 msgid "&Portrait"
 msgstr "ແນວ&ຕັ້ງ"
 
-#: kpgeneralpage.cpp:139 kpqtpage.cpp:78
+#: kpgeneralpage.cpp:140 kpqtpage.cpp:78
 msgid "&Landscape"
 msgstr "&ແນວນອນ"
 
-#: kpgeneralpage.cpp:140
+#: kpgeneralpage.cpp:141
 msgid "&Reverse landscape"
 msgstr "&ແນວນອນກັບດ້ານ"
 
-#: kpgeneralpage.cpp:141
+#: kpgeneralpage.cpp:142
 msgid "R&everse portrait"
 msgstr "&ແນວຕັ້ງກັບດ້ານ"
 
-#: kpgeneralpage.cpp:145
+#: kpgeneralpage.cpp:146
 #, fuzzy
 msgid ""
 "_: duplex orientation\n"
 "&None"
 msgstr "&ດ້ານຍາວ"
 
-#: kpgeneralpage.cpp:146
+#: kpgeneralpage.cpp:147
 msgid ""
 "_: duplex orientation\n"
 "Lon&g side"
 msgstr "&ດ້ານຍາວ"
 
-#: kpgeneralpage.cpp:147
+#: kpgeneralpage.cpp:148
 msgid ""
 "_: duplex orientation\n"
 "S&hort side"
 msgstr "&ດ້ານສັ້ນ"
 
-#: kpgeneralpage.cpp:159
+#: kpgeneralpage.cpp:160
 msgid "S&tart:"
 msgstr "&ຈາກ:"
 
-#: kpgeneralpage.cpp:160
+#: kpgeneralpage.cpp:161
 msgid "En&d:"
 msgstr "&ເຖີ່ງ:"
 
@@ -5004,15 +5014,15 @@ msgstr "&ເຖີ່ງ:"
 msgid "(line %1): "
 msgstr ""
 
-#: droptionview.cpp:60
+#: droptionview.cpp:61
 msgid "Value:"
 msgstr "ຄ່າ:"
 
-#: droptionview.cpp:166
+#: droptionview.cpp:167
 msgid "String value:"
 msgstr "ຄ່າຂອງຂໍ້ຄວາມ:"
 
-#: droptionview.cpp:306 droptionview.cpp:339
+#: droptionview.cpp:306 droptionview.cpp:341
 msgid "No Option Selected"
 msgstr "ບໍ່ມີຕົວເລືອກໃດຖືກເລືອກ"
 
@@ -5088,7 +5098,8 @@ msgstr ""
 "ການກວດສອບສິດການເຂົ້າໃຊ້ງາ"
 "ນລົ້ມເຫລວ !"
 
-#: rc.cpp:6 rc.cpp:14
+#. i18n: file kprintpreviewui.rc line 13
+#: rc.cpp:9 rc.cpp:21
 #, no-c-format
 msgid "&PageMarks"
 msgstr "&ຄັ້ນຫນ້າ"
@@ -5515,6 +5526,24 @@ msgstr "&ລະດັບສີເທົາ"
 msgid "Ot&her"
 msgstr "ອື່ນ&ຯ"
 
+#~ msgid "Collaps&e"
+#~ msgstr "&ຫຍໍ້ເກັບ"
+
+#~ msgid "&Expand"
+#~ msgstr "&ຂະຫຍາຍ"
+
+#~ msgid "Connected to %1:%2"
+#~ msgstr "ເຊື່ອດຕໍໄປທີ່ %1:%2 ແລ້ວ"
+
+#~ msgid "IPP report for %1"
+#~ msgstr "ລາຍງານ IPP ສຳລັບ %1"
+
+#~ msgid "R&emove"
+#~ msgstr "&ລົບ"
+
+#~ msgid "&IPP Report..."
+#~ msgstr "ລາຍງານ &IPP..."
+
 #~ msgid "P&roperties..."
 #~ msgstr "&ຄຸນສົມບັດ..."
 
@@ -5567,13 +5596,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Form3"
 #~ msgstr "ຮູບແບບ:"
 
-#~ msgid ""
-#~ "You must now provide a password for the certificate request. Please "
-#~ "choose a very secure password as this will be used to encrypt your "
-#~ "private key."
-#~ msgstr ""
-#~ "ທ່ານຄວນຈະຈັດຫາພາສ໌ເວີດສຳລັບການຂໍຮ້ອງໃຊ້ໃບຮັບຮອງ. "
-#~ "ກະລຸນາເລືອກເອົາພາສ໌ເວີດທີ່ປອດໄພເຊິ່ງຈະຖຶກໃຊ້ເປັນຄີຢ໌ສ່ວນຕົວຂອງທ່ານ"
+#~ msgid "You must now provide a password for the certificate request. Please choose a very secure password as this will be used to encrypt your private key."
+#~ msgstr "ທ່ານຄວນຈະຈັດຫາພາສ໌ເວີດສຳລັບການຂໍຮ້ອງໃຊ້ໃບຮັບຮອງ. ກະລຸນາເລືອກເອົາພາສ໌ເວີດທີ່ປອດໄພເຊິ່ງຈະຖຶກໃຊ້ເປັນຄີຢ໌ສ່ວນຕົວຂອງທ່ານ"
 
 #~ msgid "&Repeat password:"
 #~ msgstr "&ທວນລະຫັດຜ່ານ"
@@ -5584,13 +5608,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Form2"
 #~ msgstr "ຮູບແບບ:"
 
-#~ msgid ""
-#~ "You have indicated that you wish to obtain or purchase a secure "
-#~ "certificate. This wizard is intended to guide you through the procedure. "
-#~ "You may cancel at any time, and this will abort the transaction."
-#~ msgstr ""
-#~ "ທ່ານໄດ້ລະບຸໄວ້ວ່າທ່ານປາດຖະຫນາທີ່ຈະໄດ້ຮັບຫລືຊື້ໃບຮັບຮອງຄວາມປອດໄພ. "
-#~ "ວິຊາດນີ້ຈະນຳທ່ານຜ່ານຂັ້ນຕອນຕ່າງໆ."
+#~ msgid "You have indicated that you wish to obtain or purchase a secure certificate. This wizard is intended to guide you through the procedure. You may cancel at any time, and this will abort the transaction."
+#~ msgstr "ທ່ານໄດ້ລະບຸໄວ້ວ່າທ່ານປາດຖະຫນາທີ່ຈະໄດ້ຮັບຫລືຊື້ໃບຮັບຮອງຄວາມປອດໄພ. ວິຊາດນີ້ຈະນຳທ່ານຜ່ານຂັ້ນຕອນຕ່າງໆ."
 
 #~ msgid "Events"
 #~ msgstr "ເຫດການ"
@@ -5643,15 +5662,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Editor Chooser"
 #~ msgstr "ຕົວເລືອກຕົວແກ້ໄຂ"
 
-#~ msgid ""
-#~ "Please choose the default text editing component that you wish to use in "
-#~ "this application. If you choose <B>System Default</B>, the application "
-#~ "will honor your changes in the Control Center. All other choices will "
-#~ "override that setting."
-#~ msgstr ""
-#~ "ກະລຸນາເລືອກອົງປະກອບການແກ້ໄຂແບບປະລິຍາຍທີ່ທ່ານຕ້ອງການໃຊ້ກັບແອັບພລິເຄຊັນນີ້. "
-#~ "ຖ້າຫາກທ່ານເລືອກ<B>ລະບົບປະລິຍາຍ</B>,ແອັບພລິເຄຊັນດັ່ງກ່າວຈະຖຶກເກັບໄວ້ໃນສູນຄວບຄຸມ. "
-#~ "ຕົວເລືອກອຶ່ນໆທັງຫມົດຈະຖຶກປ່ງນຕາມຄ່າທີ່ຕັ້ງໄວ."
+#~ msgid "Please choose the default text editing component that you wish to use in this application. If you choose <B>System Default</B>, the application will honor your changes in the Control Center. All other choices will override that setting."
+#~ msgstr "ກະລຸນາເລືອກອົງປະກອບການແກ້ໄຂແບບປະລິຍາຍທີ່ທ່ານຕ້ອງການໃຊ້ກັບແອັບພລິເຄຊັນນີ້. ຖ້າຫາກທ່ານເລືອກ<B>ລະບົບປະລິຍາຍ</B>,ແອັບພລິເຄຊັນດັ່ງກ່າວຈະຖຶກເກັບໄວ້ໃນສູນຄວບຄຸມ. ຕົວເລືອກອຶ່ນໆທັງຫມົດຈະຖຶກປ່ງນຕາມຄ່າທີ່ຕັ້ງໄວ."
 
 #~ msgid "&Certificate"
 #~ msgstr "&ໃບຮັບຮອງ"
@@ -5876,9 +5888,6 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Edit"
 #~ msgstr "ແກ້ໄຂ"
 
-#~ msgid "&Options"
-#~ msgstr "&ຕົວເລືອກ"
-
 #~ msgid "View"
 #~ msgstr "ມຸມເບິ່ງ"
 
@@ -5962,9 +5971,6 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid "Options"
 #~ msgstr "ຕົວເລືອກ"
-
-#~ msgid "Remove"
-#~ msgstr "ເອົາອອກ"
 
 #~ msgid "Add"
 #~ msgstr "ເພີ່ມ"
@@ -6462,9 +6468,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "SSL"
 #~ msgstr "SSL"
 
-#~ msgid ""
-#~ "<qt>Could not modify the ownership of file <b>%1</b>.You have "
-#~ "insufficient access to the file to perform the change.</qt>"
+#~ msgid "<qt>Could not modify the ownership of file <b>%1</b>.You have insufficient access to the file to perform the change.</qt>"
 #~ msgstr "<qt>ບໍ່ສາມາດແກ້ໄຂຄວາມເປັນເຈົ້າຂອງແຟ້ມ<b>%1</b> ໄດ້ທ່ານບໍ່ມີສິດຈະປ່ຽນມັນໄດ້ได้ </qt>"
 
 #~ msgid "s"
@@ -6558,8 +6562,7 @@ msgstr "ອື່ນ&ຯ"
 #~ "%2 ຜິດພາດ"
 
 #~ msgid ""
-#~ "You are about to leave secure mode. Transmissions will no longer be "
-#~ "encrypted.\n"
+#~ "You are about to leave secure mode. Transmissions will no longer be encrypted.\n"
 #~ "This means that a third party could observe your data in transit."
 #~ msgstr ""
 #~ "ທ່ານກຳລັງຈະອອກຈາກໂຫມດຄວາມປອດໄຟຕໍ່ໄປ ການສົ່ງແລະຮັບ ຂໍ້ມູນຈະບໍ່ຖືກເຂົ້າລະຫັດໄວ້\n"
@@ -6583,9 +6586,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The procedure to set the client certificate for the session failed."
 #~ msgstr "ໂພຊີເດີຕັ້ງໃບຮັບຮອງໄຄເອນສຳລັບເຊສຊັນທຳງານລົ້ມເຫລວ"
 
-#~ msgid ""
-#~ "The IP address of the host %1 does not match the one the certificate was "
-#~ "issued to."
+#~ msgid "The IP address of the host %1 does not match the one the certificate was issued to."
 #~ msgstr "ໝາຍເລກໄອພີຂອງໂຫສ %1 ບໍ່ເຂົ້າກັບໃບຮັບຮອງທີ່ມີ"
 
 #~ msgid "Server Authentication"
@@ -6600,8 +6601,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The server certificate failed the authenticity test (%1)."
 #~ msgstr "ໃບຮັບຮອງຂອງເຊີບເວີ ລົ້ມເຫລວໃນການທົດສອບສິດ (%1)"
 
-#~ msgid ""
-#~ "Would you like to accept this certificate forever without being prompted?"
+#~ msgid "Would you like to accept this certificate forever without being prompted?"
 #~ msgstr "ທ່ານຕ້ອງການຍອມຮັບໃບຮັບຮອງຕະລອດໄປຫລືບໍ່ເພື່ອຈະບໍ່ໃຫ້ມີການຖາມຊຳ້ອິກ ?"
 
 #~ msgid "&Forever"
@@ -6610,28 +6610,17 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "&Current Sessions Only"
 #~ msgstr "&ເຊສຊັນປະຈຸບັນເທົ່ານັ້ນ"
 
-#~ msgid ""
-#~ "You have indicated that you wish to accept this certificate, but it is "
-#~ "not issued to the server who is presenting it. Do you wish to continue "
-#~ "loading?"
-#~ msgstr ""
-#~ "ທ່ານແຈ້ງໃຫ້ຮູ້ວ່າທ່ານຕ້ອງການຍອມຮັບໃບຮັບຮອງແຕ່ບໍ່ປາກົດວ່າມີເຊີບເວີໃດທີສະແດງໃບຮັບຮອງ "
-#~ "ນີ້ທ່ານຕ້ອງການທຳການໂຫລດຕໍ່ໄປຫລືບໍ່ ?"
+#~ msgid "You have indicated that you wish to accept this certificate, but it is not issued to the server who is presenting it. Do you wish to continue loading?"
+#~ msgstr "ທ່ານແຈ້ງໃຫ້ຮູ້ວ່າທ່ານຕ້ອງການຍອມຮັບໃບຮັບຮອງແຕ່ບໍ່ປາກົດວ່າມີເຊີບເວີໃດທີສະແດງໃບຮັບຮອງ ນີ້ທ່ານຕ້ອງການທຳການໂຫລດຕໍ່ໄປຫລືບໍ່ ?"
+
+#~ msgid "SSL certificate is being rejected as requested. You can disable this in the KDE Control Center."
+#~ msgstr "ໃບຮັບຮອງ SSL ໄດ້ຖືກຕັ້ງໃຫ້ປະຕິເສດຈາກການຮ້ອງຂໍແລະທ່ານສາມາດຍົກເລີກມັນໄດ້ໃນສູນຄວບຄຸມ KDE"
 
 #~ msgid ""
-#~ "SSL certificate is being rejected as requested. You can disable this in "
-#~ "the KDE Control Center."
+#~ "You are about to enter secure mode. All transmissions will be encrypted unless otherwise noted.\n"
+#~ "This means that no third party will be able to easily observe your data in transit."
 #~ msgstr ""
-#~ "ໃບຮັບຮອງ SSL ໄດ້ຖືກຕັ້ງໃຫ້ປະຕິເສດຈາກການຮ້ອງຂໍແລະທ່ານສາມາດຍົກເລີກມັນໄດ້ໃນສູນຄວບຄຸມ KDE"
-
-#~ msgid ""
-#~ "You are about to enter secure mode. All transmissions will be encrypted "
-#~ "unless otherwise noted.\n"
-#~ "This means that no third party will be able to easily observe your data "
-#~ "in transit."
-#~ msgstr ""
-#~ "ທ່ານກຳລັງເຂົ້່າສູ່ໂຫມດຄວາມປອດໄພ ຊື່ງຈາກນີໄປການຮັບ/"
-#~ "ສົ່ງຂໍ້ມູນຈະຖືກເຂົ້າລະຫັດໄວ້ກ່ອນຈົນກວ່າມີການປ່ຽນແປງອື່ນ\n"
+#~ "ທ່ານກຳລັງເຂົ້່າສູ່ໂຫມດຄວາມປອດໄພ ຊື່ງຈາກນີໄປການຮັບ/ສົ່ງຂໍ້ມູນຈະຖືກເຂົ້າລະຫັດໄວ້ກ່ອນຈົນກວ່າມີການປ່ຽນແປງອື່ນ\n"
 #~ "ຊື່ງຈະເຮັດໃຫ້ບຸນຄົນອື່ນບໍ່ສາມາດດັກຈັບແລະອ່ານຂໍ້ມູນຂອງທ່ານໄດ້ງ່າຍປານໃດ"
 
 #~ msgid "Display SSL Information"
@@ -7136,12 +7125,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 #~ msgstr "<p><b>ໂຊລູຊັນທີ່ເປັນໄປໄດ້</b>:</p><ul><li>"
 
-#~ msgid ""
-#~ "Contact your appropriate computer support system, whether the system "
-#~ "administrator, or technical support group for further assistance."
-#~ msgstr ""
-#~ "ຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການດູແລລະບົບຄອມພິວເຕີຂອງທ່ານຊື່ງາດຈະເປັນຜູ້ດູແລລະບົບຫລືບໍລິການທາງເທັກນິດໃນການຂໍ "
-#~ "ຄຳແນະນຳ"
+#~ msgid "Contact your appropriate computer support system, whether the system administrator, or technical support group for further assistance."
+#~ msgstr "ຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການດູແລລະບົບຄອມພິວເຕີຂອງທ່ານຊື່ງາດຈະເປັນຜູ້ດູແລລະບົບຫລືບໍລິການທາງເທັກນິດໃນການຂໍ ຄຳແນະນຳ"
 
 #~ msgid "Contact the administrator of the server for further assistance."
 #~ msgstr "ຕິດຕໍ່ຜູ້ດູແລລະບົບ ຫລືບໍລິການທາງເທັກນິກໃນການຂໍຮັບຄຳແນະນຳ"
@@ -7149,18 +7134,13 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Check your access permissions on this resource."
 #~ msgstr "ໂປດກວດສອບສິດທີ່ໄດ້ຮັບອະນຸຍາດໃຊ້ສັບພະຍາກອນນີ້ຂອງທ່ານ"
 
-#~ msgid ""
-#~ "Your access permissions may be inadequate to perform the requested "
-#~ "operation on this resource."
+#~ msgid "Your access permissions may be inadequate to perform the requested operation on this resource."
 #~ msgstr "ສິດທີ່ໄດ້ຮັບອະນຸຍາດທ່ານອາດຈະບໍ່ພຽງພໍໃນການທຳປະຕິບັດການເທີງສັບພະຍາກອນນີ້"
 
-#~ msgid ""
-#~ "The file may be in use (and thus locked) by another user or application."
+#~ msgid "The file may be in use (and thus locked) by another user or application."
 #~ msgstr "ແຟ້ມອາດຈະຖືກໃຊ້ຢູ່(ແລະອາດຖືກລອກໄວ້) ໂດຍຜູ້ໃຊ້ຫລືແອບພິເຄຊັ້ນ"
 
-#~ msgid ""
-#~ "Check to make sure that no other application or user is using the file or "
-#~ "has locked the file."
+#~ msgid "Check to make sure that no other application or user is using the file or has locked the file."
 #~ msgstr "ໂປດກວດສອບໃຫ້ແນ່ໃຈວ່າບໍ່ມີແອບພິເຄຊັ້ນຫລືຜູ້ໃຊ້ໃດກຳລັງໃຊ້ງານແຟ້ມຫລືລອກແຟ້ມໄວ້ຢູ່ຫລືບໍ่່"
 
 #~ msgid "Although unlikely, a hardware error may have occurred."
@@ -7169,50 +7149,22 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "You may have encountered a bug in the program."
 #~ msgstr "ທ່ານອາດຈະເຂົ້າຖື່ງສ່ວນທີ່ເປັນຄວາມຜິດພາດຂອງໂປຣແກຣ"
 
-#~ msgid ""
-#~ "This is most likely to be caused by a bug in the program. Please consider "
-#~ "submitting a full bug report as detailed below."
-#~ msgstr ""
-#~ "ນີ້ອາດຈະຄ້າຍກັບຂໍ້ຜິດພາດ (ບັກ) ໃນໂປຣແກຣມໂປດພິຈະລະນາລາຍງານຄວາມຜິດພາດໃນລາຍອຽດດ້ານລຸ່ມນີ້"
+#~ msgid "This is most likely to be caused by a bug in the program. Please consider submitting a full bug report as detailed below."
+#~ msgstr "ນີ້ອາດຈະຄ້າຍກັບຂໍ້ຜິດພາດ (ບັກ) ໃນໂປຣແກຣມໂປດພິຈະລະນາລາຍງານຄວາມຜິດພາດໃນລາຍອຽດດ້ານລຸ່ມນີ້"
 
-#~ msgid ""
-#~ "Update your software to the latest version. Your distribution should "
-#~ "provide tools to update your software."
+#~ msgid "Update your software to the latest version. Your distribution should provide tools to update your software."
 #~ msgstr "ໃນອັບເດດຊອບແວໄປເປັນລຸ່ນລ່າສຸດນັ້ນດິສທິບິວຊັ້ນຂອງທ່ານມັກຈະມີເຄື່ອງມືສຳລັບໃຊ້ອັບເດດໃຫ້ຢູ່ແລ້ວ"
 
-#~ msgid ""
-#~ "When all else fails, please consider helping the KDE team or the third "
-#~ "party maintainer of this software by submitting a high quality bug "
-#~ "report. If the software is provided by a third party, please contact them "
-#~ "directly. Otherwise, first look to see if the same bug has been submitted "
-#~ "by someone else by searching at the <a href=\"http://bugs.kde.org/\">KDE "
-#~ "bug reporting website</a>. If not, take note of the details given above, "
-#~ "and include them in your bug report, along with as many other details as "
-#~ "you think might help."
-#~ msgstr ""
-#~ "ຫາກມີຂໍ້ຜິດພາດຫລືອື່ນຯ ໂປດຊ່ວຍເລຫືອທີ KDE "
-#~ "ຫລືຜູຸ້ດູແລອື່ນຯຂອງຊອບແວນີ້ດ້ວຍການລາຍງານຄວາມຜິດພາດດ້ວຍລາຍລະອຽດຄວາມຜິດພາດທີ່ສົມບູນ "
-#~ "ຫາກຊອບແວມາຈາກຜູຸ້ສ້າງອື່ມຯ ໂປດຕິດຕໍ່ຜູ້ສ້າງຊອບແວໂດຍຕົງໂດຍກ່ອນອື້ນ "
-#~ "ໃຫ້ກວດສອບການລາຍງານຄວາມຜິດພາດກ່ອນຯທີ່ເວັບໄຊ <a href=\"http://bugs.kde.org/"
-#~ "\">ລາຍງານຂໍ້ຜິດພາດ KDE</a> "
-#~ "ວ່າມີການລາຍງານຜິດພາດດ່ຽວກັນນີ້ມາກ່ອນຫລືບໍ່ຫາກຍັງບໍ່ມີໃຫ້ລວບລວມລາຍລະອຽດທີີໃຫ້ດ້ານເທີງ "
-#~ "ແລະລວມມັນເຂົ້າກັບລາຍງານຄວາມຜິດພາດຂອງທ່ານຫລືລາຍລະອຽດອື່ນຯທີ່ທ່ານເຫັນວ່າມີປະໂຫຍດ "
-#~ "ໃນການແກ້ໄຂຄວາມຜິດພາດ"
+#~ msgid "When all else fails, please consider helping the KDE team or the third party maintainer of this software by submitting a high quality bug report. If the software is provided by a third party, please contact them directly. Otherwise, first look to see if the same bug has been submitted by someone else by searching at the <a href=\"http://bugs.kde.org/\">KDE bug reporting website</a>. If not, take note of the details given above, and include them in your bug report, along with as many other details as you think might help."
+#~ msgstr "ຫາກມີຂໍ້ຜິດພາດຫລືອື່ນຯ ໂປດຊ່ວຍເລຫືອທີ KDE ຫລືຜູຸ້ດູແລອື່ນຯຂອງຊອບແວນີ້ດ້ວຍການລາຍງານຄວາມຜິດພາດດ້ວຍລາຍລະອຽດຄວາມຜິດພາດທີ່ສົມບູນ ຫາກຊອບແວມາຈາກຜູຸ້ສ້າງອື່ມຯ ໂປດຕິດຕໍ່ຜູ້ສ້າງຊອບແວໂດຍຕົງໂດຍກ່ອນອື້ນ ໃຫ້ກວດສອບການລາຍງານຄວາມຜິດພາດກ່ອນຯທີ່ເວັບໄຊ <a href=\"http://bugs.kde.org/\">ລາຍງານຂໍ້ຜິດພາດ KDE</a> ວ່າມີການລາຍງານຜິດພາດດ່ຽວກັນນີ້ມາກ່ອນຫລືບໍ່ຫາກຍັງບໍ່ມີໃຫ້ລວບລວມລາຍລະອຽດທີີໃຫ້ດ້ານເທີງ ແລະລວມມັນເຂົ້າກັບລາຍງານຄວາມຜິດພາດຂອງທ່ານຫລືລາຍລະອຽດອື່ນຯທີ່ທ່ານເຫັນວ່າມີປະໂຫຍດ ໃນການແກ້ໄຂຄວາມຜິດພາດ"
 
 #~ msgid "There may have been a problem with your network connection."
 #~ msgstr "ອາດຈະມີປັນຫາການເຊື່ອມຕໍ່ກັບລະບົບເຄືອຂ່າຍຂອງທ່ານ"
 
-#~ msgid ""
-#~ "There may have been a problem with your network configuration. If you "
-#~ "have been accessing the Internet with no problems recently, this is "
-#~ "unlikely."
-#~ msgstr ""
-#~ "ອາດຈະມີປັນຫາເນື່ອງມາຈາກການປັບແຕ່ງລະບົບເຄືອຂ່າຍຂອງທ່ານ ຫາກທ່ານເຄີຍສາມາດເຂົ້່າໃຊ້ງານອິນເຕີ "
-#~ "ເນັກໂດຍບໍ່ມີປັນຫາກມາກ່ອນ"
+#~ msgid "There may have been a problem with your network configuration. If you have been accessing the Internet with no problems recently, this is unlikely."
+#~ msgstr "ອາດຈະມີປັນຫາເນື່ອງມາຈາກການປັບແຕ່ງລະບົບເຄືອຂ່າຍຂອງທ່ານ ຫາກທ່ານເຄີຍສາມາດເຂົ້່າໃຊ້ງານອິນເຕີ ເນັກໂດຍບໍ່ມີປັນຫາກມາກ່ອນ"
 
-#~ msgid ""
-#~ "There may have been a problem at some point along the network path "
-#~ "between the server and this computer."
+#~ msgid "There may have been a problem at some point along the network path between the server and this computer."
 #~ msgstr "ມັນອາດຈະມີປັນຫາໃນບາງຈຸດໃນເສັ້່ນທາງສືສານລະຫວ່າງເຊີບເວີແລະຄອມພິວເຕີນີ້"
 
 #~ msgid "Try again, either now or at a later time."
@@ -7230,8 +7182,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "You may have incorrectly typed the location."
 #~ msgstr "ທ່ານອາດຈະພິມຕຳແຫນ່ງທີ່ຢູ່ບໍ່ຖືກຕ້ອງ"
 
-#~ msgid ""
-#~ "Double-check that you have entered the correct location and try again."
+#~ msgid "Double-check that you have entered the correct location and try again."
 #~ msgstr "ໂປດກວດສອບຊຳ້ວ່າທ່ານໄດ້ເຕີ່ມຕຳແໜ່ງທີ່ຢູ່ທີ່ຖືກຕ້ອງແລ້ວແລະລອງໃຫມ່ອີກຄັ້ງ"
 
 #~ msgid "Check your network connection status."
@@ -7240,12 +7191,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Cannot Open Resource For Reading"
 #~ msgstr "ບໍ່ສາມາດເປີດໃຊ້ພະຍາກອນເພື່ອທຳການອ່ານໄດ້"
 
-#~ msgid ""
-#~ "This means that the contents of the requested file or directory <strong>%"
-#~ "1</strong> could not be retrieved, as read access could not be obtained."
-#~ msgstr ""
-#~ "ບໍ່ສາມາດຮຽກຂໍເນື້ອຫາຂອງແຟ້ມທີ່ຕ້ອງການຫລືໄດເລັກທໍລີ<strong>%1</strong> "
-#~ "ໄດ້ເນື່ອງຈາກບໍ່ມີສິດໃນການອ່ານ"
+#~ msgid "This means that the contents of the requested file or directory <strong>%1</strong> could not be retrieved, as read access could not be obtained."
+#~ msgstr "ບໍ່ສາມາດຮຽກຂໍເນື້ອຫາຂອງແຟ້ມທີ່ຕ້ອງການຫລືໄດເລັກທໍລີ<strong>%1</strong> ໄດ້ເນື່ອງຈາກບໍ່ມີສິດໃນການອ່ານ"
 
 #~ msgid "You may not have permissions to read the file or open the directory."
 #~ msgstr "ທ່ານຍັງບໍ່ມີສິດໃນການອ່ານແຟ້ມຫລືເປີດໃຊ້ໄດເລັກທໍລີນີ້"
@@ -7253,12 +7200,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Cannot Open Resource For Writing"
 #~ msgstr "ບໍ່ສາມາດເປີດທັບພະຍາກອນເພື່ອທຳການຂຽນໄດ້"
 
-#~ msgid ""
-#~ "This means that the file, <strong>%1</strong>, could not be written to as "
-#~ "requested, because access with permission to write could not be obtained."
-#~ msgstr ""
-#~ "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມ<strong>%1</"
-#~ "strong>ຕາມຕ້ອງການໄດ້ເນືອງຈາກອາດຈະຍັງບໍ່ມີສິດໃນການເຂົ້າໃຊ້ແລະຂຽນໄປໄດ້"
+#~ msgid "This means that the file, <strong>%1</strong>, could not be written to as requested, because access with permission to write could not be obtained."
+#~ msgstr "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມ<strong>%1</strong>ຕາມຕ້ອງການໄດ້ເນືອງຈາກອາດຈະຍັງບໍ່ມີສິດໃນການເຂົ້າໃຊ້ແລະຂຽນໄປໄດ້"
 
 #~ msgid "Cannot Initiate the %1 Protocol"
 #~ msgstr "ບໍ່ສາມາດເລີ່ມໂປໂຕຄອນ %1 ໄດ້"
@@ -7266,76 +7209,39 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Unable to Launch Process"
 #~ msgstr "ບໍ່ສາມາດຮຽກທຳງານໂປຣເຊສໄດ້"
 
-#~ msgid ""
-#~ "The program on your computer which provides access to the <strong>%1</"
-#~ "strong> protocol could not be started. This is usually due to technical "
-#~ "reasons."
-#~ msgstr ""
-#~ "ບໍ່ສາມາດເລີ່ມໂປຣແກຣມເທີງຄອມພິວເຕີຂອງທ່ານທີ່ຕ້ອງການເຂົ້າໃຊ້ງານໂປຣໂຕຄອນ<strong>%1</"
-#~ "strong> ໄ້ດ້ໍືຊື່ງອາດຈະເກີດຈາກປັນຫາທາງເທັກນິກ"
+#~ msgid "The program on your computer which provides access to the <strong>%1</strong> protocol could not be started. This is usually due to technical reasons."
+#~ msgstr "ບໍ່ສາມາດເລີ່ມໂປຣແກຣມເທີງຄອມພິວເຕີຂອງທ່ານທີ່ຕ້ອງການເຂົ້າໃຊ້ງານໂປຣໂຕຄອນ<strong>%1</strong> ໄ້ດ້ໍືຊື່ງອາດຈະເກີດຈາກປັນຫາທາງເທັກນິກ"
 
-#~ msgid ""
-#~ "The program which provides compatibility with this protocol may not have "
-#~ "been updated with your last update of KDE. This can cause the program to "
-#~ "be incompatible with the current version and thus not start."
-#~ msgstr ""
-#~ "ໂປຣແກຣມທີ່ຕ້ອງການຄວາມເຂົ້າກັນໄດ້ກັບໂປຣໂຕຄອນນີ້ອາດຈະຍັງບໍ່ໄດ້ປັບປຸງ ເປັນໃຫ້ເປັນລຸ້ນໃຫມ່ຕາມ KDE "
-#~ "ຂອງທ່ານໍືຊື່ງອາດຈະເຮັດໃຫ້ເກີດຄວາມເຂົ້າກນັບໍ່ໄດ້ກັບໂປຣແຣກມລຸ້ນປະຈຸບັນທີ່ທ່ານໃຊ້ຢູ່ແລະບໍ່ສາມາດທຳງານໄດ້"
+#~ msgid "The program which provides compatibility with this protocol may not have been updated with your last update of KDE. This can cause the program to be incompatible with the current version and thus not start."
+#~ msgstr "ໂປຣແກຣມທີ່ຕ້ອງການຄວາມເຂົ້າກັນໄດ້ກັບໂປຣໂຕຄອນນີ້ອາດຈະຍັງບໍ່ໄດ້ປັບປຸງ ເປັນໃຫ້ເປັນລຸ້ນໃຫມ່ຕາມ KDE ຂອງທ່ານໍືຊື່ງອາດຈະເຮັດໃຫ້ເກີດຄວາມເຂົ້າກນັບໍ່ໄດ້ກັບໂປຣແຣກມລຸ້ນປະຈຸບັນທີ່ທ່ານໃຊ້ຢູ່ແລະບໍ່ສາມາດທຳງານໄດ້"
 
 #~ msgid "Internal Error"
 #~ msgstr "ຂໍ້ຜິດພາດພາຍໃນ"
 
-#~ msgid ""
-#~ "The program on your computer which provides access to the <strong>%1</"
-#~ "strong> protocol has reported an internal error."
-#~ msgstr ""
-#~ "ເກີດຄວາມຜິດພາດພາຍໃນຈາກໂປຣແກຣບົນຄອມພິວເຕີຂອງທ່ານຊື່ງຕ້ອງການເຂົ້າໃຊ້ງານໂປຣໂຕຣຄອນ "
-#~ "<strong>%1</strong>"
+#~ msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has reported an internal error."
+#~ msgstr "ເກີດຄວາມຜິດພາດພາຍໃນຈາກໂປຣແກຣບົນຄອມພິວເຕີຂອງທ່ານຊື່ງຕ້ອງການເຂົ້າໃຊ້ງານໂປຣໂຕຣຄອນ <strong>%1</strong>"
 
 #, fuzzy
 #~ msgid "Improperly Formatted URL"
 #~ msgstr "ຮູບແບບ URL ບໍ່ຖືກຕ້ອງຫລືສົມບູນ "
 
-#~ msgid ""
-#~ "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
-#~ "strong>ocator (URL) that you entered was not properly formatted. The "
-#~ "format of a URL is generally as follows:<blockquote><strong>protocol://"
-#~ "user:password@www.example.org:port/directory/filename.extension?"
-#~ "query=value</strong></blockquote>"
-#~ msgstr ""
-#~ "ຕຳແຫນ່ງຂອງ<strong>U</strong>niversal <strong>R</strong>esource <strong>L</"
-#~ "strong>ocation (URL) ທີ່ທ່ານເຕີ່ມອາດຈະບໍ່ຖືກຕ້ອງຫລືສົມບູນ ຊື່ງຮູບແບບຂອງຕາມປົກກະຕິຄື URL :"
-#~ "<blockquote><strong>ໂປຣໂຕຄອນ://ຜູ້ໃຊ້@ລະຫັດຜ່ານ:ໂຫສ.ຊື່:ພອດ/ໄດເລັກທໍລີ/ຊື່ແຟ້ມ."
-#~ "ສວນ່ຂະຫຍາຍ?ຕົວແປ=ຄ່າ</strong></blockquote>"
+#~ msgid "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</strong>ocator (URL) that you entered was not properly formatted. The format of a URL is generally as follows:<blockquote><strong>protocol://user:password@www.example.org:port/directory/filename.extension?query=value</strong></blockquote>"
+#~ msgstr "ຕຳແຫນ່ງຂອງ<strong>U</strong>niversal <strong>R</strong>esource <strong>L</strong>ocation (URL) ທີ່ທ່ານເຕີ່ມອາດຈະບໍ່ຖືກຕ້ອງຫລືສົມບູນ ຊື່ງຮູບແບບຂອງຕາມປົກກະຕິຄື URL :<blockquote><strong>ໂປຣໂຕຄອນ://ຜູ້ໃຊ້@ລະຫັດຜ່ານ:ໂຫສ.ຊື່:ພອດ/ໄດເລັກທໍລີ/ຊື່ແຟ້ມ.ສວນ່ຂະຫຍາຍ?ຕົວແປ=ຄ່າ</strong></blockquote>"
 
 #~ msgid "Unsupported Protocol %1"
 #~ msgstr "ບໍ່ສະນັບສະນຸນໂປຣໂຕຄອນ %1"
 
-#~ msgid ""
-#~ "The protocol <strong>%1</strong> is not supported by the KDE programs "
-#~ "currently installed on this computer."
-#~ msgstr ""
-#~ "ໂປຣໂຕຄອນ <strong>%1</strong> ຍັງບໍ່ໄດ້ຮັບການສະນັບສະນຸນຈາກໂປຣແກຣມ KDE "
-#~ "ຕົວປະຈຸບັນທີ່ຕິດຕັ້ງໃນຄອມພິວເຕີນີ้້"
+#~ msgid "The protocol <strong>%1</strong> is not supported by the KDE programs currently installed on this computer."
+#~ msgstr "ໂປຣໂຕຄອນ <strong>%1</strong> ຍັງບໍ່ໄດ້ຮັບການສະນັບສະນຸນຈາກໂປຣແກຣມ KDE ຕົວປະຈຸບັນທີ່ຕິດຕັ້ງໃນຄອມພິວເຕີນີ้້"
 
 #~ msgid "The requested protocol may not be supported."
 #~ msgstr "ບໍ່ສະນັບສະນຸນໂປໂຕຄອນທີ່ຮ້ອງຂໍມາ"
 
-#~ msgid ""
-#~ "The versions of the %1 protocol supported by this computer and the server "
-#~ "may be incompatible."
+#~ msgid "The versions of the %1 protocol supported by this computer and the server may be incompatible."
 #~ msgstr "ລຸ້ນຂອງໂປໂຕຄອນ %1 ທີ່ໄດ້ຮັບການສະນັບສະນຸນໂດຍຄອມພິວເຕີນີ້ແລະເຊີບເວີອາດຈະເຂົ້າກັນລໍ່ໄດ້່"
 
-#~ msgid ""
-#~ "You may perform a search on the Internet for a KDE program (called a "
-#~ "kioslave or ioslave) which supports this protocol. Places to search "
-#~ "include <a href=\"http://apps.kde.com/\">http://apps.kde.com/</a> and <a "
-#~ "href=\"http://freshmeat.net/\">http://freshmeat.net/</a>."
-#~ msgstr ""
-#~ "ທ່ານສາມາດຄົ້ນຫາຂໍ້ມູນເທີງອິນເຕີເນັດດ້ວຍໂປຣແກຣຂອງ KDE (ທີ່ຮຽກວ່າ kioslave ຫລື ioslave) "
-#~ "ຊື່ງສະນັບສະນຸນໂປໂຕຄອນນີ້ຊື່ງສະຖານສຳລັບຄົ້ນຫາຈະຮວມຖືງ <a href=\"http://apps.kde.com/"
-#~ "\">http://apps.kde.com/</a> ແລະ <a href=\"http://freshmeat.net/\">http://"
-#~ "freshmeat.net/</a>"
+#~ msgid "You may perform a search on the Internet for a KDE program (called a kioslave or ioslave) which supports this protocol. Places to search include <a href=\"http://apps.kde.com/\">http://apps.kde.com/</a> and <a href=\"http://freshmeat.net/\">http://freshmeat.net/</a>."
+#~ msgstr "ທ່ານສາມາດຄົ້ນຫາຂໍ້ມູນເທີງອິນເຕີເນັດດ້ວຍໂປຣແກຣຂອງ KDE (ທີ່ຮຽກວ່າ kioslave ຫລື ioslave) ຊື່ງສະນັບສະນຸນໂປໂຕຄອນນີ້ຊື່ງສະຖານສຳລັບຄົ້ນຫາຈະຮວມຖືງ <a href=\"http://apps.kde.com/\">http://apps.kde.com/</a> ແລະ <a href=\"http://freshmeat.net/\">http://freshmeat.net/</a>"
 
 #~ msgid "URL Does Not Refer to a Resource."
 #~ msgstr "ຕຳແຫນ່ງ URL ບໍ່ໄດ້ອ້າງຖື່ງແຫລ່ງທີ່ມາ"
@@ -7343,41 +7249,20 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Protocol is a Filter Protocol"
 #~ msgstr "ໂປຣໂຕຄອນເປັນໂປຣໂຕຄອນແບບຕົວກອງ"
 
-#~ msgid ""
-#~ "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
-#~ "strong>ocator (URL) that you entered did not refer to a specific resource."
-#~ msgstr ""
-#~ "ຕຳແຫນ່ງ <strong>U</strong>niversal <strong>R</strong>esource <strong>L</"
-#~ "strong>ທີ່ທ່ານຕື່ມບໍ່ໄດ້ອ້າງອີງຖືງແຫລ່ງ"
+#~ msgid "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</strong>ocator (URL) that you entered did not refer to a specific resource."
+#~ msgstr "ຕຳແຫນ່ງ <strong>U</strong>niversal <strong>R</strong>esource <strong>L</strong>ທີ່ທ່ານຕື່ມບໍ່ໄດ້ອ້າງອີງຖືງແຫລ່ງ"
 
-#~ msgid ""
-#~ "KDE is able to communicate through a protocol within a protocol; the "
-#~ "protocol specified is only for use in such situations, however this is "
-#~ "not one of these situations. This is a rare event, and is likely to "
-#~ "indicate a programming error."
-#~ msgstr ""
-#~ "KDE ສາມາດສື່ສານກັນໄດ້ ຜ່ານທາງໂປຣໂຕຄອລຊ້ອນໂປຣໂຕຄອບ "
-#~ "ເຊິ່ງຈະກຳນົດໃຊ້ໂປຣໂຕຄອບສະເພາະກັບແຕ່ລະສະຖານະການ ຢ່າງໃດກໍຕາມ "
-#~ "ມັນກໍບໍ່ໄດ້ມີພຽງຫນຶ່ງຕົວສຳຫລັບສະຖານະການນີ້ ນີ້ເປັນເຫດການຈິງ "
-#~ "ແລະເບິ່ງຄືຈະເປັນຄວາມຜິດພາດໃນການຂຽນໂປຣແກຣມ"
+#~ msgid "KDE is able to communicate through a protocol within a protocol; the protocol specified is only for use in such situations, however this is not one of these situations. This is a rare event, and is likely to indicate a programming error."
+#~ msgstr "KDE ສາມາດສື່ສານກັນໄດ້ ຜ່ານທາງໂປຣໂຕຄອລຊ້ອນໂປຣໂຕຄອບ ເຊິ່ງຈະກຳນົດໃຊ້ໂປຣໂຕຄອບສະເພາະກັບແຕ່ລະສະຖານະການ ຢ່າງໃດກໍຕາມ ມັນກໍບໍ່ໄດ້ມີພຽງຫນຶ່ງຕົວສຳຫລັບສະຖານະການນີ້ ນີ້ເປັນເຫດການຈິງ ແລະເບິ່ງຄືຈະເປັນຄວາມຜິດພາດໃນການຂຽນໂປຣແກຣມ"
 
 #~ msgid "Unsupported Action: %1"
 #~ msgstr "ບໍ່ສະຫນັບສະຫນຸນການກະທຳ: %1"
 
-#~ msgid ""
-#~ "The requested action is not supported by the KDE program which is "
-#~ "implementing the <strong>%1</strong> protocol."
-#~ msgstr ""
-#~ "ການກະທຳທີ່ຮ້ອງຂໍມາ ບໍ່ສະຫນັບສະຫນຸນໂດຍໂປຣແກຣມ KDE ເຊິ່ງເປັນຕົວກຳນົດໂປຣໂຕຄອລ <strong>%1</"
-#~ "strong>"
+#~ msgid "The requested action is not supported by the KDE program which is implementing the <strong>%1</strong> protocol."
+#~ msgstr "ການກະທຳທີ່ຮ້ອງຂໍມາ ບໍ່ສະຫນັບສະຫນຸນໂດຍໂປຣແກຣມ KDE ເຊິ່ງເປັນຕົວກຳນົດໂປຣໂຕຄອລ <strong>%1</strong>"
 
-#~ msgid ""
-#~ "This error is very much dependent on the KDE program. The additional "
-#~ "information should give you more information than is available to the KDE "
-#~ "input/output architecture."
-#~ msgstr ""
-#~ "ຂໍ້ຜິດພາດນີ້ ຂຶ້ນຢູ່ກັບໂປຣແກຣມ KDE ເປັນຢ່າງຫລາຍ ເຊິ່ງລາຍລະອຽດເພີ້ມເຕີມ "
-#~ "ຄວນຈະມີລາຍລະອຽດຫລາຍກວ່າທີ່ມີຢູ່ ໃນສ່ວນສະຖາປັດຕະຍະກຳ input/output ຂອງ KDE "
+#~ msgid "This error is very much dependent on the KDE program. The additional information should give you more information than is available to the KDE input/output architecture."
+#~ msgstr "ຂໍ້ຜິດພາດນີ້ ຂຶ້ນຢູ່ກັບໂປຣແກຣມ KDE ເປັນຢ່າງຫລາຍ ເຊິ່ງລາຍລະອຽດເພີ້ມເຕີມ ຄວນຈະມີລາຍລະອຽດຫລາຍກວ່າທີ່ມີຢູ່ ໃນສ່ວນສະຖາປັດຕະຍະກຳ input/output ຂອງ KDE "
 
 #~ msgid "Attempt to find another way to accomplish the same outcome."
 #~ msgstr "ກຳລັງຫາທາງອື່ນເພື່ອໃຫ້ໄດ້ຜົນລັບແບບດຽວກັນ"
@@ -7385,9 +7270,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "File Expected"
 #~ msgstr "ຕ້ອງການແຟ້ມ"
 
-#~ msgid ""
-#~ "The request expected a file, however the directory <strong>%1</strong> "
-#~ "was found instead."
+#~ msgid "The request expected a file, however the directory <strong>%1</strong> was found instead."
 #~ msgstr "ສິ່ງທີ່ຮ້ອງຂໍມາຕ້ອງການແຟ້ມ ແຕ່ກັບພົບວ່າ  <strong>%1</strong> ເປັນໄດເຣກທໍລີ"
 
 #~ msgid "This may be an error on the server side."
@@ -7396,9 +7279,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Directory Expected"
 #~ msgstr "ຕ້ອງການໄດເຣກທໍລີ"
 
-#~ msgid ""
-#~ "The request expected a directory, however the file <strong>%1</strong> "
-#~ "was found instead."
+#~ msgid "The request expected a directory, however the file <strong>%1</strong> was found instead."
 #~ msgstr "ສິ່ງທີ່ຮ້ອງຂໍມາຕ້ອງການໄດເຣກທໍລີ ແຕ່ກັບພົບວ່າ  <strong>%1</strong>ເປັນແຟ້ມ"
 
 #~ msgid "File or Directory Does Not Exist"
@@ -7407,13 +7288,10 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The specified file or directory <strong>%1</strong> does not exist."
 #~ msgstr "ແຟ້ມຫລືໄດເຣກທໍລີ <strong>%1</strong> ທີ່ກຳນົດຍັງບໍ່ມີ"
 
-#~ msgid ""
-#~ "The requested file could not be created because a file with the same name "
-#~ "already exists."
+#~ msgid "The requested file could not be created because a file with the same name already exists."
 #~ msgstr "ບໍ່ສາມາດສ້າງແຟ້ມທີ່ຮ້ອງຂໍມາໄດ້ ເນື່ອງຈາກມີແຟ້ມເຊິ່ງມີຊື່ດຽວກັນຢູ່ແລ້ວ"
 
-#~ msgid ""
-#~ "Try moving the current file out of the way first, and then try again."
+#~ msgid "Try moving the current file out of the way first, and then try again."
 #~ msgstr "ລອງທຳການຍ້າຍແຟ້ມປັດຈຸບັນອອກໄປກ່ອນ ແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
 
 #~ msgid "Delete the current file and try again."
@@ -7422,13 +7300,10 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Choose an alternate filename for the new file."
 #~ msgstr "ເລືອກຊື່ແຟ້ມເປັນຊື່ອື່ນ ສຳຫລັບແຟ້ມໃຫມ່"
 
-#~ msgid ""
-#~ "The requested directory could not be created because a directory with the "
-#~ "same name already exists."
+#~ msgid "The requested directory could not be created because a directory with the same name already exists."
 #~ msgstr "ບໍ່ສາມາດສ້າງໄດເຣກທໍລີທີ່ຮ້ອງຂໍມາໄດ້ ເນື່ອງຈາກມີໄດເຣກທໍລີຊື່ດຽວກັນນີ້ຢູ່ແລ້ວ"
 
-#~ msgid ""
-#~ "Try moving the current directory out of the way first, and then try again."
+#~ msgid "Try moving the current directory out of the way first, and then try again."
 #~ msgstr "ລອງຍ້າຍໄດເຣກທໍລີປັດຈຸບັນອອກໄປກ່ອນ ແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
 
 #~ msgid "Delete the current directory and try again."
@@ -7440,15 +7315,10 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Unknown Host"
 #~ msgstr "ໂຮສຕ໌ທີ່ໍບໍ່ຮູ້ຈັກ"
 
-#~ msgid ""
-#~ "An unknown host error indicates that the server with the requested name, "
-#~ "<strong>%1</strong>, could not be located on the Internet."
-#~ msgstr ""
-#~ "ເກີດຄວາມຜິດພາດຈາກໂຮສຕ໌ທີ່ບໍ່ຮູ້ຈັກ ສະແດງວ່າ ເຊີບເວີຊື່ <strong>%1</strong>ທີ່ຮ້ອງຂໍມາ "
-#~ "ບໍ່ສາມາດຫາຕຳແຫນ່ງເທິງອິນເຕ່ເນຕໄດ້"
+#~ msgid "An unknown host error indicates that the server with the requested name, <strong>%1</strong>, could not be located on the Internet."
+#~ msgstr "ເກີດຄວາມຜິດພາດຈາກໂຮສຕ໌ທີ່ບໍ່ຮູ້ຈັກ ສະແດງວ່າ ເຊີບເວີຊື່ <strong>%1</strong>ທີ່ຮ້ອງຂໍມາ ບໍ່ສາມາດຫາຕຳແຫນ່ງເທິງອິນເຕ່ເນຕໄດ້"
 
-#~ msgid ""
-#~ "The name that you typed, %1, may not exist: it may be incorrectly typed."
+#~ msgid "The name that you typed, %1, may not exist: it may be incorrectly typed."
 #~ msgstr "ຊື່ %1 ທີ່ທ່ານພີມມາ ອາດຈະບໍ່ມີຢູ່ ຫລືອາດຈະເກີດຈາກການພີມຜິດ"
 
 #~ msgid "Access Denied"
@@ -7457,36 +7327,26 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Access was denied to the specified resource, <strong>%1</strong>."
 #~ msgstr "ໄດ້ຮັບການປະຕິເສດໃນການໃຊ້ງານຊັບພະຍາກອນ <strong>%1</strong>"
 
-#~ msgid ""
-#~ "You may have supplied incorrect authentication details or none at all."
+#~ msgid "You may have supplied incorrect authentication details or none at all."
 #~ msgstr "ທ່ານອາດຈະລືມໃສ່ລາຍລະອຽດຫລືໃສ່ລາຍລະອຽດບໍ່ຖືກຕ້ອງສຳຫລັບການກວດສອບສິດ"
 
-#~ msgid ""
-#~ "Your account may not have permission to access the specified resource."
+#~ msgid "Your account may not have permission to access the specified resource."
 #~ msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽນໄປຍັງຊັບພະຍາກອນນີ້"
 
-#~ msgid ""
-#~ "Retry the request and ensure your authentication details are entered "
-#~ "correctly."
-#~ msgstr ""
-#~ "ລອງເຮັດສິ່ງຮ້ອງຂໍມາ ແລະກວດສອບໃຫ້ແນ່ໃຈວ່າ ໄດ້ຕື່ມລາຍລະອຽດສ່ວນການກວດສອບສິດ ຖຶກຕ້ອງແລ້ວ"
+#~ msgid "Retry the request and ensure your authentication details are entered correctly."
+#~ msgstr "ລອງເຮັດສິ່ງຮ້ອງຂໍມາ ແລະກວດສອບໃຫ້ແນ່ໃຈວ່າ ໄດ້ຕື່ມລາຍລະອຽດສ່ວນການກວດສອບສິດ ຖຶກຕ້ອງແລ້ວ"
 
 #~ msgid "Write Access Denied"
 #~ msgstr "ໄດ້ຮັບການປະຕິເສດໃນການຂຽນ"
 
-#~ msgid ""
-#~ "This means that an attempt to write to the file <strong>%1</strong> was "
-#~ "rejected."
+#~ msgid "This means that an attempt to write to the file <strong>%1</strong> was rejected."
 #~ msgstr "ໄດ້ຮັບການປະຕິເສດໃຫ້ທຳການຂຽນໄປຍັງແຟ້ມ <strong>%1</strong>"
 
 #~ msgid "Unable to Enter Directory"
 #~ msgstr "ບໍ່ສາມາດເຂົ້າໄປຍັງໄດເຣກທໍລີໄດ້"
 
-#~ msgid ""
-#~ "This means that an attempt to enter (in other words, to open) the "
-#~ "requested directory <strong>%1</strong> was rejected."
-#~ msgstr ""
-#~ "ໄດ້ຮັບການປະຕິເສດໃນການເຂົ້າໄປຍັງ (ຫລື ເປີດໃຊ້) ໄດເຣກທໍລີ <strong>%1</strong> ທີ່ຮ້ອງຂໍມາ"
+#~ msgid "This means that an attempt to enter (in other words, to open) the requested directory <strong>%1</strong> was rejected."
+#~ msgstr "ໄດ້ຮັບການປະຕິເສດໃນການເຂົ້າໄປຍັງ (ຫລື ເປີດໃຊ້) ໄດເຣກທໍລີ <strong>%1</strong> ທີ່ຮ້ອງຂໍມາ"
 
 #~ msgid "Directory Listing Unavailable"
 #~ msgstr "ບໍ່ສາມາດເອີ້ນເບິ່ງພາຍໃນໄດເຣກທໍລີໄດ້"
@@ -7494,30 +7354,16 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Protocol %1 is not a Filesystem"
 #~ msgstr "ໂປຣໂຕຄອລ %1 ບໍ່ແມ່ນລະບົບແຟ້ມ"
 
-#~ msgid ""
-#~ "This means that a request was made which requires determining the "
-#~ "contents of the directory, and the KDE program supporting this protocol "
-#~ "is unable to do so."
-#~ msgstr ""
-#~ "ສິ່ງທີ່ຮ້ອງຂໍມາ ຕ້ອງການເອີ້ນເບິ່ງເນື້ນຫາພາຍໃນໄດເຣກທໍລີ ແລະໂປຣແກຣມ KDE "
-#~ "ທີ່ສະຫນັບສະຫນຸນໂປຣໂຕຄອລນີ້ ບໍ່ສາມາດເຮັດເຊັ່ນນັ້ນໄດ້"
+#~ msgid "This means that a request was made which requires determining the contents of the directory, and the KDE program supporting this protocol is unable to do so."
+#~ msgstr "ສິ່ງທີ່ຮ້ອງຂໍມາ ຕ້ອງການເອີ້ນເບິ່ງເນື້ນຫາພາຍໃນໄດເຣກທໍລີ ແລະໂປຣແກຣມ KDE ທີ່ສະຫນັບສະຫນຸນໂປຣໂຕຄອລນີ້ ບໍ່ສາມາດເຮັດເຊັ່ນນັ້ນໄດ້"
 
 #~ msgid "Cyclic Link Detected"
 #~ msgstr "ກວດສອບພົບລິງແບບວົນຮອບ"
 
-#~ msgid ""
-#~ "UNIX environments are commonly able to link a file or directory to a "
-#~ "separate name and/or location. KDE detected a link or series of links "
-#~ "that results in an infinite loop - i.e. the file was (perhaps in a "
-#~ "roundabout way) linked to itself."
-#~ msgstr ""
-#~ "ຕາມປົກະຕິ ສະພາບແວດລ້ອມຂອງລະບົບຢູນິກຊ໌ ສາມາດທຳການລິງແຟ້ມ ຫລືໄດເຣກທໍລີ ໄປເປັນຊື່ອື່ນ ແລະ/"
-#~ "ຫລືໃນຕຳແໜ່ງອື່ນໆ ໄດ້  ເຊິ່ງ KDE ໄດ້ກວດພົບລິງ ຫລືຊຸດຂອງລິງ ໃນແບບວົນຮອບບໍ່ຮູ້ຈົບ - ເຊັ່ນ "
-#~ "ແຟ້ມທີ່ທຳການລິງໄປຍັງຕົວມັນເອງ ເປັນຕົ້ນ"
+#~ msgid "UNIX environments are commonly able to link a file or directory to a separate name and/or location. KDE detected a link or series of links that results in an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to itself."
+#~ msgstr "ຕາມປົກະຕິ ສະພາບແວດລ້ອມຂອງລະບົບຢູນິກຊ໌ ສາມາດທຳການລິງແຟ້ມ ຫລືໄດເຣກທໍລີ ໄປເປັນຊື່ອື່ນ ແລະ/ຫລືໃນຕຳແໜ່ງອື່ນໆ ໄດ້  ເຊິ່ງ KDE ໄດ້ກວດພົບລິງ ຫລືຊຸດຂອງລິງ ໃນແບບວົນຮອບບໍ່ຮູ້ຈົບ - ເຊັ່ນ ແຟ້ມທີ່ທຳການລິງໄປຍັງຕົວມັນເອງ ເປັນຕົ້ນ"
 
-#~ msgid ""
-#~ "Delete one part of the loop in order that it does not cause an infinite "
-#~ "loop, and try again."
+#~ msgid "Delete one part of the loop in order that it does not cause an infinite loop, and try again."
 #~ msgstr "ລຶບສ່ວນຫນຶ່ງຂອງການວົນຮອບ ໃນລຳດັບທີ່ຈະທຳໃຫ້ມັນບໍເປັນການວົນຮອບບໍ່ຮູ້ຈົບ ແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
 
 #~ msgid "Request Aborted By User"
@@ -7532,15 +7378,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Cyclic Link Detected During Copy"
 #~ msgstr "ພົບລິງແບບວົນຮອບຂະນະທຳການຄັດລອກ"
 
-#~ msgid ""
-#~ "UNIX environments are commonly able to link a file or directory to a "
-#~ "separate name and/or location. During the requested copy operation, KDE "
-#~ "detected a link or series of links that results in an infinite loop - i."
-#~ "e. the file was (perhaps in a roundabout way) linked to itself."
-#~ msgstr ""
-#~ "ຕາມປົກະຕິ ສະພາບແວດລ້ອມຂອງລະບົບຢູນິກຊ໌ ສາມາດທຳການລິງແຟ້ມ ຫລືໄດເຣກທໍລີ ໄປເປັນຊື່ອື່ນ ແລະ/"
-#~ "ຫລືໃນຕຳແໜ່ງອື່ນໆ ໄດ້ ເຊິ່ງລະຫວ່າງທຳການຄັດລອກ KDE ໄດ້ກວດພົບລິງຫລືຊຸດຂອງລິງ ໃນແບບວົນຮອບບໍ່ຮູ້ຈົບ "
-#~ "- ເຊັ່ນ ແຟ້ມທີ່ທຳການລິງໄປຍັງຕົວມັນເອງ ເປັນຕົ້ນ"
+#~ msgid "UNIX environments are commonly able to link a file or directory to a separate name and/or location. During the requested copy operation, KDE detected a link or series of links that results in an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to itself."
+#~ msgstr "ຕາມປົກະຕິ ສະພາບແວດລ້ອມຂອງລະບົບຢູນິກຊ໌ ສາມາດທຳການລິງແຟ້ມ ຫລືໄດເຣກທໍລີ ໄປເປັນຊື່ອື່ນ ແລະ/ຫລືໃນຕຳແໜ່ງອື່ນໆ ໄດ້ ເຊິ່ງລະຫວ່າງທຳການຄັດລອກ KDE ໄດ້ກວດພົບລິງຫລືຊຸດຂອງລິງ ໃນແບບວົນຮອບບໍ່ຮູ້ຈົບ - ເຊັ່ນ ແຟ້ມທີ່ທຳການລິງໄປຍັງຕົວມັນເອງ ເປັນຕົ້ນ"
 
 #~ msgid "Could Not Create Network Connection"
 #~ msgstr "ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ເຄືອຂ່າຍໄດ້"
@@ -7548,61 +7387,34 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Create Socket"
 #~ msgstr "ບໍ່ສາມາດສ້າງຊັອກເກັຕໄດ້"
 
-#~ msgid ""
-#~ "This is a fairly technical error in which a required device for network "
-#~ "communications (a socket) could not be created."
-#~ msgstr ""
-#~ "ນີ້ເປັນຂໍ້ຜິດພາດຕາມປົກະຕິ ທີ່ບໍ່ສາມາດສ້າງອຸປະກອນ ສຳຫລັບການສື່ສານໃນເຄືອຂ່າຍ (ຊັອກເກັຕ) "
-#~ "ຕາມຕ້ອງການໄດ້"
+#~ msgid "This is a fairly technical error in which a required device for network communications (a socket) could not be created."
+#~ msgstr "ນີ້ເປັນຂໍ້ຜິດພາດຕາມປົກະຕິ ທີ່ບໍ່ສາມາດສ້າງອຸປະກອນ ສຳຫລັບການສື່ສານໃນເຄືອຂ່າຍ (ຊັອກເກັຕ) ຕາມຕ້ອງການໄດ້"
 
-#~ msgid ""
-#~ "The network connection may be incorrectly configured, or the network "
-#~ "interface may not be enabled."
-#~ msgstr ""
-#~ "ການສື່ສານແບບເຄືອຂ່າຍ ອາດຈະຍັງບໍ່ໄດ້ຖືກປັບແຕ່ງຢ່າງຖືກຕ້ອງ ຫລືອຸປະກອນເຄືອຂ່າຍອາດຈະຍັງບໍ່ເປີດໃຊ້ງານ"
+#~ msgid "The network connection may be incorrectly configured, or the network interface may not be enabled."
+#~ msgstr "ການສື່ສານແບບເຄືອຂ່າຍ ອາດຈະຍັງບໍ່ໄດ້ຖືກປັບແຕ່ງຢ່າງຖືກຕ້ອງ ຫລືອຸປະກອນເຄືອຂ່າຍອາດຈະຍັງບໍ່ເປີດໃຊ້ງານ"
 
 #~ msgid "Connection to Server Refused"
 #~ msgstr "ການເຊື່ອມຕໍ່ໄປຍັງເຊີບເວີຖືກປະຕິເສດ"
 
-#~ msgid ""
-#~ "The server <strong>%1</strong> refused to allow this computer to make a "
-#~ "connection."
+#~ msgid "The server <strong>%1</strong> refused to allow this computer to make a connection."
 #~ msgstr "ເຊີບເວີ <strong>%1</strong> ປະຕິເສດການຂໍອະນຸຍາດເຂົ້າໃຊ້ງານຂອງຄອມພິວເຕີນີ້"
 
-#~ msgid ""
-#~ "The server, while currently connected to the Internet, may not be "
-#~ "configured to allow requests."
-#~ msgstr ""
-#~ "ເຊີບເວີ ເຊິ່ງເຊື່ອມຕໍ່ຢູ່ກັບລະບົບອິນເຕີເນຕໃນປັດຈຸບັນ ອາດຈະຍັງບໍ່ໄດ້ປັບແຕ່ງໃຫ້ຮັບການເຊື່ອມຕໍ່ທີ່ຮ້ອງຂໍໄປ"
+#~ msgid "The server, while currently connected to the Internet, may not be configured to allow requests."
+#~ msgstr "ເຊີບເວີ ເຊິ່ງເຊື່ອມຕໍ່ຢູ່ກັບລະບົບອິນເຕີເນຕໃນປັດຈຸບັນ ອາດຈະຍັງບໍ່ໄດ້ປັບແຕ່ງໃຫ້ຮັບການເຊື່ອມຕໍ່ທີ່ຮ້ອງຂໍໄປ"
 
-#~ msgid ""
-#~ "The server, while currently connected to the Internet, may not be running "
-#~ "the requested service (%1)."
-#~ msgstr ""
-#~ "ເຊີບເວີ ເຊິ່ງເຊື່ອມຕໍ່ຢູ່ກັບລະບົບອິນເຕີເນຕໃນປັດຈຸບັນ "
-#~ "ອາດຈະຍັງບໍ່ໄດ້ປັບແຕ່ງໃຫ້ຮັບການເຊື່ອມຕໍ່ບໍລິການທີ່ຮ້ອງຂໍໄປ (%1)"
+#~ msgid "The server, while currently connected to the Internet, may not be running the requested service (%1)."
+#~ msgstr "ເຊີບເວີ ເຊິ່ງເຊື່ອມຕໍ່ຢູ່ກັບລະບົບອິນເຕີເນຕໃນປັດຈຸບັນ ອາດຈະຍັງບໍ່ໄດ້ປັບແຕ່ງໃຫ້ຮັບການເຊື່ອມຕໍ່ບໍລິການທີ່ຮ້ອງຂໍໄປ (%1)"
 
-#~ msgid ""
-#~ "A network firewall (a device which restricts Internet requests), either "
-#~ "protecting your network or the network of the server, may have "
-#~ "intervened, preventing this request."
-#~ msgstr ""
-#~ "ໄຟຣ໌ວອລລ໌ຂອງລະບົບເຄືອຂ່າຍ (ອຸປະກອນທີ່ທຳຫນ້າທີ່ປ້ອງກັນການເຂົ້າໃຊ້ງານຈາກເຄືອຂ່າຍ) "
-#~ "ອາດຈະບໍ່ອະນຸຍາດໃຫ້ມີການເຊື່ອມຕໍ່ທີ່ຮ້ອງຂໍໄປ"
+#~ msgid "A network firewall (a device which restricts Internet requests), either protecting your network or the network of the server, may have intervened, preventing this request."
+#~ msgstr "ໄຟຣ໌ວອລລ໌ຂອງລະບົບເຄືອຂ່າຍ (ອຸປະກອນທີ່ທຳຫນ້າທີ່ປ້ອງກັນການເຂົ້າໃຊ້ງານຈາກເຄືອຂ່າຍ) ອາດຈະບໍ່ອະນຸຍາດໃຫ້ມີການເຊື່ອມຕໍ່ທີ່ຮ້ອງຂໍໄປ"
 
 #~ msgid "Connection to Server Closed Unexpectedly"
 #~ msgstr "ການເຊື່ອມຕໍ່ໄປຍັງເຊີບເວີຢຸດຕິຢ່າງບໍ່ຄາດຄິດ"
 
-#~ msgid ""
-#~ "Although a connection was established to <strong>%1</strong>, the "
-#~ "connection was closed at an unexpected point in the communication."
-#~ msgstr ""
-#~ "ເຖິ່ງວ່າການເຊື່ອມຕໍ່ໄປຍັງ<strong>%1</strong> "
-#~ "ຈະເກີດຂື້ນແລ້ວແຕ່ກໍ່ເກີດການຍຸຕິການເຊື່ອມຕໍ່ໃນາງຈຸດຂອງການສື່ສາມຢ່າງບໍ່ຄາດຄິດ"
+#~ msgid "Although a connection was established to <strong>%1</strong>, the connection was closed at an unexpected point in the communication."
+#~ msgstr "ເຖິ່ງວ່າການເຊື່ອມຕໍ່ໄປຍັງ<strong>%1</strong> ຈະເກີດຂື້ນແລ້ວແຕ່ກໍ່ເກີດການຍຸຕິການເຊື່ອມຕໍ່ໃນາງຈຸດຂອງການສື່ສາມຢ່າງບໍ່ຄາດຄິດ"
 
-#~ msgid ""
-#~ "A protocol error may have occurred, causing the server to close the "
-#~ "connection as a response to the error."
+#~ msgid "A protocol error may have occurred, causing the server to close the connection as a response to the error."
 #~ msgstr "ເກີດຂໍ້ຜິດພາດຂອງໂປຣໂຕຄອນເນື່ອງຈາກເຊີບເວີປິດການເຊື່ອມຕໍ່ຈາກການໂຕ້ຕອບທີ່ຜິດພາດ"
 
 #, fuzzy
@@ -7612,25 +7424,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Protocol %1 is not a Filter Protocol"
 #~ msgstr "ໂປໂຕຄອນ %1 ບໍ່ແມ່ນໃຊ້ໂປຣໂຄດຄອນແບບຕົວກອງ"
 
-#~ msgid ""
-#~ "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
-#~ "strong>ocator (URL) that you entered did not refer to a valid mechanism "
-#~ "of accessing the specific resource, <strong>%1%2</strong>."
-#~ msgstr ""
-#~ "ຕຳແຫນ່ງ <strong>U</strong>niversal <strong>R</strong>esource <strong>L</"
-#~ "strong>ocation (URL) ບໍ່ໄດ້ອ້າງຖືງສ່ວນຂອງການເຂົ້າຖືງສັບພະຍາກອນທີ່ກຳນົດ<strong>%1%2</"
-#~ "strong>"
+#~ msgid "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</strong>ocator (URL) that you entered did not refer to a valid mechanism of accessing the specific resource, <strong>%1%2</strong>."
+#~ msgstr "ຕຳແຫນ່ງ <strong>U</strong>niversal <strong>R</strong>esource <strong>L</strong>ocation (URL) ບໍ່ໄດ້ອ້າງຖືງສ່ວນຂອງການເຂົ້າຖືງສັບພະຍາກອນທີ່ກຳນົດ<strong>%1%2</strong>"
 
-#~ msgid ""
-#~ "KDE is able to communicate through a protocol within a protocol. This "
-#~ "request specified a protocol be used as such, however this protocol is "
-#~ "not capable of such an action. This is a rare event, and is likely to "
-#~ "indicate a programming error."
-#~ msgstr ""
-#~ "KDE "
-#~ "ສາມາດສືສາມຫວ່າງໂປໂຕຄອນແລະພາຍໃນໂປໂຄຄອນສື່ງທີ່ຮ້ອງຂໍມານີ້ໄດ້ກຳນົດໂປໂຄຄອນທີ່ຈະໃຊ້ດ້ວຍແຕ່ວ່າ "
-#~ "ໂປໂຄອນນີ້ບໍ່ມີຄວາມສາມາດໃນການກະທຳນັ້ນ "
-#~ "ຊື່ງນີ້ເປັນເຫດການຈິ່ງແລະເບິ່ງວ່າຈະເປັນຂໍ້ຜິດພາດຈາກການຂຽນໂປຣແກຣມ"
+#~ msgid "KDE is able to communicate through a protocol within a protocol. This request specified a protocol be used as such, however this protocol is not capable of such an action. This is a rare event, and is likely to indicate a programming error."
+#~ msgstr "KDE ສາມາດສືສາມຫວ່າງໂປໂຕຄອນແລະພາຍໃນໂປໂຄຄອນສື່ງທີ່ຮ້ອງຂໍມານີ້ໄດ້ກຳນົດໂປໂຄຄອນທີ່ຈະໃຊ້ດ້ວຍແຕ່ວ່າ ໂປໂຄອນນີ້ບໍ່ມີຄວາມສາມາດໃນການກະທຳນັ້ນ ຊື່ງນີ້ເປັນເຫດການຈິ່ງແລະເບິ່ງວ່າຈະເປັນຂໍ້ຜິດພາດຈາກການຂຽນໂປຣແກຣມ"
 
 #~ msgid "Unable to Initialize Input/Output Device"
 #~ msgstr "ບໍ່ສາມາດເລີ່ມການໃຊ້ອຸປະກອນນຳເຂົ້າ/ສົ່ງອອກ"
@@ -7638,36 +7436,17 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Mount Device"
 #~ msgstr "ບໍ່ສາມາດເມາອຸປະກອນໄດ້"
 
-#~ msgid ""
-#~ "The requested device could not be initialized (\"mounted\"). The reported "
-#~ "error was: <strong>%1</strong>"
-#~ msgstr ""
-#~ "ບໍ່ສາມາດເລີ່ມໃຊ້ງານ(\"ເມານ\") ອຸປະກອນທີ່ຮ້ອງຂໍມາໄດ້ຊື່ງລາຍງານຄວາມຜິດພາດຄື:<strong>%1</"
-#~ "strong>"
+#~ msgid "The requested device could not be initialized (\"mounted\"). The reported error was: <strong>%1</strong>"
+#~ msgstr "ບໍ່ສາມາດເລີ່ມໃຊ້ງານ(\"ເມານ\") ອຸປະກອນທີ່ຮ້ອງຂໍມາໄດ້ຊື່ງລາຍງານຄວາມຜິດພາດຄື:<strong>%1</strong>"
 
-#~ msgid ""
-#~ "The device may not be ready, for example there may be no media in a "
-#~ "removable media device (i.e. no CD-ROM in a CD drive), or in the case of "
-#~ "a peripheral/portable device, the device may not be correctly connected."
-#~ msgstr ""
-#~ "ອຸປະກອນອາດຈະຍັງບໍ່ພ້ອມໃຊ້ງານ ຕົວຢ່າງເຊັ່ນ ອາດຈະບໍ່ມີສື່ຢູ່ໃນອຸປະກອນແບບຍ້າຍສື່ໄດ້ (ເຊັ່ນ "
-#~ "ບໍ່ມີແຜ່ນຊີດີຣອມ ຢູ່ໃນໄດຣຟຊີດີ ເປັນຕົ້ນ) ຫລືໃນກໍລະນີຂອງອຸປະກອນຕໍ່ພ່ວງ / ອຸປະກອນແບບພົກພາ "
-#~ "ກໍອາດຈະເກີດຈາກ ອຸປະກອນດັ່ງກ່າວຍັງບໍ່ໄດ້ທຳການເຊື່ອມຕໍ່"
+#~ msgid "The device may not be ready, for example there may be no media in a removable media device (i.e. no CD-ROM in a CD drive), or in the case of a peripheral/portable device, the device may not be correctly connected."
+#~ msgstr "ອຸປະກອນອາດຈະຍັງບໍ່ພ້ອມໃຊ້ງານ ຕົວຢ່າງເຊັ່ນ ອາດຈະບໍ່ມີສື່ຢູ່ໃນອຸປະກອນແບບຍ້າຍສື່ໄດ້ (ເຊັ່ນ ບໍ່ມີແຜ່ນຊີດີຣອມ ຢູ່ໃນໄດຣຟຊີດີ ເປັນຕົ້ນ) ຫລືໃນກໍລະນີຂອງອຸປະກອນຕໍ່ພ່ວງ / ອຸປະກອນແບບພົກພາ ກໍອາດຈະເກີດຈາກ ອຸປະກອນດັ່ງກ່າວຍັງບໍ່ໄດ້ທຳການເຊື່ອມຕໍ່"
 
-#~ msgid ""
-#~ "You may not have permissions to initialize (\"mount\") the device. On "
-#~ "UNIX systems, often system administrator privileges are required to "
-#~ "initialize a device."
-#~ msgstr ""
-#~ "ທ່ານອາດຈະບໍ່ໄດ້ຮັບສິດໃຫ້ເລີ້ມໃຊ້ງານ (\"ເມົານທ໌\") ອຸປະກອນໄດ້ ເທິງລະບົບຢູນິກນັ້ນ "
-#~ "ບາງຄັ້ງຜູ້ເບິ່ງແຍງລະບົບກໍອາດຈະຫວງຫ້າມການເຂົ້າໃຊ້ງານອະປະກອນບາງຕົວ"
+#~ msgid "You may not have permissions to initialize (\"mount\") the device. On UNIX systems, often system administrator privileges are required to initialize a device."
+#~ msgstr "ທ່ານອາດຈະບໍ່ໄດ້ຮັບສິດໃຫ້ເລີ້ມໃຊ້ງານ (\"ເມົານທ໌\") ອຸປະກອນໄດ້ ເທິງລະບົບຢູນິກນັ້ນ ບາງຄັ້ງຜູ້ເບິ່ງແຍງລະບົບກໍອາດຈະຫວງຫ້າມການເຂົ້າໃຊ້ງານອະປະກອນບາງຕົວ"
 
-#~ msgid ""
-#~ "Check that the device is ready; removable drives must contain media, and "
-#~ "portable devices must be connected and powered on.; and try again."
-#~ msgstr ""
-#~ "ກະລຸນາກວດສອບວ່າ ອຸປະກອນພ້ອມໃ່ຊ້ງານແລ້ວ ຫາກເປັນໄດຣຟທີ່ຍ້າຍສື່ໄດ້ ກໍ່ຕ້ອງມີສື່ຢູ່ໃນໄດຣຟກ່ອນ "
-#~ "ແລະອຸປະກອນແບບພົກພາ ກໍຕ້ອງເຊື່ອມຕໍ່ແລະເປີດແລ້ວ ຈາກນັ້ນລອງໃຫມ່ອີກຄັ້ງ"
+#~ msgid "Check that the device is ready; removable drives must contain media, and portable devices must be connected and powered on.; and try again."
+#~ msgstr "ກະລຸນາກວດສອບວ່າ ອຸປະກອນພ້ອມໃ່ຊ້ງານແລ້ວ ຫາກເປັນໄດຣຟທີ່ຍ້າຍສື່ໄດ້ ກໍ່ຕ້ອງມີສື່ຢູ່ໃນໄດຣຟກ່ອນ ແລະອຸປະກອນແບບພົກພາ ກໍຕ້ອງເຊື່ອມຕໍ່ແລະເປີດແລ້ວ ຈາກນັ້ນລອງໃຫມ່ອີກຄັ້ງ"
 
 #~ msgid "Unable to Uninitialize Input/Output Device"
 #~ msgstr "ບໍ່ສາມາດຍົກເລີກການເອີ້ນໃຊ້ອຸປະກອນນຳເຂົ້າ/ສົ່ງອອກໄດ້"
@@ -7675,28 +7454,14 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Unmount Device"
 #~ msgstr "ບໍ່ສາມາດຍົກເລີກການເມົານທ໌ອຸປະກອນໄດ້"
 
-#~ msgid ""
-#~ "The requested device could not be uninitialized (\"unmounted\"). The "
-#~ "reported error was: <strong>%1</strong>"
-#~ msgstr ""
-#~ "ບໍ່ສາມາດຍົກເລີກການໃຊ້ງານ (\"ຍົກເລີກການເມົານທ໌\")ອຸປະກອນທີ່ຮ້ອງຂໍມາໄດ້ຊື່ງລາຍງານຄວາມຜິດພາດຄື: "
-#~ "<strong>%1</strong>"
+#~ msgid "The requested device could not be uninitialized (\"unmounted\"). The reported error was: <strong>%1</strong>"
+#~ msgstr "ບໍ່ສາມາດຍົກເລີກການໃຊ້ງານ (\"ຍົກເລີກການເມົານທ໌\")ອຸປະກອນທີ່ຮ້ອງຂໍມາໄດ້ຊື່ງລາຍງານຄວາມຜິດພາດຄື: <strong>%1</strong>"
 
-#~ msgid ""
-#~ "The device may be busy, that is, still in use by another application or "
-#~ "user. Even such things as having an open browser window on a location on "
-#~ "this device may cause the device to remain in use."
-#~ msgstr ""
-#~ "ອຸປະກອນຈະບໍ່ວ່າງ(ຖືກໃຊ້ງານຢູ່) ຄືອາດຈະຖືກໃຊ້ຢູ່ໂດຍແອບພິເຄຊັ້ນຫລືຜູ້ໃຊ້ອື່ນຯ ເຊັ່ນມີຫ້ນາຕ່າງບາວເຊີທີ່ຮຽກ "
-#~ "ໃຊ້ງານເທີງຕຳແຫນ່ງຊື່ງຢູ່ເທີງອຸປະກອນນີ້ກໍຈະເຮັດໃຫ້ອຸປະກອນຢູ່ໃນສະຖານະຖືກໃຊ້ງານຢູ່"
+#~ msgid "The device may be busy, that is, still in use by another application or user. Even such things as having an open browser window on a location on this device may cause the device to remain in use."
+#~ msgstr "ອຸປະກອນຈະບໍ່ວ່າງ(ຖືກໃຊ້ງານຢູ່) ຄືອາດຈະຖືກໃຊ້ຢູ່ໂດຍແອບພິເຄຊັ້ນຫລືຜູ້ໃຊ້ອື່ນຯ ເຊັ່ນມີຫ້ນາຕ່າງບາວເຊີທີ່ຮຽກ ໃຊ້ງານເທີງຕຳແຫນ່ງຊື່ງຢູ່ເທີງອຸປະກອນນີ້ກໍຈະເຮັດໃຫ້ອຸປະກອນຢູ່ໃນສະຖານະຖືກໃຊ້ງານຢູ່"
 
-#~ msgid ""
-#~ "You may not have permissions to uninitialize (\"unmount\") the device. On "
-#~ "UNIX systems, system administrator privileges are often required to "
-#~ "uninitialize a device."
-#~ msgstr ""
-#~ "ທ່ານອາດຈະບໍ່ມີສິດໃນການຍົກເລີກການໃຊ້ງານ(\"ຍົກເລີກການເມາ\") "
-#~ "ອຸປະກອນຊື່ງເທີງລະບົບຍູນິກນັ້ນຜູ້ດູແລລະບົບອາດຈະບໍ່ຕ້ອງການໃຫ້ມີການຍົກເລີກການໃຊ້ງານອຸປະກອນ"
+#~ msgid "You may not have permissions to uninitialize (\"unmount\") the device. On UNIX systems, system administrator privileges are often required to uninitialize a device."
+#~ msgstr "ທ່ານອາດຈະບໍ່ມີສິດໃນການຍົກເລີກການໃຊ້ງານ(\"ຍົກເລີກການເມາ\") ອຸປະກອນຊື່ງເທີງລະບົບຍູນິກນັ້ນຜູ້ດູແລລະບົບອາດຈະບໍ່ຕ້ອງການໃຫ້ມີການຍົກເລີກການໃຊ້ງານອຸປະກອນ"
 
 #~ msgid "Check that no applications are accessing the device, and try again."
 #~ msgstr "ກະລຸນາກວດສອບວ່າບໍ່ມີແອບພິເຄຊັ້ນຫລືຜູ້ໃຊ້ໃດກຳລັງໃຊ້ງານອຸປະກອນຢູ່ແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
@@ -7704,12 +7469,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Cannot Read From Resource"
 #~ msgstr "ບໍ່ສາມາດອ່ານຈາກສັບພະຍາກອນໄດ້"
 
-#~ msgid ""
-#~ "This means that although the resource, <strong>%1</strong>, was able to "
-#~ "be opened, an error occurred while reading the contents of the resource."
-#~ msgstr ""
-#~ "ເຖືງວ່າສັບພະຍາກອນ <strong>%1</strong> "
-#~ "ຈະສາມາດເປີດໃຊ້ໄດ້ແຕ່ກໍເກີດຄວາມຜິດພາດຂື້ນເມື່ອມີການພະຍາຍາມອ່ານເນື້ອຫາພາຍໃນສັບພະຍາກອນນັ້ນ"
+#~ msgid "This means that although the resource, <strong>%1</strong>, was able to be opened, an error occurred while reading the contents of the resource."
+#~ msgstr "ເຖືງວ່າສັບພະຍາກອນ <strong>%1</strong> ຈະສາມາດເປີດໃຊ້ໄດ້ແຕ່ກໍເກີດຄວາມຜິດພາດຂື້ນເມື່ອມີການພະຍາຍາມອ່ານເນື້ອຫາພາຍໃນສັບພະຍາກອນນັ້ນ"
 
 #~ msgid "You may not have permissions to read from the resource."
 #~ msgstr "ທ່ານອາດຈະຍັງບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ອ່ານຈາກສັບພະຍາກອນນິ້"
@@ -7717,12 +7478,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Cannot Write to Resource"
 #~ msgstr "ບໍ່ສາມາດຂຽນໄປຍັງສັບພະຍາກອນໄດ້"
 
-#~ msgid ""
-#~ "This means that although the resource, <strong>%1</strong>, was able to "
-#~ "be opened, an error occurred while writing to the resource."
-#~ msgstr ""
-#~ "ເຖີ່ງວ່າຈະສາມາດເປີດໃຊ້ງານສັບພະຍາກອນ <strong>%1</strong> "
-#~ "ໄດ້ແຕ່ກໍເກີດຄວາມຜິດພາດຂື້ນເມື່ອມີການຂຽນໄປຍັງສັບພະຍາກອນນັ້ນ"
+#~ msgid "This means that although the resource, <strong>%1</strong>, was able to be opened, an error occurred while writing to the resource."
+#~ msgstr "ເຖີ່ງວ່າຈະສາມາດເປີດໃຊ້ງານສັບພະຍາກອນ <strong>%1</strong> ໄດ້ແຕ່ກໍເກີດຄວາມຜິດພາດຂື້ນເມື່ອມີການຂຽນໄປຍັງສັບພະຍາກອນນັ້ນ"
 
 #~ msgid "Could Not Listen for Network Connections"
 #~ msgstr "ບໍ່ສາມາດຖ້າຮັບການເຊື່ອມຕໍ່ຂອງເຄືອຂ່າຍໄດ້"
@@ -7730,13 +7487,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Bind"
 #~ msgstr "ບໍ່ສາມາດ bind ໄດ້"
 
-#~ msgid ""
-#~ "This is a fairly technical error in which a required device for network "
-#~ "communications (a socket) could not be established to listen for incoming "
-#~ "network connections."
-#~ msgstr ""
-#~ "ນີ້ເປັນຂໍ້ຜິດພາດທາງເທັກນິກຕາມປົກກະຕິທີ່ບໍ່ສາມາດເລີ່ມອຸປະກອນສຳລັບການສື່ສານຂອງເຄືອຂ່າຍ (ຊອກເກັດ) "
-#~ "ເພື່ອຖ້າຮັບການເຊື່ອມຕໍ່ເຄື່ອຂ່າຍທີ່ມີເຂົ້າມາໄດ້"
+#~ msgid "This is a fairly technical error in which a required device for network communications (a socket) could not be established to listen for incoming network connections."
+#~ msgstr "ນີ້ເປັນຂໍ້ຜິດພາດທາງເທັກນິກຕາມປົກກະຕິທີ່ບໍ່ສາມາດເລີ່ມອຸປະກອນສຳລັບການສື່ສານຂອງເຄືອຂ່າຍ (ຊອກເກັດ) ເພື່ອຖ້າຮັບການເຊື່ອມຕໍ່ເຄື່ອຂ່າຍທີ່ມີເຂົ້າມາໄດ້"
 
 #~ msgid "Could Not Listen"
 #~ msgstr "ບໍ່ສາມາດຖ້າຮັບການເຊື່ີອມຕໍ່ໄດ້"
@@ -7744,12 +7496,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Accept Network Connection"
 #~ msgstr "ບໍ່ສາມາດຍອກຮັບການເຊື່ອມຕໍ່ເຄືອຂ່າຍໄດ້"
 
-#~ msgid ""
-#~ "This is a fairly technical error in which an error occurred while "
-#~ "attempting to accept an incoming network connection."
-#~ msgstr ""
-#~ "ນີ້ເປັນຂໍ້ຜິດພາດທາງເທັກນິກຕາມປົກກະຕິທີ່ຈະເກີດຄວາມຜິດພາດຂື້້ນເມື່ອພະຍາຍາມຈະຍອມຮັຫບ "
-#~ "ການເຊື່ອມຕໍ່ລະບົບເຄືອຂ່າຍທີ່ມີເຂົ້າມາ"
+#~ msgid "This is a fairly technical error in which an error occurred while attempting to accept an incoming network connection."
+#~ msgstr "ນີ້ເປັນຂໍ້ຜິດພາດທາງເທັກນິກຕາມປົກກະຕິທີ່ຈະເກີດຄວາມຜິດພາດຂື້້ນເມື່ອພະຍາຍາມຈະຍອມຮັຫບ ການເຊື່ອມຕໍ່ລະບົບເຄືອຂ່າຍທີ່ມີເຂົ້າມາ"
 
 #~ msgid "You may not have permissions to accept the connection."
 #~ msgstr "ທ່ານອາດຈະບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ສາມາດຮັບການເຊື່ອມຕໍ່"
@@ -7757,8 +7505,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Login: %1"
 #~ msgstr "ບໍ່ສາມາດລອກອິນ: %1 ໄດ້"
 
-#~ msgid ""
-#~ "An attempt to login to perform the requested operation was unsuccessful."
+#~ msgid "An attempt to login to perform the requested operation was unsuccessful."
 #~ msgstr "ຄວາມພະຍາຍາມໃນການລອກອິນເພື່ອປະຕິບັດສິ່ງທີ່ຮ້ອງຂໍບໍ່ສຳເລັດ"
 
 #~ msgid "Could Not Determine Resource Status"
@@ -7767,16 +7514,10 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Stat Resource"
 #~ msgstr "ບໍ່ສາມາດຫາສະຖານະຂອງສັບພະຍາກອນໄດ້"
 
-#~ msgid ""
-#~ "An attempt to determine information about the status of the resource "
-#~ "<strong>%1</strong>, such as the resource name, type, size, etc., was "
-#~ "unsuccessful."
-#~ msgstr ""
-#~ "ການພະຍາຍາມຂໍ້ມູນກ່ຽວກັບສະຖານະຂອງສັບພະຍາກອນ<strong>%1</strong> ເຊັ່ນ ຊື່ ປະເພດ "
-#~ "ຂະຫນາດ ເປັນຕົ້ນ ບໍ່ສຳເລັດ"
+#~ msgid "An attempt to determine information about the status of the resource <strong>%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
+#~ msgstr "ການພະຍາຍາມຂໍ້ມູນກ່ຽວກັບສະຖານະຂອງສັບພະຍາກອນ<strong>%1</strong> ເຊັ່ນ ຊື່ ປະເພດ ຂະຫນາດ ເປັນຕົ້ນ ບໍ່ສຳເລັດ"
 
-#~ msgid ""
-#~ "The specified resource may not have existed or may not be accessible."
+#~ msgid "The specified resource may not have existed or may not be accessible."
 #~ msgstr "ສັບພະຍາກອນທີ່ກຳນົດຍັງບໍ່ມີຫລືບໍ່ສາມາດເຂົ້າໃຊ້ງານໄດ້"
 
 #~ msgid "Could Not Cancel Listing"
@@ -7797,8 +7538,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Remove Directory"
 #~ msgstr "ບໍ່ສາມາດລືບໄດເລັກທໍລີໄດ້"
 
-#~ msgid ""
-#~ "An attempt to remove the specified directory, <strong>%1</strong>, failed."
+#~ msgid "An attempt to remove the specified directory, <strong>%1</strong>, failed."
 #~ msgstr "ລົ້ມເຫລວໃນການພະຍາຍາມລຶບໄດເລັກທໍລີ <strong>%1</strong>"
 
 #~ msgid "The specified directory may not exist."
@@ -7813,12 +7553,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Resume File Transfer"
 #~ msgstr "ບໍ່ສາມາດກັບໄປທຳການຮັບສົ່ງແຟ້ມຕໍ່ໄດ້"
 
-#~ msgid ""
-#~ "The specified request asked that the transfer of file <strong>%1</strong> "
-#~ "be resumed at a certain point of the transfer. This was not possible."
-#~ msgstr ""
-#~ "ສິ່ງທີ່ຮ້ອງຂໍທີ່ລະບຸມາໄດ້ຖາມຖືງການກັບມາທຳງານຕໍ່ຍັງຈຸດທີ່ທຳການຮັບສົ່ງແຟ້ມ<strong>%1</strong> "
-#~ "ຄ້າງໄວ້ ປາກົດວ່າບໍ່ສາມາດທຳງານໄດ້"
+#~ msgid "The specified request asked that the transfer of file <strong>%1</strong> be resumed at a certain point of the transfer. This was not possible."
+#~ msgstr "ສິ່ງທີ່ຮ້ອງຂໍທີ່ລະບຸມາໄດ້ຖາມຖືງການກັບມາທຳງານຕໍ່ຍັງຈຸດທີ່ທຳການຮັບສົ່ງແຟ້ມ<strong>%1</strong> ຄ້າງໄວ້ ປາກົດວ່າບໍ່ສາມາດທຳງານໄດ້"
 
 #~ msgid "The protocol, or the server, may not support file resuming."
 #~ msgstr "ໂປໂຕຄອນຫລືເຊີບເວີອາດຈະບໍ່ສະນັບສະນຸນການທຳງານຄ້າງຢູ່ກັບແຟ້ມ"
@@ -7829,64 +7565,41 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Could Not Rename Resource"
 #~ msgstr "ບໍ່ສາມາດປ່ຽນຊື່ສັບພະຍາກອນໄດ້"
 
-#~ msgid ""
-#~ "An attempt to rename the specified resource <strong>%1</strong> failed."
+#~ msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 #~ msgstr "ລົ້ມເຫລວໃນການພະຍາຍາມປ່ຽນຊື່ສັບພະຍາກອນ <strong>%1</strong>"
 
 #~ msgid "Could Not Alter Permissions of Resource"
 #~ msgstr "ບໍ່ສາມາດປ່ຽນສິດທີອະນຸຍາດຂອງສັບພະຍາກອນໄດ້"
 
-#~ msgid ""
-#~ "An attempt to alter the permissions on the specified resource <strong>%1</"
-#~ "strong> failed."
+#~ msgid "An attempt to alter the permissions on the specified resource <strong>%1</strong> failed."
 #~ msgstr "ລົ້ມເຫລວໃນການປ່ຽນສິດທີ່ອະນຸຍາດຂອງສັບພະຍາກອນ<strong>%1</strong> ທີ່ກຳນົດ"
 
 #~ msgid "Could Not Delete Resource"
 #~ msgstr "ບໍ່ສາມາດລືບສັບພະຍາກອນໄດ້"
 
-#~ msgid ""
-#~ "An attempt to delete the specified resource <strong>%1</strong> failed."
+#~ msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 #~ msgstr "ລົ້ມເຫລວໃນການພະຍາຍາມລືບສັບພະຍາກອນ <strong>%1</strong>"
 
 #~ msgid "Unexpected Program Termination"
 #~ msgstr "ກະລຸນາຈົບການທຳງານຢ່າງບໍ່ຄາດຄິດ"
 
-#~ msgid ""
-#~ "The program on your computer which provides access to the <strong>%1</"
-#~ "strong> protocol has unexpectedly terminated."
-#~ msgstr ""
-#~ "ໂປຣແກຣມເທີງຄອມພິວເຕີຂອງທ່ານຊື່ງມີການໃຊ້ງານໂປຣໂຕຄອນ<strong>%1</strong> "
-#~ "ຈົບການທຳງານຢ່າງບໍ່ຄາດຄິດ"
+#~ msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has unexpectedly terminated."
+#~ msgstr "ໂປຣແກຣມເທີງຄອມພິວເຕີຂອງທ່ານຊື່ງມີການໃຊ້ງານໂປຣໂຕຄອນ<strong>%1</strong> ຈົບການທຳງານຢ່າງບໍ່ຄາດຄິດ"
 
 #~ msgid "Out of Memory"
 #~ msgstr "ຫນ່ວຍຄວາມຈຳບໍ່ພງງພໍ"
 
-#~ msgid ""
-#~ "The program on your computer which provides access to the <strong>%1</"
-#~ "strong> protocol could not obtain the memory required to continue."
-#~ msgstr ""
-#~ "ໂປຣແກຣມເທີງຄອມພິວເຕີຂອງທ່ານຊື່ງການໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> "
-#~ "ບໍ່ສາມາດທຳງານຕໍ່ໄດ້ເນື່ອງຈາກໜວ່ຍຄວາມຈຳທີ່ຕ້ອງການໃຊ້ມີບໍ່ພຽງພໍ"
+#~ msgid "The program on your computer which provides access to the <strong>%1</strong> protocol could not obtain the memory required to continue."
+#~ msgstr "ໂປຣແກຣມເທີງຄອມພິວເຕີຂອງທ່ານຊື່ງການໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> ບໍ່ສາມາດທຳງານຕໍ່ໄດ້ເນື່ອງຈາກໜວ່ຍຄວາມຈຳທີ່ຕ້ອງການໃຊ້ມີບໍ່ພຽງພໍ"
 
 #~ msgid "Unknown Proxy Host"
 #~ msgstr "ບໍ່ຮູ້ຈັກໂຫສພອກຊີ"
 
-#~ msgid ""
-#~ "While retrieving information about the specified proxy host, <strong>%1</"
-#~ "strong>, an Unknown Host error was encountered. An unknown host error "
-#~ "indicates that the requested name could not be located on the Internet."
-#~ msgstr ""
-#~ "ລະຫວ່າງຮັບຂໍ້ມູນກຽ່ວກັບໂຫສພອກຊີ <strong>%1</strong> "
-#~ "ທີ່ກຳນົດເກີດຄວາມຜິດພາດເນື່ອງຈາກບໍ່ຮູ້ຈັກໂຫສຂື້ນຊື່ງຫມາຍຖືງວ່າບໍ່ ສາມາດຄົ້ນຫາໂຫສຊື່ັ່ດັ່ງກ່າວຫລື "
-#~ "ໂຫສດັ່ງກາ່ວອາດຈະບໍ່ມີຢູ່ເທີງອິນເຕີເນັດ"
+#~ msgid "While retrieving information about the specified proxy host, <strong>%1</strong>, an Unknown Host error was encountered. An unknown host error indicates that the requested name could not be located on the Internet."
+#~ msgstr "ລະຫວ່າງຮັບຂໍ້ມູນກຽ່ວກັບໂຫສພອກຊີ <strong>%1</strong> ທີ່ກຳນົດເກີດຄວາມຜິດພາດເນື່ອງຈາກບໍ່ຮູ້ຈັກໂຫສຂື້ນຊື່ງຫມາຍຖືງວ່າບໍ່ ສາມາດຄົ້ນຫາໂຫສຊື່ັ່ດັ່ງກ່າວຫລື ໂຫສດັ່ງກາ່ວອາດຈະບໍ່ມີຢູ່ເທີງອິນເຕີເນັດ"
 
-#~ msgid ""
-#~ "There may have been a problem with your network configuration, "
-#~ "specifically your proxy's hostname. If you have been accessing the "
-#~ "Internet with no problems recently, this is unlikely."
-#~ msgstr ""
-#~ "ຫາກກ່ອນຫນ້ານີ້ທ່ານເຄີຍສາມາດເຂົ້າໃຊ້ງານອິນເຕີເນັດໄດ້ນີ້ອາດຈະເປັນປັນຫາທີ່ເກີດຈາກການ "
-#~ "ປບັແຕ່ງລະບົບເຄືອຂ່າຍຂອງທ່ານໂດຍສະເພາະສ່ວນຊື່ໂຫສຂອງພອກຊີ"
+#~ msgid "There may have been a problem with your network configuration, specifically your proxy's hostname. If you have been accessing the Internet with no problems recently, this is unlikely."
+#~ msgstr "ຫາກກ່ອນຫນ້ານີ້ທ່ານເຄີຍສາມາດເຂົ້າໃຊ້ງານອິນເຕີເນັດໄດ້ນີ້ອາດຈະເປັນປັນຫາທີ່ເກີດຈາກການ ປບັແຕ່ງລະບົບເຄືອຂ່າຍຂອງທ່ານໂດຍສະເພາະສ່ວນຊື່ໂຫສຂອງພອກຊີ"
 
 #~ msgid "Double-check your proxy settings and try again."
 #~ msgstr "ໂປດກວດສອບການຕັ້ງຄ່າພອກຊີຂອງທ່ານຢ່າງຮອບຄອບແລ້ວລອງໃຫມ່ອີກຄັ້ງ"
@@ -7894,21 +7607,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Authentication Failed: Method %1 Not Supported"
 #~ msgstr "ການກວດສອບສິດລົ້ມເຫລວບໍ່ສະນັບສະນຸນການກວດສອບก %1"
 
-#~ msgid ""
-#~ "Although you may have supplied the correct authentication details, the "
-#~ "authentication failed because the method that the server is using is not "
-#~ "supported by the KDE program implementing the protocol %1."
-#~ msgstr ""
-#~ "ເຖີງວ່າທ່ານຈະໄດ້ຕື່ມສ່ວນລາຍລະອຽດຂອງການກວດສອບສິດໄວ້ຢ່າງຖືກຕ້ອງແລ້ວກໍຕາມ "
-#~ "ແຕ່ກໍເກີດຄວາມຜິດພາດໃນການກວດສອບສິດຂື້ນເນື່ອງຈາກວິທີການທີ່ເຊີບເວີໃຊ້ບໍ່ໄດ້ຮັບການສະນັບ "
-#~ "ສະນຸນໃຫ້ໃຊ້ຈາກໂປໂຕຄອນ  %1 ຂອງໂປຣແກຣ KDE "
+#~ msgid "Although you may have supplied the correct authentication details, the authentication failed because the method that the server is using is not supported by the KDE program implementing the protocol %1."
+#~ msgstr "ເຖີງວ່າທ່ານຈະໄດ້ຕື່ມສ່ວນລາຍລະອຽດຂອງການກວດສອບສິດໄວ້ຢ່າງຖືກຕ້ອງແລ້ວກໍຕາມ ແຕ່ກໍເກີດຄວາມຜິດພາດໃນການກວດສອບສິດຂື້ນເນື່ອງຈາກວິທີການທີ່ເຊີບເວີໃຊ້ບໍ່ໄດ້ຮັບການສະນັບ ສະນຸນໃຫ້ໃຊ້ຈາກໂປໂຕຄອນ  %1 ຂອງໂປຣແກຣ KDE "
 
-#~ msgid ""
-#~ "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/"
-#~ "</a> to inform the KDE team of the unsupported authentication method."
-#~ msgstr ""
-#~ "ກະລຸນາລາຍຄວາມຜິດພາດໄປທີ่ <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/"
-#~ "</a> ເພື່ອແຈ້ງໃຫ້ທີ່ມ KDE ໄດ້ຮູ້ເຖີງວີທີ່ການກວດສອບສິດທີ່ຍັງບໍ່ສະນັບສະນຸນ"
+#~ msgid "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</a> to inform the KDE team of the unsupported authentication method."
+#~ msgstr "ກະລຸນາລາຍຄວາມຜິດພາດໄປທີ่ <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</a> ເພື່ອແຈ້ງໃຫ້ທີ່ມ KDE ໄດ້ຮູ້ເຖີງວີທີ່ການກວດສອບສິດທີ່ຍັງບໍ່ສະນັບສະນຸນ"
 
 #~ msgid "Request Aborted"
 #~ msgstr "ສິ່ງທີ່ຮ້ອງຂໍມາຖືກຍົກເລີກແລ້ວ"
@@ -7916,45 +7619,23 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Internal Error in Server"
 #~ msgstr "ເກີດຂໍ້ຜິດພາດພາຍໃນເຊີບເວີ"
 
-#~ msgid ""
-#~ "The program on the server which provides access to the <strong>%1</"
-#~ "strong> protocol has reported an internal error: %0."
-#~ msgstr ""
-#~ "ໂປຣແກຣມເທີງເຊີບເວີຊື່ງຕ້ອງການໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> "
-#~ "ໄດ້ລາຍງານຄວາມຜິດພາດພາຍໃນວ່າ: %0"
+#~ msgid "The program on the server which provides access to the <strong>%1</strong> protocol has reported an internal error: %0."
+#~ msgstr "ໂປຣແກຣມເທີງເຊີບເວີຊື່ງຕ້ອງການໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> ໄດ້ລາຍງານຄວາມຜິດພາດພາຍໃນວ່າ: %0"
 
-#~ msgid ""
-#~ "This is most likely to be caused by a bug in the server program. Please "
-#~ "consider submitting a full bug report as detailed below."
-#~ msgstr ""
-#~ "ນີ້ເບີ່ງຄືກັບຈະເປັນປັນຫາທີ່ເກີດຈາກຂໍ້ຜິດພາດຂອງໂປຣແກຣມເຊີບເວີ "
-#~ "ກະລຸນາພິຈະລະນາສົ່ງລາຍລະອຽດການເກີດຂໍ້ຜິດພາດທີ່ສົມບູນດັງລາຍລະອຽດດ້ານລຸ່ມນີ້"
+#~ msgid "This is most likely to be caused by a bug in the server program. Please consider submitting a full bug report as detailed below."
+#~ msgstr "ນີ້ເບີ່ງຄືກັບຈະເປັນປັນຫາທີ່ເກີດຈາກຂໍ້ຜິດພາດຂອງໂປຣແກຣມເຊີບເວີ ກະລຸນາພິຈະລະນາສົ່ງລາຍລະອຽດການເກີດຂໍ້ຜິດພາດທີ່ສົມບູນດັງລາຍລະອຽດດ້ານລຸ່ມນີ້"
 
-#~ msgid ""
-#~ "Contact the administrator of the server to advise them of the problem."
+#~ msgid "Contact the administrator of the server to advise them of the problem."
 #~ msgstr "ກະລຸນາຕິດຕໍ່ຜູ້ດູແລລະບົບຂອງເຊີບເວີເພື່ອແຈ້ງໃຫ້ຮູ້ຖືງປັນຫາທີ່ເກີດຂື້ນ"
 
-#~ msgid ""
-#~ "If you know who the authors of the server software are, submit the bug "
-#~ "report directly to them."
+#~ msgid "If you know who the authors of the server software are, submit the bug report directly to them."
 #~ msgstr "ຫາກທ່ານຮູ້ວ່າ ໃຜເປັນຜູ້ຂຽນໂປຣແກຣມເຊີບເວີນີ້ ໃຫ້ທຳການລາຍງານຄວາມຜິດພາດໄປຍັງເຂົາໂດຍຕົງ"
 
 #~ msgid "Timeout Error"
 #~ msgstr "ຂໍ້ຜິດພາດຈາກການຫມົດເວລາ"
 
-#~ msgid ""
-#~ "Although contact was made with the server, a response was not received "
-#~ "within the amount of time allocated for the request as follows:"
-#~ "<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout "
-#~ "for receiving a response: %2 seconds</li><li>Timeout for accessing proxy "
-#~ "servers: %3 seconds</li></ul>Please note that you can alter these timeout "
-#~ "settings in the KDE Control Center, by selecting Network -> Preferences."
-#~ msgstr ""
-#~ "ແມ້ວ່າຈະມີການສ້າງການເຊື່ອມຕໍ່ກັບເຊີບເວີແລ້ວ "
-#~ "ແຕ່ກໍບໍ່ໄດ້ຮັບການຕອບຮັບພາຍໃນຊ່ວງເວລາທີ່ກຳນົດສຳລັບການຮ້ອງຂໍດັ່ງຕໍ່ໄປນີ້:"
-#~ "<ul><li>ໝົດເວລາໃນການເລີ່ມທຳການເຊື່ອມຕໍ່: %1 ວິນາທີ</li><li>ໝົດເວລາໃນການຄອຍການຕອບຮັບ: "
-#~ "%2 ວິນາທີ</li><li>ໝົດເວລາໃນການເຂົ້າໃຊ້ງານເຊີບເວີພອກຊີ: %3 วินาที</li></ul> ເຄັດລັບ: "
-#~ "ທ່ານສາມາດຕັ້ງຄ່າຊວ່ງເວລາເຫລົ່ານີ້ໄດ້ທີ ສູນຄວບຄຸມ KDE ໂດຍເລືອກ ລະບົບເຄືອຂ່າຍ-> ປັບແຕ່ງ"
+#~ msgid "Although contact was made with the server, a response was not received within the amount of time allocated for the request as follows:<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout for receiving a response: %2 seconds</li><li>Timeout for accessing proxy servers: %3 seconds</li></ul>Please note that you can alter these timeout settings in the KDE Control Center, by selecting Network -> Preferences."
+#~ msgstr "ແມ້ວ່າຈະມີການສ້າງການເຊື່ອມຕໍ່ກັບເຊີບເວີແລ້ວ ແຕ່ກໍບໍ່ໄດ້ຮັບການຕອບຮັບພາຍໃນຊ່ວງເວລາທີ່ກຳນົດສຳລັບການຮ້ອງຂໍດັ່ງຕໍ່ໄປນີ້:<ul><li>ໝົດເວລາໃນການເລີ່ມທຳການເຊື່ອມຕໍ່: %1 ວິນາທີ</li><li>ໝົດເວລາໃນການຄອຍການຕອບຮັບ: %2 ວິນາທີ</li><li>ໝົດເວລາໃນການເຂົ້າໃຊ້ງານເຊີບເວີພອກຊີ: %3 วินาที</li></ul> ເຄັດລັບ: ທ່ານສາມາດຕັ້ງຄ່າຊວ່ງເວລາເຫລົ່ານີ້ໄດ້ທີ ສູນຄວບຄຸມ KDE ໂດຍເລືອກ ລະບົບເຄືອຂ່າຍ-> ປັບແຕ່ງ"
 
 #~ msgid "The server was too busy responding to other requests to respond."
 #~ msgstr "ເຊີບເວີບໍ່ວ່າງທີ່ຈະຕອບກັບມາຍັງສ່ວນທີ່ຣ້ອງຂໍເຂົ້່າມາ"
@@ -7962,61 +7643,37 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Unknown Error"
 #~ msgstr "ຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"
 
-#~ msgid ""
-#~ "The program on your computer which provides access to the <strong>%1</"
-#~ "strong> protocol has reported an unknown error: %2."
-#~ msgstr ""
-#~ "ໂປຣແກຣມຄອມພິວເຕີຂອງທ່ານຊື່ງໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> "
-#~ "ໄດ້ເກີດຄວາມຜິດພາດທີ່ບໍຮູ້ຈັກ: %2"
+#~ msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has reported an unknown error: %2."
+#~ msgstr "ໂປຣແກຣມຄອມພິວເຕີຂອງທ່ານຊື່ງໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> ໄດ້ເກີດຄວາມຜິດພາດທີ່ບໍຮູ້ຈັກ: %2"
 
 #~ msgid "Unknown Interruption"
 #~ msgstr "ບໍ່ຮູ້ຈັກການອີນເຕີເນັດທີ່ເກີດຂື້ນ"
 
-#~ msgid ""
-#~ "The program on your computer which provides access to the <strong>%1</"
-#~ "strong> protocol has reported an interruption of an unknown type: %2."
-#~ msgstr ""
-#~ "ໂປຣແກຣມເທີງອິນເຕີເນັດຂອງທ່ານຊື່ງໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> "
-#~ "ໄດ້ລາຍງານຄວາມຜິດພາດຂອງການອິນເຕີລັບທີ່ບໍ່ຮູ້ຈັກ: %2"
+#~ msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has reported an interruption of an unknown type: %2."
+#~ msgstr "ໂປຣແກຣມເທີງອິນເຕີເນັດຂອງທ່ານຊື່ງໃຊ້ງານໂປຣໂຕຄອນ <strong>%1</strong> ໄດ້ລາຍງານຄວາມຜິດພາດຂອງການອິນເຕີລັບທີ່ບໍ່ຮູ້ຈັກ: %2"
 
 #~ msgid "Could Not Delete Original File"
 #~ msgstr "ບໍ່ສາມາດລືບແຟ້ມດັ່ງເດີມໄດ้້"
 
-#~ msgid ""
-#~ "The requested operation required the deleting of the original file, most "
-#~ "likely at the end of a file move operation. The original file <strong>%1</"
-#~ "strong> could not be deleted."
-#~ msgstr ""
-#~ "ປະຕິບັດການທີ່ຮ້ອງຂໍມາຕ້ອງການຈະລືບແຟ້ມດັ່ງເດີມຄືກັບເມືອສິ້ນສຸດການຍ້າຍແຟ້ມ "
-#~ "ແຕ່ບໍ່ສາມາດລືບແຟ້ມດັ່ງເດີມ<strong>%1</strong> ໄດ້"
+#~ msgid "The requested operation required the deleting of the original file, most likely at the end of a file move operation. The original file <strong>%1</strong> could not be deleted."
+#~ msgstr "ປະຕິບັດການທີ່ຮ້ອງຂໍມາຕ້ອງການຈະລືບແຟ້ມດັ່ງເດີມຄືກັບເມືອສິ້ນສຸດການຍ້າຍແຟ້ມ ແຕ່ບໍ່ສາມາດລືບແຟ້ມດັ່ງເດີມ<strong>%1</strong> ໄດ້"
 
 #~ msgid "Could Not Delete Temporary File"
 #~ msgstr "ບໍ່ສາມາດລືບແຟ້ມຊົ່ວຄາວໄດ้້"
 
-#~ msgid ""
-#~ "The requested operation required the creation of a temporary file in "
-#~ "which to save the new file while being downloaded. This temporary file "
-#~ "<strong>%1</strong> could not be deleted."
-#~ msgstr ""
-#~ "ປະຕີບັດການທີ່ຣ້ອງຂໍມາຕ້ອງການຈະລຶບແຟ້ມຊົ່ວຄາວເພື່ອບັນທືກເປັນແຟ້ມໃຫມ່ເມືອ "
-#~ "ດາວໂລດແລ້ວແຕ່ບໍ່ສາມາດລືບແຟ້ມຊົ່ວຄາວ <strong>%1</strong> ໄດ້"
+#~ msgid "The requested operation required the creation of a temporary file in which to save the new file while being downloaded. This temporary file <strong>%1</strong> could not be deleted."
+#~ msgstr "ປະຕີບັດການທີ່ຣ້ອງຂໍມາຕ້ອງການຈະລຶບແຟ້ມຊົ່ວຄາວເພື່ອບັນທືກເປັນແຟ້ມໃຫມ່ເມືອ ດາວໂລດແລ້ວແຕ່ບໍ່ສາມາດລືບແຟ້ມຊົ່ວຄາວ <strong>%1</strong> ໄດ້"
 
 #~ msgid "Could Not Rename Original File"
 #~ msgstr "ບໍ່ສາມາດປ່ຽນຊື່ແຟ້ມດັ່ງເດີມໄດ້"
 
-#~ msgid ""
-#~ "The requested operation required the renaming of the original file "
-#~ "<strong>%1</strong>, however it could not be renamed."
-#~ msgstr ""
-#~ "ປະຕິບັດການທີ່ຮ້ອງຂໍມາຕ້ອງການຈະປ່ຽນຊື່ແຟ້ມດັ່ງເກົ່າ<strong>%1</"
-#~ "strong>ແຕ່ບໍ່ສາມາດປ່ຽນຊື່ໄດ້แต่ไม่สามารถเปลี่ยน"
+#~ msgid "The requested operation required the renaming of the original file <strong>%1</strong>, however it could not be renamed."
+#~ msgstr "ປະຕິບັດການທີ່ຮ້ອງຂໍມາຕ້ອງການຈະປ່ຽນຊື່ແຟ້ມດັ່ງເກົ່າ<strong>%1</strong>ແຕ່ບໍ່ສາມາດປ່ຽນຊື່ໄດ້แต่ไม่สามารถเปลี่ยน"
 
 #~ msgid "Could Not Rename Temporary File"
 #~ msgstr "ບໍ່ສາມາດປ່ຽນຊື່ແຟ້ມຊົ່ວຄາວໄດ້"
 
-#~ msgid ""
-#~ "The requested operation required the creation of a temporary file <strong>"
-#~ "%1</strong>, however it could not be created."
+#~ msgid "The requested operation required the creation of a temporary file <strong>%1</strong>, however it could not be created."
 #~ msgstr "ປະຕິບັດການທີ່ຣ້ອງຂໍມາຕ້ອງການຈະສ້າງແຟ້ມຊົ່ວຄາວ<strong>%1</strong>ແຕ່ບໍ່ສາມາດສ້າງໄດ้້"
 
 #~ msgid "Could Not Create Link"
@@ -8034,21 +7691,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Disk Full"
 #~ msgstr "ດິສເຕັມ"
 
-#~ msgid ""
-#~ "The requested file <strong>%1</strong> could not be written to as there "
-#~ "is inadequate disk space."
-#~ msgstr ""
-#~ "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມ<strong>%1</strong>ຕາມຕ້ອງການໄດ້ເນື່ອງຈາກອາດຈະຍັງບໍ່ມີສິດໃນ "
-#~ "ການຂ້າໃຊ້ແລະຂຽນໄປໄດ້"
+#~ msgid "The requested file <strong>%1</strong> could not be written to as there is inadequate disk space."
+#~ msgstr "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມ<strong>%1</strong>ຕາມຕ້ອງການໄດ້ເນື່ອງຈາກອາດຈະຍັງບໍ່ມີສິດໃນ ການຂ້າໃຊ້ແລະຂຽນໄປໄດ້"
 
-#~ msgid ""
-#~ "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
-#~ "archiving files to removable media storage such as CD-Recordable discs; "
-#~ "or 3) obtain more storage capacity."
-#~ msgstr ""
-#~ "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
-#~ "archiving files to removable media storage such as CD-Recordable discs; "
-#~ "or 3) obtain more storage capacity."
+#~ msgid "Free up enough disk space by 1) deleting unwanted and temporary files; 2) archiving files to removable media storage such as CD-Recordable discs; or 3) obtain more storage capacity."
+#~ msgstr "Free up enough disk space by 1) deleting unwanted and temporary files; 2) archiving files to removable media storage such as CD-Recordable discs; or 3) obtain more storage capacity."
 
 #, fuzzy
 #~ msgid "Source and Destination Files Identical"
@@ -8057,9 +7704,7 @@ msgstr "ອື່ນ&ຯ"
 #~ "%1"
 
 #, fuzzy
-#~ msgid ""
-#~ "The operation could not be completed because the source and destination "
-#~ "files are the same file."
+#~ msgid "The operation could not be completed because the source and destination files are the same file."
 #~ msgstr ""
 #~ "ແຟ້ມຕົ້ນທາງແລະປາຍທາງເປັນແຟ້ມດ່ຽວກັນ\n"
 #~ "%1"
@@ -8101,9 +7746,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "You are not authorized to execute this file."
 #~ msgstr "ທ່ານຕ້ອງການການກວດສອບສິດການເຂົ້າໃຊ້ໄດເລັກທໍລີໃຫ້ໃຊ້ຮ່ວມກັນ"
 
-#~ msgid ""
-#~ "<qt>Unable to run the command specified. The file or directory <b>%1</b> "
-#~ "does not exist.</qt>"
+#~ msgid "<qt>Unable to run the command specified. The file or directory <b>%1</b> does not exist.</qt>"
 #~ msgstr "<qt>ບໍ່ສາມາດປະມວນຜົນຄຳສັ່ງກຳນົດ ແຟ້ມຫລືໄດເລັກທໍລີ<b>%1</b>ອາດຈະຍັງບໍ່ມີ</qt>"
 
 #~ msgid "Couldn't find the program '%1'"
@@ -8302,19 +7945,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Print the mimetype of the given file(s)"
 #~ msgstr "ພິມປະເພດ mime ຂອງແຟ້ມທີ່ໃຫ້"
 
-#~ msgid ""
-#~ "List all supported metadata keys of the given file(s). If mimetype is not "
-#~ "specified, the mimetype of the given files is used."
-#~ msgstr ""
-#~ "ສະແດງປຸ່ມພິມເມຕາທີ່ສະນັບສະນຸນທັງມໝົດຂອງແຟ້ມທີ່ໃຫ້ຫາກຍັງບໍ່ມີການລະບຸປະເພດ MIME ໃຫ້ໃຊ້ປະເພດ "
-#~ "MIME ຂອງແຟ້ມແທນ"
+#~ msgid "List all supported metadata keys of the given file(s). If mimetype is not specified, the mimetype of the given files is used."
+#~ msgstr "ສະແດງປຸ່ມພິມເມຕາທີ່ສະນັບສະນຸນທັງມໝົດຂອງແຟ້ມທີ່ໃຫ້ຫາກຍັງບໍ່ມີການລະບຸປະເພດ MIME ໃຫ້ໃຊ້ປະເພດ MIME ຂອງແຟ້ມແທນ"
 
-#~ msgid ""
-#~ "List all preferred metadata keys of the given file(s). If mimetype is not "
-#~ "specified, the mimetype of the given files is used."
-#~ msgstr ""
-#~ "ສະແດງປຸ່ມພິມເມຕາທີ່ສະເໜີທັງໝົດຂອງແຟ້ມທີ່ໃຫ້ຫາກຍັງບໍ່ມີການລະບຸປະເພດ MIME ໃຫ້ໃຊ້ປະເພດ MIME "
-#~ "ຂອງແຟ້ມແທນ"
+#~ msgid "List all preferred metadata keys of the given file(s). If mimetype is not specified, the mimetype of the given files is used."
+#~ msgstr "ສະແດງປຸ່ມພິມເມຕາທີ່ສະເໜີທັງໝົດຂອງແຟ້ມທີ່ໃຫ້ຫາກຍັງບໍ່ມີການລະບຸປະເພດ MIME ໃຫ້ໃຊ້ປະເພດ MIME ຂອງແຟ້ມແທນ"
 
 #~ msgid "List all metadata keys which have a value in the given file(s)."
 #~ msgstr "ສະແດງປຸ່ມພິມເມຕາທີ່ສະນັບສະນຸດທັງມຫົດທີ່ມີຄ່າໃນແຟ້ມທີ່ໃຫ້"
@@ -8322,31 +7957,22 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Prints all mimetypes for which metadata support is available."
 #~ msgstr "ພິມປະເພດ MIME ສຳລັບທີ່ຂໍ້ມູນເມຕາສະນັບສະນຸນທີ່ມີຢູ່"
 
-#~ msgid ""
-#~ "Don't print a warning when more than one file was given and they don't "
-#~ "have all the same mimetype."
+#~ msgid "Don't print a warning when more than one file was given and they don't have all the same mimetype."
 #~ msgstr "ຢ່າພິມຄຳເຕື່ອນຫາກມີແຟ້ມຫລາຍກວ່າຫນື່ີງແຟ້ມສະແດງແລະບໍ່ໄດ້ເປັນປະເພດ  MIME ແບບດ່ຽວກັນ"
 
 #~ msgid "Prints all metadata values, available in the given file(s)."
 #~ msgstr "ພິມຄ່າເມຕ້າດາຕ້າທັງຫມົດທີ່ຢູ່ໃນແຟ້ມທີ່ໃຫ້"
 
-#~ msgid ""
-#~ "Prints the preferred metadata values, available in the given file(s)."
+#~ msgid "Prints the preferred metadata values, available in the given file(s)."
 #~ msgstr "ພິມຄ່າເມຕ້າດາຕ້າທີ່ເຫລືອສະແດງ ທີ່ຢູ່ໃນແຟ້ມທີໃຫ້"
 
-#~ msgid ""
-#~ "Opens a KDE properties dialog to allow viewing and modifying of metadata "
-#~ "of the given file(s)"
+#~ msgid "Opens a KDE properties dialog to allow viewing and modifying of metadata of the given file(s)"
 #~ msgstr "ເປີດກ່ອງຄຸນສົນບັດຂອງ KDE ເພື່ອອະນຸຍາດໃຫ້ສະແດງແລະແກ້ໄຂຂໍ້ມູນເມຕາຂອງແຟ້ມທີ່ໃຫ້"
 
-#~ msgid ""
-#~ "Prints the value for 'key' of the given file(s). 'key' may also be a "
-#~ "comma-separated list of keys"
+#~ msgid "Prints the value for 'key' of the given file(s). 'key' may also be a comma-separated list of keys"
 #~ msgstr "ພິມຄ່າ 'key' ຂອງແຟ້ມທີ່ໃຫ້ 'key' ອາດຈະມີຫລາຍຕົວໂດຍແຍກດ້ວຍເຄື່ອງຫມາຍ"
 
-#~ msgid ""
-#~ "Attempts to set the value 'value' for the metadata key 'key' for the "
-#~ "given file(s)"
+#~ msgid "Attempts to set the value 'value' for the metadata key 'key' for the given file(s)"
 #~ msgstr "ພະຍາຍາມຕັ້ງຄ່າ 'value' ສຳລັບກຸນແຈເມຕ້າດາຕ້າ 'key' ຂອງແຟ້ມທີ່ໃຫ້"
 
 #~ msgid "The file (or a number of files) to operate on."
@@ -8457,35 +8083,23 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Open With"
 #~ msgstr "ເປີດໃຊ້ດ້ວຍ"
 
-#~ msgid ""
-#~ "<qt>Select the program that should be used to open <b>%1</b>. If the "
-#~ "program is not listed, enter the name or click the browse button.</qt>"
-#~ msgstr ""
-#~ "<qt>ເລືອກໂປຣແກຣມທີ່ຄວນຈະໃຫ້ເປີດໃຊ້ກັບ <b>%1</b> ຫາກໂປຣແກຣມບໍ່ຢູ່ໃນລາຍການ ໃຫ້ຕື່ມຊື່ "
-#~ "ຫລືກົດທີ່ປຸ່ມເລືອກແຟ້ມ</qt>"
+#~ msgid "<qt>Select the program that should be used to open <b>%1</b>. If the program is not listed, enter the name or click the browse button.</qt>"
+#~ msgstr "<qt>ເລືອກໂປຣແກຣມທີ່ຄວນຈະໃຫ້ເປີດໃຊ້ກັບ <b>%1</b> ຫາກໂປຣແກຣມບໍ່ຢູ່ໃນລາຍການ ໃຫ້ຕື່ມຊື່ ຫລືກົດທີ່ປຸ່ມເລືອກແຟ້ມ</qt>"
 
-#~ msgid ""
-#~ "Choose the name of the program with which to open the selected files."
+#~ msgid "Choose the name of the program with which to open the selected files."
 #~ msgstr "ເລືອກຊື່ຂອງໂປຣແກຣມທີ່ຈະໃຫ້ໃຊ້ເປີດແຟ້ມທີ່ເລືອກໄວ້"
 
 #~ msgid "Choose Application for %1"
 #~ msgstr "ເລືອກແອພພຣິເຄຊັນສຳຫລັບ %1"
 
-#~ msgid ""
-#~ "<qt>Select the program for the file type: <b>%1</b>. If the program is "
-#~ "not listed, enter the name or click the browse button.</qt>"
-#~ msgstr ""
-#~ "<qt>ເລືອກໂປຣແກຣມທີ່ຈະເພີ້ມສຳຫລັບແຟ້ມປະເພດ: <b>%1</b>  "
-#~ "ຖ້າໂປຣແກຣມບໍ່ຖືກສະແດງໄວ້ໃນລາຍການ ໃຫ້ໃສ່ຊື່ຫລືກົດທີ່ປຸ່ມເອີ້ນເບິ່ງ</qt>"
+#~ msgid "<qt>Select the program for the file type: <b>%1</b>. If the program is not listed, enter the name or click the browse button.</qt>"
+#~ msgstr "<qt>ເລືອກໂປຣແກຣມທີ່ຈະເພີ້ມສຳຫລັບແຟ້ມປະເພດ: <b>%1</b>  ຖ້າໂປຣແກຣມບໍ່ຖືກສະແດງໄວ້ໃນລາຍການ ໃຫ້ໃສ່ຊື່ຫລືກົດທີ່ປຸ່ມເອີ້ນເບິ່ງ</qt>"
 
 #~ msgid "Choose Application"
 #~ msgstr "ເລືອກແອພພຣິເຄຊັນ"
 
-#~ msgid ""
-#~ "<qt>Select a program. If the program is not listed, enter the name or "
-#~ "click the browse button.</qt>"
-#~ msgstr ""
-#~ "<qt>ເລືອກໂປຣແກຣມ ຫາກໂປຣແກຣມບໍ່ຖືກສະແດງໄວ້ໃນລາຍການ ໃຫ້ໃສ່ຊື່ຫລືກົດທີ່ປຸ່ມເອີ້ນເບິ່ງ</qt>"
+#~ msgid "<qt>Select a program. If the program is not listed, enter the name or click the browse button.</qt>"
+#~ msgstr "<qt>ເລືອກໂປຣແກຣມ ຫາກໂປຣແກຣມບໍ່ຖືກສະແດງໄວ້ໃນລາຍການ ໃຫ້ໃສ່ຊື່ຫລືກົດທີ່ປຸ່ມເອີ້ນເບິ່ງ</qt>"
 
 #~ msgid "Clear input field"
 #~ msgstr "ລຸ່ມຊ່ອງກຣອກຂໍ້ມູນ"
@@ -8598,27 +8212,16 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Invalid URL"
 #~ msgstr "URL ບໍ່ຖືກຕ້ອງ"
 
-#~ msgid ""
-#~ "<p>While typing in the text area, you may be presented with possible "
-#~ "matches. This feature can be controlled by clicking with the right mouse "
-#~ "button and selecting a preferred mode from the <b>Text Completion</b> "
-#~ "menu."
-#~ msgstr ""
-#~ "<p>ຂະນະພິມຢູ່ໃນເຕັກເອເຣຍ.ທ່ານຈະຕ້ອງຖືກແທນດ້ວຍການຈັດເຂົ້າກັນທີ່ເປັນໄປໄດ້."
-#~ "ຄຸນລັກສະນະນີ້ສາມາດຄວບຄຸມ ໂດຍການຄລິກປຸ່ມເມົາເບື້ອງຂວາແລະເລືອກໂຫມດທີ່ຕ້ອງການຈາກ <b> text "
-#~ "completion</b>ລາຍການ."
+#~ msgid "<p>While typing in the text area, you may be presented with possible matches. This feature can be controlled by clicking with the right mouse button and selecting a preferred mode from the <b>Text Completion</b> menu."
+#~ msgstr "<p>ຂະນະພິມຢູ່ໃນເຕັກເອເຣຍ.ທ່ານຈະຕ້ອງຖືກແທນດ້ວຍການຈັດເຂົ້າກັນທີ່ເປັນໄປໄດ້.ຄຸນລັກສະນະນີ້ສາມາດຄວບຄຸມ ໂດຍການຄລິກປຸ່ມເມົາເບື້ອງຂວາແລະເລືອກໂຫມດທີ່ຕ້ອງການຈາກ <b> text completion</b>ລາຍການ."
 
 #, fuzzy
 #~ msgid "This is the name to save the file as."
 #~ msgstr "<qt>This is the name to save the file as."
 
 #, fuzzy
-#~ msgid ""
-#~ "This is the list of files to open. More than one file can be specified by "
-#~ "listing several files, separated by spaces."
-#~ msgstr ""
-#~ "<qt>This is the list of files to open. More than one file can be "
-#~ "specified by listing several files, separated by spaces."
+#~ msgid "This is the list of files to open. More than one file can be specified by listing several files, separated by spaces."
+#~ msgstr "<qt>This is the list of files to open. More than one file can be specified by listing several files, separated by spaces."
 
 #, fuzzy
 #~ msgid "This is the name of the file to open."
@@ -8628,13 +8231,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ໄດເຣັກເທີຣີທີໃຊ້ເລື້ອຍໆ"
 
 #, fuzzy
-#~ msgid ""
-#~ "Commonly used locations are listed here. This includes standard "
-#~ "locations, such as your home directory, as well as locations that have "
-#~ "been visited recently."
-#~ msgstr ""
-#~ "ປົກກະຕິແລ້ວໂລເຄເຊິນທີ່ໃຊ້ຈະຖືກບັນທຶກຢູ່ທີ່ນີ້. ນີ້ຈະລວມໄປເຖິງໂລເຄເຊິນທີ່ມາດຕະຖານ."
-#~ "ເຊັ່ນວ່າໄດເຣັກເທີຣີຫລັກ ຂອງທ່ານ.ເຫມືອນກັບທີ່ຢູ່ທີ່ທ່ານໄດ້ເຂົ້າໄປໄວໆນີ້. "
+#~ msgid "Commonly used locations are listed here. This includes standard locations, such as your home directory, as well as locations that have been visited recently."
+#~ msgstr "ປົກກະຕິແລ້ວໂລເຄເຊິນທີ່ໃຊ້ຈະຖືກບັນທຶກຢູ່ທີ່ນີ້. ນີ້ຈະລວມໄປເຖິງໂລເຄເຊິນທີ່ມາດຕະຖານ.ເຊັ່ນວ່າໄດເຣັກເທີຣີຫລັກ ຂອງທ່ານ.ເຫມືອນກັບທີ່ຢູ່ທີ່ທ່ານໄດ້ເຂົ້າໄປໄວໆນີ້. "
 
 #~ msgid "Root Directory: %1"
 #~ msgstr "ໄດເຣກທໍລີຮາກ: %1"
@@ -8648,19 +8246,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Desktop: %1"
 #~ msgstr "ພື້ນທີ່ທຳງານ: %1"
 
-#~ msgid ""
-#~ "<qt>Click this button to enter the parent directory.<p>For instance, if "
-#~ "the current location is file:/home/%1 clicking this button will take you "
-#~ "to file:/home.</qt>"
-#~ msgstr ""
-#~ "<qt>Click this button to enter the parent directory. <p>For instance, if "
-#~ "the current location is fileg/home/%1 clicking this button will take you "
-#~ "to file:/home.</qt>"
+#~ msgid "<qt>Click this button to enter the parent directory.<p>For instance, if the current location is file:/home/%1 clicking this button will take you to file:/home.</qt>"
+#~ msgstr "<qt>Click this button to enter the parent directory. <p>For instance, if the current location is fileg/home/%1 clicking this button will take you to file:/home.</qt>"
 
-#~ msgid ""
-#~ "Click this button to move backwards one step in the browsing history."
-#~ msgstr ""
-#~ "Click this button to move backwards one step in the browsing history."
+#~ msgid "Click this button to move backwards one step in the browsing history."
+#~ msgstr "Click this button to move backwards one step in the browsing history."
 
 #~ msgid "Click this button to move forward one step in the browsing history."
 #~ msgstr " this button to move forward one step in the browsing history."
@@ -8674,44 +8264,17 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Bookmarks"
 #~ msgstr "ທີ່ຂັ້ນຫນັງສື"
 
-#~ msgid ""
-#~ "<qt>This button allows you to bookmark specific locations. Click on this "
-#~ "button to open the bookmark menu where you may add, edit or select a "
-#~ "bookmark.<p>These bookmarks are specific to the file dialog, but "
-#~ "otherwise operate like bookmarks elsewhere in KDE.</qt>"
-#~ msgstr ""
-#~ "<qt>This button allows you to bookmark specific locations Click on this "
-#~ "button to open the bookmark menu where you may add, edit or select a "
-#~ "bookmard. <p>These bookmarks are specific to the file dialog, but "
-#~ "otherwise operate like bookmarks elsewhere in KDE.</qt>"
+#~ msgid "<qt>This button allows you to bookmark specific locations. Click on this button to open the bookmark menu where you may add, edit or select a bookmark.<p>These bookmarks are specific to the file dialog, but otherwise operate like bookmarks elsewhere in KDE.</qt>"
+#~ msgstr "<qt>This button allows you to bookmark specific locations Click on this button to open the bookmark menu where you may add, edit or select a bookmard. <p>These bookmarks are specific to the file dialog, but otherwise operate like bookmarks elsewhere in KDE.</qt>"
 
 #~ msgid "Show Quick Access Navigation Panel"
 #~ msgstr "ສະແດງແຖບດ້ານຂ້າງ"
 
-#~ msgid ""
-#~ "<qt>This is the configuration menu for the file dialog. Various options "
-#~ "can be accessed from this menu including: <ul><li>how files are sorted in "
-#~ "the list</li><li>types of view, including icon and list</li><li>showing "
-#~ "of hidden files</li><li>the Quick Access navigation panel</li><li>file "
-#~ "previews</li><li>separating directories from files</li></ul></qt>"
-#~ msgstr ""
-#~ "<qt>This is the configuration menu for the file dialog. Various options "
-#~ "can be accessed from this menu including: <ul> <li>how files are sorted "
-#~ "in the list</li> <li>types of viiw, including icon and list</li> "
-#~ "<li>showing of hidden files</li> <li>the Quick Access navigation panel</"
-#~ "li> <li>file previews</li><li>separating derectories from files</li><ul></"
-#~ "qt>"
+#~ msgid "<qt>This is the configuration menu for the file dialog. Various options can be accessed from this menu including: <ul><li>how files are sorted in the list</li><li>types of view, including icon and list</li><li>showing of hidden files</li><li>the Quick Access navigation panel</li><li>file previews</li><li>separating directories from files</li></ul></qt>"
+#~ msgstr "<qt>This is the configuration menu for the file dialog. Various options can be accessed from this menu including: <ul> <li>how files are sorted in the list</li> <li>types of viiw, including icon and list</li> <li>showing of hidden files</li> <li>the Quick Access navigation panel</li> <li>file previews</li><li>separating derectories from files</li><ul></qt>"
 
-#~ msgid ""
-#~ "<qt>This is the filter to apply to the file list. File names that do not "
-#~ "match the filter will not be shown.<p>You may select from one of the "
-#~ "preset filters in the drop down menu, or you may enter a custom filter "
-#~ "directly into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
-#~ msgstr ""
-#~ "<qt>This is the filter to apply to the file list. File names that do not "
-#~ "match the filter will not be shown.<p>You may select from one of the "
-#~ "preset filters in the drop down menu, or you may enter a custom filter "
-#~ "directly into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
+#~ msgid "<qt>This is the filter to apply to the file list. File names that do not match the filter will not be shown.<p>You may select from one of the preset filters in the drop down menu, or you may enter a custom filter directly into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
+#~ msgstr "<qt>This is the filter to apply to the file list. File names that do not match the filter will not be shown.<p>You may select from one of the preset filters in the drop down menu, or you may enter a custom filter directly into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
 
 #~ msgid "&Filter:"
 #~ msgstr "&ຕົວກອງ:"
@@ -8905,9 +8468,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The new file name is empty!"
 #~ msgstr "ຊື່ຂອງແຟ້ມໃຫມ່ຍັງບໍ່ມີ !"
 
-#~ msgid ""
-#~ "<qt>Could not save properties. You do not have sufficient access to write "
-#~ "to <b>%1</b>.</qt>"
+#~ msgid "<qt>Could not save properties. You do not have sufficient access to write to <b>%1</b>.</qt>"
 #~ msgstr "<qt>ບໍ່ສາມາດບັນທືກຄຸນສົມບັດໄດ້ທ່ານອາດຍັງບໍ່ມີສິດຂຽນໄປຍັງ <b>%1</b></qt>"
 
 #, fuzzy
@@ -9105,11 +8666,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Shared"
 #~ msgstr "ໃຫ້ໃຊ້ຮ່ວມກັນ"
 
-#~ msgid ""
-#~ "Sharing this directory makes it available under Linux/UNIX (NFS) and "
-#~ "Windows (Samba)."
-#~ msgstr ""
-#~ "ການໃຫ້ໃຊ້ໄດເລັກທໍລີນີ້ຮ່ວມກັນ ຈະໃຊ້ຮ່ວມກັນໄດ້ພາຍໃຕ້Linux/Unix (NFS) ແລະວິນໂດ (Samba)"
+#~ msgid "Sharing this directory makes it available under Linux/UNIX (NFS) and Windows (Samba)."
+#~ msgstr "ການໃຫ້ໃຊ້ໄດເລັກທໍລີນີ້ຮ່ວມກັນ ຈະໃຊ້ຮ່ວມກັນໄດ້ພາຍໃຕ້Linux/Unix (NFS) ແລະວິນໂດ (Samba)"
 
 #~ msgid "You can also reconfigure file sharing authorization."
 #~ msgstr "ທ່ານສາມາດການການຕວດສອບສິດການໃຊ້ແຟ້ມຮ່ວມກັນໄດ้້"
@@ -9118,26 +8676,14 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Configure File Sharing..."
 #~ msgstr "ປັບແຕ່ງການໃຊ້ແຟ້ມຮ່ວມກັນ"
 
-#~ msgid ""
-#~ "Error running 'filesharelist'. Check if installed and in $PATH or /usr/"
-#~ "sbin."
-#~ msgstr ""
-#~ "ເກີດຄວາມຜິດພາດຂະນະຮຽກ'filesharelist' ເຮັດວຽກກະລຸນາກວດສອບວ່າມັນຖືກຕິດຕັ້ງໄວ້ແລ້ວ "
-#~ "ແລະຢູ່ໃນ $PATH ຫລື/usr/sbin ແລ້ວ"
+#~ msgid "Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
+#~ msgstr "ເກີດຄວາມຜິດພາດຂະນະຮຽກ'filesharelist' ເຮັດວຽກກະລຸນາກວດສອບວ່າມັນຖືກຕິດຕັ້ງໄວ້ແລ້ວ ແລະຢູ່ໃນ $PATH ຫລື/usr/sbin ແລ້ວ"
 
 #~ msgid "You need to be authorized to share directories."
 #~ msgstr "ທ່ານຕ້ອງການການກວດສອບສິດການເຂົ້າໃຊ້ໄດເລັກທໍລີທີ່ໃຫ້ໃຊ້ຮ່ວມກນັ"
 
-#~ msgid ""
-#~ "<qt>The <b>Quick Access</b> panel provides easy access to commonly used "
-#~ "file locations.<p>Clicking on one of the shortcut entries will take you "
-#~ "to that location.<p>By right clicking on an entry you can add, edit and "
-#~ "remove shortcuts.</qt>"
-#~ msgstr ""
-#~ "<qt>The <b>Quick Access</b> panel provides easy access to commonly used "
-#~ "file locations.<p>Clicking on one of the shortcut entries will take you "
-#~ "to that location.<p>By right clicking on an entry you can add, edit and "
-#~ "remove shortcuts.</qt>"
+#~ msgid "<qt>The <b>Quick Access</b> panel provides easy access to commonly used file locations.<p>Clicking on one of the shortcut entries will take you to that location.<p>By right clicking on an entry you can add, edit and remove shortcuts.</qt>"
+#~ msgstr "<qt>The <b>Quick Access</b> panel provides easy access to commonly used file locations.<p>Clicking on one of the shortcut entries will take you to that location.<p>By right clicking on an entry you can add, edit and remove shortcuts.</qt>"
 
 #~ msgid "&Large Icons"
 #~ msgstr "&ໄອຄອນໃຫຍ່"
@@ -9160,40 +8706,20 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Edit Quick Access Entry"
 #~ msgstr "ແກ້ໄຂລາຍການເຂົ້າໃຊ້ດ່ວນ"
 
-#~ msgid ""
-#~ "<qt><b>Please provide a description, URL and icon for this Quick Access "
-#~ "entry.</b></br></qt>"
+#~ msgid "<qt><b>Please provide a description, URL and icon for this Quick Access entry.</b></br></qt>"
 #~ msgstr "<qt><b>ກະລຸນາຕັ້ງຄ່າ URL, ໄອຄອນແລະລາຍລະອຽດ</b></br></qt>"
 
-#~ msgid ""
-#~ "<qt>This is the text that will appear in the Quick Access panel.<p>The "
-#~ "description should consist of one or two words that will help you "
-#~ "remember what this entry refers to.</qt>"
-#~ msgstr ""
-#~ "<qt>This is the text that will appear in the Quick Access panel.<p>The "
-#~ "description should consist of one or two words that will help you "
-#~ "remember what this entry refers to.</qt>"
+#~ msgid "<qt>This is the text that will appear in the Quick Access panel.<p>The description should consist of one or two words that will help you remember what this entry refers to.</qt>"
+#~ msgstr "<qt>This is the text that will appear in the Quick Access panel.<p>The description should consist of one or two words that will help you remember what this entry refers to.</qt>"
 
-#~ msgid ""
-#~ "<qt>This is the location associated with the entry. Any valid URL may be "
-#~ "used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/"
-#~ "kde/stable<p>By clicking on the button next to the text edit box you can "
-#~ "browse to an appropriate URL.</qt>"
-#~ msgstr ""
-#~ "<qt>This is the location associated with the entry. Any valid URL may be "
-#~ "used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/"
-#~ "kde/stable<p>By clicking on the button next to the text edit box you can "
-#~ "browse to an appropriate URL.</qt>"
+#~ msgid "<qt>This is the location associated with the entry. Any valid URL may be used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/kde/stable<p>By clicking on the button next to the text edit box you can browse to an appropriate URL.</qt>"
+#~ msgstr "<qt>This is the location associated with the entry. Any valid URL may be used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/kde/stable<p>By clicking on the button next to the text edit box you can browse to an appropriate URL.</qt>"
 
 #~ msgid "&URL:"
 #~ msgstr "&URL:"
 
-#~ msgid ""
-#~ "<qt>This is the icon that will appear in the Quick Access panel.<p>Click "
-#~ "on the button to select a different icon.</qt>"
-#~ msgstr ""
-#~ "<qt>This is the icon that will appear in the Quick Access panel.<p>Click "
-#~ "on the button to select a different icon.</qt>"
+#~ msgid "<qt>This is the icon that will appear in the Quick Access panel.<p>Click on the button to select a different icon.</qt>"
+#~ msgstr "<qt>This is the icon that will appear in the Quick Access panel.<p>Click on the button to select a different icon.</qt>"
 
 #~ msgid "Choose an &icon:"
 #~ msgstr "&ເລືອກໄອຄອນ:"
@@ -9203,10 +8729,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "&ສະເພາະກັບແອພພຣິເຄຊັນນີ້ເທົ່ານັ້ນ"
 
 #, fuzzy
-#~ msgid ""
-#~ "<qt>Select this setting if you want this entry to show only when using "
-#~ "the current application (%1).<p>If this setting is not selected, the "
-#~ "entry will be available in all applications.</qt>"
+#~ msgid "<qt>Select this setting if you want this entry to show only when using the current application (%1).<p>If this setting is not selected, the entry will be available in all applications.</qt>"
 #~ msgstr ""
 #~ "ເລືອກການຕັ້ງຄ່ານີ້ ຫາກທ່ານຕ້ອງການໃຊ້ລາຍການ\n"
 #~ "ສະເພາະກັບແອພພຣິເຄຊັນນີ້ເທົ່ານັ້ນ\n"
@@ -9649,10 +9172,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Library files for \"%1\" not found in paths"
 #~ msgstr "ບໍ່ພົບແຟ້ໄລແບຣຣີສຳລັບ \"%1\" ໃນເສັ້ງທາງພາທ໌"
 
-#~ msgid ""
-#~ "_: Dear Translator! Translate this string to the string 'LTR' in left-to-"
-#~ "right languages (as english) or to 'RTL' in right-to-left languages (such "
-#~ "as Hebrew and Arabic) to get proper widget layout."
+#~ msgid "_: Dear Translator! Translate this string to the string 'LTR' in left-to-right languages (as english) or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout."
 #~ msgstr "LTR"
 
 #~ msgid ""
@@ -9840,16 +9360,12 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "%1 was written by somebody who wants to remain anonymous."
 #~ msgstr "%1 ຂງນຂຶ້ນໂດຍຜູ້ບໍ່ປະສົງຈະອອກນາມ"
 
-#~ msgid ""
-#~ "Please use http://bugs.kde.org to report bugs, do not mail the authors "
-#~ "directly.\n"
-#~ msgstr ""
-#~ "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
+#~ msgid "Please use http://bugs.kde.org to report bugs, do not mail the authors directly.\n"
+#~ msgstr "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
 #, fuzzy
 #~ msgid "Please use %1 to report bugs, do not mail the authors directly.\n"
-#~ msgstr ""
-#~ "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
+#~ msgstr "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
 #~ msgid "Unexpected argument '%1'."
 #~ msgstr "ອາກູເມນທ໌ '%1' ອາດຜິດພາດ"
@@ -10060,10 +9576,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ເພີ່ມ"
 
 #~ msgid ""
-#~ "_: Dear translator, please do not translate this string in any form, but "
-#~ "pick the _right_ value out of NoPlural/TwoForms/French... If not sure "
-#~ "what to do mail thd@kde.org and coolo@kde.org, they will tell you. Better "
-#~ "leave that out if unsure, the programs will crash!!\n"
+#~ "_: Dear translator, please do not translate this string in any form, but pick the _right_ value out of NoPlural/TwoForms/French... If not sure what to do mail thd@kde.org and coolo@kde.org, they will tell you. Better leave that out if unsure, the programs will crash!!\n"
 #~ "Definition of PluralForm - to be set by the translator of kdelibs.po"
 #~ msgstr "NoPlural"
 
@@ -10525,13 +10038,8 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid ""
 #~ "_: replace this with information about your translation team\n"
-#~ "<p>KDE is translated into many languages thanks to the work of the "
-#~ "translation teams all over the world.</p><p>For more information on KDE "
-#~ "internationalization visit http://i18n.kde.org</p>"
-#~ msgstr ""
-#~ "<p> ຂໍຂອບໃຈສຳລັບການທຳງານຂອງທິມການແປ KDE ໄປເປັນພາສາຕ່າງໆຫລາກຫລາຍ</p> "
-#~ "<p>ລອງແວະໄປທີ່ http://i18n.kde.org ສຳລັບຂໍ້ມູນລາຍລະອງດ KDE "
-#~ "ລະດັບນານາຊາດທີ່ຫລາຍກວ່ານີ้້</p>"
+#~ "<p>KDE is translated into many languages thanks to the work of the translation teams all over the world.</p><p>For more information on KDE internationalization visit http://i18n.kde.org</p>"
+#~ msgstr "<p> ຂໍຂອບໃຈສຳລັບການທຳງານຂອງທິມການແປ KDE ໄປເປັນພາສາຕ່າງໆຫລາກຫລາຍ</p> <p>ລອງແວະໄປທີ່ http://i18n.kde.org ສຳລັບຂໍ້ມູນລາຍລະອງດ KDE ລະດັບນານາຊາດທີ່ຫລາຍກວ່ານີ้້</p>"
 
 #~ msgid ""
 #~ "No licensing terms for this program have been specified.\n"
@@ -10551,13 +10059,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Dante SOCKS client"
 #~ msgstr "ໄຄລເອນທ໌์ Dante SOCKS"
 
-#~ msgid ""
-#~ "Here you can see a list of key bindings, i.e. associations between "
-#~ "actions (e.g. 'Copy') shown in the left column and keys or combination of "
-#~ "keys (e.g. Ctrl+V) shown in the right column."
-#~ msgstr ""
-#~ "ທ່ານສາມາດເຫັນການຈັບຄູ່ປຸ່ມທີ່ກຳນົດໄວ້ແລ້ວທີ່ນີ້ ໂດຍມີຄວາມສຳພັນລະຫວ່າງ ການກະທຳ (ເຊັ່ນ: 'ກັອບປີ້') "
-#~ "ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຊ້າຍມືແລະປຸ່ມພິມທີ່ຖຶກຈັບຄູ່ໄວ້ (ເຊັ່ນ CTRL-V) ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຂວາມື"
+#~ msgid "Here you can see a list of key bindings, i.e. associations between actions (e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. Ctrl+V) shown in the right column."
+#~ msgstr "ທ່ານສາມາດເຫັນການຈັບຄູ່ປຸ່ມທີ່ກຳນົດໄວ້ແລ້ວທີ່ນີ້ ໂດຍມີຄວາມສຳພັນລະຫວ່າງ ການກະທຳ (ເຊັ່ນ: 'ກັອບປີ້') ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຊ້າຍມືແລະປຸ່ມພິມທີ່ຖຶກຈັບຄູ່ໄວ້ (ເຊັ່ນ CTRL-V) ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຂວາມື"
 
 #~ msgid "Action"
 #~ msgstr "ການກະທຳ"
@@ -10584,28 +10087,17 @@ msgstr "ອື່ນ&ຯ"
 #~ "De&fault"
 #~ msgstr "&ຄ່າປະລິຍາຍ"
 
-#~ msgid ""
-#~ "This will bind the default key to the selected action. Usually a "
-#~ "reasonable choice."
+#~ msgid "This will bind the default key to the selected action. Usually a reasonable choice."
 #~ msgstr "ຈະທຳການຈັບຄູ່ລະຫວ່າງແປ້ນພິມລັດໂດຍປະລິຍາຍ ກັບການກະທຳທີ່ເລືອກໄວ້ສຳລັບຫົວຂໍ້ທົ່ວໄປ"
 
 #~ msgid "C&ustom"
 #~ msgstr "&ກຳນົດເອງ"
 
-#~ msgid ""
-#~ "If this option is selected you can create a customized key binding for "
-#~ "the selected action using the buttons below."
-#~ msgstr ""
-#~ "ຖ້າຕົວເລືອກນີ້ຖຶກເລືອກໄວ້ ທ່ານສາມາດເລືອກສ້າງການຈັບຄູ່ແປ້ນພິມລັດ ກັບການກະທຳທີ່ເລືອກໄວ້ໄດ້ເອງ "
-#~ "ໂດຍໃຊ້ປຸ່ມທີ່ຢູ່ດ້ານລຸ່ມນີ້"
+#~ msgid "If this option is selected you can create a customized key binding for the selected action using the buttons below."
+#~ msgstr "ຖ້າຕົວເລືອກນີ້ຖຶກເລືອກໄວ້ ທ່ານສາມາດເລືອກສ້າງການຈັບຄູ່ແປ້ນພິມລັດ ກັບການກະທຳທີ່ເລືອກໄວ້ໄດ້ເອງ ໂດຍໃຊ້ປຸ່ມທີ່ຢູ່ດ້ານລຸ່ມນີ້"
 
-#~ msgid ""
-#~ "Use this button to choose a new shortcut key. Once you click it, you can "
-#~ "press the key-combination which you would like to be assigned to the "
-#~ "currently selected action."
-#~ msgstr ""
-#~ "ໃຊ້ປຸ່ມນີ້ ເພື່ອເລືອກແປ້ນພິມລັດໃຫມ່ ໂດຍເມື່ອທ່ານຄລິກມັນຫນຶ່ງຄັ້ງ "
-#~ "ທ່ານສາມາດກົດແປ້ນພິມລັດທີ່ທ່ານຕ້ອງການກຳນົດໃຫ້ໃຊ້ກັບການກະທຳປະຈຸບັນໄດ້"
+#~ msgid "Use this button to choose a new shortcut key. Once you click it, you can press the key-combination which you would like to be assigned to the currently selected action."
+#~ msgstr "ໃຊ້ປຸ່ມນີ້ ເພື່ອເລືອກແປ້ນພິມລັດໃຫມ່ ໂດຍເມື່ອທ່ານຄລິກມັນຫນຶ່ງຄັ້ງ ທ່ານສາມາດກົດແປ້ນພິມລັດທີ່ທ່ານຕ້ອງການກຳນົດໃຫ້ໃຊ້ກັບການກະທຳປະຈຸບັນໄດ້"
 
 #~ msgid "Shortcuts"
 #~ msgstr "ແປ້ນພິມລັດ"
@@ -10619,16 +10111,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Invalid Shortcut Key"
 #~ msgstr "ປຸ່ມພິມລັດບໍ່ຖຶກຕ້ອງ!"
 
-#~ msgid ""
-#~ "In order to use the '%1' key as a shortcut, it must be combined with the "
-#~ "Win, Alt, Ctrl, and/or Shift keys."
-#~ msgstr ""
-#~ "ໃນການໃຊ້ງານປຸ່ມພິມ '%1' ເປັນປຸ່ມພິມລັດມັນຈະຕ້ອງມີການໃຊ້ຮ່ວມກັບປຸ່ມ Win, Alt, Ctrl, ແລະ/ຫລື "
-#~ "Shift"
+#~ msgid "In order to use the '%1' key as a shortcut, it must be combined with the Win, Alt, Ctrl, and/or Shift keys."
+#~ msgstr "ໃນການໃຊ້ງານປຸ່ມພິມ '%1' ເປັນປຸ່ມພິມລັດມັນຈະຕ້ອງມີການໃຊ້ຮ່ວມກັບປຸ່ມ Win, Alt, Ctrl, ແລະ/ຫລື Shift"
 
 #~ msgid ""
-#~ "The '%1' key combination has already been allocated to the \"%2\" "
-#~ "action.\n"
+#~ "The '%1' key combination has already been allocated to the \"%2\" action.\n"
 #~ "Please choose a unique key combination."
 #~ msgstr ""
 #~ "ປຸ່ມພິມລັດ '%1' ນີ້ ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
@@ -10848,14 +10335,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
 #~ msgstr "ຂະຫນາດຕົວອັກສອນຄົງທີ່ ຫລື ສຳພັນກັບສະພາບແວດລ້ອມ"
 
-#~ msgid ""
-#~ "Here you can switch between fixed font size and font size to be "
-#~ "calculated dynamically and adjusted to changing environment (e.g. widget "
-#~ "dimensions, paper size)."
-#~ msgstr ""
-#~ "ເຈົ້າສາມາດສະຫລັບໄປມາລະຫວ່າງຂະຫນາດຕົວອັກສອນຄົງທີ່ "
-#~ "ແລະຂະຫນາດຕົວອັກທີ່ຈະຄຳນວນແບບໄດນາມິກແລະປັບຄ່າໃຫ້ກັບສະພາບແປແວດລ້ອມດ້ວຍ (ເຊັ່ນ:"
-#~ "ມິຕິຂອງຄອນໂທຣນ,ຂະຫນາດເຈ້ຍເປັນຕົ້ນ)"
+#~ msgid "Here you can switch between fixed font size and font size to be calculated dynamically and adjusted to changing environment (e.g. widget dimensions, paper size)."
+#~ msgstr "ເຈົ້າສາມາດສະຫລັບໄປມາລະຫວ່າງຂະຫນາດຕົວອັກສອນຄົງທີ່ ແລະຂະຫນາດຕົວອັກທີ່ຈະຄຳນວນແບບໄດນາມິກແລະປັບຄ່າໃຫ້ກັບສະພາບແປແວດລ້ອມດ້ວຍ (ເຊັ່ນ:ມິຕິຂອງຄອນໂທຣນ,ຂະຫນາດເຈ້ຍເປັນຕົ້ນ)"
 
 #~ msgid "Here you can choose the font size to be used."
 #~ msgstr "ເຈົ້າສາມາດເລືອກຂະຫນາດຕົວອັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
@@ -10863,9 +10344,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 #~ msgstr "່Lao language,ພາສາລາວ"
 
-#~ msgid ""
-#~ "This sample text illustrates the current settings. You may edit it to "
-#~ "test special characters."
+#~ msgid "This sample text illustrates the current settings. You may edit it to test special characters."
 #~ msgstr "ນີ້ເປັນຂໍ້ຄວາມຕົວຢ່າງທີ່ສະແດງໃຫ້ເຫັນລັກສະນະການຕັ້ງຄ່າໃນປະຈຸບັນເຈົ້າອາດຈະແກ້ໄຂເພື່ອທົດສອບອັກຄະຣະພິເສດ"
 
 #~ msgid "Actual Font"
@@ -10914,88 +10393,20 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Dropdown List && Automatic"
 #~ msgstr "ລາຍການແບບ Dropdown "
 
-#~ msgid ""
-#~ "The <b>K Desktop Environment</b> is written and maintained by the KDE "
-#~ "Team, a world-wide network of software engineers committed to free "
-#~ "software development.<br><br>No single group, company or organization "
-#~ "controls the KDE source code. Everyone is welcome to contribute to KDE."
-#~ "<br><br>Visit <A HREF=\"http://www.kde.org/\">http://www.kde.org/</A> for "
-#~ "more information on the KDE Project. "
-#~ msgstr ""
-#~ "<center><b>ສະພາບແວດລ້ອມການເຮັດວຽກແບບພື້ນທີ່ເຮັດວຽກ K </b></"
-#~ "center>ຖືກຂຽນຂື້ນແລະຄວບຄຸມເບິ່ງແຍງໂດຍທິມງານຂອງ KDE <br>ຊື່ງເປັນປຸ່ມວິສະວະກອນ,ໂປຼແກຣມເມີ "
-#~ "ແລະຜູ້ອຸທິດຕົນໃຫ້ກັບ ການພັດທະນາແລະເຜີຍແຜ່ຊອບແວຟຼີຈາກທົ່ວໂລກ<br><br>ບໍ່ມີຜູ້ໃດ ບໍລິສັດ ຫຼືອົງກອນໃດໆ "
-#~ "ຄວບຄຸມຕົ້ນສະບັບໂປຼແກຣມ KDE ໄວ້ແຕ່ຜູ້ດຽວ<br>ບໍ່ວ່າຜູ້ໃດກໍ່ສາມາດເຜີຍແຜ່ແຈກຈ່າຍໂປຼແກຣມ KDE "
-#~ "ນີ້ໄດ້<br><br>ລອງແວະໄປທີ່ <A HREF=\"http://www.kde.org/\">http://www.kde.org/</"
-#~ "A> ເພື່ອເບີ່ງລາຍລະອຽດຂອງໂຄງການ KDE ທີ່ຫຼາຍກ່ວານີ້"
+#~ msgid "The <b>K Desktop Environment</b> is written and maintained by the KDE Team, a world-wide network of software engineers committed to free software development.<br><br>No single group, company or organization controls the KDE source code. Everyone is welcome to contribute to KDE.<br><br>Visit <A HREF=\"http://www.kde.org/\">http://www.kde.org/</A> for more information on the KDE Project. "
+#~ msgstr "<center><b>ສະພາບແວດລ້ອມການເຮັດວຽກແບບພື້ນທີ່ເຮັດວຽກ K </b></center>ຖືກຂຽນຂື້ນແລະຄວບຄຸມເບິ່ງແຍງໂດຍທິມງານຂອງ KDE <br>ຊື່ງເປັນປຸ່ມວິສະວະກອນ,ໂປຼແກຣມເມີ ແລະຜູ້ອຸທິດຕົນໃຫ້ກັບ ການພັດທະນາແລະເຜີຍແຜ່ຊອບແວຟຼີຈາກທົ່ວໂລກ<br><br>ບໍ່ມີຜູ້ໃດ ບໍລິສັດ ຫຼືອົງກອນໃດໆ ຄວບຄຸມຕົ້ນສະບັບໂປຼແກຣມ KDE ໄວ້ແຕ່ຜູ້ດຽວ<br>ບໍ່ວ່າຜູ້ໃດກໍ່ສາມາດເຜີຍແຜ່ແຈກຈ່າຍໂປຼແກຣມ KDE ນີ້ໄດ້<br><br>ລອງແວະໄປທີ່ <A HREF=\"http://www.kde.org/\">http://www.kde.org/</A> ເພື່ອເບີ່ງລາຍລະອຽດຂອງໂຄງການ KDE ທີ່ຫຼາຍກ່ວານີ້"
 
 #, fuzzy
-#~ msgid ""
-#~ "Software can always be improved, and the KDE Team is ready to do so. "
-#~ "However, you - the user - must tell us when something does not work as "
-#~ "expected or could be done better.<br><br>The K Desktop Environment has a "
-#~ "bug tracking system. Visit <A HREF=\"http://bugs.kde.org/\">http://bugs."
-#~ "kde.org/</A> or use the \"Report Bug\" dialog from the \"Help\" menu to "
-#~ "report bugs.<br><br>If you have a suggestion for improvement then you are "
-#~ "welcome to use the bug tracking system to register your wish. Make sure "
-#~ "you use the severity called \"Wishlist\"."
-#~ msgstr ""
-#~ "ຊອບແວຍ່ອມມີການປັບປຸງແລະແກ້ໄຂຢູ່ສະເຫມີ ເຊິ່ງທາງຜູ້ພັດທະນາ KDE ກໍເຮັດເຊັ່ນນັ້ນຢູ່ແລ້ວ<br> "
-#~ "ຢ່າງໃດກໍຕາມ ທ່ານເຊິ່ງເປັນ<b>ຜູ້ໃຊ້</b> ອາດຕ້ອງການບອກເຮົາ "
-#~ "ຫາກບາງສິ່ງບໍ່ສາມາດທຳງານໄດ້ຕາມທີ່ຄາດ "
-#~ "ຫລືຫນ້າຈະເຮັດໄດ້ດີກວ່ານີ້<br><br>ສະພາບແວດລ້ອມການທຳງານພື້ນທີ່ທຳງານແບບK "
-#~ "ນັ້ນມີລະບົບຕິດຕາມຄວາມຜິດພາດຢູ່ແລ້ວ <br> ມາທີ່ <A HREF=\"http://bugs.kde.org/"
-#~ "\">http://bugs.kde.org/</A> ຫລືໃຊ້ໄດອະລັອກ \"ລາຍງານຄວາມຜິດພາດ\" ຈາກເມນູ "
-#~ "\"ຊ່ວຍເຫລືອ\" ເພື່ອລາຍງານຄວາມຜິດພາດທີ່ເກີດຂື້ນ<br><br>ຫາກທ່ານມີຂໍ້ແນະນຳ ຫລືຄວາມຕ້ອງການອື່ນໆ "
-#~ "ເພື່ອການປັບປຸງແລ້ວແລະກະ ທ່ານສາມາດໃຊ້ວິທີ "
-#~ "<br>ລົງທະບຽນສິ່ງທີ່ທ່ານຕ້ອງການໄດ້ໂດຍໃ່ຊ້ລະບົບຕິດຕາມຄວາມຜິດພາດ "
-#~ "<br>ແລະກະລຸນາແນ່ໃຈວ່າທ່ານໄດ້ປັບໃຊ້ລະດັບການກວດຂັນແບບ \"ຄວາມຕ້ອງການ\" ແລ້ວ"
+#~ msgid "Software can always be improved, and the KDE Team is ready to do so. However, you - the user - must tell us when something does not work as expected or could be done better.<br><br>The K Desktop Environment has a bug tracking system. Visit <A HREF=\"http://bugs.kde.org/\">http://bugs.kde.org/</A> or use the \"Report Bug\" dialog from the \"Help\" menu to report bugs.<br><br>If you have a suggestion for improvement then you are welcome to use the bug tracking system to register your wish. Make sure you use the severity called \"Wishlist\"."
+#~ msgstr "ຊອບແວຍ່ອມມີການປັບປຸງແລະແກ້ໄຂຢູ່ສະເຫມີ ເຊິ່ງທາງຜູ້ພັດທະນາ KDE ກໍເຮັດເຊັ່ນນັ້ນຢູ່ແລ້ວ<br> ຢ່າງໃດກໍຕາມ ທ່ານເຊິ່ງເປັນ<b>ຜູ້ໃຊ້</b> ອາດຕ້ອງການບອກເຮົາ ຫາກບາງສິ່ງບໍ່ສາມາດທຳງານໄດ້ຕາມທີ່ຄາດ ຫລືຫນ້າຈະເຮັດໄດ້ດີກວ່ານີ້<br><br>ສະພາບແວດລ້ອມການທຳງານພື້ນທີ່ທຳງານແບບK ນັ້ນມີລະບົບຕິດຕາມຄວາມຜິດພາດຢູ່ແລ້ວ <br> ມາທີ່ <A HREF=\"http://bugs.kde.org/\">http://bugs.kde.org/</A> ຫລືໃຊ້ໄດອະລັອກ \"ລາຍງານຄວາມຜິດພາດ\" ຈາກເມນູ \"ຊ່ວຍເຫລືອ\" ເພື່ອລາຍງານຄວາມຜິດພາດທີ່ເກີດຂື້ນ<br><br>ຫາກທ່ານມີຂໍ້ແນະນຳ ຫລືຄວາມຕ້ອງການອື່ນໆ ເພື່ອການປັບປຸງແລ້ວແລະກະ ທ່ານສາມາດໃຊ້ວິທີ <br>ລົງທະບຽນສິ່ງທີ່ທ່ານຕ້ອງການໄດ້ໂດຍໃ່ຊ້ລະບົບຕິດຕາມຄວາມຜິດພາດ <br>ແລະກະລຸນາແນ່ໃຈວ່າທ່ານໄດ້ປັບໃຊ້ລະດັບການກວດຂັນແບບ \"ຄວາມຕ້ອງການ\" ແລ້ວ"
 
 #, fuzzy
-#~ msgid ""
-#~ "You don't have to be a software developer to be a member of the KDE Team. "
-#~ "You can join the national teams that translate program interfaces. You "
-#~ "can provide graphics, themes, sounds and improved documentation. You "
-#~ "decide!<br><br>Visit <A HREF=\"http://www.kde.org/jobs/\">http://www.kde."
-#~ "org/jobs/</A> for information on some projects in which you can "
-#~ "participate.<br><br>If you need more information or documentation, then a "
-#~ "visit to <A HREF=\"http://developer.kde.org/\">http://developer.kde.org/</"
-#~ "A> will provide you with what you need."
-#~ msgstr ""
-#~ "ຫາກທ່ານຍັງບໍ່ໄດ້ເປັນສ່ວນຫນຶ່ງຂອງທີມ KDE ທ່ານສາມາດເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງໄດ້ "
-#~ "ເຊິ່ງທ່ານຈະສາມາດແປຮູບແບບສ່ວນຕິດຕໍ່ຂອງໂປຣແກຣມ ສະເຫນີພາບ ທີມ ສຽງ ແລະປັບປຸງເອກະສານ "
-#~ "ຕາມທີ່ທ່ານຕ້ອງການໄດ້ !<br> <br>ແລະໄປທີ່ <A HREF=\"http://www.kde.org/jobs.html"
-#~ "\">http://www.kde.org/jobs.html</A> "
-#~ "ສຳຫລັບບາງໂຄງການທີ່ທ່ານສາມາດເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງໄດ້<br><br> ຫາກທ່ານຕ້ອງການລາຍລະອຽດ "
-#~ "ຫລືເອກະສານທີ່ຫລາຍກວ່ານີ້ ແວະໄປທີ່<A HREF=\"http://developer.kde.org/\">http://"
-#~ "developer.kde.org/</A> ເຊິ່ງຈະມີລາຍລະອຽດແລະເອກະສານທີ່ທ່ານຕ້ອງການ"
+#~ msgid "You don't have to be a software developer to be a member of the KDE Team. You can join the national teams that translate program interfaces. You can provide graphics, themes, sounds and improved documentation. You decide!<br><br>Visit <A HREF=\"http://www.kde.org/jobs/\">http://www.kde.org/jobs/</A> for information on some projects in which you can participate.<br><br>If you need more information or documentation, then a visit to <A HREF=\"http://developer.kde.org/\">http://developer.kde.org/</A> will provide you with what you need."
+#~ msgstr "ຫາກທ່ານຍັງບໍ່ໄດ້ເປັນສ່ວນຫນຶ່ງຂອງທີມ KDE ທ່ານສາມາດເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງໄດ້ ເຊິ່ງທ່ານຈະສາມາດແປຮູບແບບສ່ວນຕິດຕໍ່ຂອງໂປຣແກຣມ ສະເຫນີພາບ ທີມ ສຽງ ແລະປັບປຸງເອກະສານ ຕາມທີ່ທ່ານຕ້ອງການໄດ້ !<br> <br>ແລະໄປທີ່ <A HREF=\"http://www.kde.org/jobs.html\">http://www.kde.org/jobs.html</A> ສຳຫລັບບາງໂຄງການທີ່ທ່ານສາມາດເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງໄດ້<br><br> ຫາກທ່ານຕ້ອງການລາຍລະອຽດ ຫລືເອກະສານທີ່ຫລາຍກວ່ານີ້ ແວະໄປທີ່<A HREF=\"http://developer.kde.org/\">http://developer.kde.org/</A> ເຊິ່ງຈະມີລາຍລະອຽດແລະເອກະສານທີ່ທ່ານຕ້ອງການ"
 
 #, fuzzy
-#~ msgid ""
-#~ "KDE is available free of charge, but making it is not for free."
-#~ "<br><br>Thus, the KDE Team formed the KDE Association, a non-profit "
-#~ "organization legally founded in Tuebingen, Germany. The KDE Association "
-#~ "represents the KDE Project in legal and financial matters. See <a href="
-#~ "\"http://www.kde-ev.org/\">http://www.kde-ev.org/</a> for information on "
-#~ "the KDE Association.<br><br>The KDE Team does need financial support. "
-#~ "Most of the money is used to reimburse members and others on expenses "
-#~ "they experienced when contributing to KDE. You are encouraged to support "
-#~ "KDE through a financial donation, using one of the ways described at <a "
-#~ "href=\"http://www.kde.org/support/\">http://www.kde.org/support/</a>."
-#~ "<br><br>Thank you very much in advance for your support."
-#~ msgstr ""
-#~ "KDE is available free of charge, but making it is not for free."
-#~ "<br><br>Thus, the KDE Team formed the KDE Association, a non-profit "
-#~ "organization legally founded in Tuebingen, Germany. The KDE Association "
-#~ "represents the KDE Project in legal and financial matters. See <a href="
-#~ "\"http://www.kde.org/kde-ev/\">http://www.kde.org/kde-ev/<a> for "
-#~ "information on the KDE Association.<br><br>The KDE Team does need "
-#~ "financial support. Most of the money is used to reimburse members and "
-#~ "others on expenses they experienced when contributing to KDE. You are "
-#~ "encouraged to support KDE through a financial donation, using one of the "
-#~ "ways described at <a href=\"http://www.kde.org/support.html\">http://www."
-#~ "kde.org/support.html</a>.<br><br>Thank you very much in advance for your "
-#~ "support."
+#~ msgid "KDE is available free of charge, but making it is not for free.<br><br>Thus, the KDE Team formed the KDE Association, a non-profit organization legally founded in Tuebingen, Germany. The KDE Association represents the KDE Project in legal and financial matters. See <a href=\"http://www.kde-ev.org/\">http://www.kde-ev.org/</a> for information on the KDE Association.<br><br>The KDE Team does need financial support. Most of the money is used to reimburse members and others on expenses they experienced when contributing to KDE. You are encouraged to support KDE through a financial donation, using one of the ways described at <a href=\"http://www.kde.org/support/\">http://www.kde.org/support/</a>.<br><br>Thank you very much in advance for your support."
+#~ msgstr "KDE is available free of charge, but making it is not for free.<br><br>Thus, the KDE Team formed the KDE Association, a non-profit organization legally founded in Tuebingen, Germany. The KDE Association represents the KDE Project in legal and financial matters. See <a href=\"http://www.kde.org/kde-ev/\">http://www.kde.org/kde-ev/<a> for information on the KDE Association.<br><br>The KDE Team does need financial support. Most of the money is used to reimburse members and others on expenses they experienced when contributing to KDE. You are encouraged to support KDE through a financial donation, using one of the ways described at <a href=\"http://www.kde.org/support.html\">http://www.kde.org/support.html</a>.<br><br>Thank you very much in advance for your support."
 
 #~ msgid "K Desktop Environment. Release %1"
 #~ msgstr "ສະພາບແວດລ້ອມພື້ນທີ່ທຳງານແບບ K ລຸ້ນ %1"
@@ -11036,8 +10447,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Discard changes"
 #~ msgstr "ປະຖິ້ມການປ່ຽນແປງ"
 
-#~ msgid ""
-#~ "Pressing this button will discard all recent changes made in this dialog"
+#~ msgid "Pressing this button will discard all recent changes made in this dialog"
 #~ msgstr "ຫາກກົດປຸ່ມນີ້ ຈະທຳການຍົກເລີກການປ່ຽນແປ ທີ່ໄດ້ເຮັດໄວ້ທັງຫມົດໃນກ່ອງໂຕ້ຕອບນີ້"
 
 #~ msgid "Save data"
@@ -11056,8 +10466,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ບັນທຶກແຟ້ມເປັນຊື່ອຶ່ນ"
 
 #~ msgid ""
-#~ "When clicking <b>Apply</b>, the settings will be handed over to the "
-#~ "program, but the dialog will not be closed.\n"
+#~ "When clicking <b>Apply</b>, the settings will be handed over to the program, but the dialog will not be closed.\n"
 #~ "Use this to try different settings."
 #~ msgstr ""
 #~ "ເມື່ອທ່ານຄລິກທີ່ປຸ່ມ<b>ມີຜົນທັນທີ</b> ການຕັ້ງຄ່າຈະມີຜົນ\n"
@@ -11171,9 +10580,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Curr&ent actions:"
 #~ msgstr "&ການເຮັດປະຈຸບັນ:"
 
-#~ msgid ""
-#~ "This element will be replaced with all the elements of an embedded "
-#~ "component."
+#~ msgid "This element will be replaced with all the elements of an embedded component."
 #~ msgstr "ສ່ວນປະກອບນີ້ ຈະແທນທີ່ສ່ວນປະກອບຂອງຄອມໂປເນນຕ໌ ທີ່ຖືກຝັງຢູ່ທັງຫມົດ"
 
 #~ msgid "<Merge>"
@@ -11182,9 +10589,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "<Merge %1>"
 #~ msgstr "<ລວມ %1>"
 
-#~ msgid ""
-#~ "This is a dynamic list of actions. You can move it, but if you remove it "
-#~ "you won't be able to re-add it."
+#~ msgid "This is a dynamic list of actions. You can move it, but if you remove it you won't be able to re-add it."
 #~ msgstr "ນີ້ເປັນລາຍການໆເຮັດທີ່ບໍ່ຄົງທີ່ ທ່ານສາມາດຍ້າຍມັນໄດ້ ແຕ່ອາດຈະບໍ່ສາມາດເຮັດການເພີ່ມມັນອີກໄດ້"
 
 #~ msgid "ActionList: %1"
@@ -11199,9 +10604,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Named Colors"
 #~ msgstr "ກຳນົດຊື່ສີ"
 
-#~ msgid ""
-#~ "Unable to read X11 RGB color strings. The following file location(s) were "
-#~ "examined:\n"
+#~ msgid "Unable to read X11 RGB color strings. The following file location(s) were examined:\n"
 #~ msgstr ""
 #~ "ບໍ່ສາມາດອ່ານຄ່າສາຍອັກຂະລະສີແບບ rgb ຂອງ X11 ໄດ້\n"
 #~ "ໂດຍກວດສອບຈາກຕຳແໜ່ງ:\n"
@@ -11330,9 +10733,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Submit Bug Report"
 #~ msgstr "ສົ່ງລາຍງານຄວາມຜິດພາດ"
 
-#~ msgid ""
-#~ "Your email address. If incorrect, use the Configure Email button to "
-#~ "change it"
+#~ msgid "Your email address. If incorrect, use the Configure Email button to change it"
 #~ msgstr "ທີ່ຢູ່ອີແມວຂອງທ່ານຫາກບໍ່ຖືກຕ້ອງໃຫ້ໃ້ຊ້ປຸ່ມການປັບແຕ່ງອີແມວເພື່ອປ່ຽນຄ່າ"
 
 #~ msgid "From:"
@@ -11357,17 +10758,13 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Send this bug report to %1."
 #~ msgstr "ສົ່ງລາຍງານຄວາມຜິດພາດນີ້ໄປຍັງລາຍການຄວາມຜິດພາດທີ່KDE"
 
-#~ msgid ""
-#~ "The application for which you wish to submit a bug report - if incorrect, "
-#~ "please use the Report Bug menu item of the correct application"
+#~ msgid "The application for which you wish to submit a bug report - if incorrect, please use the Report Bug menu item of the correct application"
 #~ msgstr "ອັບພລິກເຄເຊິນທີ່ທ່ານຕ້ອງການລາຍງານຄວາມຜິດພາດຖ້າບໍ່ຖືກຕ້ອງກະລຸນາໃຊ້ລາຍການເມນູລາຍງານຄວາມຜິດພາດໃຫ້ເປັນອັບພລິກເຄເຊິນທີ່ຖືກຕ້ອງ"
 
 #~ msgid "Application: "
 #~ msgstr "ອັບພລິກເຄເຊິນ:"
 
-#~ msgid ""
-#~ "The version of this application - please make sure that no newer version "
-#~ "is available before sending a bug report"
+#~ msgid "The version of this application - please make sure that no newer version is available before sending a bug report"
 #~ msgstr "ລຸ້ນຂອງອັບພລິກເຄເຊິນນີ້້ກະລຸນາກວດສອບໃຫແນ່ໃຈວ່າບໍ່ມີລຸ້ນບໍ່ມີລຸ້ນທີ່ໃຫມ່ກວ່ານີ້ກ່ອນຈະທຳການສົ່ງລາຍງານຄວາມຜິດພາດ"
 
 #~ msgid "Version:"
@@ -11407,19 +10804,15 @@ msgstr "ອື່ນ&ຯ"
 
 #, fuzzy
 #~ msgid ""
-#~ "Enter the text (in English if possible) that you wish to submit for the "
-#~ "bug report.\n"
-#~ "If you press \"Send\", a mail message will be sent to the maintainer of "
-#~ "this program.\n"
+#~ "Enter the text (in English if possible) that you wish to submit for the bug report.\n"
+#~ "If you press \"Send\", a mail message will be sent to the maintainer of this program.\n"
 #~ msgstr ""
 #~ "ໃສ່ຂໍ້ຄວາມ (ພາສາອັງກິດ ຖ້າເປັນໄປໄດ້) ທີ່ທ່ານປະສົງຈະລາຍງານຄວາມຜິດພາດ\n"
-#~ "ຖ້າທ່ານກົດ 'ສົ່ງ' ຂໍ້ຄວາມເມລ໌ຈະຖືກສົ່ງໄປຍັງຜູ້ເບິ່ງແຍງໂປຣແກຣມນີ້ ແລະສົ່ງຕໍ່ໄປຍັງລາຍການຄວາມຜິດພາດທີ່ "
-#~ "KDE"
+#~ "ຖ້າທ່ານກົດ 'ສົ່ງ' ຂໍ້ຄວາມເມລ໌ຈະຖືກສົ່ງໄປຍັງຜູ້ເບິ່ງແຍງໂປຣແກຣມນີ້ ແລະສົ່ງຕໍ່ໄປຍັງລາຍການຄວາມຜິດພາດທີ່ KDE"
 
 #~ msgid ""
 #~ "To submit a bug report, click on the link below.\n"
-#~ "This will open a web browser window on http://bugs.kde.org where you'll "
-#~ "find a form to fill in.\n"
+#~ "This will open a web browser window on http://bugs.kde.org where you'll find a form to fill in.\n"
 #~ "The information displayed above will be transferred to that server."
 #~ msgstr ""
 #~ "ເພື່ອສົ່ງລາຍງານຂໍ້ຜິດພາດ ໃຫ້ຄິກທີ່ລິງດ້ານລຸ່ມນ้\n"
@@ -11431,43 +10824,22 @@ msgstr "ອື່ນ&ຯ"
 #~ "unknown"
 #~ msgstr "ບໍ່ຮູ້ຈັກ"
 
-#~ msgid ""
-#~ "You must specify both a subject and a description before the report can "
-#~ "be sent."
+#~ msgid "You must specify both a subject and a description before the report can be sent."
 #~ msgstr "ທ່ານຕ້ອງກຳນົດທັງເລື່ອງແລະລາຍລະອຽດ ບໍ່ສະນັ້ນຈະບໍ່ສາມາດສົ່ງລາຍງານນັ້ນໄດ"
 
 #~ msgid ""
-#~ "<p>You chose the severity <b>Critical</b>. Please note that this severity "
-#~ "is intended only for bugs that</p><ul><li>break unrelated software on the "
-#~ "system (or the whole system)</li><li>cause serious data loss</"
-#~ "li><li>introduce a security hole on the system where the affected package "
-#~ "is installed</li></ul>\n"
-#~ "<p>Does the bug you are reporting cause any of the above damage? If it "
-#~ "does not, please select a lower severity. Thank you!</p>"
+#~ "<p>You chose the severity <b>Critical</b>. Please note that this severity is intended only for bugs that</p><ul><li>break unrelated software on the system (or the whole system)</li><li>cause serious data loss</li><li>introduce a security hole on the system where the affected package is installed</li></ul>\n"
+#~ "<p>Does the bug you are reporting cause any of the above damage? If it does not, please select a lower severity. Thank you!</p>"
 #~ msgstr ""
-#~ "<p>ທ່ານເລືອກລະດັບການກວດຂັນ<b>ສູງກ່ວາ</b> ໂປດຈືໄວ້ວ່າລະດັບການກວດຂັນນີ້ ມີຈຸດປະສົງ "
-#~ "ຈະໄຊ້ກັບຂໍ້ຜິດພາດເທົ່ານັ້ນ ຊຶ່ງ</p><ul><li>ອາດຈະເຮັດໃຫ້ຊອບແວໃນລະບົບ(ຫຼືລະບົບທັງໜົດ) ທີ່ບໍ່ກ່ຽວຂ້ອງ "
-#~ "ຢຸດເຮັດວຽກໄດ້ </li><li>ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫາຍຢ່າງໜັກ</li> "
-#~ "<li>ອາດນຳມາຊື່ງຊ່ອງຫ່ວາງຂອງລະບົບຄວາມປອດໄຟຂອງລະບົບ </li></ul>\n"
-#~ "<p>ຂໍ້ຜິດພາດທີ່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສຍຫາຍຫຼາຍຕໍ່ທ່ານຫຼືບໍ?"
-#~ "ຖ້າບໍ່ແມ່ນກະລຸນາເລືອກລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ ຂອບໃຈ!</p>"
+#~ "<p>ທ່ານເລືອກລະດັບການກວດຂັນ<b>ສູງກ່ວາ</b> ໂປດຈືໄວ້ວ່າລະດັບການກວດຂັນນີ້ ມີຈຸດປະສົງ ຈະໄຊ້ກັບຂໍ້ຜິດພາດເທົ່ານັ້ນ ຊຶ່ງ</p><ul><li>ອາດຈະເຮັດໃຫ້ຊອບແວໃນລະບົບ(ຫຼືລະບົບທັງໜົດ) ທີ່ບໍ່ກ່ຽວຂ້ອງ ຢຸດເຮັດວຽກໄດ້ </li><li>ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫາຍຢ່າງໜັກ</li> <li>ອາດນຳມາຊື່ງຊ່ອງຫ່ວາງຂອງລະບົບຄວາມປອດໄຟຂອງລະບົບ </li></ul>\n"
+#~ "<p>ຂໍ້ຜິດພາດທີ່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສຍຫາຍຫຼາຍຕໍ່ທ່ານຫຼືບໍ?ຖ້າບໍ່ແມ່ນກະລຸນາເລືອກລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ ຂອບໃຈ!</p>"
 
 #~ msgid ""
-#~ "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
-#~ "intended only for bugs that</p><ul><li>make the package in question "
-#~ "unusable or mostly so</li><li>cause data loss</li><li>introduce a "
-#~ "security hole allowing access to the accounts of users who use the "
-#~ "affected package</li></ul>\n"
-#~ "<p>Does the bug you are reporting cause any of the above damage? If it "
-#~ "does not, please select a lower severity. Thank you!</p>"
+#~ "<p>You chose the severity <b>Grave</b>. Please note that this severity is intended only for bugs that</p><ul><li>make the package in question unusable or mostly so</li><li>cause data loss</li><li>introduce a security hole allowing access to the accounts of users who use the affected package</li></ul>\n"
+#~ "<p>Does the bug you are reporting cause any of the above damage? If it does not, please select a lower severity. Thank you!</p>"
 #~ msgstr ""
-#~ "<p>ທ່ານເລືອກລະດັບການກວດຂັນ <b>ສູງ</b> "
-#~ "ກະລຸນາຈຳໄວ້ວ່າລະດັບການກວດຂັນນີ້ມີຈຸດປະສົງຈະໄຊ້ກັບຂໍ້ຜິດພາດເທົ້່ນັ້ນຊຶ່ງ</p> "
-#~ "<ul><li>ອາດຈະເຮັດແພກເກີທີ່ຢູ່ໃນຄຳຖາມ ບໍ່ສາມາດເຮັດວຽກໄດ້ຫຼືອາດຈະ</li> "
-#~ "<li>ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫາຍ</li><li>ຊື່ງອາດນຳມາຊື່ງຊ່ອງຫ່ວາງຂອງລະບົບ ຄວາມປອດໄຟລະບົບ</"
-#~ "li></ul>\n"
-#~ "<p>ຂໍ້ຜິດພາດທີ່່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສີຍຫາຍຢ່າງຫຼາຍຕໍ່ທ່ານຫຼືບໍ່?"
-#~ "ຖ້າບໍ່ມີກະລຸນາເລືອກລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ຂອບໃຈ!</p>"
+#~ "<p>ທ່ານເລືອກລະດັບການກວດຂັນ <b>ສູງ</b> ກະລຸນາຈຳໄວ້ວ່າລະດັບການກວດຂັນນີ້ມີຈຸດປະສົງຈະໄຊ້ກັບຂໍ້ຜິດພາດເທົ້່ນັ້ນຊຶ່ງ</p> <ul><li>ອາດຈະເຮັດແພກເກີທີ່ຢູ່ໃນຄຳຖາມ ບໍ່ສາມາດເຮັດວຽກໄດ້ຫຼືອາດຈະ</li> <li>ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫາຍ</li><li>ຊື່ງອາດນຳມາຊື່ງຊ່ອງຫ່ວາງຂອງລະບົບ ຄວາມປອດໄຟລະບົບ</li></ul>\n"
+#~ "<p>ຂໍ້ຜິດພາດທີ່່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສີຍຫາຍຢ່າງຫຼາຍຕໍ່ທ່ານຫຼືບໍ່?ຖ້າບໍ່ມີກະລຸນາເລືອກລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ຂອບໃຈ!</p>"
 
 #~ msgid ""
 #~ "Unable to send the bug report.\n"
@@ -11742,8 +11114,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ບັນທຶກພາບເປັນ"
 
 #, fuzzy
-#~ msgid ""
-#~ "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+#~ msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 #~ msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
 #~ msgid "Overwrite File?"
@@ -11930,12 +11301,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid " - BCC: "
 #~ msgstr "ເຊື່ອງສຳເນົາ:"
 
-#~ msgid ""
-#~ "<qt>The link <B>%1</B><BR>leads from this untrusted page to your local "
-#~ "filesystem.<BR>Do you want to follow the link?"
-#~ msgstr ""
-#~ "<qt>ມີລິງຄ໌์ <B>%1</B><BR> "
-#~ "ຈາກຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອຖືໄດ້ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ<BR>ທ່ານຕ້ອງການຈະໃຫ້ຕາມໄປຍັງລິງຄ໌ນີ້ຫລືບໍ່?"
+#~ msgid "<qt>The link <B>%1</B><BR>leads from this untrusted page to your local filesystem.<BR>Do you want to follow the link?"
+#~ msgstr "<qt>ມີລິງຄ໌์ <B>%1</B><BR> ຈາກຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອຖືໄດ້ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ<BR>ທ່ານຕ້ອງການຈະໃຫ້ຕາມໄປຍັງລິງຄ໌ນີ້ຫລືບໍ່?"
 
 #~ msgid "Follow"
 #~ msgstr "ຕາມ"
@@ -11954,8 +11321,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "&ຄົ້ນຫາພາຍໃນເຟຣມ..."
 
 #~ msgid ""
-#~ "Warning:  This is a secure form but it is attempting to send your data "
-#~ "back unencrypted.\n"
+#~ "Warning:  This is a secure form but it is attempting to send your data back unencrypted.\n"
 #~ "A third party may be able to intercept and view this information.\n"
 #~ "Are you sure you wish to continue?"
 #~ msgstr ""
@@ -11964,8 +11330,7 @@ msgstr "ອື່ນ&ຯ"
 #~ "ທ່ານແນ່ໃຈຫລືບໍ່ວ່າຕ້ອງການຈະເຮັດຕໍ່ໄປ?"
 
 #~ msgid ""
-#~ "Warning: Your data is about to be transmitted across the network "
-#~ "unencrypted.\n"
+#~ "Warning: Your data is about to be transmitted across the network unencrypted.\n"
 #~ "Are you sure you wish to continue?"
 #~ msgstr ""
 #~ "ຄຳເຕືອນ:ຂໍ້ມູນຂອງທ່ານທີ່ຮັບສົ່ງກັນລະຫວ່າງເຄືອຂ່າຍບໍ່ໄ້ດ້ເຂົ້າລະຫັດໄວ້\n"
@@ -11978,19 +11343,13 @@ msgstr "ອື່ນ&ຯ"
 #~ "ໄຊທ໌ນີ້ພະຍາຍາມຈະສົ່ງຂໍ້ມູນໃນຟອມຜ່ານທາງອີແມວ\n"
 #~ "ທ່ານຕ້ອງການທຳຕໍ່ໄປຫລືບໍ່?"
 
-#~ msgid ""
-#~ "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local "
-#~ "filesystem.<BR>Do you want to submit the form?"
-#~ msgstr ""
-#~ "<qt>ຟອມນີ້ຈະຖືກສົ່ງໄປຍັງ<BR><B>%1</B><BR>ເທິງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ<BR> "
-#~ "ທ່ານຕ້ອງການທີ່ຈະສົ່ງຂໍ້ມູນຟອມນີ້ຫລືບໍ່?"
+#~ msgid "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local filesystem.<BR>Do you want to submit the form?"
+#~ msgstr "<qt>ຟອມນີ້ຈະຖືກສົ່ງໄປຍັງ<BR><B>%1</B><BR>ເທິງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ<BR> ທ່ານຕ້ອງການທີ່ຈະສົ່ງຂໍ້ມູນຟອມນີ້ຫລືບໍ່?"
 
 #~ msgid "Submit"
 #~ msgstr "ສົ່ງ"
 
-#~ msgid ""
-#~ "This site attempted to attach a file from your computer in the form "
-#~ "submission. The attachment was removed for your protection."
+#~ msgid "This site attempted to attach a file from your computer in the form submission. The attachment was removed for your protection."
 #~ msgstr "ໄໍຊທ໌ນພະຍາຍາມຈະແນບແຟ້ມທີ່ຢູ່ພາຍໃນເຄື່ອງຂອງທ່ານໄປກັບການສົ່ງຟອມຊຶ່ງແຟ້ມທີ່ແນບຈະຖືກເອົາອອກຈາກການຕັ້ງການປ້ອງກັນຂອງທ່ານ"
 
 #~ msgid "(%1/s)"
@@ -11999,9 +11358,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Security Warning"
 #~ msgstr "ເຕືອນເລື່ອງຄວາມປອດໄພ"
 
-#~ msgid ""
-#~ "<qt>This untrusted page contains a link<BR><B>%1</B><BR>to your local "
-#~ "file system."
+#~ msgid "<qt>This untrusted page contains a link<BR><B>%1</B><BR>to your local file system."
 #~ msgstr "<qt>ຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອຖືນີ້ບັນຈຸລິງຄ໌<BR><B>%1</B><BR> ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ"
 
 #~ msgid "Security Alert"
@@ -12073,9 +11430,7 @@ msgstr "ອື່ນ&ຯ"
 #~ "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
 #, fuzzy
-#~ msgid ""
-#~ "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
-#~ "JavaScript.<br />Do you want to allow this?</qt>"
+#~ msgid "<qt>This site is requesting to open<p>%1</p>in a new browser window via JavaScript.<br />Do you want to allow this?</qt>"
 #~ msgstr ""
 #~ "ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
 #~ "\n"
@@ -12103,12 +11458,10 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ປິດການໃຊ້ງານ"
 
 #~ msgid ""
-#~ "A script on this page is causing KHTML to freeze. If it continues to run, "
-#~ "other applications may become less responsive.\n"
+#~ "A script on this page is causing KHTML to freeze. If it continues to run, other applications may become less responsive.\n"
 #~ "Do you want to abort the script?"
 #~ msgstr ""
-#~ "A script on this page is causing KHTML to freeze. If it continues to run, "
-#~ "other applications may become less responsive.\n"
+#~ "A script on this page is causing KHTML to freeze. If it continues to run, other applications may become less responsive.\n"
 #~ "Do you want to abort the script?"
 
 #~ msgid "JavaScript"
@@ -12116,8 +11469,7 @@ msgstr "ອື່ນ&ຯ"
 
 #, fuzzy
 #~ msgid ""
-#~ "This site is submitting a form which will open up a new browser window "
-#~ "via JavaScript.\n"
+#~ "This site is submitting a form which will open up a new browser window via JavaScript.\n"
 #~ "Do you want to allow the form to be submitted?"
 #~ msgstr ""
 #~ "ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
@@ -12125,10 +11477,7 @@ msgstr "ອື່ນ&ຯ"
 #~ "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
 #, fuzzy
-#~ msgid ""
-#~ "<qt>This site is submitting a form which will open <p>%1</p> in a new "
-#~ "browser window via JavaScript.<br />Do you want to allow the form to be "
-#~ "submitted?</qt>"
+#~ msgid "<qt>This site is submitting a form which will open <p>%1</p> in a new browser window via JavaScript.<br />Do you want to allow the form to be submitted?</qt>"
 #~ msgstr ""
 #~ "ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
 #~ "\n"
@@ -12138,8 +11487,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ນີ້ເປັນດັດສະນີທີ່ໃຊ້ຄົ້ນຫາໄດ້ຕື່່ມຂໍ້ຄວາມຫລືຄຳທີ່ຕິອງການຄົ້ນຫາ:"
 
 #~ msgid ""
-#~ "You're about to transfer the following files from your local computer to "
-#~ "the Internet.\n"
+#~ "You're about to transfer the following files from your local computer to the Internet.\n"
 #~ "Do you really want to continue?"
 #~ msgstr ""
 #~ "ທ່ານກຳລັງຈະສົ່ງແຟ້ມເລົ່ານີ້\n"
@@ -12308,39 +11656,20 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "&Only these cookies"
 #~ msgstr "&ສະເພາະຄຸກກີ້ເລົ່ານີ້"
 
-#~ msgid ""
-#~ "Select this option to accept/reject only this cookie. You will be "
-#~ "prompted if another cookie is received. <em>(see WebBrowsing/Cookies in "
-#~ "the Control Center)</em>."
-#~ msgstr ""
-#~ "ເລືອກຕົວເລືອກນີ້ ເພື່ອຍອມຮັບ/ປະຕິເສດ ສະເພາະກັບຄຸກກີ້ນີ້ ເຊິ່ງທ່ານຈະຖືກຖາມອີກຖ້າໄດ້ຮັບຄຸກກີ້ອື່ນໆ <em> "
-#~ "(ເບິ່ງWebBrowsing/Cookies ໃນສູນຄວບຄຸມ)</em>"
+#~ msgid "Select this option to accept/reject only this cookie. You will be prompted if another cookie is received. <em>(see WebBrowsing/Cookies in the Control Center)</em>."
+#~ msgstr "ເລືອກຕົວເລືອກນີ້ ເພື່ອຍອມຮັບ/ປະຕິເສດ ສະເພາະກັບຄຸກກີ້ນີ້ ເຊິ່ງທ່ານຈະຖືກຖາມອີກຖ້າໄດ້ຮັບຄຸກກີ້ອື່ນໆ <em> (ເບິ່ງWebBrowsing/Cookies ໃນສູນຄວບຄຸມ)</em>"
 
 #~ msgid "All cookies from this do&main"
 #~ msgstr "&ຄຸກກີ້ທັງຫມົດຈາກໂດເມນນີ້"
 
-#~ msgid ""
-#~ "Select this option to accept/reject all cookies from this site. Choosing "
-#~ "this option will add a new policy for the site this cookie originated "
-#~ "from. This policy will be permanent until you manually change it from the "
-#~ "Control Center <em>(see WebBrowsing/Cookies in the Control Center)</em>."
-#~ msgstr ""
-#~ "ເລືອກຕົວເລືອກນີ້ເພື່ອຍອມຮັບ/ປະຕິເສດ ສະເພາະກັບຄຸກກີ້ຈາກໄຊຕ໌ນີ້ ການເລືອກຕົວເລືອກນີ້ "
-#~ "ຈະທຳການເພີ້ມຂໍ້ກຳນົດໃຫມ່ສຳຫລັບໄຊຕ໌ທີ່ຄຸກກີ້ຖືກສົ່ງມາຂໍ້ກຳນົດນີ້ຈະຄົງຢູ່ຢ່າງຖາວອນຈົນກວ່າທ່ານຈະປ່ງນມັນຈາກສູນຄວບຄຸມ<em> "
-#~ "(ເບິ່ງໂມດູນການຮງກເບິ່ງເວບ/ຄຸກກີ້ໃນສູນກາງຄວບຄຸມ)</em>"
+#~ msgid "Select this option to accept/reject all cookies from this site. Choosing this option will add a new policy for the site this cookie originated from. This policy will be permanent until you manually change it from the Control Center <em>(see WebBrowsing/Cookies in the Control Center)</em>."
+#~ msgstr "ເລືອກຕົວເລືອກນີ້ເພື່ອຍອມຮັບ/ປະຕິເສດ ສະເພາະກັບຄຸກກີ້ຈາກໄຊຕ໌ນີ້ ການເລືອກຕົວເລືອກນີ້ ຈະທຳການເພີ້ມຂໍ້ກຳນົດໃຫມ່ສຳຫລັບໄຊຕ໌ທີ່ຄຸກກີ້ຖືກສົ່ງມາຂໍ້ກຳນົດນີ້ຈະຄົງຢູ່ຢ່າງຖາວອນຈົນກວ່າທ່ານຈະປ່ງນມັນຈາກສູນຄວບຄຸມ<em> (ເບິ່ງໂມດູນການຮງກເບິ່ງເວບ/ຄຸກກີ້ໃນສູນກາງຄວບຄຸມ)</em>"
 
 #~ msgid "All &cookies"
 #~ msgstr "&ຄຸກກີ້ທັງຫມົດ"
 
-#~ msgid ""
-#~ "Select this option to accept/reject all cookies from anywhere. Choosing "
-#~ "this option will change the global cookie policy set in the Control "
-#~ "Center for all cookies <em>(see WebBrowsing/Cookies in the Control Center)"
-#~ "</em>."
-#~ msgstr ""
-#~ "ເລືອກຕົວເລືອກນີ້ເພື່ອຍອມຮັບ/"
-#~ "ປະຕິເສດທຸກຄຸກກີ້ຈາກທຸກບ່ອນຕົວເລືອກນີ້ຈະທຳການປ່ງນຂໍ້ກຳນົດທົ່ວໄປທີ່ຖືກຕັ້ງຄ່າໄວ້ໃນສູນຄວບຄຸມສຳຫລັບທຸກໆຄຸກກີ້<em> "
-#~ "(ເບິ່ງໂມດູນ ການຮງກເບິ່ງເວບ/ຄຸກກີ້ໃນສູນຄວບຄຸມ)</em>"
+#~ msgid "Select this option to accept/reject all cookies from anywhere. Choosing this option will change the global cookie policy set in the Control Center for all cookies <em>(see WebBrowsing/Cookies in the Control Center)</em>."
+#~ msgstr "ເລືອກຕົວເລືອກນີ້ເພື່ອຍອມຮັບ/ປະຕິເສດທຸກຄຸກກີ້ຈາກທຸກບ່ອນຕົວເລືອກນີ້ຈະທຳການປ່ງນຂໍ້ກຳນົດທົ່ວໄປທີ່ຖືກຕັ້ງຄ່າໄວ້ໃນສູນຄວບຄຸມສຳຫລັບທຸກໆຄຸກກີ້<em> (ເບິ່ງໂມດູນ ການຮງກເບິ່ງເວບ/ຄຸກກີ້ໃນສູນຄວບຄຸມ)</em>"
 
 #~ msgid "&Accept"
 #~ msgstr "&ຍອມຮັບ"
@@ -12641,9 +11970,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Unable to create resource of type '%1'."
 #~ msgstr "ບໍ່ສາມາດສ້າງໄດເຣັກທໍຣີ %1 ໄດ້"
 
-#~ msgid ""
-#~ "You cannot remove your standard resource! Please select a new standard "
-#~ "resource first."
+#~ msgid "You cannot remove your standard resource! Please select a new standard resource first."
 #~ msgstr "ທ່ານບໍ່ສາມາດລຶບຊັບພະຍາກອນມາດຕະຖານໄດ້! ກະລຸນາເລືອກຊັບພະຍາກອນມາດຕະຖານໃຫມ່ກ່ອນ"
 
 #~ msgid "You cannot use a read-only resource as standard!"
@@ -12653,17 +11980,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ທ່ານບໍ່ສາມາດນຳໃຊ້ຊັບພະຍາກອນທີ່ບໍ່ແອັກຕີບເປັນມາດຕະຖານໄດ້! "
 
 #, fuzzy
-#~ msgid ""
-#~ "You cannot deactivate the standard resource. Choose another standard "
-#~ "resource first."
+#~ msgid "You cannot deactivate the standard resource. Choose another standard resource first."
 #~ msgstr "ທ່ານບໍ່ສາມາດລຶບຊັບພະຍາກອນມາດຕະຖານໄດ້! ກະລຸນາເລືອກຊັບພະຍາກອນມາດຕະຖານໃຫມ່ກ່ອນ"
 
-#~ msgid ""
-#~ "There is no valid standard resource! Please select one which is neither "
-#~ "read-only nor inactive."
-#~ msgstr ""
-#~ "ມັນຍັງບໍ່ທັນມີຊັບພະຍາກອນມາດຕະຖານທີ່ແທ້ຈິງ! "
-#~ "ກະລຸນາເລືອກຕົວໃດຕົວຫນຶ່ງເຊິ່ງບໍ່ໃຫ້ເປັນແບບອ່ານໄດ້ຢ່າງດຽວຫລືບໍ່ແອກຕີບຟ໌"
+#~ msgid "There is no valid standard resource! Please select one which is neither read-only nor inactive."
+#~ msgstr "ມັນຍັງບໍ່ທັນມີຊັບພະຍາກອນມາດຕະຖານທີ່ແທ້ຈິງ! ກະລຸນາເລືອກຕົວໃດຕົວຫນຶ່ງເຊິ່ງບໍ່ໃຫ້ເປັນແບບອ່ານໄດ້ຢ່າງດຽວຫລືບໍ່ແອກຕີບຟ໌"
 
 #~ msgid "Headline"
 #~ msgstr "ຫົວຂໍ້"
@@ -12746,10 +12067,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ບໍ່ສາມາດເລີ້ມໃຊ້ຕົວແປພາຍໃນໄດ້"
 
 #~ msgid ""
-#~ "Your local kab configuration file \"%1\" could not be created. kab will "
-#~ "probably not work correctly without it.\n"
-#~ "Make sure you have not removed write permission from your local KDE "
-#~ "directory (Usually ~/.kde)."
+#~ "Your local kab configuration file \"%1\" could not be created. kab will probably not work correctly without it.\n"
+#~ "Make sure you have not removed write permission from your local KDE directory (Usually ~/.kde)."
 #~ msgstr ""
 #~ "ບໍ່ສາມາດສ້າງແຟ້ມການປັບແຕ່ງ kab\n"
 #~ "\"%1\"\n"
@@ -12759,10 +12078,8 @@ msgstr "ອື່ນ&ຯ"
 #~ "ໄດເຣກທໍລີ KDE ຂອງທ່ານ(ซึ่งมักเป็น ~/.kde)"
 
 #~ msgid ""
-#~ "Your standard kab database file \"%1\" could not be created. kab will "
-#~ "probably not work correctly without it.\n"
-#~ "Make sure you have not removed write permission from your local KDE "
-#~ "directory (Usually ~/.kde)."
+#~ "Your standard kab database file \"%1\" could not be created. kab will probably not work correctly without it.\n"
+#~ "Make sure you have not removed write permission from your local KDE directory (Usually ~/.kde)."
 #~ msgstr ""
 #~ "ບໍ່ສາມາດສ້າງແຟ້ມຖານຂໍ້ມູນມາດຖານ kab \n"
 #~ "\"%1\"\n"
@@ -12799,8 +12116,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ຮງກແຟ້ມຂຶ້ນໃຫມ່ຮງບຮ້ອຍແລ້ວ"
 
 #~ msgid ""
-#~ "The currently loaded file \"%1\" cannot be reloaded. kab may close or "
-#~ "save it.\n"
+#~ "The currently loaded file \"%1\" cannot be reloaded. kab may close or save it.\n"
 #~ "Save it if you accidentally deleted your data file.\n"
 #~ "Close it if you intended to do so.\n"
 #~ "Your file will be closed by default."
@@ -13005,9 +12321,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The certificate is valid."
 #~ msgstr "ໃບຮັບຮອງຖືກຕ້ອງ"
 
-#~ msgid ""
-#~ "Certificate signing authority root files could not be found so the "
-#~ "certificate is not verified."
+#~ msgid "Certificate signing authority root files could not be found so the certificate is not verified."
 #~ msgstr "ບໍ່ພົບແຟ້ມລາຍເຊັນຂອງຫນ່ວຍງານທີ່ອອກໃບຮັບຮອງ ດັ່ງນັ້ນໃບຮັບຮອງຈະບໍ່ຖືກກວດສອບ"
 
 #~ msgid "Certificate signing authority is unknown or invalid."
@@ -13049,9 +12363,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "KDE Certificate Request - Password"
 #~ msgstr "ຄວາມຕ້ອງການການຮັບຮອງຄວາມປອດໄພເທິງ KDE - ລະຫັດຜ່ານ"
 
-#~ msgid ""
-#~ "Certificate request generation has been disabled for this release due to "
-#~ "incomplete code."
+#~ msgid "Certificate request generation has been disabled for this release due to incomplete code."
 #~ msgstr "ໃບຮັບຮອງລຸ້ນນີ້ຖືກງົດໃຊ້ງານ ເນື່ອງຈາກສ່ວນໂຄ້ດຍັງບໍ່ສົມບູນ"
 
 #~ msgid "KDE SSL Information"
@@ -13075,9 +12387,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "C&ryptography Configuration..."
 #~ msgstr "&ປັບແຕ່ງການເຂົ້າລະຫັດ..."
 
-#~ msgid ""
-#~ "The main part of this document is secured with SSL, but some parts are "
-#~ "not."
+#~ msgid "The main part of this document is secured with SSL, but some parts are not."
 #~ msgstr "ສ່ວນຫລັກໆ ຂອງເອກະສານນີ້ຖືກເຂົ້າລະຫັດໄວ້ດ້ວຍ SSL, ແຕ່ກໍມີບາງສ່ວນທີ່ບໍ່ໄດ້ເຂົ້າລະຫັດໄວ້"
 
 #~ msgid "Some of this document is secured with SSL, but the main part is not."
@@ -13329,9 +12639,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "I don't know how to handle this type of file."
 #~ msgstr "ບໍ່ຮູ້ວ່າຈະເອີ້ນໃຊ້ແຟ້ມປະເພດນີ້ຢ່າງໃດ"
 
-#~ msgid ""
-#~ "A certificate with that name already exists. Are you sure that you wish "
-#~ "to replace it?"
+#~ msgid "A certificate with that name already exists. Are you sure that you wish to replace it?"
 #~ msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວ ່ທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່ ?"
 
 #~ msgid ""
@@ -13454,9 +12762,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The server does not support the WebDAV protocol."
 #~ msgstr "ເຊີບເວີບໍ່ສະຫນັບສະຫນຸນໂປຣໂຕຄອນ WebDAV"
 
-#~ msgid ""
-#~ "An error occurred while attempting to %1, %2. A summary of the reasons is "
-#~ "below.<ul>"
+#~ msgid "An error occurred while attempting to %1, %2. A summary of the reasons is below.<ul>"
 #~ msgstr "ເກີດຄວາມຜິດພາດຂື້ນ ຂະນະກຳລັງ %1, %2 ຜົນສະຫລຸບຂອງຄວາມຜິດພາດຢູ່ທາງດ້ານລຸ່ມນີ້<ul>"
 
 #~ msgid "Access was denied while attempting to %1."
@@ -13465,18 +12771,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "The specified directory already exists."
 #~ msgstr "ແຟ້ມຫລືໄດເຣກທໍລີທີ່ກຳນົດຢູ່ແລ້ວ"
 
-#~ msgid ""
-#~ "A resource cannot be created at the destination until one or more "
-#~ "intermediate collections (directories) have been created."
+#~ msgid "A resource cannot be created at the destination until one or more intermediate collections (directories) have been created."
 #~ msgstr "ຈະບໍ່ສາມາດສ້າງຊັບພະຍາກອນປາຍທາງໄດ້ ຈົນກວ່າ ຈະມີການສ້າງໄດເຣກທໍລີສຳຫລັບຮັບເກັບເສຍກ່ອນ"
 
-#~ msgid ""
-#~ "The server was unable to maintain the liveness of the properties listed "
-#~ "in the propertybehavior XML element or you attempted to overwrite a file "
-#~ "while requesting that files are not overwritten. %1"
-#~ msgstr ""
-#~ "ເຊີບເວີ ບໍ່ສາມາດຮັກສາການຄົງຢູ່ຂອງຄຸນສົມບັດທີ່ສະແດງໃນລັກສະນະຄຸນສົມບັດ ສ່ວນຕ່າງໆ ຂອງ XML ໄດ້ "
-#~ "ຫລືທ່ານກຳລັງຈະເຮັດການຂງນທັບແຟ້ມ ຂະນະທີ່ແຟ້ມທີ່ຮ້ອງຂໍນັ້ນ ບໍ່ສາມາດຂງນທັບໄດ້ %1"
+#~ msgid "The server was unable to maintain the liveness of the properties listed in the propertybehavior XML element or you attempted to overwrite a file while requesting that files are not overwritten. %1"
+#~ msgstr "ເຊີບເວີ ບໍ່ສາມາດຮັກສາການຄົງຢູ່ຂອງຄຸນສົມບັດທີ່ສະແດງໃນລັກສະນະຄຸນສົມບັດ ສ່ວນຕ່າງໆ ຂອງ XML ໄດ້ ຫລືທ່ານກຳລັງຈະເຮັດການຂງນທັບແຟ້ມ ຂະນະທີ່ແຟ້ມທີ່ຮ້ອງຂໍນັ້ນ ບໍ່ສາມາດຂງນທັບໄດ້ %1"
 
 #~ msgid "The requested lock could not be granted. %1"
 #~ msgstr "ຄວາມຕ້ອງການລັອກ ບໍ່ໄດ້ຮັບການອະນຸຍາດ %1"
@@ -13490,17 +12789,11 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "This action was prevented by another error."
 #~ msgstr "ການກະທຳນີ້ ຖືກປົກປ້ອງຈາກຄວາມຜິດພາດອື່ນ"
 
-#~ msgid ""
-#~ "Unable to %1 because the destination server refuses to accept the file or "
-#~ "directory."
+#~ msgid "Unable to %1 because the destination server refuses to accept the file or directory."
 #~ msgstr "ບໍ່ສາມາດເຮັດ %1 ເນື່ອງຈາກເຊີບເວີປາຍທາງ ປະຕິເສດທີ່ຈະຍອມຮັບແຟ້ມຫລືໄດເຣກທໍລີ"
 
-#~ msgid ""
-#~ "The destination resource does not have sufficient space to record the "
-#~ "state of the resource after the execution of this method."
-#~ msgstr ""
-#~ "ຊັບພະຍາກອນປາຍທາງມີພື້ນທີ່ບໍ່ພງງພໍສຳຫລັບບັນທືກສະຖານະຂອງຊັບພະຍາກອນ "
-#~ "ຫລັງຈາກທີ່ມີການປະມວນຜົນຂອງວິທີການນີ້ແລ້ວ"
+#~ msgid "The destination resource does not have sufficient space to record the state of the resource after the execution of this method."
+#~ msgstr "ຊັບພະຍາກອນປາຍທາງມີພື້ນທີ່ບໍ່ພງງພໍສຳຫລັບບັນທືກສະຖານະຂອງຊັບພະຍາກອນ ຫລັງຈາກທີ່ມີການປະມວນຜົນຂອງວິທີການນີ້ແລ້ວ"
 
 #, fuzzy
 #~ msgid "upload %1"
@@ -13545,12 +12838,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "<b>%1</b> at <b>%2</b>"
 #~ msgstr "<b>%1</b> ທີ່ <b>%2</b>"
 
-#~ msgid ""
-#~ "You need to supply a username and a password for the proxy server listed "
-#~ "below before you are allowed to access any sites."
-#~ msgstr ""
-#~ "ທີ່ຕ້ອງຕື່ມທັງຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານ ສຳຫລັບພຣອກຊີເຊີບເວີດ້ານລຸ່ມນີ້ ກ່ອນທີ່່ທ່ານຈະສາມາດເຂົ້າໃຊ້ງານໄຊຕ໌ອື່ນໆ "
-#~ "ໄດ້"
+#~ msgid "You need to supply a username and a password for the proxy server listed below before you are allowed to access any sites."
+#~ msgstr "ທີ່ຕ້ອງຕື່ມທັງຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານ ສຳຫລັບພຣອກຊີເຊີບເວີດ້ານລຸ່ມນີ້ ກ່ອນທີ່່ທ່ານຈະສາມາດເຂົ້າໃຊ້ງານໄຊຕ໌ອື່ນໆ ໄດ້"
 
 #~ msgid "Proxy:"
 #~ msgstr "ພຣອກຊີ:"
@@ -13725,21 +13014,8 @@ msgstr "ອື່ນ&ຯ"
 #~ "&Ignore"
 #~ msgstr "&ເພິກເສີຍ"
 
-#~ msgid ""
-#~ "<h3>About Qt</h3><p>This program uses Qt version %1.</p><p>Qt is a C++ "
-#~ "toolkit for multiplatform GUI &amp; application development.</p><p>Qt "
-#~ "provides single-source portability across MS&nbsp;Windows, Mac&nbsp;"
-#~ "OS&nbsp;X, Linux, and all major commercial Unix variants.<br>Qt is also "
-#~ "available for embedded devices.</p><p>Qt is a Trolltech product. See "
-#~ "<tt>http://www.trolltech.com/qt/</tt> for more information.</p>"
-#~ msgstr ""
-#~ "<h3>ກ່ງວກັບ Qt</h3><p>ໂປຣແກຣມນີ້ ໃຊ້ Qt ລຸ້ນ %1</p><p> Qt "
-#~ "ເປັນທູລຄິດສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ແບບກຣາຟຟິກຂອງ C++ &amp; </p><p>ເຊິ່ງແຟ້ມຕົ້ນສະບັບ Qt ນັ້ນ "
-#~ "ສາມາດໃຊ້ຂ້າມແພຣຕຟອມທັງ ວິນໂດວ໌ສ 95/98/NT/2000, ລິນຸກຊ໌, ໂຊລາຣິສ, HP-UX ແລະ X "
-#~ "Window ເທິງລະບົບຢູນິກອື່ນໆ ອີກຫລາຍ <br> ອີກທັງຕອນນີ້ Qt "
-#~ "ຍັງມີລຸ້ນທີ່ທຳງານໄດ້ເທິງອຸປະກອນແບບພົກພາດ້ວຍ</p></p> Qt ເປັນຜະລິດຕະພັນຂອງບໍລິສັດ Trolltech "
-#~ "ລອງແວະໄປທີ່ <tt>http://www.trolltech.com/qt/</tt> ເພື່ອເບິ່ງລາຍລະອງດທີ່ຫລາຍກວ່ານີ້</"
-#~ "p>"
+#~ msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p><p>Qt is a C++ toolkit for multiplatform GUI &amp; application development.</p><p>Qt provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;X, Linux, and all major commercial Unix variants.<br>Qt is also available for embedded devices.</p><p>Qt is a Trolltech product. See <tt>http://www.trolltech.com/qt/</tt> for more information.</p>"
+#~ msgstr "<h3>ກ່ງວກັບ Qt</h3><p>ໂປຣແກຣມນີ້ ໃຊ້ Qt ລຸ້ນ %1</p><p> Qt ເປັນທູລຄິດສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ແບບກຣາຟຟິກຂອງ C++ &amp; </p><p>ເຊິ່ງແຟ້ມຕົ້ນສະບັບ Qt ນັ້ນ ສາມາດໃຊ້ຂ້າມແພຣຕຟອມທັງ ວິນໂດວ໌ສ 95/98/NT/2000, ລິນຸກຊ໌, ໂຊລາຣິສ, HP-UX ແລະ X Window ເທິງລະບົບຢູນິກອື່ນໆ ອີກຫລາຍ <br> ອີກທັງຕອນນີ້ Qt ຍັງມີລຸ້ນທີ່ທຳງານໄດ້ເທິງອຸປະກອນແບບພົກພາດ້ວຍ</p></p> Qt ເປັນຜະລິດຕະພັນຂອງບໍລິສັດ Trolltech ລອງແວະໄປທີ່ <tt>http://www.trolltech.com/qt/</tt> ເພື່ອເບິ່ງລາຍລະອງດທີ່ຫລາຍກວ່ານີ້</p>"
 
 #~ msgid "Help"
 #~ msgstr "ຊ່ວຍເຫລືອ"
@@ -13755,14 +13031,10 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid ""
 #~ "_: QT_LAYOUT_DIRECTION\n"
-#~ "Translate this string to the string 'LTR' in left-to-right languages or "
-#~ "to 'RTL' in right-to-left languages (such as Hebrew and Arabic) to get "
-#~ "proper widget layout."
+#~ "Translate this string to the string 'LTR' in left-to-right languages or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout."
 #~ msgstr ""
 #~ "_ QT_LAYOUT_DIRECTION\n"
-#~ "Translate this string to the string 'LTR' in left-to-right language or to "
-#~ "'RTL' in right-to-left languages (such as Hebrew and Arabic) to get "
-#~ "proper widget layouy."
+#~ "Translate this string to the string 'LTR' in left-to-right language or to 'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper widget layouy."
 
 #~ msgid ""
 #~ "_: QFont\n"
@@ -14559,11 +13831,8 @@ msgstr "ອື່ນ&ຯ"
 
 #~ msgid ""
 #~ "_: QXml\n"
-#~ "encoding declaration or standalone declaration expected while reading the "
-#~ "XML declaration"
-#~ msgstr ""
-#~ "ຕ້ອງການ ການປະກາດການເຂົ້າລະຫັດອັກຂະຫລະ ຫລືການປະກາດແບບທຳງານດ່ງວ "
-#~ "ລະຫວ່າງລະຫວ່າງການອ່ານການປະກາດ XML"
+#~ "encoding declaration or standalone declaration expected while reading the XML declaration"
+#~ msgstr "ຕ້ອງການ ການປະກາດການເຂົ້າລະຫັດອັກຂະຫລະ ຫລືການປະກາດແບບທຳງານດ່ງວ ລະຫວ່າງລະຫວ່າງການອ່ານການປະກາດ XML"
 
 #~ msgid ""
 #~ "_: QXml\n"
@@ -14623,9 +13892,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "&Stop"
 #~ msgstr "&ຢຸດ"
 
-#~ msgid ""
-#~ "Please check that the bug you are about to report is not already listed "
-#~ "at "
+#~ msgid "Please check that the bug you are about to report is not already listed at "
 #~ msgstr "ໂປດກວດສອບວ່າ ຂໍ້ຜິດພາດທີ່ທ່ານຈະລາຍງານນັ້ນ ບໍ່ເຄີຍມີໃຜລາຍມາກ່ອນ ທີ່"
 
 #~ msgid "Output File Settings"
@@ -14832,12 +14099,8 @@ msgstr "ອື່ນ&ຯ"
 #~ msgid "Address book configuration module"
 #~ msgstr "ເອິ້ນໃຊ້ແຟ້ມການປັບແຕ່ງໃຫມ່"
 
-#~ msgid ""
-#~ "<p>The access to the requested resource on the CUPS server running on <b>%"
-#~ "1</b> (port <b>%2</b>) requires a password.</p>"
-#~ msgstr ""
-#~ "<p>ຕ້ອງການລະຫັດສຳລັບການເຂົ້າໃຊ້ສັບພະຍາກອນເຊີບເວີCUPS<br>ຊື່ງກຳລັງທຳງານຢູ່ <b>%1</b> "
-#~ "(ພອດ <b>%2</b>)</p>"
+#~ msgid "<p>The access to the requested resource on the CUPS server running on <b>%1</b> (port <b>%2</b>) requires a password.</p>"
+#~ msgstr "<p>ຕ້ອງການລະຫັດສຳລັບການເຂົ້າໃຊ້ສັບພະຍາກອນເຊີບເວີCUPS<br>ຊື່ງກຳລັງທຳງານຢູ່ <b>%1</b> (ພອດ <b>%2</b>)</p>"
 
 #~ msgid "yes"
 #~ msgstr "ແມ່ນ"
@@ -15064,9 +14327,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ບໍ່ມີຊື່ແຟ້ມ !"
 
 #, fuzzy
-#~ msgid ""
-#~ "<qt>No matches found for '<b>%1</b>'.<br>Do you want to restart the "
-#~ "search at the beginning?</qt>"
+#~ msgid "<qt>No matches found for '<b>%1</b>'.<br>Do you want to restart the search at the beginning?</qt>"
 #~ msgstr "คุณต้องการเริ่มการค้นหาโดยเริ่มจากตอนต้นใหม่หรือไม่ ?"
 
 #, fuzzy
@@ -15074,8 +14335,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "ตั้งค่าใหม่"
 
 #~ msgid ""
-#~ "You're about to send data to the Internet via an unencrypted connection. "
-#~ "It might be possible for others to see this information.\n"
+#~ "You're about to send data to the Internet via an unencrypted connection. It might be possible for others to see this information.\n"
 #~ "Do you want to continue?"
 #~ msgstr ""
 #~ "คุณกำลังจะส่งข้อมูลผ่านระบบอินเตอร์เนต\n"
@@ -15088,8 +14348,7 @@ msgstr "ອື່ນ&ຯ"
 #~ msgstr "เวบบราวเซอร์ KDE"
 
 #~ msgid ""
-#~ "When you send a password unencrypted to the Internet, it might be "
-#~ "possible for others to capture it as plain text.\n"
+#~ "When you send a password unencrypted to the Internet, it might be possible for others to capture it as plain text.\n"
 #~ "Do you want to continue?"
 #~ msgstr ""
 #~ "เมื่อคุณส่งรหัสผ่านซึ่งยังไม่เข้ารหัสไว้ ผ่านอินเตอร์เนต\n"
@@ -15098,8 +14357,7 @@ msgstr "ອື່ນ&ຯ"
 #~ "คุณต้องการที่จะทำต่อไปหรือไม่ ?"
 
 #~ msgid ""
-#~ "Your data submission is redirected to an insecure site. The data is sent "
-#~ "unencrypted.\n"
+#~ "Your data submission is redirected to an insecure site. The data is sent unencrypted.\n"
 #~ "Do you want to continue?"
 #~ msgstr ""
 #~ "ข้อมูลที่คุณส่งมอบถูกส่งต่อไปยังไซต์ที่ไม่ปลอดภัย\n"
@@ -15107,12 +14365,8 @@ msgstr "ອື່ນ&ຯ"
 #~ "\n"
 #~ "คุณต้องการที่จะทำต่อไปหรือไม่ ?"
 
-#~ msgid ""
-#~ "The page contents expired. You can repost the formdata by using <a href="
-#~ "\"javascript:go(0);\">Reload</a>"
-#~ msgstr ""
-#~ "เนื้อหาของหน้าเพจนี้หมดอายุแล้ว คุณสามารถโพสต์ข้อมูลของฟอร์มใหม่ได้ โดยการ <a href="
-#~ "\"javascript:go(0);\">เรียกข้อมูลใหม่</b>"
+#~ msgid "The page contents expired. You can repost the formdata by using <a href=\"javascript:go(0);\">Reload</a>"
+#~ msgstr "เนื้อหาของหน้าเพจนี้หมดอายุแล้ว คุณสามารถโพสต์ข้อมูลของฟอร์มใหม่ได้ โดยการ <a href=\"javascript:go(0);\">เรียกข้อมูลใหม่</b>"
 
 #~ msgid ""
 #~ "Error fetching file for submission:\n"
