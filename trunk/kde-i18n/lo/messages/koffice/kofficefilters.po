@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-01-28 01:29+0100\n"
+"POT-Creation-Date: 2005-02-20 01:25+0100\n"
 "PO-Revision-Date: 2003-01-18 11:40+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -327,7 +327,7 @@ msgstr ""
 msgid "Table %1"
 msgstr "ຕາຕະລາງ %1"
 
-#: kword/abiword/abiwordimport.cc:1215 kword/oowriter/oowriterimport.cc:2275
+#: kword/abiword/abiwordimport.cc:1215 kword/oowriter/oowriterimport.cc:2305
 msgid ""
 "_: Frameset name\n"
 "Table %3, row %1, column %2"
@@ -433,12 +433,12 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#: kword/oowriter/oowriterimport.cc:134
+#: kword/oowriter/oowriterimport.cc:135
 msgid "Main Text Frameset"
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:2300
-#: kword/oowriter/oowriterimport.cc:594
+#: kspread/opencalc/opencalcimport.cc:2283
+#: kword/oowriter/oowriterimport.cc:598
 msgid ""
 "This document was created with OpenOffice.org version '%1'. This filter was "
 "written for version 1.0. Reading this file could cause strange behavior, "
@@ -446,8 +446,8 @@ msgid ""
 "the document?"
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:2302
-#: kword/oowriter/oowriterimport.cc:596
+#: kspread/opencalc/opencalcimport.cc:2285
+#: kword/oowriter/oowriterimport.cc:600
 msgid "Unsupported document version"
 msgstr ""
 
@@ -531,15 +531,15 @@ msgstr ""
 msgid "Internal problem: format not supported."
 msgstr ""
 
-#: kspread/opencalc/opencalcexport.cc:1033
+#: kspread/opencalc/opencalcexport.cc:1042
 msgid "Page "
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:1446
+#: kspread/opencalc/opencalcimport.cc:1450
 msgid "The file seems to be corrupt. Skipping a table."
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:1459
+#: kspread/opencalc/opencalcimport.cc:1463
 msgid "Skipping a table."
 msgstr ""
 
@@ -1300,6 +1300,15 @@ msgstr "ລົ້ມເຫລວໃນການຂງນເອກະສານ"
 msgid "MathML Export Error"
 msgstr "ຜິດພາດໃນການສົ່ງອອກເປັນ LaTeX"
 
+#, fuzzy
+#~ msgid ""
+#~ "Parsing error in the main document at line %1, column %2\n"
+#~ "Error message: %3"
+#~ msgstr ""
+#~ "Hi ha hagut un error parsejant el fitxer KWord 1.3\n"
+#~ "Línia: %1, columna %2\n"
+#~ "Missatge d'error: %3"
+
 #~ msgid "HTML Import Dialog"
 #~ msgstr "ກ້ອງນຳເຂົ້າ HTML"
 
@@ -1400,15 +1409,6 @@ msgstr "ຜິດພາດໃນການສົ່ງອອກເປັນ LaTeX
 
 #~ msgid "Export XSL:FO"
 #~ msgstr "Export XSL:FO"
-
-#~ msgid ""
-#~ "An error has occurred while parsing the KWord 1.3 file.\n"
-#~ "At line: %1, column %2\n"
-#~ "Error message: %3"
-#~ msgstr ""
-#~ "Hi ha hagut un error parsejant el fitxer KWord 1.3\n"
-#~ "Línia: %1, columna %2\n"
-#~ "Missatge d'error: %3"
 
 #, fuzzy
 #~ msgid "KWord 1.3 Import Filter"
