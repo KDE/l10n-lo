@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-10-20 11:00+0200\n"
+"POT-Creation-Date: 2004-10-12 01:18+0200\n"
 "PO-Revision-Date: 2003-01-18 11:50+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -26,24 +26,24 @@ msgstr ""
 msgid "Printing report..."
 msgstr "ກໍາລັງພິມລາຍງານ..."
 
-#: part/kugar_part.cpp:90
+#: part/kugar_part.cpp:100
 #, c-format
 msgid "Invalid data file %1"
 msgstr "ແຟ້ມຂໍ້ມູນ: %1 ໃຊ້ບໍ່ໄດ้້"
 
-#: part/kugar_part.cpp:95
+#: part/kugar_part.cpp:105
 #, fuzzy
 msgid "The zero sized data file %1 can't be rendered"
 msgstr "The zero sized data file %1  can't be rendered"
 
-#: part/kugar_part.cpp:102 part/kugar_view.cpp:101 shell/report.cpp:86
+#: part/kugar_part.cpp:112 part/kugar_view.cpp:101 shell/report.cpp:86
 #, c-format
 msgid "Unable to open data file: %1"
 msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມຂໍ້ມູນ: %1 "
 "ໄດ้້"
 
-#: part/kugar_part.cpp:166 part/kugar_part.cpp:183 part/kugar_part.cpp:192
+#: part/kugar_part.cpp:176 part/kugar_part.cpp:193 part/kugar_part.cpp:202
 #: shell/report.cpp:110
 #, c-format
 msgid "Unable to download template file: %1"
@@ -51,23 +51,23 @@ msgstr ""
 "ບໍ່ສາມາດດາວໂຣດແຟ້ມຕົ້ນແບບ: "
 "%1 ໄດ้້"
 
-#: part/kugar_part.cpp:215 shell/report.cpp:120
+#: part/kugar_part.cpp:225 shell/report.cpp:120
 #, c-format
 msgid "Invalid template file: %1"
 msgstr "ແຟ້ມຕົ້ນແບບ: %1 ໃຊ້ບໍ່ໄດ้້"
 
-#: part/kugar_part.cpp:229 part/kugar_part.cpp:235
+#: part/kugar_part.cpp:239 part/kugar_part.cpp:245
 msgid "%1 is not a valid Kugar Designer template file."
 msgstr ""
 
-#: part/kugar_part.cpp:244
+#: part/kugar_part.cpp:254
 #, fuzzy, c-format
 msgid "Couldn't read the beginning of the template file: %1"
 msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມຕົ້ນແບບ: "
 "%1ໄດ้້"
 
-#: part/kugar_part.cpp:249 shell/report.cpp:125
+#: part/kugar_part.cpp:259 shell/report.cpp:125
 #, c-format
 msgid "Unable to open template file: %1"
 msgstr ""
@@ -83,10 +83,6 @@ msgstr "ແຟ້ມຂໍ້ມູນ: %1 ໃຊ້ບໍ່ໄດ້"
 #, fuzzy
 msgid "File to open"
 msgstr "ແຟ້ມທີ່ຈະເປີດ"
-
-#: kudesigner/kudesigner_doc.cpp:90
-msgid "Kugar Designer"
-msgstr "ເຄື່ອງມືອອກແບບລາຍງານ K"
 
 #: kudesigner/kudesigner_view.cpp:120 kudesigner_lib/canvreportheader.cpp:41
 msgid "Report Header"
@@ -523,10 +519,6 @@ msgstr "ຄຸນສົມບັດ"
 msgid "Value"
 msgstr "ຄ່າ"
 
-#: kudesigner_lib/psymbolcombo.cpp:82
-msgid "Ok"
-msgstr ""
-
 #: shell/main.cpp:21
 msgid "Kugar"
 msgstr "Kugar"
@@ -565,32 +557,59 @@ msgid "Original author"
 msgstr ""
 
 #: shell/main.cpp:39
-msgid "The XML data file."
+#, fuzzy
+msgid "The XML data file"
 msgstr "ແຟ້ມຂໍ້ມູນ XML"
 
 #: shell/main.cpp:40
-msgid "The XML template file URL."
+#, fuzzy
+msgid "The XML template file URL"
 msgstr "URL ຂອງແຟ້ມຕົ້ນແບບ XML"
 
-#: rc.cpp:3 rc.cpp:10
+#. i18n: file kudesigner/kudesignerui.rc line 16
+#: rc.cpp:9 rc.cpp:30
+#, no-c-format
 msgid "Sec&tions"
 msgstr "ເຊັກ&ຊັນ"
 
-#: rc.cpp:4 rc.cpp:11
+#. i18n: file kudesigner/kudesignerui.rc line 25
+#: rc.cpp:12 rc.cpp:33
+#, no-c-format
 msgid "&Items"
 msgstr "&ລາຍການ"
 
-#: rc.cpp:6 rc.cpp:12
+#. i18n: file kudesigner/kudesignerui.rc line 46
+#: rc.cpp:18 rc.cpp:36
+#, no-c-format
 msgid "Sections"
 msgstr "ເຊັກ&ຊັນ"
 
-#: rc.cpp:7 rc.cpp:13
+#. i18n: file kudesigner/kudesignerui.rc line 55
+#: rc.cpp:21 rc.cpp:39
+#, no-c-format
 msgid "Items"
 msgstr "&ລາຍການ"
 
-#: rc.cpp:15
+#. i18n: file shell/kugarui.rc line 4
+#: rc.cpp:45
+#, no-c-format
 msgid "&Go"
 msgstr "&Go"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#~ msgid "Kugar Designer"
+#~ msgstr "ເຄື່ອງມືອອກແບບລາຍງານ K"
 
 #, fuzzy
 #~ msgid "Enter field name:"

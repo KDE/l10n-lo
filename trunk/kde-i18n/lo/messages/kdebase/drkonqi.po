@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-07-14 01:18+0200\n"
+"POT-Creation-Date: 2004-10-12 01:16+0200\n"
 "PO-Revision-Date: 2003-01-13 12:59+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -93,9 +93,33 @@ msgstr ""
 "ເອີ້ນຍັນທຶກການທໍາງານຍ້ອນຫ"
 "ລັງ..."
 
-#: debugger.cpp:170
+#: debugger.cpp:175
+msgid ""
+"The following options are enabled:\n"
+"\n"
+msgstr ""
+
+#: debugger.cpp:177
+msgid ""
+"\n"
+"As the usage of these options is not recommended - because they can, in rare "
+"cases, be responsible for KDE problems - a backtrace will not be generated.\n"
+"You need to turn these options off and reproduce the problem again in order "
+"to get a backtrace.\n"
+msgstr ""
+
+#: debugger.cpp:182
+msgid "Backtrace will not be created."
+msgstr ""
+
+#: debugger.cpp:190
 msgid "Loading symbols..."
 msgstr "ກໍາລັງໂຫລດສັນບາລັກ..."
+
+#: debugger.cpp:212
+msgid ""
+"System configuration startup check disabled.\n"
+msgstr ""
 
 #: drbugreport.cpp:54
 msgid "You have to edit the description before the report can be sent."
@@ -246,10 +270,8 @@ msgstr ""
 "ເຮັດໄດ້"
 
 #~ msgid ""
-#~ "%1 not found. Check if it is installed -- you need it to generate the "
-#~ "backtrace.\n"
-#~ "If you have another debugger, contact kde-devel@kde.org for help on how "
-#~ "to set it up."
+#~ "%1 not found. Check if it is installed -- you need it to generate the backtrace.\n"
+#~ "If you have another debugger, contact kde-devel@kde.org for help on how to set it up."
 #~ msgstr ""
 #~ "ບໍ່ພົບ %1 ໂປດກວດສອບວາ່ຫາກມັນຖືກຕິດຕັ້ງແລ້ວ ທ່ານຕ້ອງໃຊ້ມັນໃນການສາ້ງການທໍາງານຍ້ອນຫັລງ\n"
 #~ "ຫຶລຖ້າທ່ານມີເຄຶ່ອງມືດີບກໍ່ຕິດຕໍ່ kde-devel@kde.org ເພື່ອຊ່ວຍເຫຶລອການຕິດຕັ້ງມັນ"
