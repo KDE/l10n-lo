@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-01-17 01:39+0100\n"
+"POT-Creation-Date: 2005-02-23 01:26+0100\n"
 "PO-Revision-Date: 2003-01-20 12:07+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -245,8 +245,8 @@ msgstr "ຂໍ້ມຸນ+ແກນ"
 msgid "Data"
 msgstr "ຂໍ້ືືມຸນ"
 
-#: kchartBackgroundPixmapConfigPage.cc:187 kchartConfigDialog.cc:91
-#: kchartConfigDialog.cc:111 kchartParameterConfigPage.cc:72
+#: kchartBackgroundPixmapConfigPage.cc:187 kchartConfigDialog.cc:105
+#: kchartConfigDialog.cc:122 kchartParameterConfigPage.cc:75
 msgid "Legend"
 msgstr "ຄຳກຳກັບແຜນພູມ"
 
@@ -542,61 +542,80 @@ msgstr "ກຳລັງເຊື່ອມຕໍ່"
 msgid "Icap"
 msgstr "Icap"
 
-#: kchartConfigDialog.cc:70
+#: kchartConfigDialog.cc:75
 msgid "Chart Config Dialog"
 msgstr "ກ້ອງປັບແຕ່ງແຜນພູມ"
 
-#: kchartConfigDialog.cc:76 kchartConfigDialog.cc:105
-msgid "&Colors"
-msgstr "&ສີ"
-
-#: kchartConfigDialog.cc:81 kchartConfigDialog.cc:107
-msgid "&Font"
-msgstr "&ຮູບແບບຕົວອັກສອນ"
-
-#: kchartConfigDialog.cc:86 kchartConfigDialog.cc:109
-msgid "&Background"
-msgstr "&ພື້ນຫັຼງ"
-
-#: kchartConfigDialog.cc:100 kchartConfigDialog.cc:150
+#: kchartConfigDialog.cc:85 kchartConfigDialog.cc:118
 #: kchartHeaderFooterConfigPage.cc:46
 msgid "Header/Footer"
 msgstr "ສ່ວນຫົວ/ສ່ວນທ້າຍ"
 
-#: kchartConfigDialog.cc:114 kchartConfigDialog.cc:118
+#: kchartConfigDialog.cc:90 kchartConfigDialog.cc:140
+msgid "&Colors"
+msgstr "&ສີ"
+
+#: kchartConfigDialog.cc:95 kchartConfigDialog.cc:143
+msgid "&Font"
+msgstr "&ຮູບແບບຕົວອັກສອນ"
+
+#: kchartConfigDialog.cc:100 kchartConfigDialog.cc:146
+msgid "&Background"
+msgstr "&ພື້ນຫັຼງ"
+
+#: kchartConfigDialog.cc:111
+#, fuzzy
+msgid "&Data"
+msgstr "ຂໍ້ືືມຸນ"
+
+#: kchartConfigDialog.cc:128 kchartConfigDialog.cc:133
 msgid "&Axes"
 msgstr "&ແກນ"
 
-#: kchartConfigDialog.cc:121 kchart_view.cc:65
+#: kchartConfigDialog.cc:136 kchart_view.cc:65
 msgid "&Pie"
 msgstr "&ແຜນພູມກົ່ງ"
 
-#: kchartConfigDialog.cc:127 kchartParameter3dConfigPage.cc:42
+#: kchartConfigDialog.cc:151 kchartParameter3dConfigPage.cc:42
 msgid "3D Parameters"
 msgstr "ພາຣາມີເຕີຣ 3 ມີຕິ"
 
-#: kchartConfigDialog.cc:132 kchartLine3dConfigPage.cc:42
+#: kchartConfigDialog.cc:156 kchartLine3dConfigPage.cc:42
 msgid "3D Line Parameters"
 msgstr "ພາຣາມີເຕີຣເສັ້ນ 3 ມີຕິ"
 
-#: kchartConfigDialog.cc:137
+#: kchartConfigDialog.cc:161
 msgid "Polar Parameters"
 msgstr "ພາຣາມີເຕີຣ ໂພລາຣ"
 
-#: kchartConfigDialog.cc:339 kchartConfigDialog.cc:343
-#: kchartConfigDialog.cc:347 kchartConfigDialog.cc:351
-#: kchartConfigDialog.cc:355
+#: kchartConfigDialog.cc:385
 msgid "Chart &Subtype"
 msgstr "ປະເພດ&ຍ່ອຍຂອງແຜນພູມ"
+
+#: kchartDataConfigPage.cc:86
+#, fuzzy
+msgid "Data format"
+msgstr "รูปแบบแถบกำกับแกน Y: "
+
+#: kchartDataConfigPage.cc:90
+#, fuzzy
+msgid "Data in rows"
+msgstr "ข้อมูลอยู่ใน:"
+
+#: kchartDataConfigPage.cc:94
+#, fuzzy
+msgid "Data in columns"
+msgstr "ข้อมูลอยู่ใน:"
+
+#: kchartDataConfigPage.cc:110 kchartFontConfigPage.cc:86
+#: kchartHeaderFooterConfigPage.cc:60 kchartHeaderFooterConfigPage.cc:73
+#: kchartHeaderFooterConfigPage.cc:86
+msgid "Font..."
+msgstr "ຮູບແບບຕົວອັກສອນ"
 
 #: kchartDataEditor.cc:16 kchartDataEditor.cc:31
 msgid "KChart Data Editor"
 msgstr "ຕົວແກ້ໄຂຂໍ້ມຸນ KChart"
-
-#: kchartFontConfigPage.cc:86 kchartHeaderFooterConfigPage.cc:60
-#: kchartHeaderFooterConfigPage.cc:73 kchartHeaderFooterConfigPage.cc:86
-msgid "Font..."
-msgstr "ຮູບແບບຕົວອັກສອນ"
 
 #: kchartFontConfigPage.cc:102 kchartFontConfigPage.cc:119
 msgid "X-Title"
@@ -622,7 +641,8 @@ msgstr "ທຸກແກນ"
 msgid "Label"
 msgstr "ແຖບກຳກັບຄ່າ"
 
-#: kchartHeaderFooterConfigPage.cc:51 kchartWizardLabelsLegendPage.cc:41
+#: kchartHeaderFooterConfigPage.cc:51 kchartLegendConfigPage.cc:57
+#: kchartWizardLabelsLegendPage.cc:41
 msgid "Title:"
 msgstr "ຫົວເລື່ອງ:"
 
@@ -635,69 +655,61 @@ msgid "Footer:"
 msgstr "ທ້າຍເຈ້ຍ:"
 
 #: kchartLegendConfigPage.cc:50
+msgid "General"
+msgstr ""
+
+#: kchartLegendConfigPage.cc:64
 msgid "Legend Position"
 msgstr "ຕຳແໜ່ງກຳກັບ"
 
-#: kchartLegendConfigPage.cc:57
+#: kchartLegendConfigPage.cc:71
 #, fuzzy
 msgid "Top-Left"
 msgstr "ເທີງ-ຊ້າຍ"
 
-#: kchartLegendConfigPage.cc:59
+#: kchartLegendConfigPage.cc:73
 #, fuzzy
 msgid "Top-Right"
 msgstr "ເທີງ-ຂວາ"
 
-#: kchartLegendConfigPage.cc:62
+#: kchartLegendConfigPage.cc:76
 #, fuzzy
 msgid "No Legend"
 msgstr "ບໍ່ມີຄຳກຳກັບ"
 
-#: kchartLegendConfigPage.cc:65
+#: kchartLegendConfigPage.cc:79
 #, fuzzy
 msgid "Bottom-Left"
 msgstr "ລຸ່ມ-ຊ້າຍ"
 
-#: kchartLegendConfigPage.cc:67
+#: kchartLegendConfigPage.cc:81
 #, fuzzy
 msgid "Bottom-Right"
 msgstr "ລຸ່ມ-ຂວາ"
 
-#: kchartLegendConfigPage.cc:74 kchartParameterConfigPage.cc:75
-msgid "Title"
-msgstr "ຫົວເລື້ອງ"
-
-#: kchartLegendConfigPage.cc:81 kchartWizardLabelsLegendPage.cc:132
-msgid "Legend title:"
-msgstr "ຄຳກຳກັບຫົວເລື້ອງແຜນພູມ:"
-
-#: kchartLegendConfigPage.cc:88
-msgid "Color"
-msgstr "ສີ"
-
 #: kchartLegendConfigPage.cc:95
-msgid "Legend title color:"
-msgstr "ສີຄຳກຳກັບຫົວເລື່ອງ:"
-
-#: kchartLegendConfigPage.cc:102
-msgid "Legend text color:"
-msgstr "ສີຄຳກຳກັບແຜ່ນພູມ:"
-
-#: kchartLegendConfigPage.cc:118
 msgid "Legend title font:"
 msgstr "ແບບອັກສອນຄຳກຳກັບຫົວເລື່ອງ:"
 
-#: kchartLegendConfigPage.cc:121
-msgid "Legend..."
-msgstr "ຄຳກຳກັບແຜ່ນພູມ"
+#: kchartLegendConfigPage.cc:98 kchartLegendConfigPage.cc:104
+msgid "Select font..."
+msgstr ""
 
-#: kchartLegendConfigPage.cc:124
+#: kchartLegendConfigPage.cc:101
 msgid "Legend text font:"
 msgstr "ແບບອັກສອນຄຳກຳກັບແຜນພູມ:"
 
+#: kchartLegendConfigPage.cc:113
+msgid "Color"
+msgstr "ສີ"
+
+#: kchartLegendConfigPage.cc:120
+msgid "Legend title color:"
+msgstr "ສີຄຳກຳກັບຫົວເລື່ອງ:"
+
 #: kchartLegendConfigPage.cc:127
-msgid "Text Legend..."
-msgstr "ຄຳກຳກັບແຜ່ນພູມ"
+msgid "Legend text color:"
+msgstr "ສີຄຳກຳກັບແຜ່ນພູມ:"
 
 #: kchartLine3dConfigPage.cc:47
 msgid "3D line"
@@ -776,35 +788,39 @@ msgstr "ແກນ X"
 msgid "Y-axis"
 msgstr "ແກນ Y"
 
-#: kchartParameterConfigPage.cc:63
+#: kchartParameterConfigPage.cc:64
 msgid "Has X-label"
 msgstr "ມີແຖບກຳກັບຄ່າ X"
 
-#: kchartParameterConfigPage.cc:66
+#: kchartParameterConfigPage.cc:67
 msgid "Y-axis 2"
 msgstr "ແກນ Y ໂຕທີສອງ"
 
-#: kchartParameterConfigPage.cc:69
+#: kchartParameterConfigPage.cc:71
 msgid "Line marker"
 msgstr "ແຖບກຳກັບດເສັນ"
 
-#: kchartParameterConfigPage.cc:80 kchartWizardLabelsLegendPage.cc:81
+#: kchartParameterConfigPage.cc:79
+msgid "Title"
+msgstr "ຫົວເລື້ອງ"
+
+#: kchartParameterConfigPage.cc:84 kchartWizardLabelsLegendPage.cc:81
 msgid "Y-title:"
 msgstr "ແຖບກຳກັບແກນ Y:"
 
-#: kchartParameterConfigPage.cc:88 kchartWizardLabelsLegendPage.cc:58
+#: kchartParameterConfigPage.cc:92 kchartWizardLabelsLegendPage.cc:58
 msgid "X-title:"
 msgstr "ແຖບກຳກັບແກນ X:"
 
-#: kchartParameterConfigPage.cc:96 kchartWizardSetupAxesPage.cc:146
+#: kchartParameterConfigPage.cc:101 kchartWizardSetupAxesPage.cc:146
 msgid "Y-label format:"
 msgstr "ຮູບແບບແຖບກຳກັບຄ່າ Y:"
 
-#: kchartParameterConfigPage.cc:104 kchartWizardLabelsLegendPage.cc:105
+#: kchartParameterConfigPage.cc:109 kchartWizardLabelsLegendPage.cc:105
 msgid "Y-title 2:"
 msgstr "ແຖບກຳກັບຄ່າແກນ Y2:"
 
-#: kchartParameterConfigPage.cc:111
+#: kchartParameterConfigPage.cc:116
 msgid "Y-label format 2:"
 msgstr "ຮູບແບບແຖບກຳກັບຄ່າ Y2:"
 
@@ -933,6 +949,10 @@ msgstr "แถบกำกับและข้อความกำกับ"
 #: kchartWizard.cc:56
 msgid "Setup Axes"
 msgstr "ตั้งค่าแกน"
+
+#: kchartWizardLabelsLegendPage.cc:132
+msgid "Legend title:"
+msgstr "ຄຳກຳກັບຫົວເລື້ອງແຜນພູມ:"
 
 #: kchartWizardLabelsLegendPage.cc:151
 msgid "Legend text:"
@@ -1232,6 +1252,12 @@ msgid ""
 "Your emails"
 msgstr "donga_n@yahoo.com"
 
+#~ msgid "Legend..."
+#~ msgstr "ຄຳກຳກັບແຜ່ນພູມ"
+
+#~ msgid "Text Legend..."
+#~ msgstr "ຄຳກຳກັບແຜ່ນພູມ"
+
 #~ msgid "&Configure..."
 #~ msgstr "&ปรับแต่ง..."
 
@@ -1274,10 +1300,6 @@ msgstr "donga_n@yahoo.com"
 
 #~ msgid "Y-Title2:"
 #~ msgstr "แถบกำกับแกน Y2:"
-
-#, fuzzy
-#~ msgid "YLabel format:"
-#~ msgstr "รูปแบบแถบกำกับแกน Y: "
 
 #, fuzzy
 #~ msgid "YLabel2 format:"

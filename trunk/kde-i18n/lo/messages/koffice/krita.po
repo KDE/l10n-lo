@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-02-01 01:26+0100\n"
+"POT-Creation-Date: 2005-02-23 01:25+0100\n"
 "PO-Revision-Date: 2003-01-18 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,76 +14,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#. i18n: file krita.rc line 39
-#: rc.cpp:9 rc.cpp:1145 rc.cpp:1151 rc.cpp:1157 rc.cpp:1169
+#. i18n: file krita.rc line 40
+#: rc.cpp:9 rc.cpp:1160 rc.cpp:1169 rc.cpp:1175 rc.cpp:1187
 #, no-c-format
 msgid "&Image"
 msgstr "&ຮູບພາບ"
 
-#. i18n: file krita.rc line 40
-#: rc.cpp:12 rc.cpp:24 rc.cpp:1148 rc.cpp:1154 rc.cpp:1160 rc.cpp:1172
-#: rc.cpp:1184 rc.cpp:1229 rc.cpp:1235
+#. i18n: file krita.rc line 41
+#: rc.cpp:12 rc.cpp:24 rc.cpp:1163 rc.cpp:1172 rc.cpp:1178 rc.cpp:1190
+#: rc.cpp:1202 rc.cpp:1247 rc.cpp:1253
 #, fuzzy, no-c-format
 msgid "&Mode"
 msgstr "ໂຫມດ:"
 
-#. i18n: file krita.rc line 55
-#: rc.cpp:15 rc.cpp:1175
+#. i18n: file krita.rc line 57
+#: rc.cpp:15 rc.cpp:1193
 #, no-c-format
 msgid "&Adjust"
 msgstr ""
 
-#. i18n: file krita.rc line 59
-#: rc.cpp:18 rc.cpp:1178
+#. i18n: file krita.rc line 62
+#: rc.cpp:18 rc.cpp:1196
 #, fuzzy, no-c-format
 msgid "La&yer"
 msgstr "ເເລເຢີ"
 
-#. i18n: file krita.rc line 77
-#: rc.cpp:21 rc.cpp:1181
+#. i18n: file krita.rc line 80
+#: rc.cpp:21 rc.cpp:1199
 #, fuzzy, no-c-format
 msgid "&Rotate Layer"
 msgstr "&ລືບເລເຢີ"
 
-#. i18n: file krita.rc line 98
-#: rc.cpp:27 rc.cpp:1187
+#. i18n: file krita.rc line 100
+#: rc.cpp:27 rc.cpp:1205
 #, fuzzy, no-c-format
 msgid "Se&lect"
 msgstr "ການເລືອກ"
 
-#. i18n: file krita.rc line 122
-#: rc.cpp:33 rc.cpp:1193
+#. i18n: file krita.rc line 124
+#: rc.cpp:33 rc.cpp:1211
 #, fuzzy, no-c-format
 msgid "F&ilter"
 msgstr "&ຂາວ"
 
-#. i18n: file krita.rc line 126
-#: rc.cpp:36 rc.cpp:1196
+#. i18n: file krita.rc line 128
+#: rc.cpp:36 rc.cpp:1214
 #, no-c-format
 msgid "Settings"
 msgstr "ຕັ້ງຄ່າ"
 
-#. i18n: file krita.rc line 145
-#: rc.cpp:42 rc.cpp:63 rc.cpp:1121 rc.cpp:1142 rc.cpp:1202
+#. i18n: file krita.rc line 146
+#: rc.cpp:42 rc.cpp:63 rc.cpp:1136 rc.cpp:1157 rc.cpp:1220
 #, no-c-format
 msgid "Navigation"
 msgstr "ການທຳງານ"
 
-#. i18n: file krita.rc line 152
-#: rc.cpp:45 rc.cpp:1124 rc.cpp:1205
+#. i18n: file krita.rc line 153
+#: rc.cpp:45 rc.cpp:1139 rc.cpp:1223
 #, no-c-format
 msgid "Painting Tools"
 msgstr "ເຄື່ຶອງມືທາສີ"
 
-#. i18n: file krita.rc line 155
-#: rc.cpp:48 rc.cpp:1127 rc.cpp:1208 rc.cpp:1223
+#. i18n: file krita.rc line 156
+#: rc.cpp:48 rc.cpp:1142 rc.cpp:1226 rc.cpp:1241 rc.cpp:1295
 #, no-c-format
 msgid "Selection Tools"
 msgstr "ເຄື່ຶອງມືການເລືອກ"
 
 #. i18n: file krita_readonly.rc line 18
-#: core/kis_view.cc:360 rc.cpp:57 rc.cpp:580 rc.cpp:1136 rc.cpp:1232
-#: rc.cpp:1262 rc.cpp:1271
+#: core/kis_view.cc:378 rc.cpp:57 rc.cpp:631 rc.cpp:1151 rc.cpp:1250
+#: rc.cpp:1280 rc.cpp:1289
 #, no-c-format
 msgid "Layer"
 msgstr "ເເລເຢີ"
@@ -209,13 +209,13 @@ msgid "&Resolution:"
 msgstr "reset Button"
 
 #. i18n: file ./ui/wdgnewimage.ui line 113
-#: rc.cpp:126 rc.cpp:844
+#: rc.cpp:126 rc.cpp:880
 #, fuzzy, no-c-format
 msgid "&Width:"
 msgstr "ກວ້າງ"
 
 #. i18n: file ./ui/wdgnewimage.ui line 124
-#: rc.cpp:129 rc.cpp:847
+#: rc.cpp:129 rc.cpp:497 rc.cpp:883
 #, no-c-format
 msgid "&Height:"
 msgstr "&ສູງ:"
@@ -237,7 +237,7 @@ msgstr "&ເຄື່ອງມືເລືອກສີ"
 #: ui/kis_dlg_create_img.cc:152 ui/kis_dlg_image_properties.cc:149
 #: ui/kis_dlg_preferences.cc:194 ui/kis_dlg_preferences.cc:208
 #: ui/kis_dlg_preferences.cc:222 rc.cpp:138 rc.cpp:195 rc.cpp:198 rc.cpp:201
-#: rc.cpp:332 rc.cpp:1003
+#: rc.cpp:321 rc.cpp:1039
 #, no-c-format
 msgid "None"
 msgstr "ບໍ່ມີ"
@@ -281,7 +281,7 @@ msgstr "ສີພື້ນຫລັງ"
 #. i18n: file ./ui/wdgnewimage.ui line 277
 #: tools/kis_tool_gradient.cc:239 ui/kis_channelview.cc:404
 #: ui/kis_dlg_new_layer.cc:58 ui/kis_dlg_paint_properties.cc:64 rc.cpp:162
-#: rc.cpp:396 rc.cpp:403
+#: rc.cpp:385 rc.cpp:392
 #, no-c-format
 msgid "Opacity:"
 msgstr "ລະດັບຄວາມແຈ້ງຂອງແສງ"
@@ -355,25 +355,25 @@ msgid "Description"
 msgstr "ການເພີ່ມ"
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 207
-#: rc.cpp:208 rc.cpp:338
+#: rc.cpp:208 rc.cpp:327
 #, no-c-format
 msgid "&Rendering intent"
 msgstr ""
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 221
-#: rc.cpp:212 rc.cpp:508
+#: rc.cpp:212 rc.cpp:559
 #, fuzzy, no-c-format
 msgid "&Saturation"
 msgstr "ความอิ่มสี"
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 224
-#: rc.cpp:215 rc.cpp:629
+#: rc.cpp:215 rc.cpp:680
 #, no-c-format
 msgid "Best for graphs and charts"
 msgstr ""
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 235
-#: rc.cpp:218 rc.cpp:632
+#: rc.cpp:218 rc.cpp:683
 #, no-c-format
 msgid ""
 "Hue and saturation maintained with lightness\n"
@@ -394,13 +394,13 @@ msgid "&Absolute colorimetric"
 msgstr ""
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 246
-#: rc.cpp:232 rc.cpp:647
+#: rc.cpp:232 rc.cpp:698
 #, no-c-format
 msgid "Best for spot colours"
 msgstr ""
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 254
-#: rc.cpp:235 rc.cpp:650
+#: rc.cpp:235 rc.cpp:701
 #, no-c-format
 msgid ""
 "Within the destination device gamut; hue,\n"
@@ -418,7 +418,7 @@ msgid "&Relative colorimetric"
 msgstr ""
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 271
-#: rc.cpp:246 rc.cpp:616
+#: rc.cpp:246 rc.cpp:667
 #, no-c-format
 msgid ""
 "Within and outside gamut; same as Absolute\n"
@@ -437,13 +437,13 @@ msgid "&Perceptual"
 msgstr "ຢູ່ເໜືອ %1 ຕົວປະຈຸບັນ"
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 285
-#: rc.cpp:258 rc.cpp:603
+#: rc.cpp:258 rc.cpp:654
 #, fuzzy, no-c-format
 msgid "For images"
 msgstr "ນຳຮູບພາບເຂົ້າ..."
 
 #. i18n: file ./ui/wdgcolorsettings.ui line 291
-#: rc.cpp:261 rc.cpp:606
+#: rc.cpp:261 rc.cpp:657
 #, no-c-format
 msgid ""
 "Hue hopefully maintained (but not required),\n"
@@ -504,74 +504,68 @@ msgstr ""
 msgid "Apply the default monitor profile on image data copied to other applications."
 msgstr ""
 
-#. i18n: file ./ui/kis_preview_dialog.ui line 16
-#: core/kis_aboutdata.h:32 rc.cpp:291
-#, no-c-format
-msgid "Krita"
-msgstr "ສໍສີ"
-
 #. i18n: file ./ui/wdghistogram.ui line 57
-#: rc.cpp:302
+#: rc.cpp:291
 #, no-c-format
 msgid "Method"
 msgstr ""
 
 #. i18n: file ./ui/wdghistogram.ui line 68
-#: rc.cpp:305
+#: rc.cpp:294
 #, fuzzy, no-c-format
 msgid "&Linear"
 msgstr "&ເລເຢີ"
 
 #. i18n: file ./ui/wdghistogram.ui line 79
-#: rc.cpp:308
+#: rc.cpp:297
 #, no-c-format
 msgid "&Logarithmic"
 msgstr ""
 
 #. i18n: file ./ui/wdghistogram.ui line 117
-#: rc.cpp:311
+#: rc.cpp:300
 #, fuzzy, no-c-format
 msgid "&Channel:"
 msgstr "ຊ້ອງ"
 
 #. i18n: file ./ui/kis_previewwidgetbase.ui line 22
-#: rc.cpp:314
+#: rc.cpp:303
 #, no-c-format
 msgid "PreviewWidgetBase"
 msgstr ""
 
-#. i18n: file ./ui/kis_previewwidgetbase.ui line 45
-#: rc.cpp:317
+#. i18n: file ./ui/kis_previewwidgetbase.ui line 36
+#: rc.cpp:306
 #, no-c-format
 msgid "+"
 msgstr ""
 
-#. i18n: file ./ui/kis_previewwidgetbase.ui line 53
-#: rc.cpp:320
+#. i18n: file ./ui/kis_previewwidgetbase.ui line 44
+#: rc.cpp:309
 #, no-c-format
 msgid "-"
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 24
-#: rc.cpp:323
+#: rc.cpp:312 rc.cpp:476
 #, fuzzy, no-c-format
 msgid "Form1"
 msgstr "ຢູ່ໜ້າສຸດ %1"
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 35
-#: rc.cpp:326
+#: rc.cpp:315
 #, no-c-format
 msgid "Apply profile"
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 46
-#: rc.cpp:329
+#: rc.cpp:318
 #, no-c-format
 msgid "&Profiles:"
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 75
-#: rc.cpp:335
+#: rc.cpp:324
 #, no-c-format
 msgid ""
 "The image data you want to paste does not have an ICM profile associated "
@@ -580,19 +574,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 92
-#: rc.cpp:342
+#: rc.cpp:331
 #, no-c-format
 msgid "Rendering intent determines the bias in the color conversion."
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 103
-#: rc.cpp:345
+#: rc.cpp:334
 #, no-c-format
 msgid "Relative Colorimetric"
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 106
-#: rc.cpp:348
+#: rc.cpp:337
 #, no-c-format
 msgid ""
 "Within and outside gamut; same as Absolute Colorimetric. White point changed "
@@ -600,13 +594,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 114
-#: rc.cpp:351 rc.cpp:625
+#: rc.cpp:340 rc.cpp:676
 #, fuzzy, no-c-format
 msgid "Saturation"
 msgstr "ความอิ่มสี"
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 117
-#: rc.cpp:354
+#: rc.cpp:343
 #, no-c-format
 msgid ""
 "Hue and saturation maintained with lightness sacrificed to maintain "
@@ -615,13 +609,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 125
-#: rc.cpp:357
+#: rc.cpp:346
 #, no-c-format
 msgid "Absolute Colorimetric"
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 128
-#: rc.cpp:360
+#: rc.cpp:349
 #, no-c-format
 msgid ""
 "Within the destination device gamut; hue, lightness and saturation are "
@@ -631,13 +625,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 136
-#: rc.cpp:363 rc.cpp:599
+#: rc.cpp:352 rc.cpp:650
 #, fuzzy, no-c-format
 msgid "Perceptual"
 msgstr "ຢູ່ເໜືອ %1 ຕົວປະຈຸບັນ"
 
 #. i18n: file ./ui/wdgapplyprofile.ui line 139
-#: rc.cpp:366
+#: rc.cpp:355
 #, no-c-format
 msgid ""
 "Hue hopefully maintained (but not required), lightness and saturation "
@@ -646,797 +640,869 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 16
-#: rc.cpp:369
+#: rc.cpp:358
 #, fuzzy, no-c-format
 msgid "KisWdgAutogradient"
 msgstr "ໄລ່ລະດັບສີ"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 86
-#: tools/kis_tool_gradient.cc:265 rc.cpp:372
+#: tools/kis_tool_gradient.cc:265 rc.cpp:361
 #, fuzzy, no-c-format
 msgid "Linear"
 msgstr "&ເລເຢີ"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 91
-#: rc.cpp:375
+#: rc.cpp:364
 #, fuzzy, no-c-format
 msgid "Curved"
 msgstr "ແດງ"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 96
-#: rc.cpp:378
+#: rc.cpp:367
 #, fuzzy, no-c-format
 msgid "Sine"
 msgstr "linked"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 101
-#: rc.cpp:381
+#: rc.cpp:370
 #, no-c-format
 msgid "Sphere Increasing"
 msgstr ""
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 106
-#: rc.cpp:384
+#: rc.cpp:373
 #, no-c-format
 msgid "Sphere Decreasing"
 msgstr ""
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 116
-#: core/kis_view.cc:442 rc.cpp:387 rc.cpp:745
+#: core/kis_view.cc:460 rc.cpp:376 rc.cpp:781
 #, no-c-format
 msgid "RGB"
 msgstr "RGB"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 121
-#: rc.cpp:390
+#: rc.cpp:379
 #, fuzzy, no-c-format
 msgid "HSV CW"
 msgstr "HSV"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 126
-#: rc.cpp:393
+#: rc.cpp:382
 #, fuzzy, no-c-format
 msgid "HSV CCW"
 msgstr "HSV"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 183
-#: rc.cpp:400
+#: rc.cpp:389
 #, fuzzy, no-c-format
 msgid "Left:"
 msgstr "&ສີ"
 
 #. i18n: file ./ui/widgets/kis_wdg_autogradient.ui line 226
-#: rc.cpp:407
+#: rc.cpp:396
 #, fuzzy, no-c-format
 msgid "Right:"
 msgstr "ສູງ:"
 
 #. i18n: file ./ui/widgets/kis_wdg_text_brush.ui line 16
-#: tools/kis_tool_text.cc:125 rc.cpp:410
+#: tools/kis_tool_text.cc:125 rc.cpp:399
 #, no-c-format
 msgid "Text"
 msgstr ""
 
 #. i18n: file ./ui/widgets/kis_wdg_text_brush.ui line 43
-#: rc.cpp:413
+#: rc.cpp:402
 #, no-c-format
 msgid "Text:"
 msgstr ""
 
 #. i18n: file ./ui/widgets/kis_wdg_text_brush.ui line 61
-#: rc.cpp:416
+#: rc.cpp:405
 #, no-c-format
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr ""
 
 #. i18n: file ./ui/widgets/kis_wdg_text_brush.ui line 87
-#: rc.cpp:419
+#: rc.cpp:408
 #, fuzzy, no-c-format
 msgid "font"
 msgstr "ມຸມ:"
 
 #. i18n: file ./ui/widgets/kis_wdg_text_brush.ui line 103
-#: rc.cpp:422
+#: rc.cpp:411
 #, fuzzy, no-c-format
 msgid "..."
 msgstr "Loading..."
 
 #. i18n: file ./ui/widgets/kis_matrix_widget.ui line 16
-#: rc.cpp:426
+#: rc.cpp:415
 #, no-c-format
 msgid "Matrix Widget"
 msgstr ""
 
 #. i18n: file ./ui/kis_wdg_autobrush.ui line 69
-#: rc.cpp:429
+#: rc.cpp:418
 #, no-c-format
 msgid "circle"
 msgstr ""
 
 #. i18n: file ./ui/kis_wdg_autobrush.ui line 74
-#: rc.cpp:432
+#: rc.cpp:421
 #, no-c-format
 msgid "square"
 msgstr ""
 
 #. i18n: file ./ui/kis_wdg_autobrush.ui line 120
-#: rc.cpp:435 rc.cpp:919
+#: rc.cpp:424 rc.cpp:955
 #, no-c-format
 msgid "Width:"
 msgstr "ກວ້າງ"
 
 #. i18n: file ./ui/kis_wdg_autobrush.ui line 160
-#: rc.cpp:438 rc.cpp:916
+#: rc.cpp:427 rc.cpp:952
 #, no-c-format
 msgid "Height:"
 msgstr "ສູງ:"
 
 #. i18n: file ./ui/kis_wdg_autobrush.ui line 194
-#: rc.cpp:441 rc.cpp:450
+#: rc.cpp:430 rc.cpp:439
 #, no-c-format
 msgid "Equal"
 msgstr ""
 
 #. i18n: file ./ui/kis_wdg_autobrush.ui line 231
-#: rc.cpp:444
+#: rc.cpp:433
 #, no-c-format
 msgid "Horizontal fade:"
 msgstr ""
 
 #. i18n: file ./ui/kis_wdg_autobrush.ui line 271
-#: rc.cpp:447
+#: rc.cpp:436
 #, no-c-format
 msgid "Vertical fade:"
 msgstr ""
 
 #. i18n: file ./ui/wdgselectionoptions.ui line 24
-#: rc.cpp:453
+#: rc.cpp:442
 #, fuzzy, no-c-format
 msgid "&Mask color:"
 msgstr "&ສີ"
 
 #. i18n: file ./ui/wdgselectionoptions.ui line 35
-#: rc.cpp:456
+#: rc.cpp:445
 #, fuzzy, no-c-format
 msgid "&Opacity:"
 msgstr "ລະດັບຄວາມແຈ້ງຂອງແສງ"
 
 #. i18n: file ./ui/wdgselectionoptions.ui line 68
-#: rc.cpp:459
+#: rc.cpp:448
 #, fuzzy, no-c-format
 msgid "&Action"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./ui/wdgselectionoptions.ui line 79
-#: rc.cpp:462
+#: rc.cpp:451
 #, fuzzy, no-c-format
 msgid "&Select"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./ui/wdgselectionoptions.ui line 90
-#: rc.cpp:465
+#: rc.cpp:454
 #, fuzzy, no-c-format
 msgid "&Deselect"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./ui/wdgselectionoptions.ui line 120
-#: rc.cpp:468
+#: rc.cpp:457
 #, no-c-format
 msgid "&Invert mask"
 msgstr ""
 
 #. i18n: file ./ui/wdgbirdeye.ui line 24
-#: core/kis_view.cc:353 rc.cpp:471
+#: core/kis_view.cc:371 rc.cpp:460
 #, fuzzy, no-c-format
 msgid "Overview"
 msgstr "โอเวอร์เลย์"
 
 #. i18n: file ./ui/wdgbirdeye.ui line 92
-#: rc.cpp:474 rc.cpp:858 rc.cpp:861
+#: rc.cpp:463 rc.cpp:894 rc.cpp:897
 #, no-c-format
 msgid "%"
 msgstr ""
 
 #. i18n: file ./ui/wdgdockertab.ui line 21
-#: rc.cpp:477
+#: rc.cpp:466
 #, no-c-format
 msgid "WdgDockerTab"
 msgstr ""
 
 #. i18n: file ./ui/wdgdockertab.ui line 39
-#: rc.cpp:480
+#: rc.cpp:469
 #, no-c-format
 msgid "Bla bla bla"
 msgstr ""
 
 #. i18n: file ./ui/wdgdockertab.ui line 82
-#: rc.cpp:484
+#: rc.cpp:473
 #, no-c-format
 msgid "Shade or unshade the palette"
 msgstr ""
 
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 31
+#: rc.cpp:479
+#, fuzzy, no-c-format
+msgid "&Paint"
+msgstr "ແຕ້ມຮູບ"
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 42
+#: rc.cpp:482
+#, no-c-format
+msgid "&Drying Rate:"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 53
+#: rc.cpp:485
+#, no-c-format
+msgid "&Liquid content"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 56
+#: rc.cpp:488
+#, no-c-format
+msgid "Alt+L"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 94
+#: rc.cpp:491
+#, no-c-format
+msgid "&Miscibility"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 115
+#: rc.cpp:494
+#, fuzzy, no-c-format
+msgid "&Canvas"
+msgstr "ພື້ນທີ່ແຕ້ມຮູບ"
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 181
+#: rc.cpp:500
+#, no-c-format
+msgid "&Absorbency:"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 216
+#: rc.cpp:504
+#, fuzzy, no-c-format
+msgid "&Color:"
+msgstr "&ສີ"
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 235
+#: rc.cpp:507
+#, no-c-format
+msgid "Paint Canvas Attributes"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 255
+#: rc.cpp:511
+#, fuzzy, no-c-format
+msgid "&Gravity"
+msgstr "ລະດັບສີເທົາ"
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 266
+#: rc.cpp:514
+#, fuzzy, no-c-format
+msgid "Paint &Gravity"
+msgstr "ທາສີໂດຍການໄລ່ລະດັບສີ"
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 269
+#: rc.cpp:517
+#, no-c-format
+msgid "Alt+G"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 277
+#: rc.cpp:520
+#, fuzzy, no-c-format
+msgid "Direction:"
+msgstr "&ເຄື່ອງມືເລືອກສີ"
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 286
+#: rc.cpp:523
+#, no-c-format
+msgid "Up"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 296
+#: rc.cpp:529
+#, no-c-format
+msgid "Down"
+msgstr ""
+
+#. i18n: file ./modules/colorspace_ws/wstool.ui line 313
+#: rc.cpp:535
+#, fuzzy, no-c-format
+msgid "&Strength:"
+msgstr "ຢູ່ເໜືອ %1 ຕົວປະຈຸບັນ"
+
 #. i18n: file ./plugins/variations/wdg_variations.ui line 24
-#: plugins/variations/dlg_variations.cc:33 rc.cpp:487
+#: plugins/variations/dlg_variations.cc:33 rc.cpp:538
 #, fuzzy, no-c-format
 msgid "Variations"
 msgstr "ການທຳງານ"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 122
-#: rc.cpp:490 rc.cpp:529 rc.cpp:544
+#: rc.cpp:541 rc.cpp:580 rc.cpp:595
 #, no-c-format
 msgid "Current Pick"
 msgstr ""
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 133
-#: rc.cpp:493
+#: rc.cpp:544
 #, fuzzy, no-c-format
 msgid "Original"
 msgstr "ເສັ້ນຂວາງ"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 165
-#: rc.cpp:499
+#: rc.cpp:550
 #, no-c-format
 msgid "&Shadows"
 msgstr ""
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 173
-#: rc.cpp:502
+#: rc.cpp:553
 #, no-c-format
 msgid "&Midtones"
 msgstr ""
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 184
-#: rc.cpp:505
+#: rc.cpp:556
 #, fuzzy, no-c-format
 msgid "&Highlights"
 msgstr "&ສູງ:"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 200
-#: rc.cpp:511
+#: rc.cpp:562
 #, no-c-format
 msgid "Show &clipping"
 msgstr ""
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 216
-#: rc.cpp:514
+#: rc.cpp:565
 #, fuzzy, no-c-format
 msgid "Fine"
 msgstr "linked"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 224
-#: rc.cpp:517
+#: rc.cpp:568
 #, fuzzy, no-c-format
 msgid "Coarse"
 msgstr "&ສີ"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 250
-#: rc.cpp:520
+#: rc.cpp:571
 #, fuzzy, no-c-format
 msgid "&Load..."
 msgstr "Loading..."
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 258
-#: rc.cpp:523 rc.cpp:1062
+#: rc.cpp:574 rc.cpp:1077
 #, fuzzy, no-c-format
 msgid "&Save As..."
 msgstr "Loading..."
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 349
-#: rc.cpp:526
+#: rc.cpp:577
 #, fuzzy, no-c-format
 msgid "Lighter"
 msgstr "ทำให้สว่างขึ้นเท่านั้น"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 433
-#: rc.cpp:532
+#: rc.cpp:583
 #, fuzzy, no-c-format
 msgid "Darker"
 msgstr "ทำให้มืดลงเท่านั้น"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 532
-#: rc.cpp:535
+#: rc.cpp:586
 #, fuzzy, no-c-format
 msgid "More Red"
 msgstr "ຟ້າ"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 551
-#: rc.cpp:538
+#: rc.cpp:589
 #, no-c-format
 msgid "More Cyan"
 msgstr ""
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 609
-#: rc.cpp:541
+#: rc.cpp:592
 #, fuzzy, no-c-format
 msgid "More Green"
 msgstr "ຂຽວ"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 764
-#: rc.cpp:547
+#: rc.cpp:598
 #, fuzzy, no-c-format
 msgid "More Yellow"
 msgstr "ເຫລືອງ"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 864
-#: rc.cpp:550
+#: rc.cpp:601
 #, fuzzy, no-c-format
 msgid "More Magenta"
 msgstr "ມ້ວງແດງ"
 
 #. i18n: file ./plugins/variations/wdg_variations.ui line 883
-#: rc.cpp:553
+#: rc.cpp:604
 #, fuzzy, no-c-format
 msgid "More Blue"
 msgstr "ຟ້າ"
 
 #. i18n: file ./plugins/convolutionfilters/kis_custom_convolution_filter_configuration_base_widget.ui line 16
-#: rc.cpp:556
+#: rc.cpp:607
 #, no-c-format
 msgid "Custom Convolution Filter Configuration Widget"
 msgstr ""
 
 #. i18n: file ./plugins/convolutionfilters/kis_custom_convolution_filter_configuration_base_widget.ui line 48
-#: rc.cpp:559
+#: rc.cpp:610
 #, no-c-format
 msgid "Factor:"
 msgstr ""
 
 #. i18n: file ./plugins/convolutionfilters/kis_custom_convolution_filter_configuration_base_widget.ui line 94
-#: rc.cpp:562
+#: rc.cpp:613
 #, no-c-format
 msgid "Offset:"
 msgstr "ອອຟເຊັດ:"
 
 #. i18n: file ./plugins/tool_crop/wdg_tool_crop.ui line 16
-#: plugins/tool_crop/kis_tool_crop.cc:63 rc.cpp:565
+#: plugins/tool_crop/kis_tool_crop.cc:63 rc.cpp:616
 #, no-c-format
 msgid "Crop"
 msgstr ""
 
 #. i18n: file ./plugins/tool_crop/wdg_tool_crop.ui line 51
-#: rc.cpp:568
+#: rc.cpp:619
 #, no-c-format
 msgid "Start X:"
 msgstr ""
 
 #. i18n: file ./plugins/tool_crop/wdg_tool_crop.ui line 80
-#: rc.cpp:571
+#: rc.cpp:622
 #, fuzzy, no-c-format
 msgid "End X:"
 msgstr "ປະສົມ:"
 
 #. i18n: file ./plugins/tool_crop/wdg_tool_crop.ui line 119
-#: rc.cpp:574
+#: rc.cpp:625
 #, no-c-format
 msgid "Start Y:"
 msgstr ""
 
 #. i18n: file ./plugins/tool_crop/wdg_tool_crop.ui line 148
-#: rc.cpp:577
+#: rc.cpp:628
 #, no-c-format
 msgid "End Y:"
 msgstr ""
 
 #. i18n: file ./plugins/tool_crop/wdg_tool_crop.ui line 198
-#: rc.cpp:583 rc.cpp:1226 rc.cpp:1259 rc.cpp:1268
+#: rc.cpp:634 rc.cpp:1244 rc.cpp:1277 rc.cpp:1286
 #, fuzzy, no-c-format
 msgid "Image"
 msgstr "&ຮູບພາບ"
 
 #. i18n: file ./plugins/tool_crop/wdg_tool_crop.ui line 213
-#: rc.cpp:586
+#: rc.cpp:637
 #, no-c-format
 msgid "&Crop"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 16
-#: rc.cpp:589
+#: rc.cpp:640
 #, fuzzy, no-c-format
 msgid "Colorspace conversion"
 msgstr "&ເຄື່ອງມືເລືອກສີ"
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 27
-#: rc.cpp:592
+#: rc.cpp:643
 #, fuzzy, no-c-format
 msgid "Colorspace Conversion"
 msgstr "&ເຄື່ອງມືເລືອກສີ"
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 38
-#: rc.cpp:595
+#: rc.cpp:646
 #, no-c-format
 msgid "&Rendering Intent"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 75
-#: rc.cpp:612
+#: rc.cpp:663
 #, no-c-format
 msgid "Relative colorimetric"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 120
-#: rc.cpp:643
+#: rc.cpp:694
 #, no-c-format
 msgid "Absolute colorimetric"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 144
-#: rc.cpp:658
+#: rc.cpp:709
 #, no-c-format
 msgid "&Source ICM profile"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 155
-#: rc.cpp:661
+#: rc.cpp:712
 #, no-c-format
 msgid "&Destination ICM profile"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 166
-#: rc.cpp:664
+#: rc.cpp:715
 #, no-c-format
 msgid "&Target Color Space:"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 202
-#: rc.cpp:673
+#: rc.cpp:724
 #, fuzzy, no-c-format
 msgid "&Channel depth:"
 msgstr "&ຊ້ອງ"
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 211
-#: rc.cpp:676
+#: rc.cpp:727
 #, no-c-format
 msgid "8 bit"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 216
-#: rc.cpp:679
+#: rc.cpp:730
 #, no-c-format
 msgid "16 bit"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 221
-#: rc.cpp:682
+#: rc.cpp:733
 #, no-c-format
 msgid "24 bit"
 msgstr ""
 
 #. i18n: file ./plugins/colorspaceconversion/wdgconvertcolorspace.ui line 226
-#: rc.cpp:685
+#: rc.cpp:736
 #, no-c-format
 msgid "32 bit"
 msgstr ""
 
-#. i18n: file ./plugins/raindropsfilter/kis_raindrops_filter_configuration_base_widget.ui line 16
+#. i18n: file ./plugins/performancetest/wdg_perftest.ui line 16
 #: plugins/colorspaceconversion/dlg_colorspaceconversion.cc:40
-#: plugins/imagesize/dlg_imagesize.cc:46 plugins/imagesize/imagesize.cc:93
-#: rc.cpp:688 rc.cpp:703 rc.cpp:838 rc.cpp:1018 rc.cpp:1027 rc.cpp:1039
+#: plugins/imagesize/dlg_imagesize.cc:46 plugins/imagesize/imagesize.cc:92
+#: rc.cpp:739 rc.cpp:874 rc.cpp:1054
 #, fuzzy, no-c-format
 msgid "Image Size"
 msgstr "&ຮູບພາບ"
 
-#. i18n: file ./plugins/raindropsfilter/kis_raindrops_filter_configuration_base_widget.ui line 27
-#: rc.cpp:691 rc.cpp:1030 rc.cpp:1042
-#, no-c-format
-msgid "&Raindrops"
-msgstr ""
-
-#. i18n: file ./plugins/raindropsfilter/kis_raindrops_filter_configuration_base_widget.ui line 38
-#: rc.cpp:694
-#, fuzzy, no-c-format
-msgid "Number:"
-msgstr "ຊື່:"
-
-#. i18n: file ./plugins/raindropsfilter/kis_raindrops_filter_configuration_base_widget.ui line 46
-#: rc.cpp:697
-#, no-c-format
-msgid "Fish eyes:"
-msgstr ""
-
-#. i18n: file ./plugins/raindropsfilter/kis_raindrops_filter_configuration_base_widget.ui line 102
-#: rc.cpp:700
-#, no-c-format
-msgid "Drop size:"
-msgstr ""
-
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 27
-#: rc.cpp:706
+#: rc.cpp:742
 #, no-c-format
 msgid "&Performance Test"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 38
-#: rc.cpp:709
+#: rc.cpp:745
 #, no-c-format
 msgid "Number of tests:"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 63
-#: rc.cpp:712
+#: rc.cpp:748
 #, no-c-format
 msgid "bitBlt"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 74
-#: tools/kis_tool_fill.cc:126 rc.cpp:715
+#: tools/kis_tool_fill.cc:126 rc.cpp:751
 #, no-c-format
 msgid "Fill"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 85
-#: core/kis_view.cc:420 rc.cpp:718
+#: core/kis_view.cc:438 rc.cpp:754
 #, no-c-format
 msgid "Gradients"
 msgstr "ໄລ່ລະດັບສີ"
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 96
-#: rc.cpp:721
+#: rc.cpp:757
 #, no-c-format
 msgid "setPixel/getPixel"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 107
-#: rc.cpp:724
+#: rc.cpp:760
 #, fuzzy, no-c-format
 msgid "Shapes"
 msgstr "ຄວາມແຫລມ:"
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 118
-#: core/kis_view.cc:361 rc.cpp:727
+#: core/kis_view.cc:379 rc.cpp:763
 #, no-c-format
 msgid "Layers"
 msgstr "ເລເຢີ"
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 129
-#: rc.cpp:730
+#: rc.cpp:766
 #, fuzzy, no-c-format
 msgid "Scaling"
 msgstr "ค่า"
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 140
-#: rc.cpp:733
+#: rc.cpp:769
 #, fuzzy, no-c-format
 msgid "Rotating"
 msgstr "ຫມຸນ &90"
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 151
-#: rc.cpp:736
+#: rc.cpp:772
 #, no-c-format
 msgid "Rendering"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 162
-#: ui/kis_layerbox.cc:103 rc.cpp:739
+#: ui/kis_layerbox.cc:103 rc.cpp:775
 #, no-c-format
 msgid "Selection"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 173
-#: rc.cpp:742
+#: rc.cpp:778
 #, fuzzy, no-c-format
 msgid "Color conversion"
 msgstr "&ເຄື່ອງມືເລືອກສີ"
 
 #. i18n: file ./plugins/colorsfilters/formrgbsliders.ui line 70
-#: rc.cpp:748 rc.cpp:751 rc.cpp:763 rc.cpp:775 rc.cpp:778 rc.cpp:796
-#: rc.cpp:805 rc.cpp:811 rc.cpp:814
+#: rc.cpp:784 rc.cpp:787 rc.cpp:799 rc.cpp:811 rc.cpp:814 rc.cpp:832
+#: rc.cpp:841 rc.cpp:847 rc.cpp:850
 #, no-c-format
 msgid "0"
 msgstr ""
 
 #. i18n: file ./plugins/colorsfilters/formrgbsliders.ui line 118
-#: rc.cpp:754
+#: rc.cpp:790
 #, fuzzy, no-c-format
 msgid "Blue:"
 msgstr "ຟ້າ"
 
 #. i18n: file ./plugins/colorsfilters/formrgbsliders.ui line 126
-#: rc.cpp:757
+#: rc.cpp:793
 #, fuzzy, no-c-format
 msgid "Green:"
 msgstr "ຂຽວ"
 
 #. i18n: file ./plugins/colorsfilters/formrgbsliders.ui line 154
-#: rc.cpp:760
+#: rc.cpp:796
 #, fuzzy, no-c-format
 msgid "Red:"
 msgstr "ແດງ"
 
 #. i18n: file ./plugins/colorsfilters/formbcdialog.ui line 36
-#: rc.cpp:772
+#: rc.cpp:808
 #, no-c-format
 msgid "Brightness / Contrast"
 msgstr ""
 
 #. i18n: file ./plugins/colorsfilters/formbcdialog.ui line 124
-#: rc.cpp:781
+#: rc.cpp:817
 #, fuzzy, no-c-format
 msgid "Contrast:"
 msgstr "ມຸມ:"
 
 #. i18n: file ./plugins/colorsfilters/formbcdialog.ui line 152
-#: rc.cpp:784
+#: rc.cpp:820
 #, no-c-format
 msgid "Brightness:"
 msgstr ""
 
 #. i18n: file ./plugins/colorsfilters/formcmybsliders.ui line 36
-#: modules/colorspace_cmyk/kis_strategy_colorspace_cmyk.cc:45 rc.cpp:793
+#: modules/colorspace_cmyk/kis_strategy_colorspace_cmyk.cc:45 rc.cpp:829
 #, no-c-format
 msgid "CMYK"
 msgstr "CMYK"
 
 #. i18n: file ./plugins/colorsfilters/formcmybsliders.ui line 87
-#: rc.cpp:799
+#: rc.cpp:835
 #, fuzzy, no-c-format
 msgid "Cyan:"
 msgstr "cyan"
 
 #. i18n: file ./plugins/colorsfilters/formcmybsliders.ui line 95
-#: rc.cpp:802
+#: rc.cpp:838
 #, fuzzy, no-c-format
 msgid "Black:"
 msgstr "ດຳ"
 
 #. i18n: file ./plugins/colorsfilters/formcmybsliders.ui line 160
-#: rc.cpp:808
+#: rc.cpp:844
 #, fuzzy, no-c-format
 msgid "Magenta:"
 msgstr "ມ້ວງແດງ"
 
 #. i18n: file ./plugins/colorsfilters/formcmybsliders.ui line 242
-#: rc.cpp:817
+#: rc.cpp:853
 #, fuzzy, no-c-format
 msgid "Yellow:"
 msgstr "ເຫລືອງ"
 
 #. i18n: file ./plugins/shearimage/wdg_shearimage.ui line 16
 #: plugins/shearimage/dlg_shearimage.cc:43 plugins/shearimage/shearimage.cc:89
-#: rc.cpp:826
+#: rc.cpp:862
 #, fuzzy, no-c-format
 msgid "Shear Image"
 msgstr "ສ້າງຮູບໃຫມ່"
 
 #. i18n: file ./plugins/shearimage/wdg_shearimage.ui line 27
-#: rc.cpp:829
+#: rc.cpp:865
 #, fuzzy, no-c-format
 msgid "&Shear Image"
 msgstr "ລຶບຮູບພາບ"
 
 #. i18n: file ./plugins/shearimage/wdg_shearimage.ui line 49
-#: rc.cpp:832
+#: rc.cpp:868
 #, fuzzy, no-c-format
 msgid "Shear Angle Y:"
 msgstr "ສ້າງຮູບໃຫມ່"
 
 #. i18n: file ./plugins/shearimage/wdg_shearimage.ui line 68
-#: rc.cpp:835
+#: rc.cpp:871
 #, fuzzy, no-c-format
 msgid "Shear Angle X:"
 msgstr "ສ້າງຮູບໃຫມ່"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 27
-#: rc.cpp:841
+#: rc.cpp:877
 #, fuzzy, no-c-format
 msgid "&Pixel Dimensions"
 msgstr "Dimensions"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 102
-#: rc.cpp:852
+#: rc.cpp:888
 #, fuzzy, no-c-format
 msgid "Original:"
 msgstr "ເສັ້ນຂວາງ"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 110
-#: rc.cpp:855
+#: rc.cpp:891
 #, fuzzy, no-c-format
 msgid "&New:"
 msgstr "ຊື່"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 160
-#: rc.cpp:864
+#: rc.cpp:900
 #, fuzzy, no-c-format
 msgid "&Percent:"
 msgstr "ຢູ່ເໜືອ %1 ຕົວປະຈຸບັນ"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 171
-#: rc.cpp:867
+#: rc.cpp:903
 #, no-c-format
 msgid "&Constrain proportions"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 259
-#: rc.cpp:871
+#: rc.cpp:907
 #, fuzzy, no-c-format
 msgid "&Resize"
 msgstr "Resize"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 267
-#: rc.cpp:874
+#: rc.cpp:910
 #, fuzzy, no-c-format
 msgid "&Scale"
 msgstr "ค่า"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 280
-#: rc.cpp:877
+#: rc.cpp:913
 #, fuzzy, no-c-format
 msgid "&Scaling type:"
 msgstr "ค่า"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 289
-#: rc.cpp:880
+#: rc.cpp:916
 #, no-c-format
 msgid "Box"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 294
-#: rc.cpp:883
+#: rc.cpp:919
 #, fuzzy, no-c-format
 msgid "Triangle"
 msgstr "ສີລ່ຽມ"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 299
-#: rc.cpp:886
+#: rc.cpp:922
 #, no-c-format
 msgid "Bell"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 304
-#: rc.cpp:889
+#: rc.cpp:925
 #, fuzzy, no-c-format
 msgid "B-Spline"
 msgstr "linked"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 309
-#: tools/kis_tool_filter.cc:93 rc.cpp:892
+#: plugins/tool_filter/kis_tool_filter.cc:93 rc.cpp:928
 #, fuzzy, no-c-format
 msgid "Filter"
 msgstr "&ຂາວ"
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 314
-#: rc.cpp:895
+#: rc.cpp:931
 #, no-c-format
 msgid "Lanczos 3"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_imagesize.ui line 319
-#: rc.cpp:898
+#: rc.cpp:934
 #, no-c-format
 msgid "Mitchell"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 16
-#: rc.cpp:901 rc.cpp:925
+#: rc.cpp:937 rc.cpp:961
 #, fuzzy, no-c-format
 msgid "Image Resolution"
 msgstr "reset Button"
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 27
-#: rc.cpp:904
+#: rc.cpp:940
 #, no-c-format
 msgid "&Metric system:"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 36
-#: rc.cpp:907
+#: rc.cpp:943
 #, no-c-format
 msgid "Dots per Inch"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 41
-#: rc.cpp:910
+#: rc.cpp:946
 #, no-c-format
 msgid "Dots per Centimeter"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 53
-#: rc.cpp:913
+#: rc.cpp:949
 #, no-c-format
 msgid "Print Size"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 90
-#: rc.cpp:922
+#: rc.cpp:958
 #, no-c-format
 msgid ""
 "The print size of an image is determined by the size in pixels and the image "
@@ -1446,25 +1512,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 114
-#: rc.cpp:928
+#: rc.cpp:964
 #, fuzzy, no-c-format
 msgid "Screen resolution:"
 msgstr "reset Button"
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 128
-#: rc.cpp:931
+#: rc.cpp:967
 #, no-c-format
 msgid "100"
 msgstr ""
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 139
-#: rc.cpp:934
+#: rc.cpp:970
 #, fuzzy, no-c-format
 msgid "Image Y Resolution:"
 msgstr "reset Button"
 
 #. i18n: file ./plugins/imagesize/wdg_resolution.ui line 147
-#: rc.cpp:937
+#: rc.cpp:973
 #, fuzzy, no-c-format
 msgid "Image X Resolution:"
 msgstr "reset Button"
@@ -1472,175 +1538,157 @@ msgstr "reset Button"
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 16
 #: plugins/colorrange/dlg_colorrange.cc:42
 #: plugins/colorrange/dlg_colorrange.cc:45
-#: plugins/variations/dlg_variations.cc:29 rc.cpp:940 rc.cpp:943
+#: plugins/variations/dlg_variations.cc:29 rc.cpp:976 rc.cpp:979
 #, fuzzy, no-c-format
 msgid "Color Range"
 msgstr "ເຄື່ອງມືປ່ຽນສີ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 100
-#: core/kis_selection_manager.cc:194 rc.cpp:948
+#: core/kis_selection_manager.cc:194 rc.cpp:984
 #, fuzzy, no-c-format
 msgid "Load..."
 msgstr "Loading..."
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 135
-#: rc.cpp:955
+#: rc.cpp:991
 #, no-c-format
 msgid "In&vert"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 172
-#: rc.cpp:958
+#: rc.cpp:994
 #, fuzzy, no-c-format
 msgid "&Select:"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 200
-#: rc.cpp:961
+#: rc.cpp:997
 #, no-c-format
 msgid "&Fuzziness:"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 226
-#: rc.cpp:964
+#: rc.cpp:1000
 #, no-c-format
 msgid "Sampled Colors"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 234
-#: rc.cpp:967
+#: rc.cpp:1003
 #, fuzzy, no-c-format
 msgid "Reds"
 msgstr "ແດງ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 239
-#: rc.cpp:970
+#: rc.cpp:1006
 #, no-c-format
 msgid "Yellows"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 244
-#: rc.cpp:973
+#: rc.cpp:1009
 #, fuzzy, no-c-format
 msgid "Greens"
 msgstr "ຂຽວ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 249
-#: rc.cpp:976
+#: rc.cpp:1012
 #, fuzzy, no-c-format
 msgid "Cyans"
 msgstr "cyan"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 254
-#: rc.cpp:979
+#: rc.cpp:1015
 #, fuzzy, no-c-format
 msgid "Blues"
 msgstr "ຟ້າ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 259
-#: rc.cpp:982
+#: rc.cpp:1018
 #, fuzzy, no-c-format
 msgid "Magentas"
 msgstr "ມ້ວງແດງ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 264
-#: rc.cpp:985
+#: rc.cpp:1021
 #, no-c-format
 msgid "Highlights"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 269
-#: rc.cpp:988
+#: rc.cpp:1024
 #, no-c-format
 msgid "Midtones"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 274
-#: rc.cpp:991
+#: rc.cpp:1027
 #, no-c-format
 msgid "Shadows"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 279
-#: rc.cpp:994
+#: rc.cpp:1030
 #, no-c-format
 msgid "Out of Gamut"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 318
-#: rc.cpp:997
+#: rc.cpp:1033
 #, no-c-format
 msgid "Preview"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 332
-#: rc.cpp:1000
+#: rc.cpp:1036
 #, fuzzy, no-c-format
 msgid "Selection &preview:"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 346
-#: rc.cpp:1006
+#: rc.cpp:1042
 #, fuzzy, no-c-format
 msgid "Grayscale"
 msgstr "&ລະດັບສີເທົາ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 351
-#: rc.cpp:1009
+#: rc.cpp:1045
 #, fuzzy, no-c-format
 msgid "Black Matte"
 msgstr "ດຳ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 356
-#: rc.cpp:1012
+#: rc.cpp:1048
 #, no-c-format
 msgid "White Matte"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 361
-#: rc.cpp:1015
+#: rc.cpp:1051
 #, no-c-format
 msgid "Quick Mask"
 msgstr ""
 
 #. i18n: file ./plugins/rotateimage/wdg_rotateimage.ui line 27
-#: rc.cpp:1021
+#: rc.cpp:1057
 #, fuzzy, no-c-format
 msgid "&Rotate Image"
 msgstr "&ລືບເລເຢີ"
 
 #. i18n: file ./plugins/rotateimage/wdg_rotateimage.ui line 38
-#: rc.cpp:1024
+#: rc.cpp:1060
 #, no-c-format
 msgid "Angle:"
 msgstr ""
 
-#. i18n: file ./plugins/oilpaintfilter/kis_oilpaint_filter_configuration_base_widget.ui line 38
-#: rc.cpp:1033
-#, no-c-format
-msgid "Smooth:"
-msgstr ""
-
-#. i18n: file ./plugins/oilpaintfilter/kis_oilpaint_filter_configuration_base_widget.ui line 80
-#: rc.cpp:1036
-#, fuzzy, no-c-format
-msgid "Brush Size:"
-msgstr "ແປງທາສີ"
-
-#. i18n: file ./plugins/embossfilter/kis_emboss_filter_configuration_base_widget.ui line 52
-#: rc.cpp:1045
-#, fuzzy, no-c-format
-msgid "Depth:"
-msgstr "ເຮັດຊຳ້ໄປເລື້ອຍຯ:"
-
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 33
-#: rc.cpp:1048
+#: rc.cpp:1063
 #, no-c-format
 msgid "Thumbnail of the current snapshot"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 38
-#: rc.cpp:1051
+#: rc.cpp:1066
 #, no-c-format
 msgid ""
 "This is a thumbnail of the current snapshot.\n"
@@ -1650,19 +1698,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 46
-#: rc.cpp:1056
+#: rc.cpp:1071
 #, no-c-format
 msgid "&New Snapshot"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 52
-#: rc.cpp:1059
+#: rc.cpp:1074
 #, no-c-format
 msgid "Click this button to take a new snapshot."
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 66
-#: rc.cpp:1065
+#: rc.cpp:1080
 #, no-c-format
 msgid ""
 "Click this button to save the current snapshot. To quickly save the snapshot "
@@ -1671,31 +1719,31 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 97
-#: rc.cpp:1071
+#: rc.cpp:1086
 #, no-c-format
 msgid "Click this button to print the current screenshot."
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 119
-#: rc.cpp:1074
+#: rc.cpp:1089
 #, no-c-format
 msgid " sec"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 122
-#: rc.cpp:1077
+#: rc.cpp:1092
 #, no-c-format
 msgid "No delay"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 125
-#: rc.cpp:1080
+#: rc.cpp:1095
 #, no-c-format
 msgid "Snapshot delay in seconds"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 135
-#: rc.cpp:1083
+#: rc.cpp:1098
 #, no-c-format
 msgid ""
 "<qt>\n"
@@ -1712,49 +1760,49 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 143
-#: rc.cpp:1093
+#: rc.cpp:1108
 #, no-c-format
 msgid "Snapshot &delay:"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 154
-#: rc.cpp:1096
+#: rc.cpp:1111
 #, no-c-format
 msgid "Cap&ture mode:"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 182
-#: rc.cpp:1099
+#: rc.cpp:1114
 #, no-c-format
 msgid "Include &window decorations"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 188
-#: rc.cpp:1102
+#: rc.cpp:1117
 #, no-c-format
 msgid "When enabled, snapshot of a window will also include the window decorations"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 194
-#: rc.cpp:1105
+#: rc.cpp:1120
 #, fuzzy, no-c-format
 msgid "Full Screen"
 msgstr "จอภาพ"
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 199
-#: rc.cpp:1108
+#: rc.cpp:1123
 #, no-c-format
 msgid "Window Under Cursor"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 204
-#: rc.cpp:1111
+#: rc.cpp:1126
 #, no-c-format
 msgid "Region"
 msgstr ""
 
 #. i18n: file ./plugins/screenshot/ksnapshotwidget.ui line 215
-#: rc.cpp:1114
+#: rc.cpp:1129
 #, no-c-format
 msgid ""
 "<qt>Using this menu, you can select from the three following snapshot "
@@ -1768,51 +1816,51 @@ msgid ""
 "of the screen by clicking and dragging the mouse.</p></qt>"
 msgstr ""
 
-#. i18n: file ./plugins/variations/variations.rc line 4
-#: rc.cpp:1211 rc.cpp:1253
-#, no-c-format
-msgid "Adjust"
-msgstr ""
-
-#. i18n: file ./plugins/convolutionfilters/kritaconvolutionfilters.rc line 4
-#: tools/kis_tool_filter.cc:66 rc.cpp:1214 rc.cpp:1238 rc.cpp:1256 rc.cpp:1274
-#: rc.cpp:1277
+#. i18n: file ./modules/colorspace_ws/filter/kritawsenginefilter.rc line 4
+#: plugins/tool_filter/kis_tool_filter.cc:66 rc.cpp:1166 rc.cpp:1232
+#: rc.cpp:1256 rc.cpp:1274 rc.cpp:1292 rc.cpp:1298
 #, fuzzy, no-c-format
 msgid "&Filter"
 msgstr "&ຂາວ"
 
+#. i18n: file ./plugins/variations/variations.rc line 4
+#: rc.cpp:1229 rc.cpp:1271
+#, no-c-format
+msgid "Adjust"
+msgstr ""
+
 #. i18n: file ./plugins/convolutionfilters/kritaconvolutionfilters.rc line 9
-#: rc.cpp:1217
+#: rc.cpp:1235
 #, no-c-format
 msgid "&Emboss"
 msgstr ""
 
 #. i18n: file ./plugins/convolutionfilters/kritaconvolutionfilters.rc line 17
-#: rc.cpp:1220
+#: rc.cpp:1238
 #, fuzzy, no-c-format
 msgid "E&dge Detection"
 msgstr "ລົບການເລືອກ"
 
 #. i18n: file ./plugins/kiskjsembed/kritakjsembed.rc line 4
-#: rc.cpp:1244
+#: rc.cpp:1262
 #, no-c-format
 msgid "scr&Ipts"
 msgstr ""
 
 #. i18n: file ./plugins/kiskjsembed/kritakjsembed.rc line 8
-#: rc.cpp:1247
+#: rc.cpp:1265
 #, no-c-format
 msgid "&Scripts"
 msgstr ""
 
 #. i18n: file ./plugins/histogram/histogram.rc line 4
-#: rc.cpp:1250
+#: rc.cpp:1268
 #, no-c-format
 msgid "&Layer"
 msgstr "&ເລເຢີ"
 
 #. i18n: file ./plugins/colorrange/colorrange.rc line 4
-#: rc.cpp:1265
+#: rc.cpp:1283
 #, fuzzy, no-c-format
 msgid "Select"
 msgstr "ການເລືອກ"
@@ -1942,11 +1990,11 @@ msgstr ""
 msgid "Preferences"
 msgstr "ປັບແຕ່ງ"
 
-#: core/kis_view.cc:340 ui/kis_dlg_preferences.cc:236
+#: core/kis_view.cc:358 ui/kis_dlg_preferences.cc:236
 msgid "General"
 msgstr "ຄ່າທົ່ວໄປ"
 
-#: core/kis_view.cc:713 ui/kis_dlg_paint_properties.cc:53
+#: core/kis_view.cc:734 ui/kis_dlg_paint_properties.cc:53
 #, fuzzy
 msgid "Layer Properties"
 msgstr "ຄຸນສົມບັດເລເຢີ..."
@@ -2240,14 +2288,29 @@ msgstr "ຄຸນສົມບັດເລເຢີ..."
 msgid "Image %1"
 msgstr "ຮູບພາບ %1"
 
-#: core/kis_aboutdata.h:34
+#: core/tool/kis_tool_freehand.cc:212 tools/kis_tool_freehand.cc:212
+#, fuzzy
+msgid "Opacity: "
+msgstr "ລະດັບຄວາມແຈ້ງຂອງແສງ"
+
+#: core/tool/kis_tool_freehand.cc:218 tools/kis_tool_fill.cc:134
+#: tools/kis_tool_freehand.cc:218
+#, fuzzy
+msgid "Mode: "
+msgstr "ໂຫມດ:"
+
+#: core/kis_aboutdata.h:31
+msgid "Krita"
+msgstr "ສໍສີ"
+
+#: core/kis_aboutdata.h:33
 #, fuzzy
 msgid "KOffice image manipulation application"
 msgstr ""
 "ແອຟຟຣີເຄຊັນປັບແຕ່ງຮູບພາບ "
 "Office"
 
-#: core/kis_aboutdata.h:36
+#: core/kis_aboutdata.h:35
 msgid ""
 "(c) 1999-2004 The Krita team.\n"
 msgstr ""
@@ -2256,15 +2319,16 @@ msgstr ""
 msgid "Making fill outline..."
 msgstr ""
 
-#: core/color_strategy/kis_colorspace_alpha.cc:43
+#: core/color_strategy/kis_colorspace_alpha.cc:42
 #, fuzzy
 msgid "Alpha mask"
 msgstr "ອັນຟາ"
 
-#: core/color_strategy/kis_colorspace_alpha.cc:48
+#: core/color_strategy/kis_colorspace_alpha.cc:47
 #: modules/colorspace_cmyk/kis_strategy_colorspace_cmyka.cc:54
 #: modules/colorspace_gray/kis_strategy_colorspace_grayscale.cc:48
 #: modules/colorspace_rgb/kis_strategy_colorspace_rgb.cc:46
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:48
 #, fuzzy
 msgid "alpha"
 msgstr "ອັນຟາ"
@@ -2274,412 +2338,427 @@ msgstr "ອັນຟາ"
 msgid "Rotating Image..."
 msgstr "ປ່ຽນຊື່ຮູບພາບ..."
 
-#: core/kis_view.cc:282 core/kis_view.cc:329
+#: core/kis_view.cc:288 core/kis_view.cc:335
 #, fuzzy
 msgid "Navigator/Info/Options"
 msgstr "ການທຳງານ"
 
-#: core/kis_view.cc:283
+#: core/kis_view.cc:289
 #, fuzzy
 msgid "&Navigator/Info/Tool Options"
 msgstr "ການທຳງານ"
 
-#: core/kis_view.cc:290
+#: core/kis_view.cc:296
 #, fuzzy
 msgid "Layers/Channels"
 msgstr "ຊ້ອງ"
 
-#: core/kis_view.cc:291
+#: core/kis_view.cc:297 core/kis_view.cc:343
 #, fuzzy
 msgid "&Layers/Channels"
 msgstr "ຊ້ອງ"
 
-#: core/kis_view.cc:297 core/kis_view.cc:323
+#: core/kis_view.cc:303 core/kis_view.cc:329
 #, fuzzy
 msgid "Brush Shapes"
 msgstr "ແປງທາສີ"
 
-#: core/kis_view.cc:298
+#: core/kis_view.cc:304 core/kis_view.cc:344
 #, fuzzy
 msgid "&Shapes"
 msgstr "ຄວາມແຫລມ:"
 
-#: core/kis_view.cc:304 core/kis_view.cc:326
+#: core/kis_view.cc:310 core/kis_view.cc:332
 msgid "Fills"
 msgstr ""
 
-#: core/kis_view.cc:306
+#: core/kis_view.cc:312 core/kis_view.cc:345
 #, fuzzy
 msgid "&Fills"
 msgstr "&ຂາວ"
 
-#: core/kis_view.cc:312 core/kis_view.cc:332
+#: core/kis_view.cc:318 core/kis_view.cc:338
 #, fuzzy
 msgid "Color Manager"
 msgstr "ເຄື່ອງມືປ່ຽນສີ"
 
-#: core/kis_view.cc:313
+#: core/kis_view.cc:319
 #, fuzzy
 msgid "&Colors"
 msgstr "&ສີ"
 
-#: core/kis_view.cc:320
+#: core/kis_view.cc:326
 #, fuzzy
 msgid "Layers/Channels/Paths"
 msgstr "ຊ້ອງ"
 
-#: core/kis_view.cc:383
+#: core/kis_view.cc:341
+#, fuzzy
+msgid "&Color Manager"
+msgstr "ເຄື່ອງມືປ່ຽນສີ"
+
+#: core/kis_view.cc:342
+#, fuzzy
+msgid "&Tool Properties"
+msgstr "ຄຸນສົມບັດເຄື່ອງມື&ປະຈຸບັນ..."
+
+#: core/kis_view.cc:350
+#, fuzzy
+msgid "Tools"
+msgstr "&ແປງທາສີ"
+
+#: core/kis_view.cc:401
 msgid "Channels"
 msgstr "ຊ້ອງ"
 
-#: core/kis_view.cc:391
+#: core/kis_view.cc:409
 msgid "Brushes"
 msgstr "ແປງທາສີ"
 
-#: core/kis_view.cc:399
+#: core/kis_view.cc:417
 #, fuzzy
 msgid "Autobrush"
 msgstr "&ແປງທາສີ"
 
-#: core/kis_view.cc:404
+#: core/kis_view.cc:422
 #, fuzzy
 msgid "Text Brush"
 msgstr "ການເລືອກ"
 
-#: core/kis_view.cc:413
+#: core/kis_view.cc:431
 msgid "Patterns"
 msgstr "ລວດລາຍ"
 
-#: core/kis_view.cc:427
+#: core/kis_view.cc:445
 #, fuzzy
 msgid "Autogradient"
 msgstr "ໄລ່ລະດັບສີ"
 
-#: core/kis_view.cc:437
+#: core/kis_view.cc:455
 msgid "HSV"
 msgstr "HSV"
 
-#: core/kis_view.cc:447
+#: core/kis_view.cc:465
 msgid "Gray"
 msgstr "ລະດັບສີເທົາ"
 
-#: core/kis_view.cc:536
+#: core/kis_view.cc:557
 msgid "Image Name"
 msgstr "ຊື່ຮູບພາບ"
 
-#: core/kis_view.cc:536
+#: core/kis_view.cc:557
 msgid "Enter name:"
 msgstr "ເຕີມຊື່:"
 
-#: core/kis_view.cc:544
+#: core/kis_view.cc:565
 msgid "Image name cannot be empty."
 msgstr "ຊື່ຮູບພາບບໍ່ສາມາດວາງໄດ้້"
 
-#: core/kis_view.cc:544 core/kis_view.cc:554
+#: core/kis_view.cc:565 core/kis_view.cc:575
 msgid "Change Image Name"
 msgstr "ປ່ຽນຊື່ຮູບພາບ"
 
-#: core/kis_view.cc:554
+#: core/kis_view.cc:575
 msgid "This name is already used."
 msgstr "ຊື່ນີ້ມີຢູ່ແລ້ວ"
 
-#: core/kis_view.cc:568
+#: core/kis_view.cc:589
 msgid "Zoom %1:1"
 msgstr ""
 
-#: core/kis_view.cc:570
+#: core/kis_view.cc:591
 #, c-format
 msgid "Zoom 1:%1"
 msgstr ""
 
-#: core/kis_view.cc:589
+#: core/kis_view.cc:610
 #, fuzzy
 msgid "Selection Active"
 msgstr "ການເລືອກ"
 
-#: core/kis_view.cc:595
+#: core/kis_view.cc:616
 #, fuzzy
 msgid "No selection"
 msgstr "ລົບການເລືອກ"
 
-#: core/kis_view.cc:608
+#: core/kis_view.cc:629
 msgid "No profile"
 msgstr ""
 
-#: core/kis_view.cc:684
+#: core/kis_view.cc:705
 msgid "Reset Button"
 msgstr "reset Button"
 
-#: core/kis_view.cc:691
+#: core/kis_view.cc:712
 msgid "Import Image..."
 msgstr "ນຳເຂັ້າຮູບພາບ..."
 
-#: core/kis_view.cc:692
+#: core/kis_view.cc:713
 msgid "Export Image..."
 msgstr "ສົ່ງອອກຮູບພາບ..."
 
-#: core/kis_view.cc:693
+#: core/kis_view.cc:714
 #, fuzzy
 msgid "Image properties..."
 msgstr "ຄຸນສົມບັດເລເຢີ..."
 
-#: core/kis_view.cc:695
+#: core/kis_view.cc:716
 #, fuzzy
 msgid "Resize Image to Current Layer"
 msgstr "ລຶບເລເຢີປະຈຸບັນ"
 
-#: core/kis_view.cc:701
+#: core/kis_view.cc:722
 msgid "&Gradient Dialog..."
 msgstr "ກ່ອງການ&ໄລ່ລະດັບສີ..."
 
-#: core/kis_view.cc:704
+#: core/kis_view.cc:725
 msgid "&Add Layer..."
 msgstr "&ເພີ່ມເລເຢີ..."
 
-#: core/kis_view.cc:705
+#: core/kis_view.cc:726
 msgid "&Remove Layer"
 msgstr "&ລືບເລເຢີ"
 
-#: core/kis_view.cc:706
+#: core/kis_view.cc:727
 msgid "Duplicate Layer"
 msgstr "ເລເຢີຖັດໄປ"
 
-#: core/kis_view.cc:707
+#: core/kis_view.cc:728
 msgid "&Link/Unlink Layer"
 msgstr ""
 "&ເຊື່ອມຕໍ່/ຍົກເລີກເຊື່ອມຕໍ່"
 "ເລເຢີ..."
 
-#: core/kis_view.cc:708
+#: core/kis_view.cc:729
 msgid "&Hide/Show Layer"
 msgstr "&ເຊື່ອງ/ສະແດງເລເຢີ..."
 
-#: core/kis_view.cc:709
+#: core/kis_view.cc:730
 msgid "Raise Layer"
 msgstr "ເລເຢີຖັດໄປ"
 
-#: core/kis_view.cc:710
+#: core/kis_view.cc:731
 msgid "Lower Layer"
 msgstr "ຍ້າຍເລເຢີ"
 
-#: core/kis_view.cc:711
+#: core/kis_view.cc:732
 #, fuzzy
 msgid "Layer to Top"
 msgstr "ເລເຢີ %1"
 
-#: core/kis_view.cc:712
+#: core/kis_view.cc:733
 msgid "Layer to Bottom"
 msgstr "Layer to Button"
 
-#: core/kis_view.cc:714
+#: core/kis_view.cc:735
 msgid "I&nsert Image as Layer..."
 msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 
-#: core/kis_view.cc:715
+#: core/kis_view.cc:736
 msgid "Save Layer as Image..."
 msgstr "ບັນທຶກເລເຢີເປັນຮູບພາບ..."
 
-#: core/kis_view.cc:716
+#: core/kis_view.cc:737
 #, fuzzy
 msgid "Layer to Image"
 msgstr "ບັນທຶກເລເຢີເປັນຮູບພາບ..."
 
-#: core/kis_view.cc:720
+#: core/kis_view.cc:741
 msgid "Rotate &180"
 msgstr "ຫມຸນ &180"
 
-#: core/kis_view.cc:721
+#: core/kis_view.cc:742
 msgid "Rotate &270"
 msgstr "ຫມຸນ &270"
 
-#: core/kis_view.cc:722
+#: core/kis_view.cc:743
 msgid "Rotate &90"
 msgstr "ຫມຸນ &90"
 
-#: core/kis_view.cc:723
+#: core/kis_view.cc:744
 msgid "Rotate &Custom..."
 msgstr "&ກຳນົດການຫມຸນເອງ"
 
-#: core/kis_view.cc:724
+#: core/kis_view.cc:745
 #, fuzzy
 msgid "Mirror Along &X Axis"
 msgstr "ເຮັດພາບສະທ້ອນໃນແນວ &X"
 
-#: core/kis_view.cc:725
+#: core/kis_view.cc:746
 #, fuzzy
 msgid "Mirror Along &Y Axis"
 msgstr "ເຣັດພາບສະທ້ອນໃນແນວ &Y"
 
-#: core/kis_view.cc:728
+#: core/kis_view.cc:749
 msgid "Select Foreground Color..."
 msgstr "ສີພື້ນຫນ້າ"
 
-#: core/kis_view.cc:729
+#: core/kis_view.cc:750
 msgid "Select Background Color..."
 msgstr "ສີພື້ນຫລັງ"
 
-#: core/kis_view.cc:730
+#: core/kis_view.cc:751
 msgid "Reverse Foreground/Background Colors"
 msgstr "Reverse Foreground/Background Colors"
 
-#: core/kis_view.cc:733
+#: core/kis_view.cc:754
 #, fuzzy
 msgid "Rename Current Image..."
 msgstr "ລຶບຮູບພາບປະຈຸບັນ"
 
-#: core/kis_view.cc:734
+#: core/kis_view.cc:755
 msgid "Add New Image..."
 msgstr "ເພີ່ມຮູບພາບໃຫມ່..."
 
-#: core/kis_view.cc:735
+#: core/kis_view.cc:756
 msgid "Remove Current Image"
 msgstr "ລຶບຮູບພາບປະຈຸບັນ"
 
-#: core/kis_view.cc:736
+#: core/kis_view.cc:757
 msgid "Duplicate Image"
 msgstr "Duplicate Image"
 
-#: core/kis_image.cc:875 core/kis_view.cc:737 core/kis_view.cc:1798
-#: core/kis_view.cc:1799
+#: core/kis_image.cc:861 core/kis_view.cc:758 core/kis_view.cc:1819
+#: core/kis_view.cc:1820
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Duplicate Image"
 
-#: core/kis_view.cc:738
+#: core/kis_view.cc:759
 msgid "Merge &Visible Layers"
 msgstr "ລວມເລເຢີທີ່&ແນມເຫັນ"
 
-#: core/kis_view.cc:739
+#: core/kis_view.cc:760
 msgid "Merge &Linked Layers"
 msgstr "ູ່&ລວມເລເຢີທີ່ເຊື່ອມຕໍ່ຢູ່"
 
-#: core/kis_view.cc:740
+#: core/kis_view.cc:761
 #, fuzzy
 msgid "&Merge Layer"
 msgstr "รวมเลเยอร์"
 
-#: core/kis_view.cc:744
+#: core/kis_view.cc:765
 msgid "Show Rulers"
 msgstr ""
 
-#: core/kis_view.cc:1436
+#: core/kis_view.cc:1457
 msgid "Export Image"
 msgstr "ສົ່ງອອກຮູບພາບ..."
 
-#: core/kis_view.cc:1459 core/kis_view.cc:1520
+#: core/kis_view.cc:1480 core/kis_view.cc:1541
 msgid "No coder for this type of file."
 msgstr "No coder for this type of file."
 
-#: core/kis_view.cc:1459 core/kis_view.cc:1462 core/kis_view.cc:1466
-#: core/kis_view.cc:1469 core/kis_view.cc:1472 core/kis_view.cc:1475
-#: core/kis_view.cc:1520 core/kis_view.cc:1523 core/kis_view.cc:1527
-#: core/kis_view.cc:1530 core/kis_view.cc:1533 core/kis_view.cc:1536
+#: core/kis_view.cc:1480 core/kis_view.cc:1483 core/kis_view.cc:1487
+#: core/kis_view.cc:1490 core/kis_view.cc:1493 core/kis_view.cc:1496
+#: core/kis_view.cc:1541 core/kis_view.cc:1544 core/kis_view.cc:1548
+#: core/kis_view.cc:1551 core/kis_view.cc:1554 core/kis_view.cc:1557
 msgid "Error Saving File"
 msgstr "ການໂຫລດແຟມຜິດພາດ"
 
-#: core/kis_view.cc:1462 core/kis_view.cc:1523
+#: core/kis_view.cc:1483 core/kis_view.cc:1544
 msgid "Invalid argument."
 msgstr "Invalid argument."
 
-#: core/kis_view.cc:1466 core/kis_view.cc:1527
+#: core/kis_view.cc:1487 core/kis_view.cc:1548
 msgid "Unable to locate file."
 msgstr "ບໍ່ສາມາດດາວໂຫລດແແຟມໄດ້"
 
-#: core/kis_view.cc:1469 core/kis_view.cc:1530
+#: core/kis_view.cc:1490 core/kis_view.cc:1551
 msgid "Unable to upload file."
 msgstr "ບໍ່ສາມາດດາວໂຫລດແຟມໄດ້"
 
-#: core/kis_view.cc:1472 core/kis_view.cc:1533
+#: core/kis_view.cc:1493 core/kis_view.cc:1554
 msgid "Empty file."
 msgstr "Empty file"
 
-#: core/kis_view.cc:1475 core/kis_view.cc:1536
+#: core/kis_view.cc:1496 core/kis_view.cc:1557
 #, fuzzy
 msgid "Error saving file."
 msgstr ""
 "ການບັນທຶກທີ່ຜິດພາດการโหลด"
 "แฟ้มผิดพลาด"
 
-#: core/kis_view.cc:1504
+#: core/kis_view.cc:1525
 msgid "Export Layer"
 msgstr "ສົ່ງຣູບພາບອອກ..."
 
-#: core/kis_view.cc:1556
+#: core/kis_view.cc:1577
 msgid "Import Image"
 msgstr "ນຳຮູບພາບເຂົ້າ..."
 
-#: core/kis_view.cc:1579
+#: core/kis_view.cc:1600
 #, fuzzy, c-format
 msgid "No coder for the type of file %1."
 msgstr "No coder for this type of file."
 
-#: core/kis_view.cc:1579 core/kis_view.cc:1586 core/kis_view.cc:1590
-#: core/kis_view.cc:1594 core/kis_view.cc:1599
+#: core/kis_view.cc:1600 core/kis_view.cc:1607 core/kis_view.cc:1611
+#: core/kis_view.cc:1615 core/kis_view.cc:1620
 #, fuzzy
 msgid "Error Importing File"
 msgstr "ການດໂຫລດແຟມຜິດພາດ"
 
-#: core/kis_view.cc:1586
+#: core/kis_view.cc:1607
 #, fuzzy
 msgid "File %1 does not exist."
 msgstr "ຍັງບໍ່ມີຂໍ້ມູນຢູ່"
 
-#: core/kis_view.cc:1590
+#: core/kis_view.cc:1611
 #, fuzzy, c-format
 msgid "Unable to download file %1."
 msgstr "ບໍ່ສາມາດດາວຂໍ້ມູນໄດ້"
 
-#: core/kis_view.cc:1594
+#: core/kis_view.cc:1615
 #, fuzzy, c-format
 msgid "Empty file: %1"
 msgstr "Empty file"
 
-#: core/kis_view.cc:1599
+#: core/kis_view.cc:1620
 #, fuzzy, c-format
 msgid "Error loading file %1."
 msgstr "ການໂຫລດແຟມຜິດພາດ"
 
-#: core/kis_view.cc:1797
+#: core/kis_view.cc:1818
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: core/kis_view.cc:2327
+#: core/kis_view.cc:2364
 #, fuzzy
 msgid "Insert as New Layer"
 msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 
-#: core/kis_view.cc:2330
+#: core/kis_view.cc:2367
 #, fuzzy
 msgid "Insert as New Image"
 msgstr "ສ້າງຮູບໃຫມ່"
 
-#: core/kis_view.cc:2332
+#: core/kis_view.cc:2369
 msgid "Open in New Document"
 msgstr ""
 
-#: core/kis_view.cc:2336
+#: core/kis_view.cc:2373
 #, fuzzy
 msgid "Insert as New Layers"
 msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 
-#: core/kis_view.cc:2339
+#: core/kis_view.cc:2376
 #, fuzzy
 msgid "Insert as New Images"
 msgstr "ສ້າງຮູບໃຫມ່"
 
-#: core/kis_view.cc:2341
+#: core/kis_view.cc:2378
 msgid "Open in New Documents"
 msgstr ""
 
-#: core/kis_view.cc:2457
+#: core/kis_view.cc:2494
 msgid "Property changes"
 msgstr "ຄຸນສົມບັດ..."
 
-#: core/kis_view.cc:2495
+#: core/kis_view.cc:2532
 msgid "Could not add layer to image."
 msgstr "Could not add layer to image."
 
-#: core/kis_view.cc:2495
+#: core/kis_view.cc:2532
 #, fuzzy
 msgid "Layer Error"
 msgstr "ເລເຢີ %1"
@@ -2688,21 +2767,21 @@ msgstr "ເລເຢີ %1"
 msgid "Resize Image"
 msgstr "ລົບຮູບພາບ"
 
-#: core/kis_image.cc:222 core/kis_image.cc:294
+#: core/kis_image.cc:221 core/kis_image.cc:293
 #, c-format
 msgid "Layer %1"
 msgstr "ເລເຢີ %1"
 
-#: core/kis_image.cc:276
+#: core/kis_image.cc:275
 msgid "background"
 msgstr "ພື້ນຫລັງ"
 
-#: core/kis_image.cc:903
+#: core/kis_image.cc:889
 #, fuzzy
 msgid "Merge Visible Layers"
 msgstr "ລວມເລເຢີທີ່&ແນມເຫັນ"
 
-#: core/kis_image.cc:932 core/kis_image.cc:967
+#: core/kis_image.cc:918 core/kis_image.cc:953
 #, fuzzy
 msgid "Merge Linked Layers"
 msgstr "ູ່&ລວມເລເຢີທີ່ເຊື່ອມຕໍ່ຢູ່"
@@ -2794,7 +2873,7 @@ msgid "Loading..."
 msgstr "Loading..."
 
 #: core/builder/kis_image_magick_converter.cc:515
-#: core/builder/kis_image_magick_converter.cc:553
+#: core/builder/kis_image_magick_converter.cc:555
 #, fuzzy
 msgid "All Images"
 msgstr "ຮູບພາບ"
@@ -2848,11 +2927,6 @@ msgstr "&ເຄື່ອງມືແຕ້ມວົງຮີ"
 msgid "Tool &Ellipse"
 msgstr "&ເຄື່ອງມືແຕ້ມວົງຮີ"
 
-#: tools/kis_tool_filter.cc:50 tools/kis_tool_filter.h:71
-#, fuzzy
-msgid "Filter tool"
-msgstr "ີ&ເຄື່ອງມືເຕີມສີ"
-
 #: tools/kis_tool_colorpicker.h:68
 #, fuzzy
 msgid "Color picker"
@@ -2891,11 +2965,6 @@ msgstr "&ແປງທາສີ"
 #, fuzzy
 msgid "Tool &Airbrush"
 msgstr "&ແປງທາສີ"
-
-#: tools/kis_tool_filter.cc:96
-#, fuzzy
-msgid "Filter:"
-msgstr "&ຂາວ"
 
 #: tools/kis_tool_zoom.h:69
 #, fuzzy
@@ -2959,11 +3028,6 @@ msgstr ""
 #, fuzzy
 msgid "Threshold: "
 msgstr "ເຄື່ອງມືທາສີ"
-
-#: tools/kis_tool_fill.cc:134 tools/kis_tool_freehand.cc:218
-#, fuzzy
-msgid "Mode: "
-msgstr "ໂຫມດ:"
 
 #: tools/kis_tool_fill.cc:182
 msgid "Tool &Fill"
@@ -3129,11 +3193,6 @@ msgstr "ການເລືອກ"
 msgid "Gradient Tool"
 msgstr "ໄລ່ລະດັບສີ"
 
-#: tools/kis_tool_freehand.cc:212
-#, fuzzy
-msgid "Opacity: "
-msgstr "ລະດັບຄວາມແຈ້ງຂອງແສງ"
-
 #: tools/kis_tool_select_polygonal.cc:299
 #, fuzzy
 msgid "Tool &Polygonal Select"
@@ -3248,19 +3307,69 @@ msgid "RGB/Alpha"
 msgstr "RGB + ช่องอัลฟา"
 
 #: modules/colorspace_rgb/kis_strategy_colorspace_rgb.cc:43
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:45
 #, fuzzy
 msgid "red"
 msgstr "ແດງ"
 
 #: modules/colorspace_rgb/kis_strategy_colorspace_rgb.cc:44
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:46
 #, fuzzy
 msgid "green"
 msgstr "ຂຽວ"
 
 #: modules/colorspace_rgb/kis_strategy_colorspace_rgb.cc:45
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:47
 #, fuzzy
 msgid "blue"
 msgstr "ຟ້າ"
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:41
+msgid "Wet & Sticky"
+msgstr ""
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:52
+#, fuzzy
+msgid "hue"
+msgstr "สี"
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:53
+#, fuzzy
+msgid "saturation"
+msgstr "ความอิ่มสี"
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:54
+#, fuzzy
+msgid "lightness"
+msgstr "ทำให้สว่างขึ้นเท่านั้น"
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:55
+msgid "liquid content"
+msgstr ""
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:56
+msgid "drying rate"
+msgstr ""
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:57
+msgid "miscibility"
+msgstr ""
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:61
+msgid "gravitational direction"
+msgstr ""
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:62
+msgid "gravitational strength"
+msgstr ""
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:63
+msgid "absorbancy"
+msgstr ""
+
+#: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:64
+msgid "paint volume"
+msgstr ""
 
 #: modules/colorspace_cmyk/kis_strategy_colorspace_cmyka.cc:46
 #, fuzzy
@@ -3301,82 +3410,82 @@ msgstr "&ລະດັບສີເທົາ"
 msgid "gray"
 msgstr "ລະດັບສີເທົາ"
 
-#: plugins/variations/variations.cc:64
+#: plugins/variations/variations.cc:63
 msgid "&Variations..."
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.cc:71
+#: plugins/convolutionfilters/convolutionfilters.cc:74
 msgid "&Gaussian Blur"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.cc:74
+#: plugins/convolutionfilters/convolutionfilters.cc:77
 #, fuzzy
 msgid "&Sharpen"
 msgstr "ຄວາມແຫລມ:"
 
-#: plugins/convolutionfilters/convolutionfilters.cc:77
+#: plugins/convolutionfilters/convolutionfilters.cc:80
 msgid "&Mean Removal"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:38
+#: plugins/convolutionfilters/convolutionfilters.h:40
 msgid "Gaussian Blur"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:45
+#: plugins/convolutionfilters/convolutionfilters.h:47
 #, fuzzy
 msgid "Sharpen"
 msgstr "ຄວາມແຫລມ:"
 
-#: plugins/convolutionfilters/convolutionfilters.h:52
+#: plugins/convolutionfilters/convolutionfilters.h:54
 msgid "Mean Removal"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:59
+#: plugins/convolutionfilters/convolutionfilters.h:61
 msgid "Emboss Laplascian"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:66
+#: plugins/convolutionfilters/convolutionfilters.h:68
 msgid "Emboss in All Directions"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:73
+#: plugins/convolutionfilters/convolutionfilters.h:75
 msgid "Emboss Horizontal & Vertical"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:80
+#: plugins/convolutionfilters/convolutionfilters.h:82
 msgid "Emboss Vertical Only"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:87
+#: plugins/convolutionfilters/convolutionfilters.h:89
 msgid "Emboss Horizontal Only"
 msgstr ""
 
-#: plugins/convolutionfilters/convolutionfilters.h:94
+#: plugins/convolutionfilters/convolutionfilters.h:96
 #, fuzzy
 msgid "Emboss Diagonal"
 msgstr "ເສັ້ນໄຂວ່"
 
-#: plugins/convolutionfilters/convolutionfilters.h:101
+#: plugins/convolutionfilters/convolutionfilters.h:103
 #, fuzzy
 msgid "Top Edge Detections"
 msgstr "ລົບການເລືອກ"
 
-#: plugins/convolutionfilters/convolutionfilters.h:108
+#: plugins/convolutionfilters/convolutionfilters.h:110
 #, fuzzy
 msgid "Right Edge Detections"
 msgstr "ລົບການເລືອກ"
 
-#: plugins/convolutionfilters/convolutionfilters.h:115
+#: plugins/convolutionfilters/convolutionfilters.h:117
 #, fuzzy
 msgid "Bottom Edge Detections"
 msgstr "ລົບການເລືອກ"
 
-#: plugins/convolutionfilters/convolutionfilters.h:122
+#: plugins/convolutionfilters/convolutionfilters.h:124
 #, fuzzy
 msgid "Left Edge Detections"
 msgstr "ລົບການເລືອກ"
 
-#: plugins/tool_crop/kis_tool_crop.h:96
+#: plugins/tool_crop/kis_tool_crop.h:94
 #, fuzzy
 msgid "Crop tool"
 msgstr "ີ&ເຄື່ອງມືເຕີມສີ"
@@ -3404,33 +3513,47 @@ msgstr ""
 msgid "Convert current layer from"
 msgstr "ຢູ່ລຸ່ມເລເຢີປະຈຸບັນ"
 
-#: plugins/oilpaintfilter/kis_oilpaint_filter.cc:105
+#: plugins/oilpaintfilter/kis_oilpaint_filter.cc:106
 #: plugins/raindropsfilter/kis_raindrops_filter.cc:110
 msgid "Applying oilpaint filter..."
+msgstr ""
+
+#: plugins/raindropsfilter/kis_raindrops_filter.cc:425
+#, fuzzy
+msgid "Drop Size"
+msgstr "&ຮູບພາບ"
+
+#: plugins/raindropsfilter/kis_raindrops_filter.cc:426
+#, fuzzy
+msgid "Number"
+msgstr "ຊື່:"
+
+#: plugins/raindropsfilter/kis_raindrops_filter.cc:427
+msgid "Fish eyes"
 msgstr ""
 
 #: plugins/performancetest/dlg_perftest.cc:43
 msgid "Performance test"
 msgstr ""
 
-#: plugins/performancetest/perftest.cc:81
+#: plugins/performancetest/perftest.cc:80
 msgid "&Performance Test..."
 msgstr ""
 
-#: plugins/performancetest/perftest.cc:103
+#: plugins/performancetest/perftest.cc:102
 msgid "Performance Test"
 msgstr ""
 
-#: plugins/kiskjsembed/kis_kjsembed.cc:95
+#: plugins/kiskjsembed/kis_kjsembed.cc:97
 msgid "&Script console"
 msgstr ""
 
-#: plugins/kiskjsembed/kis_kjsembed.cc:103
+#: plugins/kiskjsembed/kis_kjsembed.cc:105
 #, fuzzy
 msgid "&Load Script..."
 msgstr "Loading..."
 
-#: plugins/kiskjsembed/objects/kis_paint_device_object.cc:55
+#: plugins/kiskjsembed/objects/kis_paint_device_object.cc:57
 #, c-format
 msgid "Method requires at least 2 arguments, received %1"
 msgstr ""
@@ -3439,51 +3562,60 @@ msgstr ""
 msgid "Histogram"
 msgstr ""
 
-#: plugins/histogram/histogram.cc:68
+#: plugins/histogram/histogram.cc:67
 msgid "&Histogram..."
 msgstr ""
 
-#: plugins/colorsfilters/colorsfilters.h:35
+#: plugins/colorsfilters/colorsfilters.h:37
 #, fuzzy
 msgid "Desaturate"
 msgstr "ความอิ่มสี"
 
-#: plugins/colorsfilters/colorsfilters.h:43
+#: plugins/colorsfilters/colorsfilters.h:45
 #, fuzzy
 msgid "Gamma Adjustment"
 msgstr "ໂຫມດສີ"
 
-#: plugins/colorsfilters/colorsfilters.h:51
+#: plugins/colorsfilters/colorsfilters.h:53
 #, fuzzy
 msgid "Color Adjustment"
 msgstr "ໂຫມດສີ"
 
-#: plugins/colorsfilters/colorsfilters.h:59
+#: plugins/colorsfilters/colorsfilters.h:61
 #, fuzzy
 msgid "Auto Contrast"
 msgstr "ມຸມ:"
 
-#: plugins/colorsfilters/colorsfilters.cc:73
+#: plugins/colorsfilters/colorsfilters.cc:75
 msgid "&Brightness / Contrast..."
 msgstr ""
 
-#: plugins/colorsfilters/colorsfilters.cc:75
+#: plugins/colorsfilters/colorsfilters.cc:77
 #, fuzzy
 msgid "&Auto Contrast"
 msgstr "ມຸມ:"
 
-#: plugins/colorsfilters/colorsfilters.cc:77
+#: plugins/colorsfilters/colorsfilters.cc:79
 msgid "&Gamma Correction..."
 msgstr ""
 
-#: plugins/colorsfilters/colorsfilters.cc:79
+#: plugins/colorsfilters/colorsfilters.cc:81
 msgid "&Color Adjustment..."
 msgstr ""
 
-#: plugins/colorsfilters/colorsfilters.cc:81
+#: plugins/colorsfilters/colorsfilters.cc:83
 #, fuzzy
 msgid "&Desaturate"
 msgstr "ความอิ่มสี"
+
+#: plugins/colorsfilters/kis_brightness_contrast_filter.cc:45
+msgid "Brightness"
+msgstr ""
+
+#: plugins/colorsfilters/kis_brightness_contrast_filter.cc:46
+#, fuzzy
+msgid "Contrast"
+msgstr "ມຸມ:"
 
 #: plugins/shearimage/shearimage.cc:66
 #, fuzzy
@@ -3495,27 +3627,27 @@ msgstr "ປ່ຽນຊື່ຮູບພາບ..."
 msgid "&Shear Layer..."
 msgstr "ເພີ່ມເລເຢີ..."
 
-#: plugins/imagesize/imagesize.cc:67
+#: plugins/imagesize/imagesize.cc:66
 #, fuzzy
 msgid "&Image Size..."
 msgstr "&ຮູບພາບ"
 
-#: plugins/imagesize/imagesize.cc:68 plugins/imagesize/imagesize.cc:76
+#: plugins/imagesize/imagesize.cc:67 plugins/imagesize/imagesize.cc:75
 #, fuzzy
 msgid "&Layer Size..."
 msgstr "&ຮູບພາບ"
 
-#: plugins/imagesize/imagesize.cc:131
+#: plugins/imagesize/imagesize.cc:130
 #, fuzzy
 msgid "Layer Size"
 msgstr "&ຮູບພາບ"
 
-#: plugins/imagesize/imagesize.cc:174
+#: plugins/imagesize/imagesize.cc:173
 #, fuzzy
 msgid "Scale Selection"
 msgstr "ການເລືອກ"
 
-#: plugins/colorrange/colorrange.cc:66
+#: plugins/colorrange/colorrange.cc:65
 #, fuzzy
 msgid "&Color Range..."
 msgstr "ເຄື່ອງມືປ່ຽນສີ"
@@ -3536,9 +3668,34 @@ msgstr "&ລືບເລເຢີ"
 msgid "Rotate Image"
 msgstr "ລຶບຮູບພາບ"
 
-#: plugins/embossfilter/kis_emboss_filter.cc:104
+#: plugins/oilpaintfilter/kis_oilpaint_filter.cc:232
+#, fuzzy
+msgid "Brush Size"
+msgstr "ແປງທາສີ"
+
+#: plugins/oilpaintfilter/kis_oilpaint_filter.cc:233
+msgid "Smooth"
+msgstr ""
+
+#: plugins/tool_filter/kis_tool_filter.cc:50
+#: plugins/tool_filter/kis_tool_filter.h:71
+#, fuzzy
+msgid "Filter tool"
+msgstr "ີ&ເຄື່ອງມືເຕີມສີ"
+
+#: plugins/tool_filter/kis_tool_filter.cc:96
+#, fuzzy
+msgid "Filter:"
+msgstr "&ຂາວ"
+
+#: plugins/embossfilter/kis_emboss_filter.cc:105
 msgid "Applying emboss filter..."
 msgstr ""
+
+#: plugins/embossfilter/kis_emboss_filter.cc:188
+#, fuzzy
+msgid "Depth"
+msgstr "ເຮັດຊຳ້ໄປເລື້ອຍຯ:"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -3596,10 +3753,6 @@ msgstr ""
 
 #~ msgid "Resize Layer to Image"
 #~ msgstr "ບັນທຶກເລເຢີເປັນຮູບພາບ..."
-
-#, fuzzy
-#~ msgid "Oil Paint"
-#~ msgstr "ແຕ້ມຮູບ"
 
 #~ msgid "FG to BG (RGB)"
 #~ msgstr "ພື້ນໜ້າເປັນພື້ນຫລັງ (RGB)"
@@ -3747,14 +3900,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "History/Actions"
 #~ msgstr "ประวัติการใช้"
-
-#, fuzzy
-#~ msgid "&Color Manager"
-#~ msgstr "ເຄື່ອງມືປ່ຽນສີ"
-
-#, fuzzy
-#~ msgid "&Tool Properties"
-#~ msgstr "ຄຸນສົມບັດເຄື່ອງມື&ປະຈຸບັນ..."
 
 #, fuzzy
 #~ msgid "&Normal"
@@ -3947,9 +4092,6 @@ msgstr ""
 
 #~ msgid "Paint with pattern"
 #~ msgstr "ທາສີໂດຍໃຊ້ລວດລາຍ"
-
-#~ msgid "Paint with gradient"
-#~ msgstr "ທາສີໂດຍການໄລ່ລະດັບສີ"
 
 #~ msgid "Blend with current gradient"
 #~ msgstr "ປະສົມກາໄລ່ລະດັບສີປະຈຸບັນ"
