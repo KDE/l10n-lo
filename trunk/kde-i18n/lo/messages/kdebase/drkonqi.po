@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2002-09-24 02:59+0200\n"
+"POT-Creation-Date: 2003-12-09 01:30+0100\n"
 "PO-Revision-Date: 2003-01-13 12:59+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,11 +14,83 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "othong"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "sheshofu@hotmail.com"
+
+#: backtrace.cpp:85
+msgid "Could not generate a backtrace as the debugger '%1' was not found."
+msgstr ""
+
+#: debugger.cpp:67
+msgid "C&opy"
+msgstr "ຄັດລອກ"
+
+#: debugger.cpp:84
+msgid "Done."
+msgstr "ຮງບຮ້ອບແລ້ວ"
+
+#: debugger.cpp:103
+#, c-format
+msgid "Backtrace saved to %1"
+msgstr ""
+
+#: debugger.cpp:107
+msgid "Can't create a file to save backtrace to"
+msgstr ""
+
+#: debugger.cpp:112
+msgid "Select Filename"
+msgstr "ເລຶ່ອກຊື່ແຟ້ມ"
+
+#: debugger.cpp:124
+msgid "Can't open file %1 for writing"
+msgstr ""
+"ບໍ່ສາທາດເປີດແຟ້ມ "
+"%1ເພຶ່ອຂງນລົງໄປໄດ້"
+
+#: debugger.cpp:132
+msgid "Unable to create backtrace."
+msgstr ""
+"ບໍ່ສາມາດສ້າງການທໍາງານບ້ອນ"
+"ຫລັງໄດ້"
+
+#: debugger.cpp:137
+msgid "Loading backtrace..."
+msgstr ""
+"ເອີ້ນຍັນທຶກການທໍາງານຍ້ອນຫ"
+"ລັງ..."
+
+#: debugger.cpp:155
+msgid "Loading symbols..."
+msgstr "ກໍາລັງໂຫລດສັນບາລັກ..."
+
+#: drbugreport.cpp:55
+msgid "You have to edit the description before the report can be sent."
+msgstr ""
+"ທ່ານຕ້ອງແກ້ໄຂຄໍ່ອະທິບາຍແລ"
+"ະຮາຍລະອງດກ່ອນທີ່ຈະສາມາດສົ"
+"່ງຮາຍງານໄດ້"
+
+#: krashconf.cpp:76
+msgid "unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
+
 #: main.cpp:44
 msgid "KDE Crash Handler gives the user feedback if a program crashed."
 msgstr ""
-"ເຄື່ອງມືດັກຈັບຄວາມລົ້ມເລວໃນການທໍາງານບົນ KDE "
-"ເພຶ່ອໃຫ້ຜູ້ໃຊ້ຣາຍງານກັບຫາກໂປຣແກມທໍາງານລົ້ມເລວ"
+"ເຄື່ອງມືດັກຈັບຄວາມລົ້ມເລວ"
+"ໃນການທໍາງານບົນ KDE "
+"ເພຶ່ອໃຫ້ຜູ້ໃຊ້ຣາຍງານກັບຫາ"
+"ກໂປຣແກມທໍາງານລົ້ມເລວ"
 
 #: main.cpp:48
 msgid "The signal number that was caught"
@@ -54,98 +126,58 @@ msgstr "ຊຶ່ຂອງໂປຣແກມ"
 
 #: main.cpp:56
 msgid "The program was started by kdeinit"
-msgstr "ໂປຣແກມຖຶກເອິ້ນໃຫ້ທໍາງານໂດຍ kdeinit"
+msgstr ""
+"ໂປຣແກມຖຶກເອິ້ນໃຫ້ທໍາງານໂດ"
+"ຍ kdeinit"
 
-#: main.cpp:70
+#: main.cpp:57
+msgid "Disable arbitrary disk access"
+msgstr ""
+
+#: main.cpp:71
 msgid "The KDE Crash Handler"
-msgstr "ເຄຶ່ອງມືດັກຈັບຄວາມລົ້ມເລວບົນ KDE"
-
-#: debugger.cpp:66
-msgid "C&opy"
-msgstr "ຄັດລອກ"
-
-#: debugger.cpp:83
-msgid "Done."
-msgstr "ຮງບຮ້ອບແລ້ວ"
-
-#: debugger.cpp:96
-msgid "Select Filename"
-msgstr "ເລຶ່ອກຊື່ແຟ້ມ"
-
-#: debugger.cpp:105
-msgid "Can't open file %1 for writing"
-msgstr "ບໍ່ສາທາດເປີດແຟ້ມ %1ເພຶ່ອຂງນລົງໄປໄດ້"
-
-#: debugger.cpp:112
-msgid "Unable to create backtrace."
-msgstr "ບໍ່ສາມາດສ້າງການທໍາງານບ້ອນຫລັງໄດ້"
-
-#: debugger.cpp:117
-msgid "Loading backtrace..."
-msgstr "ເອີ້ນຍັນທຶກການທໍາງານຍ້ອນຫລັງ..."
-
-#: debugger.cpp:134
-msgid "Loading symbols..."
-msgstr "ກໍາລັງໂຫລດສັນບາລັກ..."
-
-#: krashconf.cpp:61
-msgid "unknown"
-msgstr "ບໍ່ຮູ້ຈັກ"
-
-#: drbugreport.cpp:55
-msgid "You have to edit the description before the report can be sent."
 msgstr ""
-"ທ່ານຕ້ອງແກ້ໄຂຄໍ່ອະທິບາຍແລະຮາຍລະອງດ"
-"ກ່ອນທີ່ຈະສາມາດສົ່ງຮາຍງານໄດ້"
+"ເຄຶ່ອງມືດັກຈັບຄວາມລົ້ມເລວ"
+"ບົນ KDE"
 
-#: backtrace.cpp:84
-msgid ""
-"%1 not found. Check if it is installed -- you need it to generate the "
-"backtrace.\n"
-"If you have another debugger, contact kde-devel@kde.org for help on how to "
-"set it up."
-msgstr ""
-"ບໍ່ພົບ %1 "
-"ໂປດກວດສອບວາ່ຫາກມັນຖືກຕິດຕັ້ງແລ້ວ "
-"ທ່ານຕ້ອງໃຊ້ມັນໃນການສາ້ງການທໍາງານຍ້ອນຫັລງ\n"
-"ຫຶລຖ້າທ່ານມີເຄຶ່ອງມືດີບກໍ່ຕິດຕໍ່ kde-devel@kde.org "
-"ເພື່ອຊ່ວຍເຫຶລອການຕິດຕັ້ງມັນ"
-
-#: toplevel.cpp:60
+#: toplevel.cpp:61
 msgid "&Bug report"
 msgstr "ຮາຍງານຂໍ້ຜິດພາດ"
 
-#: toplevel.cpp:61
+#: toplevel.cpp:62
 msgid "&Debugger"
 msgstr "ເຄື່ອງມືດີບັກ"
 
-#: toplevel.cpp:65
+#: toplevel.cpp:66
 msgid "&General"
 msgstr "ທົ່ວໄປ"
 
-#: toplevel.cpp:80
+#: toplevel.cpp:81
 msgid "&Backtrace"
 msgstr "ຕິດຕາມຍ້ອນຫລັງ"
 
-#: toplevel.cpp:99
+#: toplevel.cpp:105
 msgid "<p><b>Short description</b></p><p>%1</p>"
 msgstr "<p><b>ຮາຍລະອງດຫຍໍ້</b></p><p>%1</p>"
 
-#: toplevel.cpp:103
+#: toplevel.cpp:109
 msgid "<p><b>What is this?</b></p><p>%1</p>"
 msgstr "<p><b>ນີ້ແມ່ນຫຍັງ?</b></p><p>%1</p>"
 
-#: toplevel.cpp:107
+#: toplevel.cpp:113
 msgid "<p><b>What can I do?</b></p><p>%1</p>"
-msgstr "<p><b>ຂ້ອຍສາມາດເຮັດຫຍັງໄດ້ແດ່?</b></p><p>%1</p>"
+msgstr ""
+"<p><b>"
+"ຂ້ອຍສາມາດເຮັດຫຍັງໄດ້ແດ່?</b>"
+"</p><p>%1</p>"
 
-#: toplevel.cpp:112
+#: toplevel.cpp:118
 msgid "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
 msgstr ""
 "<p><b>ໂປຣແກມທໍາງານລົ້ມເລວ</b></p>"
 "<p>ໂປຣແກມ %appname ຢຸດທໍາງານ</p>"
 
-#: toplevel.cpp:130
+#: toplevel.cpp:137
 msgid ""
 "<p>Do you want to generate a backtrace? This will help the developers to "
 "figure out what went wrong.</p>\n"
@@ -154,36 +186,45 @@ msgid ""
 "bug and information on how to reproduce it. It is not possible to fix the "
 "bug without a proper description.</b></p>"
 msgstr ""
-"້<p>ທ່ານຕ້ອງການສາ້ງການທໍາງານຍ້ອນຫລັງຫຶລບໍ່?ນີ້ແມ່ນການຊ່ວຍຜູ້ພັດທະນາແກໄຂບ່ອນທີ່ມີສິ່ງຜີດພາດ "
-"ຂື້ນ</p>\n"
-"<p>ມັນອາດຈະໃຊ້ເວລາຫລາຍບົນເຄື່ອງທີ່ມີຄວາມໄວບໍ່ຫລາຍ</p>"
+"້"
+"<p>ທ່ານຕ້ອງການສາ້ງການທໍາງານ"
+"ຍ້ອນຫລັງຫຶລບໍ່?ນີ້ແມ່ນການຊ"
+"່ວຍຜູ້ພັດທະນາແກໄຂບ່ອນທີ່ມ"
+"ີສິ່ງຜີດພາດ ຂື້ນ</p>\n"
+"<p>ມັນອາດຈະໃຊ້ເວລາຫລາຍບົນເຄ"
+"ື່ອງທີ່ມີຄວາມໄວບໍ່ຫລາຍ</p>"
 "<p><b>ຂໍ້ຄວນຈຳ: "
 "ການທຳງານຍ້ອນຫລັງ "
-"ບໍ່ໄດ້ມີການໃຫ້ຮາຍລະອງດຂອງຄວາມຜິດພາດແແລະຂໍ້ມູນທີ່ຈະໃໍ້ໍ້ຊ້ສ້າງຄວາມ"
-"ຜິດພາດຂື້ນມາໃຫມ່ທີ່ຄົບຖ້ວນຊື່ງມັນເປັນໄປບໍ່ໄດ້ "
-"ທີ່ຈະແກ້ໄຂຄວາມຜິດພາດໂດຍປາດສະຈາກຂໍ້ມູນທີ່ຄົບຖ້ວນ</b></p>"
+"ບໍ່ໄດ້ມີການໃຫ້ຮາຍລະອງດຂອງ"
+"ຄວາມຜິດພາດແແລະຂໍ້ມູນທີ່ຈະ"
+"ໃໍ້ໍ້ຊ້ສ້າງຄວາມຜິດພາດຂື້ນ"
+"ມາໃຫມ່ທີ່ຄົບຖ້ວນຊື່ງມັນເປ"
+"ັນໄປບໍ່ໄດ້ "
+"ທີ່ຈະແກ້ໄຂຄວາມຜິດພາດໂດຍປາ"
+"ດສະຈາກຂໍ້ມູນທີ່ຄົບຖ້ວນ</b></p>"
 
-#: toplevel.cpp:142
+#: toplevel.cpp:149
 msgid "Include Backtrace"
 msgstr "ລວມການທຳງານຍ້ອນຫລັງ"
 
-#: toplevel.cpp:199
+#: toplevel.cpp:217
 msgid "It was not possible to generate a backtrace."
-msgstr "ບໍ່ມີທາງທີ່ຈະສ້່ງການຕິດຕາມການທຳງານຍ້ອນຫລັງ"
+msgstr ""
+"ບໍ່ມີທາງທີ່ຈະສ້່ງການຕິດຕາ"
+"ມການທຳງານຍ້ອນຫລັງ"
 
-#: toplevel.cpp:200
-msgid "Backtrace not Possible"
-msgstr "ການຕິດຕາມຍ້ອນຫລັງບໍ່ສາມາດເຮັດໄດ້"
+#: toplevel.cpp:218
+#, fuzzy
+msgid "Backtrace Not Possible"
+msgstr ""
+"ການຕິດຕາມຍ້ອນຫລັງບໍ່ສາມາດ"
+"ເຮັດໄດ້"
 
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "othong"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "sheshofu@hotmail.com"
-
+#~ msgid ""
+#~ "%1 not found. Check if it is installed -- you need it to generate the "
+#~ "backtrace.\n"
+#~ "If you have another debugger, contact kde-devel@kde.org for help on how "
+#~ "to set it up."
+#~ msgstr ""
+#~ "ບໍ່ພົບ %1 ໂປດກວດສອບວາ່ຫາກມັນຖືກຕິດຕັ້ງແລ້ວ ທ່ານຕ້ອງໃຊ້ມັນໃນການສາ້ງການທໍາງານຍ້ອນຫັລງ\n"
+#~ "ຫຶລຖ້າທ່ານມີເຄຶ່ອງມືດີບກໍ່ຕິດຕໍ່ kde-devel@kde.org ເພື່ອຊ່ວຍເຫຶລອການຕິດຕັ້ງມັນ"
