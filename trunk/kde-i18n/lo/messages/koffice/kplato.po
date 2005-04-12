@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-02-17 01:25+0100\n"
+"POT-Creation-Date: 2005-04-12 18:20+0200\n"
 "PO-Revision-Date: 2003-01-18 11:31+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,25 +14,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#. i18n: file kplato.rc line 40
+#. i18n: file kplato.rc line 44
 #: rc.cpp:12
 #, no-c-format
 msgid "&Project"
 msgstr "&ໂຄງການ"
 
-#. i18n: file kplato.rc line 48
+#. i18n: file kplato.rc line 52
 #: rc.cpp:15
 #, no-c-format
 msgid "&Reports"
 msgstr ""
 
-#. i18n: file kplato.rc line 68
+#. i18n: file kplato.rc line 72
 #: rc.cpp:24
 #, no-c-format
 msgid "Project"
 msgstr "ໂຄງການ"
 
-#. i18n: file kplato.rc line 84
+#. i18n: file kplato.rc line 88
 #: rc.cpp:27
 #, no-c-format
 msgid "Report"
@@ -41,7 +41,7 @@ msgstr ""
 #. i18n: file kptconfigbehaviorpanelbase.ui line 25
 #: rc.cpp:30
 #, no-c-format
-msgid "DateTime Usage"
+msgid "Date/Time Usage"
 msgstr ""
 
 #. i18n: file kptconfigbehaviorpanelbase.ui line 36
@@ -105,7 +105,7 @@ msgid "0"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 137
-#: kpttaskprogresspanel.cc:58 kpttaskprogresspanel.cc:64 rc.cpp:64
+#: rc.cpp:64
 #, no-c-format
 msgid "d"
 msgstr ""
@@ -123,13 +123,13 @@ msgid "00"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 187
-#: kpttaskprogresspanel.cc:59 kpttaskprogresspanel.cc:65 rc.cpp:73
+#: rc.cpp:73
 #, no-c-format
 msgid "h"
 msgstr ""
 
 #. i18n: file kptdurationwidget.ui line 226
-#: kpttaskprogresspanel.cc:60 kpttaskprogresspanel.cc:66 rc.cpp:79
+#: rc.cpp:79
 #, no-c-format
 msgid "m"
 msgstr ""
@@ -183,21 +183,21 @@ msgid "KPTProjectPanelBase"
 msgstr "Resource name:"
 
 #. i18n: file kptmainprojectpanelbase.ui line 42
-#: rc.cpp:115
+#: rc.cpp:115 rc.cpp:154
 #, fuzzy, no-c-format
-msgid "Project n&ame"
+msgid "Project n&ame:"
 msgstr "ຊື່ໂຄງການ:"
 
 #. i18n: file kptmainprojectpanelbase.ui line 53
 #: rc.cpp:118
 #, fuzzy, no-c-format
-msgid "Project &id"
+msgid "Project &id:"
 msgstr "ໂຄງການ"
 
 #. i18n: file kptmainprojectpanelbase.ui line 64
-#: rc.cpp:121
+#: rc.cpp:121 rc.cpp:151
 #, fuzzy, no-c-format
-msgid "Project &leader"
+msgid "Project &leader:"
 msgstr "ຫົວຫມ້າໂຄງການ:"
 
 #. i18n: file kptmainprojectpanelbase.ui line 101
@@ -215,17 +215,17 @@ msgstr ""
 #. i18n: file kptmainprojectpanelbase.ui line 164
 #: rc.cpp:131
 #, no-c-format
-msgid "Start date"
+msgid "Start date:"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 182
 #: rc.cpp:134
 #, no-c-format
-msgid "End date"
+msgid "End date:"
 msgstr ""
 
 #. i18n: file kptmainprojectpanelbase.ui line 236
-#: rc.cpp:141 rc.cpp:190 rc.cpp:318
+#: rc.cpp:141 rc.cpp:190 rc.cpp:321
 #, fuzzy, no-c-format
 msgid "&Project notes and summary:"
 msgstr "ຫົວຫມ້າໂຄງການ:"
@@ -243,18 +243,6 @@ msgid ""
 "Give a name to the project to identify it. Example can be 'rewrite explorer' "
 "or 'housing project C2'"
 msgstr ""
-
-#. i18n: file kptprojectdialogbase.ui line 58
-#: rc.cpp:151
-#, fuzzy, no-c-format
-msgid "Project &leader:"
-msgstr "ຫົວຫມ້າໂຄງການ:"
-
-#. i18n: file kptprojectdialogbase.ui line 74
-#: rc.cpp:154
-#, fuzzy, no-c-format
-msgid "Project n&ame:"
-msgstr "ຊື່ໂຄງການ:"
 
 #. i18n: file kptprojectdialogbase.ui line 98
 #: rc.cpp:163
@@ -287,7 +275,7 @@ msgid "Finish Not Later Then"
 msgstr ""
 
 #. i18n: file kptprojectdialogbase.ui line 127
-#: rc.cpp:178
+#: rc.cpp:178 rc.cpp:285
 #, no-c-format
 msgid "Must Start On"
 msgstr ""
@@ -316,546 +304,540 @@ msgstr ""
 msgid "KPTTaskAppointmentsView"
 msgstr ""
 
-#. i18n: file kpttaskappointmentsview.ui line 57
-#: rc.cpp:196
+#. i18n: file kpttaskappointmentsview.ui line 35
+#: rc.cpp:196 rc.cpp:259 rc.cpp:413
 #, no-c-format
-msgid "&Appointments"
+msgid "Name:"
 msgstr ""
 
-#. i18n: file kpttaskappointmentsview.ui line 69
-#: rc.cpp:199 rc.cpp:354 rc.cpp:455
-#, fuzzy, no-c-format
-msgid "Resource"
-msgstr "Resources"
+#. i18n: file kpttaskappointmentsview.ui line 54
+#: rc.cpp:199
+#, no-c-format
+msgid "Cut off date:"
+msgstr ""
 
 #. i18n: file kpttaskappointmentsview.ui line 80
-#: kptresourceview.cc:73 rc.cpp:202
-#, no-c-format
-msgid "Type"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 91
-#: kptresourceview.cc:90 rc.cpp:205
-#, no-c-format
-msgid "Start Date"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 102
-#: kptresourceview.cc:91 rc.cpp:208
-#, no-c-format
-msgid "End Date"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 113
-#: kptresourceview.cc:92 rc.cpp:211 rc.cpp:270
+#: rc.cpp:202 rc.cpp:244 rc.cpp:273
 #, no-c-format
 msgid "Effort"
 msgstr ""
 
-#. i18n: file kpttaskappointmentsview.ui line 124
-#: kptresourceview.cc:75 rc.cpp:214
+#. i18n: file kpttaskappointmentsview.ui line 91
+#: rc.cpp:205 rc.cpp:223
+#, no-c-format
+msgid "Planned:"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 110
+#: rc.cpp:208 rc.cpp:220
+#, no-c-format
+msgid "Actual:"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 137
+#: rc.cpp:211 rc.cpp:226
+#, no-c-format
+msgid "Total:"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 148
+#: rc.cpp:214 rc.cpp:229
+#, no-c-format
+msgid "Performance:"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 172
+#: rc.cpp:217 rc.cpp:445
+#, no-c-format
+msgid "Cost"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 264
+#: rc.cpp:232 rc.cpp:369 rc.cpp:470
+#, fuzzy, no-c-format
+msgid "Resource"
+msgstr "Resources"
+
+#. i18n: file kpttaskappointmentsview.ui line 275
+#: kptresourceview.cc:87 rc.cpp:235
+#, no-c-format
+msgid "Type"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 286
+#: rc.cpp:238
+#, no-c-format
+msgid "Start Date"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 297
+#: rc.cpp:241
+#, no-c-format
+msgid "End Date"
+msgstr ""
+
+#. i18n: file kpttaskappointmentsview.ui line 319
+#: kptresourceview.cc:89 rc.cpp:247
 #, no-c-format
 msgid "Normal Rate"
 msgstr ""
 
-#. i18n: file kpttaskappointmentsview.ui line 135
-#: kptresourceview.cc:77 rc.cpp:217
+#. i18n: file kpttaskappointmentsview.ui line 330
+#: kptresourceview.cc:91 rc.cpp:250
 #, no-c-format
 msgid "Overtime Rate"
 msgstr ""
 
-#. i18n: file kpttaskappointmentsview.ui line 146
-#: kptresourceview.cc:79 rc.cpp:220
+#. i18n: file kpttaskappointmentsview.ui line 341
+#: kptresourceview.cc:93 rc.cpp:253
 #, no-c-format
 msgid "Fixed Cost"
 msgstr ""
 
-#. i18n: file kpttaskappointmentsview.ui line 183
-#: rc.cpp:223
-#, fuzzy, no-c-format
-msgid "Task name:"
-msgstr "ຊື່ງານ:"
-
-#. i18n: file kpttaskappointmentsview.ui line 194
-#: rc.cpp:226
-#, no-c-format
-msgid "Total planned work:"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 205
-#: rc.cpp:229
-#, no-c-format
-msgid "Completion:"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 219
-#: rc.cpp:232 rc.cpp:306 rc.cpp:312 rc.cpp:427
-#, no-c-format
-msgid "%"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 240
-#: rc.cpp:235 rc.cpp:244
-#, fuzzy, no-c-format
-msgid "Deviation:"
-msgstr "ລາຍລະອຽດ:"
-
-#. i18n: file kpttaskappointmentsview.ui line 254
-#: rc.cpp:238
-#, no-c-format
-msgid "Total planned cost:"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 270
-#: rc.cpp:241
-#, no-c-format
-msgid "Responsible:"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 292
-#: rc.cpp:247
-#, no-c-format
-msgid "Work to date:"
-msgstr ""
-
-#. i18n: file kpttaskappointmentsview.ui line 303
-#: rc.cpp:250
-#, no-c-format
-msgid "Cost to date:"
-msgstr ""
-
 #. i18n: file kpttaskgeneralpanelbase.ui line 17
-#: rc.cpp:253
+#: rc.cpp:256
 #, fuzzy, no-c-format
 msgid "KPTTaskGeneralPanelBase"
 msgstr "Resource name:"
 
-#. i18n: file kpttaskgeneralpanelbase.ui line 50
-#: kptresourceuseview.cc:68 kptresourceview.cc:72 rc.cpp:256 rc.cpp:398
-#, no-c-format
-msgid "Name"
-msgstr ""
-
 #. i18n: file kpttaskgeneralpanelbase.ui line 61
-#: rc.cpp:259
+#: rc.cpp:262
 #, fuzzy, no-c-format
-msgid "Task id"
+msgid "Task id:"
 msgstr "ເພີ້ນງານ..."
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 100
-#: rc.cpp:262
+#: rc.cpp:265
 #, no-c-format
-msgid "Responsible"
+msgid "Responsible:"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 116
-#: rc.cpp:265 rc.cpp:392
+#: rc.cpp:268 rc.cpp:407
 #, no-c-format
 msgid "Choose..."
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 150
-#: rc.cpp:273
+#: rc.cpp:276
 #, fuzzy, no-c-format
 msgid "Duration"
 msgstr "ລາຍລະອຽດ:"
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 183
-#: rc.cpp:276
+#: rc.cpp:279
 #, no-c-format
-msgid "As soon as possible"
+msgid "As Soon as Possible"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 188
-#: rc.cpp:279
-#, no-c-format
-msgid "As late as possible"
-msgstr ""
-
-#. i18n: file kpttaskgeneralpanelbase.ui line 193
 #: rc.cpp:282
 #, no-c-format
-msgid "Must start on"
+msgid "As Late as Possible"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 198
-#: rc.cpp:285
+#: rc.cpp:288
 #, no-c-format
-msgid "Must finish on"
+msgid "Must Finish On"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 203
-#: rc.cpp:288
+#: rc.cpp:291
 #, no-c-format
-msgid "Start not earlier than"
+msgid "Start Not Earlier Than"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 208
-#: rc.cpp:291
+#: rc.cpp:294
 #, no-c-format
-msgid "Finish not later than"
+msgid "Finish Not Later Than"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 213
-#: rc.cpp:294
+#: rc.cpp:297
 #, no-c-format
-msgid "Fixed interval"
+msgid "Fixed Interval"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 225
-#: rc.cpp:297
+#: rc.cpp:300
 #, no-c-format
-msgid "Schedule"
+msgid "Schedule:"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 236
-#: rc.cpp:300
+#: rc.cpp:303
 #, no-c-format
-msgid "Estimate"
+msgid "Estimate:"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 356
-#: rc.cpp:303
+#: rc.cpp:306
 #, no-c-format
-msgid "Optimistic"
+msgid "Optimistic:"
+msgstr ""
+
+#. i18n: file kpttaskgeneralpanelbase.ui line 367
+#: rc.cpp:309 rc.cpp:315 rc.cpp:442
+#, no-c-format
+msgid "%"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 391
-#: rc.cpp:309
+#: rc.cpp:312
 #, no-c-format
-msgid "Pessimistic"
+msgid "Pessimistic:"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 424
-#: rc.cpp:315
+#: rc.cpp:318
 #, no-c-format
-msgid "Note"
+msgid "Note:"
 msgstr ""
 
-#. i18n: file kpttaskprogresspanelbase.ui line 57
-#: rc.cpp:321
+#. i18n: file kpttaskprogresspanelbase.ui line 63
+#: rc.cpp:324
 #, no-c-format
-msgid "Started"
+msgid "Started:"
 msgstr ""
 
-#. i18n: file kpttaskprogresspanelbase.ui line 68
-#: rc.cpp:325
+#. i18n: file kpttaskprogresspanelbase.ui line 74
+#: rc.cpp:328
 #, no-c-format
-msgid "Finished"
+msgid "Finished:"
 msgstr ""
 
-#. i18n: file kpttaskprogresspanelbase.ui line 113
-#: rc.cpp:330
-#, no-c-format
-msgid "Percent finished"
-msgstr ""
-
-#. i18n: file kpttaskprogresspanelbase.ui line 124
+#. i18n: file kpttaskprogresspanelbase.ui line 111
 #: rc.cpp:333
 #, no-c-format
-msgid "Effort performed"
+msgid "Percent completed:"
 msgstr ""
 
-#. i18n: file kpttaskprogresspanelbase.ui line 135
+#. i18n: file kpttaskprogresspanelbase.ui line 122
 #: rc.cpp:336
 #, no-c-format
-msgid "Effort remaining"
+msgid "Remaining effort:"
+msgstr ""
+
+#. i18n: file kpttaskprogresspanelbase.ui line 133
+#: rc.cpp:339
+#, no-c-format
+msgid "Actual effort:"
+msgstr ""
+
+#. i18n: file kpttaskprogresspanelbase.ui line 221
+#: rc.cpp:342
+#, no-c-format
+msgid "Scheduled"
+msgstr ""
+
+#. i18n: file kpttaskprogresspanelbase.ui line 240
+#: rc.cpp:345
+#, no-c-format
+msgid "Start:"
+msgstr ""
+
+#. i18n: file kpttaskprogresspanelbase.ui line 248
+#: rc.cpp:348
+#, no-c-format
+msgid "Finish:"
+msgstr ""
+
+#. i18n: file kpttaskprogresspanelbase.ui line 256
+#: rc.cpp:351
+#, no-c-format
+msgid "Effort:"
 msgstr ""
 
 #. i18n: file kpttaskresourcespanelbase.ui line 17
-#: rc.cpp:339
+#: rc.cpp:354
 #, fuzzy, no-c-format
 msgid "KPTTaskResourcesPanelBase"
 msgstr "Resource name:"
 
 #. i18n: file kpttaskresourcespanelbase.ui line 34
-#: kptprojectdialog.cc:53 kptresourcesdialog.cc:36 kptview.cc:154 rc.cpp:342
+#: kptprojectdialog.cc:53 kptresourcesdialog.cc:36 kptview.cc:151
+#: kptview.cc:161 rc.cpp:357
 #, no-c-format
 msgid "Resources"
 msgstr "Resources"
 
 #. i18n: file kpttaskresourcespanelbase.ui line 51
-#: rc.cpp:345
+#: rc.cpp:360
 #, fuzzy, no-c-format
 msgid "Group"
 msgstr "ຊື່ໂຄງການ:"
 
 #. i18n: file kpttaskresourcespanelbase.ui line 62
-#: rc.cpp:348
+#: rc.cpp:363
 #, no-c-format
-msgid "Max. units"
+msgid "Max. Units"
 msgstr ""
 
 #. i18n: file kpttaskresourcespanelbase.ui line 94
-#: rc.cpp:351
+#: rc.cpp:366
 #, fuzzy, no-c-format
 msgid "Assign resources:"
 msgstr "Edit Resource"
 
 #. i18n: file relationpanel.ui line 34
-#: rc.cpp:357
+#: rc.cpp:372
 #, fuzzy, no-c-format
 msgid "RelationPanel"
 msgstr "Edit Resource"
 
 #. i18n: file relationpanel.ui line 122
-#: rc.cpp:361
+#: rc.cpp:376
 #, no-c-format
 msgid "From:"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 141
-#: rc.cpp:364
+#: rc.cpp:379
 #, no-c-format
 msgid "To:"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 152
-#: rc.cpp:367
+#: rc.cpp:382
 #, fuzzy, no-c-format
 msgid "Task 1"
 msgstr "ເພີ້ນງານ..."
 
 #. i18n: file relationpanel.ui line 163
-#: rc.cpp:370
+#: rc.cpp:385
 #, fuzzy, no-c-format
 msgid "Task 2"
 msgstr "ເພີ້ນງານ..."
 
 #. i18n: file relationpanel.ui line 176
-#: rc.cpp:373
+#: rc.cpp:388
 #, fuzzy, no-c-format
-msgid "Relationship type"
+msgid "Relationship Type"
 msgstr "Edit Resource"
 
 #. i18n: file relationpanel.ui line 187
-#: rc.cpp:376
+#: rc.cpp:391
 #, no-c-format
 msgid "Finish-Start"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 195
-#: rc.cpp:379
+#: rc.cpp:394
 #, no-c-format
 msgid "Finish-Finish"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 203
-#: rc.cpp:382
+#: rc.cpp:397
 #, no-c-format
 msgid "Start-Start"
 msgstr ""
 
 #. i18n: file relationpanel.ui line 221
-#: rc.cpp:385
+#: rc.cpp:400
 #, no-c-format
-msgid "Lag"
+msgid "Lag:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 17
-#: rc.cpp:388
+#: rc.cpp:403
 #, fuzzy, no-c-format
 msgid "ResourceDialogBase"
 msgstr "Resource name:"
 
 #. i18n: file resourcedialogbase.ui line 53
-#: rc.cpp:395
+#: rc.cpp:410
 #, no-c-format
 msgid "Choose resource from addressbook"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 72
-#: rc.cpp:401
+#: rc.cpp:416
 #, no-c-format
-msgid "Initials"
+msgid "Initials:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 105
-#: rc.cpp:405
+#: rc.cpp:420
 #, no-c-format
-msgid "Email"
+msgid "Email:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 136
-#: rc.cpp:409
+#: rc.cpp:424
 #, fuzzy, no-c-format
 msgid "Resource type:"
 msgstr "Resources"
 
 #. i18n: file resourcedialogbase.ui line 142
-#: kptresourceview.cc:140 rc.cpp:412
+#: kptresourceview.cc:161 rc.cpp:427
 #, no-c-format
 msgid "Work"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 147
-#: kptresourceview.cc:143 rc.cpp:415
+#: kptresourceview.cc:164 rc.cpp:430
 #, no-c-format
 msgid "Material"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 159
-#: rc.cpp:418
+#: rc.cpp:433
 #, no-c-format
 msgid "<p align=\"right\">Calendar:</p>"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 172
-#: kptview.cc:199 rc.cpp:421 rc.cpp:458 rc.cpp:479 rc.cpp:491 rc.cpp:500
-#: rc.cpp:503 rc.cpp:506 rc.cpp:509 rc.cpp:518 rc.cpp:527
+#: kptview.cc:206 rc.cpp:436 rc.cpp:476 rc.cpp:494 rc.cpp:506 rc.cpp:515
+#: rc.cpp:518 rc.cpp:521 rc.cpp:524 rc.cpp:533 rc.cpp:542
 #, no-c-format
 msgid "Edit..."
 msgstr "Edit..."
 
 #. i18n: file resourcedialogbase.ui line 190
-#: rc.cpp:424
+#: rc.cpp:439
 #, fuzzy, no-c-format
 msgid "Available:"
 msgstr " Available:"
 
-#. i18n: file resourcedialogbase.ui line 236
-#: rc.cpp:430
-#, no-c-format
-msgid "Cost"
-msgstr ""
-
 #. i18n: file resourcedialogbase.ui line 247
-#: rc.cpp:433
+#: rc.cpp:448
 #, no-c-format
 msgid "Hourly rate:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 258
-#: rc.cpp:436
+#: rc.cpp:451
 #, no-c-format
 msgid "Overtime rate:"
 msgstr ""
 
 #. i18n: file resourcedialogbase.ui line 287
-#: rc.cpp:440
+#: rc.cpp:455
 #, no-c-format
 msgid "Fixed cost:"
 msgstr ""
 
 #. i18n: file resourcespanelbase.ui line 17
-#: rc.cpp:443
+#: rc.cpp:458
 #, fuzzy, no-c-format
 msgid "ResourcesPanelBase"
 msgstr "Resource name:"
 
 #. i18n: file resourcespanelbase.ui line 36
-#: rc.cpp:446
-#, no-c-format
-msgid "Groups"
-msgstr ""
+#: rc.cpp:461
+#, fuzzy, no-c-format
+msgid "Groups:"
+msgstr "ຊື່ໂຄງການ:"
 
 #. i18n: file resourcespanelbase.ui line 62
-#: rc.cpp:449
+#: rc.cpp:464
 #, fuzzy, no-c-format
 msgid "&Add"
 msgstr "Edit..."
 
-#. i18n: file resourcespanelbase.ui line 153
-#: rc.cpp:464
+#. i18n: file resourcespanelbase.ui line 137
+#: rc.cpp:473
 #, no-c-format
 msgid "New..."
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 17
-#: rc.cpp:467
+#: rc.cpp:482
 #, no-c-format
 msgid "StandardWorktime"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 36
-#: rc.cpp:470
+#: rc.cpp:485
 #, no-c-format
 msgid "Hours per year:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 62
-#: rc.cpp:473
+#: rc.cpp:488
 #, no-c-format
 msgid "Hours per month:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 88
-#: rc.cpp:476
+#: rc.cpp:491
 #, no-c-format
 msgid "Standard work day:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 114
-#: rc.cpp:482
+#: rc.cpp:497
 #, no-c-format
 msgid "Weekdays"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 123
-#: kptcalendaredit.cc:206 kptcalendaredit.cc:255 rc.cpp:485 rc.cpp:494
-#: rc.cpp:512 rc.cpp:521 rc.cpp:551 rc.cpp:557 rc.cpp:563
+#: kptcalendaredit.cc:206 kptcalendaredit.cc:255 rc.cpp:500 rc.cpp:509
+#: rc.cpp:527 rc.cpp:536 rc.cpp:566 rc.cpp:572 rc.cpp:578
 #, no-c-format
 msgid "Working"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 128
-#: kptcalendaredit.cc:205 kptcalendaredit.cc:254 kptcalendaredit.cc:284
-#: rc.cpp:488 rc.cpp:497 rc.cpp:515 rc.cpp:524 rc.cpp:554 rc.cpp:560
-#: rc.cpp:566
+#: rc.cpp:503 rc.cpp:512 rc.cpp:530 rc.cpp:539 rc.cpp:569 rc.cpp:575
+#: rc.cpp:581
 #, no-c-format
-msgid "Non-working"
+msgid "Non-Working"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 249
-#: rc.cpp:530
+#: rc.cpp:545
 #, no-c-format
 msgid "Wednesday:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 257
-#: rc.cpp:533
+#: rc.cpp:548
 #, no-c-format
 msgid "Tuesday:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 265
-#: rc.cpp:536
+#: rc.cpp:551
 #, no-c-format
 msgid "Monday:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 273
-#: rc.cpp:539
+#: rc.cpp:554
 #, no-c-format
 msgid "Thursday:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 281
-#: rc.cpp:542
+#: rc.cpp:557
 #, no-c-format
 msgid "Friday:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 289
-#: rc.cpp:545
+#: rc.cpp:560
 #, no-c-format
 msgid "Saturday:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 297
-#: rc.cpp:548
+#: rc.cpp:563
 #, no-c-format
 msgid "Sunday:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 406
-#: rc.cpp:569
+#: rc.cpp:584
 #, no-c-format
 msgid "Total work time:"
 msgstr ""
 
 #. i18n: file standardworktimedialogbase.ui line 431
-#: kptrelationdialog.cc:58 kpttaskgeneralpanel.cc:72 rc.cpp:572
+#: kptrelationdialog.cc:58 kpttaskgeneralpanel.cc:72 rc.cpp:587
 #, no-c-format
 msgid "hours"
 msgstr ""
@@ -866,8 +848,12 @@ msgid "Standard calendar"
 msgstr "ຫົວຫມ້າງານ:"
 
 #: kptcalendaredit.cc:204 kptcalendaredit.cc:253 kptcalendaredit.cc:283
-#: kptresourceview.cc:146
+#: kptresourceview.cc:167
 msgid "Undefined"
+msgstr ""
+
+#: kptcalendaredit.cc:205 kptcalendaredit.cc:254 kptcalendaredit.cc:284
+msgid "Non-working"
 msgstr ""
 
 #: kptcalendarlistdialog.cc:147
@@ -953,7 +939,7 @@ msgstr ""
 msgid "Task defaults"
 msgstr "ຕັ້ງຄ່າງານ"
 
-#: kptganttview.cc:888 kptpertcanvas.cc:381
+#: kptganttview.cc:935 kptpertcanvas.cc:381
 msgid "Cannot link these nodes"
 msgstr ""
 
@@ -974,23 +960,23 @@ msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 msgid "Project id must be unique"
 msgstr ""
 
-#: kptpart.cc:159
+#: kptpart.cc:164
 msgid "Invalid document. No mimetype specified."
 msgstr ""
 
-#: kptpart.cc:164
+#: kptpart.cc:169
 #, c-format
 msgid "Invalid document. Expected mimetype application/x-vnd.kde.kplato, got %1"
 msgstr ""
 
-#: kptpart.cc:170
+#: kptpart.cc:175
 msgid ""
 "This document was created with a newer version of KPlato (syntax version: "
 "%1)\n"
 "Opening it in this version of KPlato will lose some information."
 msgstr ""
 
-#: kptpart.cc:172
+#: kptpart.cc:177
 msgid "File-Format Mismatch"
 msgstr ""
 
@@ -1035,9 +1021,9 @@ msgstr ""
 msgid "minutes"
 msgstr ""
 
-#: kptrelationdialog.cc:69
+#: kptrelationdialog.cc:69 kptview.cc:722
 #, fuzzy
-msgid "Add relation"
+msgid "Add Relation"
 msgstr "Edit Resource"
 
 #: kptrelationdialog.cc:74
@@ -1054,36 +1040,36 @@ msgstr "Edit Resource"
 
 #: kptrelationdialog.cc:109 kptrelationdialog.cc:114
 #, fuzzy
-msgid "Modify relation"
+msgid "Modify Relation"
 msgstr "Edit Resource"
 
-#: kptreportview.cc:331
+#: kptreportview.cc:332
 msgid "Cannot find report template file!"
 msgstr ""
 
-#: kptreportview.cc:332 kptreportview.cc:339 kptreportview.cc:348
-#: kptreportview.cc:365 kptreportview.cc:372 kptreportview.cc:386
+#: kptreportview.cc:333 kptreportview.cc:340 kptreportview.cc:349
+#: kptreportview.cc:366 kptreportview.cc:373 kptreportview.cc:387
 msgid "Generate Report"
 msgstr ""
 
-#: kptreportview.cc:338 kptreportview.cc:364
+#: kptreportview.cc:339 kptreportview.cc:365
 msgid "Cannot open report template file!"
 msgstr ""
 
-#: kptreportview.cc:347
+#: kptreportview.cc:348
 msgid "Cannot read report template file!"
 msgstr ""
 
-#: kptreportview.cc:371
+#: kptreportview.cc:372
 msgid "Cannot find the proper report template file!"
 msgstr ""
 
-#: kptreportview.cc:535
+#: kptreportview.cc:536
 #, c-format
 msgid "Malformed template filename: %1"
 msgstr ""
 
-#: kptreportview.cc:542
+#: kptreportview.cc:543
 #, c-format
 msgid "Unable to download template file: %1"
 msgstr ""
@@ -1104,17 +1090,61 @@ msgid ""
 "resource to"
 msgstr ""
 
-#: kptresourceuseview.cc:90
+#: kptresourceuseview.cc:74 kptresourceview.cc:85
+msgid "Name"
+msgstr ""
+
+#: kptresourceuseview.cc:95
 #, fuzzy
 msgid "All resources"
 msgstr "Edit Resource"
 
-#: kptresourceview.cc:89
+#: kptresourceuseview.cc:578
+msgid "Load pr Minute"
+msgstr ""
+
+#: kptresourceuseview.cc:579
+msgid "Load pr Hour"
+msgstr ""
+
+#: kptresourceuseview.cc:580
+msgid "Load pr Day"
+msgstr ""
+
+#: kptresourceuseview.cc:581
+msgid "Load pr Week"
+msgstr ""
+
+#: kptresourceuseview.cc:582
+msgid "Load pr Month"
+msgstr ""
+
+#: kptresourceuseview.cc:583
+msgid "Accumulated"
+msgstr ""
+
+#: kptresourceview.cc:102
 #, fuzzy
 msgid "Task"
 msgstr "ເພີ້ນງານ..."
 
-#: kptresourceview.cc:95
+#: kptresourceview.cc:103
+msgid "Planned Effort"
+msgstr ""
+
+#: kptresourceview.cc:105
+msgid "Planned Cost"
+msgstr ""
+
+#: kptresourceview.cc:107
+msgid "Actual Effort"
+msgstr ""
+
+#: kptresourceview.cc:109
+msgid "Actual Cost"
+msgstr ""
+
+#: kptresourceview.cc:114
 msgid "Appointments"
 msgstr ""
 
@@ -1145,159 +1175,192 @@ msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 msgid "Task id must be unique"
 msgstr ""
 
-#: kpttaskprogresspanel.cc:87
+#: kpttaskprogresspanel.cc:65 kpttaskprogresspanel.cc:72
+#: kpttaskprogresspanel.cc:80
+msgid ""
+"_: day\n"
+"d"
+msgstr ""
+
+#: kpttaskprogresspanel.cc:66 kpttaskprogresspanel.cc:73
+#: kpttaskprogresspanel.cc:81
+msgid ""
+"_: hour\n"
+"h"
+msgstr ""
+
+#: kpttaskprogresspanel.cc:67 kpttaskprogresspanel.cc:74
+#: kpttaskprogresspanel.cc:82
+msgid ""
+"_: minute\n"
+"m"
+msgstr ""
+
+#: kpttaskprogresspanel.cc:103
 #, fuzzy
 msgid "Modify progress"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:137 kptview.cc:597
+#: kptview.cc:140 kptview.cc:639
 msgid "Indent Task"
 msgstr ""
 
-#: kptview.cc:139 kptview.cc:611
+#: kptview.cc:142 kptview.cc:653
 msgid "Unindent Task"
 msgstr ""
 
-#: kptview.cc:141
+#: kptview.cc:144
 msgid "Move Up"
 msgstr ""
 
-#: kptview.cc:143
+#: kptview.cc:146
 msgid "Move Down"
 msgstr ""
 
-#: kptview.cc:147
+#: kptview.cc:150
 msgid "Gantt"
 msgstr "Gantt"
 
-#: kptview.cc:148
+#: kptview.cc:152
 #, fuzzy
-msgid "Task links"
+msgid "Task Name"
+msgstr "ຊື່ງານ:"
+
+#: kptview.cc:153
+#, fuzzy
+msgid "Task Links"
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:149
+#: kptview.cc:154
 #, fuzzy
 msgid "Progress"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:150
+#: kptview.cc:155
 msgid "Float"
 msgstr ""
 
-#: kptview.cc:152
+#: kptview.cc:156
+msgid "Critical Tasks"
+msgstr ""
+
+#: kptview.cc:157
+msgid "Critical Path"
+msgstr ""
+
+#: kptview.cc:159
 msgid "Network"
 msgstr ""
 
-#: kptview.cc:156
+#: kptview.cc:163
 #, fuzzy
-msgid "Resource use"
+msgid "Resource Use"
 msgstr "Resources"
 
-#: kptview.cc:159
+#: kptview.cc:166
 msgid "Task..."
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:161
+#: kptview.cc:168
 #, fuzzy
 msgid "Sub-Task..."
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:163
+#: kptview.cc:170
 msgid "Milestone..."
 msgstr "ເພີ້ນລະຍະເວລາ..."
 
-#: kptview.cc:167
+#: kptview.cc:174
 msgid "Edit Main Project..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:168
+#: kptview.cc:175
 #, fuzzy
 msgid "Edit Standard Worktime..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:169
+#: kptview.cc:176
 #, fuzzy
 msgid "Edit Calendar..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:170
+#: kptview.cc:177
 #, fuzzy
 msgid "Edit Resources..."
 msgstr "Edit Resource"
 
-#: kptview.cc:171
+#: kptview.cc:178 kptview.cc:429
 msgid "Calculate"
 msgstr ""
 
-#: kptview.cc:174
+#: kptview.cc:181
 msgid "Generate"
 msgstr ""
 
-#: kptview.cc:195
+#: kptview.cc:202
 msgid "Configure..."
 msgstr "Configure..."
 
-#: kptview.cc:201 kptview.cc:575
+#: kptview.cc:208 kptview.cc:617
 msgid "Delete Task"
 msgstr ""
 
-#: kptview.cc:204
+#: kptview.cc:211
 #, fuzzy
 msgid "Edit Resource..."
 msgstr "Edit Resource"
 
-#: kptview.cc:210
+#: kptview.cc:216
 #, fuzzy
 msgid "Print Debug"
 msgstr "Print debug"
 
-#: kptview.cc:212
+#: kptview.cc:218
 #, fuzzy
 msgid "Print Calendar Debug"
 msgstr "Print debug"
 
-#: kptview.cc:215
+#: kptview.cc:221
 msgid "Export Gantt"
 msgstr ""
 
-#: kptview.cc:423
+#: kptview.cc:429
+msgid "Progress information will be deleted if the project is recalculated."
+msgstr ""
+
+#: kptview.cc:465
 msgid "Add Subtask"
 msgstr ""
 
-#: kptview.cc:445
+#: kptview.cc:487
 #, fuzzy
 msgid "Add Task"
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:462
+#: kptview.cc:504
 msgid "Milestone"
 msgstr "ເພີ້ນລະຍະເວລາ..."
 
-#: kptview.cc:472
+#: kptview.cc:514
 #, fuzzy
 msgid "Add Milestone"
 msgstr "เพิ่มระยะเวลา..."
 
-#: kptview.cc:633
+#: kptview.cc:675
 #, fuzzy
 msgid "Move Task Up"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:654
+#: kptview.cc:696
 msgid "Move Task Down"
 msgstr ""
 
-#: kptview.cc:680
-#, fuzzy
-msgid "Add Relation"
-msgstr "Edit Resource"
-
-#: kptview.cc:691
+#: kptview.cc:733
 #, fuzzy
 msgid "Delete Relation"
 msgstr "Edit Resource"
 
-#: kptview.cc:869
+#: kptview.cc:911
 #, fuzzy
 msgid "Modify Name"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
@@ -1331,12 +1394,32 @@ msgid ""
 "Your emails"
 msgstr "sheshofu@hotmail.com"
 
-#~ msgid "PERT"
-#~ msgstr "PERT"
+#, fuzzy
+#~ msgid "Task name:"
+#~ msgstr "ຊື່ງານ:"
+
+#, fuzzy
+#~ msgid "Deviation:"
+#~ msgstr "ລາຍລະອຽດ:"
 
 #, fuzzy
 #~ msgid "KPTTaskProgressPanelBase"
 #~ msgstr "Resource name:"
+
+#, fuzzy
+#~ msgid "Project n&ame"
+#~ msgstr "ຊື່ໂຄງການ:"
+
+#, fuzzy
+#~ msgid "Project &leader"
+#~ msgstr "ຫົວຫມ້າໂຄງການ:"
+
+#, fuzzy
+#~ msgid "Add relation"
+#~ msgstr "Edit Resource"
+
+#~ msgid "PERT"
+#~ msgstr "PERT"
 
 #, fuzzy
 #~ msgid "Add..."
@@ -1353,10 +1436,6 @@ msgstr "sheshofu@hotmail.com"
 #, fuzzy
 #~ msgid "Fixed duration"
 #~ msgstr "ລາຍລະອຽດ:"
-
-#, fuzzy
-#~ msgid "Task n&ame"
-#~ msgstr "ຊື່ງານ:"
 
 #, fuzzy
 #~ msgid "RequestResourcesPanelBase"

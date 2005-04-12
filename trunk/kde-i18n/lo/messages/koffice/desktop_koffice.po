@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-00-31 00:39+0000\n"
+"POT-Creation-Date: 2005-04-12 16:25+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -21,12 +21,13 @@ msgid "Name=KOffice Example Component"
 msgstr "Name=แอพพลิเคชัน KDE"
 
 #: koffice/filters/generic_wrapper/generic_filter.desktop:3
-msgid "Name=Generic KOffice filter"
+#, fuzzy
+msgid "Name=Generic KOffice Filter"
 msgstr ""
 "Name=ແຟ້ມໂປແກມສຳນັກງານຕົວອື່ນ"
 " "
 
-#: koffice/filters/karbon/ai/karbon_ai_import.desktop:3
+#: koffice/filters/karbon/ai/karbon_ai_import.desktop:4
 msgid "Name=Karbon14 Illustrator Import Filter"
 msgstr "Name=ຕົວຕອງການນຳເຂົ້າ Illustrator "
 
@@ -36,14 +37,14 @@ msgstr ""
 "Name=ຕົວຕອງການນຳເຂົ້າ Applixgraphics "
 "ຂອງການແຕ້ມຮູບ K"
 
-#: koffice/filters/karbon/eps/karbon_eps_export.desktop:3
+#: koffice/filters/karbon/eps/karbon_eps_export.desktop:4
 msgid "Name=Karbon14 EPS Export Filter"
 msgstr ""
 "Name= ຕົວຕອງການສົ່ງອອກ EPS "
 "ຂອງຄາຮ໌ບອນ14"
 
-#: koffice/filters/karbon/eps/karbon_eps_import.desktop:3
-#: koffice/filters/karbon/eps/karbon_ps_import.desktop:3
+#: koffice/filters/karbon/eps/karbon_eps_import.desktop:4
+#: koffice/filters/karbon/eps/karbon_ps_import.desktop:4
 msgid "Name=Karbon14 EPS Import Filter"
 msgstr ""
 "Name=ຕົວຕອງການນຳເຂົ້າ EPS "
@@ -70,11 +71,11 @@ msgstr ""
 "Name= ຕົວຕອງການນຳເຂົ້າ CSV "
 "ຂອງກະດາດຄຳນວນ K"
 
-#: koffice/filters/karbon/png/karbon_png_export.desktop:3
+#: koffice/filters/karbon/png/karbon_png_export.desktop:4
 msgid "Name=Karbon14 PNG Export Filter"
 msgstr "Name=ຕົວຕອງການສົ່ງອອກ  PNG ຂອງ Karbon14"
 
-#: koffice/filters/karbon/svg/karbon_svg_export.desktop:3
+#: koffice/filters/karbon/svg/karbon_svg_export.desktop:4
 msgid "Name=Karbon14 SVG Export Filter"
 msgstr "Name= ຕົວຕອງການສົ່ງອອກ SVG ຂອງ Karbon14"
 
@@ -84,7 +85,7 @@ msgstr ""
 "Name=ຕົວຕອງການນຳເຂົ້າ EPS "
 "ຂອງຄາຮ໌ບອນ14"
 
-#: koffice/filters/karbon/wmf/karbon_wmf_export.desktop:3
+#: koffice/filters/karbon/wmf/karbon_wmf_export.desktop:4
 #, fuzzy
 msgid "Name=Karbon14 WMF Export Filter"
 msgstr "Name= ຕົວຕອງການສົ່ງອອກ SVG ຂອງ Karbon14"
@@ -93,7 +94,7 @@ msgstr "Name= ຕົວຕອງການສົ່ງອອກ SVG ຂອງ Kar
 msgid "Name=Karbon WMF Import Filter"
 msgstr "Name=ຕົວຕອງການນຳເຂົ້າ WMF ຂອງ Karbon"
 
-#: koffice/filters/karbon/xcf/karbon_xcf_export.desktop:3
+#: koffice/filters/karbon/xcf/karbon_xcf_export.desktop:4
 msgid "Name=Karbon14 Gimp Export Filter"
 msgstr "Name=ຕົວຕອງການສົ່ງອອກ SVG ຂອງ Karbon14"
 
@@ -101,6 +102,16 @@ msgstr "Name=ຕົວຕອງການສົ່ງອອກ SVG ຂອງ Karb
 #, fuzzy
 msgid "Name=Karbon XFig Import Filter"
 msgstr "Name=ຕົວຕອງການນຳເຂົ້າ WMF ຂອງ Karbon"
+
+#: koffice/filters/kchart/png/kchart_png_export.desktop:4
+#, fuzzy
+msgid "Name=KChart PNG Export Filter"
+msgstr "Name=ຕົວຕອງການສົ່ງອອກ  PNG ຂອງ Karbon14"
+
+#: koffice/filters/kchart/svg/kchart_svg_export.desktop:4
+#, fuzzy
+msgid "Name=KChart SVG Export Filter"
+msgstr "Name=ຕົວຕອງການສົ່ງອອກ  PNG ຂອງ Karbon14"
 
 #: koffice/filters/kformula/latex/kformula_latex_export.desktop:9
 msgid "Name=KFormula LaTeX Export Filter"
@@ -131,7 +142,8 @@ msgstr ""
 "ຂອງສູດຄະນິດສາດ K"
 
 #: koffice/filters/kpresenter/kword/kprkword.desktop:4
-msgid "Name=KPresenter->KWord Filter"
+#, fuzzy
+msgid "Name=KPresenter KWord Filter"
 msgstr ""
 "Name= ຕົວຕອງ ເອກະສານນຳສະເໝີ K -> "
 "ເອກະສານຂໍ້ຄວາມ K"
@@ -288,7 +300,8 @@ msgstr ""
 ") ຂອງເອກະສານຂໍ້ຄວາມ K"
 
 #: koffice/filters/kword/ascii/kword_ascii_import.desktop:4
-msgid "Name=KWord Ascii Import Filter"
+#, fuzzy
+msgid "Name=KWord ASCII Import Filter"
 msgstr ""
 "Name= "
 "ຕົວຕອງການນຳເຂົ້າAsciiຂອງເອກະສ"
@@ -451,28 +464,28 @@ msgstr ""
 "Name=ຕົວຕອງ WinWord 97 "
 "ຂອງເອກະສານຂໍ້ຄວາມ K"
 
-#: koffice/filters/xsltfilter/export/xslt_export.desktop:9
+#: koffice/filters/xsltfilter/export/xslt_export.desktop:10
 msgid "Name=KOffice XSLT Export Filter"
 msgstr ""
 "Name=ຕົວຕອງການສົ່ງອອກ XSLT "
 "ຂອງໂປຼເກມຊຸດສຳນັກງານK"
 
-#: koffice/filters/xsltfilter/import/xslt_import.desktop:8
+#: koffice/filters/xsltfilter/import/xslt_import.desktop:9
 msgid "Name=KOffice XSLT Import Filter"
 msgstr ""
 "Name=ຕົວຕອງການນຳເຂົ້າ XSLT "
 "ຂອງໂປຼເກມຼຊຸດສຳນັກງານ K"
 
-#: koffice/karbon/data/karbon.desktop:2
+#: koffice/karbon/data/karbon.desktop:3
 msgid "Name=Karbon14"
 msgstr "Name=ຄາຣ໌ບອບ14"
 
-#: koffice/karbon/data/karbon.desktop:8
-#: koffice/karbon/data/karbonpart.desktop:31
+#: koffice/karbon/data/karbon.desktop:9
+#: koffice/karbon/data/karbonpart.desktop:36
 msgid "GenericName=Scalable Graphics"
 msgstr "GenericName=ຮູບເວກເຕີປັບຂະໝາດໄດ้"
 
-#: koffice/karbon/data/karbonpart.desktop:2
+#: koffice/karbon/data/karbonpart.desktop:3
 #, fuzzy
 msgid "Name=KOffice Scalable Graphics Component"
 msgstr "GenericName=ຮູບເວກເຕີປັບຂະໝາດໄດ้"
@@ -481,7 +494,7 @@ msgstr "GenericName=ຮູບເວກເຕີປັບຂະໝາດໄດ้
 msgid "Name=KChart"
 msgstr "Name=ແຜນພູມิ K"
 
-#: koffice/kchart/kchart.desktop:13 koffice/kchart/kchartpart.desktop:28
+#: koffice/kchart/kchart.desktop:13 koffice/kchart/kchartpart.desktop:31
 msgid "GenericName=Chart"
 msgstr "GenericName=ແຜນພູມิ"
 
@@ -491,6 +504,21 @@ msgid "Name=KOffice Chart Component"
 msgstr ""
 "Comment=ຄອມໂພເນນຕຂອງໂປຣແກມຊຸດສໍ"
 "ານັກງານ K "
+
+#: koffice/kchart/templates/BarChart.desktop:5
+#, fuzzy
+msgid "Name=Bar Chart"
+msgstr "Name=อ่าว"
+
+#: koffice/kchart/templates/BarChart.desktop:13
+#, fuzzy
+msgid "Comment=An example of a bar chart."
+msgstr "Comment=แอพเพล็ตตัวอย่างพาเนล"
+
+#: koffice/kchart/templates/Empty.desktop:5
+#: koffice/kspread/templates/General/Worksheet.desktop:5
+msgid "Name=Blank Worksheet"
+msgstr "Name=ແຜນງານເປົ່າ "
 
 #: koffice/kexi/data/kexifileimportfilter.desktop:6
 msgid ""
@@ -503,7 +531,7 @@ msgstr ""
 msgid "GenericName=Forms"
 msgstr "GenericName=ดอกไม้"
 
-#: koffice/kexi/data/kexiformhandler.desktop:21
+#: koffice/kexi/data/kexiformhandler.desktop:26
 #, fuzzy
 msgid "Name=Forms"
 msgstr "Name=สูตรคณิตศาสตร์ - K"
@@ -523,7 +551,7 @@ msgstr ""
 msgid "GenericName=Queries"
 msgstr "GenericName=ค้นหาแฟ้ม"
 
-#: koffice/kexi/data/kexiqueryhandler.desktop:20
+#: koffice/kexi/data/kexiqueryhandler.desktop:25
 #, fuzzy
 msgid "Name=Queries"
 msgstr "Name=เดมอน"
@@ -533,7 +561,7 @@ msgstr "Name=เดมอน"
 msgid "GenericName=Relationships"
 msgstr "Name=แอพพลิเคชัน"
 
-#: koffice/kexi/data/kexirelationhandler.desktop:19
+#: koffice/kexi/data/kexirelationhandler.desktop:23
 #, fuzzy
 msgid "Name=Relationships"
 msgstr "Name=แอพพลิเคชัน"
@@ -543,7 +571,7 @@ msgstr "Name=แอพพลิเคชัน"
 msgid "GenericName=Reports"
 msgstr "GenericName=ดอกไม้"
 
-#: koffice/kexi/data/kexireporthandler.desktop:16
+#: koffice/kexi/data/kexireporthandler.desktop:22
 #, fuzzy
 msgid "Name=Reports"
 msgstr "Name=เกมกีฬา"
@@ -569,7 +597,7 @@ msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
 msgid "GenericName=Tables"
 msgstr "GenericName=เกม"
 
-#: koffice/kexi/data/kexitablehandler.desktop:22
+#: koffice/kexi/data/kexitablehandler.desktop:26
 #, fuzzy
 msgid "Name=Tables"
 msgstr "Name=เมเปิล"
@@ -591,7 +619,7 @@ msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
 msgid "Name=KexiCSVImport"
 msgstr "Name=ສອຍຄີວ - K"
 
-#: koffice/kexi/filters/import/csv/kexicsvimport.desktop:20
+#: koffice/kexi/filters/import/csv/kexicsvimport.desktop:21
 #, fuzzy
 msgid "Comment=Import CSV File..."
 msgstr "Comment=แฟ้ม kpplot"
@@ -601,7 +629,7 @@ msgstr "Comment=แฟ้ม kpplot"
 msgid "Name=KexiKSpreadImport"
 msgstr "Name=ສອຍຄີວ - K"
 
-#: koffice/kexi/filters/import/kspread_chain/kexikspreadimport.desktop:20
+#: koffice/kexi/filters/import/kspread_chain/kexikspreadimport.desktop:21
 #, fuzzy
 msgid "Comment=Import KSpread readable file..."
 msgstr "Comment=แฟ้ม kpplot"
@@ -628,8 +656,8 @@ msgstr "Name=ออกแบบฟอร์ม"
 
 #: koffice/kexi/formeditor/test/kformdesigner.desktop:16
 #, fuzzy
-msgid "GenericName=Qt Designer UI File Editor"
-msgstr "GenericName=เครื่องมือแก้ไข X"
+msgid "GenericName=Form Designer"
+msgstr "Name=ออกแบบฟอร์ม"
 
 #: koffice/kexi/formeditor/test/kformdesigner_part.desktop:3
 #, fuzzy
@@ -646,7 +674,7 @@ msgstr "Comment=รูปแบบเว็บ"
 msgid "Name=Kexi Source"
 msgstr "Name=ສອຍຄີວ - K"
 
-#: koffice/kexi/interfaces/kwmailmerge/kwserialletter_kexi.desktop:40
+#: koffice/kexi/interfaces/kwmailmerge/kwserialletter_kexi.desktop:42
 #, fuzzy
 msgid "Comment=This datasource allows you to choose an existing Kexi project"
 msgstr "Comment=This detasousrce allow you choosing a existing kexi project"
@@ -655,14 +683,14 @@ msgstr "Comment=This detasousrce allow you choosing a existing kexi project"
 msgid "Name=Kexi"
 msgstr "Name=ສອຍຄີວ - K"
 
-#: koffice/kexi/kexi.desktop:11
+#: koffice/kexi/kexi.desktop:11 koffice/kexi/kexipart.desktop:33
 #, fuzzy
 msgid "GenericName=Database Creator"
 msgstr ""
 "GenericName=เครื่องมือสร้างภาพบิต"
 "แมพ"
 
-#: koffice/kexi/kexi.desktop:26
+#: koffice/kexi/kexi.desktop:30
 msgid "Comment=A Database Management Application"
 msgstr ""
 "Comment=ແອຟຟີເຄຊັນສະແກນຮູບບົນພື"
@@ -695,7 +723,7 @@ msgid "Name=PostgreSQL"
 msgstr "Name=PostgreSQL"
 
 #: koffice/kexi/kexidb/drivers/pqxx/kexidb_pqxxsqldriver.desktop:5
-#: koffice/kexi/migration/pqxx/keximigrate_pqxx.desktop:5
+#: koffice/kexi/migration/pqxx/keximigrate_pqxx.desktop:6
 msgid ""
 "Comment=With a 16 year development history, one of the strongest development "
 "communities in the world, and a global reputation for high quality software "
@@ -735,21 +763,24 @@ msgstr ""
 "Comment=ຄອມໂພເນນຕຂອງໂປຣແກມຊຸດສໍ"
 "ານັກງານ K "
 
-#: koffice/kexi/kexipart.desktop:30
-#, fuzzy
-msgid "GenericName=Database creation for everyone"
-msgstr ""
-"GenericName=ເຄື່ອງມືສຳຈັດການບັກສຳ"
-"ລັບ KDE"
-
 #: koffice/kexi/migration/keximigration_driver.desktop:5
 #, fuzzy
-msgid "Comment=Kexi SQL-MigrationDriver plugin"
+msgid "Comment=Kexi Data Migration Driver"
 msgstr "Comment=ປລັກອິນພາບ"
 
 #: koffice/kexi/migration/mysql/keximigrate_mysql.desktop:3
 #, fuzzy
-msgid "Name=MySQL Migration Driver for Kexi"
+msgid "Name=MySQL"
+msgstr "Name=MySQL"
+
+#: koffice/kexi/migration/mysql/keximigrate_mysql.desktop:4
+#, fuzzy
+msgid "Comment=MySQL Migration Driver for Kexi"
+msgstr "Comment=ປລັກອິນພາບ"
+
+#: koffice/kexi/migration/pqxx/keximigrate_pqxx.desktop:5
+#, fuzzy
+msgid "Comment=PostgreSQL Migration Driver for Kexi"
 msgstr "Comment=ປລັກອິນພາບ"
 
 #: koffice/kexi/plugins/forms/kexidbfactory.desktop:6
@@ -764,7 +795,7 @@ msgstr ""
 msgid "Name=Kexi Report (Kugar)"
 msgstr "Name=ເປີດສ່ວນຫົວຂອງ Kate"
 
-#: koffice/kexi/plugins/kugar/kexikugarhandler.desktop:39
+#: koffice/kexi/plugins/kugar/kexikugarhandler.desktop:41
 msgid "Comment=Integration of Kugar based report generation"
 msgstr ""
 
@@ -775,7 +806,7 @@ msgstr ""
 "GenericName=ไคลเอนต์จดหมายอิเล็กท"
 "รอนิกส์"
 
-#: koffice/kexi/plugins/migration/keximigrationhandler.desktop:16
+#: koffice/kexi/plugins/migration/keximigrationhandler.desktop:22
 #, fuzzy
 msgid "Name=Migration Plugin"
 msgstr "Name=ทดสอบ"
@@ -792,7 +823,7 @@ msgid "Name=KFormula"
 msgstr "Name=ສູດຄະນິດສາດ K"
 
 #: koffice/kformula/kformula.desktop:16
-#: koffice/kformula/kformulapart.desktop:30
+#: koffice/kformula/kformulapart.desktop:33
 msgid "GenericName=Formula Editor"
 msgstr ""
 "GenericName=ເຄື່ອງມືແກ້ໄຂສູດຄະນິດ"
@@ -810,7 +841,6 @@ msgid "Name=Kivio"
 msgstr "Name=ແຜນຜັງໄດອະແກຣມ"
 
 #: koffice/kivio/kiviopart/kivio.desktop:8
-#: koffice/kivio/kiviopart/kiviopart.desktop:29
 msgid "GenericName=Flowchart & Diagram Editing"
 msgstr ""
 "GenericName=ການສ້າງໂຟລຊາດແລະໄດອະແ"
@@ -819,6 +849,13 @@ msgstr ""
 #: koffice/kivio/kiviopart/kiviopart.desktop:3
 #, fuzzy
 msgid "Name=KOffice Flowchart & Diagram Editing Component"
+msgstr ""
+"GenericName=ການສ້າງໂຟລຊາດແລະໄດອະແ"
+"ກຣມ"
+
+#: koffice/kivio/kiviopart/kiviopart.desktop:32
+#, fuzzy
+msgid "GenericName=Flowchart & Diagram"
 msgstr ""
 "GenericName=ການສ້າງໂຟລຊາດແລະໄດອະແ"
 "ກຣມ"
@@ -861,17 +898,12 @@ msgstr ""
 "Name=ເຄື່ຶືອງມືຫຍໍ້/ຂະຫຍາຍສຳລ"
 "ັບແຜນຜັງໄດອະແກຣມ K"
 
-#: koffice/kivio/templates/basic/.directory:2
-#, fuzzy
-msgid "Name=Basic"
-msgstr "Name=แดงคลาสสิค"
-
 #: koffice/kivio/templates/basic/basicflow.desktop:6
 #, fuzzy
 msgid "Name=Basic Flowcharting"
 msgstr "Name=ถักเกลียว"
 
-#: koffice/kivio/templates/basic/basicflow.desktop:35
+#: koffice/kivio/templates/basic/basicflow.desktop:36
 msgid "Comment=Creates a document with the basic stencils for flowcharting loaded."
 msgstr ""
 
@@ -881,7 +913,7 @@ msgstr ""
 msgid "Name=Empty Document"
 msgstr "Name=ເອກະສານຂໍ້ຄວາມ"
 
-#: koffice/kivio/templates/basic/empty.desktop:41
+#: koffice/kivio/templates/basic/empty.desktop:43
 #, fuzzy
 msgid "Comment=Creates a document with no stencils loaded."
 msgstr ""
@@ -894,7 +926,7 @@ msgstr ""
 "Name=ພື້ນທີ່ໂປຣແກຣມຊຸດສຳນັກງາ"
 "ນ"
 
-#: koffice/koshell/koshell.desktop:61
+#: koffice/koshell/koshell.desktop:62
 msgid "GenericName=Office Suite"
 msgstr "GenericName=ໂປຣແກຣມຊຸດສຳນັກງານ"
 
@@ -908,7 +940,7 @@ msgstr ""
 msgid "Name=KPlato"
 msgstr "Name=KPlato"
 
-#: koffice/kplato/kplato.desktop:9 koffice/kplato/kplatopart.desktop:28
+#: koffice/kplato/kplato.desktop:9 koffice/kplato/kplatopart.desktop:31
 #, fuzzy
 msgid "GenericName=Project Management"
 msgstr ""
@@ -920,63 +952,59 @@ msgstr ""
 msgid "Name=KOffice Project Management Component"
 msgstr "Name=เครื่องมือจัดการงานพิมพ์"
 
-#: koffice/kplato/reports/Test_report_Resources.desktop:2
+#: koffice/kplato/reports/Test_report_Resources.desktop:3
 msgid "Name=Resources (Test report)"
 msgstr ""
 
-#: koffice/kplato/reports/Test_report_Tasks.desktop:2
+#: koffice/kplato/reports/Test_report_Tasks.desktop:3
 #, fuzzy
 msgid "Name=Tasks (Test report)"
 msgstr "Name=ส่งออกรายการเล่นเป็น HTML"
-
-#: koffice/kplato/templates/Simple/.directory:2
-msgid "Name=Simple"
-msgstr "Name=ເອກກະສານທົ່ວໄປ"
 
 #: koffice/kplato/templates/Simple/Plain.desktop:5
 #: koffice/kpresenter/templates/Screenpresentations/Plain.desktop:5
 msgid "Name=Plain"
 msgstr "Name=ເອກະສານທຳມະດາ"
 
-#: koffice/kpresenter/autoforms/Arrows/.directory:2
-msgid "Name=Arrows"
-msgstr "Name=ລູກສອນ"
-
 #: koffice/kpresenter/autoforms/Arrows/ArrowDown.desktop:5
-msgid "Name=Arrow down"
+#, fuzzy
+msgid "Name=Arrow Down"
 msgstr "Name=ລູກສອນລົງ"
 
 #: koffice/kpresenter/autoforms/Arrows/ArrowLeft.desktop:5
-msgid "Name=Arrow left"
+#, fuzzy
+msgid "Name=Arrow Left"
 msgstr "Name=ລູກສອນຊ້າຍ"
 
 #: koffice/kpresenter/autoforms/Arrows/ArrowLeftDown.desktop:5
-msgid "Name=Arrow left/down"
+#, fuzzy
+msgid "Name=Arrow Left/Down"
 msgstr "Name=ລູກສອນຊ້າຍ/ລົງ"
 
 #: koffice/kpresenter/autoforms/Arrows/ArrowLeftUp.desktop:5
-msgid "Name=Arrow left/up"
+#, fuzzy
+msgid "Name=Arrow Left/Up"
 msgstr "Name=ລູກສອນຊ້າຍ/ຂື້ນ"
 
 #: koffice/kpresenter/autoforms/Arrows/ArrowRight.desktop:5
-msgid "Name=Arrow right"
+#, fuzzy
+msgid "Name=Arrow Right"
 msgstr "Name=ລູກສອນຂວາ"
 
 #: koffice/kpresenter/autoforms/Arrows/ArrowRightDown.desktop:5
-msgid "Name=Arrow right/down"
+#, fuzzy
+msgid "Name=Arrow Right/Down"
 msgstr "Name=ລູກສອນຂວາ/ລົງ"
 
 #: koffice/kpresenter/autoforms/Arrows/ArrowRightUp.desktop:5
-msgid "Name=Arrow right/up"
+#, fuzzy
+msgid "Name=Arrow Right/Up"
 msgstr "Name=ລູກສອນຂວາ/ຂື້ນ"
 
 #: koffice/kpresenter/autoforms/Arrows/ArrowUp.desktop:5
-msgid "Name=Arrow up"
+#, fuzzy
+msgid "Name=Arrow Up"
 msgstr "Name=ລູກສອນຂື້ນ"
-
-#: koffice/kpresenter/autoforms/Connections/.directory:2
-msgid "Name=Connections"
-msgstr "Name=ການເຊື່ອມຕໍ່"
 
 #: koffice/kpresenter/autoforms/Connections/Connection1.desktop:5
 msgid "Name=Connection 01"
@@ -1036,21 +1064,6 @@ msgstr "Name=ການນຳສະເຫນີຊໍ້ມູນ"
 msgid "GenericName=Slide Presentations"
 msgstr "GenericName=ການນຳສະເຫນີພາບນື່ງ"
 
-#: koffice/kpresenter/templates/A4/.directory:2
-#: koffice/kugar/kudesigner/templates/General/A4.desktop:5
-#: koffice/kword/templates/Wordprocessing/A4.desktop:5
-msgid "Name=A4"
-msgstr "Name=A4"
-
-#: koffice/kpresenter/templates/Screen/.directory:2
-msgid "Name=Screen"
-msgstr "Name=ຫນ້າຈໍ"
-
-#: koffice/kpresenter/templates/Screenpresentations/.directory:2
-#, fuzzy
-msgid "Name=Screen Presentations"
-msgstr "Name=ນຳສະເຫນີຫນ້າຈໍ"
-
 #: koffice/kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:4
 msgid "Name=Blue Breeze Double"
 msgstr "Name=ສີຟ້າອ່ອນແບບຄູ່"
@@ -1063,7 +1076,7 @@ msgstr "Name=ພາບສີຟ້າອ່ອນ"
 msgid "Name=Blue Breeze Single"
 msgstr "Name=ສີຟ້າອ່ອນແບບດ່ຽວ"
 
-#: koffice/kpresenter/templates/Screenpresentations/CopperPlain.desktop:3
+#: koffice/kpresenter/templates/Screenpresentations/CopperPlain.desktop:4
 msgid "Name=Copper Plain"
 msgstr "Name=Copper Plain"
 
@@ -1112,7 +1125,6 @@ msgid "Name=Two Column Portrait"
 msgstr "Name=ແນວຕັັ້ງແບບສອງແຖວ"
 
 #: koffice/kpresenter/templates/common_desktop/emptyLandscape.desktop:4
-#: koffice/krita/data/templates/.directory:2
 #, fuzzy
 msgid "Name=Empty"
 msgstr "Name=ວ່າງ"
@@ -1122,16 +1134,39 @@ msgstr "Name=ວ່າງ"
 msgid "Name=Empty Portrait"
 msgstr "Name=ແນວຕັ້ງວ່າງ"
 
-#: koffice/kpresenter/templates/legal/.directory:2
-#: koffice/kugar/kudesigner/templates/General/Legal.desktop:5
-msgid "Name=Legal"
-msgstr "Name=Legal"
+#: koffice/krita/data/krita_filter.desktop:4
+#, fuzzy
+msgid "Comment=Filter plugin for Krita"
+msgstr ""
+"Comment=ปลั๊กอินบราวเซอร์ไพธอนส"
+"ำหรับ Kate"
 
-#: koffice/kpresenter/templates/letter/.directory:2
-msgid "Name=Letter"
-msgstr "Name=Letter"
+#: koffice/krita/data/krita_module.desktop:4
+#: koffice/krita/modules/krita_module.desktop:4
+#, fuzzy
+msgid "Comment=Core functionality module for Krita"
+msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
 
-#: koffice/krita/data/templates/empty.desktop:41
+#: koffice/krita/data/krita_paintop.desktop:4
+#, fuzzy
+msgid "Comment=paint operation plugin for Krita"
+msgstr ""
+"Comment=ปลั๊กอินบราวเซอร์ไพธอนส"
+"ำหรับ Kate"
+
+#: koffice/krita/data/krita_plugin.desktop:4
+#, fuzzy
+msgid "Comment=Plugin functionality module for Krita"
+msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
+
+#: koffice/krita/data/krita_tool.desktop:4
+#, fuzzy
+msgid "Comment=Tool plugin for Krita"
+msgstr ""
+"Comment=ปลั๊กอินบราวเซอร์ไพธอนส"
+"ำหรับ Kate"
+
+#: koffice/krita/data/templates/empty.desktop:43
 #, fuzzy
 msgid "Comment=Create an empty document"
 msgstr "Comment=เอกสารเปล่า"
@@ -1140,7 +1175,7 @@ msgstr "Comment=เอกสารเปล่า"
 msgid "Name=Krita"
 msgstr "Name=ກຣິຕາ"
 
-#: koffice/krita/krita.desktop:9 koffice/krita/kritapart.desktop:30
+#: koffice/krita/krita.desktop:9
 msgid "GenericName=Image Manipulation Program"
 msgstr "GenericName=ໂປຣແກມຕົກແຕ່ງຮູບພາບ "
 
@@ -1149,98 +1184,218 @@ msgstr "GenericName=ໂປຣແກມຕົກແຕ່ງຮູບພາບ "
 msgid "Name=KOffice Image Manipulation Component"
 msgstr "GenericName=ໂປຣແກມຕົກແຕ່ງຮູບພາບ "
 
-#: koffice/krita/modules/colorspace_cmyk/kritacmykplugin.desktop:2
+#: koffice/krita/kritapart.desktop:32
+#, fuzzy
+msgid "GenericName=Image Manipulation"
+msgstr "GenericName=ໂປຣແກມຕົກແຕ່ງຮູບພາບ "
+
+#: koffice/krita/modules/colorspace_cmyk/kritacmykplugin.desktop:3
 #, fuzzy
 msgid "Name=CMYK Color Model"
 msgstr "Name=โมดูลทดสอบ KDED"
 
-#: koffice/krita/modules/colorspace_cmyk/kritacmykplugin.desktop:19
+#: koffice/krita/modules/colorspace_cmyk/kritacmykplugin.desktop:23
 msgid "Comment=Color model for 8-bit/channel CMYK images"
 msgstr ""
-
-#: koffice/krita/modules/colorspace_cmyk/templates/.directory:2
-#, fuzzy
-msgid "Name=CMYK"
-msgstr "Name=KDE"
 
 #: koffice/krita/modules/colorspace_cmyk/templates/white_2000x800.desktop:6
 msgid "Name=White 2000 x 800"
 msgstr ""
 
-#: koffice/krita/modules/colorspace_cmyk/templates/white_2000x800.desktop:19
+#: koffice/krita/modules/colorspace_cmyk/templates/white_2000x800.desktop:22
 msgid "Comment=Creates a white CMYK image of 2000 x 800 pixels."
 msgstr ""
 
-#: koffice/krita/modules/colorspace_gray/kritagrayplugin.desktop:2
+#: koffice/krita/modules/colorspace_gray/kritagrayplugin.desktop:3
 #, fuzzy
 msgid "Name=Grayscale Color Model"
 msgstr "Name=สีเท็จ"
 
-#: koffice/krita/modules/colorspace_gray/kritagrayplugin.desktop:18
+#: koffice/krita/modules/colorspace_gray/kritagrayplugin.desktop:20
 #, fuzzy
 msgid "Comment=Color model for 8-bit grayscale images"
 msgstr "Comment=แฟ้มที่จะใช้เปิดเชลล์"
-
-#: koffice/krita/modules/colorspace_gray/templates/.directory:2
-#, fuzzy
-msgid "Name=Grayscale"
-msgstr "Name=คริสตัล"
 
 #: koffice/krita/modules/colorspace_gray/templates/white_640x480.desktop:6
 #, fuzzy
 msgid "Name=White Background, 640 x 480"
 msgstr "Name=พื้นหลัง"
 
-#: koffice/krita/modules/colorspace_gray/templates/white_640x480.desktop:19
+#: koffice/krita/modules/colorspace_gray/templates/white_640x480.desktop:21
 msgid "Comment=Creates an image of 640 x 480 pixels with a white background."
 msgstr ""
 
-#: koffice/krita/modules/colorspace_rgb/kritargbplugin.desktop:2
+#: koffice/krita/modules/colorspace_rgb/kritargbplugin.desktop:3
 #, fuzzy
 msgid "Name=RGB Color Model"
 msgstr "Name=สร้างโมเดล Povray"
 
-#: koffice/krita/modules/colorspace_rgb/kritargbplugin.desktop:19
+#: koffice/krita/modules/colorspace_rgb/kritargbplugin.desktop:22
 #, fuzzy
 msgid "Comment=Color model for 8-bit/channel RGB images"
 msgstr "Comment=แฟ้มที่จะใช้เปิดเชลล์"
 
-#: koffice/krita/modules/colorspace_rgb/templates/.directory:2
+#: koffice/krita/modules/colorspace_rgb/templates/transparent_1024x768.desktop:6
+msgid "Name=Transparent 1024 x 768"
+msgstr ""
+
+#: koffice/krita/modules/colorspace_rgb/templates/transparent_1024x768.desktop:22
 #, fuzzy
-msgid "Name=RGB"
-msgstr "Name=ຮອຍເປື້້້້້້້້້້້້ອນ "
+msgid "Comment=Creates a transparent image of 1024 x 768 pixels."
+msgstr "Comment=คลาสของเครื่องพิมพ์"
+
+#: koffice/krita/modules/colorspace_rgb/templates/transparent_1280x1024.desktop:6
+#, fuzzy
+msgid "Name=Transparent 1280 x 1024"
+msgstr "Name=ແຄນາດາ "
+
+#: koffice/krita/modules/colorspace_rgb/templates/transparent_1280x1024.desktop:22
+#, fuzzy
+msgid "Comment=Creates a transparent image of 1280 x 1024 pixels."
+msgstr "Comment=คลาสของเครื่องพิมพ์"
 
 #: koffice/krita/modules/colorspace_rgb/templates/transparent_1600x1200.desktop:6
 msgid "Name=Transparent 1600 x 1200"
 msgstr ""
 
-#: koffice/krita/modules/colorspace_rgb/templates/transparent_1600x1200.desktop:19
+#: koffice/krita/modules/colorspace_rgb/templates/transparent_1600x1200.desktop:22
 msgid "Comment=Creates a transparent image of 1600 x 1200 pixels."
 msgstr ""
+
+#: koffice/krita/modules/colorspace_rgb/templates/transparent_640x480.desktop:6
+#, fuzzy
+msgid "Name=Transparent 640 x 480"
+msgstr "Name=พื้นหลัง"
+
+#: koffice/krita/modules/colorspace_rgb/templates/transparent_640x480.desktop:22
+#, fuzzy
+msgid "Comment=Creates a transparent image of 640 x 480 pixels."
+msgstr "Comment=คลาสของเครื่องพิมพ์"
 
 #: koffice/krita/modules/colorspace_rgb/templates/white_1024x768.desktop:6
 msgid "Name=White 1024 x 768"
 msgstr ""
 
-#: koffice/krita/modules/colorspace_rgb/templates/white_1024x768.desktop:20
+#: koffice/krita/modules/colorspace_rgb/templates/white_1024x768.desktop:23
 msgid "Comment=Creates a white RGB image of 1024 x 768 pixels."
 msgstr ""
+
+#: koffice/krita/modules/colorspace_rgb/templates/white_1280x1024.desktop:6
+msgid "Name=White 1280 x 1024"
+msgstr ""
+
+#: koffice/krita/modules/colorspace_rgb/templates/white_1280x1024.desktop:23
+#, fuzzy
+msgid "Comment=Creates a white RGB image of 1280 x 1024 pixels."
+msgstr "Comment=คลาสของเครื่องพิมพ์"
+
+#: koffice/krita/modules/colorspace_rgb/templates/white_1600x1200.desktop:6
+#, fuzzy
+msgid "Name=White 1600 x 1200"
+msgstr "Name=พื้นหลัง"
+
+#: koffice/krita/modules/colorspace_rgb/templates/white_1600x1200.desktop:23
+#, fuzzy
+msgid "Comment=Creates a white RGB image of 1600 x 1200 pixels."
+msgstr "Comment=คลาสของเครื่องพิมพ์"
 
 #: koffice/krita/modules/colorspace_rgb/templates/white_640x480.desktop:6
 msgid "Name=White 640x480"
 msgstr ""
 
-#: koffice/krita/modules/colorspace_rgb/templates/white_640x480.desktop:20
+#: koffice/krita/modules/colorspace_rgb/templates/white_640x480.desktop:23
 #, fuzzy
 msgid "Comment=Creates a white RGB image of 640 x 480 pixels."
 msgstr "Comment=คลาสของเครื่องพิมพ์"
 
-#: koffice/krita/modules/krita_module.desktop:4
+#: koffice/krita/modules/colorspace_wet/kritawetplugin.desktop:3
 #, fuzzy
-msgid "Comment=Core functionality module for Krita"
-msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
+msgid "Name=Watercolor Paint Plugin"
+msgstr "Name=ปลั๊กอินโหมดไลน์ของ Kate"
 
-#: koffice/krita/tools/kritadefaulttools.desktop:2
+#: koffice/krita/modules/colorspace_wet/kritawetplugin.desktop:4
+msgid "Comment=Color model and tools for painting with simulated watercolors"
+msgstr ""
+
+#: koffice/krita/modules/colorspace_ws/kritawsplugin.desktop:2
+#, fuzzy
+msgid "Name=Wet & Sticky Canvas Color Model"
+msgstr "Name=โมดูลทดสอบ KDED"
+
+#: koffice/krita/paintops/kritadefaultpaintops.desktop:3
+#, fuzzy
+msgid "Name=Default Paint Operations"
+msgstr "Name=ค่าปริยาย"
+
+#: koffice/krita/paintops/kritadefaultpaintops.desktop:16
+#, fuzzy
+msgid "Comment=Default paint operations"
+msgstr "GenericName=ข้อมูล DMA"
+
+#: koffice/krita/plugins/cimg/kritacimg.desktop:3
+#, fuzzy
+msgid "Name=CImg Image Restoration Filter"
+msgstr "Name=ตัวกรองการบีบอัดของ KDE"
+
+#: koffice/krita/plugins/cimg/kritacimg.desktop:11
+#, fuzzy
+msgid "Comment=CImg Image restoration filter"
+msgstr ""
+"Comment=ตัวกรองการเลือกหน้า/การ"
+"จัดลำดับ"
+
+#: koffice/krita/plugins/colorrange/kritatoolselectpicker.desktop:3
+#, fuzzy
+msgid "Name=Color Picker Select Tool"
+msgstr "Name=เครื่องมือเลือกสี"
+
+#: koffice/krita/plugins/imagemagick/kritamagick.desktop:3
+#, fuzzy
+msgid "Name=ImageMagick Wrapper"
+msgstr "Name=เครื่องมือแสดงภาพ"
+
+#: koffice/krita/plugins/imagemagick/kritamagick.desktop:12
+#, fuzzy
+msgid "Comment=ImageMagick based import/export and file conversion"
+msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
+
+#: koffice/krita/plugins/selectiontools/kritaselectiontools.desktop:3
+#, fuzzy
+msgid "Name=Selection Tools"
+msgstr "Name=ค่าปริยาย"
+
+#: koffice/krita/plugins/tool_crop/kritatoolcrop.desktop:3
+#: koffice/krita/plugins/tool_transform/kritatooltransform.desktop:3
+#, fuzzy
+msgid "Name=Crop Tool"
+msgstr "Name=การเข้ารหัส"
+
+#: koffice/krita/plugins/tool_filter/kritatoolfilter.desktop:3
+#, fuzzy
+msgid "Name=Filter Tool"
+msgstr "Name=เครื่องคิดเลข"
+
+#: koffice/krita/plugins/tool_filter/kritatoolfilter.desktop:18
+#, fuzzy
+msgid "Comment=Filter tool and paint operation"
+msgstr "Comment=ประมวลผลทศนิยมผิดพลาด"
+
+#: koffice/krita/plugins/tool_polygon/kritatoolpolygon.desktop:3
+#, fuzzy
+msgid "Name=Polygon Tool"
+msgstr "Name=เครื่องคิดเลข"
+
+#: koffice/krita/plugins/tool_polyline/kritatoolpolyline.desktop:3
+#, fuzzy
+msgid "Name=Polyline Tool"
+msgstr "Name=เครื่องคิดเลข"
+
+#: koffice/krita/plugins/tool_star/kritatoolstar.desktop:3
+#, fuzzy
+msgid "Name=Star Tool"
+msgstr "Name=เครื่องคิดเลข"
+
+#: koffice/krita/tools/kritadefaulttools.desktop:3
 #, fuzzy
 msgid "Name=Default Tools"
 msgstr "Name=ค่าปริยาย"
@@ -1249,7 +1404,7 @@ msgstr "Name=ค่าปริยาย"
 msgid "Name=KSpread"
 msgstr "Name=ເຈ້ຍຄິດໄລ່ K "
 
-#: koffice/kspread/kspread.desktop:13 koffice/kspread/kspreadpart.desktop:30
+#: koffice/kspread/kspread.desktop:13 koffice/kspread/kspreadpart.desktop:32
 msgid "GenericName=Spreadsheets"
 msgstr "GenericName=ເຈ້ຍຄິດໄລ່ "
 
@@ -1259,10 +1414,6 @@ msgid "Name=KOffice Spreadsheet Component"
 msgstr ""
 "Comment=ຄອມໂພເນນຕຂອງໂປຣແກມຊຸດສໍ"
 "ານັກງານ K "
-
-#: koffice/kspread/templates/Business/.directory:2
-msgid "Name=Business"
-msgstr "Name=ເສັ້ນ "
 
 #: koffice/kspread/templates/Business/BalanceSheet.desktop:5
 #, fuzzy
@@ -1287,38 +1438,15 @@ msgstr "Name=ลื่นไถล"
 msgid "Name=Price Quotation"
 msgstr "Name=พาร์ติชัน"
 
-#: koffice/kspread/templates/General/.directory:2
-#: koffice/kugar/kudesigner/templates/General/.directory:2
-msgid "Name=General"
-msgstr "Name=ທົ່ວໄປ "
-
-#: koffice/kspread/templates/General/Calendar2003.desktop:5
-msgid "Name=Calendar 2003"
-msgstr "Name=ແຄນາດາ "
-
-#: koffice/kspread/templates/General/Calendar2004.desktop:5
-#, fuzzy
-msgid "Name=Calendar 2004"
-msgstr "Name=ແຄນາດາ "
-
 #: koffice/kspread/templates/General/StudentIDCard.desktop:5
 msgid "Name=Student ID Card"
 msgstr "Name=ມາດຕະຖານ"
-
-#: koffice/kspread/templates/General/Worksheet.desktop:5
-msgid "Name=Blank Worksheet"
-msgstr "Name=ແຜນງານເປົ່າ "
-
-#: koffice/kspread/templates/HomeFamily/.directory:2
-#, fuzzy
-msgid "Name=Home and Family"
-msgstr "Name=ຄົ້ນຫາແຟ້ມ "
 
 #: koffice/kspread/templates/HomeFamily/BMI.desktop:5
 msgid "Name=BMI Calculator"
 msgstr "Name=BMI ເຄື່ອງຄິດເລກ"
 
-#: koffice/kspread/templates/HomeFamily/BMI.desktop:48
+#: koffice/kspread/templates/HomeFamily/BMI.desktop:50
 msgid "Comment=Simple Body Mass Index Calculator."
 msgstr ""
 
@@ -1341,11 +1469,12 @@ msgstr "Name=ถาดนำทาง"
 msgid "Name=Kugar Designer"
 msgstr "Name=ອອກແບບລາຍງານ K "
 
-#: koffice/kugar/kudesigner/kudesigner.desktop:42
-msgid "GenericName=Report Template Designer"
+#: koffice/kugar/kudesigner/kudesigner.desktop:43
+#, fuzzy
+msgid "GenericName=Report Template"
 msgstr "GenericName=ແຟ້ມແມ່ແບບລາຍງານ K "
 
-#: koffice/kugar/kudesigner/kudesigner.desktop:82
+#: koffice/kugar/kudesigner/kudesigner.desktop:84
 msgid "Comment=Report Designer"
 msgstr "Comment=ຕົວອອກແບບລາຍງານ "
 
@@ -1364,6 +1493,11 @@ msgstr "Name=A2"
 #: koffice/kugar/kudesigner/templates/General/A3.desktop:5
 msgid "Name=A3"
 msgstr "Name=A3"
+
+#: koffice/kugar/kudesigner/templates/General/A4.desktop:5
+#: koffice/kword/templates/Wordprocessing/A4.desktop:5
+msgid "Name=A4"
+msgstr "Name=A4"
 
 #: koffice/kugar/kudesigner/templates/General/A5.desktop:5
 msgid "Name=A5"
@@ -1453,6 +1587,10 @@ msgstr "Name=ສາຍນໍ້າ"
 msgid "Name=Ledger"
 msgstr "Name=Ledger "
 
+#: koffice/kugar/kudesigner/templates/General/Legal.desktop:5
+msgid "Name=Legal"
+msgstr "Name=Legal"
+
 #: koffice/kugar/kudesigner/templates/General/Letter.desktop:5
 #: koffice/kword/templates/Wordprocessing/Letter.desktop:5
 msgid "Name=US Letter"
@@ -1470,7 +1608,7 @@ msgstr "Name=ລາຍໄມ້ "
 msgid "Name=Kugar"
 msgstr "Name=ຄູການ "
 
-#: koffice/kugar/part/kugar.desktop:13 koffice/kugar/part/kugarpart.desktop:30
+#: koffice/kugar/part/kugar.desktop:13 koffice/kugar/part/kugarpart.desktop:32
 msgid "GenericName=Report Generator"
 msgstr "GenericName=ເຄື່ອງມືສ້າງລາຍງານ "
 
@@ -1489,7 +1627,7 @@ msgstr ""
 msgid "Name=KWord"
 msgstr "Name=ເອກະສານຂໍ້ຄວາມ K"
 
-#: koffice/kword/kword.desktop:15 koffice/kword/kwordpart.desktop:29
+#: koffice/kword/kword.desktop:15 koffice/kword/kwordpart.desktop:31
 msgid "GenericName=Word Processing"
 msgstr "GenericName=ໂປຣແກມປະມວນຜົນຄໍາ"
 
@@ -1503,7 +1641,7 @@ msgstr "Name=ประมวลผลคำ"
 msgid "Name=KDE Addressbook Plugin"
 msgstr "Name=สมุดที่อยู่"
 
-#: koffice/kword/mailmerge/kabc/kwmailmerge_kabc.desktop:39
+#: koffice/kword/mailmerge/kabc/kwmailmerge_kabc.desktop:41
 #, fuzzy
 msgid "Comment=This datasource type lets you use your KDE Address Book entries."
 msgstr ""
@@ -1516,7 +1654,7 @@ msgstr ""
 msgid "Name=KSpread Table Source"
 msgstr "Name=ສອຍຄີວ - K"
 
-#: koffice/kword/mailmerge/kspread/kwmailmerge_kspread.desktop:24
+#: koffice/kword/mailmerge/kspread/kwmailmerge_kspread.desktop:27
 #, fuzzy
 msgid "Comment=This datasource type lets you use your entries from a kspread file."
 msgstr ""
@@ -1528,16 +1666,17 @@ msgstr ""
 msgid "Name=Internal Storage"
 msgstr "Name=ສື່ເກັບຂໍ້ມູນພາຍໃນ "
 
-#: koffice/kword/mailmerge/kwserialletter_classic.desktop:55
+#: koffice/kword/mailmerge/kwserialletter_classic.desktop:56
 msgid "Comment=This datasource type stores the data directly in the KWord file"
 msgstr "Comment=This datasource type stores the data directly in the KWord file"
 
 #: koffice/kword/mailmerge/sql/kwserialletter_qtsqldb.desktop:6
-msgid "Name=Qt-SQL source (single table)"
+#, fuzzy
+msgid "Name=Qt-SQL Source (single table)"
 msgstr "Name=ແຫລ່ງ Qt-SQL (ຕາຕະລາງດຽວ) "
 
-#: koffice/kword/mailmerge/sql/kwserialletter_qtsqldb.desktop:55
-#: koffice/kword/mailmerge/sql/kwserialletter_qtsqldb_power.desktop:35
+#: koffice/kword/mailmerge/sql/kwserialletter_qtsqldb.desktop:56
+#: koffice/kword/mailmerge/sql/kwserialletter_qtsqldb_power.desktop:37
 msgid ""
 "Comment=This datasource type lets you use SQL database tables stored on a "
 "SQL Server. Depending on your system configuration, MySQL, PostgreSQL and "
@@ -1554,30 +1693,21 @@ msgstr ""
 msgid "Name=Qt-SQL Source (power user)"
 msgstr "Name=ແຫລ່ງQt-SQL (ຜູ້ໃຊ້ຂັ້ນສູງ)"
 
-#: koffice/kword/templates/CardsAndLabels/.directory:2
-#, fuzzy
-msgid "Name=Cards and Labels"
-msgstr "Name=เกมไพ่ต่างๆ"
-
-#: koffice/kword/templates/CardsAndLabels/BusinessCards10.desktop:3
+#: koffice/kword/templates/CardsAndLabels/BusinessCards10.desktop:4
 #, fuzzy
 msgid "Name=Business Cards 10"
 msgstr "Name=ເສັ້ນ "
 
-#: koffice/kword/templates/CardsAndLabels/LabelsL16.desktop:3
+#: koffice/kword/templates/CardsAndLabels/LabelsL16.desktop:4
 #, fuzzy
 msgid "Name=Labels L16"
 msgstr "Name=KBabel"
-
-#: koffice/kword/templates/DTP/.directory:2
-msgid "Name=Page Layout"
-msgstr "Name=ການຈັດວາງຫນ້າເຈ້ຍ"
 
 #: koffice/kword/templates/DTP/Empty.desktop:5
 msgid "Name=Empty Page"
 msgstr "Name=ຂໍ້ມູນຫວ້າງ"
 
-#: koffice/kword/templates/DTP/Empty.desktop:43
+#: koffice/kword/templates/DTP/Empty.desktop:45
 msgid "Comment=Empty document, for completely custom layout."
 msgstr ""
 
@@ -1585,7 +1715,7 @@ msgstr ""
 msgid "Name=Simple Layout"
 msgstr "Name=ການຈັດວາງທໍາມະດາ"
 
-#: koffice/kword/templates/DTP/SimpleLayout.desktop:61
+#: koffice/kword/templates/DTP/SimpleLayout.desktop:62
 #, fuzzy
 msgid "Comment=Simple Layout based on a two columns document"
 msgstr ""
@@ -1596,31 +1726,22 @@ msgstr ""
 msgid "Name=Fax Template"
 msgstr "Name=ຕົ້ນແບບໂທລະສານ"
 
-#: koffice/kword/templates/DTP/fax.desktop:53
+#: koffice/kword/templates/DTP/fax.desktop:54
 #, fuzzy
 msgid "Comment=Fax document, with a header"
 msgstr ""
 "Comment=เอกสาร Troff พร้อมด้วยมาโคร "
 "manpage"
 
-#: koffice/kword/templates/Envelopes/.directory:2
-#, fuzzy
-msgid "Name=Envelopes"
-msgstr "Name=ผู้พัฒนา"
-
-#: koffice/kword/templates/Envelopes/EnvelopeC6.desktop:3
+#: koffice/kword/templates/Envelopes/EnvelopeC6.desktop:4
 #, fuzzy
 msgid "Name=Envelope C6"
 msgstr "Name=ผู้พัฒนา"
 
-#: koffice/kword/templates/Envelopes/EnvelopeDL.desktop:3
+#: koffice/kword/templates/Envelopes/EnvelopeDL.desktop:4
 #, fuzzy
 msgid "Name=Envelope DL"
 msgstr "Name=ผู้พัฒนา"
-
-#: koffice/kword/templates/Wordprocessing/.directory:2
-msgid "Name=Text Oriented"
-msgstr "Name=ທິດທາງການຈັດວາງຂໍ້ຄວາມ"
 
 #: koffice/kword/templates/Wordprocessing/A4.desktop:10
 #, fuzzy
@@ -1636,7 +1757,7 @@ msgstr "Comment=นำเสนอ - K"
 msgid "Name=Memo"
 msgstr "Name=ບັນທຶກຄວາມຈໍາ"
 
-#: koffice/kword/templates/Wordprocessing/Memo.desktop:41
+#: koffice/kword/templates/Wordprocessing/Memo.desktop:42
 msgid "Comment=Creates a Memo which can be useful in corporations."
 msgstr ""
 
@@ -1644,7 +1765,7 @@ msgstr ""
 msgid "Name=Plain Text"
 msgstr "Name=ຂໍ້ຄວາມທໍາມະດາ"
 
-#: koffice/kword/templates/Wordprocessing/PlainText.desktop:64
+#: koffice/kword/templates/Wordprocessing/PlainText.desktop:65
 #, fuzzy
 msgid "Comment=Text document in A4 format."
 msgstr "GenericName=ข้อมูลระบบเสียง"
@@ -1818,7 +1939,7 @@ msgstr ""
 msgid "Name=Illustration Document..."
 msgstr "Name=ເກະສານພາບວາດ Illustration "
 
-#: koffice/templates/Illustration.desktop:34
+#: koffice/templates/Illustration.desktop:36
 #, fuzzy
 msgid "Comment=New Karbon14 document:"
 msgstr "Comment=เอกสารของ AbiWord"
@@ -1828,7 +1949,7 @@ msgstr "Comment=เอกสารของ AbiWord"
 msgid "Name=Presentation Document..."
 msgstr "Name=ເອກະສານການນໍາສະເຫນີ"
 
-#: koffice/templates/Presentation.desktop:35
+#: koffice/templates/Presentation.desktop:37
 msgid "Comment=New KPresenter presentation document:"
 msgstr ""
 "Comment=ສ້າງເກະສານການນໍາສະເຫນີໃ"
@@ -1839,7 +1960,7 @@ msgstr ""
 msgid "Name=Spread Sheet Document..."
 msgstr "Name=ເອກະສານເຈ້ຍຄິດໄລ່"
 
-#: koffice/templates/SpreadSheet.desktop:36
+#: koffice/templates/SpreadSheet.desktop:38
 msgid "Comment=New KSpread document:"
 msgstr ""
 "Comment=ສ້າງເອກະສານເຈ້ຍຄິດໄລ່ K "
@@ -1850,7 +1971,7 @@ msgstr ""
 msgid "Name=Text Document..."
 msgstr "Name=ເອກະສານຂໍ້ຄວາມ"
 
-#: koffice/templates/TextDocument.desktop:37
+#: koffice/templates/TextDocument.desktop:39
 msgid "Comment=New KWord document:"
 msgstr "Comment=ສ້າງເອກະສານຂໍ້ຄວາມ K ໃຫມ່"
 
@@ -1886,7 +2007,7 @@ msgstr "Name=ເຄື່ອງພິມ - K"
 msgid "Name=Spell Checker Tool"
 msgstr "Name=ເຄື່ອງມືກວດຄໍາສິກົດ"
 
-#: koffice/tools/spell/kspelltool.desktop:64
+#: koffice/tools/spell/kspelltool.desktop:65
 msgid "Comment=Check this Word's Spelling"
 msgstr "Comment=ກວດສອບຄໍາສະກົດຂອງຄໍານີ້"
 
@@ -1894,7 +2015,7 @@ msgstr "Comment=ກວດສອບຄໍາສະກົດຂອງຄໍານ�
 msgid "Name=Thesaurus Tool"
 msgstr "Name=ເຄື່ອງມືຄໍາຟ້ອງ "
 
-#: koffice/tools/thesaurus/thesaurustool.desktop:54
+#: koffice/tools/thesaurus/thesaurustool.desktop:55
 msgid "Comment=Show Related Words"
 msgstr "Comment=ສະແດງຄໍາທີ່ສໍາພັນກັນ"
 
@@ -1913,6 +2034,76 @@ msgid "Name=Other Office Files"
 msgstr ""
 "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານຕົ"
 "ວອື່ນ"
+
+#, fuzzy
+#~ msgid "GenericName=Qt Designer UI File Editor"
+#~ msgstr "GenericName=เครื่องมือแก้ไข X"
+
+#, fuzzy
+#~ msgid "GenericName=Database creation for everyone"
+#~ msgstr "GenericName=ເຄື່ອງມືສຳຈັດການບັກສຳລັບ KDE"
+
+#~ msgid "Name=Calendar 2003"
+#~ msgstr "Name=ແຄນາດາ "
+
+#, fuzzy
+#~ msgid "Name=Basic"
+#~ msgstr "Name=แดงคลาสสิค"
+
+#~ msgid "Name=Simple"
+#~ msgstr "Name=ເອກກະສານທົ່ວໄປ"
+
+#~ msgid "Name=Arrows"
+#~ msgstr "Name=ລູກສອນ"
+
+#~ msgid "Name=Connections"
+#~ msgstr "Name=ການເຊື່ອມຕໍ່"
+
+#~ msgid "Name=Screen"
+#~ msgstr "Name=ຫນ້າຈໍ"
+
+#, fuzzy
+#~ msgid "Name=Screen Presentations"
+#~ msgstr "Name=ນຳສະເຫນີຫນ້າຈໍ"
+
+#~ msgid "Name=Letter"
+#~ msgstr "Name=Letter"
+
+#, fuzzy
+#~ msgid "Name=CMYK"
+#~ msgstr "Name=KDE"
+
+#, fuzzy
+#~ msgid "Name=Grayscale"
+#~ msgstr "Name=คริสตัล"
+
+#, fuzzy
+#~ msgid "Name=RGB"
+#~ msgstr "Name=ຮອຍເປື້້້້້້້້້້້້ອນ "
+
+#~ msgid "Name=Business"
+#~ msgstr "Name=ເສັ້ນ "
+
+#~ msgid "Name=General"
+#~ msgstr "Name=ທົ່ວໄປ "
+
+#, fuzzy
+#~ msgid "Name=Home and Family"
+#~ msgstr "Name=ຄົ້ນຫາແຟ້ມ "
+
+#, fuzzy
+#~ msgid "Name=Cards and Labels"
+#~ msgstr "Name=เกมไพ่ต่างๆ"
+
+#~ msgid "Name=Page Layout"
+#~ msgstr "Name=ການຈັດວາງຫນ້າເຈ້ຍ"
+
+#, fuzzy
+#~ msgid "Name=Envelopes"
+#~ msgstr "Name=ผู้พัฒนา"
+
+#~ msgid "Name=Text Oriented"
+#~ msgstr "Name=ທິດທາງການຈັດວາງຂໍ້ຄວາມ"
 
 #, fuzzy
 #~ msgid "Name=KFormDesignerPart"
@@ -2285,17 +2476,11 @@ msgstr ""
 #~ msgid "Name=Kate Python Browser Plugin"
 #~ msgstr "Name=ปลั๊กอินบราวเซอร์ไพธอนของ Kate"
 
-#~ msgid "Comment=A Python browser plugin for Kate"
-#~ msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอนสำหรับ Kate"
-
 #~ msgid "Name=KPyBrowser"
 #~ msgstr "Name=บราวเซอร์ไพธอน"
 
 #~ msgid "Comment="
 #~ msgstr "Comment="
-
-#~ msgid "Name=Kate Modeline Plugin"
-#~ msgstr "Name=ปลั๊กอินโหมดไลน์ของ Kate"
 
 #~ msgid "Comment=Opens the corresponding .h/[.cpp|.c] file"
 #~ msgstr "Comment=เปิดแฟ้มที่มีรูปแบบ .h/[.cpp|.c]"
@@ -2334,9 +2519,6 @@ msgstr ""
 
 #~ msgid "Name=Text File Info"
 #~ msgstr "Name=ข้อมูลแฟ้มข้อความ"
-
-#~ msgid "Name=Color Picker"
-#~ msgstr "Name=เครื่องมือเลือกสี"
 
 #~ msgid "Comment=Pick colors from anywhere and get their values"
 #~ msgstr "Comment=เลือกสีจากที่ใด ๆ และรับค่าของมัน"
@@ -2395,10 +2577,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Comment=Fast way to change the KHTML settings"
 #~ msgstr "Comment=ตั้งค่าวันและเวลา"
-
-#, fuzzy
-#~ msgid "Name=Image gallery"
-#~ msgstr "Name=เครื่องมือแสดงภาพ"
 
 #, fuzzy
 #~ msgid "Comment=Easy way to generate a HTML image gallery"
@@ -3424,9 +3602,6 @@ msgstr ""
 #~ msgid "Comment=Aborted."
 #~ msgstr "Comment=ยกเลิกแล้ว"
 
-#~ msgid "Comment=Floating point exception."
-#~ msgstr "Comment=ประมวลผลทศนิยมผิดพลาด"
-
 #~ msgid "Comment=Invalid memory reference."
 #~ msgstr "Comment=อ้างอิงไปยังหน่วยความจำไม่ถูกต้อง"
 
@@ -3835,9 +4010,6 @@ msgstr ""
 #~ msgid "Name=System Log Viewer"
 #~ msgstr "Name=ค่าบันทึกการทำงานของระบบ"
 
-#~ msgid "Name=Calctool"
-#~ msgstr "Name=เครื่องคิดเลข"
-
 #~ msgid "Name=E-Notes"
 #~ msgstr "Name=บันทึกช่วยจำ E"
 
@@ -3970,9 +4142,6 @@ msgstr ""
 #~ msgid "Keywords=components,component chooser,resources"
 #~ msgstr "Keywords=คอมโพนเน็นต์,เลือกคอมโพเน็นต์,ทรัพยากร"
 
-#~ msgid "Name=Crypto"
-#~ msgstr "Name=การเข้ารหัส"
-
 #~ msgid "Comment=Configure SSL, manage certificates, and other cryptography settings"
 #~ msgstr "Comment=ปรับแต่ง SSL, จัดการใบรับรอง และตั้งการการเข้ารหัสอื่นๆ"
 
@@ -4065,10 +4234,6 @@ msgstr ""
 
 #~ msgid "Name=DMA-Channels"
 #~ msgstr "Name=แชนเนล DMA"
-
-#, fuzzy
-#~ msgid "Comment=DMA information"
-#~ msgstr "GenericName=ข้อมูล DMA"
 
 #~ msgid "Name=Interrupts"
 #~ msgstr "Name=อินเตอร์รัพต์"
@@ -6214,9 +6379,6 @@ msgstr ""
 #~ msgid "Name=Water"
 #~ msgstr "Name=น้ำ"
 
-#~ msgid "Name=Beach"
-#~ msgstr "Name=อ่าว"
-
 #~ msgid "Name=Sunset"
 #~ msgstr "Name=พระอาทิตย์ตก"
 
@@ -6531,9 +6693,6 @@ msgstr ""
 #~ msgid "Comment=Scale print content to fit on another paper size"
 #~ msgstr "Comment=ปรับขนาดเนื้อหาให้พอดีกับขนาดกระดาษ"
 
-#~ msgid "Comment=Page selection/ordering filter"
-#~ msgstr "Comment=ตัวกรองการเลือกหน้า/การจัดลำดับ"
-
 #~ msgid "Name=KDE Print Deamon"
 #~ msgstr "Name=เซิร์ฟเวอร์การพิมพ์ของ KDE"
 
@@ -6644,9 +6803,6 @@ msgstr ""
 
 #~ msgid "Name=Application"
 #~ msgstr "Name=แอพพลิเคชัน"
-
-#~ msgid "Name=KDE Compression Filter"
-#~ msgstr "Name=ตัวกรองการบีบอัดของ KDE"
 
 #~ msgid "Comment=KDE Data Tool"
 #~ msgstr "Comment=เครื่องมือข้อมูลของ KDE"
@@ -7891,9 +8047,6 @@ msgstr ""
 
 #~ msgid "Name=KCVSApplet Applet"
 #~ msgstr "Name=แอพเพล็ต KCVSApplet"
-
-#~ msgid "Comment=A sample panel applet"
-#~ msgstr "Comment=แอพเพล็ตตัวอย่างพาเนล"
 
 #~ msgid "Name=ISDN Monitor"
 #~ msgstr "Name=สอดส่อง ISDN"

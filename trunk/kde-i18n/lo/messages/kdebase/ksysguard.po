@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-02-22 01:19+0100\n"
+"POT-Creation-Date: 2005-04-12 18:15+0200\n"
 "PO-Revision-Date: 2003-01-12 12:30+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -295,7 +295,7 @@ msgstr "ໂຫລດຜູ້ໃຊ້"
 msgid "Idle Load"
 msgstr "ໂຫລດວ່າງ"
 
-#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:155
+#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:157
 msgid "System Load"
 msgstr "ໂຫລດລະບົບ"
 
@@ -343,7 +343,7 @@ msgstr "ຫນ່ວຍຄວາມຈຳທີ່ເຫລືອ"
 msgid "Process Count"
 msgstr "ຕົວນັບໂປຣເຊສ"
 
-#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:144
+#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:148
 msgid "Process Controller"
 msgstr "ຕົວຄວບຄຸມໂປຣເຊສ"
 
@@ -453,7 +453,7 @@ msgstr "ຊັອກເກັຕ"
 msgid "Total Number"
 msgstr "ຫມາຍເລກລວມ"
 
-#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:145
+#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:149
 msgid "Table"
 msgstr "ຕາລາງ"
 
@@ -466,123 +466,142 @@ msgid "ACPI"
 msgstr ""
 
 #: ksgrd/SensorManager.cc:94
+msgid "Thermal Zone"
+msgstr ""
+
+#: ksgrd/SensorManager.cc:95
+#, fuzzy
+msgid "Temperature"
+msgstr "ອຸນຫະພູມ%1"
+
+#: ksgrd/SensorManager.cc:96
+#, fuzzy
+msgid "Fan"
+msgstr "ພັດລົມ%1"
+
+#: ksgrd/SensorManager.cc:97
+#, fuzzy
+msgid "State"
+msgstr "ສະຖານະ"
+
+#: ksgrd/SensorManager.cc:98
 #, fuzzy
 msgid "Battery"
 msgstr "ຊາຣ໌ແບຕເຕີຣີ"
 
-#: ksgrd/SensorManager.cc:95
+#: ksgrd/SensorManager.cc:99
 msgid "Battery Charge"
 msgstr "ຊາຣ໌ແບຕເຕີຣີ"
 
-#: ksgrd/SensorManager.cc:96
+#: ksgrd/SensorManager.cc:100
 #, fuzzy
 msgid "Battery Usage"
 msgstr "ຊາຣ໌ແບຕເຕີຣີ"
 
-#: ksgrd/SensorManager.cc:97
+#: ksgrd/SensorManager.cc:101
 msgid "Remaining Time"
 msgstr "ເວລາທີ່ເຫລືອ"
 
-#: ksgrd/SensorManager.cc:98
+#: ksgrd/SensorManager.cc:102
 msgid "Interrupts"
 msgstr "ອິນເຕີຣັພ"
 
-#: ksgrd/SensorManager.cc:99
+#: ksgrd/SensorManager.cc:103
 msgid "Load Average (1 min)"
 msgstr "ໂຫລດສະເລ່ຍ (1 ນາທີ)"
 
-#: ksgrd/SensorManager.cc:100
+#: ksgrd/SensorManager.cc:104
 msgid "Load Average (5 min)"
 msgstr "ໂຫລດສະເລ່ຍ (5 ນາທີ)"
 
-#: ksgrd/SensorManager.cc:101
+#: ksgrd/SensorManager.cc:105
 msgid "Load Average (15 min)"
 msgstr "ໂຫລດສະເລ່ຍ (15 ນາທີ)"
 
-#: ksgrd/SensorManager.cc:102
+#: ksgrd/SensorManager.cc:106
 msgid "Clock Frequency"
 msgstr "ຄວາມຖີ່ສັນຍານໂມງ"
 
-#: ksgrd/SensorManager.cc:103
+#: ksgrd/SensorManager.cc:107
 msgid "Hardware Sensors"
 msgstr "ຕົວກວດຈັບຮາຣ໌ດແວຣ໌"
 
-#: ksgrd/SensorManager.cc:104
+#: ksgrd/SensorManager.cc:108
 msgid "Partition Usage"
 msgstr "ການໃຊ້ງານພື້ນທີ່"
 
-#: ksgrd/SensorManager.cc:105
+#: ksgrd/SensorManager.cc:109
 msgid "Used Space"
 msgstr "ພື້ນທີ່ທີ່ໃຊ້ໄປ"
 
-#: ksgrd/SensorManager.cc:106
+#: ksgrd/SensorManager.cc:110
 msgid "Free Space"
 msgstr "ພື້ນທີ່ວ່າງ"
 
-#: ksgrd/SensorManager.cc:107
+#: ksgrd/SensorManager.cc:111
 msgid "Fill Level"
 msgstr "ລະດັບການຕື່ມ"
 
-#: ksgrd/SensorManager.cc:111
+#: ksgrd/SensorManager.cc:115
 #, c-format
 msgid "CPU%1"
 msgstr "ຊີພີຢູ%1"
 
-#: ksgrd/SensorManager.cc:113
+#: ksgrd/SensorManager.cc:117
 #, c-format
 msgid "Disk%1"
 msgstr "ດິສກ໌%1"
 
-#: ksgrd/SensorManager.cc:118
+#: ksgrd/SensorManager.cc:122
 #, c-format
 msgid "Fan%1"
 msgstr "ພັດລົມ%1"
 
-#: ksgrd/SensorManager.cc:120
+#: ksgrd/SensorManager.cc:124
 #, c-format
 msgid "Temperature%1"
 msgstr "ອຸນຫະພູມ%1"
 
-#: ksgrd/SensorManager.cc:123
+#: ksgrd/SensorManager.cc:127
 msgid "Total"
 msgstr "ລວມ"
 
-#: ksgrd/SensorManager.cc:129
+#: ksgrd/SensorManager.cc:133
 #, c-format
 msgid "Int%1"
 msgstr "Int%1"
 
-#: ksgrd/SensorManager.cc:136
+#: ksgrd/SensorManager.cc:140
 msgid ""
 "_: the unit 1 per second\n"
 "1/s"
 msgstr "1/ວິນາທີ"
 
-#: ksgrd/SensorManager.cc:137
+#: ksgrd/SensorManager.cc:141
 msgid "kBytes"
 msgstr "ກິໂລໄບຕ໌"
 
-#: ksgrd/SensorManager.cc:138
+#: ksgrd/SensorManager.cc:142
 msgid ""
 "_: the unit minutes\n"
 "min"
 msgstr "ນາທີ"
 
-#: ksgrd/SensorManager.cc:139
+#: ksgrd/SensorManager.cc:143
 msgid ""
 "_: the frequency unit\n"
 "MHz"
 msgstr "MHz"
 
-#: ksgrd/SensorManager.cc:142
+#: ksgrd/SensorManager.cc:146
 msgid "Integer Value"
 msgstr "ຄ່າຈຳນວນເຕັມ"
 
-#: ksgrd/SensorManager.cc:143
+#: ksgrd/SensorManager.cc:147
 msgid "Floating Point Value"
 msgstr "ຄ່າທົດນິຍົມ"
 
-#: ksgrd/SensorManager.cc:280
+#: ksgrd/SensorManager.cc:284
 #, fuzzy
 msgid "Connection to %1 has been lost."
 msgstr ""
@@ -628,7 +647,7 @@ msgstr ""
 "ກ່ອນທີ່ທ່ານຈະສາມາດລາກຕົວກ"
 "ວດຈັບມາຍັງທີ່ນີ້ໄດ້"
 
-#: Workspace.cc:104 ksysguard.cc:160
+#: Workspace.cc:104 ksysguard.cc:162
 msgid "Process Table"
 msgstr "ຕາລາງໂປຣເຊສ"
 
@@ -1760,7 +1779,7 @@ msgstr ""
 msgid "KDE system guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
-#: ksysguard.cc:71 ksysguard.cc:531
+#: ksysguard.cc:71 ksysguard.cc:534
 msgid "KDE System Guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
@@ -1803,58 +1822,58 @@ msgstr ""
 msgid "Configure &Style..."
 msgstr "ປັບແຕ່ງຮູບແບບ..."
 
-#: ksysguard.cc:141
+#: ksysguard.cc:143
 msgid "Do you really want to restore the default worksheets?"
 msgstr ""
 "ທ່ານຕ້ອງການເອີ້ນຄືນຊີດງານ"
 "ປຣິຍາຍ ແມ່ນຫລືບໍ່ ?"
 
-#: ksysguard.cc:142
+#: ksysguard.cc:144
 msgid "Reset All Worksheets"
 msgstr ""
 "ປັບຄ່າທຸກຊີດງານເປັນຄ່າປຣິ"
 "ຍາຍ"
 
-#: ksysguard.cc:411
+#: ksysguard.cc:414
 #, fuzzy, c-format
 msgid ""
 "_n: 1 Process\n"
 "%n Processes"
 msgstr "%n ໂປຣເຊສ"
 
-#: ksysguard.cc:421
+#: ksysguard.cc:424
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr ""
 "ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ %1 %2, ເຫລືອ %3 "
 "%4"
 
-#: ksysguard.cc:479
+#: ksysguard.cc:482
 msgid "No swap space available"
 msgstr ""
 
-#: ksysguard.cc:481
+#: ksysguard.cc:484
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr ""
 "ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: "
 "່ໃຊ້ໄປ %1 %2, ເຫລືອ %3 %4"
 
-#: ksysguard.cc:490
+#: ksysguard.cc:493
 msgid "Show only process list of local host"
 msgstr ""
 "ສະແດງສະເພາະລາຍການໂປຣເຊສຂອ"
 "ງໂຮສຕ໌ນີ້ເທົ່ານັ້ນ"
 
-#: ksysguard.cc:491
+#: ksysguard.cc:494
 msgid "Optional worksheet files to load"
 msgstr ""
 "ແຟ້ມຕົວເລືອກຊີດງານທີ່່ຈະເ"
 "ອີ້ນໃຊ້"
 
-#: ksysguard.cc:533
+#: ksysguard.cc:536
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(c) 1996-2002 ກຸ່ມຜູ້ພັດທະນາ KSysGuard"
 
-#: ksysguard.cc:541
+#: ksysguard.cc:544
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
