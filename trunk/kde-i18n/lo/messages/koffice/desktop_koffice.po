@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-04-12 16:25+0000\n"
+"POT-Creation-Date: 2005-04-20 13:14+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -166,6 +166,13 @@ msgid "Name=OpenOffice.org Impress Import Filter for KPresenter"
 msgstr ""
 "Name= ຕົວຕອງການນຳເຂົ້າ CSV "
 "ຂອງກະດາດຄຳນວນ K"
+
+#: koffice/filters/krita/magick/krita_magick_export.desktop:3
+#, fuzzy
+msgid "Name=Krita Magick Export Filter"
+msgstr ""
+"Name= ຕົວຕອງການນຳເຂົ້າ WML "
+"ຂອງເອກະສານຂໍ້ຄວາມ K"
 
 #: koffice/filters/krita/magick/krita_magick_import.desktop:4
 msgid "Name=Krita Magick Import Filter"
@@ -578,8 +585,13 @@ msgstr "Name=เกมกีฬา"
 
 #: koffice/kexi/data/kexiscripthandler.desktop:6
 #, fuzzy
-msgid "Name=Kexi Script Handler"
-msgstr "Name=ເປີດສ່ວນຫົວຂອງ Kate"
+msgid "GenericName=Scripts"
+msgstr "GenericName=ค้นหาแฟ้ม"
+
+#: koffice/kexi/data/kexiscripthandler.desktop:7
+#, fuzzy
+msgid "Name=Scripts"
+msgstr "Name=โซลาริส"
 
 #: koffice/kexi/data/kexiserverimportfilter.desktop:6
 msgid ""
@@ -1596,10 +1608,6 @@ msgstr "Name=Legal"
 msgid "Name=US Letter"
 msgstr "Name=US Letter"
 
-#: koffice/kugar/kudesigner/templates/General/NPageSize.desktop:5
-msgid "Name=NPageSize"
-msgstr "Name=ຕົວເອີ້ນເນື້ອທີ່ເຮັດວຽກ "
-
 #: koffice/kugar/kudesigner/templates/General/Tabloid.desktop:5
 msgid "Name=Tabloid"
 msgstr "Name=ລາຍໄມ້ "
@@ -1773,6 +1781,13 @@ msgstr "GenericName=ข้อมูลระบบเสียง"
 #: koffice/kword/templates/Wordprocessing/TwoColumns.desktop:5
 msgid "Name=Two Columns"
 msgstr "Name=ສອງຄໍລັມ "
+
+#: koffice/kword/templates/Wordprocessing/TwoColumns.desktop:64
+#, fuzzy
+msgid "Comment=Creates an A4 document with two columns per page"
+msgstr ""
+"Comment=เอกสาร Troff พร้อมด้วยมาโคร "
+"manpage"
 
 #: koffice/lib/kofficecore/kodocinfopropspage.desktop:4
 msgid "Name=KOffice Document Info Properties Page"
@@ -2034,6 +2049,13 @@ msgid "Name=Other Office Files"
 msgstr ""
 "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານຕົ"
 "ວອື່ນ"
+
+#, fuzzy
+#~ msgid "Name=Kexi Script Handler"
+#~ msgstr "Name=ເປີດສ່ວນຫົວຂອງ Kate"
+
+#~ msgid "Name=NPageSize"
+#~ msgstr "Name=ຕົວເອີ້ນເນື້ອທີ່ເຮັດວຽກ "
 
 #, fuzzy
 #~ msgid "GenericName=Qt Designer UI File Editor"
@@ -3954,10 +3976,6 @@ msgstr ""
 
 #~ msgid "GenericName=Bibliographic Database"
 #~ msgstr "GenericName=ฐานข้อมูล Bibliographic"
-
-#, fuzzy
-#~ msgid "Name=Scribus"
-#~ msgstr "Name=โซลาริส"
 
 #~ msgid "GenericName=Desktop Publishing"
 #~ msgstr "GenericName=เดสก์ทอปพับลิชชิง"
