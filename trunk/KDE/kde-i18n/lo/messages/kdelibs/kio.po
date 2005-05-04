@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-04-20 15:04+0200\n"
+"POT-Creation-Date: 2005-05-04 17:52+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -270,13 +270,13 @@ msgid ""
 "%1"
 msgstr "ບໍ່ສາມາດ bind %1 ໄດ້"
 
-#: kio/kmimetype.cpp:797
+#: kio/kmimetype.cpp:793
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr ""
 "ພາຍໃນແຟ້ມພື້ນທີ່ທຳງານ %1 "
 "ບໍ່ມີສ່ວນ Type=..."
 
-#: kio/kmimetype.cpp:818
+#: kio/kmimetype.cpp:814
 msgid ""
 "The desktop entry of type\n"
 "%1\n"
@@ -286,7 +286,7 @@ msgstr ""
 "ູ້ຈັກລາຍການ\n"
 "%1"
 
-#: kio/kmimetype.cpp:832 kio/kmimetype.cpp:934 kio/kmimetype.cpp:1084
+#: kio/kmimetype.cpp:828 kio/kmimetype.cpp:930 kio/kmimetype.cpp:1080
 msgid ""
 "The desktop entry file\n"
 "%1\n"
@@ -297,7 +297,7 @@ msgstr ""
 "ເປັນປະເພດອຸປະກອນລະບົບແຕ່ບ"
 "ໍ່ມີສ່ວນ Dev=..."
 
-#: kio/kmimetype.cpp:878
+#: kio/kmimetype.cpp:874
 msgid ""
 "The desktop entry file\n"
 "%1\n"
@@ -308,19 +308,19 @@ msgstr ""
 "ເປັນປະເພດລີງແຕ່ບໍ່ມີສ່ວນ "
 "URL=..."
 
-#: kio/kmimetype.cpp:944
+#: kio/kmimetype.cpp:940
 msgid "Mount"
 msgstr "ເມານ"
 
-#: kio/kmimetype.cpp:955
+#: kio/kmimetype.cpp:951
 msgid "Eject"
 msgstr "ເອາແຜ່ນອອກ"
 
-#: kio/kmimetype.cpp:957
+#: kio/kmimetype.cpp:953
 msgid "Unmount"
 msgstr "ຍົກເລີກເມາ"
 
-#: kio/kmimetype.cpp:1042
+#: kio/kmimetype.cpp:1038
 msgid ""
 "The desktop entry file\n"
 "%1\n"
@@ -4207,7 +4207,7 @@ msgstr "ທຸກແຟ້ມທີ່ສະຫນັບສະຫນຸນ"
 msgid "Known Applications"
 msgstr "ແອພພຣິເຄຊັນທີ່ຮູ້ຈັກ"
 
-#: kfile/kicondialog.cpp:329 kfile/kopenwith.cpp:315
+#: kfile/kicondialog.cpp:330 kfile/kopenwith.cpp:315
 msgid "Applications"
 msgstr "ແອພພຣິເຄຊັນ"
 
@@ -4337,24 +4337,24 @@ msgid "Search interactively for icon names (e.g. folder)."
 msgstr ""
 
 #. i18n: file ./kfile/knotifywidgetbase.ui line 204
-#: kfile/kicondialog.cpp:328 rc.cpp:174
+#: kfile/kicondialog.cpp:329 rc.cpp:174
 #, no-c-format
 msgid "Actions"
 msgstr "ການກະທຳ"
 
-#: kfile/kicondialog.cpp:330
+#: kfile/kicondialog.cpp:331
 msgid "Devices"
 msgstr "ອຸປະກອນ"
 
-#: kfile/kicondialog.cpp:331
+#: kfile/kicondialog.cpp:332
 msgid "Filesystems"
 msgstr "ລະບົບແຟ້ມ"
 
-#: kfile/kicondialog.cpp:332
+#: kfile/kicondialog.cpp:333
 msgid "Mimetypes"
 msgstr "ປະເພດ Mime"
 
-#: kfile/kicondialog.cpp:540
+#: kfile/kicondialog.cpp:541
 #, fuzzy
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm|cແຟ້ມໄອຄອນ (*.png *.xpm)"
@@ -4944,6 +4944,11 @@ msgstr ""
 #: kfile/kdiroperator.cpp:536
 #, fuzzy
 msgid "Trash File"
+msgstr "ຖັງຂີ້ເຫຍື້ອ"
+
+#: kfile/kdiroperator.cpp:537 kfile/kdiroperator.cpp:544
+#, fuzzy
+msgid "&Trash"
 msgstr "ຖັງຂີ້ເຫຍື້ອ"
 
 #: kfile/kdiroperator.cpp:541
@@ -5852,18 +5857,6 @@ msgstr ""
 
 #: tests/kurifiltertest.cpp:150
 msgid "Use space as keyword delimeter for web shortcuts"
-msgstr ""
-
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr ""
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
 msgstr ""
 
 #. i18n: file ./kssl/keygenwizard2.ui line 25
