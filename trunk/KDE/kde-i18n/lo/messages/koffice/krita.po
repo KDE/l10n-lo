@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-09 01:17+0200\n"
+"POT-Creation-Date: 2005-05-10 01:17+0200\n"
 "PO-Revision-Date: 2003-01-18 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1796,7 +1796,8 @@ msgid "Out of Gamut"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 101
-#: core/kis_selection_manager.cc:131 plugins/example/example.cc:71 rc.cpp:1141
+#: core/kis_selection_manager.cc:131 core/kis_selection_manager.cc:508
+#: plugins/example/example.cc:71 rc.cpp:1141
 #, no-c-format
 msgid "&Invert"
 msgstr ""
@@ -3137,7 +3138,7 @@ msgstr "Initializing..."
 msgid "Abstract PaintOp"
 msgstr ""
 
-#: core/kis_selection_manager.cc:125
+#: core/kis_selection_manager.cc:125 core/kis_selection_manager.cc:483
 #, fuzzy
 msgid "&Reselect"
 msgstr "ການເລືອກ"
@@ -3188,6 +3189,16 @@ msgstr "Transform"
 #, fuzzy
 msgid "Load..."
 msgstr "Loading..."
+
+#: core/kis_selection_manager.cc:402
+#, fuzzy
+msgid "Select &All"
+msgstr "ການເລືອກ"
+
+#: core/kis_selection_manager.cc:422
+#, fuzzy
+msgid "&Deselect"
+msgstr "ການເລືອກ"
 
 #: core/strategy/kis_strategy_move.cc:56
 #, fuzzy
@@ -4228,19 +4239,19 @@ msgstr "&ເລືອກແບບອິດສະຫລະ"
 msgid "Eraser select tool"
 msgstr "&ເຄື່ອງມືຢາງລືບ"
 
-#: plugins/selectiontools/kis_tool_select_elliptical.cc:59
-#: plugins/selectiontools/kis_tool_select_elliptical.cc:298
+#: plugins/selectiontools/kis_tool_select_elliptical.cc:185
+#: plugins/selectiontools/kis_tool_select_elliptical.cc:271
 #: plugins/selectiontools/kis_tool_select_polygonal.cc:60
 #, fuzzy
 msgid "Elliptical Selection"
 msgstr "&ເລືອກແບບວົງຮີ"
 
-#: plugins/selectiontools/kis_tool_select_elliptical.cc:281
+#: plugins/selectiontools/kis_tool_select_elliptical.cc:254
 #, fuzzy
 msgid "Tool &Elliptical Select"
 msgstr "&ເລືອກແບບວົງຮີ"
 
-#: plugins/selectiontools/kis_tool_select_brush.h:69
+#: plugins/selectiontools/kis_tool_select_brush.h:71
 #, fuzzy
 msgid "Brush select tool"
 msgstr "ຼ&ເຄື່ອງມືແປງທາສີ"
@@ -4255,16 +4266,16 @@ msgstr "&ເລືອກແບບເສັ້ນຕໍ່ເນື່ອງ"
 msgid "Select Contiguous Areas"
 msgstr "ການເລືອກ"
 
-#: plugins/selectiontools/kis_tool_select_rectangular.cc:61
+#: plugins/selectiontools/kis_tool_select_rectangular.cc:173
 msgid "Rectangular Selection"
 msgstr "ເລືອກແບບຮູບສີ່ລ່ຽມ"
 
-#: plugins/selectiontools/kis_tool_select_rectangular.cc:288
+#: plugins/selectiontools/kis_tool_select_rectangular.cc:241
 #, fuzzy
 msgid "Tool &Rectangular Select"
 msgstr "&ເລືອກແບບຮູບສີ່ລ່ຽມ"
 
-#: plugins/selectiontools/kis_tool_select_rectangular.cc:305
+#: plugins/selectiontools/kis_tool_select_rectangular.cc:258
 #, fuzzy
 msgid "Select Rectangles"
 msgstr "ສີລ່ຽມ"
@@ -4284,7 +4295,7 @@ msgstr "&ເລືອກແບບຮູບຫລາຍລ່ຽມ"
 msgid "SelectEraser"
 msgstr "ການເລືອກ"
 
-#: plugins/selectiontools/kis_tool_select_eraser.cc:74
+#: plugins/selectiontools/kis_tool_select_eraser.cc:79
 #: plugins/selectiontools/kis_tool_select_eraser.cc:115
 #, fuzzy
 msgid "Selection Eraser"
@@ -4300,18 +4311,18 @@ msgstr "&ເລືອກແບບເສັ້ນຕໍ່ເນື່ອງ"
 msgid "Contiguous select tool"
 msgstr "&ເລືອກແບບເສັ້ນຕໍ່ເນື່ອງ"
 
-#: plugins/selectiontools/kis_tool_select_brush.cc:49
+#: plugins/selectiontools/kis_tool_select_brush.cc:50
 #, fuzzy
 msgid "SelectBrush"
 msgstr "ການເລືອກ"
 
-#: plugins/selectiontools/kis_tool_select_brush.cc:75
-#: plugins/selectiontools/kis_tool_select_brush.cc:129
+#: plugins/selectiontools/kis_tool_select_brush.cc:74
+#: plugins/selectiontools/kis_tool_select_brush.cc:135
 #, fuzzy
 msgid "Selection Brush"
 msgstr "ການເລືອກ"
 
-#: plugins/selectiontools/kis_tool_select_brush.cc:115
+#: plugins/selectiontools/kis_tool_select_brush.cc:121
 #, fuzzy
 msgid "Tool &Brush Select"
 msgstr "&ເລືອກແບບເສັ້ນຕໍ່ເນື່ອງ"
@@ -4349,12 +4360,13 @@ msgstr ""
 msgid "Transform tool"
 msgstr "&ເຄື່ອງມືຢາງລືບ"
 
-#: plugins/tool_transform/kis_tool_transform.cc:64
+#: plugins/tool_transform/kis_tool_transform.cc:66
+#: plugins/tool_transform/kis_tool_transform.cc:67
 #, fuzzy
 msgid "Transform"
 msgstr "Transform"
 
-#: plugins/tool_transform/kis_tool_transform.cc:483
+#: plugins/tool_transform/kis_tool_transform.cc:493
 #, fuzzy
 msgid "Tool &Transform"
 msgstr "Transform"
