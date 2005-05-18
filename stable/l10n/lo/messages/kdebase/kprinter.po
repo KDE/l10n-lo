@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2004-11-27 01:20+0100\n"
+"PO-Revision-Date: 2003-01-11 18:01+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: main.cpp:29
+msgid "Make an internal copy of the files to print"
+msgstr ""
+
+#: main.cpp:31
+msgid "Printer/destination to print on"
+msgstr "ເຄື່ອງພິມ/ປາຍທາງທີ່ຈະພິມໄປ"
+
+#: main.cpp:33
+msgid "Title/Name for the print job"
+msgstr "ຫັວເລື່ອງງານພິມ"
+
+#: main.cpp:35
+msgid "Number of copies"
+msgstr "ຈຳນວນຂອງສຳເນົາ"
+
+#: main.cpp:36
+msgid "Printer option"
+msgstr "ຕົວເລືອກເຄື່ອງພິມ"
+
+#: main.cpp:37
+msgid "Job output mode (gui, console, none)"
+msgstr ""
+"ສະແດງງານພິມແບບ "
+"(ກາບຟີກ,ຄອນໂຊລ, ບໍ່ມີ)"
+
+#: main.cpp:38
+msgid "Print system to use (lpd, cups)"
+msgstr "ລະບົບການພິມທີ່ໃຊ້ (lpd, cups)"
+
+#: main.cpp:39
+msgid "Allow printing from STDIN"
+msgstr "ອະນຸຍາດໃຫ້ພິມຈາກ STDIN"
+
+#: main.cpp:40
+#, fuzzy
+msgid "Do not show the print dialog (print directly)"
+msgstr ""
+"ບໍ່ໃຫ້ສະແດງກ່ອງການພິມ "
+"(ສັ່ງພິມໂດຍຕົງ)"
+
+#: main.cpp:41
+msgid "Files to load"
+msgstr "ແຟ້ມທີ່ຈະຮງກໃຊ້"
+
+#: main.cpp:47
+#, fuzzy
+msgid "KPrinter"
+msgstr "ການພິມຜິດພາດ"
+
+#: main.cpp:47
+msgid "A printer tool for KDE"
+msgstr ""
+"ເຄື່ອງມືຈັກການເຄື່ອງພິມຂອ"
+"ງ KDE"
+
+#: printwrapper.cpp:61
+msgid "Print Information"
+msgstr "ຂໍ້ມູນການພິມ"
+
+#: printwrapper.cpp:62
+msgid "Print Warning"
+msgstr "ຄຳເຕື່ອນການພິມ"
+
+#: printwrapper.cpp:63
+msgid "Print Error"
+msgstr "ການພິມຜິດພາດ"
+
+#: printwrapper.cpp:69
+msgid "Print info"
+msgstr "ຂໍ້ມູນການພິມ"
+
+#: printwrapper.cpp:69
+msgid "Print warning"
+msgstr "ຄຳເຕືອນການພິມ"
+
+#: printwrapper.cpp:69
+msgid "Print error"
+msgstr "ການພິມຜິດພາດ"
+
+#: printwrapper.cpp:190
+msgid ""
+"A file has been specified on the command line. Printing from STDIN will be "
+"disabled."
+msgstr ""
+"ມີການກຳນົດແຟ້ມເທີງບັນທັດຄ"
+"ຳສັ່ງການພິມຈາກ STDIN "
+"ຈະຖີກຍົກເລີກການໃຊ້ງານ"
+
+#: printwrapper.cpp:196
+msgid ""
+"When using '--nodialog', you must at least specify one file to print or use "
+"the '--stdin' flag."
+msgstr ""
+"ເມື່ອມີການໃໍຊ້ '--nodialog' "
+"ທ່ານຈະຕ້ອງກຳນົດແຟ້ມເພື່ອພ"
+"ິມຢ່າງຫນ້ອຍຫນື່ງແຟ້ມຫລືໃຊ"
+"້ຕົວເລືອກ '--stdin'"
+
+#: printwrapper.cpp:245
+msgid "The specified printer or the default printer could not be found."
+msgstr ""
+"ບໍ່ພົບເຄື່ອງພິມທີ່ກຳນົດຫລ"
+"ືເຄື່ອງພິມປິລິຍາຍ"
+
+#: printwrapper.cpp:247
+msgid "Operation aborted."
+msgstr "ປະຕິບັດການຖືກຍົກເລີກ"
+
+#: printwrapper.cpp:276
+msgid "Unable to construct the print dialog."
+msgstr ""
+"ບໍ່ສາມາດທຳໂຄງສ້າງກ່ອງການພ"
+"ິມໄດ້"
+
+#: printwrapper.cpp:317
+msgid "Multiple files (%1)"
+msgstr "ຫລາຍແຟ້ມ (%1)"
+
+#: printwrapper.cpp:324
+msgid "Nothing to print."
+msgstr ""
+
+#: printwrapper.cpp:349
+msgid "Unable to open temporary file."
+msgstr ""
+"ບໍ່ສາມາດເປີດແຟ້ມຊັ່ວຄາວໄດ"
+"້"
+
+#: printwrapper.cpp:364
+msgid "Stdin is empty, no job sent."
+msgstr "Stdin ວ່າງ ບໍ່ມີງານພິມ"
+
+#: printwrapper.cpp:376
+#, fuzzy, c-format
+msgid "Unable to copy file %1."
+msgstr ""
+"ບໍ່ສາມາດເປີດແຟ້ມຊັ່ວຄາວໄດ"
+"້"
+
+#: printwrapper.cpp:393
+msgid "Error while printing files"
+msgstr ""
+"ມີຂໍ້ຜິດພາດ "
+"ຂະນະກຳລັງພິມແຟ້ມ"
+
+#~ msgid "<nobr>File(s) sent to printer <b>%1</b>.</nobr>"
+#~ msgstr "<nobr>ส่งแฟ้มไปยังเครื่องพิมพ์ <b>%1</b> แล้ว</nobr>"
+
+#~ msgid "Can't print from STDIN: use '--stdin' option, or specify a file to print in the file selection area."
+#~ msgstr "ไม่สามารถพิมพ์จาก STDIN ได้: ใช้ตัวเลือก '--stdin' หรือกำหนดแฟ้มที่จะพิมพ์ ในพื้นที่การเลือกแฟ้ม"
