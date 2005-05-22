@@ -24,20 +24,14 @@ msgstr "ຕົວເລືອກຕົວແກ້ໄຂ"
 #: rc.cpp:6
 #, no-c-format
 msgid ""
-"Please choose the default text editing component that you wish to use in "
-"this application. If you choose <B>System Default</B>, the application will "
-"honor your changes in the Control Center. All other choices will override "
-"that setting."
+"Please choose the default text editing component that you wish to use in this "
+"application. If you choose <B>System Default</B>, the application will honor "
+"your changes in the Control Center. All other choices will override that "
+"setting."
 msgstr ""
-"ກະລຸນາເລືອກອົງປະກອບການແກ້"
-"ໄຂແບບປະລິຍາຍທີ່ທ່ານຕ້ອງກາ"
-"ນໃຊ້ກັບແອັບພລິເຄຊັນນີ້. "
-"ຖ້າຫາກທ່ານເລືອກ<B>ລະບົບປະລິ"
-"ຍາຍ</B>"
-",ແອັບພລິເຄຊັນດັ່ງກ່າວຈະຖຶກ"
-"ເກັບໄວ້ໃນສູນຄວບຄຸມ. "
-"ຕົວເລືອກອຶ່ນໆທັງຫມົດຈະຖຶກ"
-"ປ່ງນຕາມຄ່າທີ່ຕັ້ງໄວ."
+"ກະລຸນາເລືອກອົງປະກອບການແກ້ໄຂແບບປະລິຍາຍທີ່ທ່ານຕ້ອງການໃຊ້ກັບແອັບພລິເຄຊັນນີ້. "
+"ຖ້າຫາກທ່ານເລືອກ<B>ລະບົບປະລິຍາຍ</B>,ແອັບພລິເຄຊັນດັ່ງກ່າວຈະຖຶກເກັບໄວ້ໃນສູນຄວບຄຸມ. "
+"ຕົວເລືອກອຶ່ນໆທັງຫມົດຈະຖຶກປ່ງນຕາມຄ່າທີ່ຕັ້ງໄວ."
 
 #. i18n: file ./kdecore/kconfig_compiler/general_base.ui line 16
 #: rc.cpp:9
@@ -85,8 +79,7 @@ msgstr "ລ້າງແປ້ນພີມລັດ"
 #: rc.cpp:33
 #, no-c-format
 msgid ""
-"The currently set shortcut or the shortcut you are entering will show up "
-"here."
+"The currently set shortcut or the shortcut you are entering will show up here."
 msgstr ""
 
 #. i18n: file ./kdeui/kshortcutdialog_advanced.ui line 182
@@ -117,9 +110,9 @@ msgstr ""
 #: rc.cpp:54
 #, no-c-format
 msgid ""
-"Select this checkbox to enable the entry of multi-key shortcuts.  A "
-"multi-key shortcut consists of a sequence of up to 4 keys.  For example, you "
-"could assign \"Ctrl+F,B\" to Font-Bold and \"Ctrl+F,U\" to Font-Underline."
+"Select this checkbox to enable the entry of multi-key shortcuts.  A multi-key "
+"shortcut consists of a sequence of up to 4 keys.  For example, you could assign "
+"\"Ctrl+F,B\" to Font-Bold and \"Ctrl+F,U\" to Font-Underline."
 msgstr ""
 
 #. i18n: file ./kdeui/ui_standards.rc line 4
@@ -198,18 +191,17 @@ msgstr "ຄວາມຜິດພາດທີ່ບໍ່ຮັູ້ຈັກ"
 #: rc.cpp:108 rc.cpp:120 rc.cpp:311 rc.cpp:323
 #, no-c-format
 msgid ""
-"<qt>"
-"<p>This word was considered to be an \"unknown word\" because it does not "
-"match any entry in the dictionary currently in use. It may also be a word in "
-"a foreign language.</p>\n"
-"<p>If the word is not misspelled, you may add it to the dictionary by "
-"clicking <b>Add to Dictionary</b>"
-". If you don't want to add the unknown word to the dictionary, but you want "
-"to leave it unchanged, click <b>Ignore</b> or <b>Ignore All</b>.</p>\n"
+"<qt><p>This word was considered to be an \"unknown word\" because it does not "
+"match any entry in the dictionary currently in use. It may also be a word in a "
+"foreign language.</p>\n"
+"<p>If the word is not misspelled, you may add it to the dictionary by clicking "
+"<b>Add to Dictionary</b>. If you don't want to add the unknown word to the "
+"dictionary, but you want to leave it unchanged, click <b>Ignore</b> or <b>"
+"Ignore All</b>.</p>\n"
 "<p>However, if the word is misspelled, you can try to find the correct "
-"replacement in the list below. If you cannot find a replacement there, you "
-"may type it in the text box below, and click <b>Replace</b> or <b>Replace "
-"All</b>.</p>\n"
+"replacement in the list below. If you cannot find a replacement there, you may "
+"type it in the text box below, and click <b>Replace</b> or <b>Replace All</b>"
+".</p>\n"
 "</qt>"
 msgstr ""
 
@@ -257,8 +249,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Here you can see a text excerpt showing the unknown word in its context. "
-"If this information is not sufficient to choose the best replacement for the "
+"<p>Here you can see a text excerpt showing the unknown word in its context. If "
+"this information is not sufficient to choose the best replacement for the "
 "unknown word, you can click on the document you are proofing, read a larger "
 "part of the text and then return here to continue proofing.</p>\n"
 "</qt>"
@@ -277,10 +269,10 @@ msgid ""
 "<qt>\n"
 "<p>The unknown word was detected and considered unknown because it is not "
 "included in the dictionary.<br>\n"
-"Click here if you consider that the unknown word is not misspelled and you "
-"want to avoid wrongly detecting it again in the future. If you want to let "
-"it remain as is, but not add it to the dictionary, then click <b>Ignore</b> "
-"or <b>Ignore All</b> instead.</p>\n"
+"Click here if you consider that the unknown word is not misspelled and you want "
+"to avoid wrongly detecting it again in the future. If you want to let it remain "
+"as is, but not add it to the dictionary, then click <b>Ignore</b> or <b>"
+"Ignore All</b> instead.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -295,8 +287,8 @@ msgstr "&ແທນທີ່ທັງຫມົດ"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here to replace all occurrences of the unknown text with the text "
-"in the edit box above (to the left).</p>\n"
+"<p>Click here to replace all occurrences of the unknown text with the text in "
+"the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
 
@@ -317,13 +309,11 @@ msgstr "ລາຍການດິສ໌ທຣິບິວຊັນ"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>"
-"If the unknown word is misspelled, you should check if the correction for it "
-"is available and if it is, click on it. If none of the words in this list is "
-"a good replacement you may type the correct word in the edit box above.</p>\n"
-"<p>To correct this word click <b>Replace</b> if you want to correct only "
-"this occurrence or <b>Replace All</b> if you want to correct all "
-"occurrences.</p>\n"
+"<p>If the unknown word is misspelled, you should check if the correction for it "
+"is available and if it is, click on it. If none of the words in this list is a "
+"good replacement you may type the correct word in the edit box above.</p>\n"
+"<p>To correct this word click <b>Replace</b> if you want to correct only this "
+"occurrence or <b>Replace All</b> if you want to correct all occurrences.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -338,8 +328,8 @@ msgstr "&ແທນທີ"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here to replace this occurrence of the unknown text with the text "
-"in the edit box above (to the left).</p>\n"
+"<p>Click here to replace this occurrence of the unknown text with the text in "
+"the edit box above (to the left).</p>\n"
 "</qt>"
 msgstr ""
 
@@ -354,8 +344,8 @@ msgstr "ແທນທີ່ດ້ວຍ:"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>If the unknown word is misspelled, you should type the correction for "
-"your misspelled word here or select it from the list below.</p>\n"
+"<p>If the unknown word is misspelled, you should type the correction for your "
+"misspelled word here or select it from the list below.</p>\n"
 "<p>You can then click <b>Replace</b> if you want to correct only this "
 "occurrence of the word or <b>Replace All</b> if you want to correct all "
 "occurrences.</p>\n"
@@ -374,10 +364,8 @@ msgstr "&ບໍ່ສົນໃຈ"
 msgid ""
 "<qt>\n"
 "<p>Click here to let this occurrence of the unknown word remain as is.</p>\n"
-"<p>"
-"This action is useful when the word is a name, an acronym, a foreign word or "
-"any other unknown word that you want to use but not add to the "
-"dictionary.</p>\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word or "
+"any other unknown word that you want to use but not add to the dictionary.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -392,12 +380,10 @@ msgstr "&ບໍ່ສົນໃຈທັງຫມົດ"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here to let all occurrences of the unknown word remain as they "
-"are.</p>\n"
-"<p>"
-"This action is useful when the word is a name, an acronym, a foreign word or "
-"any other unknown word that you want to use but not add to the "
-"dictionary.</p>\n"
+"<p>Click here to let all occurrences of the unknown word remain as they are.</p>"
+"\n"
+"<p>This action is useful when the word is a name, an acronym, a foreign word or "
+"any other unknown word that you want to use but not add to the dictionary.</p>\n"
 "</qt>"
 msgstr ""
 
@@ -435,13 +421,13 @@ msgstr "ໄວຍາກອນຜິດພາດ"
 #: rc.cpp:235
 #, no-c-format
 msgid ""
-"This dialog provides you with notification and details of scripting errors "
-"that occur on web pages.  In many cases it is due to an error in the web "
-"site as designed by its author.  In other cases it is the result of a "
-"programming error in Konqueror.  If you suspect the former, please contact "
-"the webmaster of the site in question.  Conversely if you suspect an error "
-"in Konqueror, please file a bug report at http://bugs.kde.org/.  A test case "
-"which illustrates the problem will be appreciated."
+"This dialog provides you with notification and details of scripting errors that "
+"occur on web pages.  In many cases it is due to an error in the web site as "
+"designed by its author.  In other cases it is the result of a programming error "
+"in Konqueror.  If you suspect the former, please contact the webmaster of the "
+"site in question.  Conversely if you suspect an error in Konqueror, please file "
+"a bug report at http://bugs.kde.org/.  A test case which illustrates the "
+"problem will be appreciated."
 msgstr ""
 
 #. i18n: file ./khtml/kjserrordlg.ui line 39
@@ -1434,9 +1420,7 @@ msgstr "ຖານບໍ່ໃຊ້ອອກເຈັກ"
 
 #: kjs/function_object.cpp:290
 msgid "Syntax error in parameter list"
-msgstr ""
-"ມີໄວຍາກອນຜິດພາດໃນລາຍການຂພ"
-"າລາມິເຕີ"
+msgstr "ມີໄວຍາກອນຜິດພາດໃນລາຍການຂພາລາມິເຕີ"
 
 #: interfaces/ktexteditor/editorchooser.cpp:60
 #, fuzzy
@@ -1457,9 +1441,7 @@ msgstr "ໄວຍາກອນຜິດພາດ"
 #: interfaces/kscript/scriptmanager.cpp:129
 #, fuzzy
 msgid "Unable find script \"%1\"."
-msgstr ""
-"ບໍສາມາດຊອກຊອກຫາເຄື່ອງພີມ์ "
-"%1 ໄດ້"
+msgstr "ບໍສາມາດຊອກຊອກຫາເຄື່ອງພີມ์ %1 ໄດ້"
 
 #: interfaces/kscript/scriptloader.cpp:40
 msgid "KDE Scripts"
@@ -1491,9 +1473,7 @@ msgstr "ຕຳແຫນ່ງທີ່ຕັ້ງຂອງທີ່ພັກ"
 
 #: kabc/addressbook.cpp:346 kabc/addressbook.cpp:365
 msgid "Unable to load resource '%1'"
-msgstr ""
-"ບໍ່ສາມາດໂຫລດຊັບພະຍາກອນ '%1' "
-"ໄດ້"
+msgstr "ບໍ່ສາມາດໂຫລດຊັບພະຍາກອນ '%1' ໄດ້"
 
 #: kabc/key.cpp:127
 msgid "X509"
@@ -1550,16 +1530,12 @@ msgstr "ຍັງບໍ່ກຳນົດ"
 #: kabc/kab2kabc.cpp:42
 #, fuzzy
 msgid "Disable automatic startup on login"
-msgstr ""
-"ປິດການໃຊ້ງານເລີ່ມທຳງານອັດ"
-"ຕະໂນມັດເມື່ອລັອກອິນ"
+msgstr "ປິດການໃຊ້ງານເລີ່ມທຳງານອັດຕະໂນມັດເມື່ອລັອກອິນ"
 
 #: kabc/kab2kabc.cpp:45
 #, fuzzy
 msgid "Override existing entries"
-msgstr ""
-"ໃຊ້ງານແທນທີ່ລາຍການທີ່ມີຢູ"
-"ู่່"
+msgstr "ໃຊ້ງານແທນທີ່ລາຍການທີ່ມີຢู่ູ່"
 
 #: kabc/kab2kabc.cpp:287
 msgid ""
@@ -1610,9 +1586,7 @@ msgstr ""
 
 #: kabc/testdistlist.cpp:18
 msgid "Show distribution list with name <listname>"
-msgstr ""
-"ສະແດງລາຍການດິສ໌ທຣິບິວຊັນພ"
-"້ອມຊື່ <ຊື່ລາຍການ>"
+msgstr "ສະແດງລາຍການດິສ໌ທຣິບິວຊັນພ້ອມຊື່ <ຊື່ລາຍການ>"
 
 #: kabc/testdistlist.cpp:25
 msgid "Test Distribution Lists"
@@ -1710,9 +1684,7 @@ msgstr "ອຶ່ນໆ"
 
 #: kabc/distributionlistdialog.cpp:44
 msgid "Configure Distribution Lists"
-msgstr ""
-"ປັບແຕ່ງລາຍການດິສ໌ທຣີບິວຊັ"
-"ນ"
+msgstr "ປັບແຕ່ງລາຍການດິສ໌ທຣີບິວຊັນ"
 
 #: kabc/distributionlistdialog.cpp:60 kabc/distributionlisteditor.cpp:43
 msgid "Select Email Address"
@@ -1771,9 +1743,7 @@ msgstr "ລຶບລາຍການ"
 
 #: kabc/distributionlistdialog.cpp:236 kabc/distributionlisteditor.cpp:196
 msgid "New Distribution List"
-msgstr ""
-"ສ້າງລາຍການດິສ໌ທຣິບິວຊັນໃຫ"
-"ມ່"
+msgstr "ສ້າງລາຍການດິສ໌ທຣິບິວຊັນໃຫມ່"
 
 #: kabc/distributionlistdialog.cpp:237
 #, fuzzy
@@ -1809,9 +1779,7 @@ msgstr ""
 #: kabc/testkabcdlg.cpp:15
 #, fuzzy
 msgid "Allow selection of multiple addressees"
-msgstr ""
-"ອະນຸຍາດໃຫ້ເລືອກຫລາຍທີ່ຢູ່"
-"ໄດ້"
+msgstr "ອະນຸຍາດໃຫ້ເລືອກຫລາຍທີ່ຢູ່ໄດ້"
 
 #: kabc/testkabc.cpp:23 kabc/testkabcdlg.cpp:21
 msgid "TestKabc"
@@ -2050,10 +2018,7 @@ msgstr ""
 #: kabc/stdaddressbook.cpp:152
 #, fuzzy
 msgid "Unable to save to resource '%1'. It is locked."
-msgstr ""
-"ບໍ່ສາມາດເຮັດ "
-"%1ເນື່ອງຈາກຊັບພະຍາກອນຖືກລັອ"
-"ກໄວ້"
+msgstr "ບໍ່ສາມາດເຮັດ %1ເນື່ອງຈາກຊັບພະຍາກອນຖືກລັອກໄວ້"
 
 #: kabc/addresseedialog.cpp:60
 msgid "Select Addressee"
@@ -2249,9 +2214,7 @@ msgstr "ໂຮມເພຈ໌"
 
 #: kabc/addressee.cpp:832
 msgid "Security Class"
-msgstr ""
-"ເຕືອນໃຫ້ລະວັງເລື່ອງຄວາມປອ"
-"ດໄພ"
+msgstr "ເຕືອນໃຫ້ລະວັງເລື່ອງຄວາມປອດໄພ"
 
 #: kabc/addressee.cpp:851
 msgid "Logo"
@@ -2320,8 +2283,7 @@ msgstr ""
 #: kded/kde-menu.cpp:111
 msgid ""
 "KDE Menu query tool.\n"
-"This tool can be used to find in which menu a specific application is "
-"shown.\n"
+"This tool can be used to find in which menu a specific application is shown.\n"
 "The --highlight option can be used to visually indicate to the user where\n"
 "in the KDE menu a specific application is located."
 msgstr ""
@@ -2369,15 +2331,13 @@ msgstr "ຊື່ໂຮສ໌ໃຫມ່"
 msgid ""
 "Error: HOME environment variable not set.\n"
 msgstr ""
-"ຂໍ້ຜິດພາດ: ຕົວແປແວດລ້ອມ HOME "
-"ຍັງບໍ່ຖຶກຕັ້ງຄ່າ\n"
+"ຂໍ້ຜິດພາດ: ຕົວແປແວດລ້ອມ HOME ຍັງບໍ່ຖຶກຕັ້ງຄ່າ\n"
 
 #: kded/khostname.cpp:88
 msgid ""
 "Error: DISPLAY environment variable not set.\n"
 msgstr ""
-"ຂໍ້ຜິດພາດ: ຕົວແປແວດລ້ອມDISPLAY "
-"ຍັງບໍ່ຖຶກຕັ້ງຄ່າ\n"
+"ຂໍ້ຜິດພາດ: ຕົວແປແວດລ້ອມDISPLAY ຍັງບໍ່ຖຶກຕັ້ງຄ່າ\n"
 
 #: kded/khostname.cpp:355
 msgid "KDontChangeTheHostName"
@@ -2386,9 +2346,7 @@ msgstr "KDontChangeTheHostName"
 #: kded/khostname.cpp:356
 #, fuzzy
 msgid "Informs KDE about a change in hostname"
-msgstr ""
-"ແຈ້ງໃຫ้້ KDE "
-"ຮູ້ວ່າມີການປ່ຽນຊື່ໂຮສ໌"
+msgstr "ແຈ້ງໃຫ้້ KDE ຮູ້ວ່າມີການປ່ຽນຊື່ໂຮສ໌"
 
 #: kded/kded.cpp:668
 #, fuzzy
@@ -2402,9 +2360,7 @@ msgstr "ເດມອນ KDE"
 #: kded/kded.cpp:798
 #, fuzzy
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
-msgstr ""
-"KDE Daemon - ໃຫ້ປັບປຸງຖານຂໍ້ມູນSycoca "
-"ໃຫມ່ເມື່ອຕ້ອງການ"
+msgstr "KDE Daemon - ໃຫ້ປັບປຸງຖານຂໍ້ມູນSycoca ໃຫມ່ເມື່ອຕ້ອງການ"
 
 #: kded/kbuildsycoca.cpp:476
 msgid ""
@@ -2428,9 +2384,7 @@ msgstr ""
 #: kded/kbuildsycoca.cpp:701
 #, fuzzy
 msgid "Do not signal applications to update"
-msgstr ""
-"ບໍ່ສາມາດສົ່ງສັນຍານໃຫ້ແອັບ"
-"ພລິເຄຊັນໄດ້"
+msgstr "ບໍ່ສາມາດສົ່ງສັນຍານໃຫ້ແອັບພລິເຄຊັນໄດ້"
 
 #: kded/kbuildsycoca.cpp:702
 msgid "Disable incremental update, re-read everything"
@@ -2467,9 +2421,7 @@ msgstr ""
 
 #: kded/kbuildsycoca.cpp:728
 msgid "Rebuilds the system configuration cache."
-msgstr ""
-"ທຳການສ້າງແຄຈ໌ການປັບແຕ່ງລະ"
-"ບົບໃຫມ່"
+msgstr "ທຳການສ້າງແຄຈ໌ການປັບແຕ່ງລະບົບໃຫມ່"
 
 #: kded/kbuildsycoca.cpp:756
 #, fuzzy
@@ -2484,16 +2436,12 @@ msgstr "ປັບແຕ່ງຊັບພະຍາກອນ"
 #: kded/kbuildsycoca.cpp:759
 #, fuzzy
 msgid "Do you want to reload KDE configuration?"
-msgstr ""
-"ທ່ານຕ້ອງການຈະທຳການພິມຕໍ່ຫ"
-"ລືບໍ່?"
+msgstr "ທ່ານຕ້ອງການຈະທຳການພິມຕໍ່ຫລືບໍ່?"
 
 #: kded/kbuildsycoca.cpp:942
 #, fuzzy
 msgid "Configuration information reloaded successfully."
-msgstr ""
-"ແຟ້ມການປັບແຕ່ງຖືກເອີ້ນໃຊ້"
-"ໃຫມ່ແລ້ວ"
+msgstr "ແຟ້ມການປັບແຕ່ງຖືກເອີ້ນໃຊ້ໃຫມ່ແລ້ວ"
 
 #: kmdi/kmdi/guiclient.cpp:79 kmdi/kmdiguiclient.cpp:139
 #, fuzzy
@@ -2508,9 +2456,7 @@ msgstr "ໂມເດັມ"
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2598
 #, fuzzy
 msgid "&Toplevel Mode"
-msgstr ""
-"&ສະຫລັບໄປຍັງງານທີ່ຮງບຮ້ອຍແ"
-"ລ້ວ"
+msgstr "&ສະຫລັບໄປຍັງງານທີ່ຮງບຮ້ອຍແລ້ວ"
 
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2599
 #, fuzzy
@@ -2520,9 +2466,7 @@ msgstr "ແບບສີ"
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2600
 #, fuzzy
 msgid "Ta&b Page Mode"
-msgstr ""
-"ເອີ້ນແຟ້ມຂື້ນມາໃຫມ່ຮຽບຮ້ອ"
-"ຍແລ້ວ"
+msgstr "ເອີ້ນແຟ້ມຂື້ນມາໃຫມ່ຮຽບຮ້ອຍແລ້ວ"
 
 #: kmdi/kmdiguiclient.cpp:144 kmdi/kmdimainfrm.cpp:2601
 #, fuzzy
@@ -2634,16 +2578,12 @@ msgstr "ແນວນອນ"
 #: kmdi/kmdimainfrm.cpp:2629
 #, fuzzy
 msgid "Tile &Non-Overlapped"
-msgstr ""
-"ຮງກແຟ້ມຂຶ້ນໃຫມ່ຮງບຮ້ອຍແລ້"
-"ວ"
+msgstr "ຮງກແຟ້ມຂຶ້ນໃຫມ່ຮງບຮ້ອຍແລ້ວ"
 
 #: kmdi/kmdimainfrm.cpp:2630
 #, fuzzy
 msgid "Tile Overla&pped"
-msgstr ""
-"ຮງກແຟ້ມຂຶ້ນໃຫມ່ຮງບຮ້ອຍແລ້"
-"ວ"
+msgstr "ຮງກແຟ້ມຂຶ້ນໃຫມ່ຮງບຮ້ອຍແລ້ວ"
 
 #: kmdi/kmdimainfrm.cpp:2631
 #, fuzzy
@@ -2718,29 +2658,24 @@ msgstr ""
 #: kdecore/klibloader.cpp:425
 #, fuzzy
 msgid "Library files for \"%1\" not found in paths."
-msgstr ""
-"ບໍ່ພົບແຟ້ໄລແບຣຣີສຳລັບ \"%1\" "
-"ໃນເສັ້ງທາງພາທ໌"
+msgstr "ບໍ່ພົບແຟ້ໄລແບຣຣີສຳລັບ \"%1\" ໃນເສັ້ງທາງພາທ໌"
 
 #: kdecore/kapplication.cpp:934
 msgid ""
-"_: Dear Translator! Translate this string to the string 'LTR' in "
-"left-to-right languages (as english) or to 'RTL' in right-to-left languages "
-"(such as Hebrew and Arabic) to get proper widget layout."
+"_: Dear Translator! Translate this string to the string 'LTR' in left-to-right "
+"languages (as english) or to 'RTL' in right-to-left languages (such as Hebrew "
+"and Arabic) to get proper widget layout."
 msgstr "LTR"
 
 #: kdecore/kapplication.cpp:1380
 #, fuzzy
 msgid ""
-"There was an error setting up inter-process communications for KDE. The "
-"message returned by the system was:\n"
+"There was an error setting up inter-process communications for KDE. The message "
+"returned by the system was:\n"
 "\n"
 msgstr ""
-"ມີຄວາມຜິດພາດໃນການຕັ້ງຄ່າກ"
-"ານສື່ສານລະຫວ່າງ\n"
-"ໂປຣເຊສຂອງ KDE "
-"ໂດຍລະບົບແຈ້ງຂໍ້ຄວາມຜິດພາດ"
-"ວ່າ:\n"
+"ມີຄວາມຜິດພາດໃນການຕັ້ງຄ່າການສື່ສານລະຫວ່າງ\n"
+"ໂປຣເຊສຂອງ KDE ໂດຍລະບົບແຈ້ງຂໍ້ຄວາມຜິດພາດວ່າ:\n"
 "\n"
 
 #: kdecore/kapplication.cpp:1384
@@ -2751,8 +2686,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"ໂປຣດກວດສອບວ່າໂປຣແກມ\"dcopserver\" "
-"ກຳລັງທຳງານຢູ່!"
+"ໂປຣດກວດສອບວ່າໂປຣແກມ\"dcopserver\" ກຳລັງທຳງານຢູ່!"
 
 #: kdecore/kapplication.cpp:1391
 msgid "DCOP communications error (%1)"
@@ -2761,23 +2695,17 @@ msgstr "ການສື່ສານກັບ DCOP ຜິດພາດ (%1)"
 #: kdecore/kapplication.cpp:1409
 #, fuzzy
 msgid "Use the X-server display 'displayname'"
-msgstr ""
-"ໃຊ້ການສະແດງຜົນຂອງເຊີບເວີຣ"
-"໌์ X \"displayname\""
+msgstr "ໃຊ້ການສະແດງຜົນຂອງເຊີບເວີຣ໌์ X \"displayname\""
 
 #: kdecore/kapplication.cpp:1411
 #, fuzzy
 msgid "Use the QWS display 'displayname'"
-msgstr ""
-"ໃຊ້ການສະແດງຜົນຂອງເຊີບເວີຣ"
-"໌์ X \"displayname\""
+msgstr "ໃຊ້ການສະແດງຜົນຂອງເຊີບເວີຣ໌์ X \"displayname\""
 
 #: kdecore/kapplication.cpp:1413
 #, fuzzy
 msgid "Restore the application for the given 'sessionId'"
-msgstr ""
-"ເອິ້ນຄືນສະຖານະແອັບພລິເຄຊັ"
-"ນໂດຍອ້າງເຖິງ \"sessionId\""
+msgstr "ເອິ້ນຄືນສະຖານະແອັບພລິເຄຊັນໂດຍອ້າງເຖິງ \"sessionId\""
 
 #: kdecore/kapplication.cpp:1414
 #, fuzzy
@@ -2785,8 +2713,7 @@ msgid ""
 "Causes the application to install a private color\n"
 "map on an 8-bit display"
 msgstr ""
-"ເນື່ອງຈາກແອັບພລິເຄຊັນທຳກາ"
-"ນຕິດຕັ້ງສີຂອງຕົວເອງ\n"
+"ເນື່ອງຈາກແອັບພລິເຄຊັນທຳການຕິດຕັ້ງສີຂອງຕົວເອງ\n"
 "ເທິງຖານການສະແດງຜົນແບບ 8 ບິດ"
 
 #: kdecore/kapplication.cpp:1415
@@ -2797,9 +2724,7 @@ msgid ""
 "using the QApplication::ManyColor color\n"
 "specification"
 msgstr ""
-"ຈຳກັດຈຳນວນການຈອງສີໃນກ່ອງສ"
-"ີ ເທິງຖານການສະແດງຜົນແບບ 8 "
-"ບິດ\n"
+"ຈຳກັດຈຳນວນການຈອງສີໃນກ່ອງສີ ເທິງຖານການສະແດງຜົນແບບ 8 ບິດ\n"
 "ຫາກແອັບພລິເຄຊັນໃຊ້ຟັງຊັນ\n"
 "QApplication::ManyColor\n"
 "ໃນການກຳນົດສີ"
@@ -2807,10 +2732,7 @@ msgstr ""
 #: kdecore/kapplication.cpp:1416
 #, fuzzy
 msgid "tells Qt to never grab the mouse or the keyboard"
-msgstr ""
-"ບໍ່ໃຫ້ Qt "
-"ດັກຈັບສັນຍານເມົາສ໌ແລະແປ້ນ"
-"ພິມ"
+msgstr "ບໍ່ໃຫ້ Qt ດັກຈັບສັນຍານເມົາສ໌ແລະແປ້ນພິມ"
 
 #: kdecore/kapplication.cpp:1417
 #, fuzzy
@@ -2818,26 +2740,18 @@ msgid ""
 "running under a debugger can cause an implicit\n"
 "-nograb, use -dograb to override"
 msgstr ""
-"ກຳລັງທຳງານພາຍໃຕ້ຕົວດີບັກເ"
-"ກີຣ໌ "
-"ເຊິ່ງອາດເຮັດໃຫ້ຂັດແຍ່ງກັບ"
-"ຕົວເລືອກ -nograb ໄດ້\n"
-"ໃຫ້ໃຊ້ຕົວເລືອກ -dograb "
-"ເພື່ອຂ້າຍປັນຫານີ້"
+"ກຳລັງທຳງານພາຍໃຕ້ຕົວດີບັກເກີຣ໌ ເຊິ່ງອາດເຮັດໃຫ້ຂັດແຍ່ງກັບຕົວເລືອກ -nograb ໄດ້\n"
+"ໃຫ້ໃຊ້ຕົວເລືອກ -dograb ເພື່ອຂ້າຍປັນຫານີ້"
 
 #: kdecore/kapplication.cpp:1418
 #, fuzzy
 msgid "switches to synchronous mode for debugging"
-msgstr ""
-"ສະລັບໄປຍັງການທຳງານແບບ synchronous "
-"ສຳລັບການດີບັກ"
+msgstr "ສະລັບໄປຍັງການທຳງານແບບ synchronous ສຳລັບການດີບັກ"
 
 #: kdecore/kapplication.cpp:1420
 #, fuzzy
 msgid "defines the application font"
-msgstr ""
-"ກຳນົດຮູບແບບຕົວອັກສອນຂອງແອ"
-"ັບພລິເຄຊັນ"
+msgstr "ກຳນົດຮູບແບບຕົວອັກສອນຂອງແອັບພລິເຄຊັນ"
 
 #: kdecore/kapplication.cpp:1422
 #, fuzzy
@@ -2846,18 +2760,14 @@ msgid ""
 "application palette (light and dark shades are\n"
 "calculated)"
 msgstr ""
-"ຕັ້ງຄ່າປະລິຍາຍຂອງສີພຶ້ນແລ"
-"ະຈານສີ\n"
+"ຕັ້ງຄ່າປະລິຍາຍຂອງສີພຶ້ນແລະຈານສີ\n"
 "ຂອງແອັບພລິເຄຊັນ\n"
-"(ສີຈ້າແລະສີທຶບຈະຖຶກຄຳນວນຂຶ"
-"້ນເອງ)"
+"(ສີຈ້າແລະສີທຶບຈະຖຶກຄຳນວນຂຶ້ນເອງ)"
 
 #: kdecore/kapplication.cpp:1424
 #, fuzzy
 msgid "sets the default foreground color"
-msgstr ""
-"ຕັ້ງຄ່າປະລິຍາຍຂອງສີດ້ານຫນ"
-"້າ"
+msgstr "ຕັ້ງຄ່າປະລິຍາຍຂອງສີດ້ານຫນ້າ"
 
 #: kdecore/kapplication.cpp:1426
 #, fuzzy
@@ -2872,9 +2782,7 @@ msgstr "ຕັ້ງຄ່າຊື່ແອັບພລິເຄຊັນ"
 #: kdecore/kapplication.cpp:1428
 #, fuzzy
 msgid "sets the application title (caption)"
-msgstr ""
-"ຕ້ັງຄ່າຫົວເລື່ອງຂອງແອັບພລ"
-"ິເຄຊັນ (ສ່ວນແຄບຊັນ)"
+msgstr "ຕ້ັງຄ່າຫົວເລື່ອງຂອງແອັບພລິເຄຊັນ (ສ່ວນແຄບຊັນ)"
 
 #: kdecore/kapplication.cpp:1430
 #, fuzzy
@@ -2882,8 +2790,7 @@ msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
 msgstr ""
-"ບັງຄັຍໃຫ້ແອັບພລິເຄຊັນໃຊ້ສ"
-"ີເຫມືອນຈິງ\n"
+"ບັງຄັຍໃຫ້ແອັບພລິເຄຊັນໃຊ້ສີເຫມືອນຈິງ\n"
 "ເທິງຖານການສະແດງຜົນແບບ 8 ບິດ"
 
 #: kdecore/kapplication.cpp:1431
@@ -2893,10 +2800,8 @@ msgid ""
 "values are onthespot, overthespot, offthespot and\n"
 "root"
 msgstr ""
-"ຕັ້ງຄ່າຮູບແບບການຮັບເຂົ້າຂ"
-"ໍ້ຂອງ XIM (X Input Method)\n"
-"ຄ່າທີ່ເປັນໄປໄດ້ຄື onthespot, overthespot, "
-"offthespot ແລະ root"
+"ຕັ້ງຄ່າຮູບແບບການຮັບເຂົ້າຂໍ້ຂອງ XIM (X Input Method)\n"
+"ຄ່າທີ່ເປັນໄປໄດ້ຄື onthespot, overthespot, offthespot ແລະ root"
 
 #: kdecore/kapplication.cpp:1432
 #, fuzzy
@@ -2911,37 +2816,27 @@ msgstr "ປິດການໃຊ້ງານ XIM"
 #: kdecore/kapplication.cpp:1436
 #, fuzzy
 msgid "forces the application to run as QWS Server"
-msgstr ""
-"ບັງຄັບໃຫ້ແອັບພລິເຄຊັນທຳງາ"
-"ນແບບເຊີບເວີຣ໌ QWS"
+msgstr "ບັງຄັບໃຫ້ແອັບພລິເຄຊັນທຳງານແບບເຊີບເວີຣ໌ QWS"
 
 #: kdecore/kapplication.cpp:1438
 #, fuzzy
 msgid "mirrors the whole layout of widgets"
-msgstr ""
-"ທຳສຳເນົາການຈັດວາງທັງຫມົດຂ"
-"ອງຄອນໂຊນລ໌"
+msgstr "ທຳສຳເນົາການຈັດວາງທັງຫມົດຂອງຄອນໂຊນລ໌"
 
 #: kdecore/kapplication.cpp:1444
 #, fuzzy
 msgid "Use 'caption' as name in the titlebar"
-msgstr ""
-"ໃຊ້ສ່ວນ 'caption' "
-"ແທນຊື່ເທິງແຖບຫົວເລື່ອງ"
+msgstr "ໃຊ້ສ່ວນ 'caption' ແທນຊື່ເທິງແຖບຫົວເລື່ອງ"
 
 #: kdecore/kapplication.cpp:1445
 #, fuzzy
 msgid "Use 'icon' as the application icon"
-msgstr ""
-"ໃຊ້ 'icon' "
-"ແທນໄອຄອນຂອງແອັບພລິເຄຊັນ"
+msgstr "ໃຊ້ 'icon' ແທນໄອຄອນຂອງແອັບພລິເຄຊັນ"
 
 #: kdecore/kapplication.cpp:1446
 #, fuzzy
 msgid "Use 'icon' as the icon in the titlebar"
-msgstr ""
-"ໃຊ້ 'icon' "
-"ແທນໄອຄອນເທິງແຖບຫົວເລື່ອງ"
+msgstr "ໃຊ້ 'icon' ແທນໄອຄອນເທິງແຖບຫົວເລື່ອງ"
 
 #: kdecore/kapplication.cpp:1447
 #, fuzzy
@@ -2951,49 +2846,34 @@ msgstr "ໃຊ້ແຟ້ມການປັບແຕ່ງອຶ່ນໆ"
 #: kdecore/kapplication.cpp:1448
 #, fuzzy
 msgid "Use the DCOP Server specified by 'server'"
-msgstr ""
-"ໃຊ້ເຊີບເວີຣ໌ DCOP "
-"ທີ່ຖຶກກຳນົດໂດຍ 'server'"
+msgstr "ໃຊ້ເຊີບເວີຣ໌ DCOP ທີ່ຖຶກກຳນົດໂດຍ 'server'"
 
 #: kdecore/kapplication.cpp:1449
 #, fuzzy
 msgid "Disable crash handler, to get core dumps"
 msgstr ""
-"ຍົກເລີກການທຳງານສ່ວນດັກຈັບ"
-"ຄວາມລົ້ມເຫລວຂອງໂປຣແກຣມ\n"
-"ເພື່ອຈະບັນທຶກລົງໃນສ່ວນການ"
-"ທຳງານຜິດພາດ (core dumps)"
+"ຍົກເລີກການທຳງານສ່ວນດັກຈັບຄວາມລົ້ມເຫລວຂອງໂປຣແກຣມ\n"
+"ເພື່ອຈະບັນທຶກລົງໃນສ່ວນການທຳງານຜິດພາດ (core dumps)"
 
 #: kdecore/kapplication.cpp:1450
 #, fuzzy
 msgid "Waits for a WM_NET compatible windowmanager"
-msgstr ""
-"ກຳລັງຖ້າສັນຍານທີ່ເຂົ້າກັນ"
-"ໄດ້ກັບສັນຍານ WM_NET "
-"ຂອງໂປຣແກຣມຈັດການຫນ້າຕ່າງ"
+msgstr "ກຳລັງຖ້າສັນຍານທີ່ເຂົ້າກັນໄດ້ກັບສັນຍານ WM_NET ຂອງໂປຣແກຣມຈັດການຫນ້າຕ່າງ"
 
 #: kdecore/kapplication.cpp:1451
 #, fuzzy
 msgid "sets the application GUI style"
-msgstr ""
-"ຕັ້ງຄ່າຮູບແບບການສະແດງຜົນແ"
-"ບບກຣາຟຂອງແອັບພລິເຄຊັນ"
+msgstr "ຕັ້ງຄ່າຮູບແບບການສະແດງຜົນແບບກຣາຟຂອງແອັບພລິເຄຊັນ"
 
 #: kdecore/kapplication.cpp:1452
 #, fuzzy
 msgid ""
-"sets the client geometry of the main widget - see man X for the argument "
-"format"
-msgstr ""
-"ຕັ້ງຄ່າລັກສະນະໄຄລເອັນທ໌ຂອ"
-"ງຄອນໂຊນຫລັກ"
+"sets the client geometry of the main widget - see man X for the argument format"
+msgstr "ຕັ້ງຄ່າລັກສະນະໄຄລເອັນທ໌ຂອງຄອນໂຊນຫລັກ"
 
 #: kdecore/kapplication.cpp:1454
 msgid "Define a 'sessionKey' for the session id. Only valid with -session"
-msgstr ""
-"ກຳນົດ 'sessionKey' "
-"ສຳລັບຫມາຍເລກເຊດສ໌ຊັນໃຊ້ໄດ"
-"້ສະເພາະກັບ -session"
+msgstr "ກຳນົດ 'sessionKey' ສຳລັບຫມາຍເລກເຊດສ໌ຊັນໃຊ້ໄດ້ສະເພາະກັບ -session"
 
 #: kdecore/kapplication.cpp:1496
 msgid ""
@@ -3009,9 +2889,7 @@ msgstr "ຖຶກແກ້ໄຂ"
 #: kdecore/kapplication.cpp:2223 kdecore/kapplication.cpp:2258
 #, fuzzy
 msgid "Could not Launch Help Center"
-msgstr ""
-"ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊ"
-"ື່ອມຕໍ່ %1 ໄດ້"
+msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
 #: kdecore/kapplication.cpp:2224 kdecore/kapplication.cpp:2259
 #, fuzzy, c-format
@@ -3019,16 +2897,12 @@ msgid ""
 "Could not launch the KDE Help Center:\n"
 "\n"
 "%1"
-msgstr ""
-"ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊ"
-"ື່ອມຕໍ່ %1 ໄດ້"
+msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
 #: kdecore/kapplication.cpp:2522
 #, fuzzy
 msgid "Could not Launch Mail Client"
-msgstr ""
-"ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊ"
-"ື່ອມຕໍ່ %1 ໄດ້"
+msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
 #: kdecore/kapplication.cpp:2523
 #, fuzzy, c-format
@@ -3036,16 +2910,12 @@ msgid ""
 "Could not launch the mail client:\n"
 "\n"
 "%1"
-msgstr ""
-"ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊ"
-"ື່ອມຕໍ່ %1 ໄດ້"
+msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
 #: kdecore/kapplication.cpp:2544
 #, fuzzy
 msgid "Could not Launch Browser"
-msgstr ""
-"ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊ"
-"ື່ອມຕໍ່ %1 ໄດ້"
+msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
 #: kdecore/kapplication.cpp:2545
 #, fuzzy, c-format
@@ -3053,9 +2923,7 @@ msgid ""
 "Could not launch the browser:\n"
 "\n"
 "%1"
-msgstr ""
-"ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊ"
-"ື່ອມຕໍ່ %1 ໄດ້"
+msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
 #: kdecore/kapplication.cpp:2609
 msgid ""
@@ -3067,8 +2935,7 @@ msgstr ""
 msgid ""
 "KLauncher could not be reached via DCOP.\n"
 msgstr ""
-"ບໍ່ສາມາດຄົ້ນຫາ KLauncher "
-"ຜ່ານທາງDCOP ໄດ້\n"
+"ບໍ່ສາມາດຄົ້ນຫາ KLauncher ຜ່ານທາງDCOP ໄດ້\n"
 
 #: kdecore/kwinmodule.cpp:389
 #, c-format
@@ -3085,9 +2952,7 @@ msgstr "ປັບແຕ່ງເຄື່ອງພິມ"
 #, fuzzy
 msgid ""
 "Configuration file \"%1\" not writable.\n"
-msgstr ""
-"ແຟ້ມການປັບແຕ່ງຖືກເອີ້ນໃຊ້"
-"ໃຫມ່ແລ້ວ"
+msgstr "ແຟ້ມການປັບແຕ່ງຖືກເອີ້ນໃຊ້ໃຫມ່ແລ້ວ"
 
 #: kdecore/kconfigbackend.cpp:1101
 msgid "Please contact your system administrator."
@@ -3112,19 +2977,14 @@ msgstr ""
 
 #: kdecore/kcmdlineargs.cpp:618
 msgid "%1 was written by somebody who wants to remain anonymous."
-msgstr ""
-"%1 "
-"ຂງນຂຶ້ນໂດຍຜູ້ບໍ່ປະສົງຈະອອ"
-"ກນາມ"
+msgstr "%1 ຂງນຂຶ້ນໂດຍຜູ້ບໍ່ປະສົງຈະອອກນາມ"
 
 #: kdecore/kcmdlineargs.cpp:623
 msgid ""
 "Please use http://bugs.kde.org to report bugs, do not mail the authors "
 "directly.\n"
 msgstr ""
-"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜ"
-"ູ້ຂຽນໂດຍກົງ "
-"ກະລຸນາໄປທີ່http://bugs.kde.org "
+"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
 #: kdecore/kcmdlineargs.cpp:625
@@ -3132,9 +2992,7 @@ msgstr ""
 msgid ""
 "Please use %1 to report bugs, do not mail the authors directly.\n"
 msgstr ""
-"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜ"
-"ູ້ຂຽນໂດຍກົງ "
-"ກະລຸນາໄປທີ່http://bugs.kde.org "
+"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
 #: kdecore/kcmdlineargs.cpp:645
@@ -3143,10 +3001,7 @@ msgstr "ອາກູເມນທ໌ '%1' ອາດຜິດພາດ"
 
 #: kdecore/kcmdlineargs.cpp:750
 msgid "Use --help to get a list of available command line options."
-msgstr ""
-"ໃຊ້ຕົວເລືອກ--help "
-"ເພື່ອສະແດງລາຍການຕົວເລືອກຂ"
-"ອງຄອມມານໄລນ໌ທີ່ມີ"
+msgstr "ໃຊ້ຕົວເລືອກ--help ເພື່ອສະແດງລາຍການຕົວເລືອກຂອງຄອມມານໄລນ໌ທີ່ມີ"
 
 #: kdecore/kcmdlineargs.cpp:765
 msgid ""
@@ -3176,15 +3031,11 @@ msgstr "ຕົວເລືອກທົ່ວໄປ"
 
 #: kdecore/kcmdlineargs.cpp:805
 msgid "Show help about options"
-msgstr ""
-"ສະແດງຄວາມຊ່ວຍເຫລືອຂອງຕົວເ"
-"ລືອກ"
+msgstr "ສະແດງຄວາມຊ່ວຍເຫລືອຂອງຕົວເລືອກ"
 
 #: kdecore/kcmdlineargs.cpp:813
 msgid "Show %1 specific options"
-msgstr ""
-"ສະແດງຕົວເລືອກ %1 "
-"ທີ່ກຳຫນົດໄວ້"
+msgstr "ສະແດງຕົວເລືອກ %1 ທີ່ກຳຫນົດໄວ້"
 
 #: kdecore/kcmdlineargs.cpp:820
 msgid "Show all options"
@@ -3192,9 +3043,7 @@ msgstr "ສະແດງຕົວເລືອກທັງຫມົດ"
 
 #: kdecore/kcmdlineargs.cpp:821
 msgid "Show author information"
-msgstr ""
-"ສະແດງຂໍ້ມູນລາຍລະອຽດຂອງຜູ້"
-"ຂຽນ"
+msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດຂອງຜູ້ຂຽນ"
 
 #: kdecore/kcmdlineargs.cpp:822
 msgid "Show version information"
@@ -3202,9 +3051,7 @@ msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດລຸ້ນ"
 
 #: kdecore/kcmdlineargs.cpp:823
 msgid "Show license information"
-msgstr ""
-"ສະແດງຂໍ້ມູນລາຍລະອຽດລິຂະສິ"
-"ດ"
+msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດລິຂະສິດ"
 
 #: kdecore/kcmdlineargs.cpp:824
 msgid "End of options"
@@ -3258,10 +3105,7 @@ msgstr "Dr. Klash' Accelerator Diagnosis"
 
 #: kdecore/kcheckaccelerators.cpp:157
 msgid "&Disable automatic checking"
-msgstr ""
-"&ປິດການໃຊ້ງານ "
-"ເລີ່ມທຳງານອັດຕະໂນມັດເມື່ອ"
-"ລັອກອິນ"
+msgstr "&ປິດການໃຊ້ງານ ເລີ່ມທຳງານອັດຕະໂນມັດເມື່ອລັອກອິນ"
 
 #: kdecore/kcheckaccelerators.cpp:195
 msgid "<h2>Accelerators changed</h2>"
@@ -3370,9 +3214,7 @@ msgstr "ຖັດໄປ"
 
 #: kdecore/kstdaccel.cpp:85
 msgid "Popup Menu Context"
-msgstr ""
-"ປັອບປ໌ອັບພ໌ຄອນເທັກສ໌ທ໌ເມນ"
-"ູ"
+msgstr "ປັອບປ໌ອັບພ໌ຄອນເທັກສ໌ທ໌ເມນູ"
 
 #: kdecore/kstdaccel.cpp:86
 msgid "Show Menu Bar"
@@ -3641,10 +3483,10 @@ msgstr ""
 
 #: kdecore/klocale.cpp:210
 msgid ""
-"_: Dear translator, please do not translate this string in any form, but "
-"pick the _right_ value out of NoPlural/TwoForms/French... If not sure what "
-"to do mail thd@kde.org and coolo@kde.org, they will tell you. Better leave "
-"that out if unsure, the programs will crash!!\n"
+"_: Dear translator, please do not translate this string in any form, but pick "
+"the _right_ value out of NoPlural/TwoForms/French... If not sure what to do "
+"mail thd@kde.org and coolo@kde.org, they will tell you. Better leave that out "
+"if unsure, the programs will crash!!\n"
 "Definition of PluralForm - to be set by the translator of kdelibs.po"
 msgstr "NoPlural"
 
@@ -3916,15 +3758,11 @@ msgstr "ບໍ່ມີຂໍ້ຜິດພາດ"
 
 #: kdecore/netsupp.cpp:895
 msgid "address family for nodename not supported"
-msgstr ""
-"ບໍ່ສະຫນັບສະຫນຸນກຸ່ມທີ່ຢູ່"
-"ຂອງຊື່ໂຫນດ"
+msgstr "ບໍ່ສະຫນັບສະຫນຸນກຸ່ມທີ່ຢູ່ຂອງຊື່ໂຫນດ"
 
 #: kdecore/netsupp.cpp:896 kdecore/network/kresolver.cpp:557
 msgid "temporary failure in name resolution"
-msgstr ""
-"ການແປງຫລືຄົ້ນຫາຊື່ລົ້ມເຫລ"
-"ວ"
+msgstr "ການແປງຫລືຄົ້ນຫາຊື່ລົ້ມເຫລວ"
 
 #: kdecore/netsupp.cpp:897
 msgid "invalid value for 'ai_flags'"
@@ -3932,10 +3770,7 @@ msgstr "ຄ່າສຳລັບ 'ai_flags' ບໍ່ຖຶກຕ້ອງ"
 
 #: kdecore/netsupp.cpp:898 kdecore/network/kresolver.cpp:558
 msgid "non-recoverable failure in name resolution"
-msgstr ""
-"ເກີດຄວາມລົ້ມເຫລວທີ່ບໍ່ສາມ"
-"າດກູ້ຄຶນໄດ້ໃນການແປງຫລືຄົ້"
-"ນຫາຊື່"
+msgstr "ເກີດຄວາມລົ້ມເຫລວທີ່ບໍ່ສາມາດກູ້ຄຶນໄດ້ໃນການແປງຫລືຄົ້ນຫາຊື່"
 
 #: kdecore/netsupp.cpp:899
 msgid "'ai_family' not supported"
@@ -3947,9 +3782,7 @@ msgstr "ການຈອງຫນ່ວຍຄວາມຈຳລົ້ມເຫລ
 
 #: kdecore/netsupp.cpp:901
 msgid "no address associated with nodename"
-msgstr ""
-"ບໍ່ມີທີ່ຢູ່ທີ່ກຳນົດໄວ້ກັບ"
-"ຊື່ໂຫນດ"
+msgstr "ບໍ່ມີທີ່ຢູ່ທີ່ກຳນົດໄວ້ກັບຊື່ໂຫນດ"
 
 #: kdecore/netsupp.cpp:902 kdecore/network/kresolver.cpp:561
 msgid "name or service not known"
@@ -3957,9 +3790,7 @@ msgstr "ບໍ່ຮູ້ຈັກຊື່ຫລືເຊີວິສ໌"
 
 #: kdecore/netsupp.cpp:903
 msgid "servname not supported for ai_socktype"
-msgstr ""
-"ບໍ່ສະຫນັບສະຫນຸນ servname ສຳລັບ "
-"ai_socktype"
+msgstr "ບໍ່ສະຫນັບສະຫນຸນ servname ສຳລັບ ai_socktype"
 
 #: kdecore/netsupp.cpp:904
 msgid "'ai_socktype' not supported"
@@ -4254,18 +4085,15 @@ msgid ""
 "You reached the end of the list\n"
 "of matching items.\n"
 msgstr ""
-"ທ່ານຢູ່ໃນສ່ວນທ້າຍຂອງ "
-"ລາຍການທີ່ສອດຄ້ອງແລ້ວ\n"
+"ທ່ານຢູ່ໃນສ່ວນທ້າຍຂອງ ລາຍການທີ່ສອດຄ້ອງແລ້ວ\n"
 
 #: kdecore/kcompletion.cpp:637
 msgid ""
 "The completion is ambiguous, more than one\n"
 "match is available.\n"
 msgstr ""
-"ບໍ່ແນ່ໃຈວ່າກະທຳລຽບລ້ອຍແລ້"
-"ວ\n"
-"ເນື່ອງຈາກມີຫລາຍກວ່າຫນຶ່ງລ"
-"າຍການທີ່ສອດຄ້ອງ\n"
+"ບໍ່ແນ່ໃຈວ່າກະທຳລຽບລ້ອຍແລ້ວ\n"
+"ເນື່ອງຈາກມີຫລາຍກວ່າຫນຶ່ງລາຍການທີ່ສອດຄ້ອງ\n"
 
 #: kdecore/kcompletion.cpp:643
 msgid ""
@@ -4337,19 +4165,13 @@ msgstr ""
 #: kdecore/kaboutdata.cpp:360
 msgid ""
 "_: replace this with information about your translation team\n"
-"<p>KDE is translated into many languages thanks to the work of the "
-"translation teams all over the world.</p>"
-"<p>For more information on KDE internationalization visit "
-"http://i18n.kde.org</p>"
+"<p>KDE is translated into many languages thanks to the work of the translation "
+"teams all over the world.</p><p>For more information on KDE "
+"internationalization visit http://i18n.kde.org</p>"
 msgstr ""
-"<p> "
-"ຂໍຂອບໃຈສຳລັບການທຳງານຂອງທິ"
-"ມການແປ KDE "
-"ໄປເປັນພາສາຕ່າງໆຫລາກຫລາຍ</p> "
-"<p>ລອງແວະໄປທີ່ http://i18n.kde.org "
-"ສຳລັບຂໍ້ມູນລາຍລະອງດ KDE "
-"ລະດັບນານາຊາດທີ່ຫລາຍກວ່ານີ"
-"้້</p>"
+"<p> ຂໍຂອບໃຈສຳລັບການທຳງານຂອງທິມການແປ KDE ໄປເປັນພາສາຕ່າງໆຫລາກຫລາຍ</p> <p>"
+"ລອງແວະໄປທີ່ http://i18n.kde.org ສຳລັບຂໍ້ມູນລາຍລະອງດ KDE "
+"ລະດັບນານາຊາດທີ່ຫລາຍກວ່ານີ้້</p>"
 
 #: kdecore/kaboutdata.cpp:415
 msgid ""
@@ -4357,19 +4179,14 @@ msgid ""
 "Please check the documentation or the source for any\n"
 "licensing terms.\n"
 msgstr ""
-"ບໍພົບຂໍ້ຄວາມກຳນົດລິກະສິດກ"
-"ານໃຊ້ງານໂປຣແກຣມນີ້\n"
-"ກະລຸນາກວດສອບເອກະສານຫລືຕົ້"
-"ນສະບັບໂປຣແກຣມ\n"
-"ສຳລັບຂໍ້ກຳນົດລິຂະສິດໃນການ"
-"ໃຊ້ງານ\n"
+"ບໍພົບຂໍ້ຄວາມກຳນົດລິກະສິດການໃຊ້ງານໂປຣແກຣມນີ້\n"
+"ກະລຸນາກວດສອບເອກະສານຫລືຕົ້ນສະບັບໂປຣແກຣມ\n"
+"ສຳລັບຂໍ້ກຳນົດລິຂະສິດໃນການໃຊ້ງານ\n"
 
 #: kdecore/kaboutdata.cpp:422
 #, c-format
 msgid "This program is distributed under the terms of the %1."
-msgstr ""
-"ໂປຣແກຣມນີ້ແຈກຈ່າຍເຜີຍແພ່ພ"
-"າຍໃຕ້ຂໍ້ກຳນົດແບບ %1"
+msgstr "ໂປຣແກຣມນີ້ແຈກຈ່າຍເຜີຍແພ່ພາຍໃຕ້ຂໍ້ກຳນົດແບບ %1"
 
 #: kdecore/kcalendarsystem.cpp:124
 msgid ""
@@ -4462,9 +4279,7 @@ msgstr ""
 #: kdecore/network/kresolver.cpp:556
 #, fuzzy
 msgid "requested family not supported for this host name"
-msgstr ""
-"ບໍ່ສະຫນັບສະຫນຸນ servname ສຳລັບ "
-"ai_socktype"
+msgstr "ບໍ່ສະຫນັບສະຫນຸນ servname ສຳລັບ ai_socktype"
 
 #: kdecore/network/kresolver.cpp:559
 #, fuzzy
@@ -4479,9 +4294,7 @@ msgstr "ບໍ່ສະຫນັບສະຫນຸນ 'ai_family'"
 #: kdecore/network/kresolver.cpp:563
 #, fuzzy
 msgid "requested service not supported for this socket type"
-msgstr ""
-"ບໍ່ສະຫນັບສະຫນຸນ servname ສຳລັບ "
-"ai_socktype"
+msgstr "ບໍ່ສະຫນັບສະຫນຸນ servname ສຳລັບ ai_socktype"
 
 #: kdecore/network/kresolver.cpp:564
 #, fuzzy
@@ -4666,10 +4479,7 @@ msgstr "ກະລຸນາຕື່ມຊື່:"
 #: knewstuff/knewstuffgeneric.cpp:133
 #, fuzzy
 msgid "The file '%1' already exists. Do you want to override it?"
-msgstr ""
-"ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແ"
-"ລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່"
-"ມັນຫລືບໍ່?"
+msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
 #: khtml/khtml_ext.cpp:719 knewstuff/knewstuffgeneric.cpp:135
 msgid "Overwrite"
@@ -4806,9 +4616,7 @@ msgstr "ສະແດງພາບ (%1)"
 #, fuzzy
 msgid ""
 "Content information: %1\n"
-msgstr ""
-"ສະແດງຂໍ້ມູນລາຍລະອຽດຂອງຜູ້"
-"ຂຽນ"
+msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດຂອງຜູ້ຂຽນ"
 
 #: knewstuff/engine.cpp:301
 #, fuzzy
@@ -4849,8 +4657,8 @@ msgstr ""
 
 #: knewstuff/knewstuffsecure.cpp:83
 msgid ""
-"There was an error with the downloaded resource tarball file. Possible "
-"causes are damaged archive or invalid directory structure in the archive."
+"There was an error with the downloaded resource tarball file. Possible causes "
+"are damaged archive or invalid directory structure in the archive."
 msgstr ""
 
 #: knewstuff/knewstuffsecure.cpp:83
@@ -4865,9 +4673,7 @@ msgstr ""
 #: knewstuff/knewstuffsecure.cpp:99
 #, fuzzy
 msgid "The validation failed for unknown reason."
-msgstr ""
-"ລົ້ມເຫລວໃນການຮ້ອງຂໍ IPP "
-"ໂດຍບໍ່ຮູ້ສາເຫດ"
+msgstr "ລົ້ມເຫລວໃນການຮ້ອງຂໍ IPP ໂດຍບໍ່ຮູ້ສາເຫດ"
 
 #: knewstuff/knewstuffsecure.cpp:106
 msgid "The MD5SUM check failed, the archive might be broken."
@@ -4889,18 +4695,15 @@ msgstr "ລາຍເຊັນບໍ່ສາມາດເຊື່ອຖືໄດ
 
 #: knewstuff/knewstuffsecure.cpp:131
 msgid ""
-"The resource was signed with key <i>0x%1</i>, belonging to <i>%2 "
-"&lt;%3&gt;</i>."
+"The resource was signed with key <i>0x%1</i>, belonging to <i>%2 &lt;%3&gt;</i>"
+"."
 msgstr ""
 
 #: knewstuff/knewstuffsecure.cpp:137
 msgid ""
-"<qt>There is a problem with the resource file you have downloaded. The "
-"errors are :<b>%1</b>"
-"<br>%2"
-"<br>"
-"<br>Installation of the resource is <b>not recommended</b>."
-"<br><br>Do you want to proceed with the installation?</qt>"
+"<qt>There is a problem with the resource file you have downloaded. The errors "
+"are :<b>%1</b><br>%2<br><br>Installation of the resource is <b>"
+"not recommended</b>.<br><br>Do you want to proceed with the installation?</qt>"
 msgstr ""
 
 #: knewstuff/knewstuffsecure.cpp:137
@@ -4919,9 +4722,7 @@ msgstr "ຊັບພະຍາກອນ"
 #: knewstuff/knewstuffsecure.cpp:190
 #, fuzzy
 msgid "The signing failed for unknown reason."
-msgstr ""
-"ລົ້ມເຫລວໃນການຮ້ອງຂໍ IPP "
-"ໂດຍບໍ່ຮູ້ສາເຫດ"
+msgstr "ລົ້ມເຫລວໃນການຮ້ອງຂໍ IPP ໂດຍບໍ່ຮູ້ສາເຫດ"
 
 #: knewstuff/knewstuffsecure.cpp:195
 msgid ""
@@ -4932,24 +4733,22 @@ msgstr ""
 
 #: knewstuff/security.cpp:63
 msgid ""
-"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
-"<i>gpg</i>"
-" is installed, otherwise verification of downloaded resources will not be "
-"possible.</qt>"
+"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that <i>"
+"gpg</i> is installed, otherwise verification of downloaded resources will not "
+"be possible.</qt>"
 msgstr ""
 
 #: knewstuff/security.cpp:177
 msgid ""
-"<qt>Enter passphrase for key <b>0x%1</b>, belonging "
-"to<br><i>%2&lt;%3&gt;</i>:</qt>"
+"<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br><i>%2&lt;%3&gt;</i>"
+":</qt>"
 msgstr ""
 
 #: knewstuff/security.cpp:257
 msgid ""
-"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
-"that <i>gpg</i>"
-" is installed, otherwise verification of downloaded resources will not be "
-"possible.</qt>"
+"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure that "
+"<i>gpg</i> is installed, otherwise verification of downloaded resources will "
+"not be possible.</qt>"
 msgstr ""
 
 #: knewstuff/security.cpp:317
@@ -4963,8 +4762,8 @@ msgstr ""
 
 #: knewstuff/security.cpp:338
 msgid ""
-"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
-"installed, otherwise signing of the resources will not be possible.</qt>"
+"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> "
+"is installed, otherwise signing of the resources will not be possible.</qt>"
 msgstr ""
 
 #: knewstuff/ghns.cpp:50
@@ -4986,9 +4785,7 @@ msgstr ""
 #: knewstuff/providerdialog.cpp:61
 #, fuzzy
 msgid "Please select one of the providers listed below:"
-msgstr ""
-"ກະລຸນາເລືອກປະເພດຂອງຊັບພະຍ"
-"າກອນໃຫມ່:"
+msgstr "ກະລຸນາເລືອກປະເພດຂອງຊັບພະຍາກອນໃຫມ່:"
 
 #: knewstuff/providerdialog.cpp:88
 #, fuzzy
@@ -5017,15 +4814,9 @@ msgid ""
 "(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
 "Ctrl+V) shown in the right column."
 msgstr ""
-"ທ່ານສາມາດເຫັນການຈັບຄູ່ປຸ່"
-"ມທີ່ກຳນົດໄວ້ແລ້ວທີ່ນີ້ "
-"ໂດຍມີຄວາມສຳພັນລະຫວ່າງ "
-"ການກະທຳ (ເຊັ່ນ: 'ກັອບປີ້') "
-"ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຊ້າ"
-"ຍມືແລະປຸ່ມພິມທີ່ຖຶກຈັບຄູ່"
-"ໄວ້ (ເຊັ່ນ CTRL-V) "
-"ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຂວາ"
-"ມື"
+"ທ່ານສາມາດເຫັນການຈັບຄູ່ປຸ່ມທີ່ກຳນົດໄວ້ແລ້ວທີ່ນີ້ ໂດຍມີຄວາມສຳພັນລະຫວ່າງ ການກະທຳ "
+"(ເຊັ່ນ: 'ກັອບປີ້') ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຊ້າຍມືແລະປຸ່ມພິມທີ່ຖຶກຈັບຄູ່ໄວ້ (ເຊັ່ນ "
+"CTRL-V) ຈະຖຶກສະແດງໄວ້ໃນຖັນດ້ານຂວາມື"
 
 #: kdeui/kkeydialog.cpp:364
 msgid "Action"
@@ -5041,9 +4832,7 @@ msgstr "ທາງເລືອກອຶ່ນ"
 
 #: kdeui/kkeydialog.cpp:381
 msgid "Shortcut for Selected Action"
-msgstr ""
-"ເລືອກແປ້ນພິມລັດສຳລັບການກະ"
-"ທຳທີ່ເລືອກໄວ້"
+msgstr "ເລືອກແປ້ນພິມລັດສຳລັບການກະທຳທີ່ເລືອກໄວ້"
 
 #: kdeui/kkeydialog.cpp:394
 msgid ""
@@ -5053,10 +4842,7 @@ msgstr "&ບໍ່ມີ"
 
 #: kdeui/kkeydialog.cpp:399
 msgid "The selected action will not be associated with any key."
-msgstr ""
-"ການກະທຳທີ່ເລືອກໄວ້ຍັງບໍ່ຖ"
-"ຶກກຳນົດໃຫ້ໃຊ້ກັບແປ້ນພິມລັ"
-"ດຕົວໃດ"
+msgstr "ການກະທຳທີ່ເລືອກໄວ້ຍັງບໍ່ຖຶກກຳນົດໃຫ້ໃຊ້ກັບແປ້ນພິມລັດຕົວໃດ"
 
 #: kdeui/kkeydialog.cpp:402
 msgid ""
@@ -5069,10 +4855,7 @@ msgid ""
 "This will bind the default key to the selected action. Usually a reasonable "
 "choice."
 msgstr ""
-"ຈະທຳການຈັບຄູ່ລະຫວ່າງແປ້ນພ"
-"ິມລັດໂດຍປະລິຍາຍ "
-"ກັບການກະທຳທີ່ເລືອກໄວ້ສຳລັ"
-"ບຫົວຂໍ້ທົ່ວໄປ"
+"ຈະທຳການຈັບຄູ່ລະຫວ່າງແປ້ນພິມລັດໂດຍປະລິຍາຍ ກັບການກະທຳທີ່ເລືອກໄວ້ສຳລັບຫົວຂໍ້ທົ່ວໄປ"
 
 #: kdeui/kkeydialog.cpp:410
 msgid "C&ustom"
@@ -5083,27 +4866,17 @@ msgid ""
 "If this option is selected you can create a customized key binding for the "
 "selected action using the buttons below."
 msgstr ""
-"ຖ້າຕົວເລືອກນີ້ຖຶກເລືອກໄວ້ "
-"ທ່ານສາມາດເລືອກສ້າງການຈັບຄ"
-"ູ່ແປ້ນພິມລັດ "
-"ກັບການກະທຳທີ່ເລືອກໄວ້ໄດ້ເ"
-"ອງ "
-"ໂດຍໃຊ້ປຸ່ມທີ່ຢູ່ດ້ານລຸ່ມນ"
-"ີ້"
+"ຖ້າຕົວເລືອກນີ້ຖຶກເລືອກໄວ້ ທ່ານສາມາດເລືອກສ້າງການຈັບຄູ່ແປ້ນພິມລັດ "
+"ກັບການກະທຳທີ່ເລືອກໄວ້ໄດ້ເອງ ໂດຍໃຊ້ປຸ່ມທີ່ຢູ່ດ້ານລຸ່ມນີ້"
 
 #: kdeui/kkeydialog.cpp:429
 msgid ""
-"Use this button to choose a new shortcut key. Once you click it, you can "
-"press the key-combination which you would like to be assigned to the "
-"currently selected action."
+"Use this button to choose a new shortcut key. Once you click it, you can press "
+"the key-combination which you would like to be assigned to the currently "
+"selected action."
 msgstr ""
-"ໃຊ້ປຸ່ມນີ້ "
-"ເພື່ອເລືອກແປ້ນພິມລັດໃຫມ່ "
-"ໂດຍເມື່ອທ່ານຄລິກມັນຫນຶ່ງຄ"
-"ັ້ງ "
-"ທ່ານສາມາດກົດແປ້ນພິມລັດທີ່"
-"ທ່ານຕ້ອງການກຳນົດໃຫ້ໃຊ້ກັບ"
-"ການກະທຳປະຈຸບັນໄດ້"
+"ໃຊ້ປຸ່ມນີ້ ເພື່ອເລືອກແປ້ນພິມລັດໃຫມ່ ໂດຍເມື່ອທ່ານຄລິກມັນຫນຶ່ງຄັ້ງ "
+"ທ່ານສາມາດກົດແປ້ນພິມລັດທີ່ທ່ານຕ້ອງການກຳນົດໃຫ້ໃຊ້ກັບການກະທຳປະຈຸບັນໄດ້"
 
 #: kdeui/kkeydialog.cpp:471
 msgid "Shortcuts"
@@ -5119,13 +4892,11 @@ msgstr "ບໍ່ມີ"
 
 #: kdeui/kkeydialog.cpp:716
 msgid ""
-"In order to use the '%1' key as a shortcut, it must be combined with the "
-"Win, Alt, Ctrl, and/or Shift keys."
+"In order to use the '%1' key as a shortcut, it must be combined with the Win, "
+"Alt, Ctrl, and/or Shift keys."
 msgstr ""
-"ໃນການໃຊ້ງານປຸ່ມພິມ '%1' "
-"ເປັນປຸ່ມພິມລັດມັນຈະຕ້ອງມີ"
-"ການໃຊ້ຮ່ວມກັບປຸ່ມ Win, Alt, Ctrl, "
-"ແລະ/ຫລື Shift"
+"ໃນການໃຊ້ງານປຸ່ມພິມ '%1' ເປັນປຸ່ມພິມລັດມັນຈະຕ້ອງມີການໃຊ້ຮ່ວມກັບປຸ່ມ Win, Alt, "
+"Ctrl, ແລະ/ຫລື Shift"
 
 #: kdeui/kkeydialog.cpp:719
 msgid "Invalid Shortcut Key"
@@ -5136,19 +4907,14 @@ msgid ""
 "The '%1' key combination has already been allocated to the \"%2\" action.\n"
 "Please choose a unique key combination."
 msgstr ""
-"ປຸ່ມພິມລັດ '%1' ນີ້ "
-"ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
+"ປຸ່ມພິມລັດ '%1' ນີ້ ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
 "ການກະທຳທົ່ວໆໄປ \"%2\" ແລ້ວ\n"
 "\n"
-"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນ"
-"ໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
+"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
 
 #: kdeui/kkeydialog.cpp:956
 msgid "Conflict with Standard Application Shortcut"
-msgstr ""
-"ເກີດຄວາມຂັດແຍ່ງກັບແປ້ນພິມ"
-"ລັດຂອງແອັບພລິເຄຊັນມາດຕະຖາ"
-"ນ"
+msgstr "ເກີດຄວາມຂັດແຍ່ງກັບແປ້ນພິມລັດຂອງແອັບພລິເຄຊັນມາດຕະຖານ"
 
 #: kdeui/kkeydialog.cpp:957
 #, fuzzy
@@ -5157,12 +4923,10 @@ msgid ""
 "\"%2\".\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
-"ປຸ່ມພິມລັດ '%1' ນີ້ "
-"ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
+"ປຸ່ມພິມລັດ '%1' ນີ້ ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
 "ການກະທຳທົ່ວໆໄປ \"%2\" ແລ້ວ\n"
 "\n"
-"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນ"
-"ໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
+"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
 
 #: kdeui/kkeydialog.cpp:962
 #, fuzzy
@@ -5176,12 +4940,10 @@ msgid ""
 "\"%2\".\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
-"ປຸ່ມພິມລັດ '%1' ນີ້ "
-"ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
+"ປຸ່ມພິມລັດ '%1' ນີ້ ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
 "ການກະທຳທົ່ວໆໄປ \"%2\" ແລ້ວ\n"
 "\n"
-"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນ"
-"ໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
+"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
 
 #: kdeui/kkeydialog.cpp:968
 msgid "Key Conflict"
@@ -5193,12 +4955,10 @@ msgid ""
 "The '%1' key combination has already been allocated to the \"%2\" action.\n"
 "Do you want to reassign it from that action to the current one?"
 msgstr ""
-"ປຸ່ມພິມລັດ '%1' ນີ້ "
-"ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
+"ປຸ່ມພິມລັດ '%1' ນີ້ ຖຶກຈອງໄວ້ໃຊ້ງານກັບ\n"
 "ການກະທຳທົ່ວໆໄປ \"%2\" ແລ້ວ\n"
 "\n"
-"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນ"
-"ໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
+"ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
 
 #: kdeui/kkeydialog.cpp:1089 kdeui/kkeydialog.cpp:1102
 msgid "Configure Shortcuts"
@@ -5220,16 +4980,12 @@ msgstr ""
 #: kdeui/ksconfig.cpp:100
 #, fuzzy
 msgid "Create &root/affix combinations not in dictionary"
-msgstr ""
-"ສ້າງການລວມກັນຂອງ root/affix "
-"ທີ່ບໍ່ຢູ່ໃນພົດຈະນານຸກົມ"
+msgstr "ສ້າງການລວມກັນຂອງ root/affix ທີ່ບໍ່ຢູ່ໃນພົດຈະນານຸກົມ"
 
 #: kdeui/ksconfig.cpp:105
 #, fuzzy
 msgid "Consider run-together &words as spelling errors"
-msgstr ""
-"ພິຈະລະນາໃຫ້ທຳງານກັບທັງຄຳແ"
-"ລະການກວດການສະກົດຜິດພາດ"
+msgstr "ພິຈະລະນາໃຫ້ທຳງານກັບທັງຄຳແລະການກວດການສະກົດຜິດພາດ"
 
 #: kdeui/ksconfig.cpp:116
 #, fuzzy
@@ -5408,8 +5164,7 @@ msgid ""
 "The supplied KAboutData object does not exist."
 msgstr ""
 "ຍັງບໍ່ມີຂໍ້ມູນ\n"
-"ອອບເຈັກຕ໌ທີ່ KAboutData ຕ້ອງການ "
-"ຍັງບໍ່ມີ"
+"ອອບເຈັກຕ໌ທີ່ KAboutData ຕ້ອງການ ຍັງບໍ່ມີ"
 
 #: kdeui/kaboutapplication.cpp:105
 msgid "A&uthor"
@@ -5422,23 +5177,19 @@ msgstr "&ຜູ້ຂຽນ"
 #: kdeui/kaboutapplication.cpp:110
 #, fuzzy
 msgid ""
-"Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a>"
-" to report bugs, do not mail the authors directly."
+"Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
+"to report bugs, do not mail the authors directly."
 msgstr ""
-"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜ"
-"ູ້ຂຽນໂດຍກົງ "
-"ກະລຸນາໄປທີ່http://bugs.kde.org "
+"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
 #: kdeui/kaboutapplication.cpp:112
 #, fuzzy
 msgid ""
-"Please use <a href=\"mailto:%1\">%1</a> to report bugs, do not mail the "
-"authors directly.\n"
+"Please use <a href=\"mailto:%1\">%1</a> to report bugs, do not mail the authors "
+"directly.\n"
 msgstr ""
-"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜ"
-"ູ້ຂຽນໂດຍກົງ "
-"ກະລຸນາໄປທີ່http://bugs.kde.org "
+"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
 #: kdeui/kaboutapplication.cpp:128
@@ -5455,9 +5206,7 @@ msgstr "&້ຂໍ້ຕົກລົງດ້ານລິຂະສິດ"
 
 #: kdeui/kfontdialog.cpp:105
 msgid "Here you can choose the font to be used."
-msgstr ""
-"ທ່ານສາມາດເລືອກຮູບແບບຕົວອັ"
-"ກສອນ ທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
+msgstr "ທ່ານສາມາດເລືອກຮູບແບບຕົວອັກສອນ ທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
 
 #: kdeui/kfontdialog.cpp:117
 msgid "Requested Font"
@@ -5465,16 +5214,11 @@ msgstr "ຮູບແບບຕົວອັກສອນທີ່ຕ້ອງກາ
 
 #: kdeui/kfontdialog.cpp:140
 msgid "Change font family?"
-msgstr ""
-"ປ່ຽນຕະກູນຂອງຮູບແບບຕົວອັກສ"
-"ອນ?"
+msgstr "ປ່ຽນຕະກູນຂອງຮູບແບບຕົວອັກສອນ?"
 
 #: kdeui/kfontdialog.cpp:142
 msgid "Enable this checkbox to change the font family settings."
-msgstr ""
-"ເປີດໃຊ້ເຊັກບັອກສ໌ນີ້ "
-"ເພື່ອປ່ຽນການຕັ້ງຄ່າຕະກູນຂ"
-"ອງຮູບແບບຕົວອັກສອນ"
+msgstr "ເປີດໃຊ້ເຊັກບັອກສ໌ນີ້ ເພື່ອປ່ຽນການຕັ້ງຄ່າຕະກູນຂອງຮູບແບບຕົວອັກສອນ"
 
 #: kdeui/kcharselect.cpp:373 kdeui/kfontdialog.cpp:148
 msgid "Font:"
@@ -5490,9 +5234,7 @@ msgstr "້ປ່ຽນລັກສະນະຕົວອັກສອນ?"
 
 #: kdeui/kfontdialog.cpp:161
 msgid "Enable this checkbox to change the font style settings."
-msgstr ""
-"ເປີດໃຊ້ເຊັດຄ໌ບັອກສ໌ນີ້ເພື"
-"່ອປ່ຽນລັກສະນະຕົວອັກສອນ"
+msgstr "ເປີດໃຊ້ເຊັດຄ໌ບັອກສ໌ນີ້ເພື່ອປ່ຽນລັກສະນະຕົວອັກສອນ"
 
 #: kdeui/kfontdialog.cpp:167
 msgid "Font style:"
@@ -5508,10 +5250,7 @@ msgstr "ປ່ຽນຂະຫນາດຂອງໂຕອັກສອນ"
 
 #: kdeui/kfontdialog.cpp:181
 msgid "Enable this checkbox to change the font size settings."
-msgstr ""
-"ເປີດໃຊ້ເຊັດຄ໌ບັອກນີ້ "
-"ເພື່ອປ່ຽນຂະຫນາດຂອງຕົວອັກສ"
-"ອນ"
+msgstr "ເປີດໃຊ້ເຊັດຄ໌ບັອກນີ້ ເພື່ອປ່ຽນຂະຫນາດຂອງຕົວອັກສອນ"
 
 #: kdeui/kfontdialog.cpp:187
 msgid "Size:"
@@ -5519,16 +5258,11 @@ msgstr "ຂະຫນາດ"
 
 #: kdeui/kfontdialog.cpp:203
 msgid "Here you can choose the font family to be used."
-msgstr ""
-"ເຈົ້າສາມາດເລືອກເຄົ້າຂອງຮູ"
-"ບແບບຕົວອັກສອນທີ່ຈະໃຊ້ໄດ້ທ"
-"ີ່ນີ້"
+msgstr "ເຈົ້າສາມາດເລືອກເຄົ້າຂອງຮູບແບບຕົວອັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
 
 #: kdeui/kfontdialog.cpp:225
 msgid "Here you can choose the font style to be used."
-msgstr ""
-"ເຈົ້າສາມາດເລືອກລັກສະນະຕົວ"
-"ອັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
+msgstr "ເຈົ້າສາມາດເລືອກລັກສະນະຕົວອັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
 
 #: kdeui/kfontdialog.cpp:228 kdeui/kfontdialog.cpp:476
 #: kdeui/kfontdialog.cpp:478 kdeui/kfontdialog.cpp:487
@@ -5551,29 +5285,21 @@ msgstr "ສຳພັນ"
 
 #: kdeui/kfontdialog.cpp:250
 msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
-msgstr ""
-"ຂະຫນາດຕົວອັກສອນຄົງທີ່ ຫລື "
-"ສຳພັນກັບສະພາບແວດລ້ອມ"
+msgstr "ຂະຫນາດຕົວອັກສອນຄົງທີ່ ຫລື ສຳພັນກັບສະພາບແວດລ້ອມ"
 
 #: kdeui/kfontdialog.cpp:252
 msgid ""
 "Here you can switch between fixed font size and font size to be calculated "
-"dynamically and adjusted to changing environment (e.g. widget dimensions, "
-"paper size)."
+"dynamically and adjusted to changing environment (e.g. widget dimensions, paper "
+"size)."
 msgstr ""
-"ເຈົ້າສາມາດສະຫລັບໄປມາລະຫວ່"
-"າງຂະຫນາດຕົວອັກສອນຄົງທີ່ "
-"ແລະຂະຫນາດຕົວອັກທີ່ຈະຄຳນວນ"
-"ແບບໄດນາມິກແລະປັບຄ່າໃຫ້ກັບ"
-"ສະພາບແປແວດລ້ອມດ້ວຍ "
-"(ເຊັ່ນ:ມິຕິຂອງຄອນໂທຣນ,ຂະຫນາ"
-"ດເຈ້ຍເປັນຕົ້ນ)"
+"ເຈົ້າສາມາດສະຫລັບໄປມາລະຫວ່າງຂະຫນາດຕົວອັກສອນຄົງທີ່ "
+"ແລະຂະຫນາດຕົວອັກທີ່ຈະຄຳນວນແບບໄດນາມິກແລະປັບຄ່າໃຫ້ກັບສະພາບແປແວດລ້ອມດ້ວຍ "
+"(ເຊັ່ນ:ມິຕິຂອງຄອນໂທຣນ,ຂະຫນາດເຈ້ຍເປັນຕົ້ນ)"
 
 #: kdeui/kfontdialog.cpp:276
 msgid "Here you can choose the font size to be used."
-msgstr ""
-"ເຈົ້າສາມາດເລືອກຂະຫນາດຕົວອ"
-"ັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
+msgstr "ເຈົ້າສາມາດເລືອກຂະຫນາດຕົວອັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
 
 #: kdeui/kfontdialog.cpp:299
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
@@ -5584,10 +5310,8 @@ msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr ""
-"ນີ້ເປັນຂໍ້ຄວາມຕົວຢ່າງທີ່ສ"
-"ະແດງໃຫ້ເຫັນລັກສະນະການຕັ້ງ"
-"ຄ່າໃນປະຈຸບັນເຈົ້າອາດຈະແກ້"
-"ໄຂເພື່ອທົດສອບອັກຄະຣະພິເສດ"
+"ນີ້ເປັນຂໍ້ຄວາມຕົວຢ່າງທີ່ສະແດງໃຫ້ເຫັນລັກສະນະການຕັ້ງຄ່າໃນປະຈຸບັນເຈົ້າອາດຈະແກ້ໄຂເພື"
+"່ອທົດສອບອັກຄະຣະພິເສດ"
 
 #: kdeui/kfontdialog.cpp:313 kdeui/kfontdialog.cpp:323
 msgid "Actual Font"
@@ -5606,8 +5330,8 @@ msgstr "ທີ່ເລືອກໄວ້:"
 #: kdeui/kcharselect.cpp:356
 msgid ""
 "_: Character\n"
-"<qt><font size=\"+4\" face=\"%1\">%2</font>"
-"<br>Unicode code point: U+%3<br>(In decimal: %4)<br>(Character: %5)</qt>"
+"<qt><font size=\"+4\" face=\"%1\">%2</font><br>Unicode code point: U+%3<br>"
+"(In decimal: %4)<br>(Character: %5)</qt>"
 msgstr ""
 
 #: kdeui/kcharselect.cpp:384
@@ -5660,169 +5384,97 @@ msgstr "ລາຍການແບບ Dropdown "
 #: kdeui/kaboutkde.cpp:34
 #, fuzzy
 msgid ""
-"The <b>K Desktop Environment</b> is written and maintained by the KDE Team, "
-"a world-wide network of software engineers committed to free software "
-"development."
-"<br>"
-"<br>No single group, company or organization controls the KDE source code. "
-"Everyone is welcome to contribute to KDE."
-"<br>"
-"<br>Visit <A HREF=\"http://www.kde.org/\">http://www.kde.org</A> for more "
-"information on the KDE project. "
+"The <b>K Desktop Environment</b> is written and maintained by the KDE Team, a "
+"world-wide network of software engineers committed to free software "
+"development.<br><br>No single group, company or organization controls the KDE "
+"source code. Everyone is welcome to contribute to KDE.<br><br>"
+"Visit <A HREF=\"http://www.kde.org/\">http://www.kde.org</A> "
+"for more information on the KDE project. "
 msgstr ""
-"<center><b>"
-"ສະພາບແວດລ້ອມການເຮັດວຽກແບບ"
-"ພື້ນທີ່ເຮັດວຽກ K "
-"</b></center>ຖືກຂຽນຂື້ນແລະຄວບຄຸມເບ"
-"ິ່ງແຍງໂດຍທິມງານຂອງ KDE "
-"<br>"
-"ຊື່ງເປັນປຸ່ມວິສະວະກອນ,ໂປຼແ"
-"ກຣມເມີ "
-"ແລະຜູ້ອຸທິດຕົນໃຫ້ກັບ "
-"ການພັດທະນາແລະເຜີຍແຜ່ຊອບແວ"
-"ຟຼີຈາກທົ່ວໂລກ"
-"<br>"
-"<br>ບໍ່ມີຜູ້ໃດ ບໍລິສັດ "
-"ຫຼືອົງກອນໃດໆ "
+"<center><b>ສະພາບແວດລ້ອມການເຮັດວຽກແບບພື້ນທີ່ເຮັດວຽກ K </b></center>"
+"ຖືກຂຽນຂື້ນແລະຄວບຄຸມເບິ່ງແຍງໂດຍທິມງານຂອງ KDE "
+"<br>ຊື່ງເປັນປຸ່ມວິສະວະກອນ,ໂປຼແກຣມເມີ ແລະຜູ້ອຸທິດຕົນໃຫ້ກັບ "
+"ການພັດທະນາແລະເຜີຍແຜ່ຊອບແວຟຼີຈາກທົ່ວໂລກ<br><br>ບໍ່ມີຜູ້ໃດ ບໍລິສັດ ຫຼືອົງກອນໃດໆ "
 "ຄວບຄຸມຕົ້ນສະບັບໂປຼແກຣມ KDE "
-"ໄວ້ແຕ່ຜູ້ດຽວ"
-"<br>ບໍ່ວ່າຜູ້ໃດກໍ່ສາມາດເຜີຍແ"
-"ຜ່ແຈກຈ່າຍໂປຼແກຣມ KDE "
-"ນີ້ໄດ້"
-"<br>"
-"<br>ລອງແວະໄປທີ່ <A "
-"HREF=\"http://www.kde.org/\">http://www.kde.org/</A> "
-"ເພື່ອເບີ່ງລາຍລະອຽດຂອງໂຄງກ"
-"ານ KDE ທີ່ຫຼາຍກ່ວານີ້"
+"ໄວ້ແຕ່ຜູ້ດຽວ<br>ບໍ່ວ່າຜູ້ໃດກໍ່ສາມາດເຜີຍແຜ່ແຈກຈ່າຍໂປຼແກຣມ KDE ນີ້ໄດ້<br><br>"
+"ລອງແວະໄປທີ່ <A HREF=\"http://www.kde.org/\">http://www.kde.org/</A> "
+"ເພື່ອເບີ່ງລາຍລະອຽດຂອງໂຄງການ KDE ທີ່ຫຼາຍກ່ວານີ້"
 
 #: kdeui/kaboutkde.cpp:43
 #, fuzzy
 msgid ""
-"Software can always be improved, and the KDE Team is ready to do so. "
-"However, you - the user - must tell us when something does not work as "
-"expected or could be done better."
-"<br>"
-"<br>The K Desktop Environment has a bug tracking system. Visit <A "
-"HREF=\"http://bugs.kde.org/\">http://bugs.kde.org</A> or use the \"Report "
-"Bug...\" dialog from the \"Help\" menu to report bugs."
-"<br>"
-"<br>"
-"If you have a suggestion for improvement then you are welcome to use the bug "
-"tracking system to register your wish. Make sure you use the severity called "
-"\"Wishlist\"."
+"Software can always be improved, and the KDE Team is ready to do so. However, "
+"you - the user - must tell us when something does not work as expected or could "
+"be done better.<br><br>The K Desktop Environment has a bug tracking system. "
+"Visit <A HREF=\"http://bugs.kde.org/\">http://bugs.kde.org</A> "
+"or use the \"Report Bug...\" dialog from the \"Help\" menu to report bugs.<br>"
+"<br>If you have a suggestion for improvement then you are welcome to use the "
+"bug tracking system to register your wish. Make sure you use the severity "
+"called \"Wishlist\"."
 msgstr ""
-"ຊອບແວຍ່ອມມີການປັບປຸງແລະແກ"
-"້ໄຂຢູ່ສະເຫມີ "
-"ເຊິ່ງທາງຜູ້ພັດທະນາ KDE "
-"ກໍເຮັດເຊັ່ນນັ້ນຢູ່ແລ້ວ"
-"<br> ຢ່າງໃດກໍຕາມ "
-"ທ່ານເຊິ່ງເປັນ<b>ຜູ້ໃຊ້</b> "
-"ອາດຕ້ອງການບອກເຮົາ "
-"ຫາກບາງສິ່ງບໍ່ສາມາດທຳງານໄດ"
-"້ຕາມທີ່ຄາດ "
-"ຫລືຫນ້າຈະເຮັດໄດ້ດີກວ່ານີ້<b"
-"r>"
-"<br>ສະພາບແວດລ້ອມການທຳງານພື້ນ"
-"ທີ່ທຳງານແບບK "
-"ນັ້ນມີລະບົບຕິດຕາມຄວາມຜິດພ"
-"າດຢູ່ແລ້ວ "
-"<br> ມາທີ່ <A "
-"HREF=\"http://bugs.kde.org/\">http://bugs.kde.org/</A> "
-"ຫລືໃຊ້ໄດອະລັອກ "
-"\"ລາຍງານຄວາມຜິດພາດ\" ຈາກເມນູ "
-"\"ຊ່ວຍເຫລືອ\" "
-"ເພື່ອລາຍງານຄວາມຜິດພາດທີ່ເ"
-"ກີດຂື້ນ"
-"<br>"
-"<br>ຫາກທ່ານມີຂໍ້ແນະນຳ "
-"ຫລືຄວາມຕ້ອງການອື່ນໆ "
-"ເພື່ອການປັບປຸງແລ້ວແລະກະ "
-"ທ່ານສາມາດໃຊ້ວິທີ "
-"<br>ລົງທະບຽນສິ່ງທີ່ທ່ານຕ້ອງກ"
-"ານໄດ້ໂດຍໃ່ຊ້ລະບົບຕິດຕາມຄວ"
-"າມຜິດພາດ "
-"<br>ແລະກະລຸນາແນ່ໃຈວ່າທ່ານໄດ້"
-"ປັບໃຊ້ລະດັບການກວດຂັນແບບ "
-"\"ຄວາມຕ້ອງການ\" ແລ້ວ"
+"ຊອບແວຍ່ອມມີການປັບປຸງແລະແກ້ໄຂຢູ່ສະເຫມີ ເຊິ່ງທາງຜູ້ພັດທະນາ KDE "
+"ກໍເຮັດເຊັ່ນນັ້ນຢູ່ແລ້ວ<br> ຢ່າງໃດກໍຕາມ ທ່ານເຊິ່ງເປັນ<b>ຜູ້ໃຊ້</b> "
+"ອາດຕ້ອງການບອກເຮົາ ຫາກບາງສິ່ງບໍ່ສາມາດທຳງານໄດ້ຕາມທີ່ຄາດ "
+"ຫລືຫນ້າຈະເຮັດໄດ້ດີກວ່ານີ້<br><br>ສະພາບແວດລ້ອມການທຳງານພື້ນທີ່ທຳງານແບບK "
+"ນັ້ນມີລະບົບຕິດຕາມຄວາມຜິດພາດຢູ່ແລ້ວ <br> ມາທີ່ <A HREF=\"http://bugs.kde.org/\">"
+"http://bugs.kde.org/</A> ຫລືໃຊ້ໄດອະລັອກ \"ລາຍງານຄວາມຜິດພາດ\" ຈາກເມນູ "
+"\"ຊ່ວຍເຫລືອ\" ເພື່ອລາຍງານຄວາມຜິດພາດທີ່ເກີດຂື້ນ<br><br>"
+"ຫາກທ່ານມີຂໍ້ແນະນຳ ຫລືຄວາມຕ້ອງການອື່ນໆ ເພື່ອການປັບປຸງແລ້ວແລະກະ ທ່ານສາມາດໃຊ້ວິທີ "
+"<br>ລົງທະບຽນສິ່ງທີ່ທ່ານຕ້ອງການໄດ້ໂດຍໃ່ຊ້ລະບົບຕິດຕາມຄວາມຜິດພາດ <br>"
+"ແລະກະລຸນາແນ່ໃຈວ່າທ່ານໄດ້ປັບໃຊ້ລະດັບການກວດຂັນແບບ \"ຄວາມຕ້ອງການ\" ແລ້ວ"
 
 #: kdeui/kaboutkde.cpp:54
 #, fuzzy
 msgid ""
-"You do not have to be a software developer to be a member of the KDE team. "
-"You can join the national teams that translate program interfaces. You can "
-"provide graphics, themes, sounds, and improved documentation. You "
-"decide!"
-"<br>"
-"<br>Visit <A HREF=\"http://www.kde.org/jobs/\">http://www.kde.org/jobs/</A> "
-"for information on some projects in which you can participate."
-"<br>"
-"<br>If you need more information or documentation, then a visit to <A "
-"HREF=\"http://developer.kde.org/\">http://developer.kde.org</A>"
-" will provide you with what you need."
+"You do not have to be a software developer to be a member of the KDE team. You "
+"can join the national teams that translate program interfaces. You can provide "
+"graphics, themes, sounds, and improved documentation. You decide!<br><br>"
+"Visit <A HREF=\"http://www.kde.org/jobs/\">http://www.kde.org/jobs/</A> "
+"for information on some projects in which you can participate.<br><br>"
+"If you need more information or documentation, then a visit to <A "
+"HREF=\"http://developer.kde.org/\">http://developer.kde.org</A> "
+"will provide you with what you need."
 msgstr ""
-"ຫາກທ່ານຍັງບໍ່ໄດ້ເປັນສ່ວນຫ"
-"ນຶ່ງຂອງທີມ KDE "
-"ທ່ານສາມາດເຂົ້າຮ່ວມເປັນສ່ວ"
-"ນຫນຶ່ງໄດ້ "
-"ເຊິ່ງທ່ານຈະສາມາດແປຮູບແບບສ"
-"່ວນຕິດຕໍ່ຂອງໂປຣແກຣມ "
-"ສະເຫນີພາບ ທີມ ສຽງ "
-"ແລະປັບປຸງເອກະສານ "
-"ຕາມທີ່ທ່ານຕ້ອງການໄດ້ !"
-"<br> "
-"<br>ແລະໄປທີ່ <A "
+"ຫາກທ່ານຍັງບໍ່ໄດ້ເປັນສ່ວນຫນຶ່ງຂອງທີມ KDE ທ່ານສາມາດເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງໄດ້ "
+"ເຊິ່ງທ່ານຈະສາມາດແປຮູບແບບສ່ວນຕິດຕໍ່ຂອງໂປຣແກຣມ ສະເຫນີພາບ ທີມ ສຽງ ແລະປັບປຸງເອກະສານ "
+"ຕາມທີ່ທ່ານຕ້ອງການໄດ້ !<br> <br>ແລະໄປທີ່ <A "
 "HREF=\"http://www.kde.org/jobs.html\">http://www.kde.org/jobs.html</A> "
-"ສຳຫລັບບາງໂຄງການທີ່ທ່ານສາມ"
-"າດເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງໄ"
-"ດ້"
-"<br>"
-"<br> ຫາກທ່ານຕ້ອງການລາຍລະອຽດ "
-"ຫລືເອກະສານທີ່ຫລາຍກວ່ານີ້ "
-"ແວະໄປທີ່<A "
+"ສຳຫລັບບາງໂຄງການທີ່ທ່ານສາມາດເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງໄດ້<br><br> "
+"ຫາກທ່ານຕ້ອງການລາຍລະອຽດ ຫລືເອກະສານທີ່ຫລາຍກວ່ານີ້ ແວະໄປທີ່<A "
 "HREF=\"http://developer.kde.org/\">http://developer.kde.org/</A> "
-"ເຊິ່ງຈະມີລາຍລະອຽດແລະເອກະສ"
-"ານທີ່ທ່ານຕ້ອງການ"
+"ເຊິ່ງຈະມີລາຍລະອຽດແລະເອກະສານທີ່ທ່ານຕ້ອງການ"
 
 #: kdeui/kaboutkde.cpp:67
 #, fuzzy
 msgid ""
-"KDE is available free of charge, but making it is not free."
-"<br>"
-"<br>Thus, the KDE team formed the KDE e.V., a non-profit organization "
-"legally founded in Tuebingen, Germany. The KDE e.V. represents the KDE "
-"project in legal and financial matters. See <a "
-"href=\"http://www.kde-ev.org/\">http://www.kde-ev.org</a>"
-" for information on the KDE e.V."
-"<br>"
-"<br>The KDE team does need financial support. Most of the money is used to "
-"reimburse members and others on expenses they experienced when contributing "
-"to KDE. You are encouraged to support KDE through a financial donation, "
-"using one of the ways described at <a "
-"href=\"http://www.kde.org/support/\">http://www.kde.org/support/</a>."
-"<br><br>Thank you very much in advance for your support."
+"KDE is available free of charge, but making it is not free.<br><br>"
+"Thus, the KDE team formed the KDE e.V., a non-profit organization legally "
+"founded in Tuebingen, Germany. The KDE e.V. represents the KDE project in legal "
+"and financial matters. See <a href=\"http://www.kde-ev.org/\">"
+"http://www.kde-ev.org</a> for information on the KDE e.V.<br><br>"
+"The KDE team does need financial support. Most of the money is used to "
+"reimburse members and others on expenses they experienced when contributing to "
+"KDE. You are encouraged to support KDE through a financial donation, using one "
+"of the ways described at <a href=\"http://www.kde.org/support/\">"
+"http://www.kde.org/support/</a>.<br><br>Thank you very much in advance for your "
+"support."
 msgstr ""
-"KDE is available free of charge, but making it is not for free."
-"<br>"
-"<br>"
+"KDE is available free of charge, but making it is not for free.<br><br>"
 "Thus, the KDE Team formed the KDE Association, a non-profit organization "
-"legally founded in Tuebingen, Germany. The KDE Association represents the "
-"KDE Project in legal and financial matters. See <a "
-"href=\"http://www.kde.org/kde-ev/\">http://www.kde.org/kde-ev/<a> for "
-"information on the KDE Association."
-"<br>"
-"<br>The KDE Team does need financial support. Most of the money is used to "
-"reimburse members and others on expenses they experienced when contributing "
-"to KDE. You are encouraged to support KDE through a financial donation, "
-"using one of the ways described at <a "
+"legally founded in Tuebingen, Germany. The KDE Association represents the KDE "
+"Project in legal and financial matters. See <a "
+"href=\"http://www.kde.org/kde-ev/\">http://www.kde.org/kde-ev/<a> "
+"for information on the KDE Association.<br><br>The KDE Team does need financial "
+"support. Most of the money is used to reimburse members and others on expenses "
+"they experienced when contributing to KDE. You are encouraged to support KDE "
+"through a financial donation, using one of the ways described at <a "
 "href=\"http://www.kde.org/support.html\">http://www.kde.org/support.html</a>"
 ".<br><br>Thank you very much in advance for your support."
 
 #: kdeui/kaboutkde.cpp:81
 #, c-format
 msgid "K Desktop Environment. Release %1"
-msgstr ""
-"ສະພາບແວດລ້ອມພື້ນທີ່ທຳງານແ"
-"ບບ K ລຸ້ນ %1"
+msgstr "ສະພາບແວດລ້ອມພື້ນທີ່ທຳງານແບບ K ລຸ້ນ %1"
 
 #: kdeui/kaboutkde.cpp:83
 msgid ""
@@ -5832,15 +5484,11 @@ msgstr "&ກ່ຽວກັບ"
 
 #: kdeui/kaboutkde.cpp:84
 msgid "&Report Bugs or Wishes"
-msgstr ""
-"&ລາຍງານຂໍ້ຜິດພາດຫລືຄວາມຕ້ອ"
-"ງການ"
+msgstr "&ລາຍງານຂໍ້ຜິດພາດຫລືຄວາມຕ້ອງການ"
 
 #: kdeui/kaboutkde.cpp:85
 msgid "&Join the KDE Team"
-msgstr ""
-"&ເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງຂອງ"
-"ທີມ KDE"
+msgstr "&ເຂົ້າຮ່ວມເປັນສ່ວນຫນຶ່ງຂອງທີມ KDE"
 
 #: kdeui/kaboutkde.cpp:86
 #, fuzzy
@@ -5860,12 +5508,10 @@ msgid "Discard changes"
 msgstr "ປະຖິ້ມການປ່ຽນແປງ"
 
 #: kdeui/kstdguiitem.cpp:119
-msgid "Pressing this button will discard all recent changes made in this dialog"
+msgid ""
+"Pressing this button will discard all recent changes made in this dialog"
 msgstr ""
-"ຫາກກົດປຸ່ມນີ້ "
-"ຈະທຳການຍົກເລີກການປ່ຽນແປ "
-"ທີ່ໄດ້ເຮັດໄວ້ທັງຫມົດໃນກ່ອ"
-"ງໂຕ້ຕອບນີ້"
+"ຫາກກົດປຸ່ມນີ້ ຈະທຳການຍົກເລີກການປ່ຽນແປ ທີ່ໄດ້ເຮັດໄວ້ທັງຫມົດໃນກ່ອງໂຕ້ຕອບນີ້"
 
 #: kdeui/kstdguiitem.cpp:125
 msgid "Save data"
@@ -5894,17 +5540,13 @@ msgstr "ມີຜົນທັນທີ"
 
 #: kdeui/kstdguiitem.cpp:143
 msgid ""
-"When clicking <b>Apply</b>"
-", the settings will be handed over to the program, but the dialog will not "
-"be closed.\n"
+"When clicking <b>Apply</b>, the settings will be handed over to the program, "
+"but the dialog will not be closed.\n"
 "Use this to try different settings."
 msgstr ""
-"ເມື່ອທ່ານຄລິກທີ່ປຸ່ມ<b>ມີຜົ"
-"ນທັນທີ</b> ການຕັ້ງຄ່າຈະມີຜົນ\n"
-"ກັບໂປຣແກຣມທັນທີ "
-"ແຕ່ໄດອະລັອກນີ້ຈະຍັງຄົງຢູ່\n"
-"ເພື່ອໃຫ້ທ່ານໄດ້ທົດລອງຕັ້ງ"
-"ຄ່າອື່ນໆອີກ"
+"ເມື່ອທ່ານຄລິກທີ່ປຸ່ມ<b>ມີຜົນທັນທີ</b> ການຕັ້ງຄ່າຈະມີຜົນ\n"
+"ກັບໂປຣແກຣມທັນທີ ແຕ່ໄດອະລັອກນີ້ຈະຍັງຄົງຢູ່\n"
+"ເພື່ອໃຫ້ທ່ານໄດ້ທົດລອງຕັ້ງຄ່າອື່ນໆອີກ"
 
 #: kdeui/kstdguiitem.cpp:151
 msgid "Administrator &Mode..."
@@ -5927,9 +5569,7 @@ msgstr "ລ້າງຊ່ອງຕື່ມຂໍ້ມູນ"
 
 #: kdeui/kstdguiitem.cpp:161
 msgid "Clear the input in the edit field"
-msgstr ""
-"ລ້າງສິ່ງທີ່ຢູ່ໃນຊ່ອງຕື່ມຂ"
-"ໍ້ມູນ"
+msgstr "ລ້າງສິ່ງທີ່ຢູ່ໃນຊ່ອງຕື່ມຂໍ້ມູນ"
 
 #: kdeui/kstdaction.cpp:62 kdeui/kstdguiitem.cpp:166
 msgid ""
@@ -5943,15 +5583,11 @@ msgstr "ສະແດງຄວາມຊ່ວຍເຫລືອ"
 
 #: kdeui/kstdguiitem.cpp:173
 msgid "Close the current window or document"
-msgstr ""
-"ປິດຫນ້າຕ່າງຫລືເອກະສານປະຈຸ"
-"ບັນ"
+msgstr "ປິດຫນ້າຕ່າງຫລືເອກະສານປະຈຸບັນ"
 
 #: kdeui/kstdguiitem.cpp:179
 msgid "Reset all items to their default values"
-msgstr ""
-"ຕັ້ງຄ່າລາຍການທັງຫມົດໃຫມ່ໃ"
-"ຫ້ກັບໄປໃຊ້ຄ່າປະລິຍາຍ"
+msgstr "ຕັ້ງຄ່າລາຍການທັງຫມົດໃຫມ່ໃຫ້ກັບໄປໃຊ້ຄ່າປະລິຍາຍ"
 
 #: kdeui/kstdaction.cpp:51 kdeui/kstdguiitem.cpp:186
 msgid ""
@@ -5975,9 +5611,7 @@ msgstr "ໄປຕໍ່ຫນຶ່ງຂັ້ນ"
 
 #: kdeui/kstdguiitem.cpp:206
 msgid "Opens the print dialog to print the current document"
-msgstr ""
-"ເປີດກ່ອງການພິມ "
-"ເພື່ອພິມສານປະຈຸບັນ"
+msgstr "ເປີດກ່ອງການພິມ ເພື່ອພິມສານປະຈຸບັນ"
 
 #: kdeui/kstdguiitem.cpp:212
 msgid "C&ontinue"
@@ -6105,16 +5739,12 @@ msgstr "ເລືອກປີ"
 #: kdeui/kdatepicker.cpp:161
 #, fuzzy
 msgid "Select the current day"
-msgstr ""
-"ລຶບແຟ້ມທີ່ໃຊ້ໃນປັດຈຸບັນ "
-"ແລະລອງໃຫມ່ອີກຄັ້ງ"
+msgstr "ລຶບແຟ້ມທີ່ໃຊ້ໃນປັດຈຸບັນ ແລະລອງໃຫມ່ອີກຄັ້ງ"
 
 #: kdeui/kwhatsthismanager.cpp:50
 msgid ""
-"<b>Not Defined</b>"
-"<br>"
-"There is no \"What's This\" help assigned to this widget. If you want to "
-"help us and  describe the widget, you are welcome to <a "
+"<b>Not Defined</b><br>There is no \"What's This\" help assigned to this widget. "
+"If you want to help us and  describe the widget, you are welcome to <a "
 "href=\"submit-whatsthis\">send us \"What's This\" help</a> for it."
 msgstr ""
 
@@ -6160,11 +5790,9 @@ msgid "Change &Icon..."
 msgstr "ປ່ງນ..."
 
 #: kdeui/kedittoolbar.cpp:902
-msgid "This element will be replaced with all the elements of an embedded component."
-msgstr ""
-"ສ່ວນປະກອບນີ້ "
-"ຈະແທນທີ່ສ່ວນປະກອບຂອງຄອມໂປ"
-"ເນນຕ໌ ທີ່ຖືກຝັງຢູ່ທັງຫມົດ"
+msgid ""
+"This element will be replaced with all the elements of an embedded component."
+msgstr "ສ່ວນປະກອບນີ້ ຈະແທນທີ່ສ່ວນປະກອບຂອງຄອມໂປເນນຕ໌ ທີ່ຖືກຝັງຢູ່ທັງຫມົດ"
 
 #: kdeui/kedittoolbar.cpp:904
 msgid "<Merge>"
@@ -6179,10 +5807,8 @@ msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "won't be able to re-add it."
 msgstr ""
-"ນີ້ເປັນລາຍການໆເຮັດທີ່ບໍ່ຄ"
-"ົງທີ່ ທ່ານສາມາດຍ້າຍມັນໄດ້ "
-"ແຕ່ອາດຈະບໍ່ສາມາດເຮັດການເພ"
-"ີ່ມມັນອີກໄດ້"
+"ນີ້ເປັນລາຍການໆເຮັດທີ່ບໍ່ຄົງທີ່ ທ່ານສາມາດຍ້າຍມັນໄດ້ "
+"ແຕ່ອາດຈະບໍ່ສາມາດເຮັດການເພີ່ມມັນອີກໄດ້"
 
 #: kdeui/kedittoolbar.cpp:913
 #, c-format
@@ -6206,8 +5832,7 @@ msgid ""
 "Unable to read X11 RGB color strings. The following file location(s) were "
 "examined:\n"
 msgstr ""
-"ບໍ່ສາມາດອ່ານຄ່າສາຍອັກຂະລະ"
-"ສີແບບ rgb ຂອງ X11 ໄດ້\n"
+"ບໍ່ສາມາດອ່ານຄ່າສາຍອັກຂະລະສີແບບ rgb ຂອງ X11 ໄດ້\n"
 "ໂດຍກວດສອບຈາກຕຳແໜ່ງ:\n"
 "\n"
 
@@ -6241,9 +5866,7 @@ msgstr "B:"
 
 #: kdeui/kcolordialog.cpp:1085
 msgid "&Add to Custom Colors"
-msgstr ""
-"&ເພີ່ມເຂົ້າໄປໃນສ່ວນ "
-"'ສີທີ່ກຳນົດເອງ'"
+msgstr "&ເພີ່ມເຂົ້າໄປໃນສ່ວນ 'ສີທີ່ກຳນົດເອງ'"
 
 #: kdeui/kcolordialog.cpp:1117
 msgid "HTML:"
@@ -6278,9 +5901,8 @@ msgstr "&ສະແດງແຖບເມນູ"
 
 #: kdeui/kstdaction.cpp:241
 msgid ""
-"Hide Menubar"
-"<p>Hide the menubar. You can usually get it back using the right mouse "
-"button inside the window itself."
+"Hide Menubar<p>Hide the menubar. You can usually get it back using the right "
+"mouse button inside the window itself."
 msgstr ""
 
 #: kdeui/kstdaction.cpp:272 kdeui/kstdaction_p.h:79
@@ -6289,9 +5911,8 @@ msgstr "&ສະແດງແຖບສະຖານະ"
 
 #: kdeui/kstdaction.cpp:274
 msgid ""
-"Show Statusbar"
-"<p>Shows the statusbar, which is the bar at the bottom of the window used "
-"for status information."
+"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
+"window used for status information."
 msgstr ""
 
 #: kdeui/kstdaction.cpp:276
@@ -6301,9 +5922,8 @@ msgstr "&ສະແດງແຖບສະຖານະ"
 
 #: kdeui/kstdaction.cpp:277
 msgid ""
-"Hide Statusbar"
-"<p>Hides the statusbar, which is the bar at the bottom of the window used "
-"for status information."
+"Hide Statusbar<p>Hides the statusbar, which is the bar at the bottom of the "
+"window used for status information."
 msgstr ""
 
 #: kdeui/kpassdlg.cpp:369
@@ -6325,8 +5945,8 @@ msgstr "ລະຫດັຜ່ານ"
 
 #: kdeui/kpassdlg.cpp:426
 msgid ""
-"The password strength meter gives an indication of the security of the "
-"password you have entered.  To improve the strength of the password, try:\n"
+"The password strength meter gives an indication of the security of the password "
+"you have entered.  To improve the strength of the password, try:\n"
 " - using a longer password;\n"
 " - using a mixture of upper- and lower-case letters;\n"
 " - using numbers or symbols, such as #, as well as letters."
@@ -6338,9 +5958,7 @@ msgstr ""
 
 #: kdeui/kpassdlg.cpp:512
 msgid "You entered two different passwords. Please try again."
-msgstr ""
-"ທ່ານໃສ່ລະຫັດຜ່ານບໍ່ຊື່ກັນ "
-"ກະລຸນາລອງໃໝ່ອີກຄັ້ງ"
+msgstr "ທ່ານໃສ່ລະຫັດຜ່ານບໍ່ຊື່ກັນ ກະລຸນາລອງໃໝ່ອີກຄັ້ງ"
 
 #: kdeui/kpassdlg.cpp:519
 msgid ""
@@ -6392,9 +6010,7 @@ msgstr "ລ້າງແປ້ນພີມລັດ"
 
 #: kdeui/kcombobox.cpp:581
 msgid "No further item in the history."
-msgstr ""
-"ບໍ່ມີລາຍການທີ່ສອດຄ້ອງໃນປະ"
-"ວັດ"
+msgstr "ບໍ່ມີລາຍການທີ່ສອດຄ້ອງໃນປະວັດ"
 
 #: kdeui/klineeditdlg.cpp:92
 msgid "&Browse..."
@@ -6409,10 +6025,8 @@ msgid ""
 "If you press the <b>OK</b> button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
-"ຖ້າທ່ານກົດປຸ່ມ <b>ຕົກລົງ</b> "
-"ການປ່ຽນແປງທັງຫມົດ\n"
-"ທີ່ທ່ານກຳນົດໄວ້ຈະຖຶກນຳເອົ"
-"າໄປໃຊ້"
+"ຖ້າທ່ານກົດປຸ່ມ <b>ຕົກລົງ</b> ການປ່ຽນແປງທັງຫມົດ\n"
+"ທີ່ທ່ານກຳນົດໄວ້ຈະຖຶກນຳເອົາໄປໃຊ້"
 
 #: kdeui/kdialogbase.cpp:911
 msgid "Accept settings"
@@ -6424,14 +6038,9 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed. Use this to try different settings. "
 msgstr ""
-"ເມື່ອທ່ານຄລິກເມື່ອທ່ານຄລິ"
-"ກທີ່ປຸ່ມ<b>ມີຜົນທັນທີี</b>ການຕ"
-"ັ້ງຄ່າ\n"
-"ຈະມີຜົນກັບໂປຣແກຣມທັນທີ "
-"ແຕ່ໄດອະລັອກນີ້ຈະຍັງຄົງຢູ່"
-"ู่\n"
-"ເພື່ອໃຫ້ທ່ານໄດ້ທົດລອງຕັ້ງ"
-"ຄ່າອຶ່ນໆອີກ"
+"ເມື່ອທ່ານຄລິກເມື່ອທ່ານຄລິກທີ່ປຸ່ມ<b>ມີຜົນທັນທີี</b>ການຕັ້ງຄ່າ\n"
+"ຈະມີຜົນກັບໂປຣແກຣມທັນທີ ແຕ່ໄດອະລັອກນີ້ຈະຍັງຄົງຢู่ູ່\n"
+"ເພື່ອໃຫ້ທ່ານໄດ້ທົດລອງຕັ້ງຄ່າອຶ່ນໆອີກ"
 
 #: kdeui/kdialogbase.cpp:941
 msgid "Apply settings"
@@ -6462,11 +6071,9 @@ msgid "Submit Bug Report"
 msgstr "ສົ່ງລາຍງານຄວາມຜິດພາດ"
 
 #: kdeui/kbugreport.cpp:110
-msgid "Your email address. If incorrect, use the Configure Email button to change it"
-msgstr ""
-"ທີ່ຢູ່ອີແມວຂອງທ່ານຫາກບໍ່ຖ"
-"ືກຕ້ອງໃຫ້ໃ້ຊ້ປຸ່ມການປັບແຕ"
-"່ງອີແມວເພື່ອປ່ຽນຄ່າ"
+msgid ""
+"Your email address. If incorrect, use the Configure Email button to change it"
+msgstr "ທີ່ຢູ່ອີແມວຂອງທ່ານຫາກບໍ່ຖືກຕ້ອງໃຫ້ໃ້ຊ້ປຸ່ມການປັບແຕ່ງອີແມວເພື່ອປ່ຽນຄ່າ"
 
 #: kdeui/kbugreport.cpp:111
 msgid "From:"
@@ -6478,9 +6085,7 @@ msgstr "ປັບແຕ່ງອີແມວ..."
 
 #: kdeui/kbugreport.cpp:127
 msgid "The email address this bug report is sent to."
-msgstr ""
-"ທີ່ຢູ່ອີແມວທີ່ລາຍງານຄວາມຜ"
-"ິດພາດນີ້ຈະຖືກສົ່ງໄປ"
+msgstr "ທີ່ຢູ່ອີແມວທີ່ລາຍງານຄວາມຜິດພາດນີ້ຈະຖືກສົ່ງໄປ"
 
 #: kdeui/kbugreport.cpp:128
 msgid "To:"
@@ -6497,20 +6102,15 @@ msgstr "ສົ່ງລາຍງານຄວາມຜິດພາດ"
 #: kdeui/kbugreport.cpp:136
 #, fuzzy, c-format
 msgid "Send this bug report to %1."
-msgstr ""
-"ສົ່ງລາຍງານຄວາມຜິດພາດນີ້ໄປ"
-"ຍັງລາຍການຄວາມຜິດພາດທີ່KDE"
+msgstr "ສົ່ງລາຍງານຄວາມຜິດພາດນີ້ໄປຍັງລາຍການຄວາມຜິດພາດທີ່KDE"
 
 #: kdeui/kbugreport.cpp:147
 msgid ""
 "The application for which you wish to submit a bug report - if incorrect, "
 "please use the Report Bug menu item of the correct application"
 msgstr ""
-"ອັບພລິກເຄເຊິນທີ່ທ່ານຕ້ອງກ"
-"ານລາຍງານຄວາມຜິດພາດຖ້າບໍ່ຖ"
-"ືກຕ້ອງກະລຸນາໃຊ້ລາຍການເມນູ"
-"ລາຍງານຄວາມຜິດພາດໃຫ້ເປັນອັ"
-"ບພລິກເຄເຊິນທີ່ຖືກຕ້ອງ"
+"ອັບພລິກເຄເຊິນທີ່ທ່ານຕ້ອງການລາຍງານຄວາມຜິດພາດຖ້າບໍ່ຖືກຕ້ອງກະລຸນາໃຊ້ລາຍການເມນູລາຍງາ"
+"ນຄວາມຜິດພາດໃຫ້ເປັນອັບພລິກເຄເຊິນທີ່ຖືກຕ້ອງ"
 
 #: kdeui/kbugreport.cpp:148
 msgid "Application: "
@@ -6521,17 +6121,12 @@ msgid ""
 "The version of this application - please make sure that no newer version is "
 "available before sending a bug report"
 msgstr ""
-"ລຸ້ນຂອງອັບພລິກເຄເຊິນນີ້້ກ"
-"ະລຸນາກວດສອບໃຫແນ່ໃຈວ່າບໍ່ມ"
-"ີລຸ້ນບໍ່ມີລຸ້ນທີ່ໃຫມ່ກວ່າ"
-"ນີ້ກ່ອນຈະທຳການສົ່ງລາຍງານຄ"
-"ວາມຜິດພາດ"
+"ລຸ້ນຂອງອັບພລິກເຄເຊິນນີ້້ກະລຸນາກວດສອບໃຫແນ່ໃຈວ່າບໍ່ມີລຸ້ນບໍ່ມີລຸ້ນທີ່ໃຫມ່ກວ່ານີ້ກ່"
+"ອນຈະທຳການສົ່ງລາຍງານຄວາມຜິດພາດ"
 
 #: kdeui/kbugreport.cpp:180
 msgid "no version set (programmer error!)"
-msgstr ""
-"ບໍ່ມີການຕັ້ງຄ່າລຸ້ນ(ໂປຣແກຣ"
-"ມເມີຫລືບໍ່!)"
+msgstr "ບໍ່ມີການຕັ້ງຄ່າລຸ້ນ(ໂປຣແກຣມເມີຫລືບໍ່!)"
 
 #: kdeui/kbugreport.cpp:190
 msgid "OS:"
@@ -6579,32 +6174,21 @@ msgid ""
 "If you press \"Send\", a mail message will be sent to the maintainer of this "
 "program.\n"
 msgstr ""
-"ໃສ່ຂໍ້ຄວາມ (ພາສາອັງກິດ "
-"ຖ້າເປັນໄປໄດ້) "
-"ທີ່ທ່ານປະສົງຈະລາຍງານຄວາມຜ"
-"ິດພາດ\n"
-"ຖ້າທ່ານກົດ 'ສົ່ງ' "
-"ຂໍ້ຄວາມເມລ໌ຈະຖືກສົ່ງໄປຍັງ"
-"ຜູ້ເບິ່ງແຍງໂປຣແກຣມນີ້ "
-"ແລະສົ່ງຕໍ່ໄປຍັງລາຍການຄວາມ"
-"ຜິດພາດທີ່ KDE"
+"ໃສ່ຂໍ້ຄວາມ (ພາສາອັງກິດ ຖ້າເປັນໄປໄດ້) ທີ່ທ່ານປະສົງຈະລາຍງານຄວາມຜິດພາດ\n"
+"ຖ້າທ່ານກົດ 'ສົ່ງ' ຂໍ້ຄວາມເມລ໌ຈະຖືກສົ່ງໄປຍັງຜູ້ເບິ່ງແຍງໂປຣແກຣມນີ້ "
+"ແລະສົ່ງຕໍ່ໄປຍັງລາຍການຄວາມຜິດພາດທີ່ KDE"
 
 #: kdeui/kbugreport.cpp:253
 #, fuzzy
 msgid ""
 "To submit a bug report, click on the button below.\n"
-"This will open a web browser window on http://bugs.kde.org where you will "
-"find a form to fill in.\n"
+"This will open a web browser window on http://bugs.kde.org where you will find "
+"a form to fill in.\n"
 "The information displayed above will be transferred to that server."
 msgstr ""
-"ເພື່ອສົ່ງລາຍງານຂໍ້ຜິດພາດ "
-"ໃຫ້ຄິກທີ່ລິງດ້ານລຸ່ມນ้\n"
-"ເພື່ອເປີດໜ້າຕ່າງບຣາວເຊີໄປ"
-"ທີ່ี่ http://bugs.kde.org "
-"ຊື່ງຈະມີຟອມໃຫ້ທ່ານກຣອກ\n"
-"ແລະຂໍ້ມູນທີ່ສະແດງຢູ່ດ້ານເ"
-"ທິງນີ້ "
-"ຈະຖືກສົ່ງໄປທີ່ເຊີເວີດ້ວຍ"
+"ເພື່ອສົ່ງລາຍງານຂໍ້ຜິດພາດ ໃຫ້ຄິກທີ່ລິງດ້ານລຸ່ມນ้\n"
+"ເພື່ອເປີດໜ້າຕ່າງບຣາວເຊີໄປທີ່ี่ http://bugs.kde.org ຊື່ງຈະມີຟອມໃຫ້ທ່ານກຣອກ\n"
+"ແລະຂໍ້ມູນທີ່ສະແດງຢູ່ດ້ານເທິງນີ້ ຈະຖືກສົ່ງໄປທີ່ເຊີເວີດ້ວຍ"
 
 #: kdeui/kbugreport.cpp:261
 msgid "&Launch Bug Report Wizard"
@@ -6620,82 +6204,42 @@ msgstr "ບໍ່ຮູ້ຈັກ"
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
-msgstr ""
-"ທ່ານຕ້ອງກຳນົດທັງເລື່ອງແລະ"
-"ລາຍລະອຽດ "
-"ບໍ່ສະນັ້ນຈະບໍ່ສາມາດສົ່ງລາ"
-"ຍງານນັ້ນໄດ"
+msgstr "ທ່ານຕ້ອງກຳນົດທັງເລື່ອງແລະລາຍລະອຽດ ບໍ່ສະນັ້ນຈະບໍ່ສາມາດສົ່ງລາຍງານນັ້ນໄດ"
 
 #: kdeui/kbugreport.cpp:387
 msgid ""
-"<p>You chose the severity <b>Critical</b>"
-". Please note that this severity is intended only for bugs "
-"that</p>"
-"<ul>"
-"<li>break unrelated software on the system (or the whole "
-"system)</li>"
-"<li>cause serious data loss</li>"
-"<li>introduce a security hole on the system where the affected package is "
+"<p>You chose the severity <b>Critical</b>. Please note that this severity is "
+"intended only for bugs that</p><ul><li>break unrelated software on the system "
+"(or the whole system)</li><li>cause serious data loss</li><li>"
+"introduce a security hole on the system where the affected package is "
 "installed</li></ul>\n"
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
-"<p>ທ່ານເລືອກລະດັບການກວດຂັນ<b>"
-"ສູງກ່ວາ</b> "
-"ໂປດຈືໄວ້ວ່າລະດັບການກວດຂັນ"
-"ນີ້ ມີຈຸດປະສົງ "
-"ຈະໄຊ້ກັບຂໍ້ຜິດພາດເທົ່ານັ້"
-"ນ "
-"ຊຶ່ງ</p>"
-"<ul>"
-"<li>"
-"ອາດຈະເຮັດໃຫ້ຊອບແວໃນລະບົບ(ຫ"
-"ຼືລະບົບທັງໜົດ) "
-"ທີ່ບໍ່ກ່ຽວຂ້ອງ "
-"ຢຸດເຮັດວຽກໄດ້ "
-"</li>"
-"<li>ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫ"
-"າຍຢ່າງໜັກ</li> "
-"<li>ອາດນຳມາຊື່ງຊ່ອງຫ່ວາງຂອງລ"
-"ະບົບຄວາມປອດໄຟຂອງລະບົບ </li></ul>\n"
-"<p>ຂໍ້ຜິດພາດທີ່ທ່ານລາຍງານນີ"
-"້ສ້າງຄວາມເສຍຫາຍຫຼາຍຕໍ່ທ່າ"
-"ນຫຼືບໍ?ຖ້າບໍ່ແມ່ນກະລຸນາເລື"
-"ອກລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວ"
-"ານີ້ ຂອບໃຈ!</p>"
+"<p>ທ່ານເລືອກລະດັບການກວດຂັນ<b>ສູງກ່ວາ</b> ໂປດຈືໄວ້ວ່າລະດັບການກວດຂັນນີ້ "
+"ມີຈຸດປະສົງ ຈະໄຊ້ກັບຂໍ້ຜິດພາດເທົ່ານັ້ນ ຊຶ່ງ</p><ul><li>"
+"ອາດຈະເຮັດໃຫ້ຊອບແວໃນລະບົບ(ຫຼືລະບົບທັງໜົດ) ທີ່ບໍ່ກ່ຽວຂ້ອງ ຢຸດເຮັດວຽກໄດ້ </li><li>"
+"ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫາຍຢ່າງໜັກ</li> "
+"<li>ອາດນຳມາຊື່ງຊ່ອງຫ່ວາງຂອງລະບົບຄວາມປອດໄຟຂອງລະບົບ </li></ul>\n"
+"<p>ຂໍ້ຜິດພາດທີ່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສຍຫາຍຫຼາຍຕໍ່ທ່ານຫຼືບໍ?ຖ້າບໍ່ແມ່ນກະລຸນາເລືອກ"
+"ລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ ຂອບໃຈ!</p>"
 
 #: kdeui/kbugreport.cpp:398
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
-"intended only for bugs that</p>"
-"<ul>"
-"<li>make the package in question unusable or mostly so</li>"
-"<li>cause data loss</li>"
-"<li>introduce a security hole allowing access to the accounts of users who "
-"use the affected package</li></ul>\n"
+"intended only for bugs that</p><ul><li>make the package in question unusable or "
+"mostly so</li><li>cause data loss</li><li>introduce a security hole allowing "
+"access to the accounts of users who use the affected package</li></ul>\n"
 "<p>Does the bug you are reporting cause any of the above damage? If it does "
 "not, please select a lower severity. Thank you!</p>"
 msgstr ""
-"<p>ທ່ານເລືອກລະດັບການກວດຂັນ "
-"<b>ສູງ</b> "
-"ກະລຸນາຈຳໄວ້ວ່າລະດັບການກວດ"
-"ຂັນນີ້ມີຈຸດປະສົງຈະໄຊ້ກັບຂ"
-"ໍ້ຜິດພາດເທົ້່ນັ້ນຊຶ່ງ</p> "
-"<ul>"
-"<li>ອາດຈະເຮັດແພກເກີທີ່ຢູ່ໃນຄ"
-"ຳຖາມ "
-"ບໍ່ສາມາດເຮັດວຽກໄດ້ຫຼືອາດຈ"
-"ະ</li> "
-"<li>ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫ"
-"າຍ</li>"
-"<li>ຊື່ງອາດນຳມາຊື່ງຊ່ອງຫ່ວາງ"
-"ຂອງລະບົບ "
+"<p>ທ່ານເລືອກລະດັບການກວດຂັນ <b>ສູງ</b> "
+"ກະລຸນາຈຳໄວ້ວ່າລະດັບການກວດຂັນນີ້ມີຈຸດປະສົງຈະໄຊ້ກັບຂໍ້ຜິດພາດເທົ້່ນັ້ນຊຶ່ງ</p> <ul>"
+"<li>ອາດຈະເຮັດແພກເກີທີ່ຢູ່ໃນຄຳຖາມ ບໍ່ສາມາດເຮັດວຽກໄດ້ຫຼືອາດຈະ</li> <li>"
+"ສົ່ງຜົນໃຫ້ເກີດຂໍ້ມູນສູນຫາຍ</li><li>ຊື່ງອາດນຳມາຊື່ງຊ່ອງຫ່ວາງຂອງລະບົບ "
 "ຄວາມປອດໄຟລະບົບ</li></ul>\n"
-"<p>ຂໍ້ຜິດພາດທີ່່ທ່ານລາຍງານນ"
-"ີ້ສ້າງຄວາມເສີຍຫາຍຢ່າງຫຼາຍ"
-"ຕໍ່ທ່ານຫຼືບໍ່?ຖ້າບໍ່ມີກະລຸ"
-"ນາເລືອກລະດັບການກວດຂັນທີ່ຕ"
-"ຳ່ກ່ວານີ້ຂອບໃຈ!</p>"
+"<p>ຂໍ້ຜິດພາດທີ່່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສີຍຫາຍຢ່າງຫຼາຍຕໍ່ທ່ານຫຼືບໍ່?ຖ້າບໍ່ມີກະລຸນາ"
+"ເລືອກລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ຂອບໃຈ!</p>"
 
 #: kdeui/kbugreport.cpp:410
 msgid ""
@@ -6703,20 +6247,13 @@ msgid ""
 "Please submit a bug report manually...\n"
 "See http://bugs.kde.org/ for instructions."
 msgstr ""
-"ບໍ່ສາມາດສົ່ງລາຍງານຄວາມຜິດ"
-"ພາດໄດ้້\n"
-"ກະລຸນາລາຍງານຄວາມຜິດພາດດ້ວ"
-"ຍຕົວທ່ານເອງ...\n"
-"ກະລຸນາເບີ່ງຄຳແນະນຳທີ່ "
-"http://bugs.kde.org/"
+"ບໍ່ສາມາດສົ່ງລາຍງານຄວາມຜິດພາດໄດ้້\n"
+"ກະລຸນາລາຍງານຄວາມຜິດພາດດ້ວຍຕົວທ່ານເອງ...\n"
+"ກະລຸນາເບີ່ງຄຳແນະນຳທີ່ http://bugs.kde.org/"
 
 #: kdeui/kbugreport.cpp:419
 msgid "Bug report sent, thank you for your input."
-msgstr ""
-"ລາຍງານຄວາມຜິດພາດຖືກສົ່ງໄປ"
-"ແລ້ວ "
-"ຂໍຂອບໃຈທີ່ສະລະເລວາໃຫ້ຂໍ້ມ"
-"ູນ"
+msgstr "ລາຍງານຄວາມຜິດພາດຖືກສົ່ງໄປແລ້ວ ຂໍຂອບໃຈທີ່ສະລະເລວາໃຫ້ຂໍ້ມູນ"
 
 #: kdeui/kbugreport.cpp:428
 msgid ""
@@ -6850,9 +6387,7 @@ msgstr ""
 
 #: kdeui/ktip.cpp:283
 msgid "&Show tips on startup"
-msgstr ""
-"&ສະແດງເຄັດລັບເມື່ອເລີ້ມທຳງ"
-"ານ"
+msgstr "&ສະແດງເຄັດລັບເມື່ອເລີ້ມທຳງານ"
 
 #: kdeui/ktoolbar.cpp:2035
 msgid "Toolbar Menu"
@@ -6909,9 +6444,7 @@ msgstr "ຂໍ້ຄວາມຢູ່ທາງຂ້າງຂອງໄອຄອ
 
 #: kdeui/ktoolbar.cpp:2050
 msgid "Text Under Icons"
-msgstr ""
-"ຂໍ້ຄວາມຢູ່ຂ້າງລຸ່ມຂອງໄອຄອ"
-"ນ"
+msgstr "ຂໍ້ຄວາມຢູ່ຂ້າງລຸ່ມຂອງໄອຄອນ"
 
 #: kdeui/ktoolbar.cpp:2074 kdeui/ktoolbar.cpp:2095
 msgid "Small (%1x%2)"
@@ -6967,19 +6500,15 @@ msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
-"ເຈົ້າຢູ່ທີ່ທ້າຍຂອງເອກກະສາ"
-"ນແລ້ວຕ້ອງການທຳຕໍ່ໄປ "
-"ໂດຍເລີ່ມຈາກຕອນທຳອິດຫລືບໍ່? "
+"ເຈົ້າຢູ່ທີ່ທ້າຍຂອງເອກກະສານແລ້ວຕ້ອງການທຳຕໍ່ໄປ ໂດຍເລີ່ມຈາກຕອນທຳອິດຫລືບໍ່? "
 
 #: kdeui/keditcl2.cpp:118 kdeui/keditcl2.cpp:388 kdeui/keditcl2.cpp:467
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
-"ທ່ານທີ່ຢູ່ຕອນຕົ້ນຂອງເອກະສ"
-"ານແລ້ວ\n"
-"ຕ້ອງການກະທຳຕໍ່ໄປໂດຍເລີ່ມຈ"
-"າກສ່ວນທ້າຍຫລືບໍ?"
+"ທ່ານທີ່ຢູ່ຕອນຕົ້ນຂອງເອກະສານແລ້ວ\n"
+"ຕ້ອງການກະທຳຕໍ່ໄປໂດຍເລີ່ມຈາກສ່ວນທ້າຍຫລືບໍ?"
 
 #: kdeui/keditcl2.cpp:711 kdeui/keditcl2.cpp:844
 msgid "Find:"
@@ -7194,11 +6723,9 @@ msgstr "ບັນທຶກພາບເປັນ"
 
 #: khtml/khtml_ext.cpp:719
 #, fuzzy
-msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr ""
-"ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແ"
-"ລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່"
-"ມັນຫລືບໍ່?"
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
 #: khtml/khtml_ext.cpp:719
 msgid "Overwrite File?"
@@ -7206,9 +6733,7 @@ msgstr "ຂງນທັບທັງຫມົດ"
 
 #: khtml/khtml_ext.cpp:780 kparts/browserrun.cpp:385
 msgid "The Download Manager (%1) could not be found in your $PATH "
-msgstr ""
-"ບໍ່ພົບຕົວຈັດການດາວໂຫລດ%1ໃນພ"
-"າບການທຳງານຂອງທ່ານ"
+msgstr "ບໍ່ພົບຕົວຈັດການດາວໂຫລດ%1ໃນພາບການທຳງານຂອງທ່ານ"
 
 #: khtml/khtml_ext.cpp:781 kparts/browserrun.cpp:386
 msgid ""
@@ -7218,8 +6743,7 @@ msgid ""
 msgstr ""
 "ລອງຕິດຕັ້ງມັນໃຫມ່ອີກຄັ້ງ\n"
 "\n"
-"ສ່ວນໃໍຊ້ຮ່ວມກັບຄອນເຄຍເຣີອ"
-"າດຈະຖືກປິດການໃຊ້ງານ!"
+"ສ່ວນໃໍຊ້ຮ່ວມກັບຄອນເຄຍເຣີອາດຈະຖືກປິດການໃຊ້ງານ!"
 
 #: khtml/khtml_ext.cpp:873
 #, fuzzy
@@ -7233,39 +6757,33 @@ msgstr "%1"
 
 #: khtml/khtml_printsettings.cpp:31
 msgid ""
-"<qt>"
-"<p><strong>'Print images'</strong></p>"
-"<p>If this checkbox is enabled, images contained in the HTML page will be "
-"printed. Printing may take longer and use more ink or toner.</p>"
-"<p>If this checkbox is disabled, only the text of the HTML page will be "
-"printed, without the included images. Printing will be faster and use less "
-"ink or toner.</p> </qt>"
+"<qt><p><strong>'Print images'</strong></p><p>If this checkbox is enabled, "
+"images contained in the HTML page will be printed. Printing may take longer and "
+"use more ink or toner.</p><p>If this checkbox is disabled, only the text of the "
+"HTML page will be printed, without the included images. Printing will be faster "
+"and use less ink or toner.</p> </qt>"
 msgstr ""
 
 #: khtml/khtml_printsettings.cpp:43
 msgid ""
-"<qt>"
-"<p><strong>'Print header'</strong></p>"
-"<p>If this checkbox is enabled, the printout of the HTML document will "
-"contain a header line at the top of each page. This header contains the "
-"current date, the location URL of the printed page and the page "
-"number.</p>"
-"<p>If this checkbox is disabled, the printout of the HTML document will not "
-"contain such a header line.</p> </qt>"
+"<qt><p><strong>'Print header'</strong></p><p>If this checkbox is enabled, the "
+"printout of the HTML document will contain a header line at the top of each "
+"page. This header contains the current date, the location URL of the printed "
+"page and the page number.</p><p>If this checkbox is disabled, the printout of "
+"the HTML document will not contain such a header line.</p> </qt>"
 msgstr ""
 
 #: khtml/khtml_printsettings.cpp:56
 msgid ""
-"<qt>"
-"<p><strong>'Printerfriendly mode'</strong></p>"
-"<p>If this checkbox is enabled, the printout of the HTML document will be "
-"black and white only, and all colored background will be converted into "
-"white. Printout will be faster and use less ink or toner.</p>"
-"<p>If this checkbox is disabled, the printout of the HTML document will "
-"happen in the original color settings as you see in your application. This "
-"may result in areas of full-page color (or grayscale, if you use a "
-"black+white printer). Printout will possibly happen slower and will "
-"certainly use much more toner or ink.</p> </qt>"
+"<qt><p><strong>'Printerfriendly mode'</strong></p><p>"
+"If this checkbox is enabled, the printout of the HTML document will be black "
+"and white only, and all colored background will be converted into white. "
+"Printout will be faster and use less ink or toner.</p><p>"
+"If this checkbox is disabled, the printout of the HTML document will happen in "
+"the original color settings as you see in your application. This may result in "
+"areas of full-page color (or grayscale, if you use a black+white printer). "
+"Printout will possibly happen slower and will certainly use much more toner or "
+"ink.</p> </qt>"
 msgstr ""
 
 #: khtml/khtml_printsettings.cpp:71
@@ -7274,9 +6792,7 @@ msgstr "ຕັ້ງຄ່າ HTML"
 
 #: khtml/khtml_printsettings.cpp:73
 msgid "Printer friendly mode (black text, no background)"
-msgstr ""
-"ໂຫມດເຫມາະກັບການພີມ "
-"(ຂໍ້ຄວາມສີດຳ ບໍ່ມີພຶ້ນຫລັງ)"
+msgstr "ໂຫມດເຫມາະກັບການພີມ (ຂໍ້ຄວາມສີດຳ ບໍ່ມີພຶ້ນຫລັງ)"
 
 #: khtml/khtml_printsettings.cpp:76
 msgid "Print images"
@@ -7305,11 +6821,10 @@ msgstr "ຄວາມປອດໄພ..."
 
 #: khtml/khtml_part.cpp:260
 msgid ""
-"Security Settings"
-"<p>Shows the certificate of the displayed page. Only pages that have been "
-"transmitted using a secure, encrypted connection have a certificate."
-"<p> Hint: If the image shows a closed lock, the page has been transmitted "
-"over a secure connection."
+"Security Settings<p>Shows the certificate of the displayed page. Only pages "
+"that have been transmitted using a secure, encrypted connection have a "
+"certificate.<p> Hint: If the image shows a closed lock, the page has been "
+"transmitted over a secure connection."
 msgstr ""
 
 #: khtml/khtml_part.cpp:266
@@ -7356,10 +6871,8 @@ msgstr "ເພີ້ມຂະຫນາດຕົວອັກສອນ"
 
 #: khtml/khtml_part.cpp:359
 msgid ""
-"Enlarge Font"
-"<p>"
-"Make the font in this window bigger. Click and hold down the mouse button "
-"for a menu with all available font sizes."
+"Enlarge Font<p>Make the font in this window bigger. Click and hold down the "
+"mouse button for a menu with all available font sizes."
 msgstr ""
 
 #: khtml/khtml_part.cpp:363
@@ -7369,38 +6882,31 @@ msgstr "ຮູບແບບການພິມ"
 
 #: khtml/khtml_part.cpp:365
 msgid ""
-"Shrink Font"
-"<p>Make the font in this window smaller. Click and hold down the mouse "
-"button for a menu with all available font sizes."
+"Shrink Font<p>Make the font in this window smaller. Click and hold down the "
+"mouse button for a menu with all available font sizes."
 msgstr ""
 
 #: khtml/khtml_part.cpp:371
 msgid ""
-"Find text"
-"<p>Shows a dialog that allows you to find text on the displayed page."
+"Find text<p>Shows a dialog that allows you to find text on the displayed page."
 msgstr ""
 
 #: khtml/khtml_part.cpp:375
 msgid ""
-"Find next"
-"<p>Find the next occurrence of the text that you have found using the "
+"Find next<p>Find the next occurrence of the text that you have found using the "
 "<b>Find Text</b> function"
 msgstr ""
 
 #: khtml/khtml_part.cpp:385
 msgid ""
-"Print Frame"
-"<p>"
-"Some pages have several frames. To print only a single frame, click on it "
-"and then use this function."
+"Print Frame<p>Some pages have several frames. To print only a single frame, "
+"click on it and then use this function."
 msgstr ""
 
 #: khtml/khtml_part.cpp:393
 #, fuzzy
 msgid "Toggle Caret Mode"
-msgstr ""
-"&ສະຫລັບໄປຍັງງານທີ່ຮງບຮ້ອຍແ"
-"ລ້ວ"
+msgstr "&ສະຫລັບໄປຍັງງານທີ່ຮງບຮ້ອຍແລ້ວ"
 
 #: khtml/khtml_part.cpp:598
 msgid "The fake user-agent '%1' is in use."
@@ -7418,9 +6924,7 @@ msgstr "ແຟ້ມຜິດພາດ"
 #: khtml/khtml_part.cpp:1104
 #, fuzzy
 msgid "&Disable Error Reporting"
-msgstr ""
-"&ປິດການໃຊ້ງານທີ່ຢຸດຂໍ້ມູນກ"
-"ານພິມ"
+msgstr "&ປິດການໃຊ້ງານທີ່ຢຸດຂໍ້ມູນການພິມ"
 
 #: khtml/khtml_part.cpp:1138
 #, fuzzy
@@ -7438,32 +6942,22 @@ msgstr "ສະແດງພາບເທິງເພຈ"
 #: khtml/khtml_part.cpp:1509 khtml/khtml_part.cpp:1600
 #, fuzzy
 msgid "Session is secured with %1 bit %2."
-msgstr ""
-"ການເຊື່ອມຕໍ່ປັດຈຸບັນຢູ່ໃນ"
-"ສ່ວນທີ່ເຂົ້າລະຫັດໄວ້ຜ່ານທ"
-"າງ SSL"
+msgstr "ການເຊື່ອມຕໍ່ປັດຈຸບັນຢູ່ໃນສ່ວນທີ່ເຂົ້າລະຫັດໄວ້ຜ່ານທາງ SSL"
 
 #: khtml/khtml_part.cpp:1510 khtml/khtml_part.cpp:1602
 #, fuzzy
 msgid "Session is not secured."
-msgstr ""
-"ການເຊື່ອມປັດຈຸບັນບໍ່ໄດ້ຢູ"
-"່ໃນສ່ວນທີ່ເຂົ້າລະຫັດໄວ້ຜ່"
-"ານທາງ SSL"
+msgstr "ການເຊື່ອມປັດຈຸບັນບໍ່ໄດ້ຢູ່ໃນສ່ວນທີ່ເຂົ້າລະຫັດໄວ້ຜ່ານທາງ SSL"
 
 #: khtml/khtml_part.cpp:1687
 #, c-format
 msgid "Error while loading %1"
-msgstr ""
-"ເກີດຄວາມຜິດພາດ "
-"ຂະນະທຳການໂຫລດ \"%1\""
+msgstr "ເກີດຄວາມຜິດພາດ ຂະນະທຳການໂຫລດ \"%1\""
 
 #: khtml/khtml_part.cpp:1689
 #, fuzzy
 msgid "An error occurred while loading <B>%1</B>:"
-msgstr ""
-"ເກີດຄວາມຜິດພາດ "
-"ຂະນະທຳການໂຫລດ <B>%1</B>:"
+msgstr "ເກີດຄວາມຜິດພາດ ຂະນະທຳການໂຫລດ <B>%1</B>:"
 
 #: khtml/khtml_part.cpp:1724
 msgid "Error: "
@@ -7471,9 +6965,7 @@ msgstr "ຜິດພາດ:"
 
 #: khtml/khtml_part.cpp:1727
 msgid "The requested operation could not be completed"
-msgstr ""
-"ບໍ່ສາມາດທຳປະຕິບັດການທີ່ຮ້"
-"ອງຂໍມາໃຫ້ສຳເລັດໄດ້"
+msgstr "ບໍ່ສາມາດທຳປະຕິບັດການທີ່ຮ້ອງຂໍມາໃຫ້ສຳເລັດໄດ້"
 
 #: khtml/khtml_part.cpp:1733
 msgid "Technical Reason: "
@@ -7517,9 +7009,7 @@ msgstr "ຍັງບໍ່ມີຊື່"
 
 #: khtml/khtml_part.cpp:2078
 msgid "Page loaded."
-msgstr ""
-"ເອີ້ນແຟ້ມຂື້ນມາໃຫມ່ຮຽບຮ້ອ"
-"ຍແລ້ວ"
+msgstr "ເອີ້ນແຟ້ມຂື້ນມາໃຫມ່ຮຽບຮ້ອຍແລ້ວ"
 
 #: khtml/khtml_part.cpp:2080
 #, fuzzy
@@ -7574,15 +7064,11 @@ msgstr "ເຊື່ອງສຳເນົາ:"
 #: khtml/khtml_part.cpp:3757
 #, fuzzy
 msgid ""
-"<qt>This untrusted page links to"
-"<BR><B>%1</B>.<BR>Do you want to follow the link?"
+"<qt>This untrusted page links to<BR><B>%1</B>.<BR>Do you want to follow the "
+"link?"
 msgstr ""
-"<qt>ຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອ"
-"ຖືນີ້ບັນຈຸລິງຄ໌"
-"<BR><B>%1</B>"
-"<BR> "
-"ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່າ"
-"ນ"
+"<qt>ຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອຖືນີ້ບັນຈຸລິງຄ໌<BR><B>%1</B><BR> "
+"ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ"
 
 #: khtml/khtml_part.cpp:3758
 msgid "Follow"
@@ -7617,15 +7103,10 @@ msgid ""
 "A third party may be able to intercept and view this information.\n"
 "Are you sure you wish to continue?"
 msgstr ""
-"ຄຳເຕືອນ:ນີ້ເປັນຟອມທີ່ຢູ່ໃນ"
-"ໂຫມດຄວາມປອດໄພແຕ່ກັບສົ່ງຂໍ"
-"້ມູນຂອງທ່ານກັບໄປເປັນແບບບໍ"
-"່ໄດ້ເຂົ້າລະຫັດໄວ້\n"
-"ບຸກຄົນທີ່ສາມອາດຈະບຸກຄົນທີ"
-"ສາມດັກຈັບ "
-"ແລະສະແດງຂໍ້ມູນນີ້ໄດ້\n"
-"ທ່ານແນ່ໃຈຫລືບໍ່ວ່າຕ້ອງການ"
-"ຈະເຮັດຕໍ່ໄປ?"
+"ຄຳເຕືອນ:ນີ້ເປັນຟອມທີ່ຢູ່ໃນໂຫມດຄວາມປອດໄພແຕ່ກັບສົ່ງຂໍ້ມູນຂອງທ່ານກັບໄປເປັນແບບບໍ່ໄດ້"
+"ເຂົ້າລະຫັດໄວ້\n"
+"ບຸກຄົນທີ່ສາມອາດຈະບຸກຄົນທີສາມດັກຈັບ ແລະສະແດງຂໍ້ມູນນີ້ໄດ້\n"
+"ທ່ານແນ່ໃຈຫລືບໍ່ວ່າຕ້ອງການຈະເຮັດຕໍ່ໄປ?"
 
 #: khtml/khtml_part.cpp:4550 khtml/khtml_part.cpp:4559
 #: khtml/khtml_part.cpp:4583
@@ -7639,23 +7120,18 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:4557
 msgid ""
-"Warning: Your data is about to be transmitted across the network "
-"unencrypted.\n"
+"Warning: Your data is about to be transmitted across the network unencrypted.\n"
 "Are you sure you wish to continue?"
 msgstr ""
-"ຄຳເຕືອນ:ຂໍ້ມູນຂອງທ່ານທີ່ຮັ"
-"ບສົ່ງກັນລະຫວ່າງເຄືອຂ່າຍບໍ"
-"່ໄ້ດ້ເຂົ້າລະຫັດໄວ້\n"
-"ທ່ານແນ່ໃຈຫລືບໍ່ວ່າຕ້ອງການ"
-"ຈະເຮັດຕໍ່ໄປ?"
+"ຄຳເຕືອນ:ຂໍ້ມູນຂອງທ່ານທີ່ຮັບສົ່ງກັນລະຫວ່າງເຄືອຂ່າຍບໍ່ໄ້ດ້ເຂົ້າລະຫັດໄວ້\n"
+"ທ່ານແນ່ໃຈຫລືບໍ່ວ່າຕ້ອງການຈະເຮັດຕໍ່ໄປ?"
 
 #: khtml/khtml_part.cpp:4581
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
 msgstr ""
-"ໄຊທ໌ນີ້ພະຍາຍາມຈະສົ່ງຂໍ້ມູ"
-"ນໃນຟອມຜ່ານທາງອີແມວ\n"
+"ໄຊທ໌ນີ້ພະຍາຍາມຈະສົ່ງຂໍ້ມູນໃນຟອມຜ່ານທາງອີແມວ\n"
 "ທ່ານຕ້ອງການທຳຕໍ່ໄປຫລືບໍ່?"
 
 #: khtml/khtml_part.cpp:4584
@@ -7665,16 +7141,11 @@ msgstr "ບັນທຶກພາບເປັນ"
 
 #: khtml/khtml_part.cpp:4605
 msgid ""
-"<qt>The form will be submitted to "
-"<BR><B>%1</B><BR>on your local filesystem.<BR>Do you want to submit the form?"
+"<qt>The form will be submitted to <BR><B>%1</B><BR>on your local filesystem.<BR>"
+"Do you want to submit the form?"
 msgstr ""
-"<qt>ຟອມນີ້ຈະຖືກສົ່ງໄປຍັງ"
-"<BR><B>%1</B>"
-"<BR>ເທິງລະບົບແຟ້ມພາຍໃນຂອງທ່າ"
-"ນ"
-"<BR> "
-"ທ່ານຕ້ອງການທີ່ຈະສົ່ງຂໍ້ມູ"
-"ນຟອມນີ້ຫລືບໍ່?"
+"<qt>ຟອມນີ້ຈະຖືກສົ່ງໄປຍັງ<BR><B>%1</B><BR>ເທິງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ<BR> "
+"ທ່ານຕ້ອງການທີ່ຈະສົ່ງຂໍ້ມູນຟອມນີ້ຫລືບໍ່?"
 
 #: khtml/html/html_formimpl.cpp:1402 khtml/khtml_part.cpp:4606
 #: khtml/rendering/render_form.cpp:265
@@ -7683,14 +7154,11 @@ msgstr "ສົ່ງ"
 
 #: khtml/khtml_part.cpp:4654
 msgid ""
-"This site attempted to attach a file from your computer in the form "
-"submission. The attachment was removed for your protection."
+"This site attempted to attach a file from your computer in the form submission. "
+"The attachment was removed for your protection."
 msgstr ""
-"ໄໍຊທ໌ນພະຍາຍາມຈະແນບແຟ້ມທີ່"
-"ຢູ່ພາຍໃນເຄື່ອງຂອງທ່ານໄປກັ"
-"ບການສົ່ງຟອມຊຶ່ງແຟ້ມທີ່ແນບ"
-"ຈະຖືກເອົາອອກຈາກການຕັ້ງການ"
-"ປ້ອງກັນຂອງທ່ານ"
+"ໄໍຊທ໌ນພະຍາຍາມຈະແນບແຟ້ມທີ່ຢູ່ພາຍໃນເຄື່ອງຂອງທ່ານໄປກັບການສົ່ງຟອມຊຶ່ງແຟ້ມທີ່ແນບຈະຖືກ"
+"ເອົາອອກຈາກການຕັ້ງການປ້ອງກັນຂອງທ່ານ"
 
 #: khtml/khtml_part.cpp:4654
 msgid "KDE"
@@ -7708,18 +7176,12 @@ msgstr "ເຕືອນເລື່ອງຄວາມປອດໄພ"
 #, fuzzy
 msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgstr ""
-"<qt>ຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອ"
-"ຖືນີ້ບັນຈຸລິງຄ໌"
-"<BR><B>%1</B>"
-"<BR> "
-"ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່າ"
-"ນ"
+"<qt>ຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອຖືນີ້ບັນຈຸລິງຄ໌<BR><B>%1</B><BR> "
+"ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ"
 
 #: khtml/java/kjavaappletserver.cpp:782 khtml/khtml_part.cpp:6571
 msgid "Security Alert"
-msgstr ""
-"ເຕືອນໃຫ້ລະວັງເລືອ່ງຄວາມປອ"
-"ດໄພ"
+msgstr "ເຕືອນໃຫ້ລະວັງເລືອ່ງຄວາມປອດໄພ"
 
 #: khtml/khtml_part.cpp:6989
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -7774,9 +7236,7 @@ msgstr "&ຂໍ້ຄວາມທີ່ຄົ້ນຫາ:"
 #: khtml/khtmlview.cpp:1646
 #, fuzzy
 msgid "Access Keys activated"
-msgstr ""
-"ໄດ້ຮັບການປະຕິເສດໃຫ້ເຂົ້າໃ"
-"ຊ້"
+msgstr "ໄດ້ຮັບການປະຕິເສດໃຫ້ເຂົ້າໃຊ້"
 
 #: khtml/khtmlview.cpp:2312
 #, fuzzy, c-format
@@ -7789,21 +7249,15 @@ msgstr "KHTML"
 
 #: khtml/khtml_factory.cpp:178
 msgid "Embeddable HTML component"
-msgstr ""
-"ຄອມໂປເນນທ໌ HTML "
-"ທີ່ສາມາດຝັງເຂົ້າໄປໄດ້"
+msgstr "ຄອມໂປເນນທ໌ HTML ທີ່ສາມາດຝັງເຂົ້າໄປໄດ້"
 
 #: khtml/xml/xml_tokenizer.cpp:300
 msgid "the document is not in the correct file format"
-msgstr ""
-"ເອກະສານບໍ່ໄດ້ຢູ່ໃນຮູບແບບຂ"
-"ອງແຟ້ມທີ່ຖືກຕ້ອງ"
+msgstr "ເອກະສານບໍ່ໄດ້ຢູ່ໃນຮູບແບບຂອງແຟ້ມທີ່ຖືກຕ້ອງ"
 
 #: khtml/xml/xml_tokenizer.cpp:306
 msgid "fatal parsing error: %1 in line %2, column %3"
-msgstr ""
-"ການກະຈາຍຄຳຜິດພາດ: %1 "
-"ໃນແຖວທີ່ %2, ຖັນທີ່ %3"
+msgstr "ການກະຈາຍຄຳຜິດພາດ: %1 ໃນແຖວທີ່ %2, ຖັນທີ່ %3"
 
 #: khtml/xml/xml_tokenizer.cpp:467
 msgid "XML parsing error"
@@ -7876,10 +7330,7 @@ msgid ""
 "\n"
 "%1"
 msgstr ""
-"ເກີດຄວາມຜິດພາດຂື້ນ "
-"ຂະນະກຳລັງ %1, %2 "
-"ຜົນສະຫລຸບຂອງຄວາມຜິດພາດຢູ່"
-"ທາງດ້ານລຸ່ມນີ້<ul>"
+"ເກີດຄວາມຜິດພາດຂື້ນ ຂະນະກຳລັງ %1, %2 ຜົນສະຫລຸບຂອງຄວາມຜິດພາດຢູ່ທາງດ້ານລຸ່ມນີ້<ul>"
 
 #: khtml/ecma/kjs_debugwin.cpp:834
 #, fuzzy
@@ -7889,10 +7340,7 @@ msgid ""
 "%1 line %2:\n"
 "%3"
 msgstr ""
-"ເກີດຄວາມຜິດພາດຂື້ນ "
-"ຂະນະກຳລັງ %1, %2 "
-"ຜົນສະຫລຸບຂອງຄວາມຜິດພາດຢູ່"
-"ທາງດ້ານລຸ່ມນີ້<ul>"
+"ເກີດຄວາມຜິດພາດຂື້ນ ຂະນະກຳລັງ %1, %2 ຜົນສະຫລຸບຂອງຄວາມຜິດພາດຢູ່ທາງດ້ານລຸ່ມນີ້<ul>"
 
 #: khtml/ecma/kjs_html.cpp:2132 khtml/ecma/kjs_window.cpp:1288
 msgid "Confirmation: JavaScript Popup"
@@ -7904,20 +7352,17 @@ msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
 msgstr ""
-"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າ"
-"ງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
+"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
 #: khtml/ecma/kjs_window.cpp:1294
 #, fuzzy
 msgid ""
-"<qt>This site is requesting to open"
-"<p>%1</p>in a new browser window via JavaScript.<br />Do you want to allow "
-"this?</qt>"
+"<qt>This site is requesting to open<p>%1</p>in a new browser window via "
+"JavaScript.<br />Do you want to allow this?</qt>"
 msgstr ""
-"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າ"
-"ງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
+"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
@@ -7952,12 +7397,12 @@ msgstr "ປິດການໃຊ້ງານ"
 
 #: khtml/ecma/kjs_proxy.cpp:380
 msgid ""
-"A script on this page is causing KHTML to freeze. If it continues to run, "
-"other applications may become less responsive.\n"
+"A script on this page is causing KHTML to freeze. If it continues to run, other "
+"applications may become less responsive.\n"
 "Do you want to abort the script?"
 msgstr ""
-"A script on this page is causing KHTML to freeze. If it continues to run, "
-"other applications may become less responsive.\n"
+"A script on this page is causing KHTML to freeze. If it continues to run, other "
+"applications may become less responsive.\n"
 "Do you want to abort the script?"
 
 #: khtml/ecma/kjs_proxy.cpp:380
@@ -7975,29 +7420,24 @@ msgid ""
 "JavaScript.\n"
 "Do you want to allow the form to be submitted?"
 msgstr ""
-"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າ"
-"ງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
+"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
 #: khtml/ecma/kjs_html.cpp:2137
 #, fuzzy
 msgid ""
-"<qt>This site is submitting a form which will open "
-"<p>%1</p> in a new browser window via JavaScript.<br />Do you want to allow "
-"the form to be submitted?</qt>"
+"<qt>This site is submitting a form which will open <p>%1</p> "
+"in a new browser window via JavaScript.<br />Do you want to allow the form to "
+"be submitted?</qt>"
 msgstr ""
-"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າ"
-"ງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
+"ໄຊຕ໌ນີ້ພະຍາຍາມເປີດຫນ້າຕ່າງ ໂດຍໃຊ້ຈາວາສະຄຣິບ\n"
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
 #: khtml/html/htmlparser.cpp:1277
 msgid "This is a searchable index. Enter search keywords: "
-msgstr ""
-"ນີ້ເປັນດັດສະນີທີ່ໃຊ້ຄົ້ນຫ"
-"າໄດ້ຕື່່ມຂໍ້ຄວາມຫລືຄຳທີ່ຕ"
-"ິອງການຄົ້ນຫາ:"
+msgstr "ນີ້ເປັນດັດສະນີທີ່ໃຊ້ຄົ້ນຫາໄດ້ຕື່່ມຂໍ້ຄວາມຫລືຄຳທີ່ຕິອງການຄົ້ນຫາ:"
 
 #: khtml/html/html_formimpl.cpp:348
 msgid ""
@@ -8021,10 +7461,8 @@ msgid ""
 "Internet.\n"
 "Do you really want to continue?"
 msgstr ""
-"ທ່ານກຳລັງຈະສົ່ງແຟ້ມເລົ່ານ"
-"ີ້\n"
-"ຈາກເຄື່ອງຂອງທ່ານ "
-"ໄປຍັງເຄືອຂ່າຍອິນເຕີເນດ\n"
+"ທ່ານກຳລັງຈະສົ່ງແຟ້ມເລົ່ານີ້\n"
+"ຈາກເຄື່ອງຂອງທ່ານ ໄປຍັງເຄືອຂ່າຍອິນເຕີເນດ\n"
 "\n"
 "ທ່ານຕ້ອງການທຳຕໍ່ໄປຫລືບໍ່ ?"
 
@@ -8050,9 +7488,8 @@ msgstr ""
 #: khtml/html/html_formimpl.cpp:605
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
-"the wallet is unlocked, it can then automatically restore the login "
-"information next time you visit this site. Do you want to store the "
-"information now?"
+"the wallet is unlocked, it can then automatically restore the login information "
+"next time you visit this site. Do you want to store the information now?"
 msgstr ""
 
 #: khtml/java/kjavaappletviewer.cpp:119
@@ -8106,9 +7543,7 @@ msgstr "ກຳລັງໂຫລດແອພເພັລຕ"
 
 #: khtml/java/kjavaappletserver.cpp:148
 msgid "Error: java executable not found"
-msgstr ""
-"ຜິດພາດ:ບໍ່ພົລຕົວປະມວນຜົນພາ"
-"ສາຈາວາ"
+msgstr "ຜິດພາດ:ບໍ່ພົລຕົວປະມວນຜົນພາສາຈາວາ"
 
 #: khtml/java/kjavaappletserver.cpp:631
 msgid "Signed by (validation: "
@@ -8177,9 +7612,7 @@ msgstr "ປະຕິເສດ"
 #: khtml/java/kjavaappletserver.cpp:660
 #, fuzzy
 msgid "PrivateKeyFailed"
-msgstr ""
-"ການທົດສອບກຸນແຈສ່ວນຕົວລົ້ມ"
-"ເຫລວ"
+msgstr "ການທົດສອບກຸນແຈສ່ວນຕົວລົ້ມເຫລວ"
 
 #: khtml/java/kjavaappletserver.cpp:662
 #, fuzzy
@@ -8198,8 +7631,7 @@ msgstr ""
 #, fuzzy
 msgid "the following permission"
 msgstr ""
-"ບໍ່ສາມາດປ່ງນສິດໃນການອະນຸຍ"
-"າດສຳຫລັບ\n"
+"ບໍ່ສາມາດປ່ງນສິດໃນການອະນຸຍາດສຳຫລັບ\n"
 " %1 ໄດ້"
 
 #: khtml/java/kjavaappletserver.cpp:799
@@ -8221,9 +7653,7 @@ msgstr "KMultiPart"
 
 #: khtml/kmultipart/kmultipart.cpp:575
 msgid "Embeddable component for multipart/mixed"
-msgstr ""
-"ຄອມໂປເນນທ໌ທີ່ສາມາດຝັງເຂົ້"
-"າໄປໄດ້ສຳຫລັບ nultipart/mixed"
+msgstr "ຄອມໂປເນນທ໌ທີ່ສາມາດຝັງເຂົ້າໄປໄດ້ສຳຫລັບ nultipart/mixed"
 
 #: khtml/rendering/render_form.cpp:281
 msgid "Reset"
@@ -8235,8 +7665,7 @@ msgid ""
 "Do you want to download one from %2?"
 msgstr ""
 "ບໍ່ພົບປລັກອິນສຳຫລັບ '%1'\n"
-"ທ່ານຕ້ອງການດາວໂຫລດມັນຈາກ %2 "
-"ຫລືບໍ່ ?"
+"ທ່ານຕ້ອງການດາວໂຫລດມັນຈາກ %2 ຫລືບໍ່ ?"
 
 #: khtml/rendering/render_frames.cpp:816
 msgid "Missing Plugin"
@@ -8244,9 +7673,7 @@ msgstr "ບໍ່ພົບປລັກອິນ"
 
 #: kinit/kinit.cpp:541
 msgid "Could not find '%1' executable."
-msgstr ""
-"ບໍ່ສາມາດຄົ້ນຫາແຟ້ມຄຳສັ່ງ\"%1"
-"\" ໄດ້"
+msgstr "ບໍ່ສາມາດຄົ້ນຫາແຟ້ມຄຳສັ່ງ\"%1\" ໄດ້"
 
 #: kinit/kinit.cpp:557
 #, fuzzy
@@ -8279,9 +7706,7 @@ msgstr ""
 #: kinit/klauncher.cpp:721
 #, fuzzy
 msgid "KDEInit could not launch '%1'."
-msgstr ""
-"KDEInit ບໍ່ສາມາດຮຽກ \"%1\" "
-"ໃຫ້ທຳງານໄດ້"
+msgstr "KDEInit ບໍ່ສາມາດຮຽກ \"%1\" ໃຫ້ທຳງານໄດ້"
 
 #: kinit/klauncher.cpp:896 kinit/klauncher.cpp:921 kinit/klauncher.cpp:938
 msgid "Could not find service '%1'."
@@ -8318,15 +7743,11 @@ msgstr "Check.whether config file itself requires updating"
 
 #: kconf_update/kconf_update.cpp:45
 msgid "File to read update instructions from"
-msgstr ""
-"ແຟ້ມທີ່ຈະອ່ານການປັບປຸງຂື້"
-"ນມາ"
+msgstr "ແຟ້ມທີ່ຈະອ່ານການປັບປຸງຂື້ນມາ"
 
 #: kconf_update/kconf_update.cpp:142
 msgid "Only local files are supported."
-msgstr ""
-"ໃຊ້ໄດ້ສະເພາະແຟ້ມພາຍໃນລະບົ"
-"ບເທົ່ານັ້ນ"
+msgstr "ໃຊ້ໄດ້ສະເພາະແຟ້ມພາຍໃນລະບົບເທົ່ານັ້ນ"
 
 #: kconf_update/kconf_update.cpp:943
 msgid "KConf Update"
@@ -8334,9 +7755,7 @@ msgstr "ປັບປຸງ KConf"
 
 #: kconf_update/kconf_update.cpp:945
 msgid "KDE Tool for updating user configuration files"
-msgstr ""
-"ເຄື່ອງມືສຳຫລັບປັບປຸງແຟ້ມປ"
-"ັບແຕ່ງຂອງຜູ້ໃຊ້ KDE"
+msgstr "ເຄື່ອງມືສຳຫລັບປັບປຸງແຟ້ມປັບແຕ່ງຂອງຜູ້ໃຊ້ KDE"
 
 #: kspell2/ui/configdialog.cpp:38
 #, fuzzy
@@ -8378,10 +7797,7 @@ msgstr "ປັກອິນຖືມພາຍນອກຂອງKDE"
 
 #: kstyles/utils/installtheme/main.cpp:35
 msgid "KDE Tool to build a cache list of all pixmap themes installed"
-msgstr ""
-"ເຄື່ອງມືສ້າງແຄສລາຍການຂອງຖ"
-"ີມແບບພິກແມບຂອງ KDE "
-"ທີ່ຖືກຕິດຕັ້ງໄວ້ແລ້ວ"
+msgstr "ເຄື່ອງມືສ້າງແຄສລາຍການຂອງຖີມແບບພິກແມບຂອງ KDE ທີ່ຖືກຕິດຕັ້ງໄວ້ແລ້ວ"
 
 #: kstyles/utils/installtheme/main.cpp:40
 #, fuzzy
@@ -8413,8 +7829,7 @@ msgid ""
 msgstr ""
 "ມີການປ່ຽນແປງກັບເອກະສານ\n"
 "\"%1\"\n"
-"ທ່ານຕ້ອງການບັນທືກມັນຫລືບໍ"
-"่່ ?"
+"ທ່ານຕ້ອງການບັນທືກມັນຫລືບໍ่່ ?"
 
 #: kparts/part.cpp:493
 #, fuzzy
@@ -8423,9 +7838,7 @@ msgstr "ບັນທືກເອກກະສານລຫືບ?"
 
 #: kparts/browserrun.cpp:271
 msgid "Do you really want to execute '%1'? "
-msgstr ""
-"ທ່ານຕ້ອງການປະມວນຜົນແທ້ຫລື"
-"ບໍ່\"%1\" ?"
+msgstr "ທ່ານຕ້ອງການປະມວນຜົນແທ້ຫລືບໍ່\"%1\" ?"
 
 #: kparts/browserrun.cpp:272
 #, fuzzy
@@ -8544,20 +7957,19 @@ msgstr "&ເລີ່ມເຄື່ອງພິມ"
 
 #: kutils/kfinddialog.cpp:241
 msgid ""
-"<qt>If you press the <b>Find</b> button, the text you entered above is "
-"searched for within the document.</qt>"
+"<qt>If you press the <b>Find</b> button, the text you entered above is searched "
+"for within the document.</qt>"
 msgstr ""
 
 #: kutils/kfinddialog.cpp:247
-msgid "Enter a pattern to search for, or select a previous pattern from the list."
+msgid ""
+"Enter a pattern to search for, or select a previous pattern from the list."
 msgstr ""
 
 #: kutils/kfinddialog.cpp:250
 #, fuzzy
 msgid "If enabled, search for a regular expression."
-msgstr ""
-"ເງື່ອນໄຂການຄົ້ນຫາບໍ່ຖືກຕ້"
-"ອງ"
+msgstr "ເງື່ອນໄຂການຄົ້ນຫາບໍ່ຖືກຕ້ອງ"
 
 #: kutils/kfinddialog.cpp:252
 msgid "Click here to edit your regular expression using a graphical editor."
@@ -8569,12 +7981,11 @@ msgstr ""
 
 #: kutils/kfinddialog.cpp:256
 msgid ""
-"<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where "
-"<code><b>N</b></code> is a integer number, will be replaced with the "
-"corresponding capture (\"parenthesized substring\") from the pattern."
-"<p>To include (a literal <code><b>\\N</b></code>"
-" in your replacement, put an extra backslash in front of it, like "
-"<code><b>\\\\N</b></code>.</qt>"
+"<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where <code><b>N</b>"
+"</code> is a integer number, will be replaced with the corresponding capture "
+"(\"parenthesized substring\") from the pattern.<p>To include (a literal <code>"
+"<b>\\N</b></code> in your replacement, put an extra backslash in front of it, "
+"like <code><b>\\\\N</b></code>.</qt>"
 msgstr ""
 
 #: kutils/kfinddialog.cpp:263
@@ -8667,83 +8078,63 @@ msgstr ""
 
 #: kutils/kfinddialog.cpp:523
 msgid "You must enter some text to search for."
-msgstr ""
-"ທ່ານຕ້ອງເຕີມທີ່ຕ້ອງການຄົ້"
-"ນຫາກ່ອນ"
+msgstr "ທ່ານຕ້ອງເຕີມທີ່ຕ້ອງການຄົ້ນຫາກ່ອນ"
 
 #: kutils/kfinddialog.cpp:534
 msgid "Invalid regular expression."
-msgstr ""
-"ເງື່ອນໄຂການຄົ້ນຫາບໍ່ຖືກຕ້"
-"ອງ"
+msgstr "ເງື່ອນໄຂການຄົ້ນຫາບໍ່ຖືກຕ້ອງ"
 
 #: kutils/kcmoduleloader.cpp:97
 msgid ""
-"<qt>There was an error when loading the module '%1'."
-"<br>"
-"<br>The desktop file (%2) as well as the library (%3) was found but yet the "
-"module could not be loaded properly. Most likely the factory declaration was "
-"wrong, or the create_* function was missing.</qt>"
+"<qt>There was an error when loading the module '%1'.<br><br>"
+"The desktop file (%2) as well as the library (%3) was found but yet the module "
+"could not be loaded properly. Most likely the factory declaration was wrong, or "
+"the create_* function was missing.</qt>"
 msgstr ""
 
 #: kutils/kcmoduleloader.cpp:110
 #, fuzzy
 msgid "The specified library %1 could not be found."
-msgstr ""
-"ບໍ່ພົບໄດເວີສຳຫລັບເຄື່ອງພິ"
-"ມ <b>%1</b>"
+msgstr "ບໍ່ພົບໄດເວີສຳຫລັບເຄື່ອງພິມ <b>%1</b>"
 
 #: kutils/kcmoduleloader.cpp:131
 #, fuzzy
 msgid "The module %1 could not be found."
-msgstr ""
-"ບໍ່ພົບໄດເວີສຳຫລັບເຄື່ອງພິ"
-"ມ <b>%1</b>"
+msgstr "ບໍ່ພົບໄດເວີສຳຫລັບເຄື່ອງພິມ <b>%1</b>"
 
 #: kutils/kcmoduleloader.cpp:132
-msgid "<qt><p>The diagnostics is:<br>The desktop file %1 could not be found.</qt>"
+msgid ""
+"<qt><p>The diagnostics is:<br>The desktop file %1 could not be found.</qt>"
 msgstr ""
 
 #: kutils/kcmoduleloader.cpp:151
 #, fuzzy
 msgid "The module %1 could not be loaded."
-msgstr ""
-"ບໍ່ສາມາດເພີ້ມລາຍການໃຫມ່ຂອ"
-"ງທ່ານໄດ້"
+msgstr "ບໍ່ສາມາດເພີ້ມລາຍການໃຫມ່ຂອງທ່ານໄດ້"
 
 #: kutils/kcmoduleloader.cpp:170
 #, fuzzy
 msgid "The module %1 is not a valid configuration module."
-msgstr ""
-"ເອິ້ນໃຊ້ແຟ້ມການປັບແຕ່ງໃຫມ"
-"່"
+msgstr "ເອິ້ນໃຊ້ແຟ້ມການປັບແຕ່ງໃຫມ່"
 
 #: kutils/kcmoduleloader.cpp:171
 msgid ""
-"<qt>"
-"<p>The diagnostics is:"
-"<br>The desktop file %1 does not specify a library.</qt>"
+"<qt><p>The diagnostics is:<br>The desktop file %1 does not specify a "
+"library.</qt>"
 msgstr ""
 
 #: kutils/kcmoduleloader.cpp:205
 #, fuzzy
 msgid "There was an error loading the module."
-msgstr ""
-"ອາດຈະເກີດຄວາມຜິດພາດທາງຝັ່"
-"ງເຊີບເວີ"
+msgstr "ອາດຈະເກີດຄວາມຜິດພາດທາງຝັ່ງເຊີບເວີ"
 
 #: kutils/kcmoduleloader.cpp:205 kutils/kcmoduleloader.cpp:273
 msgid ""
-"<qt>"
-"<p>The diagnostics is:"
-"<br>%1"
-"<p>Possible reasons:</p>"
-"<ul>"
-"<li>An error occurred during your last KDE upgrade leaving an orphaned "
-"control module"
-"<li>You have old third party modules lying around.</ul>"
-"<p>Check these points carefully and try to remove the module mentioned in "
-"the error message. If this fails, consider contacting your distributor or "
+"<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>"
+"An error occurred during your last KDE upgrade leaving an orphaned control "
+"module<li>You have old third party modules lying around.</ul><p>"
+"Check these points carefully and try to remove the module mentioned in the "
+"error message. If this fails, consider contacting your distributor or "
 "packager.</p></qt>"
 msgstr ""
 
@@ -8775,46 +8166,28 @@ msgstr ""
 #: kutils/kfind.cpp:651 kutils/kreplace.cpp:307
 msgid "Beginning of document reached."
 msgstr ""
-"ທ່ານຢູ່ທີ່ຕອນຕົ້ນຂອງເອກະສ"
-"ານແລ້ວ\n"
-"ຕ້ອງການເຮັດຕໍ່ໄປໂດຍເລີ້ມຈ"
-"າກສ່ວນທ້າຍຫລືບໍ่່ ?"
+"ທ່ານຢູ່ທີ່ຕອນຕົ້ນຂອງເອກະສານແລ້ວ\n"
+"ຕ້ອງການເຮັດຕໍ່ໄປໂດຍເລີ້ມຈາກສ່ວນທ້າຍຫລືບໍ่່ ?"
 
 #: kutils/kfind.cpp:653 kutils/kreplace.cpp:309
 msgid "End of document reached."
 msgstr ""
-"ທ່ານຢູ່ທີ່ທ້າຍຂອງເອກະສານແ"
-"ລ້ວ\n"
-"ຕ້ອງການເຮັດຕໍ່ໄປໂດຍເລີ້ມຈ"
-"າກຕອນຕົ້ນຫລືບໍ່ ?"
+"ທ່ານຢູ່ທີ່ທ້າຍຂອງເອກະສານແລ້ວ\n"
+"ຕ້ອງການເຮັດຕໍ່ໄປໂດຍເລີ້ມຈາກຕອນຕົ້ນຫລືບໍ່ ?"
 
 #: kutils/kfind.cpp:660 kutils/kreplace.cpp:316
 msgid "Do you want to restart search from the end?"
-msgstr ""
-"ທ່ານຕ້ອງການເລີ້ມການຄົ້ນຫາ"
-"ໂດຍເລີ້ມຈາກຕອນຕົ້ນໃຫມ່ຫລື"
-"ບໍ່ ?"
+msgstr "ທ່ານຕ້ອງການເລີ້ມການຄົ້ນຫາໂດຍເລີ້ມຈາກຕອນຕົ້ນໃຫມ່ຫລືບໍ່ ?"
 
 #: kutils/kfind.cpp:661 kutils/kreplace.cpp:317
 msgid "Do you want to restart search at the beginning?"
-msgstr ""
-"ທ່ານຕ້ອງການເລີ້ມການຄົ້ນຫາ"
-"ໂດຍເລີ້ມຈາກຕອນຕົ້ນໃຫມ່ຫລື"
-"ບໍ່ ?"
+msgstr "ທ່ານຕ້ອງການເລີ້ມການຄົ້ນຫາໂດຍເລີ້ມຈາກຕອນຕົ້ນໃຫມ່ຫລືບໍ່ ?"
 
 #: kutils/kpluginselector.cpp:111
 msgid ""
-"<qt>"
-"<table>"
-"<tr>"
-"<td><b>Description:</b></td>"
-"<td>%1</td></tr>"
-"<tr>"
-"<td><b>Author:</b></td>"
-"<td>%2</td></tr>"
-"<tr>"
-"<td><b>Version:</b></td>"
-"<td>%3</td></tr><tr><td><b>License:</b></td><td>%4</td></tr></table></qt>"
+"<qt><table><tr><td><b>Description:</b></td><td>%1</td></tr><tr><td><b>"
+"Author:</b></td><td>%2</td></tr><tr><td><b>Version:</b></td><td>%3</td></tr><tr>"
+"<td><b>License:</b></td><td>%4</td></tr></table></qt>"
 msgstr ""
 
 #: kutils/kpluginselector.cpp:561
@@ -8868,16 +8241,16 @@ msgstr "ບໍ່ພົບທີ່ເຂົ້າຄູ່"
 
 #: kutils/kcmoduleproxy.cpp:212
 msgid ""
-"<b>Changes in this section requires root access.</b><br />Click the "
-"\"Administrator Mode\" button to allow modifications."
+"<b>Changes in this section requires root access.</b><br />"
+"Click the \"Administrator Mode\" button to allow modifications."
 msgstr ""
 
 #: kutils/kcmoduleproxy.cpp:219
 msgid ""
 "This section requires special permissions, probably for system-wide changes; "
 "therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you do not provide the password, the "
-"module will be disabled."
+"change the module's properties. If you do not provide the password, the module "
+"will be disabled."
 msgstr ""
 
 #: kutils/kcmoduleproxy.cpp:251
@@ -8949,9 +8322,7 @@ msgstr "ຕັ້ງຄ່າຊັບພະຍາກອນ"
 #: kresources/configdialog.cpp:107
 #, fuzzy
 msgid "Please enter a resource name."
-msgstr ""
-"ກະລຸນາຕື່ມຊື່ຂອງຊັບພະຍາກອ"
-"ນ"
+msgstr "ກະລຸນາຕື່ມຊື່ຂອງຊັບພະຍາກອນ"
 
 #: kresources/configpage.cpp:120
 msgid "Type"
@@ -8971,68 +8342,47 @@ msgstr "&ນຳໃຊ້ເປັນມາດຕະຖານ"
 
 #: kresources/configpage.cpp:283
 msgid "There is no standard resource! Please select one."
-msgstr ""
-"ມັນບໍ່ມີຊັບພະຍາກອນ! "
-"ກະລຸນາເລືອກຕົວໃດຕົວຫນຶ່ງ"
+msgstr "ມັນບໍ່ມີຊັບພະຍາກອນ! ກະລຸນາເລືອກຕົວໃດຕົວຫນຶ່ງ"
 
 #: kresources/configpage.cpp:298
 msgid "Please select type of the new resource:"
-msgstr ""
-"ກະລຸນາເລືອກປະເພດຂອງຊັບພະຍ"
-"າກອນໃຫມ່:"
+msgstr "ກະລຸນາເລືອກປະເພດຂອງຊັບພະຍາກອນໃຫມ່:"
 
 #: kresources/configpage.cpp:308
 #, fuzzy
 msgid "Unable to create resource of type '%1'."
-msgstr ""
-"ບໍ່ສາມາດສ້າງໄດເຣັກທໍຣີ %1 "
-"ໄດ້"
+msgstr "ບໍ່ສາມາດສ້າງໄດເຣັກທໍຣີ %1 ໄດ້"
 
 #: kresources/configpage.cpp:360
 msgid ""
-"You cannot remove your standard resource! Please select a new standard "
-"resource first."
+"You cannot remove your standard resource! Please select a new standard resource "
+"first."
 msgstr ""
-"ທ່ານບໍ່ສາມາດລຶບຊັບພະຍາກອນ"
-"ມາດຕະຖານໄດ້! "
-"ກະລຸນາເລືອກຊັບພະຍາກອນມາດຕ"
-"ະຖານໃຫມ່ກ່ອນ"
+"ທ່ານບໍ່ສາມາດລຶບຊັບພະຍາກອນມາດຕະຖານໄດ້! ກະລຸນາເລືອກຊັບພະຍາກອນມາດຕະຖານໃຫມ່ກ່ອນ"
 
 #: kresources/configpage.cpp:394 kresources/configpage.cpp:413
 msgid "You cannot use a read-only resource as standard!"
-msgstr ""
-"ທ່ານບໍ່ສາມາດນຳໃຊ້ສັບພະຍາກ"
-"ອນທີ່ອ່ານໄດ້ຢ່າງດຽວເປັນມາ"
-"ດຕະຖານບໍ່ໄດ້"
+msgstr "ທ່ານບໍ່ສາມາດນຳໃຊ້ສັບພະຍາກອນທີ່ອ່ານໄດ້ຢ່າງດຽວເປັນມາດຕະຖານບໍ່ໄດ້"
 
 #: kresources/configpage.cpp:418
 msgid "You cannot use an inactive resource as standard!"
-msgstr ""
-"ທ່ານບໍ່ສາມາດນຳໃຊ້ຊັບພະຍາກ"
-"ອນທີ່ບໍ່ແອັກຕີບເປັນມາດຕະຖ"
-"ານໄດ້! "
+msgstr "ທ່ານບໍ່ສາມາດນຳໃຊ້ຊັບພະຍາກອນທີ່ບໍ່ແອັກຕີບເປັນມາດຕະຖານໄດ້! "
 
 #: kresources/configpage.cpp:498
 #, fuzzy
 msgid ""
-"You cannot deactivate the standard resource. Choose another standard "
-"resource first."
+"You cannot deactivate the standard resource. Choose another standard resource "
+"first."
 msgstr ""
-"ທ່ານບໍ່ສາມາດລຶບຊັບພະຍາກອນ"
-"ມາດຕະຖານໄດ້! "
-"ກະລຸນາເລືອກຊັບພະຍາກອນມາດຕ"
-"ະຖານໃຫມ່ກ່ອນ"
+"ທ່ານບໍ່ສາມາດລຶບຊັບພະຍາກອນມາດຕະຖານໄດ້! ກະລຸນາເລືອກຊັບພະຍາກອນມາດຕະຖານໃຫມ່ກ່ອນ"
 
 #: kresources/configpage.cpp:528
 msgid ""
 "There is no valid standard resource! Please select one which is neither "
 "read-only nor inactive."
 msgstr ""
-"ມັນຍັງບໍ່ທັນມີຊັບພະຍາກອນມ"
-"າດຕະຖານທີ່ແທ້ຈິງ! "
-"ກະລຸນາເລືອກຕົວໃດຕົວຫນຶ່ງເ"
-"ຊິ່ງບໍ່ໃຫ້ເປັນແບບອ່ານໄດ້ຢ"
-"່າງດຽວຫລືບໍ່ແອກຕີບຟ໌"
+"ມັນຍັງບໍ່ທັນມີຊັບພະຍາກອນມາດຕະຖານທີ່ແທ້ຈິງ! "
+"ກະລຸນາເລືອກຕົວໃດຕົວຫນຶ່ງເຊິ່ງບໍ່ໃຫ້ເປັນແບບອ່ານໄດ້ຢ່າງດຽວຫລືບໍ່ແອກຕີບຟ໌"
 
 #: kab/addressbook.cc:168
 msgid "Headline"
@@ -9126,9 +8476,7 @@ msgstr "ຫົວຂໍ້"
 
 #: kab/addressbook.cc:419 kab/addressbook.cc:1067
 msgid "Cannot initialize local variables."
-msgstr ""
-"ບໍ່ສາມາດເລີ້ມໃຊ້ຕົວແປພາຍໃ"
-"ນໄດ້"
+msgstr "ບໍ່ສາມາດເລີ້ມໃຊ້ຕົວແປພາຍໃນໄດ້"
 
 #: kab/addressbook.cc:420 kab/addressbook.cc:1068
 msgid "Out of Memory"
@@ -9139,57 +8487,43 @@ msgstr "ຫນ່ວຍຄວາມຈຳບໍ່ພງງພໍ"
 msgid ""
 "Your local kab configuration file \"%1\" could not be created. kab will "
 "probably not work correctly without it.\n"
-"Make sure you have not removed write permission from your local KDE "
-"directory (usually ~/.kde)."
+"Make sure you have not removed write permission from your local KDE directory "
+"(usually ~/.kde)."
 msgstr ""
-"ບໍ່ສາມາດສ້າງແຟ້ມການປັບແຕ່"
-"ງ kab\n"
+"ບໍ່ສາມາດສ້າງແຟ້ມການປັບແຕ່ງ kab\n"
 "\"%1\"\n"
 "່ຂອງທ່ານໄດ້ kab ອາດຈະ\n"
-"ໍບໍ່ສາມາດທຳງານໄດ້ຢ່າງຖຶກຕ"
-"້ອງກັບມັນ\n"
-"ກະລຸນາກວດສອບວ່າ "
-"ທ່ານບໍ່ໄດ້ເອົາສິດການຂງນອອ"
-"ກຈາກ\n"
-"ໄດເຣກທໍລີ KDE "
-"ຂອງທ່ານ(ซึ่งมักเป็น ~/.kde)"
+"ໍບໍ່ສາມາດທຳງານໄດ້ຢ່າງຖຶກຕ້ອງກັບມັນ\n"
+"ກະລຸນາກວດສອບວ່າ ທ່ານບໍ່ໄດ້ເອົາສິດການຂງນອອກຈາກ\n"
+"ໄດເຣກທໍລີ KDE ຂອງທ່ານ(ซึ่งมักเป็น ~/.kde)"
 
 #: kab/addressbook.cc:461
 #, fuzzy
 msgid ""
-"Your standard kab database file \"%1\" could not be created. kab will "
-"probably not work correctly without it.\n"
-"Make sure you have not removed write permission from your local KDE "
-"directory (usually ~/.kde)."
+"Your standard kab database file \"%1\" could not be created. kab will probably "
+"not work correctly without it.\n"
+"Make sure you have not removed write permission from your local KDE directory "
+"(usually ~/.kde)."
 msgstr ""
-"ບໍ່ສາມາດສ້າງແຟ້ມຖານຂໍ້ມູນ"
-"ມາດຖານ kab \n"
+"ບໍ່ສາມາດສ້າງແຟ້ມຖານຂໍ້ມູນມາດຖານ kab \n"
 "\"%1\"\n"
 "ຂອງທ່ານໄດ້ kab ອາດຈະ\n"
-"ບໍ່ສາມາດທຳງານໄດ້ຢ່າງຖຶກຕ້"
-"ອງກັບມັນ\n"
-"ກະລຸນາກວດສອບວ່າ "
-"ທ່ານບໍ່ໄດ້ເອົາສິດການຂງນອອ"
-"ກຈາກ\n"
-"ໄດເຣກທໍລີ KDE "
-"ຂອງທ່ານ(ເຊິ່ງມັກເປັນ ~/.kde)"
+"ບໍ່ສາມາດທຳງານໄດ້ຢ່າງຖຶກຕ້ອງກັບມັນ\n"
+"ກະລຸນາກວດສອບວ່າ ທ່ານບໍ່ໄດ້ເອົາສິດການຂງນອອກຈາກ\n"
+"ໄດເຣກທໍລີ KDE ຂອງທ່ານ(ເຊິ່ງມັກເປັນ ~/.kde)"
 
 #: kab/addressbook.cc:471
 msgid ""
 "kab has created your standard addressbook in\n"
 "\"%1\""
 msgstr ""
-"kab "
-"ທຳການສ້າງແຟ້ມສະຫມຸດທີ່ຢູ່"
-"ມາດຖານຂອງທ່ານໄວ້ໃນ\n"
+"kab ທຳການສ້າງແຟ້ມສະຫມຸດທີ່ຢູ່ມາດຖານຂອງທ່ານໄວ້ໃນ\n"
 "\"%1\"\n"
 "ຮງຍຮ້ອຍແລ້ວ"
 
 #: kab/addressbook.cc:492
 msgid "Cannot create backup file (permission denied)."
-msgstr ""
-"ບໍ່ສາມາດສ້າງແຟ້ມສຳຮອງໄດ้້ "
-"(ບໍ່ໄດ້ຮັບອະນຸຍາດ)"
+msgstr "ບໍ່ສາມາດສ້າງແຟ້ມສຳຮອງໄດ้້ (ບໍ່ໄດ້ຮັບອະນຸຍາດ)"
 
 #: kab/addressbook.cc:493 kab/addressbook.cc:500 kab/addressbook.cc:509
 #: kab/addressbook.cc:579 kab/addressbook.cc:587 kab/addressbook.cc:614
@@ -9202,46 +8536,33 @@ msgstr "ແຟ້ມຜິດພາດ"
 
 #: kab/addressbook.cc:498
 msgid "Cannot open backup file for writing (permission denied)."
-msgstr ""
-"ບໍ່ສາມາດເປີດແຟ້ມສຳຮອງສຳຫລ"
-"ັບການຂງນໄດ້(ບໍ່ໄດ້ຮັບອະນຸຍ"
-"າດ)"
+msgstr "ບໍ່ສາມາດເປີດແຟ້ມສຳຮອງສຳຫລັບການຂງນໄດ້(ບໍ່ໄດ້ຮັບອະນຸຍາດ)"
 
 #: kab/addressbook.cc:507
 msgid ""
 "Critical error:\n"
 "Permissions changed in local directory!"
 msgstr ""
-"ເກີດຂໍ້ຜິດພາດຢ່່າງຮ້າຍແຮງ:"
-"\n"
-"ມີການປ່ງນແປງສິດໃນການໃຊ້ງາ"
-"ນພາຍໃນໄດເຣກທໍລີພາຍໃນ !"
+"ເກີດຂໍ້ຜິດພາດຢ່່າງຮ້າຍແຮງ:\n"
+"ມີການປ່ງນແປງສິດໃນການໃຊ້ງານພາຍໃນໄດເຣກທໍລີພາຍໃນ !"
 
 #: kab/addressbook.cc:566
 msgid "File reloaded."
-msgstr ""
-"ຮງກແຟ້ມຂຶ້ນໃຫມ່ຮງບຮ້ອຍແລ້"
-"ວ"
+msgstr "ຮງກແຟ້ມຂຶ້ນໃຫມ່ຮງບຮ້ອຍແລ້ວ"
 
 #: kab/addressbook.cc:572
 msgid ""
-"The currently loaded file \"%1\" cannot be reloaded. kab may close or save "
-"it.\n"
+"The currently loaded file \"%1\" cannot be reloaded. kab may close or save it.\n"
 "Save it if you accidentally deleted your data file.\n"
 "Close it if you intended to do so.\n"
 "Your file will be closed by default."
 msgstr ""
-"ບໍ່ສາມາດຮງກແຟ້ມທີ່ຮງກໃຊ້ຢ"
-"ູ່ໃນປັດຈຸບັນ\n"
+"ບໍ່ສາມາດຮງກແຟ້ມທີ່ຮງກໃຊ້ຢູ່ໃນປັດຈຸບັນ\n"
 "\"%1\"\n"
-"ຂື້ນມາໃຫມ່ໄດ້ kab "
-"ຈະທຳການປິດຫລືບັນທຶກມັນ\n"
-"ໃຫ້ເລືອກບັນທຶກຫາກທ່ານຫລົງ"
-"ລຶບແຟ້ມຂໍ້ມູນຂອງທ່ານ\n"
-"ເລືອກປິດຫາກທ່ານຕ້ອງການເຊັ"
-"່ນນັ້ນ\n"
-"ເຊິ່ງຫາກບໍ່ເລືອກຫຍັງກໍຈະເ"
-"ຮັດການປິດແຟ້ມ"
+"ຂື້ນມາໃຫມ່ໄດ້ kab ຈະທຳການປິດຫລືບັນທຶກມັນ\n"
+"ໃຫ້ເລືອກບັນທຶກຫາກທ່ານຫລົງລຶບແຟ້ມຂໍ້ມູນຂອງທ່ານ\n"
+"ເລືອກປິດຫາກທ່ານຕ້ອງການເຊັ່ນນັ້ນ\n"
+"ເຊິ່ງຫາກບໍ່ເລືອກຫຍັງກໍຈະເຮັດການປິດແຟ້ມ"
 
 #: kab/addressbook.cc:583
 msgid "(Safety copy on file error)"
@@ -9249,9 +8570,7 @@ msgstr "(ສຳເນົາແຟ້ມທີ່ຜິດພາດ)"
 
 #: kab/addressbook.cc:586
 msgid "Cannot save the file; will close it now."
-msgstr ""
-"ບໍ່ສາມາດບັນທຶກແຟ້ມໄດ້ "
-"ຈະເຮັດການປິດມັນດງວນີ້"
+msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມໄດ້ ຈະເຮັດການປິດມັນດງວນີ້"
 
 #: kab/addressbook.cc:609
 msgid "File opened."
@@ -9267,10 +8586,7 @@ msgstr "ບໍ່ມີແຟ້ມ"
 
 #: kab/addressbook.cc:622
 msgid "The file \"%1\" cannot be found. Create a new one?"
-msgstr ""
-"ບໍ່ພົບແຟ້ມ \"%1\" "
-"ທ່ານຕ້ອງການສ້າງຂຶ້້ນມາໃຫມ"
-"່ຫລືບໍ່ ?"
+msgstr "ບໍ່ພົບແຟ້ມ \"%1\" ທ່ານຕ້ອງການສ້າງຂຶ້້ນມາໃຫມ່ຫລືບໍ່ ?"
 
 #: kab/addressbook.cc:624
 msgid "No Such File"
@@ -9295,15 +8611,11 @@ msgstr "(ບໍ່ີມີລາຍການ)"
 
 #: kab/addressbook.cc:825
 msgid "Cannot reload configuration file!"
-msgstr ""
-"ບໍ່ສາມາດເອີ້ນໃຊ້ແຟ້ມປັບແຕ"
-"່ງໃຫມ່ໄດ້ !"
+msgstr "ບໍ່ສາມາດເອີ້ນໃຊ້ແຟ້ມປັບແຕ່ງໃຫມ່ໄດ້ !"
 
 #: kab/addressbook.cc:830
 msgid "Configuration file reloaded."
-msgstr ""
-"ແຟ້ມການປັບແຕ່ງຖືກເອີ້ນໃຊ້"
-"ໃຫມ່ແລ້ວ"
+msgstr "ແຟ້ມການປັບແຕ່ງຖືກເອີ້ນໃຊ້ໃຫມ່ແລ້ວ"
 
 #: kab/addressbook.cc:858
 msgid "File saved."
@@ -9322,11 +8634,8 @@ msgid ""
 "The file you wanted to change could not be locked.\n"
 "It is probably in use by another application or read-only."
 msgstr ""
-"ບໍ່ສາມາດລັອກແຟ້ມທີ່ທ່ານຕ້"
-"ອງການປ່ງນໄດ້\n"
-"ໂດຍມັນອາດຈະຖືກເປີດໃຊ້ໃນແອ"
-"ພພຣິເຄຊັນຕົວອື່່ນ "
-"ຫລືເປັນແບບອ່ານໄດ້ຢ່າງດງວ"
+"ບໍ່ສາມາດລັອກແຟ້ມທີ່ທ່ານຕ້ອງການປ່ງນໄດ້\n"
+"ໂດຍມັນອາດຈະຖືກເປີດໃຊ້ໃນແອພພຣິເຄຊັນຕົວອື່່ນ ຫລືເປັນແບບອ່ານໄດ້ຢ່າງດງວ"
 
 #: kab/addressbook.cc:1599
 msgid ""
@@ -9334,18 +8643,15 @@ msgid ""
 "You cannot create new files."
 msgstr ""
 "ບໍ່ພົບແຟ້ມຕົ້ນແບບຂອງ kab\n"
-"ທ່ານບໍ່ສາມາດສ້າງແຟ້ມໃຫມ່ໄ"
-"ດ້"
+"ທ່ານບໍ່ສາມາດສ້າງແຟ້ມໃຫມ່ໄດ້"
 
 #: kab/addressbook.cc:1607
 msgid ""
 "Cannot read kab's template file.\n"
 "You cannot create new files."
 msgstr ""
-"ບໍ່ສາມາດອ່ານແຟ້ມຕົ້ນແບບຂອ"
-"ງ kab ໄດ້\n"
-"ທ່ານບໍ່ສາມາດສ້າງແຟ້ມໃຫມ່ໄ"
-"ດ້"
+"ບໍ່ສາມາດອ່ານແຟ້ມຕົ້ນແບບຂອງ kab ໄດ້\n"
+"ທ່ານບໍ່ສາມາດສ້າງແຟ້ມໃຫມ່ໄດ້"
 
 #: kab/addressbook.cc:1609
 msgid "Format Error"
@@ -9376,26 +8682,20 @@ msgid ""
 "Cannot find kab's configuration template file.\n"
 "kab cannot be configured."
 msgstr ""
-"ບໍ່ພົບແຟ້ມຕົ້ນແບບການປັບແຕ"
-"່ງຂອງ kab\n"
-"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab "
-"ໄດ້"
+"ບໍ່ພົບແຟ້ມຕົ້ນແບບການປັບແຕ່ງຂອງ kab\n"
+"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab ໄດ້"
 
 #: kab/addressbook.cc:1660
 msgid ""
 "Cannot read kab's configuration template file.\n"
 "kab cannot be configured."
 msgstr ""
-"ບໍ່ສາມາດອ່ານແຟ້ມຕົ້ນແບບກາ"
-"ນປັບແຕ່ງຂອງ kab ໄດ້\n"
-"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab "
-"ໄດ້"
+"ບໍ່ສາມາດອ່ານແຟ້ມຕົ້ນແບບການປັບແຕ່ງຂອງ kab ໄດ້\n"
+"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab ໄດ້"
 
 #: kab/addressbook.cc:1670 kab/addressbook.cc:1679
 msgid "Could not create the new configuration file."
-msgstr ""
-"ບໍ່ສາມາດສ້າງແຟ້ມປັບແຕ່ງໃຫ"
-"ມ່ໄດ້"
+msgstr "ບໍ່ສາມາດສ້າງແຟ້ມປັບແຕ່ງໃຫມ່ໄດ້"
 
 #: kab/addressbook.cc:1700
 msgid ""
@@ -9403,21 +8703,17 @@ msgid ""
 "There may be a formatting error.\n"
 "kab cannot be configured."
 msgstr ""
-"ບໍ່ສາມາດເອີ້ນໃຊ້ແຟ້ມການປັ"
-"ບແຕ່ງພາຍໃນຂອງ kab ໄດ້\n"
+"ບໍ່ສາມາດເອີ້ນໃຊ້ແຟ້ມການປັບແຕ່ງພາຍໃນຂອງ kab ໄດ້\n"
 "ມັນອາດຈະມີຮູບແບບທີ່ຜິດພາດ\n"
-"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab "
-"ໄດ້"
+"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab ໄດ້"
 
 #: kab/addressbook.cc:1708
 msgid ""
 "Cannot find kab's local configuration file.\n"
 "kab cannot be configured."
 msgstr ""
-"ບໍ່ພົບແຟ້ມຕົ້ນແບບການປັບແຕ"
-"່ງພາຍໃນຂອງ kab\n"
-"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab "
-"ໄດ້"
+"ບໍ່ພົບແຟ້ມຕົ້ນແບບການປັບແຕ່ງພາຍໃນຂອງ kab\n"
+"ເຮັດໃຫ້ບໍ່ສາມາດປັບແຕ່ງ kab ໄດ້"
 
 #: kab/addressbook.cc:1744
 msgid "fixed"
@@ -9449,9 +8745,7 @@ msgstr "ັວັນທີ"
 
 #: kab/kabapi.cc:134
 msgid "Your new entry could not be added."
-msgstr ""
-"ບໍ່ສາມາດເພີ້ມລາຍການໃຫມ່ຂອ"
-"ງທ່ານໄດ້"
+msgstr "ບໍ່ສາມາດເພີ້ມລາຍການໃຫມ່ຂອງທ່ານໄດ້"
 
 #: arts/kde/kconverttest.cc:23 arts/kde/kiotest.cc:17
 #: arts/kde/kiotestslow.cc:83
@@ -9473,9 +8767,7 @@ msgstr "KConverTest"
 
 #: arts/message/artsmessage.cc:45
 msgid "Display error message (default)"
-msgstr ""
-"ສະແດງຂໍ້ຄວາມຜິດພາດ "
-"(ຄ່າປຣິຍາຍ)"
+msgstr "ສະແດງຂໍ້ຄວາມຜິດພາດ (ຄ່າປຣິຍາຍ)"
 
 #: arts/message/artsmessage.cc:47
 msgid "Display warning message"
@@ -9483,9 +8775,7 @@ msgstr "ສະແດງຂໍ້ຄວາມເຕືອນ"
 
 #: arts/message/artsmessage.cc:49
 msgid "Display informational message"
-msgstr ""
-"ສະແດງຂໍ້ຄວາມຂໍ້ມູນລາຍລະອງ"
-"ດ"
+msgstr "ສະແດງຂໍ້ຄວາມຂໍ້ມູນລາຍລະອງດ"
 
 #: arts/message/artsmessage.cc:50
 msgid "Message string to be displayed"
@@ -9498,9 +8788,7 @@ msgstr "ຂໍ້ຄວາມຜິດພາດຂອງ aRts"
 #: arts/message/artsmessage.cc:55
 #, fuzzy
 msgid "Utility to display aRts error messages"
-msgstr ""
-"ເຄື່ອງມືສະແດງຂໍ້ຄວາມຜິດພາ"
-"ດຂອງ aRts"
+msgstr "ເຄື່ອງມືສະແດງຂໍ້ຄວາມຜິດພາດຂອງ aRts"
 
 #: arts/message/artsmessage.cc:87
 msgid "Informational"
@@ -9528,9 +8816,7 @@ msgstr "&ນຳເຂົ້າທັງຫມົດ"
 
 #: kcert/kcertpart.cc:183 kcert/kcertpart.cc:274 kcert/kcertpart.cc:359
 msgid "KDE Secure Certificate Import"
-msgstr ""
-"ນຳເຂົ້າໃບຮັບຮອງຄວາມປອດໄພເ"
-"ທິງ KDE"
+msgstr "ນຳເຂົ້າໃບຮັບຮອງຄວາມປອດໄພເທິງ KDE"
 
 #: kcert/kcertpart.cc:184
 msgid "Chain:"
@@ -9622,10 +8908,7 @@ msgstr "ນຳເຂົ້າໃບຮັບຮອງ"
 
 #: kcert/kcertpart.cc:455
 msgid "You don't seem to have compiled KDE with SSL support."
-msgstr ""
-"ເບິ່ງຄື KDE ຂອງທ່ານ "
-"ຈະບໍ່ໄດ້ໄພລ໌ມາໃຫ້ສະຫນັບສະ"
-"ຫນູນ SSL"
+msgstr "ເບິ່ງຄື KDE ຂອງທ່ານ ຈະບໍ່ໄດ້ໄພລ໌ມາໃຫ້ສະຫນັບສະຫນູນ SSL"
 
 #: kcert/kcertpart.cc:460
 #, fuzzy
@@ -9639,11 +8922,7 @@ msgstr "ລະຫັດຜ່ານໃບຮັບຮອງ"
 
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
-msgstr ""
-"ບໍ່ສາມາດເອີ້ນໃຊ້ແຟ້ມໃບຮັບ"
-"ຮອງໄດ້ "
-"ລອງໃຫມ່ໂດຍໃຊ້ລະຫັດຜ່ານອື່"
-"ນຫລືບໍ່ ?"
+msgstr "ບໍ່ສາມາດເອີ້ນໃຊ້ແຟ້ມໃບຮັບຮອງໄດ້ ລອງໃຫມ່ໂດຍໃຊ້ລະຫັດຜ່ານອື່ນຫລືບໍ່ ?"
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
 msgid "This file cannot be opened."
@@ -9651,9 +8930,7 @@ msgstr "ບໍ່ສາມາດເປີດແຟ້ມນີ້ໄດ້"
 
 #: kcert/kcertpart.cc:599
 msgid "I don't know how to handle this type of file."
-msgstr ""
-"ບໍ່ຮູ້ວ່າຈະເອີ້ນໃຊ້ແຟ້ມປະ"
-"ເພດນີ້ຢ່າງໃດ"
+msgstr "ບໍ່ຮູ້ວ່າຈະເອີ້ນໃຊ້ແຟ້ມປະເພດນີ້ຢ່າງໃດ"
 
 #: kcert/kcertpart.cc:619
 msgid "0 - Site Certificate"
@@ -9663,39 +8940,27 @@ msgstr "0 - ໄຊຕ໌ທີ່ມີການຮັບຮອງ"
 msgid ""
 "A certificate with that name already exists. Are you sure that you wish to "
 "replace it?"
-msgstr ""
-"ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແ"
-"ລ້ວ "
-"່ທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັ"
-"ນຫລືບໍ່ ?"
+msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວ ່ທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່ ?"
 
 #: kcert/kcertpart.cc:741 kcert/kcertpart.cc:759
 msgid ""
 "Certificate has been successfully imported into KDE.\n"
 "You can manage your certificate settings from the KDE Control Center."
 msgstr ""
-"ທຳການນຳເຂົ້າໃບຮັບຮອງມາຍັງ "
-"KDE ຮງບຮ້ອຍແລ້ວ\n"
-"ທ່ານສາມາດຈັດການການຕັ້ງຄ່າ"
-"ໃບຮັບຮອງຂອງທ່ານໄດ້ທີ່ "
-"ສູນຄວບຄຸມ KDE"
+"ທຳການນຳເຂົ້າໃບຮັບຮອງມາຍັງ KDE ຮງບຮ້ອຍແລ້ວ\n"
+"ທ່ານສາມາດຈັດການການຕັ້ງຄ່າໃບຮັບຮອງຂອງທ່ານໄດ້ທີ່ ສູນຄວບຄຸມ KDE"
 
 #: kcert/kcertpart.cc:873
 msgid ""
 "Certificates have been successfully imported into KDE.\n"
 "You can manage your certificate settings from the KDE Control Center."
 msgstr ""
-"ທຳການນຳເຂົ້າໃບຮັບຮອງມາຍັງ "
-"KDE ຮງບຮ້ອຍແລ້ວ\n"
-"ທ່ານສາມາດຈັດການການຕັ້ງຄ່າ"
-"ໃບຮັບຮອງຂອງທ່ານໄດ້ທີ່ສູນຄ"
-"ວບຄຸມ KDE"
+"ທຳການນຳເຂົ້າໃບຮັບຮອງມາຍັງ KDE ຮງບຮ້ອຍແລ້ວ\n"
+"ທ່ານສາມາດຈັດການການຕັ້ງຄ່າໃບຮັບຮອງຂອງທ່ານໄດ້ທີ່ສູນຄວບຄຸມ KDE"
 
 #: kcert/kcertpart.cc:879
 msgid "KDE Certificate Part"
-msgstr ""
-"ສ່ວນໃບຮັບຮອງຄວາມປອດໄພເທິງ "
-"KDE"
+msgstr "ສ່ວນໃບຮັບຮອງຄວາມປອດໄພເທິງ KDE"
 
 #: khtml/khtml_settings.cc:143
 msgid "Accept"
@@ -9713,9 +8978,7 @@ msgstr "ແຟ້ມເປີດຢູ່ແລ້ວ"
 #: kwallet/backend/kwalletbackend.cc:254
 #, fuzzy
 msgid "Error opening file."
-msgstr ""
-"ຜິດພາດເມື່ອມີການເລືອກແຟ້ມ"
-"ຂອງ GSM: "
+msgstr "ຜິດພາດເມື່ອມີການເລືອກແຟ້ມຂອງ GSM: "
 
 #: kwallet/backend/kwalletbackend.cc:256
 msgid "Not a wallet file."
@@ -9724,9 +8987,7 @@ msgstr ""
 #: kwallet/backend/kwalletbackend.cc:258
 #, fuzzy
 msgid "Unsupported file format revision."
-msgstr ""
-"ບໍ່ສະນັບສະນຸນປະຕິບັດການນີ"
-"້"
+msgstr "ບໍ່ສະນັບສະນຸນປະຕິບັດການນີ້"
 
 #: kwallet/backend/kwalletbackend.cc:260
 #, fuzzy
@@ -10039,36 +9300,20 @@ msgstr "&ບໍ່ແມ່ນ"
 
 #: dialogs/qmessagebox.cpp:588
 msgid ""
-"<h3>About Qt</h3>"
-"<p>This program uses Qt version %1.</p>"
-"<p>Qt is a C++ toolkit for multiplatform GUI &amp; application "
-"development.</p>"
-"<p>Qt provides single-source portability across MS&nbsp;Windows, "
-"Mac&nbsp;OS&nbsp;X, Linux, and all major commercial Unix variants."
-"<br>Qt is also available for embedded devices.</p>"
-"<p>Qt is a Trolltech product. See <tt>http://www.trolltech.com/qt/</tt> for "
-"more information.</p>"
+"<h3>About Qt</h3><p>This program uses Qt version %1.</p><p>"
+"Qt is a C++ toolkit for multiplatform GUI &amp; application development.</p><p>"
+"Qt provides single-source portability across MS&nbsp;Windows, "
+"Mac&nbsp;OS&nbsp;X, Linux, and all major commercial Unix variants.<br>"
+"Qt is also available for embedded devices.</p><p>Qt is a Trolltech product. See "
+"<tt>http://www.trolltech.com/qt/</tt> for more information.</p>"
 msgstr ""
-"<h3>ກ່ງວກັບ Qt</h3>"
-"<p>ໂປຣແກຣມນີ້ ໃຊ້ Qt ລຸ້ນ %1</p>"
-"<p> Qt "
-"ເປັນທູລຄິດສ່ວນຕິດຕໍ່ຜູ້ໃຊ"
-"້ແບບກຣາຟຟິກຂອງ C++ &amp; "
-"</p>"
-"<p>ເຊິ່ງແຟ້ມຕົ້ນສະບັບ Qt ນັ້ນ "
-"ສາມາດໃຊ້ຂ້າມແພຣຕຟອມທັງ "
-"ວິນໂດວ໌ສ 95/98/NT/2000, ລິນຸກຊ໌, "
-"ໂຊລາຣິສ, HP-UX ແລະ X Window "
-"ເທິງລະບົບຢູນິກອື່ນໆ "
-"ອີກຫລາຍ "
-"<br> ອີກທັງຕອນນີ້ Qt "
-"ຍັງມີລຸ້ນທີ່ທຳງານໄດ້ເທິງອ"
-"ຸປະກອນແບບພົກພາດ້ວຍ</p></p> Qt "
-"ເປັນຜະລິດຕະພັນຂອງບໍລິສັດ "
-"Trolltech ລອງແວະໄປທີ່ "
-"<tt>http://www.trolltech.com/qt/</tt> "
-"ເພື່ອເບິ່ງລາຍລະອງດທີ່ຫລາຍ"
-"ກວ່ານີ້</p>"
+"<h3>ກ່ງວກັບ Qt</h3><p>ໂປຣແກຣມນີ້ ໃຊ້ Qt ລຸ້ນ %1</p><p> "
+"Qt ເປັນທູລຄິດສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ແບບກຣາຟຟິກຂອງ C++ &amp; </p><p>"
+"ເຊິ່ງແຟ້ມຕົ້ນສະບັບ Qt ນັ້ນ ສາມາດໃຊ້ຂ້າມແພຣຕຟອມທັງ ວິນໂດວ໌ສ 95/98/NT/2000, "
+"ລິນຸກຊ໌, ໂຊລາຣິສ, HP-UX ແລະ X Window ເທິງລະບົບຢູນິກອື່ນໆ ອີກຫລາຍ <br> "
+"ອີກທັງຕອນນີ້ Qt ຍັງມີລຸ້ນທີ່ທຳງານໄດ້ເທິງອຸປະກອນແບບພົກພາດ້ວຍ</p></p> "
+"Qt ເປັນຜະລິດຕະພັນຂອງບໍລິສັດ Trolltech ລອງແວະໄປທີ່ <tt>"
+"http://www.trolltech.com/qt/</tt> ເພື່ອເບິ່ງລາຍລະອງດທີ່ຫລາຍກວ່ານີ້</p>"
 
 #: dialogs/qmessagebox.cpp:1551
 #, fuzzy
@@ -10115,9 +9360,9 @@ msgid ""
 "widget layout."
 msgstr ""
 "_ QT_LAYOUT_DIRECTION\n"
-"Translate this string to the string 'LTR' in left-to-right language or to "
-"'RTL' in right-to-left languages (such as Hebrew and Arabic) to get proper "
-"widget layouy."
+"Translate this string to the string 'LTR' in left-to-right language or to 'RTL' "
+"in right-to-left languages (such as Hebrew and Arabic) to get proper widget "
+"layouy."
 
 #: kernel/qfontdatabase.cpp:1956
 msgid ""
@@ -11278,17 +10523,13 @@ msgstr "ຈົບແຟ້ມຢ່າງບໍ່ຄາດຄິດ"
 msgid ""
 "_: QXml\n"
 "more than one document type definition"
-msgstr ""
-"ກຳນົດປະເພດຂອງເອກະສານຫລາຍກ"
-"ວ່າຫນຶ່ງ"
+msgstr "ກຳນົດປະເພດຂອງເອກະສານຫລາຍກວ່າຫນຶ່ງ"
 
 #: qxml_clean.cpp:58
 msgid ""
 "_: QXml\n"
 "error occurred while parsing element"
-msgstr ""
-"ເກີກຄວາມຜິດພາດລະຫວ່າງການກ"
-"ະຈາຍອີລີເມນ"
+msgstr "ເກີກຄວາມຜິດພາດລະຫວ່າງການກະຈາຍອີລີເມນ"
 
 #: qxml_clean.cpp:59
 msgid ""
@@ -11300,9 +10541,7 @@ msgstr "ແທັກບໍ່ເຂົ້າຄູ່ກັນ"
 msgid ""
 "_: QXml\n"
 "error occurred while parsing content"
-msgstr ""
-"ເກີດຄວາມຜິດພາດລະຫວ່າງການກ"
-"ະຈາຍເນື້ນຫາ"
+msgstr "ເກີດຄວາມຜິດພາດລະຫວ່າງການກະຈາຍເນື້ນຫາ"
 
 #: qxml_clean.cpp:61
 msgid ""
@@ -11314,56 +10553,40 @@ msgstr "ມີອັກຂະຫລະທີ່ບໍ່ິຄາດຫວັງ
 msgid ""
 "_: QXml\n"
 "invalid name for processing instruction"
-msgstr ""
-"ຊື່ສຳຫລັບການປະມວນຜັນ instruction "
-"ບໍ່ຖືກຕ້ອງ"
+msgstr "ຊື່ສຳຫລັບການປະມວນຜັນ instruction ບໍ່ຖືກຕ້ອງ"
 
 #: qxml_clean.cpp:63
 msgid ""
 "_: QXml\n"
 "version expected while reading the XML declaration"
-msgstr ""
-"ຕ້ອງການເວີຊັນລະຫວ່າງການອ່"
-"ານການປະກາດ XML"
+msgstr "ຕ້ອງການເວີຊັນລະຫວ່າງການອ່ານການປະກາດ XML"
 
 #: qxml_clean.cpp:64
 msgid ""
 "_: QXml\n"
 "wrong value for standalone declaration"
-msgstr ""
-"ຄ່າສຳຫລັບການປະກາດແບບທຳງານ"
-"ດ່ງວ ບໍ່ຖືກຕ້ອງ"
+msgstr "ຄ່າສຳຫລັບການປະກາດແບບທຳງານດ່ງວ ບໍ່ຖືກຕ້ອງ"
 
 #: qxml_clean.cpp:65
 msgid ""
 "_: QXml\n"
-"encoding declaration or standalone declaration expected while reading the "
-"XML declaration"
+"encoding declaration or standalone declaration expected while reading the XML "
+"declaration"
 msgstr ""
-"ຕ້ອງການ "
-"ການປະກາດການເຂົ້າລະຫັດອັກຂ"
-"ະຫລະ "
-"ຫລືການປະກາດແບບທຳງານດ່ງວ "
-"ລະຫວ່າງລະຫວ່າງການອ່ານການປ"
-"ະກາດ XML"
+"ຕ້ອງການ ການປະກາດການເຂົ້າລະຫັດອັກຂະຫລະ ຫລືການປະກາດແບບທຳງານດ່ງວ "
+"ລະຫວ່າງລະຫວ່າງການອ່ານການປະກາດ XML"
 
 #: qxml_clean.cpp:66
 msgid ""
 "_: QXml\n"
 "standalone declaration expected while reading the XML declaration"
-msgstr ""
-"ຕ້ອງການປະກາດແບບທຳງານດ່ງວ "
-"ລະຫວ່າງລະຫວ່າງການອ່ານການປ"
-"ະກາດ XML"
+msgstr "ຕ້ອງການປະກາດແບບທຳງານດ່ງວ ລະຫວ່າງລະຫວ່າງການອ່ານການປະກາດ XML"
 
 #: qxml_clean.cpp:67
 msgid ""
 "_: QXml\n"
 "error occurred while parsing document type definition"
-msgstr ""
-"ເກີດຄວາມຜິດພາດ "
-"ລະຫວ່າງກະຈາຍາການກຳນົດປະເພ"
-"ດຂອງເອກະສານ"
+msgstr "ເກີດຄວາມຜິດພາດ ລະຫວ່າງກະຈາຍາການກຳນົດປະເພດຂອງເອກະສານ"
 
 #: qxml_clean.cpp:68
 msgid ""
@@ -11375,52 +10598,37 @@ msgstr "ຕ້ອງການຕົວອັກສອນ"
 msgid ""
 "_: QXml\n"
 "error occurred while parsing comment"
-msgstr ""
-"ເກີດຄວາມຜິດພາດ "
-"ລະຫວ່າງກະຈາຍຄຳອະທິບາຍ"
+msgstr "ເກີດຄວາມຜິດພາດ ລະຫວ່າງກະຈາຍຄຳອະທິບາຍ"
 
 #: qxml_clean.cpp:70
 msgid ""
 "_: QXml\n"
 "error occurred while parsing reference"
-msgstr ""
-"ເກີດຄວາມຜິດພາດ "
-"ລະຫວ່າງກະຈາຍສ່ວນອ້າງອີງ"
+msgstr "ເກີດຄວາມຜິດພາດ ລະຫວ່າງກະຈາຍສ່ວນອ້າງອີງ"
 
 #: qxml_clean.cpp:71
 msgid ""
 "_: QXml\n"
 "internal general entity reference not allowed in DTD"
-msgstr ""
-"ໍບໍ່ອະນຸຍາດໃຫ້ກະຈາຍການອ້າ"
-"ງອີງເອນຕິຕີທົ່ວໄປພາຍໃນ ໃນ "
-"DTD ໄດ້"
+msgstr "ໍບໍ່ອະນຸຍາດໃຫ້ກະຈາຍການອ້າງອີງເອນຕິຕີທົ່ວໄປພາຍໃນ ໃນ DTD ໄດ້"
 
 #: qxml_clean.cpp:72
 msgid ""
 "_: QXml\n"
 "external parsed general entity reference not allowed in attribute value"
-msgstr ""
-"ບໍ່ອະນຸຍາດໃຫ້ກະຈາຍການອ້າງ"
-"ອີງເອນຕິຕີທົ່ວໄປພາຍນອກ "
-"ໃນຄ່າແອຕທຣິບິວໄດ້"
+msgstr "ບໍ່ອະນຸຍາດໃຫ້ກະຈາຍການອ້າງອີງເອນຕິຕີທົ່ວໄປພາຍນອກ ໃນຄ່າແອຕທຣິບິວໄດ້"
 
 #: qxml_clean.cpp:73
 msgid ""
 "_: QXml\n"
 "external parsed general entity reference not allowed in DTD"
-msgstr ""
-"ບໍ່ອະນຸຍາດໃຫ້ກະຈາຍການອ້າງ"
-"ອີງເອນຕິຕີທົ່ວໄປພາຍນອກ ໃນ "
-"DTD ໄດ້"
+msgstr "ບໍ່ອະນຸຍາດໃຫ້ກະຈາຍການອ້າງອີງເອນຕິຕີທົ່ວໄປພາຍນອກ ໃນ DTD ໄດ້"
 
 #: qxml_clean.cpp:74
 msgid ""
 "_: QXml\n"
 "unparsed entity reference in wrong context"
-msgstr ""
-"ບໍ່ສາມາດກະຈາຍການອ້າງອີງເອ"
-"ນຕິຕີ ໃນຄອນເທັກທີ່ຜິດໄດ້"
+msgstr "ບໍ່ສາມາດກະຈາຍການອ້າງອີງເອນຕິຕີ ໃນຄອນເທັກທີ່ຜິດໄດ້"
 
 #: qxml_clean.cpp:75
 msgid ""
@@ -11432,9 +10640,7 @@ msgstr "ເອນຕິຕີເອີ້ນໃຊ້ຕົວເອງ"
 msgid ""
 "_: QXml\n"
 "error in the text declaration of an external entity"
-msgstr ""
-"ເກີດຄວາມຜິດພາດໃນການປະກາດຄ"
-"ວາມຂອງເອນຕິຕີພາຍນອກ"
+msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດຄວາມຂອງເອນຕິຕີພາຍນອກ"
 
 #~ msgid "Home"
 #~ msgstr "ບ້ານ"
