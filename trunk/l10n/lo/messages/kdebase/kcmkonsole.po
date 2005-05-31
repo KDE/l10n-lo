@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-04-12 18:16+0200\n"
+"POT-Creation-Date: 2005-05-25 08:13+0200\n"
 "PO-Revision-Date: 2003-01-14 17:07+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -592,7 +592,7 @@ msgstr "ຕີລາຄາ:"
 msgid "&Directory:"
 msgstr "ໄດເລັກທໍລີ"
 
-#: schemaeditor.cpp:246 schemaeditor.cpp:569 sessioneditor.cpp:116
+#: schemaeditor.cpp:246 schemaeditor.cpp:569 sessioneditor.cpp:118
 msgid "untitled"
 msgstr "ຍັງບໍ່ມີຫົວເລື່ອງ"
 
@@ -624,7 +624,7 @@ msgstr "ຜິດພາດໃນການລົບຮູບແບບ"
 msgid "Save Schema"
 msgstr "ບັນທືກຊຸດຮູບແບບ"
 
-#: schemaeditor.cpp:359 sessioneditor.cpp:298
+#: schemaeditor.cpp:359 sessioneditor.cpp:324
 #, fuzzy
 msgid "File name:"
 msgstr "ຊື່ແຟ້ມ:"
@@ -666,15 +666,15 @@ msgstr "ຜິດພາດໃນການເອີ້ນໃຊ້ຊຸດຮູ
 msgid "Cannot load the schema."
 msgstr "ບໍ່ສາມາດເອີ້ນໃຊ້ຊຸດຮູບແບບໄດ้້"
 
-#: sessioneditor.cpp:102
+#: sessioneditor.cpp:104
 msgid "XTerm (XFree 4.x.x)"
 msgstr "ເທີລ໌ມີນັດX (XFree 4.x.x)"
 
-#: sessioneditor.cpp:170
+#: sessioneditor.cpp:172
 msgid "Unnamed"
 msgstr "ຍັງບໍ່ມີຊື"
 
-#: sessioneditor.cpp:251
+#: sessioneditor.cpp:253
 msgid ""
 "The session has been modified.\n"
 "Do you want to save the changes?"
@@ -682,27 +682,38 @@ msgstr ""
 "ມີການແກ້ໄຂເຊເຊິນ\n"
 "ເຈົ້າຕ້ອງການບັນທືກການປ່ງນແປງຫລືບໍ่່?"
 
-#: sessioneditor.cpp:253
+#: sessioneditor.cpp:255
 msgid "Session Modified"
 msgstr "ເຊເຊິນຖືກແກ້ໄຂ"
 
-#: sessioneditor.cpp:269
+#: sessioneditor.cpp:271
 msgid "Konsole Default"
 msgstr "ຄາ່ປະລິຍາຍຂອງໂຄນໂຊນລ໌"
 
-#: sessioneditor.cpp:297
+#: sessioneditor.cpp:303
+msgid ""
+"The Execute entry is not a valid command.\n"
+"You can still save this session, but it will not show up in Konsole's Session "
+"list."
+msgstr ""
+
+#: sessioneditor.cpp:305
+msgid "Invalid Execute Entry"
+msgstr ""
+
+#: sessioneditor.cpp:323
 msgid "Save Session"
 msgstr "ບັນທືກເຊເຊິນ"
 
-#: sessioneditor.cpp:333
+#: sessioneditor.cpp:359
 msgid "You are trying to remove a system session. Are you sure?"
 msgstr "ເຈົ້າກຳລັງຈະເຮັດການລຶບເຊເຊິນຂອງລະບົບເຈົ້່າແນ່ໃຈຫລືບໍ่່ ?"
 
-#: sessioneditor.cpp:334
+#: sessioneditor.cpp:360
 msgid "Removing System Session"
 msgstr "ລືບເຊເຊິນຂອງລະບົບ"
 
-#: sessioneditor.cpp:342
+#: sessioneditor.cpp:368
 #, fuzzy
 msgid ""
 "Cannot remove the session.\n"
@@ -711,7 +722,7 @@ msgstr ""
 "ບໍ່ສາມາດລືບເຊເຊິນໄດ้\n"
 "ມັນອາດເປັນເຊເຊິນຂອງລະບົບ\n"
 
-#: sessioneditor.cpp:343
+#: sessioneditor.cpp:369
 msgid "Error Removing Session"
 msgstr "ຜິດພາດໃນການລືບເຊເຊິນ"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-10-12 01:16+0200\n"
+"POT-Creation-Date: 2005-05-22 20:49+0200\n"
 "PO-Revision-Date: 2003-01-11 15:27+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,12 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: nntp.cpp:156
+#: nntp.cpp:195
 #, c-format
 msgid "Invalid special command %1"
 msgstr "ຄຳສັ່ງພິເສດ %1 ບໍ່ຖຶກຕ້ອງ"
 
-#: nntp.cpp:373
+#: nntp.cpp:427
 #, c-format
 msgid ""
 "Could not extract first message number from server response:\n"
@@ -28,7 +28,7 @@ msgstr ""
 "ບໍ່ສາມາດຂະຫຍາຍຈຳນວນຈົດຫມາຍ ຈາກທີ່ເຊີບເວີຣ໌ຕອບກັບ:\n"
 "%1"
 
-#: nntp.cpp:398
+#: nntp.cpp:453
 #, c-format
 msgid ""
 "Could not extract first message id from server response:\n"
@@ -37,7 +37,7 @@ msgstr ""
 "ບໍ່ສາມາດຂະຫຍາຍຈຳນວນຈົດຫມາຍໄອດີຈາກທີ່ເຊີບເວີຣ໌ຕອບກັບ:\n"
 "%1"
 
-#: nntp.cpp:425
+#: nntp.cpp:481
 #, c-format
 msgid ""
 "Could not extract message id from server response:\n"
@@ -46,7 +46,15 @@ msgstr ""
 "ບໍ່ສາມາດຂະຫຍາຍຈຳນວນຈົດຫມາຍ ຈາກທີ່ເຊີບເວີຣ໌ຕອບກັບ:\n"
 "%1"
 
-#: nntp.cpp:624
+#: nntp.cpp:597
+msgid "This server does not support TLS"
+msgstr ""
+
+#: nntp.cpp:602
+msgid "TLS negotiation failed"
+msgstr ""
+
+#: nntp.cpp:686
 msgid ""
 "Unexpected server response to %1 command:\n"
 "%2"

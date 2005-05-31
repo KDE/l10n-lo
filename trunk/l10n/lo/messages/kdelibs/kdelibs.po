@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-17 01:19+0200\n"
+"POT-Creation-Date: 2005-05-25 08:12+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -998,7 +998,6 @@ msgstr "ອາທິດ"
 msgid "&Update"
 msgstr "&ອັບເດດທ໌"
 
-#. i18n( "Layout");
 #: common_texts.cpp:163
 msgid "Highscore"
 msgstr "ູຄະແນນສູງ "
@@ -7168,7 +7167,7 @@ msgstr ""
 "ທ່ານຕ້ອງການທີ່ຈະສົ່ງຂໍ້ມູນຟອມນີ້ຫລືບໍ່?"
 
 #: khtml/html/html_formimpl.cpp:1433 khtml/khtml_part.cpp:4702
-#: khtml/khtmlview.cpp:2397 khtml/khtmlview.cpp:2439
+#: khtml/khtmlview.cpp:2403 khtml/khtmlview.cpp:2445
 #: khtml/rendering/render_form.cpp:275
 msgid "Submit"
 msgstr "ສົ່ງ"
@@ -7254,17 +7253,17 @@ msgstr ""
 msgid "Text not found: \"%1\"."
 msgstr "&ຂໍ້ຄວາມທີ່ຄົ້ນຫາ:"
 
-#: khtml/khtmlview.cpp:1644
+#: khtml/khtmlview.cpp:1650
 #, fuzzy
 msgid "Access Keys activated"
 msgstr "ໄດ້ຮັບການປະຕິເສດໃຫ້ເຂົ້າໃຊ້"
 
-#: khtml/khtmlview.cpp:2411 khtml/khtmlview.cpp:2444
+#: khtml/khtmlview.cpp:2417 khtml/khtmlview.cpp:2450
 #: khtml/rendering/render_form.cpp:291
 msgid "Reset"
 msgstr "ຕັ້ງຄ່າໃຫມ່"
 
-#: khtml/khtmlview.cpp:2619
+#: khtml/khtmlview.cpp:2625
 #, fuzzy, c-format
 msgid "Print %1"
 msgstr "ພິມ"
@@ -7277,19 +7276,19 @@ msgstr "KHTML"
 msgid "Embeddable HTML component"
 msgstr "ຄອມໂປເນນທ໌ HTML ທີ່ສາມາດຝັງເຂົ້າໄປໄດ້"
 
-#: khtml/xml/xml_tokenizer.cpp:300
+#: khtml/xml/xml_tokenizer.cpp:289
 msgid "the document is not in the correct file format"
 msgstr "ເອກະສານບໍ່ໄດ້ຢູ່ໃນຮູບແບບຂອງແຟ້ມທີ່ຖືກຕ້ອງ"
 
-#: khtml/xml/xml_tokenizer.cpp:306
+#: khtml/xml/xml_tokenizer.cpp:295
 msgid "fatal parsing error: %1 in line %2, column %3"
 msgstr "ການກະຈາຍຄຳຜິດພາດ: %1 ໃນແຖວທີ່ %2, ຖັນທີ່ %3"
 
-#: khtml/xml/xml_tokenizer.cpp:467
+#: khtml/xml/xml_tokenizer.cpp:456
 msgid "XML parsing error"
 msgstr "ການກະຈາຍ XML ຜິດພາດ"
 
-#: khtml/xml/dom_docimpl.cpp:1895
+#: khtml/xml/dom_docimpl.cpp:1901
 msgid "Basic Page Style"
 msgstr ""
 
@@ -7693,11 +7692,25 @@ msgstr ""
 msgid "Missing Plugin"
 msgstr "ບໍ່ພົບປລັກອິນ"
 
-#: kinit/kinit.cpp:541
+#: kinit/kinit.cpp:439
+msgid ""
+"Unable to start new process.\n"
+"The system may have reached the maximum number of open files possible or the "
+"maximum number of open files that you are allowed to use has been reached."
+msgstr ""
+
+#: kinit/kinit.cpp:461
+msgid ""
+"Unable to create new process.\n"
+"The system may have reached the maximum number of processes possible or the "
+"maximum number of processes that you are allowed to use has been reached."
+msgstr ""
+
+#: kinit/kinit.cpp:552
 msgid "Could not find '%1' executable."
 msgstr "ບໍ່ສາມາດຄົ້ນຫາແຟ້ມຄຳສັ່ງ\"%1\" ໄດ້"
 
-#: kinit/kinit.cpp:557
+#: kinit/kinit.cpp:568
 #, fuzzy
 msgid ""
 "Could not open library '%1'.\n"
@@ -7706,11 +7719,11 @@ msgstr ""
 "ບໍ່ສາມາດຮຽກໃຊ້ໄລບາລີ\"%1\"\n"
 "%2 ໄ້ດ້"
 
-#: kinit/kinit.cpp:558 kinit/kinit.cpp:601
+#: kinit/kinit.cpp:569 kinit/kinit.cpp:612
 msgid "Unknown error"
 msgstr "ຄວາມຜິດພາດທີ່ບໍ່ຮັູ້ຈັກ"
 
-#: kinit/kinit.cpp:600
+#: kinit/kinit.cpp:611
 #, fuzzy
 msgid ""
 "Could not find 'kdemain' in '%1'.\n"
@@ -7725,31 +7738,31 @@ msgid ""
 "klauncher: It is started automatically by kdeinit.\n"
 msgstr ""
 
-#: kinit/klauncher.cpp:721
+#: kinit/klauncher.cpp:725
 #, fuzzy
 msgid "KDEInit could not launch '%1'."
 msgstr "KDEInit ບໍ່ສາມາດຮຽກ \"%1\" ໃຫ້ທຳງານໄດ້"
 
-#: kinit/klauncher.cpp:896 kinit/klauncher.cpp:921 kinit/klauncher.cpp:938
+#: kinit/klauncher.cpp:900 kinit/klauncher.cpp:925 kinit/klauncher.cpp:942
 msgid "Could not find service '%1'."
 msgstr "ບໍ່ເຫັນບໍລິການ\"%1\""
 
-#: kinit/klauncher.cpp:953 kinit/klauncher.cpp:989
+#: kinit/klauncher.cpp:957 kinit/klauncher.cpp:993
 msgid "Service '%1' is malformatted."
 msgstr "ຮູບແບບບໍລິການ\"%1\" ຜິດພາດ"
 
-#: kinit/klauncher.cpp:1065
+#: kinit/klauncher.cpp:1069
 #, fuzzy, c-format
 msgid "Launching %1"
 msgstr "ກຳລັງເມາທ %1"
 
-#: kinit/klauncher.cpp:1252
+#: kinit/klauncher.cpp:1256
 msgid ""
 "Unknown protocol '%1'.\n"
 msgstr ""
 "ບໍ່ຮູ້ຈັກໂປໂຕຄອນ \"%1\"\n"
 
-#: kinit/klauncher.cpp:1305
+#: kinit/klauncher.cpp:1309
 msgid ""
 "Error loading '%1'.\n"
 msgstr ""
@@ -8958,7 +8971,8 @@ msgid "Certificate Import"
 msgstr "ນຳເຂົ້າໃບຮັບຮອງ"
 
 #: kcert/kcertpart.cc:455
-msgid "You don't seem to have compiled KDE with SSL support."
+#, fuzzy
+msgid "You do not seem to have compiled KDE with SSL support."
 msgstr "ເບິ່ງຄື KDE ຂອງທ່ານ ຈະບໍ່ໄດ້ໄພລ໌ມາໃຫ້ສະຫນັບສະຫນູນ SSL"
 
 #: kcert/kcertpart.cc:460
@@ -8980,7 +8994,8 @@ msgid "This file cannot be opened."
 msgstr "ບໍ່ສາມາດເປີດແຟ້ມນີ້ໄດ້"
 
 #: kcert/kcertpart.cc:599
-msgid "I don't know how to handle this type of file."
+#, fuzzy
+msgid "I do not know how to handle this type of file."
 msgstr "ບໍ່ຮູ້ວ່າຈະເອີ້ນໃຊ້ແຟ້ມປະເພດນີ້ຢ່າງໃດ"
 
 #: kcert/kcertpart.cc:619
