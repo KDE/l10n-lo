@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-01 01:24+0200\n"
+"POT-Creation-Date: 2005-06-02 01:25+0200\n"
 "PO-Revision-Date: 2003-01-21 12:16+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -45,9 +45,9 @@ msgid "Fra&mes"
 msgstr "&ກອບ"
 
 #. i18n: file kword.rc line 125
-#: rc.cpp:30 rc.cpp:87
-#, no-c-format
-msgid "Configure Frame Borders"
+#: rc.cpp:30
+#, fuzzy, no-c-format
+msgid "Configure Frame Border"
 msgstr "ປັບແຕ່ງເສັ້ນກອບ"
 
 #. i18n: file kword.rc line 135
@@ -127,6 +127,12 @@ msgstr "ການກວດຄຳສະກົດ"
 #, no-c-format
 msgid "Change Variable To"
 msgstr "ປ່ງນຕົວແປເປັນ"
+
+#. i18n: file kword.rc line 448
+#: rc.cpp:87
+#, no-c-format
+msgid "Configure Frame Borders"
+msgstr "ປັບແຕ່ງເສັ້ນກອບ"
 
 #. i18n: file kword.rc line 489
 #: rc.cpp:99
@@ -1702,7 +1708,7 @@ msgstr "ນໍາເຂົ້າຈາກແຟ້ມ"
 msgid "Preview"
 msgstr "ສະແດງຕົວຢ່າງ"
 
-#: kwframestylemanager.cc:251 kwview.cc:7580
+#: kwframestylemanager.cc:251 kwview.cc:7583
 msgid "General"
 msgstr "ທົ່ວໄປ"
 
@@ -1938,7 +1944,7 @@ msgstr ""
 "ເຮົາສາມາດບັນທຶກເອກະສານນີ້ເປັນແມ່ແບບໄດ້ "
 "<br><br>ເຮົາສາມາດລົດໃຊ້ແມ່ແບບໃໝ່ນີ້ເປັນໂຕເລີ້ມສໍາລັບເອກະສານອື່ນໄດ້"
 
-#: kwview.cc:438 kwview.cc:7557 kwview.cc:7759 kwview.cc:7818
+#: kwview.cc:438 kwview.cc:7560 kwview.cc:7762 kwview.cc:7821
 msgid "Statistics"
 msgstr "ສະທິຕิ"
 
@@ -3617,84 +3623,84 @@ msgstr "ປ່ຽນເສັ້ນທາງແນວນອນ"
 msgid "Replace Word"
 msgstr "ແທນທີ່ຄຳ"
 
-#: kwview.cc:7587
+#: kwview.cc:7590
 msgid "Text"
 msgstr "ໂໝດຂໍ້ຄວາມ"
 
-#: kwview.cc:7593
+#: kwview.cc:7596
 #, fuzzy
 msgid "Selected Text"
 msgstr "ຄັດເລືອກຂໍ້ຄວາມ"
 
-#: kwview.cc:7706
+#: kwview.cc:7709
 msgid "Counting..."
 msgstr "ກຳລັງນັບ..."
 
-#: kwview.cc:7740 kwview.cc:7829
+#: kwview.cc:7743 kwview.cc:7832
 #, c-format
 msgid "approximately %1"
 msgstr "ປະມານ %1"
 
-#: kwview.cc:7769
+#: kwview.cc:7772
 #, fuzzy
 msgid "Number of pages:"
 msgstr "ຈຳນວນໜ້າເຈ້ຍ"
 
-#: kwview.cc:7774
+#: kwview.cc:7777
 #, fuzzy
 msgid "Number of frames:"
 msgstr "ຈຳນວນໂຄງສ້າງ"
 
-#: kwview.cc:7779
+#: kwview.cc:7782
 #, fuzzy
 msgid "Number of pictures:"
 msgstr "ຈຳນວນຮູບ"
 
-#: kwview.cc:7785
+#: kwview.cc:7788
 #, fuzzy
 msgid "Number of tables:"
 msgstr "ຈຳນວນຕາຕະລາງ"
 
-#: kwview.cc:7790
+#: kwview.cc:7793
 #, fuzzy
 msgid "Number of embedded objects:"
 msgstr "ຝັງຈຳນວນວັດຖุ"
 
-#: kwview.cc:7795
+#: kwview.cc:7798
 #, fuzzy
 msgid "Number of formula frameset:"
 msgstr "ຈຳນວນໜ້າເຈ້ຍ"
 
-#: kwview.cc:7812
+#: kwview.cc:7815
 #, fuzzy
 msgid "&Include text from foot- and endnotes"
 msgstr "ລວມຂໍ້ຄວາມຈາກທ້າຍຫລືຕອນຈົບຂອງຂໍ້ຄວາມສຳຄັນ"
 
-#: kwview.cc:7832
+#: kwview.cc:7835
 msgid "Characters including spaces:"
 msgstr "ຕົວອັກສອນລວມຊ່ອງຫວ່າງ:"
 
-#: kwview.cc:7837
+#: kwview.cc:7840
 msgid "Characters without spaces:"
 msgstr "ຕົວອັກສອນບໍ່ລວມຊ່ອງຫວ່າງ:"
 
-#: kwview.cc:7842
+#: kwview.cc:7845
 msgid "Syllables:"
 msgstr "ພະຍາງ:"
 
-#: kwview.cc:7847
+#: kwview.cc:7850
 msgid "Words:"
 msgstr "ຄຳ:"
 
-#: kwview.cc:7852
+#: kwview.cc:7855
 msgid "Sentences:"
 msgstr "ປະໂຫຍກ :"
 
-#: kwview.cc:7857
+#: kwview.cc:7860
 msgid "Lines:"
 msgstr "ຫົວຂໍ້ຍ່ອຍ"
 
-#: kwview.cc:7863
+#: kwview.cc:7866
 msgid "Flesch reading ease:"
 msgstr "ການທຳໃຫ້ອ່ານງ່າຍ:"
 
