@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-22 20:49+0200\n"
+"POT-Creation-Date: 2005-06-05 01:29+0200\n"
 "PO-Revision-Date: 2003-01-14 18:21+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -491,42 +491,37 @@ msgstr "เปิดใช้งานจาวากับทั้งระบ
 msgid "Java Runtime Settings"
 msgstr "ตั้งค่าส่วนรันไทม์ของจาวา"
 
-#: javaopts.cpp:84
-#, fuzzy
-msgid "Sho&w Java console"
-msgstr "แสดงคอนโซลของจาวา"
-
-#: javaopts.cpp:88
+#: javaopts.cpp:85
 msgid "&Use security manager"
 msgstr "ใช้ตัวจัดการความปลอดภัย"
 
-#: javaopts.cpp:92
+#: javaopts.cpp:89
 msgid "Use &KIO"
 msgstr ""
 
-#: javaopts.cpp:96
+#: javaopts.cpp:93
 #, fuzzy
 msgid "Shu&tdown applet server when inactive"
 msgstr "ปิดเซิร์ฟเวอร์แอพเพล็ตเมื่อไม่มีการทำงาน"
 
-#: javaopts.cpp:104
+#: javaopts.cpp:101
 #, fuzzy
 msgid "App&let server timeout:"
 msgstr "ช่วงเวลาใช้งานเซิร์ฟเวอร์แอพเพล็ต (วินาที)"
 
-#: javaopts.cpp:105
+#: javaopts.cpp:102
 msgid " sec"
 msgstr " วินาที"
 
-#: javaopts.cpp:110
+#: javaopts.cpp:107
 msgid "&Path to Java executable, or 'java':"
 msgstr "พาธไปยังตำแหน่งแฟ้มประมวลผลจาวา หรือ 'java'"
 
-#: javaopts.cpp:118
+#: javaopts.cpp:115
 msgid "Additional Java a&rguments:"
 msgstr "อากรูเมนต์เพิ่มเติมของจาวา"
 
-#: javaopts.cpp:126
+#: javaopts.cpp:123
 #, fuzzy
 msgid ""
 "Enables the execution of scripts written in Java that can be contained in HTML "
@@ -537,7 +532,7 @@ msgstr ""
 "โปรดระวัง เนื่องจากการสนับสนุนจาวายังไม่สมบูรณ์ ซึ่งกับบางบราวเซอร์ "
 "การเปิดใช้งานหัวข้อนี้ อาจทำให้มีปัญหาด้านความปลอดภัย"
 
-#: javaopts.cpp:129
+#: javaopts.cpp:126
 msgid ""
 "This box contains the domains and hosts you have set a specific Java policy "
 "for. This policy will be used instead of the default policy for enabling or "
@@ -549,7 +544,7 @@ msgstr ""
 "หรือปิดการใช้งานจาวาบนเพจที่ถูกส่งมาจากโดเมนหรือโฮสต์เหล่านี้ <p>"
 "เลือกที่ข้อกำหนดที่ต้องการ และใช้คอนโทรลด้านขวาเพื่อแก้ไขมัน"
 
-#: javaopts.cpp:136
+#: javaopts.cpp:133
 #, fuzzy
 msgid ""
 "Click this button to choose the file that contains the Java policies. These "
@@ -558,7 +553,7 @@ msgstr ""
 "คลิกที่ปุ่มนี้ เพื่อเลือกแฟ้มที่บรรจุข้อกำหนดการใช้งานจาวาอยู่ "
 "ซึ่งจะถูกรวมเข้าไปยังข้อกำหนดที่มีอยู่แล้ว และจะไม่รวมส่วนที่ซ้ำกัน"
 
-#: javaopts.cpp:139
+#: javaopts.cpp:136
 msgid ""
 "Click this button to save the Java policy to a zipped file. The file, named <b>"
 "java_policy.tgz</b>, will be saved to a location of your choice."
@@ -566,7 +561,7 @@ msgstr ""
 "คลิกที่ปุ่มนี้ เพื่อบันทึกข้อกำหนดการใช้งานจาวาไปเป็นแฟ้มบีบอัดชื่อ <b>"
 "java_policy.tgz</b> ซึ่งจะถูกบันทึกไว้ในตำแหน่งที่คุณเลือก"
 
-#: javaopts.cpp:143
+#: javaopts.cpp:140
 #, fuzzy
 msgid ""
 "Here you can set specific Java policies for any particular host or domain. To "
@@ -585,17 +580,7 @@ msgstr ""
 "นำเข้า</i> และ <i>ส่งออก</i> เพื่อให้สามารถแลกเปลี่ยน "
 "ข้อกำหนดของคุณกับคนอื่นได้ง่าย โดยอนุญาตให้คุณใช้งานในรูปแบบแฟ้มบีบอัดได้"
 
-#: javaopts.cpp:156
-msgid ""
-"If this box is checked, Konqueror will open a console window that Java programs "
-"can use for character-based input/output. Well-written Java applets do not need "
-"this, but the console can help to find problems with Java applets."
-msgstr ""
-"หากเปิดใช้ตัวเลือกนี้ Konqueror จะทำการเปิดหน้าต่างคอนโซลของโปรแกรมจาวา "
-"เพื่อให้ใช้กับการนำเข้า/แสดงผลในแบบข้อความ ซึ่งไม่ได้ใช้จาวาแอพเพล็ต "
-"แต่ก็ทำให้สามารถดูความผิดพลาดจากจาวาแอพเพล็ตได้"
-
-#: javaopts.cpp:160
+#: javaopts.cpp:153
 msgid ""
 "Enabling the security manager will cause the jvm to run with a Security Manager "
 "in place. This will keep applets from being able to read and write to your file "
@@ -610,11 +595,11 @@ msgstr ""
 "$HOME/.java.policy ด้วยเครื่องมือปรับแต่งข้อกำหนดของจาวาก็ได้ "
 "เพื่อตั้งข้อกำหนดการดาวน์โหลดโค้ดจากบางไซต์ที่มีสิทธิ์ใช้งานมากกว่า"
 
-#: javaopts.cpp:168
+#: javaopts.cpp:161
 msgid "Enabling this will cause the jvm to use KIO for network transport "
 msgstr ""
 
-#: javaopts.cpp:170
+#: javaopts.cpp:163
 msgid ""
 "Enter the path to the java executable. If you want to use the jre in your path, "
 "simply leave it as 'java'. If you need to use a different jre, enter the path "
@@ -626,14 +611,14 @@ msgstr ""
 "โปรแกรมประมวลผลจาวาที่ต้องการ (เช่น /usr/lib/jdk/bin/java) หรือชี้ไปยัง "
 "ไดเรกทอรีที่มี 'bin/java' (เช่น /opt/IBMJava2-13)"
 
-#: javaopts.cpp:175
+#: javaopts.cpp:168
 msgid ""
 "If you want special arguments to be passed to the virtual machine, enter them "
 "here."
 msgstr ""
 "หากคุณต้องการส่งอากรูเมนต์เพิ่มเติมให้กับ virtual machine ให้ใส่มันที่นี่"
 
-#: javaopts.cpp:177
+#: javaopts.cpp:170
 msgid ""
 "When all the applets have been destroyed, the applet server should shut down. "
 "However, starting the jvm takes a lot of time. If you would like to keep the "
@@ -647,24 +632,24 @@ msgstr ""
 "ที่คุณต้องการ  เพื่อให้โปรเซสของจาวาทำงานตลอดเวลาที่ใช้งาน konqueror อยู่ "
 "โดยไม่ต้องเลือกตัวเลือกปิดการทำงานเซิร์ฟเวอร์แอพเพล็ต"
 
-#: javaopts.cpp:297 pluginopts.cpp:641
+#: javaopts.cpp:285 pluginopts.cpp:641
 #, fuzzy
 msgid "Doma&in-Specific"
 msgstr "กำหนดโดเมน"
 
-#: javaopts.cpp:330
+#: javaopts.cpp:318
 msgid "New Java Policy"
 msgstr "สร้างข้อกำหนดจาวาใหม่"
 
-#: javaopts.cpp:333
+#: javaopts.cpp:321
 msgid "Change Java Policy"
 msgstr "เปลี่ยนข้อกำหนดจาวา"
 
-#: javaopts.cpp:337
+#: javaopts.cpp:325
 msgid "&Java policy:"
 msgstr "ข้อกำหนดการใช้งานจาวา:"
 
-#: javaopts.cpp:338
+#: javaopts.cpp:326
 msgid "Select a Java policy for the above host or domain."
 msgstr "เลือกข้อกำหนดการใช้งานจาวา สำหรับโฮสต์หรือโดเมนด้านบน"
 
@@ -1407,6 +1392,13 @@ msgstr "คุณจะเห็นรายการปลั๊กอินข
 #, fuzzy, no-c-format
 msgid "Use a&rtsdsp to pipe plugin sound through aRts"
 msgstr "ใช้ &artsdsp เพื่อทำการส่งผ่านปลั๊กอินระบบเสียง aRts"
+
+#, fuzzy
+#~ msgid "Sho&w Java console"
+#~ msgstr "แสดงคอนโซลของจาวา"
+
+#~ msgid "If this box is checked, Konqueror will open a console window that Java programs can use for character-based input/output. Well-written Java applets do not need this, but the console can help to find problems with Java applets."
+#~ msgstr "หากเปิดใช้ตัวเลือกนี้ Konqueror จะทำการเปิดหน้าต่างคอนโซลของโปรแกรมจาวา เพื่อให้ใช้กับการนำเข้า/แสดงผลในแบบข้อความ ซึ่งไม่ได้ใช้จาวาแอพเพล็ต แต่ก็ทำให้สามารถดูความผิดพลาดจากจาวาแอพเพล็ตได้"
 
 #~ msgid "Scan Directories"
 #~ msgstr "ค้นหาในไดเรกทอรี"

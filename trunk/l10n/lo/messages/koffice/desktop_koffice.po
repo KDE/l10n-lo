@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-06-03 23:34+0000\n"
+"POT-Creation-Date: 2005-06-04 23:39+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -426,7 +426,7 @@ msgstr ""
 msgid "GenericName=Queries"
 msgstr "GenericName=ค้นหาแฟ้ม"
 
-#: kexi/data/kexiqueryhandler.desktop:33
+#: kexi/data/kexiqueryhandler.desktop:34
 #, fuzzy
 msgid "Name=Queries"
 msgstr "Name=เดมอน"
@@ -456,7 +456,7 @@ msgstr "Name=เกมกีฬา"
 msgid "GenericName=Scripts"
 msgstr "GenericName=ค้นหาแฟ้ม"
 
-#: kexi/data/kexiscripthandler.desktop:22
+#: kexi/data/kexiscripthandler.desktop:23
 #, fuzzy
 msgid "Name=Scripts"
 msgstr "Name=โซลาริส"
@@ -477,7 +477,7 @@ msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
 msgid "GenericName=Tables"
 msgstr "GenericName=เกม"
 
-#: kexi/data/kexitablehandler.desktop:35
+#: kexi/data/kexitablehandler.desktop:36
 #, fuzzy
 msgid "Name=Tables"
 msgstr "Name=เมเปิล"
@@ -1016,11 +1016,13 @@ msgid "Comment=Color model for 8-bit grayscale images"
 msgstr "Comment=แฟ้มที่จะใช้เปิดเชลล์"
 
 #: krita/modules/colorspace_gray/templates/white_640x480.desktop:6
+#: krita/modules/colorspace_template/templates/white_640x480.desktop:6
 #, fuzzy
 msgid "Name=White Background, 640 x 480"
 msgstr "Name=พื้นหลัง"
 
 #: krita/modules/colorspace_gray/templates/white_640x480.desktop:31
+#: krita/modules/colorspace_template/templates/white_640x480.desktop:31
 msgid "Comment=Creates an image of 640 x 480 pixels with a white background."
 msgstr ""
 
@@ -1107,6 +1109,16 @@ msgstr ""
 msgid "Comment=Creates a white RGB image of 640 x 480 pixels."
 msgstr "Comment=คลาสของเครื่องพิมพ์"
 
+#: krita/modules/colorspace_template/kritatemplateplugin.desktop:3
+#, fuzzy
+msgid "Name=Template Color Model"
+msgstr "Name=สร้างโมเดล Povray"
+
+#: krita/modules/colorspace_template/kritatemplateplugin.desktop:4
+#, fuzzy
+msgid "Comment=Template Color model for developers"
+msgstr "Comment=รายการโฟลเดอร์จดหมาย"
+
 #: krita/modules/colorspace_wet/kritawetplugin.desktop:3
 #, fuzzy
 msgid "Name=Watercolor Paint Plugin"
@@ -1136,7 +1148,7 @@ msgstr "GenericName=ข้อมูล DMA"
 msgid "Name=CImg Image Restoration Filter"
 msgstr "Name=ตัวกรองการบีบอัดของ KDE"
 
-#: krita/plugins/cimg/kritacimg.desktop:19
+#: krita/plugins/cimg/kritacimg.desktop:20
 #, fuzzy
 msgid "Comment=CImg Image restoration filter"
 msgstr "Comment=ตัวกรองการเลือกหน้า/การจัดลำดับ"
@@ -7848,10 +7860,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #, fuzzy
 #~ msgid "Name=dcopservice"
 #~ msgstr "Name=บริการ"
-
-#, fuzzy
-#~ msgid "Comment=Template for dcop services"
-#~ msgstr "Comment=รายการโฟลเดอร์จดหมาย"
 
 #~ msgid "Name=Image Plugin"
 #~ msgstr "Name=ปลั๊กอินภาพ"
