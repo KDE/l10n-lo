@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-13 01:26+0200\n"
+"POT-Creation-Date: 2005-06-14 01:24+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -244,14 +244,6 @@ msgstr ""
 #: kio/kfilemetainfo.cpp:864
 msgid "mm"
 msgstr ""
-
-#: kio/kfilemetainfo.cpp:1592
-msgid "Yes"
-msgstr "ແມ່ນ"
-
-#: kio/kfilemetainfo.cpp:1592
-msgid "No"
-msgstr "ບໍ່ແມ່ນ"
 
 #: kio/kmimetype.cpp:110
 #, fuzzy
@@ -2382,11 +2374,6 @@ msgstr "ຢຸດທຳງານຊົ່ວຄາວ"
 msgid " %1/s "
 msgstr " %1/s "
 
-#: kio/kemailsettings.cpp:254 kio/kemailsettings.cpp:257
-#: kio/kemailsettings.cpp:264
-msgid "Default"
-msgstr "ຄ່າປະລິຍາຍ"
-
 #: kio/passdlg.cpp:57
 msgid "Password"
 msgstr "ລະຫດັຜ່ານ"
@@ -2505,12 +2492,6 @@ msgstr "ເຈົ້າຂອງ"
 #: kio/kfileitem.cpp:714
 msgid "Permissions:"
 msgstr "ສິດທີອະນຸຍາດ"
-
-#. i18n: file ./misc/kwalletd/kwalletwizard.ui line 166
-#: kio/skipdlg.cpp:56 rc.cpp:34
-#, no-c-format
-msgid "Information"
-msgstr "ຂໍ້ມູນ"
 
 #: kio/skipdlg.cpp:63
 msgid "Skip"
@@ -3141,12 +3122,6 @@ msgstr "ທ່ານອາດຈະບໍ່ໄດ້ຮັບອະນຸຍາ
 msgid "Settings..."
 msgstr "ຕັ້ງຄ່າ..."
 
-#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 274
-#: kfile/kcustommenueditor.cpp:99 misc/uiserver.cpp:99 rc.cpp:319
-#, no-c-format
-msgid "Remove"
-msgstr "ເອົາອອກ"
-
 #: misc/uiserver.cpp:126
 #, fuzzy
 msgid "Configure Network Operation Window"
@@ -3262,10 +3237,6 @@ msgstr "ກຳລັງກວດສອບ"
 #: misc/uiserver.cpp:370
 msgid "Mounting"
 msgstr "ກຳລັງເມາ์"
-
-#: misc/uiserver.cpp:600
-msgid "Cancel"
-msgstr "ຍົກເລີກ"
 
 #: misc/uiserver.cpp:608 misc/uiserver.cpp:1097
 msgid " Files: %1 "
@@ -3646,15 +3617,6 @@ msgstr "ປະເພດ Mime"
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm|cແຟ້ມໄອຄອນ (*.png *.xpm)"
 
-#: kfile/kencodingfiledialog.cpp:101 kfile/kencodingfiledialog.cpp:120
-#: kfile/kencodingfiledialog.cpp:135 kfile/kencodingfiledialog.cpp:153
-#: kfile/kfiledialog.cpp:1311 kfile/kfiledialog.cpp:1335
-#: kfile/kfiledialog.cpp:1351 kfile/kfiledialog.cpp:1365
-#: kfile/kfiledialog.cpp:1381 kfile/kfiledialog.cpp:1421
-#: kfile/kicondialog.cpp:544 kfile/kurlrequesterdlg.cpp:112
-msgid "Open"
-msgstr "ເປີດ"
-
 #: kfile/kfilemetainfowidget.cpp:111
 msgid "<Error>"
 msgstr "<ຜິດພາດ>"
@@ -3842,12 +3804,6 @@ msgstr "ໄດເລັກທໍລີທີ່ກຳນົດຍັງບໍ່
 msgid "No description available"
 msgstr "ບໍ່ມີຂໍ້ມູນລາຍລະອຽດ"
 
-#: kfile/kencodingfiledialog.cpp:174 kfile/kencodingfiledialog.cpp:197
-#: kfile/kfiledialog.cpp:1586 kfile/kfiledialog.cpp:1615
-#: kfile/kfiledialog.cpp:1634
-msgid "Save As"
-msgstr "ບັນທຶກເປັນ"
-
 #: kfile/kfiledialog.cpp:347
 #, fuzzy
 msgid "Please specify the filename to save to."
@@ -3993,10 +3949,6 @@ msgstr "ທີ່ຂັ້ນຫນັງສື"
 msgid "Hide Bookmarks"
 msgstr "ທີ່ຂັ້ນຫນັງສື"
 
-#: kfile/kfiledialog.cpp:933
-msgid "Configure"
-msgstr "ປັບແຕ່ງຄ່າ"
-
 #: kfile/kfiledialog.cpp:934
 #, fuzzy
 msgid ""
@@ -4115,12 +4067,6 @@ msgid ""
 "the end of the filename (the period will be automatically removed).</li></ol>"
 "If unsure, keep this option enabled as it makes your files more manageable."
 msgstr ""
-
-#: bookmarks/kbookmarkimporter_ns.cc:200 bookmarks/kbookmarkimporter_ns.cc:201
-#: bookmarks/kbookmarkmenu.cc:1006 kfile/kfiledialog.cpp:2229
-#, fuzzy
-msgid "Bookmarks"
-msgstr "&ບ່ອນຂັ້ນຫນັງສື"
 
 #: kfile/kfiledialog.cpp:2233
 msgid ""
@@ -4258,14 +4204,6 @@ msgstr "ລຶບແຟ້ມ"
 msgid "Move to Trash"
 msgstr "ຍ້າຍໄປຍັງ%1"
 
-#: kfile/kdiroperator.cpp:1267
-msgid "Delete"
-msgstr "ລຶບ"
-
-#: kfile/kdiroperator.cpp:1270
-msgid "Reload"
-msgstr "ເອິ້ນໃຫມ່"
-
 #: kfile/kdiroperator.cpp:1275
 msgid "Sorting"
 msgstr "ການລງງລຳດັບ"
@@ -4295,10 +4233,6 @@ msgstr "ລງງໄດເຣັກເທີຣີກ່ອນ"
 msgid "Case Insensitive"
 msgstr "ພິຈາລະນາຕົວນ້ອຍ-ໃຫ່ຍ"
 
-#: kfile/kdiroperator.cpp:1308
-msgid "&View"
-msgstr "&ມຸມເບິ່ງ"
-
 #: kfile/kdiroperator.cpp:1317
 msgid "Show Hidden Files"
 msgstr "ສະແດງແຟ້ມທີ່ຖືກເຊື່ອງ"
@@ -4316,12 +4250,6 @@ msgstr "ສະແດງຕົວຢ່າງ"
 #, fuzzy
 msgid "Hide Preview"
 msgstr "ສະແດງຕົວຢ່າງ"
-
-#: bookmarks/kbookmarkmenu.cc:282 bookmarks/kbookmarkmenu.cc:293
-#: kfile/kdiroperator.cpp:1344
-#, fuzzy
-msgid "Properties"
-msgstr "ຄຸນສົມບັດ..."
 
 #: kfile/kfiledetailview.cpp:66
 msgid "Name"
@@ -4377,10 +4305,6 @@ msgstr "ເນື້ອຫາ"
 #: kfile/kpropertiesdialog.cpp:967
 msgid "Calculate"
 msgstr "ຄຳນວນ"
-
-#: kfile/kpropertiesdialog.cpp:968
-msgid "Stop"
-msgstr "ຢຸດ"
 
 #: kfile/kpropertiesdialog.cpp:978 kfile/kpropertiesdialog.cpp:1192
 msgid "Refresh"
@@ -5803,10 +5727,6 @@ msgstr "ສ້າງໂຟລເດີທີ່ຂັ້ນຫນັງສືໃ
 msgid "Quick Actions"
 msgstr "ການກະທຳ"
 
-#: bookmarks/kbookmarkmenu.cc:829
-msgid "&Update"
-msgstr "&ອັບເດດທ໌"
-
 #: bookmarks/kbookmarkmenu.cc:831
 #, fuzzy
 msgid "&New Folder..."
@@ -6345,6 +6265,56 @@ msgstr ""
 #, c-format
 msgid "No metainfo for %1"
 msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
+
+#~ msgid "Yes"
+#~ msgstr "ແມ່ນ"
+
+#~ msgid "No"
+#~ msgstr "ບໍ່ແມ່ນ"
+
+#~ msgid "Default"
+#~ msgstr "ຄ່າປະລິຍາຍ"
+
+#~ msgid "Information"
+#~ msgstr "ຂໍ້ມູນ"
+
+#~ msgid "Remove"
+#~ msgstr "ເອົາອອກ"
+
+#~ msgid "Cancel"
+#~ msgstr "ຍົກເລີກ"
+
+#~ msgid "Open"
+#~ msgstr "ເປີດ"
+
+#~ msgid "Save As"
+#~ msgstr "ບັນທຶກເປັນ"
+
+#~ msgid "Configure"
+#~ msgstr "ປັບແຕ່ງຄ່າ"
+
+#, fuzzy
+#~ msgid "Bookmarks"
+#~ msgstr "&ບ່ອນຂັ້ນຫນັງສື"
+
+#~ msgid "Delete"
+#~ msgstr "ລຶບ"
+
+#~ msgid "Reload"
+#~ msgstr "ເອິ້ນໃຫມ່"
+
+#~ msgid "&View"
+#~ msgstr "&ມຸມເບິ່ງ"
+
+#, fuzzy
+#~ msgid "Properties"
+#~ msgstr "ຄຸນສົມບັດ..."
+
+#~ msgid "Stop"
+#~ msgstr "ຢຸດ"
+
+#~ msgid "&Update"
+#~ msgstr "&ອັບເດດທ໌"
 
 #, fuzzy
 #~ msgid "&Trash"
