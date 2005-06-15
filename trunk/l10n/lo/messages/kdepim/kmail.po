@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-14 01:30+0200\n"
+"POT-Creation-Date: 2005-06-15 01:37+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -760,8 +760,8 @@ msgstr "&ບໍ່ມີี"
 msgid "Sendmail"
 msgstr "ສົ່່ງເມວລ໌"
 
-#: accountwizard.cpp:427 accountwizard.cpp:463 kmacctmgr.cpp:245
-#: kmacctmgr.cpp:248
+#: accountwizard.cpp:427 accountwizard.cpp:463 kmacctmgr.cpp:246
+#: kmacctmgr.cpp:249
 #, fuzzy
 msgid "Local Account"
 msgstr "ບັນຊີຜູ້ໃຊ້:"
@@ -1259,7 +1259,7 @@ msgstr ""
 msgid "Incoming accounts (add at least one):"
 msgstr "ບັນຊີຜູ້ໃຊ້ຮັບຈົດຫມາຍ(ຕ້ອງມີຢ່າງຫນ້ອຍຫນື່ງບັນຊີຜູ້ໃຊ้້ !)"
 
-#: configuredialog.cpp:1088 kmfldsearch.cpp:187 kmfolderseldlg.cpp:67
+#: configuredialog.cpp:1088 kmfldsearch.cpp:187 kmfolderseldlg.cpp:52
 #: kmfoldertree.cpp:311
 msgid "Folder"
 msgstr "ໂຟນເດີ້"
@@ -3885,17 +3885,17 @@ msgstr "ການກະທຳເມື່ອກອງ"
 msgid "Which name shall the contact '%1' have in your addressbook?"
 msgstr ""
 
-#: kmaccount.cpp:43 kmaccount.cpp:355 kmsender.cpp:482
+#: kmaccount.cpp:44 kmaccount.cpp:356 kmsender.cpp:482
 #, c-format
 msgid "Executing precommand %1"
 msgstr "ກຳລັງປະມວນຜົນຄຳສັງ%1"
 
-#: kmaccount.cpp:62
+#: kmaccount.cpp:63
 #, fuzzy
 msgid "Could not execute precommand '%1'."
 msgstr "ບໍ່ສາມາດປະມວນຜົນຄຳສັ່ງ: %1 ໄດ້"
 
-#: kmaccount.cpp:73
+#: kmaccount.cpp:74
 msgid ""
 "The precommand exited with code %1:\n"
 "%2"
@@ -3903,12 +3903,12 @@ msgstr ""
 "ຄຳສັ່ງຈົບການທຳງານດ້ວຍລະຫັດ%1:\n"
 "%2"
 
-#: kmaccount.cpp:230
+#: kmaccount.cpp:231
 #, fuzzy
 msgid "Critical error: Unable to collect mail: "
 msgstr "ຂໍ້ຜິດພາດຮ້າຍແຮງ: ບໍ່ສາມາດເກັບຈົດໝາຍໄວ້ໄດ້(ພື້ນທີ່ເຕັມຫລືເປລົ່າ ?)"
 
-#: kmaccount.cpp:253
+#: kmaccount.cpp:254
 msgid ""
 "Failed to add message:\n"
 msgstr ""
@@ -3988,17 +3988,17 @@ msgstr ""
 "ເຊີເວີຂອງທ່ານບໍ້ສະໜັບສະໜູນຄຳສັ້ງTOPເຊີງຈະເຮັດໃຫ້ບໍ່ສາມາດດືງຫົວຈົດໝາຍອອກຈາກຈົດໝາຍ"
 "ຂະໜາດໃຫຍ່ກ່ອນໄດ້ກ່ອນຈະດາວໂຫລດມັນ"
 
-#: kmacctimap.cpp:282
+#: kmacctimap.cpp:283
 #, fuzzy
 msgid "Checking account: "
 msgstr "ກວດສອບຈົດໝາຍໃໝ່ເທົ່ານັ້ນ"
 
-#: kmacctimap.cpp:379 kmfolderimap.cpp:818
+#: kmacctimap.cpp:380 kmfolderimap.cpp:818
 #, fuzzy
 msgid " completed"
 msgstr "ບໍ ມີເຄືອງມື"
 
-#: kmacctimap.cpp:564 kmheaders.cpp:1205
+#: kmacctimap.cpp:565 kmheaders.cpp:1205
 #, fuzzy
 msgid "Unable to process messages: "
 msgstr "ຂໍ້ຜິດພາດຮ້າຍແຮງ:ບໍ່ສາມາດປະມວນຜົນຈົດໝາຍ(ພື້ນທີ່ເຕັມຫລືບໍ່?)"
@@ -4062,12 +4062,12 @@ msgstr ""
 "ຈົດໝາຍທັງໝົດ %\n"
 " ສະບັບ%1"
 
-#: kmacctmgr.cpp:102
+#: kmacctmgr.cpp:103
 #, c-format
 msgid "Account %1"
 msgstr "ບັນຊີຜູ້ໃຊ້%1"
 
-#: kmacctmgr.cpp:202
+#: kmacctmgr.cpp:203
 #, fuzzy
 msgid ""
 "Account %1 has no mailbox defined:\n"
@@ -4078,22 +4078,22 @@ msgstr ""
 "ຍົກເລີກການກວດຈົດໝາຍ\n"
 "ແລະກະລຸນາກວດສອບການຕັ້ງຄ່າບັນຊີຜູ້ໃຊ້ນີ້ !"
 
-#: kmacctmgr.cpp:217
+#: kmacctmgr.cpp:218
 #, fuzzy
 msgid "Checking account %1 for new mail"
 msgstr "ກວດສອບຈົດໝາຍໃໝ່ເທົ່ານັ້ນ"
 
-#: kmacctmgr.cpp:251
+#: kmacctmgr.cpp:252
 #, fuzzy
 msgid "POP Account"
 msgstr "ບັນຊີຜູ້ໃຊ້:"
 
-#: kmacctmgr.cpp:254 kmacctmgr.cpp:257
+#: kmacctmgr.cpp:255 kmacctmgr.cpp:258
 #, fuzzy
 msgid "IMAP Account"
 msgstr "ເພີ່ມບັນຊີຜູ້ໃຊ້"
 
-#: kmacctmgr.cpp:340 kmacctmgr.cpp:368
+#: kmacctmgr.cpp:341 kmacctmgr.cpp:369
 msgid ""
 "You need to add an account in the network section of the settings in order to "
 "receive mail."
@@ -6480,16 +6480,16 @@ msgstr ""
 "ບໍ່ສາມາດສ້າງແຟ້ມ`%1'ໃນ %2 ໄດ້\n"
 "ເຮັດໃຫ ້KMail ບໍ່ສາມາດເລີ່ມການທຳງານໄດ້"
 
-#: kmfolderseldlg.cpp:232 kmfoldertree.cpp:967 kmfoldertree.cpp:988
+#: kmfolderseldlg.cpp:218 kmfoldertree.cpp:967 kmfoldertree.cpp:988
 msgid "&New Subfolder..."
 msgstr "&ເຄື່ອງມືຂຽນຈົດໝາຍໃຫມ່..."
 
-#: kmfolderseldlg.cpp:247 kmfolderseldlg.cpp:274
+#: kmfolderseldlg.cpp:233 kmfolderseldlg.cpp:260
 #, fuzzy
 msgid "&New Subfolder"
 msgstr "&ເຄື່ອງມືຂຽນຈົດໝາຍໃຫມ່..."
 
-#: kmfolderseldlg.cpp:248 kmfolderseldlg.cpp:275
+#: kmfolderseldlg.cpp:234 kmfolderseldlg.cpp:261
 #, fuzzy
 msgid "Create a new subfolder under the currently selected folder"
 msgstr "ຄຣິກເພື່ອລົບບໍລິການທີ່ເລືອກໄວ້ໃນປະຈຸບັນ"
