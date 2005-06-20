@@ -19,13 +19,15 @@ msgid ""
 "<h1>Konqueror Stylesheets</h1> This module allows you to apply your own color "
 "and font settings to Konqueror by using stylesheets (CSS). You can either "
 "specify options or apply your own self-written stylesheet by pointing to its "
-"location.<br> Note that these settings will always have precedence before all "
-"other settings made by the site author. This can be useful to visually impaired "
+"location."
+"<br> Note that these settings will always have precedence before all other "
+"settings made by the site author. This can be useful to visually impaired "
 "people or for web pages that are unreadable due to bad design."
 msgstr ""
 "ໂມດູນນີ້ໃຫ້ທ່ານສາມາດເລືອກຕັ້ງຄ່າແລະ ຮູບແບບຕົວອັກສອນຂອງທ່ານເອງໄດ້ี "
 "ເພື່ອໃຊ້ກັບຄອນເຄຍເຣີໂດຍໃຊ້ສະຕາຍຊິດທ໌ (CSS) "
-"ທ່ານສາມາດກຳນົດຕົວເລືອກຂງນຂຶ້ນເອງໂດຍລະບຸຕຳແຫນ່ງ<br> "
+"ທ່ານສາມາດກຳນົດຕົວເລືອກຂງນຂຶ້ນເອງໂດຍລະບຸຕຳແຫນ່ງ"
+"<br> "
 "ຂໍ້ຄວນຈຳການຕັ້ງຄ່ານີ້ຈະຖືກນຳມາໃຊ້ກ່ອນຄ່າທີ່ຖືກຕັ້ງໄວ້ຈາກໄຊທ໌ສະເຫມີຊຶ່ງຈະຊ່ວຍໃຫ້ທ"
 "່ານສາມາດອ່ານ ຫລືປ່ງນຄ່າເວບເພດຈ໌ທີ່່ບໍ່ສາມາດອ່ານໄດ້ຫລືອອກແບບມາບໍ່ດີ"
 
@@ -33,10 +35,12 @@ msgstr ""
 #: rc.cpp:3 rc.cpp:6
 #, no-c-format
 msgid ""
-"<b>Stylesheets</b><p>See http://www.w3.org/Style/CSS for further information on "
-"cascading style sheets.</p>"
+"<b>Stylesheets</b>"
+"<p>See http://www.w3.org/Style/CSS for further information on cascading style "
+"sheets.</p>"
 msgstr ""
-"<b>ສະຕາຍຊິດ</b><p>ເບິ່ງລາຍລະອງດຂອງ cascading style sheets ໄດ້ທີ่່ "
+"<b>ສະຕາຍຊິດ</b>"
+"<p>ເບິ່ງລາຍລະອງດຂອງ cascading style sheets ໄດ້ທີ่່ "
 "http://www.w3.org/Style/CSS</p>"
 
 #. i18n: file cssconfig.ui line 47
@@ -55,10 +59,11 @@ msgstr "ສະຕາຍຊິດ"
 #: rc.cpp:15
 #, no-c-format
 msgid ""
-"<b>Stylesheets</b><p>Use this groupbox to determine how Konqueror will render "
-"style sheets.</p>"
+"<b>Stylesheets</b>"
+"<p>Use this groupbox to determine how Konqueror will render style sheets.</p>"
 msgstr ""
-"<b>ສະຕາຍຊິດ</b><p>ໃຊ້ກຣຸບບອກນີ້ເພື່ອກຳນົດວ່າຈະໃຫ້ຄອນເຄຍເຣີຈະທຳການສະແດງຢ່າງໃດ</p>"
+"<b>ສະຕາຍຊິດ</b>"
+"<p>ໃຊ້ກຣຸບບອກນີ້ເພື່ອກຳນົດວ່າຈະໃຫ້ຄອນເຄຍເຣີຈະທຳການສະແດງຢ່າງໃດ</p>"
 
 #. i18n: file cssconfig.ui line 103
 #: rc.cpp:18
@@ -70,14 +75,15 @@ msgstr "ໃຊ້ສະຕາຍຊິດທີ່ກຳນົດເອງ"
 #: rc.cpp:21
 #, no-c-format
 msgid ""
-"<b>Use user-defined stylesheet</b><p>If this box is checked, Konqueror will try "
-"to load a user-defined style sheet as specified in the location below. The "
-"style sheet allows you to completely override the way web pages are rendered in "
-"your browser. The file specified should contain a valid style sheet (see "
-"http://www.w3.org/Style/CSS for further information on cascading style "
-"sheets).</p>"
+"<b>Use user-defined stylesheet</b>"
+"<p>If this box is checked, Konqueror will try to load a user-defined style "
+"sheet as specified in the location below. The style sheet allows you to "
+"completely override the way web pages are rendered in your browser. The file "
+"specified should contain a valid style sheet (see http://www.w3.org/Style/CSS "
+"for further information on cascading style sheets).</p>"
 msgstr ""
-"<b>ໃຊ້ສະຕາຍຊິດທີ່ກຳນົດເອງ</b><p>ຫາກເລືອກໃຫ້ຕົວເລືອກນີ້konqueror "
+"<b>ໃຊ້ສະຕາຍຊິດທີ່ກຳນົດເອງ</b>"
+"<p>ຫາກເລືອກໃຫ້ຕົວເລືອກນີ້konqueror "
 "ຈະພະຍາຍາມຮງກໃຊ້ສະຕາຍຊິດກຳນົດໄວ້ໃນຕຳແຫນ່ງດ້ານລຸ່ມນີ້ສະຕາຍຊິດຈະຊ່ວຍໃຫ້ທ່ານສາມາດປ່ງ"
 "ນຮູບແບບຂອງເວັບເພດຈ໌ເທິງບຣາວເຊີໄປເປັນລັກສະນະທີ່ທ່ານກຳນົດແຟ້ມທີ່ກຳນົດຄວນຈະມີໄວຍາກອ"
 "ນສະຕາຍຊິດທີ່ຖືກຕ້ອງອີກດ້ວຍ(ເບິ່ງລາຍລະອງດຂອງ cascading style sheets ໄດ້ທີ່ี่ "
@@ -93,13 +99,13 @@ msgstr "ໃຊ້ຄວາມສາມາດຂອງສະຕາຍຊິດກ
 #: rc.cpp:27
 #, fuzzy, no-c-format
 msgid ""
-"<b>Use accessibility stylesheet defined in &quot;Customize&quot;-tab</b><p>"
-"Selecting this option will allow you to define a default font, font size, and "
-"font color with a few simple clicks of the mouse. Simply wander over to the "
+"<b>Use accessibility stylesheet defined in &quot;Customize&quot;-tab</b>"
+"<p>Selecting this option will allow you to define a default font, font size, "
+"and font color with a few simple clicks of the mouse. Simply wander over to the "
 "Customize tab and pick out your desired options.</p>"
 msgstr ""
-"<b>ໃຊ້ຄວາມສາມາດຂອງສະຕາຍຊິດທີ່ກຳນົດໃນແທັບ&quot;ກຳນົດເອງ&quot;</b><p>"
-"ເລືອກຕົວເລືອກນີ້ທ່ານສາມາດ "
+"<b>ໃຊ້ຄວາມສາມາດຂອງສະຕາຍຊິດທີ່ກຳນົດໃນແທັບ&quot;ກຳນົດເອງ&quot;</b>"
+"<p>ເລືອກຕົວເລືອກນີ້ທ່ານສາມາດ "
 "ກຳນົດຮູບແບບຂະຫນາດ,ແລະສີຂອງຕົວອັກສອນໄດ້ດ້ວຍການຄລິກເມົາສ໌ປົກກະຕິພາຍໃນຫນ້າແທັບ "
 "ກຳນົດເອງແລະເລືອກຕົວເລືອກຕ່າງໆທີ່ຕ້ອງການ</p>"
 
@@ -113,10 +119,11 @@ msgstr "ໃຊ້ສະຕາຍຊິດປະຣິຍາຍ"
 #: rc.cpp:33
 #, no-c-format
 msgid ""
-"<b>Use default stylesheet</b><p>Select this option to use the default "
-"stylesheet.</p>"
+"<b>Use default stylesheet</b>"
+"<p>Select this option to use the default stylesheet.</p>"
 msgstr ""
-"<b>ໃຊ້ສະຕາຍຊິດປະຣິຍາຍ</b><p>ເລືອກຕົວເລືອກນີ້ເພື່ອໃ້ຫ້ໃຊ້ສະຕາຍຊິດປະຣິຍາຍ</p>"
+"<b>ໃຊ້ສະຕາຍຊິດປະຣິຍາຍ</b>"
+"<p>ເລືອກຕົວເລືອກນີ້ເພື່ອໃ້ຫ້ໃຊ້ສະຕາຍຊິດປະຣິຍາຍ</p>"
 
 #. i18n: file cssconfig.ui line 168
 #: rc.cpp:36
@@ -164,16 +171,16 @@ msgstr "ກຳນົດເອງ"
 #: rc.cpp:57
 #, no-c-format
 msgid ""
-"<b>Custom</b><p>Select this option to define a custom color for the default "
-"font.</p>"
+"<b>Custom</b>"
+"<p>Select this option to define a custom color for the default font.</p>"
 msgstr "<b>ກຳນົດເອງ</b><p>ເລືອກຕົວເລືອກນີ້ເພື່ອກຳນົດສີສຳຫລັບຕົວອັກສອນເອງ</p>"
 
 #. i18n: file cssconfig.ui line 267
 #: rc.cpp:61 rc.cpp:67
 #, no-c-format
 msgid ""
-"<b>Foreground color</b><p>The foreground color is the color that the text is "
-"drawn in.</p>"
+"<b>Foreground color</b>"
+"<p>The foreground color is the color that the text is drawn in.</p>"
 msgstr "<b>ສີພື້ນຫນ້າ</b><p>ສີພື້ນຫນ້າເປັນສີທີ່ໃຊ້ກັບຕົວອັກສອນ</p>"
 
 #. i18n: file cssconfig.ui line 346
@@ -186,8 +193,8 @@ msgstr "ພື້ນຫນ້າ:"
 #: rc.cpp:71
 #, no-c-format
 msgid ""
-"<b>Background</b><p>Behind this door lays the ability to choose a custom "
-"default background.</p>"
+"<b>Background</b>"
+"<p>Behind this door lays the ability to choose a custom default background.</p>"
 msgstr "<b>ພື້ນຫລັງ</b><p>ສາມາດເລືອກພື້ນຫລັງຮູບແບບຕ່າງໆ ໄດ້ເອງ</p>"
 
 #. i18n: file cssconfig.ui line 377
@@ -200,11 +207,13 @@ msgstr "ພື້ນຫລັງ:"
 #: rc.cpp:77
 #, no-c-format
 msgid ""
-"<b>Background</b><p>This background color is the one displayed behind the text "
-"by default. A background image will override this.</p>"
+"<b>Background</b>"
+"<p>This background color is the one displayed behind the text by default. A "
+"background image will override this.</p>"
 msgstr ""
-"<b>ພື້ນຫລັງ</b><p>ສີພື້ນຫລັງນີ້ຕາມປົກກະຕິຈະຖືກສະແດງຢູ່ເບື້ອງຫລັງຂໍ້ຄວາມຊຶ່ງສາມາດ"
-"ປ່ງນໄປໃຊ້ພາບພື້ນຫລັງແທນໄດ້</p>"
+"<b>ພື້ນຫລັງ</b>"
+"<p>ສີພື້ນຫລັງນີ້ຕາມປົກກະຕິຈະຖືກສະແດງຢູ່ເບື້ອງຫລັງຂໍ້ຄວາມຊຶ່ງສາມາດປ່ງນໄປໃຊ້ພາບພື້"
+"ນຫລັງແທນໄດ້</p>"
 
 #. i18n: file cssconfig.ui line 393
 #: rc.cpp:80
@@ -216,13 +225,13 @@ msgstr "ໃຊ້ສີດງວກັນກັບທຸກຂໍ້ຄວາມ
 #: rc.cpp:83
 #, no-c-format
 msgid ""
-"<b>Use same color for all text</b><p>Select this option to apply your chosen "
-"color to the default font as well as any custom fonts as specified in a "
-"stylesheet.</p>"
+"<b>Use same color for all text</b>"
+"<p>Select this option to apply your chosen color to the default font as well as "
+"any custom fonts as specified in a stylesheet.</p>"
 msgstr ""
-"<b>ໃຊ້ສີດງວກັນກັບທຸກຂໍ້ຄວາມ</b><p>ເລືອກຕົວເລືອກນີ້ເພື່ອໃຫ້ສີທີ່ທ່ານເລືອກໄ້ວ້ຖືກນ"
-"ຳໄປໃຊ້ກັບຮູບແບບຕົວອັກສອນປະຣິຍາຍເຊັ່ນດງວກັບຮູບແບບຕົວອັກສອນທີ່ກຳນົດໄວ້ໃນສະຕາຍຊິດ</"
-"p>"
+"<b>ໃຊ້ສີດງວກັນກັບທຸກຂໍ້ຄວາມ</b>"
+"<p>ເລືອກຕົວເລືອກນີ້ເພື່ອໃຫ້ສີທີ່ທ່ານເລືອກໄ້ວ້ຖືກນຳໄປໃຊ້ກັບຮູບແບບຕົວອັກສອນປະຣິຍາຍ"
+"ເຊັ່ນດງວກັບຮູບແບບຕົວອັກສອນທີ່ກຳນົດໄວ້ໃນສະຕາຍຊິດ</p>"
 
 #. i18n: file cssconfig.ui line 409
 #: rc.cpp:86
@@ -246,8 +255,8 @@ msgstr "ງົດໃຊ້ພາບ"
 #: rc.cpp:95
 #, no-c-format
 msgid ""
-"<b>Suppress images</b><p>Selecting this will prevent Konqueror from loading "
-"images.</p>"
+"<b>Suppress images</b>"
+"<p>Selecting this will prevent Konqueror from loading images.</p>"
 msgstr "<b>ງົດໃຊ້ພາບ</b><p>ເລືອກຕົວເລືອກນີ້ເພື່ອບໍ່ໃຫ້ຄອນເຄຍເຣີໂຫລດຮູບພາບ</p>"
 
 #. i18n: file cssconfig.ui line 440
@@ -260,11 +269,12 @@ msgstr "ົງົດໃຊ້ພາບພື້ນຫລັງ"
 #: rc.cpp:101
 #, no-c-format
 msgid ""
-"<b>Suppress background images</b><p>Selecting this option will prevent "
-"Konqueror from loading background images.</p>"
+"<b>Suppress background images</b>"
+"<p>Selecting this option will prevent Konqueror from loading background "
+"images.</p>"
 msgstr ""
-"<b>ງົດໃຊ້ພາບພື້ນຫລັງ</b><p>ເລືອກຕົວເລືອກນີ້ເພື່ອບໍ່ໃຫ້ຄອນເຄຍເຣີທຳການໂຫລດພາບພື້ນຫ"
-"ລັງ</p>"
+"<b>ງົດໃຊ້ພາບພື້ນຫລັງ</b>"
+"<p>ເລືອກຕົວເລືອກນີ້ເພື່ອບໍ່ໃຫ້ຄອນເຄຍເຣີທຳການໂຫລດພາບພື້ນຫລັງ</p>"
 
 #. i18n: file cssconfig.ui line 473
 #: rc.cpp:104
@@ -276,11 +286,11 @@ msgstr "ສະແດງຕົວຢ່າງ"
 #: rc.cpp:107
 #, no-c-format
 msgid ""
-"<b>Preview</b><p>Click on this button to see what your selections look like in "
-"action.</p>"
+"<b>Preview</b>"
+"<p>Click on this button to see what your selections look like in action.</p>"
 msgstr ""
-"<b>ສະແດງຕົວຢ່າງ</b><p>ຄລິກທີ່ປຸ່ມນີ້ເພື່ອເບິ່ງວ່າສິ່ງທີ່ທ່ານເລືອກໄວ້ຈະຖືກສະແດງຢ່"
-"າງໃດ</p>"
+"<b>ສະແດງຕົວຢ່າງ</b>"
+"<p>ຄລິກທີ່ປຸ່ມນີ້ເພື່ອເບິ່ງວ່າສິ່ງທີ່ທ່ານເລືອກໄວ້ຈະຖືກສະແດງຢ່າງໃດ</p>"
 
 #. i18n: file cssconfig.ui line 523
 #: rc.cpp:110
@@ -292,12 +302,13 @@ msgstr "ຕະກູນຕົວອັກສອນ"
 #: rc.cpp:113
 #, no-c-format
 msgid ""
-"<b>Font family</b><p>A font family is a group of fonts that resemble one "
-"another, with family members that are e.g. bold, italic, or any number of the "
-"above.</p>"
+"<b>Font family</b>"
+"<p>A font family is a group of fonts that resemble one another, with family "
+"members that are e.g. bold, italic, or any number of the above.</p>"
 msgstr ""
-"<b>ຕະກູນຕົວອັກສອນ</b><p>ຕະກູນຕົວອັກສອນເປັນກຸ່ມຕົວອັກສອນທີ່ຄ້າຍຄືກັນ "
-"ຊຶ່ງຈະມີສາມາແບບເຊັ່ນ ຕົວຫນາ,ຕົວອງງຫລືຫມາຍເລກຂະຫນາດຕ່າງໆ</p>"
+"<b>ຕະກູນຕົວອັກສອນ</b>"
+"<p>ຕະກູນຕົວອັກສອນເປັນກຸ່ມຕົວອັກສອນທີ່ຄ້າຍຄືກັນ ຊຶ່ງຈະມີສາມາແບບເຊັ່ນ "
+"ຕົວຫນາ,ຕົວອງງຫລືຫມາຍເລກຂະຫນາດຕ່າງໆ</p>"
 
 #. i18n: file cssconfig.ui line 543
 #: rc.cpp:116
@@ -321,8 +332,9 @@ msgstr "ໃຊ້ຕະກູນດງວກັນກັບທຸກຂໍ້ຄ
 #: rc.cpp:125
 #, no-c-format
 msgid ""
-"<b>Use same family for all text</b><p>Select this option to override custom "
-"fonts everywhere in favor of the base font.</p>"
+"<b>Use same family for all text</b>"
+"<p>Select this option to override custom fonts everywhere in favor of the base "
+"font.</p>"
 msgstr ""
 "ີີີ<b>ໃຊ້ຕະກູນດງວກັນກັບທຸກຂໍ້ຄວາມ</b> "
 "<p>ເລືອກໂຕເລືອກນີ້ເພື່ອໃຫ້ໃຊ້ຮູບແບບຕົວອັກສອນ "
@@ -422,12 +434,12 @@ msgstr "ໃຊ້ຂະນາດດງວກັນກັບທຸກສ່ວນ
 #: rc.cpp:176
 #, no-c-format
 msgid ""
-"<b>Use same size for all elements</b><p>Select this option to override custom "
-"font sizes in favor of the base font size. All fonts will be displayed in the "
-"same size.</p>"
+"<b>Use same size for all elements</b>"
+"<p>Select this option to override custom font sizes in favor of the base font "
+"size. All fonts will be displayed in the same size.</p>"
 msgstr ""
-"<b>ໃຊ້ຂະຫນາດດງວກັນກັບທຸກສ່ວນ</b><p>ເລືອກໂຕເລືອກນີ້ເພືອໃຫ້ຕົວອັກສອນພື້ນຖານທຸກສ່ວນ"
-"ສະແດງໃນຂະຫນາດດງວກັນທັ້ງຫມົດ</p>"
+"<b>ໃຊ້ຂະຫນາດດງວກັນກັບທຸກສ່ວນ</b>"
+"<p>ເລືອກໂຕເລືອກນີ້ເພືອໃຫ້ຕົວອັກສອນພື້ນຖານທຸກສ່ວນສະແດງໃນຂະຫນາດດງວກັນທັ້ງຫມົດ</p>"
 
 #. i18n: file preview.ui line 21
 #: rc.cpp:179
@@ -441,9 +453,12 @@ msgstr "່່ສະແດງຕົວຢ່າງ"
 msgid ""
 "<qt>\n"
 "\n"
-"<h1>Heading 1</h1><br/>\n"
-"<h2>Heading 2</h2><br/>\n"
-"<h3>Heading 3</h3><br/>\n"
+"<h1>Heading 1</h1>"
+"<br/>\n"
+"<h2>Heading 2</h2>"
+"<br/>\n"
+"<h3>Heading 3</h3>"
+"<br/>\n"
 "\n"
 "<p>User defined stylesheets allow increased\n"
 "accessibility for visually handicapped\n"
@@ -453,9 +468,12 @@ msgid ""
 msgstr ""
 "<qt>\n"
 "\n"
-"<h1>Heading 1</h1><br/>\n"
-"<h2>Heading 2</h2><br/>\n"
-"<h3>Heading 3</h3><br/>\n"
+"<h1>Heading 1</h1>"
+"<br/>\n"
+"<h2>Heading 2</h2>"
+"<br/>\n"
+"<h3>Heading 3</h3>"
+"<br/>\n"
 "\n"
 "<p>ສະໄຕຊີດທີ່ກຳນົດຈະອະນຸຍາດໃຫ້ໃຊ້ເພີ່ມ\n"
 "ຄວາມສາມາດໃນການໃຊ້ງານຂອງ\n"
