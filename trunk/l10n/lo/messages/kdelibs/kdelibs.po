@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-23 01:29+0200\n"
+"POT-Creation-Date: 2005-06-24 01:28+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -837,7 +837,7 @@ msgid "&Save"
 msgstr "&ບັນທືກ"
 
 #: common_texts.cpp:111 khtml/khtml_part.cpp:3880 khtml/khtml_part.cpp:4063
-#: khtml/khtml_part.cpp:4377 khtml/khtml_run.cpp:76 kparts/browserrun.cpp:411
+#: khtml/khtml_part.cpp:4377 khtml/khtml_run.cpp:83 kparts/browserrun.cpp:411
 msgid "Save As"
 msgstr "ບັນທຶກເປັນ"
 
@@ -2944,7 +2944,8 @@ msgstr ""
 "%2"
 
 #: kdecore/kcmdlineargs.cpp:618
-msgid "%1 was written by somebody who wants to remain anonymous."
+#, fuzzy
+msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "%1 ຂງນຂຶ້ນໂດຍຜູ້ບໍ່ປະສົງຈະອອກນາມ"
 
 #: kdecore/kcmdlineargs.cpp:623
@@ -2955,7 +2956,15 @@ msgstr ""
 "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
-#: kdecore/kcmdlineargs.cpp:625
+#: kdecore/kcmdlineargs.cpp:626
+#, fuzzy
+msgid ""
+"Please use %1 to report bugs.\n"
+msgstr ""
+"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
+"ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
+
+#: kdecore/kcmdlineargs.cpp:628
 #, fuzzy
 msgid ""
 "Please use %1 to report bugs, do not mail the authors directly.\n"
@@ -2963,15 +2972,15 @@ msgstr ""
 "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
-#: kdecore/kcmdlineargs.cpp:645
+#: kdecore/kcmdlineargs.cpp:649
 msgid "Unexpected argument '%1'."
 msgstr "ອາກູເມນທ໌ '%1' ອາດຜິດພາດ"
 
-#: kdecore/kcmdlineargs.cpp:750
+#: kdecore/kcmdlineargs.cpp:754
 msgid "Use --help to get a list of available command line options."
 msgstr "ໃຊ້ຕົວເລືອກ--help ເພື່ອສະແດງລາຍການຕົວເລືອກຂອງຄອມມານໄລນ໌ທີ່ມີ"
 
-#: kdecore/kcmdlineargs.cpp:765
+#: kdecore/kcmdlineargs.cpp:769
 msgid ""
 "\n"
 "%1:\n"
@@ -2979,57 +2988,57 @@ msgstr ""
 "\n"
 "%1:\n"
 
-#: kdecore/kcmdlineargs.cpp:774
+#: kdecore/kcmdlineargs.cpp:778
 msgid "[options] "
 msgstr "[ຕົວເລືອກ] "
 
-#: kdecore/kcmdlineargs.cpp:781
+#: kdecore/kcmdlineargs.cpp:785
 msgid "[%1-options]"
 msgstr "[%1-ຕົວເລືອກ]"
 
-#: kdecore/kcmdlineargs.cpp:801
+#: kdecore/kcmdlineargs.cpp:805
 msgid ""
 "Usage: %1 %2\n"
 msgstr ""
 "ວິທີໃຊ້: %1 %2\n"
 
-#: kdecore/kcmdlineargs.cpp:804
+#: kdecore/kcmdlineargs.cpp:808
 msgid "Generic options"
 msgstr "ຕົວເລືອກທົ່ວໄປ"
 
-#: kdecore/kcmdlineargs.cpp:805
+#: kdecore/kcmdlineargs.cpp:809
 msgid "Show help about options"
 msgstr "ສະແດງຄວາມຊ່ວຍເຫລືອຂອງຕົວເລືອກ"
 
-#: kdecore/kcmdlineargs.cpp:813
+#: kdecore/kcmdlineargs.cpp:817
 msgid "Show %1 specific options"
 msgstr "ສະແດງຕົວເລືອກ %1 ທີ່ກຳຫນົດໄວ້"
 
-#: kdecore/kcmdlineargs.cpp:820
+#: kdecore/kcmdlineargs.cpp:824
 msgid "Show all options"
 msgstr "ສະແດງຕົວເລືອກທັງຫມົດ"
 
-#: kdecore/kcmdlineargs.cpp:821
+#: kdecore/kcmdlineargs.cpp:825
 msgid "Show author information"
 msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດຂອງຜູ້ຂຽນ"
 
-#: kdecore/kcmdlineargs.cpp:822
+#: kdecore/kcmdlineargs.cpp:826
 msgid "Show version information"
 msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດລຸ້ນ"
 
-#: kdecore/kcmdlineargs.cpp:823
+#: kdecore/kcmdlineargs.cpp:827
 msgid "Show license information"
 msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດລິຂະສິດ"
 
-#: kdecore/kcmdlineargs.cpp:824
+#: kdecore/kcmdlineargs.cpp:828
 msgid "End of options"
 msgstr "ຈົບຕົວເລືອກ"
 
-#: kdecore/kcmdlineargs.cpp:846
+#: kdecore/kcmdlineargs.cpp:850
 msgid "%1 options"
 msgstr "%1 ຕົວເລືອກ"
 
-#: kdecore/kcmdlineargs.cpp:848
+#: kdecore/kcmdlineargs.cpp:852
 msgid ""
 "\n"
 "Options:\n"
@@ -3037,7 +3046,7 @@ msgstr ""
 "\n"
 "ຕົວເລືອກ:\n"
 
-#: kdecore/kcmdlineargs.cpp:905
+#: kdecore/kcmdlineargs.cpp:909
 msgid ""
 "\n"
 "Arguments:\n"
@@ -3045,7 +3054,7 @@ msgstr ""
 "\n"
 "ອາກູເມນທ໌:\n"
 
-#: kdecore/kcmdlineargs.cpp:1266
+#: kdecore/kcmdlineargs.cpp:1270
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 
@@ -5160,33 +5169,40 @@ msgstr "&ຜູ້ຂຽນ"
 msgid "A&uthors"
 msgstr "&ຜູ້ຂຽນ"
 
-#: kdeui/kaboutapplication.cpp:110
+#: kdeui/kaboutapplication.cpp:111
 #, fuzzy
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
-"to report bugs, do not mail the authors directly."
+"to report bugs, do not mail the authors directly.\n"
 msgstr ""
 "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
-#: kdeui/kaboutapplication.cpp:112
+#: kdeui/kaboutapplication.cpp:115
+#, fuzzy
+msgid "Please use <a href=\"mailto:%1\">%2</a> to report bugs."
+msgstr ""
+"ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
+"ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
+
+#: kdeui/kaboutapplication.cpp:118
 #, fuzzy
 msgid ""
-"Please use <a href=\"mailto:%1\">%1</a> to report bugs, do not mail the authors "
+"Please use <a href=\"mailto:%1\">%2</a> to report bugs, do not mail the authors "
 "directly.\n"
 msgstr ""
 "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
-#: kdeui/kaboutapplication.cpp:128
+#: kdeui/kaboutapplication.cpp:137
 msgid "&Thanks To"
 msgstr "&ຂໍຂອບໃຈ"
 
-#: kdeui/kaboutapplication.cpp:155
+#: kdeui/kaboutapplication.cpp:164
 msgid "T&ranslation"
 msgstr "&ການແປພາສາ"
 
-#: kdeui/kaboutapplication.cpp:160
+#: kdeui/kaboutapplication.cpp:169
 msgid "&License Agreement"
 msgstr "&້ຂໍ້ຕົກລົງດ້ານລິຂະສິດ"
 
@@ -7517,7 +7533,7 @@ msgstr ""
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
-#: khtml/html/htmlparser.cpp:1582
+#: khtml/html/htmlparser.cpp:1585
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "ນີ້ເປັນດັດສະນີທີ່ໃຊ້ຄົ້ນຫາໄດ້ຕື່່ມຂໍ້ຄວາມຫລືຄຳທີ່ຕິອງການຄົ້ນຫາ:"
 
