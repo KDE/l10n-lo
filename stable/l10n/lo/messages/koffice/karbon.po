@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-11 06:03+0200\n"
+"POT-Creation-Date: 2005-06-24 07:10+0200\n"
 "PO-Revision-Date: 2003-01-17 18:12+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -654,9 +654,9 @@ msgstr "CMYK"
 msgid "Opacity:"
 msgstr "ຄວາມທຶບແສງ"
 
-#: dockers/vdocumentdocker.cc:230 tools/vellipsetool.cc:52
-#: tools/vrectangletool.cc:41 tools/vroundrecttool.cc:42
-#: tools/vsinustool.cc:43 widgets/vselecttoolbar.cc:56
+#: dockers/vdocumentdocker.cc:230 tools/vellipsetool.cc:53
+#: tools/vrectangletool.cc:42 tools/vroundrecttool.cc:42
+#: tools/vsinustool.cc:44 widgets/vselecttoolbar.cc:56
 #, fuzzy
 msgid "Height:"
 msgstr "ສູງ (%1):"
@@ -842,7 +842,7 @@ msgstr "&ลายก้นหอย"
 msgid "Star"
 msgstr "&ดวงดาว"
 
-#: tools/vellipsetool.cc:38 tools/vellipsetool.cc:133
+#: tools/vellipsetool.cc:38 tools/vellipsetool.cc:135
 msgid "Insert Ellipse"
 msgstr "ແຊກຮູວົງຮີ"
 
@@ -869,12 +869,12 @@ msgstr ""
 msgid "Arc"
 msgstr ""
 
-#: tools/vellipsetool.cc:55
+#: tools/vellipsetool.cc:57
 #, fuzzy
 msgid "Start angle:"
 msgstr "สีเริ่มต้น:"
 
-#: tools/vellipsetool.cc:60
+#: tools/vellipsetool.cc:62
 #, fuzzy
 msgid "End angle:"
 msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
@@ -989,7 +989,7 @@ msgstr "ແບນ"
 msgid "Pencil"
 msgstr ""
 
-#: tools/vpolygontool.cc:34 tools/vpolygontool.cc:83
+#: tools/vpolygontool.cc:34 tools/vpolygontool.cc:84
 msgid "Insert Polygon"
 msgstr "ແຊກຮູບຫລາຍລ່ຽມ"
 
@@ -998,7 +998,7 @@ msgstr "ແຊກຮູບຫລາຍລ່ຽມ"
 msgid "Radius:"
 msgstr "ລັດສະຫມີ"
 
-#: tools/vpolygontool.cc:41 tools/vstartool.cc:59
+#: tools/vpolygontool.cc:42 tools/vstartool.cc:61
 msgid "Edges:"
 msgstr "ຂອບ:"
 
@@ -1040,7 +1040,7 @@ msgstr "- Press <i>Esc</i> to cancel the whole polyline.<br>"
 msgid "Polyline Tool"
 msgstr "ຈຳນວນລ່ຽມ"
 
-#: tools/vrectangletool.cc:34 tools/vrectangletool.cc:85
+#: tools/vrectangletool.cc:34 tools/vrectangletool.cc:86
 msgid "Insert Rectangle"
 msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
 
@@ -1166,15 +1166,15 @@ msgstr "<i>Click</i> to place a shape using the tool properties values.</qt>"
 msgid "Shear"
 msgstr "ເອນ"
 
-#: tools/vsinustool.cc:36 tools/vsinustool.cc:103
+#: tools/vsinustool.cc:36 tools/vsinustool.cc:105
 msgid "Insert Sinus"
 msgstr "ແຊກຄື້ນໄຊ"
 
-#: tools/vsinustool.cc:48
+#: tools/vsinustool.cc:50
 msgid "Periods:"
 msgstr "ຊ່ວງ:"
 
-#: tools/vspiraltool.cc:35 tools/vspiraltool.cc:127
+#: tools/vspiraltool.cc:35 tools/vspiraltool.cc:128
 msgid "Insert Spiral"
 msgstr "ແຊກກາບກົ້ນຫອຍ"
 
@@ -1187,27 +1187,27 @@ msgstr ""
 msgid "Rectangular"
 msgstr "รูป&สี่เหลี่ยม"
 
-#: tools/vspiraltool.cc:47
+#: tools/vspiraltool.cc:48
 msgid "Segments:"
 msgstr "ເຊັກເມັນ:"
 
-#: tools/vspiraltool.cc:50
+#: tools/vspiraltool.cc:51
 msgid "Fade:"
 msgstr "ຈາງລົງ:"
 
-#: tools/vspiraltool.cc:54
+#: tools/vspiraltool.cc:55
 msgid "Orientation:"
 msgstr "ການຈັດວາງ:"
 
-#: tools/vspiraltool.cc:56
+#: tools/vspiraltool.cc:57
 msgid "Clockwise"
 msgstr "ຕາມເຂັມໂມງ"
 
-#: tools/vspiraltool.cc:57
+#: tools/vspiraltool.cc:58
 msgid "Counter Clockwise"
 msgstr "ທວນເຂັມໂມງ"
 
-#: tools/vstartool.cc:35 tools/vstartool.cc:163
+#: tools/vstartool.cc:35 tools/vstartool.cc:165
 msgid "Insert Star"
 msgstr "ແຊກດາວ"
 
@@ -1238,17 +1238,17 @@ msgstr "ເອນ"
 msgid "Outer radius:"
 msgstr "ລັດສະຫມີພພາຍນອກ (%1):"
 
-#: tools/vstartool.cc:54
+#: tools/vstartool.cc:55
 #, fuzzy
 msgid "Inner radius:"
 msgstr "ລັດສະຫມີພາຍໃນ (%1):"
 
-#: tools/vstartool.cc:64
+#: tools/vstartool.cc:66
 #, fuzzy
 msgid "Inner angle:"
 msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
 
-#: tools/vstartool.cc:69
+#: tools/vstartool.cc:71
 #, fuzzy
 msgid "Roundness:"
 msgstr "ความโค้งของมุม:"
@@ -1483,7 +1483,7 @@ msgstr "&ເຮັດຊຳ້"
 msgid "Solid"
 msgstr "Bold"
 
-#: tools/vellipsetool.h:69
+#: tools/vellipsetool.h:71
 #, fuzzy
 msgid "Ellipse Tool"
 msgstr "&วงรี"
@@ -1543,7 +1543,7 @@ msgstr "&คลื่นไซน์"
 msgid "Spiral Tool"
 msgstr "&ลายก้นหอย"
 
-#: tools/vstartool.h:73
+#: tools/vstartool.h:75
 #, fuzzy
 msgid "Star Tool"
 msgstr "เอน"
