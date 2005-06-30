@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-06-28 23:47+0000\n"
+"POT-Creation-Date: 2005-06-29 23:46+0000\n"
 "PO-Revision-Date: 2003-01-11 14:20+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -5485,11 +5485,6 @@ msgstr "Keywords=CGI,KIO,Slave,Paths"
 msgid "Description=A kioslave for the FISH protocol"
 msgstr ""
 
-#: kioslave/home/kdedmodule/homedirnotify.desktop:4
-#, fuzzy
-msgid "Name=KDED Home Base URL Notifier"
-msgstr "Name=ເຄື່ອງມືປ້ອງກັນລະບົບ KDE"
-
 #: kioslave/mac/mac.protocol:9
 msgid "Description=A kioslave for MacOS HFS+ partitions"
 msgstr ""
@@ -5674,8 +5669,9 @@ msgid "Comment=Windows Workgroup"
 msgstr "Comment=ไอคอนวินโดว์ส"
 
 #: kioslave/system/entries/home.desktop:6
+#: konqueror/sidebar/trees/init/home.desktop:6
 #, fuzzy
-msgid "Name=Home Folders"
+msgid "Name=Home Folder"
 msgstr "Name=ພື້ນທີ່ສ່ວນຕົວ"
 
 #: kioslave/system/entries/remote.desktop:6
@@ -5725,11 +5721,12 @@ msgid "Comment=Thumbnail Handler"
 msgstr "Comment=Thumbnail Handler"
 
 #: kioslave/trash/kfile-plugin/kfile_trash.desktop:4
+#: kioslave/trash/kfile-plugin/kfile_trash_system.desktop:4
 #, fuzzy
 msgid "Name=Trash File Info"
 msgstr "Name=ข้อมูลแฟ้มข้อความ"
 
-#: kioslave/trash/trash.protocol:26
+#: kioslave/trash/trash.protocol:25
 msgid "ExtraNames=Original Path,Deletion Date"
 msgstr ""
 
@@ -6014,11 +6011,6 @@ msgid ""
 msgstr ""
 "Comment=ນີ້ເປັນປະວັດເກັບ URL "
 "ທີ່ທ່ານເຄີຍມມກ່ອນໂດຍທ່ານສາມາດລງງລຳດັບມັນໄດ້ໃນຫລາຍຮູບແບບ"
-
-#: konqueror/sidebar/trees/init/home.desktop:6
-#, fuzzy
-msgid "Name=Home Folder"
-msgstr "Name=ພື້ນທີ່ສ່ວນຕົວ"
 
 #: konqueror/sidebar/trees/init/home.desktop:68
 msgid "Comment=This folder contains your personal files"
@@ -8085,6 +8077,14 @@ msgstr "Name=ควบคุมสื่อ"
 #, fuzzy
 msgid "Name=Triple Gears"
 msgstr "Name=ຕົວສະແດງ"
+
+#, fuzzy
+#~ msgid "Name=KDED Home Base URL Notifier"
+#~ msgstr "Name=ເຄື່ອງມືປ້ອງກັນລະບົບ KDE"
+
+#, fuzzy
+#~ msgid "Name=Home Folders"
+#~ msgstr "Name=ພື້ນທີ່ສ່ວນຕົວ"
 
 #, fuzzy
 #~ msgid "Name=Konsole Profiles"
