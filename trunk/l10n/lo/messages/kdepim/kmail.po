@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-06-30 01:37+0200\n"
+"POT-Creation-Date: 2005-07-02 01:37+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -8485,17 +8485,17 @@ msgstr "ເກັບຈົດໝາ&ຍທີ່ເຂົ້າລະຫັດ�
 msgid "Unrecognized transport protocol. Unable to send message."
 msgstr "ບໍ່ສາມາດຈັດການໂປໂຕຄອນສົ່ງຖາຍ່ຂໍ້ມູນໄດ້ເຮັດໃຫ້ບໍີ່ສາມາດສົ່ງຈົດມໝາຍໄດ້"
 
-#: kmsender.cpp:527
+#: kmsender.cpp:550
 msgid ""
 "_: %3: subject of message\n"
 "Sending message %1 of %2: %3"
 msgstr "ກຳລັງສົ່ງຈົດຫມາຍ %1 ຈາກ %2  %3"
 
-#: kmsender.cpp:536
+#: kmsender.cpp:562
 msgid "Failed to send (some) queued messages."
 msgstr "ຜິດພາດໃນການສົ່ງຈົດຫມາຍໄປຍັງບາງຄິວ"
 
-#: kmsender.cpp:612
+#: kmsender.cpp:638
 #, fuzzy
 msgid ""
 "Sending aborted:\n"
@@ -8515,12 +8515,12 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:620 kmsender.cpp:658
+#: kmsender.cpp:646 kmsender.cpp:684
 #, fuzzy
 msgid "Sending aborted."
 msgstr "ສົ່ງພາຍຫລັງ"
 
-#: kmsender.cpp:631
+#: kmsender.cpp:657
 #, fuzzy
 msgid ""
 "<p>Sending failed:</p>"
@@ -8541,22 +8541,22 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:641
+#: kmsender.cpp:667
 #, fuzzy
 msgid "Continue Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:641
+#: kmsender.cpp:667
 #, fuzzy
 msgid "&Continue Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:642
+#: kmsender.cpp:668
 #, fuzzy
 msgid "&Abort Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:644
+#: kmsender.cpp:670
 #, fuzzy
 msgid ""
 "Sending failed:\n"
@@ -8576,11 +8576,11 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:862
+#: kmsender.cpp:869
 msgid "Please specify a mailer program in the settings."
 msgstr "ກະລຸນາລະບຸໂປຣແກຣມສົ່ງຈົດໝາຍໃນສ່ວນການຕັ້ງຄ່າກອ່ນ"
 
-#: kmsender.cpp:864
+#: kmsender.cpp:870
 msgid ""
 "Sending failed:\n"
 "%1\n"
@@ -8599,16 +8599,16 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:935
+#: kmsender.cpp:918
 #, fuzzy, c-format
 msgid "Failed to execute mailer program %1"
 msgstr "ຜິດພາດໃນການປະມວນຜົນໂປຣແກຣມສົ່ງຈົດໝາຍ"
 
-#: kmsender.cpp:988
+#: kmsender.cpp:968
 msgid "Sendmail exited abnormally."
 msgstr "ສົ່ງຈົດໝາຍ ຈົບການທຳງານແບບບໍ່ປົກກະຕິ"
 
-#: kmsender.cpp:1089
+#: kmsender.cpp:1030
 #, fuzzy
 msgid "You need to supply a username and a password to use this SMTP server."
 msgstr ""
@@ -9356,8 +9356,8 @@ msgstr "ຕົວຊ່ວຍລັບຜິດ"
 msgid "The crypto engine returned no cleartext data."
 msgstr "ເຄື່ອງຕົວຊ່ວຍລັບບໍ່ຂໍ້ມູນ"
 
-#: objecttreeparser.cpp:550 objecttreeparser.cpp:2093
-#: objecttreeparser.cpp:2135
+#: objecttreeparser.cpp:550 objecttreeparser.cpp:2095
+#: objecttreeparser.cpp:2137
 msgid "Status: "
 msgstr "ສະຖານະ: "
 
@@ -9365,7 +9365,7 @@ msgstr "ສະຖານະ: "
 msgid "(unknown)"
 msgstr "(ບໍ່ຮັູ້ຈັກ)"
 
-#: objecttreeparser.cpp:568 objecttreeparser.cpp:719
+#: objecttreeparser.cpp:568 objecttreeparser.cpp:721
 #, fuzzy
 msgid "Crypto plug-in \"%1\" is not initialized."
 msgstr "ຕົວເສີມເຂົ້າລະຫັດ %1 ບໍ່ສາມາດໃຊ້ຖອດລະຫັດຈົດໝາຍບາງສະບັບໄດ້"
@@ -9375,7 +9375,7 @@ msgstr "ຕົວເສີມເຂົ້າລະຫັດ %1 ບໍ່ສາ�
 msgid "Crypto plug-in \"%1\" cannot verify signatures."
 msgstr "ຕົວເສີມເຂົ້າລະຫັດ %1 ບໍ່ສາມາດໃຊ້ຖອດລະຫັດຈົດໝາຍບາງສະບັບໄດ້"
 
-#: objecttreeparser.cpp:577 objecttreeparser.cpp:727
+#: objecttreeparser.cpp:577 objecttreeparser.cpp:729
 #, fuzzy
 msgid "No appropriate crypto plug-in was found."
 msgstr "ບໍ່ພົບການຕັ້ງຄ່າປັກອິນເຂົ້າລະຫັດ"
@@ -9393,26 +9393,26 @@ msgid ""
 "/>Reason: %1"
 msgstr "ບໍ່ສາມາດກວດສອບລາຍເຊັນໄດ"
 
-#: objecttreeparser.cpp:700 objecttreeparser.cpp:715 objecttreeparser.cpp:745
+#: objecttreeparser.cpp:702 objecttreeparser.cpp:717 objecttreeparser.cpp:747
 msgid "Encrypted data not shown."
 msgstr ""
 
-#: objecttreeparser.cpp:703
+#: objecttreeparser.cpp:705
 #, fuzzy
 msgid "Crypto plug-in \"%1\" could not decrypt the data."
 msgstr "ຕົວເສີມເຂົ້າລະຫັດ%1 ບໍ່ສາມາດຖອດລະຫັດຂໍ້ມູນໄດ້"
 
-#: objecttreeparser.cpp:706
+#: objecttreeparser.cpp:708
 #, c-format
 msgid "Error: %1"
 msgstr "ຜິດພາດ: %1 "
 
-#: objecttreeparser.cpp:723
+#: objecttreeparser.cpp:725
 #, fuzzy
 msgid "Crypto plug-in \"%1\" cannot decrypt messages."
 msgstr "ຕົວເສີມເຂົ້າລະຫັດ %1 ບໍ່ສາມາດໃຊ້ຖອດລະຫັດຈົດໝາຍບາງສະບັບໄດ້"
 
-#: objecttreeparser.cpp:825
+#: objecttreeparser.cpp:827
 #, fuzzy
 msgid ""
 "<b>Note:</b> This HTML message may contain external references to images etc. "
@@ -9426,7 +9426,7 @@ msgstr ""
 ".1112 Kmail ແມ່ນ KPart ແລະສາມາດຝັ່ງໃນ Kontact ບັນຈຸໃນແອບພິເຄຊັ້ນຫລືກັນ KDE PIM "
 "ອື່ນ ຯຂອງ ແອບພິເຄຊັ້ນ."
 
-#: objecttreeparser.cpp:835
+#: objecttreeparser.cpp:837
 #, fuzzy
 msgid ""
 "<b>Note:</b> This is an HTML message. For security reasons, only the raw HTML "
@@ -9440,189 +9440,189 @@ msgstr ""
 ".1112 Kmail ແມ່ນ KPart ແລະສາມາດຝັ່ງໃນ Kontact ບັນຈຸໃນແອບພິເຄຊັ້ນຫລືກັນ KDE PIM "
 "ອື່ນ ຯຂອງ ແອບພິເຄຊັ້ນ."
 
-#: objecttreeparser.cpp:1436
+#: objecttreeparser.cpp:1438
 #, c-format
 msgid "Sorry, certificate could not be imported.<br>Reason: %1"
 msgstr ""
 
-#: objecttreeparser.cpp:1446
+#: objecttreeparser.cpp:1448
 #, fuzzy
 msgid "Sorry, no certificates were found in this message."
 msgstr "ໃບຮັບຮອງທີ່ໄຊ້ສຳລັບການເຊັນຈົດຫມາຍ:"
 
-#: objecttreeparser.cpp:1449
+#: objecttreeparser.cpp:1451
 #, fuzzy
 msgid "Certificate import status:"
 msgstr "ຕົວຊ່ວຍສາ້ງໃບຮັບຮອງ"
 
-#: objecttreeparser.cpp:1452
+#: objecttreeparser.cpp:1454
 #, c-format
 msgid ""
 "_n: 1 new certificate was imported.\n"
 "%n new certificates were imported."
 msgstr ""
 
-#: objecttreeparser.cpp:1455
+#: objecttreeparser.cpp:1457
 #, c-format
 msgid ""
 "_n: 1 certificate was unchanged.\n"
 "%n certificates were unchanged."
 msgstr ""
 
-#: objecttreeparser.cpp:1458
+#: objecttreeparser.cpp:1460
 #, c-format
 msgid ""
 "_n: 1 new secret key was imported.\n"
 "%n new secret keys were imported."
 msgstr ""
 
-#: objecttreeparser.cpp:1461
+#: objecttreeparser.cpp:1463
 #, c-format
 msgid ""
 "_n: 1 secret key was unchanged.\n"
 "%n secret keys were unchanged."
 msgstr ""
 
-#: objecttreeparser.cpp:1470
+#: objecttreeparser.cpp:1472
 msgid "Sorry, no details on certificate import available."
 msgstr ""
 
-#: objecttreeparser.cpp:1473
+#: objecttreeparser.cpp:1475
 #, fuzzy
 msgid "Certificate import details:"
 msgstr "ຕົວຊ່ວຍສາ້ງໃບຮັບຮອງ"
 
-#: objecttreeparser.cpp:1476
+#: objecttreeparser.cpp:1478
 msgid "Failed: %1 (%2)"
 msgstr ""
 
-#: objecttreeparser.cpp:1480
+#: objecttreeparser.cpp:1482
 msgid "New or changed: %1 (secret key available)"
 msgstr ""
 
-#: objecttreeparser.cpp:1482
+#: objecttreeparser.cpp:1484
 #, c-format
 msgid "New or changed: %1"
 msgstr ""
 
-#: objecttreeparser.cpp:1684
+#: objecttreeparser.cpp:1686
 msgid "Error: Signature not verified"
 msgstr "<em>ບໍ່ສາມາດ</em>ກວດສອບລາຍເຊັນໄດ້ !"
 
-#: objecttreeparser.cpp:1687
+#: objecttreeparser.cpp:1689
 msgid "Good signature"
 msgstr "ລາຍເຊັນ"
 
-#: objecttreeparser.cpp:1690
+#: objecttreeparser.cpp:1692
 #, fuzzy
 msgid "<b>Bad</b> signature"
 msgstr "ເປີດໃຊ້ງານລາຍເຊັ່ນ"
 
-#: objecttreeparser.cpp:1693
+#: objecttreeparser.cpp:1695
 msgid "No public key to verify the signature"
 msgstr "ບໍ່ມີປຸ່ມສາທາລະນະເພື່ອກວດລາຍເຊັນ"
 
-#: objecttreeparser.cpp:1696
+#: objecttreeparser.cpp:1698
 msgid "No signature found"
 msgstr "ບໍ່ພົບສ່ວນທ້າຍ"
 
-#: objecttreeparser.cpp:1699
+#: objecttreeparser.cpp:1701
 msgid "Error verifying the signature"
 msgstr "ເກັບຈົດໝາຍທີ່ມີລາຍເຊັນໄວ້"
 
-#: objecttreeparser.cpp:1702
+#: objecttreeparser.cpp:1704
 msgid "Different results for signatures"
 msgstr "ສະຫລຸບຄວາມແຕກຕ່າງຂອງລາຍເຊັນ"
 
-#: objecttreeparser.cpp:1722
+#: objecttreeparser.cpp:1724
 msgid "No status information available."
 msgstr "ບໍ່ມີພາສາຖືກຕິດຕັ້ງ"
 
-#: objecttreeparser.cpp:1729 objecttreeparser.cpp:1822
+#: objecttreeparser.cpp:1731 objecttreeparser.cpp:1824
 msgid "Good signature."
 msgstr "ລາຍເຊັ່ນດີ"
 
-#: objecttreeparser.cpp:1750
+#: objecttreeparser.cpp:1752
 msgid "One key has expired."
 msgstr "ຫນື່ງປຸ່ມມີຄຳເຕືອນ"
 
-#: objecttreeparser.cpp:1754
+#: objecttreeparser.cpp:1756
 msgid "The signature has expired."
 msgstr "ຄຳເຕື່ີອມ:ລາຍເຊັນບໍ່ດີຈາກ"
 
-#: objecttreeparser.cpp:1759
+#: objecttreeparser.cpp:1761
 msgid "Unable to verify: key missing."
 msgstr "ບໍ່ທຳງານກວດບໍ່ພົບປຸ່ມ"
 
-#: objecttreeparser.cpp:1766
+#: objecttreeparser.cpp:1768
 msgid "CRL not available."
 msgstr " ບໍ່ມີພາສາຖືກຕິດຕັ້ງ"
 
-#: objecttreeparser.cpp:1770
+#: objecttreeparser.cpp:1772
 msgid "Available CRL is too old."
 msgstr "ບໍ່ມີຄ່າ CRL ແມ່ນເຄື່ອງມືກກ່ົາຫລາຍ"
 
-#: objecttreeparser.cpp:1774
+#: objecttreeparser.cpp:1776
 msgid "A policy was not met."
 msgstr "ໂພລີຊີແມ່ນບໍ່ພົບ"
 
-#: objecttreeparser.cpp:1778
+#: objecttreeparser.cpp:1780
 msgid "A system error occurred."
 msgstr "ລະບົບມີບັນຫາເກີດຂື້ນ"
 
-#: objecttreeparser.cpp:1786
+#: objecttreeparser.cpp:1788
 msgid "Internal system error #%1 occurred."
 msgstr "ລະບົບມີບັນຫາເກີດຂື້ນ #%1"
 
-#: objecttreeparser.cpp:1798
+#: objecttreeparser.cpp:1800
 msgid "One key has been revoked."
 msgstr "ປຸ່ມດ່ຽວສາມາດຮຽກຄືນ"
 
-#: objecttreeparser.cpp:1824
+#: objecttreeparser.cpp:1826
 #, fuzzy
 msgid "<b>Bad</b> signature."
 msgstr "ເປີດໃຊ້ງານລາຍເຊັ່ນ"
 
-#: objecttreeparser.cpp:1864 objecttreeparser.cpp:1866
+#: objecttreeparser.cpp:1866 objecttreeparser.cpp:1868
 msgid "Encapsulated message"
 msgstr "ຈດົຫມາຍເຂົ້າລະຫັດໄວ້"
 
-#: objecttreeparser.cpp:1875
+#: objecttreeparser.cpp:1877
 msgid "Encrypted message"
 msgstr "ຈົດຫມາຍເຂົ້າລະຫັດ"
 
-#: objecttreeparser.cpp:1877
+#: objecttreeparser.cpp:1879
 msgid "Encrypted message (decryption not possible)"
 msgstr ""
 
-#: objecttreeparser.cpp:1879
+#: objecttreeparser.cpp:1881
 #, fuzzy, c-format
 msgid "Reason: %1"
 msgstr "ເຫດຜົນ:"
 
-#: objecttreeparser.cpp:1933
+#: objecttreeparser.cpp:1935
 msgid "[Details]"
 msgstr "ລາຍລະອຽດ"
 
-#: objecttreeparser.cpp:1983 objecttreeparser.cpp:2008
+#: objecttreeparser.cpp:1985 objecttreeparser.cpp:2010
 msgid "Warning:"
 msgstr ""
 "ບໍ່ມີການເຂົ້າລະຫັດທີ່ເໝາະສົມສຳລັບຈົດໝາຍຂອງທ່ານ \n"
 "ກະລຸນາຕັ້ງການເຂົ້າລະຫັດເອງໂດຍເລືອກຈາກເມນູ 'ຕົວເລືອກ"
 
-#: objecttreeparser.cpp:1985
+#: objecttreeparser.cpp:1987
 msgid "Sender's mail address is not stored in the %1 used for signing."
 msgstr "ສົ່ງເມລທີ່ຢູ່ແມ່ນບໍ່ຟດ້ບັນທືກໄວ້ %1ແລະໃຊ້ສັນຍາລັກ."
 
-#: objecttreeparser.cpp:1988
+#: objecttreeparser.cpp:1990
 msgid "sender: "
 msgstr "ຜູ້ສົ່ງ:"
 
-#: objecttreeparser.cpp:1991
+#: objecttreeparser.cpp:1993
 msgid "stored: "
 msgstr "ບັນທືກໄວ້:"
 
-#: objecttreeparser.cpp:2010
+#: objecttreeparser.cpp:2012
 #, fuzzy
 msgid ""
 "No mail address is stored in the %1 used for signing, so we cannot compare it "
@@ -9631,93 +9631,93 @@ msgstr ""
 "ບໍ່ມີທີ່ຢູ່ເມລ໌ບັນທືກໄວ້ %1 ເພື່ອໃຊ້ສັນຍາລັກ "
 "ດັ່ງນັ້ນພວກເຣົາບໍ່ສາມາດປ່ຽ່ນມັນເພື່ອສົ່ງທີ່ຢູ່ &lt;%2&gt;"
 
-#: objecttreeparser.cpp:2031
+#: objecttreeparser.cpp:2033
 #, c-format
 msgid "Not enough information to check signature. %1"
 msgstr "ບໍ່ມີລາຍເຊັ່ນເພື່ອກວວດ %1"
 
-#: objecttreeparser.cpp:2048 objecttreeparser.cpp:2129
+#: objecttreeparser.cpp:2050 objecttreeparser.cpp:2131
 #, fuzzy
 msgid "Message was signed with unknown key."
 msgstr "ຈົດຫມາຍຖືກເຊັນກຳກັບໂດຍກຸ່ນແຈທີ່ບໍ່ມີຮູ້ຈັກ 0x%1"
 
-#: objecttreeparser.cpp:2050 objecttreeparser.cpp:2162
-#: objecttreeparser.cpp:2201
+#: objecttreeparser.cpp:2052 objecttreeparser.cpp:2164
+#: objecttreeparser.cpp:2203
 #, c-format
 msgid "Message was signed by %1."
 msgstr "ຈົດຫມາຍຖືກເຊັນກຳກັບໂດຍ %1"
 
-#: objecttreeparser.cpp:2061 objecttreeparser.cpp:2070
-#: objecttreeparser.cpp:2081
+#: objecttreeparser.cpp:2063 objecttreeparser.cpp:2072
+#: objecttreeparser.cpp:2083
 #, c-format
 msgid "Message was signed with key %1."
 msgstr "ຈົດຫມາຍຖືກເຊັນກຳກັບໂດຍກຸ່ນແຈທີ່ບໍ່ມີຮູ້ຈັກ 0x%1"
 
-#: objecttreeparser.cpp:2064
+#: objecttreeparser.cpp:2066
 #, fuzzy
 msgid "Message was signed on %1 with key %2."
 msgstr "ຈົດຫມາຍແມ່ນເຂົ້າກັບປຸ່ມ %1ແລະ %2"
 
-#: objecttreeparser.cpp:2073
+#: objecttreeparser.cpp:2075
 #, fuzzy
 msgid "Message was signed by %3 on %1 with key %2"
 msgstr "ຈົດຫມາຍແມ່ນເຂົ້າກັບປຸ່ມ %1ແລະ %2"
 
-#: objecttreeparser.cpp:2084
+#: objecttreeparser.cpp:2086
 msgid "Message was signed by %2 with key %1."
 msgstr "ຈົດຫມາຍແມ່ນເຂົ້າກັບປຸ່ມ %1ແລະ %2"
 
-#: objecttreeparser.cpp:2121
+#: objecttreeparser.cpp:2123
 #, fuzzy
 msgid "Message was signed on %1 with unknown key %2."
 msgstr "ຈົດຫມາຍແມ່ນເຂົ້າກັບປຸ່ມ %1"
 
-#: objecttreeparser.cpp:2125
+#: objecttreeparser.cpp:2127
 #, c-format
 msgid "Message was signed with unknown key %1."
 msgstr "ຈົດຫມາຍແມ່ນເຂົ້າກັບປຸ່ມ %1"
 
-#: objecttreeparser.cpp:2131
+#: objecttreeparser.cpp:2133
 msgid "The validity of the signature cannot be verified."
 msgstr "ບໍ່ສາມາດກວດສອບລາຍເຊັນໄດ"
 
-#: objecttreeparser.cpp:2158 objecttreeparser.cpp:2197
+#: objecttreeparser.cpp:2160 objecttreeparser.cpp:2199
 msgid "Message was signed by %2 (Key ID: %1)."
 msgstr "້ຈົດຫມາຍແມ່ນເຂົ້າກັບປຸ່ມ %1ແລະ %2"
 
-#: objecttreeparser.cpp:2168
+#: objecttreeparser.cpp:2170
 msgid "The signature is valid, but the key's validity is unknown."
 msgstr "ລາຍເຊັນໃຊ້ໄດ້ແຕ່ບໍ່ຮູ້ຈັກກຸູນແຈທີ່ໃຊ້ກວດສອບ"
 
-#: objecttreeparser.cpp:2172
+#: objecttreeparser.cpp:2174
 msgid "The signature is valid and the key is marginally trusted."
 msgstr "ລາຍເຊັນໃຊ້ໄດ້ແລະກຸນແຈທີ່ໃ້ຊ້ກວດສອບສາມາດເຊືອຖືໄດ້ຫລາຍ"
 
-#: objecttreeparser.cpp:2176
+#: objecttreeparser.cpp:2178
 msgid "The signature is valid and the key is fully trusted."
 msgstr "ລາຍເຊັນໃຊ້ໄດ້ແລະກຸນແຈທີ່ໃ້ຊ້ກວດສອບສາມາດເຊືອຖືໄດ້ຫລາຍທີ່ສຸດ"
 
-#: objecttreeparser.cpp:2180
+#: objecttreeparser.cpp:2182
 msgid "The signature is valid and the key is ultimately trusted."
 msgstr "ລາຍເຊັນໃຊ້ໄດ້ແລະກຸນແຈທີ່ໃ້ຊ້ກວດສອບບໍ່ສາມາດເຊືອຖືໄດ້"
 
-#: objecttreeparser.cpp:2184
+#: objecttreeparser.cpp:2186
 msgid "The signature is valid, but the key is untrusted."
 msgstr "ລາຍເຊັນໃຊ້ໄດ້ແລະກຸນແຈທີ່ໃ້ຊ້ກວດສອບບໍ່ສາມາດເຊືອຖືໄດ້"
 
-#: objecttreeparser.cpp:2203
+#: objecttreeparser.cpp:2205
 msgid "Warning: The signature is bad."
 msgstr "ຄຳເຕືອນ:ລາຍເຊັນບໍ່ດີ"
 
-#: objecttreeparser.cpp:2223
+#: objecttreeparser.cpp:2225
 msgid "End of signed message"
 msgstr "ຈດຫມາຍທີ່ມີລາຍເຊັນ"
 
-#: objecttreeparser.cpp:2229
+#: objecttreeparser.cpp:2231
 msgid "End of encrypted message"
 msgstr "ດຫມາຍທີ່ຖືກເຂົ້າລະຫັດໄວ້"
 
-#: objecttreeparser.cpp:2236
+#: objecttreeparser.cpp:2238
 msgid "End of encapsulated message"
 msgstr "ຈົບຈົດຫມາຍທີ່ຖືກເຂົ້າລະຫັດໄວ້"
 
