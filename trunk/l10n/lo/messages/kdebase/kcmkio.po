@@ -1446,7 +1446,7 @@ msgstr ""
 #: rc.cpp:493
 #, no-c-format
 msgid "&Enable SOCKS support"
-msgstr ""
+msgstr "ເປີດໃຊ້ສ່ວນສະຫນັບສະຫນູນ SOCKS"
 
 #. i18n: file socksbase.ui line 37
 #: rc.cpp:496
@@ -1455,18 +1455,20 @@ msgid ""
 "Check this to enable SOCKS4 and SOCKS5 support in KDE applications and I/O "
 "subsystems."
 msgstr ""
+"ເລືອກຕົວເລືອກນີ້ເພື່ອເປີດໃຊ້ສ່ວນສະຫນັບສະຫນູນSOCKS4 ແລະ SOCKS5 ໃນອັບພິເຄເຊີນ KDE "
+"ແລະ I/O ຂອງລະບົບຍ່ອຍ"
 
 #. i18n: file socksbase.ui line 48
 #: rc.cpp:499
 #, no-c-format
 msgid "SOCKS Implementation"
-msgstr ""
+msgstr "ການກຳນົດ SOCKS"
 
 #. i18n: file socksbase.ui line 59
 #: rc.cpp:502
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A&uto detect"
-msgstr "ตรวจสอบอัตโนมัติ"
+msgstr "ກວດກາອັດຕະໂນມັດ"
 
 #. i18n: file socksbase.ui line 65
 #: rc.cpp:505
@@ -1475,24 +1477,26 @@ msgid ""
 "If you select Autodetect, then KDE will automatically search for an "
 "implementation of SOCKS on your computer."
 msgstr ""
+"ຫາກເຈົ້າເລືອກໃຫ້ກວດກາອັດຕະ ໂນມັດແລ້ວ KDE ຈະເຮັດການຄົ້ນຫາ SOCKS "
+"ເທິງຄອມພິວເຕີຂອງເຈົ້າໂດຍອັດຕະໂນມັດ"
 
 #. i18n: file socksbase.ui line 73
 #: rc.cpp:508
 #, no-c-format
 msgid "&NEC SOCKS"
-msgstr ""
+msgstr "ໃຊ้ &NEC SOCKS"
 
 #. i18n: file socksbase.ui line 79
 #: rc.cpp:511
 #, no-c-format
 msgid "This will force KDE to use NEC SOCKS if it can be found."
-msgstr ""
+msgstr "ບັງຄັບໃຫ้ KDE ໃຊ้ NEC SOCKS ຖ້າມັນສາມາດຄົ້ນພົບ"
 
 #. i18n: file socksbase.ui line 87
 #: rc.cpp:514
 #, no-c-format
 msgid "Use &custom library"
-msgstr ""
+msgstr "ໃຊ້ໄຊ້ໄລບຼາລີທີ່ກຳນົດເອງ "
 
 #. i18n: file socksbase.ui line 93
 #: rc.cpp:517
@@ -1502,10 +1506,13 @@ msgid ""
 "this may not always work as it depends on the API of the library which you "
 "specify (below)."
 msgstr ""
+"ເລືອກກຳນົດເອງຖ້າເຮົາຕ້ອງການໄຊ້ໄລບຼາ ี SOCKS ที่ไม่ปรากฎในรายการ โปรดจำไว้ว่า "
+"มันอาจจะไม่ทำงานทุกครั้งเสมอไป ขึ้นอยู่กับ API ของไลบรารีที่คุณกำหนด "
+"(ด้านล่างนี้)"
 
 #. i18n: file socksbase.ui line 117
 #: rc.cpp:520
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "&Path:"
 msgstr "พาธ:"
 
@@ -1513,25 +1520,25 @@ msgstr "พาธ:"
 #: rc.cpp:523
 #, no-c-format
 msgid "Enter the path to an unsupported SOCKS library."
-msgstr ""
+msgstr "เติมตำแหน่งที่อยู่ของไลบรารี SOCKS ที่ไม่สนับสนุน"
 
 #. i18n: file socksbase.ui line 147
 #: rc.cpp:526
 #, no-c-format
 msgid "&Dante"
-msgstr ""
+msgstr "ใช้ &Dante"
 
 #. i18n: file socksbase.ui line 153
 #: rc.cpp:529
 #, no-c-format
 msgid "This will force KDE to use Dante if it can be found."
-msgstr ""
+msgstr "บังคับให้ KDE ใช้ Dante ถ้ามันสามารถค้นพบ"
 
 #. i18n: file socksbase.ui line 174
 #: rc.cpp:532
 #, no-c-format
 msgid "Additional Library Search Paths"
-msgstr ""
+msgstr "เส้นทางที่ใช้ค้นหาไลบรารีเพิ่มเติม"
 
 #. i18n: file socksbase.ui line 177
 #: rc.cpp:535
@@ -1541,18 +1548,21 @@ msgid ""
 "/usr/lib, /usr/local/lib, /usr/local/socks5/lib and /opt/socks5/lib are already "
 "searched by default."
 msgstr ""
+"คุณสามารถกำหนดไดเรกทอรีที่ใช้ค้นหาไลบรารี SOCKS เพิ่มเติมได้ที่นี่ "
+"ซึ่งค่าที่กำหนดไว้แล้วมี /usr/lib, /usr/local/lib, /usr/local/socks5/lib และ "
+"/opt/socks5/lib"
 
 #. i18n: file socksbase.ui line 186
 #: rc.cpp:538
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Path"
-msgstr "พาธ:"
+msgstr "พาธ"
 
 #. i18n: file socksbase.ui line 207
 #: rc.cpp:541
 #, no-c-format
 msgid "This is the list of additional paths that will be searched."
-msgstr ""
+msgstr "แสดงรายการของพาธที่จะใช้ค้นหาไลบรารีเพิ่มเติม"
 
 #. i18n: file socksbase.ui line 251
 #: rc.cpp:544
@@ -1564,13 +1574,13 @@ msgstr "เพิ่ม"
 #: rc.cpp:550
 #, no-c-format
 msgid "&Test"
-msgstr ""
+msgstr "ทดสอบ"
 
 #. i18n: file socksbase.ui line 302
 #: rc.cpp:553
 #, no-c-format
 msgid "Click here to test SOCKS support."
-msgstr ""
+msgstr "คลิกที่นี่ เพื่อทดสอบส่วนสนับสนุน SOCKS"
 
 #. i18n: file uagentproviderdlg_ui.ui line 32
 #: rc.cpp:556
@@ -1922,23 +1932,23 @@ msgstr ""
 
 #: socks.cpp:42
 msgid "kcmsocks"
-msgstr ""
+msgstr "ปรับแต่ง SOCKS"
 
 #: socks.cpp:42
 msgid "KDE SOCKS Control Module"
-msgstr ""
+msgstr "โมดูลควบคุม SOCKS ของ KDE"
 
 #: socks.cpp:44
 msgid "(c) 2001 George Staikos"
-msgstr ""
+msgstr "(c) 2001 George Staikos"
 
 #: socks.cpp:92
 msgid "These changes will only apply to newly started applications."
-msgstr ""
+msgstr "การเปลี่ยนแปลงจะมีผลกับแอพพลิเคชันที่เริ่มทำงานใหม่เท่านั้น"
 
 #: socks.cpp:94 socks.cpp:127 socks.cpp:132
 msgid "SOCKS Support"
-msgstr ""
+msgstr "สนับสนุน SOCKS"
 
 #: socks.cpp:126
 msgid "Success: SOCKS was found and initialized."
@@ -1946,7 +1956,7 @@ msgstr ""
 
 #: socks.cpp:131
 msgid "SOCKS could not be loaded."
-msgstr ""
+msgstr "ไม่สามารถเรียกใช้งาน SOCKS ได้"
 
 #: socks.cpp:270
 msgid ""
@@ -2010,6 +2020,15 @@ msgstr ""
 "<u>ข้อควรจำ:</u> เพื่อแสดงความช่วยเหลือด่วน สำหรับบางส่วน ทำได้ง่าย ๆ "
 "โดยการคลิ้กที่ปุ่ม <b>?</b> ที่อยู่ด้านมุมบนขวาของหน้าต่างนี้ "
 "ตามด้วยการคลิ้กในส่วนที่ต้องการดูความช่วยเหลือสั้น ๆ"
+
+#~ msgid "Socks"
+#~ msgstr "ເຊິເວີຣທ Socks"
+
+#~ msgid "Success! SOCKS was found and initialized."
+#~ msgstr "สำเร็จแล้ว! ค้นพบ SOCKS และเริ่มการทำงานแล้ว"
+
+#~ msgid "<h1>SOCKS</h1><p>This module allows you to configure KDE support for a SOCKS server or proxy.</p><p>SOCKS is a protocol to traverse firewalls as described in <a href=\"http://rfc.net/rfc1928.html\">RFC 1928</a>. <p>If you have no idea what this is and if your system administrator doesn't tell you to use it, leave it disabled.</p>"
+#~ msgstr "<h1>SOCKS</h1><p>โมดูลนี้ ให้คุณได้ปรับแต่งการสนับสนุนเซิร์ฟเวอร์ SOCKS หรือพรอกซีของ KDE</p><p>SOCKS คือ โปรโตคอลที่ทำหน้าที่เหมือนไฟร์วอลล์ โดยมีข้อกำหนดตาม <a href=\"http://rfc.net/rfc1928.html\">RFC 1928</a> <p>หากคุณไม่แน่ใจในส่วนนี้ และผู้ดูแลระบบไม่ได้แจ้งให้คุณทราบ ก็ควรปล่อยว่างไว้</p>"
 
 #~ msgid "Note: kio_smb is a SMB client only. The server, if any, cannot be configured from here."
 #~ msgstr "ข้อควรจำ: kio_smb เป็นเพียงไคลเอนต์ของ SMB เท่านั้น ดังนั้นจึงไม่สามารถปรับแต่งเซิร์ฟเวอร์ได้จากที่นี่"
