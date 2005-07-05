@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-02 06:48+0200\n"
+"POT-Creation-Date: 2005-07-05 06:57+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -1061,7 +1061,7 @@ msgid "Incoming accounts (add at least one):"
 msgstr "ບັນຊີຜູ້ໃຊ້ຮັບຈົດຫມາຍ(ຕ້ອງມີຢ່າງຫນ້ອຍຫນື່ງບັນຊີຜູ້ໃຊ้້ !)"
 
 #: configuredialog.cpp:1067 kmfldsearch.cpp:170 kmfolderseldlg.cpp:64
-#: kmfoldertree.cpp:298
+#: kmfoldertree.cpp:303
 msgid "Folder"
 msgstr "ໂຟນເດີ້"
 
@@ -2715,7 +2715,7 @@ msgid "Select Folder"
 msgstr "ສ້າງໂຟເດີ"
 
 #: folderrequester.cpp:94 kmcommands.cpp:1546 kmfoldermgr.cpp:40
-#: kmfoldertree.cpp:497
+#: kmfoldertree.cpp:502
 msgid "Local Folders"
 msgstr "ໂຟເດີ"
 
@@ -4051,12 +4051,12 @@ msgstr ""
 msgid "Not enough free disk space?"
 msgstr "ພື້ນທີ່ບົນດິສມີບໍ່ພຽງພໍ"
 
-#: kmcommands.cpp:1596 kmfoldertree.cpp:1731
+#: kmcommands.cpp:1596 kmfoldertree.cpp:1736
 #, fuzzy
 msgid "Move to This Folder"
 msgstr "ຍ້າຍໄປຍັງໂຟເດີນີ້"
 
-#: kmcommands.cpp:1598 kmfoldertree.cpp:1733
+#: kmcommands.cpp:1598 kmfoldertree.cpp:1738
 #, fuzzy
 msgid "Copy to This Folder"
 msgstr "ສຳເນົາໄປຍັງໂຟເດີນີ້"
@@ -4694,7 +4694,7 @@ msgid "Save Attachment As"
 msgstr "ສະແດງສິ່ງທີ່ແນບມາດ້ວຍແບບເບີ່ງງ່າຍ"
 
 #: kmcomposewin.cpp:3393 kmfilterdlg.cpp:534 kmfolderdia.cpp:260
-#: kmfolderdia.cpp:579 kmfoldertree.cpp:1447
+#: kmfolderdia.cpp:579 kmfoldertree.cpp:1452
 msgid "unnamed"
 msgstr "ຍັງບໍ່ມີຊື່"
 
@@ -5563,7 +5563,7 @@ msgstr "&ສຳເນົາໄປຍັງ"
 msgid "&Move To"
 msgstr "&ຍ້າຍໄປຍັງ"
 
-#: kmfolder.cpp:213
+#: kmfolder.cpp:217
 #, fuzzy
 msgid "Failed to create folder"
 msgstr "ລົ້ມເຫລວໃນການສ້າງໄດເລັກທໍລຣີี"
@@ -6155,106 +6155,106 @@ msgstr ""
 "ບໍ່ສາມາດສ້າງແຟ້ມ`%1'ໃນ %2 ໄດ້\n"
 "ເຮັດໃຫ ້KMail ບໍ່ສາມາດເລີ່ມການທຳງານໄດ້"
 
-#: kmfoldertree.cpp:308 kmheaders.cpp:118
+#: kmfoldertree.cpp:313 kmheaders.cpp:118
 #, fuzzy
 msgid "View Columns"
 msgstr "ເບີ່ງຖັນ"
 
-#: kmfoldertree.cpp:310
+#: kmfoldertree.cpp:315
 msgid "Unread Column"
 msgstr "ຖັນທີ່ຍັງບໍ່ອ່ານ"
 
-#: kmfoldertree.cpp:311
+#: kmfoldertree.cpp:316
 msgid "Total Column"
 msgstr "ຖັນລວມ"
 
-#: kmfoldertree.cpp:512 kmfoldertree.cpp:948
+#: kmfoldertree.cpp:517 kmfoldertree.cpp:953
 #, fuzzy
 msgid "Searches"
 msgstr "ຄົ້ນ&ຫາ"
 
-#: kmfoldertree.cpp:789
+#: kmfoldertree.cpp:794
 #, fuzzy
 msgid "<qt>Go to the next unread message in folder <b>%1</b>?</qt>"
 msgstr "ໄປຍັງຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານສະບັບຖັດໄປໃນໂຟເດີ %1 ຫລືບໍ່ ?"
 
-#: kmfoldertree.cpp:791
+#: kmfoldertree.cpp:796
 msgid "Go to the Next Unread Message"
 msgstr "ໄປຍັງຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານສະບັບຖັດໄປ"
 
-#: kmfoldertree.cpp:945 kmfoldertree.cpp:966
+#: kmfoldertree.cpp:950 kmfoldertree.cpp:971
 msgid "&New Subfolder..."
 msgstr "&ເຄື່ອງມືຂຽນຈົດໝາຍໃຫມ່..."
 
-#: kmfoldertree.cpp:946 kmmainwidget.cpp:2285
+#: kmfoldertree.cpp:951 kmmainwidget.cpp:2285
 msgid "&New Folder..."
 msgstr "&ສ້າງໂຟເດີ"
 
-#: kmfoldertree.cpp:957 kmmainwidget.cpp:2205
+#: kmfoldertree.cpp:962 kmmainwidget.cpp:2205
 msgid "Check &Mail"
 msgstr "&ກວອຈົດໝາຍ"
 
-#: kmfoldertree.cpp:974
+#: kmfoldertree.cpp:979
 #, fuzzy
 msgid "&Move Folder To"
 msgstr "ลบโฟลเดอร์"
 
-#: kmfoldertree.cpp:1001
+#: kmfoldertree.cpp:1006
 #, fuzzy
 msgid "Subscription..."
 msgstr "ລາຍລະອຽດ"
 
-#: kmfoldertree.cpp:1008
+#: kmfoldertree.cpp:1013
 #, fuzzy
 msgid "Refresh Folder List"
 msgstr "ຄົ້ນຫາໃນໂພນເດີ"
 
-#: kmfoldertree.cpp:1015
+#: kmfoldertree.cpp:1020
 msgid "&Troubleshoot IMAP Cache..."
 msgstr ""
 
-#: kmfoldertree.cpp:1028 kmmainwidget.cpp:2295
+#: kmfoldertree.cpp:1033 kmmainwidget.cpp:2295
 #, fuzzy
 msgid "&Assign Shortcut..."
 msgstr "ປ&ັບແຕ່ງຕົວກອງ..."
 
-#: kmfoldertree.cpp:1033
+#: kmfoldertree.cpp:1038
 #, fuzzy
 msgid "Expire..."
 msgstr "ຫມົດອາຍຸ"
 
-#: kmfoldertree.cpp:1108
+#: kmfoldertree.cpp:1113
 msgid ""
 "<qt>Cannot create folder <b>%1</b> because of insufficient permissions on the "
 "server. If you think you should be able to create subfolders here, ask your "
 "administrator to grant you rights to do so.</qt> "
 msgstr ""
 
-#: kmfoldertree.cpp:1347
+#: kmfoldertree.cpp:1352
 #, fuzzy
 msgid "&Move Here"
 msgstr "&ຍ້າຍໄປຍັງ"
 
-#: kmfoldertree.cpp:1348
+#: kmfoldertree.cpp:1353
 #, fuzzy
 msgid "&Copy Here"
 msgstr "คัดลอกข้อความ"
 
-#: kmfoldertree.cpp:1350
+#: kmfoldertree.cpp:1355
 #, fuzzy
 msgid "C&ancel"
 msgstr "ຍົກເລີກງານ"
 
-#: kmfoldertree.cpp:1528 kmmainwidget.cpp:342 kmmainwidget.cpp:346
+#: kmfoldertree.cpp:1533 kmmainwidget.cpp:342 kmmainwidget.cpp:346
 #: kmsearchpattern.h:224
 msgid "Unread"
 msgstr "ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmfoldertree.cpp:1541 kmmainwidget.cpp:344
+#: kmfoldertree.cpp:1546 kmmainwidget.cpp:344
 msgid "Total"
 msgstr "ລວມ"
 
-#: kmfoldertree.cpp:1769
+#: kmfoldertree.cpp:1774
 #, fuzzy
 msgid "<qt>Cannot move folder <b>%1</b> into a subfolder below itself.</qt>"
 msgstr "ບໍ່ສາມາດຍ້າຍໂຟເດີແມ່ໄປທີ່ໂຟເດີລູກໄດ້"
