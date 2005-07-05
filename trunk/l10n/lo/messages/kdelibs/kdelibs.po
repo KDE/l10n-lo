@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-04 01:31+0200\n"
+"POT-Creation-Date: 2005-07-05 01:32+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -844,8 +844,8 @@ msgstr "ບັນທືກ"
 msgid "&Save"
 msgstr "&ບັນທືກ"
 
-#: common_texts.cpp:111 khtml/khtml_part.cpp:3896 khtml/khtml_part.cpp:4100
-#: khtml/khtml_part.cpp:4414 khtml/khtml_run.cpp:83 kparts/browserrun.cpp:411
+#: common_texts.cpp:111 khtml/khtml_part.cpp:3899 khtml/khtml_part.cpp:4103
+#: khtml/khtml_part.cpp:4417 khtml/khtml_run.cpp:83 kparts/browserrun.cpp:411
 msgid "Save As"
 msgstr "ບັນທຶກເປັນ"
 
@@ -1061,7 +1061,7 @@ msgstr "ເປີດແຟ້ມທີ່ເຄີຍເອິ້ນໃຊ້"
 msgid "Open &Recent"
 msgstr "&ເປີດແຟ້ມທີ່ເຄີຍເອິ້ນໃຊ້"
 
-#: common_texts.cpp:179 kdeui/kstdaction_p.h:61 khtml/khtml_part.cpp:4217
+#: common_texts.cpp:179 kdeui/kstdaction_p.h:61 khtml/khtml_part.cpp:4220
 msgid "&Find..."
 msgstr "&ຄົ້ນຫາ..."
 
@@ -4475,7 +4475,7 @@ msgstr ""
 msgid "The file '%1' already exists. Do you want to override it?"
 msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
-#: khtml/khtml_ext.cpp:790 knewstuff/knewstuffgeneric.cpp:135
+#: khtml/khtml_ext.cpp:803 knewstuff/knewstuffgeneric.cpp:135
 msgid "Overwrite"
 msgstr "ຂງນທັບ"
 
@@ -6702,133 +6702,138 @@ msgstr "ພາບ - %2x%3 ພິກເຊລ"
 msgid "Done."
 msgstr "ສຳເລັດແລ້ວ"
 
-#: khtml/khtml_ext.cpp:428
+#: khtml/khtml_ext.cpp:429
 #, fuzzy
 msgid "&Copy Text"
 msgstr "&ຄັດລອກ"
 
-#: khtml/khtml_ext.cpp:471
+#: khtml/khtml_ext.cpp:472
 #, fuzzy
 msgid "Search '%1' at %2"
 msgstr "ແທນທີ່ \"%1\" ດ້ວຍ \"%2\" ຫລືບໍ່ ?"
 
-#: khtml/khtml_ext.cpp:480
+#: khtml/khtml_ext.cpp:481
 #, fuzzy
 msgid "Search '%1' At"
 msgstr "ແທນທີ່ \"%1\" ດ້ວຍ \"%2\" ຫລືບໍ່ ?"
 
-#: khtml/khtml_ext.cpp:509
+#: khtml/khtml_ext.cpp:510
 #, fuzzy
 msgid "Open '%1'"
 msgstr "ເປີດ \"%1\" ຫລືບໍ່?"
 
-#: khtml/khtml_ext.cpp:516 khtml/khtml_ext.cpp:567
+#: khtml/khtml_ext.cpp:517 khtml/khtml_ext.cpp:568
 msgid "Stop Animations"
 msgstr "ຢຸດການເຄືອ່ນໄຫວ"
 
-#: khtml/khtml_ext.cpp:524
+#: khtml/khtml_ext.cpp:525
 #, fuzzy
 msgid "Copy Email Address"
 msgstr "ທີ່ຢູ່ອີເມລ໌"
 
-#: khtml/khtml_ext.cpp:529
+#: khtml/khtml_ext.cpp:530
 msgid "&Save Link As..."
 msgstr "&ບັນທຶກລິງເປັນ..."
 
-#: khtml/khtml_ext.cpp:531
+#: khtml/khtml_ext.cpp:532
 #, fuzzy
 msgid "Copy &Link Address"
 msgstr "ທີ່ຢູ່ອີເມລ໌"
 
-#: khtml/khtml_ext.cpp:541
+#: khtml/khtml_ext.cpp:542
 #, fuzzy
 msgid "Open in New &Window"
 msgstr "&ເປິດຫນ້າຕ່າງໃຫມ່"
 
-#: khtml/khtml_ext.cpp:543
+#: khtml/khtml_ext.cpp:544
 #, fuzzy
 msgid "Open in &This Window"
 msgstr "&ເປິດຫນ້າຕ່າງໃຫມ່"
 
-#: khtml/khtml_ext.cpp:545
+#: khtml/khtml_ext.cpp:546
 msgid "Open in &New Tab"
 msgstr ""
 
-#: khtml/khtml_ext.cpp:547
+#: khtml/khtml_ext.cpp:548
 msgid "Reload Frame"
 msgstr "ໂຫລດເຟຣມອີກຄັ້ງ"
 
-#: khtml/khtml_ext.cpp:549 khtml/khtml_part.cpp:253
+#: khtml/khtml_ext.cpp:550 khtml/khtml_part.cpp:253
 msgid "View Frame Source"
 msgstr "ສະແດງຕົ້ນສະບັບເຟຣມ"
 
-#: khtml/khtml_ext.cpp:551
+#: khtml/khtml_ext.cpp:552
 msgid "View Frame Information"
 msgstr "ສະແດງຂໍ້ມູນຂອງເຟຣມ"
 
-#: khtml/khtml_ext.cpp:555 khtml/khtml_part.cpp:401
+#: khtml/khtml_ext.cpp:556 khtml/khtml_part.cpp:401
 msgid "Print Frame..."
 msgstr "ພິມເຟຣມ..."
 
-#: khtml/khtml_ext.cpp:556 khtml/khtml_part.cpp:259
+#: khtml/khtml_ext.cpp:557 khtml/khtml_part.cpp:259
 msgid "Save &Frame As..."
 msgstr "&ບັນທຶກເຟຣມເປັນ..."
 
-#: khtml/khtml_ext.cpp:586
+#: khtml/khtml_ext.cpp:587
 msgid "Save Image As..."
 msgstr "ບັນທຶກພາບເປັນ..."
 
-#: khtml/khtml_ext.cpp:588
+#: khtml/khtml_ext.cpp:589
 #, fuzzy
 msgid "Send Image..."
 msgstr "ບັນທຶກພາບເປັນ"
 
-#: khtml/khtml_ext.cpp:593
+#: khtml/khtml_ext.cpp:594
 #, fuzzy
 msgid "Copy Image"
 msgstr "ພາບຈາກ OCR"
 
-#: khtml/khtml_ext.cpp:598
+#: khtml/khtml_ext.cpp:599
 msgid "Copy Image Location"
 msgstr "ຄັດລອກຕຳແຫນ່ງຂອງພາບ"
 
-#: khtml/khtml_ext.cpp:603
+#: khtml/khtml_ext.cpp:604
 msgid "View Image (%1)"
 msgstr "ສະແດງພາບ (%1)"
 
-#: khtml/khtml_ext.cpp:608
+#: khtml/khtml_ext.cpp:609
 #, fuzzy
-msgid "Block Image"
+msgid "Block Image..."
 msgstr "ພາບຈາກ OCR"
 
-#: khtml/khtml_ext.cpp:614
+#: khtml/khtml_ext.cpp:615
 #, c-format
 msgid "Block Images From %1"
 msgstr ""
 
-#: khtml/khtml_ext.cpp:638
+#: khtml/khtml_ext.cpp:639
 msgid "Save Link As"
 msgstr "ບັນທຶກລິງເປັນ"
 
-#: khtml/khtml_ext.cpp:658
+#: khtml/khtml_ext.cpp:659
 msgid "Save Image As"
 msgstr "ບັນທຶກພາບເປັນ"
 
-#: khtml/khtml_ext.cpp:790
+#: khtml/khtml_ext.cpp:671
+#, fuzzy
+msgid "Add URL to filter"
+msgstr "ເພີ່ມຕົວກອງ"
+
+#: khtml/khtml_ext.cpp:803
 #, fuzzy
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
-#: khtml/khtml_ext.cpp:790
+#: khtml/khtml_ext.cpp:803
 msgid "Overwrite File?"
 msgstr "ຂງນທັບທັງຫມົດ"
 
-#: khtml/khtml_ext.cpp:851 kparts/browserrun.cpp:385
+#: khtml/khtml_ext.cpp:864 kparts/browserrun.cpp:385
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "ບໍ່ພົບຕົວຈັດການດາວໂຫລດ%1ໃນພາບການທຳງານຂອງທ່ານ"
 
-#: khtml/khtml_ext.cpp:852 kparts/browserrun.cpp:386
+#: khtml/khtml_ext.cpp:865 kparts/browserrun.cpp:386
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -6838,12 +6843,12 @@ msgstr ""
 "\n"
 "ສ່ວນໃໍຊ້ຮ່ວມກັບຄອນເຄຍເຣີອາດຈະຖືກປິດການໃຊ້ງານ!"
 
-#: khtml/khtml_ext.cpp:945
+#: khtml/khtml_ext.cpp:958
 #, fuzzy, no-c-format
 msgid "Default Font Size (100%)"
 msgstr "ຂະຫນາດປະຣິຍາຍຂອງຕົວອັກສອນ"
 
-#: khtml/khtml_ext.cpp:958
+#: khtml/khtml_ext.cpp:971
 #, fuzzy, no-c-format
 msgid "%1%"
 msgstr "%1"
@@ -6947,7 +6952,7 @@ msgstr "&ເລືອກການເຂົ້າລະຫັດ"
 msgid "Semi-Automatic"
 msgstr "ອັດຕະໂນມັດ"
 
-#: khtml/khtml_part.cpp:294 khtml/khtml_part.cpp:2264
+#: khtml/khtml_part.cpp:294 khtml/khtml_part.cpp:2267
 #, fuzzy
 msgid "Automatic Detection"
 msgstr "&ສະແດງຕົວຢ່າງອັດຕະໂນມັດ"
@@ -7050,74 +7055,74 @@ msgstr ""
 msgid "Display Images on Page"
 msgstr "ສະແດງພາບເທິງເພຈ"
 
-#: khtml/khtml_part.cpp:1532 khtml/khtml_part.cpp:1623
+#: khtml/khtml_part.cpp:1535 khtml/khtml_part.cpp:1626
 #, fuzzy
 msgid "Session is secured with %1 bit %2."
 msgstr "ການເຊື່ອມຕໍ່ປັດຈຸບັນຢູ່ໃນສ່ວນທີ່ເຂົ້າລະຫັດໄວ້ຜ່ານທາງ SSL"
 
-#: khtml/khtml_part.cpp:1533 khtml/khtml_part.cpp:1625
+#: khtml/khtml_part.cpp:1536 khtml/khtml_part.cpp:1628
 #, fuzzy
 msgid "Session is not secured."
 msgstr "ການເຊື່ອມປັດຈຸບັນບໍ່ໄດ້ຢູ່ໃນສ່ວນທີ່ເຂົ້າລະຫັດໄວ້ຜ່ານທາງ SSL"
 
-#: khtml/khtml_part.cpp:1710
+#: khtml/khtml_part.cpp:1713
 #, c-format
 msgid "Error while loading %1"
 msgstr "ເກີດຄວາມຜິດພາດ ຂະນະທຳການໂຫລດ \"%1\""
 
-#: khtml/khtml_part.cpp:1712
+#: khtml/khtml_part.cpp:1715
 #, fuzzy
 msgid "An error occurred while loading <B>%1</B>:"
 msgstr "ເກີດຄວາມຜິດພາດ ຂະນະທຳການໂຫລດ <B>%1</B>:"
 
-#: khtml/khtml_part.cpp:1747
+#: khtml/khtml_part.cpp:1750
 msgid "Error: "
 msgstr "ຜິດພາດ:"
 
-#: khtml/khtml_part.cpp:1750
+#: khtml/khtml_part.cpp:1753
 msgid "The requested operation could not be completed"
 msgstr "ບໍ່ສາມາດທຳປະຕິບັດການທີ່ຮ້ອງຂໍມາໃຫ້ສຳເລັດໄດ້"
 
-#: khtml/khtml_part.cpp:1756
+#: khtml/khtml_part.cpp:1759
 msgid "Technical Reason: "
 msgstr "ເຫດຜົນທາງເທຄນິກ:"
 
-#: khtml/khtml_part.cpp:1761
+#: khtml/khtml_part.cpp:1764
 msgid "Details of the Request:"
 msgstr "ລາຍລະອຽດຂອງສິ່ງທີ່ຮ້ອງຂໍ:"
 
-#: khtml/khtml_part.cpp:1763
+#: khtml/khtml_part.cpp:1766
 #, c-format
 msgid "URL: %1"
 msgstr "URL: %1"
 
-#: khtml/khtml_part.cpp:1770
+#: khtml/khtml_part.cpp:1773
 #, c-format
 msgid "Date and Time: %1"
 msgstr "ວັນແລະເວລາ : %1"
 
-#: khtml/khtml_part.cpp:1772
+#: khtml/khtml_part.cpp:1775
 #, c-format
 msgid "Additional Information: %1"
 msgstr "ຂໍ້ມູນເພີ້ມເຕີມ: %1"
 
-#: khtml/khtml_part.cpp:1774
+#: khtml/khtml_part.cpp:1777
 msgid "Description:"
 msgstr "ລາຍລະອຽດ:"
 
-#: khtml/khtml_part.cpp:1780
+#: khtml/khtml_part.cpp:1783
 msgid "Possible Causes:"
 msgstr "ອາດຈະເນື່ອງຈາກ:"
 
-#: khtml/khtml_part.cpp:1787
+#: khtml/khtml_part.cpp:1790
 msgid "Possible Solutions:"
 msgstr "ໂຊລູຊັນທີ່ເປັນໄປໄດ້:"
 
-#: khtml/khtml_part.cpp:2101
+#: khtml/khtml_part.cpp:2104
 msgid "Page loaded."
 msgstr "ເອີ້ນແຟ້ມຂື້ນມາໃຫມ່ຮຽບຮ້ອຍແລ້ວ"
 
-#: khtml/khtml_part.cpp:2103
+#: khtml/khtml_part.cpp:2106
 #, fuzzy
 msgid ""
 "_n: %n Image of %1 loaded.\n"
@@ -7126,48 +7131,48 @@ msgstr ""
 "_n %n ຮູບພາບຈາກ %1 ໂຫລດ.\n"
 "%n ຮູບພາບຈາກ %1 ໂຫລດ."
 
-#: khtml/khtml_part.cpp:3697 khtml/khtml_part.cpp:3784
-#: khtml/khtml_part.cpp:3795
+#: khtml/khtml_part.cpp:3700 khtml/khtml_part.cpp:3787
+#: khtml/khtml_part.cpp:3798
 msgid " (In new window)"
 msgstr "(ໃນຫນ້າຈໍໃຫມ່)"
 
-#: khtml/khtml_part.cpp:3736
+#: khtml/khtml_part.cpp:3739
 msgid "Symbolic Link"
 msgstr "ລິງແບບສັນຍາລັກ"
 
-#: khtml/khtml_part.cpp:3738
+#: khtml/khtml_part.cpp:3741
 msgid "%1 (Link)"
 msgstr "%1 (ລິງຄ໌)"
 
-#: khtml/khtml_part.cpp:3758
+#: khtml/khtml_part.cpp:3761
 msgid "%2 (%1 bytes)"
 msgstr "%2 (%1 ໄບທ໌)"
 
-#: khtml/khtml_part.cpp:3762
+#: khtml/khtml_part.cpp:3765
 msgid "%2 (%1 K)"
 msgstr "%1 (%2 ກິໂລໄບທ໌)"
 
-#: khtml/khtml_part.cpp:3797
+#: khtml/khtml_part.cpp:3800
 msgid " (In other frame)"
 msgstr "(ໃນເຟຣມອື່ນ)"
 
-#: khtml/khtml_part.cpp:3802
+#: khtml/khtml_part.cpp:3805
 msgid "Email to: "
 msgstr "ອີເມວໄປຍັງ:"
 
-#: khtml/khtml_part.cpp:3808
+#: khtml/khtml_part.cpp:3811
 msgid " - Subject: "
 msgstr "ເລື່ອງ:"
 
-#: khtml/khtml_part.cpp:3810
+#: khtml/khtml_part.cpp:3813
 msgid " - CC: "
 msgstr "ສຳເນົາ:"
 
-#: khtml/khtml_part.cpp:3812
+#: khtml/khtml_part.cpp:3815
 msgid " - BCC: "
 msgstr "ເຊື່ອງສຳເນົາ:"
 
-#: khtml/khtml_part.cpp:3901
+#: khtml/khtml_part.cpp:3904
 #, fuzzy
 msgid ""
 "<qt>This untrusted page links to<BR><B>%1</B>.<BR>Do you want to follow the "
@@ -7176,33 +7181,33 @@ msgstr ""
 "<qt>ຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອຖືນີ້ບັນຈຸລິງຄ໌<BR><B>%1</B><BR> "
 "ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ"
 
-#: khtml/khtml_part.cpp:3902
+#: khtml/khtml_part.cpp:3905
 msgid "Follow"
 msgstr "ຕາມ"
 
-#: khtml/khtml_part.cpp:4002
+#: khtml/khtml_part.cpp:4005
 msgid "Frame Information"
 msgstr "ຂໍ້ມູນເຟຣມ"
 
-#: khtml/khtml_part.cpp:4008
+#: khtml/khtml_part.cpp:4011
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[ຄຸນສົມບັດ]</a>"
 
-#: khtml/khtml_part.cpp:4088
+#: khtml/khtml_part.cpp:4091
 #, fuzzy
 msgid "Save Background Image As"
 msgstr "&ບັນທຶກພາບພື້ນຫລັງເປັນ..."
 
-#: khtml/khtml_part.cpp:4175
+#: khtml/khtml_part.cpp:4178
 #, fuzzy
 msgid "Save Frame As"
 msgstr "&ບັນທຶກເຟຣມເປັນ..."
 
-#: khtml/khtml_part.cpp:4215
+#: khtml/khtml_part.cpp:4218
 msgid "&Find in Frame..."
 msgstr "&ຄົ້ນຫາພາຍໃນເຟຣມ..."
 
-#: khtml/khtml_part.cpp:4715
+#: khtml/khtml_part.cpp:4718
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -7214,17 +7219,17 @@ msgstr ""
 "ບຸກຄົນທີ່ສາມອາດຈະບຸກຄົນທີສາມດັກຈັບ ແລະສະແດງຂໍ້ມູນນີ້ໄດ້\n"
 "ທ່ານແນ່ໃຈຫລືບໍ່ວ່າຕ້ອງການຈະເຮັດຕໍ່ໄປ?"
 
-#: khtml/khtml_part.cpp:4718 khtml/khtml_part.cpp:4727
-#: khtml/khtml_part.cpp:4751
+#: khtml/khtml_part.cpp:4721 khtml/khtml_part.cpp:4730
+#: khtml/khtml_part.cpp:4754
 #, fuzzy
 msgid "Network Transmission"
 msgstr "ເຄື່ອງພິມແບບເຄືອຂ່າຍ"
 
-#: khtml/khtml_part.cpp:4718 khtml/khtml_part.cpp:4728
+#: khtml/khtml_part.cpp:4721 khtml/khtml_part.cpp:4731
 msgid "&Send Unencrypted"
 msgstr ""
 
-#: khtml/khtml_part.cpp:4725
+#: khtml/khtml_part.cpp:4728
 msgid ""
 "Warning: Your data is about to be transmitted across the network unencrypted.\n"
 "Are you sure you wish to continue?"
@@ -7232,7 +7237,7 @@ msgstr ""
 "ຄຳເຕືອນ:ຂໍ້ມູນຂອງທ່ານທີ່ຮັບສົ່ງກັນລະຫວ່າງເຄືອຂ່າຍບໍ່ໄ້ດ້ເຂົ້າລະຫັດໄວ້\n"
 "ທ່ານແນ່ໃຈຫລືບໍ່ວ່າຕ້ອງການຈະເຮັດຕໍ່ໄປ?"
 
-#: khtml/khtml_part.cpp:4749
+#: khtml/khtml_part.cpp:4752
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -7240,12 +7245,12 @@ msgstr ""
 "ໄຊທ໌ນີ້ພະຍາຍາມຈະສົ່ງຂໍ້ມູນໃນຟອມຜ່ານທາງອີແມວ\n"
 "ທ່ານຕ້ອງການທຳຕໍ່ໄປຫລືບໍ່?"
 
-#: khtml/khtml_part.cpp:4752
+#: khtml/khtml_part.cpp:4755
 #, fuzzy
 msgid "&Send Email"
 msgstr "ບັນທຶກພາບເປັນ"
 
-#: khtml/khtml_part.cpp:4773
+#: khtml/khtml_part.cpp:4776
 msgid ""
 "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local filesystem.<BR>"
 "Do you want to submit the form?"
@@ -7253,13 +7258,13 @@ msgstr ""
 "<qt>ຟອມນີ້ຈະຖືກສົ່ງໄປຍັງ<BR><B>%1</B><BR>ເທິງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ<BR> "
 "ທ່ານຕ້ອງການທີ່ຈະສົ່ງຂໍ້ມູນຟອມນີ້ຫລືບໍ່?"
 
-#: khtml/html/html_formimpl.cpp:1451 khtml/khtml_part.cpp:4774
+#: khtml/html/html_formimpl.cpp:1470 khtml/khtml_part.cpp:4777
 #: khtml/khtmlview.cpp:2408 khtml/khtmlview.cpp:2450
 #: khtml/rendering/render_form.cpp:296
 msgid "Submit"
 msgstr "ສົ່ງ"
 
-#: khtml/khtml_part.cpp:4822
+#: khtml/khtml_part.cpp:4825
 msgid ""
 "This site attempted to attach a file from your computer in the form submission. "
 "The attachment was removed for your protection."
@@ -7267,44 +7272,44 @@ msgstr ""
 "ໄໍຊທ໌ນພະຍາຍາມຈະແນບແຟ້ມທີ່ຢູ່ພາຍໃນເຄື່ອງຂອງທ່ານໄປກັບການສົ່ງຟອມຊຶ່ງແຟ້ມທີ່ແນບຈະຖືກ"
 "ເອົາອອກຈາກການຕັ້ງການປ້ອງກັນຂອງທ່ານ"
 
-#: khtml/khtml_part.cpp:4822
+#: khtml/khtml_part.cpp:4825
 msgid "KDE"
 msgstr "KDE"
 
-#: khtml/khtml_part.cpp:5727
+#: khtml/khtml_part.cpp:5730
 msgid "(%1/s)"
 msgstr "(%1/s)"
 
-#: khtml/khtml_part.cpp:6732
+#: khtml/khtml_part.cpp:6735
 msgid "Security Warning"
 msgstr "ເຕືອນເລື່ອງຄວາມປອດໄພ"
 
-#: khtml/khtml_part.cpp:6738
+#: khtml/khtml_part.cpp:6741
 #, fuzzy
 msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
 msgstr ""
 "<qt>ຫນ້າເພດຈ໌ທີ່ບໍ່ຫນ້າເຊື່ອຖືນີ້ບັນຈຸລິງຄ໌<BR><B>%1</B><BR> "
 "ມາຍັງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ"
 
-#: khtml/java/kjavaappletserver.cpp:784 khtml/khtml_part.cpp:6739
+#: khtml/java/kjavaappletserver.cpp:784 khtml/khtml_part.cpp:6742
 msgid "Security Alert"
 msgstr "ເຕືອນໃຫ້ລະວັງເລືອ່ງຄວາມປອດໄພ"
 
-#: khtml/khtml_part.cpp:7164
+#: khtml/khtml_part.cpp:7167
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7218
+#: khtml/khtml_part.cpp:7221
 #, fuzzy
 msgid "&Close Wallet"
 msgstr "&ປິດ"
 
-#: khtml/khtml_part.cpp:7261
+#: khtml/khtml_part.cpp:7264
 #, fuzzy
 msgid "JavaScript &Debugger"
 msgstr "ເຄື່ອງມືດີບັກຈາວາສະຄຣິບ์์"
 
-#: khtml/khtml_part.cpp:7285
+#: khtml/khtml_part.cpp:7288
 #, fuzzy
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr ""
@@ -7312,21 +7317,21 @@ msgstr ""
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
-#: khtml/khtml_part.cpp:7291
+#: khtml/khtml_part.cpp:7294
 msgid "Popup Window Blocked"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7291
+#: khtml/khtml_part.cpp:7294
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
 " You can click on this icon in the status bar to control this behavior."
 msgstr ""
 
-#: khtml/khtml_part.cpp:7304
+#: khtml/khtml_part.cpp:7307
 msgid "&Show Blocked Window Passive Popup Notification"
 msgstr ""
 
-#: khtml/khtml_part.cpp:7306
+#: khtml/khtml_part.cpp:7309
 msgid "&Configure JavaScript New Window Policies..."
 msgstr ""
 
@@ -7397,7 +7402,7 @@ msgstr "ການກະຈາຍຄຳຜິດພາດ: %1 ໃນແຖວທ�
 msgid "XML parsing error"
 msgstr "ການກະຈາຍ XML ຜິດພາດ"
 
-#: khtml/xml/dom_docimpl.cpp:1908
+#: khtml/xml/dom_docimpl.cpp:1969
 msgid "Basic Page Style"
 msgstr ""
 
@@ -7478,7 +7483,7 @@ msgstr ""
 "ເກີດຄວາມຜິດພາດຂື້ນ ຂະນະກຳລັງ %1, %2 ຜົນສະຫລຸບຂອງຄວາມຜິດພາດຢູ່ທາງດ້ານລຸ່ມນີ້"
 "<ul>"
 
-#: khtml/ecma/kjs_html.cpp:2148 khtml/ecma/kjs_window.cpp:1322
+#: khtml/ecma/kjs_html.cpp:2159 khtml/ecma/kjs_window.cpp:1322
 msgid "Confirmation: JavaScript Popup"
 msgstr "ຢືນຢັນ: ຈາວາສະຄຣິບປັອບອັບ"
 
@@ -7550,7 +7555,7 @@ msgstr "ສະຄຣິບ"
 msgid "&Abort"
 msgstr "&ຍົກເລີກ"
 
-#: khtml/ecma/kjs_html.cpp:2150
+#: khtml/ecma/kjs_html.cpp:2161
 #, fuzzy
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
@@ -7561,7 +7566,7 @@ msgstr ""
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
-#: khtml/ecma/kjs_html.cpp:2153
+#: khtml/ecma/kjs_html.cpp:2164
 #, fuzzy
 msgid ""
 "<qt>This site is submitting a form which will open "
@@ -9160,13 +9165,18 @@ msgstr ""
 msgid "KDE Certificate Part"
 msgstr "ສ່ວນໃບຮັບຮອງຄວາມປອດໄພເທິງ KDE"
 
-#: khtml/khtml_settings.cc:150
+#: khtml/khtml_settings.cc:151
 msgid "Accept"
 msgstr "ຍອມຮັບ"
 
-#: khtml/khtml_settings.cc:151
+#: khtml/khtml_settings.cc:152
 msgid "Reject"
 msgstr "ປະຕິເສດ"
+
+#: khtml/khtml_settings.cc:755
+#, fuzzy
+msgid "Filter error"
+msgstr "ແຟ້ມຜິດພາດ"
 
 #: kwallet/backend/kwalletbackend.cc:252
 #, fuzzy
@@ -14161,9 +14171,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 
 #~ msgid "Filters"
 #~ msgstr "ຕົວກອງ"
-
-#~ msgid "Add filter"
-#~ msgstr "ເພີ່ມຕົວກອງ"
 
 #~ msgid "Remove filter"
 #~ msgstr "ລືບຕົວກອງ"
