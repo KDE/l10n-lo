@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-05 01:32+0200\n"
+"POT-Creation-Date: 2005-07-06 01:30+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -4475,7 +4475,7 @@ msgstr ""
 msgid "The file '%1' already exists. Do you want to override it?"
 msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
-#: khtml/khtml_ext.cpp:803 knewstuff/knewstuffgeneric.cpp:135
+#: khtml/khtml_ext.cpp:798 knewstuff/knewstuffgeneric.cpp:135
 msgid "Overwrite"
 msgstr "ຂງນທັບ"
 
@@ -6422,12 +6422,12 @@ msgstr "&ກ່ງວກັບ %1"
 msgid "About &KDE"
 msgstr "&ກ່ງວກັບ KDE"
 
-#: kdeui/kactionclasses.cpp:1990
+#: kdeui/kactionclasses.cpp:2044
 #, fuzzy
 msgid "Exit F&ull Screen Mode"
 msgstr "&ໂຫມດເຕັມຫນ້າຈໍ"
 
-#: kdeui/kactionclasses.cpp:1995 kdeui/kstdaction_p.h:98
+#: kdeui/kactionclasses.cpp:2049 kdeui/kstdaction_p.h:98
 #, fuzzy
 msgid "F&ull Screen Mode"
 msgstr "&ໂຫມດເຕັມຫນ້າຈໍ"
@@ -6814,26 +6814,26 @@ msgstr "ບັນທຶກລິງເປັນ"
 msgid "Save Image As"
 msgstr "ບັນທຶກພາບເປັນ"
 
-#: khtml/khtml_ext.cpp:671
+#: khtml/khtml_ext.cpp:672
 #, fuzzy
-msgid "Add URL to filter"
+msgid "Add URL to Filter"
 msgstr "ເພີ່ມຕົວກອງ"
 
-#: khtml/khtml_ext.cpp:803
+#: khtml/khtml_ext.cpp:798
 #, fuzzy
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
-#: khtml/khtml_ext.cpp:803
+#: khtml/khtml_ext.cpp:798
 msgid "Overwrite File?"
 msgstr "ຂງນທັບທັງຫມົດ"
 
-#: khtml/khtml_ext.cpp:864 kparts/browserrun.cpp:385
+#: khtml/khtml_ext.cpp:859 kparts/browserrun.cpp:385
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "ບໍ່ພົບຕົວຈັດການດາວໂຫລດ%1ໃນພາບການທຳງານຂອງທ່ານ"
 
-#: khtml/khtml_ext.cpp:865 kparts/browserrun.cpp:386
+#: khtml/khtml_ext.cpp:860 kparts/browserrun.cpp:386
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -6843,12 +6843,12 @@ msgstr ""
 "\n"
 "ສ່ວນໃໍຊ້ຮ່ວມກັບຄອນເຄຍເຣີອາດຈະຖືກປິດການໃຊ້ງານ!"
 
-#: khtml/khtml_ext.cpp:958
+#: khtml/khtml_ext.cpp:953
 #, fuzzy, no-c-format
 msgid "Default Font Size (100%)"
 msgstr "ຂະຫນາດປະຣິຍາຍຂອງຕົວອັກສອນ"
 
-#: khtml/khtml_ext.cpp:971
+#: khtml/khtml_ext.cpp:966
 #, fuzzy, no-c-format
 msgid "%1%"
 msgstr "%1"
@@ -7577,7 +7577,7 @@ msgstr ""
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
-#: khtml/html/htmlparser.cpp:1613
+#: khtml/html/htmlparser.cpp:1641
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "ນີ້ເປັນດັດສະນີທີ່ໃຊ້ຄົ້ນຫາໄດ້ຕື່່ມຂໍ້ຄວາມຫລືຄຳທີ່ຕິອງການຄົ້ນຫາ:"
 
@@ -7968,6 +7968,11 @@ msgstr ""
 msgid ""
 "Only run tests modules which are found in the folder. Use the query option to "
 "select modules."
+msgstr ""
+
+#: kunittest/modrunner.cpp:44
+msgid ""
+"Disables debug capturing. You typically use this option when you use the GUI."
 msgstr ""
 
 #: kunittest/modrunner.cpp:53
