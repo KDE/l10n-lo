@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-03 01:32+0200\n"
+"POT-Creation-Date: 2005-07-08 01:32+0200\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -2205,7 +2205,7 @@ msgid "&Format"
 msgstr "ຟອມ ໃຫມ່"
 
 #. i18n: file data/kexiformpartinstui.rc line 30
-#: plugins/forms/kexiformpart.cpp:443 rc.cpp:9 rc.cpp:57
+#: plugins/forms/kexiformpart.cpp:444 rc.cpp:9 rc.cpp:57
 #, fuzzy, no-c-format
 msgid "Widgets"
 msgstr "ແຖບ ກວ້າງ"
@@ -3968,7 +3968,12 @@ msgstr ""
 msgid "Edit Rich Text"
 msgstr "ແກ້ໄຂ ຈາກ"
 
-#: plugins/forms/kexidbfactory.cpp:482 plugins/forms/kexiformpart.cpp:77
+#: plugins/forms/kexiformmanager.cpp:108
+#, fuzzy
+msgid "Set form's data source to \"%1\""
+msgstr "ສັບພະຍາກອນ"
+
+#: plugins/forms/kexidbfactory.cpp:482 plugins/forms/kexiformpart.cpp:78
 #, fuzzy
 msgid "Form"
 msgstr "ຟອມ ໃຫມ່"
@@ -4052,7 +4057,7 @@ msgstr ""
 msgid "A command button to execute actions"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:568 plugins/forms/kexiformpart.cpp:440
+#: plugins/forms/kexidbfactory.cpp:568 plugins/forms/kexiformpart.cpp:441
 #, fuzzy
 msgid "Data Source"
 msgstr "ສັບພະຍາກອນ"
@@ -4084,6 +4089,11 @@ msgstr ""
 msgid "NAME"
 msgstr ""
 
+#: plugins/forms/kexiformview.cpp:884
+#, fuzzy
+msgid "Set \"%1\" widget's data source to \"%1\""
+msgstr "ສັບພະຍາກອນ"
+
 #: plugins/forms/kexiactionselectiondialog.cpp:57
 msgid "Select Action to be executed after clicking \"%1\" button:"
 msgstr ""
@@ -4093,165 +4103,165 @@ msgstr ""
 msgid "<No Action>"
 msgstr "ທີ່ຢູ່"
 
-#: plugins/forms/kexidatasourcepage.cpp:50
+#: plugins/forms/kexidatasourcepage.cpp:53
 msgid "No data source could be assigned for this widget."
 msgstr ""
 
-#: plugins/forms/kexidatasourcepage.cpp:51
+#: plugins/forms/kexidatasourcepage.cpp:54
 msgid "No data source could be assigned for multiple widgets."
 msgstr ""
 
-#: plugins/forms/kexidatasourcepage.cpp:60
+#: plugins/forms/kexidatasourcepage.cpp:63
 msgid ""
 "_: Table Field, Query Field or Expression\n"
 "Source Field or Expression:"
 msgstr ""
 
-#: plugins/forms/kexidatasourcepage.cpp:73
+#: plugins/forms/kexidatasourcepage.cpp:76
 #, fuzzy
 msgid "Clear widget's data source"
 msgstr "ສັບພະຍາກອນ"
 
-#: plugins/forms/kexidatasourcepage.cpp:89
+#: plugins/forms/kexidatasourcepage.cpp:92
 #, fuzzy
 msgid "Form's Data Source:"
 msgstr "ສັບພະຍາກອນ"
 
-#: plugins/forms/kexidatasourcepage.cpp:102
+#: plugins/forms/kexidatasourcepage.cpp:105
 msgid "Go to selected data source"
 msgstr ""
 
-#: plugins/forms/kexidatasourcepage.cpp:112
+#: plugins/forms/kexidatasourcepage.cpp:115
 #, fuzzy
 msgid "Clear data source"
 msgstr "ສັບພະຍາກອນ"
 
-#: plugins/forms/kexidatasourcepage.cpp:124
+#: plugins/forms/kexidatasourcepage.cpp:127
 #, fuzzy
 msgid "Available Fields:"
 msgstr "ຊື່ ຕາາຕະລາງ:"
 
-#: plugins/forms/kexidatasourcepage.cpp:136
+#: plugins/forms/kexidatasourcepage.cpp:139
 msgid "Add selected field to form"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:114 plugins/forms/kexiformpart.cpp:141
+#: plugins/forms/kexiformpart.cpp:115 plugins/forms/kexiformpart.cpp:142
 #, fuzzy
 msgid "Edit Tab Order"
 msgstr "ແກ້ໄຂ ຈາກ"
 
-#: plugins/forms/kexiformpart.cpp:115
+#: plugins/forms/kexiformpart.cpp:116
 msgid "Adjust Size"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:130
+#: plugins/forms/kexiformpart.cpp:131
 msgid "Show Form UI Code"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:140
+#: plugins/forms/kexiformpart.cpp:141
 msgid "Clear Widget Contents"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:147
+#: plugins/forms/kexiformpart.cpp:148
 #, fuzzy
 msgid "Layout Widgets"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:150
+#: plugins/forms/kexiformpart.cpp:151
 msgid "&Horizontally"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:152
+#: plugins/forms/kexiformpart.cpp:153
 msgid "&Vertically"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:154
+#: plugins/forms/kexiformpart.cpp:155
 #, fuzzy
 msgid "In &Grid"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:156
+#: plugins/forms/kexiformpart.cpp:157
 msgid "Horizontally in a &Splitter"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:158
+#: plugins/forms/kexiformpart.cpp:159
 msgid "Verti&cally in a Splitter"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:161
+#: plugins/forms/kexiformpart.cpp:162
 #, fuzzy
 msgid "&Break Layout"
 msgstr "ສ້າງ ແນວສອບຖາມ"
 
-#: plugins/forms/kexiformpart.cpp:167
+#: plugins/forms/kexiformpart.cpp:168
 msgid "Bring Widget to Front"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:168
+#: plugins/forms/kexiformpart.cpp:169
 #, fuzzy
 msgid "Send Widget to Back"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:170
+#: plugins/forms/kexiformpart.cpp:171
 msgid "Align Widgets Position"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:172
+#: plugins/forms/kexiformpart.cpp:173
 #, fuzzy
 msgid "To Left"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:173
+#: plugins/forms/kexiformpart.cpp:174
 msgid "To Right"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:174
+#: plugins/forms/kexiformpart.cpp:175
 msgid "To Top"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:175
+#: plugins/forms/kexiformpart.cpp:176
 msgid "To Bottom"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:176 plugins/forms/kexiformpart.cpp:181
+#: plugins/forms/kexiformpart.cpp:177 plugins/forms/kexiformpart.cpp:182
 #, fuzzy
 msgid "To Grid"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:178
+#: plugins/forms/kexiformpart.cpp:179
 msgid "Adjust Widgets Size"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:180
+#: plugins/forms/kexiformpart.cpp:181
 #, fuzzy
 msgid "To Fit"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:182
+#: plugins/forms/kexiformpart.cpp:183
 #, fuzzy
 msgid "To Shortest"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexiformpart.cpp:183
+#: plugins/forms/kexiformpart.cpp:184
 #, fuzzy
 msgid "To Tallest"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexiformpart.cpp:184
+#: plugins/forms/kexiformpart.cpp:185
 #, fuzzy
 msgid "To Narrowest"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:185
+#: plugins/forms/kexiformpart.cpp:186
 #, fuzzy
 msgid "To Widest"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:392
+#: plugins/forms/kexiformpart.cpp:393
 msgid "Design of form \"%1\" has been modified."
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:394
+#: plugins/forms/kexiformpart.cpp:395
 msgid "Form \"%1\" already exists."
 msgstr ""
 
