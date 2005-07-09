@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-05 01:32+0200\n"
+"POT-Creation-Date: 2005-07-09 01:29+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -2709,7 +2709,7 @@ msgstr "ບໍ່ສະຫນັບສະຫນູນແບກເກນ%1"
 msgid "KDE SSL Information"
 msgstr "ຂໍ້ມູນ SSL ຂອງ KDE"
 
-#: kssl/ksslkeygen.cc:97 kssl/ksslkeygen.cc:107 misc/uiserver.cpp:1383
+#: kssl/ksslkeygen.cc:97 misc/uiserver.cpp:1383
 msgid "KDE"
 msgstr "KDE"
 
@@ -2721,6 +2721,16 @@ msgstr "ກະລຸນາກວດຂະນະທີ່ KDE ທຳການສ�
 #: kssl/ksslkeygen.cc:107
 msgid "Do you wish to store the passphrase in your wallet file?"
 msgstr ""
+
+#: kssl/ksslkeygen.cc:107
+#, fuzzy
+msgid "Store"
+msgstr "ຖະຫນົນ"
+
+#: kssl/ksslkeygen.cc:107
+#, fuzzy
+msgid "Do Not Store"
+msgstr "ບໍ່ສາມາດຫາສະຖານະຂອງສັບພະຍາກອນໄດ້"
 
 #: kssl/ksslkeygen.cc:210
 msgid "2048 (High Grade)"
@@ -3391,6 +3401,11 @@ msgstr ""
 msgid "File Changed"
 msgstr "ບັນທຶກແຟ້ມແລ້ວ"
 
+#: kioexec/main.cpp:227
+#, fuzzy
+msgid "Do Not Delete"
+msgstr "ບໍ່ມີຫຍັງທີ່ຈະລືບ"
+
 #: kioexec/main.cpp:233
 #, fuzzy
 msgid ""
@@ -3402,6 +3417,15 @@ msgstr ""
 "ມີການປ່ຽນແປງກັບເອກະສານ\n"
 "\"%1\"\n"
 "ທ່ານຕ້ອງການບັນທືກມັນຫລືບໍ่່ ?"
+
+#: kioexec/main.cpp:234
+#, fuzzy
+msgid "Upload"
+msgstr "ກຳ່ລັງອັບໂຫລດ%1"
+
+#: kioexec/main.cpp:234
+msgid "Do Not Upload"
+msgstr ""
 
 #: kioexec/main.cpp:261
 #, fuzzy
@@ -7527,9 +7551,6 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 #~ msgid "Extended Address Information"
 #~ msgstr "ຂໍ້ມູນທີ່ຢູ່ເພີ່ມເຕີມ"
 
-#~ msgid "Street"
-#~ msgstr "ຖະຫນົນ"
-
 #~ msgid "Locality"
 #~ msgstr "ຕຳແຫນ່ງທີ່ຕັ້ງ"
 
@@ -11050,9 +11071,6 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 
 #~ msgid "Creating directory %1"
 #~ msgstr "ກຳ່ລັງສ້າງໄດເຣັກເທີຣີ%1"
-
-#~ msgid "Uploading %1"
-#~ msgstr "ກຳ່ລັງອັບໂຫລດ%1"
 
 #~ msgid "Installing driver for %1"
 #~ msgstr "ກຳ່ລັງຕິດຕັ້ງໄດຣເວີສຳຫລັບ%1"

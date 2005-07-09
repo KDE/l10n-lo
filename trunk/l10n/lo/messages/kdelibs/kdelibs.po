@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-08 01:30+0200\n"
+"POT-Creation-Date: 2005-07-09 01:30+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -772,7 +772,7 @@ msgstr "ອອກ"
 msgid "&Quit"
 msgstr "&ອອກ"
 
-#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84
+#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84 kded/kbuildsycoca.cpp:781
 msgid "Reload"
 msgstr "ເອິ້ນໃຫມ່"
 
@@ -909,8 +909,10 @@ msgstr "ເຊື່ອມຕໍ່ແບບທ້ອງຖິ່ນ"
 msgid "Browse..."
 msgstr "ເອີ້ນເບິ່ງ..."
 
-#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127
-#: kdeui/kstdguiitem.cpp:257 khtml/ecma/kjs_debugwin.cpp:458
+#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127 kdeui/keditcl2.cpp:107
+#: kdeui/keditcl2.cpp:120 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:390
+#: kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469 kdeui/kstdguiitem.cpp:257
+#: khtml/ecma/kjs_debugwin.cpp:458 kutils/kreplace.cpp:319
 msgid "Stop"
 msgstr "ຢຸດ"
 
@@ -1030,8 +1032,9 @@ msgstr ""
 msgid "&Previous"
 msgstr "&ກ່ອນຫນ້າ"
 
-#: common_texts.cpp:170 kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:469 kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45
+#: common_texts.cpp:170 kcert/kcertpart.cc:730 kcert/kcertpart.cc:746
+#: kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469
+#: kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45 kutils/kreplace.cpp:49
 msgid "Replace"
 msgstr "ແທນທີ່"
 
@@ -2417,6 +2420,11 @@ msgstr "ປັບແຕ່ງຊັບພະຍາກອນ"
 #, fuzzy
 msgid "Do you want to reload KDE configuration?"
 msgstr "ທ່ານຕ້ອງການຈະທຳການພິມຕໍ່ຫລືບໍ່?"
+
+#: kded/kbuildsycoca.cpp:781
+#, fuzzy
+msgid "Do Not Reload"
+msgstr "&ບໍ່ບັນທືກ"
 
 #: kded/kbuildsycoca.cpp:964
 #, fuzzy
@@ -4470,9 +4478,17 @@ msgstr "ກະລຸນາຕື່ມຊື່:"
 msgid "Old upload information found, fill out fields?"
 msgstr ""
 
+#: knewstuff/uploaddialog.cpp:173
+msgid "Fill Out"
+msgstr ""
+
+#: knewstuff/uploaddialog.cpp:173
+msgid "Do Not Fill Out"
+msgstr ""
+
 #: knewstuff/knewstuffgeneric.cpp:133
 #, fuzzy
-msgid "The file '%1' already exists. Do you want to override it?"
+msgid "The file '%1' already exists. Do you want to overwrite it?"
 msgstr "ມີໃບຮັບຮອງຊື່ດັ່ງກ່າວຢູ່ແລ້ວທ່ານຕ້ອງການທີ່ຈະແທນທີ່ມັນຫລືບໍ່?"
 
 #: khtml/khtml_ext.cpp:798 knewstuff/knewstuffgeneric.cpp:135
@@ -4957,6 +4973,11 @@ msgstr ""
 "ການກະທຳທົ່ວໆໄປ \"%2\" ແລ້ວ\n"
 "\n"
 "ກະລຸນາເລືອກແປ້ນພິມລັດອຶ່ນໆທີ່ຍັງບໍ່ຖຶກໃຊ້"
+
+#: kdeui/kkeydialog.cpp:975
+#, fuzzy
+msgid "Reassign"
+msgstr "ລັດເຊຍ"
 
 #: kdeui/kkeydialog.cpp:1089 kdeui/kkeydialog.cpp:1101
 msgid "Configure Shortcuts"
@@ -6249,7 +6270,7 @@ msgstr ""
 "ຖ້າທ່ານກົດ 'ສົ່ງ' ຂໍ້ຄວາມເມລ໌ຈະຖືກສົ່ງໄປຍັງຜູ້ເບິ່ງແຍງໂປຣແກຣມນີ້ "
 "ແລະສົ່ງຕໍ່ໄປຍັງລາຍການຄວາມຜິດພາດທີ່ KDE"
 
-#: kdeui/kbugreport.cpp:253
+#: kdeui/kbugreport.cpp:252
 #, fuzzy
 msgid ""
 "To submit a bug report, click on the button below.\n"
@@ -6261,23 +6282,23 @@ msgstr ""
 "ເພື່ອເປີດໜ້າຕ່າງບຣາວເຊີໄປທີ່ี่ http://bugs.kde.org ຊື່ງຈະມີຟອມໃຫ້ທ່ານກຣອກ\n"
 "ແລະຂໍ້ມູນທີ່ສະແດງຢູ່ດ້ານເທິງນີ້ ຈະຖືກສົ່ງໄປທີ່ເຊີເວີດ້ວຍ"
 
-#: kdeui/kbugreport.cpp:261
+#: kdeui/kbugreport.cpp:260
 msgid "&Launch Bug Report Wizard"
 msgstr ""
 
-#: kdeui/kbugreport.cpp:299
+#: kdeui/kbugreport.cpp:298
 msgid ""
 "_: unknown program name\n"
 "unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
 
-#: kdeui/kbugreport.cpp:377
+#: kdeui/kbugreport.cpp:376
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr "ທ່ານຕ້ອງກຳນົດທັງເລື່ອງແລະລາຍລະອຽດ ບໍ່ສະນັ້ນຈະບໍ່ສາມາດສົ່ງລາຍງານນັ້ນໄດ"
 
-#: kdeui/kbugreport.cpp:387
+#: kdeui/kbugreport.cpp:386
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6298,7 +6319,7 @@ msgstr ""
 "<p>ຂໍ້ຜິດພາດທີ່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສຍຫາຍຫຼາຍຕໍ່ທ່ານຫຼືບໍ?ຖ້າບໍ່ແມ່ນກະລຸນາເລືອກ"
 "ລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ ຂອບໃຈ!</p>"
 
-#: kdeui/kbugreport.cpp:398
+#: kdeui/kbugreport.cpp:397
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6319,7 +6340,7 @@ msgstr ""
 "<p>ຂໍ້ຜິດພາດທີ່່ທ່ານລາຍງານນີ້ສ້າງຄວາມເສີຍຫາຍຢ່າງຫຼາຍຕໍ່ທ່ານຫຼືບໍ່?ຖ້າບໍ່ມີກະລຸນາ"
 "ເລືອກລະດັບການກວດຂັນທີ່ຕຳ່ກ່ວານີ້ຂອບໃຈ!</p>"
 
-#: kdeui/kbugreport.cpp:410
+#: kdeui/kbugreport.cpp:409
 msgid ""
 "Unable to send the bug report.\n"
 "Please submit a bug report manually...\n"
@@ -6329,11 +6350,11 @@ msgstr ""
 "ກະລຸນາລາຍງານຄວາມຜິດພາດດ້ວຍຕົວທ່ານເອງ...\n"
 "ກະລຸນາເບີ່ງຄຳແນະນຳທີ່ http://bugs.kde.org/"
 
-#: kdeui/kbugreport.cpp:419
+#: kdeui/kbugreport.cpp:417
 msgid "Bug report sent, thank you for your input."
 msgstr "ລາຍງານຄວາມຜິດພາດຖືກສົ່ງໄປແລ້ວ ຂໍຂອບໃຈທີ່ສະລະເລວາໃຫ້ຂໍ້ມູນ"
 
-#: kdeui/kbugreport.cpp:428
+#: kdeui/kbugreport.cpp:426
 msgid ""
 "Close and discard\n"
 "edited message?"
@@ -6341,7 +6362,7 @@ msgstr ""
 "ປິດແລະບໍເອົາ\n"
 "ຂໍ້ຄສວາມທີ່ແກ້ໄຂຫຼືບໍ?"
 
-#: kdeui/kbugreport.cpp:429
+#: kdeui/kbugreport.cpp:427
 #, fuzzy
 msgid "Close Message"
 msgstr "ປິດຂໍ້ຄວາມ"
@@ -7258,7 +7279,7 @@ msgstr ""
 "<qt>ຟອມນີ້ຈະຖືກສົ່ງໄປຍັງ<BR><B>%1</B><BR>ເທິງລະບົບແຟ້ມພາຍໃນຂອງທ່ານ<BR> "
 "ທ່ານຕ້ອງການທີ່ຈະສົ່ງຂໍ້ມູນຟອມນີ້ຫລືບໍ່?"
 
-#: khtml/html/html_formimpl.cpp:1470 khtml/khtml_part.cpp:4777
+#: khtml/html/html_formimpl.cpp:1469 khtml/khtml_part.cpp:4777
 #: khtml/khtmlview.cpp:2408 khtml/khtmlview.cpp:2450
 #: khtml/rendering/render_form.cpp:296
 msgid "Submit"
@@ -7508,6 +7529,16 @@ msgstr ""
 "\n"
 "ທ່ານຈະອະນຸຍາດຫລືບໍ່ ?"
 
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Allow"
+msgstr "ທັ້ງຫມົດ"
+
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Do Not Allow"
+msgstr "&ນຳເຂົ້າທັງຫມົດ"
+
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Close window?"
 msgstr "ປິດຫນ້າຕ່າງຫລືບໍ່ ?"
@@ -7515,6 +7546,11 @@ msgstr "ປິດຫນ້າຕ່າງຫລືບໍ່ ?"
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Confirmation Required"
 msgstr "ຕ້ອງການການຢື່ືນຢັນ"
+
+#: khtml/ecma/kjs_window.cpp:1563
+#, fuzzy
+msgid "Do Not Close"
+msgstr "&ບໍ່ບັນທືກ"
 
 #: khtml/ecma/kjs_window.cpp:2326
 msgid ""
@@ -7624,8 +7660,18 @@ msgid "Save Login Information"
 msgstr "ກຳລັງສົ່ງຂໍ້ມູນການລັອກອິນ"
 
 #: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Store"
+msgstr "ຖະຫນົນ"
+
+#: khtml/html/html_formimpl.cpp:610
 msgid "Ne&ver for This Site"
 msgstr ""
+
+#: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Do Not Store"
+msgstr "&ບໍ່ບັນທືກ"
 
 #: khtml/html/html_formimpl.cpp:614
 msgid ""
@@ -7808,6 +7854,16 @@ msgstr ""
 #: khtml/rendering/render_frames.cpp:824
 msgid "Missing Plugin"
 msgstr "ບໍ່ພົບປລັກອິນ"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Download"
+msgstr "ຍ້າຍລົງ"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Do Not Download"
+msgstr "ຍ້າຍລົງ"
 
 #: kinit/kinit.cpp:440
 msgid ""
@@ -8367,6 +8423,10 @@ msgstr "ທ່ານຕ້ອງການເລີ້ມການຄົ້ນຫ
 msgid "Do you want to restart search at the beginning?"
 msgstr "ທ່ານຕ້ອງການເລີ້ມການຄົ້ນຫາໂດຍເລີ້ມຈາກຕອນຕົ້ນໃຫມ່ຫລືບໍ່ ?"
 
+#: kutils/kreplace.cpp:319
+msgid "Restart"
+msgstr "ເລີ່ມທຳງານໃຫມ່"
+
 #: kutils/kpluginselector.cpp:111
 msgid ""
 "<qt>"
@@ -8798,6 +8858,11 @@ msgstr "ບໍ່ພົບແຟ້ມ \"%1\" ທ່ານຕ້ອງການ�
 msgid "No Such File"
 msgstr "ບໍ່ມີແຟ້ມ"
 
+#: kab/addressbook.cc:625
+#, fuzzy
+msgid "Create"
+msgstr "ສ້າງເມື່ອ:"
+
 #: kab/addressbook.cc:629
 msgid "New file."
 msgstr "ແຟ້ມໃຫມ່"
@@ -9130,6 +9195,10 @@ msgstr "ລະຫັດຜ່ານໃບຮັບຮອງ"
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
 msgstr "ບໍ່ສາມາດເອີ້ນໃຊ້ແຟ້ມໃບຮັບຮອງໄດ້ ລອງໃຫມ່ໂດຍໃຊ້ລະຫັດຜ່ານອື່ນຫລືບໍ່ ?"
+
+#: kcert/kcertpart.cc:496
+msgid "Try Different"
+msgstr ""
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
 msgid "This file cannot be opened."
@@ -13265,9 +13334,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 #~ msgid "Points to:"
 #~ msgstr "ຊີ້ໄປຍັງ:"
 
-#~ msgid "Created:"
-#~ msgstr "ສ້າງເມື່ອ:"
-
 #~ msgid "Accessed:"
 #~ msgstr "ເຂົ້າໃຊ້ເມື່ອ:"
 
@@ -15551,9 +15617,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 
 #~ msgid "Resume"
 #~ msgstr "ທຳງານທີ່ຄ້າງໄວ້"
-
-#~ msgid "Restart"
-#~ msgstr "ເລີ່ມທຳງານໃຫມ່"
 
 #~ msgid "Move to %1"
 #~ msgstr "ຍ້າຍໄປຍັງ%1"
