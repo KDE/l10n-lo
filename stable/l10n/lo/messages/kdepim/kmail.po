@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-08 06:49+0200\n"
+"POT-Creation-Date: 2005-07-09 07:12+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -3608,7 +3608,7 @@ msgstr "ການກະທຳເມື່ອກອງ"
 msgid "Which name shall the contact '%1' have in your addressbook?"
 msgstr ""
 
-#: kmaccount.cpp:44 kmaccount.cpp:357 kmsender.cpp:463
+#: kmaccount.cpp:44 kmaccount.cpp:357 kmsender.cpp:465
 #, c-format
 msgid "Executing precommand %1"
 msgstr "ກຳລັງປະມວນຜົນຄຳສັງ%1"
@@ -4694,7 +4694,7 @@ msgid "Save Attachment As"
 msgstr "ສະແດງສິ່ງທີ່ແນບມາດ້ວຍແບບເບີ່ງງ່າຍ"
 
 #: kmcomposewin.cpp:3393 kmfilterdlg.cpp:534 kmfolderdia.cpp:260
-#: kmfolderdia.cpp:579 kmfoldertree.cpp:1452
+#: kmfolderdia.cpp:581 kmfoldertree.cpp:1452
 msgid "unnamed"
 msgstr "ຍັງບໍ່ມີຊື່"
 
@@ -5914,7 +5914,7 @@ msgstr "&ໃຫ້ຈົດໝາຍເກົ່າໃນໂພນເດີນ�
 msgid "All Readers of This Folder"
 msgstr "&ໃຫ້ຈົດໝາຍເກົ່າໃນໂພນເດີນີ້ໝົດອາຍຸ"
 
-#: kmfolderdia.cpp:534
+#: kmfolderdia.cpp:536
 msgid ""
 "You have configured this folder to contain groupware information and the "
 "general configuration option to hide groupware folders is set. That means that "
@@ -8141,7 +8141,7 @@ msgstr ""
 msgid "Cannot add message to outbox folder"
 msgstr "ບໍ່ສາມາດເພີ່ມຈົດຫມາຍໄປຍັງກັບຈົດຫມາຍອອກໄດ້"
 
-#: kmsender.cpp:331
+#: kmsender.cpp:333
 msgid ""
 "Critical error: Unable to process sent mail (out of space?)Moving failing "
 "message to \"sent-mail\" folder."
@@ -8149,7 +8149,7 @@ msgstr ""
 "ຂໍ້ຜິດພາດຮ້າຍແຮງ:ບໍ່ສາມາດທຳການສົ່ງຈົດຫມາຍ (ພື້ນທີ່ເຕັມຫລືບໍ່ ?) "
 "ກຳລັງຍ້າຍຈົດຫມາຍທີ່ຜິດພາດໄປຍັງໂຟເດີ \" ຈົດຫມາຍທີ່ສົ່ງ \""
 
-#: kmsender.cpp:341
+#: kmsender.cpp:343
 msgid ""
 "Moving the sent message \"%1\" from the \"outbox\" to the \"sent-mail\" folder "
 "failed.\n"
@@ -8160,14 +8160,14 @@ msgstr ""
 "ໄປຫາ\"ຈົດໝາຍທີ່ຈະສົ່ງ\" ໂຟເດີຣຜິດພາດ.\n"
 "ແປງບັນຫາແລະການຍ້າຍຈົດໝາຍ"
 
-#: kmsender.cpp:387
+#: kmsender.cpp:389
 msgid ""
 "It's not possible to send messages without specifying a sender address.\n"
 "Please set the email address of identity '%1' in the Identities section of the "
 "configuration dialog and then try again."
 msgstr ""
 
-#: kmsender.cpp:409
+#: kmsender.cpp:411
 #, fuzzy, c-format
 msgid ""
 "_n: %n queued message successfully sent.\n"
@@ -8176,37 +8176,37 @@ msgstr ""
 "ສົ່ງໄປໄວ້ໃນຄິດແລ້ວ %\n"
 " ສະບັບ"
 
-#: kmsender.cpp:412
+#: kmsender.cpp:414
 #, fuzzy
 msgid "%1 of %2 queued messages successfully sent."
 msgstr ""
 "ສົ່ງໄປໄວ້ໃນຄິດແລ້ວ %\n"
 " ສະບັບ"
 
-#: kmsender.cpp:427
+#: kmsender.cpp:429
 #, fuzzy
 msgid "Sending messages"
 msgstr "เซ็นต์จดหมาย"
 
-#: kmsender.cpp:428
+#: kmsender.cpp:430
 msgid "Initiating sender process..."
 msgstr "ເລີ່ມທຳການປະມວນຜົນໃນການສົ່ງ..."
 
-#: kmsender.cpp:493
+#: kmsender.cpp:495
 msgid "Unrecognized transport protocol. Unable to send message."
 msgstr "ບໍ່ສາມາດຈັດການໂປໂຕຄອນສົ່ງຖາຍ່ຂໍ້ມູນໄດ້ເຮັດໃຫ້ບໍີ່ສາມາດສົ່ງຈົດມໝາຍໄດ້"
 
-#: kmsender.cpp:511
+#: kmsender.cpp:513
 msgid ""
 "_: %3: subject of message\n"
 "Sending message %1 of %2: %3"
 msgstr "ກຳລັງສົ່ງຈົດຫມາຍ %1 ຈາກ %2  %3"
 
-#: kmsender.cpp:520
+#: kmsender.cpp:522
 msgid "Failed to send (some) queued messages."
 msgstr "ຜິດພາດໃນການສົ່ງຈົດຫມາຍໄປຍັງບາງຄິວ"
 
-#: kmsender.cpp:596
+#: kmsender.cpp:598
 #, fuzzy
 msgid ""
 "Sending aborted:\n"
@@ -8226,12 +8226,12 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:604 kmsender.cpp:642
+#: kmsender.cpp:606 kmsender.cpp:644
 #, fuzzy
 msgid "Sending aborted."
 msgstr "ສົ່ງພາຍຫລັງ"
 
-#: kmsender.cpp:615
+#: kmsender.cpp:617
 #, fuzzy
 msgid ""
 "<p>Sending failed:</p>"
@@ -8252,22 +8252,22 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:625
+#: kmsender.cpp:627
 #, fuzzy
 msgid "Continue Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:625
+#: kmsender.cpp:627
 #, fuzzy
 msgid "&Continue Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:626
+#: kmsender.cpp:628
 #, fuzzy
 msgid "&Abort Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:628
+#: kmsender.cpp:630
 #, fuzzy
 msgid ""
 "Sending failed:\n"
@@ -8287,11 +8287,11 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:846
+#: kmsender.cpp:848
 msgid "Please specify a mailer program in the settings."
 msgstr "ກະລຸນາລະບຸໂປຣແກຣມສົ່ງຈົດໝາຍໃນສ່ວນການຕັ້ງຄ່າກອ່ນ"
 
-#: kmsender.cpp:848
+#: kmsender.cpp:850
 msgid ""
 "Sending failed:\n"
 "%1\n"
@@ -8310,16 +8310,16 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:921
+#: kmsender.cpp:923
 #, fuzzy, c-format
 msgid "Failed to execute mailer program %1"
 msgstr "ຜິດພາດໃນການປະມວນຜົນໂປຣແກຣມສົ່ງຈົດໝາຍ"
 
-#: kmsender.cpp:974
+#: kmsender.cpp:976
 msgid "Sendmail exited abnormally."
 msgstr "ສົ່ງຈົດໝາຍ ຈົບການທຳງານແບບບໍ່ປົກກະຕິ"
 
-#: kmsender.cpp:1075
+#: kmsender.cpp:1077
 #, fuzzy
 msgid "You need to supply a username and a password to use this SMTP server."
 msgstr ""
