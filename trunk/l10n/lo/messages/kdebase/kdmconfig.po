@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2005-06-19 01:28+0200\n"
+"POT-Creation-Date: 2005-07-10 01:31+0200\n"
 "PO-Revision-Date: 2003-01-13 17:04+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -28,15 +28,11 @@ msgstr ""
 "running some program (possibly xsetroot) in the script specified in the Setup= "
 "option in kdmrc (usually Xsetup)."
 
-#: kdm-appear.cpp:71 kdm-appear.cpp:73 kdm-users.cpp:83
-msgid "<default>"
-msgstr "<ຄ່າປະລິຍາຍ>"
-
-#: kdm-appear.cpp:112
+#: kdm-appear.cpp:71
 msgid "&Greeting:"
 msgstr "&ຂໍ້ຄວາມຕ້ອນຮັບ:"
 
-#: kdm-appear.cpp:117
+#: kdm-appear.cpp:76
 msgid ""
 "This is the \"headline\" for KDM's login window. You may want to put some nice "
 "greeting or information about the operating system here."
@@ -53,35 +49,35 @@ msgid ""
 "<li>%% -> a single %</li></ul>"
 msgstr ""
 
-#: kdm-appear.cpp:136
+#: kdm-appear.cpp:95
 msgid "Logo area:"
 msgstr "ພື້ນທີ່ສະແດງໂລໂກ:"
 
-#: kdm-appear.cpp:140
+#: kdm-appear.cpp:99
 msgid ""
 "_: logo area\n"
 "&None"
 msgstr ""
 
-#: kdm-appear.cpp:141
+#: kdm-appear.cpp:100
 msgid "Show cloc&k"
 msgstr "ສະແດງໂມງ"
 
-#: kdm-appear.cpp:142
+#: kdm-appear.cpp:101
 msgid "Sho&w logo"
 msgstr "ສະແດງໂລໂກ"
 
-#: kdm-appear.cpp:154
+#: kdm-appear.cpp:113
 msgid ""
 "You can choose to display a custom logo (see below), a clock or no logo at all."
 msgstr ""
 "ທ່ານສາມາດເລືອກໃຫ້ສະແດງໂລໂກທີ່ກຳນົດ (ເບິ່ງດ້ານລຸ່ມນີ້), ສະແດງໂມງ ຫລືບໍ່ມີໂລໂກເລຍ"
 
-#: kdm-appear.cpp:160
+#: kdm-appear.cpp:119
 msgid "&Logo:"
 msgstr "ໂລໂກ:"
 
-#: kdm-appear.cpp:170
+#: kdm-appear.cpp:129
 msgid ""
 "Click here to choose an image that KDM will display. You can also drag and drop "
 "an image onto this button (e.g. from Konqueror)."
@@ -89,19 +85,19 @@ msgstr ""
 "ຄລີກທີ່ນີ້ເພື່ອເລືອກພາບທີ່ຈະໃຊ້ KDM ສະແດງຜົນ "
 "ທ່ານສາມາດໃຊ້ວິທີລາກແລະວາງພາບມາຫາປຸ່ມນີ້ໄດ້ (ເຊັ່ນ ລາກມາຈາກຄອນເຄີເຣີ)"
 
-#: kdm-appear.cpp:182
+#: kdm-appear.cpp:141
 msgid "Position:"
 msgstr "ຕຳແຫນ່ງ:"
 
-#: kdm-appear.cpp:185
+#: kdm-appear.cpp:144
 msgid "&X:"
 msgstr "ຕຳແຫນ່ງ X"
 
-#: kdm-appear.cpp:192
+#: kdm-appear.cpp:151
 msgid "&Y:"
 msgstr "ຕຳແຫນ່ງ Y"
 
-#: kdm-appear.cpp:199
+#: kdm-appear.cpp:158
 #, fuzzy
 msgid ""
 "Here you specify the relative coordinates (in percent) of the login dialog's "
@@ -109,52 +105,56 @@ msgid ""
 msgstr ""
 "ທ່ານສາມາດກຳນົດໃຫ້ກ່ອງໂຕ້ຕອບການລັອກອິນ ສະແດງຜົນ <em>ກາງ</em>ຕຳແຫນ່ງທີ່ກຳນົດໄດ້"
 
-#: kdm-appear.cpp:215
+#: kdm-appear.cpp:173 kdm-appear.cpp:185 kdm-users.cpp:83
+msgid "<default>"
+msgstr "<ຄ່າປະລິຍາຍ>"
+
+#: kdm-appear.cpp:175
 msgid "GUI s&tyle:"
 msgstr "ສະແດງຜົນແບບ:"
 
-#: kdm-appear.cpp:219
+#: kdm-appear.cpp:179
 msgid "You can choose a basic GUI style here that will be used by KDM only."
 msgstr "ທ່ານສາມາດເລືອກຮູບແບບການສະແດງຜົນໄດ້ທີ່ນີ້ໂດຍຈະຖືກໃຊ້ກັບ KDM ເທົ່ານັ້ນ"
 
-#: kdm-appear.cpp:226
+#: kdm-appear.cpp:187
 msgid "&Color scheme:"
 msgstr "ສີທີ&1:"
 
-#: kdm-appear.cpp:230
+#: kdm-appear.cpp:191
 msgid "You can choose a basic Color Scheme here that will be used by KDM only."
 msgstr "ທ່ານສາມາດເລືອກຮູບແບບການສະແດງຜົນໄດ້ທີ່ນີ້ໂດຍຈະຖືກໃຊ້ກັບ KDM ເທົ່ານັ້ນ"
 
-#: kdm-appear.cpp:235
-msgid "Echo &mode:"
-msgstr "ສະແດງປຸ່ມທີ່ພິມ:"
-
-#: kdm-appear.cpp:238
+#: kdm-appear.cpp:197
 msgid "No Echo"
 msgstr "ບໍ່ສະແດງ"
 
-#: kdm-appear.cpp:239
+#: kdm-appear.cpp:198
 msgid "One Star"
 msgstr "ດອກຈັນ 1 ຕົວ"
 
-#: kdm-appear.cpp:240
+#: kdm-appear.cpp:199
 msgid "Three Stars"
 msgstr "ດອກຈັນ 3 ຕົວ"
 
-#: kdm-appear.cpp:244
+#: kdm-appear.cpp:200
+msgid "Echo &mode:"
+msgstr "ສະແດງປຸ່ມທີ່ພິມ:"
+
+#: kdm-appear.cpp:204
 msgid ""
 "You can choose whether and how KDM shows your password when you type it."
 msgstr "ທ່ານສາມາດເລືອກວ່າຈະໃຫ້ KDM ສະແດງລະຫັດຜ່ານທີ່ທ່ານພິມຢ່າງໃດ"
 
-#: kdm-appear.cpp:250
+#: kdm-appear.cpp:210
 msgid "Locale"
 msgstr "ພາສາທ້ອງຸຸຖິ່ນ"
 
-#: kdm-appear.cpp:256
+#: kdm-appear.cpp:216
 msgid "Languag&e:"
 msgstr "ພາສາ:"
 
-#: kdm-appear.cpp:261
+#: kdm-appear.cpp:221
 #, fuzzy
 msgid ""
 "Here you can choose the language used by KDM. This setting does not affect a "
@@ -164,11 +164,11 @@ msgstr ""
 "ໄດ້ທີ່ນີ້ໍຊຶ່ງຈະບໍ່ມີຜົນກັບການປັບແຕ່ງສ່ວນຕົວຂອງທ່ານ "
 "(ການປັບແຕ່ງສ່ວນຕົວຈະມີຜົນເມື່ອຜ່ານຂະບວນການລັອກອິນ)"
 
-#: kdm-appear.cpp:302
+#: kdm-appear.cpp:262
 msgid "without name"
 msgstr "ບໍ່ໃສ່ຊື່"
 
-#: kdm-appear.cpp:445
+#: kdm-appear.cpp:403
 msgid ""
 "There was an error loading the image:\n"
 "%1\n"
@@ -178,12 +178,12 @@ msgstr ""
 "%1\n"
 "ມັນຈະບໍ່ຖືກບັນທຶກ..."
 
-#: kdm-appear.cpp:487 kdm-appear.cpp:536
+#: kdm-appear.cpp:443 kdm-appear.cpp:486
 #, c-format
 msgid "Welcome to %s at %n"
 msgstr "ຍິນດີຕ້ອນຮັບສູ່ %s ເທິງເຄື່ອງ %n"
 
-#: kdm-appear.cpp:552
+#: kdm-appear.cpp:502
 msgid ""
 "<h1>KDM - Appearance</h1> Here you can configure the basic appearance of the "
 "KDM login manager, i.e. a greeting string, an icon etc."
@@ -235,34 +235,34 @@ msgstr ""
 "ຫາກທ່ານຄຸນເລືອກໃຊ້ຕົວເລືອກນີ້ແລະເຊີບເວີ X ມີສ່ວນຂະຫຍາຍ Xft "
 "ຈະເຮັດໃຫ້ຕົວອັກສອນທີ່ສະແດງເທິງກ່ອງການ ລັອກອິນ ສະແດງຜົນແບບບໍ່ມີຮອຍຢັກ"
 
-#: kdm-sess.cpp:48
+#: kdm-shut.cpp:49
 msgid "Allow Shutdown"
 msgstr "ການອະນຸຍາດໃຫ້ເປີດເຄື່ອງ"
 
-#: kdm-sess.cpp:51
+#: kdm-shut.cpp:52
 #, fuzzy
 msgid "&Local:"
 msgstr "ພາສາທ້ອງຸຸຖິ່ນ"
 
-#: kdm-sess.cpp:52 kdm-sess.cpp:58
+#: kdm-shut.cpp:53 kdm-shut.cpp:59
 msgid "Everybody"
 msgstr "ອະນຸຍາດທຸກຄົນ"
 
-#: kdm-sess.cpp:53 kdm-sess.cpp:59
+#: kdm-shut.cpp:54 kdm-shut.cpp:60
 #, fuzzy
 msgid "Only Root"
 msgstr "ສະເພາະ root ເທົ່ານັ້ນ"
 
-#: kdm-sess.cpp:54 kdm-sess.cpp:60
+#: kdm-shut.cpp:55 kdm-shut.cpp:61
 msgid "Nobody"
 msgstr "ບໍ່ອະນຸຍາດໃຫ້ເລຍ"
 
-#: kdm-sess.cpp:57
+#: kdm-shut.cpp:58
 #, fuzzy
 msgid "&Remote:"
 msgstr "ຈາກໄລຍະໄກ:"
 
-#: kdm-sess.cpp:62
+#: kdm-shut.cpp:63
 msgid ""
 "Here you can select who is allowed to shutdown the computer using KDM. You can "
 "specify different values for local (console) and remote displays. Possible "
@@ -283,41 +283,50 @@ msgstr ""
 "<li><em>ບໍ່ອະນຸຍາດເລຍ:</em> ບໍ່ອະນຸຍາດໃຫ້ຜູ້ໃດສາມາດສັ່ງປິດເຄື່ອງຜ່ານທາງ KDM "
 "ໄດ້</li></ul>"
 
-#: kdm-sess.cpp:70
+#: kdm-shut.cpp:71
 msgid "Commands"
 msgstr "ຄຳສັ່ງ"
 
-#: kdm-sess.cpp:73
+#: kdm-shut.cpp:74
 #, fuzzy
 msgid "H&alt:"
 msgstr "ປິດເຄື່ອງ:"
 
-#: kdm-sess.cpp:76
+#: kdm-shut.cpp:77
 msgid "Command to initiate the system halt. Typical value: /sbin/halt"
 msgstr "ຄຳສັ່ງທີ່ໃຊ້ສັ່ງໃຫ້ລະບົບທຳການປິດເຄື່ອງໂດຍທົ່ວໄປຈະເປັນ: /sbin/halt"
 
-#: kdm-sess.cpp:81
+#: kdm-shut.cpp:82
 #, fuzzy
 msgid "Reb&oot:"
 msgstr "ບູດເຄື່ອງໃຫມ່:"
 
-#: kdm-sess.cpp:84
+#: kdm-shut.cpp:85
 msgid "Command to initiate the system reboot. Typical value: /sbin/reboot"
 msgstr ""
 "ຄຳສັ່ງທີ່ໃຊ້ສັ່ງໃຫ້ລະບົບທຳການບູດເຄື່ອງໃຫມ່ ໂດຍທົ່ວໄປຈະເປັນ: /sbin/reboot"
 
-#: kdm-sess.cpp:90
-msgid "LILO"
-msgstr "LILO"
+#: kdm-shut.cpp:93
+msgid ""
+"_: boot manager\n"
+"None"
+msgstr ""
 
-#: kdm-sess.cpp:92
-#, fuzzy
-msgid "Sho&w boot options"
-msgstr "ສະແດງຕົວເລືອກການບູດ"
+#: kdm-shut.cpp:94
+msgid "Grub"
+msgstr ""
 
-#: kdm-sess.cpp:95
+#: kdm-shut.cpp:96
+msgid "Lilo"
+msgstr ""
+
+#: kdm-shut.cpp:98
+msgid "Boot Manager:"
+msgstr ""
+
+#: kdm-shut.cpp:100
 #, fuzzy
-msgid "Enable LILO boot options in the \"Shutdown...\" dialog."
+msgid "Enable boot options in the \"Shutdown...\" dialog."
 msgstr "ເປິດໃຊ້ຕົວເລືອກການບູດຂອງ Lilo ໃນກ່ອງ \"ປິດເຄື່ອງ ...\""
 
 #: kdm-users.cpp:81
@@ -667,7 +676,7 @@ msgstr "โมดูลปรับแต่งตัวจัดการกา
 
 #: main.cpp:90
 #, fuzzy
-msgid "(c) 1996 - 2002 The KDM Authors"
+msgid "(c) 1996 - 2005 The KDM Authors"
 msgstr "(c) 1996 - 2001 กลุ่มผู้เขียน KDM"
 
 #: main.cpp:92
@@ -764,6 +773,13 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "donga_n@yahoo.com"
+
+#~ msgid "LILO"
+#~ msgstr "LILO"
+
+#, fuzzy
+#~ msgid "Sho&w boot options"
+#~ msgstr "ສະແດງຕົວເລືອກການບູດ"
 
 #~ msgid "&None"
 #~ msgstr "ບໍ່ສະແດງເລີຍ"

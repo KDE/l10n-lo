@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-09 01:37+0200\n"
+"POT-Creation-Date: 2005-07-10 01:37+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -1106,7 +1106,7 @@ msgstr "&ເພີ່ມ..."
 msgid "&Modify..."
 msgstr "&ແກ້ໄຂ..."
 
-#: configuredialog.cpp:303 kmfldsearch.cpp:212
+#: configuredialog.cpp:303 searchwindow.cpp:210
 msgid "&Rename"
 msgstr "&ປ່ັຽນຊື່..."
 
@@ -1294,8 +1294,8 @@ msgstr ""
 msgid "Incoming accounts (add at least one):"
 msgstr "ບັນຊີຜູ້ໃຊ້ຮັບຈົດຫມາຍ(ຕ້ອງມີຢ່າງຫນ້ອຍຫນື່ງບັນຊີຜູ້ໃຊ้້ !)"
 
-#: configuredialog.cpp:1052 kmfldsearch.cpp:187 kmfolderseldlg.cpp:53
-#: kmfoldertree.cpp:324
+#: configuredialog.cpp:1052 kmfolderseldlg.cpp:53 kmfoldertree.cpp:324
+#: searchwindow.cpp:185
 msgid "Folder"
 msgstr "ໂຟນເດີ້"
 
@@ -2852,7 +2852,7 @@ msgid ""
 msgstr ""
 
 #: filterlogdlg.cpp:262 kmcommands.cpp:2398 kmcommands.cpp:2418
-#: kmmainwidget.cpp:1527 kmmainwidget.cpp:1544 urlhandlermanager.cpp:430
+#: kmmainwidget.cpp:1528 kmmainwidget.cpp:1545 urlhandlermanager.cpp:430
 msgid "KMail Error"
 msgstr "ຂໍິຜິດພາດຂອງ Kmail"
 
@@ -3930,7 +3930,7 @@ msgstr "ການກະທຳເມື່ອກອງ"
 msgid "Which name shall the contact '%1' have in your addressbook?"
 msgstr ""
 
-#: kmaccount.cpp:44 kmaccount.cpp:356 kmsender.cpp:493
+#: kmaccount.cpp:44 kmaccount.cpp:356 kmsender.cpp:497
 #, c-format
 msgid "Executing precommand %1"
 msgstr "ກຳລັງປະມວນຜົນຄຳສັງ%1"
@@ -5694,165 +5694,6 @@ msgstr ""
 msgid "<b>Filter rules have matched.</b>"
 msgstr "ກົດການກອງ"
 
-#: kmfldsearch.cpp:68
-#, fuzzy
-msgid "Find Messages"
-msgstr "&ຄົ້ນຫາຈົດໝາຍ..."
-
-#: kmfldsearch.cpp:70 searchjob.cpp:239
-msgid "&Search"
-msgstr "ຄົ້ນ&ຫາ"
-
-#: kmfldsearch.cpp:71
-msgid "S&top"
-msgstr "&ຢຸດ"
-
-#: kmfldsearch.cpp:98
-msgid "Search in &all local folders"
-msgstr "ຄົ້ນຫາໃນໂຟເດີພາຍໃນ&ທັງໝົດ"
-
-#: kmfldsearch.cpp:103
-msgid "Search &only in:"
-msgstr "ຄົ້ນຫາ&ສະເພາະໃນ:"
-
-#: kmfldsearch.cpp:114
-msgid "I&nclude sub-folders"
-msgstr "&ລວມໂຟເດີຍ່ອຍດ້ວຍ"
-
-#: kmfldsearch.cpp:181 kmheaders.cpp:174 kmheaders.cpp:743 kmheaders.cpp:2447
-#: kmpopfiltercnfrmdlg.cpp:39
-msgid "Subject"
-msgstr "ເລື່ອງ"
-
-#: kmfldsearch.cpp:183
-msgid "Sender/Receiver"
-msgstr "ຜູ້ສົ່ງ/ຜູ້ຮັບ"
-
-#: kmfldsearch.cpp:185 kmheaders.cpp:176 kmheaders.cpp:738 kmheaders.cpp:2442
-#: kmpopfiltercnfrmdlg.cpp:41
-msgid "Date"
-msgstr "ວັນທີ"
-
-#: kmfldsearch.cpp:202
-#, fuzzy
-msgid "Search folder &name:"
-msgstr "ຊື່ເ&ຊີຟເວີຣ໌:"
-
-#: kmfldsearch.cpp:208 kmfldsearch.cpp:421 kmfldsearch.cpp:565
-#: kmkernel.cpp:1308
-#, fuzzy
-msgid "Last Search"
-msgstr "ຄົ້ນ&ຫາ"
-
-#: kmfldsearch.cpp:215
-#, fuzzy
-msgid "Op&en"
-msgstr "&ເປີດ"
-
-#: kmfldsearch.cpp:225
-msgid "AMiddleLengthText..."
-msgstr "ຄວາມຍາວຂອງຖ້ອຍຄຳທາງກາງ.."
-
-#: kmfldsearch.cpp:226
-msgid "Ready."
-msgstr "ພ້ອມ"
-
-#: kmfldsearch.cpp:261 kmmainwidget.cpp:2446 kmreadermainwin.cpp:267
-msgid "&Reply..."
-msgstr "ຕອ&ບກັບ..."
-
-#: kmfldsearch.cpp:263 kmmainwidget.cpp:2456 kmreadermainwin.cpp:277
-msgid "Reply to &All..."
-msgstr "ຕອລກັບ&ທັງໝົດ..."
-
-#: kmfldsearch.cpp:266 kmmainwidget.cpp:2461 kmreadermainwin.cpp:282
-msgid "Reply to Mailing-&List..."
-msgstr "ກອງເທີງລາຍການ&ຈົດໝາຍວຽນ..."
-
-#: kmfldsearch.cpp:270 kmmainwidget.cpp:2420 kmreadermainwin.cpp:239
-msgid ""
-"_: Message->\n"
-"&Forward"
-msgstr "ສົ່ງຕໍ່&ແລ້ວ"
-
-#: kmfldsearch.cpp:275 kmmainwidget.cpp:2431 kmreadermainwin.cpp:245
-msgid "&Inline..."
-msgstr "ແຊກ&ແຟ້ມ..."
-
-#: kmfldsearch.cpp:279 kmmainwidget.cpp:2426 kmreadermainwin.cpp:250
-msgid ""
-"_: Message->Forward->\n"
-"As &Attachment..."
-msgstr "ສົ່ງຕໍ່ແບ&ບແຟ້ມແນບ"
-
-#: kmfldsearch.cpp:285 kmreadermainwin.cpp:371
-#, fuzzy
-msgid "Save Attachments..."
-msgstr "&ບັນທືກເອກະສານທີ່ແນບມາ"
-
-#: kmfldsearch.cpp:289
-#, fuzzy
-msgid "Clear Selection"
-msgstr "ການກະທຳເມື່ອກອງ"
-
-#: kmfldsearch.cpp:345
-msgid "Done"
-msgstr "ຮຽບຮ້ອຍແລ້ວ"
-
-#: kmfldsearch.cpp:346
-#, fuzzy
-msgid ""
-"_n: %n match (%1)\n"
-"%n matches (%1)"
-msgstr ""
-"ພົບທັງສິ້ນ %n \n"
-"ທີ่່ (%1)"
-
-#: kmfldsearch.cpp:348 kmfldsearch.cpp:354
-#, fuzzy, c-format
-msgid ""
-"_n: %n message processed\n"
-"%n messages processed"
-msgstr ""
-"_n ປະມວນຜົນແລ້ວ \n"
-"  ສະບັບ %n"
-
-#: kmfldsearch.cpp:350
-msgid "Search canceled"
-msgstr "ຍົກເລີກການຄົ້ນຫາແລ້ວ"
-
-#: kmfldsearch.cpp:352
-#, fuzzy
-msgid ""
-"_n: %n match so far (%1)\n"
-"%n matches so far (%1)"
-msgstr ""
-"ພົບທັງສິ້ນ %n ແຫ່ງ(%1) \n"
-"ພົບທັງສິ້ນ %n ແຫ່ງ(%1)"
-
-#: kmfldsearch.cpp:357
-#, fuzzy, c-format
-msgid ""
-"_n: %n match\n"
-"%n matches"
-msgstr ""
-"ພົບທັງສິ້ນ %n ທີ່ \n"
-"ພົບທັງສິ້ນ %n ທີ່ "
-
-#: kmfldsearch.cpp:358
-msgid "Searching in %1 (message %2)"
-msgstr "ກຳລັງຄົ້ນຫາໃນ %1 (ຈົດໝາຍ%2)"
-
-#: kmfldsearch.cpp:744 kmheaders.cpp:2276 kmmainwidget.cpp:2667
-#: kmreadermainwin.cpp:364
-msgid "&Copy To"
-msgstr "&ສຳເນົາໄປຍັງ"
-
-#: kmfldsearch.cpp:745 kmheaders.cpp:2279 kmheaders.cpp:2285
-#: kmmainwidget.cpp:2664
-msgid "&Move To"
-msgstr "&ຍ້າຍໄປຍັງ"
-
 #: kmfolder.cpp:77
 #, fuzzy
 msgid "<qt>Error while creating file <b>%1</b>:<br>%2</qt>"
@@ -5908,11 +5749,11 @@ msgstr ""
 "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະຕ້ອງການລືບໂຟເດີ \"%1\"\n"
 "ລວມທັງໂຟເດີຍ່ອຍ, ແລະເນື້ອຫາທັງໝົດຂອງມັນ ?"
 
-#: kmfoldercachedimap.cpp:517 kmmainwidget.cpp:1132
+#: kmfoldercachedimap.cpp:517 kmmainwidget.cpp:1133
 msgid "Refresh IMAP Cache"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:518 kmmainwidget.cpp:1132
+#: kmfoldercachedimap.cpp:518 kmmainwidget.cpp:1133
 msgid "&Refresh"
 msgstr ""
 
@@ -6440,12 +6281,12 @@ msgstr ""
 msgid "Are you sure you want to expire old messages?"
 msgstr "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະໃຫ້ຈົດຫມາຍເກົ່າຫມົດອາຍຸ ?"
 
-#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1146
+#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1147
 #, fuzzy
 msgid "Expire Old Messages?"
 msgstr "ໃຫ້ຈົດໝາຍເກົ່າໝົດອາຍຸ?"
 
-#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1146
+#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1147
 msgid "Expire"
 msgstr "ຫມົດອາຍຸ"
 
@@ -6516,11 +6357,11 @@ msgstr "ໄປຍັງຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ
 msgid "Go to the Next Unread Message"
 msgstr "ໄປຍັງຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານສະບັບຖັດໄປ"
 
-#: kmfoldertree.cpp:981 kmmainwidget.cpp:2363
+#: kmfoldertree.cpp:981 kmmainwidget.cpp:2366
 msgid "&New Folder..."
 msgstr "&ສ້າງໂຟເດີ"
 
-#: kmfoldertree.cpp:992 kmmainwidget.cpp:2267
+#: kmfoldertree.cpp:992 kmmainwidget.cpp:2270
 msgid "Check &Mail"
 msgstr "&ກວອຈົດໝາຍ"
 
@@ -6539,11 +6380,11 @@ msgstr "ລາຍລະອຽດ"
 msgid "Refresh Folder List"
 msgstr "ຄົ້ນຫາໃນໂພນເດີ"
 
-#: kmfoldertree.cpp:1050 kmmainwidget.cpp:3417
+#: kmfoldertree.cpp:1050 kmmainwidget.cpp:3420
 msgid "&Troubleshoot IMAP Cache..."
 msgstr ""
 
-#: kmfoldertree.cpp:1063 kmmainwidget.cpp:2373
+#: kmfoldertree.cpp:1063 kmmainwidget.cpp:2376
 #, fuzzy
 msgid "&Assign Shortcut..."
 msgstr "ປ&ັບແຕ່ງຕົວກອງ..."
@@ -6575,12 +6416,12 @@ msgstr "คัดลอกข้อความ"
 msgid "C&ancel"
 msgstr "ຍົກເລີກງານ"
 
-#: kmfoldertree.cpp:1600 kmmainwidget.cpp:359 kmmainwidget.cpp:363
+#: kmfoldertree.cpp:1600 kmmainwidget.cpp:360 kmmainwidget.cpp:364
 #: kmsearchpattern.h:220
 msgid "Unread"
 msgstr "ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmfoldertree.cpp:1613 kmmainwidget.cpp:361
+#: kmfoldertree.cpp:1613 kmmainwidget.cpp:362
 msgid "Total"
 msgstr "ລວມ"
 
@@ -6621,6 +6462,16 @@ msgstr "&ລະເລຍ"
 #, fuzzy
 msgid "Signature"
 msgstr "ລາຍເຊັ່ນ"
+
+#: kmheaders.cpp:174 kmheaders.cpp:743 kmheaders.cpp:2447
+#: kmpopfiltercnfrmdlg.cpp:39 searchwindow.cpp:179
+msgid "Subject"
+msgstr "ເລື່ອງ"
+
+#: kmheaders.cpp:176 kmheaders.cpp:738 kmheaders.cpp:2442
+#: kmpopfiltercnfrmdlg.cpp:41 searchwindow.cpp:183
+msgid "Date"
+msgstr "ວັນທີ"
 
 #: kmheaders.cpp:740 kmheaders.cpp:2444
 msgid "Date (Order of Arrival)"
@@ -6728,6 +6579,16 @@ msgstr "ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້
 msgid "Moving messages canceled."
 msgstr "ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້ເຫຍືອ"
 
+#: kmheaders.cpp:2276 kmmainwidget.cpp:2670 kmreadermainwin.cpp:364
+#: searchwindow.cpp:738
+msgid "&Copy To"
+msgstr "&ສຳເນົາໄປຍັງ"
+
+#: kmheaders.cpp:2279 kmheaders.cpp:2285 kmmainwidget.cpp:2667
+#: searchwindow.cpp:739
+msgid "&Move To"
+msgstr "&ຍ້າຍໄປຍັງ"
+
 #: kmheaders.cpp:2608 kmheaders.cpp:2648
 msgid ""
 "Failure modifying %1\n"
@@ -6798,6 +6659,12 @@ msgstr ""
 "ທ່ານຍັງບໍ່ຮັບອຸນຸຍາດໃຫ້ສາມາດອ່ານແຟ້ມນີ້ໄດ້:\n"
 "%1"
 
+#: kmkernel.cpp:1308 searchwindow.cpp:206 searchwindow.cpp:419
+#: searchwindow.cpp:563
+#, fuzzy
+msgid "Last Search"
+msgstr "ຄົ້ນ&ຫາ"
+
 #: kmkernel.cpp:1601
 msgid ""
 "_: %1-%3 is the application name, %4-%7 are folder path\n"
@@ -6840,7 +6707,7 @@ msgstr ""
 "ຜິດພາດແມ່ນ:\n"
 "%1"
 
-#: kmkernel.cpp:1954 kmmainwidget.cpp:969
+#: kmkernel.cpp:1954 kmmainwidget.cpp:970
 msgid "Empty Trash"
 msgstr "ເຖຖັງຂີ້ເຫືຍອ"
 
@@ -6863,55 +6730,55 @@ msgstr "ບໍ່ສາມາເປີດໂຟເດີ %1:"
 msgid "Edit Recent Addresses..."
 msgstr "ສະແດງທີ&ຢູ່ລ່າສຸດ"
 
-#: kmmainwidget.cpp:515
+#: kmmainwidget.cpp:516
 #, fuzzy
 msgid "S&earch:"
 msgstr "ຄົ້ນ&ຫາ"
 
-#: kmmainwidget.cpp:565 kmmainwidget.cpp:1456
+#: kmmainwidget.cpp:566 kmmainwidget.cpp:1457
 msgid "Move Message to Folder"
 msgstr "ຍ້າຍຈົດໝາຍໄປຍັງໂຟເດີ"
 
-#: kmmainwidget.cpp:568 kmmainwidget.cpp:1550
+#: kmmainwidget.cpp:569 kmmainwidget.cpp:1551
 msgid "Copy Message to Folder"
 msgstr "ສຳເນົາຈົດໝາຍໄປຍັງໂຟເດີ"
 
-#: kmmainwidget.cpp:594
+#: kmmainwidget.cpp:595
 msgid "Remove Duplicate Messages"
 msgstr "ລືບຈົດໝາຍ"
 
-#: kmmainwidget.cpp:598
+#: kmmainwidget.cpp:599
 msgid "Abort Current Operation"
 msgstr ""
 
-#: kmmainwidget.cpp:604
+#: kmmainwidget.cpp:605
 msgid "Focus on Next Folder"
 msgstr "ໂຟກັສໄປຍັງໂຟເດີຖັດໄປ"
 
-#: kmmainwidget.cpp:610
+#: kmmainwidget.cpp:611
 msgid "Focus on Previous Folder"
 msgstr "ໂຟກັສໄປຍັງໂຟເດີກ່ອນຫນ້ານີ້"
 
-#: kmmainwidget.cpp:616
+#: kmmainwidget.cpp:617
 msgid "Select Folder with Focus"
 msgstr "ເລືອກໂຟເດີພ້ອມກັບໂຟກັສ"
 
-#: kmmainwidget.cpp:621
+#: kmmainwidget.cpp:622
 #, fuzzy
 msgid "Focus on Next Message"
 msgstr "ໂຟກັສໄປຍັງໂຟເດີຖັດໄປ"
 
-#: kmmainwidget.cpp:627
+#: kmmainwidget.cpp:628
 #, fuzzy
 msgid "Focus on Previous Message"
 msgstr "ໂຟກັສໄປຍັງໂຟເດີກ່ອນຫນ້ານີ້"
 
-#: kmmainwidget.cpp:633
+#: kmmainwidget.cpp:634
 #, fuzzy
 msgid "Select Message with Focus"
 msgstr "ເລືອກໂຟເດີພ້ອມກັບໂຟກັສ"
 
-#: kmmainwidget.cpp:820
+#: kmmainwidget.cpp:821
 #, fuzzy
 msgid ""
 "_n: 1 new message in %1\n"
@@ -6920,65 +6787,65 @@ msgstr ""
 "ຈົດໝາຍທັງໝົດ %\n"
 " ສະບັບ%1"
 
-#: kmmainwidget.cpp:832
+#: kmmainwidget.cpp:833
 msgid ""
 "_: %1 is a list of the number of new messages per folder\n"
 "<b>New mail arrived</b>"
 "<br>%1"
 msgstr ""
 
-#: kmmainwidget.cpp:836
+#: kmmainwidget.cpp:837
 msgid "New mail arrived"
 msgstr "ຈົດໝາຍໃຫມ່"
 
-#: kmmainwidget.cpp:921
+#: kmmainwidget.cpp:922
 #, c-format
 msgid "Properties of Folder %1"
 msgstr "ຄຸນສົມບັດຂອງໂຟເດີ %1"
 
-#: kmmainwidget.cpp:942
+#: kmmainwidget.cpp:943
 msgid "This folder does not have any expiry options set"
 msgstr "ໂຟເດີນີ້ຍັງບໍ່ໄດ້ຕັ້ງຄ່າຕົວເລືອກໝົດອາຍຸ"
 
-#: kmmainwidget.cpp:950
+#: kmmainwidget.cpp:951
 #, fuzzy
 msgid "<qt>Are you sure you want to expire the folder <b>%1</b>?</qt>"
 msgstr "ທ່ານແນ່ໃຈຫລືບໍ່ ທີ່ຈະໃຫ້ໂຟເດີ %1 ໝົດອາຍຸ ?"
 
-#: kmmainwidget.cpp:951
+#: kmmainwidget.cpp:952
 msgid "Expire Folder"
 msgstr "ໂຟເ ດີໝົດອາຍຸ"
 
-#: kmmainwidget.cpp:952
+#: kmmainwidget.cpp:953
 msgid "&Expire"
 msgstr "&ໝົດອາຍຸ"
 
-#: kmmainwidget.cpp:969
+#: kmmainwidget.cpp:970
 msgid "Move to Trash"
 msgstr "ຍ້າຍໄປຍັງ"
 
-#: kmmainwidget.cpp:971
+#: kmmainwidget.cpp:972
 #, fuzzy
 msgid "Are you sure you want to empty the trash folder?"
 msgstr "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະໃຫ້ໂຟເດີ \"%1\" ໝົດອາຍຸ ?"
 
-#: kmmainwidget.cpp:972
+#: kmmainwidget.cpp:973
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to move all messages from folder <b>%1</b> "
 "to the trash?</qt>"
 msgstr "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະເຮັດໃຫ້ໂຟເດີ \"%1\" ວ່າງ?"
 
-#: kmmainwidget.cpp:991
+#: kmmainwidget.cpp:992
 msgid "Moved all messages to the trash"
 msgstr "ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້ເຫຍືອ"
 
-#: kmmainwidget.cpp:1009
+#: kmmainwidget.cpp:1010
 #, fuzzy
 msgid "Delete Search"
 msgstr "<ຜູ້ຮັບ>"
 
-#: kmmainwidget.cpp:1010
+#: kmmainwidget.cpp:1011
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the search <b>%1</b>?"
@@ -6987,16 +6854,16 @@ msgstr ""
 "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະຕ້ອງການລືບໂຟເດີ \"%1\"\n"
 "ລວມທັງໂຟເດີຍ່ອຍ, ແລະເນື້ອຫາທັງໝົດຂອງມັນ ?"
 
-#: kmmainwidget.cpp:1014
+#: kmmainwidget.cpp:1015
 msgid "Delete Folder"
 msgstr "ສ້າງໂຟເດີ"
 
-#: kmmainwidget.cpp:1017
+#: kmmainwidget.cpp:1018
 #, fuzzy
 msgid "<qt>Are you sure you want to delete the empty folder <b>%1</b>?</qt>"
 msgstr "ທ່ານແນ່ໃຈຫລືບໍ່ ທີ່ຈະໃຫ້ໂຟເດີ %1 ໝົດອາຍຸ ?"
 
-#: kmmainwidget.cpp:1022
+#: kmmainwidget.cpp:1023
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the empty folder <b>%1</b> "
@@ -7006,7 +6873,7 @@ msgstr ""
 "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະຕ້ອງການລືບໂຟເດີ \"%1\"\n"
 "ລວມທັງໂຟເດີຍ່ອຍ, ແລະເນື້ອຫາທັງໝົດຂອງມັນ ?"
 
-#: kmmainwidget.cpp:1030
+#: kmmainwidget.cpp:1031
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the folder <b>%1</b>"
@@ -7015,7 +6882,7 @@ msgstr ""
 "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະຕ້ອງການລືບໂຟເດີ \"%1\"\n"
 "ລວມທັງໂຟເດີຍ່ອຍ, ແລະເນື້ອຫາທັງໝົດຂອງມັນ ?"
 
-#: kmmainwidget.cpp:1035
+#: kmmainwidget.cpp:1036
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the folder <b>%1</b> "
@@ -7024,14 +6891,14 @@ msgstr ""
 "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະຕ້ອງການລືບໂຟເດີ \"%1\"\n"
 "ລວມທັງໂຟເດີຍ່ອຍ, ແລະເນື້ອຫາທັງໝົດຂອງມັນ ?"
 
-#: kmmainwidget.cpp:1056
+#: kmmainwidget.cpp:1057
 #, fuzzy
 msgid ""
 "<qt>The destination folder of the account <b>%1</b> was restored to the "
 "inbox.</qt>"
 msgstr "ໂຟເດີເປົ້າໝາຍຂອງບັນຊີ ໃຊ້ '%1' ຖືກຮຽກຄືນໄວ້ໃນກ່ອງຈົດໝາຍເຂົ້າແລ້ວ"
 
-#: kmmainwidget.cpp:1129
+#: kmmainwidget.cpp:1130
 #, fuzzy
 msgid ""
 "Are you sure you want to refresh the IMAP cache?\n"
@@ -7040,11 +6907,11 @@ msgstr ""
 "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະຕ້ອງການລືບໂຟເດີ \"%1\"\n"
 "ລວມທັງໂຟເດີຍ່ອຍ, ແລະເນື້ອຫາທັງໝົດຂອງມັນ ?"
 
-#: kmmainwidget.cpp:1145
+#: kmmainwidget.cpp:1146
 msgid "Are you sure you want to expire all old messages?"
 msgstr "ທ່ານແນ່ໃຈຫລືບໍ່ທີຈະໃຫ້ຈົດໝາຍເກົ່າທັງໝົດໝົດອາຍຸ?"
 
-#: kmmainwidget.cpp:1169
+#: kmmainwidget.cpp:1170
 msgid ""
 "Use of HTML in mail will make you more vulnerable to \"spam\" and may increase "
 "the likelihood that your system will be compromised by other present and "
@@ -7054,15 +6921,15 @@ msgstr ""
 "ຮັບຈົດໝາຍ\n"
 "\"ຂີ້ເຫຍື່ອ\" ແລະອາດຈະເຮັດໃຫ້ລະບົບຂອງທ່ານ ມີປັນຫາເລື່ອງຄວາມປອດໄພໄດ້"
 
-#: kmmainwidget.cpp:1172 kmmainwidget.cpp:1196 kmsender.cpp:458
+#: kmmainwidget.cpp:1173 kmmainwidget.cpp:1197 kmsender.cpp:462
 msgid "Security Warning"
 msgstr "ເຕື່ອນຄວາມປອດໄພ"
 
-#: kmmainwidget.cpp:1173
+#: kmmainwidget.cpp:1174
 msgid "Use HTML"
 msgstr ""
 
-#: kmmainwidget.cpp:1193
+#: kmmainwidget.cpp:1194
 #, fuzzy
 msgid ""
 "Loading external references in html mail will make you more vulnerable to "
@@ -7073,19 +6940,19 @@ msgstr ""
 "ຮັບຈົດໝາຍ\n"
 "\"ຂີ້ເຫຍື່ອ\" ແລະອາດຈະເຮັດໃຫ້ລະບົບຂອງທ່ານ ມີປັນຫາເລື່ອງຄວາມປອດໄພໄດ້"
 
-#: kmmainwidget.cpp:1197
+#: kmmainwidget.cpp:1198
 msgid "Load External References"
 msgstr ""
 
-#: kmmainwidget.cpp:1424
+#: kmmainwidget.cpp:1425
 msgid "Filter on Mailing-List..."
 msgstr "ກອງເທີ່ງລາຍການຈົດໝາຍວຽນ..."
 
-#: kmmainwidget.cpp:1429
+#: kmmainwidget.cpp:1430
 msgid "Filter on Mailing-List %1..."
 msgstr "ກອງເທີ່ງຈົດໝາຍວຽນ %1..."
 
-#: kmmainwidget.cpp:1493
+#: kmmainwidget.cpp:1494
 msgid ""
 "KMail's Out of Office Reply functionality relies on server-side filtering. You "
 "have not yet configured an IMAP server for this.\n"
@@ -7096,202 +6963,230 @@ msgstr ""
 "ຜູ້ບໍ່ລິການເທື່ອ \n"
 "ທ່ານສາມາດເຮັດໃນທີ່ \"ຕົວກອງ\"ແທບຂອງ IMAP ບັນຊີປະກອບ"
 
-#: kmmainwidget.cpp:1498
+#: kmmainwidget.cpp:1499
 msgid "No Server-Side Filtering Configured"
 msgstr "ບໍ່ມີຜູ້ບໍລີການທາງຂ້າງ ຕົວກອງປະກອບ"
 
-#: kmmainwidget.cpp:1525
+#: kmmainwidget.cpp:1526
 #, fuzzy
 msgid "Could not start certificate manager; please check your installation."
 msgstr "ບໍ່ສາມາດເລີ່ມຕົວຈັດການໃບຮັບຮອງໄດ້ ກະລຸນາກວດສອບການຕິດຕັ້ງຂອງທ່ານໃຫມ່"
 
-#: kmmainwidget.cpp:1542
+#: kmmainwidget.cpp:1543
 #, fuzzy
 msgid ""
 "Could not start GnuPG LogViewer (kwatchgnupg); please check your installation."
 msgstr "ບໍ່ສາມາດເລີ່ມຕົວຈັດການໃບຮັບຮອງໄດ້ ກະລຸນາກວດສອບການຕິດຕັ້ງຂອງທ່ານໃຫມ່"
 
-#: kmmainwidget.cpp:2244 kmmimeparttree.cpp:130 kmreadermainwin.cpp:370
+#: kmmainwidget.cpp:2247 kmmimeparttree.cpp:130 kmreadermainwin.cpp:370
 msgid "Save &As..."
 msgstr "ບັນທືກ&ເປັນ..."
 
-#: kmmainwidget.cpp:2251
+#: kmmainwidget.cpp:2254
 msgid "&Compact All Folders"
 msgstr "ເ&ຮັດທຸກໂຟເດີໃຫ້ກະທັດຮັດ"
 
-#: kmmainwidget.cpp:2255
+#: kmmainwidget.cpp:2258
 msgid "&Expire All Folders"
 msgstr "&ໃຫ້ທຸກໂຟເດີໝົດອາຍຸ"
 
-#: kmmainwidget.cpp:2259
+#: kmmainwidget.cpp:2262
 msgid "&Refresh Local IMAP Cache"
 msgstr ""
 
-#: kmmainwidget.cpp:2263
+#: kmmainwidget.cpp:2266
 #, fuzzy
 msgid "Empty All &Trash Folders"
 msgstr "ເ&ຮັດທຸກໂຟເດີໃຫ້ກະທັດຮັດ"
 
-#: kmmainwidget.cpp:2272
+#: kmmainwidget.cpp:2275
 msgid "Check Mail &In"
 msgstr "ກວດຈົດໝາຍ&ໃນ"
 
-#: kmmainwidget.cpp:2282
+#: kmmainwidget.cpp:2285
 msgid "&Send Queued Messages"
 msgstr "&ສົ່ງໄປຍັງຄິວ"
 
-#: kmmainwidget.cpp:2286
+#: kmmainwidget.cpp:2289
 #, fuzzy
 msgid "Send Queued Messages via"
 msgstr "&ສົ່ງໄປຍັງຄິວ"
 
-#: kmmainwidget.cpp:2297
+#: kmmainwidget.cpp:2300
 msgid "&Address Book..."
 msgstr "&ສະມຸດທີ່ຢູ່..."
 
-#: kmmainwidget.cpp:2302
+#: kmmainwidget.cpp:2305
 #, fuzzy
 msgid "Certificate Manager..."
 msgstr "ການຈັດການໃບຮັບຮອງ"
 
-#: kmmainwidget.cpp:2307
+#: kmmainwidget.cpp:2310
 #, fuzzy
 msgid "GnuPG Log Viewer..."
 msgstr "ກອງ&ສ່ວນຈາກ..."
 
-#: kmmainwidget.cpp:2312
+#: kmmainwidget.cpp:2315
 #, fuzzy
 msgid "&Import Messages..."
 msgstr "ค้นหาจดหมาย..."
 
-#: kmmainwidget.cpp:2317
+#: kmmainwidget.cpp:2320
 #, fuzzy
 msgid "&Debug Sieve..."
 msgstr "บันทึก..."
 
-#: kmmainwidget.cpp:2323
+#: kmmainwidget.cpp:2326
 msgid "Edit \"Out of Office\" Replies..."
 msgstr "ແກ້ໄຂ \"ອອກຈາກອອບຟິດ\"...."
 
-#: kmmainwidget.cpp:2327
+#: kmmainwidget.cpp:2330
 #, fuzzy
 msgid "Filter &Log Viewer..."
 msgstr "ກອງ&ສ່ວນຈາກ..."
 
-#: kmmainwidget.cpp:2330
+#: kmmainwidget.cpp:2333
 msgid "&Anti-Spam Wizard..."
 msgstr ""
 
-#: kmmainwidget.cpp:2332
+#: kmmainwidget.cpp:2335
 msgid "&Anti-Virus Wizard..."
 msgstr ""
 
-#: kmmainwidget.cpp:2336
+#: kmmainwidget.cpp:2339
 msgid "&Move to Trash"
 msgstr "&ຍ້າຍໄປຍັງ"
 
-#: kmmainwidget.cpp:2337
+#: kmmainwidget.cpp:2340
 msgid "Move message to trashcan"
 msgstr "ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້ເຫຍືອ"
 
-#: kmmainwidget.cpp:2344
+#: kmmainwidget.cpp:2347
 #, fuzzy
 msgid "M&ove Thread to Trash"
 msgstr "ຍ້າຍໄປຍັງ"
 
-#: kmmainwidget.cpp:2345
+#: kmmainwidget.cpp:2348
 #, fuzzy
 msgid "Move thread to trashcan"
 msgstr "ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້ເຫຍືອ"
 
-#: kmmainwidget.cpp:2349
+#: kmmainwidget.cpp:2352
 #, fuzzy
 msgid "Delete T&hread"
 msgstr "&ລືບ.."
 
-#: kmmainwidget.cpp:2353
+#: kmmainwidget.cpp:2356
 msgid "&Find Messages..."
 msgstr "&ຄົ້ນຫາຈົດໝາຍ..."
 
-#: kmmainwidget.cpp:2356
+#: kmmainwidget.cpp:2359
 msgid "&Find in Message..."
 msgstr "ຄົ້&ນຫາໃນຈົດໝາຍ..."
 
-#: kmmainwidget.cpp:2359
+#: kmmainwidget.cpp:2362
 msgid "Select &All Messages"
 msgstr "ເລື&ອກຈົດໝາຍທັງໝົດ"
 
-#: kmmainwidget.cpp:2366
+#: kmmainwidget.cpp:2369
 #, fuzzy
 msgid "&Properties"
 msgstr "ຄຸນສົມບັດ..."
 
-#: kmmainwidget.cpp:2369
+#: kmmainwidget.cpp:2372
 #, fuzzy
 msgid "&Mailing List Management"
 msgstr "ລາຍການຈົດໝາຍວຽນຂໍຮັບ"
 
-#: kmmainwidget.cpp:2378
+#: kmmainwidget.cpp:2381
 msgid "Mark All Messages as &Read"
 msgstr "ຕັ້ງໃຫ້&ຈົດໝາຍທັງໝົດເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2381
+#: kmmainwidget.cpp:2384
 #, fuzzy
 msgid "&Expire Folder"
 msgstr "ໂຟເ ດີໝົດອາຍຸ"
 
-#: kmmainwidget.cpp:2384
+#: kmmainwidget.cpp:2387
 #, fuzzy
 msgid "&Compact Folder"
 msgstr "ເ&ຮັດທຸກໂຟເດີໃຫ້ກະທັດຮັດ"
 
-#: kmmainwidget.cpp:2387
+#: kmmainwidget.cpp:2390
 #, fuzzy
 msgid "Check Mail &in This Folder"
 msgstr "ກວດຈົດໝາຍ&ໃນ"
 
-#: kmmainwidget.cpp:2399
+#: kmmainwidget.cpp:2402
 msgid "Prefer &HTML to Plain Text"
 msgstr "ສະແດງ &HTML ໃນແບບຂໍ້ຄວາມທຳມະດາ"
 
-#: kmmainwidget.cpp:2402
+#: kmmainwidget.cpp:2405
 msgid "Load E&xternal References"
 msgstr ""
 
-#: kmmainwidget.cpp:2405
+#: kmmainwidget.cpp:2408
 msgid "&Thread Messages"
 msgstr "ເທ&ດຈົດໝາຍ"
 
-#: kmmainwidget.cpp:2408
+#: kmmainwidget.cpp:2411
 #, fuzzy
 msgid "Thread Messages also by &Subject"
 msgstr "ຕັ້ງຈົດໝາຍປະຈຸບັນເປັນສົ່ງ&ແລ້ວ"
 
-#: kmmainwidget.cpp:2413
+#: kmmainwidget.cpp:2416
 msgid "&New Message..."
 msgstr "ຂຽນ&ຈົດໝາຍໃຫມ່..."
 
-#: kmmainwidget.cpp:2416
+#: kmmainwidget.cpp:2419
 msgid "New Message t&o Mailing-List..."
 msgstr "ສົ່ງໄ&ປຍັງຈົດໝາຍວຽນ..."
 
-#: kmmainwidget.cpp:2437
+#: kmmainwidget.cpp:2423 kmreadermainwin.cpp:239 searchwindow.cpp:268
+msgid ""
+"_: Message->\n"
+"&Forward"
+msgstr "ສົ່ງຕໍ່&ແລ້ວ"
+
+#: kmmainwidget.cpp:2429 kmreadermainwin.cpp:250 searchwindow.cpp:277
+msgid ""
+"_: Message->Forward->\n"
+"As &Attachment..."
+msgstr "ສົ່ງຕໍ່ແບ&ບແຟ້ມແນບ"
+
+#: kmmainwidget.cpp:2434 kmreadermainwin.cpp:245 searchwindow.cpp:273
+msgid "&Inline..."
+msgstr "ແຊກ&ແຟ້ມ..."
+
+#: kmmainwidget.cpp:2440
 msgid "Send A&gain..."
 msgstr "ສົ່ງອີ&ກຄັ້ງ..."
 
-#: kmmainwidget.cpp:2440 kmreadermainwin.cpp:261
+#: kmmainwidget.cpp:2443 kmreadermainwin.cpp:261
 #, fuzzy
 msgid ""
 "_: Message->\n"
 "&Reply"
 msgstr "ສົ່ງຕໍ່&ແລ້ວ"
 
-#: kmmainwidget.cpp:2450 kmreadermainwin.cpp:271
+#: kmmainwidget.cpp:2449 kmreadermainwin.cpp:267 searchwindow.cpp:259
+msgid "&Reply..."
+msgstr "ຕອ&ບກັບ..."
+
+#: kmmainwidget.cpp:2453 kmreadermainwin.cpp:271
 #, fuzzy
 msgid "Reply to A&uthor..."
 msgstr "ຕອລກັບ&ທັງໝົດ..."
 
-#: kmmainwidget.cpp:2467 kmreadermainwin.cpp:256
+#: kmmainwidget.cpp:2459 kmreadermainwin.cpp:277 searchwindow.cpp:261
+msgid "Reply to &All..."
+msgstr "ຕອລກັບ&ທັງໝົດ..."
+
+#: kmmainwidget.cpp:2464 kmreadermainwin.cpp:282 searchwindow.cpp:264
+msgid "Reply to Mailing-&List..."
+msgstr "ກອງເທີງລາຍການ&ຈົດໝາຍວຽນ..."
+
+#: kmmainwidget.cpp:2470 kmreadermainwin.cpp:256
 msgid ""
 "_: Message->Forward->\n"
 "&Redirect..."
@@ -7299,450 +7194,450 @@ msgstr ""
 "_ຂໍ້ຄວາມ->ໄປທາງຫນ້າ->\n"
 "&ລີໄດເລັກທໍລີ"
 
-#: kmmainwidget.cpp:2473
+#: kmmainwidget.cpp:2476
 msgid "Reply Without &Quote..."
 msgstr "ຕອບກັບໂດຍບໍ່ອ້າງ&ຂໍ້ຄວາມເດີມ..."
 
-#: kmmainwidget.cpp:2477
+#: kmmainwidget.cpp:2480
 msgid "&Create Filter"
 msgstr "ສ້າງຕົວກ&ອງໃຫມ່"
 
-#: kmmainwidget.cpp:2480
+#: kmmainwidget.cpp:2483
 msgid "Filter on &Subject..."
 msgstr "ກອງ&ສວ່ນເລື່ອງ..."
 
-#: kmmainwidget.cpp:2485
+#: kmmainwidget.cpp:2488
 msgid "Filter on &From..."
 msgstr "ກອງ&ສ່ວນຈາກ..."
 
-#: kmmainwidget.cpp:2490
+#: kmmainwidget.cpp:2493
 msgid "Filter on &To..."
 msgstr "ກອງສ່ວນ&ເຖື່ງ..."
 
-#: kmmainwidget.cpp:2495
+#: kmmainwidget.cpp:2498
 msgid "Filter on Mailing-&List..."
 msgstr "ກອງເທີງລາຍການຈົດໝາຍວຽ&ນ..."
 
-#: kmmainwidget.cpp:2502
+#: kmmainwidget.cpp:2505
 msgid "&Edit Message"
 msgstr "ເຊັ່&ນຈົດໝາຍ"
 
-#: kmmainwidget.cpp:2506
+#: kmmainwidget.cpp:2509
 msgid "Mar&k Message"
 msgstr "ທຳເຄືອງຫມາ&ຍຈົດໝາຍ"
 
-#: kmmainwidget.cpp:2509
+#: kmmainwidget.cpp:2512
 msgid "Mark Message as &Read"
 msgstr "ຕັ້ງໃຫ້ຈົດໝາຍ&ທັງຫມົດອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2510
+#: kmmainwidget.cpp:2513
 msgid "Mark selected messages as read"
 msgstr "ຕັ້ງຈົດໝາຍປະຈຸປັບເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2514
+#: kmmainwidget.cpp:2517
 msgid "Mark Message as &New"
 msgstr "ຕັ້ງໃຫ້&ຈົດໝາຍທັງໝົດເປັນອັນໃຫມ່"
 
-#: kmmainwidget.cpp:2515
+#: kmmainwidget.cpp:2518
 msgid "Mark selected messages as new"
 msgstr "ຕັ້ງຈົດໝາຍປະຈຸບັນເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2519
+#: kmmainwidget.cpp:2522
 msgid "Mark Message as &Unread"
 msgstr "ຕັ້ງ&ໃຫ້ຈົດໝາຍທັງໝົດເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2520
+#: kmmainwidget.cpp:2523
 msgid "Mark selected messages as unread"
 msgstr "ຕັ້ງຈົດໝາຍປະຈຸບັນເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2527
+#: kmmainwidget.cpp:2530
 msgid "Mark Message as &Important"
 msgstr "ຕັ້ງຈົດໝາຍປະຈຸບັນວ່າ&ສຳຄັນຫລາຍ"
 
-#: kmmainwidget.cpp:2530
+#: kmmainwidget.cpp:2533
 #, fuzzy
 msgid "Remove &Important Message Mark"
 msgstr "ຈົດຫມາຍທີ່ສຳຄັນ"
 
-#: kmmainwidget.cpp:2533
+#: kmmainwidget.cpp:2536
 #, fuzzy
 msgid "Mark Message as &To-do"
 msgstr "ຕັ້ງໃຫ້ຈົດໝາຍ&ທັງຫມົດອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2536
+#: kmmainwidget.cpp:2539
 #, fuzzy
 msgid "Mark Message as Not &To-do"
 msgstr "ຕັ້ງຈົດໝາຍ&ປະຈຸບັນເປັນຢູ່ໃນຄິວແລ້ວ"
 
-#: kmmainwidget.cpp:2540
+#: kmmainwidget.cpp:2543
 #, fuzzy
 msgid "Mark Message as Re&plied"
 msgstr "ຕັ້ງຈົດໝາ&ຍເປັນຕອບກັບແລ້ວ"
 
-#: kmmainwidget.cpp:2543
+#: kmmainwidget.cpp:2546
 #, fuzzy
 msgid "Mark Message as Not Re&plied"
 msgstr "ຕັ້ງຈົດໝາ&ຍເປັນຕອບກັບແລ້ວ"
 
-#: kmmainwidget.cpp:2546
+#: kmmainwidget.cpp:2549
 msgid "Mark Message as &Forwarded"
 msgstr "ຕັ້ງໃຫ້ຈົດໝາຍທັງໝົດເປັນອ່ານ&ແລ້ວ"
 
-#: kmmainwidget.cpp:2549
+#: kmmainwidget.cpp:2552
 #, fuzzy
 msgid "Mark Message as Not &Forwarded"
 msgstr "ຕັ້ງໃຫ້ຈົດໝາຍທັງໝົດເປັນອ່ານ&ແລ້ວ"
 
-#: kmmainwidget.cpp:2552
+#: kmmainwidget.cpp:2555
 msgid "Mark Message as &Queued"
 msgstr "ຕັ້ງຈົດໝາຍ&ປະຈຸບັນເປັນຢູ່ໃນຄິວແລ້ວ"
 
-#: kmmainwidget.cpp:2555
+#: kmmainwidget.cpp:2558
 #, fuzzy
 msgid "Mark Message as Not &Queued"
 msgstr "ຕັ້ງຈົດໝາຍ&ປະຈຸບັນເປັນຢູ່ໃນຄິວແລ້ວ"
 
-#: kmmainwidget.cpp:2558
+#: kmmainwidget.cpp:2561
 msgid "Mark Message as &Sent"
 msgstr "ຕັ້ງຈົດໝາຍປະຈຸບັນເປັນສົ່ງ&ແລ້ວ"
 
-#: kmmainwidget.cpp:2561
+#: kmmainwidget.cpp:2564
 #, fuzzy
 msgid "Mark Message as Not &Sent"
 msgstr "ຕັ້ງຈົດໝາຍປະຈຸບັນເປັນສົ່ງ&ແລ້ວ"
 
-#: kmmainwidget.cpp:2566
+#: kmmainwidget.cpp:2569
 #, fuzzy
 msgid "Mark Message as Spa&m"
 msgstr "ຕັ້ງໃຫ້ຈົດໝາຍ&ທັງຫມົດອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2571
+#: kmmainwidget.cpp:2574
 #, fuzzy
 msgid "Mark Message as &Ham"
 msgstr "ຕັ້ງໃຫ້ຈົດໝາຍ&ທັງຫມົດອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2577
+#: kmmainwidget.cpp:2580
 msgid "Mark &Thread"
 msgstr "ທຳເຄືອງໝາຍ&ເທດ"
 
-#: kmmainwidget.cpp:2580
+#: kmmainwidget.cpp:2583
 msgid "Mark Thread as &Read"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2581
+#: kmmainwidget.cpp:2584
 msgid "Mark all messages in the selected thread as read"
 msgstr "ທຳເຄືອງຈົດໝາຍໃນໂຟເດີນີ້"
 
-#: kmmainwidget.cpp:2586
+#: kmmainwidget.cpp:2589
 msgid "Mark Thread as &New"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັນເທດໃຫມ່"
 
-#: kmmainwidget.cpp:2587
+#: kmmainwidget.cpp:2590
 msgid "Mark all messages in the selected thread as new"
 msgstr "ທຳເຄື່ອງໝາຍຈົດໝາຍໂຟເດີນີ້"
 
-#: kmmainwidget.cpp:2592
+#: kmmainwidget.cpp:2595
 msgid "Mark Thread as &Unread"
 msgstr "ຕັ້ງໃຫ້&ເທດປະຈຸບັນເປັນຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmmainwidget.cpp:2593
+#: kmmainwidget.cpp:2596
 msgid "Mark all messages in the selected thread as unread"
 msgstr "ຕັ້ງໃຫ້ເທດປະຈຸບັນເປັນຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmmainwidget.cpp:2601
+#: kmmainwidget.cpp:2604
 msgid "Mark Thread as &Important"
 msgstr "ຕັ້ງໃຫ້ເທ&ດປະຈຸບັນເປັນສຳຄັນຫລາຍ"
 
-#: kmmainwidget.cpp:2604
+#: kmmainwidget.cpp:2607
 msgid "Remove &Important Thread Mark"
 msgstr ""
 
-#: kmmainwidget.cpp:2607
+#: kmmainwidget.cpp:2610
 #, fuzzy
 msgid "Mark Thread as &To-do"
 msgstr "ຕັ້ງໃຫ້&ເທດປະຈຸບັນເປັນສົ່ງແລ້ວ"
 
-#: kmmainwidget.cpp:2610
+#: kmmainwidget.cpp:2613
 #, fuzzy
 msgid "Mark Thread as Not &To-do"
 msgstr "ຕັ້ງ&ໃຫ້ເທດປະຈຸບັນເປັນຢູ່ໃນຄິວແລ້ວ"
 
-#: kmmainwidget.cpp:2613
+#: kmmainwidget.cpp:2616
 msgid "Mark Thread as R&eplied"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັນຕອບກັບແລ້ວ"
 
-#: kmmainwidget.cpp:2616
+#: kmmainwidget.cpp:2619
 #, fuzzy
 msgid "Mark Thread as Not R&eplied"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັນຕອບກັບແລ້ວ"
 
-#: kmmainwidget.cpp:2619
+#: kmmainwidget.cpp:2622
 msgid "Mark Thread as &Forwarded"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັ່ນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2622
+#: kmmainwidget.cpp:2625
 #, fuzzy
 msgid "Mark Thread as Not &Forwarded"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັ່ນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2625
+#: kmmainwidget.cpp:2628
 msgid "Mark Thread as &Queued"
 msgstr "ຕັ້ງ&ໃຫ້ເທດປະຈຸບັນເປັນຢູ່ໃນຄິວແລ້ວ"
 
-#: kmmainwidget.cpp:2628
+#: kmmainwidget.cpp:2631
 #, fuzzy
 msgid "Mark Thread as Not &Queued"
 msgstr "ຕັ້ງ&ໃຫ້ເທດປະຈຸບັນເປັນຢູ່ໃນຄິວແລ້ວ"
 
-#: kmmainwidget.cpp:2631
+#: kmmainwidget.cpp:2634
 msgid "Mark Thread as &Sent"
 msgstr "ຕັ້ງໃຫ້&ເທດປະຈຸບັນເປັນສົ່ງແລ້ວ"
 
-#: kmmainwidget.cpp:2634
+#: kmmainwidget.cpp:2637
 #, fuzzy
 msgid "Mark Thread as Not &Sent"
 msgstr "ຕັ້ງໃຫ້&ເທດປະຈຸບັນເປັນສົ່ງແລ້ວ"
 
-#: kmmainwidget.cpp:2640
+#: kmmainwidget.cpp:2643
 #, fuzzy
 msgid "&Watch Thread"
 msgstr "ທຳເຄືອງໝາຍ&ເທດ"
 
-#: kmmainwidget.cpp:2644
+#: kmmainwidget.cpp:2647
 #, fuzzy
 msgid "&Ignore Thread"
 msgstr "&ລະເລຍ"
 
-#: kmmainwidget.cpp:2649
+#: kmmainwidget.cpp:2652
 #, fuzzy
 msgid "Mark Thread as S&pam"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2654
+#: kmmainwidget.cpp:2657
 #, fuzzy
 msgid "Mark Thread as &Ham"
 msgstr "ຕັ້ງໃຫ້ເທດ&ປະຈຸບັນເປັນອ່ານແລ້ວ"
 
-#: kmmainwidget.cpp:2660
+#: kmmainwidget.cpp:2663
 #, fuzzy
 msgid "Save A&ttachments..."
 msgstr "&ບັນທືກເອກະສານທີ່ແນບມາ"
 
-#: kmmainwidget.cpp:2670
+#: kmmainwidget.cpp:2673
 #, fuzzy
 msgid "Appl&y All Filters"
 msgstr "ໃຫ້ຕົວກອ&ງມີຜົນທັນທີ"
 
 #. i18n: file kmail_part.rc line 119
-#: kmmainwidget.cpp:2675 rc.cpp:24 rc.cpp:84
+#: kmmainwidget.cpp:2678 rc.cpp:24 rc.cpp:84
 #, fuzzy, no-c-format
 msgid "A&pply Filter"
 msgstr "ໃຫ້ຕົວກອ&ງມີຜົນທັນທີ"
 
-#: kmmainwidget.cpp:2682
+#: kmmainwidget.cpp:2685
 #, fuzzy
 msgid ""
 "_: View->\n"
 "&Unread Count"
 msgstr "ຖັນທີ່&ຍັງບໍ່ອ່ານ"
 
-#: kmmainwidget.cpp:2684
+#: kmmainwidget.cpp:2687
 #, fuzzy
 msgid "Choose how to display the count of unread messages"
 msgstr "ໄປຍັງຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານສະບັບຖັດໄປ"
 
-#: kmmainwidget.cpp:2686
+#: kmmainwidget.cpp:2689
 #, fuzzy
 msgid ""
 "_: View->Unread Count\n"
 "View in &Separate Column"
 msgstr "ຖັນທີ່&ຍັງບໍ່ອ່ານ"
 
-#: kmmainwidget.cpp:2692
+#: kmmainwidget.cpp:2695
 #, fuzzy
 msgid ""
 "_: View->Unread Count\n"
 "View After &Folder Name"
 msgstr "ຖັນທີ່&ຍັງບໍ່ອ່ານ"
 
-#: kmmainwidget.cpp:2699
+#: kmmainwidget.cpp:2702
 msgid ""
 "_: View->\n"
 "&Total Column"
 msgstr "&ຖັນລວມ"
 
-#: kmmainwidget.cpp:2702
+#: kmmainwidget.cpp:2705
 msgid ""
 "Toggle display of column showing the total number of messages in folders."
 msgstr "ສະແດງສະຖານະຖັນ"
 
-#: kmmainwidget.cpp:2705
+#: kmmainwidget.cpp:2708
 msgid ""
 "_: View->\n"
 "&Expand Thread"
 msgstr "&ຂະຫຍາຍເທດ"
 
-#: kmmainwidget.cpp:2706
+#: kmmainwidget.cpp:2709
 msgid "Expand the current thread"
 msgstr "ຂະຫຍານຍເທດປະຈຸບັນ"
 
-#: kmmainwidget.cpp:2711
+#: kmmainwidget.cpp:2714
 msgid ""
 "_: View->\n"
 "&Collapse Thread"
 msgstr "&ຫຍໍ້ເກັບເທດ"
 
-#: kmmainwidget.cpp:2712
+#: kmmainwidget.cpp:2715
 msgid "Collapse the current thread"
 msgstr "ຫຍໍ້ເກັບເທດປະຈຸບັນ"
 
-#: kmmainwidget.cpp:2717
+#: kmmainwidget.cpp:2720
 msgid ""
 "_: View->\n"
 "Ex&pand All Threads"
 msgstr "ຂະຫ&ຍາຍເທດທັງໝົດ"
 
-#: kmmainwidget.cpp:2718
+#: kmmainwidget.cpp:2721
 msgid "Expand all threads in the current folder"
 msgstr "ໃຫ້ເທດໂຟເດີ"
 
-#: kmmainwidget.cpp:2723
+#: kmmainwidget.cpp:2726
 msgid ""
 "_: View->\n"
 "C&ollapse All Threads"
 msgstr "ຫຍໍ້&ເກັບເທດທັງຫມົດ"
 
-#: kmmainwidget.cpp:2724
+#: kmmainwidget.cpp:2727
 msgid "Collapse all threads in the current folder"
 msgstr "ຫຍໍ້ເກັບເທດທັງໝົດ"
 
-#: kmmainwidget.cpp:2729 kmreadermainwin.cpp:234
+#: kmmainwidget.cpp:2732 kmreadermainwin.cpp:234
 msgid "&View Source"
 msgstr "ສະແດງຕົ້ນ&ສະບັບ..."
 
-#: kmmainwidget.cpp:2733
+#: kmmainwidget.cpp:2736
 #, fuzzy
 msgid "&Display Message"
 msgstr "แสดงกล่องจดหมาย"
 
-#: kmmainwidget.cpp:2738
+#: kmmainwidget.cpp:2741
 msgid "&Next Message"
 msgstr "&ຂຽນຈົດໝາຍໃຫມ່..."
 
-#: kmmainwidget.cpp:2739
+#: kmmainwidget.cpp:2742
 msgid "Go to the next message"
 msgstr "ໄປຍັງຈົດໝາຍສະບັບຖັດໄປ"
 
-#: kmmainwidget.cpp:2743
+#: kmmainwidget.cpp:2746
 msgid "Next &Unread Message"
 msgstr "ຈົດໝາຍ&ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmmainwidget.cpp:2745
+#: kmmainwidget.cpp:2748
 msgid "Go to the next unread message"
 msgstr "ໄປຍັງຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານສະບັບຖັດໄປ"
 
 #. i18n("Go to the next important message") ),
-#: kmmainwidget.cpp:2756
+#: kmmainwidget.cpp:2759
 msgid "&Previous Message"
 msgstr "ສະບັ&ບທີ່ຍັງບໍ່ໄດ້ອ່ານກ່ອນຫນ້ານີ້"
 
-#: kmmainwidget.cpp:2757
+#: kmmainwidget.cpp:2760
 msgid "Go to the previous message"
 msgstr "ໄປຍັງຈົດໝາຍສະບັບກ່ອນຫນ້ານີ້"
 
-#: kmmainwidget.cpp:2761
+#: kmmainwidget.cpp:2764
 msgid "Previous Unread &Message"
 msgstr "ສະບັບ&ທີ່ຍັງບໍ່ໄດ້ອ່ານກ່ອນຫນ້ານີ້"
 
-#: kmmainwidget.cpp:2763
+#: kmmainwidget.cpp:2766
 msgid "Go to the previous unread message"
 msgstr "ໄປຍັງຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານສະບັບກ່ອນຫນ້ານີ້"
 
-#: kmmainwidget.cpp:2775
+#: kmmainwidget.cpp:2778
 msgid "Next Unread &Folder"
 msgstr "ໂຟເດີ&ທີ່ຍັງບໍ່ອ່ານ"
 
-#: kmmainwidget.cpp:2776
+#: kmmainwidget.cpp:2779
 msgid "Go to the next folder with unread messages"
 msgstr "ໄປຍັງໂຟເດີຖັດໄປທີ່ມີຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmmainwidget.cpp:2784
+#: kmmainwidget.cpp:2787
 msgid "Previous Unread F&older"
 msgstr "&ສະບັບທີ່ຍັງບໍ່ໄດ້ອ່ານກ່ອນຫນ້ານີ້"
 
-#: kmmainwidget.cpp:2785
+#: kmmainwidget.cpp:2788
 msgid "Go to the previous folder with unread messages"
 msgstr "ໄປໂຟເດີກອ່ນຫນ້ານີ້ທີ່ມີຈົດໝາຍທີ່ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmmainwidget.cpp:2792
+#: kmmainwidget.cpp:2795
 msgid ""
 "_: Go->\n"
 "Next Unread &Text"
 msgstr "ຂໍ້ຄວາມຖັດໄປທີ່ຍັງບໍ່ໄດ້ອາ່&ນ"
 
-#: kmmainwidget.cpp:2793
+#: kmmainwidget.cpp:2796
 msgid "Go to the next unread text"
 msgstr "ໄປຍັງຂໍ້ຄວາມຖັດໄປທີ່ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmmainwidget.cpp:2794
+#: kmmainwidget.cpp:2797
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
 "message."
 msgstr "ເລື່ອນລົງຈົນຮອດສຸດ ຖ້າສຸດຈື່ງໄປຍັງຈົດໝາຍໂຕອື່ນ"
 
-#: kmmainwidget.cpp:2801
+#: kmmainwidget.cpp:2804
 #, fuzzy
 msgid "Show Quick Search"
 msgstr "ຄົ້ນ&ຫາ"
 
-#: kmmainwidget.cpp:2808
+#: kmmainwidget.cpp:2811
 msgid "Configure &Filters..."
 msgstr "&ປັບແຕ່ງຕົວກອງ..."
 
-#: kmmainwidget.cpp:2810
+#: kmmainwidget.cpp:2813
 msgid "Configure &POP Filters..."
 msgstr "ປັບ&ແຕ່ງຕົວກອງPOP..."
 
-#: kmmainwidget.cpp:2812
+#: kmmainwidget.cpp:2815
 #, fuzzy
 msgid "Manage &Sieve Scripts..."
 msgstr "ການກອງທີ່ມີ"
 
-#: kmmainwidget.cpp:2815
+#: kmmainwidget.cpp:2818
 msgid "KMail &Introduction"
 msgstr "ບົດ&ແນະນຳຕົວKMail"
 
-#: kmmainwidget.cpp:2816
+#: kmmainwidget.cpp:2819
 msgid "Display KMail's Welcome Page"
 msgstr "ສະແດງ ຫນ້າເວ໊ບສະແດງຄວາມຍິນດີ KMail"
 
-#: kmmainwidget.cpp:2822
+#: kmmainwidget.cpp:2825
 msgid "Configure &Notifications..."
 msgstr "ປັບແຕ່ງຕົວກ&ອງ..."
 
-#: kmmainwidget.cpp:2827
+#: kmmainwidget.cpp:2830
 msgid "&Configure KMail..."
 msgstr "&ປັບແຕ່ງຕົວກອງ..."
 
-#: kmmainwidget.cpp:3114
+#: kmmainwidget.cpp:3117
 #, fuzzy
 msgid "E&mpty Trash"
 msgstr "ເຖຖັງຂີ້ເຫືຍອ"
 
-#: kmmainwidget.cpp:3114
+#: kmmainwidget.cpp:3117
 msgid "&Move All Messages to Trash"
 msgstr "&ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້ເຫຍື່ອ"
 
-#: kmmainwidget.cpp:3118
+#: kmmainwidget.cpp:3121
 #, fuzzy
 msgid "&Delete Search"
 msgstr "&ລືບໂຟເດີ"
 
-#: kmmainwidget.cpp:3118
+#: kmmainwidget.cpp:3121
 msgid "&Delete Folder"
 msgstr "&ລືບໂຟເດີ"
 
-#: kmmainwidget.cpp:3296
+#: kmmainwidget.cpp:3299
 #, fuzzy, c-format
 msgid ""
 "_n: Removed %n duplicate message.\n"
@@ -7751,16 +7646,16 @@ msgstr ""
 "_nລບື%ຄູ່ຂໍ້ຄວາມຈຳນວນໃດຫນື່ງ \n"
 "_nລືບ%ຄູ່ຂໍ້ຄວາມຈຳນວນໃດຫນື່ງທີ່ຫລາຍ"
 
-#: kmmainwidget.cpp:3298
+#: kmmainwidget.cpp:3301
 msgid "No duplicate messages found."
 msgstr "ບໍ່ພົບສ່ວນທ້າຍ"
 
-#: kmmainwidget.cpp:3368
+#: kmmainwidget.cpp:3371
 #, fuzzy, c-format
 msgid "Filter %1"
 msgstr "ການກະທຳເມື່ອກອງ"
 
-#: kmmainwidget.cpp:3481
+#: kmmainwidget.cpp:3484
 #, fuzzy
 msgid "Subscription"
 msgstr "ລາຍລະອຽດ"
@@ -8090,6 +7985,11 @@ msgstr "ບໍ່ມີຊື່ເລື່ອງ"
 #: kmpopfiltercnfrmdlg.cpp:394
 msgid "unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
+
+#: kmreadermainwin.cpp:371 searchwindow.cpp:283
+#, fuzzy
+msgid "Save Attachments..."
+msgstr "&ບັນທືກເອກະສານທີ່ແນບມາ"
 
 #: kmreaderwin.cpp:548
 msgid ""
@@ -8452,7 +8352,7 @@ msgstr ""
 msgid "Cannot add message to outbox folder"
 msgstr "ບໍ່ສາມາດເພີ່ມຈົດຫມາຍໄປຍັງກັບຈົດຫມາຍອອກໄດ້"
 
-#: kmsender.cpp:330
+#: kmsender.cpp:334
 msgid ""
 "Critical error: Unable to process sent mail (out of space?)Moving failing "
 "message to \"sent-mail\" folder."
@@ -8460,7 +8360,7 @@ msgstr ""
 "ຂໍ້ຜິດພາດຮ້າຍແຮງ:ບໍ່ສາມາດທຳການສົ່ງຈົດຫມາຍ (ພື້ນທີ່ເຕັມຫລືບໍ່ ?) "
 "ກຳລັງຍ້າຍຈົດຫມາຍທີ່ຜິດພາດໄປຍັງໂຟເດີ \" ຈົດຫມາຍທີ່ສົ່ງ \""
 
-#: kmsender.cpp:340
+#: kmsender.cpp:344
 msgid ""
 "Moving the sent message \"%1\" from the \"outbox\" to the \"sent-mail\" folder "
 "failed.\n"
@@ -8471,14 +8371,14 @@ msgstr ""
 "ໄປຫາ\"ຈົດໝາຍທີ່ຈະສົ່ງ\" ໂຟເດີຣຜິດພາດ.\n"
 "ແປງບັນຫາແລະການຍ້າຍຈົດໝາຍ"
 
-#: kmsender.cpp:386
+#: kmsender.cpp:390
 msgid ""
 "It's not possible to send messages without specifying a sender address.\n"
 "Please set the email address of identity '%1' in the Identities section of the "
 "configuration dialog and then try again."
 msgstr ""
 
-#: kmsender.cpp:408
+#: kmsender.cpp:412
 #, fuzzy, c-format
 msgid ""
 "_n: %n queued message successfully sent.\n"
@@ -8487,48 +8387,48 @@ msgstr ""
 "ສົ່ງໄປໄວ້ໃນຄິດແລ້ວ %\n"
 " ສະບັບ"
 
-#: kmsender.cpp:411
+#: kmsender.cpp:415
 #, fuzzy
 msgid "%1 of %2 queued messages successfully sent."
 msgstr ""
 "ສົ່ງໄປໄວ້ໃນຄິດແລ້ວ %\n"
 " ສະບັບ"
 
-#: kmsender.cpp:426
+#: kmsender.cpp:430
 #, fuzzy
 msgid "Sending messages"
 msgstr "เซ็นต์จดหมาย"
 
-#: kmsender.cpp:427
+#: kmsender.cpp:431
 msgid "Initiating sender process..."
 msgstr "ເລີ່ມທຳການປະມວນຜົນໃນການສົ່ງ..."
 
-#: kmsender.cpp:457
+#: kmsender.cpp:461
 msgid ""
 "You have chosen to send all queued email using an unencrypted transport, do you "
 "want to continue? "
 msgstr ""
 
-#: kmsender.cpp:459
+#: kmsender.cpp:463
 #, fuzzy
 msgid "Send unencrypted"
 msgstr "ເກັບຈົດໝາ&ຍທີ່ເຂົ້າລະຫັດໄວ້"
 
-#: kmsender.cpp:511
+#: kmsender.cpp:515
 msgid "Unrecognized transport protocol. Unable to send message."
 msgstr "ບໍ່ສາມາດຈັດການໂປໂຕຄອນສົ່ງຖາຍ່ຂໍ້ມູນໄດ້ເຮັດໃຫ້ບໍີ່ສາມາດສົ່ງຈົດມໝາຍໄດ້"
 
-#: kmsender.cpp:552
+#: kmsender.cpp:556
 msgid ""
 "_: %3: subject of message\n"
 "Sending message %1 of %2: %3"
 msgstr "ກຳລັງສົ່ງຈົດຫມາຍ %1 ຈາກ %2  %3"
 
-#: kmsender.cpp:564
+#: kmsender.cpp:568
 msgid "Failed to send (some) queued messages."
 msgstr "ຜິດພາດໃນການສົ່ງຈົດຫມາຍໄປຍັງບາງຄິວ"
 
-#: kmsender.cpp:640
+#: kmsender.cpp:644
 #, fuzzy
 msgid ""
 "Sending aborted:\n"
@@ -8548,12 +8448,12 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:648 kmsender.cpp:686
+#: kmsender.cpp:652 kmsender.cpp:690
 #, fuzzy
 msgid "Sending aborted."
 msgstr "ສົ່ງພາຍຫລັງ"
 
-#: kmsender.cpp:659
+#: kmsender.cpp:663
 #, fuzzy
 msgid ""
 "<p>Sending failed:</p>"
@@ -8574,22 +8474,22 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:669
+#: kmsender.cpp:673
 #, fuzzy
 msgid "Continue Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:669
+#: kmsender.cpp:673
 #, fuzzy
 msgid "&Continue Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:670
+#: kmsender.cpp:674
 #, fuzzy
 msgid "&Abort Sending"
 msgstr "&ການສົ່ງ"
 
-#: kmsender.cpp:672
+#: kmsender.cpp:676
 #, fuzzy
 msgid ""
 "Sending failed:\n"
@@ -8609,11 +8509,11 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:871
+#: kmsender.cpp:875
 msgid "Please specify a mailer program in the settings."
 msgstr "ກະລຸນາລະບຸໂປຣແກຣມສົ່ງຈົດໝາຍໃນສ່ວນການຕັ້ງຄ່າກອ່ນ"
 
-#: kmsender.cpp:872
+#: kmsender.cpp:876
 msgid ""
 "Sending failed:\n"
 "%1\n"
@@ -8632,16 +8532,16 @@ msgstr ""
 "ໂປໂຕຄອນຮັບສົ່ງຂໍ້ມູນຕໍ່ໄປຈະຖືກໃຊ້:\n"
 "  %2"
 
-#: kmsender.cpp:920
+#: kmsender.cpp:924
 #, fuzzy, c-format
 msgid "Failed to execute mailer program %1"
 msgstr "ຜິດພາດໃນການປະມວນຜົນໂປຣແກຣມສົ່ງຈົດໝາຍ"
 
-#: kmsender.cpp:970
+#: kmsender.cpp:974
 msgid "Sendmail exited abnormally."
 msgstr "ສົ່ງຈົດໝາຍ ຈົບການທຳງານແບບບໍ່ປົກກະຕິ"
 
-#: kmsender.cpp:1032
+#: kmsender.cpp:1036
 #, fuzzy
 msgid "You need to supply a username and a password to use this SMTP server."
 msgstr ""
@@ -12385,6 +12285,10 @@ msgstr ""
 msgid "Continue Search"
 msgstr "&ການສົ່ງ"
 
+#: searchjob.cpp:239 searchwindow.cpp:68
+msgid "&Search"
+msgstr "ຄົ້ນ&ຫາ"
+
 #: searchjob.cpp:251
 #, fuzzy
 msgid "Downloading emails from IMAP server"
@@ -12396,6 +12300,102 @@ msgid "Error while searching."
 msgstr ""
 "ມີຂໍ້ຜິດພາດຂະນະອ່ານແຟ້ມ:\n"
 "%1"
+
+#: searchwindow.cpp:66
+#, fuzzy
+msgid "Find Messages"
+msgstr "&ຄົ້ນຫາຈົດໝາຍ..."
+
+#: searchwindow.cpp:69
+msgid "S&top"
+msgstr "&ຢຸດ"
+
+#: searchwindow.cpp:96
+msgid "Search in &all local folders"
+msgstr "ຄົ້ນຫາໃນໂຟເດີພາຍໃນ&ທັງໝົດ"
+
+#: searchwindow.cpp:101
+msgid "Search &only in:"
+msgstr "ຄົ້ນຫາ&ສະເພາະໃນ:"
+
+#: searchwindow.cpp:112
+msgid "I&nclude sub-folders"
+msgstr "&ລວມໂຟເດີຍ່ອຍດ້ວຍ"
+
+#: searchwindow.cpp:181
+msgid "Sender/Receiver"
+msgstr "ຜູ້ສົ່ງ/ຜູ້ຮັບ"
+
+#: searchwindow.cpp:200
+#, fuzzy
+msgid "Search folder &name:"
+msgstr "ຊື່ເ&ຊີຟເວີຣ໌:"
+
+#: searchwindow.cpp:213
+#, fuzzy
+msgid "Op&en"
+msgstr "&ເປີດ"
+
+#: searchwindow.cpp:223
+msgid "AMiddleLengthText..."
+msgstr "ຄວາມຍາວຂອງຖ້ອຍຄຳທາງກາງ.."
+
+#: searchwindow.cpp:224
+msgid "Ready."
+msgstr "ພ້ອມ"
+
+#: searchwindow.cpp:287
+#, fuzzy
+msgid "Clear Selection"
+msgstr "ການກະທຳເມື່ອກອງ"
+
+#: searchwindow.cpp:343
+msgid "Done"
+msgstr "ຮຽບຮ້ອຍແລ້ວ"
+
+#: searchwindow.cpp:344
+#, fuzzy
+msgid ""
+"_n: %n match (%1)\n"
+"%n matches (%1)"
+msgstr ""
+"ພົບທັງສິ້ນ %n \n"
+"ທີ่່ (%1)"
+
+#: searchwindow.cpp:346 searchwindow.cpp:352
+#, fuzzy, c-format
+msgid ""
+"_n: %n message processed\n"
+"%n messages processed"
+msgstr ""
+"_n ປະມວນຜົນແລ້ວ \n"
+"  ສະບັບ %n"
+
+#: searchwindow.cpp:348
+msgid "Search canceled"
+msgstr "ຍົກເລີກການຄົ້ນຫາແລ້ວ"
+
+#: searchwindow.cpp:350
+#, fuzzy
+msgid ""
+"_n: %n match so far (%1)\n"
+"%n matches so far (%1)"
+msgstr ""
+"ພົບທັງສິ້ນ %n ແຫ່ງ(%1) \n"
+"ພົບທັງສິ້ນ %n ແຫ່ງ(%1)"
+
+#: searchwindow.cpp:355
+#, fuzzy, c-format
+msgid ""
+"_n: %n match\n"
+"%n matches"
+msgstr ""
+"ພົບທັງສິ້ນ %n ທີ່ \n"
+"ພົບທັງສິ້ນ %n ທີ່ "
+
+#: searchwindow.cpp:356
+msgid "Searching in %1 (message %2)"
+msgstr "ກຳລັງຄົ້ນຫາໃນ %1 (ຈົດໝາຍ%2)"
 
 #: sieveconfig.cpp:69
 msgid "&Server supports Sieve"
