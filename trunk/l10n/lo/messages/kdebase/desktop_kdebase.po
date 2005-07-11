@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-07-09 23:46+0000\n"
+"POT-Creation-Date: 2005-07-10 23:46+0000\n"
 "PO-Revision-Date: 2003-01-11 14:20+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -2921,6 +2921,15 @@ msgstr ""
 msgid "Query=http://en.wikipedia.org/wiki/Special:Search?search=\\{@}&go=Go"
 msgstr ""
 
+#: kcontrol/ebrowsing/plugins/ikws/searchproviders/wiktionary.desktop:4
+#, fuzzy
+msgid "Name=Wiktionary - The Free Dictionary"
+msgstr "Name=KBabel - พจนานุกรม"
+
+#: kcontrol/ebrowsing/plugins/ikws/searchproviders/wiktionary.desktop:7
+msgid "Query=http://en.wiktionary.org/wiki/Special:Search?search=\\{@}&go=Go"
+msgstr ""
+
 #: kcontrol/ebrowsing/plugins/ikws/searchproviders/wordref.desktop:5
 msgid "Name=WordReference.com English Dictionary"
 msgstr ""
@@ -4331,7 +4340,7 @@ msgstr "GenericName=ກວດກາການທຳງານຂອງລະບົ
 #: kdesktop/init/Templates/CDWRITER-Device.desktop:12
 #: kdesktop/init/Templates/DVDROM-Device.desktop:12
 #: kdesktop/init/Templates/ZIP-Device.desktop:12
-#: kioslave/media/services/media_eject.desktop:7
+#: kioslave/media/services/media_eject.desktop:8
 msgid "Name=Eject"
 msgstr "Name=ເອົາແຜ່ນອອກ"
 
@@ -5211,6 +5220,7 @@ msgid "Comment=A panel applet that displays your storage media"
 msgstr "Comment=แอพเพล็ตควบคุมเครื่องรับวิทยุของคุณ"
 
 #: kicker/applets/media/mediaapplet.desktop:44
+#: kioslave/media/kcmodule/media.desktop:13
 #: kioslave/system/entries/media.desktop:6
 #: konqueror/sidebar/trees/init/services/media.desktop:6
 #, fuzzy
@@ -5497,19 +5507,39 @@ msgstr "Comment=ຄອມໂປເນັນຕົວສະແດງພາບທ�
 msgid "Name=KManPart"
 msgstr "Name=ຕົວຮງກພື້ນທີ່ທຳງານ - K"
 
-#: kioslave/media/kdedmodule/mediamanager.desktop:4
+#: kioslave/media/kcmodule/media.desktop:15
 #, fuzzy
-msgid "Name=KDED Media Manager"
-msgstr "Name=ตัวจัดการ Dhcp"
+msgid "Comment=Configure Storage Media"
+msgstr "GenericName=ปรับแต่งกล้อง"
 
-#: kioslave/media/kdedmodule/mediamanager.desktop:46
-msgid "Comment=Keep track of media activities and allow to (un)mount (media:/)"
-msgstr ""
+#: kioslave/media/kcmodule/media.desktop:17
+#, fuzzy
+msgid "Keywords=storage,media,usb,cdrom,device"
+msgstr "Keywords=cdbo,ซีดีรอม,อุปกรณ์,cdbakeoven"
 
 #: kioslave/media/kfile-plugin/kfile_media.desktop:4
 #, fuzzy
 msgid "Name=Medium Information"
 msgstr "Name=ຂໍ້ມູນຕ່າງໆ"
+
+#: kioslave/media/mediamanager/mediamanager.desktop:4
+#, fuzzy
+msgid "Name=KDED Media Manager"
+msgstr "Name=ตัวจัดการ Dhcp"
+
+#: kioslave/media/mediamanager/mediamanager.desktop:46
+msgid "Comment=Keep track of media activities and allow to (un)mount (media:/)"
+msgstr ""
+
+#: kioslave/media/medianotifier/medianotifier.desktop:10
+#, fuzzy
+msgid "Name=Media Notifier Deamon"
+msgstr "Name=ການແຈ້ງເຕືອນຂອງລະບົບ"
+
+#: kioslave/media/medianotifier/medianotifier.desktop:11
+#, fuzzy
+msgid "Comment=A media plugged notifier"
+msgstr "Comment=ຄອມໂປເນັນຕົວສະແດງພາບທີ່ຝັ່ງໄດ້"
 
 #: kioslave/media/mimetypes/audiocd.desktop:5
 #, fuzzy
@@ -5632,16 +5662,16 @@ msgstr "Comment=ຈໍພາບ"
 msgid "Comment=Unmounted Zip Disk"
 msgstr "Comment= ຫັງກາລີ"
 
-#: kioslave/media/services/media_mount.desktop:7
+#: kioslave/media/services/media_mount.desktop:8
 msgid "Name=Mount"
 msgstr "Name=ຈໍພາບ"
 
-#: kioslave/media/services/media_safelyremove.desktop:7
+#: kioslave/media/services/media_safelyremove.desktop:8
 #, fuzzy
 msgid "Name=Safely Remove"
 msgstr "Name=เซิร์ฟเวอร์ X"
 
-#: kioslave/media/services/media_unmount.desktop:7
+#: kioslave/media/services/media_unmount.desktop:8
 msgid "Name=Unmount"
 msgstr "Name=ຫັງກາລີ"
 
@@ -9921,10 +9951,6 @@ msgstr "Name=ຕົວສະແດງ"
 #~ msgid "GenericName=Popular Gambling Game"
 #~ msgstr "GenericName=เกมพนันยอดนิยม"
 
-#, fuzzy
-#~ msgid "Comment=Configure Kamera"
-#~ msgstr "GenericName=ปรับแต่งกล้อง"
-
 #~ msgid "Name=KColorChooser"
 #~ msgstr "Name=เครื่องมือเลือกสี - K"
 
@@ -12445,9 +12471,6 @@ msgstr "Name=ຕົວສະແດງ"
 #~ msgid "Name=KBabel"
 #~ msgstr "Name=KBabel"
 
-#~ msgid "Name=KBabel - Dictionary"
-#~ msgstr "Name=KBabel - พจนานุกรม"
-
 #~ msgid "Name=KBugBuster"
 #~ msgstr "Name=บักบัสเตอร์"
 
@@ -13220,9 +13243,6 @@ msgstr "Name=ຕົວສະແດງ"
 
 #~ msgid "Comment=Detected and Configured CD-ROM devices"
 #~ msgstr "Comment=ตรวจสอบและปรับแต่งอุปกรณ์ซีดีรอม"
-
-#~ msgid "Keywords=cdbo,cdrom,devices,cdbakeoven"
-#~ msgstr "Keywords=cdbo,ซีดีรอม,อุปกรณ์,cdbakeoven"
 
 #~ msgid "Name=Customize Defaults"
 #~ msgstr "Name=กำหนดค่าปริยาย"
