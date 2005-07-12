@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-18 21:24+0200\n"
+"POT-Creation-Date: 2005-07-12 01:31+0200\n"
 "PO-Revision-Date: 2003-01-11 17:27+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,30 +14,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: ksystraycmd.cpp:55
+#: ksystraycmd.cpp:60
 msgid ""
 "No window matching pattern '%1' and no command specified.\n"
 msgstr ""
 "ไม่มีหน้าต่างที่ตรงกับรูปแบบ '%1' และยังไม่มีการกำหนดคำสั่ง\n"
 
-#: ksystraycmd.cpp:62
+#: ksystraycmd.cpp:67
 #, fuzzy
 msgid "KSysTrayCmd: KShellProcess cannot find a shell."
 msgstr "KSysTrayCmd: KShellProcess ไม่พบเชลล์"
 
-#: ksystraycmd.cpp:189 main.cpp:47
+#: ksystraycmd.cpp:234 main.cpp:50
 msgid "KSysTrayCmd"
 msgstr "KSysTrayCmd"
 
-#: ksystraycmd.cpp:190
+#: ksystraycmd.cpp:235
 msgid "&Hide"
 msgstr "ซ่อน"
 
-#: ksystraycmd.cpp:190
+#: ksystraycmd.cpp:235
 msgid "&Restore"
 msgstr "เรียกคืน"
 
-#: ksystraycmd.cpp:191
+#: ksystraycmd.cpp:236
 msgid "&Undock"
 msgstr ""
 
@@ -90,6 +90,16 @@ msgstr ""
 "ซึ่งตัวเลือกนี้จะไม่มีผล จนกว่าจะกำหนดแบบ startonshow"
 
 #: main.cpp:38
+msgid ""
+"Don't use window's icon in systray, but ksystraycmd one's\n"
+"(should be use with --icon to specify ksystraycmd icon)"
+msgstr ""
+
+#: main.cpp:40
+msgid "Try to keep the window above other windows"
+msgstr ""
+
+#: main.cpp:41
 #, fuzzy
 msgid ""
 "Quit the client when we are told to hide the window.\n"
@@ -98,12 +108,12 @@ msgstr ""
 "การออกจากไคลเอนต์ เมื่อได้บอกให้ซ่อนหน้าต่าง\n"
 "จะไม่มีผล จนกว่าจะกำหนดแบบ startonshow และให้มีการเก็บตัวที่ทำงานอยู่"
 
-#: main.cpp:49
+#: main.cpp:52
 #, fuzzy
 msgid "Allows any application to be kept in the system tray"
 msgstr "อนุญาตให้เก็บแอพพลิเคชันไว้ในถาดงานของระบบ"
 
-#: main.cpp:89
+#: main.cpp:92
 #, fuzzy
 msgid "No command or window specified"
 msgstr "ยังไม่ได้กำหนดคำสั่ง หรือแถบหัวเรื่องหน้าต่าง"
