@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-11 01:33+0200\n"
+"POT-Creation-Date: 2005-07-14 01:33+0200\n"
 "PO-Revision-Date: 2003-01-21 12:16+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1035,7 +1035,7 @@ msgid ""
 msgstr "ມີຊຸດກອບທີ່ຊື່'%1' ຢູ່ແລ້ວໂປດຕື່ມຊື່ໃໝ່"
 
 #: framedia.cc:1927 framedia.cc:1928 framedia.cc:1945 framedia.cc:1946
-#: kwtableframeset.cc:2565 kwtableframeset.cc:2568
+#: kwtableframeset.cc:2569 kwtableframeset.cc:2572
 msgid "Protect Content"
 msgstr "ປ້ອງກັນສ່ວນເນື້ອໃນ"
 
@@ -1173,7 +1173,7 @@ msgstr "ກຳລັງພິມ..."
 msgid "Move Frame"
 msgstr "ຍ້າຍກອບ"
 
-#: kwcanvas.cc:622 kwcanvas.cc:2659 kwtableframeset.cc:3048
+#: kwcanvas.cc:622 kwcanvas.cc:2659 kwtableframeset.cc:3052
 msgid "Read-only content cannot be changed. No modifications will be accepted."
 msgstr "ບໍ່ສາມາດປ່ງນແປງກອບທີ່ອ່ານໄດ້ຢ່າງດງວຈະບໍມີການປ່ງນແປງເກີດຂື້ນ"
 
@@ -1623,7 +1623,7 @@ msgstr ""
 msgid "File Format Mismatch"
 msgstr "ຮູບແບບແຟ້ມເຂົ້າກັນບໍ່ໄດ้"
 
-#: kwdoc.cc:1693
+#: kwdoc.cc:1693 kwoasisloader.cc:180
 msgid "First Page Header"
 msgstr "ຫົວເຈ້ຍໜ້າທໍາອິດ"
 
@@ -1635,7 +1635,7 @@ msgstr "ຫົວເຈ້ຍໜ້າຄີກ"
 msgid "Even Pages Header"
 msgstr "ຫົວເຈ້ຍໜ້າຄູ່"
 
-#: kwdoc.cc:1728
+#: kwdoc.cc:1728 kwoasisloader.cc:182
 msgid "First Page Footer"
 msgstr "ທ້າຍເຈ້ຍໜ້າທໍາອິດ"
 
@@ -1651,39 +1651,39 @@ msgstr "ທ້າຍເຈ້ຍໜ້າຄ่ູ"
 msgid "Copy%1-%2"
 msgstr "ຕັດເລືອກ%1-%2"
 
-#: kwdoc.cc:3616
+#: kwdoc.cc:3666
 msgid "Create Part Frame"
 msgstr "ສ້າງກຣອບບາງສ່ວນ"
 
-#: kwdoc.cc:4965 kwdoc.cc:5057 kwtableframeset.cc:137 kwview.cc:2628
+#: kwdoc.cc:5015 kwdoc.cc:5107 kwtableframeset.cc:137 kwview.cc:2628
 msgid "Delete Table"
 msgstr "ລຶບຕາຕະລາງ"
 
-#: kwdoc.cc:4980
+#: kwdoc.cc:5030
 msgid "Delete Text Frame"
 msgstr "ລຶບກຣອບຂໍ້ຄວາມ"
 
-#: kwdoc.cc:4984
+#: kwdoc.cc:5034
 msgid "Delete Formula Frame"
 msgstr "ລຶບກຣອບສູດ"
 
-#: kwdoc.cc:4993
+#: kwdoc.cc:5043
 msgid "Delete Picture Frame"
 msgstr "ລຶບກຣອບຮູບພາບ"
 
-#: kwdoc.cc:4997
+#: kwdoc.cc:5047
 msgid "Delete Object Frame"
 msgstr "ລຶບກຣອບວັດຖຸ"
 
-#: kwdoc.cc:5002
+#: kwdoc.cc:5052
 msgid "Delete Horizontal Line"
 msgstr "ເສັ້ນທາງແນວນອນ"
 
-#: kwdoc.cc:5032
+#: kwdoc.cc:5082
 msgid "Delete Frames"
 msgstr "ລຶບກຣອບ"
 
-#: kwdoc.cc:5083 kwview.cc:2656 kwview.cc:2673 kwview.cc:2691
+#: kwdoc.cc:5133 kwview.cc:2656 kwview.cc:2673 kwview.cc:2691
 msgid "Delete Frame"
 msgstr "ລຶບກຣອບ"
 
@@ -1722,12 +1722,12 @@ msgstr "ກຸ່ມໃໝ່"
 msgid "Formula %1"
 msgstr "ສູດ %1"
 
-#: kwframe.cc:2152
+#: kwframe.cc:2188
 #, c-format
 msgid "Picture %1"
 msgstr "ຮູບພາບ %1"
 
-#: kwframe.cc:2411
+#: kwframe.cc:2447
 #, fuzzy, c-format
 msgid "Horizontal line %1"
 msgstr "ເສັ້ນທາງແນວນອນ"
@@ -1816,7 +1816,7 @@ msgstr "หัวกระดาษ"
 msgid "Footer"
 msgstr "ท้ายกระดาษ"
 
-#: kwoasisloader.cc:336
+#: kwoasisloader.cc:341
 #, fuzzy
 msgid "Unnamed Table"
 msgstr "ສ້າງຕາຕະລາງ"
@@ -1839,15 +1839,15 @@ msgstr "ຄ່າປະລິນຍາຍຂອງເອກະສານ"
 msgid "Make Document Internal"
 msgstr "ໃຫ້ຂໍ້ຄວາມເປັນໂຕອ່ຽງ"
 
-#: kwtableframeset.cc:1495 kwview.cc:4183
+#: kwtableframeset.cc:1499 kwview.cc:4183
 msgid "Join Cells"
 msgstr "ເຊື່ອມເຊວ์"
 
-#: kwtableframeset.cc:1652 kwview.cc:4220 kwview.cc:4229
+#: kwtableframeset.cc:1656 kwview.cc:4220 kwview.cc:4229
 msgid "Split Cells"
 msgstr "ແຍກເຊວ์"
 
-#: kwtableframeset.cc:2671
+#: kwtableframeset.cc:2675
 msgid ""
 "_: Hello dear translator :), 1 is the table name, 2 and 3 are row and column\n"
 "%1 Cell %2,%3"
