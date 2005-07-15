@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-13 01:31+0200\n"
+"POT-Creation-Date: 2005-07-15 01:33+0200\n"
 "PO-Revision-Date: 2003-01-24 12:11+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1513,8 +1513,8 @@ msgstr "ກຸ່ມ"
 msgid "Link"
 msgstr "ລິ້ງ"
 
-#: keditbookmarks/bookmarkinfo.cpp:196 keditbookmarks/listview.cpp:476
-#: keditbookmarks/listview.cpp:598 listview/konq_listview.cc:276
+#: keditbookmarks/bookmarkinfo.cpp:196 keditbookmarks/listview.cpp:551
+#: keditbookmarks/listview.cpp:673 listview/konq_listview.cc:276
 msgid "URL"
 msgstr "ຕຳແໜ່ງ"
 
@@ -1650,7 +1650,7 @@ msgstr "&ປ່ຽນໄອຄອນ..."
 msgid "Update Favicon"
 msgstr "ປັບປຸງໄອຄ້ອນ"
 
-#: keditbookmarks/actionsimpl.cpp:126 keditbookmarks/actionsimpl.cpp:537
+#: keditbookmarks/actionsimpl.cpp:126 keditbookmarks/actionsimpl.cpp:536
 msgid "Recursive Sort"
 msgstr ""
 
@@ -1779,30 +1779,30 @@ msgstr ""
 msgid "Hide in T&oolbar"
 msgstr "แสดงแถบตำแหน่ง"
 
-#: keditbookmarks/actionsimpl.cpp:334
+#: keditbookmarks/actionsimpl.cpp:333
 #, fuzzy
 msgid "Cut Items"
 msgstr "ຕັດລາຍການ"
 
-#: keditbookmarks/actionsimpl.cpp:365
+#: keditbookmarks/actionsimpl.cpp:364
 #, fuzzy
 msgid "Create New Bookmark Folder"
 msgstr "&ສ້າງທີ່ກັນຫນັງສືໄຫ່ມ"
 
-#: keditbookmarks/actionsimpl.cpp:366
+#: keditbookmarks/actionsimpl.cpp:365
 #, fuzzy
 msgid "New folder:"
 msgstr "ເປັນໂຟນເດີໃໝ່"
 
-#: keditbookmarks/actionsimpl.cpp:553
+#: keditbookmarks/actionsimpl.cpp:552
 msgid "Sort Alphabetically"
 msgstr "ລຽງຕາມລຳດັບຕົວອັກສອນ"
 
-#: keditbookmarks/actionsimpl.cpp:561
+#: keditbookmarks/actionsimpl.cpp:560
 msgid "Delete Items"
 msgstr "ລຶບລາຍການ"
 
-#: keditbookmarks/actionsimpl.cpp:619
+#: keditbookmarks/actionsimpl.cpp:618
 msgid "Icon"
 msgstr "ໄອຄອນ"
 
@@ -1836,60 +1836,60 @@ msgstr "&ສະແດງເປັນ"
 msgid "Times visited:"
 msgstr ""
 
-#: keditbookmarks/commands.cpp:55
+#: keditbookmarks/commands.cpp:152
 msgid "Insert Separator"
 msgstr "ເພີ່ມເສັ້ນແບ່ງ"
 
-#: keditbookmarks/commands.cpp:57
+#: keditbookmarks/commands.cpp:154
 msgid "Create Folder"
 msgstr "ສ້າງໂຟນເດີ"
 
-#: keditbookmarks/commands.cpp:59
+#: keditbookmarks/commands.cpp:156
 #, c-format
 msgid "Copy %1"
 msgstr "ສຳເນົາ%1"
 
-#: keditbookmarks/commands.cpp:61
+#: keditbookmarks/commands.cpp:158
 msgid "Create Bookmark"
 msgstr "ສ້າງທີ່ຂັ້ນໜັງສື"
 
-#: keditbookmarks/commands.cpp:134
+#: keditbookmarks/commands.cpp:242
 #, fuzzy
 msgid "%1 Change"
 msgstr "ຕຳແໜ່ງປ່ຽນ"
 
-#: keditbookmarks/commands.cpp:184
+#: keditbookmarks/commands.cpp:292
 msgid "Renaming"
 msgstr "ກຳລັງປ່ຽນຊື່"
 
-#: keditbookmarks/commands.cpp:334
+#: keditbookmarks/commands.cpp:442
 #, c-format
 msgid "Move %1"
 msgstr "ຍ້າຍ%1"
 
-#: keditbookmarks/commands.cpp:488
+#: keditbookmarks/commands.cpp:596
 msgid "Set as Bookmark Toolbar"
 msgstr "ຕັ້ງເປັນແບບທີ່ຂັ້ນໜັງສື"
 
-#: keditbookmarks/commands.cpp:514
+#: keditbookmarks/commands.cpp:622
 #, fuzzy
 msgid "%1 in Bookmark Toolbar"
 msgstr "แสดงแถบที่คั่นหนังสือ"
 
-#: keditbookmarks/commands.cpp:514
+#: keditbookmarks/commands.cpp:622
 #, fuzzy
 msgid "Show"
 msgstr "ສະແດງ %1"
 
-#: keditbookmarks/commands.cpp:515
+#: keditbookmarks/commands.cpp:623
 msgid "Hide"
 msgstr ""
 
-#: keditbookmarks/commands.cpp:609
+#: keditbookmarks/commands.cpp:700
 msgid "Copy Items"
 msgstr "ຄັດລອກລາຍການ"
 
-#: keditbookmarks/commands.cpp:610
+#: keditbookmarks/commands.cpp:701
 msgid "Move Items"
 msgstr "ຍ້າຍລາຍການ"
 
@@ -1916,7 +1916,7 @@ msgstr ""
 msgid "Import %1 Bookmarks"
 msgstr "นำเข้าที่คั่นหนังสือของ IE"
 
-#: keditbookmarks/importers.cpp:48 keditbookmarks/listview.cpp:756
+#: keditbookmarks/importers.cpp:48 keditbookmarks/listview.cpp:831
 #, fuzzy
 msgid "%1 Bookmarks"
 msgstr "ແນວຂັ້ນໜັງສື"
@@ -1934,12 +1934,12 @@ msgstr "นำเข้าจาก IE"
 msgid "As New Folder"
 msgstr "ເປັນໂຟນເດີໃໝ່"
 
-#: keditbookmarks/importers.cpp:178
+#: keditbookmarks/importers.cpp:180
 #, fuzzy
 msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
 msgstr "*.xbel|ແຟັມທີ່ຂັ້ນໜັງສືຂອງGaleon (*.xbel)"
 
-#: keditbookmarks/importers.cpp:186
+#: keditbookmarks/importers.cpp:188
 #, fuzzy
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|ແຟັມທີ່ຂັ້ນໜັງສືຂອງKDE (*.xml)"
@@ -1965,34 +1965,34 @@ msgstr ""
 msgid "Original author"
 msgstr ""
 
-#: keditbookmarks/listview.cpp:328
+#: keditbookmarks/listview.cpp:397
 #, fuzzy
 msgid "Drop Items"
 msgstr "ມີການ(ລາກແລ້ວ)ວາງລາຍການ"
 
-#: keditbookmarks/listview.cpp:597
+#: keditbookmarks/listview.cpp:672
 msgid "Bookmark"
 msgstr "ທີ່ຄົ້ນໜັງສື"
 
-#: keditbookmarks/listview.cpp:599
+#: keditbookmarks/listview.cpp:674
 msgid "Comment"
 msgstr ""
 
-#: keditbookmarks/listview.cpp:600
+#: keditbookmarks/listview.cpp:675
 #, fuzzy
 msgid "Status"
 msgstr "&ກວດຊອບສະຖານະ"
 
-#: keditbookmarks/listview.cpp:602
+#: keditbookmarks/listview.cpp:677
 msgid "Address"
 msgstr "ຕຳແໜ່ງ"
 
-#: keditbookmarks/listview.cpp:605
+#: keditbookmarks/listview.cpp:680
 #, fuzzy
 msgid "Folder"
 msgstr "ເປັນໂຟນເດີໃໝ່"
 
-#: keditbookmarks/listview.cpp:765
+#: keditbookmarks/listview.cpp:840
 #, fuzzy
 msgid "Empty Folder"
 msgstr "โฟลเดอร์เปล่า"
@@ -2110,17 +2110,17 @@ msgstr ""
 msgid "Ok"
 msgstr "ຕົກລົງ"
 
-#: keditbookmarks/toplevel.cpp:205
+#: keditbookmarks/toplevel.cpp:212
 msgid "Reset Quick Search"
 msgstr ""
 
-#: keditbookmarks/toplevel.cpp:208
+#: keditbookmarks/toplevel.cpp:215
 msgid ""
 "<b>Reset Quick Search</b>"
 "<br>Resets the quick search so that all bookmarks are shown again."
 msgstr ""
 
-#: keditbookmarks/toplevel.cpp:212 sidebar/trees/konqsidebar_tree.cpp:33
+#: keditbookmarks/toplevel.cpp:219 sidebar/trees/konqsidebar_tree.cpp:33
 #, fuzzy
 msgid "Se&arch:"
 msgstr "ກຳລັງກວດຊອບ....."
