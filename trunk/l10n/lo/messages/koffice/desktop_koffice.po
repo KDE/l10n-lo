@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-07-14 23:47+0000\n"
+"POT-Creation-Date: 2005-07-15 23:47+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -940,24 +940,9 @@ msgstr "Name=ວ່າງ"
 msgid "Name=Empty Portrait"
 msgstr "Name=ແນວຕັ້ງວ່າງ"
 
-#: krita/data/krita_filter.desktop:4
-#, fuzzy
-msgid "Comment=Filter plugin for Krita"
-msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอนสำหรับ Kate"
-
 #: krita/data/krita_module.desktop:4 krita/modules/krita_module.desktop:4
 #, fuzzy
 msgid "Comment=Core functionality module for Krita"
-msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
-
-#: krita/data/krita_paintop.desktop:4
-#, fuzzy
-msgid "Comment=paint operation plugin for Krita"
-msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอนสำหรับ Kate"
-
-#: krita/data/krita_plugin.desktop:4
-#, fuzzy
-msgid "Comment=Plugin functionality module for Krita"
 msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
 
 #: krita/data/krita_tool.desktop:4
@@ -1162,14 +1147,26 @@ msgid "Name=Wet & Sticky Canvas Color Model"
 msgstr "Name=โมดูลทดสอบ KDED"
 
 #: krita/paintops/kritadefaultpaintops.desktop:3
+#: krita/plugins/example/kritaexample.desktop:3
 #, fuzzy
 msgid "Name=Default Paint Operations"
 msgstr "Name=ค่าปริยาย"
 
 #: krita/paintops/kritadefaultpaintops.desktop:21
+#: krita/plugins/example/kritaexample.desktop:21
 #, fuzzy
 msgid "Comment=Default paint operations"
 msgstr "GenericName=ข้อมูล DMA"
+
+#: krita/plugins/bumpmap/kritabumpmapfilter.desktop:3
+#, fuzzy
+msgid "Name=Bumpmap filter"
+msgstr "Name=ตัวกรอง BZip2"
+
+#: krita/plugins/bumpmap/kritabumpmapfilter.desktop:4
+#, fuzzy
+msgid "Comment=Bumpmap filter"
+msgstr "Comment=แฟ้มสำรองข้อมูล"
 
 #: krita/plugins/cimg/kritacimg.desktop:3
 #, fuzzy
@@ -1186,6 +1183,66 @@ msgstr "Comment=ตัวกรองการเลือกหน้า/กา
 msgid "Name=Color Picker Select Tool"
 msgstr "Name=เครื่องมือเลือกสี"
 
+#: krita/plugins/colorsfilters/kritacolorsfilter.desktop:3
+#, fuzzy
+msgid "Name=Color filters"
+msgstr "Name=สี"
+
+#: krita/plugins/colorsfilters/kritacolorsfilter.desktop:4
+#, fuzzy
+msgid "Comment=Color filters"
+msgstr "Comment=แฟ้มภายในระบบ"
+
+#: krita/plugins/convolutionfilters/kritaconvolutionfilters.desktop:3
+#, fuzzy
+msgid "Name=Convolutions filters"
+msgstr "Name=ค้นหาแฟ้ม"
+
+#: krita/plugins/convolutionfilters/kritaconvolutionfilters.desktop:4
+#, fuzzy
+msgid "Comment=Convolution filters"
+msgstr "Comment=เครื่องมือสอดส่องการเชื่อมต่อ ISDN"
+
+#: krita/plugins/cubismfilter/kritacubismfilter.desktop:3
+#, fuzzy
+msgid "Name=Cubism filter"
+msgstr "Name=ตัวกรอง GZip"
+
+#: krita/plugins/cubismfilter/kritacubismfilter.desktop:4
+#, fuzzy
+msgid "Comment=Cubism filter"
+msgstr "Comment=แฟ้ม TeX"
+
+#: krita/plugins/embossfilter/kritaembossfilter.desktop:3
+#, fuzzy
+msgid "Name=Emboss filter"
+msgstr "Name=เครื่องมือเลือกสี - K"
+
+#: krita/plugins/embossfilter/kritaembossfilter.desktop:4
+#, fuzzy
+msgid "Comment=Emboss filter"
+msgstr "Comment=แฟ้มภายในระบบ"
+
+#: krita/plugins/history_docker/kritahistorydocker.desktop:3
+#, fuzzy
+msgid "Name=History Docker"
+msgstr "Name=ประวัติการใช้งาน"
+
+#: krita/plugins/history_docker/kritahistorydocker.desktop:4
+#, fuzzy
+msgid "Comment=Command history docker for Krita"
+msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
+
+#: krita/plugins/oilpaintfilter/kritaoilpaintfilter.desktop:3
+#, fuzzy
+msgid "Name=Oilpaint filter"
+msgstr "Name=ตัวกรอง GZip"
+
+#: krita/plugins/oilpaintfilter/kritaoilpaintfilter.desktop:4
+#, fuzzy
+msgid "Comment=Oilpaint filter"
+msgstr "Comment=โฟลเดอร์งานพิมพ์"
+
 #: krita/plugins/paintop_template/kritatemplatepaintops.desktop:3
 #, fuzzy
 msgid "Name=Template Paint Operations"
@@ -1195,6 +1252,26 @@ msgstr "Name=ค่าปริยาย"
 #, fuzzy
 msgid "Comment=Template paint operations"
 msgstr "GenericName=ข้อมูล DMA"
+
+#: krita/plugins/pixelizefilter/kritapixelizefilter.desktop:3
+#, fuzzy
+msgid "Name=Pixelize filter"
+msgstr "Name=ตัวกรอง GZip"
+
+#: krita/plugins/pixelizefilter/kritapixelizefilter.desktop:4
+#, fuzzy
+msgid "Comment=Pixelize filter"
+msgstr "Comment=ຕົວກອງຂອງໂປຣແກມຊຸດສໍານັກງານ K"
+
+#: krita/plugins/raindropsfilter/kritaraindropsfilter.desktop:3
+#, fuzzy
+msgid "Name=Raindrops filter"
+msgstr "Name=ตัวกรอง GZip"
+
+#: krita/plugins/raindropsfilter/kritaraindropsfilter.desktop:4
+#, fuzzy
+msgid "Comment=Raindrops filter"
+msgstr "Comment=แฟ้มคาราโอเกะ"
 
 #: krita/plugins/selectiontools/kritaselectiontools.desktop:3
 #, fuzzy
@@ -1783,6 +1860,18 @@ msgstr "Name=ແຟ້ມຂອງໂປຣແກມຊຸດສໍານັກ�
 #: tools/thumbnail/otherofficethumbnail.desktop:4
 msgid "Name=Other Office Files"
 msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານຕົວອື່ນ"
+
+#, fuzzy
+#~ msgid "Comment=Filter plugin for Krita"
+#~ msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอนสำหรับ Kate"
+
+#, fuzzy
+#~ msgid "Comment=paint operation plugin for Krita"
+#~ msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอนสำหรับ Kate"
+
+#, fuzzy
+#~ msgid "Comment=Plugin functionality module for Krita"
+#~ msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
 
 #~ msgid "GenericName=Image Manipulation Program"
 #~ msgstr "GenericName=ໂປຣແກມຕົກແຕ່ງຮູບພາບ "
@@ -3948,9 +4037,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #~ msgid "Keywords=date,time,time zone"
 #~ msgstr "Keywords=วัน,เวลา,พื้นที่เวลา"
 
-#~ msgid "Name=Colors"
-#~ msgstr "Name=สี"
-
 #~ msgid "Comment=Color settings"
 #~ msgstr "Comment=ตั้งค่าสี"
 
@@ -4216,10 +4302,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #, fuzzy
 #~ msgid "Comment=Install & preview fonts"
 #~ msgstr "GenericName=ติดตั้งและแสดงตัวอย่างรูปแบบตัวอักษร"
-
-#, fuzzy
-#~ msgid "Name=Font Files"
-#~ msgstr "Name=ค้นหาแฟ้ม"
 
 #, fuzzy
 #~ msgid "Name=Panels"
@@ -4584,9 +4666,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "Comment=Class of printers"
 #~ msgstr "Comment=คลาสของเครื่องพิมพ์"
-
-#~ msgid "Comment=Print folder"
-#~ msgstr "Comment=โฟลเดอร์งานพิมพ์"
 
 #, fuzzy
 #~ msgid "Comment=Print Jobs"
@@ -5170,9 +5249,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "Comment=This is the list of your bookmarks, for a faster access"
 #~ msgstr "Comment=นี่เป็นรายการที่คั่นหนังสือของคุณ เพื่อการเรียกใช้อย่างรวดเร็ว"
-
-#~ msgid "Name=History"
-#~ msgstr "Name=ประวัติการใช้งาน"
 
 #~ msgid "Comment=This is the history of the URLs you have recently visited. You can sort them in many ways."
 #~ msgstr "Comment=นี่เป็นประวัติเก็บ URL ที่คุณเคยไปมาก่อน โดยคุณสามารถเรียงลำดับมันได้ในหลายรูปแบบ"
@@ -5963,10 +6039,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #~ msgstr "Name=ว่าง"
 
 #, fuzzy
-#~ msgid "Comment=Function Plotter"
-#~ msgstr "Comment=เครื่องมือสอดส่องการเชื่อมต่อ ISDN"
-
-#, fuzzy
 #~ msgid "Name=KNorskVerbs"
 #~ msgstr "Name=บันทึกช่วยจำ - K"
 
@@ -6058,10 +6130,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #, fuzzy
 #~ msgid "Name=Hard Course"
 #~ msgstr "Name=ฮาร์ดดิสก์"
-
-#, fuzzy
-#~ msgid "Name=Impossible Course"
-#~ msgstr "Name=เครื่องมือเลือกสี - K"
 
 #, fuzzy
 #~ msgid "Comment=Reprieve"
@@ -6548,9 +6616,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #~ msgid "Name=Mail PDF file"
 #~ msgstr "Name=แฟ้มจดหมาย PDF"
 
-#~ msgid "Comment=Local file"
-#~ msgstr "Comment=แฟ้มภายในระบบ"
-
 #~ msgid "Comment=External"
 #~ msgstr "Comment=ภายนอก"
 
@@ -6659,12 +6724,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "Comment=Plugin for the Rename Dialog"
 #~ msgstr "Comment=ปลั๊กอินสำหรับกล่องเปลี่ยนชื่อ"
-
-#~ msgid "Name=BZip2 Filter"
-#~ msgstr "Name=ตัวกรอง BZip2"
-
-#~ msgid "Name=GZip Filter"
-#~ msgstr "Name=ตัวกรอง GZip"
 
 #~ msgid "Name=HTTP Cache Cleaner"
 #~ msgstr "Name=ตัวล้างแคช HTTP"
@@ -7096,10 +7155,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #~ msgstr "Comment=แฟ้มบีบอัด Gzip - Tar"
 
 #, fuzzy
-#~ msgid "Comment=Backup File"
-#~ msgstr "Comment=แฟ้มสำรองข้อมูล"
-
-#, fuzzy
 #~ msgid "Comment=Troff Document"
 #~ msgstr "Comment=เอกสาร Troff"
 
@@ -7444,9 +7499,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "GenericName=Midi/Karaoke Player"
 #~ msgstr "GenericName=โปรแกรมเล่นแฟ้มมิดี้"
-
-#~ msgid "Comment=Karaoke file"
-#~ msgstr "Comment=แฟ้มคาราโอเกะ"
 
 #, fuzzy
 #~ msgid "GenericName=MIDI Synthesizer"
@@ -8369,10 +8421,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "GenericName=A KDE KPart Function Plotter"
 #~ msgstr "GenericName=ฟังก์ชันการพล็อตแบบ KPart สำหรับ KDE"
-
-#, fuzzy
-#~ msgid "Comment=kurves file"
-#~ msgstr "Comment=แฟ้ม TeX"
 
 #, fuzzy
 #~ msgid "Name=kurvesPart"
