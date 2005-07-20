@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-08 01:31+0200\n"
+"POT-Creation-Date: 2005-07-20 01:34+0200\n"
 "PO-Revision-Date: 2003-01-14 18:07+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -59,28 +59,22 @@ msgstr ""
 "เมื่อคุณใช้งานศูนย์ควบคุมกลาง ในฐานะผู้ดูแลระบบ แต่ถ้าคุณไม่มีสิทธิ์เช่นนั้น "
 "และรู้สึกว่า ค่าเวลาของระบบไม่ถูกต้อง ให้ติดต่อโดยตรงกับผู้ดูแลระบบของคุณ"
 
-#: tzone.cpp:59
-msgid "Current time zone: "
-msgstr "พื้นที่เวลาปัจจุบัน: "
-
-#: tzone.cpp:66
-msgid "To change the time zone, select your area from the list below:"
+#: tzone.cpp:52
+#, fuzzy
+msgid "To change the timezone, select your area from the list below"
 msgstr "เพื่อเปลี่ยนพื้นที่เวลาของคุณ เลือกพื้นที่ของคุณจากรายการด้านล่างนี้:"
 
-#: tzone.cpp:84 tzone.cpp:137
-msgid "[No selection]"
-msgstr "[ไม่มีการเลือก]"
-
-#: tzone.cpp:111
-msgid "Unknown"
-msgstr "ไม่รู้จัก"
-
-#: tzone.cpp:228
+#: tzone.cpp:74
 #, fuzzy
-msgid "Error setting new Time Zone."
+msgid "Current local timezone: %1 (%2)"
+msgstr "พื้นที่เวลาปัจจุบัน: "
+
+#: tzone.cpp:176
+#, fuzzy
+msgid "Error setting new timezone."
 msgstr "ตั้งค่าพื้นที่เวลาผิดพลาด !"
 
-#: tzone.cpp:229
+#: tzone.cpp:177
 msgid "Timezone Error"
 msgstr "พื้นที่เวลาผิดพลาด"
 
@@ -115,6 +109,12 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "donga_n@yahoo.com"
+
+#~ msgid "[No selection]"
+#~ msgstr "[ไม่มีการเลือก]"
+
+#~ msgid "Unknown"
+#~ msgstr "ไม่รู้จัก"
 
 #~ msgid "Here you can change the system date's month."
 #~ msgstr "คุณสามารถจะเปลี่ยนแปลงเดือนของระบบได้ที่นี่"
