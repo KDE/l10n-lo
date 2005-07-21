@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-20 01:36+0200\n"
+"POT-Creation-Date: 2005-07-21 01:34+0200\n"
 "PO-Revision-Date: 2003-01-18 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1214,8 +1214,8 @@ msgid "Opacity of the background color."
 msgstr "ສີພື້ນຫລັງ"
 
 #. i18n: file ./ui/wdgnewimage.ui line 253
-#: plugins/defaultdockers/kis_channelview.cc:404 ui/kis_dlg_new_layer.cc:60
-#: ui/kis_dlg_paint_properties.cc:66 rc.cpp:165 rc.cpp:612
+#: ui/kis_dlg_new_layer.cc:60 ui/kis_dlg_paint_properties.cc:66 rc.cpp:165
+#: rc.cpp:612
 #, no-c-format
 msgid "Opacity:"
 msgstr "ລະດັບຄວາມແຈ້ງຂອງແສງ"
@@ -2041,7 +2041,7 @@ msgid "Sphere Dec."
 msgstr ""
 
 #. i18n: file ./plugins/defaultdockers/wdgautogradient.ui line 351
-#: plugins/defaultdockers/defaultdockers.cc:169 rc.cpp:636 rc.cpp:898
+#: plugins/defaultdockers/defaultdockers.cc:159 rc.cpp:636 rc.cpp:898
 #, no-c-format
 msgid "RGB"
 msgstr "RGB"
@@ -2059,7 +2059,7 @@ msgid "HSV CCW"
 msgstr "HSV"
 
 #. i18n: file ./plugins/defaultdockers/wdgtextbrush.ui line 16
-#: tools/kis_tool_text.cc:50 rc.cpp:645
+#: tools/kis_tool_text.cc:49 rc.cpp:645
 #, no-c-format
 msgid "Text"
 msgstr ""
@@ -2113,7 +2113,7 @@ msgid "Fade:"
 msgstr "ໂຫມດ:"
 
 #. i18n: file ./plugins/defaultdockers/wdgbirdeye.ui line 24
-#: plugins/defaultdockers/defaultdockers.cc:122 rc.cpp:682
+#: plugins/defaultdockers/defaultdockers.cc:119 rc.cpp:682
 #, fuzzy, no-c-format
 msgid "Overview"
 msgstr "โอเวอร์เลย์"
@@ -2267,7 +2267,7 @@ msgid "Fill"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 71
-#: plugins/defaultdockers/defaultdockers.cc:243 rc.cpp:838
+#: plugins/defaultdockers/defaultdockers.cc:233 rc.cpp:838
 #, no-c-format
 msgid "Gradients"
 msgstr "ໄລ່ລະດັບສີ"
@@ -2695,7 +2695,7 @@ msgid "Out of Gamut"
 msgstr ""
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 101
-#: core/kis_selection_manager.cc:146 core/kis_selection_manager.cc:575
+#: core/kis_selection_manager.cc:146 core/kis_selection_manager.cc:573
 #: rc.cpp:1155
 #, no-c-format
 msgid "&Invert"
@@ -2726,7 +2726,7 @@ msgid "&Select"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./plugins/colorrange/wdg_colorrange.ui line 226
-#: core/kis_selection_manager.cc:502 rc.cpp:1171
+#: core/kis_selection_manager.cc:500 rc.cpp:1171
 #, fuzzy, no-c-format
 msgid "&Deselect"
 msgstr "ການເລືອກ"
@@ -3213,11 +3213,11 @@ msgstr "ຢູ່ໜ້າສຸດ %1"
 msgid "Hindmost %1"
 msgstr "ຢູ່ຫລັງສຸດ %1"
 
-#: plugins/defaultdockers/kis_channelview.cc:199 ui/kis_layerbox.cc:90
+#: ui/kis_layerbox.cc:90
 msgid "Visible"
 msgstr "ແນມເຫັນໄດ້"
 
-#: plugins/defaultdockers/kis_channelview.cc:200 ui/kis_layerbox.cc:93
+#: ui/kis_layerbox.cc:93
 msgid "Level"
 msgstr "ລະດັບ"
 
@@ -3252,10 +3252,7 @@ msgstr "ລຶບ Mast"
 msgid "Can't find %1"
 msgstr "ສ້າງ %1 ໃຫມ່"
 
-#: plugins/defaultdockers/kis_channelview.cc:160
-#: plugins/defaultdockers/kis_channelview.cc:168
-#: plugins/defaultdockers/kis_channelview.cc:173
-#: plugins/defaultdockers/kis_channelview.cc:180 ui/kis_layerbox.cc:480
+#: ui/kis_layerbox.cc:480
 msgid "Canvas"
 msgstr "ພື້ນທີ່ແຕ້ມຮູບ"
 
@@ -3321,8 +3318,7 @@ msgstr "ຄ່າທົ່ວໄປ"
 msgid "Layer Properties"
 msgstr "ຄຸນສົມບັດເລເຢີ..."
 
-#: plugins/defaultdockers/kis_channelview.cc:396 ui/kis_dlg_new_layer.cc:54
-#: ui/kis_dlg_paint_properties.cc:61
+#: ui/kis_dlg_new_layer.cc:54 ui/kis_dlg_paint_properties.cc:61
 msgid "Name:"
 msgstr "ຊື່:"
 
@@ -3391,7 +3387,7 @@ msgid "Shade or unshade the palette"
 msgstr ""
 
 #: kopalette/koPaletteManager.cc:59
-#: plugins/defaultdockers/defaultdockers.cc:185
+#: plugins/defaultdockers/defaultdockers.cc:175
 msgid "Palettes"
 msgstr "ຈານສີ"
 
@@ -3558,7 +3554,6 @@ msgstr "ອັນຟາ"
 #: modules/colorspace_rgb_u16/kis_strategy_colorspace_rgb_u16.cc:52
 #: modules/colorspace_template/kis_colorspace_template.cc:48
 #: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:70
-#: plugins/defaultdockers/kis_channelview.cc:235
 msgid "Alpha"
 msgstr "ອັນຟາ"
 
@@ -4031,7 +4026,7 @@ msgstr ""
 msgid "Paste into &New Image"
 msgstr "ສ້າງຮູບໃຫມ່"
 
-#: core/kis_selection_manager.cc:140 core/kis_selection_manager.cc:549
+#: core/kis_selection_manager.cc:140 core/kis_selection_manager.cc:547
 #, fuzzy
 msgid "&Reselect"
 msgstr "ການເລືອກ"
@@ -4045,7 +4040,7 @@ msgstr "ຄັດລອກການເລືອກໄປຍັງເລເຢີ
 msgid "Cut Selection to New Layer"
 msgstr "ຄັດລອກການເລືອກໄປຍັງເລເຢີໃຫມ່"
 
-#: core/kis_selection_manager.cc:167 core/kis_selection_manager.cc:630
+#: core/kis_selection_manager.cc:167 core/kis_selection_manager.cc:628
 msgid "Feather..."
 msgstr ""
 
@@ -4086,7 +4081,7 @@ msgstr "Transform"
 msgid "Load..."
 msgstr "Loading..."
 
-#: core/kis_selection_manager.cc:482
+#: core/kis_selection_manager.cc:480
 #, fuzzy
 msgid "Select &All"
 msgstr "ການເລືອກ"
@@ -4116,12 +4111,12 @@ msgstr "ລົບການເລືອກ"
 msgid "&Pan"
 msgstr "ແຕ້ມຮູບ"
 
-#: tools/kis_tool_ellipse.cc:42 tools/kis_tool_ellipse.cc:129
+#: tools/kis_tool_ellipse.cc:41 tools/kis_tool_ellipse.cc:122
 #, fuzzy
 msgid "Ellipse"
 msgstr "&ເຄື່ອງມືແຕ້ມວົງຮີ"
 
-#: tools/kis_tool_ellipse.cc:173
+#: tools/kis_tool_ellipse.cc:166
 #, fuzzy
 msgid "&Ellipse"
 msgstr "&ເຄື່ອງມືແຕ້ມວົງຮີ"
@@ -4136,12 +4131,12 @@ msgstr "&ເຄື່ອງມືເລືອກສີ"
 msgid "Text tool"
 msgstr "ີ&ເຄື່ອງມືເຕີມສີ"
 
-#: tools/kis_tool_brush.cc:43
+#: tools/kis_tool_brush.cc:41
 #, fuzzy
 msgid "Brush"
 msgstr "&ແປງທາສີ"
 
-#: tools/kis_tool_brush.cc:102
+#: tools/kis_tool_brush.cc:100
 #, fuzzy
 msgid "&Brush"
 msgstr "&ແປງທາສີ"
@@ -4180,11 +4175,11 @@ msgstr "&ເຄື່ອງມືເລືອກສີ"
 msgid "Pan tool"
 msgstr "&ເຄື່ອງມືປາກກາ"
 
-#: tools/kis_tool_rectangle.cc:42 tools/kis_tool_rectangle.cc:132
+#: tools/kis_tool_rectangle.cc:41 tools/kis_tool_rectangle.cc:125
 msgid "Rectangle"
 msgstr "ສີລ່ຽມ"
 
-#: tools/kis_tool_rectangle.cc:178
+#: tools/kis_tool_rectangle.cc:171
 #, fuzzy
 msgid "&Rectangle"
 msgstr "ສີລ່ຽມ"
@@ -4213,26 +4208,26 @@ msgstr "ລຶບຮູບພາບ"
 msgid "&Fill"
 msgstr "&ຂາວ"
 
-#: tools/kis_tool_ellipse.h:86
+#: tools/kis_tool_ellipse.h:84
 #, fuzzy
 msgid "Ellipse tool"
 msgstr "ວົງຮີ"
 
-#: tools/kis_tool_text.cc:77
+#: tools/kis_tool_text.cc:76
 #, fuzzy
 msgid "Font Tool"
 msgstr "ໄລ່ລະດັບສີ"
 
-#: tools/kis_tool_text.cc:77
+#: tools/kis_tool_text.cc:76
 #, fuzzy
 msgid "Enter text:"
 msgstr "ເຕີມຊື່:"
 
-#: tools/kis_tool_text.cc:131
+#: tools/kis_tool_text.cc:130
 msgid "Font: "
 msgstr ""
 
-#: tools/kis_tool_text.cc:153
+#: tools/kis_tool_text.cc:152
 msgid "T&ext"
 msgstr ""
 
@@ -4240,12 +4235,12 @@ msgstr ""
 msgid "Stamp tool"
 msgstr ""
 
-#: tools/kis_tool_colorchanger.cc:35
+#: tools/kis_tool_colorchanger.cc:33
 #, fuzzy
 msgid "Tool Color Changer"
 msgstr "ເຄື່ອງມືປ່ຽນສີ"
 
-#: tools/kis_tool_colorchanger.cc:232
+#: tools/kis_tool_colorchanger.cc:227
 #, fuzzy
 msgid "Color Changer"
 msgstr "ເຄື່ອງມືປ່ຽນສີ"
@@ -4255,17 +4250,17 @@ msgstr "ເຄື່ອງມືປ່ຽນສີ"
 msgid "&Move"
 msgstr "ໂຫມດ:"
 
-#: tools/kis_tool_stamp.cc:449
+#: tools/kis_tool_stamp.cc:441
 #, fuzzy
 msgid "&Stamp (Pattern)"
 msgstr "&ເຄື່ອງມືປະທັບຕາ(ລວດລາຍ)"
 
-#: tools/kis_tool_duplicate.cc:43
+#: tools/kis_tool_duplicate.cc:41
 #, fuzzy
 msgid "Duplicate"
 msgstr "Duplicate Image"
 
-#: tools/kis_tool_duplicate.cc:78
+#: tools/kis_tool_duplicate.cc:76
 #, fuzzy
 msgid "&Duplicate"
 msgstr "Duplicate Image"
@@ -4344,7 +4339,7 @@ msgstr "ຼ&ເຄື່ອງມືແປງທາສີ"
 msgid "Fill tool"
 msgstr "ີ&ເຄື່ອງມືເຕີມສີ"
 
-#: tools/kis_tool_colorchanger.h:81
+#: tools/kis_tool_colorchanger.h:80
 #, fuzzy
 msgid "Color changer"
 msgstr "ເຄື່ອງມືປ່ຽນສີ"
@@ -4400,21 +4395,18 @@ msgstr "ເພີ່ມຊ້ອງ"
 #: modules/colorspace_rgb/kis_strategy_colorspace_rgb.cc:49
 #: modules/colorspace_rgb_u16/kis_strategy_colorspace_rgb_u16.cc:49
 #: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:69
-#: plugins/defaultdockers/kis_channelview.cc:223
 msgid "Red"
 msgstr "ແດງ"
 
 #: modules/colorspace_rgb/kis_strategy_colorspace_rgb.cc:50
 #: modules/colorspace_rgb_u16/kis_strategy_colorspace_rgb_u16.cc:50
 #: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:68
-#: plugins/defaultdockers/kis_channelview.cc:227
 msgid "Green"
 msgstr "ຂຽວ"
 
 #: modules/colorspace_rgb/kis_strategy_colorspace_rgb.cc:51
 #: modules/colorspace_rgb_u16/kis_strategy_colorspace_rgb_u16.cc:51
 #: modules/colorspace_ws/kis_colorspace_wet_sticky.cc:67
-#: plugins/defaultdockers/kis_channelview.cc:231
 msgid "Blue"
 msgstr "ຟ້າ"
 
@@ -4515,22 +4507,22 @@ msgstr "ເຄື່ອງມືທາສີ"
 msgid "Wetness:"
 msgstr "ຄວາມໜາຂອງເວັ້ນ:"
 
-#: modules/colorspace_wet/kis_tool_wet_brush.cc:43
+#: modules/colorspace_wet/kis_tool_wet_brush.cc:42
 #, fuzzy
 msgid "Wet Brush"
 msgstr "ການເລືອກ"
 
-#: modules/colorspace_wet/kis_tool_wet_brush.cc:73
+#: modules/colorspace_wet/kis_tool_wet_brush.cc:72
 #, fuzzy
 msgid "&Wet Brush"
 msgstr "ການເລືອກ"
 
-#: modules/colorspace_wet/wetphysicsfilter.cc:38
+#: modules/colorspace_wet/wetphysicsfilter.cc:35
 msgid "Dry the paint (25 times)"
 msgstr ""
 
 #: modules/colorspace_wet/kis_colorspace_wet.cc:121
-#: modules/colorspace_wet/wet_plugin.cc:117
+#: modules/colorspace_wet/wet_plugin.cc:115
 msgid "Watercolors"
 msgstr ""
 
@@ -4609,11 +4601,11 @@ msgstr ""
 msgid "Adsorbed Paper Height"
 msgstr ""
 
-#: modules/colorspace_wet/wet_plugin.cc:104
+#: modules/colorspace_wet/wet_plugin.cc:102
 msgid "Wetness Visualisation"
 msgstr ""
 
-#: modules/colorspace_wet/wet_plugin.cc:109
+#: modules/colorspace_wet/wet_plugin.cc:107
 msgid "Initialize Texture"
 msgstr ""
 
@@ -4709,7 +4701,7 @@ msgid "Grayscale/Alpha"
 msgstr "&ລະດັບສີເທົາ"
 
 #: modules/colorspace_gray/kis_strategy_colorspace_grayscale.cc:50
-#: plugins/defaultdockers/defaultdockers.cc:177
+#: plugins/defaultdockers/defaultdockers.cc:167
 msgid "Gray"
 msgstr "ລະດັບສີເທົາ"
 
@@ -4862,58 +4854,30 @@ msgstr "ເສັ້ນໄຂວ່"
 msgid "Refresh Preview"
 msgstr "รีเฟรชพื้นที่วาดภาพ"
 
-#: plugins/defaultdockers/kis_channelview.cc:160
-msgid "Can't find 'visible.png'."
-msgstr ""
-
-#: plugins/defaultdockers/kis_channelview.cc:168
-msgid "Can't find 'novisible.png'."
-msgstr ""
-
-#: plugins/defaultdockers/kis_channelview.cc:173
-msgid "Can't find 'linked.png'."
-msgstr ""
-
-#: plugins/defaultdockers/kis_channelview.cc:180
-msgid "Can't find 'unlinked.png'."
-msgstr ""
-
-#: plugins/defaultdockers/kis_channelview.cc:204
-msgid "Add Channel"
-msgstr "ເພີ່ມຊ້ອງ"
-
-#: plugins/defaultdockers/kis_channelview.cc:205
-msgid "Remove Channel"
-msgstr "ລືບຊ້ອງ"
-
-#: plugins/defaultdockers/defaultdockers.cc:130
-msgid "Channels"
-msgstr "ຊ້ອງ"
-
-#: plugins/defaultdockers/defaultdockers.cc:136
+#: plugins/defaultdockers/defaultdockers.cc:126
 #, fuzzy
 msgid "Autobrush"
 msgstr "&ແປງທາສີ"
 
-#: plugins/defaultdockers/defaultdockers.cc:143
+#: plugins/defaultdockers/defaultdockers.cc:133
 #, fuzzy
 msgid "Text Brush"
 msgstr "ການເລືອກ"
 
-#: plugins/defaultdockers/defaultdockers.cc:151
+#: plugins/defaultdockers/defaultdockers.cc:141
 #, fuzzy
 msgid "Autogradient"
 msgstr "ໄລ່ລະດັບສີ"
 
-#: plugins/defaultdockers/defaultdockers.cc:160
+#: plugins/defaultdockers/defaultdockers.cc:150
 msgid "HSV"
 msgstr "HSV"
 
-#: plugins/defaultdockers/defaultdockers.cc:204
+#: plugins/defaultdockers/defaultdockers.cc:194
 msgid "Patterns"
 msgstr "ລວດລາຍ"
 
-#: plugins/defaultdockers/defaultdockers.cc:223
+#: plugins/defaultdockers/defaultdockers.cc:213
 msgid "Brushes"
 msgstr "ແປງທາສີ"
 
@@ -5380,6 +5344,15 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr ""
+
+#~ msgid "Add Channel"
+#~ msgstr "ເພີ່ມຊ້ອງ"
+
+#~ msgid "Remove Channel"
+#~ msgstr "ລືບຊ້ອງ"
+
+#~ msgid "Channels"
+#~ msgstr "ຊ້ອງ"
 
 #, fuzzy
 #~ msgid "Selection Picker"
