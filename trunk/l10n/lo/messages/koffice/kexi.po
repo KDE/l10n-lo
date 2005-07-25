@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-24 01:34+0200\n"
+"POT-Creation-Date: 2005-07-25 01:34+0200\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -27,16 +27,16 @@ msgstr ""
 msgid "Saving object's definition failed."
 msgstr ""
 
-#: core/kexidialogbase.cpp:484
+#: core/kexidialogbase.cpp:535
 msgid "Saving object's data failed."
 msgstr ""
 
-#: core/kexipartmanager.cpp:128
-msgid "Error during loading part module \"%1\""
+#: core/kexipartmanager.cpp:130
+msgid "Error during loading plugin \"%1\""
 msgstr ""
 
-#: core/kexipartmanager.cpp:206
-msgid "No parts module for mime type \"%1\""
+#: core/kexipartmanager.cpp:211
+msgid "No plugin for mime type \"%1\""
 msgstr ""
 
 #: core/kexicontexthelp.cpp:34 main/kexicontexthelp.cpp:37
@@ -57,7 +57,7 @@ msgstr "ສ້າງໂປຣເຈັກ"
 msgid "Opening object \"%1\" failed."
 msgstr ""
 
-#: core/kexiproject.cpp:471 main/keximainwindowimpl.cpp:3272
+#: core/kexiproject.cpp:471 main/keximainwindowimpl.cpp:3273
 msgid "Could not set empty name for this object."
 msgstr ""
 
@@ -90,33 +90,33 @@ msgstr "ຕິດຕໍ່ ສາຂາ"
 msgid "Could not load \"%1\" plugin."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: core/kexipart.cpp:241
+#: core/kexipart.cpp:242
 msgid "Object \"%1\" could not be opened in Design View."
 msgstr ""
 
-#: core/kexipart.cpp:242
+#: core/kexipart.cpp:243
 msgid "Object could not be opened in Data View."
 msgstr ""
 
-#: core/kexipart.cpp:243
+#: core/kexipart.cpp:244
 #, fuzzy
 msgid "Do you want to open it in Text View?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: core/kexipart.cpp:256
+#: core/kexipart.cpp:257
 msgid "Failed loading object's definition."
 msgstr ""
 
-#: core/kexipart.cpp:256
+#: core/kexipart.cpp:257
 msgid "Data may be corrupted."
 msgstr ""
 
-#: core/kexipart.cpp:309
+#: core/kexipart.cpp:310
 #, fuzzy
 msgid "Failed loading object's data."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: core/kexipart.cpp:309
+#: core/kexipart.cpp:310
 msgid "Data identifier: \"%1\"."
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:880 main/keximainwindowimpl.cpp:3390
+#: main/keximainwindowimpl.cpp:880 main/keximainwindowimpl.cpp:3391
 msgid "Important Information"
 msgstr ""
 
@@ -1263,53 +1263,53 @@ msgstr ""
 msgid "Do you want to save changes?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: main/keximainwindowimpl.cpp:3237
+#: main/keximainwindowimpl.cpp:3238
 #, fuzzy
 msgid "Do you want to remove:"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: main/keximainwindowimpl.cpp:3262
+#: main/keximainwindowimpl.cpp:3263
 #, fuzzy
 msgid "Could not remove object."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/keximainwindowimpl.cpp:3280
+#: main/keximainwindowimpl.cpp:3281
 #, fuzzy
 msgid "Renaming object \"%1\" failed."
 msgstr "ໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:3431
+#: main/keximainwindowimpl.cpp:3432
 msgid ""
 "Please note that forms are currently unstable functionality, provided <u>"
 "only for your preview</u>."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3434
+#: main/keximainwindowimpl.cpp:3435
 msgid "Forms will be available after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3438
+#: main/keximainwindowimpl.cpp:3439
 msgid "Forms will be hidden after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3464
+#: main/keximainwindowimpl.cpp:3465
 #, fuzzy
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:3469
+#: main/keximainwindowimpl.cpp:3470
 msgid "No Final Mode data found."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3477
+#: main/keximainwindowimpl.cpp:3478
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3507
+#: main/keximainwindowimpl.cpp:3508
 msgid "Specified plugin does not exist."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3515
+#: main/keximainwindowimpl.cpp:3516
 msgid "Specified object could not be opened."
 msgstr ""
 
@@ -2100,7 +2100,7 @@ msgstr ""
 msgid "Could not create the same table \"%1\" twice."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:1171 plugins/tables/kexitablepart.cpp:184
+#: kexidb/connection.cpp:1171 plugins/tables/kexitablepart.cpp:187
 msgid "Table \"%1\" already exists."
 msgstr ""
 
@@ -2271,7 +2271,7 @@ msgstr ""
 
 #. i18n: file data/kexidatatableui.rc line 5
 #: plugins/queries/kexiquerydesignerguieditor.cpp:172
-#: plugins/tables/kexitablepart.cpp:45 rc.cpp:3
+#: plugins/tables/kexitablepart.cpp:48 rc.cpp:3
 #: widget/relations/kexirelationwidget.cpp:57
 #: widget/relations/kexirelationwidget.cpp:329
 #, fuzzy, no-c-format
@@ -2285,7 +2285,7 @@ msgid "&Format"
 msgstr "ຟອມ ໃຫມ່"
 
 #. i18n: file data/kexiformpartinstui.rc line 30
-#: plugins/forms/kexiformpart.cpp:446 rc.cpp:9 rc.cpp:57
+#: plugins/forms/kexiformpart.cpp:449 rc.cpp:9 rc.cpp:57
 #, fuzzy, no-c-format
 msgid "Widgets"
 msgstr "ແຖບ ກວ້າງ"
@@ -4043,16 +4043,16 @@ msgid "Page:"
 msgstr "ຕາຕະລາງ"
 
 #: plugins/reports/kexireportfactory.cpp:42
-#: plugins/reports/kexireportpart.cpp:45
+#: plugins/reports/kexireportpart.cpp:48
 #, fuzzy
 msgid "Report"
 msgstr "ລາຍງານ %1"
 
-#: plugins/reports/kexireportpart.cpp:96
+#: plugins/reports/kexireportpart.cpp:99
 msgid "Design of report \"%1\" has been modified."
 msgstr ""
 
-#: plugins/reports/kexireportpart.cpp:98
+#: plugins/reports/kexireportpart.cpp:101
 msgid "Report \"%1\" already exists."
 msgstr ""
 
@@ -4143,7 +4143,7 @@ msgstr "ແກ້ໄຂ ຈາກ"
 msgid "Set form's data source to \"%1\""
 msgstr "ສັບພະຍາກອນ"
 
-#: plugins/forms/kexidbfactory.cpp:164 plugins/forms/kexiformpart.cpp:78
+#: plugins/forms/kexidbfactory.cpp:164 plugins/forms/kexiformpart.cpp:81
 #, fuzzy
 msgid "Form"
 msgstr "ຟອມ ໃຫມ່"
@@ -4348,7 +4348,7 @@ msgstr ""
 msgid "A command button to execute actions"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:315 plugins/forms/kexiformpart.cpp:443
+#: plugins/forms/kexidbfactory.cpp:315 plugins/forms/kexiformpart.cpp:446
 #, fuzzy
 msgid "Data Source"
 msgstr "ສັບພະຍາກອນ"
@@ -4436,128 +4436,128 @@ msgstr "ຊື່ ຕາາຕະລາງ:"
 msgid "Add selected field to form"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:115 plugins/forms/kexiformpart.cpp:142
+#: plugins/forms/kexiformpart.cpp:118 plugins/forms/kexiformpart.cpp:145
 #, fuzzy
 msgid "Edit Tab Order"
 msgstr "ແກ້ໄຂ ຈາກ"
 
-#: plugins/forms/kexiformpart.cpp:116
+#: plugins/forms/kexiformpart.cpp:119
 msgid "Adjust Size"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:131
+#: plugins/forms/kexiformpart.cpp:134
 msgid "Show Form UI Code"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:141
+#: plugins/forms/kexiformpart.cpp:144
 msgid "Clear Widget Contents"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:148
+#: plugins/forms/kexiformpart.cpp:151
 #, fuzzy
 msgid "Layout Widgets"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:151
+#: plugins/forms/kexiformpart.cpp:154
 msgid "&Horizontally"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:153
+#: plugins/forms/kexiformpart.cpp:156
 msgid "&Vertically"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:155
+#: plugins/forms/kexiformpart.cpp:158
 #, fuzzy
 msgid "In &Grid"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:157
+#: plugins/forms/kexiformpart.cpp:160
 msgid "Horizontally in a &Splitter"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:159
+#: plugins/forms/kexiformpart.cpp:162
 msgid "Verti&cally in a Splitter"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:162
+#: plugins/forms/kexiformpart.cpp:165
 #, fuzzy
 msgid "&Break Layout"
 msgstr "ສ້າງ ແນວສອບຖາມ"
 
-#: plugins/forms/kexiformpart.cpp:168
+#: plugins/forms/kexiformpart.cpp:171
 msgid "Bring Widget to Front"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:169
+#: plugins/forms/kexiformpart.cpp:172
 #, fuzzy
 msgid "Send Widget to Back"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:171
+#: plugins/forms/kexiformpart.cpp:174
 #, fuzzy
 msgid "Other widgets"
 msgstr "ລືບ ຕາຕະລາງ?"
 
-#: plugins/forms/kexiformpart.cpp:173
+#: plugins/forms/kexiformpart.cpp:176
 msgid "Align Widgets Position"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:175
+#: plugins/forms/kexiformpart.cpp:178
 #, fuzzy
 msgid "To Left"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:176
+#: plugins/forms/kexiformpart.cpp:179
 msgid "To Right"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:177
+#: plugins/forms/kexiformpart.cpp:180
 msgid "To Top"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:178
+#: plugins/forms/kexiformpart.cpp:181
 msgid "To Bottom"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:179 plugins/forms/kexiformpart.cpp:184
+#: plugins/forms/kexiformpart.cpp:182 plugins/forms/kexiformpart.cpp:187
 #, fuzzy
 msgid "To Grid"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:181
+#: plugins/forms/kexiformpart.cpp:184
 msgid "Adjust Widgets Size"
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:183
+#: plugins/forms/kexiformpart.cpp:186
 #, fuzzy
 msgid "To Fit"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:185
+#: plugins/forms/kexiformpart.cpp:188
 #, fuzzy
 msgid "To Shortest"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexiformpart.cpp:186
+#: plugins/forms/kexiformpart.cpp:189
 #, fuzzy
 msgid "To Tallest"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexiformpart.cpp:187
+#: plugins/forms/kexiformpart.cpp:190
 #, fuzzy
 msgid "To Narrowest"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:188
+#: plugins/forms/kexiformpart.cpp:191
 #, fuzzy
 msgid "To Widest"
 msgstr "ແຖບ ກວ້າງ"
 
-#: plugins/forms/kexiformpart.cpp:395
+#: plugins/forms/kexiformpart.cpp:398
 msgid "Design of form \"%1\" has been modified."
 msgstr ""
 
-#: plugins/forms/kexiformpart.cpp:397
+#: plugins/forms/kexiformpart.cpp:400
 msgid "Form \"%1\" already exists."
 msgstr ""
 
@@ -4741,33 +4741,33 @@ msgstr ""
 msgid "Query Parameters"
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
-#: plugins/queries/kexiquerypart.cpp:41
+#: plugins/queries/kexiquerypart.cpp:44
 msgid "Query"
 msgstr "Query"
 
-#: plugins/queries/kexiquerypart.cpp:135 plugins/queries/kexiquerypart.cpp:137
+#: plugins/queries/kexiquerypart.cpp:138 plugins/queries/kexiquerypart.cpp:140
 #, fuzzy
 msgid "Check Query"
 msgstr "Query"
 
-#: plugins/queries/kexiquerypart.cpp:138
+#: plugins/queries/kexiquerypart.cpp:141
 msgid "Checks query for validity."
 msgstr ""
 
-#: plugins/queries/kexiquerypart.cpp:141
+#: plugins/queries/kexiquerypart.cpp:144
 #, fuzzy
 msgid "Show SQL History"
 msgstr "ແກ້ໄຂ ເສັ້ນ"
 
-#: plugins/queries/kexiquerypart.cpp:143
+#: plugins/queries/kexiquerypart.cpp:146
 msgid "Shows or hides SQL editor's history."
 msgstr ""
 
-#: plugins/queries/kexiquerypart.cpp:230
+#: plugins/queries/kexiquerypart.cpp:233
 msgid "Design of query \"%1\" has been modified."
 msgstr ""
 
-#: plugins/queries/kexiquerypart.cpp:232
+#: plugins/queries/kexiquerypart.cpp:235
 msgid "Query \"%1\" already exists."
 msgstr ""
 
@@ -4948,31 +4948,31 @@ msgstr ""
 
 #: plugins/tables/kexialtertabledialog.cpp:104
 #: plugins/tables/kexialtertabledialog.cpp:330
-#: plugins/tables/kexitablepart.cpp:63
+#: plugins/tables/kexitablepart.cpp:66
 msgid "Primary Key"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:65
+#: plugins/tables/kexitablepart.cpp:68
 msgid "Sets or removes primary key for currently selected field."
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:113
+#: plugins/tables/kexitablepart.cpp:116
 msgid ""
 "You are about to remove table \"%1\" but following objects using this table are "
 "opened:"
 msgstr ""
 
-#: plugins/tables/kexitablepart.cpp:162
+#: plugins/tables/kexitablepart.cpp:165
 #, fuzzy
 msgid "Do you want to close all windows for these objects?"
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: plugins/tables/kexitablepart.cpp:163
+#: plugins/tables/kexitablepart.cpp:166
 #, fuzzy
 msgid "Close windows"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#: plugins/tables/kexitablepart.cpp:181
+#: plugins/tables/kexitablepart.cpp:184
 msgid "Design of table \"%1\" has been modified."
 msgstr ""
 
@@ -5113,20 +5113,20 @@ msgid ""
 "this table are opened:"
 msgstr ""
 
-#: plugins/scripting/kexiscriptpart.cpp:39
+#: plugins/scripting/kexiscriptpart.cpp:42
 msgid "Script"
 msgstr ""
 
-#: plugins/scripting/kexiscriptpart.cpp:56
+#: plugins/scripting/kexiscriptpart.cpp:59
 #, fuzzy
 msgid "Execute script"
 msgstr "ສ້າງ &ຄຳສອບຖາມ..."
 
-#: plugins/scripting/kexiscriptpart.cpp:82
+#: plugins/scripting/kexiscriptpart.cpp:85
 msgid "Design of script \"%1\" has been modified."
 msgstr ""
 
-#: plugins/scripting/kexiscriptpart.cpp:84
+#: plugins/scripting/kexiscriptpart.cpp:87
 msgid "Script \"%1\" already exists."
 msgstr ""
 

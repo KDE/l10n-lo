@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-23 01:31+0200\n"
+"POT-Creation-Date: 2005-07-25 01:31+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -588,7 +588,7 @@ msgstr "ຫນ້າ"
 msgid "Border"
 msgstr "ຂອບ"
 
-#: common_texts.cpp:32 kdeui/ktoolbar.cpp:2115
+#: common_texts.cpp:32 kdeui/ktoolbar.cpp:2116
 msgid "Orientation"
 msgstr "ທິດທາງການວາງ"
 
@@ -6562,28 +6562,28 @@ msgstr "ຂໍ້ຄວາມຢູ່ທາງຂ້າງຂອງໄອຄອ
 msgid "Text Under Icons"
 msgstr "ຂໍ້ຄວາມຢູ່ຂ້າງລຸ່ມຂອງໄອຄອນ"
 
-#: kdeui/ktoolbar.cpp:2079 kdeui/ktoolbar.cpp:2100
+#: kdeui/ktoolbar.cpp:2080 kdeui/ktoolbar.cpp:2101
 msgid "Small (%1x%2)"
 msgstr "ນ້ອຍ (%1x%2)"
 
-#: kdeui/ktoolbar.cpp:2081 kdeui/ktoolbar.cpp:2102
+#: kdeui/ktoolbar.cpp:2082 kdeui/ktoolbar.cpp:2103
 msgid "Medium (%1x%2)"
 msgstr "ປານກາງ (%1x%2)"
 
-#: kdeui/ktoolbar.cpp:2083 kdeui/ktoolbar.cpp:2104
+#: kdeui/ktoolbar.cpp:2084 kdeui/ktoolbar.cpp:2105
 msgid "Large (%1x%2)"
 msgstr "ໃຫຍ່ (%1x%2)"
 
-#: kdeui/ktoolbar.cpp:2085 kdeui/ktoolbar.cpp:2106
+#: kdeui/ktoolbar.cpp:2086 kdeui/ktoolbar.cpp:2107
 #, fuzzy
 msgid "Huge (%1x%2)"
 msgstr "ໃຫຍ່ (%1x%2)"
 
-#: kdeui/ktoolbar.cpp:2117
+#: kdeui/ktoolbar.cpp:2118
 msgid "Text Position"
 msgstr "ຕຳແຫນ່ງຂໍ້ຄວາມ"
 
-#: kdeui/ktoolbar.cpp:2119
+#: kdeui/ktoolbar.cpp:2120
 msgid "Icon Size"
 msgstr "ຂະຫນາດໄອຄອນ"
 
@@ -9444,6 +9444,170 @@ msgstr "&ນີ້ແມ່ນຫຍັງ?"
 msgid "Tip of the &Day"
 msgstr "&ເຄັດລັບປະຈຳວັນ"
 
+#: kdecore/kde-config.cpp.in:14
+msgid "A little program to output installation paths"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:18
+msgid "expand ${prefix} and ${exec_prefix} in output"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:19
+msgid "Compiled in prefix for KDE libraries"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:20
+msgid "Compiled in exec_prefix for KDE libraries"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:21
+msgid "Compiled in library path suffix"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:22
+msgid "Prefix in $HOME used to write files"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:23
+msgid "Compiled in version string for KDE libraries"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:24
+#, fuzzy
+msgid "Available KDE resource types"
+msgstr "ທີ່ຢູ່ທີ່ມີຢູ່:"
+
+#: kdecore/kde-config.cpp.in:25
+msgid "Search path for resource type"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:26
+msgid "User path: desktop|autostart|trash|document"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:27
+#, fuzzy
+msgid "Prefix to install resource files to"
+msgstr "ກຳ່ລັງຕງມການຕິດຕັ້ງໄດເວີເທິງເທິງໂຮດສຕ໌ <b>%1</b>"
+
+#: kdecore/kde-config.cpp.in:168
+msgid "Applications menu (.desktop files)"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:169
+msgid "CGIs to run from kdehelp"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:170
+#, fuzzy
+msgid "Configuration files"
+msgstr "ການປັບແຕ່ງຄ່າ"
+
+#: kdecore/kde-config.cpp.in:171
+#, fuzzy
+msgid "Where applications store data"
+msgstr "ເລືອກແອພພຣິເຄຊັນສຳຫລັບ %1"
+
+#: kdecore/kde-config.cpp.in:172
+msgid "Executables in $prefix/bin"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:173
+#, fuzzy
+msgid "HTML documentation"
+msgstr "ເອກະສານ"
+
+#: kdecore/kde-config.cpp.in:174
+#, fuzzy
+msgid "Icons"
+msgstr "ການກະທຳ"
+
+#: kdecore/kde-config.cpp.in:175
+#, fuzzy
+msgid "Configuration description files"
+msgstr "ຕົວເລືອກທົ່ວໄປ"
+
+#: kdecore/kde-config.cpp.in:176
+msgid "Libraries"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:177
+msgid "Includes/Headers"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:178
+msgid "Translation files for KLocale"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:179
+#, fuzzy
+msgid "Mime types"
+msgstr "ປະເພດ Mime"
+
+#: kdecore/kde-config.cpp.in:180
+msgid "Loadable modules"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:181
+#, fuzzy
+msgid "Qt plugins"
+msgstr "ໂປແລນ"
+
+#: kdecore/kde-config.cpp.in:182
+#, fuzzy
+msgid "Services"
+msgstr "ອຸປະກອນ"
+
+#: kdecore/kde-config.cpp.in:183
+#, fuzzy
+msgid "Service types"
+msgstr "ປະເພດແຟ້ມ:"
+
+#: kdecore/kde-config.cpp.in:184
+#, fuzzy
+msgid "Application sounds"
+msgstr "ແອພພຣິເຄຊັນ"
+
+#: kdecore/kde-config.cpp.in:185
+#, fuzzy
+msgid "Templates"
+msgstr "ແທນທີ່"
+
+#: kdecore/kde-config.cpp.in:186
+msgid "Wallpapers"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:187
+msgid "XDG Application menu (.desktop files)"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:188
+msgid "XDG Menu descriptions (.directory files)"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:189
+msgid "XDG Menu layout (.menu files)"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:190
+msgid "Temporary files (specific for both current host and current user)"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:191
+msgid "UNIX Sockets (specific for both current host and current user)"
+msgstr ""
+
+#: kdecore/kde-config.cpp.in:203
+#, fuzzy
+msgid ""
+"%1 - unknown type\n"
+msgstr "ບໍ່ຮູ້ຈັກຫົວເລື່ອງ"
+
+#: kdecore/kde-config.cpp.in:228
+msgid ""
+"%1 - unknown type of userpath\n"
+msgstr ""
+
 #: attic/qtmultilineedit.cpp:2129
 msgid "Undo"
 msgstr "ເລີກເຮັດ"
@@ -11260,10 +11424,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 #~ msgid "A&dd"
 #~ msgstr "&ເພີ່ມ"
 
-#, fuzzy
-#~ msgid "Plugins"
-#~ msgstr "ໂປແລນ"
-
 #~ msgid "You must now provide a password for the certificate request. Please choose a very secure password as this will be used to encrypt your private key."
 #~ msgstr "ທ່ານຄວນຈະຈັດຫາພາສ໌ເວີດສຳລັບການຂໍຮ້ອງໃຊ້ໃບຮັບຮອງ. ກະລຸນາເລືອກເອົາພາສ໌ເວີດທີ່ປອດໄພເຊິ່ງຈະຖຶກໃຊ້ເປັນຄີຢ໌ສ່ວນຕົວຂອງທ່ານ"
 
@@ -11281,9 +11441,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 
 #~ msgid "Events"
 #~ msgstr "ເຫດການ"
-
-#~ msgid "Actions"
-#~ msgstr "ການກະທຳ"
 
 #~ msgid "&Log to a file:"
 #~ msgstr "&ບັນທືກໄປຍັງແຟ້ມ"
@@ -12963,9 +13120,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 #~ msgid "Floppy"
 #~ msgstr "ຟລອບປີ້້"
 
-#~ msgid "Devices"
-#~ msgstr "ອຸປະກອນ"
-
 #~ msgid "Temporary Files"
 #~ msgstr "ແຟ້ມຊົ່ວຄາວ"
 
@@ -13007,9 +13161,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 #~ msgid "Choose the name of the program with which to open the selected files."
 #~ msgstr "ເລືອກຊື່ຂອງໂປຣແກຣມທີ່ຈະໃຫ້ໃຊ້ເປີດແຟ້ມທີ່ເລືອກໄວ້"
 
-#~ msgid "Choose Application for %1"
-#~ msgstr "ເລືອກແອພພຣິເຄຊັນສຳຫລັບ %1"
-
 #~ msgid "<qt>Select the program for the file type: <b>%1</b>. If the program is not listed, enter the name or click the browse button.</qt>"
 #~ msgstr "<qt>ເລືອກໂປຣແກຣມທີ່ຈະເພີ້ມສຳຫລັບແຟ້ມປະເພດ: <b>%1</b>  ຖ້າໂປຣແກຣມບໍ່ຖືກສະແດງໄວ້ໃນລາຍການ ໃຫ້ໃສ່ຊື່ຫລືກົດທີ່ປຸ່ມເອີ້ນເບິ່ງ</qt>"
 
@@ -13040,14 +13191,8 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 #~ msgid "O&ther icons:"
 #~ msgstr "&ໄອຄອນອື່ນໆ :"
 
-#~ msgid "Applications"
-#~ msgstr "ແອພພຣິເຄຊັນ"
-
 #~ msgid "Filesystems"
 #~ msgstr "ລະບົບແຟ້ມ"
-
-#~ msgid "Mimetypes"
-#~ msgstr "ປະເພດ Mime"
 
 #~ msgid "*.png *.xpm|Icon Files (*.png *.xpm)"
 #~ msgstr "*.png *.xpm|cແຟ້ມໄອຄອນ (*.png *.xpm)"
@@ -13515,9 +13660,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 
 #~ msgid "Comment:"
 #~ msgstr "ຄຳອະທິບາຍ:"
-
-#~ msgid "File types:"
-#~ msgstr "ປະເພດແຟ້ມ:"
 
 #~ msgid "A&ssociation"
 #~ msgstr "&ກຳນົດໃຫ້ໃຊ້ກັບ"
@@ -14683,9 +14825,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 #~ msgid "Preparing to upload driver to host %1"
 #~ msgstr "ກຳ່ລັງຕງມການອັບໂຫລດໄດເວີໄປຍັງໂຮດສຕ໌%1"
 
-#~ msgid "Preparing to install driver on host %1"
-#~ msgstr "ກຳ່ລັງຕງມການຕິດຕັ້ງໄດເວີເທິງເທິງໂຮດສຕ໌ <b>%1</b>"
-
 #~ msgid "Remote IPP Printer Selection"
 #~ msgstr "ເລືອກເຄື່ອງພິມໄລຍະໄກແບບ IPP"
 
@@ -15217,9 +15356,6 @@ msgstr "ເກີດຄວາມຜິດພາດໃນການປະກາດ
 
 #~ msgid "Print Manager"
 #~ msgstr "ຫົວພິມ"
-
-#~ msgid "Documentation"
-#~ msgstr "ເອກະສານ"
 
 #~ msgid "An error occurred while retrieving the printer list."
 #~ msgstr "ເກີດຄວາມຜິດພາດໃນລະຫວ່າງຮັບລາຍການເຄື່ອງພິມ"
