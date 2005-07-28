@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-09 01:31+0200\n"
+"POT-Creation-Date: 2005-07-28 01:30+0200\n"
 "PO-Revision-Date: 2003-01-12 12:30+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -252,7 +252,7 @@ msgstr "ໂຫລດຜູ້ໃຊ້"
 msgid "Idle Load"
 msgstr "ໂຫລດວ່າງ"
 
-#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:157
+#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:162
 msgid "System Load"
 msgstr "ໂຫລດລະບົບ"
 
@@ -572,9 +572,14 @@ msgid "Host %1 not found"
 msgstr "ບໍ່ພົບໂຮລຕ໌์ %1"
 
 #: ksgrd/SensorSocketAgent.cc:112
-#, c-format
-msgid "Read error at host %1"
+#, fuzzy, c-format
+msgid "Timeout at host %1"
 msgstr "ການອ່ານທີ່ໂຮສຕ໌ %1 ຜິດພາດ"
+
+#: ksgrd/SensorSocketAgent.cc:116
+#, c-format
+msgid "Network failure host %1"
+msgstr ""
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -596,7 +601,7 @@ msgstr ""
 "ນີ້ເປັນພື້ນທີ່ການທຳງານຂອງທ່ານ ຫາກຕ້ອງການສ້າງຊີດງານໃຫມ່(ທີ່ເມນູFile->"
 "New) ກ່ອນທີ່ທ່ານຈະສາມາດລາກຕົວກວດຈັບມາຍັງທີ່ນີ້ໄດ້"
 
-#: Workspace.cc:104 ksysguard.cc:162
+#: Workspace.cc:104 ksysguard.cc:167
 msgid "Process Table"
 msgstr "ຕາລາງໂປຣເຊສ"
 
@@ -1608,94 +1613,94 @@ msgstr ""
 msgid "Drag sensors to empty fields in a worksheet."
 msgstr "ລາກຕົວກວດຈັບໄປຍັງພື້ນທີ່ວ່າງໆ ຂອງຊີດງານ"
 
-#: ksysguard.cc:61
+#: ksysguard.cc:62
 #, fuzzy
 msgid "KDE system guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
-#: ksysguard.cc:71 ksysguard.cc:535
+#: ksysguard.cc:72 ksysguard.cc:546
 msgid "KDE System Guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
-#: ksysguard.cc:93
+#: ksysguard.cc:98
 msgid "88888 Processes"
 msgstr "88888 ໂປຣເຊສ"
 
-#: ksysguard.cc:94
+#: ksysguard.cc:99
 #, fuzzy
 msgid "Memory: 88888888888 kB used, 88888888888 kB free"
 msgstr "ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ8888888 kB, ເຫລືອ 8888888 kB"
 
-#: ksysguard.cc:96
+#: ksysguard.cc:101
 #, fuzzy
 msgid "Swap: 888888888 kB used, 888888888 kB free"
 msgstr "ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: ໃ່ຊ້ໄປ 8888888 kB, ເຫລືອ 8888888 kB"
 
-#: ksysguard.cc:111
+#: ksysguard.cc:116
 msgid "C&onnect Host..."
 msgstr "ເຊື່ອມຕໍ່ໄປຍັງໂຮສຕ໌..."
 
-#: ksysguard.cc:113
+#: ksysguard.cc:118
 msgid "D&isconnect Host"
 msgstr "ຍຸດຕິການເຊື່ອມຕໍ່ກັບໂຮສຕ໌"
 
-#: ksysguard.cc:119
+#: ksysguard.cc:124
 #, fuzzy
 msgid "&Worksheet Properties"
 msgstr "ຄຸູນສົມບັດຊີດງານ"
 
-#: ksysguard.cc:122
+#: ksysguard.cc:127
 msgid "Load Standard Sheets"
 msgstr ""
 
-#: ksysguard.cc:126
+#: ksysguard.cc:131
 msgid "Configure &Style..."
 msgstr "ປັບແຕ່ງຮູບແບບ..."
 
-#: ksysguard.cc:143
+#: ksysguard.cc:148
 msgid "Do you really want to restore the default worksheets?"
 msgstr "ທ່ານຕ້ອງການເອີ້ນຄືນຊີດງານປຣິຍາຍ ແມ່ນຫລືບໍ່ ?"
 
-#: ksysguard.cc:144
+#: ksysguard.cc:149
 msgid "Reset All Worksheets"
 msgstr "ປັບຄ່າທຸກຊີດງານເປັນຄ່າປຣິຍາຍ"
 
-#: ksysguard.cc:145
+#: ksysguard.cc:150
 msgid "Reset"
 msgstr ""
 
-#: ksysguard.cc:415
+#: ksysguard.cc:426
 #, fuzzy, c-format
 msgid ""
 "_n: 1 Process\n"
 "%n Processes"
 msgstr "%n ໂປຣເຊສ"
 
-#: ksysguard.cc:425
+#: ksysguard.cc:436
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr "ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ %1 %2, ເຫລືອ %3 %4"
 
-#: ksysguard.cc:483
+#: ksysguard.cc:494
 msgid "No swap space available"
 msgstr ""
 
-#: ksysguard.cc:485
+#: ksysguard.cc:496
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr "ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: ່ໃຊ້ໄປ %1 %2, ເຫລືອ %3 %4"
 
-#: ksysguard.cc:494
+#: ksysguard.cc:505
 msgid "Show only process list of local host"
 msgstr "ສະແດງສະເພາະລາຍການໂປຣເຊສຂອງໂຮສຕ໌ນີ້ເທົ່ານັ້ນ"
 
-#: ksysguard.cc:495
+#: ksysguard.cc:506
 msgid "Optional worksheet files to load"
 msgstr "ແຟ້ມຕົວເລືອກຊີດງານທີ່່ຈະເອີ້ນໃຊ້"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:548
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(c) 1996-2002 ກຸ່ມຜູ້ພັດທະນາ KSysGuard"
 
-#: ksysguard.cc:545
+#: ksysguard.cc:556
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
