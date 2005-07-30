@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-05-18 21:24+0200\n"
+"POT-Creation-Date: 2005-07-30 01:39+0200\n"
 "PO-Revision-Date: 2003-01-11 11:07+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -226,33 +226,42 @@ msgstr "คลิ้กเพื่อเอาแฟ้มที่เลือ
 msgid "Select a file type by name or by extension"
 msgstr "เลือกประเภทแฟ้มด้วยชื่อหรือด้วยส่วนขยาย"
 
-#: keditfiletype.cpp:91
+#: keditfiletype.cpp:106
 msgid "Makes the dialog transient for the window specified by winid"
 msgstr ""
 
-#: keditfiletype.cpp:92
+#: keditfiletype.cpp:107
 msgid "File type to edit (e.g. text/html)"
 msgstr "ประเภทของแฟ้มที่จะแก้ไข (เช่น text/html)"
 
-#: keditfiletype.cpp:100
+#: keditfiletype.cpp:115
 msgid "KEditFileType"
 msgstr "แฟ้มประเภท KEdit"
 
-#: keditfiletype.cpp:101
+#: keditfiletype.cpp:116
 msgid ""
 "KDE file type editor - simplified version for editing a single file type"
 msgstr ""
 "ตัวแก้ไขประเภทแฟ้มของ KDE - รุ่นพื้นฐาน "
 "สำหรับแก้ไขประเภทของแฟ้มได้ครั้งละหนึ่งประเภท"
 
-#: keditfiletype.cpp:103
+#: keditfiletype.cpp:118
 msgid "(c) 2000, KDE developers"
 msgstr "(c) 2000, กลุ่มผู้พัฒนา KDE"
 
-#: keditfiletype.cpp:128
+#: keditfiletype.cpp:152
+msgid "%1 File"
+msgstr ""
+
+#: keditfiletype.cpp:173
 #, c-format
 msgid "Edit File Type %1"
 msgstr "แก้ไขแฟ้มประเภท %1"
+
+#: keditfiletype.cpp:175
+#, fuzzy, c-format
+msgid "Create New File Type %1"
+msgstr "สร้างประเภทแฟ้มชนิดใหม่"
 
 #: kservicelistwidget.cpp:46
 msgid "%1 (%2)"
