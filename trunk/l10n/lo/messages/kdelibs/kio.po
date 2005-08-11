@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-08-10 10:13+0200\n"
+"POT-Creation-Date: 2005-08-11 01:37+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -5879,7 +5879,26 @@ msgstr ""
 msgid "No media in device for %1"
 msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 
-#: ../kioslave/file/file.cc:1534
+#: ../kioslave/file/file.cc:1205
+#, fuzzy
+msgid "No Media inserted or Media not recognized."
+msgstr "ບໍ່ສາມາດຈັດການກັບຊະນິດຂອງເຄືອ່ງພິມໄດ້"
+
+#: ../kioslave/file/file.cc:1215 ../kioslave/file/file.cc:1421
+msgid "\"vold\" is not running."
+msgstr ""
+
+#: ../kioslave/file/file.cc:1249
+#, fuzzy
+msgid "Could not find program \"mount\""
+msgstr "ບໍ່ສາມາດຄົ້ນຫາໂປຣແກຣມ \"%1\" ໄດ້"
+
+#: ../kioslave/file/file.cc:1434
+#, fuzzy
+msgid "Could not find program \"umount\""
+msgstr "ບໍ່ສາມາດຄົ້ນຫາໂປຣແກຣມ \"%1\" ໄດ້"
+
+#: ../kioslave/file/file.cc:1538
 #, c-format
 msgid "Could not read %1"
 msgstr "ບໍ່ສາມາດອ່ານ %1 ໄດ້"
@@ -10835,9 +10854,6 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1 !"
 
 #~ msgid "No driver found (raw printer)"
 #~ msgstr "ບໍ່ພົບໄດຣເວີ(ເຄືອ່ງພິມແບບ raw)"
-
-#~ msgid "Printer type not recognized."
-#~ msgstr "ບໍ່ສາມາດຈັດການກັບຊະນິດຂອງເຄືອ່ງພິມໄດ້"
 
 #~ msgid "The driver device <b>%1</b> is not compiled in your GhostScript distribution. Check your installation or use another driver."
 #~ msgstr "ໄດຣເວີຂອງອຸປະກອນ <b>%1</b> ບໍ່ໄດ້ຖືກຄອມພາຍມາຈາກ GhostScript ທີ່ຕິດຕັ້ງໃນລະບົບຂອງທ່ານກະລຸນາກວດສອບການຕິດຕັ້ງຫລືໃຊ້ໄດຣເວີຕົວອື່້ນໆ"
