@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-08-11 01:41+0200\n"
+"POT-Creation-Date: 2005-08-13 01:36+0200\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -2285,7 +2285,7 @@ msgid "&Format"
 msgstr "ຟອມ ໃຫມ່"
 
 #. i18n: file data/kexiformpartinstui.rc line 30
-#: plugins/forms/kexiformpart.cpp:449 rc.cpp:9 rc.cpp:57
+#: plugins/forms/kexiformpart.cpp:455 rc.cpp:9 rc.cpp:57
 #, fuzzy, no-c-format
 msgid "Widgets"
 msgstr "ແຖບ ກວ້າງ"
@@ -2892,12 +2892,12 @@ msgstr "ຟອມ ໃຫມ່"
 msgid "Editing indicator"
 msgstr ""
 
-#: widget/kexiscrollview.cpp:347
+#: widget/kexiscrollview.cpp:352
 #, fuzzy
 msgid "Outer Area"
 msgstr "ສັບພະຍາກອນ"
 
-#: widget/kexiscrollview.cpp:348
+#: widget/kexiscrollview.cpp:353
 #, fuzzy
 msgid ""
 "Outer\n"
@@ -3204,7 +3204,7 @@ msgstr ""
 msgid "Edit Rich Text"
 msgstr "ແກ້ໄຂ ຈາກ"
 
-#: plugins/forms/kexiformmanager.cpp:108
+#: plugins/forms/kexiformmanager.cpp:113
 #, fuzzy
 msgid "Set form's data source to \"%1\""
 msgstr "ສັບພະຍາກອນ"
@@ -3414,7 +3414,7 @@ msgstr ""
 msgid "A command button to execute actions"
 msgstr ""
 
-#: plugins/forms/kexidbfactory.cpp:315 plugins/forms/kexiformpart.cpp:446
+#: plugins/forms/kexidbfactory.cpp:315 plugins/forms/kexiformpart.cpp:452
 #, fuzzy
 msgid "Data Source"
 msgstr "ສັບພະຍາກອນ"
@@ -3488,7 +3488,11 @@ msgid ""
 "No Label"
 msgstr "ຕາຕະລາງ"
 
-#: plugins/forms/kexidbfactory.cpp:414
+#: plugins/forms/kexidbfactory.cpp:342
+msgid "Size"
+msgstr ""
+
+#: plugins/forms/kexidbfactory.cpp:416
 msgid "Assign Action..."
 msgstr ""
 
@@ -3497,10 +3501,13 @@ msgstr ""
 msgid "NAME"
 msgstr ""
 
-#: plugins/forms/kexiformview.cpp:897
-#, fuzzy
-msgid "Set \"%1\" widget's data source to \"%1\""
-msgstr "ສັບພະຍາກອນ"
+#: plugins/forms/kexiformview.cpp:884
+msgid "Insert AutoField widget"
+msgstr ""
+
+#: plugins/forms/kexiformview.cpp:884
+msgid "Insert %1 AutoField widgets"
+msgstr ""
 
 #: plugins/forms/kexiactionselectiondialog.cpp:57
 msgid "Select Action to be executed after clicking \"%1\" button:"
@@ -3557,12 +3564,12 @@ msgstr "ຊື່ ຕາາຕະລາງ:"
 
 #: plugins/forms/kexidatasourcepage.cpp:152
 msgid ""
-"_: Insert selected field into form\n"
+"_: Insert selecteds field into form\n"
 "Insert"
 msgstr ""
 
 #: plugins/forms/kexidatasourcepage.cpp:158
-msgid "Insert selected field into form"
+msgid "Insert selected fields into form"
 msgstr ""
 
 #: plugins/forms/kexiformpart.cpp:118 plugins/forms/kexiformpart.cpp:145
@@ -4272,6 +4279,10 @@ msgstr ""
 #: plugins/scripting/kexiscriptdesignview.cpp:69
 msgid "The used scripting interpreter."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Set \"%1\" widget's data source to \"%1\""
+#~ msgstr "ສັບພະຍາກອນ"
 
 #, fuzzy
 #~ msgid "Object \"%1\" invalid."
