@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-08-10 10:14+0200\n"
+"POT-Creation-Date: 2005-08-18 04:25+0200\n"
 "PO-Revision-Date: 2003-01-12 13:13+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -537,52 +537,57 @@ msgstr "ຈັບພາບຫນ້າຕ່າງ"
 msgid "&Special Window Settings..."
 msgstr "ເກັບການຕັ້ງຄ່າ"
 
-#: useractions.cpp:72
+#: useractions.cpp:71
+#, fuzzy
+msgid "&Special Application Settings..."
+msgstr "ເກັບການຕັ້ງຄ່າ"
+
+#: useractions.cpp:73
 msgid "Ad&vanced"
 msgstr ""
 
-#: useractions.cpp:79
+#: useractions.cpp:80
 msgid "Reset opacity to default value"
 msgstr ""
 
-#: useractions.cpp:81
+#: useractions.cpp:82
 msgid "Slide this to set the window's opacity"
 msgstr ""
 
-#: useractions.cpp:88
+#: useractions.cpp:89
 msgid "&Opacity"
 msgstr ""
 
-#: useractions.cpp:91
+#: useractions.cpp:92
 msgid "&Move"
 msgstr "&ຍ້າຍ"
 
-#: useractions.cpp:92
+#: useractions.cpp:93
 #, fuzzy
 msgid "Re&size"
 msgstr "ປັບຂະຫນາດ"
 
-#: useractions.cpp:93
+#: useractions.cpp:94
 msgid "Mi&nimize"
 msgstr "ຫຍໍ້ນ້ອຍສຸດ"
 
-#: useractions.cpp:94
+#: useractions.cpp:95
 msgid "Ma&ximize"
 msgstr "່ຂະຫນາດໃຫຍ່ສຸດ"
 
-#: useractions.cpp:95
+#: useractions.cpp:96
 msgid "Sh&ade"
 msgstr "ພັບເກັບ"
 
-#: useractions.cpp:102
+#: useractions.cpp:103
 msgid "Configur&e Window Behavior..."
 msgstr "ປັບແຕ່ງ..."
 
-#: useractions.cpp:197
+#: useractions.cpp:198
 msgid "To &Desktop"
 msgstr "ໄປຍັງພື້ນທີ່ທຳງານ"
 
-#: useractions.cpp:210
+#: useractions.cpp:211
 msgid "&All Desktops"
 msgstr "ທຸກພື້ນທີ່ທຳງານ"
 
@@ -684,7 +689,9 @@ msgid "Keep Running"
 msgstr ""
 
 #: lib/kcommondecoration.cpp:265
-msgid "<center><b>%1 preview</b></center>"
+msgid ""
+"_: %1 is the name of window decoration style\n"
+"<center><b>%1 preview</b></center>"
 msgstr ""
 
 #: lib/kcommondecoration.cpp:329

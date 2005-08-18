@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2004-10-15 01:15+0200\n"
+"POT-Creation-Date: 2005-08-11 01:39+0200\n"
 "PO-Revision-Date: 2003-01-14 17:16+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,134 +14,187 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: mounthelper/kio_devices_mounthelper.cpp:96
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#: kio_media.cpp:35
+msgid "Protocol name"
+msgstr ""
+
+#: kio_media.cpp:36 kio_media.cpp:37
+msgid "Socket name"
+msgstr ""
+
+#: mediaimpl.cpp:86 mediaimpl.cpp:113 mediaimpl.cpp:139 mediaimpl.cpp:173
+#: mediaimpl.cpp:193 mediaimpl.cpp:214
+#: mounthelper/kio_media_mounthelper.cpp:43
+msgid "The KDE mediamanager is not running."
+msgstr ""
+
+#: mediaimpl.cpp:183
+msgid "This media name already exists."
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:179
+#, fuzzy
+msgid "Medium Information"
+msgstr "ອຸປະກອນບໍ່ໄດ້ເມົາທ໌"
+
+#: kfile-plugin/kfilemediaplugin.cpp:182
+msgid "Free"
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:185
+msgid "Used"
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:188
+msgid "Total"
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:191
+msgid "Base URL"
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:192
+msgid "Mount Point"
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:193
+#, fuzzy
+msgid "Device Node"
+msgstr "ອຸປະກອນບໍ່ໄດ້ເມົາທ໌"
+
+#: kfile-plugin/kfilemediaplugin.cpp:195
+msgid "Medium Summary"
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:197
+msgid "Usage"
+msgstr ""
+
+#: kfile-plugin/kfilemediaplugin.cpp:199
+msgid "Bar Graph"
+msgstr ""
+
+#: libmediacommon/actionlistboxitem.cpp:34
+msgid "Auto Action"
+msgstr ""
+
+#: libmediacommon/notifiernothingaction.cpp:28
+msgid "Do Nothing"
+msgstr ""
+
+#: libmediacommon/notifieropenaction.cpp:28
+msgid "Open in New Window"
+msgstr ""
+
+#: libmediacommon/notifierserviceaction.cpp:33
+msgid "Unknown"
+msgstr "ບໍ່ຮູ້ຈັກ"
+
+#: mediamanager/fstabbackend.cpp:291
+msgid "CD Recorder"
+msgstr "ເຄື່ອງບັນທຶກ CD"
+
+#: mediamanager/fstabbackend.cpp:296
+msgid "DVD"
+msgstr "ດີວີດີ"
+
+#: mediamanager/fstabbackend.cpp:306
+msgid "CD-ROM"
+msgstr "ຊີດີຣອມ"
+
+#: mediamanager/fstabbackend.cpp:319
+msgid "Floppy"
+msgstr "ຟລອບປີ"
+
+#: mediamanager/fstabbackend.cpp:327
+msgid "Zip Disk"
+msgstr "ຊິບພ໌ດີດຄ໌"
+
+#: mediamanager/fstabbackend.cpp:338
+msgid "Removable Device"
+msgstr ""
+
+#: mediamanager/fstabbackend.cpp:343 mediamanager/fstabbackend.cpp:349
+msgid "Remote Share"
+msgstr "ແຊທາງໄກ"
+
+#: mediamanager/fstabbackend.cpp:354
+#, fuzzy
+msgid "Hard Disk"
+msgstr "ຮາດດີດສ໌"
+
+#: mediamanager/halbackend.cpp:578
+msgid "Camera"
+msgstr ""
+
+#: mounthelper/kio_media_mounthelper.cpp:60
+msgid "%1 cannot be found."
+msgstr ""
+
+#: mounthelper/kio_media_mounthelper.cpp:67
+#, fuzzy
+msgid "%1 is not a mountable media."
+msgstr "%1%2(ບໍ່ໄດ້ເມົາທ໌)"
+
+#: mounthelper/kio_media_mounthelper.cpp:130
+#: mounthelper/kio_media_mounthelper.cpp:155
 msgid ""
 "\n"
 "Please check that the disk is entered correctly."
 msgstr ""
 
-#: mounthelper/kio_devices_mounthelper.cpp:109
+#: mounthelper/kio_media_mounthelper.cpp:135
+#: mounthelper/kio_media_mounthelper.cpp:160
+msgid ""
+"\n"
+"Please check that the device is plugged correctly."
+msgstr ""
+
+#: mounthelper/kio_media_mounthelper.cpp:185
 msgid "Unmount given URL"
 msgstr "URL ທີ່ໃຫ້ມາບໍ່ໄດ້ ເມົາທ໌"
 
-#: mounthelper/kio_devices_mounthelper.cpp:110
+#: mounthelper/kio_media_mounthelper.cpp:186
 msgid "Mount given URL (default)"
 msgstr "URL(ປະຣິຍາຍ)ທີ່ໃຫ້ມາບໍ່ໄດ້ເມົາທ໌"
 
-#: mounthelper/kio_devices_mounthelper.cpp:111
+#: mounthelper/kio_media_mounthelper.cpp:187
 msgid "Eject given URL via kdeeject"
 msgstr "ເອັກເຈກທ໌URLທີ່ໃຫ້ມາໄປສູ່າkdeeject"
 
-#: mounthelper/kio_devices_mounthelper.cpp:112
+#: mounthelper/kio_media_mounthelper.cpp:188
+msgid "Unmount and Eject given URL (necessary for some USB devices)"
+msgstr ""
+
+#: mounthelper/kio_media_mounthelper.cpp:189
 #, fuzzy
-msgid "devices:/ URL to mount/unmount/eject"
+msgid "media:/ URL to mount/unmount/eject/remove"
 msgstr "ອຸປະກອນ:/URL to ເມົາທ໌/ບໍ່ໄດ້ເມົາທ໌/eject."
 
-#: kio_devices.cc:123
-msgid "This device name already exists"
-msgstr ""
-
-#: kio_devices.cc:147
-#, fuzzy, c-format
-msgid "Unknown device %1"
-msgstr "ອຸປະກອນທີ່ບໍ່ຮູ້ຈັກ"
-
-#: kio_devices.cc:168
-msgid "Device not accessible"
-msgstr "ອຸປະກອນບໍ່ສາມາດເຂົ້າໄດ້"
-
-#: kio_devices.cc:183
-msgid "Device not mounted"
-msgstr "ອຸປະກອນບໍ່ໄດ້ເມົາທ໌"
-
-#: kio_devices.cc:197
-msgid "Illegal data received"
-msgstr "ຂໍ້ມູນທີ່ໄດ້ຮັບຜິດທາງກົດຫມາຍ"
-
-#: kio_devices.cc:209
-msgid "System"
-msgstr ""
-
-#: kio_devices.cc:211
-msgid "Devices"
-msgstr ""
-
-#: kio_devices.cc:459
-msgid ""
-"The KDE mountwatcher is not running. Please activate it in Control Center->"
-"KDE Components->Service Manager, if you want to use the devices:/ protocol"
-msgstr ""
-"The KDE mountwatcher is not running. Please activate it in Control Center->"
-"KDE Components->Service Manager, if you want to use the devices:/ protocol"
-
-#: kdedmodule/disks.cpp:62
-msgid "Hard Disc"
-msgstr "ຮາດດີດສ໌"
-
-#: kdedmodule/disks.cpp:63 kdedmodule/disks.cpp:64
-msgid "Remote Share"
-msgstr "ແຊທາງໄກ"
-
-#: kdedmodule/disks.cpp:65
-msgid "CD-ROM"
-msgstr "ຊີດີຣອມ"
-
-#: kdedmodule/disks.cpp:66
-msgid "DVD"
-msgstr "ດີວີດີ"
-
-#: kdedmodule/disks.cpp:67
-msgid "CD Recorder"
-msgstr "ເຄື່ອງບັນທຶກ CD"
-
-#: kdedmodule/disks.cpp:68
-msgid "Floppy"
-msgstr "ຟລອບປີ"
-
-#: kdedmodule/disks.cpp:69
-msgid "Zip Disk"
-msgstr "ຊິບພ໌ດີດຄ໌"
-
-#: kdedmodule/disks.cpp:70
-msgid "Removable Device"
-msgstr ""
-
-#: kdedmodule/disks.cpp:71
-msgid "Unknown"
-msgstr "ບໍ່ຮູ້ຈັກ"
-
-#: kdedmodule/mountwatcher.cpp:368 kdedmodule/mountwatcher.cpp:392
-msgid "%1 [%2]"
-msgstr ""
-
-#: kfile-plugin/kfiledeviceplugin.cpp:153
 #, fuzzy
-msgid "Device Information"
-msgstr "ອຸປະກອນບໍ່ໄດ້ເມົາທ໌"
+#~ msgid "Unknown device %1"
+#~ msgstr "ອຸປະກອນທີ່ບໍ່ຮູ້ຈັກ"
 
-#: kfile-plugin/kfiledeviceplugin.cpp:156
-msgid "Free"
-msgstr ""
+#~ msgid "Device not accessible"
+#~ msgstr "ອຸປະກອນບໍ່ສາມາດເຂົ້າໄດ້"
 
-#: kfile-plugin/kfiledeviceplugin.cpp:159
-msgid "Used"
-msgstr ""
+#~ msgid "Illegal data received"
+#~ msgstr "ຂໍ້ມູນທີ່ໄດ້ຮັບຜິດທາງກົດຫມາຍ"
 
-#: kfile-plugin/kfiledeviceplugin.cpp:162
-msgid "Total"
-msgstr ""
-
-#: kfile-plugin/kfiledeviceplugin.cpp:166
-msgid "Device Summary"
-msgstr ""
-
-#: kfile-plugin/kfiledeviceplugin.cpp:168
-msgid "Usage"
-msgstr ""
-
-#: kfile-plugin/kfiledeviceplugin.cpp:170
-msgid "Bar graph"
-msgstr ""
+#~ msgid "The KDE mountwatcher is not running. Please activate it in Control Center->KDE Components->Service Manager, if you want to use the devices:/ protocol"
+#~ msgstr "The KDE mountwatcher is not running. Please activate it in Control Center->KDE Components->Service Manager, if you want to use the devices:/ protocol"
 
 #, fuzzy
 #~ msgid "Unknown device: %1"
@@ -152,9 +205,6 @@ msgstr ""
 
 #~ msgid "%1%2 mounted at %3"
 #~ msgstr "%1%2 ບໍ່ໄດ້ເມົາທ໌ທີ່%3"
-
-#~ msgid "%1%2 (not mounted)"
-#~ msgstr "%1%2(ບໍ່ໄດ້ເມົາທ໌)"
 
 #~ msgid "could not execute [%1]"
 #~ msgstr "ບໍ່ສາມາດປະຕິບັດການໄດ້ [%1]"

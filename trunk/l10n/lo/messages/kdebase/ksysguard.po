@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-07-31 01:40+0200\n"
+"POT-Creation-Date: 2005-08-18 04:25+0200\n"
 "PO-Revision-Date: 2003-01-12 12:30+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,12 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: KSysGuardApplet.cc:313 WorkSheet.cc:93
+#: KSysGuardApplet.cc:314 WorkSheet.cc:93
 #, fuzzy, c-format
 msgid "Cannot open the file %1."
 msgstr "ບໍ່ສາມາດເປີດແຟ້ມ%1 ໄດ້"
 
-#: KSysGuardApplet.cc:322 WorkSheet.cc:101
+#: KSysGuardApplet.cc:323 WorkSheet.cc:101
 msgid "The file %1 does not contain valid XML."
 msgstr "ແຟ້ມ %1 ອາດຈະບໍ່ໄດ້ເປັນແຟ້ມ XML ທີ່ໃຊ້ໄ້ດ້"
 
@@ -35,7 +35,7 @@ msgstr ""
 msgid "The file %1 has an invalid worksheet size."
 msgstr "ແຟ້ມ %1 ມີຂະຫນາດຂອງຊີດງານທີ່ໃຊ້ບໍ່ໄດ້"
 
-#: KSysGuardApplet.cc:460 WorkSheet.cc:221
+#: WorkSheet.cc:221
 #, fuzzy, c-format
 msgid "Cannot save file %1"
 msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມ%1 ໄດ້"
@@ -44,20 +44,20 @@ msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມ%1 ໄດ້"
 msgid "The clipboard does not contain a valid display description."
 msgstr "ຄຣິບບອຣ໌ດບໍ່ມີລາຍລະອງດຂອງຊ່ອງການສະແດງຜົນທີ່ໃຊ້ໄດ້"
 
-#: SensorDisplayLib/SensorDisplay.cc:97 WorkSheet.cc:306
+#: SensorDisplayLib/SensorDisplay.cc:102 WorkSheet.cc:306
 #, fuzzy
 msgid "It is impossible to connect to '%1'."
 msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄປຍັງ '%1' ໄດ້ !"
 
-#: KSysGuardApplet.cc:200 WorkSheet.cc:322
+#: KSysGuardApplet.cc:201 WorkSheet.cc:322
 msgid "Select Display Type"
 msgstr "ເລືອກປະເພດຂອງຊ່ອງການສະແດງຜົນ"
 
-#: KSysGuardApplet.cc:201 WorkSheet.cc:323
+#: KSysGuardApplet.cc:202 WorkSheet.cc:323
 msgid "&Signal Plotter"
 msgstr "ຕົວພລອຕສັນຍານ"
 
-#: KSysGuardApplet.cc:202 WorkSheet.cc:324
+#: KSysGuardApplet.cc:203 WorkSheet.cc:324
 msgid "&Multimeter"
 msgstr "ຕວດຈັບຫລາຍຕົວ"
 
@@ -69,11 +69,11 @@ msgstr "&ກຣາຟແທ່ງ"
 msgid "S&ensorLogger"
 msgstr "ຕົວຕິດຕາມຕົວກວດຈັບ"
 
-#: KSysGuardApplet.cc:252 WorkSheet.cc:457
+#: KSysGuardApplet.cc:253 WorkSheet.cc:457
 msgid "Do you really want to delete the display?"
 msgstr "ທ່ານຕ້ອງການລຶບຊ່ອງການສະແດງຜົນນີ້ ແມ່ນຫລືບໍ່?"
 
-#: KSysGuardApplet.cc:252 WorkSheet.cc:458
+#: KSysGuardApplet.cc:253 WorkSheet.cc:458
 #, fuzzy
 msgid "Delete Display"
 msgstr "ເລືອກປະເພດຂອງຊ່ອງການສະແດງຜົນ"
@@ -252,7 +252,7 @@ msgstr "ໂຫລດຜູ້ໃຊ້"
 msgid "Idle Load"
 msgstr "ໂຫລດວ່າງ"
 
-#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:164
+#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:171
 msgid "System Load"
 msgstr "ໂຫລດລະບົບ"
 
@@ -601,7 +601,7 @@ msgstr ""
 "ນີ້ເປັນພື້ນທີ່ການທຳງານຂອງທ່ານ ຫາກຕ້ອງການສ້າງຊີດງານໃຫມ່(ທີ່ເມນູFile->"
 "New) ກ່ອນທີ່ທ່ານຈະສາມາດລາກຕົວກວດຈັບມາຍັງທີ່ນີ້ໄດ້"
 
-#: Workspace.cc:104 ksysguard.cc:169
+#: Workspace.cc:104 ksysguard.cc:176
 msgid "Process Table"
 msgstr "ຕາລາງໂປຣເຊສ"
 
@@ -1195,27 +1195,27 @@ msgstr "ເລື່ອນລົງ"
 msgid "Sensor Logger"
 msgstr "ຕົວບັນທຶກຕົວກວດສອບ"
 
-#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:381
+#: SensorDisplayLib/SensorDisplay.cc:160 SensorDisplayLib/SensorLogger.cc:381
 msgid "&Properties"
 msgstr "คุณสมบัติ"
 
-#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:382
+#: SensorDisplayLib/SensorDisplay.cc:161 SensorDisplayLib/SensorLogger.cc:382
 msgid "&Remove Display"
 msgstr "ເອົາຊ່ອງສະແດງຜົນອອກ"
 
-#: SensorDisplayLib/SensorDisplay.cc:157
+#: SensorDisplayLib/SensorDisplay.cc:163
 msgid "&Setup Update Interval..."
 msgstr "ຕັ້ງຄ່າຊ່ວງເວລາປັບປຸງ..."
 
-#: SensorDisplayLib/SensorDisplay.cc:159
+#: SensorDisplayLib/SensorDisplay.cc:165
 msgid "&Continue Update"
 msgstr "ເຮັດການປັບປຸງຕໍ່ໄປ"
 
-#: SensorDisplayLib/SensorDisplay.cc:161
+#: SensorDisplayLib/SensorDisplay.cc:167
 msgid "P&ause Update"
 msgstr "ຫຍຸດການປັບປຸງຊົ່ວຄາວ"
 
-#: SensorDisplayLib/SensorDisplay.cc:225
+#: SensorDisplayLib/SensorDisplay.cc:231
 msgid ""
 "<qt>"
 "<p>This is a sensor display. To customize a sensor display click and hold the "
@@ -1370,95 +1370,95 @@ msgstr "ລັອກອິນ"
 msgid "Command"
 msgstr "ຄຳສັ່ງ"
 
-#: SensorDisplayLib/ProcessController.cc:81
-msgid "&Tree"
-msgstr "ລາຍການຕົ້ນໄມ້"
-
-#: SensorDisplayLib/ProcessController.cc:92
+#: SensorDisplayLib/ProcessController.cc:86
 msgid "All Processes"
 msgstr "ທຸກໂປຣເຊສ"
 
-#: SensorDisplayLib/ProcessController.cc:93
+#: SensorDisplayLib/ProcessController.cc:87
 msgid "System Processes"
 msgstr "ໂປຣເຊສຂອງລະບົບ"
 
-#: SensorDisplayLib/ProcessController.cc:94
+#: SensorDisplayLib/ProcessController.cc:88
 msgid "User Processes"
 msgstr "ໂປຣເຊສຂອງຜູ້ໃຊ້"
 
-#: SensorDisplayLib/ProcessController.cc:95
+#: SensorDisplayLib/ProcessController.cc:89
 msgid "Own Processes"
 msgstr "ໂປຣເຊສຂອງເຈົ້າຂອງ"
 
-#: SensorDisplayLib/ProcessController.cc:104
+#: SensorDisplayLib/ProcessController.cc:92
+msgid "&Tree"
+msgstr "ລາຍການຕົ້ນໄມ້"
+
+#: SensorDisplayLib/ProcessController.cc:105
 msgid "&Refresh"
 msgstr "ເອີ້ນໃຫມ່"
 
-#: SensorDisplayLib/ProcessController.cc:111
+#: SensorDisplayLib/ProcessController.cc:112
 msgid "&Kill"
 msgstr "&ຂ້າ"
 
-#: SensorDisplayLib/ProcessController.cc:173
+#: SensorDisplayLib/ProcessController.cc:180
 msgid "%1: Running Processes"
 msgstr "%1:ໂປຣເຊສທີ່ກຳລັງທຳງານ"
 
-#: SensorDisplayLib/ProcessController.cc:206
+#: SensorDisplayLib/ProcessController.cc:213
 #, fuzzy
 msgid "You need to select a process first."
 msgstr "ທ່ານຕ້ອງເລືອກໂປຣເຊສກ່ອນ !"
 
-#: SensorDisplayLib/ProcessController.cc:212
+#: SensorDisplayLib/ProcessController.cc:219
 #, fuzzy, c-format
 msgid ""
 "_n: Do you want to kill the selected process?\n"
 "Do you want to kill the %n selected processes?"
 msgstr "ທ່ານຕ້ອງການຂ້າໂປຣເຊສ %n ໂປຣເຊສ ທີ່ເລືອກໄວ້ຫລືບໍ່ ?"
 
-#: SensorDisplayLib/ProcessController.cc:215
+#: SensorDisplayLib/ProcessController.cc:222
 msgid "Kill Process"
 msgstr "ທຸກໂປຣເຊສ"
 
-#: SensorDisplayLib/ProcessController.cc:219
+#: SensorDisplayLib/ProcessController.cc:226
 #, fuzzy
 msgid "Kill"
 msgstr "&ຂ້າ"
 
-#: SensorDisplayLib/ProcessController.cc:225
+#: SensorDisplayLib/ProcessController.cc:232
 msgid "Do not ask again"
 msgstr ""
 
-#: SensorDisplayLib/ProcessController.cc:310
+#: SensorDisplayLib/ProcessController.cc:317
 #, fuzzy, c-format
 msgid "Error while attempting to kill process %1."
 msgstr "ເກີດຂໍ້ຜິດພາດ ຂະນະກຳລັງຂ້າໂປຣເຊສ %1!"
 
-#: SensorDisplayLib/ProcessController.cc:315
+#: SensorDisplayLib/ProcessController.cc:322
 #, fuzzy, c-format
 msgid "Insufficient permissions to kill process %1."
 msgstr "ສິດບໍ່ພງງພໍ ທີ່ຈະຂ້າໂປຣເຊສ %1 !"
 
-#: SensorDisplayLib/ProcessController.cc:320
-#: SensorDisplayLib/ProcessController.cc:355
+#: SensorDisplayLib/ProcessController.cc:327
+#: SensorDisplayLib/ProcessController.cc:362
 #, fuzzy
 msgid "Process %1 has already disappeared."
 msgstr "ບໍ່ປະກົດໂປຣເຊສ %1 ຮງບຮ້ອຍແລ້ວ !"
 
-#: SensorDisplayLib/ProcessController.cc:324
+#: SensorDisplayLib/ProcessController.cc:331
 #, fuzzy
 msgid "Invalid Signal."
 msgstr "ສັນຍານໃຊ້ບໍ່ໄດ້ !"
 
-#: SensorDisplayLib/ProcessController.cc:345
+#: SensorDisplayLib/ProcessController.cc:352
 #, fuzzy, c-format
 msgid "Error while attempting to renice process %1."
 msgstr "ເກີດຂໍ້ຜິດພາດ ຂະນະກຳລັງກຳນົດຄວາມສຳຄັນໂປຣເຊສ %1!"
 
-#: SensorDisplayLib/ProcessController.cc:350
+#: SensorDisplayLib/ProcessController.cc:357
 #, fuzzy, c-format
 msgid "Insufficient permissions to renice process %1."
 msgstr "ສິດບໍ່ພງງພໍ ທີ່ຈະກຳນົດຄວາມສຳຄັນໂປຣເຊສ %1 ໃຫມ່ໄດ້ !"
 
-#: SensorDisplayLib/ProcessController.cc:359
+#: SensorDisplayLib/ProcessController.cc:366
 #, fuzzy
 msgid "Invalid argument."
 msgstr "ອາກຣູເມນຕ໌ບໍ່ຖືກຕ້ອງ !"
@@ -1565,11 +1565,11 @@ msgstr "ຕື່ມຈຳນວນຖັນຂອງຊີດ"
 msgid "Enter the title of the worksheet here."
 msgstr "ຕື່ມແຖບຫົວເລື່ອງຂອງຊີດງານທີ່ນີ້"
 
-#: KSysGuardApplet.cc:203
+#: KSysGuardApplet.cc:204
 msgid "&Dancing Bars"
 msgstr "ແຖບເຕັ້່ນໄດ້"
 
-#: KSysGuardApplet.cc:233 KSysGuardApplet.cc:386
+#: KSysGuardApplet.cc:234 KSysGuardApplet.cc:387
 msgid ""
 "The KSysGuard applet does not support displaying of this type of sensor. Please "
 "choose another sensor."
@@ -1577,7 +1577,7 @@ msgstr ""
 "ແອພເພລັຕ KSysGuard ບໍ່ສະຫນັບສະຫນູນການສະແດງຜົນຂອງ\n"
 "ຕົວກວດຈັບປະເພດນີ້ ກະລຸນາເລືອກຕົວກວດຈັບປະເພດອື່ນ"
 
-#: KSysGuardApplet.cc:329
+#: KSysGuardApplet.cc:330
 msgid ""
 "The file %1 does not contain a valid applet definition, which must have a "
 "document type 'KSysGuardApplet'."
@@ -1586,7 +1586,7 @@ msgstr ""
 "ທີ່ໃຊ້ໄດ້ ຊື່ງມັນຄວນຈະເປັນເອກະສານປະເພດ\n"
 "'KSysGuardApplet'"
 
-#: KSysGuardApplet.cc:477
+#: KSysGuardApplet.cc:473
 msgid "Drag sensors from the KDE System Guard into this cell."
 msgstr "ລາກຕົວກວດຈັບຈາກ KDE System Guard ເຂົ້າໄປໃນຊ່ອງນີ້"
 
@@ -1626,7 +1626,7 @@ msgstr "ລາກຕົວກວດຈັບໄປຍັງພື້ນທີ່
 msgid "KDE system guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
-#: ksysguard.cc:74 ksysguard.cc:549
+#: ksysguard.cc:74 ksysguard.cc:556
 msgid "KDE System Guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
@@ -1644,71 +1644,96 @@ msgstr "ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ8888888 kB, ເຫລ�
 msgid "Swap: 888888888 kB used, 888888888 kB free"
 msgstr "ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: ໃ່ຊ້ໄປ 8888888 kB, ເຫລືອ 8888888 kB"
 
-#: ksysguard.cc:118
+#: ksysguard.cc:108
+#, fuzzy
+msgid "&New Worksheet"
+msgstr "ປັບຄ່າທຸກຊີດງານເປັນຄ່າປຣິຍາຍ"
+
+#: ksysguard.cc:111
+#, fuzzy
+msgid "&Import Recent Worksheet..."
+msgstr "ปรับให้มีผลกับชีตงานปัจจุบัน"
+
+#: ksysguard.cc:114
+#, fuzzy
+msgid "Import Worksheet"
+msgstr "ปรับให้มีผลกับชีตงานปัจจุบัน"
+
+#: ksysguard.cc:117
+#, fuzzy
+msgid "&Remove Worksheet"
+msgstr "ປັບຄ່າທຸກຊີດງານເປັນຄ່າປຣິຍາຍ"
+
+#: ksysguard.cc:120
+#, fuzzy
+msgid "&Export Worksheet"
+msgstr "ปรับให้มีผลกับชีตงานปัจจุบัน"
+
+#: ksysguard.cc:125
 msgid "C&onnect Host..."
 msgstr "ເຊື່ອມຕໍ່ໄປຍັງໂຮສຕ໌..."
 
-#: ksysguard.cc:120
+#: ksysguard.cc:127
 msgid "D&isconnect Host"
 msgstr "ຍຸດຕິການເຊື່ອມຕໍ່ກັບໂຮສຕ໌"
 
-#: ksysguard.cc:126
+#: ksysguard.cc:133
 #, fuzzy
 msgid "&Worksheet Properties"
 msgstr "ຄຸູນສົມບັດຊີດງານ"
 
-#: ksysguard.cc:129
+#: ksysguard.cc:136
 msgid "Load Standard Sheets"
 msgstr ""
 
-#: ksysguard.cc:133
+#: ksysguard.cc:140
 msgid "Configure &Style..."
 msgstr "ປັບແຕ່ງຮູບແບບ..."
 
-#: ksysguard.cc:150
+#: ksysguard.cc:157
 msgid "Do you really want to restore the default worksheets?"
 msgstr "ທ່ານຕ້ອງການເອີ້ນຄືນຊີດງານປຣິຍາຍ ແມ່ນຫລືບໍ່ ?"
 
-#: ksysguard.cc:151
+#: ksysguard.cc:158
 msgid "Reset All Worksheets"
 msgstr "ປັບຄ່າທຸກຊີດງານເປັນຄ່າປຣິຍາຍ"
 
-#: ksysguard.cc:152
+#: ksysguard.cc:159
 msgid "Reset"
 msgstr ""
 
-#: ksysguard.cc:429
+#: ksysguard.cc:436
 #, fuzzy, c-format
 msgid ""
 "_n: 1 Process\n"
 "%n Processes"
 msgstr "%n ໂປຣເຊສ"
 
-#: ksysguard.cc:439
+#: ksysguard.cc:446
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr "ຫນ່ວຍຄວາມຈຳ: ໃຊ້ໄປ %1 %2, ເຫລືອ %3 %4"
 
-#: ksysguard.cc:497
+#: ksysguard.cc:504
 msgid "No swap space available"
 msgstr ""
 
-#: ksysguard.cc:499
+#: ksysguard.cc:506
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr "ຫນ່ວຍຄວາມຈຳສະເຫມືອນ: ່ໃຊ້ໄປ %1 %2, ເຫລືອ %3 %4"
 
-#: ksysguard.cc:508
+#: ksysguard.cc:515
 msgid "Show only process list of local host"
 msgstr "ສະແດງສະເພາະລາຍການໂປຣເຊສຂອງໂຮສຕ໌ນີ້ເທົ່ານັ້ນ"
 
-#: ksysguard.cc:509
+#: ksysguard.cc:516
 msgid "Optional worksheet files to load"
 msgstr "ແຟ້ມຕົວເລືອກຊີດງານທີ່່ຈະເອີ້ນໃຊ້"
 
-#: ksysguard.cc:551
+#: ksysguard.cc:558
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(c) 1996-2002 ກຸ່ມຜູ້ພັດທະນາ KSysGuard"
 
-#: ksysguard.cc:559
+#: ksysguard.cc:566
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1812,9 +1837,6 @@ msgstr ""
 
 #~ msgid "Alarm Color"
 #~ msgstr "สีการเตือน"
-
-#~ msgid "&Apply to Current Worksheet"
-#~ msgstr "ปรับให้มีผลกับชีตงานปัจจุบัน"
 
 #~ msgid "Update Interval"
 #~ msgstr "ช่วงจังหวะการอัพเดท"
