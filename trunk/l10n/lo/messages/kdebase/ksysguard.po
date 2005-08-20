@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-08-18 04:25+0200\n"
+"POT-Creation-Date: 2005-08-20 02:35+0200\n"
 "PO-Revision-Date: 2003-01-12 12:30+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -44,7 +44,7 @@ msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມ%1 ໄດ້"
 msgid "The clipboard does not contain a valid display description."
 msgstr "ຄຣິບບອຣ໌ດບໍ່ມີລາຍລະອງດຂອງຊ່ອງການສະແດງຜົນທີ່ໃຊ້ໄດ້"
 
-#: SensorDisplayLib/SensorDisplay.cc:102 WorkSheet.cc:306
+#: SensorDisplayLib/SensorDisplay.cc:105 WorkSheet.cc:306
 #, fuzzy
 msgid "It is impossible to connect to '%1'."
 msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄປຍັງ '%1' ໄດ້ !"
@@ -1195,27 +1195,32 @@ msgstr "ເລື່ອນລົງ"
 msgid "Sensor Logger"
 msgstr "ຕົວບັນທຶກຕົວກວດສອບ"
 
-#: SensorDisplayLib/SensorDisplay.cc:160 SensorDisplayLib/SensorLogger.cc:381
+#: SensorDisplayLib/SensorDisplay.cc:163
+#, fuzzy
+msgid "Launch &System Guard"
+msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
+
+#: SensorDisplayLib/SensorDisplay.cc:167 SensorDisplayLib/SensorLogger.cc:381
 msgid "&Properties"
 msgstr "คุณสมบัติ"
 
-#: SensorDisplayLib/SensorDisplay.cc:161 SensorDisplayLib/SensorLogger.cc:382
+#: SensorDisplayLib/SensorDisplay.cc:168 SensorDisplayLib/SensorLogger.cc:382
 msgid "&Remove Display"
 msgstr "ເອົາຊ່ອງສະແດງຜົນອອກ"
 
-#: SensorDisplayLib/SensorDisplay.cc:163
+#: SensorDisplayLib/SensorDisplay.cc:170
 msgid "&Setup Update Interval..."
 msgstr "ຕັ້ງຄ່າຊ່ວງເວລາປັບປຸງ..."
 
-#: SensorDisplayLib/SensorDisplay.cc:165
+#: SensorDisplayLib/SensorDisplay.cc:172
 msgid "&Continue Update"
 msgstr "ເຮັດການປັບປຸງຕໍ່ໄປ"
 
-#: SensorDisplayLib/SensorDisplay.cc:167
+#: SensorDisplayLib/SensorDisplay.cc:174
 msgid "P&ause Update"
 msgstr "ຫຍຸດການປັບປຸງຊົ່ວຄາວ"
 
-#: SensorDisplayLib/SensorDisplay.cc:231
+#: SensorDisplayLib/SensorDisplay.cc:241
 msgid ""
 "<qt>"
 "<p>This is a sensor display. To customize a sensor display click and hold the "
