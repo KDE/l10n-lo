@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-08-18 04:27+0200\n"
+"POT-Creation-Date: 2005-08-22 02:37+0200\n"
 "PO-Revision-Date: 2003-01-18 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -3707,7 +3707,7 @@ msgstr "ອັນຟາ"
 #: modules/cmyk_u8/kis_cmyk_colorspace.cc:51
 #: modules/gray_u8/kis_gray_colorspace.cc:52
 #: modules/rgb_f32/kis_rgb_f32_colorspace.cc:72
-#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:53
+#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:54
 #: modules/rgb_u8/kis_rgb_colorspace.cc:53
 #: modules/wetsticky/kis_wet_sticky_colorspace.cc:70
 msgid "Alpha"
@@ -3910,6 +3910,11 @@ msgstr "ຟ້າ"
 msgid "Erase"
 msgstr "ຢາງລືບ"
 
+#: core/kis_composite_op.cc:135
+#, fuzzy
+msgid "Undefined"
+msgstr "ເຮັດດັດສະນີທຽບສີ"
+
 #: core/kis_view.cc:145
 msgid "Control box"
 msgstr ""
@@ -3980,11 +3985,11 @@ msgstr "&ເຊື່ອມຕໍ່/ຍົກເລີກເຊື່ອມຕ�
 msgid "&Hide/Show Layer"
 msgstr "&ເຊື່ອງ/ສະແດງເລເຢີ..."
 
-#: core/kis_image.cc:1275 core/kis_view.cc:489
+#: core/kis_image.cc:1278 core/kis_view.cc:489
 msgid "Raise Layer"
 msgstr "ເລເຢີຖັດໄປ"
 
-#: core/kis_image.cc:1297 core/kis_view.cc:490
+#: core/kis_image.cc:1300 core/kis_view.cc:490
 msgid "Lower Layer"
 msgstr "ຍ້າຍເລເຢີ"
 
@@ -4090,7 +4095,7 @@ msgstr "ເພີ່ມເລເຢີ..."
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: core/kis_image.cc:1439 core/kis_view.cc:1318 core/kis_view.cc:1319
+#: core/kis_image.cc:1442 core/kis_view.cc:1318 core/kis_view.cc:1319
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Duplicate Image"
@@ -4161,27 +4166,27 @@ msgstr "ເລເຢີ %1"
 msgid "background"
 msgstr "ພື້ນຫລັງ"
 
-#: core/kis_image.cc:1317
+#: core/kis_image.cc:1320
 #, fuzzy
 msgid "Layer Top"
 msgstr "ເລເຢີ %1"
 
-#: core/kis_image.cc:1339
+#: core/kis_image.cc:1342
 #, fuzzy
 msgid "Layer Bottom"
 msgstr "Layer to Button"
 
-#: core/kis_image.cc:1468
+#: core/kis_image.cc:1471
 #, fuzzy
 msgid "Merge Visible Layers"
 msgstr "ລວມເລເຢີທີ່&ແນມເຫັນ"
 
-#: core/kis_image.cc:1497
+#: core/kis_image.cc:1500
 #, fuzzy
 msgid "Merge Linked Layers"
 msgstr "ູ່&ລວມເລເຢີທີ່ເຊື່ອມຕໍ່ຢູ່"
 
-#: core/kis_image.cc:1527
+#: core/kis_image.cc:1530
 #, fuzzy
 msgid "&Merge Layers"
 msgstr "รวมเลเยอร์"
@@ -4815,27 +4820,27 @@ msgid "RGB/Alpha (32-bit float/channel)"
 msgstr "ເພີ່ມຊ້ອງ"
 
 #: modules/rgb_f32/kis_rgb_f32_colorspace.cc:69
-#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:50
+#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:51
 #: modules/rgb_u8/kis_rgb_colorspace.cc:50
 #: modules/wetsticky/kis_wet_sticky_colorspace.cc:69
 msgid "Red"
 msgstr "ແດງ"
 
 #: modules/rgb_f32/kis_rgb_f32_colorspace.cc:70
-#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:51
+#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:52
 #: modules/rgb_u8/kis_rgb_colorspace.cc:51
 #: modules/wetsticky/kis_wet_sticky_colorspace.cc:68
 msgid "Green"
 msgstr "ຂຽວ"
 
 #: modules/rgb_f32/kis_rgb_f32_colorspace.cc:71
-#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:52
+#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:53
 #: modules/rgb_u8/kis_rgb_colorspace.cc:52
 #: modules/wetsticky/kis_wet_sticky_colorspace.cc:67
 msgid "Blue"
 msgstr "ຟ້າ"
 
-#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:48
+#: modules/rgb_u16/kis_rgb_u16_colorspace.cc:49
 msgid "RGB/Alpha (16-bit integer/channel)"
 msgstr ""
 
