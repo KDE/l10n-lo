@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-08-22 01:01+0000\n"
+"POT-Creation-Date: 2005-08-23 01:03+0000\n"
 "PO-Revision-Date: 2003-01-11 14:20+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -294,7 +294,7 @@ msgstr "Comment=ພື້ນທີ່ທຳງານບົນເວ໊ບ KDE"
 msgid "Name=File"
 msgstr "Name=ຊີລີ"
 
-#: applnk/kde-utilities-file.directory:14
+#: applnk/kde-utilities-file.directory:15
 #, fuzzy
 msgid "Comment=File"
 msgstr "Comment=แฟ้ม TeX"
@@ -309,7 +309,7 @@ msgstr "Name=ອຸປະກອນຕໍ່ພວງ"
 msgid "Name=PIM"
 msgstr "Name=ອຸປະກອນ PCI"
 
-#: applnk/kde-utilities-pim.directory:6
+#: applnk/kde-utilities-pim.directory:7
 #, fuzzy
 msgid "Comment=PIM"
 msgstr "Comment="
@@ -4348,28 +4348,6 @@ msgstr "Comment=ເຄື່ອງພິມ"
 msgid "Comment=Printer Model"
 msgstr "Comment=ເຄື່ອງພິມ"
 
-#: kdesktop/init/.svn/text-base/directory.autostart.svn-base:3
-#: kdesktop/init/directory.autostart:3
-msgid "Name=Autostart"
-msgstr "Name=ເລິ່ມອັດໂນມັດ"
-
-#: kdesktop/init/.svn/text-base/directory.templates.svn-base:3
-#: kdesktop/init/.svn/tmp/directory.templates.tmp:3
-#: kdesktop/init/directory.templates:3
-msgid "Name=Templates"
-msgstr "Name=ຕົ້ນແບບ"
-
-#: kdesktop/init/.svn/text-base/directory.trash.svn-base:7
-#: kdesktop/init/directory.trash:7 kicker/applets/trash/trashapplet.desktop:49
-#: kioslave/system/entries/trash.desktop:7
-msgid "Name=Trash"
-msgstr "Name=ຖັງຂີ້ເຫຍື່ອ"
-
-#: kdesktop/init/.svn/text-base/directory.trash.svn-base:79
-#: kdesktop/init/directory.trash:79
-msgid "Comment=Contains removed files"
-msgstr "Comment=ທີ່ສຳລັບເກັບແຟ້ມຂອງເຈົ້າທີ່ຕ້ອງການລືບ"
-
 #: kdesktop/init/Home.desktop:3 konqueror/Home.desktop:8
 msgid "Name=Home"
 msgstr "Name=ພື້ນທີ່ສ່ວນຕົວ"
@@ -5098,7 +5076,7 @@ msgstr "Keywords=khelpcenter,help,index,search"
 msgid "Name=KHelpCenter"
 msgstr "Name=ສູນຊ່ວຍເຫລືອ - K"
 
-#: khelpcenter/khelpcenter.desktop:38
+#: khelpcenter/khelpcenter.desktop:39
 msgid "Comment=The KDE Help Center"
 msgstr "Comment=ສູນຊ່ວຍເຫລືອຂອງ KDE"
 
@@ -5333,6 +5311,11 @@ msgstr "Comment=ແອບແພັດຖາດທຳງານໂດຍຕົງ�
 #, fuzzy
 msgid "Comment=A panel applet that displays the trashbin"
 msgstr "Comment=แอพเพล็ตควบคุมเครื่องรับวิทยุของคุณ"
+
+#: kicker/applets/trash/trashapplet.desktop:49
+#: kioslave/system/entries/trash.desktop:7
+msgid "Name=Trash"
+msgstr "Name=ຖັງຂີ້ເຫຍື່ອ"
 
 #: kicker/extensions/dockbar/dockbarextension.desktop:3
 msgid "Name=Dock Application Bar"
@@ -5852,16 +5835,16 @@ msgstr "Description=ຮງກທຳງານ K&View"
 msgid "Description=Web-URL"
 msgstr "Description=ຕຳແຫນ່ງ URL ຂອງເວ໊ບ"
 
-#: klipper/klipperrc.desktop:205 klipper/klipperrc.desktop:1409
+#: klipper/klipperrc.desktop:205 klipper/klipperrc.desktop:1410
 msgid "Description=Open with &Konqueror"
 msgstr "Description=ເປີດດ້ວຍຄອນຄິວເຣ &Konquerorີ"
 
-#: klipper/klipperrc.desktop:281 klipper/klipperrc.desktop:1558
+#: klipper/klipperrc.desktop:281 klipper/klipperrc.desktop:1559
 msgid "Description=Open with &Mozilla"
 msgstr "Description=ເປີດດ້ວຍ &Mozilla"
 
-#: klipper/klipperrc.desktop:356 klipper/klipperrc.desktop:1016
-#: klipper/klipperrc.desktop:1211 klipper/klipperrc.desktop:1633
+#: klipper/klipperrc.desktop:356 klipper/klipperrc.desktop:1017
+#: klipper/klipperrc.desktop:1212 klipper/klipperrc.desktop:1634
 msgid "Description=Send &URL"
 msgstr "Description=ສັ່ງຕຳແຫນ່ງ &URL"
 
@@ -5870,52 +5853,52 @@ msgstr "Description=ສັ່ງຕຳແຫນ່ງ &URL"
 msgid "Description=Open with &Firefox"
 msgstr "Description=ເປີດດ້ວຍຄອນຄິວເຣ &Konquerorີ"
 
-#: klipper/klipperrc.desktop:443
+#: klipper/klipperrc.desktop:444
 msgid "Description=Send &Page"
 msgstr "Description=ສົ່ງຫນ້າ &Page"
 
-#: klipper/klipperrc.desktop:515
+#: klipper/klipperrc.desktop:516
 msgid "Description=Mail-URL"
 msgstr "Description=‍ຕຳແຫນ່ງ URLຂອງເມລ"
 
-#: klipper/klipperrc.desktop:579
+#: klipper/klipperrc.desktop:580
 msgid "Description=Launch &Kmail"
 msgstr "Description=ຮງກທຳງນ &Kmail"
 
-#: klipper/klipperrc.desktop:652
+#: klipper/klipperrc.desktop:653
 msgid "Description=Launch &mutt"
 msgstr "Description=ຮງກທຳງານ &mutt"
 
-#: klipper/klipperrc.desktop:725
+#: klipper/klipperrc.desktop:726
 msgid "Description=Text File"
 msgstr "Description=ແຟ້ມາຂໍ້ຄວາມ"
 
-#: klipper/klipperrc.desktop:800
+#: klipper/klipperrc.desktop:801
 msgid "Description=Launch K&Edit"
 msgstr "Description=ຮງກທຳງານ K&Edit"
 
-#: klipper/klipperrc.desktop:872
+#: klipper/klipperrc.desktop:873
 msgid "Description=Launch K&Write"
 msgstr "Description=ຮງດທຳງານ K&Write"
 
-#: klipper/klipperrc.desktop:943
+#: klipper/klipperrc.desktop:944
 msgid "Description=Local file URL"
 msgstr "Description=ຕຳແຫນ່ງ URL ແຟ້ມພາບໃນ"
 
-#: klipper/klipperrc.desktop:1087 klipper/klipperrc.desktop:1282
-#: klipper/klipperrc.desktop:1704
+#: klipper/klipperrc.desktop:1088 klipper/klipperrc.desktop:1283
+#: klipper/klipperrc.desktop:1705
 msgid "Description=Send &File"
 msgstr "Description=ສົ່ງແຟ້ມ &File "
 
-#: klipper/klipperrc.desktop:1159
+#: klipper/klipperrc.desktop:1160
 msgid "Description=Gopher URL"
 msgstr "Description=ຕຳແຫນ່ງ URL ຂອງໂກເຟີ"
 
-#: klipper/klipperrc.desktop:1354
+#: klipper/klipperrc.desktop:1355
 msgid "Description=ftp URL"
 msgstr "Description=ຕຳແຫນ່ງ URL ຂອງ ftp"
 
-#: klipper/klipperrc.desktop:1484
+#: klipper/klipperrc.desktop:1485
 msgid "Description=Open with &Netscape"
 msgstr "Description=ເປີດດ້ວຍເນ໊ຕສະເຄ໊ບ &Netscape"
 
@@ -8189,6 +8172,15 @@ msgstr "Name=ควบคุมสื่อ"
 #, fuzzy
 msgid "Name=Triple Gears"
 msgstr "Name=ຕົວສະແດງ"
+
+#~ msgid "Name=Autostart"
+#~ msgstr "Name=ເລິ່ມອັດໂນມັດ"
+
+#~ msgid "Name=Templates"
+#~ msgstr "Name=ຕົ້ນແບບ"
+
+#~ msgid "Comment=Contains removed files"
+#~ msgstr "Comment=ທີ່ສຳລັບເກັບແຟ້ມຂອງເຈົ້າທີ່ຕ້ອງການລືບ"
 
 #, fuzzy
 #~ msgid "Name=Konsole Profiles"
