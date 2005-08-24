@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-08-23 01:03+0000\n"
+"POT-Creation-Date: 2005-08-24 00:58+0000\n"
 "PO-Revision-Date: 2003-01-11 14:20+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -1979,6 +1979,95 @@ msgstr "Comment=ປັລກອິນຂອງ Kate"
 #: kate/data/kwrite.desktop:77
 msgid "Name=KWrite"
 msgstr "Name=Kwrite"
+
+#: kcontrol/access/eventsrc:3
+#, fuzzy
+msgid "Comment=KDE Accessibility Tool"
+msgstr "Name=ຄວາມສາມາດໃນການໃຊ້ງານຂອງ KDE"
+
+#: kcontrol/access/eventsrc:6
+msgid "Name=A modifier key has become active"
+msgstr ""
+
+#: kcontrol/access/eventsrc:35
+msgid ""
+"Comment=A modifier key (e.g., Shift or Control) has changed its state and is "
+"now active"
+msgstr ""
+
+#: kcontrol/access/eventsrc:69
+msgid "Name=A modifier key has become inactive"
+msgstr ""
+
+#: kcontrol/access/eventsrc:97
+msgid ""
+"Comment=A modifier key (e.g., Shift or Control) has changed its state and is "
+"now inactive"
+msgstr ""
+
+#: kcontrol/access/eventsrc:131
+msgid "Name=A modifier key has been locked"
+msgstr ""
+
+#: kcontrol/access/eventsrc:160
+msgid ""
+"Comment=A modifier key (e.g., Shift or Control) has been locked and is now "
+"active for all of the following keypresses"
+msgstr ""
+
+#: kcontrol/access/eventsrc:194
+msgid "Name=A lock key has been activated"
+msgstr ""
+
+#: kcontrol/access/eventsrc:222
+msgid ""
+"Comment=A lock key (e.g., Caps Lock or Num Lock) has changed its state and and "
+"is now active"
+msgstr ""
+
+#: kcontrol/access/eventsrc:255
+msgid "Name=A lock key has been deactivated"
+msgstr ""
+
+#: kcontrol/access/eventsrc:283
+msgid ""
+"Comment=A lock key (e.g., Caps Lock or Num Lock) has changed its state and is "
+"now inactive"
+msgstr ""
+
+#: kcontrol/access/eventsrc:315
+msgid "Name=Sticky keys has been enabled or disabled"
+msgstr ""
+
+#: kcontrol/access/eventsrc:316
+msgid "Comment=Sticky keys has been enabled or disabled"
+msgstr ""
+
+#: kcontrol/access/eventsrc:322
+msgid "Name=Slow keys has been enabled or disabled"
+msgstr ""
+
+#: kcontrol/access/eventsrc:323
+msgid "Comment=Slow keys has been enabled or disabled"
+msgstr ""
+
+#: kcontrol/access/eventsrc:329
+msgid "Name=Bounce keys has been enabled or disabled"
+msgstr ""
+
+#: kcontrol/access/eventsrc:330
+#, fuzzy
+msgid "Comment=Bounce keys has been enabled or disabled"
+msgstr "Comment=คุณได้รับคำเตือน"
+
+#: kcontrol/access/eventsrc:336
+msgid "Name=Mouse keys has been enabled or disabled"
+msgstr ""
+
+#: kcontrol/access/eventsrc:337
+#, fuzzy
+msgid "Comment=Mouse keys has been enabled or disabled"
+msgstr "Comment=คุณได้รับคำเตือน"
 
 #: kcontrol/access/kaccess.desktop:4
 #, fuzzy
@@ -4509,6 +4598,23 @@ msgstr "Name=ອຸປະກອນ"
 msgid "Comment=New ZIP Device"
 msgstr "Comment=ກຳນົດອັຸປະກອນຟອບປີ້ໃຫມ่"
 
+#: kdesktop/init/directory.autostart:3
+msgid "Name=Autostart"
+msgstr "Name=ເລິ່ມອັດໂນມັດ"
+
+#: kdesktop/init/directory.templates:3
+msgid "Name=Templates"
+msgstr "Name=ຕົ້ນແບບ"
+
+#: kdesktop/init/directory.trash:7 kicker/applets/trash/trashapplet.desktop:49
+#: kioslave/system/entries/trash.desktop:7
+msgid "Name=Trash"
+msgstr "Name=ຖັງຂີ້ເຫຍື່ອ"
+
+#: kdesktop/init/directory.trash:79
+msgid "Comment=Contains removed files"
+msgstr "Comment=ທີ່ສຳລັບເກັບແຟ້ມຂອງເຈົ້າທີ່ຕ້ອງການລືບ"
+
 #: kdesktop/kdesktop.desktop:5
 msgid "Name=KDE Desktop"
 msgstr "Name=ພື້ນທີ່ທຳງານ KDE"
@@ -5311,11 +5417,6 @@ msgstr "Comment=ແອບແພັດຖາດທຳງານໂດຍຕົງ�
 #, fuzzy
 msgid "Comment=A panel applet that displays the trashbin"
 msgstr "Comment=แอพเพล็ตควบคุมเครื่องรับวิทยุของคุณ"
-
-#: kicker/applets/trash/trashapplet.desktop:49
-#: kioslave/system/entries/trash.desktop:7
-msgid "Name=Trash"
-msgstr "Name=ຖັງຂີ້ເຫຍື່ອ"
 
 #: kicker/extensions/dockbar/dockbarextension.desktop:3
 msgid "Name=Dock Application Bar"
@@ -8172,15 +8273,6 @@ msgstr "Name=ควบคุมสื่อ"
 #, fuzzy
 msgid "Name=Triple Gears"
 msgstr "Name=ຕົວສະແດງ"
-
-#~ msgid "Name=Autostart"
-#~ msgstr "Name=ເລິ່ມອັດໂນມັດ"
-
-#~ msgid "Name=Templates"
-#~ msgstr "Name=ຕົ້ນແບບ"
-
-#~ msgid "Comment=Contains removed files"
-#~ msgstr "Comment=ທີ່ສຳລັບເກັບແຟ້ມຂອງເຈົ້າທີ່ຕ້ອງການລືບ"
 
 #, fuzzy
 #~ msgid "Name=Konsole Profiles"
@@ -11362,9 +11454,6 @@ msgstr "Name=ຕົວສະແດງ"
 
 #~ msgid "Comment=You are now offline"
 #~ msgstr "Comment=คุณได้ออฟไลน์แล้ว"
-
-#~ msgid "Comment=You have been warned"
-#~ msgstr "Comment=คุณได้รับคำเตือน"
 
 #~ msgid "Comment=You have received a message"
 #~ msgstr "Comment=คุณได้รับจดหมายแล้ว"
