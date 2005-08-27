@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2005-02-08 01:19+0100\n"
+"POT-Creation-Date: 2005-08-27 09:15+0200\n"
 "PO-Revision-Date: 2003-01-13 17:04+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "running some program (possibly xsetroot) in the script specified in the Setup= "
 "option in kdmrc (usually Xsetup)."
 
-#: kdm-appear.cpp:71 kdm-appear.cpp:73 kdm-users.cpp:83
+#: kdm-appear.cpp:71 kdm-appear.cpp:73 kdm-users.cpp:84
 msgid "<default>"
 msgstr "<ຄ່າປະລິຍາຍ>"
 
@@ -323,11 +323,11 @@ msgstr "ເປິດໃຊ້ຕົວເລືອກການບູດຂອງ
 msgid "Unable to create folder %1"
 msgstr "ບໍ່ສາມາດສ້າງໄດເຣັກທໍຣີ %1 ໄດ້"
 
-#: kdm-users.cpp:87
+#: kdm-users.cpp:88
 msgid "System U&IDs"
 msgstr "ເຊື່ອງຜູ້ໃຊ້ທີ່ມີຫມາຍເລກຕຳ່ກວ່າ"
 
-#: kdm-users.cpp:88
+#: kdm-users.cpp:89
 msgid ""
 "Users with a UID (numerical user identification) outside this range will not be "
 "listed by KDM and this setup dialog. Note that users with the UID 0 (typically "
@@ -335,25 +335,25 @@ msgid ""
 "mode."
 msgstr ""
 
-#: kdm-users.cpp:93
+#: kdm-users.cpp:94
 msgid "Below:"
 msgstr "ດ້ານລຸ່ມ:"
 
-#: kdm-users.cpp:100
+#: kdm-users.cpp:101
 msgid "Above:"
 msgstr "ດ້ານເທິງ:"
 
-#: kdm-users.cpp:108
+#: kdm-users.cpp:109
 #, fuzzy
 msgid "Users"
 msgstr "ທະບງນຜູ້ໃຊ້"
 
-#: kdm-users.cpp:111
+#: kdm-users.cpp:112
 #, fuzzy
 msgid "Show list"
 msgstr "ສະແດງທະບງນຜູ້ໃຊ້"
 
-#: kdm-users.cpp:112
+#: kdm-users.cpp:113
 #, fuzzy
 msgid ""
 "If this option is checked, KDM will show a list of users, so users can click on "
@@ -363,12 +363,12 @@ msgstr ""
 "KDM ຈະສະແດງທະບງນຜູ້ໃຊ້ໃນຫນ້າຕ່າງລັອກອິນຊຶ່ງຜູ້ໃຊ້ພງງແຕ່ຄລິກທີ່ຊື່ ແລະພາບຂອງເຂົາ "
 "ແລະໃສ່ລະຫັດຜ່ານກໍ່ສາມາດເຂົ້າໃຊ້ງານໄດ້"
 
-#: kdm-users.cpp:114
+#: kdm-users.cpp:115
 #, fuzzy
 msgid "Autocompletion"
 msgstr "ລັອກອິນອັດຕະໂນມັດ"
 
-#: kdm-users.cpp:115
+#: kdm-users.cpp:116
 #, fuzzy
 msgid ""
 "If this option is checked, KDM will automatically complete user names while "
@@ -378,11 +378,11 @@ msgstr ""
 "ຈະສະແດງທະບງນຜູ້ໃຊ້ໃນຫນ້າຕ່າງລັອກອິນສະເພາະທີ່ມີໃນຊ່ອງລາຍການ\"ທະບງນຜູ້ໃຊ້ "
 "ທີ່ເລືອກໄວ້\" ເທົ່ານັ້ນ"
 
-#: kdm-users.cpp:117
+#: kdm-users.cpp:118
 msgid "Inverse selection"
 msgstr ""
 
-#: kdm-users.cpp:118
+#: kdm-users.cpp:119
 msgid ""
 "This option specifies how the users for \"Show list\" and \"Autocompletion\" "
 "are selected in the \"Select users and groups\" list: If not checked, select "
@@ -390,11 +390,11 @@ msgid ""
 "checked ones."
 msgstr ""
 
-#: kdm-users.cpp:122
+#: kdm-users.cpp:123
 msgid "Sor&t users"
 msgstr "ລງງລຳດັບທະບງນຜູ້ໃຊ້"
 
-#: kdm-users.cpp:124
+#: kdm-users.cpp:125
 msgid ""
 "If this is checked, KDM will alphabetically sort the user list. Otherwise users "
 "are listed in the order they appear in the password file."
@@ -402,36 +402,36 @@ msgstr ""
 "ຫາກເລືອກຕົວເລືອກນີ້ KDM ຈະສະແດງທະບງນຜູ້ໃຊ້ໃນຫນ້າຕ່າງສະເພາະທີ່ "
 "ມີໃນຊ່ອງລາຍການ\"ທະບງນຜູ້ໃຊ້ທີ່ເລືອກໄວ້\" ເທົ່ານັ້ນ"
 
-#: kdm-users.cpp:128
+#: kdm-users.cpp:129
 #, fuzzy
 msgid "S&elect users and groups:"
 msgstr "ທະບງນຜູ້ໃຊ້ທີ່ເລືອກໄວ້:"
 
-#: kdm-users.cpp:130
+#: kdm-users.cpp:131
 msgid "Selected Users"
 msgstr "ທະບງນຜູ້ໃຊ້ທີ່ເລືອກໄວ້:"
 
-#: kdm-users.cpp:132
+#: kdm-users.cpp:133
 msgid ""
 "KDM will show all checked users. Entries denoted with '@' are user groups. "
 "Checking a group is like checking all users in that group."
 msgstr ""
 
-#: kdm-users.cpp:139
+#: kdm-users.cpp:140
 msgid "Hidden Users"
 msgstr "ເຊື່ອງຜູ້ໃຊ້ທີ່ມີຫມາຍເລກຕຳ່ກວ່າ"
 
-#: kdm-users.cpp:141
+#: kdm-users.cpp:142
 msgid ""
 "KDM will show all non-checked non-system users. Entries denoted with '@' are "
 "user groups. Checking a group is like checking all users in that group."
 msgstr ""
 
-#: kdm-users.cpp:148
+#: kdm-users.cpp:149
 msgid "User Image Source"
 msgstr ""
 
-#: kdm-users.cpp:149
+#: kdm-users.cpp:150
 msgid ""
 "Here you can specify where KDM will obtain the images that represent users. "
 "\"Admin\" represents the global folder; these are the pictures you can set "
@@ -440,39 +440,39 @@ msgid ""
 "are available."
 msgstr ""
 
-#: kdm-users.cpp:155
+#: kdm-users.cpp:156
 msgid "Admin"
 msgstr ""
 
-#: kdm-users.cpp:156
+#: kdm-users.cpp:157
 msgid "Admin, user"
 msgstr ""
 
-#: kdm-users.cpp:157
+#: kdm-users.cpp:158
 msgid "User, admin"
 msgstr ""
 
-#: kdm-users.cpp:158
+#: kdm-users.cpp:159
 msgid "User"
 msgstr "ຜູ້ໃຊ້:"
 
-#: kdm-users.cpp:160
+#: kdm-users.cpp:161
 msgid "User Images"
 msgstr ""
 
-#: kdm-users.cpp:163
+#: kdm-users.cpp:164
 msgid "The user the image below belongs to."
 msgstr ""
 
-#: kdm-users.cpp:166
+#: kdm-users.cpp:167
 msgid "User:"
 msgstr "ຜູ້ໃຊ້:"
 
-#: kdm-users.cpp:174
+#: kdm-users.cpp:175
 msgid "Click or drop an image here"
 msgstr "ຄລິກຫລືລາກແລ້ວວາງພາບໄວ້ທີ່ນີ້"
 
-#: kdm-users.cpp:175
+#: kdm-users.cpp:176
 msgid ""
 "Here you can see the image assigned to the user selected in the combo box "
 "above. Click on the image button to select from a list of images or drag and "
@@ -482,20 +482,20 @@ msgstr ""
 "ຄລິກທີ່ປຸ່ມພາບເພື່່ອປ່ງນໄປເປັນພາບອື່ນໆ ຕາມຕ້ອງການຫລືລາກພາບຈາກໂປຣແກຣມອື່ນ (ເຊັ່ນ "
 "ຈາກຄອນເຄີເຣີ)ມາວາງໄວ້ທີ່ນີ້ກໍ່ໄດ້ເຊັ່ນກັນ "
 
-#: kdm-users.cpp:177
+#: kdm-users.cpp:178
 msgid "Unset"
 msgstr "ບໍ່ົໄດ້ຕິດຕັ້ງ"
 
-#: kdm-users.cpp:178
+#: kdm-users.cpp:179
 msgid ""
 "Click this button to make KDM use the default image for the selected user."
 msgstr ""
 
-#: kdm-users.cpp:275
+#: kdm-users.cpp:276
 msgid "Save image as default image?"
 msgstr "ບັນທຶກພາບເປັນພາບປະລິຍາຍຫລືບໍ່ ?"
 
-#: kdm-users.cpp:283
+#: kdm-users.cpp:284
 #, c-format
 msgid ""
 "There was an error loading the image\n"
@@ -504,7 +504,7 @@ msgstr ""
 "ເກີດຄວາມຜິດພາດໃນການບັນທຶກພາບ:\n"
 "%1"
 
-#: kdm-users.cpp:292
+#: kdm-users.cpp:293
 #, c-format
 msgid ""
 "There was an error saving the image:\n"
@@ -513,7 +513,7 @@ msgstr ""
 "ເກີດຄວາມຜິດພາດໃນການບັນທຶກພາບ:\n"
 "%1"
 
-#: kdm-users.cpp:305
+#: kdm-users.cpp:308
 msgid "Choose Image"
 msgstr "ເລືອກຮູບພາບ"
 
