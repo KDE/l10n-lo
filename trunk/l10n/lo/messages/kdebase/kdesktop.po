@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-09-02 02:35+0200\n"
+"POT-Creation-Date: 2005-09-06 02:36+0200\n"
 "PO-Revision-Date: 2003-01-14 16:27+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -441,7 +441,7 @@ msgstr "ปิดคอมพิวเตอร์โดยไม่ต้อง
 msgid "Reboot without Confirmation"
 msgstr "เริ่มการทำงานคอมพิวเตอร์ใหม่โดยไม่ต้องถามยืนยัน"
 
-#: minicli.cpp:93 minicli.cpp:645
+#: minicli.cpp:93 minicli.cpp:637
 msgid "&Options >>"
 msgstr "ตัวเลือก >>"
 
@@ -449,23 +449,23 @@ msgstr "ตัวเลือก >>"
 msgid "&Run"
 msgstr "ประมวลผล"
 
-#: minicli.cpp:400
+#: minicli.cpp:392
 msgid "<qt>The user <b>%1</b> does not exist on this system.</qt>"
 msgstr "<qt>ยังไม่มีบัญชีผู้ใช้ <b>%1</b> ในระบบ</qt>"
 
-#: minicli.cpp:410
+#: minicli.cpp:402
 #, fuzzy
 msgid ""
 "You do not exist.\n"
 msgstr ""
 "ยังไม่มีบัญชีผู้ใช้ของคุณ !\n"
 
-#: minicli.cpp:435
+#: minicli.cpp:427
 #, fuzzy
 msgid "Incorrect password; please try again."
 msgstr "รหัสผ่านผิดพลาด ! โปรดลองอีกครั้ง"
 
-#: minicli.cpp:544
+#: minicli.cpp:536
 #, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
@@ -474,7 +474,7 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "คุณไม่ได้รับอนุญาตให้เรียกทำงานคำสั่งนี้ !"
 
-#: minicli.cpp:572
+#: minicli.cpp:564
 #, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
@@ -483,7 +483,7 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "ไม่สามารถเรียกทำงานคำสั่งที่กำหนดได้ !"
 
-#: minicli.cpp:584
+#: minicli.cpp:576
 #, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
@@ -492,11 +492,11 @@ msgstr ""
 "<center><b>%1</b></center>\n"
 "ไม่มีคำสั่งที่ระบุ !"
 
-#: minicli.cpp:633
+#: minicli.cpp:625
 msgid "&Options <<"
 msgstr "ตัวเลือก <<"
 
-#: minicli.cpp:838
+#: minicli.cpp:830
 msgid ""
 "Running a realtime application can be very dangerous. If the application "
 "misbehaves, the system might hang unrecoverably.\n"
@@ -507,22 +507,22 @@ msgstr ""
 "และอาจจะไม่สามารถกู้ความเสียหายได้\n"
 "คุณแน่ใจที่จะทำต่อไปหรือไม่ ?"
 
-#: minicli.cpp:841
+#: minicli.cpp:833
 msgid "Warning - Run Command"
 msgstr "คำเตือน - ประมวลผลคำสั่ง"
 
-#: minicli.cpp:841
+#: minicli.cpp:833
 #, fuzzy
 msgid "&Run Realtime"
 msgstr "เรียลไทม์"
 
-#. i18n: file minicli_ui.ui line 169
+#. i18n: file minicli_ui.ui line 172
 #: rc.cpp:6
 #, no-c-format
 msgid "Run with realtime &scheduling"
 msgstr ""
 
-#. i18n: file minicli_ui.ui line 177
+#. i18n: file minicli_ui.ui line 180
 #: rc.cpp:9
 #, fuzzy, no-c-format
 msgid ""
@@ -552,37 +552,37 @@ msgstr ""
 "โดยอาจจะทำให้ระบบค้างได้ คุณจะต้องใช้รหัสผ่านของผู้ดูแลระบบ "
 "เพื่อเลือกการจัดลำดับแบบนี้"
 
-#. i18n: file minicli_ui.ui line 196
+#. i18n: file minicli_ui.ui line 199
 #: rc.cpp:17
 #, fuzzy, no-c-format
 msgid "User&name:"
 msgstr "ชื่อผู้ใช้:"
 
-#. i18n: file minicli_ui.ui line 202
+#. i18n: file minicli_ui.ui line 205
 #: rc.cpp:20 rc.cpp:50
 #, fuzzy, no-c-format
 msgid "Enter the user you want to run the application as here."
 msgstr "เติมชื่อผู้ใช้ที่คุณต้องการใช้สิทธิ์ในการทำงานแอพพลเคชัน"
 
-#. i18n: file minicli_ui.ui line 221
+#. i18n: file minicli_ui.ui line 224
 #: rc.cpp:23 rc.cpp:29
 #, fuzzy, no-c-format
 msgid "Enter the password here for the user you specified above."
 msgstr "เติมรหัสผ่านที่ร้องขอที่นี่"
 
-#. i18n: file minicli_ui.ui line 240
+#. i18n: file minicli_ui.ui line 243
 #: rc.cpp:26
 #, no-c-format
 msgid "Pass&word:"
 msgstr "รหัสผ่าน:"
 
-#. i18n: file minicli_ui.ui line 254
+#. i18n: file minicli_ui.ui line 257
 #: rc.cpp:32
 #, fuzzy, no-c-format
 msgid "Run in &terminal window"
 msgstr "ทำงานในเทอร์มินัล"
 
-#. i18n: file minicli_ui.ui line 257
+#. i18n: file minicli_ui.ui line 260
 #: rc.cpp:35
 #, no-c-format
 msgid ""
@@ -592,13 +592,13 @@ msgstr ""
 "เลือกตัวเลือกนี้ หากแอพพลิเคชันที่ต้องการให้ทำงาน ทำงานในโหมดข้อความ จากนั้น "
 "แอพพลิเคชันจะทำงานในหน้าต่างจำลองเทอร์มินัล"
 
-#. i18n: file minicli_ui.ui line 276
+#. i18n: file minicli_ui.ui line 279
 #: rc.cpp:38
 #, fuzzy, no-c-format
 msgid "&Priority:"
 msgstr "ระดับความสำคัญ:"
 
-#. i18n: file minicli_ui.ui line 282
+#. i18n: file minicli_ui.ui line 285
 #: rc.cpp:41 rc.cpp:56 rc.cpp:62 rc.cpp:65
 #, fuzzy, no-c-format
 msgid ""
@@ -610,13 +610,13 @@ msgstr ""
 "ตรงกลางคือค่าปริยายของระดับความสำคัญ คุณจะต้องใช้รหัสผ่านของผู้ดูแลระบบ "
 "เพื่อปรับค่าความสำคัญที่สูงกว่าค่าปริยาย"
 
-#. i18n: file minicli_ui.ui line 309
+#. i18n: file minicli_ui.ui line 312
 #: rc.cpp:44
 #, fuzzy, no-c-format
 msgid "Run with a &different priority"
 msgstr "สั่งทำงานด้วยระดับความสำคัญอื่น"
 
-#. i18n: file minicli_ui.ui line 312
+#. i18n: file minicli_ui.ui line 315
 #: rc.cpp:47
 #, no-c-format
 msgid ""
@@ -628,25 +628,25 @@ msgstr ""
 "ระดับความสำคัญที่สูง จะทำให้ระบบปฏิบัติการ "
 "ให้เวลาในการประมวลผลกับแอพพลิเคชันของคุณมากกว่า"
 
-#. i18n: file minicli_ui.ui line 353
+#. i18n: file minicli_ui.ui line 356
 #: rc.cpp:53
 #, no-c-format
 msgid "Low"
 msgstr ""
 
-#. i18n: file minicli_ui.ui line 367
+#. i18n: file minicli_ui.ui line 370
 #: rc.cpp:59
 #, no-c-format
 msgid "High"
 msgstr "สูง"
 
-#. i18n: file minicli_ui.ui line 408
+#. i18n: file minicli_ui.ui line 411
 #: rc.cpp:68
 #, no-c-format
 msgid "Run as a different &user"
 msgstr "สั่งทำงานโดยใช้สิทธิ์ของผู้ใช้อื่น"
 
-#. i18n: file minicli_ui.ui line 411
+#. i18n: file minicli_ui.ui line 414
 #: rc.cpp:71
 #, no-c-format
 msgid ""
@@ -659,13 +659,13 @@ msgstr ""
 "จะถูกนำไปใช้ในการพิจารณาถึงสิทธิ์ต่างๆ ที่สามารถใช้ได้ "
 "และต้องการรหัสผ่านของผู้ใช้นี้ สำหรับตัวเลือกนี้"
 
-#. i18n: file minicli_ui.ui line 459
+#. i18n: file minicli_ui.ui line 470
 #: rc.cpp:74
 #, fuzzy, no-c-format
 msgid "Com&mand:"
 msgstr "คำสั่ง:"
 
-#. i18n: file minicli_ui.ui line 465
+#. i18n: file minicli_ui.ui line 476
 #: rc.cpp:77 rc.cpp:81
 #, fuzzy, no-c-format
 msgid ""
@@ -676,7 +676,7 @@ msgstr ""
 "เติมคำสั่งที่คุณต้องการประมวลผล หรือที่อยู่ของทรัพยากรที่คุณต้องการเปิด "
 "ซึ่งอาจเป็นรูปแบบเหมือน URL เช่น \"www.kde.org\" หรือแบบภายใน เช่น \"~/.kderc\""
 
-#. i18n: file minicli_ui.ui line 508
+#. i18n: file minicli_ui.ui line 533
 #: rc.cpp:84
 #, fuzzy, no-c-format
 msgid ""
