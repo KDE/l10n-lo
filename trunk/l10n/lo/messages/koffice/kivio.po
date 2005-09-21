@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-09-10 22:16+0200\n"
+"POT-Creation-Date: 2005-09-21 02:59+0200\n"
 "PO-Revision-Date: 2003-01-18 16:04+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -60,53 +60,53 @@ msgstr "ສີເສັ້ນນຳລອ່ງ"
 msgid "F&ill style:"
 msgstr ""
 
-#: kiviopart/ui/kivio_layer_panel.cpp:51
+#: kiviopart/ui/kivio_layer_panel.cpp:69
 #, fuzzy
 msgid "Editable"
 msgstr "ແກ້ໄຂໄດ້"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:52
+#: kiviopart/ui/kivio_layer_panel.cpp:70
 #, fuzzy
 msgid "Connect"
 msgstr "ເຊື່ອມຕໍ່"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:53
+#: kiviopart/ui/kivio_layer_panel.cpp:71
 #, fuzzy
 msgid "Name"
 msgstr "ຊື່"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:57
+#: kiviopart/ui/kivio_layer_panel.cpp:75
 msgid "New Layer"
 msgstr "ເລເຢີໃຫມ่"
 
-#: kiviopart/kivio_page.cpp:1108 kiviopart/ui/kivio_layer_panel.cpp:58
+#: kiviopart/kivio_page.cpp:1108 kiviopart/ui/kivio_layer_panel.cpp:76
 msgid "Remove Layer"
 msgstr "ລືບເລເຢີ"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:59
-#: kiviopart/ui/kivio_layer_panel.cpp:136
-#: kiviopart/ui/kivio_layer_panel.cpp:141
+#: kiviopart/ui/kivio_layer_panel.cpp:77
+#: kiviopart/ui/kivio_layer_panel.cpp:155
+#: kiviopart/ui/kivio_layer_panel.cpp:160
 msgid "Rename Layer"
 msgstr "ປ່ຽນຊື່ເລເຢີ"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:60
+#: kiviopart/ui/kivio_layer_panel.cpp:78
 msgid "Move Layer Up"
 msgstr "ຍາ້ຍເລເຢີຂື້ນ"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:61
+#: kiviopart/ui/kivio_layer_panel.cpp:79
 msgid "Move Layer Down"
 msgstr "ຍາ້ຍເລເຢີລົງ"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:98
+#: kiviopart/ui/kivio_layer_panel.cpp:117
 #, c-format
 msgid "Layer %1"
 msgstr "ເລເຢີ%1"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:104
+#: kiviopart/ui/kivio_layer_panel.cpp:123
 msgid "Add Layer"
 msgstr "ຕື່ມເລເຢີ"
 
-#: kiviopart/ui/kivio_layer_panel.cpp:137
+#: kiviopart/ui/kivio_layer_panel.cpp:156
 msgid "Layer name:"
 msgstr "ຊື່ເລເຢີ"
 
@@ -264,27 +264,13 @@ msgstr ""
 msgid "Format: %1, Width: %2 %4, Height: %3 %5"
 msgstr ""
 
-#: kiviopart/ui/kivio_birdeye_panel.cpp:40
+#: kiviopart/ui/kivio_birdeye_panel.cpp:60
 msgid "Zoom In"
 msgstr "ຂະຫຍາຍ"
 
-#: kiviopart/ui/kivio_birdeye_panel.cpp:41
+#: kiviopart/ui/kivio_birdeye_panel.cpp:61
 msgid "Zoom Out"
 msgstr "ຍໍ້"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:42
-msgid "Show Page Border"
-msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:44
-#, fuzzy
-msgid "Hide Page Border"
-msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
-
-#: kiviopart/ui/kivio_birdeye_panel.cpp:46
-#: kiviopart/ui/kivio_birdeye_panel.cpp:47
-msgid "Autoresize"
-msgstr "ປັບຂະຫນາດອັດຕະໂນມັດ"
 
 #. i18n: file ./kiviopart/kivio.rc line 85
 #: kiviopart/ui/kiviotextformatdlg.cpp:35 rc.cpp:216
@@ -395,300 +381,310 @@ msgid ""
 "Page %1/%2"
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:159 kiviopart/kivio_view.cpp:1824
+#: kiviopart/kivio_view.cpp:159 kiviopart/kivio_view.cpp:1781
 msgid "X: %1 %3 Y: %2 %4"
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:316
+#: kiviopart/kivio_view.cpp:321
 msgid "Geometry"
 msgstr "ຄ່າເລຂາຄະນິດ"
 
-#: kiviopart/kivio_view.cpp:330
+#: kiviopart/kivio_view.cpp:335
 msgid "Bird's Eye"
 msgstr "ຈຸດເບີ່ງຈາກມູມສູງ"
 
-#: kiviopart/kivio_view.cpp:337
+#: kiviopart/kivio_view.cpp:342
 msgid "Layers"
 msgstr "ເລເຢີ"
 
 #. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 28
-#: kiviopart/kivio_view.cpp:344 rc.cpp:68
+#: kiviopart/kivio_view.cpp:349 rc.cpp:68
 #, no-c-format
 msgid "Protection"
 msgstr "ການປ້ອງກັນ"
 
-#: kiviopart/kivio_view.cpp:351 kiviopart/kivio_view.cpp:361
+#: kiviopart/kivio_view.cpp:356 kiviopart/kivio_view.cpp:366
 msgid "Add Stencil Set"
 msgstr "ຕື່ມຊຸດລວດລາຍ"
 
-#: kiviopart/kivio_view.cpp:366
+#: kiviopart/kivio_view.cpp:371
 msgid "Align && Distribute..."
 msgstr "ຈັດລຽງ&& ແລະແຍກສວ່ນ..."
 
-#: kiviopart/kivio_view.cpp:377
+#: kiviopart/kivio_view.cpp:382
 #, fuzzy
 msgid "Group Selection"
 msgstr "ລາ້ງ&ການເລືອກ"
 
-#: kiviopart/kivio_view.cpp:378
+#: kiviopart/kivio_view.cpp:383
 msgid "Group selected objects into a single stencil"
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:379
+#: kiviopart/kivio_view.cpp:384
 msgid "Ungroup"
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:380
+#: kiviopart/kivio_view.cpp:385
 #, fuzzy
 msgid "Break up a selected group stencil"
 msgstr "ລວມກຸ້ມລວດລາຍທີ່ເລື່ອກໄວ້"
 
-#: kiviopart/kivio_view.cpp:382
+#: kiviopart/kivio_view.cpp:387
 msgid "Bring to Front"
 msgstr "ນຳມາໄວ້ທາງຫນ້າ"
 
-#: kiviopart/kivio_view.cpp:383
+#: kiviopart/kivio_view.cpp:388
 msgid "Send to Back"
 msgstr "ສົ່ງໄປຢູ່ທາງຫັຼງ"
 
-#: kiviopart/kivio_view.cpp:385
+#: kiviopart/kivio_view.cpp:390
 #, fuzzy
 msgid "&Text..."
 msgstr "ຂໍ້ຄວາມ"
 
-#: kiviopart/kivio_view.cpp:388
+#: kiviopart/kivio_view.cpp:393
 #, fuzzy
 msgid "&Stencils && Connectors..."
 msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
 
-#: kiviopart/kivio_view.cpp:391
+#: kiviopart/kivio_view.cpp:396
 #, fuzzy
 msgid "&Arrowheads..."
 msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
 
-#: kiviopart/kivio_view.cpp:393 kiviopart/kivio_view.cpp:498
+#: kiviopart/kivio_view.cpp:398 kiviopart/kivio_view.cpp:503
 msgid ""
 "Arrowheads allow you to add an arrow to the beginning and/or end of a line."
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:396
+#: kiviopart/kivio_view.cpp:401
 #, fuzzy
 msgid "Line Color"
 msgstr "ສະກີດ"
 
-#: kiviopart/kivio_view.cpp:397
+#: kiviopart/kivio_view.cpp:402
 msgid ""
 "The line color allows you to choose a color for the lines of the stencils."
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:399
+#: kiviopart/kivio_view.cpp:404
 #, fuzzy
 msgid "Fill Color"
 msgstr "ສີເສັ້ນນຳລອ່ງ"
 
-#: kiviopart/kivio_view.cpp:400
+#: kiviopart/kivio_view.cpp:405
 msgid ""
 "You can choose a color for the background of a stencil by using this button."
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:404
+#: kiviopart/kivio_view.cpp:409
 #, fuzzy
 msgid "Font Family"
 msgstr "ຕັ້ງຄ່າຕະກຸນຕົວອັກສອນ"
 
-#: kiviopart/kivio_view.cpp:412
+#: kiviopart/kivio_view.cpp:417
 #, fuzzy
 msgid "Text Color"
 msgstr "ຕັ້ງຄ່າສີຂໍ້ຄວາມ"
 
-#: kiviopart/kivio_view.cpp:415
+#: kiviopart/kivio_view.cpp:420
 msgid "Toggle Bold Text"
 msgstr "ເຮັດຂໍ້ຄວາມເປັນໂຕຫນ້າ"
 
-#: kiviopart/kivio_view.cpp:418
+#: kiviopart/kivio_view.cpp:423
 msgid "Toggle Italics Text"
 msgstr "ເຮັດຂໍ້ຄວາມເປັນໂຕ ອຽງ"
 
-#: kiviopart/kivio_view.cpp:421
+#: kiviopart/kivio_view.cpp:426
 msgid "Toggle Underline Text"
 msgstr "ຂີດເສັ້ນໃຕ້ຂໍ້ຄວາມ"
 
-#: kiviopart/kivio_view.cpp:424
+#: kiviopart/kivio_view.cpp:429
 #, fuzzy
 msgid "Align &Left"
 msgstr "ດາ້ນ&ຊາ້ຍ"
 
-#: kiviopart/kivio_view.cpp:428
+#: kiviopart/kivio_view.cpp:433
 #, fuzzy
 msgid "Align &Center"
 msgstr "ເຄີ່ງ&ກາງ"
 
-#: kiviopart/kivio_view.cpp:433
+#: kiviopart/kivio_view.cpp:438
 #, fuzzy
 msgid "Align &Right"
 msgstr "ດາ້ນ&ຂວາ"
 
-#: kiviopart/kivio_view.cpp:437
+#: kiviopart/kivio_view.cpp:442
 msgid "Superscript"
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:441
+#: kiviopart/kivio_view.cpp:446
 msgid "Subscript"
 msgstr ""
 
-#: kiviopart/kivio_view.cpp:446
+#: kiviopart/kivio_view.cpp:451
 #, fuzzy
 msgid "Line Width"
 msgstr "ຕັ້ງຄ່າຄວາມກ້ວາງເສັ້ນ"
 
-#: kiviopart/kivio_view.cpp:451
+#: kiviopart/kivio_view.cpp:456
 #, fuzzy
 msgid "Line Style"
 msgstr "ສະກີດ"
 
-#: kiviopart/kivio_view.cpp:454
+#: kiviopart/kivio_view.cpp:459
 #, fuzzy
 msgid "Page Layout..."
 msgstr "ການຈັດວາງຫນ້າເຈ້ຍ.."
 
-#: kiviopart/kivio_view.cpp:455 kiviopart/kivio_view.cpp:686
+#: kiviopart/kivio_view.cpp:460 kiviopart/kivio_view.cpp:691
 msgid "Insert Page"
 msgstr "ແທກຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:456 kiviopart/kivio_view.cpp:770
-#: kiviopart/kivio_view.cpp:774 kiviopart/kivio_view.cpp:778
+#: kiviopart/kivio_view.cpp:461 kiviopart/kivio_view.cpp:775
+#: kiviopart/kivio_view.cpp:779 kiviopart/kivio_view.cpp:783
 msgid "Remove Page"
 msgstr "ລືບຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:458
+#: kiviopart/kivio_view.cpp:463
 msgid "Rename Page..."
 msgstr "ປ່ຽນຊື່ຫນ້າ"
 
-#: kiviopart/kivio_view.cpp:460
+#: kiviopart/kivio_view.cpp:465
 msgid "Show Page..."
 msgstr "ສະແດງຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:461 kiviopart/kivio_view.cpp:708
+#: kiviopart/kivio_view.cpp:466 kiviopart/kivio_view.cpp:713
 msgid "Hide Page"
 msgstr "ເຊື່ອງຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:462
+#: kiviopart/kivio_view.cpp:467
 msgid "Export Page..."
 msgstr "ສົ່ງອອກຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:464
+#: kiviopart/kivio_view.cpp:469
 msgid "Show Page Margins"
 msgstr "ສະແດງຮີມເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:467
+#: kiviopart/kivio_view.cpp:472
 #, fuzzy
 msgid "Hide Page Margins"
 msgstr "ສະແດງຮີມເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:470
+#: kiviopart/kivio_view.cpp:475
 msgid "Show Rulers"
 msgstr "ສະແດງໄ້້ມ້ບັນທັດ"
 
-#: kiviopart/kivio_view.cpp:473
+#: kiviopart/kivio_view.cpp:478
 #, fuzzy
 msgid "Hide Rulers"
 msgstr "ສະແດງໄ້້ມ້ບັນທັດ"
 
-#: kiviopart/kivio_view.cpp:477
+#: kiviopart/kivio_view.cpp:482
 msgid "Show Grid"
 msgstr "ສະແດງກີດ"
 
-#: kiviopart/kivio_view.cpp:480
+#: kiviopart/kivio_view.cpp:485
 #, fuzzy
 msgid "Hide Grid"
 msgstr "ກີດເທີງຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:483
+#: kiviopart/kivio_view.cpp:488
 msgid "Snap Grid"
 msgstr "ຍ້າຍໄປບ່ອນກີດ"
 
-#: kiviopart/kivio_view.cpp:487
+#: kiviopart/kivio_view.cpp:492
 msgid "Show Guides"
 msgstr "ສະແດງເສັ້ນນຳຮອ່ງ"
 
-#: kiviopart/kivio_view.cpp:490
+#: kiviopart/kivio_view.cpp:495
 #, fuzzy
 msgid "Hide Guides"
 msgstr "ເສັ້ນນຳລອ່ງທັງຫມົດ"
 
-#: kiviopart/kivio_view.cpp:493
+#: kiviopart/kivio_view.cpp:498
 msgid "Snap Guides"
 msgstr "ຍ້າຍໄປບອ່ນເສັ້ນນຳຮອ່ງ"
 
-#: kiviopart/kivio_view.cpp:497
+#: kiviopart/kivio_view.cpp:502
 #, fuzzy
 msgid "Arrowheads"
 msgstr "ປ່ຽນລູກສອນສິ້ນສຸດ"
 
-#: kiviopart/kivio_view.cpp:505
+#: kiviopart/kivio_view.cpp:510
 #, fuzzy
 msgid "Install Stencil Set..."
 msgstr "ແກ້ໄຂລວດລາຍຂໍ້ຄວາມ"
 
-#: kiviopart/kivio_view.cpp:601 kiviopart/kivio_view.cpp:626
+#: kiviopart/kivio_view.cpp:606 kiviopart/kivio_view.cpp:631
 msgid "Rename Page"
 msgstr "ປ່ຽນຊື່ຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:602
+#: kiviopart/kivio_view.cpp:607
 msgid "Enter page name:"
 msgstr "ຕື່ມຊື່ຫນ້າ"
 
-#: kiviopart/kivio_view.cpp:610
+#: kiviopart/kivio_view.cpp:615
 msgid "Page name cannot be empty."
 msgstr "ຊື່ຫນ້າບໍ່ສາມາດທ່ວງໄວ້ໄດ້"
 
-#: kiviopart/kivio_view.cpp:611 kiviopart/kivio_view.cpp:622
+#: kiviopart/kivio_view.cpp:616 kiviopart/kivio_view.cpp:627
 msgid "Change Page Name"
 msgstr "ປ່ຽນຊື່ຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:621
+#: kiviopart/kivio_view.cpp:626
 msgid "This name is already used."
 msgstr "ມີຊື່ນີ້ຢູ່ແລ້ວ"
 
-#: kiviopart/kivio_view.cpp:699
+#: kiviopart/kivio_view.cpp:704
 msgid "You cannot hide the last visible page."
 msgstr "ເຈົ້າບໍ່ສາມາດເຊອື່ງຫນ້າທີເບີ່ງເຫັນໄດ້ລ່າສຸດໄດ້"
 
-#: kiviopart/kivio_view.cpp:760
+#: kiviopart/kivio_view.cpp:765
 msgid "Change Page Layout"
 msgstr "ປ່ຽນການຈັດວາງຫນ້າເຈ້ຍ"
 
-#: kiviopart/kivio_view.cpp:770
+#: kiviopart/kivio_view.cpp:775
 msgid "You cannot delete the only page of the document."
 msgstr "ເຈົ້າບໍ່ສາມາດລືບຫນ້າເຈ້ຍທີ່ມີພຽງຫນ້າດ່ຽວໄດ້"
 
-#: kiviopart/kivio_view.cpp:774
+#: kiviopart/kivio_view.cpp:779
 msgid ""
 "You are going to remove the active page.\n"
 "Do you want to continue?"
 msgstr ""
 "ເຈົ້າກຳລັງຈະເຮັດການລືບຫນ້າເຈ້ຍທີ່ກຳລັງເຮັດວງກຢູ່/nຕອ້ງການເຮັດຕໍ່ໄປແມ່ນຫືຼບໍ່?"
 
-#: kiviopart/kivio_view.cpp:2167
+#: kiviopart/kivio_view.cpp:933 kiviopart/kivio_view.cpp:945
+#, fuzzy
+msgid "Change Stroke Color"
+msgstr "ປ່ຽນສີຂໍ້ຄວາມ"
+
+#: kiviopart/kivio_view.cpp:1604 plugins/kivioselecttool/tool_select.cpp:268
+#: plugins/kivioselecttool/tool_select.cpp:273
+msgid "Move Stencil"
+msgstr "ຍາ້ຍລວດລາຍ"
+
+#: kiviopart/kivio_view.cpp:2124
 #, fuzzy
 msgid "Page %1/%2"
 msgstr "ຫນ້າ%1"
 
-#: kiviopart/kivio_doc.cpp:394
+#: kiviopart/kivio_doc.cpp:402
 msgid "Invalid OASIS document. No office:body tag found."
 msgstr ""
 
-#: kiviopart/kivio_doc.cpp:409
+#: kiviopart/kivio_doc.cpp:417
 msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
 msgstr ""
 
-#: kiviopart/kivio_doc.cpp:411
+#: kiviopart/kivio_doc.cpp:419
 msgid ""
 "This document is not a drawing, but %1. Please try opening it with the "
 "appropriate application."
 msgstr ""
 
-#: kiviopart/kivio_doc.cpp:607
+#: kiviopart/kivio_doc.cpp:615
 #, c-format
 msgid "Page%1"
 msgstr "ຫນ້າ%1"
@@ -696,6 +692,24 @@ msgstr "ຫນ້າ%1"
 #: kiviopart/main.cpp:30
 msgid "File to open"
 msgstr "ແຟ້ມທີ່ຈະເປີດໃຊ້"
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:19
+msgid "X:"
+msgstr ""
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:20
+msgid "Y:"
+msgstr ""
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:21
+#, fuzzy
+msgid "Width:"
+msgstr "&ກວາ້ງ"
+
+#: kiviopart/kivio_stencil_geometry_panel.cpp:22
+#, fuzzy
+msgid "Height:"
+msgstr "&ຂວາ"
 
 #: kiviopart/kiviosdk/kivio_layer.cpp:48
 msgid "Untitled Layer"
@@ -919,67 +933,73 @@ msgstr "ລາ້ງ&ການເລືອກ"
 msgid "&Add to Document"
 msgstr ""
 
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 43
-#: rc.cpp:71
-#, no-c-format
-msgid "&X position"
-msgstr "ຕຳແຫນ່ງ&x"
-
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 46
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 42
 #: rc.cpp:74
-#, no-c-format
-msgid "Toggles the ability to protect the x position of the selected stencils"
-msgstr "ເປີດປີດການປ້ອງກັນການປ່ຽນຕຳແຫນ່ງxຂອງລວດລາຍທີ່ເລືອກ"
-
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 62
-#: rc.cpp:77
-#, no-c-format
-msgid "&Y position"
-msgstr "&Yຕຳແຫນ່ງ"
-
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 65
-#: rc.cpp:80
-#, no-c-format
-msgid "Toggles the ability to protect the y position of the selected stencils"
-msgstr "ເປີດປີດການປອ້ງກັນການປ່ຽນຕຳແຫນ່ງ y ຂອງລວດລາຍທີ່ເລືອກ"
-
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 84
-#: rc.cpp:86
-#, no-c-format
-msgid "Toggles the ability to change the height of the selected stencils"
-msgstr "ເປີດປີດການໃຫ້ປ່ຽນຄາ່ຄວາມສູງຂອງຮູບລວດລາຍທີ່ເລືອກ"
-
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 103
-#: rc.cpp:92
 #, no-c-format
 msgid "Toggles the ability to change the width of the selected stencils"
 msgstr "ເປີດປີດການໃຫ້ປ່ຽນຄາ່ຄວາມກວາ້ງຂອງຮູບລວດລາຍທີ່ເລືອກ"
 
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 119
-#: rc.cpp:95
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 50
+#: rc.cpp:77
+#, fuzzy, no-c-format
+msgid "Hei&ght"
+msgstr "ຂະຫຍາຍໃຫ້ພໍດີກັບຄວາມສູງ"
+
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 53
+#: rc.cpp:80
+#, no-c-format
+msgid "Toggles the ability to change the height of the selected stencils"
+msgstr "ເປີດປີດການໃຫ້ປ່ຽນຄາ່ຄວາມສູງຂອງຮູບລວດລາຍທີ່ເລືອກ"
+
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 61
+#: rc.cpp:83
 #, no-c-format
 msgid "&Aspect ratio"
 msgstr "ອັດ&ຕາສວ່ນຮູບຮາ່ງ"
 
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 122
-#: rc.cpp:98
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 64
+#: rc.cpp:86
 #, no-c-format
 msgid "Toggles the ability to change the aspect ratio of the selected stencils"
 msgstr "ເປີດປີດການອະນຸຍາດໃຫ້ປ່ຽນອັດຕາສວ່ນລວດລາຍທີ່ເລືອກ"
 
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 138
-#: rc.cpp:101
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 72
+#: rc.cpp:89
 #, no-c-format
-msgid "&Deletion"
+msgid "&X position"
+msgstr "ຕຳແຫນ່ງ&x"
+
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 75
+#: rc.cpp:92
+#, no-c-format
+msgid "Toggles the ability to protect the x position of the selected stencils"
+msgstr "ເປີດປີດການປ້ອງກັນການປ່ຽນຕຳແຫນ່ງxຂອງລວດລາຍທີ່ເລືອກ"
+
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 83
+#: rc.cpp:95
+#, no-c-format
+msgid "&Y position"
+msgstr "&Yຕຳແຫນ່ງ"
+
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 86
+#: rc.cpp:98
+#, no-c-format
+msgid "Toggles the ability to protect the y position of the selected stencils"
+msgstr "ເປີດປີດການປອ້ງກັນການປ່ຽນຕຳແຫນ່ງ y ຂອງລວດລາຍທີ່ເລືອກ"
+
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 94
+#: rc.cpp:101
+#, fuzzy, no-c-format
+msgid "Deletio&n"
 msgstr "ຈາກການ&ລືບ"
 
-#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 141
+#. i18n: file ./kiviopart/ui/kivio_protection_panel_base.ui line 97
 #: rc.cpp:104
 #, no-c-format
 msgid "Toggles the ability to delete the selected stencils"
 msgstr "ເປີດປີດການປອ້ງກັນການລືບຮູບລວດລາຍທີ່ເລືອກ"
 
-#. i18n: file ./kiviopart/ui/kivio_birdeye_panel_base.ui line 94
+#. i18n: file ./kiviopart/ui/kivio_birdeye_panel_base.ui line 92
 #: rc.cpp:107
 #, no-c-format
 msgid "%"
@@ -5888,18 +5908,17 @@ msgstr "ແກ້ໄຂລວດລາຍຂໍ້ຄວາມ"
 msgid "Change Stencil Text"
 msgstr "ປ່ຽນລວດລາຍຂໍ້ຄວາມ"
 
-#: plugins/kivioconnectortool/tool_connector.cpp:58
 #: plugins/kiviosmlconnector/tool_connector.cpp:47
 #, fuzzy
 msgid "Polyline Connector"
 msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
 
-#: plugins/kivioconnectortool/tool_connector.cpp:51
+#: plugins/kivioconnectortool/tool_connector.cpp:52
 #, fuzzy
-msgid "Straight Connector"
-msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
+msgid "Connector"
+msgstr "ເຊື່ອມຕໍ່"
 
-#: plugins/kivioconnectortool/tool_connector.cpp:346
+#: plugins/kivioconnectortool/tool_connector.cpp:230
 msgid "Left mouse button to start drawing, right to end drawing."
 msgstr ""
 
@@ -5973,6 +5992,20 @@ msgstr ""
 msgid "Development and additional stencil sets."
 msgstr ""
 
+#~ msgid "Show Page Border"
+#~ msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
+
+#, fuzzy
+#~ msgid "Hide Page Border"
+#~ msgstr "ສະແດງຂອບຫນ້າເຈ້ຍ"
+
+#~ msgid "Autoresize"
+#~ msgstr "ປັບຂະຫນາດອັດຕະໂນມັດ"
+
+#, fuzzy
+#~ msgid "Straight Connector"
+#~ msgstr "ແກ້ໄຂລວດລາຍຈຸດເຊືອມຕໍ່"
+
 #~ msgid "Stencil Geometry Panel"
 #~ msgstr "ຄາ່ເລຂາຄະນິດຂອງລວດລາຍ"
 
@@ -5996,9 +6029,6 @@ msgstr ""
 
 #~ msgid "Change Bg Color"
 #~ msgstr "ປ່ຽນສີພື້ນຫັຼງ"
-
-#~ msgid "Change Text Color"
-#~ msgstr "ປ່ຽນສີຂໍ້ຄວາມ"
 
 #~ msgid "Change Line Width"
 #~ msgstr "ປ່ຽນຄວາມກວາ້ງເສັ້ນ"
@@ -6033,9 +6063,6 @@ msgstr ""
 
 #~ msgid "Resize Stencil"
 #~ msgstr "ປັບຂະຫນາດລວດລາຍ"
-
-#~ msgid "Move Stencil"
-#~ msgstr "ຍາ້ຍລວດລາຍ"
 
 #, fuzzy
 #~ msgid "Change Stencil Rotation"
@@ -6390,9 +6417,6 @@ msgstr ""
 
 #~ msgid "Show &rules"
 #~ msgstr "ສະແດງໄມ້ບັນ&ທັດ"
-
-#~ msgid "&Right:"
-#~ msgstr "&ຂວາ"
 
 #~ msgid "&Format:"
 #~ msgstr "&ຊະນີດເຈ້ຍ"

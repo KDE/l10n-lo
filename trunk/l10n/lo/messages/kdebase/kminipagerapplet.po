@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-09-07 02:41+0200\n"
+"POT-Creation-Date: 2005-09-21 02:57+0200\n"
 "PO-Revision-Date: 2003-01-11 15:55+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -110,10 +110,13 @@ msgid "&Configure Desktops..."
 msgstr "&ປັບແຕ່ງພື້ນທີ່ທຳງານສມງນ..."
 
 #: pagerbutton.cpp:678
-msgid "and %1 others"
+#, c-format
+msgid ""
+"_n: and 1 other\n"
+"and %n others"
 msgstr ""
 
-#: pagerbutton.cpp:687
+#: pagerbutton.cpp:686
 #, c-format
 msgid ""
 "_n: One window:\n"
