@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-09-26 02:35+0200\n"
+"POT-Creation-Date: 2005-09-30 02:47+0200\n"
 "PO-Revision-Date: 2003-01-18 11:40+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -591,9 +591,9 @@ msgstr ""
 msgid "PostScript level 3"
 msgstr ""
 
-#: kchart/png/pngexport.cpp:42 kchart/svg/svgexport.cc:42
+#: kchart/png/pngexport.cpp:42 kchart/svg/svgexport.cc:58
 #: kformula/latex/latexexport.cc:57 kformula/mathml/mathmlexport.cc:57
-#: kformula/png/pngexport.cc:57
+#: kformula/png/pngexport.cc:57 kformula/svg/svgexport.cc:61
 msgid "Failed to read data."
 msgstr "ລົ້ມເຫລວໃນການອ່ານຂໍ້ມູນ"
 
@@ -604,15 +604,16 @@ msgstr "ລົ້ມເຫລວໃນການອ່ານຂໍ້ມູນ"
 msgid "PNG Export Error"
 msgstr "ສົ່ງອອກເປັນ PNG ຜິດພາດ"
 
-#: kchart/png/pngexport.cpp:55 kchart/svg/svgexport.cc:55
+#: kchart/png/pngexport.cpp:55 kchart/svg/svgexport.cc:71
 #: kformula/latex/latexexport.cc:64 kformula/mathml/mathmlexport.cc:64
-#: kformula/png/pngexport.cc:64
+#: kformula/png/pngexport.cc:64 kformula/svg/svgexport.cc:78
 msgid "Malformed XML data."
 msgstr "ຂໍ້ມູນ XML ບໍ່ຖືກຕ້ອງ"
 
 #: kchart/png/pngexport.cpp:74 kchart/png/pngexportdia.cpp:264
-#: kchart/svg/svgexport.cc:69 kformula/latex/latexexport.cc:71
+#: kchart/svg/svgexport.cc:85 kformula/latex/latexexport.cc:71
 #: kformula/mathml/mathmlexport.cc:71 kformula/png/pngexportdia.cc:237
+#: kformula/svg/svgexport.cc:92
 msgid "Failed to write file."
 msgstr "ລົ້ມເຫລວໃນການຂງນເອກະສານ"
 
@@ -644,8 +645,9 @@ msgstr "ກວ້າງ (%)"
 msgid "Height (%):"
 msgstr "ສູງ (%)"
 
-#: kchart/svg/svgexport.cc:43 kchart/svg/svgexport.cc:56
-#: kchart/svg/svgexport.cc:70
+#: kchart/svg/svgexport.cc:59 kchart/svg/svgexport.cc:72
+#: kchart/svg/svgexport.cc:86 kformula/svg/svgexport.cc:62
+#: kformula/svg/svgexport.cc:79 kformula/svg/svgexport.cc:93
 #, fuzzy
 msgid "SVG Export Error"
 msgstr "ສົ່ງອອກເປັນ PNG ຜິດພາດ"
