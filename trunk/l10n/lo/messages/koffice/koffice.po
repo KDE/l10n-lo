@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-10-07 02:39+0200\n"
+"POT-Creation-Date: 2005-10-08 02:44+0200\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -529,7 +529,7 @@ msgstr "ชื่อรูปแบบอักษร:"
 msgid "Enable this checkbox to change the font size settings."
 msgstr ""
 
-#: kotext/kfontdialog_local.cpp:190 kotext/koSearchDia.cc:554
+#: kotext/kfontdialog_local.cpp:190 kotext/koSearchDia.cc:553
 msgid "Size:"
 msgstr "ຂະຫນາດ:"
 
@@ -700,7 +700,7 @@ msgid "None"
 msgstr "ບໍ່ມີ"
 
 #: kotext/koParagDia.cc:494 kotext/koParagDia.cc:568 kotext/koParagDia.cc:1341
-#: kotext/koParagDia.cc:1579 kotext/koStylist.cc:230
+#: kotext/koParagDia.cc:1579 kotext/koStylist.cc:227
 msgid "Preview"
 msgstr "ສະແດງຕົວຢ່າງ"
 
@@ -842,6 +842,7 @@ msgid "St&yle:"
 msgstr "ຮູບແບບ:"
 
 #: kofficeui/koPageLayoutDia.cc:346 kotext/koParagDia.cc:1295
+#: kotext/koParagDia.cc:1792
 #, fuzzy
 msgid "&Width:"
 msgstr "ກວ້າງ:"
@@ -936,11 +937,6 @@ msgstr "ການຕື່ມເຕັມ:"
 msgid "Blank"
 msgstr "ວ່າວ"
 
-#: kotext/koParagDia.cc:1793
-#, fuzzy
-msgid "&Width (%1):"
-msgstr "ກວ້າງ (%1):"
-
 #: kotext/koParagDia.cc:1813
 #, fuzzy
 msgid "&New"
@@ -952,7 +948,7 @@ msgid "&Tabulators"
 msgstr "ແທັບ"
 
 #. i18n: file ./kofficecore/koDocumentInfoAboutWidget.ui line 296
-#: kotext/koParagDia.cc:2076 kotext/koSearchDia.cc:546 rc.cpp:155
+#: kotext/koParagDia.cc:2076 kotext/koSearchDia.cc:545 rc.cpp:155
 #, no-c-format
 msgid "Reset"
 msgstr "ຕັ້ງຄ່າໃຫມ່"
@@ -999,7 +995,7 @@ msgid "Variable Name"
 msgstr "ໍຊື່ຕົວແປ"
 
 #: kofficeui/koTemplateChooseDia.cc:736 kofficeui/koTemplateCreateDia.cc:112
-#: kotext/koStylist.cc:195 kotext/koVariableDlgs.cc:69
+#: kotext/koStylist.cc:192 kotext/koVariableDlgs.cc:69
 #: kotext/koVariableDlgs.cc:299
 msgid "Name:"
 msgstr "ຊື່:"
@@ -1272,7 +1268,7 @@ msgstr "Initial"
 msgid "Field"
 msgstr "ຊ່ອງຂໍ້ມູນ"
 
-#: kotext/koStylist.cc:236 kotext/kovariable.cc:2295
+#: kotext/koStylist.cc:233 kotext/kovariable.cc:2295
 msgid "<None>"
 msgstr "<ບໍ່ມີ>"
 
@@ -1399,82 +1395,82 @@ msgstr "ຈຳນວນຫນ້າ"
 msgid "Number of Tables"
 msgstr "ຈຳນວນຫນ້າ"
 
-#: kotext/koSearchDia.cc:69
+#: kotext/koSearchDia.cc:68
 msgid "Show Formatting Options"
 msgstr "ສະແດງຕົວເລືອກການຈັດຮູບແບບ"
 
-#: kotext/koSearchDia.cc:79
+#: kotext/koSearchDia.cc:78
 msgid "Formatting Options"
 msgstr "ຕົວເລືອກການຈັດຮູບແບບ"
 
-#: kotext/koSearchDia.cc:487
+#: kotext/koSearchDia.cc:486
 msgid "Replace Text"
 msgstr "ແທນທີ່ຂໍ້ຄວາມ"
 
-#: kotext/koSearchDia.cc:553
+#: kotext/koSearchDia.cc:552
 msgid "Family:"
 msgstr "ຕະກູນ:"
 
-#: kotext/koSearchDia.cc:555
+#: kotext/koSearchDia.cc:554
 msgid "Color:"
 msgstr "ສີ:"
 
-#: kotext/koSearchDia.cc:556
+#: kotext/koSearchDia.cc:555
 msgid "Background color:"
 msgstr "ສີພື້ນຫລັງ:"
 
-#: kotext/koSearchDia.cc:557
+#: kotext/koSearchDia.cc:556
 msgid "Bold:"
 msgstr "ຕົວຫນາ:"
 
-#: kotext/koSearchDia.cc:558
+#: kotext/koSearchDia.cc:557
 msgid "Italic:"
 msgstr "ຕົວອຽງ:"
 
-#: kotext/koSearchDia.cc:559
+#: kotext/koSearchDia.cc:558
 msgid "Shadow:"
 msgstr "ເງົາ"
 
-#: kotext/koSearchDia.cc:560
+#: kotext/koSearchDia.cc:559
 #, fuzzy
 msgid "Word by word:"
 msgstr "Word By Word"
 
-#: kotext/koSearchDia.cc:562
+#: kotext/koSearchDia.cc:561
 msgid "Underline:"
 msgstr "ຕົວຂີດກ້ອງ:"
 
-#: kotext/koSearchDia.cc:569
+#: kotext/koSearchDia.cc:568
 msgid "Strikeout:"
 msgstr "ເສັ້່ນພາດກາງ:"
 
-#: kotext/koSearchDia.cc:576
+#: kotext/koSearchDia.cc:575
 msgid "Capitalization:"
 msgstr ""
 
-#: kotext/koSearchDia.cc:581
+#: kotext/koSearchDia.cc:580
 msgid "Language:"
 msgstr "Language:"
 
-#: kotext/koSearchDia.cc:587
+#: kotext/koSearchDia.cc:586
 msgid "Vertical alignment:"
 msgstr "ຈັດວາງໃນແນວຕັ້ງ:"
 
 #. i18n: file ./kotext/kolayouttabbase.ui line 57
-#: kformula/kformuladocument.cc:646 kotext/koSearchDia.cc:629
+#: kformula/kformuladocument.cc:646 kotext/koSearchDia.cc:628
 #: kotext/kotextformat.cc:1564 rc.cpp:82
 #, no-c-format
 msgid "Normal"
 msgstr "ຕົວປົກະຕິ"
 
 #. i18n: file ./kotext/kolayouttabbase.ui line 82
-#: kotext/koSearchDia.cc:630 rc.cpp:88
+#: kotext/koSearchDia.cc:629 rc.cpp:88
 #, no-c-format
 msgid "Subscript"
 msgstr "ຕົວຫ້ອຍ"
 
 #. i18n: file ./kotext/kolayouttabbase.ui line 71
-#: kotext/koSearchDia.cc:631 rc.cpp:85
+#: kotext/koSearchDia.cc:630 rc.cpp:85
 #, no-c-format
 msgid "Superscript"
 msgstr "ຕົວຍົກ"
@@ -1484,23 +1480,23 @@ msgstr "ຕົວຍົກ"
 msgid "&Reset"
 msgstr "ຕັ້ງຄ່າໃຫມ່"
 
-#: kotext/koFontDia.cc:71 kotext/koStylist.cc:683
+#: kotext/koFontDia.cc:71 kotext/koStylist.cc:680
 #, fuzzy
 msgid "Highlighting"
 msgstr "ການເນັ້ນສີໄວຍາກອນ"
 
-#: kotext/koFontDia.cc:83 kotext/koStylist.cc:682
+#: kotext/koFontDia.cc:83 kotext/koStylist.cc:679
 #, fuzzy
 msgid "Decoration"
 msgstr "ทิศทาง:"
 
-#: kotext/koFontDia.cc:93 kotext/koStylist.cc:684
+#: kotext/koFontDia.cc:93 kotext/koStylist.cc:681
 #, fuzzy
 msgid "Layout"
 msgstr "ການຈັດວາງຫນ້າເຈ້ຍ"
 
 #. i18n: file ./kotext/kolanguagetabbase.ui line 35
-#: kotext/koFontDia.cc:101 kotext/koStylist.cc:685 rc.cpp:32 rc.cpp:35
+#: kotext/koFontDia.cc:101 kotext/koStylist.cc:682 rc.cpp:32 rc.cpp:35
 #, fuzzy, no-c-format
 msgid "Language"
 msgstr "Language:"
@@ -1509,8 +1505,8 @@ msgstr "Language:"
 msgid "Autoinclude"
 msgstr "ລວມອັດຕະໂນມັດ"
 
-#: kotext/koAutoFormat.cc:1186 kotext/koAutoFormat.cc:1239
-#: kotext/koAutoFormat.cc:1306 kotext/koAutoFormatDia.cc:179
+#: kotext/koAutoFormat.cc:1185 kotext/koAutoFormat.cc:1238
+#: kotext/koAutoFormat.cc:1305 kotext/koAutoFormatDia.cc:179
 msgid "Autocorrection"
 msgstr "ແກ້ໄຂໃຫຖືກຕ້ອງອັດຕະໂນມັດ"
 
@@ -1962,38 +1958,38 @@ msgstr "ປ່ຽນເງົາ"
 msgid "Remove Selected Text"
 msgstr "ລຶບຂໍ້ຄວາມທີ່ເລືອກໄວ້"
 
-#: kotext/koStylist.cc:68
+#: kotext/koStylist.cc:65
 msgid "Style Manager"
 msgstr "Style Manager"
 
-#: kotext/koStylist.cc:169
+#: kotext/koStylist.cc:166
 msgid "New"
 msgstr "ໃຫມ່"
 
-#: kotext/koStylist.cc:206
+#: kotext/koStylist.cc:203
 msgid "Next style:"
 msgstr "ຮູບແບບຕໍ່ໄປ:"
 
-#: kotext/koStylist.cc:215
+#: kotext/koStylist.cc:212
 msgid "Inherit style:"
 msgstr "ຮູບແບບຕໍ່ໄປ:"
 
-#: kotext/koStylist.cc:223
+#: kotext/koStylist.cc:220
 msgid "Include in table of contents"
 msgstr ""
 
-#: kotext/koStylist.cc:230
+#: kotext/koStylist.cc:227
 msgid ""
 "The quick brown fox jumps over the lazy dog. And, what about the cat, one may "
 "ask? Well, the cat is playing cards with the mouse, the bird and the fish. It "
 "is, to say the least a hell of a party!"
 msgstr ""
 
-#: kofficecore/koDocumentInfoDlg.cc:250 kotext/koStylist.cc:234
+#: kofficecore/koDocumentInfoDlg.cc:250 kotext/koStylist.cc:231
 msgid "General"
 msgstr "ທົ່ວໄປ"
 
-#: kotext/koStylist.cc:400
+#: kotext/koStylist.cc:397
 msgid "New Style Template (%1)"
 msgstr "ຕົ້ນແບບຮູບແບບໃຫມ່ (%1)"
 
@@ -2022,30 +2018,30 @@ msgstr "ເລືອກຮູບແບບທີ່ຈະນຳເຂົ້າ:"
 msgid "Load..."
 msgstr "ໂຫລດ"
 
-#: kotext/koAutoFormat.cc:977 kotext/koAutoFormat.cc:990
+#: kotext/koAutoFormat.cc:976 kotext/koAutoFormat.cc:989
 msgid "Completion Word"
 msgstr "ເຮັດຄຳໃຫ້ສົມບູນ"
 
-#: kotext/koAutoFormat.cc:1408 kotext/koAutoFormat.cc:1419
-#: kotext/koAutoFormat.cc:1850
+#: kotext/koAutoFormat.cc:1407 kotext/koAutoFormat.cc:1418
+#: kotext/koAutoFormat.cc:1849
 #, fuzzy
 msgid "Autocorrect Word"
 msgstr "ແກ້ໄຂຄຳໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດิ"
 
-#: kotext/koAutoFormat.cc:1416
+#: kotext/koAutoFormat.cc:1415
 #, fuzzy
 msgid "Autocorrect Word with Format"
 msgstr "ແກ້ໄຂຄຳໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດໂດຍໃຊ້ຮູບແບບ"
 
-#: kotext/koAutoFormat.cc:1490
+#: kotext/koAutoFormat.cc:1489
 msgid "Typographic Quote"
 msgstr "Typographic Quote"
 
-#: kotext/koAutoFormat.cc:1553
+#: kotext/koAutoFormat.cc:1552
 msgid "Autocorrect (capitalize first letter)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ(ໃຫ້ອັກສອນຕົວທຳອິດເປັນຕົວພີມໃຫຍ່)"
 
-#: kotext/koAutoFormat.cc:1578
+#: kotext/koAutoFormat.cc:1577
 #, fuzzy
 msgid ""
 "Autocorrect (Convert two upper case letters to one upper case and one lower "
@@ -2054,32 +2050,32 @@ msgstr ""
 "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ(ແປງອັກສອນຕົວພີມໃຫຍ່ສອງຕົວທຳອິດ ເປັນຕົວພີມໃຫຍ່ໜຶ່ງຕົວ "
 "ແລະຕົວພີມນ້ອຍໜຶ່ງຕົວ)"
 
-#: kotext/koAutoFormat.cc:1619
+#: kotext/koAutoFormat.cc:1618
 msgid "Autocorrect (replace 1/2... with "
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ (ແທນທີ່ 1/2... ດ້ວຍ "
 
-#: kotext/koAutoFormat.cc:1735
+#: kotext/koAutoFormat.cc:1734
 msgid "Insert Variable"
 msgstr "ແຊກຕົວແປ"
 
-#: kotext/koAutoFormat.cc:1840
+#: kotext/koAutoFormat.cc:1839
 #, fuzzy
 msgid "Autocorrection: Change Format"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ: ປ່ຽນຮູບແບບ"
 
-#: kotext/koAutoFormat.cc:1888
+#: kotext/koAutoFormat.cc:1887
 msgid "Autocorrect (use bullet style)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ (ໃຊ້ຮູບແບບສັນຍາລັກ)"
 
-#: kotext/koAutoFormat.cc:1978
+#: kotext/koAutoFormat.cc:1977
 msgid "Autocorrect (use number style)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ (ໃຊ້ຮູບແບບຕົວເລກ)"
 
-#: kotext/koAutoFormat.cc:2060 kotext/koAutoFormat.cc:2089
+#: kotext/koAutoFormat.cc:2059 kotext/koAutoFormat.cc:2088
 msgid "Autocorrect (remove start and end line space)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ(ລຶບຊ່ອງວ່າງຕອນຕົ້ນແລະທ້າຍແຖວ)"
 
-#: kotext/koAutoFormat.cc:2126
+#: kotext/koAutoFormat.cc:2125
 #, fuzzy
 msgid "Capitalize Name of Days"
 msgstr "Capitalize name of days"
@@ -5250,6 +5246,10 @@ msgstr "ตระกูล:"
 #, fuzzy
 msgid "Gray"
 msgstr "ເທົາ"
+
+#, fuzzy
+#~ msgid "&Width (%1):"
+#~ msgstr "ກວ້າງ (%1):"
 
 #, fuzzy
 #~ msgid "&Left (%1):"

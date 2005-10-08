@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-10-07 02:37+0200\n"
+"POT-Creation-Date: 2005-10-08 02:42+0200\n"
 "PO-Revision-Date: 2003-01-11 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -215,7 +215,7 @@ msgstr "ສ້າງເອກະສານໃຫມ່"
 msgid "Open an existing document for editing"
 msgstr "ເປີດເອກະສານທີ່ມີຢູ່ແລ້ວເພື່ອທຳການແກ້ໄຂມັນ"
 
-#: app/katemainwindow.cpp:246 app/kwritemain.cpp:153
+#: app/katemainwindow.cpp:246 app/kwritemain.cpp:151
 msgid ""
 "This lists files which you have opened recently, and allows you to easily open "
 "them again."
@@ -277,11 +277,11 @@ msgstr ""
 "ເປີດເອກະສານປະຈຸບັນດ້ວຍແອພພລິເຄຊັນອຶ່ນທີ່ລົງທະບງນສຳລັບໃຊ້ກັບປະເພດແຟ້ມຫລືດ້ວຍແອພພລ"
 "ິເຄຊັນທີ່ທ່ານຕ້ອງການ"
 
-#: app/katemainwindow.cpp:278 app/kwritemain.cpp:176
+#: app/katemainwindow.cpp:278 app/kwritemain.cpp:174
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr "ປັບແຕ່ງການກຳນົດປຸ່ມພິມລັດຂອງແອັພພລິເຄຊັນ"
 
-#: app/katemainwindow.cpp:281 app/kwritemain.cpp:179
+#: app/katemainwindow.cpp:281 app/kwritemain.cpp:177
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr "ປັບແຕ່ງເລືອກລາຍການທີ່ຈະໃຫ້ປະກົດເທິງແຖບເຄື່ອງມື"
 
@@ -875,23 +875,23 @@ msgstr ""
 msgid "Only try to reuse kate instance with this pid"
 msgstr ""
 
-#: app/katemain.cpp:44 app/kwritemain.cpp:538
+#: app/katemain.cpp:44 app/kwritemain.cpp:536
 msgid "Set encoding for the file to open"
 msgstr ""
 
-#: app/katemain.cpp:46 app/kwritemain.cpp:539
+#: app/katemain.cpp:46 app/kwritemain.cpp:537
 msgid "Navigate to this line"
 msgstr "ນຳໄປຍັງແຖວນີ້"
 
-#: app/katemain.cpp:48 app/kwritemain.cpp:540
+#: app/katemain.cpp:48 app/kwritemain.cpp:538
 msgid "Navigate to this column"
 msgstr "ນຳໄປຍັງຖັນນີ້"
 
-#: app/katemain.cpp:50 app/kwritemain.cpp:537
+#: app/katemain.cpp:50 app/kwritemain.cpp:535
 msgid "Read the contents of stdin"
 msgstr ""
 
-#: app/katemain.cpp:51 app/kwritemain.cpp:541
+#: app/katemain.cpp:51 app/kwritemain.cpp:539
 #, fuzzy
 msgid "Document to open"
 msgstr "ເອກະສານທີ່ຈະເປີດ"
@@ -905,56 +905,56 @@ msgstr "Kate"
 msgid "Kate - Advanced Text Editor"
 msgstr "Kate - ເຄື່ອງມືແກ້ໄຂຂໍ້ຄວາມເທິງ KDE ຂັ້ນກ້າວຫນ້າ"
 
-#: app/katemain.cpp:62 app/kwritemain.cpp:558
+#: app/katemain.cpp:62 app/kwritemain.cpp:556
 #, fuzzy
 msgid "(c) 2000-2005 The Kate Authors"
 msgstr "(c) 2000-2001 ຜູ້ຂງນ Kate"
 
-#: app/katemain.cpp:64 app/kwritemain.cpp:560
+#: app/katemain.cpp:64 app/kwritemain.cpp:558
 msgid "Maintainer"
 msgstr "ພາຊະນະບັນຈຸ"
 
 #: app/katemain.cpp:65 app/katemain.cpp:66 app/katemain.cpp:67
-#: app/katemain.cpp:72 app/kwritemain.cpp:561 app/kwritemain.cpp:562
-#: app/kwritemain.cpp:563 app/kwritemain.cpp:568
+#: app/katemain.cpp:72 app/kwritemain.cpp:559 app/kwritemain.cpp:560
+#: app/kwritemain.cpp:561 app/kwritemain.cpp:566
 msgid "Core Developer"
 msgstr "ຜູ້ພັດທະນາແກນຫລັກ"
 
-#: app/katemain.cpp:68 app/kwritemain.cpp:564
+#: app/katemain.cpp:68 app/kwritemain.cpp:562
 msgid "The cool buffersystem"
 msgstr "ระบบพักข้อมูลที่เยี่ยมยอด"
 
-#: app/katemain.cpp:69 app/kwritemain.cpp:565
+#: app/katemain.cpp:69 app/kwritemain.cpp:563
 #, fuzzy
 msgid "The Editing Commands"
 msgstr "คำสั่งแก้ไข..."
 
-#: app/katemain.cpp:70 app/kwritemain.cpp:566
+#: app/katemain.cpp:70 app/kwritemain.cpp:564
 msgid "Testing, ..."
 msgstr "ກຳລັງທົດສອບ..."
 
-#: app/katemain.cpp:71 app/kwritemain.cpp:567
+#: app/katemain.cpp:71 app/kwritemain.cpp:565
 #, fuzzy
 msgid "Former Core Developer"
 msgstr "ຜູ້ພັດທະນາແກນຫລັກ"
 
-#: app/katemain.cpp:73 app/kwritemain.cpp:569
+#: app/katemain.cpp:73 app/kwritemain.cpp:567
 msgid "KWrite Author"
 msgstr "ຜູ້ຂງນ KWrite"
 
-#: app/katemain.cpp:74 app/kwritemain.cpp:570
+#: app/katemain.cpp:74 app/kwritemain.cpp:568
 msgid "KWrite port to KParts"
 msgstr "KWrite ພອດມາຍັງ KParts"
 
-#: app/katemain.cpp:77 app/kwritemain.cpp:573
+#: app/katemain.cpp:77 app/kwritemain.cpp:571
 msgid "KWrite Undo History, Kspell integration"
 msgstr "ປະວັດການເອິ້ນຄຶນເທິງ KWrite, ການຮວມ Kspell ເຂົ້າໄປ"
 
-#: app/katemain.cpp:78 app/kwritemain.cpp:574
+#: app/katemain.cpp:78 app/kwritemain.cpp:572
 msgid "KWrite XML Syntax highlighting support"
 msgstr "ສະນັບສະຫນຸນການຕົວເນັ້ນໄວຍະກອນ์ XML ເທິງ KWrite"
 
-#: app/katemain.cpp:79 app/kwritemain.cpp:575
+#: app/katemain.cpp:79 app/kwritemain.cpp:573
 msgid "Patches and more"
 msgstr "ແພັດຈ໌ແລະອຶ່ນໆ"
 
@@ -962,61 +962,61 @@ msgstr "ແພັດຈ໌ແລະອຶ່ນໆ"
 msgid "Developer & Highlight wizard"
 msgstr ""
 
-#: app/katemain.cpp:82 app/kwritemain.cpp:577
+#: app/katemain.cpp:82 app/kwritemain.cpp:575
 msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບປແຟ້ມ RPM Spec, Perl, Diff ແລະອີກຫລາຍ"
 
-#: app/katemain.cpp:83 app/kwritemain.cpp:578
+#: app/katemain.cpp:83 app/kwritemain.cpp:576
 msgid "Highlighting for VHDL"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ VHDL "
 
-#: app/katemain.cpp:84 app/kwritemain.cpp:579
+#: app/katemain.cpp:84 app/kwritemain.cpp:577
 msgid "Highlighting for SQL"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ SQL"
 
-#: app/katemain.cpp:85 app/kwritemain.cpp:580
+#: app/katemain.cpp:85 app/kwritemain.cpp:578
 msgid "Highlighting for Ferite"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ Ferite"
 
-#: app/katemain.cpp:86 app/kwritemain.cpp:581
+#: app/katemain.cpp:86 app/kwritemain.cpp:579
 msgid "Highlighting for ILERPG"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ ILERPG"
 
-#: app/katemain.cpp:87 app/kwritemain.cpp:582
+#: app/katemain.cpp:87 app/kwritemain.cpp:580
 msgid "Highlighting for LaTeX"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ LaTeX"
 
-#: app/katemain.cpp:88 app/kwritemain.cpp:583
+#: app/katemain.cpp:88 app/kwritemain.cpp:581
 msgid "Highlighting for Makefiles, Python"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ Makefiles, Python"
 
-#: app/katemain.cpp:89 app/kwritemain.cpp:584
+#: app/katemain.cpp:89 app/kwritemain.cpp:582
 msgid "Highlighting for Python"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ Python"
 
-#: app/katemain.cpp:91 app/kwritemain.cpp:586
+#: app/katemain.cpp:91 app/kwritemain.cpp:584
 msgid "Highlighting for Scheme"
 msgstr "ການເຮັດຕົວເນັ້ນສຳລັບ Scheme"
 
-#: app/katemain.cpp:92 app/kwritemain.cpp:587
+#: app/katemain.cpp:92 app/kwritemain.cpp:585
 msgid "PHP Keyword/Datatype list"
 msgstr "ລາຍການຄີເວີດ/ຊະນິດຂໍ້ມູນຊອງ PHP"
 
-#: app/katemain.cpp:93 app/kwritemain.cpp:588
+#: app/katemain.cpp:93 app/kwritemain.cpp:586
 msgid "Very nice help"
 msgstr "ລະບົບຊ່ວຍເຫລືອທີ່ດີເລີດ"
 
-#: app/katemain.cpp:94 app/kwritemain.cpp:589
+#: app/katemain.cpp:94 app/kwritemain.cpp:587
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "ແລະຄົນອຶ່ນໆທີ່ຮ່ວມກັນກະທຳຊຶ່ງຂ້າພະເຈົ້າອາດຈະລືມໄປແດ່"
 
-#: _translatorinfo.cpp:1 app/katemain.cpp:96 app/kwritemain.cpp:591
+#: _translatorinfo.cpp:1 app/katemain.cpp:96 app/kwritemain.cpp:589
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "Vilaphonh Manivanh"
 
-#: _translatorinfo.cpp:3 app/katemain.cpp:96 app/kwritemain.cpp:591
+#: _translatorinfo.cpp:3 app/katemain.cpp:96 app/kwritemain.cpp:589
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
@@ -1225,7 +1225,7 @@ msgstr ""
 msgid "Set the sorting method for the documents."
 msgstr ""
 
-#: app/kwritemain.cpp:84
+#: app/kwritemain.cpp:82
 #, fuzzy
 msgid ""
 "A KDE text-editor component could not be found;\n"
@@ -1234,79 +1234,79 @@ msgstr ""
 "ບໍ່ພົບຄອມໂພເນັນແກ້ໄຂຂໍ້ຄວາມຂອງ KDE !\n"
 "ກະລຸນາກວດສອບການຕິດຕັ້ງ KDE ຂອງທ່ານ"
 
-#: app/kwritemain.cpp:144
+#: app/kwritemain.cpp:142
 msgid "Use this to close the current document"
 msgstr "ໃຊ້ນີ້ເພື່ອສັ່ງປິດເອກະສານທີ່ເປີດຢູ່ໃນປະຈຸບັນ"
 
-#: app/kwritemain.cpp:147
+#: app/kwritemain.cpp:145
 msgid "Use this command to print the current document"
 msgstr "ໃໍ້ຊ້ຄຳສັ່ງນີ້ເພື່ອສັງພິມເອກະສານປະຈຸບັນ"
 
-#: app/kwritemain.cpp:148
+#: app/kwritemain.cpp:146
 msgid "Use this command to create a new document"
 msgstr "ໃໍຊ້ຄຳສັ່ງນີ້ເພື່ອສ້າງເອກະສານໃຫມ່"
 
-#: app/kwritemain.cpp:149
+#: app/kwritemain.cpp:147
 msgid "Use this command to open an existing document for editing"
 msgstr "ໃຊ້ຄຳສັ່ງນີ້ເພື່ອເປີດເອກະສານທີ່ມີຢູ່ສຳລັບການແກ້ໄຂ"
 
-#: app/kwritemain.cpp:157
+#: app/kwritemain.cpp:155
 msgid "Create another view containing the current document"
 msgstr "ສ້າງມຸມມອງໃຫມ່ໂດຍມີເອກະສານປະຈຸບັນນຳ"
 
-#: app/kwritemain.cpp:159
+#: app/kwritemain.cpp:157
 msgid "Choose Editor..."
 msgstr "ເລືອກເຄື່ອງມືແກ້ໄຂ..."
 
-#: app/kwritemain.cpp:161
+#: app/kwritemain.cpp:159
 msgid "Override the system wide setting for the default editing component"
 msgstr "ແທນທີ່ການຕັ້ງຄ່າຂອງລະບົບສຳລັບຄອມໂພເນັນການແກ້ໄຂປະລິຍາຍ"
 
-#: app/kwritemain.cpp:163
+#: app/kwritemain.cpp:161
 msgid "Close the current document view"
 msgstr "ເປິດມຸມມອງຂອງເອກະສານປະຈຸບັນ"
 
-#: app/kwritemain.cpp:169
+#: app/kwritemain.cpp:167
 msgid "Use this command to show or hide the view's statusbar"
 msgstr "ໃຊ້ຄຳສັ່ງນີ້ເພື່ອສະແດງຫຼືເຊື່ງແຖບສະຖານະຂອງມຸມມອງ"
 
-#: app/kwritemain.cpp:171
+#: app/kwritemain.cpp:169
 msgid "Sho&w Path"
 msgstr "ສະແດງພາດເສັ່ນທາງ"
 
-#: app/kwritemain.cpp:173
+#: app/kwritemain.cpp:171
 msgid "Hide Path"
 msgstr ""
 
-#: app/kwritemain.cpp:174
+#: app/kwritemain.cpp:172
 msgid "Show the complete document path in the window caption"
 msgstr "ສະແດງເສັ່ນທາງສົມບູນໃປທີ່ເອກະສານໃນແຖບຫົວເລື່ອງຫນ່າຕ່າງ"
 
-#: app/kateviewmanager.cpp:375 app/kwritemain.cpp:231
+#: app/kateviewmanager.cpp:375 app/kwritemain.cpp:229
 msgid "Open File"
 msgstr "ເປີດແຟ້ມ"
 
-#: app/kwritemain.cpp:255
+#: app/kwritemain.cpp:253
 msgid ""
 "The given file could not be read, check if it exists or if it is readable for "
 "the current user."
 msgstr ""
 
-#: app/kwritemain.cpp:555
+#: app/kwritemain.cpp:553
 msgid "KWrite"
 msgstr "KWrite"
 
-#: app/kwritemain.cpp:557
+#: app/kwritemain.cpp:555
 #, fuzzy
 msgid "KWrite - Text Editor"
 msgstr "Kate - ເຄື່ອງມືແກ້ໄຂຂໍ້ຄວາມເທິງ KDE ຂັ້ນກ້າວຫນ້າ"
 
-#: app/kateapp.cpp:201 app/kateapp.cpp:313 app/kwritemain.cpp:688
+#: app/kateapp.cpp:201 app/kateapp.cpp:313 app/kwritemain.cpp:686
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
 
-#: app/kwritemain.cpp:702
+#: app/kwritemain.cpp:700
 msgid "Choose Editor Component"
 msgstr "ເລືອກຄອມໂພເນັນເຄື່ອງມືແກ້ໄຂຂໍ້ຄວາມ"
 
