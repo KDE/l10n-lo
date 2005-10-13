@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-10-11 02:42+0200\n"
+"POT-Creation-Date: 2005-10-13 02:39+0200\n"
 "PO-Revision-Date: 2003-01-17 18:12+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -27,31 +27,37 @@ msgid "&Object"
 msgstr "&ແລະວັດຖຸ"
 
 #. i18n: file data/karbon.rc line 51
-#: rc.cpp:18 rc.cpp:46
+#: rc.cpp:18 rc.cpp:49
 #, no-c-format
 msgid "&Order"
 msgstr "&ລຳດັບ"
 
 #. i18n: file data/karbon.rc line 58
-#: rc.cpp:21 rc.cpp:49
+#: rc.cpp:21 rc.cpp:52
 #, fuzzy, no-c-format
 msgid "&Align"
 msgstr "ເຊັກເມັນ:"
 
-#. i18n: file data/karbon.rc line 72
+#. i18n: file data/karbon.rc line 68
 #: rc.cpp:24
+#, no-c-format
+msgid "&Distribute"
+msgstr ""
+
+#. i18n: file data/karbon.rc line 84
+#: rc.cpp:27
 #, fuzzy, no-c-format
 msgid "Effe&cts"
 msgstr "Effects"
 
-#. i18n: file data/karbon.rc line 97
-#: rc.cpp:36
+#. i18n: file data/karbon.rc line 109
+#: rc.cpp:39
 #, fuzzy, no-c-format
 msgid "Object"
 msgstr "&ແລະວັດຖຸ"
 
-#. i18n: file data/karbon.rc line 107
-#: rc.cpp:39
+#. i18n: file data/karbon.rc line 119
+#: rc.cpp:42
 #, no-c-format
 msgid "Toolbox"
 msgstr "ກັບເຄື່ອງມື"
@@ -80,209 +86,243 @@ msgstr ""
 msgid "Invalid OASIS document. No draw:page tag found."
 msgstr ""
 
-#: karbon_view.cc:354
+#: karbon_view.cc:355
 #, fuzzy
 msgid "Insert Clipart"
 msgstr "แทรกดาว"
 
-#: karbon_view.cc:510
+#: karbon_view.cc:511
 msgid "This action cannot be undone later. Do you really want to continue?"
 msgstr "ການກະທຳນີ້ບໍ່ສາມາດຍົກເລີກໄດ້ໃນພາຍຫັລງ ທ່ານຕ້ອງການຈະເຮັດຕໍ່ຫລືບໍ່?"
 
-#: karbon_view.cc:511
+#: karbon_view.cc:512
 msgid "Purge History"
 msgstr "ລ້າງປະຫັວດ"
 
-#: karbon_view.cc:686 karbon_view.cc:818
+#: karbon_view.cc:743 karbon_view.cc:875
 #, fuzzy
 msgid "Zoom Width"
 msgstr "ກວ້າງ"
 
-#: karbon_view.cc:692 karbon_view.cc:817
+#: karbon_view.cc:749 karbon_view.cc:874
 msgid "Whole Page"
 msgstr ""
 
-#: karbon_view.cc:789
+#: karbon_view.cc:846
 msgid "View &Mode"
 msgstr "ໂຫມດສະແ&ດງຜົນ"
 
-#: karbon_view.cc:797
+#: karbon_view.cc:854
 msgid "Normal"
 msgstr "ປົກກະຕິ"
 
-#: karbon_view.cc:797
+#: karbon_view.cc:854
 msgid "Wireframe"
 msgstr "ໂຄງຮ່າງ"
 
-#: karbon_view.cc:804
+#: karbon_view.cc:861
 #, fuzzy, no-c-format
 msgid "25%"
 msgstr "    25%"
 
-#: karbon_view.cc:806
+#: karbon_view.cc:863
 #, fuzzy, no-c-format
 msgid "50%"
 msgstr "    50%"
 
-#: karbon_view.cc:808
+#: karbon_view.cc:865
 #, fuzzy, no-c-format
 msgid "100%"
 msgstr "   100%"
 
-#: karbon_view.cc:810
+#: karbon_view.cc:867
 #, fuzzy, no-c-format
 msgid "200%"
 msgstr "   200%"
 
-#: karbon_view.cc:812
+#: karbon_view.cc:869
 #, fuzzy, no-c-format
 msgid "300%"
 msgstr "   300%"
 
-#: karbon_view.cc:814
+#: karbon_view.cc:871
 #, fuzzy, no-c-format
 msgid "400%"
 msgstr "   400%"
 
-#: karbon_view.cc:816
+#: karbon_view.cc:873
 #, fuzzy, no-c-format
 msgid "800%"
 msgstr "   800%"
 
-#: karbon_view.cc:842
+#: karbon_view.cc:899
 #, fuzzy
 msgid "&Import Graphic..."
 msgstr "&Import"
 
-#: karbon_view.cc:845
+#: karbon_view.cc:902
 msgid "D&elete"
 msgstr "&ລຶບ"
 
-#: karbon_view.cc:848
+#: karbon_view.cc:905
 msgid "&History"
 msgstr "&ປະຫັວດ"
 
-#: karbon_view.cc:854
+#: karbon_view.cc:911
 msgid "Bring to &Front"
 msgstr "ນຳມາໄວ້ດ້ານ&ຫນ້າສຸດ"
 
-#: karbon_view.cc:857
+#: karbon_view.cc:914
 msgid "&Raise"
 msgstr "ນຳມາໄວ້ດ້ານຫ&ນ້າ"
 
-#: karbon_view.cc:860
+#: karbon_view.cc:917
 msgid "&Lower"
 msgstr "ນຳມາໄວ້ດ້ານຫ&ລັງ"
 
-#: karbon_view.cc:863
+#: karbon_view.cc:920
 msgid "Send to &Back"
 msgstr "ນຳມາໄວ້ດ້ານຫ&ລັງສຸດ"
 
-#: karbon_view.cc:867
+#: karbon_view.cc:924
 #, fuzzy
 msgid "Align Left"
 msgstr "ເຊັກເມັນ:"
 
-#: karbon_view.cc:871
+#: karbon_view.cc:928
 #, fuzzy
 msgid "Align Center (Horizontal)"
 msgstr "ເຊັກເມັນ:"
 
-#: karbon_view.cc:875
+#: karbon_view.cc:932
 #, fuzzy
 msgid "Align Right"
 msgstr "ຕື່ມສີວັດຖຸ"
 
-#: karbon_view.cc:879
+#: karbon_view.cc:936
 #, fuzzy
 msgid "Align Top"
 msgstr "ຕື່ມສີວັດຖຸ"
 
-#: karbon_view.cc:883
+#: karbon_view.cc:940
 #, fuzzy
 msgid "Align Middle (Vertical)"
 msgstr "ເຊັກເມັນ:"
 
-#: karbon_view.cc:887
+#: karbon_view.cc:944
 #, fuzzy
 msgid "Align Bottom"
 msgstr "ຕື່ມສີວັດຖຸ"
 
-#: karbon_view.cc:891
+#: karbon_view.cc:949
+#, fuzzy
+msgid "Distribute Center (Horizontal)"
+msgstr "ເຊັກເມັນ:"
+
+#: karbon_view.cc:953
+#, fuzzy
+msgid "Distribute Gaps (Horizontal)"
+msgstr "ເຊັກເມັນ:"
+
+#: karbon_view.cc:957
+msgid "Distribute Left Borders"
+msgstr ""
+
+#: karbon_view.cc:961
+msgid "Distribute Right Borders"
+msgstr ""
+
+#: karbon_view.cc:965
+msgid "Distribute Center (Vertical)"
+msgstr ""
+
+#: karbon_view.cc:969
+msgid "Distribute Gaps (Vertical)"
+msgstr ""
+
+#: karbon_view.cc:973
+msgid "Distribute Bottom Borders"
+msgstr ""
+
+#: karbon_view.cc:977
+msgid "Distribute Top Borders"
+msgstr ""
+
+#: karbon_view.cc:981
 msgid "Show Rulers"
 msgstr ""
 
-#: karbon_view.cc:893
+#: karbon_view.cc:983
 msgid "Hide Rulers"
 msgstr ""
 
-#: karbon_view.cc:895
+#: karbon_view.cc:985
 msgid "Shows or hides rulers."
 msgstr ""
 
-#: karbon_view.cc:897
+#: karbon_view.cc:987
 msgid "Show Grid"
 msgstr ""
 
-#: karbon_view.cc:899
+#: karbon_view.cc:989
 msgid "Hide Grid"
 msgstr ""
 
-#: karbon_view.cc:901
+#: karbon_view.cc:991
 msgid "Shows or hides grid."
 msgstr ""
 
-#: karbon_view.cc:903
+#: karbon_view.cc:993
 msgid "Snap to Grid"
 msgstr ""
 
-#: karbon_view.cc:904
+#: karbon_view.cc:994
 msgid "Snaps to grid."
 msgstr ""
 
-#: karbon_view.cc:907
+#: karbon_view.cc:997
 msgid "&Group Objects"
 msgstr "ລວມກຸ່&ມວັດຖຸ"
 
-#: karbon_view.cc:910
+#: karbon_view.cc:1000
 msgid "&Ungroup Objects"
 msgstr "&ຍົກເລີກລວມກຸ່ມວັດຖຸູ"
 
-#: karbon_view.cc:913
+#: karbon_view.cc:1003
 #, fuzzy
 msgid "&Close Path"
 msgstr "Choose the pattern to add"
 
-#: karbon_view.cc:919
+#: karbon_view.cc:1009
 msgid "Set Line Width"
 msgstr "ຕັ້ງູຄ່າຄວາມກ້ວາງເສັ້ນ"
 
-#: karbon_view.cc:933
+#: karbon_view.cc:1023
 msgid "Configure Karbon..."
 msgstr "ປັບແຕ່ງຄາບອນ..."
 
-#: karbon_view.cc:936
+#: karbon_view.cc:1026
 #, fuzzy
 msgid "Page &Layout..."
 msgstr "ປັບແຕ່ງຄາບອນ..."
 
-#: dialogs/vconfiguredlg.cc:73 karbon_view.cc:1269
+#: dialogs/vconfiguredlg.cc:73 karbon_view.cc:1359
 msgid "Document"
 msgstr "ເອກກະສານ"
 
-#: karbon_view.cc:1277
+#: karbon_view.cc:1367
 msgid "Layers"
 msgstr "ເລເຢີ"
 
-#: karbon_view.cc:1284
+#: karbon_view.cc:1374
 msgid "History"
 msgstr "ປະຫວັດ"
 
-#: dockers/vstrokedocker.cc:45 karbon_view.cc:1291
+#: dockers/vstrokedocker.cc:45 karbon_view.cc:1381
 msgid "Stroke Properties"
 msgstr "ູຸູຄຸນສົມບັດການລາກ"
 
-#: dockers/vtransformdocker.cc:43 karbon_view.cc:1309
+#: dockers/vtransformdocker.cc:43 karbon_view.cc:1399
 msgid "Transform"
 msgstr "ແປງ"
 
@@ -328,6 +368,11 @@ msgstr "ລຶບວັດຖຸ"
 #: commands/vdeletenodescmd.cc:31
 msgid "Delete Node"
 msgstr "ລົບວັດຖุ"
+
+#: commands/vdistributecmd.cc:29
+#, fuzzy
+msgid "Distribute Objects"
+msgstr "ລຶບວັດຖຸ"
 
 #: commands/vfillcmd.cc:32
 msgid "Fill Objects"
