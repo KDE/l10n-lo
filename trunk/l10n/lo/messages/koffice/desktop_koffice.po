@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-10-14 00:55+0000\n"
+"POT-Creation-Date: 2005-10-16 00:59+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1082,10 +1082,20 @@ msgstr ""
 msgid "Comment=Core functionality module for Krita"
 msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
 
+#: krita/data/krita_plugin.desktop:4
+#, fuzzy
+msgid "Comment=GUI functionality for Krita"
+msgstr "Comment=โมดูลควบคุมสำหรับ KAB MkIII"
+
 #: krita/data/templates/empty.desktop:45
 #, fuzzy
 msgid "Comment=Create an empty document"
 msgstr "Comment=เอกสารเปล่า"
+
+#: krita/kritacolor/krita_colorspace.desktop:4
+msgid ""
+"Comment=A module implementing a complete colorspace for use with libkritacolor"
+msgstr ""
 
 #: krita/kritapart.desktop:3
 #, fuzzy
@@ -1398,6 +1408,15 @@ msgstr "Name=ตัวกรองข้อความของ Kate"
 #, fuzzy
 msgid "Comment=Enhance the quality of an image"
 msgstr "Comment=คุณได้ส่งจดหมายแล้ว"
+
+#: krita/plugins/kritaplugin.desktop:3
+#, fuzzy
+msgid "Name="
+msgstr "Name=A0"
+
+#: krita/plugins/kritaplugin.desktop:4
+msgid "Comment="
+msgstr "Comment="
 
 #: krita/plugins/oilpaintfilter/kritaoilpaintfilter.desktop:3
 #, fuzzy
@@ -2592,9 +2611,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "Name=KPyBrowser"
 #~ msgstr "Name=บราวเซอร์ไพธอน"
-
-#~ msgid "Comment="
-#~ msgstr "Comment="
 
 #~ msgid "Comment=Opens the corresponding .h/[.cpp|.c] file"
 #~ msgstr "Comment=เปิดแฟ้มที่มีรูปแบบ .h/[.cpp|.c]"
