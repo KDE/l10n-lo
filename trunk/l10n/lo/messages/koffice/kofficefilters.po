@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-10-16 02:44+0200\n"
+"POT-Creation-Date: 2005-10-17 02:44+0200\n"
 "PO-Revision-Date: 2003-01-18 11:40+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -598,9 +598,9 @@ msgid "Failed to read data."
 msgstr "ລົ້ມເຫລວໃນການອ່ານຂໍ້ມູນ"
 
 #: kchart/png/pngexport.cpp:43 kchart/png/pngexport.cpp:56
-#: kchart/png/pngexport.cpp:75 kchart/png/pngexportdia.cpp:264
-#: kformula/png/pngexport.cc:57 kformula/png/pngexport.cc:64
-#: kformula/png/pngexportdia.cc:237
+#: kchart/png/pngexport.cpp:75 kformula/png/pngexport.cc:57
+#: kformula/png/pngexport.cc:64 kformula/png/pngexportdia.cc:237
+#: kpresenter/png/pngexport.cpp:107 libdialogfilter/pngexportdia.cpp:264
 msgid "PNG Export Error"
 msgstr "ສົ່ງອອກເປັນ PNG ຜິດພາດ"
 
@@ -610,44 +610,18 @@ msgstr "ສົ່ງອອກເປັນ PNG ຜິດພາດ"
 msgid "Malformed XML data."
 msgstr "ຂໍ້ມູນ XML ບໍ່ຖືກຕ້ອງ"
 
-#: kchart/png/pngexport.cpp:74 kchart/png/pngexportdia.cpp:264
-#: kchart/svg/svgexport.cc:85 kformula/latex/latexexport.cc:71
-#: kformula/mathml/mathmlexport.cc:71 kformula/png/pngexportdia.cc:237
-#: kformula/svg/svgexport.cc:92
+#: kchart/png/pngexport.cpp:74 kchart/svg/svgexport.cc:85
+#: kformula/latex/latexexport.cc:71 kformula/mathml/mathmlexport.cc:71
+#: kformula/png/pngexportdia.cc:237 kformula/svg/svgexport.cc:92
+#: kpresenter/png/pngexport.cpp:106 kpresenter/svg/svgexport.cc:104
+#: libdialogfilter/pngexportdia.cpp:264
 msgid "Failed to write file."
 msgstr "ລົ້ມເຫລວໃນການຂງນເອກະສານ"
-
-#: kchart/png/pngexportdia.cpp:42 kformula/png/pngexportdia.cc:43
-msgid "PNG Export Filter Parameters"
-msgstr "ພາລາມິເຕີຣຂອງຕົວຕອງສົ່ງອອກ PNG"
-
-#: kchart/png/pngexportdia.cpp:82 kformula/png/pngexportdia.cc:182
-msgid "Keep ratio"
-msgstr "ຮັກສາອັດຕາສ່ວນ"
-
-#: kchart/png/pngexportdia.cpp:87
-#, fuzzy
-msgid "Width:"
-msgstr "ກວ້າງ (%)"
-
-#: kchart/png/pngexportdia.cpp:90
-#, fuzzy
-msgid "Height:"
-msgstr "ສູງ (%)"
-
-#: kchart/png/pngexportdia.cpp:99
-#, fuzzy
-msgid "Width (%):"
-msgstr "ກວ້າງ (%)"
-
-#: kchart/png/pngexportdia.cpp:102
-#, fuzzy
-msgid "Height (%):"
-msgstr "ສູງ (%)"
 
 #: kchart/svg/svgexport.cc:59 kchart/svg/svgexport.cc:72
 #: kchart/svg/svgexport.cc:86 kformula/svg/svgexport.cc:62
 #: kformula/svg/svgexport.cc:79 kformula/svg/svgexport.cc:93
+#: kpresenter/svg/svgexport.cc:105
 #, fuzzy
 msgid "SVG Export Error"
 msgstr "ສົ່ງອອກເປັນ PNG ຜິດພາດ"
@@ -1411,6 +1385,34 @@ msgstr "ແຟມ xslt ສ່ວນຕົວ"
 #, no-c-format
 msgid "Choose..."
 msgstr "ເລຶອກ..."
+
+#: kformula/png/pngexportdia.cc:43 libdialogfilter/pngexportdia.cpp:42
+msgid "PNG Export Filter Parameters"
+msgstr "ພາລາມິເຕີຣຂອງຕົວຕອງສົ່ງອອກ PNG"
+
+#: kformula/png/pngexportdia.cc:182 libdialogfilter/pngexportdia.cpp:82
+msgid "Keep ratio"
+msgstr "ຮັກສາອັດຕາສ່ວນ"
+
+#: libdialogfilter/pngexportdia.cpp:87
+#, fuzzy
+msgid "Width:"
+msgstr "ກວ້າງ (%)"
+
+#: libdialogfilter/pngexportdia.cpp:90
+#, fuzzy
+msgid "Height:"
+msgstr "ສູງ (%)"
+
+#: libdialogfilter/pngexportdia.cpp:99
+#, fuzzy
+msgid "Width (%):"
+msgstr "ກວ້າງ (%)"
+
+#: libdialogfilter/pngexportdia.cpp:102
+#, fuzzy
+msgid "Height (%):"
+msgstr "ສູງ (%)"
 
 #: xsltfilter/export/xsltexportdia.cc:144
 #: xsltfilter/import/xsltimportdia.cc:141
