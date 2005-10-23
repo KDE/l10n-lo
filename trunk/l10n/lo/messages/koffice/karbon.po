@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-10-20 02:41+0200\n"
+"POT-Creation-Date: 2005-10-23 02:49+0200\n"
 "PO-Revision-Date: 2003-01-17 18:12+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -318,7 +318,7 @@ msgstr "ເລເຢີ"
 msgid "History"
 msgstr "ປະຫວັດ"
 
-#: dockers/vstrokedocker.cc:45 karbon_view.cc:1378
+#: dockers/vstrokedocker.cc:46 karbon_view.cc:1378
 msgid "Stroke Properties"
 msgstr "ູຸູຄຸນສົມບັດການລາກ"
 
@@ -431,40 +431,50 @@ msgstr "ລຶບວັດຖຸ"
 msgid "Transform Object"
 msgstr "ແປງວັດຖຸ"
 
-#: commands/vtransformcmd.cc:222
+#: commands/vtransformcmd.cc:221
 msgid "Translate Objects"
 msgstr "ແປງວັດຖຸ"
 
-#: commands/vtransformcmd.cc:225
+#: commands/vtransformcmd.cc:224
 msgid "Translate Object"
 msgstr "ແປງວັດຖຸ"
 
-#: commands/vtransformcmd.cc:232
+#: commands/vtransformcmd.cc:231
 msgid "Scale Objects"
 msgstr "ປັບຂະຫນາດວັດຖຸ"
 
-#: commands/vtransformcmd.cc:235
+#: commands/vtransformcmd.cc:234
 msgid "Scale Object"
 msgstr "ປັບຂະຫນາດວັດຖຸ"
 
-#: commands/vtransformcmd.cc:244
+#: commands/vtransformcmd.cc:243
 msgid "Shear Objects"
 msgstr "ເອີ້ນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:247
+#: commands/vtransformcmd.cc:246
 msgid "Shear Object"
 msgstr "ເອນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:255
+#: commands/vtransformcmd.cc:254
 msgid "Rotate Objects"
 msgstr "ຫນຸນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:258
+#: commands/vtransformcmd.cc:257
 msgid "Rotate Object"
 msgstr "ຫນຸນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:266
+#: commands/vtransformcmd.cc:265
 msgid "Translate Bezier"
+msgstr "ແປ"
+
+#: commands/vtransformcmd.cc:353
+#, fuzzy
+msgid "Translate Points"
+msgstr "ແປງວັດຖຸ"
+
+#: commands/vtransformcmd.cc:366
+#, fuzzy
+msgid "Translate Point"
 msgstr "ແປ"
 
 #: commands/vungroupcmd.cc:30
@@ -638,7 +648,7 @@ msgid "Stroke"
 msgstr "ການລາກ"
 
 #: dialogs/vstrokedlg.cc:51 dockers/vdocumentdocker.cc:231
-#: dockers/vstrokedocker.cc:51 tools/vellipsetool.cc:50
+#: dockers/vstrokedocker.cc:52 tools/vellipsetool.cc:50
 #: tools/vrectangletool.cc:38 tools/vroundrecttool.cc:38
 #: tools/vsinustool.cc:41 widgets/vselecttoolbar.cc:51
 msgid "Width:"
@@ -798,13 +808,44 @@ msgstr "Commands"
 msgid "Group commands"
 msgstr "Group commands"
 
-#: dockers/vstrokedocker.cc:59
+#: dockers/vstrokedocker.cc:57
+#, fuzzy
+msgid "Set line width of actual selection"
+msgstr "ລຳດັບການາເລືອກ"
+
+#: dockers/vstrokedocker.cc:61
 msgid "Cap:"
 msgstr "ຫົວເສັ້ນ"
 
+#: dockers/vstrokedocker.cc:70
+msgid "Butt cap"
+msgstr ""
+
+#: dockers/vstrokedocker.cc:75
+#, fuzzy
+msgid "Round cap"
+msgstr "มุมโค้ง"
+
 #: dockers/vstrokedocker.cc:80
+msgid "Square cap"
+msgstr ""
+
+#: dockers/vstrokedocker.cc:85
 msgid "Join:"
 msgstr "ເຊື່ອມ"
+
+#: dockers/vstrokedocker.cc:95
+msgid "Miter join"
+msgstr ""
+
+#: dockers/vstrokedocker.cc:100
+#, fuzzy
+msgid "Round join"
+msgstr "มุมโค้ง"
+
+#: dockers/vstrokedocker.cc:105
+msgid "Bevel join"
+msgstr ""
 
 #: dockers/vstyledocker.cc:78
 #, fuzzy
