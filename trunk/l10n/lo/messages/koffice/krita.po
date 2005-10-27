@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-10-26 02:44+0200\n"
+"POT-Creation-Date: 2005-10-27 02:45+0200\n"
 "PO-Revision-Date: 2003-01-18 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -3899,10 +3899,10 @@ msgstr "ລະດັບຄວາມມົວແສງ"
 msgid "Abstract PaintOp"
 msgstr ""
 
-#: core/kis_strategy_move.cc:58
+#: core/kis_paint_device_impl.cc:186 core/kis_strategy_move.cc:58
 #, fuzzy
-msgid "Moved Painting Device"
-msgstr "อุปกรณ์ย้ายภาพวาด"
+msgid "Move Layer"
+msgstr "ลบเลเยอร์แล้ว"
 
 #: core/kis_filter_strategy.h:49
 #, fuzzy
@@ -4009,11 +4009,6 @@ msgstr ""
 #: core/kis_paint_device_impl.cc:142
 msgid "Layer Composite Mode"
 msgstr ""
-
-#: core/kis_paint_device_impl.cc:186
-#, fuzzy
-msgid "Moved Layer"
-msgstr "ลบเลเยอร์แล้ว"
 
 #: core/kis_paint_device_impl.cc:241
 #, fuzzy
@@ -5733,6 +5728,10 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Moved Painting Device"
+#~ msgstr "อุปกรณ์ย้ายภาพวาด"
 
 #, fuzzy
 #~ msgid "Filter"
