@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-11-03 02:43+0100\n"
+"POT-Creation-Date: 2005-11-04 02:43+0100\n"
 "PO-Revision-Date: 2003-01-18 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1203,7 +1203,7 @@ msgid "dy:"
 msgstr ""
 
 #. i18n: file ./ui/wdgnewimage.ui line 16
-#: ui/kis_dlg_create_img.cc:54 ui/kis_doc.cc:823 rc.cpp:156
+#: ui/kis_dlg_create_img.cc:54 ui/kis_doc.cc:835 rc.cpp:156
 #, no-c-format
 msgid "New Image"
 msgstr "ສ້າງຮູບໃຫມ່"
@@ -3255,17 +3255,17 @@ msgstr "ການເລືອກ"
 msgid "&Rotate"
 msgstr "ຫມຸນ &90"
 
-#: ui/kis_doc.cc:89
+#: ui/kis_doc.cc:101
 #, fuzzy
 msgid "Rename Image"
 msgstr "ລຶບຮູບພາບ"
 
-#: ui/kis_doc.cc:246
+#: ui/kis_doc.cc:258
 #, c-format
 msgid "Image %1"
 msgstr "ຮູບພາບ %1"
 
-#: ui/kis_doc.cc:250
+#: ui/kis_doc.cc:262
 msgid "No colorspace modules loaded: cannot run Krita"
 msgstr ""
 
@@ -3512,7 +3512,7 @@ msgstr "ຊື່:"
 msgid "Layer type:"
 msgstr "ເລເຢີ %1"
 
-#: ui/kis_birdeye_box.cc:152
+#: ui/kis_birdeye_box.cc:153
 msgid "Exposure:"
 msgstr ""
 
@@ -4050,7 +4050,7 @@ msgstr ""
 msgid "Alpha mask"
 msgstr "ອັນຟາ"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:47
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:48
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:47
 #: colorspaces/gray_u16/kis_gray_u16_colorspace.cc:45
 #: colorspaces/gray_u8/kis_gray_colorspace.cc:49
@@ -4269,7 +4269,7 @@ msgid "File(s) or URL(s) to open"
 msgstr "ແຟມຫລື URL ທີ່ຈະຮຽກໃຊ້"
 
 #: colorspaces/wet/kis_wet_colorspace.cc:120
-#: colorspaces/wet/kis_wet_colorspace.h:187 colorspaces/wet/wet_plugin.cc:116
+#: colorspaces/wet/kis_wet_colorspace.h:187 colorspaces/wet/wet_plugin.cc:117
 msgid "Watercolors"
 msgstr ""
 
@@ -4369,15 +4369,15 @@ msgstr "ຄວາມໜາຂອງເວັ້ນ:"
 msgid "Dry the paint (25 times)"
 msgstr ""
 
-#: colorspaces/wet/wet_plugin.cc:90
+#: colorspaces/wet/wet_plugin.cc:91
 msgid "Wet Histogram"
 msgstr ""
 
-#: colorspaces/wet/wet_plugin.cc:105
+#: colorspaces/wet/wet_plugin.cc:106
 msgid "Wetness Visualisation"
 msgstr ""
 
-#: colorspaces/wet/wet_plugin.cc:108
+#: colorspaces/wet/wet_plugin.cc:109
 msgid "Initialize Texture"
 msgstr ""
 
@@ -4494,25 +4494,25 @@ msgstr "ອັນຟາ"
 msgid "CMYK"
 msgstr "CMYK"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:43
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:44
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:43
 #, fuzzy
 msgid "Cyan"
 msgstr "cyan"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:44
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:45
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:44
 #, fuzzy
 msgid "Magenta"
 msgstr "ມ້ວງແດງ"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:45
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:46
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:45
 #, fuzzy
 msgid "Yellow"
 msgstr "ເຫລືອງ"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:46
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:47
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:46
 #, fuzzy
 msgid "Black"
@@ -4615,7 +4615,7 @@ msgstr "ເພີ່ມຊ້ອງ"
 msgid "CMYK16 Histogram"
 msgstr ""
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:41
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:42
 #: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.h:107
 #, fuzzy
 msgid "CMYK/Alpha (16-bit integer/channel)"
@@ -4627,7 +4627,7 @@ msgstr "ເພີ່ມຊ້ອງ"
 msgid "RGB/Alpha (8 bits/channel)"
 msgstr "ເພີ່ມຊ້ອງ"
 
-#: colorspaces/rgb_u8/rgb_plugin.cc:69
+#: colorspaces/rgb_u8/rgb_plugin.cc:71
 msgid "RGB8 Histogram"
 msgstr ""
 
@@ -4637,7 +4637,7 @@ msgstr ""
 msgid "Grayscale/Alpha"
 msgstr "&ລະດັບສີເທົາ"
 
-#: colorspaces/gray_u8/gray_plugin.cc:73
+#: colorspaces/gray_u8/gray_plugin.cc:74
 msgid "GRAY/Alpha8 Histogram"
 msgstr ""
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-10-23 02:49+0200\n"
+"POT-Creation-Date: 2005-11-04 02:44+0100\n"
 "PO-Revision-Date: 2003-01-23 20:01+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -240,7 +240,7 @@ msgstr "ປະສານເຊລ์"
 msgid "Dissociate Cell"
 msgstr "ແຍກເຊລ"
 
-#: commands.cc:135 kspread_view.cc:6024 kspread_view.cc:6042
+#: commands.cc:135 kspread_view.cc:6034 kspread_view.cc:6052
 msgid "Rename Sheet"
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 
@@ -269,8 +269,8 @@ msgstr "ສະແດງແຜ່ນງານ..."
 msgid "Add Sheet"
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
-#: commands.cc:262 kspread_view.cc:779 kspread_view.cc:5979
-#: kspread_view.cc:5984
+#: commands.cc:262 kspread_view.cc:779 kspread_view.cc:5989
+#: kspread_view.cc:5994
 msgid "Remove Sheet"
 msgstr "ລືບແຜ່ນງານ"
 
@@ -4133,7 +4133,7 @@ msgstr "ການເລືອກສູດ"
 msgid "Insert a function."
 msgstr "ສອດຟັງຊັ້ນ"
 
-#: kspread_view.cc:966 kspread_view.cc:2974
+#: kspread_view.cc:966 kspread_view.cc:2975
 msgid "Others..."
 msgstr "ອື່ນຯ..."
 
@@ -4385,24 +4385,24 @@ msgstr ""
 msgid "Run Inspector..."
 msgstr ""
 
-#: kspread_view.cc:1909
+#: kspread_view.cc:1910
 msgid "Spell Checking"
 msgstr "ການກວດຄຳສະກົດ"
 
-#: kspread_view.cc:2048
+#: kspread_view.cc:2049
 msgid "Spell checking is complete."
 msgstr "ການກວດຄຳສະກົດຮຽບຮອ້ຍແລ້ວ"
 
-#: kspread_view.cc:2095
+#: kspread_view.cc:2096
 #, fuzzy
 msgid "Do you want to check the spelling in the next sheet?"
 msgstr "ທ່ານຕ້ອງການຈະກວດຄຳສະກົດໃນຕາລາງຖັດໄປແມ່ນຫລືບໍ່ ?"
 
-#: kspread_view.cc:2154
+#: kspread_view.cc:2155
 msgid "Correct Misspelled Word"
 msgstr "ແກ້ຄຳທີ່ສະກົດຜິດໃຫ້ຖືກຕອ້ງ"
 
-#: kspread_view.cc:2214
+#: kspread_view.cc:2215
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
@@ -4410,42 +4410,42 @@ msgstr ""
 "ບໍ່ສາມາດເລີ່ມການທຳງານ Iສະກົດ ໄດ้້\n"
 "ກະລຸນາກວດສອບວ່າທ່ານໄດ້ປັບແຕ່ງເສັ້ນທາງໃນຕົວແປພາດໃຫ້ຊີ້ໄປຍັງໂປຣແກຣມIສະກົດ ແລ້ວ"
 
-#: kspread_view.cc:2220
+#: kspread_view.cc:2221
 msgid "ISpell seems to have crashed."
 msgstr "ເບິ່ງຄືວ່າ Iສະກົດ ຈະທຳງານຜິດພາດ"
 
-#: kspread_view.cc:3102 kspread_view.cc:3123 kspread_view.cc:3830
-#: kspread_view.cc:4235
+#: kspread_view.cc:3103 kspread_view.cc:3124 kspread_view.cc:3831
+#: kspread_view.cc:4236
 msgid "You must select multiple cells."
 msgstr "ທ່ານຕ້ອງເລືອກເຊລຫລາຍເຊລກ່ອນ"
 
-#: kspread_view.cc:3546 kspread_view.cc:6018
+#: kspread_view.cc:3547 kspread_view.cc:6028
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "ທ່ານບໍ່ສາມາດລືບແຜ່ນງານທີມເຫລືອຢູ່ແຜ່ນດ່ຽວໄດ້"
 
-#: kspread_view.cc:3574
+#: kspread_view.cc:3575
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "ທ່ານບໍ່ສາມາດເຊື່ອງຕະລາງຕົວສຸດທ້າຍໄດ້າແລ້ວ"
 
-#: kspread_view.cc:3750 kspread_view.cc:4199 kspread_view.cc:4214
-#: kspread_view.cc:4429 kspread_view.cc:5411 kspread_view.cc:5558
-#: kspread_view.cc:5569 kspread_view.cc:5580 kspread_view.cc:5592
+#: kspread_view.cc:3751 kspread_view.cc:4200 kspread_view.cc:4215
+#: kspread_view.cc:4430 kspread_view.cc:5421 kspread_view.cc:5568
+#: kspread_view.cc:5579 kspread_view.cc:5590 kspread_view.cc:5602
 #, fuzzy
 msgid "Area is too large."
 msgstr "ພື້ນທີ່ໃຫຍ່ເກີນໄປ !"
 
-#: dialogs/link.cc:60 kspread_view.cc:4266
+#: dialogs/link.cc:60 kspread_view.cc:4267
 msgid "Insert Link"
 msgstr "ການແຊກການເຊື່ອມໂຍງ"
 
-#: kspread_view.cc:4272
+#: kspread_view.cc:4273
 #, fuzzy
 msgid "Edit Link"
 msgstr "ການແຊກການເຊື່ອມໂຍງ"
 
-#: kspread_view.cc:4302
+#: kspread_view.cc:4303
 #, fuzzy
 msgid ""
 "No database drivers available.  To use this feature you need to install the "
@@ -4453,84 +4453,84 @@ msgid ""
 msgstr ""
 "ບໍ່ມີໄດເວີສຳລັບຖານຂໍ້ມູນຢ!ູ່ ທ່ານຕ້ອງຄອມຟາຍ ໃໜ່ ພ້ອມກັບໄດເວີທີ່ຕ້ອງໃຊ້ Qt"
 
-#: kspread_view.cc:4407
+#: kspread_view.cc:4408
 msgid "Nothing to print."
 msgstr "ບໍ່ມີສິ່ງທີ່ຈະພິມ"
 
-#: kspread_view.cc:4508
+#: kspread_view.cc:4518
 #, fuzzy
 msgid "Protect Document"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:4523
+#: kspread_view.cc:4533
 #, fuzzy
 msgid "Unprotect Document"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:4536 kspread_view.cc:4586
+#: kspread_view.cc:4546 kspread_view.cc:4596
 msgid "Password is incorrect."
 msgstr ""
 
-#: kspread_view.cc:4556
+#: kspread_view.cc:4566
 #, fuzzy
 msgid "Protect Sheet"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: kspread_view.cc:4572
+#: kspread_view.cc:4582
 #, fuzzy
 msgid "Unprotect Sheet"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: kspread_view.cc:4963
+#: kspread_view.cc:4973
 msgid "Delete Embedded Document"
 msgstr "ລືບເອກະສານທີ່ຝັ່ງຢູ່"
 
-#: kspread_view.cc:5022
+#: kspread_view.cc:5032
 msgid "Adjust Column"
 msgstr "ປັບຂະຫນາດຖັນໃຫ້ພໍດີ"
 
-#: kspread_view.cc:5107
+#: kspread_view.cc:5117
 msgid "Adjust Row"
 msgstr "ປັບຂະຫນາດແຖວໃຫ້ພໍດີ"
 
-#: kspread_view.cc:5320
+#: kspread_view.cc:5330
 msgid "Selection List..."
 msgstr "ລາຍການການເລືອກ..."
 
-#: kspread_view.cc:5819
+#: kspread_view.cc:5829
 #, fuzzy
 msgid "Create Style From Cell"
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kspread_view.cc:5820 kspread_view.cc:6024 kspread_view.cc:6042
+#: kspread_view.cc:5830 kspread_view.cc:6034 kspread_view.cc:6052
 msgid "Enter name:"
 msgstr "ຕື່ມຊື່:"
 
-#: kspread_view.cc:5830
+#: kspread_view.cc:5840
 #, fuzzy
 msgid "The style name cannot be empty."
 msgstr "ຊື່ຕາລາງບໍ່ສາມາດວ່າງໄວ້ໄດ້"
 
-#: dialogs/kspread_dlg_layout.cc:221 kspread_view.cc:5837
+#: dialogs/kspread_dlg_layout.cc:221 kspread_view.cc:5847
 #, fuzzy
 msgid "A style with this name already exists."
 msgstr "ມີແຟ້ມຢູ່ແລ້ວ"
 
-#: kspread_view.cc:5921
+#: kspread_view.cc:5931
 #, fuzzy
 msgid "Area too large."
 msgstr "ພື້ນທີ່ໃຫຍ່ເກີນໄປ !"
 
-#: kspread_view.cc:5927
+#: kspread_view.cc:5937
 #, fuzzy
 msgid "No charting component registered."
 msgstr "ຄອມໂພເນັນແຜນພູມຍັງບໍ່ໄດ້ລົງທະບຽນໄວ້"
 
-#: kspread_view.cc:5979
+#: kspread_view.cc:5989
 msgid "You cannot delete the only sheet."
 msgstr "ທ່ານບໍ່ສາມາດລືບແຜ່ນງານທີມເຫລືອຢູ່ແຜ່ນດ່ຽວໄດ້"
 
-#: kspread_view.cc:5983
+#: kspread_view.cc:5993
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -4538,49 +4538,49 @@ msgstr ""
 "ທ່ານກຳລັງຈະເຮັດການລືບແຜ່ນງານທີ່ກຳລັງທຳງານຢູ່\n"
 "ທ່ານຕ້ອງການເຮັດຕໍ່ໄປແມ່ນຫລືບໍ່ ?"
 
-#: kspread_view.cc:6031
+#: kspread_view.cc:6041
 msgid ""
 "Sheet name contains illegal characters. Only numbers and letters are allowed."
 msgstr "ຊື່ຊິດສ ບັນຈຸູແບບຕົວອັກສອນທີ່ຜິດແບບ.ພຽງແຕ່ຕົວອັກສອນທີ່ແມ່ນອຸນຸຍາດ"
 
-#: kspread_view.cc:6032 kspread_view.cc:6050 kspread_view.cc:6060
+#: kspread_view.cc:6042 kspread_view.cc:6060 kspread_view.cc:6070
 msgid "Change Sheet Name"
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 
-#: kspread_view.cc:6050
+#: kspread_view.cc:6060
 msgid "Sheet name cannot be empty."
 msgstr "ຊື່ຕາລາງບໍ່ສາມາດວ່າງໄວ້ໄດ້"
 
-#: dialogs/kspread_dlg_area.cc:90 kspread_view.cc:6060
+#: dialogs/kspread_dlg_area.cc:90 kspread_view.cc:6070
 msgid "This name is already used."
 msgstr "ມີການໄຊ້ຊື່ນີ້ຢູ່ແລ້ວ"
 
-#: kspread_view.cc:6288
+#: kspread_view.cc:6298
 #, fuzzy
 msgid "Sum: "
 msgstr "ຜົນລວມ: %1"
 
-#: kspread_view.cc:6291
+#: kspread_view.cc:6301
 #, fuzzy
 msgid "Average: "
 msgstr "ຄ່າສະເລ່ຍ: %1"
 
-#: kspread_view.cc:6294
+#: kspread_view.cc:6304
 #, fuzzy
 msgid "Min: "
 msgstr "ຄ່ານ້ອຍທີ່ສຸດ: %1"
 
-#: kspread_view.cc:6297
+#: kspread_view.cc:6307
 #, fuzzy
 msgid "Max: "
 msgstr "ຄ່າຫລາຍທີ່ສຸດ: %1"
 
-#: kspread_view.cc:6300
+#: kspread_view.cc:6310
 #, fuzzy
 msgid "Count: "
 msgstr "ນັບຈຳນວນ: %1"
 
-#: kspread_view.cc:6303
+#: kspread_view.cc:6313
 #, fuzzy
 msgid "CountA: "
 msgstr "ນັບຈຳນວນ: %1"
