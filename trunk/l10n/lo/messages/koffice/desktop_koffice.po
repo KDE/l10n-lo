@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-11-04 01:59+0000\n"
+"POT-Creation-Date: 2005-11-05 02:01+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -228,12 +228,14 @@ msgid "Name=KPresenter XPM Export Filter"
 msgstr "Name=ຕົວຕອງການສົ່ງອອກ  PNG ຂອງ Karbon14"
 
 #: filters/krita/magick/krita_magick.desktop:3
-#: filters/krita/openexr/krita_openexr.desktop:3 krita/krita.desktop:3
+#: filters/krita/openexr/krita_openexr.desktop:3
+#: filters/krita/raw/krita_raw.desktop:3 krita/krita.desktop:3
 msgid "Name=Krita"
 msgstr "Name=ກຣິຕາ"
 
 #: filters/krita/magick/krita_magick.desktop:8
-#: filters/krita/openexr/krita_openexr.desktop:8 krita/krita.desktop:8
+#: filters/krita/openexr/krita_openexr.desktop:8
+#: filters/krita/raw/krita_raw.desktop:8 krita/krita.desktop:8
 #, fuzzy
 msgid "GenericName=Painting and Image Editing Application"
 msgstr "GenericName=แอพพลิเคชัน KDE KPart"
@@ -256,6 +258,16 @@ msgstr "Name= ຕົວຕອງການນຳເຂົ້າ WML ຂອງເ�
 #, fuzzy
 msgid "Name=Krita OpenEXR Import Filter"
 msgstr "Name= ຕົວຕອງການນຳເຂົ້າ WML ຂອງເອກະສານຂໍ້ຄວາມ K"
+
+#: filters/krita/raw/krita_raw_import.desktop:4
+#, fuzzy
+msgid "Name=Krita RAW Import Filter"
+msgstr "Name= ຕົວຕອງການນຳເຂົ້າ WML ຂອງເອກະສານຂໍ້ຄວາມ K"
+
+#: filters/krita/raw/x-raw.desktop:7
+#, fuzzy
+msgid "Comment=Camera RAW image"
+msgstr "Comment=เกมบอลที่คล้ายกันของ K"
 
 #: filters/krita/xcf/krita_xcf_export.desktop:3
 #, fuzzy
@@ -1418,7 +1430,7 @@ msgstr "Comment=แฟ้มสำรองข้อมูล"
 msgid "Name=CImg Image Restoration Filter"
 msgstr "Name=ตัวกรองการบีบอัดของ KDE"
 
-#: krita/plugins/filters/cimg/kritacimg.desktop:27
+#: krita/plugins/filters/cimg/kritacimg.desktop:28
 #, fuzzy
 msgid "Comment=CImg Image restoration filter"
 msgstr "Comment=ตัวกรองการเลือกหน้า/การจัดลำดับ"
@@ -6538,9 +6550,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "Name=Excellent finish"
 #~ msgstr "Name=จบได้ยอดเยี่ยมมาก"
-
-#~ msgid "Comment=SameGame"
-#~ msgstr "Comment=เกมบอลที่คล้ายกันของ K"
 
 #~ msgid "Comment=You clicked on some stones and made them disappear."
 #~ msgstr "Comment=เมื่อคลิ้กที่บอลตัวใด จะทำให้มันหายไป"
