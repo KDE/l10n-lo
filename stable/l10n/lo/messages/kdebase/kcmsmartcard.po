@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2005-05-18 21:24+0200\n"
+"PO-Revision-Date: 2003-01-13 13:54+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Thanomsub Noppaburana"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "donga_n@yahoo.com"
+
+#. i18n: file nosmartcardbase.ui line 24
+#: rc.cpp:3
+#, fuzzy, no-c-format
+msgid "<b>Unable to contact the KDE smartcard service.</b>"
+msgstr "<b>ບໍ່ສາມາດຕິດຕໍ່ກັບບໍລິການສາມາດກາດຂອງ KDE ໄດ้ !</b>"
+
+#. i18n: file nosmartcardbase.ui line 35
+#: rc.cpp:6
+#, no-c-format
+msgid "Possible Reasons"
+msgstr "ເຫດທີ່ເປັນໄປໄດ້"
+
+#. i18n: file nosmartcardbase.ui line 49
+#: rc.cpp:9
+#, fuzzy, no-c-format
+msgid ""
+"\n"
+"1) The KDE daemon, 'kded' is not running. You can restart it by running the "
+"command 'kdeinit' and then try reloading the KDE Control Center to see if this "
+"message goes away.\n"
+"\n"
+"2) You don't appear to have smartcard support in the KDE libraries. You will "
+"need to recompile the kdelibs package with libpcsclite installed."
+msgstr ""
+"\n"
+"1) ເດມອນ 'kded' ຂອງ KDE ບໍ່ໄດ້ທຳງານຢ่ູ່ ທ່ານສາມາດເລີ່ມການທຳງານຂອງມັນຝຫມ່ໄດ້ "
+"ໂດຍເອີ້ນໃຊ້ຄຳສັ່ງ 'kdeinit' ຈາກນັ້ນໃຫ້ລອງເອີ້ນສູນຄວບຄູມ KDE ເພື່ອກວດສອບວ່າ "
+"ຈະບໍ່ປະກົດຂໍ້ຄວາມນີ້ອີກ\n"
+"\n"
+"2)ໄລບຣາຣີ KDE ຂອງທ່ານ ອາກຈະຍັງບໍ່ສາມາດສະນັບສະຫນູນສາມາດກາດສ "
+"ທ່ານຈຳເປັນຈະຕ້ອງເຮັດການຄອມໄພແພ້ກເກສ kdelibs ໃຫມ່ "
+"ໂດຍທີ່ຕ້ອງມີການຕິດຕັ້ງໄລຣບຣາຣີีlibpcsclite ໄວ້ກ່ອນດ້ວຍ"
+
+#. i18n: file smartcardbase.ui line 31
+#: rc.cpp:15
+#, no-c-format
+msgid "Smartcard Support"
+msgstr "ສະນັບສະຫນູນສະມາດກາດສ"
+
+#. i18n: file smartcardbase.ui line 42
+#: rc.cpp:18
+#, no-c-format
+msgid "&Enable smartcard support"
+msgstr "ເປິດໃຊ້ການສນັບສະຫນູນສະມາດກາດສ"
+
+#. i18n: file smartcardbase.ui line 61
+#: rc.cpp:21
+#, no-c-format
+msgid "Enable &polling to autodetect card events"
+msgstr "ເປິດໃຊ້ການສຳຫລວດກາດສອັດຕະໂນມັດ"
+
+#. i18n: file smartcardbase.ui line 64
+#: rc.cpp:24
+#, no-c-format
+msgid ""
+"In most cases you should have this enabled. It allows KDE to automatically "
+"detect card insertion and reader hotplug events."
+msgstr ""
+"ໂດຍທົ່ວໄປທ່ານຄວນດປິດໃຊ້ງານຕົວເລຶອກຊຶ່ງມັນຈະເຮັດໃຫ້ KDE "
+"ສາມາດເຮັດການກວດສອບ.ການສງລແລະຖອດກາດສໄດ້ໂດຍອັດຕະໂນມັດ"
+
+#. i18n: file smartcardbase.ui line 92
+#: rc.cpp:27
+#, no-c-format
+msgid "Automatically &launch card manager if inserted card is unclaimed"
+msgstr "ເອີ້ນຕົວຈັດການກາດສອັດຕະໂນມັດຫຫາກບໍ່ສາມາດຈັດການໂຕທີ່ສງບເຂົ້າມາໄດ້"
+
+#. i18n: file smartcardbase.ui line 95
+#: rc.cpp:30
+#, no-c-format
+msgid ""
+"When you insert a smartcard, KDE can automatically launch a management tool if "
+"no other application attempts to use the card."
+msgstr ""
+"ເມື່ອທ່ານສງບສະມາດກາດສ KDE ສາມາດຈະເຣັດການເອິ້ນໃຊ້ເຄື່ອງມືຈັດການມັນໃຫ້ອັດຕະໂນມັດ "
+"ຫາກຍັງບໍ່ມີແອພພຣິເດຊັນອິນທ່ານເອີ້ນໃຊ້ກາດສນີ້"
+
+#. i18n: file smartcardbase.ui line 106
+#: rc.cpp:33
+#, no-c-format
+msgid "&Beep on card insert and removal"
+msgstr "ບີບເຕືອນເມື່ອມີການສງບກ່ດສແລະຖອດກາດສ"
+
+#. i18n: file smartcardbase.ui line 135
+#: rc.cpp:36
+#, no-c-format
+msgid "Readers"
+msgstr "ເຄື່ອງອ່ານ"
+
+#. i18n: file smartcardbase.ui line 152
+#: rc.cpp:39
+#, no-c-format
+msgid "Reader"
+msgstr "ເຄື່ອງອ່ານ"
+
+#. i18n: file smartcardbase.ui line 163
+#: rc.cpp:42
+#, no-c-format
+msgid "Type"
+msgstr "ປະເພດ"
+
+#. i18n: file smartcardbase.ui line 174
+#: rc.cpp:45
+#, no-c-format
+msgid "Subtype"
+msgstr "ປະເພດຍ່ອຍ"
+
+#. i18n: file smartcardbase.ui line 185
+#: rc.cpp:48
+#, no-c-format
+msgid "SubSubtype"
+msgstr "ປະເພດຍ່ອຍໆ"
+
+#. i18n: file smartcardbase.ui line 228
+#: rc.cpp:51
+#, no-c-format
+msgid "PCSCLite Configuration"
+msgstr "ປັບແຕ່ງ PCSCLite"
+
+#. i18n: file smartcardbase.ui line 251
+#: rc.cpp:54
+#, no-c-format
+msgid ""
+"To add new readers you have to modify /etc/readers.conf file and re-start pcscd"
+msgstr ""
+"ເພື່ອເພີ່ມຕົວອ່ານຕົວໃຫມ່ທ່ານຕ້ອງເຮັດການແກ້ໄຂແຟ້ມ/etc/readers.conf "
+"ແລະເລີ່ມການທຳງານ pcscd ໃຫມ່"
+
+#: smartcard.cpp:59
+msgid "kcmsmartcard"
+msgstr "kcmsmartcard"
+
+#: smartcard.cpp:59
+msgid "KDE Smartcard Control Module"
+msgstr "ໂມດູນຄວບຄູມສະມາດກາດສບົນKDE"
+
+#: smartcard.cpp:61
+msgid "(c) 2001 George Staikos"
+msgstr "(c) 2001 George Staikos"
+
+#: smartcard.cpp:73
+msgid "Change Module..."
+msgstr "ປງ່ນໂມດູນ"
+
+#: smartcard.cpp:128
+msgid "Unable to launch KCardChooser"
+msgstr "ບໍ່ສາມາດເອີ້ນໃຫ້ KCardChooser ທຳງານໄດ້"
+
+#: smartcard.cpp:177
+msgid "No card inserted"
+msgstr "ຍັງບໍ່ມີກາດສທີ່ສງບ"
+
+#: smartcard.cpp:216
+msgid "Smart card support disabled"
+msgstr "ປິດການໃຊ້ການສະນັບສະຫນູນສະມາດກາດສ"
+
+#: smartcard.cpp:227
+#, fuzzy
+msgid "No readers found. Check 'pcscd' is running"
+msgstr "ບໍ່ພົບເຄື່ອງອ່ານ ໂປດກວດສອບວ່າ 'pcscd' ກຳລັງທຳງານຢູ່"
+
+#: smartcard.cpp:250 smartcard.cpp:270
+msgid "NO ATR or no card inserted"
+msgstr "ຍັງບໍ່ມີກາດສທີ່ສງບ"
+
+#: smartcard.cpp:282
+msgid "Managed by: "
+msgstr "ຖຶກຈັດການໂດຍ: "
+
+#: smartcard.cpp:292
+msgid "No module managing this card"
+msgstr "ບໍ່ມີໂມດູນສຳລັບຈັດການກັບກາດສນີ້"
+
+#: smartcard.cpp:381
+msgid ""
+"<h1>smartcard</h1> This module allows you to configure KDE support for "
+"smartcards. These can be used for various tasks such as storing SSL "
+"certificates and logging in to the system."
+msgstr ""
+"<h1>ສະມາດກາດສ</h1> ໂມດູນນີ້ສຳລັບຝຫ້ທ່ານໄດ້ປັບແຕ່ງການສະນັບສະຫນູນສະມາດກາດສບົນ KDE "
+"ຊື່ງສາມາດໃຊ້ໄດ້ຈາກງານທົ່ວໄປເຊັ່ນການເກັບຝບຮັບຮອງSSL ແລະການລ໊ອກອິນເຂົ້າສູ່ລະບົບ "
+
+#~ msgid "Form2"
+#~ msgstr "ฟอร์ม2"
+
+#~ msgid "SmartcardBase"
+#~ msgstr "SmartcardBase"

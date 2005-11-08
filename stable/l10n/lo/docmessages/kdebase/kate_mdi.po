@@ -1,0 +1,535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2005-07-30 13:38+0000\n"
+"PO-Revision-Date: 2003-01-02 13:35+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-xml2pot; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#. Tag: author
+#: mdi.docbook:4
+#, no-c-format
+msgid "&Anders.Lund; &Anders.Lund.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: mdi.docbook:5
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:8
+#, no-c-format
+msgid "Working With the &kate; <acronym>MDI</acronym>"
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:11
+#, no-c-format
+msgid "Overview"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:13
+#, no-c-format
+msgid ""
+"Window, View, Document, Frame, Editor... What are they all in the terminology "
+"of &kate;, and how do you get the most out of it? This chapter will explain all "
+"of that, and even more."
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:19
+#, no-c-format
+msgid "The Main Window"
+msgstr ""
+
+#. Tag: primary
+#: mdi.docbook:21
+#, no-c-format
+msgid "Main window"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:21
+#, no-c-format
+msgid ""
+"The &kate; Main Window is a standard &kde; application window, with the "
+"addition of dockable subwindows, or tool windows. It has a Menubar with all the "
+"common menus, and some more, and a toolbar providing access to commonly used "
+"commands."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:27
+#, no-c-format
+msgid ""
+"The most important part of the window is the Editing Area, by default "
+"displaying a single text editor component, in which you can work with your "
+"documents."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:31
+#, no-c-format
+msgid "The docking capabilities of the window is used for the tool windows:"
+msgstr ""
+
+#. Tag: link
+#: mdi.docbook:35
+#, no-c-format
+msgid "The File List"
+msgstr ""
+
+#. Tag: link
+#: mdi.docbook:36
+#, no-c-format
+msgid "<link>The File Selector</link>"
+msgstr ""
+
+#. Tag: link
+#: mdi.docbook:37
+#, no-c-format
+msgid "<link>The Built in Terminal Emulator</link>"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:40
+#, no-c-format
+msgid "And possibly other tool windows, for example provided by plugins."
+msgstr ""
+
+#. Tag: primary
+#: mdi.docbook:43
+#, no-c-format
+msgid "Tool Windows"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:43
+#, no-c-format
+msgid ""
+"The Tool Windows can be placed anywhere you want them inside or outside the "
+"main window by dragging the handle bar in the top of them with the &LMB; "
+"pressed, and stacked in shared tab windows if desired."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:49
+#, no-c-format
+msgid ""
+"When dragging a docked window, a black rectangle will be displayed to indicate "
+"where the window will be placed if you release the mouse button, unless you "
+"move the mouse cursor outside the main window, in which case the dragged window "
+"will become a free floating top level window."
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:62
+#, no-c-format
+msgid "The Editor area"
+msgstr ""
+
+#. Tag: primary
+#: mdi.docbook:64
+#, no-c-format
+msgid "Editing Area"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:64
+#, no-c-format
+msgid ""
+"&kate; is capable of having more than one document open at the same time, and "
+"also of splitting the editing area into any number of frames, similar to how "
+"for example &konqueror; or the popular <application>emacs</application> "
+"text editor works. This way you can view several documents at the same time, or "
+"more instances of the same document, handy for example if your document "
+"contains definitions in the top that you want to see often for reference. Or "
+"you could view a program source header in one frame, while editing the "
+"implementation file in another."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:75
+#, no-c-format
+msgid ""
+"When a document is available in more than one editor, changes made in one "
+"editor will immediately be reflected in the others as well. This includes "
+"changing the text as well as selecting text. Search operations or cursor "
+"movement is only reflected in the current editor."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:81
+#, no-c-format
+msgid ""
+"It is currently not possible to have more instances of the same document open "
+"in the sense that one instance will be edited while the other will not."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:85
+#, no-c-format
+msgid ""
+"When splitting an editor into two frames, it is divided into two equally sized "
+"frames, both displaying the current document of that editor. The new frame will "
+"be at the bottom (in the case of a horizontal split) or at the right (for a "
+"vertical split). The new frame gets the focus, which is visualized by a small "
+"green led in the focused frame."
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:95
+#, no-c-format
+msgid "The Document List"
+msgstr ""
+
+#. Tag: primary
+#: mdi.docbook:97
+#, no-c-format
+msgid "File list"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:97
+#, no-c-format
+msgid ""
+"The file list displays a list of all documents currently open in &kate;. "
+"Modified files will have a small <guiicon>floppy disk</guiicon> "
+"icon on their left to indicate that state."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:102
+#, no-c-format
+msgid ""
+"If two or more files with the same name (located in different folders) are "
+"open, the names of the second will be prepended <quote>&lt;2&gt;</quote> "
+"and so on. The tool-tip for the file will display its full name including the "
+"path, allowing you to choose the desired one."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:106
+#, no-c-format
+msgid ""
+"To display a document in the currently active frame, click the document name in "
+"the list."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:109
+#, no-c-format
+msgid ""
+"You can sort the list in a few different ways by rightclicking the list and "
+"selecting from the <guisubmenu>Sort By</guisubmenu> menu. The options are"
+msgstr ""
+
+#. Tag: guimenuitem
+#: mdi.docbook:116
+#, no-c-format
+msgid "Opening Order"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:117
+#, no-c-format
+msgid "Lists the documents in the order of opening"
+msgstr ""
+
+#. Tag: guimenuitem
+#: mdi.docbook:121
+#, no-c-format
+msgid "Document Name"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:122
+#, no-c-format
+msgid "Lists the documents alphabetically by their name."
+msgstr ""
+
+#. Tag: guimenuitem
+#: mdi.docbook:126
+#, no-c-format
+msgid "<guimenuitem>URL</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:127
+#, no-c-format
+msgid "Lists the documents alphabetically by URL."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:134
+#, no-c-format
+msgid ""
+"The document list will pr default visualize your history by shading the entries "
+"for the most recent documents with a background color. If the document was "
+"edited, an extra color is blended in. The most recent document has the "
+"strongest color, so that you can easily find the documents you are working on. "
+"This feature can be disabled in <link linkend=\"config-dialog-documentlist\">"
+"The Document List Page</link> of the configuration dialog."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:142
+#, no-c-format
+msgid ""
+"The default location in the &kate; window is to the left of the editing area."
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:147
+#, no-c-format
+msgid "<title>The File Selector</title>"
+msgstr ""
+
+#. Tag: primary
+#: mdi.docbook:149
+#, no-c-format
+msgid "File selector"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:149
+#, no-c-format
+msgid ""
+"The File Selector is a folder viewer, allowing you to open files from a "
+"displayed folder in the current frame."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:153
+#, no-c-format
+msgid "From top down, the file selector consist of the following elements:"
+msgstr ""
+
+#. Tag: term
+#: mdi.docbook:158
+#, no-c-format
+msgid "A Toolbar"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:160
+#, no-c-format
+msgid "This contains standard navigations tool buttons:"
+msgstr ""
+
+#. Tag: guibutton
+#: mdi.docbook:163
+#, no-c-format
+msgid "Home"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:164
+#, no-c-format
+msgid ""
+"Pressing it will cause the folder view to <command>cd</command> "
+"to your home folder."
+msgstr ""
+
+#. Tag: guibutton
+#: mdi.docbook:167
+#, no-c-format
+msgid "<guibutton>Up</guibutton>"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:168
+#, no-c-format
+msgid ""
+"This will cause the folder view to <command>cd</command> "
+"to the immediate parent of the currently displayed folder if possible."
+msgstr ""
+
+#. Tag: guibutton
+#: mdi.docbook:172
+#, no-c-format
+msgid "Back"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:173
+#, no-c-format
+msgid ""
+"Causes the folder view to <command>cd</command> to the previously displayed "
+"folder in the history. This button is disabled, if there is no previous item."
+msgstr ""
+
+#. Tag: guibutton
+#: mdi.docbook:177
+#, no-c-format
+msgid "Forward"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:178
+#, no-c-format
+msgid ""
+"Causes the folder view to <command>cd</command> to the next folder in the "
+"history. This button is disabled, if there is no next folder."
+msgstr ""
+
+#. Tag: guibutton
+#: mdi.docbook:182
+#, no-c-format
+msgid "Sync"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:183
+#, no-c-format
+msgid ""
+"This button will cause the folder view to <command>cd</command> "
+"to the folder of the currently active document if possible. This button is "
+"disabled, if the active document is a new, unsaved file, or the folder in which "
+"it resides can not be decided."
+msgstr ""
+
+#. Tag: term
+#: mdi.docbook:195
+#, no-c-format
+msgid "A &URL; entry"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:197
+#, no-c-format
+msgid ""
+"Here you can type the path of a folder to browse. The &URL; entry maintains a "
+"list of previously typed paths. To choose one use the arrow button to the right "
+"of the entry."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:200
+#, no-c-format
+msgid ""
+"The &URL; entry has folder auto-completion. The completion method can be set "
+"using the &RMB; menu of the text entry."
+msgstr ""
+
+#. Tag: term
+#: mdi.docbook:207
+#, no-c-format
+msgid "A Folder View"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:208
+#, no-c-format
+msgid "This is a standard &kde; folder view."
+msgstr ""
+
+#. Tag: term
+#: mdi.docbook:212
+#, no-c-format
+msgid "A Filter Entry"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:214
+#, no-c-format
+msgid ""
+"The Filter entry allows you to enter a filter for the files displayed in the "
+"folder view. The filter uses standard globs; patterns must be separated by "
+"white space. Example: <userinput>*.cpp *.h *.moc</userinput>"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:218
+#, no-c-format
+msgid "To display all files, enter a single asterisk <userinput>*</userinput>."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:220
+#, no-c-format
+msgid ""
+"The filter entry saves the last 10 filters entered between sessions, to use "
+"one, press the arrow button on the right of the entry and select the desired "
+"filter string."
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:232
+#, no-c-format
+msgid "<title>The Built in Terminal Emulator</title>"
+msgstr ""
+
+#. Tag: primary
+#: mdi.docbook:234
+#, no-c-format
+msgid "Terminal emulator"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:234
+#, no-c-format
+msgid ""
+"The built in Terminal Emulator is a copy of the &kde; &konsole; terminal "
+"application, for your convenience. It is available from the <menuchoice>"
+"<guimenu>Settings</guimenu><guimenuitem>Show Terminal Emulator</guimenuitem>"
+"</menuchoice> menu item or by pressing the <keycombo action=\"simul\"><keycap>"
+"F7</keycap></keycombo> key, and will get the focus whenever displayed. "
+"Additionally, if the <link linkend=\"config-dialog-general-sync-konsole\">"
+"Sync &konsole; with active document</link> option is enabled, it will change "
+"into the directory of the current document if possible when it is displayed, or "
+"when the current document changes."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:247
+#, no-c-format
+msgid ""
+"The default location in the &kate; window is at the bottom, below the editing "
+"area."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:250
+#, no-c-format
+msgid ""
+"You can configure the &konsole; using it's &RMB; menu, for more information, "
+"see the &konsole; manual."
+msgstr ""
+
+#. Tag: title
+#: mdi.docbook:256
+#, no-c-format
+msgid "External Tools"
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:258
+#, no-c-format
+msgid ""
+"In the <guimenu>Tools</guimenu> menu you will find a submenu labeled "
+"<guisubmenu>External Tools</guisubmenu>. These tools invokes external "
+"applications with data related to the current document, for example its URL, "
+"directory, text or selection."
+msgstr ""
+
+#. Tag: para
+#: mdi.docbook:263
+#, no-c-format
+msgid ""
+"External tools are user defined, you can add, edit or remove tools using the "
+"<link linkend=\"config-dialog-externaltools\">External Tools configuration "
+"panel</link>."
+msgstr ""

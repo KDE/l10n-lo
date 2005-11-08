@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2005-09-21 03:03+0200\n"
+"PO-Revision-Date: 2003-01-14 16:41+0700\n"
+"Last-Translator:  <souvanthong@kanlao05>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: imap4.cc:627
+msgid "Message from %1 while processing '%2': %3"
+msgstr ""
+
+#: imap4.cc:629
+msgid "Message from %1: %2"
+msgstr ""
+
+#: imap4.cc:950
+msgid ""
+"The following folder will be created on the server: %1 What do you want to "
+"store in this folder?"
+msgstr ""
+
+#: imap4.cc:952
+msgid "Create Folder"
+msgstr "ສ້າງໂຟລເດີ"
+
+#: imap4.cc:953
+msgid "&Messages"
+msgstr "ຈົດຫມາຍ"
+
+#: imap4.cc:953
+msgid "&Subfolders"
+msgstr "ໂຟລເດີຍ່ອຍ"
+
+#: imap4.cc:1285
+#, fuzzy
+msgid "Unsubscribe of folder %1 failed. The server returned: %2"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1306
+#, fuzzy
+msgid "Subscribe of folder %1 failed. The server returned: %2"
+msgstr "Subscribe of folder %1 failed."
+
+#: imap4.cc:1356 imap4.cc:1368
+msgid "Changing the flags of message %1 failed."
+msgstr "ການປ່ງນສະຖານະຂອງຈົດຫມາຍ %1 ລົ້ມເຫຼວ"
+
+#: imap4.cc:1408
+#, fuzzy
+msgid ""
+"Setting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1427
+#, fuzzy
+msgid ""
+"Deleting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1444 imap4.cc:1471
+#, fuzzy
+msgid ""
+"Retrieving the Access Control List on folder %1 failed. The server returned: %2"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1505
+#, fuzzy
+msgid "Searching of folder %1 failed. The server returned: %2"
+msgstr "Subscribe of folder %1 failed."
+
+#: imap4.cc:1543
+#, fuzzy
+msgid "Setting the annotation %1 on folder %2  failed. The server returned: %3"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1567
+#, fuzzy
+msgid ""
+"Retrieving the annotation %1 on folder %2 failed. The server returned: %3"
+msgstr "Unsubscribe of folder %1 failed."
+
+#: imap4.cc:1616
+msgid "Unable to close mailbox."
+msgstr "ບໍ່ສາມາດປິດກ່ອງຈົດຫມາຍໃດ้້"
+
+#: imap4.cc:1884
+msgid ""
+"The server %1 supports neither IMAP4 nor IMAP4rev1.\n"
+"It identified itself with: %2"
+msgstr ""
+"ເຊີຟເວີ์ %1 ບໍ່ສະຫນັບສະຫນູນທັງ IMAP4 ຫຼື IMAP4rev1\n"
+"ມັນສະແດງຕົວມັມເອງເປັນ: %2"
+
+#: imap4.cc:1895
+msgid ""
+"The server does not support TLS.\n"
+"Disable this security feature to connect unencrypted."
+msgstr ""
+"ເຊີຟເວີບໍ່ສະຫນັບສະຫນູນ TLS\n"
+"ຍົກເລີກຄຸນສົມບັດຄວາມປອດໄພນີ້ເພື່ອທຳການເຊື່ອມຕໍ່ແບບບໍ່ເຂົ້າລະຫັດ"
+
+#: imap4.cc:1920
+msgid "Starting TLS failed."
+msgstr "ການເລີ່ມການທຳງານ TLS ລົ້ມເຫຼວ"
+
+#: imap4.cc:1930
+msgid "The authentication method %1 is not supported by the server."
+msgstr "ເຊີຟເວີບໍ່ສະຫນັບສະຫນູນວິທີການກວດສິດ %1"
+
+#: imap4.cc:1945
+#, fuzzy
+msgid "Username and password for your IMAP account:"
+msgstr "ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານຂອງບັນຊີຜູ້ໃຊ້ IMAP ຂອງທ່ານ:"
+
+#: imap4.cc:1959
+#, fuzzy
+msgid ""
+"Unable to login. Probably the password is wrong.\n"
+"The server %1 replied:\n"
+"%2"
+msgstr ""
+"ບໍ່ສາມາດທຳການລອກອີນໄດ้້ ຊິ່ງລະຫັດຜ່ານອາດຈະບໍ່ຖືກຕ້ອງ\n"
+"ໂດຍເຊີຟເວີຕອບກັບມາວ່າ:\n"
+"%1"
+
+#: imap4.cc:1966
+#, fuzzy
+msgid ""
+"Unable to authenticate via %1.\n"
+"The server %2 replied:\n"
+"%3"
+msgstr ""
+"ບໍ່ສາມາດທຳການກວດສອບສິດຜ່ານ %1 ໄດ້\n"
+"ໂດຍເຊີຟເວີຕອບກັບມາວ່າ:\n"
+"%2"
+
+#: imap4.cc:1973
+msgid "SASL authentication is not compiled into kio_imap4."
+msgstr ""
+
+#: imap4.cc:2502
+msgid "Unable to open folder %1. The server replied: %2"
+msgstr ""
+"ບໍ່ສາມາດທຳການກວດສອບສິດຜ່ານิ์ %1 ໄດ້\n"
+"ໂດຍເຊີຟເວີຕອບກັບມາວ່າ:\n"
+"%2"
+
+#~ msgid "Unable to get information about folder %1. The server replied: %2"
+#~ msgstr ""
+#~ "ບໍ່ສາມາດທຳການກວດສອບສິດສ໌ຜ່ານ %1 ໄດ້\n"
+#~ "ໂດຍເຊີຟເວີຕອບກັບມາວ່:\n"
+#~ "%2"
+
+#~ msgid "What do you want to store in this folder?"
+#~ msgstr "ທ່ານຕ້ອງການໃສ່ຫຍັງໄວ້ໃນໂຟລເດີນີ້ ?"
+
+#, fuzzy
+#~ msgid "In IMAP clear text login, only US-ASCII characters are possible. Please use a different authentication method that your server supports or try to get a different username."
+#~ msgstr "ໃນສ່ວນຂໍ່ຄວາມລ໋ອກອິນ IMAP ແບບທຳມະດາຈະສາມາດເຕີມໄດ້ພງງລະຫັດແອສກີແບບ US ເທົ່ານັ້ນ ໂປດເລືອກວິທີການກວດສອບສິດທິແບບອື່ນຯທີ່ເຊີຟເວີຂອງທ່າສະຫນັບສະຫນູນຫຼືລອງປງ່ນເປັນຊື່ຜູ້ໃຊ້ອື່ນ"
+
+#~ msgid "In IMAP clear text login, only US-ASCII characters are possible. Please use a different authentication method that your server supports or change your password."
+#~ msgstr "ໃນສ່ວນຂໍ່ຄວາມລ໋ອກອີນ IMAP ແບບທຳມະດາຈະສາມາດເຕີມໄດ້ພງງລະຫັດແອສກີແບບ US ເທົ່ານັ້ນ ໂປດເລືອກວິທີການກວດສີທິແບບອື່ນຯ ທີ່ເຊີຟເວີຂອງທ່ານສະຫນັບສະຫນູນຫຼືລອງປງ່ນລະຫັດຜ່ານຂອງທ່ານ"
