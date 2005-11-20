@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-11-08 02:03+0000\n"
+"POT-Creation-Date: 2005-11-20 02:22+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -237,7 +237,6 @@ msgstr "Name=ກຣິຕາ"
 #: filters/krita/magick/krita_magick.desktop:8
 #: filters/krita/openexr/krita_openexr.desktop:8
 #: filters/krita/png/krita_png.desktop:8 filters/krita/raw/krita_raw.desktop:8
-#: krita/krita.desktop:8
 #, fuzzy
 msgid "GenericName=Painting and Image Editing Application"
 msgstr "GenericName=แอพพลิเคชัน KDE KPart"
@@ -670,8 +669,8 @@ msgid "Comment=Shortcut to Kexi Project on Database Server"
 msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃໝ่"
 
 #: kexi/data/x-kexiproject-sqlite.desktop:8
-#: kexi/data/x-kexiproject-sqlite2.desktop:7
-#: kexi/data/x-kexiproject-sqlite3.desktop:7
+#: kexi/data/x-kexiproject-sqlite2.desktop:8
+#: kexi/data/x-kexiproject-sqlite3.desktop:8
 #, fuzzy
 msgid "Comment=Kexi Database File-Based Project"
 msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
@@ -1085,7 +1084,7 @@ msgstr "Comment=ຄອມໂພເນນຕຂອງໂປຣແກມຊຸດ�
 msgid "Name=Classroom"
 msgstr "Name=เตือนการนัดหมาย - K"
 
-#: kpresenter/templates/Screenpresentations/classroom.desktop:5
+#: kpresenter/templates/Screenpresentations/classroom.desktop:9
 #, fuzzy
 msgid "Comment=Classroom by dannya"
 msgstr "Comment=คลาสของเครื่องพิมพ์"
@@ -1120,7 +1119,7 @@ msgstr ""
 msgid "Name=Savannah"
 msgstr "Name=บันทึก"
 
-#: kpresenter/templates/Screenpresentations/savannah.desktop:5
+#: kpresenter/templates/Screenpresentations/savannah.desktop:9
 msgid "Comment=Savannah by dannya"
 msgstr ""
 
@@ -1431,6 +1430,11 @@ msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอ�
 msgid "Comment=Create an empty document"
 msgstr "Comment=เอกสารเปล่า"
 
+#: krita/krita.desktop:8
+#, fuzzy
+msgid "GenericName=Painting and Image Editing"
+msgstr "GenericName=แอพพลิเคชัน KDE KPart"
+
 #: krita/kritacolor/krita_colorspace.desktop:4
 msgid ""
 "Comment=A module implementing a complete colorspace for use with libkritacolor"
@@ -1564,7 +1568,7 @@ msgstr "Name=สี"
 
 #: krita/plugins/filters/smalltilesfilter/kritasmalltilesfilter.desktop:3
 #, fuzzy
-msgid "Name=Small tiles filter"
+msgid "Name=Small Tiles Filter"
 msgstr "Name=ตัวกรอง GZip"
 
 #: krita/plugins/filters/threadtest/kritathreadtest.desktop:3
@@ -1584,13 +1588,13 @@ msgstr "GenericName=ข้อมูล DMA"
 
 #: krita/plugins/paintops/smearybrush/kritasmearybrush.desktop:3
 #, fuzzy
-msgid "Name=Smeary brush paint operation"
-msgstr "Name=ค่าปริยาย"
+msgid "Name=Smeary brush"
+msgstr "Name=เบลารัส"
 
-#: krita/plugins/paintops/smearybrush/kritasmearybrush.desktop:9
+#: krita/plugins/paintops/smearybrush/kritasmearybrush.desktop:4
 #, fuzzy
-msgid "Comment=paint operation with bidirectional paint transfer"
-msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอนสำหรับ Kate"
+msgid "Comment=Smeary brush"
+msgstr "Comment=แฟ้มบีบอัด Tar"
 
 #: krita/plugins/tools/selectiontools/kritaselectiontools.desktop:3
 #, fuzzy
@@ -1702,7 +1706,7 @@ msgstr "Name=ຫນ້າຈໍ"
 msgid "Name=Scripting plugin"
 msgstr "Name=ทดสอบ"
 
-#: krita/plugins/viewplugins/scripting/kritascripting.desktop:7
+#: krita/plugins/viewplugins/scripting/kritascripting.desktop:9
 #, fuzzy
 msgid "Comment=Allow to execute scripts"
 msgstr "Comment=รายการโฟลเดอร์จดหมาย"
@@ -2264,6 +2268,14 @@ msgstr "Name=ແຟ້ມຂອງໂປຣແກມຊຸດສໍານັກ�
 #: tools/thumbnail/otherofficethumbnail.desktop:4
 msgid "Name=Other Office Files"
 msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານຕົວອື່ນ"
+
+#, fuzzy
+#~ msgid "Name=Smeary brush paint operation"
+#~ msgstr "Name=ค่าปริยาย"
+
+#, fuzzy
+#~ msgid "Comment=paint operation with bidirectional paint transfer"
+#~ msgstr "Comment=ปลั๊กอินบราวเซอร์ไพธอนสำหรับ Kate"
 
 #, fuzzy
 #~ msgid "Comment=Core functionality module for Krita"
@@ -6066,9 +6078,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 #~ msgid "Name=Brazil"
 #~ msgstr "Name=บราซิล"
 
-#~ msgid "Name=Belarus"
-#~ msgstr "Name=เบลารัส"
-
 #~ msgid "Name=Caribbean"
 #~ msgstr "Name=คาริเบียน"
 
@@ -7518,10 +7527,6 @@ msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານ�
 
 #~ msgid "Comment=Siag Spreadsheet"
 #~ msgstr "Comment=กระดาษคำนวณของ Siag"
-
-#, fuzzy
-#~ msgid "Comment=Tar Archive"
-#~ msgstr "Comment=แฟ้มบีบอัด Tar"
 
 #~ msgid "Comment=Compressed Tar Archive"
 #~ msgstr "Comment=แฟ้มบีบอัด Compress - Tar"
