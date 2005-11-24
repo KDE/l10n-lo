@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-11-22 03:14+0100\n"
+"POT-Creation-Date: 2005-11-24 04:06+0100\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: core/kexiguimsghandler.cpp:123
+#: core/kexiguimsghandler.cpp:123 core/kexitextmsghandler.cpp:52
 msgid "Unknown error"
 msgstr ""
 
@@ -77,7 +77,7 @@ msgstr "ຟອມ ໃຫມ່"
 msgid "Opening object \"%1\" failed."
 msgstr ""
 
-#: core/kexiproject.cpp:706 main/keximainwindowimpl.cpp:3425
+#: core/kexiproject.cpp:706 main/keximainwindowimpl.cpp:3445
 msgid "Could not set empty name for this object."
 msgstr ""
 
@@ -215,7 +215,7 @@ msgid "Project Navigator"
 msgstr "ໂປຣເຈັກ"
 
 #: main/kexibrowser.cpp:102 main/startup/KexiProjectSelector.cpp:243
-#: main/startup/KexiStartup.cpp:339 widget/kexidbconnectionwidget.cpp:330
+#: main/startup/KexiStartup.cpp:336 widget/kexidbconnectionwidget.cpp:330
 #: widget/kexidbconnectionwidget.cpp:345
 msgid "&Open"
 msgstr ""
@@ -362,69 +362,69 @@ msgstr "sheshofu@hotmail.com"
 msgid "Choose Directory Where to Install Example Database"
 msgstr ""
 
-#: main/startup/KexiConnSelector.cpp:118
+#: main/startup/KexiConnSelector.cpp:146
 #, fuzzy
 msgid "Add a new database connection"
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: main/startup/KexiConnSelector.cpp:119
+#: main/startup/KexiConnSelector.cpp:147
 #, fuzzy
 msgid "Edit selected database connection"
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: main/startup/KexiConnSelector.cpp:120
+#: main/startup/KexiConnSelector.cpp:148
 #, fuzzy
 msgid "Remove selected database connections"
 msgstr "ລືບແນວສອບຖາມ"
 
-#: main/startup/KexiConnSelector.cpp:334
+#: main/startup/KexiConnSelector.cpp:371
 #: widget/relations/kexirelationwidget.cpp:65
 msgid "&Add"
 msgstr "&ເພີ່ມ"
 
-#: main/startup/KexiConnSelector.cpp:334
+#: main/startup/KexiConnSelector.cpp:371
 #, fuzzy
 msgid "Add database connection"
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: main/startup/KexiConnSelector.cpp:335
+#: main/startup/KexiConnSelector.cpp:372
 #, fuzzy
 msgid "Add New Database Connection"
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: main/startup/KexiConnSelector.cpp:359
+#: main/startup/KexiConnSelector.cpp:396
 msgid "Save changes made to this database connection"
 msgstr ""
 
-#: main/startup/KexiConnSelector.cpp:360
+#: main/startup/KexiConnSelector.cpp:397
 #, fuzzy
 msgid "Edit Database Connection"
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: main/startup/KexiConnSelector.cpp:381
+#: main/startup/KexiConnSelector.cpp:418
 msgid ""
 "Do you want to remove database connection \"%1\" from the list of available "
 "connections?"
 msgstr ""
 
-#: main/startup/KexiStartupFileDialog.cpp:131
-msgid "All Kexi Files"
+#: main/startup/KexiStartupFileDialog.cpp:156
+msgid "All Supported Files"
 msgstr ""
 
-#: main/startup/KexiStartupFileDialog.cpp:207
+#: main/startup/KexiStartupFileDialog.cpp:233
 #, fuzzy
 msgid "Enter a filename"
 msgstr "ເຟຣມ"
 
-#: main/startup/KexiStartupFileDialog.cpp:217
+#: main/startup/KexiStartupFileDialog.cpp:243
 msgid "The file \"%1\" doesn't exist."
 msgstr ""
 
-#: main/startup/KexiStartupFileDialog.cpp:222
+#: main/startup/KexiStartupFileDialog.cpp:248
 msgid "The file \"%1\" is not readable."
 msgstr ""
 
-#: main/startup/KexiStartupFileDialog.cpp:228
+#: main/startup/KexiStartupFileDialog.cpp:254
 msgid ""
 "The file \"%1\" already exists.\n"
 "Do you want to overwrite it?"
@@ -527,97 +527,97 @@ msgstr ""
 msgid "A database that offers you a contact information"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:520
+#: main/startup/KexiStartupDialog.cpp:524
 msgid "Open &Existing Project"
 msgstr ""
 
-#: main/startup/KexiStartupDialog.cpp:601
+#: main/startup/KexiStartupDialog.cpp:606
 msgid "Open &Recent Project"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:219
+#: main/startup/KexiStartup.cpp:216
 msgid ""
 "You have specified invalid argument (\"%1\") for \"type\" command-line option."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:274
+#: main/startup/KexiStartup.cpp:271
 msgid "You have specified invalid port number \"%1\"."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:294
+#: main/startup/KexiStartup.cpp:291
 msgid "Could not start Kexi application this way."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:298
+#: main/startup/KexiStartup.cpp:295
 msgid "You have used both \"createdb\" and \"dropdb\" startup options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:304
+#: main/startup/KexiStartup.cpp:301
 #, fuzzy
 msgid "No project name specified."
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
-#: main/startup/KexiStartup.cpp:313
+#: main/startup/KexiStartup.cpp:310
 #, fuzzy
 msgid "Opening database"
 msgstr "ຖານຂໍ້ມູນ"
 
-#: main/startup/KexiStartup.cpp:314
+#: main/startup/KexiStartup.cpp:311
 msgid "Please enter the password."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:321
+#: main/startup/KexiStartup.cpp:318
 #, fuzzy
 msgid "local database server"
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: main/startup/KexiStartup.cpp:322
+#: main/startup/KexiStartup.cpp:319
 #, fuzzy, c-format
 msgid "Database server: %1"
 msgstr "ຖານຂໍ້ມູນຜິດພາດ"
 
-#: main/startup/KexiStartup.cpp:326
+#: main/startup/KexiStartup.cpp:323
 msgid ""
 "_: unspecified user\n"
 "(unspecified)"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:329
+#: main/startup/KexiStartup.cpp:326
 #, fuzzy, c-format
 msgid "Username: %1"
 msgstr "ຜູ້ໃຊ້:"
 
-#: main/startup/KexiStartup.cpp:338
+#: main/startup/KexiStartup.cpp:335
 #, fuzzy
 msgid "&Details"
 msgstr "ເປັນທົດສະນິຍົມ"
 
-#: main/startup/KexiStartup.cpp:363
+#: main/startup/KexiStartup.cpp:360
 msgid "You have used both \"final-mode\" and \"design-mode\" startup options."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:381
+#: main/startup/KexiStartup.cpp:378
 #, fuzzy
 msgid ""
 "Could not remove project.\n"
 "The file \"%1\" does not exist."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/startup/KexiStartup.cpp:414
+#: main/startup/KexiStartup.cpp:420
 #, fuzzy
 msgid ""
 "Could not open shortcut file\n"
 "\"%1\"."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/startup/KexiStartup.cpp:447
+#: main/startup/KexiStartup.cpp:453
 #, fuzzy
 msgid ""
 "Could not open connection data file\n"
 "\"%1\"."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/startup/KexiStartup.cpp:528
+#: main/startup/KexiStartup.cpp:534
 msgid ""
 "You have specified a few database objects to be opened automatically, using "
 "startup options.\n"
@@ -625,15 +625,15 @@ msgid ""
 "dropping projects."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:544
+#: main/startup/KexiStartup.cpp:550
 msgid "Project \"%1\" created successfully."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:554
+#: main/startup/KexiStartup.cpp:560
 msgid "Project \"%1\" dropped successfully."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:686
+#: main/startup/KexiStartup.cpp:670
 #, fuzzy
 msgid ""
 "<qt>"
@@ -641,48 +641,65 @@ msgid ""
 "<p>The file <nobr>\"%1\"</nobr> does not exist.</p></qt>"
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: main/startup/KexiStartup.cpp:721
+#: main/startup/KexiStartup.cpp:708
+msgid ""
+"\"%1\" is an external file of type:\n"
+"\"%2\".\n"
+"Do you want to import the file as a Kexi project?"
+msgstr ""
+
+#: main/startup/KexiStartup.cpp:711
+#, fuzzy
+msgid "Open External File"
+msgstr "ເປີດ ຕາຕະລາງ"
+
+#: main/startup/KexiStartup.cpp:711
+#, fuzzy
+msgid "Import..."
+msgstr "ສ້າງ &ຕາຕະລາງ..."
+
+#: main/startup/KexiStartup.cpp:731
 msgid ""
 "The project file \"%1\" is recognized as compatible with \"%2\" database "
 "driver, while you have asked for \"%3\" database driver to be used.\n"
 "Do you want to use \"%4\" database driver?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:734
+#: main/startup/KexiStartup.cpp:752
 msgid ""
 "Previous version of database file format (\"%1\") is detected in the \"%2\" "
 "project file.\n"
 "Do you want to convert the project to a new \"%3\" format (recommended)?"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:745
+#: main/startup/KexiStartup.cpp:763
 msgid ""
 "Failed converting project file \"%1\" to a new \"%2\" format.\n"
-"The file format remain unchanged."
+"The file format remains unchanged."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:757
+#: main/startup/KexiStartup.cpp:775
 msgid "Possible problems:"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:761
+#: main/startup/KexiStartup.cpp:779
 msgid "The file \"%1\" is not recognized as being supported by Kexi."
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:763
+#: main/startup/KexiStartup.cpp:781
 #, c-format
 msgid ""
 "Database driver for this file type not found.\n"
 "Detected MIME type: %1"
 msgstr ""
 
-#: main/startup/KexiStartup.cpp:786 main/startup/KexiStartup.cpp:790
+#: main/startup/KexiStartup.cpp:805 main/startup/KexiStartup.cpp:809
 #, fuzzy
 msgid ""
 "Could not load list of available projects for <b>%1</b> database server."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/startup/KexiStartup.cpp:821
+#: main/startup/KexiStartup.cpp:840
 #, fuzzy
 msgid ""
 "Failed saving connection data to\n"
@@ -727,14 +744,6 @@ msgstr ""
 msgid "New Project Stored on a Database Server"
 msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
-#: main/startup/KexiNewProjectWizard.cpp:121
-msgid "Don't show me this question again."
-msgstr ""
-
-#: main/startup/KexiNewProjectWizard.cpp:123
-msgid "Always &use database server for creating new projects."
-msgstr ""
-
 #: main/startup/KexiNewProjectWizard.cpp:134
 msgid "Select Storage Method"
 msgstr ""
@@ -744,54 +753,54 @@ msgstr ""
 msgid "Select Project's Caption"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: main/startup/KexiNewProjectWizard.cpp:147
+#: main/startup/KexiNewProjectWizard.cpp:144
 msgid "Enter a new Kexi project's file name:"
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:150
+#: main/startup/KexiNewProjectWizard.cpp:159
 msgid ""
 "Select database server's connection you wish to use to create a new Kexi "
 "project. "
 "<p>Here you may also add, edit or remove connections from the list."
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:167
+#: main/startup/KexiNewProjectWizard.cpp:176
 #, fuzzy
 msgid "Select Project's Location"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: main/startup/KexiNewProjectWizard.cpp:171
+#: main/startup/KexiNewProjectWizard.cpp:180
 #, fuzzy
 msgid "Existing project databases on <b>%1</b> database server:"
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: main/startup/KexiNewProjectWizard.cpp:180
-#: main/startup/KexiNewProjectWizard.cpp:255
+#: main/startup/KexiNewProjectWizard.cpp:189
+#: main/startup/KexiNewProjectWizard.cpp:265
 #, fuzzy
 msgid "New database"
 msgstr "ຖານຂໍ້ມູນ"
 
-#: main/startup/KexiNewProjectWizard.cpp:188
+#: main/startup/KexiNewProjectWizard.cpp:197
 #, fuzzy
 msgid "Select Project's Caption & Database Name"
 msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
-#: main/startup/KexiNewProjectWizard.cpp:299
-#: main/startup/KexiNewProjectWizard.cpp:338
+#: main/startup/KexiNewProjectWizard.cpp:309
+#: main/startup/KexiNewProjectWizard.cpp:348
 #, fuzzy
 msgid "Enter project caption."
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: main/startup/KexiNewProjectWizard.cpp:311
+#: main/startup/KexiNewProjectWizard.cpp:321
 msgid "Select server connection for a new project."
 msgstr ""
 
-#: main/startup/KexiNewProjectWizard.cpp:345
+#: main/startup/KexiNewProjectWizard.cpp:355
 #, fuzzy
 msgid "Enter project's database name."
 msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
-#: main/startup/KexiNewProjectWizard.cpp:354
+#: main/startup/KexiNewProjectWizard.cpp:364
 msgid ""
 "<b>A project with database name \"%1\" already exists</b>"
 "<p>Do you want to delete it and create a new one?"
@@ -876,7 +885,7 @@ msgstr ""
 msgid "Save &As..."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:729 main/keximainwindowimpl.cpp:2478
+#: main/keximainwindowimpl.cpp:729 main/keximainwindowimpl.cpp:2498
 #, fuzzy
 msgid "Save object as"
 msgstr "ໂປຣເຈັກ"
@@ -1209,7 +1218,7 @@ msgstr ""
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:977 main/keximainwindowimpl.cpp:3543
+#: main/keximainwindowimpl.cpp:977 main/keximainwindowimpl.cpp:3563
 msgid "Important Information"
 msgstr ""
 
@@ -1217,169 +1226,169 @@ msgstr ""
 msgid "Give Feedback..."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1121
+#: main/keximainwindowimpl.cpp:1126
 msgid "reason:"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1166
+#: main/keximainwindowimpl.cpp:1171
 #, fuzzy
 msgid "cannot create object - "
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/keximainwindowimpl.cpp:1167
+#: main/keximainwindowimpl.cpp:1172
 msgid "unknown object type \"%1\""
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1174
+#: main/keximainwindowimpl.cpp:1179
 #, fuzzy
 msgid "cannot create object of type \"%1\""
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:1186
+#: main/keximainwindowimpl.cpp:1191
 msgid "object not found"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:1199
+#: main/keximainwindowimpl.cpp:1204
 #, fuzzy
 msgid "cannot open object"
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/keximainwindowimpl.cpp:1210
+#: main/keximainwindowimpl.cpp:1215
 msgid ""
 "You have requested selected objects to be opened automatically on startup. "
 "Several objects cannot be opened."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2419
+#: main/keximainwindowimpl.cpp:2439
 #, fuzzy
 msgid "Recently Opened Databases"
 msgstr "ຖານຂໍ້ມູນ"
 
-#: main/keximainwindowimpl.cpp:2438
+#: main/keximainwindowimpl.cpp:2458
 #, fuzzy
 msgid "Recently Connected Database Servers"
 msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
-#: main/keximainwindowimpl.cpp:2510
+#: main/keximainwindowimpl.cpp:2530
 msgid "From File..."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2515
+#: main/keximainwindowimpl.cpp:2535
 msgid "From Server..."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2576
+#: main/keximainwindowimpl.cpp:2596
 msgid "Selected view mode is not supported for \"%1\" object."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2578
+#: main/keximainwindowimpl.cpp:2598
 msgid "Selected view mode (%1) is not supported by this object type (%2)"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2590
+#: main/keximainwindowimpl.cpp:2610
 msgid "Switching to other view failed (%1)."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2764
+#: main/keximainwindowimpl.cpp:2784
 #, fuzzy
 msgid "Save Object As"
 msgstr "ໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:2784
+#: main/keximainwindowimpl.cpp:2804
 #, fuzzy
 msgid "Do you want to replace it?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: main/keximainwindowimpl.cpp:2785
+#: main/keximainwindowimpl.cpp:2805
 #, fuzzy
 msgid "&Replace"
 msgstr "ຄວບຄຸມ"
 
-#: main/keximainwindowimpl.cpp:2786
+#: main/keximainwindowimpl.cpp:2806
 msgid "&Choose other name..."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2800
+#: main/keximainwindowimpl.cpp:2820
 msgid "Please choose other name."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2823
+#: main/keximainwindowimpl.cpp:2843
 #, fuzzy
 msgid "Saving \"%1\" object failed."
 msgstr "ໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:2840
+#: main/keximainwindowimpl.cpp:2860
 msgid "Saving new \"%1\" object failed."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2883
+#: main/keximainwindowimpl.cpp:2903
 #, fuzzy
 msgid "Save changes"
 msgstr "ໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:2885
+#: main/keximainwindowimpl.cpp:2905
 msgid "Pressing this button will save all recent changes made in \"%1\" object"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2889
+#: main/keximainwindowimpl.cpp:2909
 msgid ""
 "Pressing this button will discard all recent changes made in \"%1\" object"
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:2895
+#: main/keximainwindowimpl.cpp:2915
 #, fuzzy
 msgid "Do you want to save changes?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: main/keximainwindowimpl.cpp:3388
+#: main/keximainwindowimpl.cpp:3408
 msgid ""
 "Do you want to permanently delete:\n"
 "%1\n"
 "If you click Yes, you will not be able to undo the deletion."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3415
+#: main/keximainwindowimpl.cpp:3435
 #, fuzzy
 msgid "Could not remove object."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: main/keximainwindowimpl.cpp:3433
+#: main/keximainwindowimpl.cpp:3453
 #, fuzzy
 msgid "Renaming object \"%1\" failed."
 msgstr "ໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:3584
+#: main/keximainwindowimpl.cpp:3604
 msgid ""
 "Please note that forms are currently unstable functionality, provided <u>"
 "only for your preview</u>."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3587
+#: main/keximainwindowimpl.cpp:3607
 msgid "Forms will be available after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3591
+#: main/keximainwindowimpl.cpp:3611
 msgid "Forms will be hidden after restarting Kexi application."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3617
+#: main/keximainwindowimpl.cpp:3637
 #, fuzzy
 msgid "Could not start project \"%1\" in Final Mode."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: main/keximainwindowimpl.cpp:3622
+#: main/keximainwindowimpl.cpp:3642
 msgid "No Final Mode data found."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3630
+#: main/keximainwindowimpl.cpp:3650
 msgid "Error reading Final Mode data."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3660
+#: main/keximainwindowimpl.cpp:3680
 msgid "Specified plugin does not exist."
 msgstr ""
 
-#: main/keximainwindowimpl.cpp:3668
+#: main/keximainwindowimpl.cpp:3688
 msgid "Specified object could not be opened."
 msgstr ""
 
@@ -1559,181 +1568,194 @@ msgid ""
 "on a server to open"
 msgstr ""
 
-#: kexidb/drivermanager.cpp:186 migration/migratemanager.cpp:136
+#: kexidb/drivermanager.cpp:186 migration/migratemanager.cpp:138
 #, fuzzy
 msgid "Could not find any database drivers."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
 #: kexidb/drivermanager.cpp:196 kexidb/drivermanager.cpp:213
-#: migration/migratemanager.cpp:155
+#: migration/migratemanager.cpp:157
 #, fuzzy
 msgid "Could not find database driver \"%1\"."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: kexidb/drivermanager.cpp:225 migration/migratemanager.cpp:167
+#: kexidb/drivermanager.cpp:225 migration/migratemanager.cpp:169
 #, fuzzy
 msgid "Could not load database driver \"%1\"."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: migration/importwizard.cpp:58
+#: migration/importwizard.cpp:63
 #, fuzzy
 msgid "Database Importing"
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#. i18n: file data/kexiui.rc line 21
-#: migration/importwizard.cpp:59 rc.cpp:78
-#, fuzzy, no-c-format
-msgid "&Import"
-msgstr "ສ້າງ &ຕາຕະລາງ..."
+#: migration/importwizard.cpp:140
+msgid ""
+"Database Importing wizard is about to import \"%1\" file of type \"%2\" into a "
+"Kexi database."
+msgstr ""
 
-#: migration/importwizard.cpp:102
-#, fuzzy
-msgid "Introduction"
-msgstr "ທີ່ຢູ່"
+#: migration/importwizard.cpp:144
+msgid ""
+"Database Importing wizard allows you to import an existing database into a Kexi "
+"database."
+msgstr ""
 
-#: migration/importwizard.cpp:105
+#: migration/importwizard.cpp:148
+msgid ""
+"Click \"Next\" button to continue or \"Cancel\" button to exit this wizard."
+msgstr ""
+
+#: migration/importwizard.cpp:150
 #, fuzzy
-msgid "Select Source Database Type"
+msgid "Welcome to the Database Importing Wizard"
+msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
+
+#: migration/importwizard.cpp:193
+#, fuzzy
+msgid "Select Location for Source Database"
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: migration/importwizard.cpp:108
-#, fuzzy
-msgid "Select Source Database Connection"
-msgstr "ປ່ຽນ OR "
-
-#: migration/importwizard.cpp:111
+#: migration/importwizard.cpp:203
 #, fuzzy
 msgid "Select Source Database"
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: migration/importwizard.cpp:114
-#, fuzzy
-msgid "Select Destination Database Type"
-msgstr "ເລືອກ ຖານຂໍ້ມູນ"
-
-#: migration/importwizard.cpp:116
-#, fuzzy
-msgid "Select Destination Project's Caption"
-msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
-
-#: migration/importwizard.cpp:119
-#, fuzzy
-msgid "Select Destination Database"
-msgstr "ເລືອກ ຖານຂໍ້ມູນ"
-
-#: migration/importwizard.cpp:122
-msgid "Select Type of Import"
-msgstr ""
-
-#: migration/importwizard.cpp:125
-#, fuzzy
-msgid "Finished"
-msgstr "ທົ່ງ"
-
-#: migration/importwizard.cpp:146
-msgid ""
-"This wizard will guide you through the process of converting an existing data "
-"set into a Kexi database."
-msgstr ""
-
-#: migration/importwizard.cpp:159
-#, fuzzy
-msgid "Source database type:"
-msgstr "ເລືອກ ຖານຂໍ້ມູນ"
-
-#: migration/importwizard.cpp:205
+#: migration/importwizard.cpp:218
 #, fuzzy
 msgid "Destination database type:"
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: migration/importwizard.cpp:221
+#: migration/importwizard.cpp:229
+#, fuzzy
+msgid "Select Destination Database Type"
+msgstr "ເລືອກ ຖານຂໍ້ມູນ"
+
+#: migration/importwizard.cpp:236
 #, fuzzy
 msgid "Destination project's caption:"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: migration/importwizard.cpp:264
+#: migration/importwizard.cpp:241
+#, fuzzy
+msgid "Select Destination Database Project's Caption"
+msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
+
+#: migration/importwizard.cpp:273
+#, fuzzy
+msgid "Select Location for Destination Database"
+msgstr "ເລືອກ ຖານຂໍ້ມູນ"
+
+#: migration/importwizard.cpp:286
 msgid "Structure and data"
 msgstr ""
 
-#: migration/importwizard.cpp:265
+#: migration/importwizard.cpp:287
 msgid "Structure only"
 msgstr ""
 
-#: migration/importwizard.cpp:286
-msgid ""
-"All required information has now been gathered. Click \"Import\" button to "
-"start importing."
+#: migration/importwizard.cpp:291
+msgid "Select Type of Import"
 msgstr ""
 
-#: migration/importwizard.cpp:316
+#: migration/importwizard.cpp:318
 #, fuzzy
-msgid "No new database name was entered."
-msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
+msgid "Importing"
+msgstr "ສ້າງ &ຕາຕະລາງ..."
 
-#: migration/importwizard.cpp:321
-msgid "Following problems were found with the data you entered:"
-msgstr ""
-
-#: migration/importwizard.cpp:325
-msgid "Please click 'Back' button and correct these errors."
-msgstr ""
-
-#: migration/importwizard.cpp:392
+#: migration/importwizard.cpp:332
 #, fuzzy
-msgid "Select source database to you wish to import:"
-msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
+msgid "Open imported project"
+msgstr "ສ້າງໂປຣເຈັກ"
 
-#: migration/importwizard.cpp:534
-msgid ""
-"No connection data is available. You did not select an SQLite destination "
-"filename."
-msgstr ""
-
-#: migration/importwizard.cpp:614
-msgid "Import Succeeded."
-msgstr ""
-
-#: migration/importwizard.cpp:614
+#: migration/importwizard.cpp:339 migration/importwizard.cpp:710
 #, fuzzy
 msgid "Success"
 msgstr "ສັບພະຍາກອນ"
 
-#: migration/importwizard.cpp:628
+#: migration/importwizard.cpp:354
 #, fuzzy
-msgid "Import failed."
-msgstr "ສ້າງ &ຕາຕະລາງ..."
+msgid "No new database name was entered."
+msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
-#: migration/importwizard.cpp:648
+#: migration/importwizard.cpp:359
+msgid "Following problems were found with the data you entered:"
+msgstr ""
+
+#: migration/importwizard.cpp:363
+msgid "Please click 'Back' button and correct these errors."
+msgstr ""
+
+#: migration/importwizard.cpp:428
+#, fuzzy
+msgid "Select source database to you wish to import:"
+msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
+
+#: migration/importwizard.cpp:486
+msgid ""
+"All required information has now been gathered. Click \"Next\" button to start "
+"importing.\n"
+"\n"
+"Depending on size of the database this may take some time."
+msgstr ""
+
+#: migration/importwizard.cpp:622
+msgid ""
+"No connection data is available. You did not select an destination filename."
+msgstr ""
+
+#: migration/importwizard.cpp:726
+#, fuzzy
+msgid "Failure"
+msgstr "ເຟຣມ"
+
+#: migration/importwizard.cpp:728
+msgid ""
+"<p>Import failed.</p>%1"
+"<p>%2</p>"
+"<p>You can click \"Back\" button and try again.</p>"
+msgstr ""
+
+#: migration/importwizard.cpp:748
 #, fuzzy
 msgid "Select source database filename."
 msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
-#: migration/importwizard.cpp:653
+#: migration/importwizard.cpp:753
 #, fuzzy
 msgid "Select source database."
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: migration/importwizard.cpp:697 migration/importwizard.cpp:721
+#: migration/importwizard.cpp:768
+#, fuzzy
+msgid "Could not import database%1. This type is not supported."
+msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
+
+#: migration/importwizard.cpp:784
+msgid "Importing in progress..."
+msgstr ""
+
+#: migration/importwizard.cpp:787
+msgid "Database has been imported into Kexi database project \"%1\"."
+msgstr ""
+
+#: migration/importwizard.cpp:849 migration/importwizard.cpp:873
 msgid "No help available for this page"
 msgstr ""
 
-#: migration/importwizard.cpp:701
-msgid "Here you can choose the type of data to import data from"
-msgstr ""
-
-#: migration/importwizard.cpp:705
+#: migration/importwizard.cpp:857
 msgid "Here you can choose the location to import data from"
 msgstr ""
 
-#: migration/importwizard.cpp:709
+#: migration/importwizard.cpp:861
 msgid "Here you can choose the actual database to import data from"
 msgstr ""
 
-#: migration/importwizard.cpp:713
+#: migration/importwizard.cpp:865
 msgid "Here you can choose the location to save the data"
 msgstr ""
 
-#: migration/importwizard.cpp:717
+#: migration/importwizard.cpp:869
 msgid ""
 "Here you can choose the location to save the data in and the new database name"
 msgstr ""
@@ -1748,42 +1770,43 @@ msgstr "ຕິດຕໍ່ ສາຂາ"
 msgid "Could not get a list of table names for data source \"%1\"."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: migration/keximigrate.cpp:100
+#: migration/keximigrate.cpp:103
 msgid "No tables to import found in data source \"%1\"."
 msgstr ""
 
-#: migration/keximigrate.cpp:136
+#: migration/keximigrate.cpp:139
+#, fuzzy
 msgid ""
-"Could not import project from data source \"%1\". Error reading table \"%2\""
-msgstr ""
+"Could not import project from data source \"%1\". Error reading table \"%2\"."
+msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: migration/keximigrate.cpp:148
+#: migration/keximigrate.cpp:151
 #, fuzzy
 msgid "Could not import project from data source \"%1\"."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: migration/keximigrate.cpp:194
+#: migration/keximigrate.cpp:197
 #, fuzzy
 msgid "Could not copy table \"%1\" to destination database."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: migration/keximigrate.cpp:215 migration/keximigrate.cpp:289
-#: migration/keximigrate.cpp:308
+#: migration/keximigrate.cpp:218 migration/keximigrate.cpp:296
+#: migration/keximigrate.cpp:315
 #, fuzzy
 msgid "Could not create database \"%1\"."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: migration/keximigrate.cpp:244
+#: migration/keximigrate.cpp:247
 #, fuzzy
 msgid "Could not import data from data source \"%1\"."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: migration/keximigrate.cpp:404
+#: migration/keximigrate.cpp:411
 #, fuzzy
 msgid "Field Type"
 msgstr "ທົ່ງ"
 
-#: migration/keximigrate.cpp:405
+#: migration/keximigrate.cpp:412
 msgid ""
 "The data type for %1 could not be determined. Please select one of the "
 "following data types"
@@ -2498,6 +2521,12 @@ msgstr "ໂປຣເຈັກ"
 msgid "Format Toolbar"
 msgstr ""
 
+#. i18n: file data/kexiui.rc line 21
+#: rc.cpp:78
+#, fuzzy, no-c-format
+msgid "&Import"
+msgstr "ສ້າງ &ຕາຕະລາງ..."
+
 #. i18n: file data/kexiui.rc line 28
 #: rc.cpp:81
 #, fuzzy, no-c-format
@@ -2540,14 +2569,26 @@ msgstr ""
 msgid "Data"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 52
-#: rc.cpp:135
-#, no-c-format
-msgid "Always &use files for creating new projects"
-msgstr ""
+#. i18n: file ./main/startup/KexiPrjTypeSelectorBase.ui line 53
+#: rc.cpp:136
+#, fuzzy, no-c-format
+msgid "Projects stored on a database server"
+msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
-#. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 108
-#: rc.cpp:139
+#. i18n: file ./main/startup/KexiPrjTypeSelectorBase.ui line 108
+#: rc.cpp:141
+#, fuzzy, no-c-format
+msgid "Projects stored in a file"
+msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
+
+#. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 16
+#: rc.cpp:144
+#, fuzzy, no-c-format
+msgid "KexiNewPrjTypeSelector"
+msgstr "ປ່ຽນ OR "
+
+#. i18n: file ./main/startup/KexiNewPrjTypeSelector.ui line 78
+#: rc.cpp:148
 #, no-c-format
 msgid ""
 "Kexi will create a new database project. Select a storage method which will be "
@@ -2555,46 +2596,83 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiOpenExistingFile.ui line 36
-#: rc.cpp:143
+#: rc.cpp:152
 #, no-c-format
 msgid ""
 "<b>Select existing Kexi project file to open:</b>\n"
 msgstr ""
 
 #. i18n: file ./main/startup/KexiOpenExistingFile.ui line 97
-#: rc.cpp:147
+#: rc.cpp:156
 #, no-c-format
 msgid "&Advanced "
 msgstr ""
 
 #. i18n: file ./main/startup/KexiOpenExistingFile.ui line 113
-#: rc.cpp:150
+#: rc.cpp:159
 #, no-c-format
 msgid ""
 "Click \"Advanced\" button if you want to find an existing project on a server "
 "rather than a file."
 msgstr ""
 
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 52
-#: plugins/tables/kexialtertabledialog.cpp:299 rc.cpp:153 rc.cpp:285
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 33
+#: plugins/tables/kexialtertabledialog.cpp:299 rc.cpp:162 rc.cpp:298
 #, fuzzy, no-c-format
 msgid "Name"
 msgstr "ເຟຣມ"
 
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 63
-#: rc.cpp:156
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 44
+#: plugins/tables/kexialtertabledialog.cpp:303 rc.cpp:165 rc.cpp:217
+#: rc.cpp:301
 #, no-c-format
-msgid "Engine"
-msgstr "ເຄື່ອງຈັກ"
+msgid "Type"
+msgstr ""
 
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 74
-#: rc.cpp:159
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 55
+#: rc.cpp:168
 #, no-c-format
 msgid "Server Information"
 msgstr ""
 
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 128
-#: rc.cpp:162
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 107
+#: rc.cpp:171
+#, no-c-format
+msgid "&Edit..."
+msgstr ""
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 123
+#: rc.cpp:174
+#, fuzzy, no-c-format
+msgid "&Add..."
+msgstr "&ເພີ່ມ"
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 126
+#: rc.cpp:177
+#, no-c-format
+msgid "Alt+A"
+msgstr ""
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 142
+#: rc.cpp:180
+#, fuzzy, no-c-format
+msgid "&Remove..."
+msgstr "ຄວບຄຸມ"
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 145
+#: rc.cpp:183
+#, no-c-format
+msgid "Alt+R"
+msgstr ""
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 193
+#: rc.cpp:186
+#, fuzzy, no-c-format
+msgid "Description"
+msgstr "ຟອມ ໃຫມ່"
+
+#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 253
+#: rc.cpp:189
 #, no-c-format
 msgid ""
 "<b>Select existing database server's connection from the list below and click "
@@ -2603,56 +2681,26 @@ msgid ""
 "Here you may also add, edit or remove connections from the list.\n"
 msgstr ""
 
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 150
-#: rc.cpp:167
-#, no-c-format
-msgid "&Edit..."
-msgstr ""
-
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 166
-#: rc.cpp:170
-#, fuzzy, no-c-format
-msgid "&Add..."
-msgstr "&ເພີ່ມ"
-
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 182
-#: rc.cpp:173
-#, fuzzy, no-c-format
-msgid "&Remove..."
-msgstr "ຄວບຄຸມ"
-
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 230
-#: rc.cpp:176
-#, fuzzy, no-c-format
-msgid "Description"
-msgstr "ຟອມ ໃຫມ່"
-
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 313
-#: rc.cpp:179
-#, no-c-format
-msgid "&Back"
-msgstr ""
-
-#. i18n: file ./main/startup/KexiConnSelectorBase.ui line 329
-#: rc.cpp:182
-#, no-c-format
-msgid "Click \"Back\" button if you want to open existing Kexi project file."
-msgstr ""
-
 #. i18n: file ./main/startup/KexiServerDBNamePage.ui line 24
-#: rc.cpp:185 rc.cpp:191
+#: rc.cpp:195 rc.cpp:204
 #, fuzzy, no-c-format
 msgid "Project caption: "
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
 #. i18n: file ./main/startup/KexiServerDBNamePage.ui line 32
-#: rc.cpp:188
+#: rc.cpp:198
 #, fuzzy, no-c-format
 msgid "Project's database name: "
 msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້ມູນ"
 
+#. i18n: file ./main/startup/KexiDBTitlePageBase.ui line 16
+#: rc.cpp:201
+#, no-c-format
+msgid "KexiDBTitlePageBase"
+msgstr ""
+
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 44
-#: rc.cpp:194
+#: rc.cpp:207
 #, no-c-format
 msgid ""
 "<b>There are Kexi projects you have recently opened.</b> "
@@ -2660,163 +2708,157 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 53
-#: rc.cpp:198
+#: rc.cpp:211
 #, fuzzy, no-c-format
 msgid "Project Name"
 msgstr "ໂປຣເຈັກ"
 
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 64
-#: rc.cpp:201 rc.cpp:257 widget/kexidbconnectionwidget.cpp:132
+#: rc.cpp:214 rc.cpp:270 widget/kexidbconnectionwidget.cpp:132
 #, no-c-format
 msgid "Database"
 msgstr "ຖານຂໍ້ມູນ"
 
-#. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 75
-#: plugins/tables/kexialtertabledialog.cpp:303 rc.cpp:204 rc.cpp:288
-#, no-c-format
-msgid "Type"
-msgstr ""
-
 #. i18n: file ./main/startup/KexiProjectSelectorBase.ui line 86
-#: rc.cpp:207
+#: rc.cpp:220
 #, fuzzy, no-c-format
 msgid "Connection"
 msgstr "ປ່ຽນ OR "
 
 #. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 38
-#: rc.cpp:210
+#: rc.cpp:223
 #, no-c-format
 msgid "Use socket &file instead of TCP/IP port:"
 msgstr ""
 
 #. i18n: file ./widget/kexidbconnectionwidgetdetailsbase.ui line 151
-#: rc.cpp:217
+#: rc.cpp:230
 #, fuzzy, no-c-format
 msgid "&Description:"
 msgstr "ຟອມ ໃຫມ່"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 16
-#: rc.cpp:220
+#: rc.cpp:233
 #, fuzzy, no-c-format
 msgid "KexiConnectionWidget"
 msgstr "ປ່ຽນ OR "
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 101
-#: rc.cpp:223
+#: rc.cpp:236
 #, fuzzy, no-c-format
 msgid "Database Server"
 msgstr "ຖານຂໍ້ມູນຜິດພາດ"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 137
-#: rc.cpp:226
+#: rc.cpp:239
 #, no-c-format
 msgid "Port:"
 msgstr "ພອດ:"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 150
-#: rc.cpp:229
+#: rc.cpp:242
 #, fuzzy, no-c-format
 msgid "Local server"
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 181
-#: rc.cpp:233
+#: rc.cpp:246
 #, fuzzy, no-c-format
 msgid "&Hostname:"
 msgstr "ໂຫສ:"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 192
-#: rc.cpp:236
+#: rc.cpp:249
 #, fuzzy, no-c-format
 msgid "default"
 msgstr "ຍົກເລີກ ພອດ"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 204
-#: rc.cpp:239
+#: rc.cpp:252
 #, fuzzy, no-c-format
 msgid "Remote server"
 msgstr "ຄວບຄຸມ"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 218
-#: rc.cpp:242
+#: rc.cpp:255
 #, fuzzy, no-c-format
 msgid "&Engine:"
 msgstr "ເຄື່ອງຈັກ"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 250
-#: rc.cpp:245
+#: rc.cpp:258
 #, no-c-format
 msgid "Authentication"
 msgstr "ການຮັບຮອງ"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 261
-#: rc.cpp:248
+#: rc.cpp:261
 #, fuzzy, no-c-format
 msgid "&Username:"
 msgstr "ຜູ້ໃຊ້:"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 277
-#: rc.cpp:251
+#: rc.cpp:264
 #, fuzzy, no-c-format
 msgid "&Password:"
 msgstr "ລະຫັດ:"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 296
-#: rc.cpp:254
+#: rc.cpp:267
 #, no-c-format
 msgid "Save password in the shortcut file"
 msgstr ""
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 325
-#: rc.cpp:260 widget/pixmapcollection.cpp:160
+#: rc.cpp:273 widget/pixmapcollection.cpp:160
 #, fuzzy, no-c-format
 msgid "&Name:"
 msgstr "ເຟຣມ"
 
 #. i18n: file ./widget/kexidbconnectionwidgetbase.ui line 341
-#: rc.cpp:263
+#: rc.cpp:276
 #, no-c-format
 msgid "&Title (optional):"
 msgstr ""
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 16
-#: rc.cpp:267
+#: rc.cpp:280
 #, no-c-format
 msgid "Parameter"
 msgstr ""
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 35
-#: rc.cpp:270
+#: rc.cpp:283
 #, fuzzy, no-c-format
 msgid "Name:"
 msgstr "ເຟຣມ"
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 51
-#: rc.cpp:273
+#: rc.cpp:286
 #, fuzzy, no-c-format
 msgid "kexi_"
 msgstr "Kexi"
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 96
-#: rc.cpp:276
+#: rc.cpp:289
 #, no-c-format
 msgid "Message:"
 msgstr ""
 
 #. i18n: file ./plugins/queries/kexiaddparamwidget.ui line 119
-#: rc.cpp:279
+#: rc.cpp:292
 #, no-c-format
 msgid "Type:"
 msgstr ""
 
 #. i18n: file ./plugins/queries/kexiparameterlisteditor.ui line 24
-#: rc.cpp:282
+#: rc.cpp:295
 #, fuzzy, no-c-format
 msgid "Parameters:"
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
 #. i18n: file ./plugins/import/csv/kexicsvoptions.ui line 24
-#: rc.cpp:297
+#: rc.cpp:310
 #, no-c-format
 msgid "Text encoding:"
 msgstr ""
@@ -4475,20 +4517,39 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~ msgid "Introduction"
+#~ msgstr "ທີ່ຢູ່"
+
+#, fuzzy
+#~ msgid "Select Source Database Type"
+#~ msgstr "ເລືອກ ຖານຂໍ້ມູນ"
+
+#, fuzzy
+#~ msgid "Select Source Database Connection"
+#~ msgstr "ປ່ຽນ OR "
+
+#, fuzzy
+#~ msgid "Finished"
+#~ msgstr "ທົ່ງ"
+
+#, fuzzy
+#~ msgid "Source database type:"
+#~ msgstr "ເລືອກ ຖານຂໍ້ມູນ"
+
+#, fuzzy
+#~ msgid "Import failed."
+#~ msgstr "ສ້າງ &ຕາຕະລາງ..."
+
+#~ msgid "Engine"
+#~ msgstr "ເຄື່ອງຈັກ"
+
+#, fuzzy
 #~ msgid "Do you want to remove:"
 #~ msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
 #, fuzzy
-#~ msgid "KexiProjectSelectorBase"
-#~ msgstr "ປ່ຽນ OR "
-
-#, fuzzy
 #~ msgid "Imported Database"
 #~ msgstr "ເລືອກ ຖານຂໍ້ມູນ"
-
-#, fuzzy
-#~ msgid "Failure"
-#~ msgstr "ເຟຣມ"
 
 #, fuzzy
 #~ msgid "Could not remove file \"%1\"."
