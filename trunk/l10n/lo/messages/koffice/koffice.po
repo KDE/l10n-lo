@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-12-06 08:12+0100\n"
+"POT-Creation-Date: 2005-12-08 08:27+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1950,7 +1950,7 @@ msgstr "ທົ່ວໄປ"
 msgid "St&yle:"
 msgstr "ຮູບແບບ:"
 
-#: kofficeui/koPageLayoutDia.cc:347 kotext/KoParagDia.cpp:1297
+#: kofficeui/koPageLayoutDia.cc:621 kotext/KoParagDia.cpp:1297
 #: kotext/KoParagDia.cpp:1796
 #, fuzzy
 msgid "&Width:"
@@ -3599,85 +3599,49 @@ msgstr "ເລືອກອັກຂະຫລະ"
 msgid "Insert the selected character in the text"
 msgstr "ແຊກອັກຂະຫລະທີ່ເລືອກໄປໃນຂໍ້ຄວາມ"
 
-#: kofficeui/koPageLayoutDia.cc:57
+#: kofficeui/koPageLayoutDia.cc:55
 msgid "Page Preview"
 msgstr "ຕົວຢ່າງຫນ້າເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:139 kofficeui/koPageLayoutDia.cc:170
+#: kofficeui/koPageLayoutDia.cc:137 kofficeui/koPageLayoutDia.cc:165
 msgid "Page Layout"
 msgstr "ການຈັດວາງຫນ້າເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:297
+#: kofficeui/koPageLayoutDia.cc:289
 #, fuzzy
 msgid "Page Size && &Margins"
 msgstr "Page Size && Margins"
 
-#: kofficeui/koPageLayoutDia.cc:309
-msgid "Unit:"
-msgstr "ໜ່ວຍ:"
-
-#: kofficeui/koPageLayoutDia.cc:320
-#, c-format
-msgid "All values are given in %1."
-msgstr "ທຸກຄ່າມີໜ່ວຍເປັນ %1"
-
-#: kofficeui/koPageLayoutDia.cc:325
-msgid "Page Size"
-msgstr "ຕົວຢ່າງຫນ້າເຈ້ຍ"
-
-#: kofficeui/koPageLayoutDia.cc:332
-#, fuzzy
-msgid "&Size:"
-msgstr "ຂະຫນາດ:"
-
-#: kofficeui/koPageLayoutDia.cc:357
-#, fuzzy
-msgid "&Height:"
-msgstr "ສູງ:"
-
-#: kofficeui/koPageLayoutDia.cc:374
-msgid "&Portrait"
-msgstr ""
-
-#: kofficeui/koPageLayoutDia.cc:379
-#, fuzzy
-msgid "La&ndscape"
-msgstr "ອັກຂະຫລະລະຫັດພິເສດ"
-
-#: kofficeui/koPageLayoutDia.cc:386
-msgid "Margins"
-msgstr "Margins"
-
-#: kofficeui/koPageLayoutDia.cc:490 kofficeui/koPageLayoutDia.cc:625
+#: kofficeui/koPageLayoutDia.cc:312 kofficeui/koPageLayoutDia.cc:446
 #, fuzzy
 msgid "H&eader && Footer"
 msgstr "ຫົວແລະທ້າຍເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:494
+#: kofficeui/koPageLayoutDia.cc:316
 msgid "Head Line"
 msgstr "ແຖວຫົວເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:499 kofficeui/koPageLayoutDia.cc:528
+#: kofficeui/koPageLayoutDia.cc:321 kofficeui/koPageLayoutDia.cc:350
 msgid "Left:"
 msgstr "ຊ້າຍ:"
 
-#: kofficeui/koPageLayoutDia.cc:506 kofficeui/koPageLayoutDia.cc:535
+#: kofficeui/koPageLayoutDia.cc:328 kofficeui/koPageLayoutDia.cc:357
 msgid "Mid:"
 msgstr "ກາງ:"
 
-#: kofficeui/koPageLayoutDia.cc:513 kofficeui/koPageLayoutDia.cc:542
+#: kofficeui/koPageLayoutDia.cc:335 kofficeui/koPageLayoutDia.cc:364
 msgid "Right:"
 msgstr "ຂວາ:"
 
-#: kofficeui/koPageLayoutDia.cc:523
+#: kofficeui/koPageLayoutDia.cc:345
 msgid "Foot Line"
 msgstr "ແຖວທ້າຍເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:551
+#: kofficeui/koPageLayoutDia.cc:373
 msgid "You can insert several tags in the text:"
 msgstr "ທ່ານສາມາດແຊກແທັກຕ່າງ ໆ ເຂົ້າໄປໃນຂໍ້ຄວາມໄດ້:"
 
-#: kofficeui/koPageLayoutDia.cc:554
+#: kofficeui/koPageLayoutDia.cc:376
 msgid ""
 "<qt>"
 "<ul>"
@@ -3694,7 +3658,7 @@ msgstr ""
 "<li>&lt;name&gt; ຊື່ແຟ້ມຫລື URL</li>"
 "<li>&lt;file&gt; ຊື່ແຟ້ມແບບພາທເຕັມ ຫລື URL</li></ul></qt>"
 
-#: kofficeui/koPageLayoutDia.cc:561
+#: kofficeui/koPageLayoutDia.cc:383
 msgid ""
 "<qt>"
 "<ul>"
@@ -3711,77 +3675,113 @@ msgstr ""
 "<li>&lt;org&gt; ອົງກອນຂອງທ່ານ</li>"
 "<li>&lt;email&gt; ທີ່ຢູ່ອີເມລ໌ຂອງທ່ານ</li></ul></qt>"
 
-#: kofficeui/koPageLayoutDia.cc:572
+#: kofficeui/koPageLayoutDia.cc:394
 #, fuzzy
 msgid "Col&umns"
 msgstr "ຖັນ:"
 
-#: kofficeui/koPageLayoutDia.cc:576
+#: kofficeui/koPageLayoutDia.cc:398
 #, fuzzy
 msgid "Co&lumns:"
 msgstr "ຖັນ:"
 
-#: kofficeui/koPageLayoutDia.cc:588
+#: kofficeui/koPageLayoutDia.cc:410
 #, fuzzy
 msgid "Column &spacing:"
 msgstr "ລະຍະຫ່າງລະຫວ່າງຖັນ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:628
+#: kofficeui/koPageLayoutDia.cc:449
 #, fuzzy
 msgid "&Header"
 msgstr "ຫົວເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:633
+#: kofficeui/koPageLayoutDia.cc:454
 msgid "Different header for the first page"
 msgstr "ຫນ້າທຳອິດຫົດເຈ້ຍຕ່າງຈາກຫນ້າອື່ນ"
 
-#: kofficeui/koPageLayoutDia.cc:639
+#: kofficeui/koPageLayoutDia.cc:460
 msgid "Different header for even and odd pages"
 msgstr "ຫນ້າຄີກແລະຫນ້າຄູ່ມີຫົວເຈ້ຍຕ່າງກັນ"
 
-#: kofficeui/koPageLayoutDia.cc:645
+#: kofficeui/koPageLayoutDia.cc:466
 #, fuzzy
 msgid "Spacing between header and body:"
 msgstr "ລະຍະຫ່າງຈາກຫົວເຈ້ຍເຖິງຕົວຂໍ້ຄວາມ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:660
+#: kofficeui/koPageLayoutDia.cc:481
 #, fuzzy
 msgid "&Footer"
 msgstr "ທ້າຍເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:665
+#: kofficeui/koPageLayoutDia.cc:486
 msgid "Different footer for the first page"
 msgstr "ຫນ້າທຳອິດມີທ້າຍເຈ້ຍຕ່າງຈາກຫນ້າອື່ນ"
 
-#: kofficeui/koPageLayoutDia.cc:671
+#: kofficeui/koPageLayoutDia.cc:492
 msgid "Different footer for even and odd pages"
 msgstr "ຫນ້າຄີກແລະຫນ້າຄູ່ມີທ້າຍເຈ້ຍຕ່າງກັນ"
 
-#: kofficeui/koPageLayoutDia.cc:677
+#: kofficeui/koPageLayoutDia.cc:498
 #, fuzzy
 msgid "Spacing between footer and body:"
 msgstr "ລະຍະຫ່າງຈາກທ້າຍເຈ້ຍເຖິງຂໍ້ຄວາມ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:691
+#: kofficeui/koPageLayoutDia.cc:512
 #, fuzzy
 msgid "Foot&note/Endnote"
 msgstr "ເຊິງອັນ/ອ້າງອີງທ້າຍເລື່ອງ"
 
-#: kofficeui/koPageLayoutDia.cc:696
+#: kofficeui/koPageLayoutDia.cc:517
 #, fuzzy
 msgid "Spacing between footnote and body:"
 msgstr "ລະຍະຫ່າງຈາກເຊິງອັນເຖິງຕົວຂໍ້ຄວາມ (%1):"
 
-#: kofficeui/koPageLayoutDia.cc:865
+#: kofficeui/koPageLayoutDia.cc:581
+msgid "Unit:"
+msgstr "ໜ່ວຍ:"
+
+#: kofficeui/koPageLayoutDia.cc:594
+#, c-format
+msgid "All values are given in %1."
+msgstr "ທຸກຄ່າມີໜ່ວຍເປັນ %1"
+
+#: kofficeui/koPageLayoutDia.cc:599
+msgid "Page Size"
+msgstr "ຕົວຢ່າງຫນ້າເຈ້ຍ"
+
+#: kofficeui/koPageLayoutDia.cc:606
+#, fuzzy
+msgid "&Size:"
+msgstr "ຂະຫນາດ:"
+
+#: kofficeui/koPageLayoutDia.cc:631
+#, fuzzy
+msgid "&Height:"
+msgstr "ສູງ:"
+
+#: kofficeui/koPageLayoutDia.cc:648
+msgid "&Portrait"
+msgstr ""
+
+#: kofficeui/koPageLayoutDia.cc:653
+#, fuzzy
+msgid "La&ndscape"
+msgstr "ອັກຂະຫລະລະຫັດພິເສດ"
+
+#: kofficeui/koPageLayoutDia.cc:658
+msgid "Margins"
+msgstr "Margins"
+
+#: kofficeui/koPageLayoutDia.cc:843
 msgid "The page width is smaller than the left and right margins."
 msgstr ""
 
-#: kofficeui/koPageLayoutDia.cc:866 kofficeui/koPageLayoutDia.cc:873
+#: kofficeui/koPageLayoutDia.cc:844 kofficeui/koPageLayoutDia.cc:850
 #, fuzzy
 msgid "Page Layout Problem"
 msgstr "ການຈັດວາງຫນ້າເຈ້ຍ"
 
-#: kofficeui/koPageLayoutDia.cc:872
+#: kofficeui/koPageLayoutDia.cc:849
 msgid "The page height is smaller than the top and bottom margins."
 msgstr ""
 
@@ -4239,13 +4239,13 @@ msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັ
 msgid "DetailsPaneBase"
 msgstr ""
 
-#. i18n: file ./kofficecore/koDetailsPaneBase.ui line 142
+#. i18n: file ./kofficecore/koDetailsPaneBase.ui line 148
 #: rc.cpp:204
 #, no-c-format
 msgid "Always use this template"
 msgstr ""
 
-#. i18n: file ./kofficecore/koDetailsPaneBase.ui line 145
+#. i18n: file ./kofficecore/koDetailsPaneBase.ui line 151
 #: rc.cpp:207
 #, no-c-format
 msgid "Always use this template at application start up"
@@ -4691,12 +4691,12 @@ msgstr ""
 msgid "Access Keys"
 msgstr ""
 
-#: kofficecore/koDetailsPane.cc:97
+#: kofficecore/koDetailsPane.cc:88
 #, fuzzy
 msgid "Use This Template"
 msgstr "ສ້າງເອກະສານຕົ້ນແບບ"
 
-#: kofficecore/koDetailsPane.cc:246
+#: kofficecore/koDetailsPane.cc:254
 #, fuzzy
 msgid "Open This Document"
 msgstr "ເປີດເອກະສານ"
@@ -4949,15 +4949,20 @@ msgstr "ສົ້ມທຶບ"
 msgid "Unknown"
 msgstr ""
 
-#: kofficecore/koOpenPane.cc:64
+#: kofficecore/koOpenPane.cc:90
 #, fuzzy
 msgid "Open Existing Document"
 msgstr "ເປີດເອກະສານທີ່ມີຢູ່ແລ້ວ"
 
-#: kofficecore/koOpenPane.cc:103
+#: kofficecore/koOpenPane.cc:125
 #, fuzzy
 msgid "Recent Documents"
 msgstr "ເປີດເອກະສານທີ່ເຄີຍເອີ້ນໃຊ້"
+
+#: kofficecore/koOpenPane.cc:187
+#, fuzzy
+msgid "Custom Document"
+msgstr "ເປີດເອກະສານ"
 
 #: kofficecore/koApplication.cc:41
 msgid "Only print and exit"
