@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-12-19 08:23+0100\n"
+"POT-Creation-Date: 2005-12-20 08:28+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -3825,7 +3825,7 @@ msgstr ""
 "_ Color\n"
 "Deep Sky Blue"
 
-#: kofficecore/koDocument.cc:1411 kofficecore/koDocument.cc:1608
+#: kofficecore/koDocument.cc:1411 kofficecore/koDocument.cc:1610
 #: kofficecore/koMainWindow.cc:543 kofficeui/koTemplateChooseDia.cc:87
 #: kofficeui/koTemplateChooseDia.cc:709
 #, fuzzy
@@ -4733,7 +4733,7 @@ msgstr ""
 "ມີເອກະສານຊື່ນີ້ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການຂຽນທັບມັນຫລືບໍ່ ?"
 
-#: kofficecore/koDocument.cc:1936 kofficecore/koMainWindow.cc:1025
+#: kofficecore/koDocument.cc:1938 kofficecore/koMainWindow.cc:1025
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p>"
 "<p>Do you want to save it?</p>"
@@ -4933,8 +4933,8 @@ msgstr ""
 "່ມີແຟ້ມທີ່ຖືກບັນທຶກອັດຕະໂນມັດຂອງເອກະສານນີ້ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການເປີດມັນແທນແມ່ນຫລືບໍ່ ?"
 
-#: kofficecore/koDocument.cc:1469 kofficecore/koDocument.cc:1486
-#: kofficecore/koDocument.cc:2301
+#: kofficecore/koDocument.cc:1460 kofficecore/koDocument.cc:1477
+#: kofficecore/koDocument.cc:2303
 #, c-format
 msgid ""
 "Could not open\n"
@@ -4943,55 +4943,55 @@ msgstr ""
 "ບໍ່ສາມາດເປີດ\n"
 "%1 ໄດ້"
 
-#: kofficecore/koDocument.cc:1581 kofficecore/koOasisStore.cpp:148
+#: kofficecore/koDocument.cc:1583 kofficecore/koOasisStore.cpp:148
 #, fuzzy, c-format
 msgid "Could not find %1"
 msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
 
-#: kofficecore/koDocument.cc:1593
+#: kofficecore/koDocument.cc:1595
 #, fuzzy
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, ຖັນ %2"
 
-#: kofficecore/koDocument.cc:1613
+#: kofficecore/koDocument.cc:1615
 #, fuzzy
 msgid "%1 is not a file."
 msgstr "%1 ບໍ່ແມ່ນການເຊື່ອມໂຍງທີຖືກຕ້ອງ"
 
-#: kofficecore/koDocument.cc:1629
+#: kofficecore/koDocument.cc:1631
 #, fuzzy
 msgid "Could not open the file for reading (check read permissions)."
 msgstr "ບໍ່ສາມາດເປີດແຟ້ມສຳຫລັບທຳການອ່ານໄດ້ (ກະລຸນາກວດສອບສິດການອ່ານ)"
 
-#: kofficecore/koDocument.cc:1639
+#: kofficecore/koDocument.cc:1641
 #, fuzzy
 msgid "Could not read the beginning of the file."
 msgstr "ບໍ່ສາມາດອ່ານຕອນຕົ້ນຂອງແຟ້ມໄດ້"
 
-#: kofficecore/koDocument.cc:1666
+#: kofficecore/koDocument.cc:1668
 #, fuzzy
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, ຖັນ %2"
 
-#: kofficecore/koDocument.cc:1690
+#: kofficecore/koDocument.cc:1692
 #, fuzzy, c-format
 msgid "Not a valid KOffice file: %1"
 msgstr "ບໍ່ແມ່ນແຟ້ມຂອງ KOffice ທີ່ຖືກຕ້ອງ"
 
-#: kofficecore/koDocument.cc:1736
+#: kofficecore/koDocument.cc:1738
 #, fuzzy
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງ: ບໍ່ມີແຟ້ມ 'maindoc.xml'"
 
-#: kofficecore/koDocument.cc:2113
+#: kofficecore/koDocument.cc:2115
 msgid "Internal error: saveXML not implemented"
 msgstr "ໍຂໍ້ຜິດພາດພາຍໃນ: ຍັງບໍ່ມີການກຳນົດ saveXML"
 
-#: kofficecore/koDocument.cc:2289
+#: kofficecore/koDocument.cc:2291
 #, c-format
 msgid ""
 "Could not save\n"
@@ -5000,7 +5000,7 @@ msgstr ""
 "ບໍ່ສາມາດບັນທຶກ\n"
 "%1 ໄດ້"
 
-#: kofficecore/koDocument.cc:2293
+#: kofficecore/koDocument.cc:2295
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
@@ -5008,7 +5008,7 @@ msgstr ""
 "ບໍ່ສາມາດບັນທຶກ %1 ໄດ້\n"
 "ເນຶ່ອງຈາກ: %2"
 
-#: kofficecore/koDocument.cc:2305
+#: kofficecore/koDocument.cc:2307
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
@@ -5016,31 +5016,31 @@ msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້\n"
 "ເນື່ອງຈາກ: %2"
 
-#: kofficecore/koDocument.cc:2422
+#: kofficecore/koDocument.cc:2424
 msgid "a word processing"
 msgstr ""
 
-#: kofficecore/koDocument.cc:2423
+#: kofficecore/koDocument.cc:2425
 msgid "a spreadsheet"
 msgstr ""
 
-#: kofficecore/koDocument.cc:2424
+#: kofficecore/koDocument.cc:2426
 #, fuzzy
 msgid "a presentation"
 msgstr ""
 "\n"
 "แนวกระดาษ:"
 
-#: kofficecore/koDocument.cc:2425
+#: kofficecore/koDocument.cc:2427
 msgid "a chart"
 msgstr ""
 
-#: kofficecore/koDocument.cc:2426
+#: kofficecore/koDocument.cc:2428
 #, fuzzy
 msgid "a drawing"
 msgstr "ສົ້ມທຶບ"
 
-#: kofficecore/koDocument.cc:2576
+#: kofficecore/koDocument.cc:2578
 #, fuzzy
 msgid "Embedding Object"
 msgstr "ບໍ່ສາມາດໂຫລດວັດຖຸຸທີ່ຝັງຢູ່ໄດ້"
