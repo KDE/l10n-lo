@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-12-26 08:39+0100\n"
+"POT-Creation-Date: 2005-12-30 09:16+0100\n"
 "PO-Revision-Date: 2003-01-18 11:31+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -65,7 +65,7 @@ msgstr ""
 #. i18n: file kptaccountspanelbase.ui line 109
 #: rc.cpp:48
 #, no-c-format
-msgid "New &Sub-account"
+msgid "New &Sub-Account"
 msgstr ""
 
 #. i18n: file kptaccountsviewconfigurepanelbase.ui line 17
@@ -106,9 +106,9 @@ msgstr ""
 
 #. i18n: file kptcalendarlistpanel.ui line 53
 #: rc.cpp:75
-#, no-c-format
-msgid "Calendar name"
-msgstr ""
+#, fuzzy, no-c-format
+msgid "Calendar Name"
+msgstr "ຕັ້ງຄ່າງານ"
 
 #. i18n: file kptcalendarlistpanel.ui line 89
 #: rc.cpp:78
@@ -485,13 +485,13 @@ msgid "Duration"
 msgstr "ລາຍລະອຽດ:"
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 209
-#: rc.cpp:298
+#: kptprojectdialog.cc:94 rc.cpp:298
 #, no-c-format
 msgid "As Soon as Possible"
 msgstr ""
 
 #. i18n: file kpttaskgeneralpanelbase.ui line 214
-#: rc.cpp:301
+#: kptprojectdialog.cc:98 rc.cpp:301
 #, no-c-format
 msgid "As Late as Possible"
 msgstr ""
@@ -1118,17 +1118,9 @@ msgstr ""
 msgid "Resources"
 msgstr "Resources"
 
-#: kptprojectdialog.cc:94
-msgid "As Soon As Possible"
-msgstr ""
-
 #: kptprojectdialog.cc:95
 msgid ""
 "Place all events at the earliest possible moment permitted in the schedule"
-msgstr ""
-
-#: kptprojectdialog.cc:98
-msgid "As Late As Possible"
 msgstr ""
 
 #: kptprojectdialog.cc:99
@@ -1559,10 +1551,6 @@ msgstr "sheshofu@hotmail.com"
 #, fuzzy
 #~ msgid "&Add"
 #~ msgstr "Edit..."
-
-#, fuzzy
-#~ msgid "Calendar Name"
-#~ msgstr "ຕັ້ງຄ່າງານ"
 
 #, fuzzy
 #~ msgid "CalendarListDialogBase"
