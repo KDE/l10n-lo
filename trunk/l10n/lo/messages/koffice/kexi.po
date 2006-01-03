@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-12-30 09:16+0100\n"
+"POT-Creation-Date: 2006-01-03 08:50+0100\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -2272,7 +2272,7 @@ msgstr ""
 msgid "Names of internal Kexi objects are starting with \"kexi__\"."
 msgstr ""
 
-#: kexidb/drivers/pqxx/pqxxcursor.cpp:76
+#: kexidb/drivers/pqxx/pqxxcursor.cpp:77
 msgid "No connection for cursor open operation specified"
 msgstr ""
 
@@ -4349,14 +4349,24 @@ msgstr ""
 msgid "Insert %1 AutoField widgets"
 msgstr ""
 
-#: plugins/forms/kexiactionselectiondialog.cpp:57
-msgid "Select Action to be executed after clicking \"%1\" button:"
-msgstr ""
-
-#: plugins/forms/kexiactionselectiondialog.cpp:77
+#: plugins/forms/kexiactionselectiondialog.cpp:61
 #, fuzzy
 msgid "<No Action>"
 msgstr "ທີ່ຢູ່"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:138
+msgid "Select Action to be executed after clicking \"%1\" button:"
+msgstr ""
+
+#: plugins/forms/kexiactionselectiondialog.cpp:142
+#, fuzzy
+msgid "Actions"
+msgstr "ທີ່ຢູ່"
+
+#: plugins/forms/kexiactionselectiondialog.cpp:143
+#, fuzzy
+msgid "Scripts"
+msgstr "ຟອມ ໃຫມ່"
 
 #: plugins/forms/kexidatasourcepage.cpp:53
 msgid "No data source could be assigned for this widget."
@@ -5308,10 +5318,6 @@ msgstr ""
 #~ msgstr "ຕິດຕໍ່ ສາຂາ"
 
 #, fuzzy
-#~ msgid "Scripts"
-#~ msgstr "ຟອມ ໃຫມ່"
-
-#, fuzzy
 #~ msgid "Database Importing"
 #~ msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
@@ -5763,10 +5769,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Item:"
 #~ msgstr "ຕາຕະລາງ ໃຫມ່"
-
-#, fuzzy
-#~ msgid "Actions"
-#~ msgstr "ທີ່ຢູ່"
 
 #, fuzzy
 #~ msgid "Action"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-01-02 07:57+0000\n"
+"POT-Creation-Date: 2006-01-03 08:00+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -2041,17 +2041,39 @@ msgstr "Name=ผู้พัฒนา"
 msgid "Name=Blank Document"
 msgstr "Name=เอกสารข้อความ"
 
-#: kword/templates/Wordprocessing/A4.desktop:6
+#: kword/templates/Wordprocessing/A4.desktop:8
 #, fuzzy
 msgid "Comment=Creates a blank A4 document, with a small page margin."
 msgstr "Comment=เอกสาร Troff พร้อมด้วยมาโคร manpage"
+
+#: kword/templates/Wordprocessing/ColorfulA4.desktop:5
+#: kword/templates/Wordprocessing/ColorfulLetter.desktop:5
+#, fuzzy
+msgid "Name=Colorful Document"
+msgstr "Name=เอกสารข้อความ"
+
+#: kword/templates/Wordprocessing/ColorfulA4.desktop:6
+#: kword/templates/Wordprocessing/ColorfulLetter.desktop:6
+msgid ""
+"Comment=A two columns template with stylefully colored headers and footers"
+msgstr ""
+
+#: kword/templates/Wordprocessing/FaxA4.desktop:5
+#: kword/templates/Wordprocessing/FaxLetter.desktop:5
+msgid "Name=Fax Template"
+msgstr "Name=ຕົ້ນແບບໂທລະສານ"
+
+#: kword/templates/Wordprocessing/FaxA4.desktop:6
+#: kword/templates/Wordprocessing/FaxLetter.desktop:6
+msgid "Comment=A template to quickly create a facsimile communication"
+msgstr ""
 
 #: kword/templates/Wordprocessing/Letter.desktop:5
 #, fuzzy
 msgid "Name=Blank Page"
 msgstr "Name=จัดการแพ็คเกจ"
 
-#: kword/templates/Wordprocessing/Letter.desktop:6
+#: kword/templates/Wordprocessing/Letter.desktop:8
 #, fuzzy
 msgid "Comment=Creates a blank US Letter document."
 msgstr "Comment=นำเสนอ - K"
@@ -2061,7 +2083,7 @@ msgstr "Comment=นำเสนอ - K"
 msgid "Name=Memorandum"
 msgstr "Name=หน่วยความจำ"
 
-#: kword/templates/Wordprocessing/Memo.desktop:6
+#: kword/templates/Wordprocessing/Memo.desktop:7
 msgid "Comment=Basic template for quickly writing a good-looking memo"
 msgstr ""
 
@@ -2071,8 +2093,8 @@ msgstr ""
 msgid "Name=Professional Letter"
 msgstr "Name=โพรเซสเซอร์"
 
-#: kword/templates/Wordprocessing/ProfessionalA4.desktop:6
-#: kword/templates/Wordprocessing/ProfessionalLetter.desktop:6
+#: kword/templates/Wordprocessing/ProfessionalA4.desktop:8
+#: kword/templates/Wordprocessing/ProfessionalLetter.desktop:8
 #, fuzzy
 msgid ""
 "Comment=Creates a blank document with wide margins for professional looking "
@@ -2272,9 +2294,6 @@ msgstr "Name=ແຟ້ມຂອງໂປຣແກມຊຸດສໍານັກ�
 #: tools/thumbnail/otherofficethumbnail.desktop:4
 msgid "Name=Other Office Files"
 msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານຕົວອື່ນ"
-
-#~ msgid "Name=Fax Template"
-#~ msgstr "Name=ຕົ້ນແບບໂທລະສານ"
 
 #, fuzzy
 #~ msgid "Comment=Fax document, with a header"

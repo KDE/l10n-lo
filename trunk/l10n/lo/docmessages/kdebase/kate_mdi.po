@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2005-12-16 18:30+0000\n"
+"POT-Creation-Date: 2006-01-02 15:51+0000\n"
 "PO-Revision-Date: 2003-01-02 13:35+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -65,7 +65,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The &kate; Main Window is a standard &kde; application window, with the "
-"addition of dockable subwindows, or tool windows. It has a Menubar with all the "
+"addition of side bars containing tool views. It has a Menubar with all the "
 "common menus, and some more, and a toolbar providing access to commonly used "
 "commands."
 msgstr ""
@@ -94,60 +94,53 @@ msgstr ""
 #. Tag: link
 #: mdi.docbook:36
 #, no-c-format
-msgid "<link>The File Selector</link>"
+msgid "<link>The Filesystem Browser</link>"
 msgstr ""
 
 #. Tag: link
-#: mdi.docbook:37
+#: mdi.docbook:38
 #, no-c-format
 msgid "<link>The Built in Terminal Emulator</link>"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:40
+#: mdi.docbook:41
 #, no-c-format
-msgid "And possibly other tool windows, for example provided by plugins."
-msgstr ""
-
-#. Tag: primary
-#: mdi.docbook:43
-#, no-c-format
-msgid "Tool Windows"
+msgid "And possibly other tool views, for example provided by plugins."
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:43
+#: mdi.docbook:44
 #, no-c-format
 msgid ""
-"The Tool Windows can be placed anywhere you want them inside or outside the "
-"main window by dragging the handle bar in the top of them with the &LMB; "
-"pressed, and stacked in shared tab windows if desired."
+"Tool views can be positioned in any sidebar, to move a tool right click its "
+"sidebar button and select from the &RMB; menu"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:49
+#: mdi.docbook:47
 #, no-c-format
 msgid ""
-"When dragging a docked window, a black rectangle will be displayed to indicate "
-"where the window will be placed if you release the mouse button, unless you "
-"move the mouse cursor outside the main window, in which case the dragged window "
-"will become a free floating top level window."
+"A tool view can be marked as <emphasis>persistent</emphasis> "
+"in the &RMB; menu for its sidebar button. The sidebar can contain more tools at "
+"one time so that when a tool is persistant other tools can be shown "
+"simultaneously."
 msgstr ""
 
 #. Tag: title
-#: mdi.docbook:62
+#: mdi.docbook:59
 #, no-c-format
 msgid "The Editor area"
 msgstr ""
 
 #. Tag: primary
-#: mdi.docbook:64
+#: mdi.docbook:61
 #, no-c-format
 msgid "Editing Area"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:64
+#: mdi.docbook:61
 #, no-c-format
 msgid ""
 "&kate; is capable of having more than one document open at the same time, and "
@@ -161,7 +154,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:75
+#: mdi.docbook:72
 #, no-c-format
 msgid ""
 "When a document is available in more than one editor, changes made in one "
@@ -171,7 +164,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:81
+#: mdi.docbook:78
 #, no-c-format
 msgid ""
 "It is currently not possible to have more instances of the same document open "
@@ -179,7 +172,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:85
+#: mdi.docbook:82
 #, no-c-format
 msgid ""
 "When splitting an editor into two frames, it is divided into two equally sized "
@@ -190,19 +183,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: mdi.docbook:95
+#: mdi.docbook:92
 #, no-c-format
 msgid "The Document List"
 msgstr ""
 
 #. Tag: primary
-#: mdi.docbook:97
+#: mdi.docbook:94
 #, no-c-format
 msgid "File list"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:97
+#: mdi.docbook:94
 #, no-c-format
 msgid ""
 "The file list displays a list of all documents currently open in &kate;. "
@@ -211,7 +204,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:102
+#: mdi.docbook:99
 #, no-c-format
 msgid ""
 "If two or more files with the same name (located in different folders) are "
@@ -221,7 +214,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:106
+#: mdi.docbook:103
 #, no-c-format
 msgid ""
 "To display a document in the currently active frame, click the document name in "
@@ -229,7 +222,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:109
+#: mdi.docbook:106
 #, no-c-format
 msgid ""
 "You can sort the list in a few different ways by rightclicking the list and "
@@ -237,43 +230,43 @@ msgid ""
 msgstr ""
 
 #. Tag: guimenuitem
-#: mdi.docbook:116
+#: mdi.docbook:113
 #, no-c-format
 msgid "Opening Order"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:117
+#: mdi.docbook:114
 #, no-c-format
 msgid "Lists the documents in the order of opening"
 msgstr ""
 
 #. Tag: guimenuitem
-#: mdi.docbook:121
+#: mdi.docbook:118
 #, no-c-format
 msgid "Document Name"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:122
+#: mdi.docbook:119
 #, no-c-format
 msgid "Lists the documents alphabetically by their name."
 msgstr ""
 
 #. Tag: guimenuitem
-#: mdi.docbook:126
+#: mdi.docbook:123
 #, no-c-format
 msgid "<guimenuitem>URL</guimenuitem>"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:127
+#: mdi.docbook:124
 #, no-c-format
 msgid "Lists the documents alphabetically by URL."
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:134
+#: mdi.docbook:131
 #, no-c-format
 msgid ""
 "The document list will pr default visualize your history by shading the entries "
@@ -285,58 +278,59 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:142
+#: mdi.docbook:139
 #, no-c-format
 msgid ""
 "The default location in the &kate; window is to the left of the editing area."
 msgstr ""
 
 #. Tag: title
-#: mdi.docbook:147
+#: mdi.docbook:144
 #, no-c-format
-msgid "<title>The File Selector</title>"
+msgid "<title>The Filesystem Browser</title>"
 msgstr ""
 
 #. Tag: primary
-#: mdi.docbook:149
+#: mdi.docbook:146
 #, no-c-format
-msgid "File selector"
+msgid "Filesystem Browser"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:149
+#: mdi.docbook:146
 #, no-c-format
 msgid ""
-"The File Selector is a folder viewer, allowing you to open files from a "
+"The Filesystem Browser is a folder viewer, allowing you to open files from a "
 "displayed folder in the current frame."
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:153
+#: mdi.docbook:150
 #, no-c-format
-msgid "From top down, the file selector consist of the following elements:"
+msgid ""
+"From top down, the Filesystem Browser consist of the following elements:"
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:158
+#: mdi.docbook:155
 #, no-c-format
 msgid "A Toolbar"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:160
+#: mdi.docbook:157
 #, no-c-format
 msgid "This contains standard navigations tool buttons:"
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:163
+#: mdi.docbook:160
 #, no-c-format
 msgid "Home"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:164
+#: mdi.docbook:161
 #, no-c-format
 msgid ""
 "Pressing it will cause the folder view to <command>cd</command> "
@@ -344,13 +338,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:167
+#: mdi.docbook:164
 #, no-c-format
 msgid "<guibutton>Up</guibutton>"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:168
+#: mdi.docbook:165
 #, no-c-format
 msgid ""
 "This will cause the folder view to <command>cd</command> "
@@ -358,13 +352,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:172
+#: mdi.docbook:169
 #, no-c-format
 msgid "Back"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:173
+#: mdi.docbook:170
 #, no-c-format
 msgid ""
 "Causes the folder view to <command>cd</command> to the previously displayed "
@@ -372,13 +366,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:177
+#: mdi.docbook:174
 #, no-c-format
 msgid "Forward"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:178
+#: mdi.docbook:175
 #, no-c-format
 msgid ""
 "Causes the folder view to <command>cd</command> to the next folder in the "
@@ -386,13 +380,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guibutton
-#: mdi.docbook:182
+#: mdi.docbook:179
 #, no-c-format
 msgid "Sync"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:183
+#: mdi.docbook:180
 #, no-c-format
 msgid ""
 "This button will cause the folder view to <command>cd</command> "
@@ -402,13 +396,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:195
+#: mdi.docbook:192
 #, no-c-format
 msgid "A &URL; entry"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:197
+#: mdi.docbook:194
 #, no-c-format
 msgid ""
 "Here you can type the path of a folder to browse. The &URL; entry maintains a "
@@ -417,7 +411,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:200
+#: mdi.docbook:197
 #, no-c-format
 msgid ""
 "The &URL; entry has folder auto-completion. The completion method can be set "
@@ -425,25 +419,25 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:207
+#: mdi.docbook:204
 #, no-c-format
 msgid "A Folder View"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:208
+#: mdi.docbook:205
 #, no-c-format
 msgid "This is a standard &kde; folder view."
 msgstr ""
 
 #. Tag: term
-#: mdi.docbook:212
+#: mdi.docbook:209
 #, no-c-format
 msgid "A Filter Entry"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:214
+#: mdi.docbook:211
 #, no-c-format
 msgid ""
 "The Filter entry allows you to enter a filter for the files displayed in the "
@@ -452,13 +446,13 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:218
+#: mdi.docbook:215
 #, no-c-format
 msgid "To display all files, enter a single asterisk <userinput>*</userinput>."
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:220
+#: mdi.docbook:217
 #, no-c-format
 msgid ""
 "The filter entry saves the last 10 filters entered between sessions, to use "
@@ -467,19 +461,19 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: mdi.docbook:232
+#: mdi.docbook:229
 #, no-c-format
 msgid "<title>The Built in Terminal Emulator</title>"
 msgstr ""
 
 #. Tag: primary
-#: mdi.docbook:234
+#: mdi.docbook:231
 #, no-c-format
 msgid "Terminal emulator"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:234
+#: mdi.docbook:231
 #, no-c-format
 msgid ""
 "The built in Terminal Emulator is a copy of the &kde; &konsole; terminal "
@@ -494,7 +488,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:247
+#: mdi.docbook:244
 #, no-c-format
 msgid ""
 "The default location in the &kate; window is at the bottom, below the editing "
@@ -502,21 +496,21 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:250
+#: mdi.docbook:247
 #, no-c-format
 msgid ""
-"You can configure the &konsole; using it's &RMB; menu, for more information, "
-"see the &konsole; manual."
+"You can configure the &konsole; using its &RMB; menu, for more information, see "
+"the &konsole; manual."
 msgstr ""
 
 #. Tag: title
-#: mdi.docbook:256
+#: mdi.docbook:253
 #, no-c-format
 msgid "External Tools"
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:258
+#: mdi.docbook:255
 #, no-c-format
 msgid ""
 "In the <guimenu>Tools</guimenu> menu you will find a submenu labeled "
@@ -526,7 +520,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: mdi.docbook:263
+#: mdi.docbook:260
 #, no-c-format
 msgid ""
 "External tools are user defined, you can add, edit or remove tools using the "
