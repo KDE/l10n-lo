@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-04 09:08+0100\n"
+"POT-Creation-Date: 2006-01-05 08:46+0100\n"
 "PO-Revision-Date: 2003-01-18 11:31+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -834,8 +834,7 @@ msgid "New..."
 msgstr ""
 
 #. i18n: file resourcespanelbase.ui line 143
-#: kptview.cc:239 rc.cpp:519 rc.cpp:539 rc.cpp:551 rc.cpp:560 rc.cpp:563
-#: rc.cpp:566 rc.cpp:569 rc.cpp:578 rc.cpp:587
+#: kptview.cc:239 rc.cpp:519
 #, no-c-format
 msgid "Edit..."
 msgstr "Edit..."
@@ -846,96 +845,59 @@ msgstr "Edit..."
 msgid "StandardWorktime"
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 39
+#. i18n: file standardworktimedialogbase.ui line 20
 #: rc.cpp:530
+#, no-c-format
+msgid ""
+"These values are used when you estimate the effort needed to complete a task."
+msgstr ""
+
+#. i18n: file standardworktimedialogbase.ui line 34
+#: rc.cpp:533
 #, no-c-format
 msgid "Hours per year:"
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 63
-#: rc.cpp:533
+#. i18n: file standardworktimedialogbase.ui line 45
+#: rc.cpp:536
 #, no-c-format
 msgid "Hours per month:"
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 71
-#: rc.cpp:536
+#. i18n: file standardworktimedialogbase.ui line 56
+#: rc.cpp:539
 #, no-c-format
-msgid "Standard work day:"
+msgid "Hours per day:"
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 122
+#. i18n: file standardworktimedialogbase.ui line 67
 #: rc.cpp:542
 #, no-c-format
-msgid "Weekdays"
+msgid "Hours per week:"
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 131
-#: kptcalendaredit.cc:209 kptcalendaredit.cc:258 rc.cpp:545 rc.cpp:554
-#: rc.cpp:572 rc.cpp:581 rc.cpp:611 rc.cpp:617 rc.cpp:623
+#. i18n: file standardworktimedialogbase.ui line 81
+#: rc.cpp:545
 #, no-c-format
-msgid "Working"
+msgid "Number of workhours in a normal year."
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 136
-#: rc.cpp:548 rc.cpp:557 rc.cpp:575 rc.cpp:584 rc.cpp:614 rc.cpp:620
-#: rc.cpp:626
+#. i18n: file standardworktimedialogbase.ui line 92
+#: rc.cpp:548
 #, no-c-format
-msgid "Non-Working"
+msgid "Number of workhours in a normal month."
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 257
-#: rc.cpp:590
+#. i18n: file standardworktimedialogbase.ui line 103
+#: rc.cpp:551
 #, no-c-format
-msgid "Wednesday:"
+msgid "Number of workhours in a normal week."
 msgstr ""
 
-#. i18n: file standardworktimedialogbase.ui line 265
-#: rc.cpp:593
+#. i18n: file standardworktimedialogbase.ui line 114
+#: rc.cpp:554
 #, no-c-format
-msgid "Tuesday:"
-msgstr ""
-
-#. i18n: file standardworktimedialogbase.ui line 273
-#: rc.cpp:596
-#, no-c-format
-msgid "Monday:"
-msgstr ""
-
-#. i18n: file standardworktimedialogbase.ui line 281
-#: rc.cpp:599
-#, no-c-format
-msgid "Thursday:"
-msgstr ""
-
-#. i18n: file standardworktimedialogbase.ui line 289
-#: rc.cpp:602
-#, no-c-format
-msgid "Friday:"
-msgstr ""
-
-#. i18n: file standardworktimedialogbase.ui line 297
-#: rc.cpp:605
-#, no-c-format
-msgid "Saturday:"
-msgstr ""
-
-#. i18n: file standardworktimedialogbase.ui line 305
-#: rc.cpp:608
-#, no-c-format
-msgid "Sunday:"
-msgstr ""
-
-#. i18n: file standardworktimedialogbase.ui line 414
-#: rc.cpp:629
-#, no-c-format
-msgid "Total work time:"
-msgstr ""
-
-#. i18n: file standardworktimedialogbase.ui line 439
-#: kptrelationdialog.cc:58 kpttaskgeneralpanel.cc:78 rc.cpp:632
-#, no-c-format
-msgid "hours"
+msgid "Number of workhours in a normal day."
 msgstr ""
 
 #: kptaccountsdialog.cc:30
@@ -943,7 +905,7 @@ msgstr ""
 msgid "Edit Accounts"
 msgstr "Edit Resource"
 
-#: kptaccountspanel.cc:168 kptcalendarlistdialog.cc:302
+#: kptaccountspanel.cc:168 kptcalendarlistdialog.cc:306
 #: kptrequestresourcespanel.cc:116 kptrequestresourcespanel.cc:117
 #: kptresourcedialog.cc:113 kpttaskcostpanel.cc:42
 msgid "None"
@@ -974,11 +936,6 @@ msgstr "Configure..."
 msgid "Settings"
 msgstr "ຕັ້ງຄ່າ"
 
-#: kptcalendar.cc:600
-#, fuzzy
-msgid "Standard calendar"
-msgstr "ຫົວຫມ້າງານ:"
-
 #: kptcalendaredit.cc:207 kptcalendaredit.cc:256 kptcalendaredit.cc:286
 #: kptresourceview.cc:188
 msgid "Undefined"
@@ -988,12 +945,16 @@ msgstr ""
 msgid "Non-working"
 msgstr ""
 
+#: kptcalendaredit.cc:209 kptcalendaredit.cc:258
+msgid "Working"
+msgstr ""
+
 #: kptcalendarlistdialog.cc:171
 #, fuzzy
 msgid "Calendar's Settings"
 msgstr "ຕັ້ງຄ່າງານ"
 
-#: kptcalendarlistdialog.cc:217
+#: kptcalendarlistdialog.cc:221
 #, fuzzy
 msgid "Modify Calendars"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
@@ -1057,13 +1018,13 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: kptganttview.cc:92
+#: kptganttview.cc:93
 msgid ""
 "_: Work Breakdown Structure\n"
 "WBS"
 msgstr ""
 
-#: kptganttview.cc:954 kptpertcanvas.cc:378
+#: kptganttview.cc:960 kptpertcanvas.cc:378
 msgid "Cannot link these nodes"
 msgstr ""
 
@@ -1123,7 +1084,7 @@ msgstr ""
 msgid "File-Format Mismatch"
 msgstr ""
 
-#: kptproject.cc:61 kptproject.cc:86
+#: kptproject.cc:60 kptproject.cc:84
 #, fuzzy
 msgid "Standard"
 msgstr "ຫົວຫມ້າງານ:"
@@ -1161,6 +1122,10 @@ msgstr "Edit Resource"
 
 #: kptrelationdialog.cc:57 kpttaskgeneralpanel.cc:77
 msgid "days"
+msgstr ""
+
+#: kptrelationdialog.cc:58 kpttaskgeneralpanel.cc:78
+msgid "hours"
 msgstr ""
 
 #: kptrelationdialog.cc:59 kpttaskgeneralpanel.cc:79
@@ -1233,7 +1198,7 @@ msgstr "ຕັ້ງຄ່າໂຄງການ"
 msgid "Modify resources"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptresourcespanel.cc:331
+#: kptresourcespanel.cc:334
 msgid ""
 "Resources belong to resource groups, select the group first to add a new "
 "resource to"
@@ -1263,7 +1228,7 @@ msgstr ""
 msgid "Pessimistic"
 msgstr ""
 
-#: kptstandardworktimedialog.cc:42
+#: kptstandardworktimedialog.cc:43
 #, fuzzy
 msgid "Standard Worktime"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
@@ -1286,12 +1251,12 @@ msgstr "Resources"
 msgid "&Cost"
 msgstr ""
 
-#: kpttaskdialog.cc:60 kpttaskgeneralpanel.cc:104
+#: kpttaskdialog.cc:60 kpttaskgeneralpanel.cc:101
 #, fuzzy
 msgid "Modify Task"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kpttaskgeneralpanel.cc:173
+#: kpttaskgeneralpanel.cc:170
 msgid "Task id must be unique"
 msgstr ""
 
@@ -1570,6 +1535,10 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "sheshofu@hotmail.com"
+
+#, fuzzy
+#~ msgid "Standard calendar"
+#~ msgstr "ຫົວຫມ້າງານ:"
 
 #, fuzzy
 #~ msgid "Groups:"
