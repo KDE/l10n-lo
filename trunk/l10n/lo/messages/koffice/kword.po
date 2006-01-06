@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-04 09:07+0100\n"
+"POT-Creation-Date: 2006-01-06 08:48+0100\n"
 "PO-Revision-Date: 2003-01-21 12:16+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -476,25 +476,25 @@ msgstr "ປ່ງນສີພື້ນດ້ານຫຼັງຂອງກອບ
 msgid "Resize Frame"
 msgstr "ປັບຂະໜາດກອບ"
 
-#: KWCanvas.cpp:2339 KWView.cpp:6165
+#: KWCanvas.cpp:2339 KWView.cpp:6160
 msgid "Move Frame"
 msgstr "ຍ້າຍກອບ"
 
-#: KWCommand.cpp:1738 KWInsertPageDia.cpp:31 KWInsertPageDia.cpp:35
-#: KWTextFrameSet.cpp:3890
+#: KWCommand.cpp:1748 KWInsertPageDia.cpp:31 KWInsertPageDia.cpp:35
+#: KWTextFrameSet.cpp:3895
 msgid "Insert Page"
 msgstr "ທະແລກຕາຕະລາງ"
 
-#: KWCommand.cpp:1739
+#: KWCommand.cpp:1749
 #, fuzzy, c-format
 msgid "Delete Page %1"
 msgstr "&ລຶບ"
 
-#: KWCommand.cpp:2025 KWResizeTableDia.cpp:35 KWResizeTableDia.cpp:67
+#: KWCommand.cpp:2050 KWResizeTableDia.cpp:35 KWResizeTableDia.cpp:67
 msgid "Resize Column"
 msgstr "ປັບຂະໜາດຄໍລັມ์"
 
-#: KWCommand.cpp:2046
+#: KWCommand.cpp:2071
 #, fuzzy
 msgid "Resize Row"
 msgstr "ປັບຂະໜາດກອບ"
@@ -875,7 +875,7 @@ msgstr ""
 msgid "Configure Endnote/Footnote"
 msgstr "ປັບແຕ່ງເຊີງອອດ/ອ້າງອີງທ້າຍບົດ"
 
-#: KWConfigFootNoteDia.cpp:54 KWTextFrameSet.cpp:3007
+#: KWConfigFootNoteDia.cpp:54 KWTextFrameSet.cpp:3012
 msgid "Footnotes"
 msgstr "ເຊີງອອດ"
 
@@ -1127,43 +1127,43 @@ msgstr "ກອບ/ຊຸດກອບຂໍ່ຄວາມ"
 msgid "Document Structure"
 msgstr "ໂຄງສ້າງເອກະສານ"
 
-#: KWDocument.cpp:1059
+#: KWDocument.cpp:1060
 #, fuzzy
 msgid "Invalid OASIS OpenDocument file. No office:body tag found."
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງຍັງບໍ່ໄດ້ກໍານົດປະເພດ mime"
 
-#: KWDocument.cpp:1072
+#: KWDocument.cpp:1073
 #, fuzzy
 msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງຍັງບໍ່ໄດ້ກໍານົດປະເພດ mime"
 
-#: KWDocument.cpp:1074
+#: KWDocument.cpp:1075
 msgid ""
 "This is not a word processing document, but %1. Please try opening it with the "
 "appropriate application."
 msgstr ""
 
-#: KWDocument.cpp:1100
+#: KWDocument.cpp:1101
 msgid ""
 "Invalid document. 'fo' has the wrong namespace. The application which produced "
 "this document is not OASIS-compliant."
 msgstr ""
 
-#: KWDocument.cpp:1102 KWDocument.cpp:1505
+#: KWDocument.cpp:1103 KWDocument.cpp:1506
 #, fuzzy, c-format
 msgid "Invalid document. Paper size: %1x%2"
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງຍັງບໍ່ໄດ້ກໍານົດປະເພດ mime"
 
-#: KWDocument.cpp:1232
+#: KWDocument.cpp:1233
 #, fuzzy
 msgid "Main Text Frameset"
 msgstr "ແກ້ໄຂຊຸດຂອບຂໍ້ຄວາມ"
 
-#: KWDocument.cpp:1449
+#: KWDocument.cpp:1450
 msgid "Invalid document. No mimetype specified."
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງຍັງບໍ່ໄດ້ກໍານົດປະເພດ mime"
 
-#: KWDocument.cpp:1455
+#: KWDocument.cpp:1456
 #, c-format
 msgid ""
 "Invalid document. Expected mimetype application/x-kword or "
@@ -1172,7 +1172,7 @@ msgstr ""
 "ເອກະສານບໍ່ຖືກຕ້ອງຕ້ອງການປະເພດ mime ແບບ application/x-kword ຫຼື "
 "application/vnd.kde.kword, ແຕ່ໄດ້ຮັບແບບ %1"
 
-#: KWDocument.cpp:1462
+#: KWDocument.cpp:1463
 msgid ""
 "This document was created with a newer version of KWord (syntax version: %1)\n"
 "Opening it in this version of KWord will lose some information."
@@ -1180,60 +1180,60 @@ msgstr ""
 "ເອກະສານນີ້ຖືກສ້າງຈາກ KWord ລຸ້ນທີ່ໃໝ່ກ່ວາທີ່ເຮົາໃຊ້ຢู่ (ລຸ້ນ: %1)\n"
 "ການເປີດມັນໃນ KWord ລຸ້ນນີ້ອາດຈະເຮັດໃຫ້ຂໍ້ມູນບາງສ່ວນສູນຫາຍ "
 
-#: KWDocument.cpp:1464
+#: KWDocument.cpp:1465
 #, fuzzy
 msgid "File Format Mismatch"
 msgstr "ຮູບແບບແຟ້ມເຂົ້າກັນບໍ່ໄດ้"
 
-#: KWDocument.cpp:1752 KWOasisLoader.cpp:182
+#: KWDocument.cpp:1753 KWOasisLoader.cpp:182
 msgid "First Page Header"
 msgstr "ຫົວເຈ້ຍໜ້າທໍາອິດ"
 
-#: KWDocument.cpp:1766 KWOasisLoader.cpp:174
+#: KWDocument.cpp:1767 KWOasisLoader.cpp:174
 msgid "Odd Pages Header"
 msgstr "ຫົວເຈ້ຍໜ້າຄີກ"
 
-#: KWDocument.cpp:1780 KWOasisLoader.cpp:176
+#: KWDocument.cpp:1781 KWOasisLoader.cpp:176
 msgid "Even Pages Header"
 msgstr "ຫົວເຈ້ຍໜ້າຄູ່"
 
-#: KWDocument.cpp:1794 KWOasisLoader.cpp:184
+#: KWDocument.cpp:1795 KWOasisLoader.cpp:184
 msgid "First Page Footer"
 msgstr "ທ້າຍເຈ້ຍໜ້າທໍາອິດ"
 
-#: KWDocument.cpp:1808 KWOasisLoader.cpp:178
+#: KWDocument.cpp:1809 KWOasisLoader.cpp:178
 msgid "Odd Pages Footer"
 msgstr "ທ້າຍເຈ້ຍໜ້າຄີກ"
 
-#: KWDocument.cpp:1822 KWOasisLoader.cpp:180
+#: KWDocument.cpp:1823 KWOasisLoader.cpp:180
 msgid "Even Pages Footer"
 msgstr "ທ້າຍເຈ້ຍໜ້າຄ่ູ"
 
-#: KWDocument.cpp:2501 KWDocument.cpp:2507
+#: KWDocument.cpp:2502 KWDocument.cpp:2508
 msgid "Copy%1-%2"
 msgstr "ຕັດເລືອກ%1-%2"
 
-#: KWDocument.cpp:3806
+#: KWDocument.cpp:3807
 msgid "Create Part Frame"
 msgstr "ສ້າງກຣອບບາງສ່ວນ"
 
-#: KWDocument.cpp:4545 KWTableFrameSet.cpp:132 KWView.cpp:2724 KWView.cpp:7476
+#: KWDocument.cpp:4533 KWTableFrameSet.cpp:132 KWView.cpp:2724 KWView.cpp:7473
 msgid "Delete Table"
 msgstr "ລຶບຕາຕະລາງ"
 
-#: KWDocument.cpp:4559
+#: KWDocument.cpp:4547
 msgid "Delete Text Frame"
 msgstr "ລຶບກຣອບຂໍ້ຄວາມ"
 
-#: KWDocument.cpp:4563
+#: KWDocument.cpp:4551
 msgid "Delete Formula Frame"
 msgstr "ລຶບກຣອບສູດ"
 
-#: KWDocument.cpp:4569
+#: KWDocument.cpp:4557
 msgid "Delete Picture Frame"
 msgstr "ລຶບກຣອບຮູບພາບ"
 
-#: KWDocument.cpp:4573
+#: KWDocument.cpp:4561
 msgid "Delete Object Frame"
 msgstr "ລຶບກຣອບວັດຖຸ"
 
@@ -1661,7 +1661,7 @@ msgid ""
 msgstr "ມີຊຸດກອບທີ່ຊື່'%1' ຢູ່ແລ້ວໂປດຕື່ມຊື່ໃໝ່"
 
 #: KWFrameDia.cpp:1915 KWFrameDia.cpp:1916 KWFrameDia.cpp:1933
-#: KWFrameDia.cpp:1934 KWView.cpp:4434 KWView.cpp:4436
+#: KWFrameDia.cpp:1934 KWView.cpp:4429 KWView.cpp:4431
 msgid "Protect Content"
 msgstr "ປ້ອງກັນສ່ວນເນື້ອໃນ"
 
@@ -1675,11 +1675,11 @@ msgid ""
 "size of the page."
 msgstr "ບໍ່ສາມາດປັບຂະໜາດກອບໄດ້ເນື່ອງຈາກຂະໜາດໃໝ່ມີຂະໜາດໃຫຍ່ກວ່າຂະໜາດຂອງໜ້າເຈ້ຍ"
 
-#: KWFrameDia.cpp:2154 KWView.cpp:6153 KWView.cpp:6159
+#: KWFrameDia.cpp:2154 KWView.cpp:6148 KWView.cpp:6154
 msgid "Make Frameset Inline"
 msgstr "ເຮັດໃຫ້ຊຸດກອບຢູ່ພາຍໃນແຖວ"
 
-#: KWFrameDia.cpp:2178 KWView.cpp:6173
+#: KWFrameDia.cpp:2178 KWView.cpp:6168
 msgid "Make Frameset Non-Inline"
 msgstr "ເຮັດໃຫ້ຊຸດກອບບໍ່ຢູ່ພາຍໃນແຖວ"
 
@@ -1783,7 +1783,7 @@ msgstr "ໄປຍັງFootnote/ອ້າງອີງທ້າຍເລື່ອ
 msgid "Import Style"
 msgstr "ນໍາເຂົ້າຮູບແບບ"
 
-#: KWImportStyleDia.cpp:67 KWImportStyleDia.cpp:223 KWView.cpp:6691
+#: KWImportStyleDia.cpp:67 KWImportStyleDia.cpp:223 KWView.cpp:6688
 #, fuzzy
 msgid "File name is empty."
 msgstr "ຊື່ແຟ້ມຫ່ວາງ"
@@ -1792,7 +1792,7 @@ msgstr "ຊື່ແຟ້ມຫ່ວາງ"
 msgid "File does not contain any styles. It may be the wrong version."
 msgstr "ແຟ້ມບໍ່ສາມາດບັນຈຸແບບໃດຯມັນອາດເປັນລຸ້ນທີ່ບໍ່ຖືກຕ້ອງ"
 
-#: KWImportStyleDia.cpp:161 KWImportStyleDia.cpp:275 KWView.cpp:6717
+#: KWImportStyleDia.cpp:161 KWImportStyleDia.cpp:275 KWView.cpp:6714
 msgid "This file is not a KWord file!"
 msgstr "ແຟ້ມນີ້ບໍ່ໃຊ້ແຟ້ມເອກະສານຂໍ້ຄວມ K !"
 
@@ -1800,11 +1800,11 @@ msgstr "ແຟ້ມນີ້ບໍ່ໃຊ້ແຟ້ມເອກະສານ
 msgid "Select style to import:"
 msgstr "ເລືອກຮູບແບບທີ່ຈະນໍາເຂົ້າ:"
 
-#: KWInsertDia.cpp:33 KWTableDia.cpp:278 KWView.cpp:4222
+#: KWInsertDia.cpp:33 KWTableDia.cpp:278 KWView.cpp:4217
 msgid "Insert Row"
 msgstr "ທະແລກດງວ"
 
-#: KWInsertDia.cpp:33 KWTableDia.cpp:308 KWView.cpp:4260
+#: KWInsertDia.cpp:33 KWTableDia.cpp:308 KWView.cpp:4255
 msgid "Insert Column"
 msgstr "ທະແລກຄໍລຳ້"
 
@@ -2096,7 +2096,7 @@ msgstr "ເຜີ້ມແຖວໃໝ່ໄປຍັງຕາຕະລາງ"
 msgid "Remove Rows From Table"
 msgstr "ລົບແຖວອອກຈາກຕາຕະລາງ"
 
-#: KWTableDia.cpp:275 KWView.cpp:4143
+#: KWTableDia.cpp:275 KWView.cpp:4138
 #, fuzzy
 msgid "Remove Row"
 msgstr "ລຶບແຖວ"
@@ -2111,7 +2111,7 @@ msgstr "ເຜີ້ມຄໍລັມໃໝ່ໄປຍັງຕາຕະລາ
 msgid "Remove Columns From Table"
 msgstr "ລົບຄໍລັມອອກຈາກຕາຕະລາງ"
 
-#: KWTableDia.cpp:305 KWView.cpp:4169
+#: KWTableDia.cpp:305 KWView.cpp:4164
 #, fuzzy
 msgid "Remove Column"
 msgstr "ລຶບຄໍລຳ້"
@@ -2126,11 +2126,11 @@ msgstr "ປັບໃຊ້ແມ່ແບບກັບຕາຕະລາງ"
 msgid "Table %1"
 msgstr "ຕາຕະລາງ %1"
 
-#: KWTableFrameSet.cpp:1273 KWView.cpp:4334
+#: KWTableFrameSet.cpp:1273 KWView.cpp:4329
 msgid "Join Cells"
 msgstr "ເຊື່ອມເຊວ์"
 
-#: KWTableFrameSet.cpp:1411 KWView.cpp:4359 KWView.cpp:4368
+#: KWTableFrameSet.cpp:1411 KWView.cpp:4354 KWView.cpp:4363
 msgid "Split Cells"
 msgstr "ແຍກເຊວ์"
 
@@ -2202,38 +2202,38 @@ msgstr "ຄໍລັມສຸດທ້າຍ"
 msgid "--- Frame Break ---"
 msgstr "--- ສິ່ນສຸດກຣອບ ---"
 
-#: KWTextFrameSet.cpp:2570
+#: KWTextFrameSet.cpp:2575
 msgid "Change Paragraph Attribute"
 msgstr "ປ່ຽນຄ່າຕ່າງຯ ຂອງຫຍໍ້ໜ້າ"
 
-#: KWTextFrameSet.cpp:2608
+#: KWTextFrameSet.cpp:2613
 msgid "Insert Table of Contents"
 msgstr "ແທກສາລະບານ"
 
-#: KWTextFrameSet.cpp:2655
+#: KWTextFrameSet.cpp:2660
 msgid "Insert Break After Paragraph"
 msgstr "ແທກໂຕແບ່ງໜ້າ/ກຣອບທ້າຍການຫຍໍ້ໜ້າ "
 
-#: KWTextFrameSet.cpp:2929
+#: KWTextFrameSet.cpp:2934
 #, c-format
 msgid "Endnote %1"
 msgstr "ອ້າງອີງທ້າຍເລື້ອງ%1"
 
-#: KWTextFrameSet.cpp:2929
+#: KWTextFrameSet.cpp:2934
 #, c-format
 msgid "Footnote %1"
 msgstr "ໝາຍທ້າຍ %1"
 
-#: KWTextFrameSet.cpp:3590
+#: KWTextFrameSet.cpp:3595
 #, fuzzy
 msgid "Move Text"
 msgstr "ຮູບແບບຂໍ້ຄວາມ"
 
-#: KWTextFrameSet.cpp:3747 KWTextFrameSet.cpp:3749
+#: KWTextFrameSet.cpp:3752 KWTextFrameSet.cpp:3754
 msgid "Insert Expression"
 msgstr "ແທກຖ້ອຍຄໍາ"
 
-#: KWTextFrameSet.cpp:3872
+#: KWTextFrameSet.cpp:3877
 msgid "Insert Variable"
 msgstr "ແທກໂຕແປ"
 
@@ -2620,7 +2620,7 @@ msgstr "&Footnote..."
 msgid "Insert a footnote referencing the selected text."
 msgstr "ແຊກFootnoteທີ່ອ້າງອີງເຖິງຂໍ້ຄວາມທີ່ເລືອກໄວ้້"
 
-#: KWView.cpp:737 KWView.cpp:3596
+#: KWView.cpp:737 KWView.cpp:3591
 msgid "Table of &Contents"
 msgstr "ສາ&ລະບານ"
 
@@ -2854,7 +2854,7 @@ msgstr "ຕະກຸນຕົວອັກສອນ"
 msgid "St&yle"
 msgstr "ຮູບ&ແບບ"
 
-#: KWView.cpp:882 KWView.cpp:5219
+#: KWView.cpp:882 KWView.cpp:5214
 msgid "Default Format"
 msgstr "ຮູບແບບປະລິຍາຍ"
 
@@ -3134,7 +3134,7 @@ msgstr ""
 msgid "Table&style"
 msgstr "ຮູບແບບ&ຕາຕະລາງ"
 
-#: KWView.cpp:1124 KWView.cpp:7154
+#: KWView.cpp:1124 KWView.cpp:7151
 #, fuzzy
 msgid "Convert Table to Text"
 msgstr "ແຊກສາລະບານ"
@@ -3455,7 +3455,7 @@ msgstr "&Footnote..."
 msgid "Change the look of footnotes."
 msgstr "ປ່ຽນລັກສະນະຂອງFootnotes"
 
-#: KWView.cpp:1287 KWView.cpp:5778
+#: KWView.cpp:1287 KWView.cpp:5773
 msgid "Edit Footnote"
 msgstr "ແກ້ໄຂFootnote"
 
@@ -3501,7 +3501,7 @@ msgid "Show"
 msgstr "ສະແດງທ້າຍເຈ້ຍ"
 
 #: KWView.cpp:1323 KWView.cpp:2752 KWView.cpp:2768 KWView.cpp:2785
-#: KWView.cpp:7495
+#: KWView.cpp:7492
 msgid "Delete Frame"
 msgstr "ລຶບກຣອບ"
 
@@ -3536,7 +3536,7 @@ msgstr "ສ້າງຮູບແບບຂອບໃໝ່ໂດຍມີພື້
 msgid "Type Anywhere Cursor"
 msgstr "ຊະນິດເຄີຣເຊີຣທຸກຯບ່ອນ"
 
-#: KWView.cpp:1353 KWView.cpp:7193
+#: KWView.cpp:1353 KWView.cpp:7190
 #, fuzzy
 msgid "Convert to Text Box"
 msgstr "ແຊກສາລະບັນ"
@@ -3589,7 +3589,7 @@ msgstr "%1ຂອບ: %2, %3  -  %4, %5 (ກ້ວາງ: %6,ສູງ: %7) (%8)"
 msgid "%1 frames selected"
 msgstr "ເລືອກໄວ้້ %1 ຂອບ"
 
-#: KWView.cpp:1947 KWView.cpp:5878
+#: KWView.cpp:1947 KWView.cpp:5873
 #, fuzzy
 msgid "Frame Background Color..."
 msgstr "ປ່ຽນສີພື້ນຫລັງຂອງຂອບ"
@@ -3701,87 +3701,87 @@ msgstr "ປັບເຄີຣເຊີຣໄປຍັງຕຳແໜ່ງທີ
 msgid "Insert Inline Frame"
 msgstr "ແຊກຂອບເຂົ້າໄປໃນແຖວ"
 
-#: KWView.cpp:3571
+#: KWView.cpp:3566
 msgid "You can only insert footnotes or endnotes into the first frameset."
 msgstr ""
 "ທ່ານທຳໄດ້ພຽງແຕ່ແຊກFootnotesຫລືອ້າງອີງທ້າຍເລື່ອງເຂົ້າໄປໃນຂຸດຂອບທຳອິດເທົ່ານັ້ນ"
 
-#: KWView.cpp:3573
+#: KWView.cpp:3568
 msgid "Insert Footnote"
 msgstr "ແຊກFootnote"
 
-#: KWView.cpp:3596
+#: KWView.cpp:3591
 msgid "Update Table of &Contents"
 msgstr "ປັບປຸງ&ສາລະບານ"
 
-#: KWView.cpp:3634
+#: KWView.cpp:3629
 msgid "Change Font"
 msgstr "ປ່ຽນແບບອັກສອນ"
 
-#: KWView.cpp:3671 KWView.cpp:3705 KWView.cpp:3718 KWView.cpp:3729
-#: KWView.cpp:3739 KWView.cpp:3749 KWView.cpp:3762 KWView.cpp:3772
-#: KWView.cpp:3782 KWView.cpp:3793 KWView.cpp:3807 KWView.cpp:3818
-#: KWView.cpp:3829 KWView.cpp:3841
+#: KWView.cpp:3666 KWView.cpp:3700 KWView.cpp:3713 KWView.cpp:3724
+#: KWView.cpp:3734 KWView.cpp:3744 KWView.cpp:3757 KWView.cpp:3767
+#: KWView.cpp:3777 KWView.cpp:3788 KWView.cpp:3802 KWView.cpp:3813
+#: KWView.cpp:3824 KWView.cpp:3836
 msgid "Paragraph Settings"
 msgstr "ຕັ້ງຄ່າຫຍໍ້ໜ້າ"
 
-#: KWView.cpp:3920 KWView.cpp:5433 KWView.cpp:6129
+#: KWView.cpp:3915 KWView.cpp:5428 KWView.cpp:6124
 msgid "Change Layout"
 msgstr "ປ່ຽນຮູບແບບການຈັດວາງ"
 
-#: KWView.cpp:3939
+#: KWView.cpp:3934
 msgid "You must select a frame first."
 msgstr "ທ່ານຕ້ອງເລືອກຂອບກ່ອນ"
 
-#: KWView.cpp:3940
+#: KWView.cpp:3935
 msgid "Format Frameset"
 msgstr "ຮູບແບບສຸດຂອບ"
 
-#: KWView.cpp:4066
+#: KWView.cpp:4061
 msgid "Insert Table"
 msgstr "ແຊກຕາຕະລາງ"
 
-#: KWView.cpp:4089
+#: KWView.cpp:4084
 msgid "Insert Formula"
 msgstr "ແຊກສູດ"
 
-#: KWView.cpp:4140
+#: KWView.cpp:4135
 #, fuzzy
 msgid "Remove Rows"
 msgstr "ລຶບແຖວ"
 
-#: KWView.cpp:4166
+#: KWView.cpp:4161
 #, fuzzy
 msgid "Remove Columns"
 msgstr "ລຶບຄໍລຳ້"
 
-#: KWView.cpp:4194
+#: KWView.cpp:4189
 msgid "Adjust Table"
 msgstr "ປັບຕາຕະລາງ"
 
-#: KWView.cpp:4313
+#: KWView.cpp:4308
 msgid ""
 "More then one table has selected cells, please make sure the selected cells are "
 "in one table and are connecting"
 msgstr ""
 
-#: KWView.cpp:4315
+#: KWView.cpp:4310
 #, fuzzy
 msgid "Join Cells Failed"
 msgstr "ເຊື່ອມເຊວ์"
 
-#: KWView.cpp:4332
+#: KWView.cpp:4327
 msgid ""
 "You have to select some cells which are next to each other and are not already "
 "joined."
 msgstr ""
 "ທ່ານໄດ້ເລືອກບາງເຊລລທີ່ລະບົບການເຊືອມໄປຍັງຕົວອື່ນແລະມັນຍັງບໍ່ຖືກເຊື່ອມໄວ้້"
 
-#: KWView.cpp:4357
+#: KWView.cpp:4352
 msgid "You have to put the cursor into a table before splitting cells."
 msgstr "ທ່ານໄດ້ນຳເຄີຣເຊີຣເຂົ້າໄປໃນຕາຕະລາງກ່ອນການແຍກເຊລລ์"
 
-#: KWView.cpp:4367
+#: KWView.cpp:4362
 msgid ""
 "There is not enough space to split the cell into that many parts, make it "
 "bigger first"
@@ -3789,259 +3789,259 @@ msgstr ""
 "ພື້ນທີ່ທີ່ມີຢູບໍ່ພຽງພໍສຳລັບການແຍກເຊລລອອກເປັນສ່ວນຕ່າງຯຈຳນວນຫລາຍກະລຸນາເຮັດພື້ນທີ່ໃ"
 "ຫ້ໃຫຍ່ຂຶ້ນເສຍກ່ອນ"
 
-#: KWView.cpp:4387
+#: KWView.cpp:4382
 msgid "Ungroup Table"
 msgstr "ຍົກເລີກຈັດກຸ່ມຕາຕະລາງ"
 
-#: KWView.cpp:4478
+#: KWView.cpp:4473
 msgid "Apply Style to Frame"
 msgstr "ປັບໃຊ້ຮູບແບບກັບຂອບ"
 
-#: KWView.cpp:4478
+#: KWView.cpp:4473
 msgid "Apply Style to Frames"
 msgstr "ປັບໃຊ້ຮູບແບບກັບຂອບ"
 
-#: KWView.cpp:4525 KWView.cpp:4539
+#: KWView.cpp:4520 KWView.cpp:4534
 msgid "Apply Framestyle to Frame"
 msgstr "ປັບໃຊ້ຮູບແບບຂອບກັບຂອບ"
 
-#: KWView.cpp:4539
+#: KWView.cpp:4534
 msgid "Apply Framestyle to Frames"
 msgstr "ປັບໃຊ້ຮູບແບບຂອບກັບຂອບ"
 
-#: KWView.cpp:4544
+#: KWView.cpp:4539
 msgid "Apply Framestyle"
 msgstr "ປັບໃຊ້ຮູບແບບຂອບ"
 
-#: KWView.cpp:4593 KWView.cpp:4606 KWView.cpp:4612
+#: KWView.cpp:4588 KWView.cpp:4601 KWView.cpp:4607
 msgid "Apply Tablestyle to Frame"
 msgstr "ປັບໃຊ້ຮູບແບບຕາຕະລາງກັບຂອບ"
 
-#: KWView.cpp:4606
+#: KWView.cpp:4601
 msgid "Apply Tablestyle to Frames"
 msgstr "ປັບໃຊ້ຮູບແບບຕາຕະລາງກັບຂອບ"
 
-#: KWView.cpp:4654
+#: KWView.cpp:4649
 msgid "Change Text Size"
 msgstr "ປ່ຽນຂະໜາດຂໍ້ຄວາມ"
 
-#: KWView.cpp:4677
+#: KWView.cpp:4672
 msgid "Change Text Font"
 msgstr "ປ່ຽນແບບອັກສອນຂ"
 
-#: KWView.cpp:4751
+#: KWView.cpp:4746
 msgid "Make Text Bold"
 msgstr "ໃຫ້ຂໍ້ຄວາມເປັນຕົວໜາ"
 
-#: KWView.cpp:4771
+#: KWView.cpp:4766
 msgid "Make Text Italic"
 msgstr "ໃຫ້ຂໍ້ຄວາມເປັນຕົວງ່ຽງ"
 
-#: KWView.cpp:4791
+#: KWView.cpp:4786
 msgid "Underline Text"
 msgstr "ຂີດເສັ້ນໃຕ້ຂໍ້ຄວາມ"
 
-#: KWView.cpp:4810
+#: KWView.cpp:4805
 #, fuzzy
 msgid "Strike Out Text"
 msgstr "ຂໍ້ຄວາມເສັ້ນພາດກາງ"
 
-#: KWView.cpp:4836
+#: KWView.cpp:4831
 msgid "Set Text Color"
 msgstr "ຕັ້ງຄ່າສີຂໍ້ຄວາມ"
 
-#: KWView.cpp:4857
+#: KWView.cpp:4852
 #, fuzzy
 msgid "Left-Align Text"
 msgstr "ຈັດຮຽງຂໍ້ຄວາມຊິດດ້ານຊ້າຍ"
 
-#: KWView.cpp:4881
+#: KWView.cpp:4876
 msgid "Center Text"
 msgstr "ຈັດຮຽງຂໍ້ຄວາມທາງກາງ"
 
-#: KWView.cpp:4905
+#: KWView.cpp:4900
 #, fuzzy
 msgid "Right-Align Text"
 msgstr "ຈັດຮຽງຂໍ້ຄວາມຊິດດ້ານຊ້າຍ"
 
-#: KWView.cpp:4929
+#: KWView.cpp:4924
 msgid "Justify Text"
 msgstr "ກະຈາຍເຕັມຂອບ"
 
-#: KWView.cpp:4966
+#: KWView.cpp:4961
 #, fuzzy
 msgid "Set Single Line Spacing"
 msgstr "ระยะห่างแต่ละบรรทัด"
 
-#: KWView.cpp:4974
+#: KWView.cpp:4969
 msgid "Set One and a Half Line Spacing"
 msgstr ""
 
-#: KWView.cpp:4982
+#: KWView.cpp:4977
 #, fuzzy
 msgid "Set Double Line Spacing"
 msgstr "ระยะห่างแต่ละบรรทัด"
 
-#: KWView.cpp:5024
+#: KWView.cpp:5019
 msgid "Change List Type"
 msgstr "ປ່ຽນປະເພດລາຍການ"
 
-#: KWView.cpp:5044
+#: KWView.cpp:5039
 msgid "Make Text Superscript"
 msgstr "ປັບຂໍ້ຄວາມເປັນຕົວຍົກ"
 
-#: KWView.cpp:5066
+#: KWView.cpp:5061
 msgid "Make Text Subscript"
 msgstr "ປັບຂໍ້ຄວາມເປັນຕົວຫ້ອຍ"
 
-#: KWView.cpp:5091
+#: KWView.cpp:5086
 msgid "Change Case of Text"
 msgstr "ປ່ຽນຕົວພິມຂອງຂໍ້ຄວາມ"
 
-#: KWView.cpp:5127
+#: KWView.cpp:5122
 msgid "Increase Paragraph Depth"
 msgstr "ຂໍ້ຄວາມຫຍໍ້ໜ້າທຳມະດາ"
 
-#: KWView.cpp:5176
+#: KWView.cpp:5171
 msgid "Decrease Paragraph Depth"
 msgstr "ຂໍ້ຄວາມຫຍໍ້ໜ້າທຳມະດາ"
 
-#: KWView.cpp:5275
+#: KWView.cpp:5270
 #, fuzzy
 msgid "Change Left Frame Border"
 msgstr "ປ່ງນເສັ້ນກອບດ້ານຊ້າຍ"
 
-#: KWView.cpp:5279
+#: KWView.cpp:5274
 #, fuzzy
 msgid "Change Right Frame Border"
 msgstr "ປ່ງນເສັ້ນກອບດ້ານຂວາ"
 
-#: KWView.cpp:5283
+#: KWView.cpp:5278
 #, fuzzy
 msgid "Change Top Frame Border"
 msgstr "ປັບແຕ່ງເສັ້ນກອບ"
 
-#: KWView.cpp:5288
+#: KWView.cpp:5283
 #, fuzzy
 msgid "Change Bottom Frame Border"
 msgstr "ປ່ງນເສັ້ນກອບດ້ານລຸ້ມ"
 
-#: KWView.cpp:5401
+#: KWView.cpp:5396
 msgid "Change Tabulator"
 msgstr "ປ່ຽນການຕັ້ງແທັບ"
 
-#: KWView.cpp:5458
+#: KWView.cpp:5453
 msgid "Change First Line Indent"
 msgstr "ປ່ຽນຄຳສັ່ງສະແດງການເຊື່ອມໂຍງ"
 
-#: KWView.cpp:5478 KWView.cpp:5500
+#: KWView.cpp:5473 KWView.cpp:5495
 msgid "Change Indent"
 msgstr "ປ່ຽນແບບອັກສອນ"
 
-#: KWView.cpp:5578
+#: KWView.cpp:5573
 msgid "Correct Misspelled Word"
 msgstr "ເຮັດຄຳທີ່ສະກົດບໍ່ຖືກໃຫ້ຖືກຕ້ອງ"
 
-#: KWView.cpp:5778
+#: KWView.cpp:5773
 msgid "Edit Endnote"
 msgstr "ແກ້ໄຂອ້ຽງອີງທ້າຍເລື່ອງ"
 
-#: KWView.cpp:5779
+#: KWView.cpp:5774
 msgid "Change Footnote Parameter"
 msgstr "ປ່ຽນພາຣາມິເຕີຂອງFootnote"
 
-#: KWView.cpp:5779
+#: KWView.cpp:5774
 msgid "Change Endnote Parameter"
 msgstr "ປ່ຽນພາຣາມິເຕີຂອງອ້າງອີງທ້າຍເລື່ອງ"
 
-#: KWView.cpp:5932
+#: KWView.cpp:5927
 #, fuzzy
 msgid "D&elete Current Column..."
 msgstr "ລົບ&ຄໍລັມທີ່ເລືອກໄວ້..."
 
-#: KWView.cpp:5934
+#: KWView.cpp:5929
 msgid "D&elete Selected Columns..."
 msgstr "ລົບ&ຄໍລັມທີ່ເລືອກໄວ້..."
 
-#: KWView.cpp:5937
+#: KWView.cpp:5932
 #, fuzzy
 msgid "&Delete Current Row..."
 msgstr "&ລົບແຖວທີ່ເລືອກໄດ้..."
 
-#: KWView.cpp:5939
+#: KWView.cpp:5934
 msgid "&Delete Selected Rows..."
 msgstr "&ລົບແຖວທີ່ເລືອກໄດ้..."
 
-#: KWView.cpp:6022
+#: KWView.cpp:6017
 msgid "Change Picture"
 msgstr "ປ່ຽນຮູບພາບ"
 
-#: KWView.cpp:6053 KWView.cpp:6072 KWView.cpp:6096 KWView.cpp:6101
-#: KWView.cpp:6105
+#: KWView.cpp:6048 KWView.cpp:6067 KWView.cpp:6091 KWView.cpp:6096
+#: KWView.cpp:6100
 msgid "Save Picture"
 msgstr "ບັນທຶກຮູບພາບ"
 
-#: KWView.cpp:6071
+#: KWView.cpp:6066
 msgid "Error during saving. Could not open '%1' for writing"
 msgstr ""
 
-#: KWView.cpp:6089
+#: KWView.cpp:6084
 msgid "Unable to save the file to '%1'. %2."
 msgstr ""
 
-#: KWView.cpp:6090
+#: KWView.cpp:6085
 #, fuzzy
 msgid "Save Failed"
 msgstr "ບັນທຶກຮູບພາບ"
 
-#: KWView.cpp:6095
+#: KWView.cpp:6090
 msgid "Error during saving. Could not open '%1' temporary file for writing"
 msgstr ""
 
-#: KWView.cpp:6100
+#: KWView.cpp:6095
 #, c-format
 msgid "Error during saving. Could not create temporary file: %1."
 msgstr ""
 
-#: KWView.cpp:6105
+#: KWView.cpp:6100
 msgid "URL %1 is invalid."
 msgstr ""
 
-#: KWView.cpp:6204
+#: KWView.cpp:6199
 msgid "Change Link"
 msgstr "ປ່ຽນການເຊື່ອມໂຍງ"
 
-#: KWView.cpp:6357
+#: KWView.cpp:6354
 msgid "Change Note Text"
 msgstr "ປ່ຽນຂໍ້ຄວາມບັນທຶກ"
 
-#: KWView.cpp:6412
+#: KWView.cpp:6409
 msgid "Apply Autoformat"
 msgstr "ປັບໃຊ້ຮູບແບບອັດຕະນຸມັດิ"
 
-#: KWView.cpp:6582
+#: KWView.cpp:6579
 msgid "Change Footnote Parameters"
 msgstr "ປ່ຽນພາຣາມິເຕີຂອງFootncte"
 
-#: KWView.cpp:6683 KWView.cpp:6692 KWView.cpp:6718 KWView.cpp:6738
-#: KWView.cpp:6961 KWView.cpp:6973
+#: KWView.cpp:6680 KWView.cpp:6689 KWView.cpp:6715 KWView.cpp:6735
+#: KWView.cpp:6958 KWView.cpp:6970
 msgid "Insert File"
 msgstr "ແຊກແຟ້ມ"
 
-#: KWView.cpp:6737
+#: KWView.cpp:6734
 #, fuzzy
 msgid "File name is not a KWord file!"
 msgstr "ຊື່ແຟ້ມບໍ່ແມ່ນແຟ້ມເອກະສານຂໍ້ຄວາມ ้K !"
 
-#: KWView.cpp:7293 KWView.cpp:7298 KWView.cpp:7304
+#: KWView.cpp:7290 KWView.cpp:7295 KWView.cpp:7301
 msgid "Normal"
 msgstr "ຕົວທຳມະດາ"
 
-#: KWView.cpp:7411
+#: KWView.cpp:7408
 msgid "Replace Word"
 msgstr "ແທນທີ່ຄຳ"
 
-#: KWView.cpp:7456
+#: KWView.cpp:7453
 msgid "Delete Frames"
 msgstr "ລຶບກຣອບ"
 
