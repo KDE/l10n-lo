@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-09 09:10+0100\n"
+"POT-Creation-Date: 2006-01-11 08:51+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: kross/main/scriptguiclient.cpp:71
 #, fuzzy
-msgid "Script Manager..."
+msgid "Scripts Manager..."
 msgstr "Style Manager"
 
 #: kross/main/scriptguiclient.cpp:75
@@ -76,16 +76,16 @@ msgid ""
 "permissions to delete the folder \"%1\"."
 msgstr ""
 
-#: kross/main/scriptguiclient.cpp:270
+#: kross/main/scriptguiclient.cpp:271
 #, fuzzy
 msgid "Load Script File"
 msgstr "ຕົວຫ້ອຍ"
 
-#: kross/main/scriptguiclient.cpp:290
+#: kross/main/scriptguiclient.cpp:291
 msgid "Execute Script File"
 msgstr ""
 
-#: kross/main/scriptguiclient.cpp:318
+#: kross/main/scriptguiclient.cpp:319
 #, fuzzy
 msgid "Script Manager"
 msgstr "Style Manager"
@@ -95,31 +95,36 @@ msgstr "Style Manager"
 msgid "Execute"
 msgstr "US Executive"
 
-#: kross/main/wdgscriptsmanager.cpp:123
+#: kross/main/wdgscriptsmanager.cpp:125
 #, fuzzy
 msgid "Load"
 msgstr "ໂຫລດ"
 
-#: kross/main/wdgscriptsmanager.cpp:126
+#: kross/main/wdgscriptsmanager.cpp:128
+#, fuzzy
+msgid "Unload"
+msgstr "ດາວໂຫລດ"
+
+#: kross/main/wdgscriptsmanager.cpp:133
 #, fuzzy
 msgid "Install"
 msgstr "Initial"
 
-#: kross/main/wdgscriptsmanager.cpp:129 kross/main/wdgscriptsmanager.cpp:250
+#: kross/main/wdgscriptsmanager.cpp:136 kross/main/wdgscriptsmanager.cpp:256
 msgid "Uninstall"
 msgstr ""
 
-#: kross/main/wdgscriptsmanager.cpp:136
+#: kross/main/wdgscriptsmanager.cpp:142
 #, fuzzy
 msgid "Get More Scripts"
 msgstr "ຕົວຫ້ອຍ"
 
-#: kross/main/wdgscriptsmanager.cpp:220
+#: kross/main/wdgscriptsmanager.cpp:226
 #, fuzzy
 msgid "Install Script Package"
 msgstr "Style Manager"
 
-#: kross/main/wdgscriptsmanager.cpp:248
+#: kross/main/wdgscriptsmanager.cpp:254
 msgid ""
 "Uninstall the script package \"%1\" and delete the package's folder \"%2\"?"
 msgstr ""
@@ -421,8 +426,8 @@ msgstr "ກະລຸນາກຳນົດຊື່ຮູບແບບໃຫມ່
 msgid "Name already exists! Please choose another name"
 msgstr "ມີຊື່ນີ້ຢູ່ແລ້ວ ! ກະລຸນາເລືອກເປັນຊື່ອື່ນ"
 
-#: kotext/KoChangeCaseDia.cpp:34 kotext/KoTextObject.cpp:1896
-#: kotext/KoTextObject.cpp:1977
+#: kotext/KoChangeCaseDia.cpp:34 kotext/KoTextObject.cpp:1917
+#: kotext/KoTextObject.cpp:1998
 msgid "Change Case"
 msgstr "ປ່ຽນຕົວພີມ"
 
@@ -1250,7 +1255,7 @@ msgstr "ชื่อรูปแบบอักษร:"
 msgid "Enable this checkbox to change the font size settings."
 msgstr ""
 
-#: kotext/KFontDialog_local.cpp:190 kotext/KoSearchDia.cpp:553
+#: kotext/KFontDialog_local.cpp:190 kotext/KoSearchDia.cpp:556
 msgid "Size:"
 msgstr "ຂະຫນາດ:"
 
@@ -1358,72 +1363,72 @@ msgstr "ຕົ້ນແບບຮູບແບບໃຫມ່ (%1)"
 msgid "Delete Text"
 msgstr "ລຶບຂໍ້ຄວາມ"
 
-#: kotext/KoTextObject.cpp:500 kotext/KoTextView.cpp:398
-#: kotext/KoTextView.cpp:403 kotext/KoTextView.cpp:434
+#: kotext/KoTextObject.cpp:500 kotext/KoTextView.cpp:407
+#: kotext/KoTextView.cpp:412 kotext/KoTextView.cpp:443
 msgid "Insert Text"
 msgstr "ແຊກຂໍ້ຄວາມ"
 
-#: kotext/KoTextObject.cpp:746
+#: kotext/KoTextObject.cpp:761
 msgid "Paste Text"
 msgstr "ວາງຂໍ້ຄວາມ"
 
-#: kotext/KoTextObject.cpp:827
+#: kotext/KoTextObject.cpp:843
 #, c-format
 msgid "Apply Style %1"
 msgstr "ປັບໃ່ຊ້ຮູບແບບ %1"
 
-#: kotext/KoTextObject.cpp:1035
+#: kotext/KoTextObject.cpp:1051
 msgid "Format Text"
 msgstr "ຮູບແບບຂໍ້ຄວາມ"
 
-#: kotext/KoTextObject.cpp:1123
+#: kotext/KoTextObject.cpp:1139
 msgid "Change List Type"
 msgstr "ປ່ຽນປະເພດຂອງລາຍການ"
 
-#: kotext/KoTextObject.cpp:1159
+#: kotext/KoTextObject.cpp:1175
 msgid "Change Alignment"
 msgstr "ປ່ຽນທິດທາງຈັດວາງ"
 
-#: kotext/KoTextObject.cpp:1196
+#: kotext/KoTextObject.cpp:1212
 msgid "Change First Line Indent"
 msgstr "ປ່ຽນລະຍະເຍືອງຂອງແຖວທຳອິດ"
 
-#: kotext/KoTextObject.cpp:1198
+#: kotext/KoTextObject.cpp:1214
 msgid "Change Indent"
 msgstr "ປ່ຽນລະຍະເຍືອງ"
 
-#: kotext/KoTextObject.cpp:1200
+#: kotext/KoTextObject.cpp:1216
 msgid "Change Paragraph Spacing"
 msgstr "ປ່ຽນລະຍະຫ່າງລະຫວ່າງຫຍໍ້ຫນ້າ"
 
-#: kotext/KoTextObject.cpp:1248
+#: kotext/KoTextObject.cpp:1264
 #, fuzzy
 msgid "Change Paragraph Background Color"
 msgstr "ປ່ຽນສີພື້ນຫລັງ..."
 
-#: kotext/KoTextObject.cpp:1294
+#: kotext/KoTextObject.cpp:1310
 msgid "Change Line Spacing"
 msgstr "ປ່ຽນລະຍະຫ່າງລະຫວ່າງແຖວ"
 
-#: kotext/KoTextObject.cpp:1364
+#: kotext/KoTextObject.cpp:1380
 msgid "Change Borders"
 msgstr "ປ່ຽນຂອບ"
 
-#: kotext/KoTextObject.cpp:1420
+#: kotext/KoTextObject.cpp:1436
 #, fuzzy
 msgid "Change Join Borders"
 msgstr "ປ່ຽນຂອບ"
 
-#: kotext/KoTextObject.cpp:1459
+#: kotext/KoTextObject.cpp:1475
 msgid "Change Tabulator"
 msgstr "ປ່ຽນລະຍະແທັບ"
 
-#: kotext/KoTextObject.cpp:1501
+#: kotext/KoTextObject.cpp:1517
 msgid "Change Shadow"
 msgstr "ປ່ຽນເງົາ"
 
 #: kformula/kformulacommand.cc:127 kformula/kformulacommand.cc:184
-#: kotext/KoTextObject.cpp:1518 kotext/KoTextObject.cpp:1557
+#: kotext/KoTextObject.cpp:1534 kotext/KoTextObject.cpp:1573
 msgid "Remove Selected Text"
 msgstr "ລຶບຂໍ້ຄວາມທີ່ເລືອກໄວ້"
 
@@ -1538,45 +1543,45 @@ msgstr "Correct in Days"
 msgid "Numbering Style for %1"
 msgstr ""
 
-#: kotext/KoTextView.cpp:137 kotext/KoTextView.cpp:153
+#: kotext/KoTextView.cpp:138 kotext/KoTextView.cpp:154
 msgid "Remove Word"
 msgstr "ລຶຍຄຳ"
 
-#: kotext/KoTextView.cpp:1176
+#: kotext/KoTextView.cpp:1184
 msgid "Replace Word"
 msgstr "ແທນທີ່ຄຳ"
 
-#: kotext/KoTextView.cpp:1193
+#: kotext/KoTextView.cpp:1201
 msgid "%1 is not a valid link."
 msgstr "%1 ບໍ່ແມ່ນການເຊື່ອມໂຍງທີຖືກຕ້ອງ"
 
-#: kotext/KoTextView.cpp:1202
+#: kotext/KoTextView.cpp:1210
 msgid "Insert Soft Hyphen"
 msgstr "ແຊກເຄື່ອງຫມາຍຂີດ"
 
-#: kotext/KoTextView.cpp:1208
+#: kotext/KoTextView.cpp:1216
 msgid "Insert Line Break"
 msgstr "ແຊກຕົວຫຍຸດແຖວ"
 
-#: kotext/KoTextView.cpp:1214
+#: kotext/KoTextView.cpp:1222
 #, fuzzy
 msgid "Insert Non-Breaking Space"
 msgstr "ແຊກຊ່ອງວ່າງທີ່ບໍ່ຫຍຸດ"
 
-#: kotext/KoTextView.cpp:1220
+#: kotext/KoTextView.cpp:1228
 #, fuzzy
 msgid "Insert Non-Breaking Hyphen"
 msgstr "ແຊກຊ່ອງວ່າງທີ່ບໍ່ຫຍຸດ"
 
-#: kotext/KoTextView.cpp:1233 kotext/KoTextView.cpp:1241
+#: kotext/KoTextView.cpp:1241 kotext/KoTextView.cpp:1249
 msgid "Insert Special Char"
 msgstr "ແຊກອັກຂະຫລະພິເສດ"
 
-#: kotext/KoTextView.cpp:1452
+#: kotext/KoTextView.cpp:1460
 msgid "Remove Comment"
 msgstr "ລຶຍຫມາຍເຫດ"
 
-#: kotext/KoTextView.cpp:1520
+#: kotext/KoTextView.cpp:1528
 #, fuzzy
 msgid "Remove Link"
 msgstr "ລຶບສະດົມ"
@@ -1600,12 +1605,12 @@ msgstr "ແກ້ໄຂຄຳອະທິບາຍ"
 msgid "Add Author Name"
 msgstr "ເພີ້ມຊື່ຜູ້ຂຽນ"
 
-#: kotext/KoAutoFormat.cpp:976 kotext/KoAutoFormat.cpp:989
+#: kotext/KoAutoFormat.cpp:976 kotext/KoAutoFormat.cpp:988
 msgid "Completion Word"
 msgstr "ເຮັດຄຳໃຫ້ສົມບູນ"
 
-#: kotext/KoAutoFormat.cpp:1407 kotext/KoAutoFormat.cpp:1418
-#: kotext/KoAutoFormat.cpp:1849
+#: kotext/KoAutoFormat.cpp:1406 kotext/KoAutoFormat.cpp:1417
+#: kotext/KoAutoFormat.cpp:1851
 #, fuzzy
 msgid "Autocorrect Word"
 msgstr "ແກ້ໄຂຄຳໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດิ"
@@ -1615,49 +1620,46 @@ msgstr "ແກ້ໄຂຄຳໃຫ້ຖືກຕ້ອງອັດຕະໂນ
 msgid "Autocorrect Word with Format"
 msgstr "ແກ້ໄຂຄຳໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດໂດຍໃຊ້ຮູບແບບ"
 
-#: kotext/KoAutoFormat.cpp:1489
+#: kotext/KoAutoFormat.cpp:1488
 msgid "Typographic Quote"
 msgstr "Typographic Quote"
 
-#: kotext/KoAutoFormat.cpp:1552
+#: kotext/KoAutoFormat.cpp:1551
 msgid "Autocorrect (capitalize first letter)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ(ໃຫ້ອັກສອນຕົວທຳອິດເປັນຕົວພີມໃຫຍ່)"
 
-#: kotext/KoAutoFormat.cpp:1577
+#: kotext/KoAutoFormat.cpp:1578
 #, fuzzy
-msgid ""
-"Autocorrect (convert two upper case letters to one upper case and one lower "
-"case letter)"
-msgstr ""
-"ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ(ແປງອັກສອນຕົວພີມໃຫຍ່ສອງຕົວທຳອິດ ເປັນຕົວພີມໃຫຍ່ໜຶ່ງຕົວ "
-"ແລະຕົວພີມນ້ອຍໜຶ່ງຕົວ)"
+msgid "Autocorrect"
+msgstr "ແກ້ໄຂໃຫຖືກຕ້ອງອັດຕະໂນມັດ"
 
-#: kotext/KoAutoFormat.cpp:1618
-msgid "Autocorrect (replace 1/2... with "
-msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ (ແທນທີ່ 1/2... ດ້ວຍ "
+#: kotext/KoAutoFormat.cpp:1620
+#, fuzzy
+msgid "Autocorrect for fraction"
+msgstr "ແກ້ໄຂໃຫຖືກຕ້ອງອັດຕະໂນມັດ"
 
-#: kotext/KoAutoFormat.cpp:1734
+#: kotext/KoAutoFormat.cpp:1736
 msgid "Insert Variable"
 msgstr "ແຊກຕົວແປ"
 
-#: kotext/KoAutoFormat.cpp:1839
+#: kotext/KoAutoFormat.cpp:1842
 #, fuzzy
 msgid "Autocorrection: Change Format"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ: ປ່ຽນຮູບແບບ"
 
-#: kotext/KoAutoFormat.cpp:1887
+#: kotext/KoAutoFormat.cpp:1890
 msgid "Autocorrect (use bullet style)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ (ໃຊ້ຮູບແບບສັນຍາລັກ)"
 
-#: kotext/KoAutoFormat.cpp:1977
+#: kotext/KoAutoFormat.cpp:1980
 msgid "Autocorrect (use number style)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ (ໃຊ້ຮູບແບບຕົວເລກ)"
 
-#: kotext/KoAutoFormat.cpp:2059 kotext/KoAutoFormat.cpp:2088
+#: kotext/KoAutoFormat.cpp:2062 kotext/KoAutoFormat.cpp:2091
 msgid "Autocorrect (remove start and end line space)"
 msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ(ລຶບຊ່ອງວ່າງຕອນຕົ້ນແລະທ້າຍແຖວ)"
 
-#: kotext/KoAutoFormat.cpp:2125
+#: kotext/KoAutoFormat.cpp:2128
 #, fuzzy
 msgid "Capitalize Name of Days"
 msgstr "Capitalize name of days"
@@ -1692,7 +1694,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./kotext/kolayouttabbase.ui line 57
-#: kformula/kformuladocument.cc:646 kotext/KoSearchDia.cpp:628
+#: kformula/kformuladocument.cc:646 kotext/KoSearchDia.cpp:631
 #: kotext/KoTextFormat.cpp:1572 rc.cpp:159
 #, no-c-format
 msgid "Normal"
@@ -1720,75 +1722,75 @@ msgstr "ສະແດງຕົວເລືອກການຈັດຮູບແບ
 msgid "Formatting Options"
 msgstr "ຕົວເລືອກການຈັດຮູບແບບ"
 
-#: kotext/KoSearchDia.cpp:486
+#: kotext/KoSearchDia.cpp:489
 msgid "Replace Text"
 msgstr "ແທນທີ່ຂໍ້ຄວາມ"
 
 #. i18n: file ./kofficecore/koDocumentInfoAboutWidget.ui line 293
-#: kotext/KoParagDia.cpp:2109 kotext/KoSearchDia.cpp:545 rc.cpp:383
+#: kotext/KoParagDia.cpp:2109 kotext/KoSearchDia.cpp:548 rc.cpp:383
 #, no-c-format
 msgid "Reset"
 msgstr "ຕັ້ງຄ່າໃຫມ່"
 
-#: kotext/KoSearchDia.cpp:552
+#: kotext/KoSearchDia.cpp:555
 msgid "Family:"
 msgstr "ຕະກູນ:"
 
-#: kotext/KoSearchDia.cpp:554
+#: kotext/KoSearchDia.cpp:557
 msgid "Color:"
 msgstr "ສີ:"
 
-#: kotext/KoSearchDia.cpp:555
+#: kotext/KoSearchDia.cpp:558
 msgid "Background color:"
 msgstr "ສີພື້ນຫລັງ:"
 
-#: kotext/KoSearchDia.cpp:556
+#: kotext/KoSearchDia.cpp:559
 msgid "Bold:"
 msgstr "ຕົວຫນາ:"
 
-#: kotext/KoSearchDia.cpp:557
+#: kotext/KoSearchDia.cpp:560
 msgid "Italic:"
 msgstr "ຕົວອຽງ:"
 
-#: kotext/KoSearchDia.cpp:558
+#: kotext/KoSearchDia.cpp:561
 msgid "Shadow:"
 msgstr "ເງົາ"
 
-#: kotext/KoSearchDia.cpp:559
+#: kotext/KoSearchDia.cpp:562
 #, fuzzy
 msgid "Word by word:"
 msgstr "Word By Word"
 
-#: kotext/KoSearchDia.cpp:561
+#: kotext/KoSearchDia.cpp:564
 msgid "Underline:"
 msgstr "ຕົວຂີດກ້ອງ:"
 
-#: kotext/KoSearchDia.cpp:568
+#: kotext/KoSearchDia.cpp:571
 msgid "Strikeout:"
 msgstr "ເສັ້່ນພາດກາງ:"
 
-#: kotext/KoSearchDia.cpp:575
+#: kotext/KoSearchDia.cpp:578
 msgid "Capitalization:"
 msgstr ""
 
 #. i18n: file ./kotext/kolanguagetabbase.ui line 46
-#: kotext/KoSearchDia.cpp:580 rc.cpp:112
+#: kotext/KoSearchDia.cpp:583 rc.cpp:112
 #, no-c-format
 msgid "Language:"
 msgstr "Language:"
 
-#: kotext/KoSearchDia.cpp:586
+#: kotext/KoSearchDia.cpp:589
 msgid "Vertical alignment:"
 msgstr "ຈັດວາງໃນແນວຕັ້ງ:"
 
 #. i18n: file ./kotext/kolayouttabbase.ui line 82
-#: kotext/KoSearchDia.cpp:629 rc.cpp:165
+#: kotext/KoSearchDia.cpp:632 rc.cpp:165
 #, no-c-format
 msgid "Subscript"
 msgstr "ຕົວຫ້ອຍ"
 
 #. i18n: file ./kotext/kolayouttabbase.ui line 71
-#: kotext/KoSearchDia.cpp:630 rc.cpp:162
+#: kotext/KoSearchDia.cpp:633 rc.cpp:162
 #, no-c-format
 msgid "Superscript"
 msgstr "ຕົວຍົກ"
@@ -3892,7 +3894,7 @@ msgstr ""
 "_ Color\n"
 "Deep Sky Blue"
 
-#: kofficecore/koDocument.cc:1411 kofficecore/koDocument.cc:1610
+#: kofficecore/koDocument.cc:1411 kofficecore/koDocument.cc:1662
 #: kofficecore/koMainWindow.cc:543 kofficeui/koTemplateChooseDia.cc:87
 #: kofficeui/koTemplateChooseDia.cc:709
 #, fuzzy
@@ -4884,7 +4886,7 @@ msgstr ""
 "ມີເອກະສານຊື່ນີ້ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການຂຽນທັບມັນຫລືບໍ່ ?"
 
-#: kofficecore/koDocument.cc:1938 kofficecore/koMainWindow.cc:1025
+#: kofficecore/koDocument.cc:1990 kofficecore/koMainWindow.cc:1025
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p>"
 "<p>Do you want to save it?</p>"
@@ -5084,8 +5086,7 @@ msgstr ""
 "່ມີແຟ້ມທີ່ຖືກບັນທຶກອັດຕະໂນມັດຂອງເອກະສານນີ້ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການເປີດມັນແທນແມ່ນຫລືບໍ່ ?"
 
-#: kofficecore/koDocument.cc:1460 kofficecore/koDocument.cc:1477
-#: kofficecore/koDocument.cc:2303
+#: kofficecore/koDocument.cc:1460 kofficecore/koDocument.cc:2355
 #, c-format
 msgid ""
 "Could not open\n"
@@ -5094,55 +5095,117 @@ msgstr ""
 "ບໍ່ສາມາດເປີດ\n"
 "%1 ໄດ້"
 
-#: kofficecore/koDocument.cc:1583 kofficecore/koOasisStore.cpp:148
+#: kofficecore/koDocument.cc:1480
+msgid "creation error"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1483
+#, fuzzy
+msgid "file not found"
+msgstr "ຜິດພາດ: ບໍ່ພົບແຟ້ມ"
+
+#: kofficecore/koDocument.cc:1486
+msgid "can not create storage"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1489
+msgid "bad MIME type"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1492
+#, fuzzy
+msgid "error in embedded document"
+msgstr "ເກີດຂໍ້ຜິດພາດລະຫວ່າງການບັນທຶກເອກະສານທີ່ຝັງຢູ່"
+
+#: kofficecore/koDocument.cc:1495
+msgid "format is not recognized"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1498
+#, fuzzy
+msgid "not implemented"
+msgstr "ຄຳອະທິບາຍ"
+
+#: kofficecore/koDocument.cc:1501
+msgid "parsing error"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1504
+msgid "document is password protected"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1511
+#, fuzzy
+msgid "internal error"
+msgstr "ທົ່ວໄປ"
+
+#: kofficecore/koDocument.cc:1514
+msgid "Out of Memory"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1521
+msgid "unknown error"
+msgstr ""
+
+#: kofficecore/koDocument.cc:1526
+#, fuzzy
+msgid ""
+"Could not open\n"
+"%1\n"
+"Reason: %2"
+msgstr ""
+"ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້\n"
+"ເນື່ອງຈາກ: %2"
+
+#: kofficecore/koDocument.cc:1635 kofficecore/koOasisStore.cpp:148
 #, fuzzy, c-format
 msgid "Could not find %1"
 msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
 
-#: kofficecore/koDocument.cc:1595
+#: kofficecore/koDocument.cc:1647
 #, fuzzy
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, ຖັນ %2"
 
-#: kofficecore/koDocument.cc:1615
+#: kofficecore/koDocument.cc:1667
 #, fuzzy
 msgid "%1 is not a file."
 msgstr "%1 ບໍ່ແມ່ນການເຊື່ອມໂຍງທີຖືກຕ້ອງ"
 
-#: kofficecore/koDocument.cc:1631
+#: kofficecore/koDocument.cc:1683
 #, fuzzy
 msgid "Could not open the file for reading (check read permissions)."
 msgstr "ບໍ່ສາມາດເປີດແຟ້ມສຳຫລັບທຳການອ່ານໄດ້ (ກະລຸນາກວດສອບສິດການອ່ານ)"
 
-#: kofficecore/koDocument.cc:1641
+#: kofficecore/koDocument.cc:1693
 #, fuzzy
 msgid "Could not read the beginning of the file."
 msgstr "ບໍ່ສາມາດອ່ານຕອນຕົ້ນຂອງແຟ້ມໄດ້"
 
-#: kofficecore/koDocument.cc:1668
+#: kofficecore/koDocument.cc:1720
 #, fuzzy
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, ຖັນ %2"
 
-#: kofficecore/koDocument.cc:1692
+#: kofficecore/koDocument.cc:1744
 #, fuzzy, c-format
 msgid "Not a valid KOffice file: %1"
 msgstr "ບໍ່ແມ່ນແຟ້ມຂອງ KOffice ທີ່ຖືກຕ້ອງ"
 
-#: kofficecore/koDocument.cc:1738
+#: kofficecore/koDocument.cc:1790
 #, fuzzy
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງ: ບໍ່ມີແຟ້ມ 'maindoc.xml'"
 
-#: kofficecore/koDocument.cc:2115
+#: kofficecore/koDocument.cc:2167
 msgid "Internal error: saveXML not implemented"
 msgstr "ໍຂໍ້ຜິດພາດພາຍໃນ: ຍັງບໍ່ມີການກຳນົດ saveXML"
 
-#: kofficecore/koDocument.cc:2291
+#: kofficecore/koDocument.cc:2343
 #, c-format
 msgid ""
 "Could not save\n"
@@ -5151,7 +5214,7 @@ msgstr ""
 "ບໍ່ສາມາດບັນທຶກ\n"
 "%1 ໄດ້"
 
-#: kofficecore/koDocument.cc:2295
+#: kofficecore/koDocument.cc:2347
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
@@ -5159,7 +5222,7 @@ msgstr ""
 "ບໍ່ສາມາດບັນທຶກ %1 ໄດ້\n"
 "ເນຶ່ອງຈາກ: %2"
 
-#: kofficecore/koDocument.cc:2307
+#: kofficecore/koDocument.cc:2359
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
@@ -5167,31 +5230,31 @@ msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້\n"
 "ເນື່ອງຈາກ: %2"
 
-#: kofficecore/koDocument.cc:2424
+#: kofficecore/koDocument.cc:2476
 msgid "a word processing"
 msgstr ""
 
-#: kofficecore/koDocument.cc:2425
+#: kofficecore/koDocument.cc:2477
 msgid "a spreadsheet"
 msgstr ""
 
-#: kofficecore/koDocument.cc:2426
+#: kofficecore/koDocument.cc:2478
 #, fuzzy
 msgid "a presentation"
 msgstr ""
 "\n"
 "แนวกระดาษ:"
 
-#: kofficecore/koDocument.cc:2427
+#: kofficecore/koDocument.cc:2479
 msgid "a chart"
 msgstr ""
 
-#: kofficecore/koDocument.cc:2428
+#: kofficecore/koDocument.cc:2480
 #, fuzzy
 msgid "a drawing"
 msgstr "ສົ້ມທຶບ"
 
-#: kofficecore/koDocument.cc:2581
+#: kofficecore/koDocument.cc:2633
 #, fuzzy
 msgid "Embedding Object"
 msgstr "ບໍ່ສາມາດໂຫລດວັດຖຸຸທີ່ຝັງຢູ່ໄດ້"
@@ -5776,6 +5839,13 @@ msgstr "ตระกูล:"
 #, fuzzy
 msgid "Gray"
 msgstr "ເທົາ"
+
+#, fuzzy
+#~ msgid "Autocorrect (convert two upper case letters to one upper case and one lower case letter)"
+#~ msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ(ແປງອັກສອນຕົວພີມໃຫຍ່ສອງຕົວທຳອິດ ເປັນຕົວພີມໃຫຍ່ໜຶ່ງຕົວ ແລະຕົວພີມນ້ອຍໜຶ່ງຕົວ)"
+
+#~ msgid "Autocorrect (replace 1/2... with "
+#~ msgstr "ແກ້ໄຂໃຫ້ຖືກຕ້ອງອັດຕະໂນມັດ (ແທນທີ່ 1/2... ດ້ວຍ "
 
 #, fuzzy
 #~ msgid "Text"
@@ -7944,9 +8014,6 @@ msgstr "ເທົາ"
 #~ msgid "Send File..."
 #~ msgstr "ສົ່ງແຟ້ມ..."
 
-#~ msgid "ERROR: File not found."
-#~ msgstr "ຜິດພາດ: ບໍ່ພົບແຟ້ມ"
-
 #~ msgid "To send a file you must first have saved the file to the filesystem."
 #~ msgstr "ໃນການສົ່ງແຟ້ມ ທ່ານຕ້ອງບັນທຶກແຟ້ມໄປຍັງລະບົບແຟ້ມເສຍກ່ອນ"
 
@@ -8173,9 +8240,6 @@ msgstr "ເທົາ"
 
 #~ msgid "forall"
 #~ msgstr "ຕົວປົກະຕິ"
-
-#~ msgid "complement"
-#~ msgstr "ຄຳອະທິບາຍ"
 
 #~ msgid "nabla"
 #~ msgstr "nabla"
@@ -9001,9 +9065,6 @@ msgstr "ເທົາ"
 
 #~ msgid "lll"
 #~ msgstr "lll"
-
-#~ msgid "intercal"
-#~ msgstr "ທົ່ວໄປ"
 
 #~ msgid "rightzigzagarrow"
 #~ msgstr "rightzigzagarrow"

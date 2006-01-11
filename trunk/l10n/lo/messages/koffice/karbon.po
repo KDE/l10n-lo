@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-10 08:58+0100\n"
+"POT-Creation-Date: 2006-01-11 08:52+0100\n"
 "PO-Revision-Date: 2003-01-17 18:12+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -453,7 +453,7 @@ msgstr "ສີເສັ້ນການລາກ"
 msgid "Dash Pattern"
 msgstr "ແບນ"
 
-#: commands/vtextcmd.cc:30 tools/vtexttool.cc:846
+#: commands/vtextcmd.cc:30 tools/vtexttool.cc:849
 msgid "Insert Text"
 msgstr "ແຊກຂໍ້ຄວາມ"
 
@@ -949,8 +949,8 @@ msgstr "&วงรี"
 msgid "Polygon"
 msgstr "&รูปหลายเหลี่ยม"
 
-#: shapes/vpolyline.cc:75 tools/vpolylinetool.cc:121
-#: tools/vpolylinetool.cc:479
+#: shapes/vpolyline.cc:75 tools/vpolylinetool.cc:124
+#: tools/vpolylinetool.cc:482
 msgid "Polyline"
 msgstr "ຈຳນວນລ່ຽມ"
 
@@ -1108,55 +1108,55 @@ msgstr ""
 msgid "Pattern Tool"
 msgstr "ແບນ"
 
-#: tools/vpenciltool.cc:54
+#: tools/vpenciltool.cc:55
 #, fuzzy
 msgid "Pencil Settings"
 msgstr "ຕັ້ງຄ່າເອກກະສານ"
 
-#: tools/vpenciltool.cc:60
+#: tools/vpenciltool.cc:61
 msgid "Raw"
 msgstr ""
 
-#: tools/vpenciltool.cc:61
+#: tools/vpenciltool.cc:62
 msgid "Curve"
 msgstr ""
 
-#: tools/vpenciltool.cc:62
+#: tools/vpenciltool.cc:63
 msgid "Straight"
 msgstr ""
 
-#: tools/vpenciltool.cc:68 tools/vpenciltool.cc:78
+#: tools/vpenciltool.cc:69 tools/vpenciltool.cc:79
 msgid "Optimize"
 msgstr ""
 
-#: tools/vpenciltool.cc:80
+#: tools/vpenciltool.cc:81
 #, fuzzy
 msgid "Exactness"
 msgstr "ความแบน: "
 
-#: tools/vpenciltool.cc:90
+#: tools/vpenciltool.cc:91
 msgid "Combine Angle"
 msgstr ""
 
-#: tools/vpenciltool.cc:158
+#: tools/vpenciltool.cc:161
 #, fuzzy
 msgid "<qt><b>Pencil tool:</b><br>"
 msgstr "Choose the pattern to add"
 
-#: tools/vpenciltool.cc:159
+#: tools/vpenciltool.cc:162
 msgid "- <i>Click</i> to begin drawing, release when you have finished."
 msgstr ""
 
-#: tools/vpenciltool.cc:160 tools/vpolylinetool.cc:60
+#: tools/vpenciltool.cc:163 tools/vpolylinetool.cc:63
 msgid "- Press <i>Enter</i> or <i>double click</i> to end the polyline.</qt>"
 msgstr "- Press <i>Enter</i> or <i>double click</i> to end the polyline.</qt>"
 
-#: tools/vpenciltool.cc:169 tools/vpenciltool.cc:402 tools/vpenciltool.h:90
+#: tools/vpenciltool.cc:172 tools/vpenciltool.cc:405 tools/vpenciltool.h:91
 #, fuzzy
 msgid "Pencil Tool"
 msgstr "ແບນ"
 
-#: tools/vpenciltool.cc:261 tools/vpenciltool.cc:403
+#: tools/vpenciltool.cc:264 tools/vpenciltool.cc:406
 msgid "Pencil"
 msgstr ""
 
@@ -1178,11 +1178,11 @@ msgstr "ຂອບ:"
 msgid "Polygon Tool"
 msgstr "ຈຳນວນລ່ຽມ"
 
-#: tools/vpolylinetool.cc:54
+#: tools/vpolylinetool.cc:57
 msgid "<qt><b>Polyline tool:</b><br>"
 msgstr "<qt><b>Polyline tool:</b><br>"
 
-#: tools/vpolylinetool.cc:55
+#: tools/vpolylinetool.cc:58
 msgid ""
 "- <i>Click</i> to add a node and <i>drag</i> to set its bezier vector."
 "<br>"
@@ -1190,7 +1190,7 @@ msgstr ""
 "- <i>Click</i> to add a node and <i>drag</i> to set its bezier vector."
 "<br>"
 
-#: tools/vpolylinetool.cc:56
+#: tools/vpolylinetool.cc:59
 msgid ""
 "- Press <i>Ctrl</i> while dragging to edit the previous bezier vector."
 "<br>"
@@ -1198,21 +1198,21 @@ msgstr ""
 "- Press <i>Ctrl</i> while dragging to edit the previous bezier vector."
 "<br>"
 
-#: tools/vpolylinetool.cc:57
+#: tools/vpolylinetool.cc:60
 msgid ""
 "- Press <i>Shift</i> while dragging to change the curve in a straight line."
 "<br>"
 msgstr "- Press <i>Shift</i> while dragging to change the curve in a straight "
 
-#: tools/vpolylinetool.cc:58
+#: tools/vpolylinetool.cc:61
 msgid "- Press <i>Backspace</i> to cancel the last curve.<br>"
 msgstr "- Press <i>Backspace</i> to cancel the last curve.<br>"
 
-#: tools/vpolylinetool.cc:59
+#: tools/vpolylinetool.cc:62
 msgid "- Press <i>Esc</i> to cancel the whole polyline.<br>"
 msgstr "- Press <i>Esc</i> to cancel the whole polyline.<br>"
 
-#: tools/vpolylinetool.cc:69 tools/vpolylinetool.cc:478
+#: tools/vpolylinetool.cc:72 tools/vpolylinetool.cc:481
 #: tools/vpolylinetool.h:59
 msgid "Polyline Tool"
 msgstr "ຈຳນວນລ່ຽມ"
@@ -1358,15 +1358,15 @@ msgstr "ລຳດັບການາເລືອກ"
 msgid "Select Tool"
 msgstr "เลือก"
 
-#: tools/vshapetool.cc:46
+#: tools/vshapetool.cc:54
 msgid "<qt><b>Shape tool</b><br>"
 msgstr "<qt><b>Shape tool</b><br>"
 
-#: tools/vshapetool.cc:47
+#: tools/vshapetool.cc:55
 msgid "<i>Click and drag</i> to place your own shape.<br>"
 msgstr "<i>Click and drag</i> to place your own shape.<br>"
 
-#: tools/vshapetool.cc:48
+#: tools/vshapetool.cc:56
 msgid "<i>Click</i> to place a shape using the tool properties values.</qt>"
 msgstr "<i>Click</i> to place a shape using the tool properties values.</qt>"
 
@@ -1485,73 +1485,73 @@ msgstr "เอน"
 msgid "Draw a star"
 msgstr ""
 
-#: tools/vtexttool.cc:206 tools/vtexttool.cc:221
+#: tools/vtexttool.cc:207 tools/vtexttool.cc:222
 msgid "Shadow"
 msgstr "Shadow"
 
 #: plugins/shadoweffect/shadoweffectplugin.cc:69
-#: plugins/whirlpinch/whirlpinchplugin.cc:67 tools/vtexttool.cc:217
+#: plugins/whirlpinch/whirlpinchplugin.cc:67 tools/vtexttool.cc:218
 msgid "Angle:"
 msgstr "ມຸມ:"
 
-#: plugins/shadoweffect/shadoweffectplugin.cc:65 tools/vtexttool.cc:219
+#: plugins/shadoweffect/shadoweffectplugin.cc:65 tools/vtexttool.cc:220
 msgid "Distance:"
 msgstr "Distance:"
 
-#: tools/vtexttool.cc:222
+#: tools/vtexttool.cc:223
 msgid "Draw translucent shadow"
 msgstr "Draw translucent shodow"
 
-#: tools/vtexttool.cc:317 tools/vtexttool.cc:344
+#: tools/vtexttool.cc:318 tools/vtexttool.cc:345
 msgid "Text"
 msgstr "ເລືອກ"
 
-#: tools/vtexttool.cc:340
+#: tools/vtexttool.cc:341
 msgid "Bold"
 msgstr "Bold"
 
-#: tools/vtexttool.cc:351
+#: tools/vtexttool.cc:352
 msgid "Alignment:"
 msgstr "ເຊັກເມັນ:"
 
-#: tools/vtexttool.cc:353
+#: tools/vtexttool.cc:354
 msgid "Position:"
 msgstr "ຕຳແຫນ່ງ"
 
-#: tools/vtexttool.cc:355
+#: tools/vtexttool.cc:356
 msgid "Offset:"
 msgstr ""
 
-#: tools/vtexttool.cc:360
+#: tools/vtexttool.cc:361
 #, fuzzy
 msgid "Position"
 msgstr "ຕຳແຫນ່ງ"
 
-#: tools/vtexttool.cc:373
+#: tools/vtexttool.cc:374
 #, fuzzy
 msgid "Edit Base Path"
 msgstr "Edit base path"
 
-#: tools/vtexttool.cc:374
+#: tools/vtexttool.cc:375
 #, fuzzy
 msgid "Convert to Shapes"
 msgstr "Convert to shapes"
 
-#: tools/vtexttool.cc:376
+#: tools/vtexttool.cc:377
 msgid "Effects"
 msgstr "Effects"
 
-#: tools/vtexttool.cc:616 tools/vtexttool.cc:1149 tools/vtexttool.cc:1150
+#: tools/vtexttool.cc:619 tools/vtexttool.cc:1152 tools/vtexttool.cc:1153
 #: tools/vtexttool.h:158
 msgid "Text Tool"
 msgstr "ເລືອກ"
 
-#: tools/vtexttool.cc:825
+#: tools/vtexttool.cc:828
 #, fuzzy
 msgid "Change Text"
 msgstr "Change text"
 
-#: tools/vtexttool.cc:893
+#: tools/vtexttool.cc:896
 #, fuzzy
 msgid "Text Conversion"
 msgstr "Text conversion"
