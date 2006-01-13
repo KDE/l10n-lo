@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-12 08:49+0100\n"
+"POT-Creation-Date: 2006-01-13 08:55+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -150,258 +150,6 @@ msgstr ""
 #, fuzzy
 msgid "KOffice Storage"
 msgstr "KOffice"
-
-#: koscript/koscript.cc:136
-#, c-format
-msgid "Could not find module %1"
-msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
-
-#: koscript/koscript.cc:160
-#, c-format
-msgid "Could not open file %1"
-msgstr "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້"
-
-#: koscript/koscript.cc:254
-msgid "The interpreter does not support an extended syntax you are using."
-msgstr "ອິນເຕີພຣີເຕີ ບໍ່ສະຫນັບສະຫນຸນໄວຍາກອນພາສາເພີ້ມເຕີມທີ່ທ່ານກຳລັງໃຊ້"
-
-#: koscript/main.cc:34
-msgid "Script to run"
-msgstr "ສະຄຣິບທີ່ຈະເອີ້ນໃຊ້"
-
-#: koscript/main.cc:35
-msgid "Options to pass to the script"
-msgstr "ຕົວເລືອກທີ່ຈະສົ່ງໃຫ້ສະຄຣິບ์"
-
-#: koscript/main.cc:43
-#, fuzzy
-msgid "KoScript"
-msgstr "ຕົວຫ້ອຍ"
-
-#: koscript/main.cc:44
-#, fuzzy
-msgid "KOffice script interpreter"
-msgstr "ຕົວແປພາສາສະຄຣິບຂອງ KOffice"
-
-#: koscript/main.cc:55
-msgid ""
-"You must specify a script.\n"
-msgstr ""
-"ທ່ານຕ້ອງລະບຸສະຄຣິບກ່ອນ\n"
-
-#: koscript/koscript_scriptmenu.cc:81
-msgid "KScript Error"
-msgstr "KScript ມີຂໍ້ຜິດພາດ"
-
-#: koscript/koscript_eval.cc:247
-#, c-format
-msgid "Unary Operator + not defined for type %1"
-msgstr "Unary Operator + not defined for type %1"
-
-#: koscript/koscript_eval.cc:375
-#, c-format
-msgid "Operator + not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ + ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:402
-#, c-format
-msgid "Unary Operator - not defined for type %1"
-msgstr "Unary Operator - not defined for type %1"
-
-#: koscript/koscript_eval.cc:521
-#, c-format
-msgid "Operator - not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ - ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:569
-#, c-format
-msgid "Operator * not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ * ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:622
-#, c-format
-msgid "Operator / not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ / ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:743 koscript/koscript_eval.cc:2131
-#, fuzzy, c-format
-msgid ""
-"_n: 1 argument is not needed\n"
-"%n arguments are not needed"
-msgstr "ບໍ່ຕ້ອງການອາກຣູເມນຕ໌ %1 ຕົວ"
-
-#: koscript/koscript_eval.cc:801 koscript/koscript_eval.cc:1696
-msgid "Expected a left expression in assignment"
-msgstr "ຕ້ອງການການກຳນົດນິພົດດ້ານຊ້າຍ"
-
-#: koscript/koscript_eval.cc:810
-msgid "From %1 to Char"
-msgstr "ຈາກ %1 ເປັນ Char"
-
-#: koscript/koscript_eval.cc:871 koscript/koscript_util.cc:75
-#: koscript/koscript_util.cc:81
-msgid "From %1 to %2"
-msgstr "ຈາກ %1 ເປັນ %2"
-
-#: koscript/koscript_eval.cc:934
-#, c-format
-msgid "Operator <= not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ <= ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:995
-#, c-format
-msgid "Operator >= not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ >= ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:1010
-msgid "From %1 to Integer in array index"
-msgstr "ຈາກ %1 ເປັນຈຳນວນເຕັມໃນດັດສະນີຂອງອາເຣ"
-
-#: koscript/koscript_eval.cc:1019
-#, c-format
-msgid "Negative array index %1"
-msgstr "ດັດສະນີອາເຣ %1 ມີຄ່າຕິດລົບ"
-
-#: koscript/koscript_eval.cc:1031 koscript/koscript_eval.cc:1062
-#, c-format
-msgid "Too large index %1"
-msgstr "ດັດສະນີ %1 ໃຫຍ່ເກີນໄປ"
-
-#: koscript/koscript_eval.cc:1052
-msgid "From %1 to List"
-msgstr "ຈາກ %1 ໄປເປັນລິສຕ໌"
-
-#: koscript/koscript_eval.cc:1086
-msgid "From %1 to String in dict"
-msgstr "ຈາກ %1 ໄປເປັນຂໍ້ຄວາມໃນພົດຈະນານຸກົມ"
-
-#: koscript/koscript_eval.cc:1093
-msgid "From %1 to Map"
-msgstr "From %1 to Map"
-
-#: koscript/koscript_eval.cc:1121
-#, fuzzy
-msgid "Expected a left expression."
-msgstr "ຕ້ອງການນິພົດດ້ານຊ້າຍ"
-
-#: koscript/koscript_eval.cc:1167 koscript/koscript_eval.cc:1199
-#: koscript/koscript_eval.cc:1233
-msgid "Argument for parameters %1 missing"
-msgstr "ບໍ່ພົບອາກຣູເມນຕ໌ຂອງພາຣາມິເຕີ %1"
-
-#: koscript/koscript_eval.cc:1209 koscript/koscript_eval.cc:1243
-#, c-format
-msgid "LeftExpr needed for parameter %1"
-msgstr "LeftExpr needed for parameter %1"
-
-#: koscript/koscript_eval.cc:1275
-msgid "From %1 to Function"
-msgstr "ຈາກ %1 ເປັນຟັງຊັນ"
-
-#: koscript/koscript_eval.cc:1546
-msgid "From %1 to String"
-msgstr "ຈາກ %1 ເປັນສະຕຣິງ"
-
-#: koscript/koscript_eval.cc:1581
-msgid "From %1 to Boolean"
-msgstr "ຈາກ %1 ເປັນ Boolean"
-
-#: koscript/koscript_eval.cc:1726 koscript/koscript_eval.cc:2434
-#: koscript/koscript_eval.cc:2503
-#, fuzzy
-msgid "Expected a left expression in assignment."
-msgstr "ຕ້ອງການການກຳນົດນິພົດດ້ານຊ້າຍ"
-
-#: koscript/koscript_eval.cc:1797
-#, c-format
-msgid "Operator < not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ < ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:1858
-#, c-format
-msgid "Operator > not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ > ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_eval.cc:1981
-#, fuzzy
-msgid "Expected a left expression in substitute."
-msgstr "Expected a left expression in substitute"
-
-#: koscript/koscript_eval.cc:2038
-#, c-format
-msgid "Unary Operator ! not defined for type %1"
-msgstr "Unary Operator ! not defined for type %1"
-
-#: koscript/koscript_eval.cc:2412
-msgid "The module %1 does not contain a symbol named %2"
-msgstr "ໂມດູນ %1 ບໍ່ມີສັນຍາລັກຊື່ %2"
-
-#: koscript/koscript_eval.cc:2485 koscript/koscript_eval.cc:2573
-#, c-format
-msgid "Operator += not defined for type %1"
-msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ += ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
-
-#: koscript/koscript_func.cc:81
-#, c-format
-msgid "Invalid time format: %1"
-msgstr "ຮູບແບບເວລາບໍ່ຖືກຕ້ອງ: %1"
-
-#: koscript/koscript_func.cc:100
-#, c-format
-msgid "Invalid date format: %1"
-msgstr "ຮູບແບບວັນທີບໍ່ຖືກຕ້ອງ: %1"
-
-#: koscript/koscript_func.cc:135
-#, fuzzy
-msgid "Cannot calculate length of a %1 value."
-msgstr "ບໍ່ສາມາດຄຳນວນຄວາມຍາວຈາກຄ່າ %1 ໄດ້"
-
-#: koscript/koscript_func.cc:188
-#, fuzzy
-msgid "Cannot determine emptiness of a %1 value."
-msgstr "Cannot determine emptiness of a %1 value"
-
-#: koscript/koscript_func.cc:222
-#, fuzzy
-msgid "Cannot calculate a numerical value from a %1 value."
-msgstr "ບໍ່ສາມາດຄຳນວນຄ່າຕົວເລກຈາກຄ່າ %1 ໄດ້"
-
-#: koscript/koscript_func.cc:253
-#, fuzzy
-msgid "Cannot calculate a floating point value from a %1 value."
-msgstr "ບໍ່ສາມາດຄຳນວນຄ່າຈຳນວນທົດນິຍົມຈາກຄ່າ %1 ໄດ້"
-
-#: koscript/koscript_util.cc:87
-#, fuzzy
-msgid "Arguments did not match the methods %1 parameter list."
-msgstr "ອາກຣູເມນຕ໌ບໍ່ເຂົ້າຄູ່ກັນກັບລາຍການພາຣາມິເຕີຂອງເມທອດ %1"
-
-#: koscript/koscript_util.cc:93
-#, c-format
-msgid "Too few arguments for method %1"
-msgstr "ອາກຣູເມນຕ໌ສຳຫລັບເມທອດ %1 ມີນ້ອຍເກີນໄປ"
-
-#: koscript/koscript_util.cc:99
-#, c-format
-msgid "Too many arguments for method %1"
-msgstr "ອາກຣູເມນຕ໌ສຳຫລັບເມທອດ %1 ມີຫລາຍເກີນໄປ"
-
-#: koscript/koscript_struct.cc:57
-msgid "Unknown symbol '%1' in struct of type %2 of module '%3'"
-msgstr "ບໍ່ຮູ້ຈັກສັນຍາລັກ '%1' ໃນໂຄງສ້າງຊະນິດ %2 ຂອງໂມດູນ'%3'"
-
-#: koscript/koscript_struct.cc:104 koscript/koscript_struct.cc:113
-#: koscript/koscript_struct.cc:199
-msgid "Unknown symbol '%1' in object of struct '%2'"
-msgstr "ບໍ່ຮູ້ຈັກສັນຍາລັກ '%1' ໃນອອບເຈັກຂອງໂຄງສ້າງ '%2'"
-
-#: koscript/koscript_struct.cc:208
-msgid "Unknown variable '%1' in object of struct '%2'"
-msgstr "ບໍ່ຮູ້ຈັກຕົວແປ '%1' ໃນອອບເຈັກຂອງໂຄງສ້າງ '%2'"
-
-#: koscript/koscript_struct.cc:221
-msgid "The variable '%1' in object of struct '%2' is readonly"
-msgstr "ຕົວແປ '%1' ໃນອອບເຈັກຂອງໂຄງສ້າງ '%2' ອ່ານໄດ້ຢ່າງດຽວ"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -1636,7 +1384,7 @@ msgstr "ແກ້ໄຂໃຫຖືກຕ້ອງອັດຕະໂນມັດ
 
 #: kotext/KoAutoFormat.cpp:1620
 #, fuzzy
-msgid "Autocorrect for fraction"
+msgid "Autocorrect for Fraction"
 msgstr "ແກ້ໄຂໃຫຖືກຕ້ອງອັດຕະໂນມັດ"
 
 #: kotext/KoAutoFormat.cpp:1736
@@ -2125,23 +1873,23 @@ msgstr "ເລືອກຮູບແບບທີ່ຈະນຳເຂົ້າ:"
 msgid "Load..."
 msgstr "ໂຫລດ"
 
-#: kofficeui/kocommandhistory.cpp:179 kofficeui/kocommandhistory.cpp:194
-#: kofficeui/kocommandhistory.cpp:225 kofficeui/kocommandhistory.cpp:265
+#: kofficeui/kocommandhistory.cpp:186 kofficeui/kocommandhistory.cpp:201
+#: kofficeui/kocommandhistory.cpp:232 kofficeui/kocommandhistory.cpp:272
 #, c-format
 msgid "&Undo: %1"
 msgstr "&Undo: %1"
 
-#: kofficeui/kocommandhistory.cpp:218 kofficeui/kocommandhistory.cpp:271
+#: kofficeui/kocommandhistory.cpp:225 kofficeui/kocommandhistory.cpp:278
 #, c-format
 msgid "&Redo: %1"
 msgstr "&Redo: %1"
 
-#: kofficeui/kocommandhistory.cpp:348
+#: kofficeui/kocommandhistory.cpp:355
 #, c-format
 msgid "Undo: %1"
 msgstr "Undo: %1"
 
-#: kofficeui/kocommandhistory.cpp:376
+#: kofficeui/kocommandhistory.cpp:383
 #, fuzzy, c-format
 msgid ""
 "_n: Undo %n action\n"
@@ -2150,7 +1898,7 @@ msgstr ""
 "_n Undo %n action\n"
 "Undo %n actions"
 
-#: kofficeui/kocommandhistory.cpp:381
+#: kofficeui/kocommandhistory.cpp:388
 #, fuzzy, c-format
 msgid ""
 "_n: Redo %n action\n"
@@ -2159,7 +1907,7 @@ msgstr ""
 "_n Redo %n action\n"
 "Redo %n actions"
 
-#: kofficeui/kocommandhistory.cpp:394 kofficeui/kocommandhistory.cpp:399
+#: kofficeui/kocommandhistory.cpp:401 kofficeui/kocommandhistory.cpp:406
 #, c-format
 msgid "Redo: %1"
 msgstr "Redo: %1"
@@ -5835,6 +5583,178 @@ msgstr "ตระกูล:"
 #, fuzzy
 msgid "Gray"
 msgstr "ເທົາ"
+
+#~ msgid "Could not find module %1"
+#~ msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
+
+#~ msgid "Could not open file %1"
+#~ msgstr "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້"
+
+#~ msgid "The interpreter does not support an extended syntax you are using."
+#~ msgstr "ອິນເຕີພຣີເຕີ ບໍ່ສະຫນັບສະຫນຸນໄວຍາກອນພາສາເພີ້ມເຕີມທີ່ທ່ານກຳລັງໃຊ້"
+
+#~ msgid "Script to run"
+#~ msgstr "ສະຄຣິບທີ່ຈະເອີ້ນໃຊ້"
+
+#~ msgid "Options to pass to the script"
+#~ msgstr "ຕົວເລືອກທີ່ຈະສົ່ງໃຫ້ສະຄຣິບ์"
+
+#, fuzzy
+#~ msgid "KoScript"
+#~ msgstr "ຕົວຫ້ອຍ"
+
+#, fuzzy
+#~ msgid "KOffice script interpreter"
+#~ msgstr "ຕົວແປພາສາສະຄຣິບຂອງ KOffice"
+
+#~ msgid "You must specify a script.\n"
+#~ msgstr "ທ່ານຕ້ອງລະບຸສະຄຣິບກ່ອນ\n"
+
+#~ msgid "KScript Error"
+#~ msgstr "KScript ມີຂໍ້ຜິດພາດ"
+
+#~ msgid "Unary Operator + not defined for type %1"
+#~ msgstr "Unary Operator + not defined for type %1"
+
+#~ msgid "Operator + not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ + ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#~ msgid "Unary Operator - not defined for type %1"
+#~ msgstr "Unary Operator - not defined for type %1"
+
+#~ msgid "Operator - not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ - ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#~ msgid "Operator * not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ * ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#~ msgid "Operator / not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ / ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#, fuzzy
+#~ msgid ""
+#~ "_n: 1 argument is not needed\n"
+#~ "%n arguments are not needed"
+#~ msgstr "ບໍ່ຕ້ອງການອາກຣູເມນຕ໌ %1 ຕົວ"
+
+#~ msgid "Expected a left expression in assignment"
+#~ msgstr "ຕ້ອງການການກຳນົດນິພົດດ້ານຊ້າຍ"
+
+#~ msgid "From %1 to Char"
+#~ msgstr "ຈາກ %1 ເປັນ Char"
+
+#~ msgid "From %1 to %2"
+#~ msgstr "ຈາກ %1 ເປັນ %2"
+
+#~ msgid "Operator <= not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ <= ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#~ msgid "Operator >= not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ >= ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#~ msgid "From %1 to Integer in array index"
+#~ msgstr "ຈາກ %1 ເປັນຈຳນວນເຕັມໃນດັດສະນີຂອງອາເຣ"
+
+#~ msgid "Negative array index %1"
+#~ msgstr "ດັດສະນີອາເຣ %1 ມີຄ່າຕິດລົບ"
+
+#~ msgid "Too large index %1"
+#~ msgstr "ດັດສະນີ %1 ໃຫຍ່ເກີນໄປ"
+
+#~ msgid "From %1 to List"
+#~ msgstr "ຈາກ %1 ໄປເປັນລິສຕ໌"
+
+#~ msgid "From %1 to String in dict"
+#~ msgstr "ຈາກ %1 ໄປເປັນຂໍ້ຄວາມໃນພົດຈະນານຸກົມ"
+
+#~ msgid "From %1 to Map"
+#~ msgstr "From %1 to Map"
+
+#, fuzzy
+#~ msgid "Expected a left expression."
+#~ msgstr "ຕ້ອງການນິພົດດ້ານຊ້າຍ"
+
+#~ msgid "Argument for parameters %1 missing"
+#~ msgstr "ບໍ່ພົບອາກຣູເມນຕ໌ຂອງພາຣາມິເຕີ %1"
+
+#~ msgid "LeftExpr needed for parameter %1"
+#~ msgstr "LeftExpr needed for parameter %1"
+
+#~ msgid "From %1 to Function"
+#~ msgstr "ຈາກ %1 ເປັນຟັງຊັນ"
+
+#~ msgid "From %1 to String"
+#~ msgstr "ຈາກ %1 ເປັນສະຕຣິງ"
+
+#~ msgid "From %1 to Boolean"
+#~ msgstr "ຈາກ %1 ເປັນ Boolean"
+
+#, fuzzy
+#~ msgid "Expected a left expression in assignment."
+#~ msgstr "ຕ້ອງການການກຳນົດນິພົດດ້ານຊ້າຍ"
+
+#~ msgid "Operator < not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ < ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#~ msgid "Operator > not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ > ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#, fuzzy
+#~ msgid "Expected a left expression in substitute."
+#~ msgstr "Expected a left expression in substitute"
+
+#~ msgid "Unary Operator ! not defined for type %1"
+#~ msgstr "Unary Operator ! not defined for type %1"
+
+#~ msgid "The module %1 does not contain a symbol named %2"
+#~ msgstr "ໂມດູນ %1 ບໍ່ມີສັນຍາລັກຊື່ %2"
+
+#~ msgid "Operator += not defined for type %1"
+#~ msgstr "ຍັງບໍ່ໄດ້ນິຍາມຕົວດຳເນີນການ += ສຳຫລັບຂໍ້ມູນຊະນິດ %1"
+
+#~ msgid "Invalid time format: %1"
+#~ msgstr "ຮູບແບບເວລາບໍ່ຖືກຕ້ອງ: %1"
+
+#~ msgid "Invalid date format: %1"
+#~ msgstr "ຮູບແບບວັນທີບໍ່ຖືກຕ້ອງ: %1"
+
+#, fuzzy
+#~ msgid "Cannot calculate length of a %1 value."
+#~ msgstr "ບໍ່ສາມາດຄຳນວນຄວາມຍາວຈາກຄ່າ %1 ໄດ້"
+
+#, fuzzy
+#~ msgid "Cannot determine emptiness of a %1 value."
+#~ msgstr "Cannot determine emptiness of a %1 value"
+
+#, fuzzy
+#~ msgid "Cannot calculate a numerical value from a %1 value."
+#~ msgstr "ບໍ່ສາມາດຄຳນວນຄ່າຕົວເລກຈາກຄ່າ %1 ໄດ້"
+
+#, fuzzy
+#~ msgid "Cannot calculate a floating point value from a %1 value."
+#~ msgstr "ບໍ່ສາມາດຄຳນວນຄ່າຈຳນວນທົດນິຍົມຈາກຄ່າ %1 ໄດ້"
+
+#, fuzzy
+#~ msgid "Arguments did not match the methods %1 parameter list."
+#~ msgstr "ອາກຣູເມນຕ໌ບໍ່ເຂົ້າຄູ່ກັນກັບລາຍການພາຣາມິເຕີຂອງເມທອດ %1"
+
+#~ msgid "Too few arguments for method %1"
+#~ msgstr "ອາກຣູເມນຕ໌ສຳຫລັບເມທອດ %1 ມີນ້ອຍເກີນໄປ"
+
+#~ msgid "Too many arguments for method %1"
+#~ msgstr "ອາກຣູເມນຕ໌ສຳຫລັບເມທອດ %1 ມີຫລາຍເກີນໄປ"
+
+#~ msgid "Unknown symbol '%1' in struct of type %2 of module '%3'"
+#~ msgstr "ບໍ່ຮູ້ຈັກສັນຍາລັກ '%1' ໃນໂຄງສ້າງຊະນິດ %2 ຂອງໂມດູນ'%3'"
+
+#~ msgid "Unknown symbol '%1' in object of struct '%2'"
+#~ msgstr "ບໍ່ຮູ້ຈັກສັນຍາລັກ '%1' ໃນອອບເຈັກຂອງໂຄງສ້າງ '%2'"
+
+#~ msgid "Unknown variable '%1' in object of struct '%2'"
+#~ msgstr "ບໍ່ຮູ້ຈັກຕົວແປ '%1' ໃນອອບເຈັກຂອງໂຄງສ້າງ '%2'"
+
+#~ msgid "The variable '%1' in object of struct '%2' is readonly"
+#~ msgstr "ຕົວແປ '%1' ໃນອອບເຈັກຂອງໂຄງສ້າງ '%2' ອ່ານໄດ້ຢ່າງດຽວ"
 
 #, fuzzy
 #~ msgid "Script Manager"
