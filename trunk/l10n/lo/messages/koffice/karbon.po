@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-13 08:56+0100\n"
+"POT-Creation-Date: 2006-01-15 09:00+0100\n"
 "PO-Revision-Date: 2003-01-17 18:12+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -579,7 +579,7 @@ msgstr ""
 msgid "Opacity"
 msgstr "ຄວາມທຶບແສງ"
 
-#: dialogs/vcolortab.cc:108 dockers/vcolordocker.cc:76
+#: dialogs/vcolortab.cc:108 dockers/vcolordocker.cc:81
 msgid "RGB"
 msgstr "RGB"
 
@@ -717,22 +717,26 @@ msgstr "ຫົວເສັ້ນ"
 msgid "Join"
 msgstr "ເຊື່ອມ"
 
-#: dockers/vcolordocker.cc:57
+#: dockers/vcolordocker.cc:58
 #, fuzzy
 msgid "Color Chooser"
 msgstr "Choose color"
 
-#: dockers/vcolordocker.cc:70
+#: dockers/vcolordocker.cc:73
 msgid "HSV"
 msgstr ""
 
-#: dockers/vcolordocker.cc:85 plugins/shadoweffect/shadoweffectplugin.cc:73
+#: dockers/vcolordocker.cc:90 plugins/shadoweffect/shadoweffectplugin.cc:73
 msgid "Opacity:"
 msgstr "ຄວາມທຶບແສງ"
 
+#: dockers/vcolordocker.cc:93
+msgid "Alpha (opacity)"
+msgstr ""
+
 #: dockers/vdocumentdocker.cc:232 tools/vellipsetool.cc:52
-#: tools/vrectangletool.cc:41 tools/vroundrecttool.cc:43
-#: tools/vsinustool.cc:43 widgets/vselecttoolbar.cc:56
+#: tools/vrectangletool.cc:41 tools/vsinustool.cc:43
+#: widgets/vselecttoolbar.cc:56
 #, fuzzy
 msgid "Height:"
 msgstr "ສູງ (%1):"
@@ -1131,12 +1135,13 @@ msgstr ""
 
 #: tools/vpenciltool.cc:81
 #, fuzzy
-msgid "Exactness"
+msgid "Exactness:"
 msgstr "ความแบน: "
 
 #: tools/vpenciltool.cc:91
-msgid "Combine Angle"
-msgstr ""
+#, fuzzy
+msgid "Combine angle:"
+msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
 
 #: tools/vpenciltool.cc:161
 #, fuzzy
@@ -1239,6 +1244,11 @@ msgstr "หมุน"
 #, fuzzy
 msgid "Insert Round Rect"
 msgstr "ແຊກຮູບສີ່່ລ່ຽມມູມມົນ"
+
+#: tools/vroundrecttool.cc:43
+#, fuzzy
+msgid "Height (%1):"
+msgstr "สูง (%1):"
 
 #: tools/vroundrecttool.cc:46
 #, fuzzy
@@ -2083,9 +2093,6 @@ msgstr ""
 
 #~ msgid "Width(%1):"
 #~ msgstr "กว้าง (%1):"
-
-#~ msgid "Height(%1):"
-#~ msgstr "สูง (%1):"
 
 #~ msgid "Insert Gradient"
 #~ msgstr "แทรกการไล่ระดับสี"

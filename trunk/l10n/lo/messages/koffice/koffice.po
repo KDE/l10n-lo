@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-13 08:55+0100\n"
+"POT-Creation-Date: 2006-01-15 08:59+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -4014,8 +4014,8 @@ msgstr ""
 #. i18n: file ./kotext/KoParagDecorationTab.ui line 31
 #: rc.cpp:192
 #, fuzzy, no-c-format
-msgid "Background Color"
-msgstr "ສີພື້ນຫລັງ:"
+msgid "Paragraph Background Color"
+msgstr "ປ່ຽນສີພື້ນຫລັງ..."
 
 #. i18n: file ./kotext/KoParagDecorationTab.ui line 45
 #: rc.cpp:195
@@ -4875,7 +4875,7 @@ msgid "Parsing error"
 msgstr ""
 
 #: kofficecore/koDocument.cc:1504
-msgid "Document password protected"
+msgid "Document is password protected"
 msgstr ""
 
 #: kofficecore/koDocument.cc:1511
@@ -5009,7 +5009,7 @@ msgstr ""
 
 #: kofficecore/koOpenPane.cc:94
 #, fuzzy
-msgid "Open Existing Document"
+msgid "Open Existing Document..."
 msgstr "ເປີດເອກະສານທີ່ມີຢູ່ແລ້ວ"
 
 #: kofficecore/koOpenPane.cc:137
@@ -5579,10 +5579,68 @@ msgstr "Double"
 msgid "Font Family"
 msgstr "ตระกูล:"
 
+#: kopainter/ko_cmyk_widget.cc:87
+#, fuzzy
+msgid "Cyan"
+msgstr ""
+"_: Color\n"
+"Dark Cyan"
+
+#: kopainter/ko_cmyk_widget.cc:93
+#, fuzzy
+msgid "Magenta"
+msgstr ""
+"_: Color\n"
+"Magenta"
+
+#: kopainter/ko_cmyk_widget.cc:99
+#, fuzzy
+msgid "Yellow"
+msgstr ""
+"_: Color\n"
+"Dark Yellow"
+
+#: kopainter/ko_cmyk_widget.cc:105
+#, fuzzy
+msgid "Black"
+msgstr "ວ່າວ"
+
 #: kopainter/koColorChooser.cc:52
 #, fuzzy
 msgid "Gray"
 msgstr "ເທົາ"
+
+#: kopainter/ko_rgb_widget.cc:77
+#, fuzzy
+msgid "Red"
+msgstr "Re"
+
+#: kopainter/ko_rgb_widget.cc:83
+#, fuzzy
+msgid "Green"
+msgstr "ຈໍພາບ"
+
+#: kopainter/ko_rgb_widget.cc:89
+#, fuzzy
+msgid "Blue"
+msgstr "ຄ່າ"
+
+#: kopainter/ko_hsv_widget.cc:60
+msgid "Hue"
+msgstr ""
+
+#: kopainter/ko_hsv_widget.cc:65
+#, fuzzy
+msgid "Saturation"
+msgstr "ทิศทาง:"
+
+#: kopainter/ko_hsv_widget.cc:70
+msgid "Value (brightness)"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Background Color"
+#~ msgstr "ສີພື້ນຫລັງ:"
 
 #~ msgid "Could not find module %1"
 #~ msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
@@ -7018,26 +7076,8 @@ msgstr "ເທົາ"
 #~ "Navy"
 
 #, fuzzy
-#~ msgid "Red"
-#~ msgstr "Re"
-
-#, fuzzy
 #~ msgid "Orange"
 #~ msgstr "rangle"
-
-#, fuzzy
-#~ msgid "Magenta"
-#~ msgstr ""
-#~ "_: Color\n"
-#~ "Magenta"
-
-#, fuzzy
-#~ msgid "Blue"
-#~ msgstr "ຄ່າ"
-
-#, fuzzy
-#~ msgid "Green"
-#~ msgstr "ຈໍພາບ"
 
 #, fuzzy
 #~ msgid "Brown"
@@ -7054,22 +7094,10 @@ msgstr "ເທົາ"
 #~ msgstr "ນຳ້ເງິນທຶບ"
 
 #, fuzzy
-#~ msgid "Dark Cyan"
-#~ msgstr ""
-#~ "_: Color\n"
-#~ "Dark Cyan"
-
-#, fuzzy
 #~ msgid "Dark Green"
 #~ msgstr ""
 #~ "_: Color\n"
 #~ "Dark Green"
-
-#, fuzzy
-#~ msgid "Dark Yellow"
-#~ msgstr ""
-#~ "_: Color\n"
-#~ "Dark Yellow"
 
 #, fuzzy
 #~ msgid "White"
@@ -7110,10 +7138,6 @@ msgstr "ເທົາ"
 #, fuzzy
 #~ msgid "Gray 10%"
 #~ msgstr "ເທົາ"
-
-#, fuzzy
-#~ msgid "Black"
-#~ msgstr "ວ່າວ"
 
 #, fuzzy
 #~ msgid "Mint Cream"
