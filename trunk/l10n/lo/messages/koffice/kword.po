@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-15 09:00+0100\n"
+"POT-Creation-Date: 2006-01-16 09:02+0100\n"
 "PO-Revision-Date: 2003-01-21 12:16+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1065,14 +1065,18 @@ msgstr "ປ່ງນການຕັ້ງຄ່າຕົວແປເຊີງອ
 msgid "Change Footnote Line Separator Settings"
 msgstr "ປ່ງນການຕັ້ງຄ່າເສັ້ນຕົວບົ່ງເຊີງອອດ"
 
-#: KWCreateBookmarkDia.cpp:44 KWCreateBookmarkDia.cpp:99
-#: KWCreateBookmarkDia.cpp:123
-msgid "Rename Bookmark"
+#: KWCreateBookmarkDia.cpp:44
+#, fuzzy
+msgid "Rename Bookmark..."
 msgstr "ປ່ຽນຊື່ທີ່ຂັ້ນໜັງສື"
 
 #: KWCreateBookmarkDia.cpp:64
 msgid "That name already exists, please choose another name."
 msgstr "ມີຊຸດກັຣບມືນີ້ຢູ່ແລ້ວໃຫ້ຕື່ມຊື່ໃໝ่"
+
+#: KWCreateBookmarkDia.cpp:99 KWCreateBookmarkDia.cpp:123
+msgid "Rename Bookmark"
+msgstr "ປ່ຽນຊື່ທີ່ຂັ້ນໜັງສື"
 
 #: KWCreateBookmarkDia.cpp:103
 msgid "Delete Bookmark"
@@ -3533,7 +3537,8 @@ msgid "Change Footnote/Endnote Parameter"
 msgstr "ປ່ຽນພາຣາມິເຕີFootnote/ອ້າງອີງທ້າຍເລື້ອງ"
 
 #: KWView.cpp:1306
-msgid "Save Picture..."
+#, fuzzy
+msgid "Save Picture As..."
 msgstr "ບັນທຶກຮູບພາບ..."
 
 #: KWView.cpp:1309
