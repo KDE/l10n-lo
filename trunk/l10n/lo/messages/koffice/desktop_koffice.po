@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-01-17 08:10+0000\n"
+"POT-Creation-Date: 2006-01-18 08:29+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -592,92 +592,9 @@ msgstr "Comment=แฟ้มตัวออกแบบ Qt"
 msgid "Comment=SQLite3 Database File"
 msgstr "Comment=แฟ้มตัวออกแบบ Qt"
 
-#: kexi/data/kexifileimportfilter.desktop:6
-msgid ""
-"Comment=Service type for any kind of file based kexi import filters "
-"(table,forms,queries, ...)"
-msgstr ""
-
-#: kexi/data/kexiformhandler.desktop:6
-#, fuzzy
-msgid "GenericName=Forms"
-msgstr "GenericName=ดอกไม้"
-
-#: kexi/data/kexiformhandler.desktop:41
-#, fuzzy
-msgid "Name=Forms"
-msgstr "Name=สูตรคณิตศาสตร์ - K"
-
 #: kexi/data/kexihandler.desktop:5
 msgid "Comment=Kexi Project Handlers"
 msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃໝ่"
-
-#: kexi/data/kexiimportfilter.desktop:5
-msgid ""
-"Comment=Service type for any kind of kexi import filters "
-"(table,forms,queries,....)"
-msgstr ""
-
-#: kexi/data/kexiqueryhandler.desktop:6
-#, fuzzy
-msgid "GenericName=Queries"
-msgstr "GenericName=ค้นหาแฟ้ม"
-
-#: kexi/data/kexiqueryhandler.desktop:40
-#, fuzzy
-msgid "Name=Queries"
-msgstr "Name=เดมอน"
-
-#: kexi/data/kexirelationhandler.desktop:6
-#, fuzzy
-msgid "GenericName=Relationships"
-msgstr "Name=แอพพลิเคชัน"
-
-#: kexi/data/kexirelationhandler.desktop:39
-#, fuzzy
-msgid "Name=Relationships"
-msgstr "Name=แอพพลิเคชัน"
-
-#: kexi/data/kexireporthandler.desktop:6
-#, fuzzy
-msgid "GenericName=Reports"
-msgstr "GenericName=ดอกไม้"
-
-#: kexi/data/kexireporthandler.desktop:41
-#, fuzzy
-msgid "Name=Reports"
-msgstr "Name=เกมกีฬา"
-
-#: kexi/data/kexiscripthandler.desktop:6
-#, fuzzy
-msgid "GenericName=Scripts"
-msgstr "GenericName=ค้นหาแฟ้ม"
-
-#: kexi/data/kexiscripthandler.desktop:35
-#, fuzzy
-msgid "Name=Scripts"
-msgstr "Name=โซลาริส"
-
-#: kexi/data/kexiserverimportfilter.desktop:6
-msgid ""
-"Comment=Service type for any kind of server based kexi import filters "
-"(table,forms,queries, ...)"
-msgstr ""
-
-#: kexi/data/kexitablefilter.desktop:5
-#, fuzzy
-msgid "Comment=Kexi Table Import/Export Filter"
-msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
-
-#: kexi/data/kexitablehandler.desktop:6
-#, fuzzy
-msgid "GenericName=Tables"
-msgstr "GenericName=เกม"
-
-#: kexi/data/kexitablehandler.desktop:42
-#, fuzzy
-msgid "Name=Tables"
-msgstr "Name=เมเปิล"
 
 #: kexi/data/x-kexi-connectiondata.desktop:7
 #, fuzzy
@@ -739,10 +656,6 @@ msgstr "Name=ສອຍຄີວ - K"
 #, fuzzy
 msgid "GenericName=Database Creator"
 msgstr "GenericName=เครื่องมือสร้างภาพบิตแมพ"
-
-#: kexi/kexi.desktop:45
-msgid "Comment=A Database Management Application"
-msgstr "Comment=ແອຟຟີເຄຊັນສະແກນຮູບບົນພື້ນຖານ SANE"
 
 #: kexi/kexidb/drivers/mySQL/kexidb_mysqldriver.desktop:3
 #: kexi/migration/mysql/keximigrate_mysql.desktop:3
@@ -809,6 +722,16 @@ msgstr "Comment=ປລັກອິນພາບ"
 msgid "Name=Kexi DB Widgets"
 msgstr "Name=ส่วนเครื่องมือแก้ไขข้อความ"
 
+#: kexi/plugins/forms/kexiformhandler.desktop:6
+#, fuzzy
+msgid "GenericName=Forms"
+msgstr "GenericName=ดอกไม้"
+
+#: kexi/plugins/forms/kexiformhandler.desktop:41
+#, fuzzy
+msgid "Name=Forms"
+msgstr "Name=สูตรคณิตศาสตร์ - K"
+
 #: kexi/plugins/importexport/csv/kexicsv_importexporthandler.desktop:6
 #, fuzzy
 msgid "Name=Kexi CSV Data Import/Export Plugin"
@@ -824,10 +747,60 @@ msgstr "GenericName=ไคลเอนต์จดหมายอิเล็ก
 msgid "Name=Migration Plugin"
 msgstr "Name=ทดสอบ"
 
+#: kexi/plugins/queries/kexiqueryhandler.desktop:6
+#, fuzzy
+msgid "GenericName=Queries"
+msgstr "GenericName=ค้นหาแฟ้ม"
+
+#: kexi/plugins/queries/kexiqueryhandler.desktop:40
+#, fuzzy
+msgid "Name=Queries"
+msgstr "Name=เดมอน"
+
+#: kexi/plugins/relations/kexirelationhandler.desktop:6
+#, fuzzy
+msgid "GenericName=Relationships"
+msgstr "Name=แอพพลิเคชัน"
+
+#: kexi/plugins/relations/kexirelationhandler.desktop:39
+#, fuzzy
+msgid "Name=Relationships"
+msgstr "Name=แอพพลิเคชัน"
+
 #: kexi/plugins/reports/kexireportfactory.desktop:6
 #, fuzzy
 msgid "Name=Kexi Report Widgets"
 msgstr "Name=ส่วนเครื่องมือแก้ไขข้อความ"
+
+#: kexi/plugins/reports/kexireporthandler.desktop:6
+#, fuzzy
+msgid "GenericName=Reports"
+msgstr "GenericName=ดอกไม้"
+
+#: kexi/plugins/reports/kexireporthandler.desktop:41
+#, fuzzy
+msgid "Name=Reports"
+msgstr "Name=เกมกีฬา"
+
+#: kexi/plugins/scripting/kexiscripting/kexiscripthandler.desktop:6
+#, fuzzy
+msgid "GenericName=Scripts"
+msgstr "GenericName=ค้นหาแฟ้ม"
+
+#: kexi/plugins/scripting/kexiscripting/kexiscripthandler.desktop:35
+#, fuzzy
+msgid "Name=Scripts"
+msgstr "Name=โซลาริส"
+
+#: kexi/plugins/tables/kexitablehandler.desktop:6
+#, fuzzy
+msgid "GenericName=Tables"
+msgstr "GenericName=เกม"
+
+#: kexi/plugins/tables/kexitablehandler.desktop:42
+#, fuzzy
+msgid "Name=Tables"
+msgstr "Name=เมเปิล"
 
 #: kformula/kformula.desktop:3
 msgid "Name=KFormula"
@@ -2292,6 +2265,13 @@ msgstr "Name=ແຟ້ມຂອງໂປຣແກມຊຸດສໍານັກ�
 #: tools/thumbnail/otherofficethumbnail.desktop:4
 msgid "Name=Other Office Files"
 msgstr "Name=ແຟ້ມໂປຣແກມຊຸດສໍານັກງານຕົວອື່ນ"
+
+#, fuzzy
+#~ msgid "Comment=Kexi Table Import/Export Filter"
+#~ msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
+
+#~ msgid "Comment=A Database Management Application"
+#~ msgstr "Comment=ແອຟຟີເຄຊັນສະແກນຮູບບົນພື້ນຖານ SANE"
 
 #~ msgid "Name=KSpread Excel 97 Filter"
 #~ msgstr "Name=ຕົວຕອງ Excel 97 ຂອງກະດາດຄຳນວນ K"
