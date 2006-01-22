@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-16 03:20+0100\n"
+"POT-Creation-Date: 2006-01-22 03:21+0100\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -212,7 +212,7 @@ msgstr "&ຊ່ວງໄລຍະທີ່ຈະກວດ:"
 
 #. i18n: file signatureconfigurationdialog.ui line 508
 #: accountdialog.cpp:434 accountdialog.cpp:527 accountdialog.cpp:721
-#: accountdialog.cpp:1028 configuredialog.cpp:2537 rc.cpp:726
+#: accountdialog.cpp:1028 configuredialog.cpp:2547 rc.cpp:726
 #, no-c-format
 msgid " min"
 msgstr "ນາທີ"
@@ -246,7 +246,7 @@ msgstr "รวมแฟ้ม"
 msgid "Account Type: POP Account"
 msgstr "ປະເພດບັນຊີຜູ້ໃຊ: ບັນຊີ POP"
 
-#: accountdialog.cpp:565 accountdialog.cpp:825 configuredialog.cpp:2426
+#: accountdialog.cpp:565 accountdialog.cpp:825 configuredialog.cpp:2436
 #: identitydialog.cpp:106 kmfilterdlg.cpp:140 kmtransport.cpp:376
 msgid "&General"
 msgstr "&ທົ່ວໄປ"
@@ -1141,7 +1141,7 @@ msgid "&Add..."
 msgstr "&ເພີ່ມ..."
 
 #: configuredialog.cpp:303 configuredialog.cpp:622 configuredialog.cpp:1073
-#: configuredialog.cpp:2995 simplestringlisteditor.cpp:108
+#: configuredialog.cpp:3005 simplestringlisteditor.cpp:108
 msgid "&Modify..."
 msgstr "&ແກ້ໄຂ..."
 
@@ -1149,7 +1149,7 @@ msgstr "&ແກ້ໄຂ..."
 msgid "&Rename"
 msgstr "&ປ່ັຽນຊື່..."
 
-#: configuredialog.cpp:305 configuredialog.cpp:2945 configuredialog.cpp:2994
+#: configuredialog.cpp:305 configuredialog.cpp:2955 configuredialog.cpp:3004
 msgid "Remo&ve"
 msgstr "&ເຄື່ອນຍ້າຍ"
 
@@ -1168,11 +1168,11 @@ msgstr ""
 msgid "Remove Identity"
 msgstr "ลบตัวปัจจุบัน"
 
-#: configuredialog.cpp:490 configuredialog.cpp:2944
+#: configuredialog.cpp:490 configuredialog.cpp:2954
 msgid "Add..."
 msgstr "ເພີ່ມ..."
 
-#: configuredialog.cpp:492 configuredialog.cpp:2946
+#: configuredialog.cpp:492 configuredialog.cpp:2956
 msgid "Modify..."
 msgstr "ແກ້ໄຂ..."
 
@@ -1192,7 +1192,7 @@ msgstr "&ການສົ່ງ"
 msgid "Outgoing accounts (add at least one):"
 msgstr "ບັນຊີຜູ້ໃຊ້ສົ່ງອອກ(ຕ້ອງມີຢ່າງຫນ້ອຍຫນື່ງບັນຊີຜູ້ໃຊ້ !)"
 
-#: configuredialog.cpp:601 configuredialog.cpp:1051 configuredialog.cpp:3120
+#: configuredialog.cpp:601 configuredialog.cpp:1051 configuredialog.cpp:3130
 #: distributionlistdialog.cpp:108 kmcomposewin.cpp:315
 #: recipientspicker.cpp:290
 msgid "Name"
@@ -1203,8 +1203,8 @@ msgstr "ຊື່"
 msgid "Type"
 msgstr "ປະເພດ"
 
-#: configuredialog.cpp:615 configuredialog.cpp:1066 configuredialog.cpp:2714
-#: configuredialog.cpp:2917 configuredialog.cpp:2994 configuredialog.cpp:3328
+#: configuredialog.cpp:615 configuredialog.cpp:1066 configuredialog.cpp:2724
+#: configuredialog.cpp:2927 configuredialog.cpp:3004 configuredialog.cpp:3338
 msgid "A&dd..."
 msgstr "&ເພີ່ມ..."
 
@@ -1803,7 +1803,7 @@ msgstr ""
 msgid "Fallback ch&aracter encoding:"
 msgstr "ຕັ້ງຄ່າ&ຊຸດລະຫັດອັກຂະຫຼະ"
 
-#: configuredialog.cpp:2242 configuredialog.cpp:2289 kmreaderwin.cpp:635
+#: configuredialog.cpp:2242 configuredialog.cpp:2299 kmreaderwin.cpp:635
 msgid "Auto"
 msgstr "ອັດຕະໂນມັດ"
 
@@ -1813,72 +1813,72 @@ msgid "&Override character encoding:"
 msgstr "ຕັ້ງຄ່າ&ຊຸດລະຫັດອັກຂະຫຼະ"
 
 #. i18n: file kmail.kcfg line 80
-#: configuredialog.cpp:2362 rc.cpp:1109
+#: configuredialog.cpp:2372 rc.cpp:1109
 #, fuzzy, no-c-format
 msgid "Enable system tray icon"
 msgstr "&ການແຈ້ງເຕື່ອນເມື່ອມີຈົດຫມາຍໃຫມ່"
 
-#: configuredialog.cpp:2368
+#: configuredialog.cpp:2378
 #, fuzzy
 msgid "System Tray Mode"
 msgstr "ການແຈ້ງເມື່ອມີແບບໃຫມ່"
 
-#: configuredialog.cpp:2376
+#: configuredialog.cpp:2386
 #, fuzzy
 msgid "Always show KMail in system tray"
 msgstr "ແຈ້ງເຕື່ອນເມື່ອມີການສະແດງແບບໃຫມ່"
 
-#: configuredialog.cpp:2379
+#: configuredialog.cpp:2389
 msgid "Only show KMail in system tray if there are unread messages"
 msgstr ""
 
-#: configuredialog.cpp:2433
+#: configuredialog.cpp:2443
 msgid "&Phrases"
 msgstr "&ວະລີ"
 
-#: configuredialog.cpp:2439
+#: configuredialog.cpp:2449
 msgid "&Subject"
 msgstr "&ເລື່ອງ"
 
-#: configuredialog.cpp:2446
+#: configuredialog.cpp:2456
 msgid "Cha&rset"
 msgstr "&ຊຸດລະຫັດອັກຂະລະ"
 
-#: configuredialog.cpp:2452
+#: configuredialog.cpp:2462
 msgid "H&eaders"
 msgstr "&ສ່ວນຫົວ"
 
-#: configuredialog.cpp:2458
+#: configuredialog.cpp:2468
 msgid ""
 "_: Config->Composer->Attachments\n"
 "A&ttachments"
 msgstr ""
 
-#: configuredialog.cpp:2536
+#: configuredialog.cpp:2546
 #, fuzzy
 msgid "No autosave"
 msgstr "ບໍ່ມີຂໍ້ມູນ"
 
-#: configuredialog.cpp:2543
+#: configuredialog.cpp:2553
 #, fuzzy
 msgid "Configure Completion Order"
 msgstr "&ໃຫ້ຖາມຢືນຢັນກ່ອນມີການທຳໂຟນເດີ້ໃຫ້ວ່າ"
 
-#: configuredialog.cpp:2551
+#: configuredialog.cpp:2561
 #, fuzzy
 msgid "Edit Recent Addresses"
 msgstr "ສະແດງທີ&ຢູ່ລ່າສຸດ"
 
-#: configuredialog.cpp:2558 kmedit.cpp:527
+#: configuredialog.cpp:2568 kmedit.cpp:527
 msgid "External Editor"
 msgstr "ຕົວກວດສອບພາຍນອກ"
 
-#: configuredialog.cpp:2589
+#: configuredialog.cpp:2599
 #, fuzzy, c-format
 msgid "<b>%f</b> will be replaced with the filename to edit."
 msgstr "ຕົວແປ \"%f\" ຈະຖືກແທນທີ່ດ້ວຍຊື່ແຟ້ມທີ່ຈະແກ້ໄຂ"
 
-#: configuredialog.cpp:2695
+#: configuredialog.cpp:2705
 #, fuzzy
 msgid ""
 "<qt>The following placeholders are supported in the reply phrases:"
@@ -1895,79 +1895,79 @@ msgstr ""
 "%T=ຊື່ຜູ້ຮັບ, %t=ຊື່ຜູ້ຮັບແລະທີ່ຢู่ູ່\n"
 "%%=ເຄື່່ອງຫມາຍສ່ວນຮ້ອຍ, %_=ຊ່ອງຫວ່າງ, %L=ຈົບແຖວ"
 
-#: configuredialog.cpp:2708
+#: configuredialog.cpp:2718
 #, fuzzy
 msgid "Lang&uage:"
 msgstr "&ພາສາ:"
 
-#: configuredialog.cpp:2717 configuredialog.cpp:2917 configuredialog.cpp:3133
-#: configuredialog.cpp:3328
+#: configuredialog.cpp:2727 configuredialog.cpp:2927 configuredialog.cpp:3143
+#: configuredialog.cpp:3338
 msgid "Re&move"
 msgstr "&ລືບອອກ"
 
-#: configuredialog.cpp:2731
+#: configuredialog.cpp:2741
 #, fuzzy
 msgid "Reply to se&nder:"
 msgstr "&ຕອບກັບໄປຍັງຜູ້ສົ່ງ:"
 
-#: configuredialog.cpp:2739
+#: configuredialog.cpp:2749
 #, fuzzy
 msgid "Repl&y to all:"
 msgstr "&ຕອບກັບໄປຍັງທັງຫມົດ:"
 
-#: configuredialog.cpp:2747
+#: configuredialog.cpp:2757
 msgid "&Forward:"
 msgstr "&ສົ່ງຕໍ່:"
 
-#: configuredialog.cpp:2755
+#: configuredialog.cpp:2765
 msgid "&Quote indicator:"
 msgstr "&ຕົວສະແດງເຖີ່ງສ່ວນທີ່ອ້າງ້ຖີ່ງ:"
 
-#: configuredialog.cpp:2800 kmmessage.cpp:3770
+#: configuredialog.cpp:2810 kmmessage.cpp:3770
 msgid "On %D, you wrote:"
 msgstr "ເມື່ອວັນທີ่ %D ທ່ານໄດ້ສົ່ງຂໍ້ຄວາມ:"
 
-#: configuredialog.cpp:2801 kmmessage.cpp:3772
+#: configuredialog.cpp:2811 kmmessage.cpp:3772
 msgid "On %D, %F wrote:"
 msgstr "ເມື່ອ %D, %F ໄດ້ສົ່ງຂໍ້ຄວາມ: "
 
-#: configuredialog.cpp:2802 kmmessage.cpp:3774
+#: configuredialog.cpp:2812 kmmessage.cpp:3774
 msgid "Forwarded Message"
 msgstr "ສົ່ງຕໍ່ຂໍ້ຄວາມແລ້ວ"
 
-#: configuredialog.cpp:2803
+#: configuredialog.cpp:2813
 msgid ">%_"
 msgstr ">%_"
 
-#: configuredialog.cpp:2904
+#: configuredialog.cpp:2914
 msgid "Repl&y Subject Prefixes"
 msgstr "&ຄຳນຳຫນ້າຫົວເລື່ອງຕອບກັບ"
 
-#: configuredialog.cpp:2908 configuredialog.cpp:2937
+#: configuredialog.cpp:2918 configuredialog.cpp:2947
 msgid ""
 "Recognize any sequence of the following prefixes\n"
 "(entries are case-insensitive regular expressions):"
 msgstr "ແຊກດ້ວຍຄຳນຳຫນ້າເຫລົ່ານີ້ (ພິຈາລະນາຕົວໃຫຍ່-ນ້ອຍ)"
 
-#: configuredialog.cpp:2918 configuredialog.cpp:3329
+#: configuredialog.cpp:2928 configuredialog.cpp:3339
 #, fuzzy
 msgid "Mod&ify..."
 msgstr "ແກ້ໄຂ..."
 
-#: configuredialog.cpp:2919
+#: configuredialog.cpp:2929
 msgid "Enter new reply prefix:"
 msgstr "ຕືມຄຳນຳຫນ້າການຕອບກັບໃຫມ່:"
 
-#: configuredialog.cpp:2933
+#: configuredialog.cpp:2943
 #, fuzzy
 msgid "For&ward Subject Prefixes"
 msgstr "ແຊກຄຳນຳຫນ້າຫົວທີ່ສົ່່ງຕໍ່"
 
-#: configuredialog.cpp:2947
+#: configuredialog.cpp:2957
 msgid "Enter new forward prefix:"
 msgstr "ຕື່ມຄຳນຳຫນ້າການສົ່ງ่:"
 
-#: configuredialog.cpp:2986
+#: configuredialog.cpp:2996
 msgid ""
 "This list is checked for every outgoing message from the top to the bottom for "
 "a charset that contains all required characters."
@@ -1975,89 +1975,89 @@ msgstr ""
 "ລາຍການນີ້ຈຖືກກວດສອບທຸກໆຈົດຫມາຍຈາກເທິງລົງລຸ່ມ "
 "ເພື່ອຫາຊຸດອັກຂະລະທີ່ມີອັກຂະລະທຸກໆຕົວທີ່ຕ້ອງການ"
 
-#: configuredialog.cpp:2995
+#: configuredialog.cpp:3005
 msgid "Enter charset:"
 msgstr "ເຕີມຊຸດລະຫັດອັກຂະລະທີ່ຈະເພີ່ມ"
 
-#: configuredialog.cpp:3001
+#: configuredialog.cpp:3011
 #, fuzzy
 msgid "&Keep original charset when replying or forwarding (if possible)"
 msgstr ""
 "&ໃຊ້ລະຫັດອັກຂະລະປະລິຍາຍຂອງເຈົ້າຂອງເມື່ອມີການຕອບກັບຫລືມີການສົ່ງຕໍ່ (ຫາກທຳໄດ้້)"
 
-#: configuredialog.cpp:3035
+#: configuredialog.cpp:3045
 msgid "This charset is not supported."
 msgstr "ບໍ່ສະຫນັບສະຫນູນຊຸດລະຫັດອັກຂະລະ"
 
-#: configuredialog.cpp:3086
+#: configuredialog.cpp:3096
 msgid "&Use custom message-id suffix"
 msgstr "&ໃຊ້ຄຳນຳຫນ້າຫມາຍເລກຈົດຫມາຍກຳຫນົດເອງ"
 
-#: configuredialog.cpp:3099
+#: configuredialog.cpp:3109
 msgid "Custom message-&id suffix:"
 msgstr "&ຕໍ່ທ້າຍດ້ວຍຫມາຍເລກຈົດຫມາຍທີ່ກຳນົດເອງ"
 
-#: configuredialog.cpp:3113
+#: configuredialog.cpp:3123
 msgid "Define custom mime header fields:"
 msgstr "ແຊກສ່ວນຫົວ mime ທີ່ກຳນົດເອງ:"
 
-#: configuredialog.cpp:3121
+#: configuredialog.cpp:3131
 msgid "Value"
 msgstr "ຄ່າ"
 
-#: configuredialog.cpp:3129
+#: configuredialog.cpp:3139
 msgid "Ne&w"
 msgstr "ໃ&ຫມ່"
 
 #. i18n: file folderpropertiesdialog.ui line 52
-#: configuredialog.cpp:3142 kmfolderdia.cpp:252 kmmsgpartdlg.cpp:110
+#: configuredialog.cpp:3152 kmfolderdia.cpp:252 kmmsgpartdlg.cpp:110
 #: kmtransport.cpp:329 kmtransport.cpp:383 newfolderdialog.cpp:76 rc.cpp:459
 #, no-c-format
 msgid "&Name:"
 msgstr "&ຊື່"
 
-#: configuredialog.cpp:3151
+#: configuredialog.cpp:3161
 msgid "&Value:"
 msgstr "ຄ່າ&:"
 
 #. i18n: file kmail.kcfg line 255
-#: configuredialog.cpp:3298 rc.cpp:1205
+#: configuredialog.cpp:3308 rc.cpp:1205
 #, no-c-format
 msgid "Outlook-compatible attachment naming"
 msgstr ""
 
-#: configuredialog.cpp:3301
+#: configuredialog.cpp:3311
 msgid ""
 "Turn this option on to make Outlook(tm) understand attachment names containing "
 "non-English characters"
 msgstr ""
 
-#: configuredialog.cpp:3312
+#: configuredialog.cpp:3322
 msgid "E&nable detection of missing attachments"
 msgstr ""
 
-#: configuredialog.cpp:3319
+#: configuredialog.cpp:3329
 msgid "Recognize any of the following key words as intention to attach a file:"
 msgstr ""
 
-#: configuredialog.cpp:3330
+#: configuredialog.cpp:3340
 #, fuzzy
 msgid "Enter new key word:"
 msgstr "ຕືມຄຳນຳຫນ້າການຕອບກັບໃຫມ່:"
 
-#: configuredialog.cpp:3354 configuredialog.cpp:3355 kmcomposewin.cpp:2035
+#: configuredialog.cpp:3364 configuredialog.cpp:3365 kmcomposewin.cpp:2035
 #: kmcomposewin.cpp:2036
 #, fuzzy
 msgid "attachment"
 msgstr "ສິ່ງທີ່ແນບມາດ້ວຍ: "
 
-#: configuredialog.cpp:3356 configuredialog.cpp:3357 kmcomposewin.cpp:2037
+#: configuredialog.cpp:3366 configuredialog.cpp:3367 kmcomposewin.cpp:2037
 #: kmcomposewin.cpp:2038
 #, fuzzy
 msgid "attached"
 msgstr "&ຕິດ"
 
-#: configuredialog.cpp:3376
+#: configuredialog.cpp:3386
 msgid ""
 "You have chosen to encode attachment names containing non-English characters in "
 "a way that is understood by Outlook(tm) and other mail clients that do not "
@@ -2068,32 +2068,32 @@ msgid ""
 "option."
 msgstr ""
 
-#: configuredialog.cpp:3403
+#: configuredialog.cpp:3413
 #, fuzzy
 msgid "&Reading"
 msgstr "อ่านแล้ว"
 
-#: configuredialog.cpp:3409
+#: configuredialog.cpp:3419
 #, fuzzy
 msgid "Composing"
 msgstr "ຂຽນຈົດຫມາຍ"
 
 #. i18n: file encryptionconfigurationdialog.ui line 435
-#: configuredialog.cpp:3415 rc.cpp:366 rc.cpp:729
+#: configuredialog.cpp:3425 rc.cpp:366 rc.cpp:729
 #, no-c-format
 msgid "Warnings"
 msgstr "ຄຳເຕືອນຂອງ KMail"
 
-#: configuredialog.cpp:3421
+#: configuredialog.cpp:3431
 msgid "S/MIME &Validation"
 msgstr ""
 
-#: configuredialog.cpp:3427
+#: configuredialog.cpp:3437
 #, fuzzy
 msgid "Crypto Backe&nds"
 msgstr "ຕົວເ&ສີມ"
 
-#: configuredialog.cpp:3458
+#: configuredialog.cpp:3468
 msgid ""
 "<qt>"
 "<p>Messages sometimes come in both formats. This option controls whether you "
@@ -2124,7 +2124,7 @@ msgstr ""
 "<p><b>ຂໍ້ຄວນຈຳ:</b> ທ່ານສາມາດຕັ້ງຄ່າຕົວເລືອກສຳລັບແຕ່ລະໂຟເດີໄດ້ຈາກເມນູ <i>"
 "ໂຟເດີ</i> ຂອງຫນ້າຕ່າງຫລັກ KMail</p></qt>"
 
-#: configuredialog.cpp:3475
+#: configuredialog.cpp:3485
 #, fuzzy
 msgid ""
 "<qt>"
@@ -2151,7 +2151,7 @@ msgstr ""
 "ທີ່ບໍ່ໄດ້ລວມເຂົ້າກັບຈົດຫມາຍທ່ານສາມາດເລືອກຕົວເລືອກນີ້ໄດ້ "
 "ແຕ່ທ່ານອາດຈະໄດ້ຮັບຄຳເຕື່ອນກ່ຽວກັບປັນຫາທີ່ອາດຈະເກີດຂື້ນ</p></qt>"
 
-#: configuredialog.cpp:3488
+#: configuredialog.cpp:3498
 #, fuzzy
 msgid ""
 "<qt>"
@@ -2199,20 +2199,20 @@ msgstr ""
 "ລູກຄ້າແມ່ນມີຄວາມສຳພັນຜູ້ບໍລິຫານ,    ການທຳທີ່ໃຊ້ໄດ້ແມ່ນ.</li></ul></qt> "
 "e.g ຫລາຍ.  ."
 
-#: configuredialog.cpp:3521
+#: configuredialog.cpp:3531
 #, fuzzy
 msgid "HTML Messages"
 msgstr "ໃຫ້ຈົດໝາຍເກົ່າໝົດອາຍຸ"
 
-#: configuredialog.cpp:3524
+#: configuredialog.cpp:3534
 msgid "Prefer H&TML to plain text"
 msgstr "ສະແດງ H&TML ໃນແບບຂໍ້ຄວາມທຳມະດາ"
 
-#: configuredialog.cpp:3528
+#: configuredialog.cpp:3538
 msgid "Allow messages to load e&xternal references from the Internet"
 msgstr "ອະນຸຍາດໃຫ້ຈົດໝາຍໂຫລດ&ສ່ວນທີ່ອ້າງຖືງຈາກເນັດໄດ້"
 
-#: configuredialog.cpp:3533
+#: configuredialog.cpp:3543
 #, fuzzy
 msgid ""
 "<b>WARNING:</b> Allowing HTML in email may increase the risk that your system "
@@ -2225,52 +2225,52 @@ msgstr ""
 "ໂຫວໃນລະບົບຂອງທ່ານກະລຸນາໃຊ້ຄວາມຊ່ວຍເຫລືອດ່ວນห \"ນີ້ແມ່ນຫຍັງ\" (ຫລືກົດ Shift-F1) "
 "ເພື່ອເບີ່ງລາຍລະອຽດຂອງຕົວເລືອກແຕ່ລະຕົວ</qt>"
 
-#: configuredialog.cpp:3545
+#: configuredialog.cpp:3555
 msgid "Message Disposition Notifications"
 msgstr "ຂໍ້ຄວາມປະກາດສະຖານະ"
 
-#: configuredialog.cpp:3557
+#: configuredialog.cpp:3567
 msgid "Send policy:"
 msgstr "ສົ່ງເລຍ"
 
-#: configuredialog.cpp:3559 kmmessage.cpp:1294 kmmessage.cpp:1301
+#: configuredialog.cpp:3569 kmmessage.cpp:1294 kmmessage.cpp:1301
 msgid "&Ignore"
 msgstr "&ລະເລຍ"
 
-#: configuredialog.cpp:3562
+#: configuredialog.cpp:3572
 msgid "As&k"
 msgstr "ໃຫ້ຖາມ&ກອ່ນ"
 
-#: configuredialog.cpp:3565
+#: configuredialog.cpp:3575
 msgid "&Deny"
 msgstr "&ສົ່ງແລ້ວ"
 
-#: configuredialog.cpp:3568
+#: configuredialog.cpp:3578
 msgid "Al&ways send"
 msgstr "&ສະເໝີ"
 
-#: configuredialog.cpp:3586
+#: configuredialog.cpp:3596
 msgid "Quote original message:"
 msgstr "ບໍ່ໃຫ້ເຊັ່ນຈົດໝາຍ"
 
-#: configuredialog.cpp:3588
+#: configuredialog.cpp:3598
 msgid "Nothin&g"
 msgstr "&ບໍ່ມີຫຍັງ"
 
-#: configuredialog.cpp:3591
+#: configuredialog.cpp:3601
 msgid "&Full message"
 msgstr "&ຈົດໝາຍເຕັມ"
 
-#: configuredialog.cpp:3594
+#: configuredialog.cpp:3604
 msgid "Onl&y headers"
 msgstr "&ສ່ວນຫົວ"
 
-#: configuredialog.cpp:3600
+#: configuredialog.cpp:3610
 #, fuzzy
 msgid "Do not send MDNs in response to encrypted messages"
 msgstr "&ແຈ້ງເຕືອນເມື່ອພະຍາຍາມສົ່ງຈົດໝາຍທີ່ບໍ່ໄດ້ເຂົ້າລະຫັດໄວ້"
 
-#: configuredialog.cpp:3604
+#: configuredialog.cpp:3614
 #, fuzzy
 msgid ""
 "<b>WARNING:</b> Unconditionally returning confirmations undermines your "
@@ -2279,56 +2279,56 @@ msgstr ""
 "<qt><b>ຄຳເຕື່ອນ:</b> ການຍອມຮັບໂດຍບໍ່ມີເງື່ອນໄຂອາດສົ່ງຜົນຕໍ່ຄວາມປອດໄພ "
 "ໃຊ້\"ນີ້ແມ່ນຫຍັງ\" (ຫລືກົດ Shift-F1) ເພື່ອເບີ່ງລາຍລະອຽດ</qt>"
 
-#: configuredialog.cpp:3613
+#: configuredialog.cpp:3623
 #, fuzzy
 msgid "Certificate && Key Bundle Attachments"
 msgstr "ການຈັດການໃບຮັບຮອງ"
 
-#: configuredialog.cpp:3616
+#: configuredialog.cpp:3626
 #, fuzzy
 msgid "Automatically import keys and certificates"
 msgstr "&ເພີ່ມລາຍເຊັນທ້າຍມາຍໍ້ຕະໂນມັດ"
 
-#: configuredialog.cpp:3675
+#: configuredialog.cpp:3685
 msgid ""
 "Changing the global HTML setting will override all folder specific values."
 msgstr "ການປ່ັຽນການຕັ້ງຄ່າ HTML ທົ່ວໄປ ຈະທຳໃຫ້ທຸກໂຟນເດີ້ໃຊ້ຄ່າທີ່ກຳນົດໄວ້"
 
-#: configuredialog.cpp:3962
+#: configuredialog.cpp:3972
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: file smimeconfiguration.ui line 216
-#: configuredialog.cpp:4071 rc.cpp:898
+#: configuredialog.cpp:4081 rc.cpp:898
 #, no-c-format
 msgid "no proxy"
 msgstr ""
 
-#: configuredialog.cpp:4072
+#: configuredialog.cpp:4082
 msgid "(Current system setting: %1)"
 msgstr ""
 
-#: configuredialog.cpp:4249
+#: configuredialog.cpp:4259
 #, fuzzy
 msgid "&Folders"
 msgstr "ໂຟນເດີ້"
 
-#: configuredialog.cpp:4252
+#: configuredialog.cpp:4262
 #, fuzzy
 msgid "&Groupware"
 msgstr "ປັບແຕ່ງບັນຊີຜູ້ໃຊ้້"
 
-#: configuredialog.cpp:4273
+#: configuredialog.cpp:4283
 msgid ""
 "_: Corresponds to Folder->Move All Messages to Trash\n"
 "Ask for co&nfirmation before moving all messages to trash"
 msgstr ""
 
-#: configuredialog.cpp:4280
+#: configuredialog.cpp:4290
 msgid "E&xclude important messages from expiry"
 msgstr ""
 
-#: configuredialog.cpp:4291
+#: configuredialog.cpp:4301
 #, fuzzy
 msgid ""
 "_: to be continued with \"do not loop\", \"loop in current folder\", and \"loop "
@@ -2336,100 +2336,100 @@ msgid ""
 "When trying to find unread messages:"
 msgstr "&ເທິງຮອບໃນໂຟນເດີ້ປະຈຸບັນເມື່ອມີຄວາມພະຍາຍາມຈະຫາຈົດຫມາຍທີ່ ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: configuredialog.cpp:4294
+#: configuredialog.cpp:4304
 #, fuzzy
 msgid ""
 "_: continuation of \"When trying to find unread messages:\"\n"
 "Do not Loop"
 msgstr "&ເທິງຮອບໃນໂຟນເດີ້ປະຈຸບັນເມື່ອມີຄວາມພະຍາຍາມຈະຫາຈົດຫມາຍທີ່ ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: configuredialog.cpp:4296
+#: configuredialog.cpp:4306
 #, fuzzy
 msgid ""
 "_: continuation of \"When trying to find unread messages:\"\n"
 "Loop in Current Folder"
 msgstr "&ເທິງຮອບໃນໂຟນເດີ້ປະຈຸບັນເມື່ອມີຄວາມພະຍາຍາມຈະຫາຈົດຫມາຍທີ່ ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: configuredialog.cpp:4298
+#: configuredialog.cpp:4308
 #, fuzzy
 msgid ""
 "_: continuation of \"When trying to find unread messages:\"\n"
 "Loop in All Folders"
 msgstr "&ເທິງຮອບໃນໂຟນເດີ້ປະຈຸບັນເມື່ອມີຄວາມພະຍາຍາມຈະຫາຈົດຫມາຍທີ່ ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: configuredialog.cpp:4311
+#: configuredialog.cpp:4321
 msgid ""
 "_: to be continued with \"jump to first new message\", \"jump to first unread "
 "or new message\",and \"jump to last selected message\".\n"
 "When entering a folder:"
 msgstr ""
 
-#: configuredialog.cpp:4314
+#: configuredialog.cpp:4324
 #, fuzzy
 msgid ""
 "_: continuation of \"When entering a folder:\"\n"
 "Jump to First New Message"
 msgstr "&ເທິງຮອບໃນໂຟນເດີ້ປະຈຸບັນເມື່ອມີຄວາມພະຍາຍາມຈະຫາຈົດຫມາຍທີ່ ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: configuredialog.cpp:4316
+#: configuredialog.cpp:4326
 #, fuzzy
 msgid ""
 "_: continuation of \"When entering a folder:\"\n"
 "Jump to First Unread or New Message"
 msgstr "&ເທິງຮອບໃນໂຟນເດີ້ປະຈຸບັນເມື່ອມີຄວາມພະຍາຍາມຈະຫາຈົດຫມາຍທີ່ ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: configuredialog.cpp:4318
+#: configuredialog.cpp:4328
 #, fuzzy
 msgid ""
 "_: continuation of \"When entering a folder:\"\n"
 "Jump to Last Selected Message"
 msgstr "&ເທິງຮອບໃນໂຟນເດີ້ປະຈຸບັນເມື່ອມີຄວາມພະຍາຍາມຈະຫາຈົດຫມາຍທີ່ ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: configuredialog.cpp:4325
+#: configuredialog.cpp:4335
 msgid "Mar&k selected message as read after"
 msgstr "&ຕັ້ງຈົດຫມາຍປະຈຸບັນເປັນອ່ານແລ້ວ"
 
-#: configuredialog.cpp:4329
+#: configuredialog.cpp:4339
 msgid " sec"
 msgstr "ວິນາທີ"
 
-#: configuredialog.cpp:4342
+#: configuredialog.cpp:4352
 msgid "Ask for action after &dragging messages to another folder"
 msgstr "&ຫລັງຈາກການຖາມຂໍ້ຄວາມຂອງໂຟນເດີ້ອື່ນໆ"
 
-#: configuredialog.cpp:4353
+#: configuredialog.cpp:4363
 msgid ""
 "_: to be continued with \"flat files\" and \"directories\", resp.\n"
 "By default, &message folders on disk are:"
 msgstr "&ໂດຍປະລິຍາຍແລ້ວໂຟນເດີ້ຈົດຫມາຍເທິງດິດສ໌ຈະເປັນ"
 
-#: configuredialog.cpp:4356
+#: configuredialog.cpp:4366
 msgid ""
 "_: continuation of \"By default, &message folders on disk are\"\n"
 "Flat Files (\"mbox\" format)"
 msgstr "ແຟ້ມທຳມະດາ (ຮູບແບບ \"ກ່ອງm\")"
 
-#: configuredialog.cpp:4358
+#: configuredialog.cpp:4368
 msgid ""
 "_: continuation of \"By default, &message folders on disk are\"\n"
 "Directories (\"maildir\" format)"
 msgstr "ໄດເລັກທໍລີ (ຮູບແບບ \"ເມວລ໌ໄດຣ໌\")"
 
-#: configuredialog.cpp:4369
+#: configuredialog.cpp:4379
 #, fuzzy
 msgid "Open this folder on startup:"
 msgstr "ກວດຈົດໝາຍ&ໃນ"
 
-#: configuredialog.cpp:4376
+#: configuredialog.cpp:4386
 #, fuzzy
 msgid "Empty local &trash folder on program exit"
 msgstr "&ຖີ້ມຂີ້ເຫຍື້ອ"
 
-#: configuredialog.cpp:4384
+#: configuredialog.cpp:4394
 msgid "Enable full text &indexing"
 msgstr ""
 
-#: configuredialog.cpp:4396
+#: configuredialog.cpp:4406
 msgid ""
 "_: what's this help\n"
 "<qt>"
@@ -2453,7 +2453,7 @@ msgstr ""
 "ຂໍ້ຄວາມຂອງບຸກຄົນແມ່ນຂະ ແບ່ງເປັນໄຟຣ໌ "
 "ມັນຈະເປື່ອງເຫນື້ອທີ່ຂອງດສແຕ່ຈະສົມບູນເມື່ອການຍ້າຍຂໍ້ຄວາມລະຫວ່າງໂຟເດີ</p></qt>"
 
-#: configuredialog.cpp:4413
+#: configuredialog.cpp:4423
 #, fuzzy
 msgid ""
 "_: what's this help\n"
@@ -2477,7 +2477,7 @@ msgstr ""
 "<p>ຂະນະຕົວເລືອກນີ້ແມ່ນກວດ, ການຫາຈະເລີ່ມທີ່ຈຸດສຸດຂອງແຖວຂໍ້ຄວາມ ຫລືອີກຢ່າງຫນື່ງ "
 "ມັນຈະບໍ່ເຮັດຫຍັງ</p>"
 
-#: configuredialog.cpp:4430
+#: configuredialog.cpp:4440
 msgid ""
 "_: what's this help\n"
 "<qt>"
@@ -2490,118 +2490,118 @@ msgid ""
 "KMail while this operation is running.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:4504
+#: configuredialog.cpp:4514
 #, fuzzy
 msgid "&IMAP Resource Folder Options"
 msgstr "ໂຟເ ດີໝົດອາຍຸ"
 
-#: configuredialog.cpp:4508
+#: configuredialog.cpp:4518
 msgid "&Enable IMAP resource functionality"
 msgstr ""
 
-#: configuredialog.cpp:4509
+#: configuredialog.cpp:4519
 msgid "This enables the IMAP storage for the Kontact applications"
 msgstr ""
 
-#: configuredialog.cpp:4522
+#: configuredialog.cpp:4532
 #, fuzzy
 msgid "&Format used for the groupware folders:"
 msgstr "ປັບແຕ່ງບັນຊີຜູ້ໃຊ้້"
 
-#: configuredialog.cpp:4524
+#: configuredialog.cpp:4534
 msgid ""
 "Choose the format to use to store the contents of the groupware folders."
 msgstr ""
 
-#: configuredialog.cpp:4533
+#: configuredialog.cpp:4543
 msgid "Standard (Ical / Vcard)"
 msgstr ""
 
-#: configuredialog.cpp:4533
+#: configuredialog.cpp:4543
 msgid "Kolab (XML)"
 msgstr ""
 
-#: configuredialog.cpp:4541
+#: configuredialog.cpp:4551
 msgid "&Language of the groupware folders:"
 msgstr ""
 
-#: configuredialog.cpp:4544
+#: configuredialog.cpp:4554
 msgid "Set the language of the folder names"
 msgstr ""
 
-#: configuredialog.cpp:4553
+#: configuredialog.cpp:4563
 msgid "English"
 msgstr ""
 
-#: configuredialog.cpp:4553
+#: configuredialog.cpp:4563
 #, fuzzy
 msgid "German"
 msgstr "ທົ່ວໄປ"
 
-#: configuredialog.cpp:4553
+#: configuredialog.cpp:4563
 msgid "French"
 msgstr ""
 
-#: configuredialog.cpp:4553
+#: configuredialog.cpp:4563
 msgid "Dutch"
 msgstr ""
 
-#: configuredialog.cpp:4562
+#: configuredialog.cpp:4572
 msgid "Set the parent of the resource folders"
 msgstr ""
 
-#: configuredialog.cpp:4591
+#: configuredialog.cpp:4601
 #, fuzzy
 msgid "&Hide groupware folders"
 msgstr "ປັບແຕ່ງບັນຊີຜູ້ໃຊ้້"
 
-#: configuredialog.cpp:4595
+#: configuredialog.cpp:4605
 msgid ""
 "When this is checked, you will not see the IMAP resource folders in the folder "
 "tree."
 msgstr ""
 
-#: configuredialog.cpp:4603
+#: configuredialog.cpp:4613
 msgid "Groupware Compatibility && Legacy Options"
 msgstr ""
 
-#: configuredialog.cpp:4608
+#: configuredialog.cpp:4618
 msgid "&Enable groupware functionality"
 msgstr ""
 
-#: configuredialog.cpp:4616
+#: configuredialog.cpp:4626
 msgid "Mangle From:/To: headers in replies to invitations"
 msgstr ""
 
-#: configuredialog.cpp:4617
+#: configuredialog.cpp:4627
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitation replies"
 msgstr ""
 
-#: configuredialog.cpp:4622
+#: configuredialog.cpp:4632
 msgid "Send invitations in the mail body"
 msgstr ""
 
-#: configuredialog.cpp:4623
+#: configuredialog.cpp:4633
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitations"
 msgstr ""
 
 #. i18n: file kmail.kcfg line 140
-#: configuredialog.cpp:4630 rc.cpp:1143
+#: configuredialog.cpp:4640 rc.cpp:1143
 #, fuzzy, no-c-format
 msgid "Automatic invitation sending"
 msgstr "เข้ารหัสโดยใช้ OpenPGP โดยอัตโนมัติ"
 
-#: configuredialog.cpp:4631
+#: configuredialog.cpp:4641
 msgid ""
 "When this is on, the user will not see the mail composer window. Invitation "
 "mails are sent automatically"
 msgstr ""
 
-#: configuredialog.cpp:4644
+#: configuredialog.cpp:4654
 msgid ""
 "<qt>Invitations are normally sent as attachments to a mail. This switch changes "
 "the invitation mails to be sent in the text of the mail instead; this is "
@@ -2613,16 +2613,16 @@ msgid ""
 "be able to work with this.</qt>"
 msgstr ""
 
-#: configuredialog.cpp:4692
+#: configuredialog.cpp:4702
 #, fuzzy
 msgid "<Choose a Folder>"
 msgstr "ສ້າງໂຟເດີ"
 
-#: configuredialog.cpp:4763
+#: configuredialog.cpp:4773
 msgid "&Resource folders are subfolders of:"
 msgstr ""
 
-#: configuredialog.cpp:4766
+#: configuredialog.cpp:4776
 #, fuzzy
 msgid "&Resource folders are in account:"
 msgstr "ໂຟເ ດີໝົດອາຍຸ"
