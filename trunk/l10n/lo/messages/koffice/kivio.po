@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-01-21 09:16+0100\n"
+"POT-Creation-Date: 2006-01-23 09:07+0100\n"
 "PO-Revision-Date: 2003-01-18 16:04+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -94,7 +94,7 @@ msgstr "ຊື່"
 msgid "New Layer"
 msgstr "ເລເຢີໃຫມ่"
 
-#: kiviopart/kivio_page.cpp:1122 kiviopart/ui/kivio_layer_panel.cpp:79
+#: kiviopart/kivio_page.cpp:1072 kiviopart/ui/kivio_layer_panel.cpp:79
 msgid "Remove Layer"
 msgstr "ລືບເລເຢີ"
 
@@ -410,7 +410,7 @@ msgstr "ຕື່ມຊຸດລວດລາຍ"
 msgid "Align && Distribute..."
 msgstr "ຈັດລຽງ&& ແລະແຍກສວ່ນ..."
 
-#: kiviopart/kivio_view.cpp:400
+#: kiviopart/kivio_page.cpp:765 kiviopart/kivio_view.cpp:400
 #, fuzzy
 msgid "Group Selection"
 msgstr "ລາ້ງ&ການເລືອກ"
@@ -419,6 +419,7 @@ msgstr "ລາ້ງ&ການເລືອກ"
 msgid "Group selected objects into a single stencil"
 msgstr ""
 
+#: kiviopart/kivio_page.cpp:774 kiviopart/kivio_page.cpp:808
 #: kiviopart/kivio_view.cpp:402
 msgid "Ungroup"
 msgstr ""
@@ -724,9 +725,9 @@ msgstr "ປ່ຽນການຈັດລຽງທາງແນວຕັ້ງ"
 msgid "Resize Stencil"
 msgstr "ປັບຂະຫນາດລວດລາຍ"
 
-#: kiviopart/kivio_page.cpp:1167 kiviopart/kivio_page.cpp:1204
-#: kiviopart/kivio_page.cpp:1214 kiviopart/kivio_page.cpp:1226
-#: kiviopart/kivio_page.cpp:1466 kiviopart/kivio_page.cpp:1471
+#: kiviopart/kivio_page.cpp:1117 kiviopart/kivio_page.cpp:1154
+#: kiviopart/kivio_page.cpp:1164 kiviopart/kivio_page.cpp:1176
+#: kiviopart/kivio_page.cpp:1416 kiviopart/kivio_page.cpp:1421
 #: kiviopart/kivio_view.cpp:1679 plugins/kivioselecttool/tool_select.cpp:1022
 #: plugins/kivioselecttool/tool_select.cpp:1030
 msgid "Move Stencil"
@@ -813,7 +814,7 @@ msgstr "ມີການປອ້ງກັນການລືບໄວ้"
 msgid "Remove Stencil"
 msgstr "ລືບຊຸດລວດລາຍ"
 
-#: kiviopart/kivio_page.cpp:1025
+#: kiviopart/kivio_page.cpp:975
 msgid ""
 "One of the stencils has protection from deletion. You cannot cut or delete this "
 "stencil."
@@ -821,7 +822,7 @@ msgstr ""
 "ມີລວດລາຍຢາ່ງຫນອ້ຍນື່ງໂຕມີການປອ້ງກັນການລືບໄວ້ເຮັດໃຫ້ເຈົ້າຈະບໍ່ສາມາດຕັດຫືຼລືບລວດ "
 "ລາຍນີ້ໄດ້"
 
-#: kiviopart/kivio_page.cpp:1025
+#: kiviopart/kivio_page.cpp:975
 msgid "Protection From Delete"
 msgstr "ປ້ອງກັນການລືບ"
 
