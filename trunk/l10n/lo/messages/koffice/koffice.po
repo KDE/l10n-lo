@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-02-10 10:39+0100\n"
+"POT-Creation-Date: 2006-02-11 10:37+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -4694,10 +4694,26 @@ msgstr ""
 msgid "Use This Template"
 msgstr "ສ້າງເອກະສານຕົ້ນແບບ"
 
-#: kofficecore/koDetailsPane.cc:294
+#: kofficecore/koDetailsPane.cc:288
 #, fuzzy
 msgid "Open This Document"
 msgstr "ເປີດເອກະສານ"
+
+#: kofficecore/koDetailsPane.cc:380
+msgid ""
+"_: File modification date and time. %1 is date time\n"
+"<tr>"
+"<td><b>Modified:</b></td>"
+"<td>%1</td></tr>"
+msgstr ""
+
+#: kofficecore/koDetailsPane.cc:382
+msgid ""
+"_: File access date and time. %1 is date time\n"
+"<tr>"
+"<td><b>Accessed:</b></td>"
+"<td>%1</td></tr>"
+msgstr ""
 
 #: kofficecore/koDocumentChild.cc:216 kofficecore/koDocumentChild.cc:255
 #, c-format
