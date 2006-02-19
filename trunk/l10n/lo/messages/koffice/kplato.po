@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-02-16 10:58+0100\n"
+"POT-Creation-Date: 2006-02-19 11:00+0100\n"
 "PO-Revision-Date: 2003-01-18 11:31+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -51,13 +51,13 @@ msgid "Default account:"
 msgstr ""
 
 #. i18n: file kptaccountspanelbase.ui line 64
-#: kptaccountsview.cc:109 rc.cpp:42
+#: kptaccountsview.cc:120 rc.cpp:42
 #, no-c-format
 msgid "Account"
 msgstr ""
 
 #. i18n: file kptaccountspanelbase.ui line 75
-#: kptdoublelistviewbase.cc:321 rc.cpp:45
+#: kptdoublelistviewbase.cc:358 rc.cpp:45
 #, no-c-format
 msgid "Description"
 msgstr "ລາຍລະອຽດ"
@@ -93,7 +93,7 @@ msgid "Periodicity:"
 msgstr ""
 
 #. i18n: file kptaccountsviewconfigurepanelbase.ui line 57
-#: kptaccountsview.cc:204 rc.cpp:66
+#: kptaccountsview.cc:215 rc.cpp:66
 #, no-c-format
 msgid "Cumulative"
 msgstr ""
@@ -976,7 +976,7 @@ msgid "New..."
 msgstr ""
 
 #. i18n: file resourcespanelbase.ui line 149
-#: kptview.cc:261 rc.cpp:748
+#: kptview.cc:265 rc.cpp:748
 #, no-c-format
 msgid "Edit..."
 msgstr "Edit..."
@@ -1058,33 +1058,33 @@ msgstr ""
 msgid "Modify Accounts"
 msgstr "Edit Resource"
 
-#: kptaccountsview.cc:92
+#: kptaccountsview.cc:103
 msgid "Day"
 msgstr ""
 
-#: kptaccountsview.cc:92
+#: kptaccountsview.cc:103
 msgid "Week"
 msgstr ""
 
-#: kptaccountsview.cc:92
+#: kptaccountsview.cc:103
 msgid "Month"
 msgstr ""
 
-#: kptaccountsview.cc:103
+#: kptaccountsview.cc:114
 msgid "Configure..."
 msgstr "Configure..."
 
-#: kptaccountsview.cc:206
+#: kptaccountsview.cc:217
 #, c-format
 msgid "Cut-off date:%1"
 msgstr ""
 
-#: kptaccountsview.cc:207
+#: kptaccountsview.cc:218
 #, c-format
 msgid "Periodicity:%1"
 msgstr ""
 
-#: kptaccountsview.cc:248
+#: kptaccountsview.cc:259
 msgid ""
 "_: <week>-<year>\n"
 "%1-%2"
@@ -1178,11 +1178,11 @@ msgstr "Configure..."
 msgid "Task Defaults"
 msgstr "ຕັ້ງຄ່າງານ"
 
-#: kptdoublelistviewbase.cc:317 kptresourceview.cc:147
+#: kptdoublelistviewbase.cc:354 kptresourceview.cc:147
 msgid "Name"
 msgstr ""
 
-#: kptdoublelistviewbase.cc:318 kptresourceappointmentsview.cc:105
+#: kptdoublelistviewbase.cc:355 kptresourceappointmentsview.cc:105
 msgid "Total"
 msgstr ""
 
@@ -1324,13 +1324,13 @@ msgstr ""
 msgid "File-Format Mismatch"
 msgstr ""
 
-#: kptproject.cc:87 kptview.cc:561
+#: kptproject.cc:87 kptview.cc:566
 #, fuzzy
 msgid "Standard"
 msgstr "ຫົວຫມ້າງານ:"
 
-#: kptprojectdialog.cc:53 kptresourcesdialog.cc:36 kptview.cc:183
-#: kptview.cc:195
+#: kptprojectdialog.cc:53 kptresourcesdialog.cc:36 kptview.cc:187
+#: kptview.cc:199
 msgid "Resources"
 msgstr "Resources"
 
@@ -1378,7 +1378,7 @@ msgid ""
 "m"
 msgstr ""
 
-#: kptrelationdialog.cc:69 kptview.cc:910
+#: kptrelationdialog.cc:69 kptview.cc:915
 #, fuzzy
 msgid "Add Relation"
 msgstr "Edit Resource"
@@ -1494,15 +1494,15 @@ msgstr ""
 msgid "Overtime Rate"
 msgstr ""
 
-#: kptschedule.cc:98 kptschedule.cc:103 kptview.cc:176 kptview.cc:219
+#: kptschedule.cc:98 kptschedule.cc:103 kptview.cc:180 kptview.cc:223
 msgid "Expected"
 msgstr ""
 
-#: kptschedule.cc:100 kptview.cc:178 kptview.cc:222
+#: kptschedule.cc:100 kptview.cc:182 kptview.cc:226
 msgid "Optimistic"
 msgstr ""
 
-#: kptschedule.cc:102 kptview.cc:180 kptview.cc:225
+#: kptschedule.cc:102 kptview.cc:184 kptview.cc:229
 msgid "Pessimistic"
 msgstr ""
 
@@ -1585,166 +1585,166 @@ msgid ""
 "m"
 msgstr ""
 
-#: kptview.cc:163 kptview.cc:827
+#: kptview.cc:167 kptview.cc:832
 msgid "Indent Task"
 msgstr ""
 
-#: kptview.cc:165 kptview.cc:841
+#: kptview.cc:169 kptview.cc:846
 msgid "Unindent Task"
 msgstr ""
 
-#: kptview.cc:167
+#: kptview.cc:171
 msgid "Move Up"
 msgstr ""
 
-#: kptview.cc:169
+#: kptview.cc:173
 msgid "Move Down"
 msgstr ""
 
-#: kptview.cc:173
+#: kptview.cc:177
 msgid "Gantt"
 msgstr "Gantt"
 
-#: kptview.cc:184
+#: kptview.cc:188
 #, fuzzy
 msgid "Task Name"
 msgstr "ຊື່ງານ:"
 
-#: kptview.cc:185
+#: kptview.cc:189
 #, fuzzy
 msgid "Task Links"
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:186
+#: kptview.cc:190
 #, fuzzy
 msgid "Progress"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:187
+#: kptview.cc:191
 msgid "Float"
 msgstr ""
 
-#: kptview.cc:188
+#: kptview.cc:192
 msgid "Critical Tasks"
 msgstr ""
 
-#: kptview.cc:189
+#: kptview.cc:193
 msgid "Critical Path"
 msgstr ""
 
-#: kptview.cc:193
+#: kptview.cc:197
 msgid "Network"
 msgstr ""
 
-#: kptview.cc:197
+#: kptview.cc:201
 msgid "Accounts"
 msgstr ""
 
-#: kptview.cc:202
+#: kptview.cc:206
 msgid "Task..."
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:204
+#: kptview.cc:208
 #, fuzzy
 msgid "Sub-Task..."
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:206
+#: kptview.cc:210
 msgid "Milestone..."
 msgstr "ເພີ້ນລະຍະເວລາ..."
 
-#: kptview.cc:210
+#: kptview.cc:214
 msgid "Edit Main Project..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:211
+#: kptview.cc:215
 #, fuzzy
 msgid "Edit Standard Worktime..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:212
+#: kptview.cc:216
 #, fuzzy
 msgid "Edit Calendar..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:213
+#: kptview.cc:217
 #, fuzzy
 msgid "Edit Accounts..."
 msgstr "Edit Resource"
 
-#: kptview.cc:214
+#: kptview.cc:218
 #, fuzzy
 msgid "Edit Resources..."
 msgstr "Edit Resource"
 
-#: kptview.cc:216 kptview.cc:551 kptview.cc:561
+#: kptview.cc:220 kptview.cc:556 kptview.cc:566
 msgid "Calculate"
 msgstr ""
 
-#: kptview.cc:246
+#: kptview.cc:250
 msgid "Define WBS Pattern..."
 msgstr ""
 
-#: kptview.cc:249
+#: kptview.cc:253
 msgid "Generate WBS Code"
 msgstr ""
 
-#: kptview.cc:257
+#: kptview.cc:261
 #, fuzzy
 msgid "Configure KPlato..."
 msgstr "Configure..."
 
-#: kptview.cc:263
+#: kptview.cc:267
 #, fuzzy
 msgid "Progress..."
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:265 kptview.cc:805
+#: kptview.cc:269 kptview.cc:810
 msgid "Delete Task"
 msgstr ""
 
-#: kptview.cc:268
+#: kptview.cc:272
 #, fuzzy
 msgid "Edit Resource..."
 msgstr "Edit Resource"
 
-#: kptview.cc:281
+#: kptview.cc:285
 msgid "Export Gantt"
 msgstr ""
 
-#: kptview.cc:551
+#: kptview.cc:556
 msgid "Progress information will be deleted if the project is recalculated."
 msgstr ""
 
-#: kptview.cc:589
+#: kptview.cc:594
 msgid "Add Subtask"
 msgstr ""
 
-#: kptview.cc:611
+#: kptview.cc:616
 #, fuzzy
 msgid "Add Task"
 msgstr "ເພີ້ນງານ..."
 
-#: kptview.cc:634
+#: kptview.cc:639
 #, fuzzy
 msgid "Add Milestone"
 msgstr "เพิ่มระยะเวลา..."
 
-#: kptview.cc:863
+#: kptview.cc:868
 #, fuzzy
 msgid "Move Task Up"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
 
-#: kptview.cc:884
+#: kptview.cc:889
 msgid "Move Task Down"
 msgstr ""
 
-#: kptview.cc:921
+#: kptview.cc:926
 #, fuzzy
 msgid "Delete Relation"
 msgstr "Edit Resource"
 
-#: kptview.cc:1063
+#: kptview.cc:1072
 #, fuzzy
 msgid "Modify Name"
 msgstr "ແກ້ໄຂໂຄງການຫລັກ..."
