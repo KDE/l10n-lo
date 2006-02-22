@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-02-21 11:00+0100\n"
+"POT-Creation-Date: 2006-02-22 11:17+0100\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -163,54 +163,54 @@ msgstr "ຕິດຕໍ່ ສາຂາ"
 msgid "Could not create project \"%1\"."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: core/kexiproject.cpp:275 core/kexiproject.cpp:331
+#: core/kexiproject.cpp:277 core/kexiproject.cpp:333
 #, fuzzy
 msgid "Project major version"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: core/kexiproject.cpp:277 core/kexiproject.cpp:333
+#: core/kexiproject.cpp:279 core/kexiproject.cpp:335
 #, fuzzy
 msgid "Project minor version"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: core/kexiproject.cpp:279
+#: core/kexiproject.cpp:281
 #, fuzzy
 msgid "Project caption"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: core/kexiproject.cpp:281
+#: core/kexiproject.cpp:283
 #, fuzzy
 msgid "Project description"
 msgstr "ຟອມ ໃຫມ່"
 
-#: core/kexiproject.cpp:691
+#: core/kexiproject.cpp:693
 msgid "Opening object \"%1\" failed."
 msgstr ""
 
-#: core/kexiproject.cpp:751 main/keximainwindowimpl.cpp:3535
+#: core/kexiproject.cpp:763 main/keximainwindowimpl.cpp:3535
 msgid "Could not set empty name for this object."
 msgstr ""
 
-#: core/kexiproject.cpp:755
+#: core/kexiproject.cpp:767
 msgid "Could not use this name. Object with name \"%1\" already exists."
 msgstr ""
 
-#: core/kexiproject.cpp:762
+#: core/kexiproject.cpp:774
 #, fuzzy
 msgid "Could not rename object \"%1\"."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: core/kexiproject.cpp:878
+#: core/kexiproject.cpp:892
 msgid "Warning: entire project's data will be removed."
 msgstr ""
 
-#: core/kexiproject.cpp:893
+#: core/kexiproject.cpp:907
 msgid ""
 "The project %1 already exists.\n"
 "Do you want to replace it with a new, blank one?"
 msgstr ""
 
-#: core/kexiproject.cpp:921
+#: core/kexiproject.cpp:935
 #, fuzzy
 msgid "Do you want to drop the project \"%1\"?"
 msgstr "ຕິດຕໍ່ ສາຂາ"
@@ -2330,7 +2330,7 @@ msgstr "ບໍ່ທຳການໄຊອິນ"
 msgid "Yes/No Value"
 msgstr ""
 
-#: kexidb/field.cpp:635 plugins/importexport/csv/kexicsvimportdialog.cpp:215
+#: kexidb/field.cpp:635 plugins/importexport/csv/kexicsvimportdialog.cpp:217
 #, fuzzy
 msgid "Date"
 msgstr "ຂໍ້ມູນການພິມ"
@@ -2340,7 +2340,7 @@ msgstr "ຂໍ້ມູນການພິມ"
 msgid "Date and Time"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#: kexidb/field.cpp:637 plugins/importexport/csv/kexicsvimportdialog.cpp:216
+#: kexidb/field.cpp:637 plugins/importexport/csv/kexicsvimportdialog.cpp:218
 msgid "Time"
 msgstr ""
 
@@ -2353,7 +2353,7 @@ msgid "Double Precision Number"
 msgstr ""
 
 #: kexidb/field.cpp:640 kexidb/field.cpp:661
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:213
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:215
 msgid "Text"
 msgstr ""
 
@@ -2378,7 +2378,7 @@ msgstr ""
 msgid "Yes/No"
 msgstr ""
 
-#: kexidb/field.cpp:665 plugins/importexport/csv/kexicsvimportdialog.cpp:217
+#: kexidb/field.cpp:665 plugins/importexport/csv/kexicsvimportdialog.cpp:219
 #, fuzzy
 msgid "Date/Time"
 msgstr "ຂໍ້ມູນການພິມ"
@@ -3086,13 +3086,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 33
-#: plugins/tables/kexialtertabledialog.cpp:347 rc.cpp:93 rc.cpp:265
+#: plugins/tables/kexialtertabledialog.cpp:354 rc.cpp:93 rc.cpp:265
 #, fuzzy, no-c-format
 msgid "Name"
 msgstr "ເຟຣມ"
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 44
-#: plugins/tables/kexialtertabledialog.cpp:352 rc.cpp:96 rc.cpp:139 rc.cpp:268
+#: plugins/tables/kexialtertabledialog.cpp:359 rc.cpp:96 rc.cpp:139 rc.cpp:268
 #, no-c-format
 msgid "Type"
 msgstr ""
@@ -3438,7 +3438,7 @@ msgstr "ເລືອກ ຈາກການອອກຈາກ ຖານຂໍ້�
 msgid "Field Name"
 msgstr "ຊື່ ສາຂາ "
 
-#: plugins/tables/kexialtertabledialog.cpp:133 widget/kexifieldlistview.cpp:62
+#: plugins/tables/kexialtertabledialog.cpp:137 widget/kexifieldlistview.cpp:62
 #, fuzzy
 msgid "Data Type"
 msgstr "ຂໍ້ມູນການພິມ"
@@ -3623,41 +3623,41 @@ msgid "Define Query..."
 msgstr "ລືບແນວສອບຖາມ"
 
 #: plugins/queries/kexiquerydesignersqlhistory.cpp:339
-#: widget/tableview/kexidataawareobjectiface.cpp:867
+#: widget/tableview/kexidataawareobjectiface.cpp:878
 #, c-format
 msgid "Error: %1"
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:910
+#: widget/tableview/kexidataawareobjectiface.cpp:921
 #: widget/tableview/kexitableviewdata.cpp:606
 msgid "The column's constraint is declared as NOT NULL."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:932
+#: widget/tableview/kexidataawareobjectiface.cpp:943
 #: widget/tableview/kexitableviewdata.cpp:617
 msgid "The column's constraint is declared as NOT EMPTY."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:950
+#: widget/tableview/kexidataawareobjectiface.cpp:961
 msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1142
+#: widget/tableview/kexidataawareobjectiface.cpp:1153
 #, fuzzy
 msgid "Do you want to delete selected row?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1143
+#: widget/tableview/kexidataawareobjectiface.cpp:1154
 #, fuzzy
 msgid "&Delete Row"
 msgstr "ລືບແນວສອບຖາມ"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1264
+#: widget/tableview/kexidataawareobjectiface.cpp:1275
 #, fuzzy
 msgid "Do you want to clear the contents of table %1?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1265
+#: widget/tableview/kexidataawareobjectiface.cpp:1276
 msgid "&Clear Contents"
 msgstr ""
 
@@ -3690,27 +3690,27 @@ msgstr ""
 msgid "Save to File..."
 msgstr ""
 
-#: widget/tableview/kexitableview.cpp:194
+#: widget/tableview/kexitableview.cpp:195
 #, fuzzy
 msgid "Contains a pointer to the currently selected row"
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: widget/tableview/kexitableview.cpp:197
+#: widget/tableview/kexitableview.cpp:198
 #, fuzzy
 msgid "Row navigator"
 msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
-#: widget/tableview/kexitableview.cpp:305
+#: widget/tableview/kexitableview.cpp:306
 #, fuzzy
 msgid "Add Record"
 msgstr "ລືບແນວສອບຖາມ"
 
-#: widget/tableview/kexitableview.cpp:308
+#: widget/tableview/kexitableview.cpp:309
 #, fuzzy
 msgid "Remove Record"
 msgstr "ລືບແນວສອບຖາມ"
 
-#: widget/tableview/kexitableview.cpp:2570
+#: widget/tableview/kexitableview.cpp:2590
 msgid "Row: "
 msgstr ""
 
@@ -4456,7 +4456,7 @@ msgstr ""
 msgid "Query Columns"
 msgstr "ຟອມ ໃຫມ່"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1013
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1015
 #: plugins/queries/kexiquerydesignerguieditor.cpp:179
 #, fuzzy
 msgid "Column"
@@ -4564,7 +4564,7 @@ msgid "Query column"
 msgstr "ຟອມ ໃຫມ່"
 
 #: plugins/queries/kexiquerydesignerguieditor.cpp:1514
-#: plugins/tables/kexialtertabledialog.cpp:373
+#: plugins/tables/kexialtertabledialog.cpp:380
 #, fuzzy
 msgid "Caption"
 msgstr "ທີ່ຢູ່"
@@ -4759,13 +4759,13 @@ msgid "Show Options >>"
 msgstr "ສ້າງ &ຕາຕະລາງ..."
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:164
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:206
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:208
 #, fuzzy
 msgid "Delimiter:"
 msgstr "ລືບແນວສອບຖາມ"
 
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:175
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:231
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:233
 #, fuzzy
 msgid "Text quote:"
 msgstr "ຂໍ້ມູນການພິມ"
@@ -4811,114 +4811,114 @@ msgstr "ຍົກເລີກ ພອດ"
 msgid "Import CSV Data File"
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:166
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:168
 #, fuzzy
 msgid "&Import..."
 msgstr "ສ້າງ &ຕາຕະລາງ..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:169
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:171
 msgid "text"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:170
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:172
 #, fuzzy
 msgid "number"
 msgstr "ລາຍງານ %1"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:171
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:173
 #, fuzzy
 msgid "date"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:172
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:174
 #, fuzzy
 msgid "time"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:173
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:175
 #, fuzzy
 msgid "date/time"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:192
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:194
 msgid "Preview of data from file:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:193
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:195
 msgid "Preview of data from clipboard:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:211
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:213
 #, fuzzy
 msgid "Format for column %1:"
 msgstr "ສ້າງ &ຄຳສອບຖາມ..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:214
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:216
 #, fuzzy
 msgid "Number"
 msgstr "ລາຍງານ %1"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:224
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:226
 #, fuzzy
 msgid "Primary key"
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:252
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:254
 msgid "Ignore duplicated delimiters"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:256
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:258
 msgid "First row contains column names"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:303
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:305
 #, fuzzy
 msgid "Open CSV Data File"
 msgstr "ເປີດ ຕາຕະລາງ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:341
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:343
 msgid "Loading CSV Data"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:341
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:343
 msgid "Loading CSV Data from \"%1\"..."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:451
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:453
 #, fuzzy
 msgid "Cannot open input file <nobr>\"%1\"</nobr>."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:542
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:544
 msgid "Start at line%1:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:810
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:821
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:812
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:823
 #, fuzzy, c-format
 msgid "Column %1"
 msgstr "ປ່ຽນ OR "
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1039
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1041
 #, fuzzy
 msgid "Column name"
 msgstr "ປ່ຽນ OR "
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1162
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1166
 msgid "Data set contains no rows. Do you want to import empty table?"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1168
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1172
 #, fuzzy
 msgid "No project available."
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1173
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1177
 #, fuzzy
 msgid "No database connection available."
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1234
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1238
 msgid ""
 "No Primary Key (autonumber) has been defined.\n"
 "Should it be automatically defined on import (recommended)?\n"
@@ -4927,44 +4927,44 @@ msgid ""
 "database type)."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1237
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1241
 msgid ""
 "_: Add Database Primary Key to a Table\n"
 "Add Primary Key"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1238
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1242
 msgid ""
 "_: Do Not Add Database Primary Key to a Table\n"
 "Do Not Add"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1358
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1362
 #, fuzzy
 msgid "Importing CSV Data"
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1361
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1365
 msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1408
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1412
 msgid "Data has been successfully imported to table \"%1\"."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1418
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1422
 msgid ""
 "_: Text type for column\n"
 "Text"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1420
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1424
 msgid ""
 "_: Numeric type for column\n"
 "Number"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1422
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1426
 msgid ""
 "_: Currency type for column\n"
 "Currency"
@@ -4993,7 +4993,7 @@ msgid ""
 "table"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:405
+#: plugins/tables/kexialtertabledialog.cpp:412
 #: plugins/tables/kexitablepart.cpp:71
 msgid "Primary Key"
 msgstr ""
@@ -5026,138 +5026,138 @@ msgstr ""
 msgid "Note: Any data in this table will be removed upon design's saving."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:119
+#: plugins/tables/kexialtertabledialog.cpp:123
 msgid ""
 "_: Primary Key\n"
 "PK"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:120
+#: plugins/tables/kexialtertabledialog.cpp:124
 msgid "Describes primary key for the field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:126
+#: plugins/tables/kexialtertabledialog.cpp:130
 #, fuzzy
 msgid "Field Caption"
 msgstr "ຄວາມຍາວ"
 
-#: plugins/tables/kexialtertabledialog.cpp:127
+#: plugins/tables/kexialtertabledialog.cpp:131
 #, fuzzy
 msgid "Describes name for the field."
 msgstr "ຟອມ ໃຫມ່"
 
-#: plugins/tables/kexialtertabledialog.cpp:134
+#: plugins/tables/kexialtertabledialog.cpp:138
 msgid "Describes data type for the field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:151
+#: plugins/tables/kexialtertabledialog.cpp:155
 msgid "Comments"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:152
+#: plugins/tables/kexialtertabledialog.cpp:156
 msgid "Describes additional comments for the field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:319
+#: plugins/tables/kexialtertabledialog.cpp:324
 msgid ""
 "_: Image object type\n"
 "Image"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:340
+#: plugins/tables/kexialtertabledialog.cpp:347
 #, fuzzy
 msgid "Table field"
 msgstr "ຊື່ ຕາາຕະລາງ:"
 
-#: plugins/tables/kexialtertabledialog.cpp:370
+#: plugins/tables/kexialtertabledialog.cpp:377
 msgid "Subtype"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:381
+#: plugins/tables/kexialtertabledialog.cpp:388
 #, fuzzy
 msgid "Unsigned Number"
 msgstr "ບໍ່ທຳການໄຊອິນ"
 
-#: plugins/tables/kexialtertabledialog.cpp:384
+#: plugins/tables/kexialtertabledialog.cpp:391
 msgid "Length"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:387
+#: plugins/tables/kexialtertabledialog.cpp:394
 msgid "Precision"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:394
+#: plugins/tables/kexialtertabledialog.cpp:401
 #, fuzzy
 msgid "Column Width"
 msgstr "ປ່ຽນ OR "
 
-#: plugins/tables/kexialtertabledialog.cpp:400
+#: plugins/tables/kexialtertabledialog.cpp:407
 msgid "Default Value"
 msgstr "ບໍ່ໃຫ້ ຄ່າທຳງານ"
 
-#: plugins/tables/kexialtertabledialog.cpp:409
+#: plugins/tables/kexialtertabledialog.cpp:416
 msgid "Unique"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:412
+#: plugins/tables/kexialtertabledialog.cpp:419
 #, fuzzy
 msgid "Required"
 msgstr "ສັ່ງ"
 
-#: plugins/tables/kexialtertabledialog.cpp:415
+#: plugins/tables/kexialtertabledialog.cpp:422
 msgid ""
 "Allow Zero\n"
 "Size"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:418
+#: plugins/tables/kexialtertabledialog.cpp:425
 #, fuzzy
 msgid "Autonumber"
 msgstr "ລາຍງານ %1"
 
-#: plugins/tables/kexialtertabledialog.cpp:422
+#: plugins/tables/kexialtertabledialog.cpp:429
 msgid "Indexed"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:532
+#: plugins/tables/kexialtertabledialog.cpp:540
 #, fuzzy
 msgid "Do you want to save the design now?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: plugins/tables/kexialtertabledialog.cpp:550
+#: plugins/tables/kexialtertabledialog.cpp:558
 msgid ""
 "Cannot switch to data view, because table design is empty.\n"
 "First, please create your design."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:561
+#: plugins/tables/kexialtertabledialog.cpp:569
 msgid "Saving changes for existing table design is now required."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:839
+#: plugins/tables/kexialtertabledialog.cpp:847
 msgid "Setting autonumber requires primary key to be set for current field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:841
+#: plugins/tables/kexialtertabledialog.cpp:849
 msgid "Previous primary key will be removed."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:843
+#: plugins/tables/kexialtertabledialog.cpp:851
 msgid ""
 "Do you want to create primary key for current field? Click \"Cancel\" to cancel "
 "setting autonumber."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:847
+#: plugins/tables/kexialtertabledialog.cpp:855
 msgid "Setting autonumber field"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:848
+#: plugins/tables/kexialtertabledialog.cpp:856
 #, fuzzy
 msgid "Create &Primary Key"
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: plugins/tables/kexialtertabledialog.cpp:885
+#: plugins/tables/kexialtertabledialog.cpp:893
 msgid ""
 "<p>Table \"%1\" has no <b>primary key</b> defined.</p>"
 "<p>Although a primary key is not required, it is needed for creating relations "
@@ -5166,33 +5166,33 @@ msgid ""
 "table design.</p>"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:891
+#: plugins/tables/kexialtertabledialog.cpp:899
 msgid "&Add Primary Key"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:901
+#: plugins/tables/kexialtertabledialog.cpp:909
 msgid ""
 "_: Identifier%1\n"
 "Id%1"
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:948
+#: plugins/tables/kexialtertabledialog.cpp:956
 msgid "You should enter field caption."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:960
+#: plugins/tables/kexialtertabledialog.cpp:968
 msgid ""
 "You have added no fields.\n"
 "Every table should have at least one field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:968
+#: plugins/tables/kexialtertabledialog.cpp:976
 msgid ""
 "You have added \"%1\" field name twice.\n"
 "Field names cannot be repeated. Correct name of the field."
 msgstr ""
 
-#: plugins/tables/kexialtertabledialog.cpp:1108
+#: plugins/tables/kexialtertabledialog.cpp:1116
 msgid ""
 "You are about to change the design of table \"%1\" but following objects using "
 "this table are opened:"
