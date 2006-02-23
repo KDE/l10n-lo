@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-02-22 11:17+0100\n"
+"POT-Creation-Date: 2006-02-23 10:39+0100\n"
 "PO-Revision-Date: 2003-01-18 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1099,7 +1099,7 @@ msgid "Navigation"
 msgstr "ການທຳງານ"
 
 #. i18n: file krita.rc line 154
-#: ui/kis_aboutdata.h:31 ui/kis_view.cc:382 rc.cpp:39 rc.cpp:1655
+#: ui/kis_aboutdata.h:31 ui/kis_view.cc:383 rc.cpp:39 rc.cpp:1655
 #, no-c-format
 msgid "Krita"
 msgstr "ສໍສີ"
@@ -1207,7 +1207,7 @@ msgid "&Palette font size:"
 msgstr "ຈານສີ"
 
 #. i18n: file ./ui/wdggridsettings.ui line 44
-#: ui/kis_filter_manager.cc:88 ui/kis_view.cc:259 rc.cpp:105
+#: ui/kis_filter_manager.cc:88 ui/kis_view.cc:260 rc.cpp:105
 #, fuzzy, no-c-format
 msgid "Colors"
 msgstr "&ສີ"
@@ -1530,7 +1530,7 @@ msgid "Sphere Dec."
 msgstr ""
 
 #. i18n: file ./ui/wdgautogradient.ui line 342
-#: ui/kis_view.cc:3633 rc.cpp:322
+#: ui/kis_view.cc:3652 rc.cpp:322
 #, no-c-format
 msgid "RGB"
 msgstr "RGB"
@@ -1783,9 +1783,9 @@ msgid "Add to Predefined Brushes"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./ui/wdgtextbrush.ui line 16
-#: plugins/tools/defaulttools/kis_tool_text.cc:52
-#: plugins/tools/defaulttools/kis_tool_text.cc:86
-#: plugins/tools/defaulttools/kis_tool_text.cc:179 rc.cpp:464
+#: plugins/tools/defaulttools/kis_tool_text.cc:53
+#: plugins/tools/defaulttools/kis_tool_text.cc:87
+#: plugins/tools/defaulttools/kis_tool_text.cc:177 rc.cpp:464
 #, no-c-format
 msgid "Text"
 msgstr ""
@@ -2118,7 +2118,7 @@ msgid "Subtract"
 msgstr "ลบ"
 
 #. i18n: file ./ui/wdgbirdeye.ui line 24
-#: ui/kis_view.cc:3620 rc.cpp:663
+#: ui/kis_view.cc:3639 rc.cpp:663
 #, fuzzy, no-c-format
 msgid "Overview"
 msgstr "โอเวอร์เลย์"
@@ -2296,7 +2296,7 @@ msgstr ""
 
 #. i18n: file ./plugins/tools/tool_star/wdg_tool_star.ui line 16
 #: plugins/tools/tool_star/kis_tool_star.cc:51
-#: plugins/tools/tool_star/kis_tool_star.cc:123 rc.cpp:783
+#: plugins/tools/tool_star/kis_tool_star.cc:126 rc.cpp:783
 #, fuzzy, no-c-format
 msgid "Star"
 msgstr "&ເຄື່ອງມືປາກກາ"
@@ -2643,7 +2643,7 @@ msgstr ""
 
 #. i18n: file ./plugins/viewplugins/performancetest/wdg_perftest.ui line 60
 #: plugins/tools/defaulttools/kis_tool_fill.cc:53
-#: plugins/tools/defaulttools/kis_tool_fill.cc:96 rc.cpp:996
+#: plugins/tools/defaulttools/kis_tool_fill.cc:97 rc.cpp:996
 #, no-c-format
 msgid "Fill"
 msgstr ""
@@ -2667,7 +2667,7 @@ msgid "Shapes"
 msgstr "ຄວາມແຫລມ:"
 
 #. i18n: file ./plugins/viewplugins/performancetest/wdg_perftest.ui line 104
-#: ui/kis_view.cc:260 ui/kis_view.cc:421 rc.cpp:1008
+#: ui/kis_view.cc:261 ui/kis_view.cc:422 rc.cpp:1008
 #, no-c-format
 msgid "Layers"
 msgstr "ເລເຢີ"
@@ -2793,7 +2793,7 @@ msgid "-"
 msgstr ""
 
 #. i18n: file ./plugins/viewplugins/shearimage/wdg_shearimage.ui line 16
-#: plugins/viewplugins/shearimage/dlg_shearimage.cc:44
+#: core/kis_image.cc:764 plugins/viewplugins/shearimage/dlg_shearimage.cc:44
 #: plugins/viewplugins/shearimage/shearimage.cc:90 rc.cpp:1074
 #, fuzzy, no-c-format
 msgid "Shear Image"
@@ -3013,7 +3013,7 @@ msgstr ""
 
 #. i18n: file ./plugins/viewplugins/colorrange/wdg_colorrange.ui line 106
 #: plugins/filters/example/example.cc:69 ui/kis_selection_manager.cc:143
-#: ui/kis_selection_manager.cc:651 rc.cpp:1263
+#: ui/kis_selection_manager.cc:652 rc.cpp:1263
 #, no-c-format
 msgid "&Invert"
 msgstr ""
@@ -3037,7 +3037,7 @@ msgid "&Deselect"
 msgstr "ການເລືອກ"
 
 #. i18n: file ./plugins/viewplugins/rotateimage/wdg_rotateimage.ui line 16
-#: core/kis_image.cc:716 plugins/viewplugins/rotateimage/dlg_rotateimage.cc:44
+#: core/kis_image.cc:718 plugins/viewplugins/rotateimage/dlg_rotateimage.cc:44
 #: plugins/viewplugins/rotateimage/rotateimage.cc:96 rc.cpp:1282
 #, fuzzy, no-c-format
 msgid "Rotate Image"
@@ -3850,12 +3850,12 @@ msgstr ""
 msgid "Spacing: "
 msgstr "ຊອ່ງວ່າງ:"
 
-#: ui/kis_dlg_adj_layer_props.cc:91 ui/kis_dlg_adjustment_layer.cc:78
+#: ui/kis_dlg_adj_layer_props.cc:91 ui/kis_dlg_adjustment_layer.cc:79
 #, fuzzy
 msgid "Layer name:"
 msgstr "ເລເຢີ %1"
 
-#: ui/kis_dlg_adj_layer_props.cc:111 ui/kis_dlg_adjustment_layer.cc:100
+#: ui/kis_dlg_adj_layer_props.cc:111 ui/kis_dlg_adjustment_layer.cc:101
 msgid "No configuration options are available for this filter"
 msgstr ""
 
@@ -3932,13 +3932,13 @@ msgstr "ຄຸນສົມບັດເຄື່ອງມື&ປະຈຸບັ�
 msgid "Color name (optional):"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:180
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:182
 #: ui/kis_custom_palette.cc:138
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:180
-#: ui/kis_custom_palette.cc:139 ui/kis_view.cc:1582
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:182
+#: ui/kis_custom_palette.cc:139 ui/kis_view.cc:1602
 #, fuzzy
 msgid "Palette"
 msgstr "ຈານສີ"
@@ -3962,7 +3962,7 @@ msgstr "ເພີ່ມເລເຢີ..."
 msgid "&Adjustment Layer..."
 msgstr "เลเยอร์&ถัดไป"
 
-#: ui/kis_layerlist.cc:61 ui/kis_view.cc:611
+#: ui/kis_layerlist.cc:61 ui/kis_view.cc:612
 #, fuzzy
 msgid "&Object Layer"
 msgstr "เลเยอร์&ถัดไป"
@@ -3981,259 +3981,259 @@ msgstr "&ຂາວ"
 msgid "Document type: "
 msgstr ""
 
-#: ui/kis_view.cc:258
+#: ui/kis_view.cc:259
 msgid "Control box"
 msgstr ""
 
-#: ui/kis_view.cc:489 ui/kis_view.cc:491 ui/kis_view.cc:493
+#: ui/kis_view.cc:490 ui/kis_view.cc:492 ui/kis_view.cc:494
 #, fuzzy
 msgid "Zoom %1%"
 msgstr "Layer to Button"
 
-#: ui/kis_view.cc:508
+#: ui/kis_view.cc:509
 msgid "Selection Active: x = %1 y = %2 width = %3 height = %4"
 msgstr ""
 
-#: ui/kis_view.cc:514
+#: ui/kis_view.cc:515
 #, fuzzy
 msgid "No Selection"
 msgstr "ລົບການເລືອກ"
 
-#: ui/kis_view.cc:527
+#: ui/kis_view.cc:528
 msgid "No profile"
 msgstr ""
 
-#: ui/kis_view.cc:596
+#: ui/kis_view.cc:597
 #, fuzzy
 msgid "Image Properties..."
 msgstr "ຄຸນສົມບັດເລເຢີ..."
 
-#: ui/kis_view.cc:598
+#: ui/kis_view.cc:599
 #, fuzzy
 msgid "Resize Image to Size of Current Layer"
 msgstr "ລຶບເລເຢີປະຈຸບັນ"
 
-#: ui/kis_view.cc:603
+#: ui/kis_view.cc:604
 msgid "Actual Pixels"
 msgstr ""
 
-#: ui/kis_view.cc:609
+#: ui/kis_view.cc:610
 #, fuzzy
 msgid "&Add..."
 msgstr "ເພີ່ມ %1..."
 
-#: ui/kis_view.cc:616
+#: ui/kis_view.cc:617
 #, fuzzy
 msgid "&Adjustment Layer"
 msgstr "เลเยอร์&ถัดไป"
 
-#: plugins/paintops/defaultpaintops/kis_duplicateop.h:38 ui/kis_view.cc:622
+#: plugins/paintops/defaultpaintops/kis_duplicateop.h:38 ui/kis_view.cc:623
 #, fuzzy
 msgid "Duplicate"
 msgstr "Duplicate Image"
 
-#: ui/kis_view.cc:623
+#: ui/kis_view.cc:624
 #, fuzzy
 msgid "&Hide/Show"
 msgstr "&ເຊື່ອງ/ສະແດງເລເຢີ..."
 
-#: ui/kis_view.cc:624
+#: ui/kis_view.cc:625
 #, fuzzy
 msgid "Raise"
 msgstr "ຢູ່ເໜືອ %1"
 
-#: ui/kis_view.cc:625
+#: ui/kis_view.cc:626
 msgid "Lower"
 msgstr "ເບື້ອງລຸ່ມ"
 
-#: ui/kis_view.cc:626
+#: ui/kis_view.cc:627
 #, fuzzy
 msgid "To Top"
 msgstr "&ເຄື່ອງມືຍ້າຍພາບ"
 
-#: ui/kis_view.cc:627
+#: ui/kis_view.cc:628
 #, fuzzy
 msgid "To Bottom"
 msgstr "Layer to Button"
 
-#: ui/kis_view.cc:628
+#: ui/kis_view.cc:629
 #, fuzzy
 msgid "Properties..."
 msgstr "ຄຸນສົມບັດເລເຢີ..."
 
-#: ui/kis_view.cc:629
+#: ui/kis_view.cc:630
 msgid "I&nsert Image as Layer..."
 msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 
-#: ui/kis_view.cc:630
+#: ui/kis_view.cc:631
 msgid "Save Layer as Image..."
 msgstr "ບັນທຶກເລເຢີເປັນຮູບພາບ..."
 
-#: ui/kis_view.cc:631
+#: ui/kis_view.cc:632
 #, fuzzy
 msgid "Flip on &X Axis"
 msgstr "ເຮັດພາບສະທ້ອນໃນແນວ &X"
 
-#: ui/kis_view.cc:632
+#: ui/kis_view.cc:633
 #, fuzzy
 msgid "Flip on &Y Axis"
 msgstr "ເຣັດພາບສະທ້ອນໃນແນວ &Y"
 
-#: ui/kis_view.cc:635
+#: ui/kis_view.cc:636
 #, fuzzy
 msgid "&Flatten image"
 msgstr "Duplicate Image"
 
-#: ui/kis_view.cc:636
+#: ui/kis_view.cc:637
 #, fuzzy
 msgid "&Merge with Layer Below"
 msgstr "รวมเลเยอร์"
 
-#: ui/kis_view.cc:641
+#: ui/kis_view.cc:642
 msgid "Show Rulers"
 msgstr ""
 
-#: ui/kis_view.cc:643
+#: ui/kis_view.cc:644
 #, fuzzy
 msgid "Hide Rulers"
 msgstr "&ເຊື່ອງ/ສະແດງເລເຢີ..."
 
-#: ui/kis_view.cc:644
+#: ui/kis_view.cc:645
 msgid ""
 "The rulers show the horizontal and vertical positions of the mouse on the image "
 "and can be used to position your mouse at the right place on the canvas. "
 "<p>Uncheck this to disable the rulers from being displayed."
 msgstr ""
 
-#: ui/kis_view.cc:651
+#: ui/kis_view.cc:652
 #, fuzzy
 msgid "Add New Palette..."
 msgstr "ເພີ່ມຮູບພາບໃຫມ່..."
 
-#: ui/kis_view.cc:653
+#: ui/kis_view.cc:654
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "ເພີ່ມຮູບພາບໃຫມ່..."
 
-#: ui/kis_view.cc:1549 ui/kis_view.cc:1550
+#: ui/kis_view.cc:1569 ui/kis_view.cc:1570
 #, fuzzy
 msgid "Add Palette"
 msgstr "ຄຸນສົມບັດເຄື່ອງມື&ປະຈຸບັນ..."
 
-#: ui/kis_view.cc:1582
+#: ui/kis_view.cc:1602
 msgid "No palette selected."
 msgstr ""
 
-#: ui/kis_view.cc:1586 ui/kis_view.cc:1588
+#: ui/kis_view.cc:1606 ui/kis_view.cc:1608
 #, fuzzy
 msgid "Edit Palette"
 msgstr "ຄຸນສົມບັດເຄື່ອງມື&ປະຈຸບັນ..."
 
-#: ui/kis_view.cc:1601
+#: ui/kis_view.cc:1621
 msgid "Export Layer"
 msgstr "ສົ່ງຣູບພາບອອກ..."
 
-#: ui/kis_view.cc:1648
+#: ui/kis_view.cc:1668
 msgid "Import Image"
 msgstr "ນຳຮູບພາບເຂົ້າ..."
 
-#: ui/kis_view.cc:1722
+#: ui/kis_view.cc:1742
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "ຍ້າຍເລເຢີ"
 
-#: ui/kis_view.cc:1744
+#: ui/kis_view.cc:1764
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "ຍ້າຍເລເຢີ"
 
-#: ui/kis_view.cc:1767
+#: ui/kis_view.cc:1787
 #, fuzzy
 msgid "Scale Layer"
 msgstr "ເພີ່ມເລເຢີ..."
 
 #: core/kis_transform_visitor.h:69
-#: plugins/viewplugins/rotateimage/rotateimage.cc:130 ui/kis_view.cc:1791
+#: plugins/viewplugins/rotateimage/rotateimage.cc:130 ui/kis_view.cc:1811
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "&ລືບເລເຢີ"
 
-#: ui/kis_view.cc:1822
+#: ui/kis_view.cc:1841
 #, fuzzy
 msgid "Shear layer"
 msgstr "ເພີ່ມເລເຢີ..."
 
-#: ui/kis_view.cc:1847
+#: ui/kis_view.cc:1866
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: core/kis_image.cc:1159 ui/kis_view.cc:1848
+#: core/kis_image.cc:1154 ui/kis_view.cc:1867
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Duplicate Image"
 
-#: ui/kis_view.cc:1849
+#: ui/kis_view.cc:1868
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "Duplicate Image"
 
-#: ui/kis_view.cc:2475
+#: ui/kis_view.cc:2494
 #, fuzzy
 msgid "Insert as New Layer"
 msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 
-#: ui/kis_view.cc:2477
+#: ui/kis_view.cc:2496
 msgid "Open in New Document"
 msgstr ""
 
-#: ui/kis_view.cc:2481
+#: ui/kis_view.cc:2500
 #, fuzzy
 msgid "Insert as New Layers"
 msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 
-#: ui/kis_view.cc:2483
+#: ui/kis_view.cc:2502
 msgid "Open in New Documents"
 msgstr ""
 
-#: ui/kis_view.cc:2534
+#: ui/kis_view.cc:2553
 #, fuzzy
 msgid "Adjustment Layer Properties"
 msgstr "ຄຸນສົມບັດເລເຢີ..."
 
-#: ui/kis_view.cc:2553
+#: ui/kis_view.cc:2572
 #, fuzzy
 msgid "Property Changes"
 msgstr "ຄຸນສົມບັດ..."
 
-#: ui/kis_view.cc:2592 ui/kis_view.cc:2613 ui/kis_view.cc:2817
+#: ui/kis_view.cc:2611 ui/kis_view.cc:2632 ui/kis_view.cc:2836
 msgid "Could not add layer to image."
 msgstr "Could not add layer to image."
 
-#: ui/kis_view.cc:2592 ui/kis_view.cc:2613 ui/kis_view.cc:2817
+#: ui/kis_view.cc:2611 ui/kis_view.cc:2632 ui/kis_view.cc:2836
 #, fuzzy
 msgid "Layer Error"
 msgstr "ເລເຢີ %1"
 
-#: ui/kis_view.cc:2736
+#: ui/kis_view.cc:2755
 #, fuzzy
 msgid "New Adjustment Layer"
 msgstr "เลเยอร์&ถัดไป"
 
-#: ui/kis_view.cc:2810
+#: ui/kis_view.cc:2829
 #, fuzzy
 msgid "Duplicate of '%1'"
 msgstr "Duplicate Image"
 
-#: ui/kis_view.cc:3624
+#: ui/kis_view.cc:3643
 msgid "HSV"
 msgstr "HSV"
 
 #: colorspaces/gray_u16/kis_gray_u16_colorspace.cc:44
-#: colorspaces/gray_u8/kis_gray_colorspace.cc:48 ui/kis_view.cc:3641
+#: colorspaces/gray_u8/kis_gray_colorspace.cc:48 ui/kis_view.cc:3660
 msgid "Gray"
 msgstr "ລະດັບສີເທົາ"
 
-#: ui/kis_view.cc:3653
+#: ui/kis_view.cc:3672
 msgid "Palettes"
 msgstr "ຈານສີ"
 
@@ -4280,7 +4280,7 @@ msgstr ""
 msgid "Paste into &New Image"
 msgstr "ສ້າງຮູບໃຫມ່"
 
-#: ui/kis_selection_manager.cc:138 ui/kis_selection_manager.cc:626
+#: ui/kis_selection_manager.cc:138 ui/kis_selection_manager.cc:627
 #, fuzzy
 msgid "&Reselect"
 msgstr "ການເລືອກ"
@@ -4299,17 +4299,17 @@ msgstr "ຄັດລອກການເລືອກໄປຍັງເລເຢີ
 msgid "Feather"
 msgstr "ເເລເຢີ"
 
-#: ui/kis_selection_manager.cc:165 ui/kis_selection_manager.cc:605
+#: ui/kis_selection_manager.cc:165 ui/kis_selection_manager.cc:606
 #, fuzzy
 msgid "Fill with Foreground Color"
 msgstr "ສີພື້ນໜ້າ"
 
-#: ui/kis_selection_manager.cc:170 ui/kis_selection_manager.cc:610
+#: ui/kis_selection_manager.cc:170 ui/kis_selection_manager.cc:611
 #, fuzzy
 msgid "Fill with Background Color"
 msgstr "ສີພື້ນໜ້າ"
 
-#: ui/kis_selection_manager.cc:175 ui/kis_selection_manager.cc:615
+#: ui/kis_selection_manager.cc:175 ui/kis_selection_manager.cc:616
 #, fuzzy
 msgid "Fill with Pattern"
 msgstr "ເຕີມສີໂດຍການໄລ່ລະດັບສີ"
@@ -4356,17 +4356,17 @@ msgstr ""
 msgid "Transform..."
 msgstr "Transform"
 
-#: ui/kis_selection_manager.cc:513
+#: ui/kis_selection_manager.cc:514
 #, fuzzy
 msgid "Select &All"
 msgstr "ການເລືອກ"
 
-#: ui/kis_selection_manager.cc:532
+#: ui/kis_selection_manager.cc:533
 #, fuzzy
 msgid "Deselect"
 msgstr "ການເລືອກ"
 
-#: ui/kis_selection_manager.cc:703
+#: ui/kis_selection_manager.cc:704
 msgid "Feather..."
 msgstr ""
 
@@ -4398,7 +4398,7 @@ msgstr ""
 msgid "Layer Composite Mode"
 msgstr ""
 
-#: core/kis_image.cc:372 core/kis_layer.cc:218 core/kis_paint_device.cc:104
+#: core/kis_image.cc:374 core/kis_layer.cc:218 core/kis_paint_device.cc:104
 #, fuzzy
 msgid "Move Layer"
 msgstr "ลบเลเยอร์แล้ว"
@@ -4451,47 +4451,47 @@ msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 msgid "Scaling..."
 msgstr "Loading..."
 
-#: core/kis_image.cc:87 core/kis_image.cc:629
+#: core/kis_image.cc:89 core/kis_image.cc:631
 msgid "Resize Image"
 msgstr "ລົບຮູບພາບ"
 
-#: core/kis_image.cc:174 core/kis_image.cc:812
+#: core/kis_image.cc:176 core/kis_image.cc:795
 #, fuzzy
 msgid "Convert Image Type"
 msgstr "&ແຊກຮູບພາບເປັນອີກເລເຢີ..."
 
-#: core/kis_image.cc:290
+#: core/kis_image.cc:292
 msgid "Add Layer"
 msgstr "ເພີ່ມເລເຢີ"
 
-#: core/kis_image.cc:331
+#: core/kis_image.cc:333
 msgid "Remove Layer"
 msgstr "ລົບເລເຢີ"
 
-#: core/kis_image.cc:423
+#: core/kis_image.cc:425
 msgid "Layer Property Changes"
 msgstr "ຄຸນສົມບັດເລເຢີ..."
 
-#: core/kis_image.cc:503 core/kis_image.cc:587
+#: core/kis_image.cc:505 core/kis_image.cc:589
 #, c-format
 msgid "Layer %1"
 msgstr "ເລເຢີ %1"
 
-#: core/kis_image.cc:566
+#: core/kis_image.cc:568
 msgid "background"
 msgstr "ພື້ນຫລັງ"
 
-#: core/kis_image.cc:627
+#: core/kis_image.cc:629
 #, fuzzy
 msgid "Crop Image"
 msgstr "ບັນທຶກເລເຢີເປັນຮູບພາບ..."
 
-#: core/kis_image.cc:675
+#: core/kis_image.cc:677
 #, fuzzy
 msgid "Scale Image"
 msgstr "ສ້າງຮູບໃຫມ່"
 
-#: core/kis_image.cc:1171
+#: core/kis_image.cc:1166
 #, fuzzy
 msgid "Merge with Layer Below"
 msgstr "รวมเลเยอร์"
@@ -5190,12 +5190,12 @@ msgstr ""
 msgid "Star Tool"
 msgstr "&ເຄື່ອງມືປາກກາ"
 
-#: plugins/tools/tool_star/kis_tool_star.cc:183
+#: plugins/tools/tool_star/kis_tool_star.cc:186
 #, fuzzy
 msgid "&Star"
 msgstr "&ເຄື່ອງມືປາກກາ"
 
-#: plugins/tools/tool_star/kis_tool_star.cc:192
+#: plugins/tools/tool_star/kis_tool_star.cc:195
 msgid "Draw a star"
 msgstr ""
 
@@ -5227,17 +5227,17 @@ msgid "Pan"
 msgstr "ແຕ້ມຮູບ"
 
 #: plugins/tools/defaulttools/kis_tool_ellipse.cc:44
-#: plugins/tools/defaulttools/kis_tool_ellipse.cc:126
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:129
 #, fuzzy
 msgid "Ellipse"
 msgstr "&ເຄື່ອງມືແຕ້ມວົງຮີ"
 
-#: plugins/tools/defaulttools/kis_tool_ellipse.cc:170
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:173
 #, fuzzy
 msgid "&Ellipse"
 msgstr "&ເຄື່ອງມືແຕ້ມວົງຮີ"
 
-#: plugins/tools/defaulttools/kis_tool_ellipse.cc:177
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:180
 msgid "Draw an ellipse"
 msgstr ""
 
@@ -5292,74 +5292,74 @@ msgstr "&ເຄື່ອງມືຫຍໍ້/ຂະຫຍາຍ"
 msgid "Rectangle Tool"
 msgstr "&ເຄື່ອງມືແຕ້ມສີ່ລ່ຽມ"
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:94
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:96
 msgid "Cannot pick a color as no layer is active."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:98
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:100
 msgid "Cannot pick a color as the active layer is not visible."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:197
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:199
 msgid "%1%"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:214
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:216
 #, fuzzy
 msgid "&Color Picker"
 msgstr "&ເຄື່ອງມືເລືອກສີ"
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:215
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:217
 #, fuzzy
 msgid "Color picker"
 msgstr "&ເຄື່ອງມືເລືອກສີ"
 
 #: plugins/tools/defaulttools/kis_tool_rectangle.cc:45
-#: plugins/tools/defaulttools/kis_tool_rectangle.cc:127
+#: plugins/tools/defaulttools/kis_tool_rectangle.cc:133
 msgid "Rectangle"
 msgstr "ສີລ່ຽມ"
 
-#: plugins/tools/defaulttools/kis_tool_rectangle.cc:169
+#: plugins/tools/defaulttools/kis_tool_rectangle.cc:175
 #, fuzzy
 msgid "&Rectangle"
 msgstr "ສີລ່ຽມ"
 
-#: plugins/tools/defaulttools/kis_tool_rectangle.cc:176
+#: plugins/tools/defaulttools/kis_tool_rectangle.cc:182
 #, fuzzy
 msgid "Draw a rectangle"
 msgstr "ສີລ່ຽມ"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:111
+#: plugins/tools/defaulttools/kis_tool_fill.cc:112
 msgid "Flood Fill"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:160
+#: plugins/tools/defaulttools/kis_tool_fill.cc:161
 #, fuzzy
 msgid "Threshold: "
 msgstr "ເຄື່ອງມືທາສີ"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:166
+#: plugins/tools/defaulttools/kis_tool_fill.cc:167
 #, fuzzy
 msgid "Use pattern"
 msgstr "ໃຊ້ລວດລາຍປະຈຸບັນ"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:170
+#: plugins/tools/defaulttools/kis_tool_fill.cc:171
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:215
 #, fuzzy
 msgid "Sample merged"
 msgstr "ລຶບຮູບພາບ"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:174
+#: plugins/tools/defaulttools/kis_tool_fill.cc:175
 #, fuzzy
 msgid "Fill entire selection"
 msgstr "ການເລືອກ"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:218
+#: plugins/tools/defaulttools/kis_tool_fill.cc:219
 #, fuzzy
 msgid "&Fill"
 msgstr "&ຂາວ"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:225
+#: plugins/tools/defaulttools/kis_tool_fill.cc:226
 #, fuzzy
 msgid "Contiguous fill"
 msgstr "&ເລືອກແບບເສັ້ນຕໍ່ເນື່ອງ"
@@ -5369,21 +5369,21 @@ msgstr "&ເລືອກແບບເສັ້ນຕໍ່ເນື່ອງ"
 msgid "Ellipse Tool"
 msgstr "ວົງຮີ"
 
-#: plugins/tools/defaulttools/kis_tool_text.cc:79
+#: plugins/tools/defaulttools/kis_tool_text.cc:80
 #, fuzzy
 msgid "Font Tool"
 msgstr "ໄລ່ລະດັບສີ"
 
-#: plugins/tools/defaulttools/kis_tool_text.cc:79
+#: plugins/tools/defaulttools/kis_tool_text.cc:80
 #, fuzzy
 msgid "Enter text:"
 msgstr "ເຕີມຊື່:"
 
-#: plugins/tools/defaulttools/kis_tool_text.cc:149
+#: plugins/tools/defaulttools/kis_tool_text.cc:150
 msgid "Font: "
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_text.cc:171
+#: plugins/tools/defaulttools/kis_tool_text.cc:169
 msgid "T&ext"
 msgstr ""
 
@@ -5505,36 +5505,36 @@ msgid "Polygon Tool"
 msgstr "&ຫເຄື່ອງມືແຕ້ມຮູບຫລາຍຫລ່ຽມ"
 
 #: plugins/tools/tool_polygon/kis_tool_polygon.cc:49
-#: plugins/tools/tool_polygon/kis_tool_polygon.cc:99
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:101
 #, fuzzy
 msgid "Polygon"
 msgstr "&ຫເຄື່ອງມືແຕ້ມຮູບຫລາຍຫລ່ຽມ"
 
-#: plugins/tools/tool_polygon/kis_tool_polygon.cc:223
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:225
 #, fuzzy
 msgid "&Polygon"
 msgstr "&ຫເຄື່ອງມືແຕ້ມຮູບຫລາຍຫລ່ຽມ"
 
-#: plugins/tools/tool_polygon/kis_tool_polygon.cc:232
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:234
 msgid "Draw a polygon. Shift-mouseclick ends the polygon."
 msgstr ""
 
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:49
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:99
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:101
 #, fuzzy
 msgid "Polyline"
 msgstr "&ຫເຄື່ອງມືແຕ້ມຮູບຫລາຍຫລ່ຽມ"
 
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:233
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:235
 #, fuzzy
 msgid "&Polyline"
 msgstr "&ຫເຄື່ອງມືແຕ້ມຮູບຫລາຍຫລ່ຽມ"
 
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:242
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:244
 msgid "Draw a polyline. Shift-mouseclick ends the polyline."
 msgstr ""
 
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:250
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:252
 msgid "Press shift-mouseclick to end the polyline."
 msgstr ""
 
@@ -5755,18 +5755,18 @@ msgstr "ເຄື່ຶອງມືການເລືອກ"
 msgid "Select Polygonal"
 msgstr "ເຄື່ຶອງມືການເລືອກ"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:122
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:280
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:123
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:281
 #, fuzzy
 msgid "Polygonal Selection"
 msgstr "&ເລືອກແບບຮູບຫລາຍລ່ຽມ"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:261
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:262
 #, fuzzy
 msgid "&Polygonal Selection"
 msgstr "&ເລືອກແບບຮູບຫລາຍລ່ຽມ"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:270
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:271
 #, fuzzy
 msgid "Select a polygonal area"
 msgstr "ເຄື່ອງມືປ່ຽນສີ"
@@ -5781,12 +5781,12 @@ msgstr "&ເລືອກແບບວົງຮີ"
 msgid "Transform Tool"
 msgstr "&ເຄື່ອງມືຢາງລືບ"
 
-#: plugins/tools/tool_transform/kis_tool_transform.cc:760
+#: plugins/tools/tool_transform/kis_tool_transform.cc:761
 #, fuzzy
 msgid "&Transform"
 msgstr "Transform"
 
-#: plugins/tools/tool_transform/kis_tool_transform.cc:768
+#: plugins/tools/tool_transform/kis_tool_transform.cc:769
 msgid "Transform a layer or a selection"
 msgstr ""
 
@@ -6286,7 +6286,7 @@ msgstr "ມຸມ:"
 msgid "&Auto Contrast"
 msgstr "ມຸມ:"
 
-#: plugins/filters/colorsfilters/colorsfilters.cc:228
+#: plugins/filters/colorsfilters/colorsfilters.cc:238
 #, fuzzy
 msgid "&Desaturate"
 msgstr "ความอิ่มสี"
