@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-09-21 09:45+0200\n"
+"POT-Creation-Date: 2006-02-25 10:46+0100\n"
 "PO-Revision-Date: 2003-01-17 18:12+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -26,32 +26,38 @@ msgstr "&ແລະລ້າງ  "
 msgid "&Object"
 msgstr "&ແລະວັດຖຸ"
 
-#. i18n: file data/karbon.rc line 50
-#: rc.cpp:18 rc.cpp:46
+#. i18n: file data/karbon.rc line 51
+#: rc.cpp:18 rc.cpp:49
 #, no-c-format
 msgid "&Order"
 msgstr "&ລຳດັບ"
 
-#. i18n: file data/karbon.rc line 57
-#: rc.cpp:21 rc.cpp:49
+#. i18n: file data/karbon.rc line 58
+#: rc.cpp:21 rc.cpp:52
 #, fuzzy, no-c-format
 msgid "&Align"
 msgstr "ເຊັກເມັນ:"
 
-#. i18n: file data/karbon.rc line 70
+#. i18n: file data/karbon.rc line 68
 #: rc.cpp:24
 #, no-c-format
-msgid "&Plugins"
+msgid "&Distribute"
 msgstr ""
 
-#. i18n: file data/karbon.rc line 95
-#: rc.cpp:36
+#. i18n: file data/karbon.rc line 84
+#: rc.cpp:27
+#, fuzzy, no-c-format
+msgid "Effe&cts"
+msgstr "Effects"
+
+#. i18n: file data/karbon.rc line 109
+#: rc.cpp:39
 #, fuzzy, no-c-format
 msgid "Object"
 msgstr "&ແລະວັດຖຸ"
 
-#. i18n: file data/karbon.rc line 105
-#: rc.cpp:39
+#. i18n: file data/karbon.rc line 120
+#: rc.cpp:42
 #, no-c-format
 msgid "Toolbox"
 msgstr "ກັບເຄື່ອງມື"
@@ -68,220 +74,301 @@ msgid ""
 "Your emails"
 msgstr "ືືືືngaviseth@hotmail.com"
 
-#: karbon_part.cc:210
+#: karbon_part.cc:291
 msgid "Invalid OASIS document. No office:body tag found."
 msgstr ""
 
-#: karbon_part.cc:218
+#: karbon_part.cc:299
 msgid "Invalid OASIS document. No office:drawing tag found."
 msgstr ""
 
-#: karbon_part.cc:226
+#: karbon_part.cc:307
 msgid "Invalid OASIS document. No draw:page tag found."
 msgstr ""
 
-#: karbon_view.cc:334
+#: karbon_view.cc:381
 #, fuzzy
 msgid "Insert Clipart"
 msgstr "แทรกดาว"
 
-#: karbon_view.cc:490
+#: karbon_view.cc:500
+#, fuzzy
+msgid "Paste Object"
+msgstr "ຫນຸນວັດຖຸ"
+
+#: karbon_view.cc:501
+#, fuzzy
+msgid "Paste Objects"
+msgstr "ຫນຸນວັດຖຸ"
+
+#: karbon_view.cc:551
 msgid "This action cannot be undone later. Do you really want to continue?"
 msgstr "ການກະທຳນີ້ບໍ່ສາມາດຍົກເລີກໄດ້ໃນພາຍຫັລງ ທ່ານຕ້ອງການຈະເຮັດຕໍ່ຫລືບໍ່?"
 
-#: karbon_view.cc:491
+#: karbon_view.cc:552
 msgid "Purge History"
 msgstr "ລ້າງປະຫັວດ"
 
-#: karbon_view.cc:672 karbon_view.cc:829
+#: commands/vtransformcmd.cc:46 commands/vtransformcmd.cc:64
+#: karbon_view.cc:680
 #, fuzzy
-msgid "  Width"
+msgid "Duplicate Object"
+msgstr "ລຶບວັດຖຸ"
+
+#: commands/vtransformcmd.cc:48 commands/vtransformcmd.cc:66
+#: karbon_view.cc:681
+#, fuzzy
+msgid "Duplicate Objects"
+msgstr "ລຶບວັດຖຸ"
+
+#: karbon_view.cc:803 karbon_view.cc:962
+#, fuzzy
+msgid "Zoom Width"
 msgstr "ກວ້າງ"
 
-#: karbon_view.cc:678 karbon_view.cc:828
+#: karbon_view.cc:809 karbon_view.cc:961
 msgid "Whole Page"
 msgstr ""
 
-#: karbon_view.cc:800
+#: karbon_view.cc:933
 msgid "View &Mode"
 msgstr "ໂຫມດສະແ&ດງຜົນ"
 
-#: karbon_view.cc:808
+#: karbon_view.cc:941
 msgid "Normal"
 msgstr "ປົກກະຕິ"
 
-#: karbon_view.cc:808
+#: karbon_view.cc:941
 msgid "Wireframe"
 msgstr "ໂຄງຮ່າງ"
 
-#: karbon_view.cc:815
-#, no-c-format
-msgid "    25%"
+#: karbon_view.cc:948
+#, fuzzy, no-c-format
+msgid "25%"
 msgstr "    25%"
 
-#: karbon_view.cc:817
-#, no-c-format
-msgid "    50%"
+#: karbon_view.cc:950
+#, fuzzy, no-c-format
+msgid "50%"
 msgstr "    50%"
 
-#: karbon_view.cc:819
-#, no-c-format
-msgid "   100%"
+#: karbon_view.cc:952
+#, fuzzy, no-c-format
+msgid "100%"
 msgstr "   100%"
 
-#: karbon_view.cc:821
-#, no-c-format
-msgid "   200%"
+#: karbon_view.cc:954
+#, fuzzy, no-c-format
+msgid "200%"
 msgstr "   200%"
 
-#: karbon_view.cc:823
-#, no-c-format
-msgid "   300%"
+#: karbon_view.cc:956
+#, fuzzy, no-c-format
+msgid "300%"
 msgstr "   300%"
 
-#: karbon_view.cc:825
-#, no-c-format
-msgid "   400%"
+#: karbon_view.cc:958
+#, fuzzy, no-c-format
+msgid "400%"
 msgstr "   400%"
 
-#: karbon_view.cc:827
-#, no-c-format
-msgid "   800%"
+#: karbon_view.cc:960
+#, fuzzy, no-c-format
+msgid "800%"
 msgstr "   800%"
 
-#: karbon_view.cc:853
+#: karbon_view.cc:971
+msgid "Show Page Margins"
+msgstr ""
+
+#: karbon_view.cc:974
+msgid "Hide Page Margins"
+msgstr ""
+
+#: karbon_view.cc:992
 #, fuzzy
 msgid "&Import Graphic..."
 msgstr "&Import"
 
-#: karbon_view.cc:856
+#: karbon_view.cc:995
 msgid "D&elete"
 msgstr "&ລຶບ"
 
-#: karbon_view.cc:859
+#: karbon_view.cc:998
 msgid "&History"
 msgstr "&ປະຫັວດ"
 
-#: karbon_view.cc:865
+#: karbon_view.cc:1004 widgets/vtranslate.cc:62
+msgid "&Duplicate"
+msgstr "&ເຮັດຊຳ້"
+
+#: karbon_view.cc:1007
 msgid "Bring to &Front"
 msgstr "ນຳມາໄວ້ດ້ານ&ຫນ້າສຸດ"
 
-#: karbon_view.cc:868
+#: karbon_view.cc:1010
 msgid "&Raise"
 msgstr "ນຳມາໄວ້ດ້ານຫ&ນ້າ"
 
-#: karbon_view.cc:871
+#: karbon_view.cc:1013
 msgid "&Lower"
 msgstr "ນຳມາໄວ້ດ້ານຫ&ລັງ"
 
-#: karbon_view.cc:874
+#: karbon_view.cc:1016
 msgid "Send to &Back"
 msgstr "ນຳມາໄວ້ດ້ານຫ&ລັງສຸດ"
 
-#: karbon_view.cc:878
+#: karbon_view.cc:1020
 #, fuzzy
 msgid "Align Left"
 msgstr "ເຊັກເມັນ:"
 
-#: karbon_view.cc:882
+#: karbon_view.cc:1024
 #, fuzzy
 msgid "Align Center (Horizontal)"
 msgstr "ເຊັກເມັນ:"
 
-#: karbon_view.cc:886
+#: karbon_view.cc:1028
 #, fuzzy
 msgid "Align Right"
 msgstr "ຕື່ມສີວັດຖຸ"
 
-#: karbon_view.cc:890
+#: karbon_view.cc:1032
 #, fuzzy
 msgid "Align Top"
 msgstr "ຕື່ມສີວັດຖຸ"
 
-#: karbon_view.cc:894
+#: karbon_view.cc:1036
 #, fuzzy
-msgid "Align Center (Vertical)"
+msgid "Align Middle (Vertical)"
 msgstr "ເຊັກເມັນ:"
 
-#: karbon_view.cc:898
+#: karbon_view.cc:1040
 #, fuzzy
 msgid "Align Bottom"
 msgstr "ຕື່ມສີວັດຖຸ"
 
-#: karbon_view.cc:902
+#: karbon_view.cc:1045
+#, fuzzy
+msgid "Distribute Center (Horizontal)"
+msgstr "ເຊັກເມັນ:"
+
+#: karbon_view.cc:1049
+#, fuzzy
+msgid "Distribute Gaps (Horizontal)"
+msgstr "ເຊັກເມັນ:"
+
+#: karbon_view.cc:1053
+msgid "Distribute Left Borders"
+msgstr ""
+
+#: karbon_view.cc:1057
+msgid "Distribute Right Borders"
+msgstr ""
+
+#: karbon_view.cc:1061
+#, fuzzy
+msgid "Distribute Center (Vertical)"
+msgstr "ເຊັກເມັນ:"
+
+#: karbon_view.cc:1065
+msgid "Distribute Gaps (Vertical)"
+msgstr ""
+
+#: karbon_view.cc:1069
+msgid "Distribute Bottom Borders"
+msgstr ""
+
+#: karbon_view.cc:1073
+msgid "Distribute Top Borders"
+msgstr ""
+
+#: karbon_view.cc:1077
 msgid "Show Rulers"
 msgstr ""
 
-#: karbon_view.cc:904
+#: karbon_view.cc:1079
 msgid "Hide Rulers"
 msgstr ""
 
-#: karbon_view.cc:906
+#: karbon_view.cc:1081
 msgid "Shows or hides rulers."
 msgstr ""
 
-#: karbon_view.cc:908
+#: karbon_view.cc:1083
 msgid "Show Grid"
 msgstr ""
 
-#: karbon_view.cc:910
+#: karbon_view.cc:1085
 msgid "Hide Grid"
 msgstr ""
 
-#: karbon_view.cc:912
+#: karbon_view.cc:1087
 msgid "Shows or hides grid."
 msgstr ""
 
-#: karbon_view.cc:914
+#: karbon_view.cc:1089
 msgid "Snap to Grid"
 msgstr ""
 
-#: karbon_view.cc:915
+#: karbon_view.cc:1090
 msgid "Snaps to grid."
 msgstr ""
 
-#: karbon_view.cc:918
+#: karbon_view.cc:1093
 msgid "&Group Objects"
 msgstr "ລວມກຸ່&ມວັດຖຸ"
 
-#: karbon_view.cc:921
+#: karbon_view.cc:1096
 msgid "&Ungroup Objects"
 msgstr "&ຍົກເລີກລວມກຸ່ມວັດຖຸູ"
 
-#: karbon_view.cc:924
+#: karbon_view.cc:1099
 #, fuzzy
 msgid "&Close Path"
 msgstr "Choose the pattern to add"
 
-#: karbon_view.cc:929
-msgid "&Color Manager"
-msgstr "&ຈັດການສີ"
-
-#: karbon_view.cc:932
-msgid "&Transform"
-msgstr "ແ&ປລງ"
-
-#: karbon_view.cc:935
-msgid "&Stroke"
-msgstr "&ການລາກ"
-
-#: karbon_view.cc:938
+#: karbon_view.cc:1104
 #, fuzzy
-msgid "&Style"
-msgstr "ຮູບແບບ:"
+msgid "Line Style"
+msgstr "ຕັ້ງຄ່າຮູບແບບການເຊື່ອມຕໍ່"
 
-#: karbon_view.cc:944
+#: karbon_view.cc:1108
 msgid "Set Line Width"
 msgstr "ຕັ້ງູຄ່າຄວາມກ້ວາງເສັ້ນ"
 
-#: karbon_view.cc:958
+#: karbon_view.cc:1122
 msgid "Configure Karbon..."
 msgstr "ປັບແຕ່ງຄາບອນ..."
 
-#: karbon_view.cc:961
+#: karbon_view.cc:1125
 #, fuzzy
 msgid "Page &Layout..."
 msgstr "ປັບແຕ່ງຄາບອນ..."
+
+#: dialogs/vconfiguredlg.cc:73 karbon_view.cc:1484
+msgid "Document"
+msgstr "ເອກກະສານ"
+
+#: karbon_view.cc:1492
+msgid "Layers"
+msgstr "ເລເຢີ"
+
+#: karbon_view.cc:1499
+msgid "History"
+msgstr "ປະຫວັດ"
+
+#: dockers/vstrokedocker.cc:45 karbon_view.cc:1506
+msgid "Stroke Properties"
+msgstr "ູຸູຄຸນສົມບັດການລາກ"
+
+#: dockers/vtransformdocker.cc:43 karbon_view.cc:1524
+msgid "Transform"
+msgstr "ແປງ"
+
+#: dockers/vstyledocker.cc:78 karbon_view.cc:1534
+msgid "Resources"
+msgstr ""
 
 #: main.cc:33
 #, fuzzy
@@ -326,6 +413,11 @@ msgstr "ລຶບວັດຖຸ"
 msgid "Delete Node"
 msgstr "ລົບວັດຖุ"
 
+#: commands/vdistributecmd.cc:29
+#, fuzzy
+msgid "Distribute Objects"
+msgstr "ລຶບວັດຖຸ"
+
 #: commands/vfillcmd.cc:32
 msgid "Fill Objects"
 msgstr "ຕື່ມສີວັດຖຸ"
@@ -357,11 +449,16 @@ msgstr "ວັດຖຸທີ່ໃຊ້ລາກ"
 msgid "Stroke Width"
 msgstr "ຄວາມກວ້າງເສັ້ນການລາກ"
 
-#: commands/vstrokecmd.cc:70 dockers/vcolordocker.cc:154
+#: commands/vstrokecmd.cc:70
 msgid "Stroke Color"
 msgstr "ສີເສັ້ນການລາກ"
 
-#: commands/vtextcmd.cc:30 tools/vtexttool.cc:793
+#: commands/vstrokecmd.cc:78
+#, fuzzy
+msgid "Dash Pattern"
+msgstr "ແບນ"
+
+#: commands/vtextcmd.cc:30 tools/vtexttool.cc:849
 msgid "Insert Text"
 msgstr "ແຊກຂໍ້ຄວາມ"
 
@@ -369,54 +466,54 @@ msgstr "ແຊກຂໍ້ຄວາມ"
 msgid "Transform Objects"
 msgstr "ແປງວັດຖຸ"
 
-#: commands/vtransformcmd.cc:46 commands/vtransformcmd.cc:64
-#, fuzzy
-msgid "Duplicate Object"
-msgstr "ລຶບວັດຖຸ"
-
-#: commands/vtransformcmd.cc:48 commands/vtransformcmd.cc:66
-#, fuzzy
-msgid "Duplicate Objects"
-msgstr "ລຶບວັດຖຸ"
-
 #: commands/vtransformcmd.cc:51
 msgid "Transform Object"
 msgstr "ແປງວັດຖຸ"
 
-#: commands/vtransformcmd.cc:222
+#: commands/vtransformcmd.cc:235
 msgid "Translate Objects"
 msgstr "ແປງວັດຖຸ"
 
-#: commands/vtransformcmd.cc:225
+#: commands/vtransformcmd.cc:238
 msgid "Translate Object"
 msgstr "ແປງວັດຖຸ"
 
-#: commands/vtransformcmd.cc:232
+#: commands/vtransformcmd.cc:245
 msgid "Scale Objects"
 msgstr "ປັບຂະຫນາດວັດຖຸ"
 
-#: commands/vtransformcmd.cc:235
+#: commands/vtransformcmd.cc:248
 msgid "Scale Object"
 msgstr "ປັບຂະຫນາດວັດຖຸ"
 
-#: commands/vtransformcmd.cc:244
+#: commands/vtransformcmd.cc:257
 msgid "Shear Objects"
 msgstr "ເອີ້ນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:247
+#: commands/vtransformcmd.cc:260
 msgid "Shear Object"
 msgstr "ເອນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:255
+#: commands/vtransformcmd.cc:268
 msgid "Rotate Objects"
 msgstr "ຫນຸນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:258
+#: commands/vtransformcmd.cc:271
 msgid "Rotate Object"
 msgstr "ຫນຸນວັດຖຸ"
 
-#: commands/vtransformcmd.cc:266
+#: commands/vtransformcmd.cc:279
 msgid "Translate Bezier"
+msgstr "ແປ"
+
+#: commands/vtransformcmd.cc:401
+#, fuzzy
+msgid "Translate Points"
+msgstr "ແປງວັດຖຸ"
+
+#: commands/vtransformcmd.cc:414
+#, fuzzy
+msgid "Translate Point"
 msgstr "ແປ"
 
 #: commands/vungroupcmd.cc:30
@@ -447,15 +544,15 @@ msgstr "ໃຫມ່:"
 msgid "Components"
 msgstr "ຄອມໂພເນັນ"
 
-#: dialogs/vcolortab.cc:74 dockers/vcolordocker.cc:52
+#: dialogs/vcolortab.cc:74 dockers/vtransformdocker.cc:77
 msgid "R:"
 msgstr "R:"
 
-#: dialogs/vcolortab.cc:75 dockers/vcolordocker.cc:53
+#: dialogs/vcolortab.cc:75
 msgid "G:"
 msgstr "G:"
 
-#: dialogs/vcolortab.cc:76 dockers/vcolordocker.cc:54
+#: dialogs/vcolortab.cc:76
 msgid "B:"
 msgstr "B:"
 
@@ -487,15 +584,15 @@ msgstr ""
 msgid "Opacity"
 msgstr "ຄວາມທຶບແສງ"
 
-#: dialogs/vcolortab.cc:108 dockers/vcolordocker.cc:65
+#: dialogs/vcolortab.cc:108 dockers/vcolordocker.cc:81
 msgid "RGB"
 msgstr "RGB"
 
-#: dialogs/vconfiguredlg.cc:53 dialogs/vconfiguredlg.cc:117
+#: dialogs/vconfiguredlg.cc:53 dialogs/vconfiguredlg.cc:118
 msgid "Interface"
 msgstr "ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້"
 
-#: dialogs/vconfiguredlg.cc:59 dialogs/vconfiguredlg.cc:198
+#: dialogs/vconfiguredlg.cc:59 dialogs/vconfiguredlg.cc:220
 msgid "Misc"
 msgstr "ເບັດເຕີເລັດ"
 
@@ -503,87 +600,87 @@ msgstr "ເບັດເຕີເລັດ"
 msgid "Grid"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:73 dockers/vdocumentdocker.cc:1458
-msgid "Document"
-msgstr "ເອກກະສານ"
-
-#: dialogs/vconfiguredlg.cc:73 dialogs/vconfiguredlg.cc:401
+#: dialogs/vconfiguredlg.cc:73 dialogs/vconfiguredlg.cc:388
 msgid "Document Settings"
 msgstr "ຕັ້ງຄ່າເອກກະສານ"
 
-#: dialogs/vconfiguredlg.cc:133
+#: dialogs/vconfiguredlg.cc:138
 msgid "Show status bar"
 msgstr "ສະແດງແຖບສະຖານະ"
 
-#: dialogs/vconfiguredlg.cc:138
+#: dialogs/vconfiguredlg.cc:143
 #, fuzzy
 msgid "Number of recent files:"
 msgstr "ຈຳນວນຂອງແຟມທີ່ເຄີຍໃຊ้້:"
 
-#: dialogs/vconfiguredlg.cc:142
+#: dialogs/vconfiguredlg.cc:147
 msgid "Copy offset:"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:218
+#: dialogs/vconfiguredlg.cc:151
+msgid "Palette font size:"
+msgstr ""
+
+#: dialogs/vconfiguredlg.cc:240
 msgid "Undo/redo limit:"
 msgstr "ຈຳກັດການເລີກເຮັດ/ເຮັດຊຳ້"
 
-#: dialogs/vconfiguredlg.cc:223
+#: dialogs/vconfiguredlg.cc:245
 msgid "Units:"
 msgstr "ຫນ່ວຍ:"
 
-#: dialogs/vconfiguredlg.cc:311
+#: dialogs/vconfiguredlg.cc:298
 msgid "Show &grid"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:313
+#: dialogs/vconfiguredlg.cc:300
 msgid "Snap to g&rid"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:315
+#: dialogs/vconfiguredlg.cc:302
 #, fuzzy
 msgid "Grid &color:"
 msgstr "สีสิ้นสุด:"
 
-#: dialogs/vconfiguredlg.cc:319
+#: dialogs/vconfiguredlg.cc:306
 msgid "&Horizontal:"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:322
+#: dialogs/vconfiguredlg.cc:309
 msgid "&Vertical:"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:325
+#: dialogs/vconfiguredlg.cc:312
 #, fuzzy
 msgid "Snap Distance"
 msgstr "Distance:"
 
-#: dialogs/vconfiguredlg.cc:326
+#: dialogs/vconfiguredlg.cc:313
 msgid "H&orizontal:"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:329
+#: dialogs/vconfiguredlg.cc:316
 msgid "V&ertical:"
 msgstr ""
 
-#: dialogs/vconfiguredlg.cc:421
+#: dialogs/vconfiguredlg.cc:408
 msgid "Auto save (min):"
 msgstr "ບັນທຶກອັດຕະໂນມັດ (ນາທີ):"
 
-#: dialogs/vconfiguredlg.cc:422
+#: dialogs/vconfiguredlg.cc:409
 msgid "No auto save"
 msgstr "ບໍ່ບັນທຶກອັດຕະໂນມັດ"
 
-#: dialogs/vconfiguredlg.cc:423
+#: dialogs/vconfiguredlg.cc:410
 msgid "min"
 msgstr "ນາທີ"
 
-#: dialogs/vconfiguredlg.cc:425
+#: dialogs/vconfiguredlg.cc:412
 #, fuzzy
 msgid "Create backup file"
 msgstr "Create Backup File"
 
-#: dialogs/vconfiguredlg.cc:428
+#: dialogs/vconfiguredlg.cc:415
 msgid "Save as path"
 msgstr ""
 
@@ -604,12 +701,12 @@ msgid "Style:"
 msgstr "ຮູບແບບ:"
 
 #: dialogs/vstrokedlg.cc:66 widgets/vgradienttabwidget.cc:195
-#: widgets/vtypebuttonbox.cc:111
+#: widgets/vtypebuttonbox.cc:231
 msgid "None"
 msgstr "ບໍ່ມີ"
 
-#: dialogs/vstrokedlg.cc:70 tools/vgradienttool.cc:62
-#: widgets/vtypebuttonbox.cc:123
+#: dialogs/vstrokedlg.cc:70 tools/vgradienttool.cc:66
+#: tools/vgradienttool.cc:439 widgets/vtypebuttonbox.cc:247
 msgid "Gradient"
 msgstr "ໄຮ້ລະດັບສີ"
 
@@ -625,38 +722,26 @@ msgstr "ຫົວເສັ້ນ"
 msgid "Join"
 msgstr "ເຊື່ອມ"
 
-#: dockers/vcolordocker.cc:42 dockers/vcolordocker.cc:148
-msgid "Fill Color"
-msgstr "ສີ:"
-
-#: dockers/vcolordocker.cc:72
-msgid "C:"
-msgstr "C:"
+#: dockers/vcolordocker.cc:58
+#, fuzzy
+msgid "Color Chooser"
+msgstr "Choose color"
 
 #: dockers/vcolordocker.cc:73
-msgid "M:"
-msgstr "M:"
+msgid "HSV"
+msgstr ""
 
-#: dockers/vcolordocker.cc:74 dockers/vtransformdocker.cc:55
-#: widgets/vselecttoolbar.cc:44 widgets/vtranslate.cc:44
-msgid "Y:"
-msgstr "Y:"
-
-#: dockers/vcolordocker.cc:75
-msgid "K:"
-msgstr "K:"
-
-#: dockers/vcolordocker.cc:88
-msgid "CMYK"
-msgstr "CMYK"
-
-#: dockers/vcolordocker.cc:91 plugins/shadoweffect/shadoweffectplugin.cc:73
+#: dockers/vcolordocker.cc:90 plugins/shadoweffect/shadoweffectplugin.cc:73
 msgid "Opacity:"
 msgstr "ຄວາມທຶບແສງ"
 
-#: dockers/vdocumentdocker.cc:232 tools/vellipsetool.cc:53
-#: tools/vrectangletool.cc:42 tools/vroundrecttool.cc:42
-#: tools/vsinustool.cc:44 widgets/vselecttoolbar.cc:56
+#: dockers/vcolordocker.cc:93
+msgid "Alpha (opacity)"
+msgstr ""
+
+#: dockers/vdocumentdocker.cc:232 tools/vellipsetool.cc:52
+#: tools/vrectangletool.cc:41 tools/vsinustool.cc:43
+#: widgets/vselecttoolbar.cc:56
 #, fuzzy
 msgid "Height:"
 msgstr "ສູງ (%1):"
@@ -753,96 +838,146 @@ msgstr "Commands"
 msgid "Group commands"
 msgstr "Group commands"
 
-#: dockers/vdocumentdocker.cc:1453
-msgid "Overview"
-msgstr "Overview"
+#: dockers/vstrokedocker.cc:56
+msgid "Set line width of actual selection"
+msgstr ""
 
-#: dockers/vdocumentdocker.cc:1459
-msgid "Layers"
-msgstr "ເລເຢີ"
-
-#: dockers/vdocumentdocker.cc:1460
-msgid "History"
-msgstr "ປະຫວັດ"
-
-#: dockers/vstrokedocker.cc:45
-msgid "Stroke Properties"
-msgstr "ູຸູຄຸນສົມບັດການລາກ"
-
-#: dockers/vstrokedocker.cc:57
+#: dockers/vstrokedocker.cc:60
 msgid "Cap:"
 msgstr "ຫົວເສັ້ນ"
 
-#: dockers/vstrokedocker.cc:78
+#: dockers/vstrokedocker.cc:69
+msgid "Butt cap"
+msgstr ""
+
+#: dockers/vstrokedocker.cc:74
+#, fuzzy
+msgid "Round cap"
+msgstr "มุมโค้ง"
+
+#: dockers/vstrokedocker.cc:79
+msgid "Square cap"
+msgstr ""
+
+#: dockers/vstrokedocker.cc:84
 msgid "Join:"
 msgstr "ເຊື່ອມ"
 
-#: dockers/vstyledocker.cc:78
-#, fuzzy
-msgid "Style Settings"
-msgstr "ຕັ້ງຄ່າເອກກະສານ"
+#: dockers/vstrokedocker.cc:94
+msgid "Miter join"
+msgstr ""
 
-#: dockers/vstyledocker.cc:85 dockers/vstyledocker.cc:88
+#: dockers/vstrokedocker.cc:99
+#, fuzzy
+msgid "Round join"
+msgstr "มุมโค้ง"
+
+#: dockers/vstrokedocker.cc:104
+msgid "Bevel join"
+msgstr ""
+
+#: dockers/vstyledocker.cc:84 dockers/vstyledocker.cc:87
 msgid "Patterns"
 msgstr "ແບນ"
 
-#: dockers/vstyledocker.cc:92
+#: dockers/vstyledocker.cc:91
 #, fuzzy
 msgid "Clipart"
 msgstr "Clipart Tool"
 
-#: dockers/vtransformdocker.cc:42
-msgid "Transform"
-msgstr "ແປງ"
-
-#: dockers/vtransformdocker.cc:49 widgets/vselecttoolbar.cc:39
+#: dockers/vtransformdocker.cc:48 widgets/vselecttoolbar.cc:39
 #: widgets/vtranslate.cc:42
 msgid "X:"
 msgstr "X:"
 
-#: dockers/vtransformdocker.cc:61
+#: dockers/vtransformdocker.cc:52
+msgid "Set x-position of actual selection"
+msgstr ""
+
+#: dockers/vtransformdocker.cc:55 widgets/vselecttoolbar.cc:44
+#: widgets/vtranslate.cc:44
+msgid "Y:"
+msgstr "Y:"
+
+#: dockers/vtransformdocker.cc:59
+msgid "Set y-position of actual selection"
+msgstr ""
+
+#: dockers/vtransformdocker.cc:62
 msgid "W:"
 msgstr ""
 
-#: dockers/vtransformdocker.cc:67
+#: dockers/vtransformdocker.cc:66
+msgid "Set width of actual selection"
+msgstr ""
+
+#: dockers/vtransformdocker.cc:69
 msgid "H:"
 msgstr "H:"
 
-#: shapes/vellipse.cc:109
+#: dockers/vtransformdocker.cc:73
+msgid "Set height of actual selection"
+msgstr ""
+
+#: dockers/vtransformdocker.cc:81
+#, fuzzy
+msgid "Rotate actual selection"
+msgstr "ລຳດັບການາເລືອກ"
+
+#: dockers/vtransformdocker.cc:84
+#, fuzzy
+msgid "SX:"
+msgstr "X:"
+
+#: dockers/vtransformdocker.cc:88
+msgid "Shear actual selection in x-direction"
+msgstr ""
+
+#: dockers/vtransformdocker.cc:91
+#, fuzzy
+msgid "SY:"
+msgstr "Y:"
+
+#: dockers/vtransformdocker.cc:95
+msgid "Shear actual selection in y-direction"
+msgstr ""
+
+#: shapes/vellipse.cc:112 tools/vellipsetool.cc:272
 #, fuzzy
 msgid "Ellipse"
 msgstr "&วงรี"
 
-#: shapes/vpolygon.cc:77 tools/vstartool.cc:43
+#: shapes/vpolygon.cc:83 tools/vpolygontool.cc:160 tools/vstartool.cc:43
 #, fuzzy
 msgid "Polygon"
 msgstr "&รูปหลายเหลี่ยม"
 
-#: shapes/vpolyline.cc:74 tools/vpolylinetool.cc:120
+#: shapes/vpolyline.cc:79 tools/vpolylinetool.cc:129
+#: tools/vpolylinetool.cc:489
 msgid "Polyline"
 msgstr "ຈຳນວນລ່ຽມ"
 
-#: shapes/vrectangle.cc:98
+#: shapes/vrectangle.cc:100 tools/vrectangletool.cc:138
 #, fuzzy
 msgid "Rectangle"
 msgstr "รูป&สี่เหลี่ยม"
 
-#: shapes/vsinus.cc:136
+#: shapes/vsinus.cc:137 tools/vsinustool.cc:157
 #, fuzzy
 msgid "Sinus"
 msgstr "&คลื่นไซน์"
 
-#: shapes/vspiral.cc:107
+#: shapes/vspiral.cc:108 tools/vspiraltool.cc:208
 #, fuzzy
 msgid "Spiral"
 msgstr "&ลายก้นหอย"
 
-#: shapes/vstar.cc:267 tools/vstartool.cc:45
+#: shapes/vstar.cc:268 tools/vstartool.cc:45
 #, fuzzy
 msgid "Star"
 msgstr "&ดวงดาว"
 
-#: tools/vellipsetool.cc:38 tools/vellipsetool.cc:135
+#: tools/vellipsetool.cc:38
 msgid "Insert Ellipse"
 msgstr "ແຊກຮູວົງຮີ"
 
@@ -869,127 +1004,167 @@ msgstr ""
 msgid "Arc"
 msgstr ""
 
-#: tools/vellipsetool.cc:57
+#: tools/vellipsetool.cc:55
 #, fuzzy
 msgid "Start angle:"
 msgstr "สีเริ่มต้น:"
 
-#: tools/vellipsetool.cc:62
+#: tools/vellipsetool.cc:60
 #, fuzzy
 msgid "End angle:"
 msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
 
-#: tools/vgradienttool.cc:40 widgets/vgradienttabwidget.cc:181
+#: tools/vellipsetool.cc:271 tools/vellipsetool.h:71
+#, fuzzy
+msgid "Ellipse Tool"
+msgstr "&วงรี"
+
+#: tools/vgradienttool.cc:41 widgets/vgradienttabwidget.cc:181
 msgid "Edit Gradient"
 msgstr "ໄລ່ລະດັບສີ"
 
-#: tools/vgradienttool.cc:69
+#: tools/vgradienttool.cc:107
+#, fuzzy
+msgid "Gradient tool"
+msgstr "ໄຮ້ລະດັບສີ"
+
+#: tools/vgradienttool.cc:113
 msgid "<qt><b>Gradient tool:</b><br>"
 msgstr "<qt><b>Gradient tool:</b><br>"
 
-#: tools/vgradienttool.cc:70
+#: tools/vgradienttool.cc:114
 msgid "<i>Click and drag</i> to choose the gradient vector.<br>"
 msgstr "<i>Click and drag</i> to choose the gradient vector.<br>"
 
-#: tools/vgradienttool.cc:71
+#: tools/vgradienttool.cc:115
+#, fuzzy
+msgid ""
+"<i>Click and drag</i> a gradient vector handle to change the gradient vector."
+"<br>"
+msgstr "<i>Click and drag</i> to choose the gradient vector.<br>"
+
+#: tools/vgradienttool.cc:116
+#, fuzzy
+msgid ""
+"<i>Shift click and drag</i> to move the radial gradient focal point."
+"<br>"
+msgstr "<i>Click and drag</i> to choose the gradient vector.<br>"
+
+#: tools/vgradienttool.cc:117 tools/vpatterntool.cc:186
+msgid "<i>Press i or Shift+i</i> to decrease or increase the handle size.<br>"
+msgstr ""
+
+#: tools/vgradienttool.cc:118
 msgid "<br><b>Gradient editing:</b><br>"
 msgstr "<br><b>Gradient editing:</b><br>"
 
-#: tools/vgradienttool.cc:72
+#: tools/vgradienttool.cc:119
 msgid "<i>Click and drag</i> to move points.<br>"
 msgstr "<i>Click and drag</i> to move points.<br>"
 
-#: tools/vgradienttool.cc:73
+#: tools/vgradienttool.cc:120
 msgid "<i>Double click</i> on a color point to edit it.<br>"
 msgstr "<i>Double click</i> on a color point to edit it.<br>"
 
-#: tools/vgradienttool.cc:74
+#: tools/vgradienttool.cc:121
 msgid "<i>Right click</i> on a color point to remove it.</qt>"
 msgstr "<i>Right click</i> on a color point to remove it.</qt>"
 
-#: tools/vpatterntool.cc:45
+#: tools/vgradienttool.cc:438 tools/vgradienttool.h:43
+#, fuzzy
+msgid "Gradient Tool"
+msgstr "ໄຮ້ລະດັບສີ"
+
+#: tools/vpatterntool.cc:49
 #, fuzzy
 msgid "Choose Pattern"
 msgstr "Choose the pattern to add"
 
-#: tools/vpatterntool.cc:89
+#: tools/vpatterntool.cc:93
 #, fuzzy
 msgid "Choose Pattern to Add"
 msgstr "Choose the pattern to add"
 
-#: tools/vpatterntool.cc:134 widgets/vtypebuttonbox.cc:129
+#: tools/vpatterntool.cc:142 tools/vpatterntool.cc:459
+#: widgets/vtypebuttonbox.cc:255
 msgid "Pattern"
 msgstr "ແບນ"
 
-#: tools/vpatterntool.cc:140
+#: tools/vpatterntool.cc:183
 msgid "<qt><b>Pattern tool:</b><br>"
 msgstr "Choose the pattern to add"
 
-#: tools/vpatterntool.cc:141
+#: tools/vpatterntool.cc:184
 msgid "<i>Click</i> on the pattern you want in the chooser.<br>"
 msgstr "<i>Click</i> on the pattern you want in the chooser.<br>"
 
-#: tools/vpatterntool.cc:142
+#: tools/vpatterntool.cc:185
 msgid "<i>Click and drag</i> to choose the pattern vector.</qt>"
 msgstr "<i>Click and drag</i> to choose the pattern vector.</qt>"
 
-#: tools/vpatterntool.cc:180 tools/vpatterntool.cc:214
+#: tools/vpatterntool.cc:334 tools/vpatterntool.cc:395
 msgid "Please select a pattern."
 msgstr ""
 
-#: tools/vpenciltool.cc:54
+#: tools/vpatterntool.cc:458 tools/vpatterntool.h:72
+#, fuzzy
+msgid "Pattern Tool"
+msgstr "ແບນ"
+
+#: tools/vpenciltool.cc:55
 #, fuzzy
 msgid "Pencil Settings"
 msgstr "ຕັ້ງຄ່າເອກກະສານ"
 
-#: tools/vpenciltool.cc:60
+#: tools/vpenciltool.cc:61
 msgid "Raw"
 msgstr ""
 
-#: tools/vpenciltool.cc:61
+#: tools/vpenciltool.cc:62
 msgid "Curve"
 msgstr ""
 
-#: tools/vpenciltool.cc:62
+#: tools/vpenciltool.cc:63
 msgid "Straight"
 msgstr ""
 
-#: tools/vpenciltool.cc:68 tools/vpenciltool.cc:78
+#: tools/vpenciltool.cc:69 tools/vpenciltool.cc:79
 msgid "Optimize"
 msgstr ""
 
-#: tools/vpenciltool.cc:80
+#: tools/vpenciltool.cc:81
 #, fuzzy
-msgid "Exactness"
+msgid "Exactness:"
 msgstr "ความแบน: "
 
-#: tools/vpenciltool.cc:90
-msgid "Combine Angle"
-msgstr ""
+#: tools/vpenciltool.cc:91
+#, fuzzy
+msgid "Combine angle:"
+msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
 
-#: tools/vpenciltool.cc:158
+#: tools/vpenciltool.cc:161
 #, fuzzy
 msgid "<qt><b>Pencil tool:</b><br>"
 msgstr "Choose the pattern to add"
 
-#: tools/vpenciltool.cc:159
+#: tools/vpenciltool.cc:162
 msgid "- <i>Click</i> to begin drawing, release when you have finished."
 msgstr ""
 
-#: tools/vpenciltool.cc:160 tools/vpolylinetool.cc:60
+#: tools/vpenciltool.cc:163 tools/vpolylinetool.cc:64
 msgid "- Press <i>Enter</i> or <i>double click</i> to end the polyline.</qt>"
 msgstr "- Press <i>Enter</i> or <i>double click</i> to end the polyline.</qt>"
 
-#: tools/vpenciltool.cc:168 tools/vpenciltool.h:89
+#: tools/vpenciltool.cc:172 tools/vpenciltool.cc:405 tools/vpenciltool.h:91
 #, fuzzy
 msgid "Pencil Tool"
 msgstr "ແບນ"
 
-#: tools/vpenciltool.cc:260
+#: tools/vpenciltool.cc:264 tools/vpenciltool.cc:406
 msgid "Pencil"
 msgstr ""
 
-#: tools/vpolygontool.cc:34 tools/vpolygontool.cc:84
+#: tools/vpolygontool.cc:34
 msgid "Insert Polygon"
 msgstr "ແຊກຮູບຫລາຍລ່ຽມ"
 
@@ -998,15 +1173,20 @@ msgstr "ແຊກຮູບຫລາຍລ່ຽມ"
 msgid "Radius:"
 msgstr "ລັດສະຫມີ"
 
-#: tools/vpolygontool.cc:42 tools/vstartool.cc:61
+#: tools/vpolygontool.cc:41 tools/vstartool.cc:59
 msgid "Edges:"
 msgstr "ຂອບ:"
 
-#: tools/vpolylinetool.cc:54
+#: tools/vpolygontool.cc:159 tools/vpolygontool.h:39
+#, fuzzy
+msgid "Polygon Tool"
+msgstr "ຈຳນວນລ່ຽມ"
+
+#: tools/vpolylinetool.cc:58
 msgid "<qt><b>Polyline tool:</b><br>"
 msgstr "<qt><b>Polyline tool:</b><br>"
 
-#: tools/vpolylinetool.cc:55
+#: tools/vpolylinetool.cc:59
 msgid ""
 "- <i>Click</i> to add a node and <i>drag</i> to set its bezier vector."
 "<br>"
@@ -1014,7 +1194,7 @@ msgstr ""
 "- <i>Click</i> to add a node and <i>drag</i> to set its bezier vector."
 "<br>"
 
-#: tools/vpolylinetool.cc:56
+#: tools/vpolylinetool.cc:60
 msgid ""
 "- Press <i>Ctrl</i> while dragging to edit the previous bezier vector."
 "<br>"
@@ -1022,86 +1202,118 @@ msgstr ""
 "- Press <i>Ctrl</i> while dragging to edit the previous bezier vector."
 "<br>"
 
-#: tools/vpolylinetool.cc:57
+#: tools/vpolylinetool.cc:61
 msgid ""
 "- Press <i>Shift</i> while dragging to change the curve in a straight line."
 "<br>"
 msgstr "- Press <i>Shift</i> while dragging to change the curve in a straight "
 
-#: tools/vpolylinetool.cc:58
+#: tools/vpolylinetool.cc:62
 msgid "- Press <i>Backspace</i> to cancel the last curve.<br>"
 msgstr "- Press <i>Backspace</i> to cancel the last curve.<br>"
 
-#: tools/vpolylinetool.cc:59
+#: tools/vpolylinetool.cc:63
 msgid "- Press <i>Esc</i> to cancel the whole polyline.<br>"
 msgstr "- Press <i>Esc</i> to cancel the whole polyline.<br>"
 
-#: tools/vpolylinetool.cc:68 tools/vpolylinetool.h:58
+#: tools/vpolylinetool.cc:73 tools/vpolylinetool.cc:488
+#: tools/vpolylinetool.h:61
 msgid "Polyline Tool"
 msgstr "ຈຳນວນລ່ຽມ"
 
-#: tools/vrectangletool.cc:34 tools/vrectangletool.cc:86
+#: tools/vrectangletool.cc:34
 msgid "Insert Rectangle"
 msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
 
-#: tools/vrotatetool.cc:61
+#: tools/vrectangletool.cc:137 tools/vrectangletool.h:41
+#, fuzzy
+msgid "Rectangle Tool"
+msgstr "รูป&สี่เหลี่ยม"
+
+#: tools/vrotatetool.cc:62 tools/vrotatetool.cc:170
 msgid "Rotate"
 msgstr "ຫມຸນ"
+
+#: tools/vrotatetool.cc:169 tools/vrotatetool.h:36
+#, fuzzy
+msgid "Rotate Tool"
+msgstr "หมุน"
 
 #: tools/vroundrecttool.cc:35
 #, fuzzy
 msgid "Insert Round Rect"
 msgstr "ແຊກຮູບສີ່່ລ່ຽມມູມມົນ"
 
+#: tools/vroundrecttool.cc:43
+#, fuzzy
+msgid "Height (%1):"
+msgstr "สูง (%1):"
+
 #: tools/vroundrecttool.cc:46
 #, fuzzy
 msgid "Edge radius X:"
 msgstr "ຂອບລັດສະຫມີ"
 
-#: tools/vroundrecttool.cc:50
+#: tools/vroundrecttool.cc:49
 #, fuzzy
 msgid "Edge radius Y:"
 msgstr "ຂອບລັດສະຫມີ"
 
-#: tools/vroundrecttool.cc:119
-msgid "Insert Round Rectangle"
-msgstr "ແຊກຮູບສີ່່ລ່ຽມມູມມົນ"
+#: tools/vroundrecttool.cc:173 tools/vroundrecttool.h:44
+#, fuzzy
+msgid "Round Rectangle Tool"
+msgstr "รูปสี่เหลี่ยม&มุมโค้ง"
 
-#: tools/vselectnodestool.cc:67
+#: tools/vroundrecttool.cc:174
+#, fuzzy
+msgid "Round Rectangle"
+msgstr "รูปสี่เหลี่ยม&มุมโค้ง"
+
+#: tools/vselectnodestool.cc:75
 #, fuzzy
 msgid "Editing Nodes"
 msgstr "ແກ້ໄຂໂຫມດ"
 
-#: tools/vselecttool.cc:43
+#: tools/vselectnodestool.cc:389 tools/vselectnodestool.h:34
+#, fuzzy
+msgid "Select Nodes Tool"
+msgstr "คุณ&สมบัติการเลือก"
+
+#: tools/vselectnodestool.cc:390
+#, fuzzy
+msgid "Select Nodes"
+msgstr "คุณ&สมบัติการเลือก"
+
+#: tools/vselecttool.cc:44
 #, fuzzy
 msgid "Selection"
 msgstr "ຄຸນສົມບັດການເລືອກ"
 
-#: tools/vselecttool.cc:45
+#: tools/vselecttool.cc:46
 msgid "Selection Mode"
 msgstr "ຄຸນສົມບັດການເລືອກ"
 
-#: tools/vselecttool.cc:47
+#: tools/vselecttool.cc:48
 msgid "Select in current layer"
 msgstr "Select in current layer"
 
-#: tools/vselecttool.cc:48
+#: tools/vselecttool.cc:49
 msgid "Select in visible layers"
 msgstr "Select in visible layers"
 
-#: tools/vselecttool.cc:49
+#: tools/vselecttool.cc:50
 msgid "Select in selected layers"
 msgstr "Select in selected layers"
 
-#: tools/vselecttool.cc:96
+#: tools/vselecttool.cc:100 tools/vselecttool.cc:600
 msgid "Select"
 msgstr "ເລືອກ"
 
-#: tools/vselecttool.cc:101
+#: tools/vselecttool.cc:105
 msgid "<qt><b>Selection tool:</b><br>"
 msgstr "<qt><b>Selection tool:</b><br>"
 
-#: tools/vselecttool.cc:102
+#: tools/vselecttool.cc:106
 msgid ""
 "<i>Select in current layer:</i>"
 "<br>The selection is made in the layer selected in the layers docker."
@@ -1113,7 +1325,7 @@ msgstr ""
 "<br>"
 "<br>"
 
-#: tools/vselecttool.cc:103
+#: tools/vselecttool.cc:107
 msgid ""
 "<i>Select in visible layers:</i>"
 "<br>The selection is made in the visible layers (eye in the layers docker)."
@@ -1125,7 +1337,7 @@ msgstr ""
 "<br>"
 "<br>"
 
-#: tools/vselecttool.cc:104
+#: tools/vselecttool.cc:108
 msgid ""
 "<i>Select in selected layers:</i>"
 "<br>The selection is made in the checked layers in the layers docker."
@@ -1137,7 +1349,7 @@ msgstr ""
 "<br>"
 "<br>"
 
-#: tools/vselecttool.cc:105
+#: tools/vselecttool.cc:109
 msgid ""
 "<i>Position using arrow keys</i>"
 "<br>The selection can be positioned up, down, left and right using the "
@@ -1146,35 +1358,50 @@ msgstr ""
 "<i>Position using arrow keys</i>"
 "<br>The selection can be positioned up, down, left and right using the "
 
-#: tools/vselecttool.cc:376
+#: tools/vselecttool.cc:429
 msgid "No selection"
 msgstr "ລຳດັບການາເລືອກ"
 
-#: tools/vshapetool.cc:46
+#: tools/vselecttool.cc:599 tools/vselecttool.h:52
+#, fuzzy
+msgid "Select Tool"
+msgstr "เลือก"
+
+#: tools/vshapetool.cc:54
 msgid "<qt><b>Shape tool</b><br>"
 msgstr "<qt><b>Shape tool</b><br>"
 
-#: tools/vshapetool.cc:47
+#: tools/vshapetool.cc:55
 msgid "<i>Click and drag</i> to place your own shape.<br>"
 msgstr "<i>Click and drag</i> to place your own shape.<br>"
 
-#: tools/vshapetool.cc:48
+#: tools/vshapetool.cc:56
 msgid "<i>Click</i> to place a shape using the tool properties values.</qt>"
 msgstr "<i>Click</i> to place a shape using the tool properties values.</qt>"
 
-#: tools/vsheartool.cc:57
+#: tools/vsheartool.cc:59 tools/vsheartool.cc:214
 msgid "Shear"
 msgstr "ເອນ"
 
-#: tools/vsinustool.cc:36 tools/vsinustool.cc:105
+#: tools/vsheartool.cc:213 tools/vsheartool.h:34
+#, fuzzy
+msgid "Shear Tool"
+msgstr "เอน"
+
+#: tools/vsinustool.cc:36
 msgid "Insert Sinus"
 msgstr "ແຊກຄື້ນໄຊ"
 
-#: tools/vsinustool.cc:50
+#: tools/vsinustool.cc:48
 msgid "Periods:"
 msgstr "ຊ່ວງ:"
 
-#: tools/vspiraltool.cc:35 tools/vspiraltool.cc:128
+#: tools/vsinustool.cc:156 tools/vsinustool.h:39
+#, fuzzy
+msgid "Sinus Tool"
+msgstr "&คลื่นไซน์"
+
+#: tools/vspiraltool.cc:35
 msgid "Insert Spiral"
 msgstr "ແຊກກາບກົ້ນຫອຍ"
 
@@ -1187,27 +1414,32 @@ msgstr ""
 msgid "Rectangular"
 msgstr "รูป&สี่เหลี่ยม"
 
-#: tools/vspiraltool.cc:48
+#: tools/vspiraltool.cc:47
 msgid "Segments:"
 msgstr "ເຊັກເມັນ:"
 
-#: tools/vspiraltool.cc:51
+#: tools/vspiraltool.cc:50
 msgid "Fade:"
 msgstr "ຈາງລົງ:"
 
-#: tools/vspiraltool.cc:55
+#: tools/vspiraltool.cc:54
 msgid "Orientation:"
 msgstr "ການຈັດວາງ:"
 
-#: tools/vspiraltool.cc:57
+#: tools/vspiraltool.cc:56
 msgid "Clockwise"
 msgstr "ຕາມເຂັມໂມງ"
 
-#: tools/vspiraltool.cc:58
+#: tools/vspiraltool.cc:57
 msgid "Counter Clockwise"
 msgstr "ທວນເຂັມໂມງ"
 
-#: tools/vstartool.cc:35 tools/vstartool.cc:165
+#: tools/vspiraltool.cc:207 tools/vspiraltool.h:42
+#, fuzzy
+msgid "Spiral Tool"
+msgstr "&ลายก้นหอย"
+
+#: tools/vstartool.cc:35
 msgid "Insert Star"
 msgstr "ແຊກດາວ"
 
@@ -1238,78 +1470,97 @@ msgstr "ເອນ"
 msgid "Outer radius:"
 msgstr "ລັດສະຫມີພພາຍນອກ (%1):"
 
-#: tools/vstartool.cc:55
+#: tools/vstartool.cc:54
 #, fuzzy
 msgid "Inner radius:"
 msgstr "ລັດສະຫມີພາຍໃນ (%1):"
 
-#: tools/vstartool.cc:66
+#: tools/vstartool.cc:64
 #, fuzzy
 msgid "Inner angle:"
 msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
 
-#: tools/vstartool.cc:71
+#: tools/vstartool.cc:69
 #, fuzzy
 msgid "Roundness:"
 msgstr "ความโค้งของมุม:"
 
-#: tools/vtexttool.cc:206 tools/vtexttool.cc:221
+#: tools/vstartool.cc:242 tools/vstartool.h:75
+#, fuzzy
+msgid "Star Tool"
+msgstr "เอน"
+
+#: tools/vstartool.cc:243
+msgid "Draw a star"
+msgstr ""
+
+#: tools/vtexttool.cc:207 tools/vtexttool.cc:222
 msgid "Shadow"
 msgstr "Shadow"
 
 #: plugins/shadoweffect/shadoweffectplugin.cc:69
-#: plugins/whirlpinch/whirlpinchplugin.cc:67 tools/vtexttool.cc:217
+#: plugins/whirlpinch/whirlpinchplugin.cc:67 tools/vtexttool.cc:218
 msgid "Angle:"
 msgstr "ມຸມ:"
 
-#: plugins/shadoweffect/shadoweffectplugin.cc:65 tools/vtexttool.cc:219
+#: plugins/shadoweffect/shadoweffectplugin.cc:65 tools/vtexttool.cc:220
 msgid "Distance:"
 msgstr "Distance:"
 
-#: tools/vtexttool.cc:222
+#: tools/vtexttool.cc:223
 msgid "Draw translucent shadow"
 msgstr "Draw translucent shodow"
 
-#: tools/vtexttool.cc:317 tools/vtexttool.cc:344
+#: tools/vtexttool.cc:318 tools/vtexttool.cc:345
 msgid "Text"
 msgstr "ເລືອກ"
 
-#: tools/vtexttool.cc:340
+#: tools/vtexttool.cc:341
 msgid "Bold"
 msgstr "Bold"
 
-#: tools/vtexttool.cc:357
+#: tools/vtexttool.cc:352
 msgid "Alignment:"
 msgstr "ເຊັກເມັນ:"
 
-#: tools/vtexttool.cc:359
+#: tools/vtexttool.cc:354
 msgid "Position:"
 msgstr "ຕຳແຫນ່ງ"
 
+#: tools/vtexttool.cc:356
+msgid "Offset:"
+msgstr ""
+
 #: tools/vtexttool.cc:361
+#, fuzzy
+msgid "Position"
+msgstr "ຕຳແຫນ່ງ"
+
+#: tools/vtexttool.cc:374
 #, fuzzy
 msgid "Edit Base Path"
 msgstr "Edit base path"
 
-#: tools/vtexttool.cc:362
+#: tools/vtexttool.cc:375
 #, fuzzy
 msgid "Convert to Shapes"
 msgstr "Convert to shapes"
 
-#: tools/vtexttool.cc:366
+#: tools/vtexttool.cc:377
 msgid "Effects"
 msgstr "Effects"
 
-#: tools/vtexttool.cc:584 tools/vtexttool.h:156
+#: tools/vtexttool.cc:619 tools/vtexttool.cc:1152 tools/vtexttool.cc:1153
+#: tools/vtexttool.h:158
 msgid "Text Tool"
 msgstr "ເລືອກ"
 
-#: tools/vtexttool.cc:773
+#: tools/vtexttool.cc:828
 #, fuzzy
 msgid "Change Text"
 msgstr "Change text"
 
-#: tools/vtexttool.cc:837
+#: tools/vtexttool.cc:896
 #, fuzzy
 msgid "Text Conversion"
 msgstr "Text conversion"
@@ -1474,87 +1725,10 @@ msgstr "ແປ"
 msgid "Relative &position"
 msgstr "&ຕຳແຫນ່ງທີ່ສຳພັນ"
 
-#: widgets/vtranslate.cc:62
-msgid "&Duplicate"
-msgstr "&ເຮັດຊຳ້"
-
-#: widgets/vtypebuttonbox.cc:117
+#: widgets/vtypebuttonbox.cc:239
 #, fuzzy
 msgid "Solid"
 msgstr "Bold"
-
-#: tools/vellipsetool.h:71
-#, fuzzy
-msgid "Ellipse Tool"
-msgstr "&วงรี"
-
-#: tools/vgradienttool.h:38
-#, fuzzy
-msgid "Gradient Tool"
-msgstr "ໄຮ້ລະດັບສີ"
-
-#: tools/vpatterntool.h:67
-#, fuzzy
-msgid "Pattern Tool"
-msgstr "ແບນ"
-
-#: tools/vpolygontool.h:38
-#, fuzzy
-msgid "Polygon Tool"
-msgstr "ຈຳນວນລ່ຽມ"
-
-#: tools/vrectangletool.h:40
-#, fuzzy
-msgid "Rectangle Tool"
-msgstr "รูป&สี่เหลี่ยม"
-
-#: tools/vrotatetool.h:35
-#, fuzzy
-msgid "Rotate Tool"
-msgstr "หมุน"
-
-#: tools/vroundrecttool.h:42
-#, fuzzy
-msgid "Round Rectangle Tool"
-msgstr "รูปสี่เหลี่ยม&มุมโค้ง"
-
-#: tools/vselectnodestool.h:33
-#, fuzzy
-msgid "Select Nodes Tool"
-msgstr "คุณ&สมบัติการเลือก"
-
-#: tools/vselecttool.h:53
-#, fuzzy
-msgid "Select Tool"
-msgstr "เลือก"
-
-#: tools/vsheartool.h:33
-#, fuzzy
-msgid "Shear Tool"
-msgstr "เอน"
-
-#: tools/vsinustool.h:39
-#, fuzzy
-msgid "Sinus Tool"
-msgstr "&คลื่นไซน์"
-
-#: tools/vspiraltool.h:42
-#, fuzzy
-msgid "Spiral Tool"
-msgstr "&ลายก้นหอย"
-
-#: tools/vstartool.h:75
-#, fuzzy
-msgid "Star Tool"
-msgstr "เอน"
-
-#: tools/vtool.h:64
-msgid "Unnamed Tool"
-msgstr ""
-
-#: tools/vtool.h:69
-msgid "This tool has no description."
-msgstr ""
 
 #: plugins/flattenpath/flattenpathplugin.cc:40
 #, fuzzy
@@ -1570,25 +1744,30 @@ msgstr "แ&บน"
 msgid "Flatness:"
 msgstr "ความแบน: "
 
-#: plugins/imagetool/imagetoolplugin.cc:51
+#: plugins/imagetool/vimagetool.cc:47
 #, fuzzy
 msgid "<qt><b>Image tool:</b><br>"
 msgstr "<qt><b>Shape tool</b><br>"
 
-#: plugins/imagetool/imagetoolplugin.cc:64
+#: plugins/imagetool/vimagetool.cc:61 plugins/imagetool/vimagetool.cc:126
 #, fuzzy
 msgid "Image Tool"
 msgstr "ເລືອກ"
 
-#: plugins/imagetool/imagetoolplugin.cc:75
+#: plugins/imagetool/vimagetool.cc:72
 #, fuzzy
 msgid "Choose Image to Add"
 msgstr "Choose the pattern to add"
 
-#: plugins/imagetool/imagetoolplugin.cc:79
+#: plugins/imagetool/vimagetool.cc:76
 #, fuzzy
 msgid "Insert Image"
 msgstr "ແຊກຮູບວສີ່ລ່ຽມ"
+
+#: plugins/imagetool/vimagetool.cc:127
+#, fuzzy
+msgid "Image"
+msgstr "ເລືອກ"
 
 #: plugins/insertknots/insertknotsplugin.cc:39
 #, fuzzy
@@ -1630,7 +1809,12 @@ msgstr ""
 msgid "Create Shadow Effect"
 msgstr ""
 
-#: plugins/shadoweffect/shadoweffectplugin.cc:123
+#: plugins/shadoweffect/shadoweffectplugin.cc:78
+#, c-format
+msgid "%"
+msgstr ""
+
+#: plugins/shadoweffect/shadoweffectplugin.cc:124
 #, fuzzy
 msgid "Create Shadow"
 msgstr "Shadow"
@@ -1649,29 +1833,66 @@ msgstr "วน/บิด"
 msgid "Pinch:"
 msgstr "บิด:"
 
-#: plugins/zoomtool/zoomtoolplugin.cc:114
+#: plugins/zoomtool/vzoomtool.cc:50
 #, fuzzy
 msgid "<qt><b>Zoom tool:</b><br>"
 msgstr "<qt><b>Polyline tool:</b><br>"
 
-#: plugins/zoomtool/zoomtoolplugin.cc:115
+#: plugins/zoomtool/vzoomtool.cc:51
 #, fuzzy
 msgid "<i>Click and drag</i> to zoom into a rectangular area.<br>"
 msgstr "<i>Click and drag</i> to choose the gradient vector.<br>"
 
-#: plugins/zoomtool/zoomtoolplugin.cc:116
-msgid ""
-"<i>Zoom using arrow keys</i>"
-"<br>Zoom into/out of canvas using arrow up/down."
+#: plugins/zoomtool/vzoomtool.cc:52
+#, fuzzy
+msgid "<i>Right click</i> to zoom out of canvas.<br>"
+msgstr "<i>Right click</i> on a color point to remove it.</qt>"
+
+#: plugins/zoomtool/vzoomtool.cc:53
+msgid "<i>Pressing +/- keys</i><br>to zoom into/out of canvas."
 msgstr ""
 
-#: plugins/zoomtool/zoomtoolplugin.cc:129
+#: plugins/zoomtool/vzoomtool.cc:67 plugins/zoomtool/vzoomtool.cc:164
 msgid "Zoom Tool"
 msgstr ""
 
+#~ msgid "&Color Manager"
+#~ msgstr "&ຈັດການສີ"
+
+#~ msgid "&Transform"
+#~ msgstr "ແ&ປລງ"
+
+#~ msgid "&Stroke"
+#~ msgstr "&ການລາກ"
+
 #, fuzzy
-#~ msgid "Choose Color"
-#~ msgstr "Choose color"
+#~ msgid "&Style"
+#~ msgstr "ຮູບແບບ:"
+
+#~ msgid "Fill Color"
+#~ msgstr "ສີ:"
+
+#~ msgid "C:"
+#~ msgstr "C:"
+
+#~ msgid "M:"
+#~ msgstr "M:"
+
+#~ msgid "K:"
+#~ msgstr "K:"
+
+#~ msgid "CMYK"
+#~ msgstr "CMYK"
+
+#~ msgid "Overview"
+#~ msgstr "Overview"
+
+#, fuzzy
+#~ msgid "Style Settings"
+#~ msgstr "ຕັ້ງຄ່າເອກກະສານ"
+
+#~ msgid "Insert Round Rectangle"
+#~ msgstr "ແຊກຮູບສີ່່ລ່ຽມມູມມົນ"
 
 #~ msgid "Karbon14"
 #~ msgstr "ຄາບອນ14"
@@ -1706,10 +1927,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Current Layer"
 #~ msgstr "ລຶບວັດຖຸ"
-
-#, fuzzy
-#~ msgid "Position"
-#~ msgstr "ຕຳແຫນ່ງ"
 
 #~ msgid "V:"
 #~ msgstr "V:"
@@ -1798,9 +2015,6 @@ msgstr ""
 #~ msgid "http://www.xs4all.nl/~rwlbuis/karbon/"
 #~ msgstr "http://www.xs4all.nl/~rwlbuis/karbon/"
 
-#~ msgid "Set Join Style"
-#~ msgstr "ຕັ້ງຄ່າຮູບແບບການເຊື່ອມຕໍ່"
-
 #~ msgid "Set Cap Style"
 #~ msgstr "ຕັ້ງຄ່າຮູບແບບຫົວເສັ້ນ"
 
@@ -1869,9 +2083,6 @@ msgstr ""
 
 #~ msgid "Width(%1):"
 #~ msgstr "กว้าง (%1):"
-
-#~ msgid "Height(%1):"
-#~ msgstr "สูง (%1):"
 
 #~ msgid "Insert Gradient"
 #~ msgstr "แทรกการไล่ระดับสี"
