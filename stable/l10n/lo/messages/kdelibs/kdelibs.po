@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-03-04 03:43+0100\n"
+"POT-Creation-Date: 2006-03-05 03:41+0100\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -789,8 +789,8 @@ msgstr "ເນື້ອຫາ"
 msgid "About"
 msgstr "ກ່ຽວກັບ"
 
-#: common_texts.cpp:63 common_texts.cpp:176 kdeui/kaboutapplication.cpp:62
-#: kdeui/kaboutapplication.cpp:86
+#: common_texts.cpp:63 common_texts.cpp:176 kdeui/kaboutapplication.cpp:64
+#: kdeui/kaboutapplication.cpp:88
 msgid "&About"
 msgstr "&ກ່ຽວກັບ"
 
@@ -966,7 +966,7 @@ msgstr "ປ່ຽນ"
 msgid "&Delete"
 msgstr "&ລຶບ"
 
-#: common_texts.cpp:125 kdeui/kfontdialog.cpp:225 kdeui/kfontdialog.cpp:476
+#: common_texts.cpp:125 kdeui/kfontdialog.cpp:225 kdeui/kfontdialog.cpp:477
 msgid "Italic"
 msgstr "ຕົວອຽງ"
 
@@ -5258,11 +5258,12 @@ msgid ""
 "\"Choose...\" button."
 msgstr ""
 
-#: kdeui/kaboutapplication.cpp:61
+#. i18n "??" is displayed as (pseudo-)version when no data is known about the application
+#: kdeui/kaboutapplication.cpp:63
 msgid "??"
 msgstr "??"
 
-#: kdeui/kaboutapplication.cpp:65
+#: kdeui/kaboutapplication.cpp:67
 msgid ""
 "No information available.\n"
 "The supplied KAboutData object does not exist."
@@ -5270,15 +5271,15 @@ msgstr ""
 "ຍັງບໍ່ມີຂໍ້ມູນ\n"
 "ອອບເຈັກຕ໌ທີ່ KAboutData ຕ້ອງການ ຍັງບໍ່ມີ"
 
-#: kdeui/kaboutapplication.cpp:105
+#: kdeui/kaboutapplication.cpp:107
 msgid "A&uthor"
 msgstr "&ຜູ້ຂຽນ"
 
-#: kdeui/kaboutapplication.cpp:105
+#: kdeui/kaboutapplication.cpp:107
 msgid "A&uthors"
 msgstr "&ຜູ້ຂຽນ"
 
-#: kdeui/kaboutapplication.cpp:115
+#: kdeui/kaboutapplication.cpp:117
 #, fuzzy
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
@@ -5287,7 +5288,7 @@ msgstr ""
 "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
-#: kdeui/kaboutapplication.cpp:119 kdeui/kaboutapplication.cpp:122
+#: kdeui/kaboutapplication.cpp:121 kdeui/kaboutapplication.cpp:124
 #, fuzzy
 msgid ""
 "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
@@ -5295,15 +5296,15 @@ msgstr ""
 "ກະລຸນາຢ່າສົ່ງຈົດຫມາຍເຖິງຜູ້ຂຽນໂດຍກົງ ກະລຸນາໄປທີ່http://bugs.kde.org "
 "ເພື່ອລາຍງານຂໍ້ຜິດພາດ\n"
 
-#: kdeui/kaboutapplication.cpp:147
+#: kdeui/kaboutapplication.cpp:149
 msgid "&Thanks To"
 msgstr "&ຂໍຂອບໃຈ"
 
-#: kdeui/kaboutapplication.cpp:174
+#: kdeui/kaboutapplication.cpp:176
 msgid "T&ranslation"
 msgstr "&ການແປພາສາ"
 
-#: kdeui/kaboutapplication.cpp:179
+#: kdeui/kaboutapplication.cpp:181
 msgid "&License Agreement"
 msgstr "&້ຂໍ້ຕົກລົງດ້ານລິຂະສິດ"
 
@@ -5367,9 +5368,9 @@ msgstr "ເຈົ້າສາມາດເລືອກເຄົ້າຂອງຮ
 msgid "Here you can choose the font style to be used."
 msgstr "ເຈົ້າສາມາດເລືອກລັກສະນະຕົວອັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
 
-#: kdeui/kfontdialog.cpp:224 kdeui/kfontdialog.cpp:472
-#: kdeui/kfontdialog.cpp:474 kdeui/kfontdialog.cpp:483
-#: kdeui/kfontdialog.cpp:484
+#: kdeui/kfontdialog.cpp:224 kdeui/kfontdialog.cpp:473
+#: kdeui/kfontdialog.cpp:475 kdeui/kfontdialog.cpp:484
+#: kdeui/kfontdialog.cpp:485
 msgid "Regular"
 msgstr "ຕົວທຳມະດາ"
 
@@ -5404,11 +5405,12 @@ msgstr ""
 msgid "Here you can choose the font size to be used."
 msgstr "ເຈົ້າສາມາດເລືອກຂະຫນາດຕົວອັກສອນທີ່ຈະໃຊ້ໄດ້ທີ່ນີ້"
 
-#: kdeui/kfontdialog.cpp:295
+#. i18n: This is a classical test phrase. (It contains all letters from A to Z.)
+#: kdeui/kfontdialog.cpp:296
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "່Lao language,ພາສາລາວ"
 
-#: kdeui/kfontdialog.cpp:300
+#: kdeui/kfontdialog.cpp:301
 msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
@@ -5416,7 +5418,7 @@ msgstr ""
 "ນີ້ເປັນຂໍ້ຄວາມຕົວຢ່າງທີ່ສະແດງໃຫ້ເຫັນລັກສະນະການຕັ້ງຄ່າໃນປະຈຸບັນເຈົ້າອາດຈະແກ້ໄຂເພື"
 "່ອທົດສອບອັກຄະຣະພິເສດ"
 
-#: kdeui/kfontdialog.cpp:309 kdeui/kfontdialog.cpp:319
+#: kdeui/kfontdialog.cpp:310 kdeui/kfontdialog.cpp:320
 msgid "Actual Font"
 msgstr "ຕົວອັກສອນປົກກະຕິ"
 
