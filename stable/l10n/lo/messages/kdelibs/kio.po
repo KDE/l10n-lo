@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-03-05 03:41+0100\n"
+"POT-Creation-Date: 2006-03-07 03:50+0100\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -119,7 +119,7 @@ msgstr "ແກ້ໄຂເມືອ %1"
 msgid "The source file is '%1'"
 msgstr "ແຟ້ມຕົ້້ນສະບັບຄື \"%1\""
 
-#: kio/kdirlister.cpp:2189 kio/krun.cpp:818 kio/paste.cpp:213
+#: kio/kdirlister.cpp:2189 kio/krun.cpp:823 kio/paste.cpp:213
 #: kio/renamedlg.cpp:431
 #, c-format
 msgid ""
@@ -2441,11 +2441,11 @@ msgstr "ທ່ານຕ້ອງການການກວດສອບສິດກ
 msgid "Launching %1"
 msgstr "ກຳລັງເມາທ %1"
 
-#: kio/krun.cpp:700
+#: kio/krun.cpp:705
 msgid "You are not authorized to execute this service."
 msgstr "ທ່ານຕ້ອງການການກວດສອບສິດການເຂົ້າໃຊ້ໄດເລັກທໍລີໃຫ້ໃຊ້ຮ່ວມກັນ"
 
-#: kio/krun.cpp:854
+#: kio/krun.cpp:859
 #, fuzzy
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -2453,7 +2453,7 @@ msgid ""
 msgstr ""
 "<qt>ບໍ່ສາມາດປະມວນຜົນຄຳສັ່ງກຳນົດ ແຟ້ມຫລືໄດເລັກທໍລີ<b>%1</b>ອາດຈະຍັງບໍ່ມີ</qt>"
 
-#: kio/krun.cpp:1349
+#: kio/krun.cpp:1354
 #, fuzzy
 msgid "Could not find the program '%1'"
 msgstr "ບໍ່ສາມາດຄົ້ນຫາໂປຣແກຣມ \"%1\" ໄດ້"
@@ -5728,11 +5728,11 @@ msgid ""
 "options or to run it as a different user."
 msgstr ""
 
-#: ../kioslave/http/http.cc:5082 kpasswdserver/kpasswdserver.cpp:330
+#: ../kioslave/http/http.cc:5087 kpasswdserver/kpasswdserver.cpp:330
 msgid "  Do you want to retry?"
 msgstr " ທ່ານຕ້ອງການລອງໃຫມ່ຫລືບໍ່ ?"
 
-#: ../kioslave/http/http.cc:5083 kpasswdserver/kpasswdserver.cpp:332
+#: ../kioslave/http/http.cc:5088 kpasswdserver/kpasswdserver.cpp:332
 msgid "Authentication"
 msgstr "ກວດສອບສິດການເຂົ້າໃຊ້ງານ"
 
@@ -5930,12 +5930,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cc:595 ../kioslave/http/http.cc:5094
+#: ../kioslave/ftp/ftp.cc:595 ../kioslave/http/http.cc:5099
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr "ທ່ານຕ້ອງກຣອກຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານກ່ອນ ເພື່ອເຂົ້າໃ່ຊ້ງານໄຊຕ໌ນີ້"
 
-#: ../kioslave/ftp/ftp.cc:597 ../kioslave/http/http.cc:5102
+#: ../kioslave/ftp/ftp.cc:597 ../kioslave/http/http.cc:5107
 msgid "Site:"
 msgstr "ໄຊຕ໌:"
 
@@ -6192,71 +6192,71 @@ msgstr ""
 msgid "No host specified."
 msgstr "ຍັງບໍ່ໄດ້ກຳນົດໂຮສຕ໌!"
 
-#: ../kioslave/http/http.cc:1548
+#: ../kioslave/http/http.cc:1553
 msgid "Otherwise, the request would have succeeded."
 msgstr "ບໍ່ເຊັ່ນນັ້ນ ກໍເຮັດສິ່ງທີ່ຮ້ອງຂໍມາກໍຮງບຮ້ວຍແລ້ວ"
 
-#: ../kioslave/http/http.cc:1552
+#: ../kioslave/http/http.cc:1557
 msgid "retrieve property values"
 msgstr "ຮັບຄ່າຄຸນສົມບັດ"
 
-#: ../kioslave/http/http.cc:1555
+#: ../kioslave/http/http.cc:1560
 msgid "set property values"
 msgstr "ຕັ້ງຄ່າຄ່າຄຸນສົມບັດ"
 
-#: ../kioslave/http/http.cc:1558
+#: ../kioslave/http/http.cc:1563
 #, fuzzy
 msgid "create the requested folder"
 msgstr "ສ້າງໄດເຣກທໍລີທີ່ຮ້ອງຂໍມາ"
 
-#: ../kioslave/http/http.cc:1561
+#: ../kioslave/http/http.cc:1566
 #, fuzzy
 msgid "copy the specified file or folder"
 msgstr "ຄັດລອກແຟ້ມຫລືໄດເຣກທໍລີທີກຳນົດ"
 
-#: ../kioslave/http/http.cc:1564
+#: ../kioslave/http/http.cc:1569
 #, fuzzy
 msgid "move the specified file or folder"
 msgstr "ຍ້າຍແຟ້ມຫລືໄດເຣກທໍລີທີ່ກຳນົດ"
 
-#: ../kioslave/http/http.cc:1567
+#: ../kioslave/http/http.cc:1572
 #, fuzzy
 msgid "search in the specified folder"
 msgstr "ຄົ້ນຫາໃນໄດເຣກທໍລີທີ່ກຳນົດ"
 
-#: ../kioslave/http/http.cc:1570
+#: ../kioslave/http/http.cc:1575
 #, fuzzy
 msgid "lock the specified file or folder"
 msgstr "ລັອກແຟ້ມຫລືໄດເຣກທໍລີທີ່ກຳນົດ"
 
-#: ../kioslave/http/http.cc:1573
+#: ../kioslave/http/http.cc:1578
 #, fuzzy
 msgid "unlock the specified file or folder"
 msgstr "ຍົກເລີກລັອກແຟ້ມຫລືໄດເຣກທໍລີທີ່ກຳນົດ"
 
-#: ../kioslave/http/http.cc:1576
+#: ../kioslave/http/http.cc:1581
 #, fuzzy
 msgid "delete the specified file or folder"
 msgstr "ລຶບແຟ້ມຫລືໄດເຣກທໍລີທີ່ກຳນົດ"
 
-#: ../kioslave/http/http.cc:1579
+#: ../kioslave/http/http.cc:1584
 msgid "query the server's capabilities"
 msgstr "ອ່ານຄ່າຄວາມສາມາດຂອງເຊີບເວີ"
 
-#: ../kioslave/http/http.cc:1582
+#: ../kioslave/http/http.cc:1587
 #, fuzzy
 msgid "retrieve the contents of the specified file or folder"
 msgstr "ຮັບເນື້ອຫາຈາກແຟ້ມຫລືໄດເຣກທໍລີທີ່ກຳນົດ"
 
-#: ../kioslave/http/http.cc:1594 ../kioslave/http/http.cc:1747
+#: ../kioslave/http/http.cc:1599 ../kioslave/http/http.cc:1752
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "ເກີດຄວາມຜິດພາດທີ່ບໍ່ຄາດຂື້ນ (%1) ຂະນະກຳລັງ %2"
 
-#: ../kioslave/http/http.cc:1602
+#: ../kioslave/http/http.cc:1607
 msgid "The server does not support the WebDAV protocol."
 msgstr "ເຊີບເວີບໍ່ສະຫນັບສະຫນຸນໂປຣໂຕຄອນ WebDAV"
 
-#: ../kioslave/http/http.cc:1643
+#: ../kioslave/http/http.cc:1648
 msgid ""
 "An error occurred while attempting to %1, %2. A summary of the reasons is "
 "below."
@@ -6265,17 +6265,17 @@ msgstr ""
 "ເກີດຄວາມຜິດພາດຂື້ນ ຂະນະກຳລັງ %1, %2 ຜົນສະຫລຸບຂອງຄວາມຜິດພາດຢູ່ທາງດ້ານລຸ່ມນີ້"
 "<ul>"
 
-#: ../kioslave/http/http.cc:1655 ../kioslave/http/http.cc:1758
+#: ../kioslave/http/http.cc:1660 ../kioslave/http/http.cc:1763
 #, c-format
 msgid "Access was denied while attempting to %1."
 msgstr "ຖຶກປະຕິເສດການເຂົ້າໃຊ້ງານຂະນະກຳລັງ %1"
 
-#: ../kioslave/http/http.cc:1662
+#: ../kioslave/http/http.cc:1667
 #, fuzzy
 msgid "The specified folder already exists."
 msgstr "ແຟ້ມຫລືໄດເຣກທໍລີທີ່ກຳນົດຢູ່ແລ້ວ"
 
-#: ../kioslave/http/http.cc:1668 ../kioslave/http/http.cc:1763
+#: ../kioslave/http/http.cc:1673 ../kioslave/http/http.cc:1768
 #, fuzzy
 msgid ""
 "A resource cannot be created at the destination until one or more intermediate "
@@ -6284,7 +6284,7 @@ msgstr ""
 "ຈະບໍ່ສາມາດສ້າງຊັບພະຍາກອນປາຍທາງໄດ້ ຈົນກວ່າ "
 "ຈະມີການສ້າງໄດເຣກທໍລີສຳຫລັບຮັບເກັບເສຍກ່ອນ"
 
-#: ../kioslave/http/http.cc:1677
+#: ../kioslave/http/http.cc:1682
 #, c-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in the "
@@ -6295,24 +6295,24 @@ msgstr ""
 "ຂອງ XML ໄດ້ ຫລືທ່ານກຳລັງຈະເຮັດການຂງນທັບແຟ້ມ ຂະນະທີ່ແຟ້ມທີ່ຮ້ອງຂໍນັ້ນ "
 "ບໍ່ສາມາດຂງນທັບໄດ້ %1"
 
-#: ../kioslave/http/http.cc:1687
+#: ../kioslave/http/http.cc:1692
 #, c-format
 msgid "The requested lock could not be granted. %1"
 msgstr "ຄວາມຕ້ອງການລັອກ ບໍ່ໄດ້ຮັບການອະນຸຍາດ %1"
 
-#: ../kioslave/http/http.cc:1693
+#: ../kioslave/http/http.cc:1698
 msgid "The server does not support the request type of the body."
 msgstr "ເຊີບເວີບໍ່ສະຫນັບສະຫນຸນປະເພດຕົວຂໍ້ຄວາມທີ່ຮ້ອງຂໍມາ"
 
-#: ../kioslave/http/http.cc:1698 ../kioslave/http/http.cc:1770
+#: ../kioslave/http/http.cc:1703 ../kioslave/http/http.cc:1775
 msgid "Unable to %1 because the resource is locked."
 msgstr "ບໍ່ສາມາດເຮັດ %1ເນື່ອງຈາກຊັບພະຍາກອນຖືກລັອກໄວ້"
 
-#: ../kioslave/http/http.cc:1702
+#: ../kioslave/http/http.cc:1707
 msgid "This action was prevented by another error."
 msgstr "ການກະທຳນີ້ ຖືກປົກປ້ອງຈາກຄວາມຜິດພາດອື່ນ"
 
-#: ../kioslave/http/http.cc:1709 ../kioslave/http/http.cc:1775
+#: ../kioslave/http/http.cc:1714 ../kioslave/http/http.cc:1780
 #, fuzzy
 msgid ""
 "Unable to %1 because the destination server refuses to accept the file or "
@@ -6320,7 +6320,7 @@ msgid ""
 msgstr ""
 "ບໍ່ສາມາດເຮັດ %1 ເນື່ອງຈາກເຊີບເວີປາຍທາງ ປະຕິເສດທີ່ຈະຍອມຮັບແຟ້ມຫລືໄດເຣກທໍລີ"
 
-#: ../kioslave/http/http.cc:1716 ../kioslave/http/http.cc:1781
+#: ../kioslave/http/http.cc:1721 ../kioslave/http/http.cc:1786
 msgid ""
 "The destination resource does not have sufficient space to record the state of "
 "the resource after the execution of this method."
@@ -6328,67 +6328,67 @@ msgstr ""
 "ຊັບພະຍາກອນປາຍທາງມີພື້ນທີ່ບໍ່ພງງພໍສຳຫລັບບັນທືກສະຖານະຂອງຊັບພະຍາກອນ "
 "ຫລັງຈາກທີ່ມີການປະມວນຜົນຂອງວິທີການນີ້ແລ້ວ"
 
-#: ../kioslave/http/http.cc:1738
+#: ../kioslave/http/http.cc:1743
 #, fuzzy, c-format
 msgid "upload %1"
 msgstr "ກຳ່ລັງອັບໂຫລດ%1"
 
-#: ../kioslave/http/http.cc:2057
+#: ../kioslave/http/http.cc:2062
 msgid "Connecting to %1..."
 msgstr "ກຳລັງເຊື່ອມຕໍ່ໄປຍັງ %1..."
 
-#: ../kioslave/http/http.cc:2075 ../kioslave/http/http.cc:2079
+#: ../kioslave/http/http.cc:2080 ../kioslave/http/http.cc:2084
 msgid "Proxy %1 at port %2"
 msgstr "ພຣອກຊີ %1 ທີ່ພອດ %2"
 
-#: ../kioslave/http/http.cc:2105
+#: ../kioslave/http/http.cc:2110
 msgid "Connection was to %1 at port %2"
 msgstr "ມີການເຊື່ອມຕໍ່ກັບໂຮສຕ໌ %1 ທີ່ພອດ %2"
 
-#: ../kioslave/http/http.cc:2111
+#: ../kioslave/http/http.cc:2116
 msgid "%1 (port %2)"
 msgstr "%1 (ພອດ %2)"
 
-#: ../kioslave/http/http.cc:2635
+#: ../kioslave/http/http.cc:2640
 msgid "%1 contacted. Waiting for reply..."
 msgstr "ຕິດຕໍ່ <b>%1</b> ແລ້ວ ຄອຍການຕອບຮັບ..."
 
-#: ../kioslave/http/http.cc:3001
+#: ../kioslave/http/http.cc:3006
 msgid "Server processing request, please wait..."
 msgstr "ມີການຮ້ອງຂໍປະມວນຜົນທາງຝັງເຊີບເວີ ກະລຸນາຖ້າບຶດຫນຶ່ງ..."
 
-#: ../kioslave/http/http.cc:3846
+#: ../kioslave/http/http.cc:3851
 msgid "Requesting data to send"
 msgstr "ມີການຮ້ອງຂໍສົ່ງຂໍ້ມູນ"
 
-#: ../kioslave/http/http.cc:3887
+#: ../kioslave/http/http.cc:3892
 #, c-format
 msgid "Sending data to %1"
 msgstr "ກຳລັງສົ່ງຂໍ້ມູນໄປຍັງ %1"
 
-#: ../kioslave/http/http.cc:4296
+#: ../kioslave/http/http.cc:4301
 msgid "Retrieving %1 from %2..."
 msgstr "ກຳລັງຮັບຂໍ້ມູນ %1 ຈາກ %2..."
 
-#: ../kioslave/http/http.cc:4305
+#: ../kioslave/http/http.cc:4310
 msgid "Retrieving from %1..."
 msgstr "ກຳລັງຮັບຂໍ້ມູນຈາກ %1..."
 
-#: ../kioslave/http/http.cc:5074 ../kioslave/http/http.cc:5222
+#: ../kioslave/http/http.cc:5079 ../kioslave/http/http.cc:5227
 #, fuzzy
 msgid "Authentication Failed."
 msgstr "ການກວດສອບສິດການເຂົ້າໃຊ້ງານລົ້ມເຫລວ !"
 
-#: ../kioslave/http/http.cc:5077 ../kioslave/http/http.cc:5225
+#: ../kioslave/http/http.cc:5082 ../kioslave/http/http.cc:5230
 #, fuzzy
 msgid "Proxy Authentication Failed."
 msgstr "ການກວດສອບສິດການເຂົ້າໃຊ້ງານພຣອກຊີລົ້ມເຫລວ !"
 
-#: ../kioslave/http/http.cc:5103 ../kioslave/http/http.cc:5120
+#: ../kioslave/http/http.cc:5108 ../kioslave/http/http.cc:5125
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> ທີ່ <b>%2</b>"
 
-#: ../kioslave/http/http.cc:5110
+#: ../kioslave/http/http.cc:5115
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed below "
@@ -6397,15 +6397,15 @@ msgstr ""
 "ທີ່ຕ້ອງຕື່ມທັງຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານ ສຳຫລັບພຣອກຊີເຊີບເວີດ້ານລຸ່ມນີ້ "
 "ກ່ອນທີ່່ທ່ານຈະສາມາດເຂົ້າໃຊ້ງານໄຊຕ໌ອື່ນໆ ໄດ້"
 
-#: ../kioslave/http/http.cc:5119
+#: ../kioslave/http/http.cc:5124
 msgid "Proxy:"
 msgstr "ພຣອກຊີ:"
 
-#: ../kioslave/http/http.cc:5141
+#: ../kioslave/http/http.cc:5146
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "ກວດສອບສິດລົ້ມເຫລວ ບໍ່ສະຫນັບສະຫນຸນການກວດສອບ %1"
 
-#: ../kioslave/http/http.cc:5763
+#: ../kioslave/http/http.cc:5768
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
