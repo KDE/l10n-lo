@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-03-09 04:06+0100\n"
+"POT-Creation-Date: 2006-03-15 04:04+0100\n"
 "PO-Revision-Date: 2003-01-17 18:12+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -458,7 +458,8 @@ msgstr "ສີເສັ້ນການລາກ"
 msgid "Dash Pattern"
 msgstr "ແບນ"
 
-#: commands/vtextcmd.cc:30 tools/vtexttool.cc:849
+#: commands/vtextcmd.cc:30 tools/vtexttool.cc:698 tools/vtexttool.cc:760
+#: tools/vtexttool.cc:849
 msgid "Insert Text"
 msgstr "ແຊກຂໍ້ຄວາມ"
 
@@ -1550,12 +1551,52 @@ msgstr "Convert to shapes"
 msgid "Effects"
 msgstr "Effects"
 
+#: tools/vtexttool.cc:385
+#, fuzzy
+msgid "New text"
+msgstr "ເລືອກ"
+
+#: tools/vtexttool.cc:395
+msgid "Above"
+msgstr ""
+
+#: tools/vtexttool.cc:397
+msgid "Under"
+msgstr ""
+
+#: tools/vtexttool.cc:606
+#, fuzzy
+msgid "<qt><b>Text Tool</b><br>"
+msgstr "<qt><b>Shape tool</b><br>"
+
+#: tools/vtexttool.cc:607
+#, fuzzy
+msgid "<i>Click</i> on document to place horizontal text.<br>"
+msgstr "<i>Click and drag</i> to place your own shape.<br>"
+
+#: tools/vtexttool.cc:608
+#, fuzzy
+msgid "<i>Click and drag</i> in document to place directional text.<br>"
+msgstr "<i>Click and drag</i> to choose the gradient vector.<br>"
+
+#: tools/vtexttool.cc:609
+#, fuzzy
+msgid ""
+"<i>Click</i> on a selected path object to place text along its outline."
+"<br>"
+msgstr "<i>Click</i> on the pattern you want in the chooser.<br>"
+
+#: tools/vtexttool.cc:610
+#, fuzzy
+msgid "<i>Click</i> on a selected text object to change it.<br></qt>"
+msgstr "<i>Right click</i> on a color point to remove it.</qt>"
+
 #: tools/vtexttool.cc:619 tools/vtexttool.cc:1152 tools/vtexttool.cc:1153
 #: tools/vtexttool.h:158
 msgid "Text Tool"
 msgstr "ເລືອກ"
 
-#: tools/vtexttool.cc:828
+#: tools/vtexttool.cc:696 tools/vtexttool.cc:828
 #, fuzzy
 msgid "Change Text"
 msgstr "Change text"
