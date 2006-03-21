@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-03-16 03:49+0100\n"
+"POT-Creation-Date: 2006-03-21 03:51+0100\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -5728,11 +5728,11 @@ msgid ""
 "options or to run it as a different user."
 msgstr ""
 
-#: ../kioslave/http/http.cc:5094 kpasswdserver/kpasswdserver.cpp:330
+#: ../kioslave/http/http.cc:5100 kpasswdserver/kpasswdserver.cpp:330
 msgid "  Do you want to retry?"
 msgstr " ທ່ານຕ້ອງການລອງໃຫມ່ຫລືບໍ່ ?"
 
-#: ../kioslave/http/http.cc:5095 kpasswdserver/kpasswdserver.cpp:332
+#: ../kioslave/http/http.cc:5101 kpasswdserver/kpasswdserver.cpp:332
 msgid "Authentication"
 msgstr "ກວດສອບສິດການເຂົ້າໃຊ້ງານ"
 
@@ -5930,12 +5930,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cc:595 ../kioslave/http/http.cc:5106
+#: ../kioslave/ftp/ftp.cc:595 ../kioslave/http/http.cc:5112
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr "ທ່ານຕ້ອງກຣອກຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານກ່ອນ ເພື່ອເຂົ້າໃ່ຊ້ງານໄຊຕ໌ນີ້"
 
-#: ../kioslave/ftp/ftp.cc:597 ../kioslave/http/http.cc:5114
+#: ../kioslave/ftp/ftp.cc:597 ../kioslave/http/http.cc:5120
 msgid "Site:"
 msgstr "ໄຊຕ໌:"
 
@@ -6353,42 +6353,42 @@ msgstr "%1 (ພອດ %2)"
 msgid "%1 contacted. Waiting for reply..."
 msgstr "ຕິດຕໍ່ <b>%1</b> ແລ້ວ ຄອຍການຕອບຮັບ..."
 
-#: ../kioslave/http/http.cc:3007
+#: ../kioslave/http/http.cc:3008
 msgid "Server processing request, please wait..."
 msgstr "ມີການຮ້ອງຂໍປະມວນຜົນທາງຝັງເຊີບເວີ ກະລຸນາຖ້າບຶດຫນຶ່ງ..."
 
-#: ../kioslave/http/http.cc:3858
+#: ../kioslave/http/http.cc:3864
 msgid "Requesting data to send"
 msgstr "ມີການຮ້ອງຂໍສົ່ງຂໍ້ມູນ"
 
-#: ../kioslave/http/http.cc:3899
+#: ../kioslave/http/http.cc:3905
 #, c-format
 msgid "Sending data to %1"
 msgstr "ກຳລັງສົ່ງຂໍ້ມູນໄປຍັງ %1"
 
-#: ../kioslave/http/http.cc:4308
+#: ../kioslave/http/http.cc:4314
 msgid "Retrieving %1 from %2..."
 msgstr "ກຳລັງຮັບຂໍ້ມູນ %1 ຈາກ %2..."
 
-#: ../kioslave/http/http.cc:4317
+#: ../kioslave/http/http.cc:4323
 msgid "Retrieving from %1..."
 msgstr "ກຳລັງຮັບຂໍ້ມູນຈາກ %1..."
 
-#: ../kioslave/http/http.cc:5086 ../kioslave/http/http.cc:5234
+#: ../kioslave/http/http.cc:5092 ../kioslave/http/http.cc:5240
 #, fuzzy
 msgid "Authentication Failed."
 msgstr "ການກວດສອບສິດການເຂົ້າໃຊ້ງານລົ້ມເຫລວ !"
 
-#: ../kioslave/http/http.cc:5089 ../kioslave/http/http.cc:5237
+#: ../kioslave/http/http.cc:5095 ../kioslave/http/http.cc:5243
 #, fuzzy
 msgid "Proxy Authentication Failed."
 msgstr "ການກວດສອບສິດການເຂົ້າໃຊ້ງານພຣອກຊີລົ້ມເຫລວ !"
 
-#: ../kioslave/http/http.cc:5115 ../kioslave/http/http.cc:5132
+#: ../kioslave/http/http.cc:5121 ../kioslave/http/http.cc:5138
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> ທີ່ <b>%2</b>"
 
-#: ../kioslave/http/http.cc:5122
+#: ../kioslave/http/http.cc:5128
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed below "
@@ -6397,15 +6397,15 @@ msgstr ""
 "ທີ່ຕ້ອງຕື່ມທັງຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານ ສຳຫລັບພຣອກຊີເຊີບເວີດ້ານລຸ່ມນີ້ "
 "ກ່ອນທີ່່ທ່ານຈະສາມາດເຂົ້າໃຊ້ງານໄຊຕ໌ອື່ນໆ ໄດ້"
 
-#: ../kioslave/http/http.cc:5131
+#: ../kioslave/http/http.cc:5137
 msgid "Proxy:"
 msgstr "ພຣອກຊີ:"
 
-#: ../kioslave/http/http.cc:5153
+#: ../kioslave/http/http.cc:5159
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "ກວດສອບສິດລົ້ມເຫລວ ບໍ່ສະຫນັບສະຫນຸນການກວດສອບ %1"
 
-#: ../kioslave/http/http.cc:5775
+#: ../kioslave/http/http.cc:5781
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
