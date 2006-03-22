@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2006-03-03 04:01+0100\n"
+"POT-Creation-Date: 2006-03-22 04:07+0100\n"
 "PO-Revision-Date: 2004-10-04 01:54+0900\n"
 "Last-Translator: Park J. K. <segfault@byus.net>\n"
 "Language-Team:  Korean\n"
@@ -1636,20 +1636,25 @@ msgstr "트랙 %n개"
 msgid "Generating audio fingerprint..."
 msgstr "곡 데이터로부터 메타데이터를 인식합니다. \"trm\" 유틸리티가 필요합니다."
 
-#: tagdialog.cpp:190
+#: tagdialog.cpp:185
+msgid ""
+"Tunepimp (MusicBrainz tagging library) returned the following error: \"%1\"."
+msgstr ""
+
+#: tagdialog.cpp:194
 msgid "The track was not found in the MusicBrainz database."
 msgstr "트랙 정보를 MusicBrainz 데이터베이스에서 찾을 수 없습니다."
 
-#: tagdialog.cpp:305
+#: tagdialog.cpp:310
 msgid "Please install MusicBrainz to enable this functionality"
 msgstr "이 기능을 사용하기 위해서 MusicBrainz를 설치하십시오"
 
-#: playlist.cpp:3960 tagdialog.cpp:538 tagdialog.cpp:603
+#: playlist.cpp:3960 tagdialog.cpp:543 tagdialog.cpp:608
 #, fuzzy
 msgid "Sorry, the tag for %1 could not be changed."
 msgstr "이 태그를 고칠 수 없습니다."
 
-#: tagdialog.cpp:622
+#: tagdialog.cpp:627
 #, fuzzy
 msgid "TagLib claims %1 file is not writable."
 msgstr "TagLib에서 이 파일을 기록할 수 없습니다."
@@ -1933,59 +1938,59 @@ msgstr "출력에 실패했습니다, 설치를 확인하십시오."
 msgid "Internal error; check your installation."
 msgstr "내부 오류; 설치를 확인 하십시오."
 
-#: engine/xine/xine-engine.cpp:580
+#: engine/xine/xine-engine.cpp:593
 msgid "Redirecting to: "
 msgstr ""
 
-#: engine/xine/xine-engine.cpp:701
+#: engine/xine/xine-engine.cpp:714
 msgid "The host is unknown for the URL: <i>%1</i>"
 msgstr "이 URL의 호스트에 접속할 수 없습니다: <i>%1</i>"
 
-#: engine/xine/xine-engine.cpp:703
+#: engine/xine/xine-engine.cpp:716
 msgid "The device name you specified seems invalid."
 msgstr "입력한 장치명이 올바르지 않은 것 같습니다."
 
-#: engine/xine/xine-engine.cpp:705
+#: engine/xine/xine-engine.cpp:718
 msgid "The network appears unreachable."
 msgstr "네트워크에 접근할 수 없습니다."
 
-#: engine/xine/xine-engine.cpp:707
+#: engine/xine/xine-engine.cpp:720
 msgid "Audio output unavailable; the device is busy."
 msgstr "오디오 출력이 불가능합니다; 장치가 사용중입니다."
 
-#: engine/xine/xine-engine.cpp:709
+#: engine/xine/xine-engine.cpp:722
 msgid "The connection was refused for the URL: <i>%1</i>"
 msgstr "이 URL로의 접속이 거부당했습니다: <i>%1</i>"
 
-#: engine/xine/xine-engine.cpp:711
+#: engine/xine/xine-engine.cpp:724
 msgid "xine could not find the URL: <i>%1</i>"
 msgstr "xine가 URL을 찾을 수 없습니다: <i>%1</i>"
 
-#: engine/xine/xine-engine.cpp:713
+#: engine/xine/xine-engine.cpp:726
 msgid "Access was denied for the URL: <i>%1</i>"
 msgstr "이 URL의 접근이 금지되었습니다: <i>%1</i>"
 
-#: engine/xine/xine-engine.cpp:715
+#: engine/xine/xine-engine.cpp:728
 msgid "The source cannot be read for the URL: <i>%1</i>"
 msgstr "이 URL의 소스를 읽을 수 없습니다: <i>%1</i>"
 
-#: engine/xine/xine-engine.cpp:717
+#: engine/xine/xine-engine.cpp:730
 msgid "A problem occurred while loading a library or decoder."
 msgstr "라이브러리 또는 디코더를 여는 중에 문제가 발생했습니다."
 
-#: engine/xine/xine-engine.cpp:720
+#: engine/xine/xine-engine.cpp:733
 msgid "General Warning"
 msgstr "일반적 오류"
 
-#: engine/xine/xine-engine.cpp:722
+#: engine/xine/xine-engine.cpp:735
 msgid "Security Warning"
 msgstr "보안상 오류"
 
-#: engine/xine/xine-engine.cpp:724
+#: engine/xine/xine-engine.cpp:737
 msgid "Unknown Error"
 msgstr "알려지지 않은 오류"
 
-#: engine/xine/xine-engine.cpp:770
+#: engine/xine/xine-engine.cpp:783
 msgid "Sorry, no additional information is available."
 msgstr "죄송합니다, 더 이상의 정보는 존재하지 않습니다."
 

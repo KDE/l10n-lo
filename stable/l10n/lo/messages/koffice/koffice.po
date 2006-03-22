@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-03-21 04:04+0100\n"
+"POT-Creation-Date: 2006-03-22 04:08+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -36,6 +36,71 @@ msgstr "ສະແດງແຖບເຄື່ອງມື %1"
 #, fuzzy, c-format
 msgid "Hide %1"
 msgstr "ສະແດງແຖບເຄື່ອງມື %1"
+
+#: kross/api/variant.cpp:88
+#, c-format
+msgid "Kross::Api::Variant::String expected, but got %1."
+msgstr ""
+
+#: kross/api/variant.cpp:96
+#, c-format
+msgid "Kross::Api::Variant::Int expected, but got %1."
+msgstr ""
+
+#: kross/api/variant.cpp:104
+#, c-format
+msgid "Kross::Api::Variant::UInt expected, but got %1."
+msgstr ""
+
+#: kross/api/variant.cpp:112
+#, c-format
+msgid "Kross::Api::Variant::Double expected, but got %1."
+msgstr ""
+
+#: kross/api/variant.cpp:120
+#, c-format
+msgid "Kross::Api::Variant::LLONG expected, but got %1."
+msgstr ""
+
+#: kross/api/variant.cpp:128
+#, c-format
+msgid "Kross::Api::Variant::ULLONG expected, but got %1."
+msgstr ""
+
+#: kross/api/variant.cpp:136
+#, c-format
+msgid "Kross::Api::Variant::Bool expected, but got %1."
+msgstr ""
+
+#: kross/api/variant.cpp:151
+msgid "Kross::Api::Variant::List expected, but got '%1'."
+msgstr ""
+
+#: kross/main/manager.cpp:181
+msgid "No such interpreter '%1'"
+msgstr ""
+
+#: kross/main/scriptcontainer.cpp:205
+msgid "No functionname defined for ScriptContainer::callFunction()."
+msgstr ""
+
+#: kross/main/scriptcontainer.cpp:252
+msgid "Failed to determinate interpreter for scriptfile '%1'"
+msgstr ""
+
+#: kross/main/scriptcontainer.cpp:259
+#, fuzzy
+msgid "Failed to open scriptfile '%1'"
+msgstr "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້"
+
+#: kross/main/scriptcontainer.cpp:268
+msgid "Unknown interpreter '%1'"
+msgstr ""
+
+#: kross/main/scriptcontainer.cpp:274
+#, fuzzy
+msgid "Failed to create script for interpreter '%1'"
+msgstr "ຕົວແປພາສາສະຄຣິບຂອງ KOffice"
 
 #: kross/main/scriptguiclient.cpp:80
 msgid "Execute Script File..."
@@ -3311,7 +3376,7 @@ msgstr "ຕຳແໜ່ງ"
 msgid "The file %1 does not exist."
 msgstr "ຍັງບໍ່ມີແຟ້ມ %1"
 
-#: kofficecore/KoMainWindow.cpp:1100 kofficeui/KoTemplateChooseDia.cpp:187
+#: kofficecore/KoMainWindow.cpp:1103 kofficeui/KoTemplateChooseDia.cpp:187
 msgid "Open Document"
 msgstr "ເປີດເອກະສານ"
 
@@ -4859,7 +4924,7 @@ msgstr "ບໍ່ແມ່ນແຟ້ມຂອງ KOffice ທີ່ຖືກຕ
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງ: ບໍ່ມີແຟ້ມ 'maindoc.xml'"
 
-#: kofficecore/KoDocument.cpp:1971 kofficecore/KoMainWindow.cpp:1029
+#: kofficecore/KoDocument.cpp:1971 kofficecore/KoMainWindow.cpp:1032
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p>"
 "<p>Do you want to save it?</p>"
@@ -4972,41 +5037,41 @@ msgstr "ແນວນອນ"
 msgid "Save as %1"
 msgstr ""
 
-#: kofficecore/KoMainWindow.cpp:674
+#: kofficecore/KoMainWindow.cpp:677
 #, fuzzy
 msgid "%1 (unknown file type)"
 msgstr "ບໍ່ຮູ້ຈັກແຟ້ມປະເພດ %1"
 
-#: kofficecore/KoMainWindow.cpp:684
+#: kofficecore/KoMainWindow.cpp:687
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting."
 "<p>Do you still want to save in this format?</qt>"
 msgstr ""
 
-#: kofficecore/KoMainWindow.cpp:687
+#: kofficecore/KoMainWindow.cpp:690
 msgid "Confirm Save"
 msgstr ""
 
-#: kofficecore/KoMainWindow.cpp:698
+#: kofficecore/KoMainWindow.cpp:701
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting."
 "<p>Do you still want to export to this format?</qt>"
 msgstr ""
 
-#: kofficecore/KoMainWindow.cpp:701
+#: kofficecore/KoMainWindow.cpp:704
 msgid "Confirm Export"
 msgstr ""
 
-#: kofficecore/KoMainWindow.cpp:790
+#: kofficecore/KoMainWindow.cpp:793
 msgid "Save Document As"
 msgstr "ບັນທຶກເອກະສານເປັນ"
 
-#: kofficecore/KoMainWindow.cpp:792
+#: kofficecore/KoMainWindow.cpp:795
 #, fuzzy
 msgid "Export Document As"
 msgstr "ເປີດເອກະສານ"
 
-#: kofficecore/KoMainWindow.cpp:839
+#: kofficecore/KoMainWindow.cpp:842
 msgid ""
 "A document with this name already exists.\n"
 "Do you want to overwrite it?"
@@ -5014,31 +5079,31 @@ msgstr ""
 "ມີເອກະສານຊື່ນີ້ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການຂຽນທັບມັນຫລືບໍ່ ?"
 
-#: kofficecore/KoMainWindow.cpp:1102
+#: kofficecore/KoMainWindow.cpp:1105
 #, fuzzy
 msgid "Import Document"
 msgstr "ເປີດເອກະສານ"
 
-#: kofficecore/KoMainWindow.cpp:1514
+#: kofficecore/KoMainWindow.cpp:1517
 msgid "Show %1 Toolbar"
 msgstr "ສະແດງແຖບເຄື່ອງມື %1"
 
-#: kofficecore/KoMainWindow.cpp:1516
+#: kofficecore/KoMainWindow.cpp:1519
 #, fuzzy
 msgid "Hide %1 Toolbar"
 msgstr "ສະແດງແຖບເຄື່ອງມື %1"
 
-#: kofficecore/KoMainWindow.cpp:1593
+#: kofficecore/KoMainWindow.cpp:1596
 #, fuzzy
 msgid "Document"
 msgstr "ເປີດເອກະສານ"
 
-#: kofficecore/KoMainWindow.cpp:1603
+#: kofficecore/KoMainWindow.cpp:1606
 #, fuzzy, c-format
 msgid "Document - %1"
 msgstr "ຫົວເລື່ອງເອກະສານ"
 
-#: kofficecore/KoMainWindow.cpp:1632
+#: kofficecore/KoMainWindow.cpp:1635
 #, fuzzy
 msgid ""
 "You will lose all your changes!\n"
@@ -5691,9 +5756,6 @@ msgstr ""
 #~ msgid "Could not find module %1"
 #~ msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
 
-#~ msgid "Could not open file %1"
-#~ msgstr "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້"
-
 #~ msgid "The interpreter does not support an extended syntax you are using."
 #~ msgstr "ອິນເຕີພຣີເຕີ ບໍ່ສະຫນັບສະຫນຸນໄວຍາກອນພາສາເພີ້ມເຕີມທີ່ທ່ານກຳລັງໃຊ້"
 
@@ -5852,9 +5914,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "KoScript"
 #~ msgstr "ຕົວຫ້ອຍ"
-
-#~ msgid "KOffice script interpreter."
-#~ msgstr "ຕົວແປພາສາສະຄຣິບຂອງ KOffice"
 
 #~ msgid "You must specify a script.\n"
 #~ msgstr "ທ່ານຕ້ອງລະບຸສະຄຣິບກ່ອນ\n"
