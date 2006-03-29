@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-03-28 04:11+0200\n"
+"POT-Creation-Date: 2006-03-29 04:03+0200\n"
 "PO-Revision-Date: 2003-01-23 20:01+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -51,7 +51,7 @@ msgid "&Column"
 msgstr "ຄໍລຳ້&໌"
 
 #. i18n: file kspread.rc line 99
-#: kspread_view.cc:814 rc.cpp:36
+#: kspread_view.cc:813 rc.cpp:36
 #, no-c-format
 msgid "&Sheet"
 msgstr "ແ&ຜນງານ"
@@ -75,7 +75,7 @@ msgid "Navigation"
 msgstr ""
 
 #. i18n: file kspread.rc line 193
-#: dialogs/kspread_dlg_csv.cc:133 dialogs/kspread_dlg_layout.cc:1087
+#: dialogs/kspread_dlg_csv.cc:133 dialogs/kspread_dlg_layout.cc:1086
 #: dialogs/kspread_dlg_special.cc:53 rc.cpp:57
 #, no-c-format
 msgid "Format"
@@ -96,25 +96,25 @@ msgstr "ຮູບແບບແຜນງານ "
 #. i18n: file dialogs/SheetSelectWidget.ui line 41
 #: rc.cpp:73
 #, fuzzy, no-c-format
-msgid "Select all sheets"
+msgid "Select all sheets."
 msgstr "ເລືອກຕາຕະລາງ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 55
 #: rc.cpp:77
 #, fuzzy, no-c-format
-msgid "Select sheets"
+msgid "Select sheets."
 msgstr "ລາຍການການເລືອກ..."
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 69
 #: rc.cpp:81
 #, fuzzy, no-c-format
-msgid "Clear Selection"
+msgid "Clear Selection."
 msgstr "ການເລືອກສູດ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 83
 #: rc.cpp:85
 #, fuzzy, no-c-format
-msgid "Remove sheets"
+msgid "Remove sheets."
 msgstr "ລືບແຜ່ນງານ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 89
@@ -126,7 +126,7 @@ msgstr "ເຊື່ອງແຜ່ນງານ"
 #. i18n: file dialogs/SheetSelectWidget.ui line 114
 #: rc.cpp:91
 #, fuzzy, no-c-format
-msgid "Available sheets"
+msgid "Available sheets."
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 119
@@ -146,25 +146,25 @@ msgstr ""
 #. i18n: file dialogs/SheetSelectWidget.ui line 133
 #: rc.cpp:100
 #, fuzzy, no-c-format
-msgid "Move selected sheet to the top"
+msgid "Move selected sheet to the top."
 msgstr "ຍ້າຍວັດຖຸເຊລໄປຍັງຄິບບອດ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 147
 #: rc.cpp:104
 #, fuzzy, no-c-format
-msgid "Move selected sheet up"
+msgid "Move selected sheet up."
 msgstr "ໄປຍັງແຜ່ນງານຖັດໄປ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 161
 #: rc.cpp:108
 #, fuzzy, no-c-format
-msgid "Move selected sheet down"
+msgid "Move selected sheet down."
 msgstr "ໄປຍັງແຜ່ນງານຖັດໄປ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 175
 #: rc.cpp:112
 #, fuzzy, no-c-format
-msgid "Move selected sheet to the bottom"
+msgid "Move selected sheet to the bottom."
 msgstr "ຍ້າຍວັດຖຸເຊລໄປຍັງຄິບບອດ"
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 181
@@ -176,7 +176,7 @@ msgstr "ຄຳນວນແຜ່ນງານໃຫມ່"
 #. i18n: file dialogs/SheetSelectWidget.ui line 209
 #: rc.cpp:118
 #, no-c-format
-msgid "List of sheets to print in given order"
+msgid "List of sheets to print in given order."
 msgstr ""
 
 #. i18n: file dialogs/SheetSelectWidget.ui line 214
@@ -221,13 +221,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file dialogs/font_cell_format.ui line 65
-#: dialogs/kspread_dlg_layout.cc:2130 rc.cpp:145
+#: dialogs/kspread_dlg_layout.cc:2129 rc.cpp:145
 #, no-c-format
 msgid "Normal"
 msgstr "ເຊລປັກະຕິ"
 
 #. i18n: file dialogs/font_cell_format.ui line 70
-#: dialogs/kspread_dlg_layout.cc:2132 kspread_view.cc:478 rc.cpp:148
+#: dialogs/kspread_dlg_layout.cc:2131 kspread_view.cc:477 rc.cpp:148
 #, no-c-format
 msgid "Bold"
 msgstr "ຕັວໜາ"
@@ -244,16 +244,16 @@ msgid ""
 msgstr ""
 
 #. i18n: file dialogs/font_cell_format.ui line 88
-#: dialogs/kspread_dlg_layout.cc:2767 dialogs/kspread_dlg_layout.cc:3630
+#: dialogs/kspread_dlg_layout.cc:2765 dialogs/kspread_dlg_layout.cc:3627
 #: rc.cpp:154
 #, no-c-format
 msgid "Color:"
 msgstr "ສີ:"
 
 #. i18n: file dialogs/font_cell_format.ui line 96
-#: rc.cpp:157
-#, fuzzy, no-c-format
-msgid "Qt::TextUnderline"
+#: kspread_view.cc:487 rc.cpp:157
+#, no-c-format
+msgid "Underline"
 msgstr "ຂີດເສັ້ນໄຕ້"
 
 #. i18n: file dialogs/font_cell_format.ui line 99
@@ -310,8 +310,8 @@ msgid ""
 msgstr ""
 
 #. i18n: file dialogs/font_cell_format.ui line 191
-#: dialogs/kspread_dlg_layout.cc:1136 dialogs/kspread_dlg_layout.cc:2802
-#: dialogs/kspread_dlg_layout.cc:3668 rc.cpp:188
+#: dialogs/kspread_dlg_layout.cc:1135 dialogs/kspread_dlg_layout.cc:2800
+#: dialogs/kspread_dlg_layout.cc:3664 rc.cpp:188
 #, no-c-format
 msgid "Preview"
 msgstr "ຕົວຢ່າງ"
@@ -383,12 +383,6 @@ msgstr "ສັງລວມ &ສະເພາະ"
 msgid "&Ignore empty cells when looking for changes"
 msgstr "&ບໍ່ສົນໃຈເຊລທີ່ວ່າງຂະນະທີ່ທຳການປ່ຽນ"
 
-#. i18n: file dialogs/position_cell_format.ui line 35
-#: rc.cpp:230
-#, no-c-format
-msgid "Qt::Horizontal"
-msgstr ""
-
 #. i18n: file dialogs/position_cell_format.ui line 42
 #: rc.cpp:233
 #, no-c-format
@@ -408,24 +402,6 @@ msgstr ""
 msgid "Standard"
 msgstr "ມາດຕະຖານ"
 
-#. i18n: file dialogs/position_cell_format.ui line 69
-#: rc.cpp:243
-#, no-c-format
-msgid "Qt::DockLeft"
-msgstr ""
-
-#. i18n: file dialogs/position_cell_format.ui line 85
-#: rc.cpp:249
-#, no-c-format
-msgid "Qt::DockRight"
-msgstr ""
-
-#. i18n: file dialogs/position_cell_format.ui line 97
-#: rc.cpp:252
-#, fuzzy, no-c-format
-msgid "Qt::Vertical"
-msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
-
 #. i18n: file dialogs/position_cell_format.ui line 103
 #: rc.cpp:255
 #, no-c-format
@@ -437,23 +413,11 @@ msgid ""
 "the cell."
 msgstr ""
 
-#. i18n: file dialogs/position_cell_format.ui line 114
-#: rc.cpp:261
-#, no-c-format
-msgid "Qt::DockTop"
-msgstr ""
-
 #. i18n: file dialogs/position_cell_format.ui line 122
 #: rc.cpp:264
 #, no-c-format
 msgid "Middle"
 msgstr "ກາງ"
-
-#. i18n: file dialogs/position_cell_format.ui line 130
-#: rc.cpp:267
-#, no-c-format
-msgid "Qt::DockBottom"
-msgstr ""
 
 #. i18n: file dialogs/position_cell_format.ui line 140
 #: rc.cpp:270
@@ -489,7 +453,7 @@ msgid ""
 "Wrap text wraps the text so it fits in the previous cell size. If this is not "
 "checked, the text will stay on one line and the cell size will be adjusted to "
 "contain the text.\n"
-"Qt::Vertical text puts your text vertically."
+"Vertical text puts your text vertically."
 msgstr ""
 
 #. i18n: file dialogs/position_cell_format.ui line 209
@@ -501,7 +465,7 @@ msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 #. i18n: file dialogs/position_cell_format.ui line 217
 #: rc.cpp:290
 #, fuzzy, no-c-format
-msgid "Qt::Vertical text"
+msgid "Vertical text"
 msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 
 #. i18n: file dialogs/position_cell_format.ui line 227
@@ -519,7 +483,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file dialogs/position_cell_format.ui line 238
-#: commands.cc:78 kspread_undo.cc:2142 kspread_view.cc:688 manipulator.cc:910
+#: commands.cc:78 kspread_undo.cc:2142 kspread_view.cc:687 manipulator.cc:910
 #: rc.cpp:299
 #, no-c-format
 msgid "Merge Cells"
@@ -704,15 +668,15 @@ msgid "Layout direction:"
 msgstr ""
 
 #. i18n: file dialogs/sheet_properties_base.ui line 75
-#: rc.cpp:379
+#: dialogs/sheet_properties.cc:68 dialogs/sheet_properties.cc:83 rc.cpp:379
 #, no-c-format
-msgid "Qt::DockLeft to Qt::DockRight"
+msgid "Left to Right"
 msgstr ""
 
 #. i18n: file dialogs/sheet_properties_base.ui line 80
-#: rc.cpp:382
+#: dialogs/sheet_properties.cc:71 dialogs/sheet_properties.cc:86 rc.cpp:382
 #, fuzzy, no-c-format
-msgid "Qt::DockRight to Qt::DockLeft"
+msgid "Right to Left"
 msgstr "ລຽງຊິດດ້າຍຊ້າຍ"
 
 #. i18n: file dialogs/sheet_properties_base.ui line 87
@@ -720,8 +684,8 @@ msgstr "ລຽງຊິດດ້າຍຊ້າຍ"
 #, no-c-format
 msgid ""
 "Defaut is that the first column of the sheet is on the left. If you choose "
-"Qt::DockRight to Qt::DockLeft, then the first column will be on the right and "
-"the others added from right to left."
+"Right to Left, then the first column will be on the right and the others added "
+"from right to left."
 msgstr ""
 
 #. i18n: file dialogs/sheet_properties_base.ui line 141
@@ -734,8 +698,8 @@ msgstr "ີ&ສະແດງຕົວບົ່ງວ່າມຫມາຍເຫ�
 #: rc.cpp:391
 #, no-c-format
 msgid ""
-"If this box is checked cells containing comments will be marked by a small "
-"Qt::red triangle at the top right corner."
+"If this box is checked cells containing comments will be marked by a small red "
+"triangle at the top right corner."
 msgstr ""
 
 #. i18n: file dialogs/sheet_properties_base.ui line 152
@@ -833,9 +797,9 @@ msgstr "ີ&ສະແດງຕົວບົ່ງວ່າມຫມາຍເຫ�
 #: rc.cpp:433
 #, no-c-format
 msgid ""
-"If this box is checked KSpread will display a small Qt::blue triangle at the "
-"bottom left corner of cells containing formulae. This is useful if you want to "
-"protect cells with formulae."
+"If this box is checked KSpread will display a small blue triangle at the bottom "
+"left corner of cells containing formulae. This is useful if you want to protect "
+"cells with formulae."
 msgstr ""
 
 #. i18n: file dialogs/sheet_properties_base.ui line 229
@@ -876,7 +840,7 @@ msgstr "ປະສານເຊລ์"
 msgid "Dissociate Cell"
 msgstr "ແຍກເຊລ"
 
-#: commands.cc:136 kspread_view.cc:6794 kspread_view.cc:6812
+#: commands.cc:136 kspread_view.cc:6793 kspread_view.cc:6811
 msgid "Rename Sheet"
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 
@@ -885,7 +849,7 @@ msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 msgid "Hide Sheet %1"
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
-#: commands.cc:178 kspread_view.cc:830
+#: commands.cc:178 kspread_view.cc:829
 msgid "Hide Sheet"
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
@@ -905,8 +869,8 @@ msgstr "ສະແດງແຜ່ນງານ..."
 msgid "Add Sheet"
 msgstr "ເຊື່ອງແຜ່ນງານ"
 
-#: commands.cc:263 kspread_view.cc:818 kspread_view.cc:6749
-#: kspread_view.cc:6754
+#: commands.cc:263 kspread_view.cc:817 kspread_view.cc:6748
+#: kspread_view.cc:6753
 msgid "Remove Sheet"
 msgstr "ລືບແຜ່ນງານ"
 
@@ -915,7 +879,7 @@ msgstr "ລືບແຜ່ນງານ"
 msgid "Change Sheet Properties"
 msgstr "ຮູບແບບແຜ່ນງານ..."
 
-#: commands.cc:404 kspread_undo.cc:320 kspread_view.cc:746
+#: commands.cc:404 kspread_undo.cc:320 kspread_view.cc:745
 msgid "Insert Columns"
 msgstr "ສອດຖັນ"
 
@@ -944,7 +908,7 @@ msgstr "ປັບຂະຫນາດ"
 msgid "Cut Object"
 msgstr "&ວັດຖຸ..."
 
-#: commands.cc:689 kspread_view.cc:6079
+#: commands.cc:689 kspread_view.cc:6078
 #, fuzzy
 msgid "Remove Object"
 msgstr "ລືບຕາລາງ"
@@ -958,8 +922,8 @@ msgstr "ແຊກແຜ່ນງານ"
 #: dialogs/kspread_dlg_csv.cc:146 dialogs/kspread_dlg_csv.cc:465
 #: dialogs/kspread_dlg_csv.cc:467 dialogs/kspread_dlg_csv.cc:530
 #: dialogs/kspread_dlg_csv.cc:591 dialogs/kspread_dlg_csv.cc:715
-#: dialogs/kspread_dlg_layout.cc:1126 dialogs/kspread_dlg_special.cc:52
-#: dialogs/kspread_dlg_validity.cc:71 functions.cc:333 kspread_view.cc:707
+#: dialogs/kspread_dlg_layout.cc:1125 dialogs/kspread_dlg_special.cc:52
+#: dialogs/kspread_dlg_validity.cc:71 functions.cc:333 kspread_view.cc:706
 #: xml_doc.cc:5337 xml_doc.cc:5706 xml_doc.cc:5808 xml_doc.cc:5820
 #, no-c-format
 msgid "Text"
@@ -1290,11 +1254,11 @@ msgstr ""
 "ມີຂໍ້ຜິດພາດໃນເຊັດ %1\n"
 "\n"
 
-#: kspread_cell.cc:5701
+#: kspread_cell.cc:5702
 msgid "True"
 msgstr "ຈີງ"
 
-#: kspread_cell.cc:5701
+#: kspread_cell.cc:5702
 msgid "False"
 msgstr "ບໍ່ຈີງ"
 
@@ -1345,2460 +1309,2460 @@ msgstr "ບໍ່ສາມາດໂຫລດໄດຣເວີຣໄດ້ "
 msgid "Invalid document. No map tag."
 msgstr "ເອກະສານບໍ່ຖືກຕອ້ງ ບໍ່ມີສ່ວນແທັກແມບ"
 
-#: kspread_format.cc:2996 kspread_format.cc:3034
+#: kspread_format.cc:3002 kspread_format.cc:3040
 msgid "Australia"
 msgstr "ອອດສະຕາລ່ຽຍ"
 
-#: kspread_format.cc:2996 kspread_format.cc:2997 kspread_format.cc:2998
-#: kspread_format.cc:2999 kspread_format.cc:3000
+#: kspread_format.cc:3002 kspread_format.cc:3003 kspread_format.cc:3004
+#: kspread_format.cc:3005 kspread_format.cc:3006
 msgid "Dollar"
 msgstr "ດອນລ່າ"
 
-#: kspread_format.cc:2997 kspread_format.cc:3064
+#: kspread_format.cc:3003 kspread_format.cc:3070
 msgid "Canada"
 msgstr "ແຄນນາດາ"
 
-#: kspread_format.cc:2998
+#: kspread_format.cc:3004
 msgid "Caribbea"
 msgstr "ຕົວແປ"
 
-#: kspread_format.cc:2999 kspread_format.cc:3197
+#: kspread_format.cc:3005 kspread_format.cc:3203
 msgid "New Zealand"
 msgstr "ນິດຊີແລນ"
 
-#: kspread_format.cc:3000 kspread_format.cc:3269 kspread_format.cc:3270
-#: kspread_format.cc:3271
+#: kspread_format.cc:3006 kspread_format.cc:3275 kspread_format.cc:3276
+#: kspread_format.cc:3277
 msgid "United States"
 msgstr "ສະຫະລັດ"
 
-#: kspread_format.cc:3004 kspread_format.cc:3035 kspread_format.cc:3036
+#: kspread_format.cc:3010 kspread_format.cc:3041 kspread_format.cc:3042
 msgid "Austria"
 msgstr "ສິງຫາຄົມ"
 
-#: kspread_format.cc:3004 kspread_format.cc:3005 kspread_format.cc:3006
-#: kspread_format.cc:3007 kspread_format.cc:3008 kspread_format.cc:3009
 #: kspread_format.cc:3010 kspread_format.cc:3011 kspread_format.cc:3012
 #: kspread_format.cc:3013 kspread_format.cc:3014 kspread_format.cc:3015
-#: kspread_format.cc:3016 kspread_format.cc:3026 kspread_format.cc:3035
-#: kspread_format.cc:3043 kspread_format.cc:3102 kspread_format.cc:3104
-#: kspread_format.cc:3106 kspread_format.cc:3108 kspread_format.cc:3112
-#: kspread_format.cc:3116 kspread_format.cc:3120 kspread_format.cc:3130
-#: kspread_format.cc:3139 kspread_format.cc:3143 kspread_format.cc:3164
-#: kspread_format.cc:3175 kspread_format.cc:3178 kspread_format.cc:3183
-#: kspread_format.cc:3193 kspread_format.cc:3216 kspread_format.cc:3227
-#: kspread_format.cc:3230 kspread_format.cc:3242
+#: kspread_format.cc:3016 kspread_format.cc:3017 kspread_format.cc:3018
+#: kspread_format.cc:3019 kspread_format.cc:3020 kspread_format.cc:3021
+#: kspread_format.cc:3022 kspread_format.cc:3032 kspread_format.cc:3041
+#: kspread_format.cc:3049 kspread_format.cc:3108 kspread_format.cc:3110
+#: kspread_format.cc:3112 kspread_format.cc:3114 kspread_format.cc:3118
+#: kspread_format.cc:3122 kspread_format.cc:3126 kspread_format.cc:3136
+#: kspread_format.cc:3145 kspread_format.cc:3149 kspread_format.cc:3170
+#: kspread_format.cc:3181 kspread_format.cc:3184 kspread_format.cc:3189
+#: kspread_format.cc:3199 kspread_format.cc:3222 kspread_format.cc:3233
+#: kspread_format.cc:3236 kspread_format.cc:3248
 msgid "Euro"
 msgstr "ຢູໂລບ"
 
-#: kspread_format.cc:3005 kspread_format.cc:3043 kspread_format.cc:3044
+#: kspread_format.cc:3011 kspread_format.cc:3049 kspread_format.cc:3050
 msgid "Belgium"
 msgstr "ເບລຢຽມ"
 
-#: kspread_format.cc:3006 kspread_format.cc:3102 kspread_format.cc:3103
+#: kspread_format.cc:3012 kspread_format.cc:3108 kspread_format.cc:3109
 msgid "Finland"
 msgstr "ການເງິນ"
 
-#: kspread_format.cc:3007 kspread_format.cc:3104 kspread_format.cc:3105
+#: kspread_format.cc:3013 kspread_format.cc:3110 kspread_format.cc:3111
 msgid "France"
 msgstr "ຕົວແປ"
 
-#: kspread_format.cc:3008 kspread_format.cc:3112 kspread_format.cc:3113
+#: kspread_format.cc:3014 kspread_format.cc:3118 kspread_format.cc:3119
 msgid "Germany"
 msgstr "ຕົວປົກກະຕິ"
 
-#: kspread_format.cc:3009 kspread_format.cc:3116 kspread_format.cc:3117
+#: kspread_format.cc:3015 kspread_format.cc:3122 kspread_format.cc:3123
 msgid "Greece"
 msgstr "ກີຣກ"
 
-#: kspread_format.cc:3010 kspread_format.cc:3139 kspread_format.cc:3140
-#: kspread_format.cc:3141
+#: kspread_format.cc:3016 kspread_format.cc:3145 kspread_format.cc:3146
+#: kspread_format.cc:3147
 msgid "Ireland"
 msgstr "ໄອແລນ"
 
-#: kspread_format.cc:3011 kspread_format.cc:3143 kspread_format.cc:3144
+#: kspread_format.cc:3017 kspread_format.cc:3149 kspread_format.cc:3150
 msgid "Italy"
 msgstr "ຕາຕະລາງ"
 
-#: kspread_format.cc:3012 kspread_format.cc:3164 kspread_format.cc:3165
+#: kspread_format.cc:3018 kspread_format.cc:3170 kspread_format.cc:3171
 msgid "Luxembourg"
 msgstr "ລູຊິມເບຣີກ"
 
-#: kspread_format.cc:3013 kspread_format.cc:3183
+#: kspread_format.cc:3019 kspread_format.cc:3189
 msgid "Monaco"
 msgstr "ໂມນາໂຄ"
 
-#: kspread_format.cc:3014 kspread_format.cc:3193 kspread_format.cc:3194
+#: kspread_format.cc:3020 kspread_format.cc:3199 kspread_format.cc:3200
 msgid "Netherlands"
 msgstr "ເນເທີແລນ"
 
-#: kspread_format.cc:3015 kspread_format.cc:3216 kspread_format.cc:3217
+#: kspread_format.cc:3021 kspread_format.cc:3222 kspread_format.cc:3223
 msgid "Portugal"
 msgstr "ໂປຕຸເກດ"
 
-#: kspread_format.cc:3016 kspread_format.cc:3242 kspread_format.cc:3243
+#: kspread_format.cc:3022 kspread_format.cc:3248 kspread_format.cc:3249
 msgid "Spain"
 msgstr "ການສະກົດຄຳ"
 
-#: kspread_format.cc:3018 kspread_format.cc:3268
+#: kspread_format.cc:3024 kspread_format.cc:3274
 msgid "United Kingdom"
 msgstr "ລາດສະອານາຈັກ"
 
-#: kspread_format.cc:3018
+#: kspread_format.cc:3024
 msgid "Pound"
 msgstr "ປອບອັບ"
 
-#: kspread_format.cc:3020 kspread_format.cc:3146
+#: kspread_format.cc:3026 kspread_format.cc:3152
 msgid "Japan"
 msgstr "ຍີ່ປຸ່ນ"
 
-#: kspread_format.cc:3020 kspread_format.cc:3146
+#: kspread_format.cc:3026 kspread_format.cc:3152
 msgid "Yen"
 msgstr "ເຢັນ"
 
-#: kspread_format.cc:3022
+#: kspread_format.cc:3028
 #, fuzzy
 msgid "Afghanistan"
 msgstr "ອາຟການິສະຖານ"
 
-#: kspread_format.cc:3022
+#: kspread_format.cc:3028
 msgid "Afghani"
 msgstr "ອາຟຫານິ"
 
-#: kspread_format.cc:3022
+#: kspread_format.cc:3028
 msgid "AFA"
 msgstr "AFA"
 
-#: kspread_format.cc:3023
+#: kspread_format.cc:3029
 msgid "Albania"
 msgstr "ອາບາເນີຍ"
 
-#: kspread_format.cc:3023
+#: kspread_format.cc:3029
 msgid "Lek"
 msgstr "ເລັກ"
 
-#: kspread_format.cc:3024
+#: kspread_format.cc:3030
 msgid "Algeria"
 msgstr "ອາເກີລຽ່ຍ"
 
-#: kspread_format.cc:3024
+#: kspread_format.cc:3030
 msgid "Algerian Dinar"
 msgstr "ອາເກີລ່ຽຍ ດິນນາ"
 
-#: kspread_format.cc:3024
+#: kspread_format.cc:3030
 msgid "DZD"
 msgstr "DZD"
 
-#: kspread_format.cc:3025
+#: kspread_format.cc:3031
 msgid "American Samoa"
 msgstr "ອາເມລິກາ ສາໂມ"
 
-#: kspread_format.cc:3025 kspread_format.cc:3056 kspread_format.cc:3090
-#: kspread_format.cc:3091 kspread_format.cc:3094 kspread_format.cc:3121
-#: kspread_format.cc:3128 kspread_format.cc:3174 kspread_format.cc:3181
-#: kspread_format.cc:3203 kspread_format.cc:3207 kspread_format.cc:3209
-#: kspread_format.cc:3218 kspread_format.cc:3263 kspread_format.cc:3269
-#: kspread_format.cc:3277
+#: kspread_format.cc:3031 kspread_format.cc:3062 kspread_format.cc:3096
+#: kspread_format.cc:3097 kspread_format.cc:3100 kspread_format.cc:3127
+#: kspread_format.cc:3134 kspread_format.cc:3180 kspread_format.cc:3187
+#: kspread_format.cc:3209 kspread_format.cc:3213 kspread_format.cc:3215
+#: kspread_format.cc:3224 kspread_format.cc:3269 kspread_format.cc:3275
+#: kspread_format.cc:3283
 msgid "US Dollar"
 msgstr "US ດອນລາ"
 
-#: kspread_format.cc:3025 kspread_format.cc:3056 kspread_format.cc:3090
-#: kspread_format.cc:3091 kspread_format.cc:3094 kspread_format.cc:3121
-#: kspread_format.cc:3128 kspread_format.cc:3174 kspread_format.cc:3181
-#: kspread_format.cc:3203 kspread_format.cc:3207 kspread_format.cc:3209
-#: kspread_format.cc:3218 kspread_format.cc:3263 kspread_format.cc:3269
-#: kspread_format.cc:3277
+#: kspread_format.cc:3031 kspread_format.cc:3062 kspread_format.cc:3096
+#: kspread_format.cc:3097 kspread_format.cc:3100 kspread_format.cc:3127
+#: kspread_format.cc:3134 kspread_format.cc:3180 kspread_format.cc:3187
+#: kspread_format.cc:3209 kspread_format.cc:3213 kspread_format.cc:3215
+#: kspread_format.cc:3224 kspread_format.cc:3269 kspread_format.cc:3275
+#: kspread_format.cc:3283
 msgid "USD"
 msgstr "USD"
 
-#: kspread_format.cc:3026 kspread_format.cc:3027
+#: kspread_format.cc:3032 kspread_format.cc:3033
 msgid "Andorra"
 msgstr "ໂຕທຳມະດາ"
 
-#: kspread_format.cc:3026 kspread_format.cc:3035 kspread_format.cc:3043
-#: kspread_format.cc:3102 kspread_format.cc:3104 kspread_format.cc:3106
-#: kspread_format.cc:3108 kspread_format.cc:3112 kspread_format.cc:3116
-#: kspread_format.cc:3120 kspread_format.cc:3130 kspread_format.cc:3139
-#: kspread_format.cc:3143 kspread_format.cc:3164 kspread_format.cc:3175
-#: kspread_format.cc:3178 kspread_format.cc:3183 kspread_format.cc:3193
-#: kspread_format.cc:3216 kspread_format.cc:3227 kspread_format.cc:3230
-#: kspread_format.cc:3242
+#: kspread_format.cc:3032 kspread_format.cc:3041 kspread_format.cc:3049
+#: kspread_format.cc:3108 kspread_format.cc:3110 kspread_format.cc:3112
+#: kspread_format.cc:3114 kspread_format.cc:3118 kspread_format.cc:3122
+#: kspread_format.cc:3126 kspread_format.cc:3136 kspread_format.cc:3145
+#: kspread_format.cc:3149 kspread_format.cc:3170 kspread_format.cc:3181
+#: kspread_format.cc:3184 kspread_format.cc:3189 kspread_format.cc:3199
+#: kspread_format.cc:3222 kspread_format.cc:3233 kspread_format.cc:3236
+#: kspread_format.cc:3248
 msgid "EUR"
 msgstr "EUR"
 
-#: kspread_format.cc:3027
+#: kspread_format.cc:3033
 msgid "Andorran Peseta"
 msgstr "ອານໂດລານ ເພີເຊີຕາ"
 
-#: kspread_format.cc:3027
+#: kspread_format.cc:3033
 msgid "ADP"
 msgstr "ADP"
 
-#: kspread_format.cc:3028
+#: kspread_format.cc:3034
 msgid "Angola"
 msgstr "ອາງໂກລ້າ"
 
-#: kspread_format.cc:3028
+#: kspread_format.cc:3034
 msgid "Kwanza"
 msgstr "ເຄເວນາຊາ"
 
-#: kspread_format.cc:3028
+#: kspread_format.cc:3034
 msgid "AOA"
 msgstr "AOA"
 
-#: kspread_format.cc:3029
+#: kspread_format.cc:3035
 msgid "Anguilla"
 msgstr "ຕື່ມເຕັມອັດຕະໂນມັດ"
 
-#: kspread_format.cc:3029 kspread_format.cc:3087 kspread_format.cc:3119
-#: kspread_format.cc:3185 kspread_format.cc:3225 kspread_format.cc:3226
-#: kspread_format.cc:3228
+#: kspread_format.cc:3035 kspread_format.cc:3093 kspread_format.cc:3125
+#: kspread_format.cc:3191 kspread_format.cc:3231 kspread_format.cc:3232
+#: kspread_format.cc:3234
 msgid "East Caribbean Dollar"
 msgstr "ຄາລີບີນ ຕະວັນອອກ ດອນລ່າ"
 
-#: kspread_format.cc:3029 kspread_format.cc:3030 kspread_format.cc:3119
-#: kspread_format.cc:3185 kspread_format.cc:3225 kspread_format.cc:3226
-#: kspread_format.cc:3228
+#: kspread_format.cc:3035 kspread_format.cc:3036 kspread_format.cc:3125
+#: kspread_format.cc:3191 kspread_format.cc:3231 kspread_format.cc:3232
+#: kspread_format.cc:3234
 msgid "XCD"
 msgstr "XCD"
 
-#: kspread_format.cc:3030
+#: kspread_format.cc:3036
 msgid "Antigua And Barbuda"
 msgstr "ອານທິກົວ ແລະ ບາບູດາ"
 
-#: kspread_format.cc:3030
+#: kspread_format.cc:3036
 msgid "East Carribean Dollar"
 msgstr "ຕະວັນອອກ ຄາລີບີນ ດອນລາ"
 
-#: kspread_format.cc:3031
+#: kspread_format.cc:3037
 msgid "Argentina"
 msgstr "ອາເຈັນຕິນາ"
 
-#: kspread_format.cc:3031
+#: kspread_format.cc:3037
 msgid "Argentine Peso"
 msgstr "ອາເຈັນຕິນ້າ ເປໂຊ"
 
-#: kspread_format.cc:3031
+#: kspread_format.cc:3037
 msgid "ARS"
 msgstr "ARS"
 
-#: kspread_format.cc:3032
+#: kspread_format.cc:3038
 msgid "Armenia"
 msgstr "ອາເມລິກາ"
 
-#: kspread_format.cc:3032
+#: kspread_format.cc:3038
 msgid "Armenian Dram"
 msgstr "ຊື່ພື້ນທີ່"
 
-#: kspread_format.cc:3032
+#: kspread_format.cc:3038
 msgid "AMD"
 msgstr "AMD"
 
-#: kspread_format.cc:3033
+#: kspread_format.cc:3039
 msgid "Aruba"
 msgstr "ອາລູຸບາ"
 
-#: kspread_format.cc:3033
+#: kspread_format.cc:3039
 msgid "Aruban Guilder"
 msgstr "ອາລູບານ ກຸຍເດີ"
 
-#: kspread_format.cc:3033
+#: kspread_format.cc:3039
 msgid "AWG"
 msgstr "AWG"
 
-#: kspread_format.cc:3034 kspread_format.cc:3072 kspread_format.cc:3073
-#: kspread_format.cc:3129 kspread_format.cc:3150 kspread_format.cc:3191
-#: kspread_format.cc:3202 kspread_format.cc:3264
+#: kspread_format.cc:3040 kspread_format.cc:3078 kspread_format.cc:3079
+#: kspread_format.cc:3135 kspread_format.cc:3156 kspread_format.cc:3197
+#: kspread_format.cc:3208 kspread_format.cc:3270
 msgid "Australian Dollar"
 msgstr "ອອດສະເຕເລ່ຍ ດອນລ່າ"
 
-#: kspread_format.cc:3034 kspread_format.cc:3072 kspread_format.cc:3073
-#: kspread_format.cc:3129 kspread_format.cc:3150 kspread_format.cc:3191
-#: kspread_format.cc:3202 kspread_format.cc:3264
+#: kspread_format.cc:3040 kspread_format.cc:3078 kspread_format.cc:3079
+#: kspread_format.cc:3135 kspread_format.cc:3156 kspread_format.cc:3197
+#: kspread_format.cc:3208 kspread_format.cc:3270
 msgid "AUD"
 msgstr "AUD"
 
-#: kspread_format.cc:3036
+#: kspread_format.cc:3042
 msgid "Schilling"
 msgstr "ການສະກົດຄຳ"
 
-#: kspread_format.cc:3036
+#: kspread_format.cc:3042
 msgid "S"
 msgstr "S"
 
-#: kspread_format.cc:3037
+#: kspread_format.cc:3043
 msgid "Azerbaijan"
 msgstr "ອາເຊີໄບຈັນ"
 
-#: kspread_format.cc:3037
+#: kspread_format.cc:3043
 msgid "Azerbaijanian Manat"
 msgstr "ອາເຊີໄບຈັນ ມາເນັດ"
 
-#: kspread_format.cc:3037
+#: kspread_format.cc:3043
 msgid "AZM"
 msgstr "AZM"
 
-#: kspread_format.cc:3038
+#: kspread_format.cc:3044
 msgid "Bahamas"
 msgstr "ບາຫາມັສ"
 
-#: kspread_format.cc:3038
+#: kspread_format.cc:3044
 msgid "Bahamian Dollar"
 msgstr "ບາຫາມຽນ ດອນລ່າ"
 
-#: kspread_format.cc:3038
+#: kspread_format.cc:3044
 msgid "BSD"
 msgstr "BSD"
 
-#: kspread_format.cc:3039
+#: kspread_format.cc:3045
 msgid "Bahrain"
 msgstr "ບາລຽນ"
 
-#: kspread_format.cc:3039
+#: kspread_format.cc:3045
 msgid "Bahraini Dinar"
 msgstr "ບາລານິ ໄດນາ"
 
-#: kspread_format.cc:3039
+#: kspread_format.cc:3045
 msgid "BHD"
 msgstr "BHD"
 
-#: kspread_format.cc:3040
+#: kspread_format.cc:3046
 msgid "Bangladesh"
 msgstr "ບັງການເດັດສ"
 
-#: kspread_format.cc:3040
+#: kspread_format.cc:3046
 msgid "Taka"
 msgstr "ທາກະ"
 
-#: kspread_format.cc:3040
+#: kspread_format.cc:3046
 msgid "BDT"
 msgstr "BDT"
 
-#: kspread_format.cc:3041
+#: kspread_format.cc:3047
 msgid "Barbados"
 msgstr "ບາບາໂດດສ"
 
-#: kspread_format.cc:3041
+#: kspread_format.cc:3047
 msgid "Barbados Dollar"
 msgstr "ບາບາໂດສ ດອນລ່າ"
 
-#: kspread_format.cc:3041
+#: kspread_format.cc:3047
 msgid "BBD"
 msgstr "BBD"
 
-#: kspread_format.cc:3042
+#: kspread_format.cc:3048
 msgid "Belarus"
 msgstr "ເບລາລັສ"
 
-#: kspread_format.cc:3042
+#: kspread_format.cc:3048
 msgid "Belarussian Ruble"
 msgstr "ເບລາລັສຽນ ລູເບລ"
 
-#: kspread_format.cc:3042
+#: kspread_format.cc:3048
 msgid "p."
 msgstr "p."
 
-#: kspread_format.cc:3044 kspread_format.cc:3105 kspread_format.cc:3165
+#: kspread_format.cc:3050 kspread_format.cc:3111 kspread_format.cc:3171
 msgid "Franc"
 msgstr "ຝຣັ່ງ"
 
-#: kspread_format.cc:3044
+#: kspread_format.cc:3050
 msgid "BF"
 msgstr "BF"
 
-#: kspread_format.cc:3045
+#: kspread_format.cc:3051
 msgid "Belize"
 msgstr "ບາຊິລ"
 
-#: kspread_format.cc:3045
+#: kspread_format.cc:3051
 msgid "Belize Dollar"
 msgstr "ບລາຊິລ ດອນລ່າ"
 
-#: kspread_format.cc:3045
+#: kspread_format.cc:3051
 msgid "BZ$"
 msgstr "BZ$"
 
-#: kspread_format.cc:3046
+#: kspread_format.cc:3052
 msgid "Benin"
 msgstr "ຶເບນິນ"
 
-#: kspread_format.cc:3046 kspread_format.cc:3060 kspread_format.cc:3080
-#: kspread_format.cc:3125 kspread_format.cc:3172 kspread_format.cc:3199
-#: kspread_format.cc:3233 kspread_format.cc:3256
+#: kspread_format.cc:3052 kspread_format.cc:3066 kspread_format.cc:3086
+#: kspread_format.cc:3131 kspread_format.cc:3178 kspread_format.cc:3205
+#: kspread_format.cc:3239 kspread_format.cc:3262
 msgid "CFA Franc BCEAO"
 msgstr "CFA ຝັ່ງ BCEAO"
 
-#: kspread_format.cc:3046 kspread_format.cc:3060 kspread_format.cc:3080
-#: kspread_format.cc:3125 kspread_format.cc:3172 kspread_format.cc:3199
-#: kspread_format.cc:3233 kspread_format.cc:3256
+#: kspread_format.cc:3052 kspread_format.cc:3066 kspread_format.cc:3086
+#: kspread_format.cc:3131 kspread_format.cc:3178 kspread_format.cc:3205
+#: kspread_format.cc:3239 kspread_format.cc:3262
 msgid "XOF"
 msgstr "XOF"
 
-#: kspread_format.cc:3047
+#: kspread_format.cc:3053
 msgid "Bermuda"
 msgstr "ເບມູນດາ"
 
-#: kspread_format.cc:3047
+#: kspread_format.cc:3053
 msgid "Bermudian Dollar"
 msgstr "ເບີມູດ່ຽນ ດອນລ່າ"
 
-#: kspread_format.cc:3047
+#: kspread_format.cc:3053
 msgid "BMD"
 msgstr "BMD"
 
-#: kspread_format.cc:3048 kspread_format.cc:3049
+#: kspread_format.cc:3054 kspread_format.cc:3055
 msgid "Bhutan"
 msgstr "ບູຖານ"
 
-#: kspread_format.cc:3048 kspread_format.cc:3135
+#: kspread_format.cc:3054 kspread_format.cc:3141
 msgid "Indian Rupee"
 msgstr "ອິນດ່ຽນ ລູປີ"
 
-#: kspread_format.cc:3048 kspread_format.cc:3135
+#: kspread_format.cc:3054 kspread_format.cc:3141
 msgid "INR"
 msgstr "INR"
 
-#: kspread_format.cc:3049
+#: kspread_format.cc:3055
 msgid "Ngultrum"
 msgstr "ກ໌ວນຕຳ້"
 
-#: kspread_format.cc:3049
+#: kspread_format.cc:3055
 msgid "BTN"
 msgstr "BTN"
 
-#: kspread_format.cc:3050 kspread_format.cc:3051
+#: kspread_format.cc:3056 kspread_format.cc:3057
 msgid "Bolivia"
 msgstr "ໂບລີເວຍ"
 
-#: kspread_format.cc:3050
+#: kspread_format.cc:3056
 msgid "Boliviano"
 msgstr "ໂບລີເວຍໂນ"
 
-#: kspread_format.cc:3050 kspread_format.cc:3275
+#: kspread_format.cc:3056 kspread_format.cc:3281
 msgid "Bs"
 msgstr "Bs"
 
-#: kspread_format.cc:3051
+#: kspread_format.cc:3057
 msgid "Mvdol"
 msgstr "Mvdol"
 
-#: kspread_format.cc:3051
+#: kspread_format.cc:3057
 msgid "BOV"
 msgstr "BOV"
 
-#: kspread_format.cc:3052
+#: kspread_format.cc:3058
 msgid "Bosnia And Herzegovina"
 msgstr "ບອດຣເນຍແລະເຫີເຊໂກວີນາ"
 
-#: kspread_format.cc:3052
+#: kspread_format.cc:3058
 msgid "Convertible Marks"
 msgstr "ຄອນເວີທິບເບີມ໌າກ"
 
-#: kspread_format.cc:3052
+#: kspread_format.cc:3058
 msgid "BAM"
 msgstr "BAM"
 
-#: kspread_format.cc:3053
+#: kspread_format.cc:3059
 msgid "Botswana"
 msgstr "ບອດສ໌ວານາ"
 
-#: kspread_format.cc:3053
+#: kspread_format.cc:3059
 msgid "Pula"
 msgstr "ພູລາ"
 
-#: kspread_format.cc:3053
+#: kspread_format.cc:3059
 msgid "BWP"
 msgstr "BWP"
 
-#: kspread_format.cc:3054
+#: kspread_format.cc:3060
 msgid "Bouvet Island"
 msgstr "ບູເວດໄອແລນ"
 
-#: kspread_format.cc:3054
+#: kspread_format.cc:3060
 msgid "Norvegian Krone"
 msgstr "ນໍວີກຽນຄ໌ອນ"
 
-#: kspread_format.cc:3054 kspread_format.cc:3247
+#: kspread_format.cc:3060 kspread_format.cc:3253
 msgid "NOK"
 msgstr "NOK"
 
-#: kspread_format.cc:3055
+#: kspread_format.cc:3061
 msgid "Brazil"
 msgstr "ບາຊີນ"
 
-#: kspread_format.cc:3055
+#: kspread_format.cc:3061
 msgid "Brazilian Real"
 msgstr "ບາລຊິລ ລີລ"
 
-#: kspread_format.cc:3055
+#: kspread_format.cc:3061
 msgid "R$"
 msgstr "R$"
 
-#: kspread_format.cc:3056
+#: kspread_format.cc:3062
 msgid "British Indian Ocean Territory"
 msgstr "ບິດທີສ ອິນເດ່ຍ "
 
-#: kspread_format.cc:3057
+#: kspread_format.cc:3063
 msgid "Brunei Darussalam"
 msgstr "ບູໄນ ດາລູສາລາມ"
 
-#: kspread_format.cc:3057
+#: kspread_format.cc:3063
 msgid "Brunei Dollar"
 msgstr "ບູໄນ ດອນລ່າ"
 
-#: kspread_format.cc:3057
+#: kspread_format.cc:3063
 msgid "BND"
 msgstr "BND"
 
-#: kspread_format.cc:3058 kspread_format.cc:3059
+#: kspread_format.cc:3064 kspread_format.cc:3065
 msgid "Bulgaria"
 msgstr "ບູກາລຽ່ຍ"
 
-#: kspread_format.cc:3058
+#: kspread_format.cc:3064
 msgid "Lev"
 msgstr "Lev"
 
-#: kspread_format.cc:3058
+#: kspread_format.cc:3064
 msgid "BGL"
 msgstr "BGL"
 
-#: kspread_format.cc:3059
+#: kspread_format.cc:3065
 msgid "Bulgarian Lev"
 msgstr "ບູກາລ້ຽນ Lev"
 
-#: kspread_format.cc:3059
+#: kspread_format.cc:3065
 msgid "BGN"
 msgstr "BGN"
 
-#: kspread_format.cc:3060
+#: kspread_format.cc:3066
 msgid "Burkina Faso"
 msgstr "ບູກິນ້າ ຟາໂຊ"
 
-#: kspread_format.cc:3061
+#: kspread_format.cc:3067
 msgid "Burundi"
 msgstr "ບູລັນດິ"
 
-#: kspread_format.cc:3061
+#: kspread_format.cc:3067
 msgid "Burundi Franc"
 msgstr "ບູລັນດິຝັ່ງ"
 
-#: kspread_format.cc:3061
+#: kspread_format.cc:3067
 msgid "BIF"
 msgstr "BIF"
 
-#: kspread_format.cc:3062
+#: kspread_format.cc:3068
 msgid "Cambodia"
 msgstr "ກຳປູເຈັຍ"
 
-#: kspread_format.cc:3062
+#: kspread_format.cc:3068
 msgid "Riel"
 msgstr "ລິວ"
 
-#: kspread_format.cc:3062
+#: kspread_format.cc:3068
 msgid "KHR"
 msgstr "KHR"
 
-#: kspread_format.cc:3063
+#: kspread_format.cc:3069
 msgid "Cameroon"
 msgstr "ແຄມເມີລູນ"
 
-#: kspread_format.cc:3063 kspread_format.cc:3067 kspread_format.cc:3068
-#: kspread_format.cc:3076 kspread_format.cc:3095 kspread_format.cc:3109
+#: kspread_format.cc:3069 kspread_format.cc:3073 kspread_format.cc:3074
+#: kspread_format.cc:3082 kspread_format.cc:3101 kspread_format.cc:3115
 msgid "CFA Franc BEAC"
 msgstr "CFA ຝັ່ງ BEAC"
 
-#: kspread_format.cc:3063 kspread_format.cc:3067 kspread_format.cc:3068
-#: kspread_format.cc:3076 kspread_format.cc:3095 kspread_format.cc:3109
+#: kspread_format.cc:3069 kspread_format.cc:3073 kspread_format.cc:3074
+#: kspread_format.cc:3082 kspread_format.cc:3101 kspread_format.cc:3115
 msgid "XAF"
 msgstr "XAF"
 
-#: kspread_format.cc:3064
+#: kspread_format.cc:3070
 msgid "Canadian Dollar"
 msgstr "ແຄນນາດຽນ ດອນລ່າ"
 
-#: kspread_format.cc:3064
+#: kspread_format.cc:3070
 msgid "CAD"
 msgstr "CAD"
 
-#: kspread_format.cc:3065
+#: kspread_format.cc:3071
 msgid "Cape Verde"
 msgstr "ແຄບ ເວີດ"
 
-#: kspread_format.cc:3065
+#: kspread_format.cc:3071
 msgid "Cape Verde Escudo"
 msgstr "ແຄບ ເວີດ ເອສກູໂດ້"
 
-#: kspread_format.cc:3065
+#: kspread_format.cc:3071
 msgid "CVE"
 msgstr "CVE"
 
-#: kspread_format.cc:3066
+#: kspread_format.cc:3072
 msgid "Cayman Islands"
 msgstr "ໄຊແມນ ໄອສແລນ"
 
-#: kspread_format.cc:3066
+#: kspread_format.cc:3072
 msgid "Cayman Islands Dollar"
 msgstr "ໄໍຊແມນ ໄອສແລນ ດອນລ່າ"
 
-#: kspread_format.cc:3066
+#: kspread_format.cc:3072
 msgid "KYD"
 msgstr "KYD"
 
-#: kspread_format.cc:3067
+#: kspread_format.cc:3073
 msgid "Central African Republic"
 msgstr "ເຊັນທໍ ສາທາລະນະ ອາຟິກັນ "
 
-#: kspread_format.cc:3068
+#: kspread_format.cc:3074
 msgid "Chad"
 msgstr "ຊາດ"
 
-#: kspread_format.cc:3069 kspread_format.cc:3070
+#: kspread_format.cc:3075 kspread_format.cc:3076
 msgid "Chile"
 msgstr "ຊິລີ"
 
-#: kspread_format.cc:3069
+#: kspread_format.cc:3075
 msgid "Chilean Peso"
 msgstr "ຊິລີນ ເປໂຊ"
 
-#: kspread_format.cc:3069
+#: kspread_format.cc:3075
 msgid "Ch$"
 msgstr "Ch$"
 
-#: kspread_format.cc:3070
+#: kspread_format.cc:3076
 msgid "Unidades de fomento"
 msgstr "ຢູໄນເດັດ ເດີ ໂຟເມັນໂຕ້"
 
-#: kspread_format.cc:3070
+#: kspread_format.cc:3076
 msgid "CLF"
 msgstr "CLF"
 
-#: kspread_format.cc:3071
+#: kspread_format.cc:3077
 msgid "China"
 msgstr "ຈີນ"
 
-#: kspread_format.cc:3071
+#: kspread_format.cc:3077
 msgid "Yuan Renminbi"
 msgstr "ຢູອານ ເລີມິນບິ"
 
-#: kspread_format.cc:3071
+#: kspread_format.cc:3077
 msgid "CNY"
 msgstr "CNY"
 
-#: kspread_format.cc:3072
+#: kspread_format.cc:3078
 msgid "Christmas Island"
 msgstr "ຄິສມາສ ໄອສະແລນ"
 
-#: kspread_format.cc:3073
+#: kspread_format.cc:3079
 msgid "Cocos (Keeling) Islands"
 msgstr "ໂກໂກສ (ເຄລລີ້ງ) ໄອສແລນ"
 
-#: kspread_format.cc:3074
+#: kspread_format.cc:3080
 msgid "Colombia"
 msgstr "ໂຄລົມເບຍ"
 
-#: kspread_format.cc:3074
+#: kspread_format.cc:3080
 msgid "Colombian Peso"
 msgstr "ເງິນຂອງໂຄລົມເບຍ"
 
-#: kspread_format.cc:3074
+#: kspread_format.cc:3080
 msgid "C$"
 msgstr "C$"
 
-#: kspread_format.cc:3075
+#: kspread_format.cc:3081
 msgid "Comoros"
 msgstr "ສີ"
 
-#: kspread_format.cc:3075
+#: kspread_format.cc:3081
 msgid "Comoro Franc"
 msgstr "ສີເງິນຕາຂອງປະເທດຝຣັ່ງ"
 
-#: kspread_format.cc:3075
+#: kspread_format.cc:3081
 msgid "KMF"
 msgstr "KMF"
 
-#: kspread_format.cc:3076
+#: kspread_format.cc:3082
 msgid "Congo"
 msgstr "ຄອງໂກ້"
 
-#: kspread_format.cc:3077
+#: kspread_format.cc:3083
 msgid "Congo, The Democratic Republic Of"
 msgstr "ຄອງໂກ, ສະທາລະນະລັດ ປະຊາທິປະໄຕ"
 
-#: kspread_format.cc:3077
+#: kspread_format.cc:3083
 msgid "Franc Congolais"
 msgstr "ຝຣັ່ງ ຄອງໂກລຽຍ"
 
-#: kspread_format.cc:3077
+#: kspread_format.cc:3083
 msgid "CDF"
 msgstr "CDF"
 
-#: kspread_format.cc:3078
+#: kspread_format.cc:3084
 msgid "Cook Islands"
 msgstr "ຄຸກ ໄອແລນ"
 
-#: kspread_format.cc:3078 kspread_format.cc:3197 kspread_format.cc:3201
-#: kspread_format.cc:3214 kspread_format.cc:3257
+#: kspread_format.cc:3084 kspread_format.cc:3203 kspread_format.cc:3207
+#: kspread_format.cc:3220 kspread_format.cc:3263
 msgid "New Zealand Dollar"
 msgstr "ນິວຊີແລນ ດອນລ່າ"
 
-#: kspread_format.cc:3078 kspread_format.cc:3197 kspread_format.cc:3201
-#: kspread_format.cc:3214 kspread_format.cc:3257
+#: kspread_format.cc:3084 kspread_format.cc:3203 kspread_format.cc:3207
+#: kspread_format.cc:3220 kspread_format.cc:3263
 msgid "NZD"
 msgstr "NZD"
 
-#: kspread_format.cc:3079
+#: kspread_format.cc:3085
 msgid "Costa Rica"
 msgstr "ໂຄສຕ້າ ລີກ້າ"
 
-#: kspread_format.cc:3079
+#: kspread_format.cc:3085
 msgid "Costa Rican Colon"
 msgstr "ໂຄສຕ້າ ລິແຄນ ໂຄລອນ"
 
-#: kspread_format.cc:3079 kspread_format.cc:3093
+#: kspread_format.cc:3085 kspread_format.cc:3099
 msgid "C"
 msgstr "C"
 
-#: kspread_format.cc:3080
+#: kspread_format.cc:3086
 msgid "Cote D'Ivoire"
 msgstr "ໂຄດ ດິໂວ້ດ"
 
-#: kspread_format.cc:3081
+#: kspread_format.cc:3087
 msgid "Croatia"
 msgstr "ໂຄດເທີຍ"
 
-#: kspread_format.cc:3081
+#: kspread_format.cc:3087
 msgid "Croatian kuna"
 msgstr "ໂຄດເທີຍ ກູນ້າ"
 
-#: kspread_format.cc:3081
+#: kspread_format.cc:3087
 msgid "kn"
 msgstr "kn"
 
-#: kspread_format.cc:3082
+#: kspread_format.cc:3088
 msgid "Cuba"
 msgstr "ຄິວບາ"
 
-#: kspread_format.cc:3082
+#: kspread_format.cc:3088
 msgid "Cuban Peso"
 msgstr "ຄວິບາ ເປໂຊ"
 
-#: kspread_format.cc:3082
+#: kspread_format.cc:3088
 msgid "CUP"
 msgstr "CUP"
 
-#: kspread_format.cc:3083
+#: kspread_format.cc:3089
 msgid "Cyprus"
 msgstr "ໄຊປາດສ"
 
-#: kspread_format.cc:3083
+#: kspread_format.cc:3089
 msgid "Cyprus Pound"
 msgstr "ໄໍຊປຣາດສ ປອນ"
 
-#: kspread_format.cc:3083
+#: kspread_format.cc:3089
 msgid "CYP"
 msgstr "CYP"
 
-#: kspread_format.cc:3084
+#: kspread_format.cc:3090
 msgid "Czech Republic"
 msgstr "ສະທາລະນະລັດ ກຣິສ"
 
-#: kspread_format.cc:3084
+#: kspread_format.cc:3090
 msgid "Czech Koruna"
 msgstr "ກິຣສ ກູລູນ້າ"
 
-#: kspread_format.cc:3084
+#: kspread_format.cc:3090
 msgid "Kc"
 msgstr "Kc"
 
-#: kspread_format.cc:3085
+#: kspread_format.cc:3091
 msgid "Denmark"
 msgstr "ເດັ່ນມຣາກ"
 
-#: kspread_format.cc:3085 kspread_format.cc:3100 kspread_format.cc:3118
+#: kspread_format.cc:3091 kspread_format.cc:3106 kspread_format.cc:3124
 msgid "Danish Krone"
 msgstr "ເດັ່ນນິສ ຄຣອນ"
 
-#: kspread_format.cc:3085 kspread_format.cc:3097 kspread_format.cc:3100
-#: kspread_format.cc:3204 kspread_format.cc:3249
+#: kspread_format.cc:3091 kspread_format.cc:3103 kspread_format.cc:3106
+#: kspread_format.cc:3210 kspread_format.cc:3255
 msgid "kr"
 msgstr "kr"
 
-#: kspread_format.cc:3086
+#: kspread_format.cc:3092
 msgid "Djibouti"
 msgstr "ດິຈິບູຕິ"
 
-#: kspread_format.cc:3086
+#: kspread_format.cc:3092
 msgid "Djibouti Franc"
 msgstr "ດິຈິບູຕິ ຝຣັ່ງ"
 
-#: kspread_format.cc:3086
+#: kspread_format.cc:3092
 msgid "DJF"
 msgstr "DJF"
 
-#: kspread_format.cc:3087
+#: kspread_format.cc:3093
 msgid "Dominica"
 msgstr "ໂດມິນິກ້າ"
 
-#: kspread_format.cc:3087
+#: kspread_format.cc:3093
 msgid "RD$"
 msgstr "RD$"
 
-#: kspread_format.cc:3088
+#: kspread_format.cc:3094
 msgid "Dominican Republic"
 msgstr "ສາທາລະນະລັດໂດມິນິແຄນ "
 
-#: kspread_format.cc:3088
+#: kspread_format.cc:3094
 msgid "Dominican Peso"
 msgstr "ໂດມິນິແຄນ ເປໂຊ"
 
-#: kspread_format.cc:3088
+#: kspread_format.cc:3094
 msgid "DOP"
 msgstr "DOP"
 
-#: kspread_format.cc:3089 kspread_format.cc:3090
+#: kspread_format.cc:3095 kspread_format.cc:3096
 msgid "East Timor"
 msgstr "ຕິມໍຕະເວັນອອກ"
 
-#: kspread_format.cc:3089
+#: kspread_format.cc:3095
 msgid "Timor Escudo"
 msgstr "ຕິມໍ ເອັສຄູໂດ້"
 
-#: kspread_format.cc:3089
+#: kspread_format.cc:3095
 msgid "TPE"
 msgstr "TPE"
 
-#: kspread_format.cc:3091
+#: kspread_format.cc:3097
 msgid "Ecuador"
 msgstr "ເອີກູອາດໍຣ"
 
-#: kspread_format.cc:3092
+#: kspread_format.cc:3098
 msgid "Egypt"
 msgstr "ອີຍິບ"
 
-#: kspread_format.cc:3092
+#: kspread_format.cc:3098
 msgid "Egyptian Pound"
 msgstr "ອີຢິບ ປອນ"
 
-#: kspread_format.cc:3092
+#: kspread_format.cc:3098
 msgid "EGP"
 msgstr "EGP"
 
-#: kspread_format.cc:3093 kspread_format.cc:3094
+#: kspread_format.cc:3099 kspread_format.cc:3100
 msgid "El Salvador"
 msgstr "El ສໍວາດໍ"
 
-#: kspread_format.cc:3093
+#: kspread_format.cc:3099
 msgid "El Salvador Colon"
 msgstr "El ສະວາດໍ ໂຄລອນ"
 
-#: kspread_format.cc:3095
+#: kspread_format.cc:3101
 msgid "Equatorial Guinea"
 msgstr "ເອີກູອາໂດລ່ຽຍ ຈີນຽຍ"
 
-#: kspread_format.cc:3096
+#: kspread_format.cc:3102
 msgid "Eritrea"
 msgstr "ແກ້ໄຂພື້ນທີ "
 
-#: kspread_format.cc:3096
+#: kspread_format.cc:3102
 msgid "Nakfa"
 msgstr "ນາກຟາ"
 
-#: kspread_format.cc:3096
+#: kspread_format.cc:3102
 msgid "ERN"
 msgstr "ERN"
 
-#: kspread_format.cc:3097
+#: kspread_format.cc:3103
 msgid "Estonia"
 msgstr "ເອັສໂຕເນຍ"
 
-#: kspread_format.cc:3097
+#: kspread_format.cc:3103
 msgid "Kroon"
 msgstr "ຕົວປົກກະຕິ"
 
-#: kspread_format.cc:3098
+#: kspread_format.cc:3104
 msgid "Ethiopia"
 msgstr "ເອີໂທເປຍ"
 
-#: kspread_format.cc:3098
+#: kspread_format.cc:3104
 msgid "Ethiopian Birr"
 msgstr "ເອທິໂອປຽຍ Birr"
 
-#: kspread_format.cc:3098
+#: kspread_format.cc:3104
 msgid "ETB"
 msgstr "ETB"
 
-#: kspread_format.cc:3099
+#: kspread_format.cc:3105
 msgid "Falkland Island (Malvinas)"
 msgstr "ຟາກແລນ ໄອສແລນ (ມາວິນາດ)"
 
-#: kspread_format.cc:3099
+#: kspread_format.cc:3105
 msgid "Falkland Islands Pound"
 msgstr "ຟາກແລນ ໄອສແລນ ປອນ"
 
-#: kspread_format.cc:3099
+#: kspread_format.cc:3105
 msgid "FKP"
 msgstr "FKP"
 
-#: kspread_format.cc:3100
+#: kspread_format.cc:3106
 msgid "Faeroe Islands"
 msgstr "ຟາເອີໂລ້ ໄອສແລນ"
 
-#: kspread_format.cc:3101
+#: kspread_format.cc:3107
 msgid "Fiji"
 msgstr "ພິຈິ"
 
-#: kspread_format.cc:3101
+#: kspread_format.cc:3107
 msgid "Fiji Dollar"
 msgstr "ພິຈິ ດອນລ່າ"
 
-#: kspread_format.cc:3101
+#: kspread_format.cc:3107
 msgid "FJD"
 msgstr "FJD"
 
-#: kspread_format.cc:3103
+#: kspread_format.cc:3109
 msgid "Markka"
 msgstr "ມາຣກກາ"
 
-#: kspread_format.cc:3103
+#: kspread_format.cc:3109
 msgid "mk"
 msgstr "mk"
 
-#: kspread_format.cc:3105 kspread_format.cc:3165
+#: kspread_format.cc:3111 kspread_format.cc:3171
 msgid "F"
 msgstr "F"
 
-#: kspread_format.cc:3106
+#: kspread_format.cc:3112
 msgid "French Guiana"
 msgstr "ຝຣັ່ງ ຈິເອນ້າ"
 
-#: kspread_format.cc:3107
+#: kspread_format.cc:3113
 msgid "French Polynesia"
 msgstr "ຝຣັ່ງ ໂປໂລນິຊຽຍ"
 
-#: kspread_format.cc:3107 kspread_format.cc:3196 kspread_format.cc:3278
+#: kspread_format.cc:3113 kspread_format.cc:3202 kspread_format.cc:3284
 msgid "CFP Franc"
 msgstr "CFP ຝຣັ່ງ"
 
-#: kspread_format.cc:3107 kspread_format.cc:3196 kspread_format.cc:3278
+#: kspread_format.cc:3113 kspread_format.cc:3202 kspread_format.cc:3284
 msgid "XPF"
 msgstr "XPF"
 
-#: kspread_format.cc:3108
+#: kspread_format.cc:3114
 msgid "Franc Southern Territories"
 msgstr "ຝຣັ່ງ ເທີລີທໍລຽຍໃຕ້ "
 
-#: kspread_format.cc:3109
+#: kspread_format.cc:3115
 msgid "Gabon"
 msgstr "ກາບອນ"
 
-#: kspread_format.cc:3110
+#: kspread_format.cc:3116
 msgid "Gambia"
 msgstr "ແຄມເບຍ"
 
-#: kspread_format.cc:3110
+#: kspread_format.cc:3116
 msgid "Dalasi"
 msgstr "ດາລາຊີ"
 
-#: kspread_format.cc:3110
+#: kspread_format.cc:3116
 msgid "GMD"
 msgstr "GMD"
 
-#: kspread_format.cc:3111
+#: kspread_format.cc:3117
 msgid "Georgia"
 msgstr "ຈີໂອເກຍ"
 
-#: kspread_format.cc:3111
+#: kspread_format.cc:3117
 msgid "Lari"
 msgstr "ລາລີ"
 
-#: kspread_format.cc:3111
+#: kspread_format.cc:3117
 msgid "GEL"
 msgstr "GEL"
 
-#: kspread_format.cc:3113
+#: kspread_format.cc:3119
 msgid "German Mark"
 msgstr "ເຈັນແມນ ມາກ"
 
-#: kspread_format.cc:3113
+#: kspread_format.cc:3119
 msgid "DM"
 msgstr "DM"
 
-#: kspread_format.cc:3114
+#: kspread_format.cc:3120
 msgid "Ghana"
 msgstr "ການ້າ"
 
-#: kspread_format.cc:3114
+#: kspread_format.cc:3120
 msgid "Cedi"
 msgstr "ເຊີດິ"
 
-#: kspread_format.cc:3114
+#: kspread_format.cc:3120
 msgid "GHC"
 msgstr "GHC"
 
-#: kspread_format.cc:3115
+#: kspread_format.cc:3121
 msgid "Gibraltar"
 msgstr "ຈິບາຕ້າ"
 
-#: kspread_format.cc:3115
+#: kspread_format.cc:3121
 msgid "Gibraltar Pound"
 msgstr "ຈິບາຕ້າ ປອນ"
 
-#: kspread_format.cc:3115
+#: kspread_format.cc:3121
 msgid "GIP"
 msgstr "GIP"
 
-#: kspread_format.cc:3117
+#: kspread_format.cc:3123
 msgid "Drachma"
 msgstr "ດຣາກມາ"
 
-#: kspread_format.cc:3117
+#: kspread_format.cc:3123
 msgid "GRD"
 msgstr "GRD"
 
-#: kspread_format.cc:3118
+#: kspread_format.cc:3124
 msgid "Greenland"
 msgstr "ກີນແລນ"
 
-#: kspread_format.cc:3118
+#: kspread_format.cc:3124
 msgid "DKK"
 msgstr "DKK"
 
-#: kspread_format.cc:3119
+#: kspread_format.cc:3125
 msgid "Grenada"
 msgstr "ເຈັນນາດ້າ"
 
-#: kspread_format.cc:3120
+#: kspread_format.cc:3126
 msgid "Guadeloupe"
 msgstr "ກວົເດີໂລບ"
 
-#: kspread_format.cc:3121
+#: kspread_format.cc:3127
 msgid "Guam"
 msgstr "ກວົມຳ"
 
-#: kspread_format.cc:3122
+#: kspread_format.cc:3128
 msgid "Guatemala"
 msgstr "ກົວເຕມາລາ"
 
-#: kspread_format.cc:3122
+#: kspread_format.cc:3128
 msgid "Quetzal"
 msgstr "ເກີຊານ"
 
-#: kspread_format.cc:3122
+#: kspread_format.cc:3128
 msgid "Q"
 msgstr "Q"
 
-#: kspread_format.cc:3123
+#: kspread_format.cc:3129
 msgid "Guinea"
 msgstr "ຈີເນຍ"
 
-#: kspread_format.cc:3123
+#: kspread_format.cc:3129
 msgid "Guinea Franc"
 msgstr "ຈີເນຍ ຝຣັ່ງ"
 
-#: kspread_format.cc:3123
+#: kspread_format.cc:3129
 msgid "GNF"
 msgstr "GNF"
 
-#: kspread_format.cc:3124 kspread_format.cc:3125
+#: kspread_format.cc:3130 kspread_format.cc:3131
 msgid "Guinea-Bissau"
 msgstr "ຈີເນຍ ປີໂຊ"
 
-#: kspread_format.cc:3124
+#: kspread_format.cc:3130
 msgid "Guinea-Bissau Peso"
 msgstr "ຈີເນຍ ປີໂຊ ເປໂຊ"
 
-#: kspread_format.cc:3124
+#: kspread_format.cc:3130
 msgid "GWP"
 msgstr "GWP"
 
-#: kspread_format.cc:3126
+#: kspread_format.cc:3132
 msgid "Guyana"
 msgstr "ກູຍານ້າ"
 
-#: kspread_format.cc:3126
+#: kspread_format.cc:3132
 msgid "Guyana Dollar"
 msgstr "ກູຍານ້າ ດອນລ່າ"
 
-#: kspread_format.cc:3126
+#: kspread_format.cc:3132
 msgid "GYD"
 msgstr "GYD"
 
-#: kspread_format.cc:3127 kspread_format.cc:3128
+#: kspread_format.cc:3133 kspread_format.cc:3134
 msgid "Haiti"
 msgstr "ຮາຍຕິ"
 
-#: kspread_format.cc:3127
+#: kspread_format.cc:3133
 msgid "Gourde"
 msgstr "ູເສັ້ນຂອບ"
 
-#: kspread_format.cc:3127
+#: kspread_format.cc:3133
 msgid "HTG"
 msgstr "HTG"
 
-#: kspread_format.cc:3129
+#: kspread_format.cc:3135
 msgid "Heard Island And McDonald Islands"
 msgstr "ເຣີດ ໄອສແລນ ແລະ ແມກໂດນາດ ໄອສແລນ"
 
-#: kspread_format.cc:3130
+#: kspread_format.cc:3136
 msgid "Holy See (Vatican City State)"
 msgstr "ໂຮລີ ຊີ(ເມືອງວາຕິແຄນ)"
 
-#: kspread_format.cc:3131
+#: kspread_format.cc:3137
 msgid "Honduras"
 msgstr "ຊົວໂມງ"
 
-#: kspread_format.cc:3131
+#: kspread_format.cc:3137
 msgid "Lempira"
 msgstr "ແລມປິລ່າ"
 
-#: kspread_format.cc:3131
+#: kspread_format.cc:3137
 msgid "L"
 msgstr "L"
 
-#: kspread_format.cc:3132
+#: kspread_format.cc:3138
 msgid "Hong Kong"
 msgstr "ຫອງກົງ"
 
-#: kspread_format.cc:3132
+#: kspread_format.cc:3138
 msgid "Hong Kong Dollar"
 msgstr "ດອນລ່າ ຫອງກົງ"
 
-#: kspread_format.cc:3132
+#: kspread_format.cc:3138
 msgid "HKD"
 msgstr "HKD"
 
-#: kspread_format.cc:3133
+#: kspread_format.cc:3139
 msgid "Hungary"
 msgstr "ຮັ່ງກາລີ້"
 
-#: kspread_format.cc:3133
+#: kspread_format.cc:3139
 msgid "Forint"
 msgstr "ຟໍລີນ"
 
-#: kspread_format.cc:3133
+#: kspread_format.cc:3139
 msgid "Ft"
 msgstr "Ft"
 
-#: kspread_format.cc:3134
+#: kspread_format.cc:3140
 msgid "Iceland"
 msgstr "ໄອຊີແລນ"
 
-#: kspread_format.cc:3134
+#: kspread_format.cc:3140
 msgid "Iceland Krona"
 msgstr "ໄອຊີແລນ ໂຄນ້າ"
 
-#: kspread_format.cc:3134
+#: kspread_format.cc:3140
 msgid "kr."
 msgstr "kr"
 
-#: kspread_format.cc:3135
+#: kspread_format.cc:3141
 msgid "India"
 msgstr "ອິນເດຍ"
 
-#: kspread_format.cc:3136
+#: kspread_format.cc:3142
 msgid "Indonesia"
 msgstr "ອິນໂດນິເຊຍ"
 
-#: kspread_format.cc:3136
+#: kspread_format.cc:3142
 msgid "Rupiah"
 msgstr "ລູປີ"
 
-#: kspread_format.cc:3136
+#: kspread_format.cc:3142
 msgid "Rp"
 msgstr "Rp"
 
-#: kspread_format.cc:3137
+#: kspread_format.cc:3143
 msgid "Iran, Islamic Republic Of"
 msgstr "ອີລານ,ສາທາລະນະລັດໄອລາມິກ"
 
-#: kspread_format.cc:3137
+#: kspread_format.cc:3143
 msgid "Iranian Rial"
 msgstr "ອີລານນ້ຽນ ລິວ"
 
-#: kspread_format.cc:3137
+#: kspread_format.cc:3143
 msgid "IRR"
 msgstr "IRR"
 
-#: kspread_format.cc:3138
+#: kspread_format.cc:3144
 msgid "Iraq"
 msgstr "ອີແລບ"
 
-#: kspread_format.cc:3138
+#: kspread_format.cc:3144
 msgid "Iraqi Dinar"
 msgstr "ອີລາປີ ດິນນາ"
 
-#: kspread_format.cc:3138
+#: kspread_format.cc:3144
 msgid "IQD"
 msgstr "IQD"
 
-#: kspread_format.cc:3140
+#: kspread_format.cc:3146
 msgid "Punt"
 msgstr "ພັນ"
 
-#: kspread_format.cc:3140
+#: kspread_format.cc:3146
 msgid "IR----"
 msgstr "IR----"
 
-#: kspread_format.cc:3141
+#: kspread_format.cc:3147
 msgid "Pence"
 msgstr "ຣ້ອຍລະ"
 
-#: kspread_format.cc:3141
+#: kspread_format.cc:3147
 msgid "IEX"
 msgstr "IEX"
 
-#: kspread_format.cc:3142
+#: kspread_format.cc:3148
 msgid "Israel"
 msgstr "ອິສລາເອລ"
 
-#: kspread_format.cc:3142
+#: kspread_format.cc:3148
 msgid "New Israeli Sheqel"
 msgstr "ອິສະລະເອລເຊີເກີລ ໃຫມ່"
 
-#: kspread_format.cc:3142
+#: kspread_format.cc:3148
 msgid "ILS"
 msgstr "ILS"
 
-#: kspread_format.cc:3144
+#: kspread_format.cc:3150
 msgid "Lira"
 msgstr "ລີລ້າ"
 
-#: kspread_format.cc:3144
+#: kspread_format.cc:3150
 msgid "L."
 msgstr "L."
 
-#: kspread_format.cc:3145
+#: kspread_format.cc:3151
 msgid "Jamaica"
 msgstr "ຈາໄມກ້າ"
 
-#: kspread_format.cc:3145
+#: kspread_format.cc:3151
 msgid "Jamaican Dollar"
 msgstr "ຈາໄມກ້າ ດອນລ່າ"
 
-#: kspread_format.cc:3145
+#: kspread_format.cc:3151
 msgid "J$"
 msgstr "J$"
 
-#: kspread_format.cc:3146
+#: kspread_format.cc:3152
 msgid "JPY"
 msgstr "JPY"
 
-#: kspread_format.cc:3147
+#: kspread_format.cc:3153
 msgid "Jordan"
 msgstr "ຈໍແດນ"
 
-#: kspread_format.cc:3147
+#: kspread_format.cc:3153
 msgid "Jordanian Dinar"
 msgstr "ຈໍດານຽນ ດິນນ້າ"
 
-#: kspread_format.cc:3147
+#: kspread_format.cc:3153
 msgid "JOD"
 msgstr "JOD"
 
-#: kspread_format.cc:3148
+#: kspread_format.cc:3154
 msgid "Kazakhstan"
 msgstr "ກາຊາກສະຖານ"
 
-#: kspread_format.cc:3148
+#: kspread_format.cc:3154
 msgid "Tenge"
 msgstr "ມູມ"
 
-#: kspread_format.cc:3148
+#: kspread_format.cc:3154
 msgid "KZT"
 msgstr "KZT"
 
-#: kspread_format.cc:3149
+#: kspread_format.cc:3155
 msgid "Kenya"
 msgstr "ເຄນຍ້າ"
 
-#: kspread_format.cc:3149
+#: kspread_format.cc:3155
 msgid "Kenyan Shilling"
 msgstr "ເຄນຍ້າຍ ຊິລລີງ"
 
-#: kspread_format.cc:3149
+#: kspread_format.cc:3155
 msgid "KES"
 msgstr "KES"
 
-#: kspread_format.cc:3150
+#: kspread_format.cc:3156
 msgid "Kiribati"
 msgstr "ກິລິບາຕິ"
 
-#: kspread_format.cc:3151
+#: kspread_format.cc:3157
 msgid "Korea, Democratic People's Republic Of"
 msgstr "ສາທາລະນະລັດ ປະຊາຊົນເກົາລີ"
 
-#: kspread_format.cc:3151
+#: kspread_format.cc:3157
 msgid "North Korean Won"
 msgstr "ເກົາລີເໜືອ"
 
-#: kspread_format.cc:3151
+#: kspread_format.cc:3157
 msgid "KPW"
 msgstr "KPW"
 
-#: kspread_format.cc:3152
+#: kspread_format.cc:3158
 msgid "Korea, Republic Of"
 msgstr "ສະທາລະນະລັດ ເກົາລີ"
 
-#: kspread_format.cc:3152
+#: kspread_format.cc:3158
 msgid "Won"
 msgstr "ວອນ"
 
-#: kspread_format.cc:3152
+#: kspread_format.cc:3158
 msgid "KRW"
 msgstr "KRW"
 
-#: kspread_format.cc:3153
+#: kspread_format.cc:3159
 msgid "Kuwait"
 msgstr "ຄູເວັດ"
 
-#: kspread_format.cc:3153
+#: kspread_format.cc:3159
 msgid "Kuwaiti Dinar"
 msgstr "ກູເວັດ ດິນນ້າ"
 
-#: kspread_format.cc:3153
+#: kspread_format.cc:3159
 msgid "KWD"
 msgstr "KWD"
 
-#: kspread_format.cc:3154
+#: kspread_format.cc:3160
 msgid "Kyrgyzstan"
 msgstr "ກີກີສະຖານ"
 
-#: kspread_format.cc:3154
+#: kspread_format.cc:3160
 msgid "Som"
 msgstr "ສອມ"
 
-#: kspread_format.cc:3154
+#: kspread_format.cc:3160
 msgid "KGS"
 msgstr "KGS"
 
-#: kspread_format.cc:3155
+#: kspread_format.cc:3161
 msgid "Lao People's Democratic Republic"
 msgstr "ສະທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"
 
-#: kspread_format.cc:3155
+#: kspread_format.cc:3161
 msgid "Kip"
 msgstr "ກີບ"
 
-#: kspread_format.cc:3155
+#: kspread_format.cc:3161
 msgid "LAK"
 msgstr "LAK"
 
-#: kspread_format.cc:3156
+#: kspread_format.cc:3162
 msgid "Latvia"
 msgstr "ລັດເວຍ"
 
-#: kspread_format.cc:3156
+#: kspread_format.cc:3162
 msgid "Latvian Lats"
 msgstr "ລາວຽນ ລັດ"
 
-#: kspread_format.cc:3156
+#: kspread_format.cc:3162
 msgid "Ls"
 msgstr "Ls "
 
-#: kspread_format.cc:3157
+#: kspread_format.cc:3163
 msgid "Lebanon"
 msgstr "ເລີບານູນ"
 
-#: kspread_format.cc:3157
+#: kspread_format.cc:3163
 msgid "Lebanese Pound"
 msgstr "ເລີບານນິສ ປອນ"
 
-#: kspread_format.cc:3157
+#: kspread_format.cc:3163
 msgid "LBP"
 msgstr "LBP"
 
-#: kspread_format.cc:3158 kspread_format.cc:3159
+#: kspread_format.cc:3164 kspread_format.cc:3165
 msgid "Lesotho"
 msgstr "ເລີໂຊໂຕ້"
 
-#: kspread_format.cc:3158 kspread_format.cc:3189 kspread_format.cc:3241
+#: kspread_format.cc:3164 kspread_format.cc:3195 kspread_format.cc:3247
 msgid "Rand"
 msgstr "ແລນ"
 
-#: kspread_format.cc:3158 kspread_format.cc:3189
+#: kspread_format.cc:3164 kspread_format.cc:3195
 msgid "ZAR"
 msgstr "ZAR"
 
-#: kspread_format.cc:3159
+#: kspread_format.cc:3165
 msgid "Loti"
 msgstr "ໂລຕິ"
 
-#: kspread_format.cc:3159
+#: kspread_format.cc:3165
 msgid "LSL"
 msgstr "LSL"
 
-#: kspread_format.cc:3160
+#: kspread_format.cc:3166
 msgid "Liberia"
 msgstr "ລີເບີເລຍ"
 
-#: kspread_format.cc:3160
+#: kspread_format.cc:3166
 msgid "Liberian Dollar"
 msgstr "ລີເບີລຽນ້ ດອນລ່າ"
 
-#: kspread_format.cc:3160
+#: kspread_format.cc:3166
 msgid "LRD"
 msgstr "LRD"
 
-#: kspread_format.cc:3161
+#: kspread_format.cc:3167
 msgid "Libyan Arab Jamahiriya"
 msgstr "ລິບຢານ ອາລັບ ຈາມາຫິລີຢ້າ"
 
-#: kspread_format.cc:3161
+#: kspread_format.cc:3167
 msgid "Lybian Dinar"
 msgstr "ລີບຽນ ດິນນ້າ"
 
-#: kspread_format.cc:3161
+#: kspread_format.cc:3167
 msgid "LYD"
 msgstr "LYD"
 
-#: kspread_format.cc:3162
+#: kspread_format.cc:3168
 msgid "Liechtenstein"
 msgstr "ລີສເທັນທຽນ"
 
-#: kspread_format.cc:3162 kspread_format.cc:3250
+#: kspread_format.cc:3168 kspread_format.cc:3256
 msgid "Swiss Franc"
 msgstr "ສະວິສ ຝຣັ່ງ"
 
-#: kspread_format.cc:3162
+#: kspread_format.cc:3168
 msgid "CHF"
 msgstr "CHF"
 
-#: kspread_format.cc:3163
+#: kspread_format.cc:3169
 msgid "Lithuania"
 msgstr "ລິຕູອານເນຍ"
 
-#: kspread_format.cc:3163
+#: kspread_format.cc:3169
 msgid "Lithuanian Litus"
 msgstr "ລິຕູນ໊ຽນ ລີຕັສ"
 
-#: kspread_format.cc:3163
+#: kspread_format.cc:3169
 msgid "Lt"
 msgstr "Lt"
 
-#: kspread_format.cc:3166
+#: kspread_format.cc:3172
 msgid "Macao"
 msgstr "ມາຄາວ"
 
-#: kspread_format.cc:3166
+#: kspread_format.cc:3172
 msgid "Pataca"
 msgstr "ປາຕາກ້າ"
 
-#: kspread_format.cc:3166
+#: kspread_format.cc:3172
 msgid "MOP"
 msgstr "MOP"
 
-#: kspread_format.cc:3167
+#: kspread_format.cc:3173
 msgid "Macedonia, The Former Yugoslav Republic Of"
 msgstr "ແມັກໂຄເນຍ ສະທາລະນະລັດຢູໂກສະລາ"
 
-#: kspread_format.cc:3167
+#: kspread_format.cc:3173
 msgid "Denar"
 msgstr "ດີນນ້າ"
 
-#: kspread_format.cc:3167
+#: kspread_format.cc:3173
 msgid "MKD"
 msgstr "MKD"
 
-#: kspread_format.cc:3168
+#: kspread_format.cc:3174
 msgid "Madagascar"
 msgstr "ມາດາກາສກ້າ"
 
-#: kspread_format.cc:3168
+#: kspread_format.cc:3174
 msgid "Malagasy Franc"
 msgstr "ມາລາກາສຊີ້ ຝຣັ່ງ"
 
-#: kspread_format.cc:3168
+#: kspread_format.cc:3174
 msgid "MGF"
 msgstr "MGF"
 
-#: kspread_format.cc:3169
+#: kspread_format.cc:3175
 msgid "Malawi"
 msgstr "ມາລາວີ"
 
-#: kspread_format.cc:3169 kspread_format.cc:3282
+#: kspread_format.cc:3175 kspread_format.cc:3288
 msgid "Kwacha"
 msgstr "ເຄວາສະ"
 
-#: kspread_format.cc:3169
+#: kspread_format.cc:3175
 msgid "MWK"
 msgstr "MWK"
 
-#: kspread_format.cc:3170
+#: kspread_format.cc:3176
 msgid "Malaysia"
 msgstr "ມາເລເຊຍ"
 
-#: kspread_format.cc:3170
+#: kspread_format.cc:3176
 msgid "Malaysian Ringgit"
 msgstr "ມາເລຊຽ້ນ ລີງກິດ"
 
-#: kspread_format.cc:3170
+#: kspread_format.cc:3176
 msgid "MYR"
 msgstr "MYR"
 
-#: kspread_format.cc:3171
+#: kspread_format.cc:3177
 msgid "Maldives"
 msgstr "ມາລດິເວັສ"
 
-#: kspread_format.cc:3171
+#: kspread_format.cc:3177
 msgid "Rufiyaa"
 msgstr "ລູພີຢ້າ"
 
-#: kspread_format.cc:3171
+#: kspread_format.cc:3177
 msgid "MVR"
 msgstr "MVR"
 
-#: kspread_format.cc:3172
+#: kspread_format.cc:3178
 msgid "Mali"
 msgstr "ມາລີ"
 
-#: kspread_format.cc:3173
+#: kspread_format.cc:3179
 msgid "Malta"
 msgstr "ມາຕ້າ"
 
-#: kspread_format.cc:3173
+#: kspread_format.cc:3179
 msgid "Maltese Lira"
 msgstr "ມາລທີສ ລີລ້າ"
 
-#: kspread_format.cc:3173
+#: kspread_format.cc:3179
 msgid "MTL"
 msgstr "MTL"
 
-#: kspread_format.cc:3174
+#: kspread_format.cc:3180
 msgid "Marshall Islands"
 msgstr "ມາເຊລ ໄອສແລນ"
 
-#: kspread_format.cc:3175
+#: kspread_format.cc:3181
 msgid "Martinique"
 msgstr "ມາຕິນິເກີ"
 
-#: kspread_format.cc:3176
+#: kspread_format.cc:3182
 msgid "Mauritania"
 msgstr "ມາອູລີຕາເນຍ"
 
-#: kspread_format.cc:3176
+#: kspread_format.cc:3182
 msgid "Ouguiya"
 msgstr "ໂອກູອີຢ້າ"
 
-#: kspread_format.cc:3176
+#: kspread_format.cc:3182
 msgid "MRO"
 msgstr "MRO"
 
-#: kspread_format.cc:3177
+#: kspread_format.cc:3183
 msgid "Mauritius"
 msgstr "ມາອູລີຕິອັສ"
 
-#: kspread_format.cc:3177
+#: kspread_format.cc:3183
 msgid "Mauritius Rupee"
 msgstr "ມາອູຕິອັສ ລູປີ"
 
-#: kspread_format.cc:3177
+#: kspread_format.cc:3183
 msgid "MUR"
 msgstr "MUR"
 
-#: kspread_format.cc:3178
+#: kspread_format.cc:3184
 msgid "Mayotte"
 msgstr "ມາໂຢເຕີ"
 
-#: kspread_format.cc:3179 kspread_format.cc:3180
+#: kspread_format.cc:3185 kspread_format.cc:3186
 msgid "Mexico"
 msgstr "ແມັກຊີໂກ"
 
-#: kspread_format.cc:3179
+#: kspread_format.cc:3185
 msgid "Mexican Peso"
 msgstr "ແມັກຊີກັນ ເປໂຊ"
 
-#: kspread_format.cc:3179
+#: kspread_format.cc:3185
 msgid "MXN"
 msgstr "MXN"
 
-#: kspread_format.cc:3180
+#: kspread_format.cc:3186
 msgid "Mexican Unidad de Inversion (UDI)"
 msgstr "ແມັກຊີ ຢູນິເດັດ ເດີ ອິນເວີຊັ້ນ (UDI)"
 
-#: kspread_format.cc:3180
+#: kspread_format.cc:3186
 msgid "MXV"
 msgstr "MXV"
 
-#: kspread_format.cc:3181
+#: kspread_format.cc:3187
 msgid "Micronesia, Federated States Of"
 msgstr "ໄມໂຄນິຊຽຍ, ເຟີເດີເລັດ"
 
-#: kspread_format.cc:3182
+#: kspread_format.cc:3188
 msgid "Moldova, Republic Of"
 msgstr "ສະທາລະນະລັດໂມລໂດວ່າ"
 
-#: kspread_format.cc:3182
+#: kspread_format.cc:3188
 msgid "Moldovan Leu"
 msgstr "ໂມໂດວານ"
 
-#: kspread_format.cc:3182
+#: kspread_format.cc:3188
 msgid "MDL"
 msgstr "MDL"
 
-#: kspread_format.cc:3184
+#: kspread_format.cc:3190
 msgid "Mongolia"
 msgstr "ມອງໂກເລຍ"
 
-#: kspread_format.cc:3184
+#: kspread_format.cc:3190
 msgid "Tugrik"
 msgstr "ຕູລິກ"
 
-#: kspread_format.cc:3184
+#: kspread_format.cc:3190
 msgid "MNT"
 msgstr "MNT"
 
-#: kspread_format.cc:3185
+#: kspread_format.cc:3191
 msgid "Montserrat"
 msgstr "ມອນເຊີເລັດ"
 
-#: kspread_format.cc:3186
+#: kspread_format.cc:3192
 msgid "Morocco"
 msgstr "ໂມໂຣກໂຄ"
 
-#: kspread_format.cc:3186 kspread_format.cc:3279
+#: kspread_format.cc:3192 kspread_format.cc:3285
 msgid "Moroccan Dirham"
 msgstr "ໂມໂຣກແຄນ ເດີແຮມ"
 
-#: kspread_format.cc:3186 kspread_format.cc:3279
+#: kspread_format.cc:3192 kspread_format.cc:3285
 msgid "MAD"
 msgstr "MAD"
 
-#: kspread_format.cc:3187
+#: kspread_format.cc:3193
 msgid "Mozambique"
 msgstr "ໂມຊາມບີເກີ"
 
-#: kspread_format.cc:3187
+#: kspread_format.cc:3193
 msgid "Metical"
 msgstr "ເມັດຕິຄອລ"
 
-#: kspread_format.cc:3187
+#: kspread_format.cc:3193
 msgid "MZM"
 msgstr "MZM"
 
-#: kspread_format.cc:3188
+#: kspread_format.cc:3194
 msgid "Myanmar"
 msgstr "ພະມ້າ"
 
-#: kspread_format.cc:3188
+#: kspread_format.cc:3194
 msgid "Kyat"
 msgstr "ເຢັດ"
 
-#: kspread_format.cc:3188
+#: kspread_format.cc:3194
 msgid "MMK"
 msgstr "MMK"
 
-#: kspread_format.cc:3189 kspread_format.cc:3190
+#: kspread_format.cc:3195 kspread_format.cc:3196
 msgid "Namibia"
 msgstr "ນາມິເບຍ"
 
-#: kspread_format.cc:3190
+#: kspread_format.cc:3196
 msgid "Namibia Dollar"
 msgstr "ນາມິເບຍ ດອນລ່າ"
 
-#: kspread_format.cc:3190
+#: kspread_format.cc:3196
 msgid "NAD"
 msgstr "NAD"
 
-#: kspread_format.cc:3191
+#: kspread_format.cc:3197
 msgid "Nauru"
 msgstr "ໂນລູ"
 
-#: kspread_format.cc:3192
+#: kspread_format.cc:3198
 msgid "Nepal"
 msgstr "ເນປານ"
 
-#: kspread_format.cc:3192
+#: kspread_format.cc:3198
 msgid "Nepalese Rupee"
 msgstr "ເນປານ ລູປີ "
 
-#: kspread_format.cc:3192
+#: kspread_format.cc:3198
 msgid "NPR"
 msgstr "NPR"
 
-#: kspread_format.cc:3194
+#: kspread_format.cc:3200
 msgid "Guilder"
 msgstr "ກີເດີ"
 
-#: kspread_format.cc:3194
+#: kspread_format.cc:3200
 msgid "fl"
 msgstr "fl"
 
-#: kspread_format.cc:3195
+#: kspread_format.cc:3201
 msgid "Netherlands Antilles"
 msgstr "ເນເທີແລນ ອານຕິ"
 
-#: kspread_format.cc:3195
+#: kspread_format.cc:3201
 msgid "Netherlands Antillan Guilder"
 msgstr "ເນເທີແລນ ອານຕິລານ ກິເດີ"
 
-#: kspread_format.cc:3195
+#: kspread_format.cc:3201
 msgid "ANG"
 msgstr "ANG"
 
-#: kspread_format.cc:3196
+#: kspread_format.cc:3202
 msgid "New Caledonia"
 msgstr "ຄາເລີໂດເນຍ ໃຫມ່"
 
-#: kspread_format.cc:3198
+#: kspread_format.cc:3204
 msgid "Nicaragua"
 msgstr "ນິຄາລາກົວ"
 
-#: kspread_format.cc:3198
+#: kspread_format.cc:3204
 msgid "Cordoba Oro"
 msgstr "ກໍໂດບາ ໂອໂຣ"
 
-#: kspread_format.cc:3198
+#: kspread_format.cc:3204
 msgid "NIO"
 msgstr "NIO"
 
-#: kspread_format.cc:3199
+#: kspread_format.cc:3205
 msgid "Niger"
 msgstr "ນິເກີ"
 
-#: kspread_format.cc:3200
+#: kspread_format.cc:3206
 msgid "Nigeria"
 msgstr "ນິເກີເລຍ"
 
-#: kspread_format.cc:3200
+#: kspread_format.cc:3206
 msgid "Naira"
 msgstr "ເນຍລາ"
 
-#: kspread_format.cc:3200
+#: kspread_format.cc:3206
 msgid "NGN"
 msgstr "NGN"
 
-#: kspread_format.cc:3201
+#: kspread_format.cc:3207
 msgid "Niue"
 msgstr "ນິອູ"
 
-#: kspread_format.cc:3202
+#: kspread_format.cc:3208
 msgid "Norfolk Islands"
 msgstr "ນໍຟອກ ໄອສແລນ"
 
-#: kspread_format.cc:3203
+#: kspread_format.cc:3209
 msgid "Northern Mariana Islands"
 msgstr "ມາລິນາ ໄອສແລນເໜືອ"
 
-#: kspread_format.cc:3204
+#: kspread_format.cc:3210
 msgid "Norway"
 msgstr "ນໍເວ"
 
-#: kspread_format.cc:3204 kspread_format.cc:3247
+#: kspread_format.cc:3210 kspread_format.cc:3253
 msgid "Norwegian Krone"
 msgstr "ນໍວີກຽນ ກອນ"
 
-#: kspread_format.cc:3205
+#: kspread_format.cc:3211
 msgid "Oman"
 msgstr "ໂອແມນ"
 
-#: kspread_format.cc:3205
+#: kspread_format.cc:3211
 msgid "Rial Omani"
 msgstr "ລີວ ໂອມານິ"
 
-#: kspread_format.cc:3205
+#: kspread_format.cc:3211
 msgid "OMR"
 msgstr "OMR"
 
-#: kspread_format.cc:3206
+#: kspread_format.cc:3212
 msgid "Pakistan"
 msgstr "ປາກີສະຖານ"
 
-#: kspread_format.cc:3206
+#: kspread_format.cc:3212
 msgid "Pakistan Rupee"
 msgstr "ປາກີສະຖານ ລູປີ"
 
-#: kspread_format.cc:3206
+#: kspread_format.cc:3212
 msgid "PKR"
 msgstr "PKR"
 
-#: kspread_format.cc:3207
+#: kspread_format.cc:3213
 msgid "Palau"
 msgstr "ປາໂລ"
 
-#: kspread_format.cc:3208 kspread_format.cc:3209
+#: kspread_format.cc:3214 kspread_format.cc:3215
 msgid "Panama"
 msgstr "ປານາມາ"
 
-#: kspread_format.cc:3208
+#: kspread_format.cc:3214
 msgid "Balboa"
 msgstr "ບາລໂບ"
 
-#: kspread_format.cc:3208
+#: kspread_format.cc:3214
 msgid "PAB"
 msgstr "PAB"
 
-#: kspread_format.cc:3210
+#: kspread_format.cc:3216
 msgid "Papua New Guinea"
 msgstr "ປາປົວ ນິວກີນີ"
 
-#: kspread_format.cc:3210
+#: kspread_format.cc:3216
 msgid "Kina"
 msgstr "ກີນ້າ"
 
-#: kspread_format.cc:3210
+#: kspread_format.cc:3216
 msgid "PGK"
 msgstr "PGK"
 
-#: kspread_format.cc:3211
+#: kspread_format.cc:3217
 msgid "Paraguay"
 msgstr "ປາລາກົວ"
 
-#: kspread_format.cc:3211
+#: kspread_format.cc:3217
 msgid "Guarani"
 msgstr "ກວົລານິ"
 
-#: kspread_format.cc:3211
+#: kspread_format.cc:3217
 msgid "G"
 msgstr "G"
 
-#: kspread_format.cc:3212
+#: kspread_format.cc:3218
 msgid "Peru"
 msgstr "ເປີລູ"
 
-#: kspread_format.cc:3212
+#: kspread_format.cc:3218
 msgid "Nuevo Sol"
 msgstr "ນູໂວ ຊອລ"
 
-#: kspread_format.cc:3212
+#: kspread_format.cc:3218
 msgid "PEN"
 msgstr "PEN"
 
-#: kspread_format.cc:3213
+#: kspread_format.cc:3219
 msgid "Philippines"
 msgstr "ຟິລີບປິນ"
 
-#: kspread_format.cc:3213
+#: kspread_format.cc:3219
 msgid "Philippine Peso"
 msgstr "ຟິລີປິນ ເປໂຊ"
 
-#: kspread_format.cc:3213
+#: kspread_format.cc:3219
 msgid "PHP"
 msgstr "PHP"
 
-#: kspread_format.cc:3214
+#: kspread_format.cc:3220
 msgid "Pitcairn"
 msgstr "ປິດຄາລິນ"
 
-#: kspread_format.cc:3215
+#: kspread_format.cc:3221
 msgid "Poland"
 msgstr "ໂປແລນ"
 
-#: kspread_format.cc:3215
+#: kspread_format.cc:3221
 msgid "Zloty"
 msgstr "ໂຊຕິ້"
 
-#: kspread_format.cc:3215
+#: kspread_format.cc:3221
 msgid "zt"
 msgstr "zt"
 
-#: kspread_format.cc:3217
+#: kspread_format.cc:3223
 msgid "Escudo"
 msgstr "ເອັສກູໂດ້"
 
-#: kspread_format.cc:3217
+#: kspread_format.cc:3223
 msgid "Esc."
 msgstr "Esc."
 
-#: kspread_format.cc:3218
+#: kspread_format.cc:3224
 msgid "Puerto Rico"
 msgstr "ປູໂຕ້ ລິໂຄ"
 
-#: kspread_format.cc:3219
+#: kspread_format.cc:3225
 msgid "Qatar"
 msgstr "ກາຕ້າ"
 
-#: kspread_format.cc:3219
+#: kspread_format.cc:3225
 msgid "Qatari Rial"
 msgstr "ກາຕ້າລິ ລິວ"
 
-#: kspread_format.cc:3219
+#: kspread_format.cc:3225
 msgid "QAR"
 msgstr "QAR"
 
-#: kspread_format.cc:3220
+#: kspread_format.cc:3226
 msgid "Romania"
 msgstr "ໂລມາເນຍ"
 
-#: kspread_format.cc:3220
+#: kspread_format.cc:3226
 msgid "Leu"
 msgstr "Leu"
 
-#: kspread_format.cc:3220
+#: kspread_format.cc:3226
 msgid "LEI"
 msgstr "LEI"
 
-#: kspread_format.cc:3221 kspread_format.cc:3222
+#: kspread_format.cc:3227 kspread_format.cc:3228
 msgid "Russian Federation"
 msgstr "ລັດເຊຍ ເຟີເດີລາຊັ້ນ"
 
-#: kspread_format.cc:3221 kspread_format.cc:3222
+#: kspread_format.cc:3227 kspread_format.cc:3228
 msgid "Russian Ruble"
 msgstr "ລັດເຊຍ ລູເປີ"
 
-#: kspread_format.cc:3221
+#: kspread_format.cc:3227
 msgid "RUR"
 msgstr "RUR"
 
-#: kspread_format.cc:3222
+#: kspread_format.cc:3228
 msgid "RUB"
 msgstr "RUB"
 
-#: kspread_format.cc:3223
+#: kspread_format.cc:3229
 msgid "Rwanda"
 msgstr "ອາວານດ້າ"
 
-#: kspread_format.cc:3223
+#: kspread_format.cc:3229
 msgid "Rwanda Franc"
 msgstr "ອາວານດ້ານ ຝຣັ່ງ"
 
-#: kspread_format.cc:3223
+#: kspread_format.cc:3229
 msgid "RWF"
 msgstr "RWF"
 
-#: kspread_format.cc:3224
+#: kspread_format.cc:3230
 msgid "Saint Helena"
 msgstr "ແຊນ ເຮີເລີນ້າ"
 
-#: kspread_format.cc:3224
+#: kspread_format.cc:3230
 msgid "Saint Helena Pound"
 msgstr "ແຊນ ເຮີເລີນນ້າ ປອນS"
 
-#: kspread_format.cc:3224
+#: kspread_format.cc:3230
 msgid "SHP"
 msgstr "SHP"
 
-#: kspread_format.cc:3225
+#: kspread_format.cc:3231
 msgid "Saint Kitts And Nevis"
 msgstr "ແຊນ ຄິດ ແລະ ເນວິສ"
 
-#: kspread_format.cc:3226
+#: kspread_format.cc:3232
 msgid "Saint Lucia"
 msgstr "ແຊນ ລູເຊຍ"
 
-#: kspread_format.cc:3227
+#: kspread_format.cc:3233
 msgid "Saint Pierre And Miquelon"
 msgstr "ແຊນ ປີເລີ ແລະ ເອັມເກີລອນ"
 
-#: kspread_format.cc:3228
+#: kspread_format.cc:3234
 msgid "Saint Vincent And The Grenadines"
 msgstr "ແຊນ ວິນເຊັນ ແລະ ເຈັນນາດິນ"
 
-#: kspread_format.cc:3229
+#: kspread_format.cc:3235
 msgid "Samoa"
 msgstr "ສາມົວ"
 
-#: kspread_format.cc:3229
+#: kspread_format.cc:3235
 msgid "Tala"
 msgstr "ຕາລາ"
 
-#: kspread_format.cc:3229
+#: kspread_format.cc:3235
 msgid "WST"
 msgstr "WST"
 
-#: kspread_format.cc:3230
+#: kspread_format.cc:3236
 msgid "San Marino"
 msgstr "ແຊນ ມາລິນໂນ້"
 
-#: kspread_format.cc:3231
+#: kspread_format.cc:3237
 msgid "Sao Tome And Principe"
 msgstr "ເສົາ ຕອມ ແລະ ພິນຊີເປີ"
 
-#: kspread_format.cc:3231
+#: kspread_format.cc:3237
 msgid "Dobra"
 msgstr "ໂດບາ"
 
-#: kspread_format.cc:3231
+#: kspread_format.cc:3237
 msgid "STD"
 msgstr "STD"
 
-#: kspread_format.cc:3232
+#: kspread_format.cc:3238
 msgid "Saudi Arabia"
 msgstr "ໂຊດິ ອາລາເບຍ"
 
-#: kspread_format.cc:3232
+#: kspread_format.cc:3238
 msgid "Saudi Riyal"
 msgstr "ຊົວດິ ລິຢາ"
 
-#: kspread_format.cc:3232
+#: kspread_format.cc:3238
 msgid "SAR"
 msgstr "SAR"
 
-#: kspread_format.cc:3233
+#: kspread_format.cc:3239
 msgid "Senegal"
 msgstr "ເຊີເນີກາຣ"
 
-#: kspread_format.cc:3234
+#: kspread_format.cc:3240
 msgid "Seychelles"
 msgstr "ເຊີເຊີເລີ"
 
-#: kspread_format.cc:3234
+#: kspread_format.cc:3240
 msgid "Seychelles Rupee"
 msgstr "ເຊີເຊີເລີ ລູປີ"
 
-#: kspread_format.cc:3234
+#: kspread_format.cc:3240
 msgid "SCR"
 msgstr "SCR"
 
-#: kspread_format.cc:3235
+#: kspread_format.cc:3241
 msgid "Sierra Leone"
 msgstr "ເຊຍລາ ລີອອນ"
 
-#: kspread_format.cc:3235
+#: kspread_format.cc:3241
 msgid "Leone"
 msgstr "ລີອອນ"
 
-#: kspread_format.cc:3235
+#: kspread_format.cc:3241
 msgid "SLL"
 msgstr "SLL"
 
-#: kspread_format.cc:3236
+#: kspread_format.cc:3242
 msgid "Singapore"
 msgstr "ສິງກາໂປ"
 
-#: kspread_format.cc:3236
+#: kspread_format.cc:3242
 msgid "Singapore Dollar"
 msgstr "ສິງກາໂປ ດອນລ່າ"
 
-#: kspread_format.cc:3236
+#: kspread_format.cc:3242
 msgid "SGD"
 msgstr "SGD"
 
-#: kspread_format.cc:3237
+#: kspread_format.cc:3243
 msgid "Slovakia"
 msgstr "ສະໂລວາເກຍ"
 
-#: kspread_format.cc:3237
+#: kspread_format.cc:3243
 msgid "Slovak Koruna"
 msgstr "ສະໂລວາກ ໂກລູນ້າ"
 
-#: kspread_format.cc:3237
+#: kspread_format.cc:3243
 msgid "Sk"
 msgstr "Sk"
 
-#: kspread_format.cc:3238
+#: kspread_format.cc:3244
 msgid "Slovenia"
 msgstr "ສະໂລເວັນເນຍ"
 
-#: kspread_format.cc:3238
+#: kspread_format.cc:3244
 msgid "Tolar"
 msgstr "ໂຕລ້າ"
 
-#: kspread_format.cc:3238
+#: kspread_format.cc:3244
 msgid "SIT"
 msgstr "SIT"
 
-#: kspread_format.cc:3239
+#: kspread_format.cc:3245
 msgid "Solomon Islands"
 msgstr "ສະໂລມອນ ໄອສແລນ"
 
-#: kspread_format.cc:3239
+#: kspread_format.cc:3245
 msgid "Solomon Islands Dollar"
 msgstr "ສະໂລມອນ ໄອສແລນ ດອນລ່າ"
 
-#: kspread_format.cc:3239
+#: kspread_format.cc:3245
 msgid "SBD"
 msgstr "SBD"
 
-#: kspread_format.cc:3240
+#: kspread_format.cc:3246
 msgid "Somalia"
 msgstr "ໂຊມາເລຍ"
 
-#: kspread_format.cc:3240
+#: kspread_format.cc:3246
 msgid "Somali Shilling"
 msgstr "ສະໂລມາລີ "
 
-#: kspread_format.cc:3240
+#: kspread_format.cc:3246
 msgid "SOS"
 msgstr "SOS"
 
-#: kspread_format.cc:3241
+#: kspread_format.cc:3247
 msgid "South Africa"
 msgstr "ອາຟິກາ ໃຕ້"
 
-#: kspread_format.cc:3241
+#: kspread_format.cc:3247
 msgid "R"
 msgstr "R"
 
-#: kspread_format.cc:3243
+#: kspread_format.cc:3249
 msgid "Peseta"
 msgstr "ເປເຊີຕ້າ"
 
-#: kspread_format.cc:3243
+#: kspread_format.cc:3249
 msgid "Pts"
 msgstr "Pts"
 
-#: kspread_format.cc:3244
+#: kspread_format.cc:3250
 msgid "Sri Lanka"
 msgstr "ສະລິ ລານກ້າ"
 
-#: kspread_format.cc:3244
+#: kspread_format.cc:3250
 msgid "Sri Lanka Rupee"
 msgstr "ສະລິ ລານກ້າ ລູປີ"
 
-#: kspread_format.cc:3244
+#: kspread_format.cc:3250
 msgid "LKR"
 msgstr "LKR"
 
-#: kspread_format.cc:3245
+#: kspread_format.cc:3251
 msgid "Sudan"
 msgstr "ສູດານ"
 
-#: kspread_format.cc:3245
+#: kspread_format.cc:3251
 msgid "Sudanese Dinar"
 msgstr "ສະດານນີສ ດ່ຽນນ້າ"
 
-#: kspread_format.cc:3245
+#: kspread_format.cc:3251
 msgid "SDD"
 msgstr "SDD"
 
-#: kspread_format.cc:3246
+#: kspread_format.cc:3252
 msgid "Suriname"
 msgstr "ສູລິນາມ"
 
-#: kspread_format.cc:3246
+#: kspread_format.cc:3252
 msgid "Suriname Guilder"
 msgstr "ສູລິນາມ ກົວເດີ"
 
-#: kspread_format.cc:3246
+#: kspread_format.cc:3252
 msgid "SRG"
 msgstr "SRG"
 
-#: kspread_format.cc:3247
+#: kspread_format.cc:3253
 msgid "Svalbard And Jan Mayen"
 msgstr "ສະວານບາຣດ ແລະ ແຈນມາເຢັນ"
 
-#: kspread_format.cc:3248
+#: kspread_format.cc:3254
 msgid "Swaziland"
 msgstr "ສະວິສເຊີແລນ"
 
-#: kspread_format.cc:3248
+#: kspread_format.cc:3254
 msgid "Lilangeni"
 msgstr "ລີລານເຈີນິ"
 
-#: kspread_format.cc:3248
+#: kspread_format.cc:3254
 msgid "SZL"
 msgstr "SZL"
 
-#: kspread_format.cc:3249
+#: kspread_format.cc:3255
 msgid "Sweden"
 msgstr "ສະວິເດັ່ນ"
 
-#: kspread_format.cc:3249
+#: kspread_format.cc:3255
 msgid "Swedish Krona"
 msgstr "ສະວິດີສ ໂກນ້າ"
 
-#: kspread_format.cc:3250
+#: kspread_format.cc:3256
 msgid "Switzerland"
 msgstr "ສະວິສເຊີແລນ"
 
-#: kspread_format.cc:3250
+#: kspread_format.cc:3256
 msgid "SFr."
 msgstr "SFr."
 
-#: kspread_format.cc:3251
+#: kspread_format.cc:3257
 msgid "Syrian Arab Republic"
 msgstr "ສາທາລະນະລັດ ໄຊລຽນອາລັບ"
 
-#: kspread_format.cc:3251
+#: kspread_format.cc:3257
 msgid "Syrian Pound"
 msgstr "ໄຊຢານ ປອນ"
 
-#: kspread_format.cc:3251
+#: kspread_format.cc:3257
 msgid "SYP"
 msgstr "SYP"
 
-#: kspread_format.cc:3252
+#: kspread_format.cc:3258
 msgid "Taiwan, Province Of China"
 msgstr "ໄຕຫວັນ, ແຂວງຂອງຈີນ"
 
-#: kspread_format.cc:3252
+#: kspread_format.cc:3258
 msgid "New Taiwan Dollar"
 msgstr "ໄຕຫັວນ ດອນລ່າ"
 
-#: kspread_format.cc:3252
+#: kspread_format.cc:3258
 msgid "TWD"
 msgstr "TWD"
 
-#: kspread_format.cc:3253
+#: kspread_format.cc:3259
 msgid "Tajikistan"
 msgstr "ທາຈິກິສຖານ"
 
-#: kspread_format.cc:3253
+#: kspread_format.cc:3259
 msgid "Somoni"
 msgstr "ໂຊໂມນິ"
 
-#: kspread_format.cc:3253
+#: kspread_format.cc:3259
 msgid "TJS"
 msgstr "TJS"
 
-#: kspread_format.cc:3254
+#: kspread_format.cc:3260
 msgid "Tanzania, United Republic Of"
 msgstr "ສະທາລະນະລັດຖານຊາເນຍ "
 
-#: kspread_format.cc:3254
+#: kspread_format.cc:3260
 msgid "Tanzanian Shilling"
 msgstr "ຖາຊານຽນ"
 
-#: kspread_format.cc:3254
+#: kspread_format.cc:3260
 msgid "TZS"
 msgstr "TZS"
 
-#: kspread_format.cc:3255
+#: kspread_format.cc:3261
 msgid "Thailand"
 msgstr "ໄທ"
 
-#: kspread_format.cc:3255
+#: kspread_format.cc:3261
 msgid "Baht"
 msgstr "ບາດ"
 
-#: kspread_format.cc:3255
+#: kspread_format.cc:3261
 msgid "THB"
 msgstr "THB"
 
-#: kspread_format.cc:3256
+#: kspread_format.cc:3262
 msgid "Togo"
 msgstr "ໂທໂກ"
 
-#: kspread_format.cc:3257
+#: kspread_format.cc:3263
 msgid "Tokelau"
 msgstr "ໂຕເກີເລີ"
 
-#: kspread_format.cc:3258
+#: kspread_format.cc:3264
 msgid "Tonga"
 msgstr "ທອງກ້າ"
 
-#: kspread_format.cc:3258
+#: kspread_format.cc:3264
 msgid "Pa'anga"
 msgstr "ໍປາອານກ້າ"
 
-#: kspread_format.cc:3258
+#: kspread_format.cc:3264
 msgid "TOP"
 msgstr "TOP"
 
-#: kspread_format.cc:3259
+#: kspread_format.cc:3265
 msgid "Trinidad And Tobago"
 msgstr "ທິນິເດັດ ແລະ ໂຕບາໂກ້"
 
-#: kspread_format.cc:3259
+#: kspread_format.cc:3265
 msgid "Trinidad and Tobago Dollar"
 msgstr "ທິນິເດັດ ແລະ ໂທບາໂກ້ ດອນລ່າ"
 
-#: kspread_format.cc:3259
+#: kspread_format.cc:3265
 msgid "TT$"
 msgstr "TT$"
 
-#: kspread_format.cc:3260
+#: kspread_format.cc:3266
 msgid "Tunisia"
 msgstr "ຕູນິເຊຍ"
 
-#: kspread_format.cc:3260
+#: kspread_format.cc:3266
 msgid "Tunisian Dinar"
 msgstr "ຕູນິຊຽນ ດິນນ້າ"
 
-#: kspread_format.cc:3260
+#: kspread_format.cc:3266
 msgid "TND"
 msgstr "TND"
 
-#: kspread_format.cc:3261
+#: kspread_format.cc:3267
 msgid "Turkey"
 msgstr "ຕູລະກີ"
 
-#: kspread_format.cc:3261
+#: kspread_format.cc:3267
 msgid "Turkish Lira"
 msgstr "ຕູລະກິສ ລິບາ"
 
-#: kspread_format.cc:3261
+#: kspread_format.cc:3267
 msgid "TL"
 msgstr "TL"
 
-#: kspread_format.cc:3262
+#: kspread_format.cc:3268
 msgid "Turkmenistan"
 msgstr "ຕະລະເມັມນິສຖານ"
 
-#: kspread_format.cc:3262
+#: kspread_format.cc:3268
 msgid "Manat"
 msgstr "ມາເນັດ"
 
-#: kspread_format.cc:3262
+#: kspread_format.cc:3268
 msgid "TMM"
 msgstr "TMM"
 
-#: kspread_format.cc:3263
+#: kspread_format.cc:3269
 msgid "Turks And Caicos Islands"
 msgstr "ຖຣວກ ແລະ ໄຊໂກ ໄອສແລນ"
 
-#: kspread_format.cc:3264
+#: kspread_format.cc:3270
 msgid "Tuvalu"
 msgstr "ຕະວາລູ"
 
-#: kspread_format.cc:3265
+#: kspread_format.cc:3271
 msgid "Uganda"
 msgstr "ຢູການດ້າ"
 
-#: kspread_format.cc:3265
+#: kspread_format.cc:3271
 msgid "Uganda Shilling"
 msgstr "ຢູການດ້າ"
 
-#: kspread_format.cc:3265
+#: kspread_format.cc:3271
 msgid "UGX"
 msgstr "UGX"
 
-#: kspread_format.cc:3266
+#: kspread_format.cc:3272
 msgid "Ukraine"
 msgstr "ຢູແຄຣນນິນ"
 
-#: kspread_format.cc:3266
+#: kspread_format.cc:3272
 msgid "Hryvnia"
 msgstr "ໄຮວີເນຍ"
 
-#: kspread_format.cc:3266
+#: kspread_format.cc:3272
 msgid "UAH"
 msgstr "UAH"
 
-#: kspread_format.cc:3267
+#: kspread_format.cc:3273
 msgid "United Arab Emirates"
 msgstr "ອາລັບ ເອີມິລາເຕສ"
 
-#: kspread_format.cc:3267
+#: kspread_format.cc:3273
 msgid "UAE Dirham"
 msgstr "UAE ເດຍຮຳ"
 
-#: kspread_format.cc:3267
+#: kspread_format.cc:3273
 msgid "AED"
 msgstr "AED"
 
-#: kspread_format.cc:3268
+#: kspread_format.cc:3274
 msgid "Pound Sterling"
 msgstr "ປອນ"
 
-#: kspread_format.cc:3268
+#: kspread_format.cc:3274
 msgid "GBP"
 msgstr "GBP"
 
-#: kspread_format.cc:3270
+#: kspread_format.cc:3276
 msgid "US Dollar (Next day)"
 msgstr "US ດອນລ່າ ( ມື້ຫນາ້)"
 
-#: kspread_format.cc:3270
+#: kspread_format.cc:3276
 msgid "USN"
 msgstr "USN"
 
-#: kspread_format.cc:3271
+#: kspread_format.cc:3277
 msgid "US Dollar (Same day)"
 msgstr "US ດອນລ່າ ( ມື້ດ່ຽວກັນ)"
 
-#: kspread_format.cc:3271
+#: kspread_format.cc:3277
 msgid "USS"
 msgstr "USS"
 
-#: kspread_format.cc:3272
+#: kspread_format.cc:3278
 msgid "Uruguay"
 msgstr "ຢູກູກົວ"
 
-#: kspread_format.cc:3272
+#: kspread_format.cc:3278
 msgid "Peso Uruguayo"
 msgstr "ເປໂຊ ຢູກູກົວໂຢ"
 
-#: kspread_format.cc:3272
+#: kspread_format.cc:3278
 msgid "NU$"
 msgstr "NU$"
 
-#: kspread_format.cc:3273
+#: kspread_format.cc:3279
 msgid "Uzbekistan"
 msgstr "ອັດເຊີໄບຈັນ"
 
-#: kspread_format.cc:3273
+#: kspread_format.cc:3279
 msgid "Uzbekistan Sum"
 msgstr "ອາເຊີໄບຈັນ ຊຳ"
 
-#: kspread_format.cc:3273
+#: kspread_format.cc:3279
 msgid "UZS"
 msgstr "UZS"
 
-#: kspread_format.cc:3274
+#: kspread_format.cc:3280
 msgid "Vanuatu"
 msgstr "ວານຢູອາຕູ"
 
-#: kspread_format.cc:3274
+#: kspread_format.cc:3280
 msgid "Vatu"
 msgstr "ວາຕູ"
 
-#: kspread_format.cc:3274
+#: kspread_format.cc:3280
 msgid "VUV"
 msgstr "VUV"
 
-#: kspread_format.cc:3275
+#: kspread_format.cc:3281
 msgid "Venezuela"
 msgstr "ເວີເນີຊູເອລາ"
 
-#: kspread_format.cc:3275
+#: kspread_format.cc:3281
 msgid "Bolivar"
 msgstr "ໂບລີວ່າ"
 
-#: kspread_format.cc:3276
+#: kspread_format.cc:3282
 msgid "Viet Nam"
 msgstr "ຫວຽດນາມ"
 
-#: kspread_format.cc:3276
+#: kspread_format.cc:3282
 msgid "Dong"
 msgstr "ດົງ"
 
-#: kspread_format.cc:3276
+#: kspread_format.cc:3282
 msgid "VND"
 msgstr "VND"
 
-#: kspread_format.cc:3277
+#: kspread_format.cc:3283
 msgid "Virgin Islands"
 msgstr "ເວຍກິນ ໄອສແລນ"
 
-#: kspread_format.cc:3278
+#: kspread_format.cc:3284
 msgid "Wallis And Futuna"
 msgstr "ວາລິສ ແລະ ຟູຸຕິນ້າ"
 
-#: kspread_format.cc:3279
+#: kspread_format.cc:3285
 msgid "Western Sahara"
 msgstr "ເວັສເທີນ ສາຫາລາ"
 
-#: kspread_format.cc:3280
+#: kspread_format.cc:3286
 msgid "Yemen"
 msgstr "ເຢີເມັນ"
 
-#: kspread_format.cc:3280
+#: kspread_format.cc:3286
 msgid "Yemeni Rial"
 msgstr "ເຢີເມັນ ລິວ"
 
-#: kspread_format.cc:3280
+#: kspread_format.cc:3286
 msgid "YER"
 msgstr "YER"
 
-#: kspread_format.cc:3281
+#: kspread_format.cc:3287
 msgid "Yugoslavia"
 msgstr "ຢູໂກສະລາເວຍ"
 
-#: kspread_format.cc:3281
+#: kspread_format.cc:3287
 msgid "Yugoslavian Dinar"
 msgstr "ຢູໂກສະລາວຽນ ດິນເນຍ"
 
-#: kspread_format.cc:3281
+#: kspread_format.cc:3287
 msgid "YUM"
 msgstr "YUM"
 
-#: kspread_format.cc:3282
+#: kspread_format.cc:3288
 msgid "Zambia"
 msgstr "ແຊມເບຍ"
 
-#: kspread_format.cc:3282
+#: kspread_format.cc:3288
 msgid "ZMK"
 msgstr "ZMK"
 
-#: kspread_format.cc:3283
+#: kspread_format.cc:3289
 msgid "Zimbabwe"
 msgstr "ໍໍຊິມບາດເວີ"
 
-#: kspread_format.cc:3283
+#: kspread_format.cc:3289
 msgid "Zimbabwe Dollar"
 msgstr "ຊິມບັດເວີ ດອນລ່າ"
 
-#: kspread_format.cc:3283
+#: kspread_format.cc:3289
 msgid "ZWD"
 msgstr "ZWD"
 
@@ -3806,8 +3770,8 @@ msgstr "ZWD"
 msgid "Manual"
 msgstr "ເຮັດເອງ"
 
-#: dialogs/kspread_dlg_layout.cc:1211 dialogs/kspread_dlg_layout.cc:1777
-#: dialogs/kspread_dlg_layout.cc:1854 dialogs/kspread_dlg_preference.cc:447
+#: dialogs/kspread_dlg_layout.cc:1210 dialogs/kspread_dlg_layout.cc:1776
+#: dialogs/kspread_dlg_layout.cc:1853 dialogs/kspread_dlg_preference.cc:447
 #: kspread_functions_information.cc:131
 msgid "Automatic"
 msgstr "ອັດຕະໂນມັດ"
@@ -3830,7 +3794,7 @@ msgstr "PM"
 msgid "AM"
 msgstr "AM"
 
-#: kspread_sheet.cc:1839 kspread_view.cc:567
+#: kspread_sheet.cc:1839 kspread_view.cc:566
 msgid "Vertical Text"
 msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 
@@ -3871,11 +3835,11 @@ msgstr ""
 msgid "Format Money"
 msgstr "ຮູບບແບບເງີນຕາ"
 
-#: kspread_sheet.cc:4422 kspread_view.cc:573
+#: kspread_sheet.cc:4422 kspread_view.cc:572
 msgid "Increase Indent"
 msgstr "ເພີ່ມລະຍະການຍັບ"
 
-#: kspread_sheet.cc:4477 kspread_view.cc:578
+#: kspread_sheet.cc:4477 kspread_view.cc:577
 msgid "Decrease Indent"
 msgstr "ລົດລະຍະການຍັບ"
 
@@ -3951,7 +3915,7 @@ msgstr "ລືບສະດົມ"
 msgid "Remove Rows"
 msgstr "ົລືບແຖວ"
 
-#: kspread_undo.cc:446 kspread_view.cc:775
+#: kspread_undo.cc:446 kspread_view.cc:774
 msgid "Insert Rows"
 msgstr "ສອດແຖວ"
 
@@ -3959,7 +3923,7 @@ msgstr "ສອດແຖວ"
 msgid "Change Text"
 msgstr "ປ່ຽນຂໍ້ຄວາມ"
 
-#: dialogs/kspread_dlg_format.cc:164 dialogs/kspread_dlg_layout.cc:1001
+#: dialogs/kspread_dlg_format.cc:164 dialogs/kspread_dlg_layout.cc:1000
 #: kspread_undo.cc:903
 msgid "Change Format"
 msgstr "ປ່ຽນຮູບແບບຕົວອັກສອນ "
@@ -4009,1183 +3973,1178 @@ msgstr "ຮູຸບແບບເຊລ"
 msgid "Insert Data From Database"
 msgstr "ແຊກຫາຂໍ້ມູນຈາກຖານຂໍ້ມູນ"
 
-#: kspread_view.cc:467
+#: kspread_view.cc:466
 msgid "Cell Format..."
 msgstr "ຮູບແບບເຊລ..."
 
-#: kspread_view.cc:469
+#: kspread_view.cc:468
 #, fuzzy
-msgid "Set the cell formatting"
+msgid "Set the cell formatting."
 msgstr "ຕັ້ງຄ່າຮູບແບບເຊລ"
 
-#: kspread_view.cc:471
+#: kspread_view.cc:470
 #, fuzzy
 msgid "&Properties"
 msgstr "ຮູບແບບແຜ່ນງານ..."
 
-#: kspread_view.cc:476
+#: kspread_view.cc:475
 #, fuzzy
-msgid "Resets to the default format"
+msgid "Resets to the default format."
 msgstr "ປັບໃຫ້ກັບໄປໃຊ້ຮູບແບບປະລີຍາຍ"
 
-#: kspread_view.cc:488
-msgid "Underline"
-msgstr "ຂີດເສັ້ນໄຕ້"
-
-#: kspread_view.cc:493
+#: kspread_view.cc:492
 msgid "Strike Out"
 msgstr "ເສັ້ນພາດກາງ"
 
-#: kspread_view.cc:498
+#: kspread_view.cc:497
 msgid "Select Font..."
 msgstr "ເລືອກຮູບແບບຕົວອັກສອນ"
 
-#: kspread_view.cc:503
+#: kspread_view.cc:502
 msgid "Select Font Size"
 msgstr "ເລືອກຂະຫນາດຕົວອັກສອນ"
 
-#: kspread_view.cc:508
+#: kspread_view.cc:507
 msgid "Increase Font Size"
 msgstr "ເພີ່ມຂະຫນາດຕົວອັກສອນ"
 
-#: kspread_view.cc:511
+#: kspread_view.cc:510
 msgid "Decrease Font Size"
 msgstr "ລົດຂະຫນາດຕົວອັກສອນ"
 
-#: kspread_view.cc:514
+#: kspread_view.cc:513
 msgid "Text Color"
 msgstr "ສີຕົວອັກສອນ"
 
-#: kspread_view.cc:519
+#: kspread_view.cc:518
 msgid "Align Left"
 msgstr "ລຽງຊິດດ້າຍຊ້າຍ"
 
-#: kspread_view.cc:524
+#: kspread_view.cc:523
 #, fuzzy
-msgid "Left justify the cell contents"
+msgid "Left justify the cell contents."
 msgstr "ຈັດລຽງນເນື້ອຫາເຊລຊິດດ້ານຊ້າຍຂອງເຊລ"
 
-#: kspread_view.cc:526
+#: kspread_view.cc:525
 msgid "Align Center"
 msgstr "ລຽງເຄີ່ງກາງ"
 
-#: kspread_view.cc:531
+#: kspread_view.cc:530
 #, fuzzy
-msgid "Center the cell contents"
+msgid "Center the cell contents."
 msgstr "ຈັດລຽງເນື້ອຫາເຊລໃຫ້ຢູ່ເຄີ່ງກາງກາງເຊລ"
 
-#: kspread_view.cc:533
+#: kspread_view.cc:532
 msgid "Align Right"
 msgstr "ລຽງຊິດດ້ານຂວາ"
 
-#: kspread_view.cc:538
+#: kspread_view.cc:537
 #, fuzzy
-msgid "Right justify the cell contents"
+msgid "Right justify the cell contents."
 msgstr "ຈັດລຽງເນື້ອຫາ່ເຊລຊິດດ້ານຂວາຂອງເຊລ"
 
-#: kspread_view.cc:540
+#: kspread_view.cc:539
 msgid "Align Top"
 msgstr "ລຽງຊິດດ້ານເທີງ"
 
-#: kspread_view.cc:545
+#: kspread_view.cc:544
 #, fuzzy
-msgid "Align cell contents along the top of the cell"
+msgid "Align cell contents along the top of the cell."
 msgstr "ຈັດລຽງເນືອ້ຫາເຊລຊິດດ້ານເທີງຂອງເຊລ"
 
-#: kspread_view.cc:547
+#: kspread_view.cc:546
 msgid "Align Middle"
 msgstr "ລຽງທາງກາງ"
 
-#: kspread_view.cc:552
+#: kspread_view.cc:551
 #, fuzzy
-msgid "Align cell contents centered in the cell"
+msgid "Align cell contents centered in the cell."
 msgstr "ຈັດລຽງເນຶ້ອຫາເຊບໃຫ້ຢູ່ຕຳແຫນ່ງເຄີງການເຊລ"
 
-#: kspread_view.cc:554
+#: kspread_view.cc:553
 msgid "Align Bottom"
 msgstr "ລຽງຊິດດ້ານລຸ່ມ"
 
-#: kspread_view.cc:559
+#: kspread_view.cc:558
 #, fuzzy
-msgid "Align cell contents along the bottom of the cell"
+msgid "Align cell contents along the bottom of the cell."
 msgstr "ຈັດລຽງເນື່ອຫາເຊລຊິດດ້ານລຸ່ມຂອງເຊລ"
 
-#: kspread_view.cc:561
+#: kspread_view.cc:560
 #, fuzzy
 msgid "Wrap Text"
 msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
 
-#: kspread_view.cc:565
+#: kspread_view.cc:564
 #, fuzzy
-msgid "Make the cell text wrap onto multiple lines"
+msgid "Make the cell text wrap onto multiple lines."
 msgstr "ສ້າງໃຫ້ມີການຕັດຄຳຂໍ້ຄວາມໃນເຊລເປັນແບບຫລາຍແຖວ"
 
-#: kspread_view.cc:571
+#: kspread_view.cc:570
 #, fuzzy
-msgid "Print cell contents vertically"
+msgid "Print cell contents vertically."
 msgstr "ພິມເນື້ອຫາເຊລທາງແນວຕັ້ງ"
 
-#: kspread_view.cc:576
+#: kspread_view.cc:575
 #, fuzzy
-msgid "Increase the indentation"
+msgid "Increase the indentation."
 msgstr "ເພີ່ມລະຍະການຍັບ"
 
-#: kspread_view.cc:581
+#: kspread_view.cc:580
 #, fuzzy
-msgid "Decrease the indentation"
+msgid "Decrease the indentation."
 msgstr "ລົດລະຍະການຍັບ"
 
-#: kspread_view.cc:583
+#: kspread_view.cc:582
 msgid "Change Angle..."
 msgstr "ປ່ຽງຄ່າມຸມ..."
 
-#: kspread_view.cc:585
+#: kspread_view.cc:584
 #, fuzzy
-msgid "Change the angle that cell contents are printed"
+msgid "Change the angle that cell contents are printed."
 msgstr "ປ່ຽງມຸມທີ່ຈະໃຫ້ເນື້ອຫາເຊລຖືກພິມອ່ຽງໄປ"
 
-#: kspread_view.cc:587
+#: kspread_view.cc:586
 msgid "Percent Format"
 msgstr "ຮູບແບບຮ້ອຍລະ"
 
-#: kspread_view.cc:591
+#: kspread_view.cc:590
 #, fuzzy
-msgid "Set the cell formatting to look like a percentage"
+msgid "Set the cell formatting to look like a percentage."
 msgstr "ຕັ້ງຄ່າຮູບແບບເຊລໃນຮູບແບບຮ້ອຍລະ"
 
-#: kspread_view.cc:593
+#: kspread_view.cc:592
 msgid "Increase Precision"
 msgstr "ເພີ່ມຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:595
+#: kspread_view.cc:594
 #, fuzzy
-msgid "Increase the decimal precision shown onscreen"
+msgid "Increase the decimal precision shown onscreen."
 msgstr "ເພີ່ມຈຳນວນເລກທົດສະນິຍົມທີ່ຈະສະແດງເທີງຫນ້າຈໍ"
 
-#: kspread_view.cc:597
+#: kspread_view.cc:596
 msgid "Decrease Precision"
 msgstr "ລົດຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:599
+#: kspread_view.cc:598
 #, fuzzy
-msgid "Decrease the decimal precision shown onscreen"
+msgid "Decrease the decimal precision shown onscreen."
 msgstr "ລົດຈຳນວນເລກທົດສະນິຍົມຈະສະແດງເທີງຫນ້າຈໍ"
 
-#: kspread_view.cc:601
+#: kspread_view.cc:600
 msgid "Money Format"
 msgstr "ຮູບແບບເງິນຕາ"
 
-#: kspread_view.cc:605
+#: kspread_view.cc:604
 #, fuzzy
-msgid "Set the cell formatting to look like your local currency"
+msgid "Set the cell formatting to look like your local currency."
 msgstr "ສະແດງຮູບແບບເຊລໃນການສະແດງຮູບແບບເງິນຕາໃຫ້ເປັນແບບທ້ອງຖິ່ນ"
 
-#: kspread_view.cc:607
+#: kspread_view.cc:606
 msgid "Upper Case"
 msgstr "ຕົວພິມໃຫຍ່"
 
-#: kspread_view.cc:609
+#: kspread_view.cc:608
 #, fuzzy
-msgid "Convert all letters to upper case"
+msgid "Convert all letters to upper case."
 msgstr "ແປງຕົວອັກສອນທັງຫມົດເປັນຕົວພີ່ມໃຫຍ່"
 
-#: kspread_view.cc:611
+#: kspread_view.cc:610
 msgid "Lower Case"
 msgstr "ຕົວພິມນອ້ຍ"
 
-#: kspread_view.cc:613
+#: kspread_view.cc:612
 #, fuzzy
-msgid "Convert all letters to lower case"
+msgid "Convert all letters to lower case."
 msgstr "ແປງຕົວອັກສອນທັງຫມົດເປັນຕົວພິມເລັກ"
 
-#: kspread_view.cc:615
+#: kspread_view.cc:614
 msgid "Convert First Letter to Upper Case"
 msgstr "ແປງຕົວອັກສອນຕົວທຳອິດເປັນຕົວພິມໃຫຍ່"
 
-#: kspread_view.cc:617
+#: kspread_view.cc:616
 #, fuzzy
-msgid "Capitalize the first letter"
+msgid "Capitalize the first letter."
 msgstr "ຕົວອັກສອນຕົວທຳອິດເປັນຕົວພິມໃຫຍ່"
 
-#: kspread_view.cc:619
+#: kspread_view.cc:618
 msgid "Background Color"
 msgstr "ສີພື້ນຫລັງ"
 
-#: kspread_view.cc:624
+#: kspread_view.cc:623
 #, fuzzy
-msgid "Set the background color"
+msgid "Set the background color."
 msgstr "ປ່ຽນສີພື້ນຫລັງ"
 
-#: kspread_view.cc:626
+#: kspread_view.cc:625
 msgid "Border Left"
 msgstr "ເສັ້ນຂອບດ້ານຊ້າຍ"
 
-#: kspread_view.cc:628
+#: kspread_view.cc:627
 #, fuzzy
-msgid "Set a left border to the selected area"
+msgid "Set a left border to the selected area."
 msgstr "ຕັ້ງຄ່າຂອບດ້ານຊ້າຍໃຫ້ພື້ນທີ່ທີ່ເລືອກ"
 
-#: kspread_view.cc:630
+#: kspread_view.cc:629
 msgid "Border Right"
 msgstr "ເສັ້ນຂອບດ້ານຂວາ"
 
-#: kspread_view.cc:632
+#: kspread_view.cc:631
 #, fuzzy
-msgid "Set a right border to the selected area"
+msgid "Set a right border to the selected area."
 msgstr "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານຂວາໃຫ້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:634
+#: kspread_view.cc:633
 msgid "Border Top"
 msgstr "ເສັ້ນຂອບດ້ານເທີງ"
 
-#: kspread_view.cc:636
+#: kspread_view.cc:635
 #, fuzzy
-msgid "Set a top border to the selected area"
+msgid "Set a top border to the selected area."
 msgstr "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານເທີງໃຫ້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:638
+#: kspread_view.cc:637
 msgid "Border Bottom"
 msgstr "ເສັ້ນຂອບດ້ານລຸ່ມ"
 
-#: kspread_view.cc:640
+#: kspread_view.cc:639
 #, fuzzy
-msgid "Set a bottom border to the selected area"
+msgid "Set a bottom border to the selected area."
 msgstr "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານລຸ່ມໃຫ້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:642
+#: kspread_view.cc:641
 msgid "All Borders"
 msgstr "ເສັ້ນຂອບທັງຫມົດ"
 
-#: kspread_view.cc:644
+#: kspread_view.cc:643
 #, fuzzy
-msgid "Set a border around all cells in the selected area"
+msgid "Set a border around all cells in the selected area."
 msgstr "ຕັ້ງຄ່າໃຫ້ທຸກເຊລໃນພຶ້ນທີເລືອກມີເສັ້ນຂອບອ້ອມຮອບ"
 
-#: kspread_view.cc:646
+#: kspread_view.cc:645
 msgid "Remove Borders"
 msgstr "ລືບເສັ້ນຂອບ"
 
-#: kspread_view.cc:648
+#: kspread_view.cc:647
 #, fuzzy
-msgid "Remove all borders in the selected area"
+msgid "Remove all borders in the selected area."
 msgstr "ລືບເສັ້ນຂອບທັງຫມົດອອກຈອກພື້ນທີ່ເລືອກ"
 
-#: kspread_view.cc:650
+#: kspread_view.cc:649
 msgid "Border Outline"
 msgstr "ເສັ້ນຂອບຮອບນອກ"
 
-#: kspread_view.cc:652
+#: kspread_view.cc:651
 #, fuzzy
-msgid "Set a border to the outline of the selected area"
+msgid "Set a border to the outline of the selected area."
 msgstr "ຕັ້ງຄ່າໃຫ້ມີເສັ້ນຂອບຮອບນອກພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:654
+#: kspread_view.cc:653
 msgid "Border Color"
 msgstr "ສີຂອງເສັ້ນຂອບ"
 
-#: kspread_view.cc:658
+#: kspread_view.cc:657
 #, fuzzy
-msgid "Select a new border color"
+msgid "Select a new border color."
 msgstr "ເລືອກສີເສັ້ນຂອບໃຫມ່"
 
-#: kspread_view.cc:660
+#: kspread_view.cc:659
 #, fuzzy
 msgid "St&yle"
 msgstr "ຮູບແບບ:"
 
-#: kspread_view.cc:662
+#: kspread_view.cc:661
 #, fuzzy
-msgid "Apply a predefined style to the selected cells"
+msgid "Apply a predefined style to the selected cells."
 msgstr "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານເທີງໃຫ້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:666
+#: kspread_view.cc:665
 #, fuzzy
 msgid "Create Style From Cell..."
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kspread_view.cc:668
+#: kspread_view.cc:667
 #, fuzzy
-msgid "Create a new style based on the currently selected cell"
+msgid "Create a new style based on the currently selected cell."
 msgstr "ຕັ້ງຄ່າເສັ້ນຂອບດ້ານເທີງໃຫ້ພື້ນທີ່ທີເລືອກ"
 
-#: kspread_view.cc:672
+#: kspread_view.cc:671
 msgid "Modify Cell"
 msgstr "ແກ້ໄຂເຊລ"
 
-#: kspread_view.cc:674
+#: kspread_view.cc:673
 #, fuzzy
-msgid "Edit the highlighted cell"
+msgid "Edit the highlighted cell."
 msgstr "ແກ້ໄຂການເນັ້ນສີເຊລ"
 
-#: kspread_view.cc:676
+#: kspread_view.cc:675
 msgid "Insert Cells..."
 msgstr "ແຊກເຊລ..."
 
-#: kspread_view.cc:678
+#: kspread_view.cc:677
 #, fuzzy
-msgid "Insert a blank cell into the spreadsheet"
+msgid "Insert a blank cell into the spreadsheet."
 msgstr "ແຊກເຊລເປົ່າເຂົ້າໄປຍັງແຜນງານ"
 
-#: kspread_view.cc:680
+#: kspread_view.cc:679
 msgid "Remove Cells..."
 msgstr "ລືບເຊລ..."
 
-#: kspread_view.cc:682
+#: kspread_view.cc:681
 #, fuzzy
-msgid "Removes the current cell from the spreadsheet"
+msgid "Removes the current cell from the spreadsheet."
 msgstr "ລືບເຊລປະຈຸບັນອອກຈາກແຜ່ນງານ"
 
-#: kspread_view.cc:686
+#: kspread_view.cc:685
 #, fuzzy
-msgid "Delete all contents and formatting of the current cell"
+msgid "Delete all contents and formatting of the current cell."
 msgstr "ລຶບເນື່ອຫາແລະຮູບແບບທັງຫມົດອອກຈາກເຊລປະຈຸບັນ"
 
-#: kspread_view.cc:690
+#: kspread_view.cc:689
 #, fuzzy
-msgid "Merge the selected region"
+msgid "Merge the selected region."
 msgstr "ລວມຂອບເຂດທີເລືອກໄວ້ໃຫ້ເປັນເຊລຂະຫນາດໃຫຍ່ເຊລດ່ຽວ"
 
-#: kspread_view.cc:693 manipulator.cc:902
+#: kspread_view.cc:692 manipulator.cc:902
 #, fuzzy
 msgid "Merge Cells Horizontally"
 msgstr "ປະສານເຊລ์"
 
-#: kspread_view.cc:695
+#: kspread_view.cc:694
 #, fuzzy
-msgid "Merge the selected region horizontally"
+msgid "Merge the selected region horizontally."
 msgstr "ລວມຂອບເຂດທີເລືອກໄວ້ໃຫ້ເປັນເຊລຂະຫນາດໃຫຍ່ເຊລດ່ຽວ"
 
-#: kspread_view.cc:698 manipulator.cc:906
+#: kspread_view.cc:697 manipulator.cc:906
 #, fuzzy
 msgid "Merge Cells Vertically"
 msgstr "ປະສານເຊລ์"
 
-#: kspread_view.cc:700
+#: kspread_view.cc:699
 #, fuzzy
-msgid "Merge the selected region vertically"
+msgid "Merge the selected region vertically."
 msgstr "ລວມຂອບເຂດທີເລືອກໄວ້ໃຫ້ເປັນເຊລຂະຫນາດໃຫຍ່ເຊລດ່ຽວ"
 
-#: kspread_view.cc:703 manipulator.cc:913
+#: kspread_view.cc:702 manipulator.cc:913
 msgid "Dissociate Cells"
 msgstr "ແຍກເຊລ"
 
-#: kspread_view.cc:705
+#: kspread_view.cc:704
 #, fuzzy
-msgid "Unmerge the selected region"
+msgid "Unmerge the selected region."
 msgstr "ລວມຂອບເຂດທີເລືອກໄວ້ໃຫ້ເປັນເຊລຂະຫນາດໃຫຍ່ເຊລດ່ຽວ"
 
-#: kspread_view.cc:709
+#: kspread_view.cc:708
 #, fuzzy
-msgid "Remove the contents of the current cell"
+msgid "Remove the contents of the current cell."
 msgstr "ລືບເນື້ອຫາອອກຈາກເຊລປະຈຸບັນ"
 
-#: kspread_view.cc:711
+#: kspread_view.cc:710
 msgid "Conditional Cell Attributes..."
 msgstr "ຮູບແບບເງື່ອນໄຂຂອງເຊລ..."
 
-#: kspread_view.cc:713
+#: kspread_view.cc:712
 #, fuzzy
-msgid "Set cell format based on certain conditions"
+msgid "Set cell format based on certain conditions."
 msgstr "ຕັ້ງຄ່າຮູບແບບຂອງເຊລຕາມເງື່ອນໄຂທີ່ຕອ້ງການ"
 
-#: dialogs/kspread_dlg_conditional.cc:293 kspread_view.cc:716
+#: dialogs/kspread_dlg_conditional.cc:293 kspread_view.cc:715
 msgid "Conditional Cell Attributes"
 msgstr "ຮູບແບບເງືອນໄຂເຊລ"
 
-#: kspread_view.cc:718
+#: kspread_view.cc:717
 #, fuzzy
-msgid "Remove the conditional cell formatting"
+msgid "Remove the conditional cell formatting."
 msgstr "ລືບຮູບແບບເງືອນໄຂເຊລ"
 
-#: kspread_view.cc:720
+#: kspread_view.cc:719
 msgid "Validity..."
 msgstr "ການກວດສອບ..."
 
-#: kspread_view.cc:722
+#: kspread_view.cc:721
 #, fuzzy
-msgid "Set tests to confirm cell data is valid"
+msgid "Set tests to confirm cell data is valid."
 msgstr "ຕັ້ງຄ່າການທົດສອບເພື່ອຢືນຍັນວ່າຂໍ້ມູນຂອງເຊລມີຄວາມຕອ້ງ"
 
-#: dialogs/kspread_dlg_validity.cc:47 kspread_view.cc:724
+#: dialogs/kspread_dlg_validity.cc:47 kspread_view.cc:723
 msgid "Validity"
 msgstr "ການກວດສອບ"
 
-#: kspread_view.cc:726
+#: kspread_view.cc:725
 #, fuzzy
-msgid "Remove the validity tests on this cell"
+msgid "Remove the validity tests on this cell."
 msgstr "ລື່ບຕົວທົດສອບຄວາມຖືກຕ້ອງເທີງເຊລນີ້"
 
-#: kspread_view.cc:728
+#: kspread_view.cc:727
 msgid "&Add/Modify Comment..."
 msgstr "ເ&ີ່ພມ/ແກ້ໄຂຫມາຍເຫດ..."
 
-#: kspread_view.cc:730
+#: kspread_view.cc:729
 #, fuzzy
-msgid "Edit a comment for this cell"
+msgid "Edit a comment for this cell."
 msgstr "ແກ້ໄຂຫມາຍເຫດຂອງເຊລນີ້"
 
-#: kspread_view.cc:732
+#: kspread_view.cc:731
 msgid "&Remove Comment"
 msgstr "&ລືຍຫມາຍເຫດ"
 
-#: kspread_view.cc:734 kspread_view.cc:738
+#: kspread_view.cc:733 kspread_view.cc:737
 #, fuzzy
-msgid "Remove this cell's comment"
+msgid "Remove this cell's comment."
 msgstr "ລືບຫມາຍເຫດຂອງເຊລນີ້"
 
-#: dialogs/kspread_dlg_special.cc:54 kspread_view.cc:736
+#: dialogs/kspread_dlg_special.cc:54 kspread_view.cc:735
 msgid "Comment"
 msgstr "ຫມາຍເຫດ"
 
-#: kspread_view.cc:742
+#: kspread_view.cc:741
 msgid "Resize Column..."
 msgstr "ປັບຂະຫນາດຖັນ..."
 
-#: kspread_view.cc:744
+#: kspread_view.cc:743
 #, fuzzy
-msgid "Change the width of a column"
+msgid "Change the width of a column."
 msgstr "ປັບຄວາມກວ້າງຂອງຖັນ"
 
-#: kspread_view.cc:748
+#: kspread_view.cc:747
 #, fuzzy
-msgid "Inserts a new column into the spreadsheet"
+msgid "Inserts a new column into the spreadsheet."
 msgstr "ແຊກຖັນໃຫມ່ໄປຍັງແຜ່ນງານ"
 
-#: kspread_view.cc:750
+#: kspread_view.cc:749
 msgid "Delete Columns"
 msgstr "ລືບຖັນ"
 
-#: kspread_view.cc:752
+#: kspread_view.cc:751
 #, fuzzy
-msgid "Removes a column from the spreadsheet"
+msgid "Removes a column from the spreadsheet."
 msgstr "ລືບຖັນອອກຈາກແຜ່ນງານ"
 
-#: kspread_view.cc:754
+#: kspread_view.cc:753
 msgid "Hide Columns"
 msgstr "ເຊື່ອງຖັນ"
 
-#: kspread_view.cc:756
+#: kspread_view.cc:755
 #, fuzzy
-msgid "Hide the column from view"
+msgid "Hide the column from view."
 msgstr "ເຊື່ອງຖັນຈາກການສະແດງ"
 
-#: kspread_view.cc:758
+#: kspread_view.cc:757
 msgid "Show Columns..."
 msgstr "ສະແດງຖັນ..."
 
-#: kspread_view.cc:760
+#: kspread_view.cc:759
 #, fuzzy
-msgid "Show hidden columns"
+msgid "Show hidden columns."
 msgstr "ສະແດງຖັນທີ່ຖືກເຊື່ອງໄວ້"
 
-#: kspread_view.cc:762
+#: kspread_view.cc:761
 msgid "Equalize Column"
 msgstr "ປັບຂະຫນາດຖັນໃຫ້ເທົ່າກັນ"
 
-#: kspread_view.cc:764
+#: kspread_view.cc:763
 #, fuzzy
-msgid "Resizes selected columns to be the same size"
+msgid "Resizes selected columns to be the same size."
 msgstr "ປັບຂະຫນາດຖັນທີ່ເລືອກໄວ້ໃຫ້ມີຂະຫນາດເທົ່າກັນ"
 
-#: dialogs/kspread_dlg_showColRow.cc:52 kspread_view.cc:766
+#: dialogs/kspread_dlg_showColRow.cc:51 kspread_view.cc:765
 msgid "Show Columns"
 msgstr "ສະແດງຖັນ"
 
-#: kspread_view.cc:768
+#: kspread_view.cc:767
 #, fuzzy
-msgid "Show hidden columns in the selection"
+msgid "Show hidden columns in the selection."
 msgstr "ສະແດງຖັນທີີຖືກເຊືອງໄວ້ໃນຊ່ວງທີ່ເລືອກໄວ້"
 
-#: kspread_view.cc:771
+#: kspread_view.cc:770
 msgid "Resize Row..."
 msgstr "່ປັບຂະຫນາດແຖວ..."
 
-#: kspread_view.cc:773
+#: kspread_view.cc:772
 #, fuzzy
-msgid "Change the height of a row"
+msgid "Change the height of a row."
 msgstr "ປັບຄວາມສູງຂອງແຖວ"
 
-#: kspread_view.cc:777
+#: kspread_view.cc:776
 #, fuzzy
-msgid "Inserts a new row into the spreadsheet"
+msgid "Inserts a new row into the spreadsheet."
 msgstr "ແຊກແຖວໃຫມ່ໄປຍັງແຜ່ນງານ"
 
-#: kspread_view.cc:779
+#: kspread_view.cc:778
 msgid "Delete Rows"
 msgstr "ລືບແຖວ"
 
-#: kspread_view.cc:781
+#: kspread_view.cc:780
 #, fuzzy
-msgid "Removes a row from the spreadsheet"
+msgid "Removes a row from the spreadsheet."
 msgstr "ລືບແຖວອອກຈາກແຜ່ນງານ"
 
-#: kspread_view.cc:783
+#: kspread_view.cc:782
 msgid "Hide Rows"
 msgstr "ເຊືອງແຖວ"
 
-#: kspread_view.cc:785
+#: kspread_view.cc:784
 #, fuzzy
-msgid "Hide a row from view"
+msgid "Hide a row from view."
 msgstr "ເຊື່ອງແຖວຈາກການສະແດງຜົນ"
 
-#: kspread_view.cc:787
+#: kspread_view.cc:786
 msgid "Show Rows..."
 msgstr "ສະແດງແຖວ..."
 
-#: kspread_view.cc:789
+#: kspread_view.cc:788
 #, fuzzy
-msgid "Show hidden rows"
+msgid "Show hidden rows."
 msgstr "ສະແດງແຖວທີ່ຖືກເຊື່ອງໄວ້"
 
-#: kspread_view.cc:791
+#: kspread_view.cc:790
 msgid "Equalize Row"
 msgstr "ປັບຂະຫນາດແຖວໃຫ້ເທົ່າກນັปรับขนาดแถวให้เท่ากัน"
 
-#: kspread_view.cc:793
+#: kspread_view.cc:792
 #, fuzzy
-msgid "Resizes selected rows to be the same size"
+msgid "Resizes selected rows to be the same size."
 msgstr "ປັບຂະຫນາດແຖວທີ່ເລືອກໄວ້ໃຫ້ມີຂະຫນາດເທົ່າກັນ"
 
-#: dialogs/kspread_dlg_showColRow.cc:56 kspread_view.cc:795
+#: dialogs/kspread_dlg_showColRow.cc:55 kspread_view.cc:794
 msgid "Show Rows"
 msgstr "ສະແດງແຖວ"
 
-#: kspread_view.cc:798
+#: kspread_view.cc:797
 #, fuzzy
-msgid "Show hidden rows in the selection"
+msgid "Show hidden rows in the selection."
 msgstr "ສະແດງແຖວທີ່ຖືກເຊື່ອງໄວ້ໃນຊ່ວງທີ່ເລືອກໄວ້"
 
-#: kspread_view.cc:800
+#: kspread_view.cc:799
 msgid "Adjust Row && Column"
 msgstr "ປັບຄ່າແຖວແລະ && ຖັນໃຫ້ພໍດີ"
 
-#: kspread_view.cc:802
+#: kspread_view.cc:801
 #, fuzzy
-msgid "Adjusts row/column size so that the contents will fit"
+msgid "Adjusts row/column size so that the contents will fit."
 msgstr "ປັບຄ່າແຖວແລະຖັນໃຫ້ພໍດີກັບເນື້ອຫາ"
 
-#: dialogs/sheet_properties.cc:36 kspread_view.cc:805
+#: dialogs/sheet_properties.cc:36 kspread_view.cc:804
 msgid "Sheet Properties"
 msgstr ""
 
-#: kspread_view.cc:807
-msgid "Modify current sheet's properties"
+#: kspread_view.cc:806
+msgid "Modify current sheet's properties."
 msgstr ""
 
-#: kspread_view.cc:809
+#: kspread_view.cc:808
 msgid "Insert Sheet"
 msgstr "ແຊກແຜ່ນງານ"
 
-#: kspread_view.cc:811 kspread_view.cc:816
-#, fuzzy
-msgid "Insert a new sheet"
+#: kspread_view.cc:810 kspread_view.cc:815
+msgid "Insert a new sheet."
 msgstr "ແຊກແຜ່ນງານໃຫມ່"
 
-#: kspread_view.cc:820
+#: kspread_view.cc:819
 #, fuzzy
-msgid "Remove the active sheet"
+msgid "Remove the active sheet."
 msgstr "ລືບແຜ່ນງານທີແອກທີບຢູ່"
 
-#: kspread_view.cc:822
+#: kspread_view.cc:821
 msgid "Rename Sheet..."
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ..."
 
-#: kspread_view.cc:824
+#: kspread_view.cc:823
 #, fuzzy
-msgid "Rename the active sheet"
+msgid "Rename the active sheet."
 msgstr "ປ່ຽນຊື່່ແຜ່ນງານທີ່ແອັກທີບຢູ່"
 
-#: kspread_view.cc:826
+#: kspread_view.cc:825
 msgid "Show Sheet..."
 msgstr "ສະແດງແຜ່ນງານ..."
 
-#: kspread_view.cc:828
+#: kspread_view.cc:827
 #, fuzzy
-msgid "Show a hidden sheet"
+msgid "Show a hidden sheet."
 msgstr "ສະແດງແຜ່ນງານທີ່ຖືກເຊື່ອງໄວ້"
 
-#: kspread_view.cc:832
+#: kspread_view.cc:831
 #, fuzzy
-msgid "Hide the active sheet"
+msgid "Hide the active sheet."
 msgstr "ເຊື່ອງງານທີ່ແອັກທີບຢູ່"
 
-#: kspread_view.cc:834
+#: kspread_view.cc:833
 #, fuzzy
 msgid "AutoFormat..."
 msgstr "ຮູບແບບເຊລ..."
 
-#: kspread_view.cc:836
+#: kspread_view.cc:835
 #, fuzzy
-msgid "Set the worksheet formatting"
+msgid "Set the worksheet formatting."
 msgstr "ຕັ້ງຄ່າຮູບແບບຕ່າງຂອງແຜ່ນງານ"
 
-#: kspread_view.cc:838
+#: kspread_view.cc:837
 msgid "Area Name..."
 msgstr "ຊື່ພື້ນທີ່..."
 
-#: kspread_view.cc:840
+#: kspread_view.cc:839
 #, fuzzy
-msgid "Set a name for a region of the spreadsheet"
+msgid "Set a name for a region of the spreadsheet."
 msgstr "ຕັ້ງຊື່ພື້ນທີ່ຂອງແຜ່ນງານຕາລາງຄຳນວນ"
 
-#: kspread_view.cc:842
+#: kspread_view.cc:841
 msgid "Show Area..."
 msgstr "ສະແດງພື້ນທີ່..."
 
-#: kspread_view.cc:844
+#: kspread_view.cc:843
 #, fuzzy
-msgid "Display a named area"
+msgid "Display a named area."
 msgstr "ສະແດງພື້່ນທີ່ທີ່ຖືກກຳນົດຊື່"
 
-#: kspread_view.cc:846
+#: kspread_view.cc:845
 msgid "&Function..."
 msgstr "&ຟັງຊັ້ນ..."
 
-#: kspread_view.cc:848
+#: kspread_view.cc:847
 #, fuzzy
-msgid "Insert math expression"
+msgid "Insert math expression."
 msgstr "ແສກນິພົບຄະນິດສາດ..."
 
-#: kspread_view.cc:850
+#: kspread_view.cc:849
 msgid "&Series..."
 msgstr "&ລ່ຽນ..."
 
-#: kspread_view.cc:852
+#: kspread_view.cc:851
 #, fuzzy
-msgid "Insert a series"
+msgid "Insert a series."
 msgstr "ແສກຂະຫນານ"
 
-#: kspread_view.cc:854
+#: kspread_view.cc:853
 msgid "&Link..."
 msgstr "&ການເຊື່ອມໂຢງ..."
 
-#: kspread_view.cc:856
+#: kspread_view.cc:855
 #, fuzzy
-msgid "Insert an Internet hyperlink"
+msgid "Insert an Internet hyperlink."
 msgstr "ແສກການເຊືອມໂຢງໄປຍັງອິນເຕີເນັດ"
 
-#: kspread_view.cc:858
+#: kspread_view.cc:857
 #, fuzzy
 msgid "&Remove Link"
 msgstr "&ລືຍຫມາຍເຫດ"
 
-#: kspread_view.cc:860
+#: kspread_view.cc:859
 #, fuzzy
-msgid "Remove a link"
+msgid "Remove a link."
 msgstr "ลบตาราง"
 
-#: kspread_view.cc:862
+#: kspread_view.cc:861
 #, fuzzy
 msgid "S&pecial Character..."
 msgstr "ວາງແບບພິເສດ..."
 
-#: kspread_view.cc:864
-msgid "Insert one or more symbols or letters not found on the keyboard"
+#: kspread_view.cc:863
+msgid "Insert one or more symbols or letters not found on the keyboard."
 msgstr ""
 
-#: kspread_view.cc:866
+#: kspread_view.cc:865
 #, fuzzy
 msgid "&Object"
 msgstr "&ວັດຖຸ..."
 
-#: kspread_view.cc:868
+#: kspread_view.cc:867
 #, fuzzy
-msgid "Insert an object from another program"
+msgid "Insert an object from another program."
 msgstr "ແຊກວັດຖຸຈາກໂປຣແກຣມອື່ນຯ"
 
-#: kspread_view.cc:870
+#: kspread_view.cc:869
 msgid "&Chart"
 msgstr "&ແຜນພູມ"
 
-#: kspread_view.cc:872
+#: kspread_view.cc:871
 #, fuzzy
-msgid "Insert a chart"
+msgid "Insert a chart."
 msgstr "ແຊກແຜນພູມ"
 
-#: kspread_view.cc:874
+#: kspread_view.cc:873
 msgid "&Picture"
 msgstr ""
 
-#: kspread_view.cc:876
+#: kspread_view.cc:875
 #, fuzzy
-msgid "Insert a picture"
+msgid "Insert a picture."
 msgstr "ແຊກແຜນພູມ"
 
-#: kspread_view.cc:879
+#: kspread_view.cc:878
 msgid "From &Database..."
 msgstr "&ຈາກຖານຂໍ້ມູນ..."
 
-#: kspread_view.cc:881
+#: kspread_view.cc:880
 #, fuzzy
-msgid "Insert data from a SQL database"
+msgid "Insert data from a SQL database."
 msgstr "ແຊກຂໍ້ມູນຈາກຖານຂໍ້ມູນແບບSQL"
 
-#: kspread_view.cc:884
+#: kspread_view.cc:883
 msgid "From &Text File..."
 msgstr "&ຈາກແຟ້ມຂໍ້ຄວາມ...."
 
-#: kspread_view.cc:886
+#: kspread_view.cc:885
 #, fuzzy
-msgid "Insert data from a text file to the current cursor position/selection"
+msgid "Insert data from a text file to the current cursor position/selection."
 msgstr "ແຊກຂໍ້ມູນຈາກແຟ້ມຂໍ້ຄວາມໄປຍັງຕຳແຫນ່ງເຄເຊີ/ຕຳແຫນ່ງທີ່ເລືອກໃນປັດຈຸບັນ"
 
-#: kspread_view.cc:888
+#: kspread_view.cc:887
 msgid "From &Clipboard..."
 msgstr "&ຈາກຄິບບອດ..."
 
-#: kspread_view.cc:890
+#: kspread_view.cc:889
 #, fuzzy
 msgid ""
-"Insert CSV data from the clipboard to the current cursor position/selection"
+"Insert CSV data from the clipboard to the current cursor position/selection."
 msgstr "ແຊກຂໍ້ມູນ csv ຈາກຄິບບອດໄປຍັງຕຳແຫນ່ງເຄເຊີ/ຕຳແຫນ່ງທີ່ເລືອກໃນປັດຈຸບັນ"
 
-#: kspread_view.cc:897
+#: kspread_view.cc:896
 msgid "&Sort..."
 msgstr "&ລຽງລຳດັບ..."
 
-#: kspread_view.cc:899
+#: kspread_view.cc:898
 #, fuzzy
-msgid "Sort a group of cells"
+msgid "Sort a group of cells."
 msgstr "ລຽງລຳດັບກຸ່ມຂອງເຊລ"
 
-#: kspread_view.cc:901
+#: kspread_view.cc:900
 msgid "Sort &Decreasing"
 msgstr "&ລຽງລຳດັບຈາກຫລາຍໄປຫານ້ອຍ"
 
-#: kspread_view.cc:903
+#: kspread_view.cc:902
 #, fuzzy
-msgid "Sort a group of cells in decreasing (last to first) order"
+msgid "Sort a group of cells in decreasing (last to first) order."
 msgstr "ລຽງລຳດັບກຸ່ມເຊລແບບຫລາຍໄປຫານ້ອຍ(ຕົວສຸດທ້າຍໄປຕົວທຳອິດ)"
 
-#: kspread_view.cc:905
+#: kspread_view.cc:904
 msgid "Sort &Increasing"
 msgstr "&ລຽງລຳດັບຈາກນ້ອຍໄປຫາຫລາຍ"
 
-#: kspread_view.cc:907
+#: kspread_view.cc:906
 #, fuzzy
-msgid "Sort a group of cells in ascending (first to last) order"
+msgid "Sort a group of cells in ascending (first to last) order."
 msgstr "ລຽງລຳດັບກຸ່ມເຊລແບບນອ້ຍໄປຫາຫລາຍ(ຕົວທຳອິດໄປຕົວສຸດທ້າຍ)"
 
-#: kspread_view.cc:909
+#: kspread_view.cc:908
 #, fuzzy
 msgid "Page Layout..."
 msgstr "ການຈັດວາງຫນ້າເຈັ້ຍ..."
 
-#: kspread_view.cc:911
+#: kspread_view.cc:910
 #, fuzzy
-msgid "Specify the layout of the spreadsheet for a printout"
+msgid "Specify the layout of the spreadsheet for a printout."
 msgstr "ກຳນົດການຈັດວາງຫນ້າເຈັ້ຍຂອງແຜ່ນງານສຳລັບການພິມ"
 
-#: kspread_view.cc:913
+#: kspread_view.cc:912
 msgid "Define Print Range"
 msgstr "ກຳນົດຊ່ວງການພິມ"
 
-#: kspread_view.cc:915 kspread_view.cc:919
+#: kspread_view.cc:914 kspread_view.cc:918
 #, fuzzy
-msgid "Define the print range in the current sheet"
+msgid "Define the print range in the current sheet."
 msgstr "ກຳນົດຊ່ວງານພິມຂອງແຜ່ນງານປະຈຸບັນ"
 
-#: kspread_view.cc:917
+#: kspread_view.cc:916
 msgid "Reset Print Range"
 msgstr "ປັບຊ່ວງການພິມເປັນຄ່າເກົ່າ"
 
-#: kspread_view.cc:921
+#: kspread_view.cc:920
 msgid "Show Page Borders"
 msgstr "ສະແດງຂອບຫນ້າເຈັ້ຍ"
 
-#: kspread_view.cc:923
+#: kspread_view.cc:922
 #, fuzzy
 msgid "Hide Page Borders"
 msgstr "ສະແດງຂອບຫນ້າເຈັ້ຍ"
 
-#: kspread_view.cc:926
-msgid "Show on the spreadsheet where the page borders will be"
+#: kspread_view.cc:925
+msgid "Show on the spreadsheet where the page borders will be."
 msgstr ""
 
-#: kspread_view.cc:928
+#: kspread_view.cc:927
 msgid "Recalculate Sheet"
 msgstr "ຄຳນວນແຜ່ນງານໃຫມ່"
 
-#: kspread_view.cc:930
+#: kspread_view.cc:929
 #, fuzzy
-msgid "Recalculate the value of every cell in the current worksheet"
+msgid "Recalculate the value of every cell in the current worksheet."
 msgstr "ຄຳນວນຄ່າຂອງທຸກເຊລທີ່ຢູ່ໃນແຜ່ນງານປະຈຸບັນ"
 
-#: kspread_view.cc:932
+#: kspread_view.cc:931
 #, fuzzy
 msgid "Recalculate Document"
 msgstr "ຄຳນວນແຜ່ນງານໃຫມ່"
 
-#: kspread_view.cc:934
+#: kspread_view.cc:933
 #, fuzzy
-msgid "Recalculate the value of every cell in all worksheets"
+msgid "Recalculate the value of every cell in all worksheets."
 msgstr "ຄຳນວນຄ່າຂອງທຸກເຊລໃນແຜ່ນງານທັງຫມົດກໃຫມ່ອີກເທື່ອ"
 
-#: kspread_view.cc:936
+#: kspread_view.cc:935
 #, fuzzy
 msgid "Protect &Sheet..."
 msgstr "ແຜ່ນງານຖັດໄປ"
 
-#: kspread_view.cc:938
-msgid "Protect the sheet from being modified"
+#: kspread_view.cc:937
+msgid "Protect the sheet from being modified."
 msgstr ""
 
-#: kspread_view.cc:942
+#: kspread_view.cc:941
 #, fuzzy
 msgid "Protect &Document..."
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:944
-msgid "Protect the document from being modified"
+#: kspread_view.cc:943
+msgid "Protect the document from being modified."
 msgstr ""
 
-#: kspread_view.cc:951
+#: kspread_view.cc:950
 #, fuzzy
-msgid "Copy the cell object to the clipboard"
+msgid "Copy the cell object to the clipboard."
 msgstr "ຄັດລອກວັດຖຸເຊລໄປຍັງຄິບບອດ"
 
-#: kspread_view.cc:954
+#: kspread_view.cc:953
 #, fuzzy
-msgid "Paste the contents of the clipboard at the cursor"
+msgid "Paste the contents of the clipboard at the cursor."
 msgstr "ວາງເນື້ອຫາຈາກຄິບບອດໄປຍັງຕຳແຫນ່ງເຄເຊີ"
 
-#: kspread_view.cc:957
+#: kspread_view.cc:956
 #, fuzzy
-msgid "Move the cell object to the clipboard"
+msgid "Move the cell object to the clipboard."
 msgstr "ຍ້າຍວັດຖຸເຊລໄປຍັງຄິບບອດ"
 
-#: kspread_view.cc:959
+#: kspread_view.cc:958
 msgid "Special Paste..."
 msgstr "ວາງແບບພິເສດ..."
 
-#: kspread_view.cc:961
+#: kspread_view.cc:960
 #, fuzzy
-msgid "Paste the contents of the clipboard with special options"
+msgid "Paste the contents of the clipboard with special options."
 msgstr "ວາງເນື້ອຫາຈາກຄິບບອດຕົວເລືອກພິເສດ"
 
-#: kspread_view.cc:963
+#: kspread_view.cc:962
 #, fuzzy
 msgid "Paste with Insertion"
 msgstr "ວາງພ້ອມກັບທຳການແຊກ..."
 
-#: kspread_view.cc:965
+#: kspread_view.cc:964
 #, fuzzy
-msgid "Inserts a cell from the clipboard into the spreadsheet"
+msgid "Inserts a cell from the clipboard into the spreadsheet."
 msgstr "ແຊກເຊລຈາກຄິບບອດເຂົ້າໄປຍັງແຜ່ນງານ"
 
-#: kspread_view.cc:973
+#: kspread_view.cc:972
 #, fuzzy
 msgid "&Right"
 msgstr "ນຳ້ຫນັກ:"
 
-#: kspread_view.cc:976
+#: kspread_view.cc:975
 #, fuzzy
 msgid "&Left"
 msgstr "&ຂໍ້ຄວາມ "
 
-#: kspread_view.cc:979
+#: kspread_view.cc:978
 #, fuzzy
 msgid "&Down"
 msgstr "ດົງ"
 
-#: kspread_view.cc:982
+#: kspread_view.cc:981
 msgid "&Up"
 msgstr ""
 
-#: dialogs/kspread_dlg_styles.cc:81 kspread_view.cc:987
+#: dialogs/kspread_dlg_styles.cc:80 kspread_view.cc:986
 msgid "Style Manager"
 msgstr ""
 
-#: kspread_view.cc:989
-msgid "Edit and organize cell styles"
+#: kspread_view.cc:988
+msgid "Edit and organize cell styles."
 msgstr ""
 
-#: kspread_view.cc:991
+#: kspread_view.cc:990
 msgid "Autosum"
 msgstr "ຜົນລວມອັດຕະໂນມັດ"
 
-#: kspread_view.cc:993
+#: kspread_view.cc:992
 msgid "Insert the 'sum' function"
 msgstr "ແຊກຟັງຊັ້ນ 'ຜົນລວມ'"
 
-#: kspread_view.cc:997
+#: kspread_view.cc:996
 #, fuzzy
-msgid "Check the spelling"
+msgid "Check the spelling."
 msgstr "ກວດສອບຄຳສະກົດ"
 
-#: kspread_view.cc:999
+#: kspread_view.cc:998
 msgid "Formula Selection"
 msgstr "ການເລືອກສູດ"
 
-#: kspread_view.cc:1001
+#: kspread_view.cc:1000
 #, fuzzy
-msgid "Insert a function"
+msgid "Insert a function."
 msgstr "ສອດຟັງຊັ້ນ"
 
-#: kspread_view.cc:1009 kspread_view.cc:3348
+#: kspread_view.cc:1008 kspread_view.cc:3347
 msgid "Others..."
 msgstr "ອື່ນຯ..."
 
-#: kspread_view.cc:1020
+#: kspread_view.cc:1019
 msgid "&Consolidate..."
 msgstr "ພະສານ&ເຊລ.."
 
-#: kspread_view.cc:1022
+#: kspread_view.cc:1021
 #, fuzzy
-msgid "Create a region of summary data from a group of similar regions"
+msgid "Create a region of summary data from a group of similar regions."
 msgstr "ສ້າງຂອບເຂດຂອງການລວມຄ່າຂໍ້ມູນຈາກກຸ່ມຂອງຂອບເຂດທີ່ຄ້າຍກັນ"
 
-#: kspread_view.cc:1024
+#: kspread_view.cc:1023
 msgid "&Goal Seek..."
 msgstr "&ຄົ້ນຫາຈຸດປະສົງ.."
 
-#: kspread_view.cc:1026
+#: kspread_view.cc:1025
 #, fuzzy
-msgid "Repeating calculation to find a specific value"
+msgid "Repeating calculation to find a specific value."
 msgstr "ເວົ້າຄືນການຄຳນວນແລະຊອກຫາຂະໜາດສະເພາະ"
 
-#: kspread_view.cc:1028
+#: kspread_view.cc:1027
 msgid "&Subtotals..."
 msgstr "&ລຽງລຳດັບ..."
 
-#: kspread_view.cc:1030
+#: kspread_view.cc:1029
 #, fuzzy
-msgid "Create different kind of subtotals to a list or database"
+msgid "Create different kind of subtotals to a list or database."
 msgstr "ເຮັດໃຫ້ເກີດຄວາມແຕກຕ່າງ ສະນີດຂອງຄວາມບໍ່ສົມບູນບັນດາບັນຊີຫລືຖານຂໍ້ມູນ"
 
-#: kspread_view.cc:1032
+#: kspread_view.cc:1031
 msgid "&Text to Columns..."
 msgstr "&ຂໍ້ຄວາມໄປຍັງຖັນ..."
 
-#: kspread_view.cc:1034
+#: kspread_view.cc:1033
 #, fuzzy
-msgid "Expand the content of cells to multiple columns"
+msgid "Expand the content of cells to multiple columns."
 msgstr "ຂະຫຍາຍເນື້ອຫາຂອງເຊລເປັນຫລາຍຯຖັນ"
 
-#: kspread_view.cc:1036
+#: kspread_view.cc:1035
 msgid "&Multiple Operations..."
 msgstr "&ຄູນຄ່າ"
 
-#: kspread_view.cc:1038
+#: kspread_view.cc:1037
 #, fuzzy
 msgid ""
 "Apply the same formula to various cells using different values for the "
-"parameter"
+"parameter."
 msgstr ""
 "ໃຊ້ສູດທີ່ຄືກັນແລະເຊລທີ່ຕ່າງກັນເຮັດໃຫ້ເກີດຄວາມ ແຕກຕ່າງທາງຂະໜາດຂອງພາລາມິເຕີ "
 
-#: kspread_view.cc:1040
+#: kspread_view.cc:1039
 msgid "&Create Template From Document..."
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kspread_view.cc:1043
+#: kspread_view.cc:1042
 msgid "Custom Lists..."
 msgstr "ລາຍການກຳນົດເອງ..."
 
-#: kspread_view.cc:1045
+#: kspread_view.cc:1044
 #, fuzzy
-msgid "Create custom lists for sorting or autofill"
+msgid "Create custom lists for sorting or autofill."
 msgstr "ສ້າງລາຍການກຳນົດເອງສຳລັບການລຽງລຳດັບຫລືຕື່ມເຕັມອັດຕະໂນມັດ"
 
-#: kspread_view.cc:1049
+#: kspread_view.cc:1048
 msgid "Goto Cell..."
 msgstr "ໄປຍັງເຊລ..."
 
-#: kspread_view.cc:1051
+#: kspread_view.cc:1050
 #, fuzzy
-msgid "Move to a particular cell"
+msgid "Move to a particular cell."
 msgstr "ຍ້າຍໄປຍັງເຊລບາງສ່ວນ"
 
-#: kspread_view.cc:1053
+#: kspread_view.cc:1052
 msgid "Next Sheet"
 msgstr "ແຜ່ນງານຖັດໄປ"
 
-#: kspread_view.cc:1055
+#: kspread_view.cc:1054
 #, fuzzy
-msgid "Move to the next sheet"
+msgid "Move to the next sheet."
 msgstr "ໄປຍັງແຜ່ນງານຖັດໄປ"
 
-#: kspread_view.cc:1057
+#: kspread_view.cc:1056
 msgid "Previous Sheet"
 msgstr "ແຜ່ນງານກ່ອນຫນ້ານີ້"
 
-#: kspread_view.cc:1059
+#: kspread_view.cc:1058
 #, fuzzy
-msgid "Move to the previous sheet"
+msgid "Move to the previous sheet."
 msgstr "ໄປຍັງແຜ່ນງານກອ່ນຫນ້ານີ້"
 
-#: kspread_view.cc:1061
+#: kspread_view.cc:1060
 msgid "First Sheet"
 msgstr "ແຜ່ນງານແຜ່ນທຳອິດ"
 
-#: kspread_view.cc:1063
+#: kspread_view.cc:1062
 #, fuzzy
-msgid "Move to the first sheet"
+msgid "Move to the first sheet."
 msgstr "ໄປຍັງແຜ່ນງານແຜ່ນທຳອິດ"
 
-#: kspread_view.cc:1065
+#: kspread_view.cc:1064
 msgid "Last Sheet"
 msgstr "ແຜ່ນງານແຜ່ນສຸດທ້າຍ"
 
-#: kspread_view.cc:1067
+#: kspread_view.cc:1066
 #, fuzzy
-msgid "Move to the last sheet"
+msgid "Move to the last sheet."
 msgstr "ໄປຍັງແຜ່ນງານແຜ່ນສຸດທ້າຍ"
 
-#: kspread_view.cc:1071
+#: kspread_view.cc:1070
 #, fuzzy
 msgid "Show Status Bar"
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1073
+#: kspread_view.cc:1072
 #, fuzzy
 msgid "Hide Status Bar"
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1076
+#: kspread_view.cc:1075
 #, fuzzy
-msgid "Show the status bar"
+msgid "Show the status bar."
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1078
+#: kspread_view.cc:1077
 #, fuzzy
 msgid "Show Tab Bar"
 msgstr "ສະແດງຕາຕະລາງ"
 
-#: kspread_view.cc:1080
+#: kspread_view.cc:1079
 #, fuzzy
 msgid "Hide Tab Bar"
 msgstr "ເຊື່ອງຕາລາງ"
 
-#: kspread_view.cc:1083
+#: kspread_view.cc:1082
 #, fuzzy
-msgid "Show the tab bar"
+msgid "Show the tab bar."
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: kspread_view.cc:1085
+#: kspread_view.cc:1084
 #, fuzzy
 msgid "Show Formula Bar"
 msgstr "&ສະແດງສູດ"
 
-#: kspread_view.cc:1087
+#: kspread_view.cc:1086
 #, fuzzy
 msgid "Hide Formula Bar"
 msgstr "ູ&ເຊື່ອງຄ່າທີ່ເປັນສູນ"
 
-#: kspread_view.cc:1090
+#: kspread_view.cc:1089
 #, fuzzy
-msgid "Show the formula bar"
+msgid "Show the formula bar."
 msgstr "ື&ສະແດງແຖບເຄື່ອງມືສູດ"
 
-#: kspread_view.cc:1092
+#: kspread_view.cc:1091
 msgid "Configure KSpread..."
 msgstr "ປັບແຕ່ງເຈັ້ຍຄຳນວນ K..."
 
-#: kspread_view.cc:1094
+#: kspread_view.cc:1093
 #, fuzzy
-msgid "Set various KSpread options"
+msgid "Set various KSpread options."
 msgstr "ຕັ້ງຄ່າຕົວເລືອກຕ່າງ ຯ ຂອງເຈັ້ຍຄຳນວນ K"
 
 #: dialogs/kspread_dlg_csv.cc:167 dialogs/kspread_dlg_database.cc:850
-#: dialogs/kspread_dlg_database.cc:851 dialogs/kspread_dlg_layout.cc:298
+#: dialogs/kspread_dlg_database.cc:851 dialogs/kspread_dlg_layout.cc:297
 #: dialogs/kspread_dlg_preference.cc:444 dialogs/kspread_dlg_preference.cc:478
 #: dialogs/kspread_dlg_sort.cc:136 dialogs/kspread_dlg_sort.cc:156
 #: dialogs/kspread_dlg_sort.cc:477 dialogs/kspread_dlg_sort.cc:479
 #: dialogs/kspread_dlg_sort.cc:489 dialogs/kspread_dlg_sort.cc:491
-#: kspread_view.cc:1098
+#: kspread_view.cc:1097
 msgid "None"
 msgstr "ບໍ່ແມ່ນ"
 
-#: kspread_view.cc:1102
+#: kspread_view.cc:1101
 msgid "No calculation"
 msgstr "ບໍ່ມີການຄຳນວນ"
 
 #: dialogs/kspread_dlg_cons.cc:76 dialogs/kspread_dlg_preference.cc:472
-#: dialogs/kspread_dlg_subtotal.cc:270 kspread_view.cc:1104
+#: dialogs/kspread_dlg_subtotal.cc:270 kspread_view.cc:1103
 msgid "Sum"
 msgstr "ຜົນລວມ"
 
-#: kspread_view.cc:1108
+#: kspread_view.cc:1107
 #, fuzzy
-msgid "Calculate using sum"
+msgid "Calculate using sum."
 msgstr "ຄຳນວນຜົນລວມ"
 
 #: dialogs/kspread_dlg_cons.cc:80 dialogs/kspread_dlg_preference.cc:473
-#: dialogs/kspread_dlg_subtotal.cc:266 kspread_view.cc:1110
+#: dialogs/kspread_dlg_subtotal.cc:266 kspread_view.cc:1109
 msgid "Min"
 msgstr "ຄ່ານ້ອຍທີ່ສຸດ"
 
-#: kspread_view.cc:1114
+#: kspread_view.cc:1113
 #, fuzzy
-msgid "Calculate using minimum"
+msgid "Calculate using minimum."
 msgstr "ຄຳນວນຄ່ານອ້ຍທີ່ສຸດ"
 
 #: dialogs/kspread_dlg_cons.cc:79 dialogs/kspread_dlg_preference.cc:474
-#: dialogs/kspread_dlg_subtotal.cc:265 kspread_view.cc:1116
+#: dialogs/kspread_dlg_subtotal.cc:265 kspread_view.cc:1115
 msgid "Max"
 msgstr "ຄ່າຫລາຍທີ່ສຸດ"
 
-#: kspread_view.cc:1120
+#: kspread_view.cc:1119
 #, fuzzy
-msgid "Calculate using maximum"
+msgid "Calculate using maximum."
 msgstr "ຄຳນວນຄ່າຫລາຍທີ່ສຸດ"
 
 #: dialogs/kspread_dlg_cons.cc:77 dialogs/kspread_dlg_preference.cc:475
-#: dialogs/kspread_dlg_subtotal.cc:262 kspread_view.cc:1122
+#: dialogs/kspread_dlg_subtotal.cc:262 kspread_view.cc:1121
 msgid "Average"
 msgstr "ຄ່າສະເລ່ຍ"
 
-#: kspread_view.cc:1126
+#: kspread_view.cc:1125
 #, fuzzy
-msgid "Calculate using average"
+msgid "Calculate using average."
 msgstr "ຄຳນວນຄ່າສະເລ່ຍ"
 
 #: dialogs/kspread_dlg_cons.cc:78 dialogs/kspread_dlg_preference.cc:476
-#: dialogs/kspread_dlg_subtotal.cc:263 kspread_view.cc:1128
+#: dialogs/kspread_dlg_subtotal.cc:263 kspread_view.cc:1127
 msgid "Count"
 msgstr "ນັບຈຳນວນ"
 
-#: kspread_view.cc:1132
+#: kspread_view.cc:1131
 #, fuzzy
-msgid "Calculate using the count"
+msgid "Calculate using the count."
 msgstr "ຄຳນວນນັບຈຳນວນ"
 
 #: dialogs/kspread_dlg_preference.cc:477 dialogs/kspread_dlg_subtotal.cc:264
-#: kspread_view.cc:1134
+#: kspread_view.cc:1133
 msgid "CountA"
 msgstr "ນັດຈຳນວນ"
 
-#: kspread_view.cc:1138
+#: kspread_view.cc:1137
 #, fuzzy
-msgid "Calculate using the countA"
+msgid "Calculate using the countA."
 msgstr "ຄຳນວນນັບຈຳນວນ"
 
-#: kspread_view.cc:1142
+#: kspread_view.cc:1141
 msgid "Run Internal Tests..."
 msgstr ""
 
-#: kspread_view.cc:1144
+#: kspread_view.cc:1143
 msgid "Run Inspector..."
 msgstr ""
 
-#: kspread_view.cc:2286
+#: kspread_view.cc:2285
 msgid "Spell Checking"
 msgstr "ການກວດຄຳສະກົດ"
 
-#: kspread_view.cc:2425
+#: kspread_view.cc:2424
 msgid "Spell checking is complete."
 msgstr "ການກວດຄຳສະກົດຮຽບຮອ້ຍແລ້ວ"
 
-#: kspread_view.cc:2472
+#: kspread_view.cc:2471
 #, fuzzy
 msgid "Do you want to check the spelling in the next sheet?"
 msgstr "ທ່ານຕ້ອງການຈະກວດຄຳສະກົດໃນຕາລາງຖັດໄປແມ່ນຫລືບໍ່ ?"
 
-#: kspread_view.cc:2531
+#: kspread_view.cc:2530
 msgid "Correct Misspelled Word"
 msgstr "ແກ້ຄຳທີ່ສະກົດຜິດໃຫ້ຖືກຕອ້ງ"
 
-#: kspread_view.cc:2591
+#: kspread_view.cc:2590
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
@@ -5193,47 +5152,47 @@ msgstr ""
 "ບໍ່ສາມາດເລີ່ມການທຳງານ Iສະກົດ ໄດ้້\n"
 "ກະລຸນາກວດສອບວ່າທ່ານໄດ້ປັບແຕ່ງເສັ້ນທາງໃນຕົວແປພາດໃຫ້ຊີ້ໄປຍັງໂປຣແກຣມIສະກົດ ແລ້ວ"
 
-#: kspread_view.cc:2597
+#: kspread_view.cc:2596
 msgid "ISpell seems to have crashed."
 msgstr "ເບິ່ງຄືວ່າ Iສະກົດ ຈະທຳງານຜິດພາດ"
 
-#: kspread_view.cc:3120 kspread_view.cc:3166 kspread_view.cc:4742
-#: kspread_view.cc:4757 kspread_view.cc:5034 kspread_view.cc:6276
-#: kspread_view.cc:6290 kspread_view.cc:6303 kspread_view.cc:6318
+#: kspread_view.cc:3119 kspread_view.cc:3165 kspread_view.cc:4741
+#: kspread_view.cc:4756 kspread_view.cc:5033 kspread_view.cc:6275
+#: kspread_view.cc:6289 kspread_view.cc:6302 kspread_view.cc:6317
 #, fuzzy
 msgid "Area is too large."
 msgstr "ພື້ນທີ່ໃຫຍ່ເກີນໄປ !"
 
-#: kspread_view.cc:3484 kspread_view.cc:3506 kspread_view.cc:4365
-#: kspread_view.cc:4778
+#: kspread_view.cc:3483 kspread_view.cc:3505 kspread_view.cc:4364
+#: kspread_view.cc:4777
 msgid "You must select multiple cells."
 msgstr "ທ່ານຕ້ອງເລືອກເຊລຫລາຍເຊລກ່ອນ"
 
-#: kspread_view.cc:3960 kspread_view.cc:6788
+#: kspread_view.cc:3959 kspread_view.cc:6787
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "ທ່ານບໍ່ສາມາດລືບແຜ່ນງານທີມເຫລືອຢູ່ແຜ່ນດ່ຽວໄດ້"
 
-#: kspread_view.cc:3988
+#: kspread_view.cc:3987
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "ທ່ານບໍ່ສາມາດເຊື່ອງຕະລາງຕົວສຸດທ້າຍໄດ້າແລ້ວ"
 
-#: kspread_view.cc:4066
+#: kspread_view.cc:4065
 #, fuzzy
 msgid "Cut Objects"
 msgstr "&ວັດຖຸ..."
 
-#: dialogs/link.cc:62 kspread_view.cc:4812
+#: dialogs/link.cc:62 kspread_view.cc:4811
 msgid "Insert Link"
 msgstr "ການແຊກການເຊື່ອມໂຍງ"
 
-#: kspread_view.cc:4818
+#: kspread_view.cc:4817
 #, fuzzy
 msgid "Edit Link"
 msgstr "ການແຊກການເຊື່ອມໂຍງ"
 
-#: kspread_view.cc:4848
+#: kspread_view.cc:4847
 #, fuzzy
 msgid ""
 "No database drivers available.  To use this feature you need to install the "
@@ -5241,85 +5200,85 @@ msgid ""
 msgstr ""
 "ບໍ່ມີໄດເວີສຳລັບຖານຂໍ້ມູນຢ!ູ່ ທ່ານຕ້ອງຄອມຟາຍ ໃໜ່ ພ້ອມກັບໄດເວີທີ່ຕ້ອງໃຊ້ Qt"
 
-#: kspread_view.cc:4942
+#: kspread_view.cc:4941
 msgid "Sheet %1 could not be found for printing"
 msgstr ""
 
-#: kspread_view.cc:5009
+#: kspread_view.cc:5008
 #, fuzzy, c-format
 msgid "Nothing to print for sheet %1."
 msgstr "ບໍ່ມີສິ່ງທີ່ຈະພິມ"
 
-#: kspread_view.cc:5122
+#: kspread_view.cc:5121
 #, fuzzy
 msgid "Protect Document"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:5137
+#: kspread_view.cc:5136
 #, fuzzy
 msgid "Unprotect Document"
 msgstr "ຈຳນວນທົດສະນິຍົມ"
 
-#: kspread_view.cc:5150 kspread_view.cc:5200
+#: kspread_view.cc:5149 kspread_view.cc:5199
 msgid "Password is incorrect."
 msgstr ""
 
-#: kspread_view.cc:5170
+#: kspread_view.cc:5169
 #, fuzzy
 msgid "Protect Sheet"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: kspread_view.cc:5186
+#: kspread_view.cc:5185
 #, fuzzy
 msgid "Unprotect Sheet"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: kspread_view.cc:5639
+#: kspread_view.cc:5638
 msgid "Adjust Column"
 msgstr "ປັບຂະຫນາດຖັນໃຫ້ພໍດີ"
 
-#: kspread_view.cc:5735
+#: kspread_view.cc:5734
 msgid "Adjust Row"
 msgstr "ປັບຂະຫນາດແຖວໃຫ້ພໍດີ"
 
-#: kspread_view.cc:5974
+#: kspread_view.cc:5973
 msgid "Selection List..."
 msgstr "ລາຍການການເລືອກ..."
 
-#: kspread_view.cc:6576
+#: kspread_view.cc:6575
 #, fuzzy
 msgid "Create Style From Cell"
 msgstr "&ສ້າງແມ່ແບບຈາກເອກະສານ..."
 
-#: kspread_view.cc:6577 kspread_view.cc:6794 kspread_view.cc:6812
+#: kspread_view.cc:6576 kspread_view.cc:6793 kspread_view.cc:6811
 msgid "Enter name:"
 msgstr "ຕື່ມຊື່:"
 
-#: kspread_view.cc:6587
+#: kspread_view.cc:6586
 #, fuzzy
 msgid "The style name cannot be empty."
 msgstr "ຊື່ຕາລາງບໍ່ສາມາດວ່າງໄວ້ໄດ້"
 
-#: dialogs/kspread_dlg_layout.cc:244 kspread_view.cc:6594
+#: dialogs/kspread_dlg_layout.cc:243 kspread_view.cc:6593
 #, fuzzy
 msgid "A style with this name already exists."
 msgstr "ມີແຟ້ມຢູ່ແລ້ວ"
 
-#: kspread_view.cc:6690
+#: kspread_view.cc:6689
 #, fuzzy
 msgid "Area too large."
 msgstr "ພື້ນທີ່ໃຫຍ່ເກີນໄປ !"
 
-#: kspread_view.cc:6696
+#: kspread_view.cc:6695
 #, fuzzy
 msgid "No charting component registered."
 msgstr "ຄອມໂພເນັນແຜນພູມຍັງບໍ່ໄດ້ລົງທະບຽນໄວ້"
 
-#: kspread_view.cc:6749
+#: kspread_view.cc:6748
 msgid "You cannot delete the only sheet."
 msgstr "ທ່ານບໍ່ສາມາດລືບແຜ່ນງານທີມເຫລືອຢູ່ແຜ່ນດ່ຽວໄດ້"
 
-#: kspread_view.cc:6753
+#: kspread_view.cc:6752
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -5327,49 +5286,49 @@ msgstr ""
 "ທ່ານກຳລັງຈະເຮັດການລືບແຜ່ນງານທີ່ກຳລັງທຳງານຢູ່\n"
 "ທ່ານຕ້ອງການເຮັດຕໍ່ໄປແມ່ນຫລືບໍ່ ?"
 
-#: kspread_view.cc:6801
+#: kspread_view.cc:6800
 msgid ""
 "Sheet name contains illegal characters. Only numbers and letters are allowed."
 msgstr "ຊື່ຊິດສ ບັນຈຸູແບບຕົວອັກສອນທີ່ຜິດແບບ.ພຽງແຕ່ຕົວອັກສອນທີ່ແມ່ນອຸນຸຍາດ"
 
-#: kspread_view.cc:6802 kspread_view.cc:6820 kspread_view.cc:6830
+#: kspread_view.cc:6801 kspread_view.cc:6819 kspread_view.cc:6829
 msgid "Change Sheet Name"
 msgstr "ປ່ຽນຊື່ແຜ່ນງານ"
 
-#: kspread_view.cc:6820
+#: kspread_view.cc:6819
 msgid "Sheet name cannot be empty."
 msgstr "ຊື່ຕາລາງບໍ່ສາມາດວ່າງໄວ້ໄດ້"
 
-#: dialogs/kspread_dlg_area.cc:93 kspread_view.cc:6830
+#: dialogs/kspread_dlg_area.cc:93 kspread_view.cc:6829
 msgid "This name is already used."
 msgstr "ມີການໄຊ້ຊື່ນີ້ຢູ່ແລ້ວ"
 
-#: kspread_view.cc:7085
+#: kspread_view.cc:7084
 #, fuzzy
 msgid "Sum: "
 msgstr "ຜົນລວມ: %1"
 
-#: kspread_view.cc:7088
+#: kspread_view.cc:7087
 #, fuzzy
 msgid "Average: "
 msgstr "ຄ່າສະເລ່ຍ: %1"
 
-#: kspread_view.cc:7091
+#: kspread_view.cc:7090
 #, fuzzy
 msgid "Min: "
 msgstr "ຄ່ານ້ອຍທີ່ສຸດ: %1"
 
-#: kspread_view.cc:7094
+#: kspread_view.cc:7093
 #, fuzzy
 msgid "Max: "
 msgstr "ຄ່າຫລາຍທີ່ສຸດ: %1"
 
-#: kspread_view.cc:7097
+#: kspread_view.cc:7096
 #, fuzzy
 msgid "Count: "
 msgstr "ນັບຈຳນວນ: %1"
 
-#: kspread_view.cc:7100
+#: kspread_view.cc:7099
 #, fuzzy
 msgid "CountA: "
 msgstr "ນັບຈຳນວນ: %1"
@@ -5885,7 +5844,7 @@ msgstr "CARY(12;0) ຈະໄດ້ຄ່າ 0"
 #. i18n: file extensions/conversion.xml line 247
 #: dialogs/kspread_dlg_csv.cc:142 dialogs/kspread_dlg_csv.cc:465
 #: dialogs/kspread_dlg_csv.cc:533 dialogs/kspread_dlg_csv.cc:593
-#: dialogs/kspread_dlg_csv.cc:717 dialogs/kspread_dlg_layout.cc:1098
+#: dialogs/kspread_dlg_csv.cc:717 dialogs/kspread_dlg_layout.cc:1097
 #: dialogs/kspread_dlg_validity.cc:69 xml_doc.cc:222 xml_doc.cc:996
 #: xml_doc.cc:1077 xml_doc.cc:4959 xml_doc.cc:4989 xml_doc.cc:5019
 #: xml_doc.cc:5034 xml_doc.cc:5049 xml_doc.cc:5133 xml_doc.cc:5160
@@ -8647,7 +8606,7 @@ msgid "Fractional Dollar"
 msgstr "ເສດສ່ວນ"
 
 #. i18n: file extensions/financial.xml line 247
-#: dialogs/kspread_dlg_layout.cc:1114 xml_doc.cc:1881 xml_doc.cc:1896
+#: dialogs/kspread_dlg_layout.cc:1113 xml_doc.cc:1881 xml_doc.cc:1896
 #, no-c-format
 msgid "Fraction"
 msgstr "ເສດສວ່ນ"
@@ -16703,84 +16662,84 @@ msgstr "ຊື່"
 msgid "Inherit style:"
 msgstr "ຮູບແບບແຜນງານ "
 
-#: dialogs/kspread_dlg_layout.cc:180 dialogs/kspread_dlg_layout.cc:189
-#: dialogs/kspread_dlg_layout.cc:229 dialogs/kspread_dlg_layout.cc:255
+#: dialogs/kspread_dlg_layout.cc:179 dialogs/kspread_dlg_layout.cc:188
+#: dialogs/kspread_dlg_layout.cc:228 dialogs/kspread_dlg_layout.cc:254
 #, fuzzy
 msgid "<None>"
 msgstr "<ບໍ່ມີ>"
 
-#: dialogs/kspread_dlg_layout.cc:259
+#: dialogs/kspread_dlg_layout.cc:258
 msgid "A style cannot inherit from itself."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:265
+#: dialogs/kspread_dlg_layout.cc:264
 msgid "The style cannot inherit from '%1' because of recursive references."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:274
+#: dialogs/kspread_dlg_layout.cc:273
 #, fuzzy
 msgid "The parent style does not exist."
 msgstr "ຍັງບໍ່ມີຕາລາງຜົນລັບທີ່ເລືອກໄວ້ !"
 
-#: dialogs/kspread_dlg_layout.cc:909
+#: dialogs/kspread_dlg_layout.cc:908
 #, fuzzy
 msgid "&General"
 msgstr "ເຊີເນີກາຣ"
 
-#: dialogs/kspread_dlg_layout.cc:913
+#: dialogs/kspread_dlg_layout.cc:912
 msgid "&Data Format"
 msgstr "ຮູບແບບ&ຂໍ້ມູນ "
 
-#: dialogs/kspread_dlg_layout.cc:916
+#: dialogs/kspread_dlg_layout.cc:915
 #, fuzzy
 msgid "&Font"
 msgstr "ຟໍລີນ"
 
-#: dialogs/kspread_dlg_layout.cc:922
+#: dialogs/kspread_dlg_layout.cc:921
 msgid "&Position"
 msgstr "&ຕໍ່າແຫນ່ງ"
 
-#: dialogs/kspread_dlg_layout.cc:925
+#: dialogs/kspread_dlg_layout.cc:924
 msgid "&Border"
 msgstr "&ເສັ້ນຂອບ  "
 
-#: dialogs/kspread_dlg_layout.cc:928
+#: dialogs/kspread_dlg_layout.cc:927
 msgid "Back&ground"
 msgstr "ເບື້ອງ&ຫລັງ"
 
-#: dialogs/kspread_dlg_layout.cc:931
+#: dialogs/kspread_dlg_layout.cc:930
 #, fuzzy
 msgid "&Cell Protection"
 msgstr "ປ່ຽນຈຳນວນທົດນິຍົມ"
 
-#: dialogs/kspread_dlg_layout.cc:936
+#: dialogs/kspread_dlg_layout.cc:935
 msgid "Cell Format"
 msgstr "ຮູບແບບເຊລ "
 
-#: dialogs/kspread_dlg_layout.cc:1094
+#: dialogs/kspread_dlg_layout.cc:1093
 #, fuzzy
 msgid "Generic"
 msgstr "ເຊີເນີກາຣ"
 
-#: dialogs/kspread_dlg_layout.cc:1095
+#: dialogs/kspread_dlg_layout.cc:1094
 msgid ""
 "This is the default format and KSpread autodetects the actual data type "
 "depending on the current cell data. By default, KSpread right justifies "
 "numbers, dates and times within a cell and left justifies anything else."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1099
+#: dialogs/kspread_dlg_layout.cc:1098
 msgid ""
 "The number notation uses the notation you globally choose in KControl -> "
 "Regional & Accessibility -> Numbers tab. Numbers are right justified by "
 "default."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1102
+#: dialogs/kspread_dlg_layout.cc:1101
 msgid "Percent"
 msgstr "ລອ້ຍລະ"
 
-#: dialogs/kspread_dlg_layout.cc:1103
+#: dialogs/kspread_dlg_layout.cc:1102
 msgid ""
 "When you have a number in the current cell and you switch from the dcell format "
 "from Generic to Percent, the current cell number will be multiplied by 100%.\n"
@@ -16790,11 +16749,11 @@ msgid ""
 "You can also use the Percent icon in the Format Toolbar."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1106
+#: dialogs/kspread_dlg_layout.cc:1105
 msgid "Money"
 msgstr "ເງີນຕຣາ"
 
-#: dialogs/kspread_dlg_layout.cc:1107
+#: dialogs/kspread_dlg_layout.cc:1106
 msgid ""
 "The Money format converts your number into money notation using the settings "
 "globally fixed in KControl in Regional & Accessibility -> "
@@ -16804,18 +16763,18 @@ msgid ""
 "formatting to look like your current currency."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1110
+#: dialogs/kspread_dlg_layout.cc:1109
 msgid "Scientific"
 msgstr "ວິທະຍາສາດຣ໌"
 
-#: dialogs/kspread_dlg_layout.cc:1111
+#: dialogs/kspread_dlg_layout.cc:1110
 msgid ""
 "The scientific format changes your number using the scientific notation. For "
 "example, 0.0012 will be changed to 1.2E-03. Going back using Generic cell "
 "format will display 0.0012 again."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1115
+#: dialogs/kspread_dlg_layout.cc:1114
 msgid ""
 "The fraction format changes your number into a fraction. For example, 0.1 can "
 "be changed to 1/8, 2/16, 1/10, etc. You define the type of fraction by choosing "
@@ -16828,11 +16787,11 @@ msgid ""
 "fraction."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1118
+#: dialogs/kspread_dlg_layout.cc:1117
 msgid "Date format"
 msgstr "ຮູບແບບວັນທີ"
 
-#: dialogs/kspread_dlg_layout.cc:1119
+#: dialogs/kspread_dlg_layout.cc:1118
 msgid ""
 "To enter a date, you should enter it in one of the formats set in KControl in "
 "Regional & Accessibility ->Time & Dates. There are two formats set here: the "
@@ -16841,11 +16800,11 @@ msgid ""
 "cells will also get dates."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1122
+#: dialogs/kspread_dlg_layout.cc:1121
 msgid "Time format"
 msgstr "ຮູບແບບເວລາ"
 
-#: dialogs/kspread_dlg_layout.cc:1123
+#: dialogs/kspread_dlg_layout.cc:1122
 msgid ""
 "This formats your cell content as a time. To enter a time, you should enter it "
 "in the Time format set in KControl in Regional & Accessibility ->"
@@ -16856,7 +16815,7 @@ msgid ""
 "have in KControl."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1127
+#: dialogs/kspread_dlg_layout.cc:1126
 msgid ""
 "This formats your cell content as text. This can be useful if you want a number "
 "treated as text instead as a number, for example for a ZIP code. Setting a "
@@ -16865,163 +16824,163 @@ msgid ""
 "cell is justified."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1130
+#: dialogs/kspread_dlg_layout.cc:1129
 #, fuzzy
 msgid "Custom"
 msgstr "ກຳນົດເອງ"
 
-#: dialogs/kspread_dlg_layout.cc:1131
+#: dialogs/kspread_dlg_layout.cc:1130
 msgid "The custom format does not work yet. To be enabled in the next release."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1140
+#: dialogs/kspread_dlg_layout.cc:1139
 msgid ""
 "This will display a preview of your choice so you can know what it does before "
 "clicking the OK button to validate it."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1151
+#: dialogs/kspread_dlg_layout.cc:1150
 msgid "Displays choices of format for the fraction, date or time formats."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1161
+#: dialogs/kspread_dlg_layout.cc:1160
 msgid ""
 "You can add here a Postfix such as a $HK symbol to the end of each cell content "
 "in the checked format."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1164
+#: dialogs/kspread_dlg_layout.cc:1163
 msgid "variable"
 msgstr "ຕົວແປ"
 
-#: dialogs/kspread_dlg_layout.cc:1166
+#: dialogs/kspread_dlg_layout.cc:1165
 msgid ""
 "You can control how many digits are displayed after the decimal point for "
 "numeric values. This can also be changed using the Increase precision or "
 "Decrease precision icons in the Format toolbar. "
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1170
+#: dialogs/kspread_dlg_layout.cc:1169
 msgid ""
 "You can add here a Prefix such as a $ symbol at the start of each cell content "
 "in the checked format."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1174
+#: dialogs/kspread_dlg_layout.cc:1173
 msgid ""
 "You can choose whether positive values are displayed with a leading + sign and "
 "whether negative values are shown in red."
 msgstr ""
 
-#: dialogs/kspread_dlg_layout.cc:1180
+#: dialogs/kspread_dlg_layout.cc:1179
 msgid "Postfix:"
 msgstr "ຕໍ່ທາ້ຍດ້ວຍ:"
 
-#: dialogs/kspread_dlg_layout.cc:1187
+#: dialogs/kspread_dlg_layout.cc:1186
 msgid "Prefix:"
 msgstr "ນຳຫນ້າດ້ວຍ:"
 
-#: dialogs/kspread_dlg_layout.cc:1190
+#: dialogs/kspread_dlg_layout.cc:1189
 msgid "Precision:"
 msgstr "ຈຳນວນທົດສະນິຍົມ:"
 
-#: dialogs/kspread_dlg_layout.cc:1202
+#: dialogs/kspread_dlg_layout.cc:1201
 msgid "Format:"
 msgstr "ຮູບແບບ:"
 
-#: dialogs/kspread_dlg_layout.cc:1206
+#: dialogs/kspread_dlg_layout.cc:1205
 msgid "Currency:"
 msgstr "ເງີນຕຣາ"
 
-#: dialogs/kspread_dlg_layout.cc:1365
+#: dialogs/kspread_dlg_layout.cc:1364
 msgid "Halves 1/2"
 msgstr "ເຄີ່ງຫນື່ງ 1/2"
 
-#: dialogs/kspread_dlg_layout.cc:1366
+#: dialogs/kspread_dlg_layout.cc:1365
 msgid "Quarters 1/4"
 msgstr "ຫນື່ງໃນສີ່ 1/4"
 
-#: dialogs/kspread_dlg_layout.cc:1367
+#: dialogs/kspread_dlg_layout.cc:1366
 #, fuzzy
 msgid "Eighths 1/8"
 msgstr "ຫນື່ງໃນແປດ 1/8"
 
-#: dialogs/kspread_dlg_layout.cc:1368
+#: dialogs/kspread_dlg_layout.cc:1367
 #, fuzzy
 msgid "Sixteenths 1/16"
 msgstr "ຫນື່ງໃນສິບຫົກ 1/16"
 
-#: dialogs/kspread_dlg_layout.cc:1369
+#: dialogs/kspread_dlg_layout.cc:1368
 #, fuzzy
 msgid "Tenths 1/10"
 msgstr "ຫນື່ງໃນສິບ 1/10"
 
-#: dialogs/kspread_dlg_layout.cc:1370
+#: dialogs/kspread_dlg_layout.cc:1369
 #, fuzzy
 msgid "Hundredths 1/100"
 msgstr "ຫນື່ງໃນຣ້ອຍ 1/100"
 
-#: dialogs/kspread_dlg_layout.cc:1371
+#: dialogs/kspread_dlg_layout.cc:1370
 msgid "One digit 5/9"
 msgstr "ຫນື່ງໜ່ວຍ 5/9"
 
-#: dialogs/kspread_dlg_layout.cc:1372
+#: dialogs/kspread_dlg_layout.cc:1371
 msgid "Two digits 15/22"
 msgstr "ສອງໜ່ວຍ 15/22"
 
-#: dialogs/kspread_dlg_layout.cc:1373
+#: dialogs/kspread_dlg_layout.cc:1372
 msgid "Three digits 153/652"
 msgstr "ສາມໜ່ວຍ 153/652"
 
-#: dialogs/kspread_dlg_layout.cc:1405 dialogs/kspread_dlg_layout.cc:1406
-#: dialogs/kspread_dlg_layout.cc:1468 dialogs/kspread_dlg_layout.cc:1469
+#: dialogs/kspread_dlg_layout.cc:1404 dialogs/kspread_dlg_layout.cc:1405
+#: dialogs/kspread_dlg_layout.cc:1467 dialogs/kspread_dlg_layout.cc:1468
 msgid "System: "
 msgstr "ລະບົບ: "
 
-#: dialogs/kspread_dlg_layout.cc:1416
+#: dialogs/kspread_dlg_layout.cc:1415
 #, fuzzy
 msgid " (=[mm]::ss)"
 msgstr "(=ມມ::ສສ)"
 
-#: dialogs/kspread_dlg_layout.cc:1417
+#: dialogs/kspread_dlg_layout.cc:1416
 #, fuzzy
 msgid " (=[hh]::mm::ss)"
 msgstr "(=ມມ::ສສ)"
 
-#: dialogs/kspread_dlg_layout.cc:1418
+#: dialogs/kspread_dlg_layout.cc:1417
 #, fuzzy
 msgid " (=[hh]::mm)"
 msgstr "(=ມມ::ສສ)"
 
-#: dialogs/kspread_dlg_layout.cc:2025
+#: dialogs/kspread_dlg_layout.cc:2024
 msgid "Dolor Ipse"
 msgstr "ຕົວອັກສອນ - ຕົວອັກສອນ"
 
-#: dialogs/kspread_dlg_layout.cc:2284
+#: dialogs/kspread_dlg_layout.cc:2283
 msgid "Default width (%1 %2)"
 msgstr "ຄວາມກວ້າງປິຣຍາຍ (%1 %2)"
 
-#: dialogs/kspread_dlg_layout.cc:2299
+#: dialogs/kspread_dlg_layout.cc:2298
 msgid "Default height (%1 %2)"
 msgstr "ຄວາມສູງປິຣຍາຍ (%1 %2)"
 
-#: dialogs/kspread_dlg_layout.cc:2697
+#: dialogs/kspread_dlg_layout.cc:2696
 msgid "Preselect"
 msgstr "ກຸ່ມເສັ້ນຂອບ"
 
-#: dialogs/kspread_dlg_layout.cc:2736 dialogs/kspread_dlg_layout.cc:3556
+#: dialogs/kspread_dlg_layout.cc:2735 dialogs/kspread_dlg_layout.cc:3554
 msgid "Pattern"
 msgstr "ລວດລາຍ"
 
-#: dialogs/kspread_dlg_layout.cc:2772
+#: dialogs/kspread_dlg_layout.cc:2770
 msgid "Customize"
 msgstr "ກຳນົດເອງ"
 
-#: dialogs/kspread_dlg_layout.cc:3640
+#: dialogs/kspread_dlg_layout.cc:3637
 msgid "Background color:"
 msgstr "ສີພື້ນຫລັງ:"
 
-#: dialogs/kspread_dlg_layout.cc:3657
+#: dialogs/kspread_dlg_layout.cc:3653
 msgid "No Color"
 msgstr "ບໍ່ມີສີ"
 
@@ -17725,22 +17684,22 @@ msgstr "ຫາກຄ່າແຕ່ລະຂັ້ນນ້ອຍກວ່າສ
 msgid "Select hidden sheets to show:"
 msgstr "ເລືອກແຖວທີ່ເຊື່ອງຢູ່ເພື່ອສະແດງ"
 
-#: dialogs/kspread_dlg_showColRow.cc:53
+#: dialogs/kspread_dlg_showColRow.cc:52
 #, fuzzy
 msgid "Select hidden columns to show:"
 msgstr "ເລືອກສະດົມທີ່ເຊື່ອງຢູ່ເພື່ອສະແດງ"
 
-#: dialogs/kspread_dlg_showColRow.cc:57
+#: dialogs/kspread_dlg_showColRow.cc:56
 #, fuzzy
 msgid "Select hidden rows to show:"
 msgstr "ເລືອກແຖວທີ່ເຊື່ອງຢູ່ເພື່ອສະແດງ"
 
-#: dialogs/kspread_dlg_showColRow.cc:82 dialogs/kspread_dlg_showColRow.cc:84
+#: dialogs/kspread_dlg_showColRow.cc:81 dialogs/kspread_dlg_showColRow.cc:83
 #, c-format
 msgid "Column: %1"
 msgstr "ສະດົມ: %1"
 
-#: dialogs/kspread_dlg_showColRow.cc:102
+#: dialogs/kspread_dlg_showColRow.cc:101
 #, c-format
 msgid "Row: %1"
 msgstr "ແຖວ: %1"
@@ -17862,42 +17821,42 @@ msgstr "ຄູນຄ່າ"
 msgid "Division"
 msgstr "ຫາກຄ່າ"
 
-#: dialogs/kspread_dlg_styles.cc:48 dialogs/kspread_dlg_styles.cc:56
+#: dialogs/kspread_dlg_styles.cc:48 dialogs/kspread_dlg_styles.cc:55
 #, fuzzy
 msgid "Styles"
 msgstr "ຮູບແບບ:"
 
-#: dialogs/kspread_dlg_styles.cc:58
+#: dialogs/kspread_dlg_styles.cc:57
 #, fuzzy
 msgid "All Styles"
 msgstr "ຮູບແບບ:"
 
-#: dialogs/kspread_dlg_styles.cc:59
+#: dialogs/kspread_dlg_styles.cc:58
 #, fuzzy
 msgid "Applied Styles"
 msgstr "ຮູບແບບ:"
 
-#: dialogs/kspread_dlg_styles.cc:60
+#: dialogs/kspread_dlg_styles.cc:59
 #, fuzzy
 msgid "Custom Styles"
 msgstr "ລາຍການກຳຫນົດເອງ..."
 
-#: dialogs/kspread_dlg_styles.cc:61
+#: dialogs/kspread_dlg_styles.cc:60
 #, fuzzy
 msgid "Hierarchical"
 msgstr "ການເງິນ"
 
-#: dialogs/kspread_dlg_styles.cc:76
+#: dialogs/kspread_dlg_styles.cc:75
 #, fuzzy
 msgid "&New..."
 msgstr "ສາ້ງ&ໃຫ່ມ"
 
-#: dialogs/kspread_dlg_styles.cc:76
+#: dialogs/kspread_dlg_styles.cc:75
 #, fuzzy
 msgid "&Modify..."
 msgstr "ເ&ີ່ພມ/ແກ້ໄຂຫມາຍເຫດ..."
 
-#: dialogs/kspread_dlg_styles.cc:236 dialogs/kspread_dlg_styles.cc:240
+#: dialogs/kspread_dlg_styles.cc:235 dialogs/kspread_dlg_styles.cc:239
 #, fuzzy, c-format
 msgid "style%1"
 msgstr "ຮູບແບບ:"
@@ -18135,15 +18094,6 @@ msgstr "ພື້ນທີ່ຂໍ້ຄວາມທີ່ວ່າງຢູ່
 msgid "Destination cell is empty"
 msgstr "ພື້ທີ່ຂໍ້ຄວາມຫລືແຊລວ່າງ"
 
-#: dialogs/sheet_properties.cc:68 dialogs/sheet_properties.cc:83
-msgid "Left to Right"
-msgstr ""
-
-#: dialogs/sheet_properties.cc:71 dialogs/sheet_properties.cc:86
-#, fuzzy
-msgid "Right to Left"
-msgstr "ລຽງຊິດດ້າຍຊ້າຍ"
-
 #: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
@@ -18156,7 +18106,24 @@ msgid ""
 "Your emails"
 msgstr "sheshofu@hotmail.com"
 
-#~ msgid "Insert a new sheet."
+#, fuzzy
+#~ msgid "Qt::TextUnderline"
+#~ msgstr "ຂີດເສັ້ນໄຕ້"
+
+#, fuzzy
+#~ msgid "Qt::Vertical"
+#~ msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
+
+#, fuzzy
+#~ msgid "Qt::Vertical text"
+#~ msgstr "ຂໍ້ຄວາມທາງແນວຕັ້ງ"
+
+#, fuzzy
+#~ msgid "Qt::DockRight to Qt::DockLeft"
+#~ msgstr "ລຽງຊິດດ້າຍຊ້າຍ"
+
+#, fuzzy
+#~ msgid "Insert a new sheet"
 #~ msgstr "ແຊກແຜ່ນງານໃຫມ່"
 
 #~ msgid "Money: %1"
