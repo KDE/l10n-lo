@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-03-29 04:03+0200\n"
+"POT-Creation-Date: 2006-04-05 04:11+0200\n"
 "PO-Revision-Date: 2003-01-23 20:01+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -483,7 +483,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file dialogs/position_cell_format.ui line 238
-#: commands.cc:78 kspread_undo.cc:2142 kspread_view.cc:687 manipulator.cc:910
+#: commands.cc:78 kspread_undo.cc:2173 kspread_view.cc:687 manipulator.cc:910
 #: rc.cpp:299
 #, no-c-format
 msgid "Merge Cells"
@@ -879,11 +879,11 @@ msgstr "ລືບແຜ່ນງານ"
 msgid "Change Sheet Properties"
 msgstr "ຮູບແບບແຜ່ນງານ..."
 
-#: commands.cc:404 kspread_undo.cc:320 kspread_view.cc:745
+#: commands.cc:404 kspread_undo.cc:328 kspread_view.cc:745
 msgid "Insert Columns"
 msgstr "ສອດຖັນ"
 
-#: commands.cc:436 commands.cc:537 kspread_undo.cc:719
+#: commands.cc:436 commands.cc:537 kspread_undo.cc:727
 #, fuzzy
 msgid "Set Page Layout"
 msgstr "ການຈັດວາງຫນ້າເຈັ້ຍ"
@@ -3810,49 +3810,49 @@ msgstr "ລົບຫມາຍເຫດ"
 msgid "Change Border Color"
 msgstr "ປ່ຽນສີເສັ້ນຂອບ"
 
-#: kspread_sheet.cc:2257
+#: kspread_sheet.cc:2262
 msgid "Format Percent"
 msgstr "ຮູບແບບຮ້ອຍລະ"
 
-#: kspread_sheet.cc:2886
+#: kspread_sheet.cc:2891
 #, fuzzy
 msgid "Dependency"
 msgstr "ຈາກຫລາຍໄປຫານ້ອຍ"
 
-#: kspread_sheet.cc:4194
+#: kspread_sheet.cc:4199
 msgid "Multirow"
 msgstr "ຫລາຍແຖວ"
 
-#: kspread_sheet.cc:4299
+#: kspread_sheet.cc:4304
 msgid "Change Precision"
 msgstr "ປ່ຽນຈຳນວນທົດນິຍົມ"
 
-#: kspread_sheet.cc:4332
+#: kspread_sheet.cc:4337
 msgid "Apply Style"
 msgstr ""
 
-#: kspread_sheet.cc:4374
+#: kspread_sheet.cc:4379
 msgid "Format Money"
 msgstr "ຮູບບແບບເງີນຕາ"
 
-#: kspread_sheet.cc:4422 kspread_view.cc:572
+#: kspread_sheet.cc:4427 kspread_view.cc:572
 msgid "Increase Indent"
 msgstr "ເພີ່ມລະຍະການຍັບ"
 
-#: kspread_sheet.cc:4477 kspread_view.cc:577
+#: kspread_sheet.cc:4482 kspread_view.cc:577
 msgid "Decrease Indent"
 msgstr "ລົດລະຍະການຍັບ"
 
-#: dialogs/kspread_dlg_preference.cc:792 kspread_sheet.cc:4732
+#: dialogs/kspread_dlg_preference.cc:792 kspread_sheet.cc:4737
 msgid "Default Parameters"
 msgstr "ພາລາມິເຕີປະລິຍາຍ"
 
-#: kspread_sheet.cc:6132 kspread_sheet.cc:6168
+#: kspread_sheet.cc:6137 kspread_sheet.cc:6173
 #, fuzzy
 msgid "Move Objects"
 msgstr "&ວັດຖຸ..."
 
-#: kspread_sheet.cc:7484
+#: kspread_sheet.cc:7489
 #, fuzzy
 msgid "Invalid document. Sheet name is empty."
 msgstr "ເອກະສານບໍ່ຖືກຕອ້ງຊື່້ຕາລາງວ່າງຢູ່"
@@ -3907,69 +3907,69 @@ msgstr "ຫລາຍກົ່ວ"
 msgid "Header1"
 msgstr ""
 
-#: kspread_undo.cc:246
+#: kspread_undo.cc:254
 msgid "Remove Columns"
 msgstr "ລືບສະດົມ"
 
-#: kspread_undo.cc:363
+#: kspread_undo.cc:371
 msgid "Remove Rows"
 msgstr "ົລືບແຖວ"
 
-#: kspread_undo.cc:446 kspread_view.cc:774
+#: kspread_undo.cc:454 kspread_view.cc:774
 msgid "Insert Rows"
 msgstr "ສອດແຖວ"
 
-#: kspread_undo.cc:836 kspread_undo.cc:1933
+#: kspread_undo.cc:844 kspread_undo.cc:1941
 msgid "Change Text"
 msgstr "ປ່ຽນຂໍ້ຄວາມ"
 
 #: dialogs/kspread_dlg_format.cc:164 dialogs/kspread_dlg_layout.cc:1000
-#: kspread_undo.cc:903
+#: kspread_undo.cc:911
 msgid "Change Format"
 msgstr "ປ່ຽນຮູບແບບຕົວອັກສອນ "
 
-#: dialogs/kspread_dlg_angle.cc:42 kspread_undo.cc:1206
+#: dialogs/kspread_dlg_angle.cc:42 kspread_undo.cc:1214
 msgid "Change Angle"
 msgstr "ປ່ຽນມຸມ"
 
-#: kspread_undo.cc:1238
+#: kspread_undo.cc:1246
 msgid "Sort"
 msgstr "ລຽງລຳດັບ"
 
-#: kspread_undo.cc:1652
+#: kspread_undo.cc:1660
 msgid "Drag & Drop"
 msgstr ""
 
-#: kspread_undo.cc:1742
+#: kspread_undo.cc:1750
 msgid "Resize"
 msgstr "ປັບຂະຫນາດ"
 
-#: kspread_undo.cc:2195
+#: kspread_undo.cc:2226
 msgid "Autofill"
 msgstr "ຕື່ມເຕັມອັດຕະໂນມັດ"
 
-#: kspread_undo.cc:2275 kspread_undo.cc:2319
+#: kspread_undo.cc:2306 kspread_undo.cc:2350
 msgid "Insert Cell"
 msgstr "ສອດເຊລ"
 
-#: kspread_undo.cc:2362 kspread_undo.cc:2421
+#: kspread_undo.cc:2393 kspread_undo.cc:2452
 msgid "Remove Cell"
 msgstr "ລືບເຊລ"
 
-#: kspread_undo.cc:2480
+#: kspread_undo.cc:2511
 msgid "Conditional Cell Attribute"
 msgstr "ຮູບແບບເງື່ອນໄຂຂອງເຊລ"
 
-#: kspread_undo.cc:2563
+#: kspread_undo.cc:2594
 #, fuzzy
 msgid "Paste & Insert"
 msgstr "ວາງແລະສອດ"
 
-#: kspread_undo.cc:2841
+#: kspread_undo.cc:2872
 msgid "Style of Cell"
 msgstr "ຮູຸບແບບເຊລ"
 
-#: dialogs/kspread_dlg_database.cc:75 kspread_undo.cc:2957
+#: dialogs/kspread_dlg_database.cc:75 kspread_undo.cc:2988
 msgid "Insert Data From Database"
 msgstr "ແຊກຫາຂໍ້ມູນຈາກຖານຂໍ້ມູນ"
 
