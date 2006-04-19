@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2005-09-06 02:36+0200\n"
+"POT-Creation-Date: 2006-04-19 03:54+0200\n"
 "PO-Revision-Date: 2003-01-14 18:21+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -519,7 +519,7 @@ msgstr ""
 "<li><b>แสดงเพียงหนึ่งรอบ</b>: "
 "แสดงภาพเคลื่อนไหวทั้งหมดอย่างสมบูรณ์เพียงหนึ่งรอบ</li>"
 
-#: javaopts.cpp:62 jsopts.cpp:48 pluginopts.cpp:58
+#: javaopts.cpp:62 jsopts.cpp:48 pluginopts.cpp:59
 msgid "Global Settings"
 msgstr "ตั้งค่าทั่วไป"
 
@@ -673,7 +673,7 @@ msgstr ""
 "ที่คุณต้องการ  เพื่อให้โปรเซสของจาวาทำงานตลอดเวลาที่ใช้งาน konqueror อยู่ "
 "โดยไม่ต้องเลือกตัวเลือกปิดการทำงานเซิร์ฟเวอร์แอพเพล็ต"
 
-#: javaopts.cpp:285 pluginopts.cpp:642
+#: javaopts.cpp:285 pluginopts.cpp:637
 #, fuzzy
 msgid "Doma&in-Specific"
 msgstr "กำหนดโดเมน"
@@ -1033,35 +1033,35 @@ msgstr ""
 "นี่จึงเป็นเหตุผลว่า เหตุใด Konqueror จึงให้คุณ สามารถปรับแต่งการทำงาน "
 "และตั้งข้อกำหนดการใช้งาน จาวา/จาวาสคริปต์ ได้"
 
-#: pluginopts.cpp:60
+#: pluginopts.cpp:61
 #, fuzzy
 msgid "&Enable plugins globally"
 msgstr "เปิดใช้ปลั๊กอินทั้งระบบ"
 
-#: pluginopts.cpp:61
+#: pluginopts.cpp:62
 msgid "Only allow &HTTP and HTTPS URLs for plugins"
 msgstr ""
 
-#: pluginopts.cpp:62
+#: pluginopts.cpp:63
 msgid "&Load plugins on demand only"
 msgstr ""
 
-#: pluginopts.cpp:63 pluginopts.cpp:169
+#: pluginopts.cpp:64 pluginopts.cpp:170
 #, c-format
 msgid "CPU priority for plugins: %1"
 msgstr ""
 
-#: pluginopts.cpp:79
+#: pluginopts.cpp:80
 #, fuzzy
 msgid "Domain-Specific Settin&gs"
 msgstr "กำหนดโดเมน"
 
-#: pluginopts.cpp:85 pluginopts.cpp:609
+#: pluginopts.cpp:86 pluginopts.cpp:604
 #, fuzzy
 msgid "Domain-Specific Policies"
 msgstr "เปลี่ยนข้อกำหนดการใช้จาวาสคริปต์"
 
-#: pluginopts.cpp:97
+#: pluginopts.cpp:98
 msgid ""
 "Enables the execution of plugins that can be contained in HTML pages, e.g. "
 "Macromedia Flash. Note that, as with any browser, enabling active contents can "
@@ -1071,7 +1071,7 @@ msgstr ""
 "เป็นต้น Nควรจำไว้ว่า การเปิดใช้งานปลั๊กอินนี้ อาจส่งผลต่อความปลอดภัยของระบบได้ "
 "ในบางระบบ"
 
-#: pluginopts.cpp:101
+#: pluginopts.cpp:102
 #, fuzzy
 msgid ""
 "This box contains the domains and hosts you have set a specific plugin policy "
@@ -1084,7 +1084,7 @@ msgstr ""
 "หรือปิดการใช้งานจาวาบนเพจที่ถูกส่งมาจากโดเมนหรือโฮสต์เหล่านี้ "
 "<p>เลือกที่ข้อกำหนดที่ต้องการ และใช้คอนโทรลด้านขวาเพื่อแก้ไขมัน"
 
-#: pluginopts.cpp:107
+#: pluginopts.cpp:108
 #, fuzzy
 msgid ""
 "Click this button to choose the file that contains the plugin policies. These "
@@ -1093,7 +1093,7 @@ msgstr ""
 "คลิกที่ปุ่มนี้ เพื่อเลือกแฟ้มที่บรรจุข้อกำหนดการใช้งานจาวาอยู่ "
 "ซึ่งจะถูกรวมเข้าไปยังข้อกำหนดที่มีอยู่แล้ว และจะไม่รวมส่วนที่ซ้ำกัน"
 
-#: pluginopts.cpp:110
+#: pluginopts.cpp:111
 #, fuzzy
 msgid ""
 "Click this button to save the plugin policy to a zipped file. The file, named "
@@ -1102,7 +1102,7 @@ msgstr ""
 "คลิกที่ปุ่มนี้ เพื่อบันทึกข้อกำหนดการใช้งานจาวาไปเป็นแฟ้มบีบอัดชื่อ <b>"
 "java_policy.tgz</b> ซึ่งจะถูกบันทึกไว้ในตำแหน่งที่คุณเลือก"
 
-#: pluginopts.cpp:113
+#: pluginopts.cpp:114
 #, fuzzy
 msgid ""
 "Here you can set specific plugin policies for any particular host or domain. To "
@@ -1121,41 +1121,41 @@ msgstr ""
 "นำเข้า</i> และ <i>ส่งออก</i> เพื่อให้สามารถแลกเปลี่ยน "
 "ข้อกำหนดของคุณกับคนอื่นได้ง่าย โดยอนุญาตให้คุณใช้งานในรูปแบบแฟ้มบีบอัดได้"
 
-#: pluginopts.cpp:128 pluginopts.cpp:539
+#: pluginopts.cpp:129 pluginopts.cpp:534
 msgid "Netscape Plugins"
 msgstr "ปลั๊กอินของเน็ตสเคป"
 
-#: pluginopts.cpp:158
+#: pluginopts.cpp:159
 msgid ""
 "_: lowest priority\n"
 "lowest"
 msgstr ""
 
-#: pluginopts.cpp:160
+#: pluginopts.cpp:161
 msgid ""
 "_: low priority\n"
 "low"
 msgstr ""
 
-#: pluginopts.cpp:162
+#: pluginopts.cpp:163
 msgid ""
 "_: medium priority\n"
 "medium"
 msgstr ""
 
-#: pluginopts.cpp:164
+#: pluginopts.cpp:165
 msgid ""
 "_: high priority\n"
 "high"
 msgstr ""
 
-#: pluginopts.cpp:166
+#: pluginopts.cpp:167
 msgid ""
 "_: highest priority\n"
 "highest"
 msgstr ""
 
-#: pluginopts.cpp:269
+#: pluginopts.cpp:270
 #, fuzzy
 msgid ""
 "<h1>Konqueror Plugins</h1> The Konqueror web browser can use Netscape plugins "
@@ -1168,7 +1168,7 @@ msgstr ""
 "ตำแหน่งของการติดตั้งเน็ตสเคปของคุณ ขึ้นอยู่กับดิสทริบิวชันของคุณเช่นกัน "
 "ซึ่งตำแหน่งโดยทั่วไปมักจะเป็น '/opt/netscape/plugins'"
 
-#: pluginopts.cpp:295
+#: pluginopts.cpp:296
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes will "
 "be lost."
@@ -1176,54 +1176,54 @@ msgstr ""
 "คุณต้องการให้การเปลี่ยนแปลงที่คุณทำไว้มีผลก่อนทำการค้นหาหรือไม่ ? "
 "ไม่เช่นนั้นการเปลี่ยนแปลงที่ทำไว้จะสูญหาย"
 
-#: pluginopts.cpp:313
+#: pluginopts.cpp:315
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
 msgstr ""
 "ไม่พบแฟ้ม nspluginscan สำหรับประมวลผล ทำให้ไม่มีการค้นหาปลั๊กอินของเน็ตสเคป"
 
-#: pluginopts.cpp:320
+#: pluginopts.cpp:322
 msgid "Scanning for plugins"
 msgstr "กำลังค้นหาปลั๊กอิน"
 
-#: pluginopts.cpp:365
+#: pluginopts.cpp:360
 #, fuzzy
 msgid "Select Plugin Scan Folder"
 msgstr "เลือกไดเรกทอรีที่จะค้นหาปลั๊กอิน"
 
-#: pluginopts.cpp:562
+#: pluginopts.cpp:557
 msgid "Plugin"
 msgstr "ปลั๊กอิน"
 
-#: pluginopts.cpp:579
+#: pluginopts.cpp:574
 msgid "MIME type"
 msgstr "ประเภท MIME"
 
-#: pluginopts.cpp:584
+#: pluginopts.cpp:579
 msgid "Description"
 msgstr "รายละเอียด"
 
-#: pluginopts.cpp:589
+#: pluginopts.cpp:584
 msgid "Suffixes"
 msgstr "ส่วนขยาย"
 
-#: pluginopts.cpp:654
+#: pluginopts.cpp:649
 #, fuzzy
 msgid "New Plugin Policy"
 msgstr "สร้างข้อกำหนดจาวาใหม่"
 
-#: pluginopts.cpp:657
+#: pluginopts.cpp:652
 #, fuzzy
 msgid "Change Plugin Policy"
 msgstr "เปลี่ยนข้อกำหนดจาวา"
 
-#: pluginopts.cpp:661
+#: pluginopts.cpp:656
 #, fuzzy
 msgid "&Plugin policy:"
 msgstr "ข้อกำหนดการใช้งานจาวา:"
 
-#: pluginopts.cpp:662
+#: pluginopts.cpp:657
 #, fuzzy
 msgid "Select a plugin policy for the above host or domain."
 msgstr "เลือกข้อกำหนดการใช้งานจาวา สำหรับโฮสต์หรือโดเมนด้านบน"
