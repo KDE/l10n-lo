@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-05-17 04:02+0200\n"
+"POT-Creation-Date: 2006-05-18 04:06+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -3918,8 +3918,8 @@ msgstr ""
 msgid "Missing Key Warning"
 msgstr "ໃຫ້ກົດເຄືອງໝາຍທີ່ບໍ່ປະກົດ"
 
-#: keyresolver.cpp:1215 keyresolver.cpp:1253 messagecomposer.cpp:848
-#: messagecomposer.cpp:873 messagecomposer.cpp:920
+#: keyresolver.cpp:1215 keyresolver.cpp:1253 messagecomposer.cpp:852
+#: messagecomposer.cpp:877 messagecomposer.cpp:924
 msgid "&Encrypt"
 msgstr "&ການເຂົ້າລະຫັດ"
 
@@ -3943,7 +3943,7 @@ msgstr ""
 "<p>ທ່ານຫມັ້ນໃຈໄດ້ ເມື່່ອກົດຄີ PGP ສໍາຫລັບທຸກທ່ານທີ່ຮັບຂອງຂ່າວສານ</p>"
 "<p> ຂ່າວສານນີ້ຄວນເປັນລະຫັດລັບບໍ?</p></qt>"
 
-#: keyresolver.cpp:1239 messagecomposer.cpp:896
+#: keyresolver.cpp:1239 messagecomposer.cpp:900
 #, fuzzy
 msgid "Send &Unencrypted"
 msgstr "ເກັບຈົດໝາ&ຍທີ່ເຂົ້າລະຫັດໄວ້"
@@ -4437,8 +4437,8 @@ msgstr ""
 #: kmcommands.cpp:2904 kmcommands.cpp:2909 kmcommands.cpp:2918
 #: kmcommands.cpp:2927 kmcommands.cpp:2945 kmcommands.cpp:2956
 #: kmcommands.cpp:3013 kmcomposewin.cpp:4661 kmcomposewin.cpp:4666
-#: kmcomposewin.cpp:4675 messagecomposer.cpp:521 messagecomposer.cpp:529
-#: messagecomposer.cpp:543 objecttreeparser.cpp:1612
+#: kmcomposewin.cpp:4675 messagecomposer.cpp:525 messagecomposer.cpp:533
+#: messagecomposer.cpp:547 objecttreeparser.cpp:1612
 msgid "Chiasmus Backend Error"
 msgstr ""
 
@@ -8466,15 +8466,15 @@ msgstr "<ອາຍຸເປັນມື້>"
 msgid "<status>"
 msgstr "<u>สถานะ</u>"
 
-#: kmsearchpatternedit.cpp:378
+#: kmsearchpatternedit.cpp:380
 msgid "Search Criteria"
 msgstr "ຄົ້ນຫາ"
 
-#: kmsearchpatternedit.cpp:395
+#: kmsearchpatternedit.cpp:397
 msgid "Match a&ll of the following"
 msgstr "ຖືກຕ້ອງ&ກົງກັນທັງຫມົດກັບຕໍ່ໄປນີ້"
 
-#: kmsearchpatternedit.cpp:396
+#: kmsearchpatternedit.cpp:398
 msgid "Match an&y of the following"
 msgstr "ຖືກຕ້ອງ&ກົງກັນຫຼາຍໆ ກັບຕໍ່ໄປນີ້"
 
@@ -9088,7 +9088,7 @@ msgstr ""
 "<li><em>ຫລື</em> ລະບຸເງືອນໄຂທີ່ຈະເປີດPGP ສະແດງແກ້ໄຂໃຫ້ຄືກັນກັບໄດອາລອກ->"
 "ແທບຂັ້ນສູງ.</li></ul>"
 
-#: messagecomposer.cpp:409
+#: messagecomposer.cpp:413
 msgid ""
 "No suitable encoding could be found for your message.\n"
 "Please set an encoding using the 'Options' menu."
@@ -9096,157 +9096,157 @@ msgstr ""
 "ກຳຈັດຈົດໝາຍ \n"
 " ກຳຈັດຈົດໝາຍ"
 
-#: messagecomposer.cpp:519
+#: messagecomposer.cpp:523
 msgid ""
 "Chiasmus backend does not offer the \"x-encrypt\" function. Please report this "
 "bug."
 msgstr ""
 
-#: messagecomposer.cpp:527
+#: messagecomposer.cpp:531
 msgid ""
 "The \"x-encrypt\" function does not accept the expected parameters. Please "
 "report this bug."
 msgstr ""
 
-#: messagecomposer.cpp:535
+#: messagecomposer.cpp:539
 msgid "Chiasmus Encryption Error"
 msgstr ""
 
-#: messagecomposer.cpp:540
+#: messagecomposer.cpp:544
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-encrypt\" function did "
 "not return a byte array. Please report this bug."
 msgstr ""
 
-#: messagecomposer.cpp:601
+#: messagecomposer.cpp:605
 msgid ""
 "The inline OpenPGP crypto message format does not support encryption or signing "
 "of attachments.\n"
 "Really use deprecated inline OpenPGP?"
 msgstr ""
 
-#: messagecomposer.cpp:605
+#: messagecomposer.cpp:609
 msgid "Insecure Message Format"
 msgstr ""
 
-#: messagecomposer.cpp:606
+#: messagecomposer.cpp:610
 #, fuzzy
 msgid "Use Inline OpenPGP"
 msgstr "ໃນສາຍOpenPGP (ສ້າງຂ້າງໃນ)"
 
-#: messagecomposer.cpp:607
+#: messagecomposer.cpp:611
 msgid "Use OpenPGP/MIME"
 msgstr ""
 
-#: messagecomposer.cpp:723
+#: messagecomposer.cpp:727
 msgid ""
 "Examination of the recipient's signing preferences yielded that you be asked "
 "whether or not to sign this message.\n"
 "Sign this message?"
 msgstr ""
 
-#: messagecomposer.cpp:728 messagecomposer.cpp:751
+#: messagecomposer.cpp:732 messagecomposer.cpp:755
 #, fuzzy
 msgid "Sign Message?"
 msgstr " ເຊັນຈົດ&ໝາຍ"
 
-#: messagecomposer.cpp:729 messagecomposer.cpp:752
+#: messagecomposer.cpp:733 messagecomposer.cpp:756
 msgid ""
 "_: to sign\n"
 "&Sign"
 msgstr ""
 
-#: messagecomposer.cpp:730 messagecomposer.cpp:753
+#: messagecomposer.cpp:734 messagecomposer.cpp:757
 msgid "Do &Not Sign"
 msgstr ""
 
-#: messagecomposer.cpp:747
+#: messagecomposer.cpp:751
 msgid ""
 "There are conflicting signing preferences for these recipients.\n"
 "Sign this message?"
 msgstr ""
 
-#: messagecomposer.cpp:769
+#: messagecomposer.cpp:773
 msgid ""
 "You have requested to sign this message, but no valid signing keys have been "
 "configured for this identity."
 msgstr ""
 
-#: messagecomposer.cpp:773
+#: messagecomposer.cpp:777
 #, fuzzy
 msgid "Send Unsigned?"
 msgstr "ສົ່ງ\"&ທີ່ຢູ່ໃນຄິດ\""
 
-#: messagecomposer.cpp:774
+#: messagecomposer.cpp:778
 #, fuzzy
 msgid "Send &Unsigned"
 msgstr "ສົ່ງ\"&ທີ່ຢູ່ໃນຄິດ\""
 
-#: messagecomposer.cpp:789
+#: messagecomposer.cpp:793
 msgid ""
 "Some parts of this message will not be signed.\n"
 "Sending only partially signed messages might violate site policy.\n"
 "Sign all parts instead?"
 msgstr ""
 
-#: messagecomposer.cpp:792
+#: messagecomposer.cpp:796
 msgid ""
 "This message will not be signed.\n"
 "Sending unsigned message might violate site policy.\n"
 "Sign message instead?"
 msgstr ""
 
-#: messagecomposer.cpp:796
+#: messagecomposer.cpp:800
 msgid "&Sign All Parts"
 msgstr "&ເຊັ່ນສ່ວນນີ້"
 
-#: messagecomposer.cpp:796
+#: messagecomposer.cpp:800
 #, fuzzy
 msgid "&Sign"
 msgstr "ເຊັນ"
 
-#: messagecomposer.cpp:798
+#: messagecomposer.cpp:802
 #, fuzzy
 msgid "Unsigned-Message Warning"
 msgstr " ຕັ້ງຄ່າລາຍເຊັ່ນ"
 
-#: messagecomposer.cpp:800
+#: messagecomposer.cpp:804
 #, fuzzy
 msgid "Send &As Is"
 msgstr "ສົ່ງ&ອີກຄັ້ງ"
 
-#: messagecomposer.cpp:838
+#: messagecomposer.cpp:842
 msgid ""
 "Valid trusted encryption keys were found for all recipients.\n"
 "Encrypt this message?"
 msgstr ""
 
-#: messagecomposer.cpp:840
+#: messagecomposer.cpp:844
 msgid ""
 "Examination of the recipient's encryption preferences yielded that you be asked "
 "whether or not to encrypt this message.\n"
 "Encrypt this message?"
 msgstr ""
 
-#: messagecomposer.cpp:845 messagecomposer.cpp:872
+#: messagecomposer.cpp:849 messagecomposer.cpp:876
 msgid "Encrypt Message?"
 msgstr "ເຂົ້າລະຫັດຈົດໝາຍ ?"
 
-#: messagecomposer.cpp:847
+#: messagecomposer.cpp:851
 #, fuzzy
 msgid "Sign && &Encrypt"
 msgstr "ລາຍເຊັນ/&ການເຂົ້າລະຫັດ"
 
-#: messagecomposer.cpp:850 messagecomposer.cpp:925
+#: messagecomposer.cpp:854 messagecomposer.cpp:929
 msgid "&Sign Only"
 msgstr "&ພຽງແຕ່ເຂົ້າໄປ"
 
-#: messagecomposer.cpp:851 messagecomposer.cpp:926
+#: messagecomposer.cpp:855 messagecomposer.cpp:930
 #, fuzzy
 msgid "&Send As-Is"
 msgstr "ສົ່ງ&ອີກຄັ້ງ"
 
-#: messagecomposer.cpp:868
+#: messagecomposer.cpp:872
 #, fuzzy
 msgid ""
 "There are conflicting encryption preferences for these recipients.\n"
@@ -9256,23 +9256,23 @@ msgstr ""
 "<p>,ມີການຂັດຂ້ອງ ທາງລະຫັດລັບ ສິດທິພິເສດ!</p>"
 "<p>ຂ່າວສານນີ້ຄວນເປັນລະຫັດລັບບໍ?</p></qt>"
 
-#: messagecomposer.cpp:874
+#: messagecomposer.cpp:878
 #, fuzzy
 msgid "Do &Not Encrypt"
 msgstr "&ບໍ່ເຂົ້າລະຫັດຂໍ້ມູນ"
 
-#: messagecomposer.cpp:890
+#: messagecomposer.cpp:894
 msgid ""
 "You have requested to encrypt this message, and to encrypt a copy to yourself, "
 "but no valid trusted encryption keys have been configured for this identity."
 msgstr ""
 
-#: messagecomposer.cpp:895
+#: messagecomposer.cpp:899
 #, fuzzy
 msgid "Send Unencrypted?"
 msgstr "ເກັບຈົດໝາ&ຍທີ່ເຂົ້າລະຫັດໄວ້"
 
-#: messagecomposer.cpp:911
+#: messagecomposer.cpp:915
 msgid ""
 "Some parts of this message will not be encrypted.\n"
 "Sending only partially encrypted messages might violate site policy and/or leak "
@@ -9280,7 +9280,7 @@ msgid ""
 "Encrypt all parts instead?"
 msgstr ""
 
-#: messagecomposer.cpp:915
+#: messagecomposer.cpp:919
 msgid ""
 "This message will not be encrypted.\n"
 "Sending unencrypted messages might violate site policy and/or leak sensitive "
@@ -9288,16 +9288,16 @@ msgid ""
 "Encrypt messages instead?"
 msgstr ""
 
-#: messagecomposer.cpp:920
+#: messagecomposer.cpp:924
 msgid "&Encrypt All Parts"
 msgstr "ເຂົ້າລະຫັ&ດຈົດໝາຍທຸກສ່ວນ"
 
-#: messagecomposer.cpp:922
+#: messagecomposer.cpp:926
 #, fuzzy
 msgid "Unencrypted Message Warning"
 msgstr "ຈົດຫມາຍເຂົ້າລະຫັດ"
 
-#: messagecomposer.cpp:2019
+#: messagecomposer.cpp:2023
 #, fuzzy
 msgid ""
 "<qt>"
@@ -9310,7 +9310,7 @@ msgstr ""
 "<p> ກະລຸນາລາຍງານເຊື່ອນີ້"
 "<br>%2</p></qt>"
 
-#: messagecomposer.cpp:2091
+#: messagecomposer.cpp:2095
 msgid ""
 "<qt>Not all characters fit into the chosen encoding."
 "<br>"
@@ -9319,38 +9319,38 @@ msgstr ""
 "ມີອັກຂະລະບາງຕົວບໍ່ໃຊ້ຊຸດລະຫັດອັກຂະລະທີ່ເລືອກໄວ້\n"
 "ຕ້ອງການທຳການສົ່ງຈົດໝາຍຫລືບໍ່?"
 
-#: messagecomposer.cpp:2093
+#: messagecomposer.cpp:2097
 #, fuzzy
 msgid "Some Characters Will Be Lost"
 msgstr "ມີບາງອັກຂະລະສູນຫາຍໄປ"
 
-#: messagecomposer.cpp:2094
+#: messagecomposer.cpp:2098
 #, fuzzy
 msgid "Lose Characters"
 msgstr "&ບໍ່ລິການລຶບ"
 
-#: messagecomposer.cpp:2094
+#: messagecomposer.cpp:2098
 #, fuzzy
 msgid "Change Encoding"
 msgstr "ຕັ້ງຄ່າ&ຊຸດລະຫັດອັກຂະຫຼະ"
 
-#: messagecomposer.cpp:2126
+#: messagecomposer.cpp:2130
 msgid ""
 "This message could not be signed, since the chosen backend does not seem to "
 "support signing; this should actually never happen, please report this bug."
 msgstr ""
 
-#: messagecomposer.cpp:2151
+#: messagecomposer.cpp:2155
 msgid "The signing operation failed for an unknown reason."
 msgstr ""
 
-#: messagecomposer.cpp:2172
+#: messagecomposer.cpp:2176
 msgid ""
 "This message could not be encrypted, since the chosen backend does not seem to "
 "support encryption; this should actually never happen, please report this bug."
 msgstr ""
 
-#: messagecomposer.cpp:2213
+#: messagecomposer.cpp:2217
 msgid ""
 "This message could not be signed and encrypted, since the chosen backend does "
 "not seem to support combined signing and encryption; this should actually never "
