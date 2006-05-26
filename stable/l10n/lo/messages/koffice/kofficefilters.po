@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-04-07 03:59+0200\n"
+"POT-Creation-Date: 2006-05-26 04:08+0200\n"
 "PO-Revision-Date: 2003-01-18 11:40+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -73,6 +73,13 @@ msgstr "ຂໍ້ມູນ XML ບໍ່ຖືກຕ້ອງ"
 #, fuzzy
 msgid "PNG Export Options"
 msgstr "ສົ່ງອອກເປັນ PNG ຜິດພາດ"
+
+#: krita/jpeg/kis_jpeg_converter.cc:76 krita/png/kis_png_converter.cc:65
+#: krita/tiff/kis_tiff_writer_visitor.cpp:59
+msgid ""
+"The selected image format does not support the colorspace of the image (%1)\n"
+"Please choose another format or convert to a different colorspace"
+msgstr ""
 
 #: krita/raw/kis_raw_import.cpp:427
 msgid ""
