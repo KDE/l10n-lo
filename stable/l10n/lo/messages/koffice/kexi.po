@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-07-15 03:32+0200\n"
+"POT-Creation-Date: 2006-07-26 03:34+0200\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Switching to other view failed (%1)."
 msgstr ""
 
-#: core/kexidialogbase.cpp:493
+#: core/kexidialogbase.cpp:494
 msgid "Saving object's definition failed."
 msgstr ""
 
@@ -2297,7 +2297,7 @@ msgstr ""
 
 #: migration/importoptionsdlg.cpp:68
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:182
-#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:53
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:87
 msgid "Text encoding:"
 msgstr ""
 
@@ -2572,20 +2572,20 @@ msgstr ""
 msgid "KexiDB driver version"
 msgstr ""
 
-#: kexidb/cursor.cpp:136
+#: kexidb/cursor.cpp:140
 msgid "No query statement or schema defined."
 msgstr ""
 
-#: kexidb/cursor.cpp:142
+#: kexidb/cursor.cpp:146
 msgid "Query statement is empty."
 msgstr ""
 
-#: kexidb/cursor.cpp:152
+#: kexidb/cursor.cpp:156
 #, fuzzy
 msgid "Error opening database cursor."
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: kexidb/cursor.cpp:407 kexidb/cursor.cpp:430
+#: kexidb/cursor.cpp:412 kexidb/cursor.cpp:435
 msgid "Cannot fetch next record."
 msgstr ""
 
@@ -2593,7 +2593,7 @@ msgstr ""
 msgid "Unspecified error encountered"
 msgstr ""
 
-#: kexidb/queryschema.cpp:170
+#: kexidb/queryschema.cpp:196
 #: plugins/queries/kexiquerydesignerguieditor.cpp:1093
 msgid ""
 "_: short for 'expression' word (only latin letters, please)\n"
@@ -2730,7 +2730,7 @@ msgstr ""
 msgid "Table not found"
 msgstr ""
 
-#: kexidb/connection.cpp:1548 kexidb/expression.cpp:596
+#: kexidb/connection.cpp:1621 kexidb/expression.cpp:596
 msgid "Unknown table \"%1\""
 msgstr ""
 
@@ -2779,205 +2779,205 @@ msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດ�
 msgid "Could not read database properties."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: kexidb/connection.cpp:88
+#: kexidb/connection.cpp:89
 msgid "Invalid database contents. "
 msgstr ""
 
-#: kexidb/connection.cpp:92
+#: kexidb/connection.cpp:93
 msgid "It is a system object."
 msgstr ""
 
-#: kexidb/connection.cpp:214
+#: kexidb/connection.cpp:215
 #, fuzzy
 msgid "Connection already established."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: kexidb/connection.cpp:220
+#: kexidb/connection.cpp:221
 #, fuzzy
 msgid "Could not open \"%1\" project file."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: kexidb/connection.cpp:221
+#: kexidb/connection.cpp:222
 #, fuzzy
 msgid "Could not connect to \"%1\" database server."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: kexidb/connection.cpp:263
+#: kexidb/connection.cpp:264
 msgid "Not connected to the database server."
 msgstr ""
 
-#: kexidb/connection.cpp:273
+#: kexidb/connection.cpp:274
 msgid "Currently no database is used."
 msgstr ""
 
-#: kexidb/connection.cpp:329
+#: kexidb/connection.cpp:330
 msgid "The database \"%1\" does not exist."
 msgstr ""
 
-#: kexidb/connection.cpp:349
+#: kexidb/connection.cpp:350
 msgid "Database file \"%1\" does not exist."
 msgstr ""
 
-#: kexidb/connection.cpp:355
+#: kexidb/connection.cpp:356
 msgid "Database file \"%1\" is not readable."
 msgstr ""
 
-#: kexidb/connection.cpp:361
+#: kexidb/connection.cpp:362
 msgid "Database file \"%1\" is not writable."
 msgstr ""
 
-#: kexidb/connection.cpp:404
+#: kexidb/connection.cpp:405
 msgid "Database \"%1\" already exists."
 msgstr ""
 
-#: kexidb/connection.cpp:409
+#: kexidb/connection.cpp:410
 msgid ""
 "Cannot create database \"%1\". This name is reserved for system database."
 msgstr ""
 
-#: kexidb/connection.cpp:424
+#: kexidb/connection.cpp:425
 msgid "Error creating database \"%1\" on the server."
 msgstr ""
 
-#: kexidb/connection.cpp:438
+#: kexidb/connection.cpp:439
 msgid "Database \"%1\" created but could not be opened."
 msgstr ""
 
-#: kexidb/connection.cpp:532
+#: kexidb/connection.cpp:533
 #, fuzzy
 msgid "Opening database \"%1\" failed."
 msgstr "ໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:571
+#: kexidb/connection.cpp:572
 msgid "Database version (%1) does not match Kexi application's version (%2)"
 msgstr ""
 
-#: kexidb/connection.cpp:635
+#: kexidb/connection.cpp:636
 #, fuzzy
 msgid "Cannot find any database for temporary connection."
 msgstr "Kexi ບໍ່ສາມາດ ຫາ ຖານຂໍ້ມູນ ໄດເວີ !"
 
-#: kexidb/connection.cpp:644
+#: kexidb/connection.cpp:645
 msgid "Error during starting temporary connection using \"%1\" database name."
 msgstr ""
 
-#: kexidb/connection.cpp:661
+#: kexidb/connection.cpp:662
 msgid "Cannot drop database - name not specified."
 msgstr ""
 
-#: kexidb/connection.cpp:679
+#: kexidb/connection.cpp:680
 msgid "Cannot delete database - name not specified."
 msgstr ""
 
-#: kexidb/connection.cpp:684
+#: kexidb/connection.cpp:685
 msgid "Cannot delete system database \"%1\"."
 msgstr ""
 
-#: kexidb/connection.cpp:1010
+#: kexidb/connection.cpp:1011
 msgid "Error while executing SQL statement."
 msgstr ""
 
-#: kexidb/connection.cpp:1285
+#: kexidb/connection.cpp:1358
 msgid "Cannot create table without fields."
 msgstr ""
 
-#: kexidb/connection.cpp:1295
+#: kexidb/connection.cpp:1368
 msgid "System name \"%1\" cannot be used as table name."
 msgstr ""
 
-#: kexidb/connection.cpp:1304
+#: kexidb/connection.cpp:1377
 msgid "System name \"%1\" cannot be used as one of fields in \"%2\" table."
 msgstr ""
 
-#: kexidb/connection.cpp:1320
+#: kexidb/connection.cpp:1393
 #, fuzzy
 msgid "Could not create the same table \"%1\" twice."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:1334 plugins/tables/kexitablepart.cpp:194
+#: kexidb/connection.cpp:1407 plugins/tables/kexitablepart.cpp:194
 msgid "Table \"%1\" already exists."
 msgstr ""
 
-#: kexidb/connection.cpp:1425
+#: kexidb/connection.cpp:1498
 #, fuzzy
 msgid "Could not remove object's data."
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: kexidb/connection.cpp:1456
+#: kexidb/connection.cpp:1529
 msgid ""
 "Table \"%1\" cannot be removed.\n"
 msgstr ""
 
-#: kexidb/connection.cpp:1463
+#: kexidb/connection.cpp:1536
 msgid "Unexpected name or identifier."
 msgstr ""
 
-#: kexidb/connection.cpp:1511
+#: kexidb/connection.cpp:1584
 msgid "Table \"%1\" does not exist."
 msgstr ""
 
-#: kexidb/connection.cpp:1526
+#: kexidb/connection.cpp:1599
 #, fuzzy
 msgid "Could not alter table \"%1\" using the same table."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:1552
+#: kexidb/connection.cpp:1625
 msgid "Invalid table name \"%1\""
 msgstr ""
 
-#: kexidb/connection.cpp:1558
+#: kexidb/connection.cpp:1631
 #, fuzzy
 msgid "Could rename table \"%1\" using the same name."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:1568
+#: kexidb/connection.cpp:1641
 msgid "Could not rename table \"%1\" to \"%2\". Table \"%3\" already exists."
 msgstr ""
 
-#: kexidb/connection.cpp:1678
+#: kexidb/connection.cpp:1751
 msgid "Query \"%1\" does not exist."
 msgstr ""
 
-#: kexidb/connection.cpp:1775
+#: kexidb/connection.cpp:1848
 msgid "Transaction already started."
 msgstr ""
 
-#: kexidb/connection.cpp:1817 kexidb/connection.cpp:1853
+#: kexidb/connection.cpp:1890 kexidb/connection.cpp:1926
 msgid "Transaction not started."
 msgstr ""
 
-#: kexidb/connection.cpp:1831
+#: kexidb/connection.cpp:1904
 msgid "Error on commit transaction"
 msgstr ""
 
-#: kexidb/connection.cpp:1867
+#: kexidb/connection.cpp:1940
 msgid "Error on rollback transaction"
 msgstr ""
 
-#: kexidb/connection.cpp:2026 kexidb/connection.cpp:2505
+#: kexidb/connection.cpp:2099 kexidb/connection.cpp:2563
 msgid "Invalid object name \"%1\""
 msgstr ""
 
-#: kexidb/connection.cpp:2145
+#: kexidb/connection.cpp:2218
 msgid "Column %1 does not exist for the query."
 msgstr ""
 
-#: kexidb/connection.cpp:2404
+#: kexidb/connection.cpp:2458
 msgid ""
 "Error in XML data: \"%1\" in line %2, column %3.\n"
 "XML data: "
 msgstr ""
 
-#: kexidb/connection.cpp:2476
+#: kexidb/connection.cpp:2534
 msgid "Table has no fields defined."
 msgstr ""
 
-#: kexidb/connection.cpp:2624
+#: kexidb/connection.cpp:2682
 msgid ""
 "Could not find definition for query \"%1\". Removing this query is recommended."
 msgstr ""
 
-#: kexidb/connection.cpp:2633
+#: kexidb/connection.cpp:2691
 msgid ""
 "<p>Could not load definition for query \"%1\". SQL statement for this query is "
 "invalid:"
@@ -2985,103 +2985,103 @@ msgid ""
 "<p>You can open this query in Text View and correct it.</p>"
 msgstr ""
 
-#: kexidb/connection.cpp:2831
+#: kexidb/connection.cpp:2889
 #, fuzzy
 msgid "Could not update row because there is no master table defined."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:2838
+#: kexidb/connection.cpp:2896
 msgid "Could not update row because master table has no primary key defined."
 msgstr ""
 
-#: kexidb/connection.cpp:2860
+#: kexidb/connection.cpp:2920
 msgid ""
 "Could not update row because it does not contain entire master table's primary "
 "key."
 msgstr ""
 
-#: kexidb/connection.cpp:2871 kexidb/connection.cpp:3092
+#: kexidb/connection.cpp:2931 kexidb/connection.cpp:3152
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr ""
 
-#: kexidb/connection.cpp:2888
+#: kexidb/connection.cpp:2948
 msgid "Row updating on the server failed."
 msgstr ""
 
-#: kexidb/connection.cpp:2920
+#: kexidb/connection.cpp:2980
 #, fuzzy
 msgid "Could not insert row because there is no master table defined."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:2939
+#: kexidb/connection.cpp:2999
 msgid "Could not insert row because master table has no primary key defined."
 msgstr ""
 
-#: kexidb/connection.cpp:2948
+#: kexidb/connection.cpp:3008
 msgid ""
 "Could not insert row because it does not contain entire master table's primary "
 "key."
 msgstr ""
 
-#: kexidb/connection.cpp:2984
+#: kexidb/connection.cpp:3044
 msgid "Row inserting on the server failed."
 msgstr ""
 
-#: kexidb/connection.cpp:3058
+#: kexidb/connection.cpp:3118
 #, fuzzy
 msgid "Could not delete row because there is no master table defined."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: kexidb/connection.cpp:3068
+#: kexidb/connection.cpp:3128
 msgid ""
 "Could not delete row because there is no primary key for master table defined."
 msgstr ""
 
-#: kexidb/connection.cpp:3083
+#: kexidb/connection.cpp:3143
 msgid ""
 "Could not delete row because it does not contain entire master table's primary "
 "key."
 msgstr ""
 
-#: kexidb/connection.cpp:3109 kexidb/connection.cpp:3132
+#: kexidb/connection.cpp:3169 kexidb/connection.cpp:3192
 msgid "Row deletion on the server failed."
 msgstr ""
 
-#: kexidb/utils.cpp:135
+#: kexidb/utils.cpp:136
 msgid "Message from server:"
 msgstr ""
 
-#: kexidb/utils.cpp:137
+#: kexidb/utils.cpp:138
 msgid "SQL statement:"
 msgstr ""
 
-#: kexidb/utils.cpp:149
+#: kexidb/utils.cpp:150
 #, fuzzy
 msgid "Server result name:"
 msgstr "ເຟຣມ"
 
-#: kexidb/utils.cpp:153
+#: kexidb/utils.cpp:154
 #, fuzzy
 msgid "Server result number:"
 msgstr "ເຟຣມ"
 
-#: kexidb/utils.cpp:366 kexidb/utils.cpp:422 kexidb/utils.cpp:428
+#: kexidb/utils.cpp:367 kexidb/utils.cpp:423 kexidb/utils.cpp:429
 #, fuzzy
 msgid "Test Connection"
 msgstr "ປ່ຽນ OR "
 
-#: kexidb/utils.cpp:366
+#: kexidb/utils.cpp:367
 #, fuzzy
 msgid "<qt>Testing connection to <b>%1</b> database server...</qt>"
 msgstr "ຕິດຕໍ່ ສາຂາ"
 
-#: kexidb/utils.cpp:420
+#: kexidb/utils.cpp:421
 msgid ""
 "<qt>Test connection to <b>%1</b> database server failed. The server is not "
 "responding.</qt>"
 msgstr ""
 
-#: kexidb/utils.cpp:426
+#: kexidb/utils.cpp:427
 msgid ""
 "<qt>Test connection to <b>%1</b> database server established successfully.</qt>"
 msgstr ""
@@ -3803,12 +3803,12 @@ msgid "Error: %1"
 msgstr ""
 
 #: widget/tableview/kexidataawareobjectiface.cpp:902
-#: widget/tableview/kexitableviewdata.cpp:619
+#: widget/tableview/kexitableviewdata.cpp:644
 msgid "The column's constraint is declared as NOT NULL."
 msgstr ""
 
 #: widget/tableview/kexidataawareobjectiface.cpp:924
-#: widget/tableview/kexitableviewdata.cpp:630
+#: widget/tableview/kexitableviewdata.cpp:655
 msgid "The column's constraint is declared as NOT EMPTY."
 msgstr ""
 
@@ -3816,39 +3816,39 @@ msgstr ""
 msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
 msgstr ""
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1136
+#: widget/tableview/kexidataawareobjectiface.cpp:1145
 #, fuzzy
 msgid "Do you want to delete selected row?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1137
+#: widget/tableview/kexidataawareobjectiface.cpp:1146
 #, fuzzy
 msgid "&Delete Row"
 msgstr "ລືບແນວສອບຖາມ"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1258
+#: widget/tableview/kexidataawareobjectiface.cpp:1267
 #, fuzzy
 msgid "Do you want to clear the contents of table %1?"
 msgstr "ເຈົ້າຕ້ອງການລືບແມ່ນບໍ່ %1?"
 
-#: widget/tableview/kexidataawareobjectiface.cpp:1259
+#: widget/tableview/kexidataawareobjectiface.cpp:1268
 msgid "&Clear Contents"
 msgstr ""
 
-#: widget/tableview/kexitableviewdata.cpp:617
-#: widget/tableview/kexitableviewdata.cpp:628
+#: widget/tableview/kexitableviewdata.cpp:642
+#: widget/tableview/kexitableviewdata.cpp:653
 msgid "\"%1\" column requires a value to be entered."
 msgstr ""
 
-#: widget/tableview/kexitableviewdata.cpp:642
+#: widget/tableview/kexitableviewdata.cpp:667
 msgid "Row inserting failed."
 msgstr ""
 
-#: widget/tableview/kexitableviewdata.cpp:662
+#: widget/tableview/kexitableviewdata.cpp:687
 msgid "Row changing failed."
 msgstr ""
 
-#: widget/tableview/kexitableviewdata.cpp:729
+#: widget/tableview/kexitableviewdata.cpp:754
 msgid "Row deleting failed."
 msgstr ""
 
@@ -3876,7 +3876,7 @@ msgstr "ລືບແນວສອບຖາມ"
 msgid "Remove Record"
 msgstr "ລືບແນວສອບຖາມ"
 
-#: widget/tableview/kexitableview.cpp:2639
+#: widget/tableview/kexitableview.cpp:2563
 msgid "Row: "
 msgstr ""
 
@@ -4304,11 +4304,11 @@ msgstr ""
 msgid "NAME"
 msgstr ""
 
-#: plugins/forms/kexiformview.cpp:1056
+#: plugins/forms/kexiformview.cpp:1057
 msgid "Insert AutoField widget"
 msgstr ""
 
-#: plugins/forms/kexiformview.cpp:1056
+#: plugins/forms/kexiformview.cpp:1057
 msgid "Insert %1 AutoField widgets"
 msgstr ""
 
@@ -4564,7 +4564,7 @@ msgstr ""
 msgid "Query Columns"
 msgstr "ຟອມ ໃຫມ່"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1078
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1084
 #: plugins/macros/kexiactions/navigateaction.cpp:73
 #: plugins/macros/kexiactions/navigateaction.cpp:100
 #: plugins/queries/kexiquerydesignerguieditor.cpp:179
@@ -4914,36 +4914,36 @@ msgstr ""
 msgid "Defaults"
 msgstr "ຍົກເລີກ ພອດ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:143
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:142
 #, fuzzy
 msgid "Import CSV Data File"
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:174
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:173
 #, fuzzy
 msgid "&Import..."
 msgstr "ສ້າງ &ຕາຕະລາງ..."
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:177
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:176
 msgid "text"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:178
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:177
 #, fuzzy
 msgid "number"
 msgstr "ລາຍງານ %1"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:179
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:178
 #, fuzzy
 msgid "date"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:180
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:179
 #, fuzzy
 msgid "time"
 msgstr "ຂໍ້ມູນການພິມ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:181
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:180
 #, fuzzy
 msgid "date/time"
 msgstr "ຂໍ້ມູນການພິມ"
@@ -4999,32 +4999,32 @@ msgstr ""
 msgid "Start at line%1:"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:842
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:853
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:848
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:859
 #, fuzzy, c-format
 msgid "Column %1"
 msgstr "ປ່ຽນ OR "
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1104
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1110
 #, fuzzy
 msgid "Column name"
 msgstr "ປ່ຽນ OR "
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1229
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1235
 msgid "Data set contains no rows. Do you want to import empty table?"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1235
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1241
 #, fuzzy
 msgid "No project available."
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1240
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1246
 #, fuzzy
 msgid "No database connection available."
 msgstr "ຖານຂໍ້ມູນ ປະຈຸບັນ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1301
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1307
 msgid ""
 "No Primary Key (autonumber) has been defined.\n"
 "Should it be automatically defined on import (recommended)?\n"
@@ -5033,72 +5033,76 @@ msgid ""
 "database type)."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1304
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1310
 msgid ""
 "_: Add Database Primary Key to a Table\n"
 "Add Primary Key"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1305
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1311
 msgid ""
 "_: Do Not Add Database Primary Key to a Table\n"
 "Do Not Add"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1425
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1431
 #, fuzzy
 msgid "Importing CSV Data"
 msgstr "ເລືອກ ຖານຂໍ້ມູນ"
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1428
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1434
 msgid "Importing CSV Data from <nobr>\"%1\"</nobr> into \"%2\" table..."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1475
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1481
 msgid "Data has been successfully imported to table \"%1\"."
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1485
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1491
 msgid ""
 "_: Text type for column\n"
 "Text"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1487
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1493
 msgid ""
 "_: Numeric type for column\n"
 "Number"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1489
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1495
 msgid ""
 "_: Currency type for column\n"
 "Currency"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1557
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1564
 msgid ""
 "_: row count\n"
 "(rows: %1)"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1562
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1569
 msgid ""
 "_: row count\n"
 "(rows: more than %1)"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:1563
+#: plugins/importexport/csv/kexicsvimportdialog.cpp:1570
 msgid "Not all rows are visible on this preview"
 msgstr ""
 
-#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:38
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:72
 #, fuzzy
 msgid "CSV Import Options"
 msgstr "ສ້າງ &ຕາຕະລາງ..."
 
-#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:60
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:94
 msgid "Always use this encoding when importing CSV data files"
+msgstr ""
+
+#: plugins/importexport/csv/kexicsvimportoptionsdlg.cpp:98
+msgid "Strip leading and trailing blanks off of text values"
 msgstr ""
 
 #: plugins/relations/kexirelationmaindlg.cpp:41
