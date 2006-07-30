@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-07-28 01:35+0000\n"
+"POT-Creation-Date: 2006-07-30 01:35+0000\n"
 "PO-Revision-Date: 2003-01-18 12:00+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -274,7 +274,7 @@ msgstr "Name= ຕົວຕອງການນຳເຂົ້າ WML ຂອງເ�
 msgid "Name=Krita PDF Import Filter"
 msgstr "Name= ຕົວຕອງການນຳເຂົ້າ WML ຂອງເອກະສານຂໍ້ຄວາມ K"
 
-#: filters/krita/pdf/krita_pdf_import.desktop:12
+#: filters/krita/pdf/krita_pdf_import.desktop:13
 msgid "Comment="
 msgstr "Comment="
 
@@ -745,7 +745,7 @@ msgstr "Comment=ສ້າງແຟ້ມຂໍ້ຄວາມໃຫມ່"
 msgid "GenericName=Macros"
 msgstr "GenericName=ค้นหาแฟ้ม"
 
-#: kexi/plugins/macros/kexipart/keximacrohandler.desktop:14
+#: kexi/plugins/macros/kexipart/keximacrohandler.desktop:15
 #, fuzzy
 msgid "Name=Macros"
 msgstr "Name=ล็อค"
@@ -1452,7 +1452,7 @@ msgstr "Name=โมดูลทดสอบ KDED"
 msgid "Name=YCbCr Color Model (16-bit integer)"
 msgstr "Name=โมดูลทดสอบ KDED"
 
-#: krita/colorspaces/ycbcr_u16/krita_ycbcr_u16_plugin.desktop:12
+#: krita/colorspaces/ycbcr_u16/krita_ycbcr_u16_plugin.desktop:13
 #, fuzzy
 msgid "Comment=Color model for 16-bit integer per channel YCbCr images"
 msgstr "Comment=แฟ้มที่จะใช้เปิดเชลล์"
@@ -1462,7 +1462,7 @@ msgstr "Comment=แฟ้มที่จะใช้เปิดเชลล์"
 msgid "Name=YCbCr Color Model (8-bit integer)"
 msgstr "Name=โมดูลทดสอบ KDED"
 
-#: krita/colorspaces/ycbcr_u8/krita_ycbcr_u8_plugin.desktop:12
+#: krita/colorspaces/ycbcr_u8/krita_ycbcr_u8_plugin.desktop:13
 #, fuzzy
 msgid "Comment=Color model for 8-bit integer per channel YCbCr images"
 msgstr "Comment=แฟ้มที่จะใช้เปิดเชลล์"
@@ -1512,6 +1512,11 @@ msgstr "Name=เครื่องมือจัดการงานพิม�
 msgid "GenericName=Image Object"
 msgstr "GenericName=เครื่องมือแสดงภาพ"
 
+#: krita/plugins/filters/blur/kritablurfilter.desktop:4
+#, fuzzy
+msgid "Name=Convolution Filters (Extension)"
+msgstr "Name=ค้นหาแฟ้ม"
+
 #: krita/plugins/filters/bumpmap/kritabumpmapfilter.desktop:3
 #, fuzzy
 msgid "Name=Bumpmap Filter"
@@ -1531,6 +1536,11 @@ msgstr "Name=ตัวกรองการบีบอัดของ KDE"
 #, fuzzy
 msgid "Comment=CImg Image restoration filter"
 msgstr "Comment=ตัวกรองการเลือกหน้า/การจัดลำดับ"
+
+#: krita/plugins/filters/colors/kritaextensioncolorsfilters.desktop:4
+#, fuzzy
+msgid "Name=Color Filters (Extension)"
+msgstr "Name=สี"
 
 #: krita/plugins/filters/colorsfilters/kritacolorsfilter.desktop:3
 #, fuzzy
@@ -1582,6 +1592,16 @@ msgstr "Name=แฟ้มข้อความ"
 msgid "Comment=Invert the colors of an image"
 msgstr "Comment=ธีมไอคอนความละเอียดสีสูง"
 
+#: krita/plugins/filters/fastcolortransfer/kritafastcolortransfer.desktop:2
+msgid ""
+"Comment=This plugins allow to transfer color from an image to an other image"
+msgstr ""
+
+#: krita/plugins/filters/fastcolortransfer/kritafastcolortransfer.desktop:5
+#, fuzzy
+msgid "Name=Color Transfer Filter"
+msgstr "Name=สี"
+
 #: krita/plugins/filters/imageenhancement/kritaimageenhancement.desktop:3
 #, fuzzy
 msgid "Name=Enhancement Filters"
@@ -1597,7 +1617,7 @@ msgstr "Comment=คุณได้ส่งจดหมายแล้ว"
 msgid "Comment=Transform an image in a lenscorrection"
 msgstr "Comment=ฟรอนต์เอนด์สำหรับการสร้างแฟ้มเสียง"
 
-#: krita/plugins/filters/lenscorrectionfilter/kritalenscorrectionfilter.desktop:13
+#: krita/plugins/filters/lenscorrectionfilter/kritalenscorrectionfilter.desktop:14
 #, fuzzy
 msgid "Name=LensCorrection Filter"
 msgstr "Name=ค้นหาแฟ้ม"
@@ -1607,7 +1627,7 @@ msgstr "Name=ค้นหาแฟ้ม"
 msgid "Name=Noise Filter"
 msgstr "Name=ตัวกรอง GZip"
 
-#: krita/plugins/filters/noisefilter/kritanoisefilter.desktop:12
+#: krita/plugins/filters/noisefilter/kritanoisefilter.desktop:13
 #, fuzzy
 msgid "Comment=Add noise to an image"
 msgstr "Comment=แฟ้มภาพบิตแมพ X"
@@ -1647,7 +1667,7 @@ msgstr "Comment=แฟ้มคาราโอเกะ"
 msgid "Comment=Random pick to an image"
 msgstr "Comment=แฟ้มภาพบิตแมพ X"
 
-#: krita/plugins/filters/randompickfilter/kritarandompickfilter.desktop:13
+#: krita/plugins/filters/randompickfilter/kritarandompickfilter.desktop:14
 #, fuzzy
 msgid "Name=Random pick Filter"
 msgstr "Name=ตัวกรอง GZip"
@@ -1668,12 +1688,17 @@ msgstr "Name=ตัวกรองข้อความของ Kate"
 msgid "Name=Invert Filter with Threads"
 msgstr "Name= ຕົວຕອງການນຳເຂົ້າ CSV ຂອງກະດາດຄຳນວນ K"
 
+#: krita/plugins/filters/unsharp/kritaunsharpfilter.desktop:4
+#, fuzzy
+msgid "Name=Image enhancement Filters (Extension)"
+msgstr "Name=ตัวกรองข้อความของ Kate"
+
 #: krita/plugins/filters/wavefilter/kritawavefilter.desktop:2
 #, fuzzy
 msgid "Comment=Transform an image in a wave"
 msgstr "Comment=รายการจดหมาย"
 
-#: krita/plugins/filters/wavefilter/kritawavefilter.desktop:13
+#: krita/plugins/filters/wavefilter/kritawavefilter.desktop:14
 #, fuzzy
 msgid "Name=Wave Filter"
 msgstr "Name=แฟ้มข้อความ"
@@ -2193,8 +2218,8 @@ msgstr "Comment=เอกสาร Troff พร้อมด้วยมาโค
 msgid "Name=Colorful Document"
 msgstr "Name=ເອກະສານຂໍ້ຄວາມ"
 
-#: kword/templates/Wordprocessing/ColorfulA4.desktop:34
-#: kword/templates/Wordprocessing/ColorfulLetter.desktop:34
+#: kword/templates/Wordprocessing/ColorfulA4.desktop:35
+#: kword/templates/Wordprocessing/ColorfulLetter.desktop:35
 msgid ""
 "Comment=A two-column template with stylishly colored headers and footers"
 msgstr ""
