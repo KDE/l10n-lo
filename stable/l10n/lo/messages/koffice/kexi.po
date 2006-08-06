@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-08-04 04:11+0200\n"
+"POT-Creation-Date: 2006-08-06 04:16+0200\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -603,7 +603,7 @@ msgstr "ຂໍ້ມູນການພິມ"
 msgid "Opens selected object in the list in Text View"
 msgstr ""
 
-#: main/kexibrowser.cpp:197 plugins/macros/kexiactions/executeaction.cpp:35
+#: main/kexibrowser.cpp:197 plugins/macros/kexiactions/executeaction.cpp:40
 #, fuzzy
 msgid "Execute"
 msgstr "ສ້າງ &ຄຳສອບຖາມ..."
@@ -2426,7 +2426,7 @@ msgid "Long Text"
 msgstr ""
 
 #: kexidb/field.cpp:690 kexidb/field.cpp:714
-#: plugins/macros/kexiactions/objectvariable.h:55
+#: plugins/macros/kexiactions/objectvariable.h:56
 #, fuzzy
 msgid "Object"
 msgstr "ໂປຣເຈັກ"
@@ -2556,7 +2556,7 @@ msgstr ""
 
 #: kexidb/driver_p.cpp:76 plugins/importexport/csv/kexicsvwidgets.cpp:137
 #: plugins/importexport/csv/kexicsvwidgets.cpp:152
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1534
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1536
 #, fuzzy
 msgid "None"
 msgstr "ເຄື່ອງຈັກ"
@@ -2599,7 +2599,7 @@ msgid "Unspecified error encountered"
 msgstr ""
 
 #: kexidb/queryschema.cpp:195
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1096
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1098
 msgid ""
 "_: short for 'expression' word (only latin letters, please)\n"
 "expr"
@@ -2726,7 +2726,7 @@ msgstr ""
 msgid "Invalid identifier"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1273 sqlscanner.l:267
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1275 sqlscanner.l:267
 #: sqlscanner.l:281
 msgid "Identifiers should start with a letter or '_' character"
 msgstr ""
@@ -3201,6 +3201,7 @@ msgid "Name"
 msgstr "ເຟຣມ"
 
 #. i18n: file ./main/startup/KexiConnSelectorBase.ui line 44
+#: plugins/macros/kexiactions/datatableaction.cpp:60
 #: plugins/tables/kexitabledesignerview.cpp:277 rc.cpp:87 rc.cpp:130
 #: rc.cpp:268
 #, no-c-format
@@ -4565,7 +4566,6 @@ msgstr "ຟອມ ໃຫມ່"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:1084
 #: plugins/macros/kexiactions/navigateaction.cpp:73
-#: plugins/macros/kexiactions/navigateaction.cpp:100
 #: plugins/queries/kexiquerydesignerguieditor.cpp:179
 #, fuzzy
 msgid "Column"
@@ -4635,12 +4635,12 @@ msgid "Select column for table \"%1\""
 msgstr ""
 
 #: plugins/queries/kexiquerydesignerguieditor.cpp:376
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1436
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1438
 msgid "Invalid criteria \"%1\""
 msgstr ""
 
 #: plugins/queries/kexiquerydesignerguieditor.cpp:396
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1290
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1292
 msgid "Invalid expression \"%1\""
 msgstr ""
 
@@ -4654,44 +4654,44 @@ msgid ""
 "You can delete the query and create it again."
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1271
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1273
 msgid "Entered column alias \"%1\" is not a valid identifier."
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1410
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1412
 #, fuzzy
 msgid "Could not set criteria for \"%1\""
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1413
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1415
 msgid "Could not set criteria for empty row"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1506
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1508
 #, fuzzy
 msgid "Query column"
 msgstr "ຟອມ ໃຫມ່"
 
 #: plugins/macros/kexiactions/messageaction.cpp:34
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1517
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1519
 #: plugins/tables/kexitabledesignerview.cpp:298
 #, fuzzy
 msgid "Caption"
 msgstr "ທີ່ຢູ່"
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1522
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1524
 msgid "Alias"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1534
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1536
 msgid "Ascending"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1534
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1536
 msgid "Descending"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1536
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1538
 #, fuzzy
 msgid "Sorting"
 msgstr "ພອດ:"
@@ -5109,6 +5109,28 @@ msgstr ""
 msgid "Relationships"
 msgstr "ຄວາມສຳພັນ"
 
+#: plugins/macros/kexiactions/datatableaction.cpp:45
+msgid "Method"
+msgstr ""
+
+#: plugins/macros/kexiactions/datatableaction.cpp:75
+#, fuzzy
+msgid "Item"
+msgstr "ຕາຕະລາງ ໃຫມ່"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:107
+#, fuzzy
+msgid "Data Table"
+msgstr "ລືບ ຕາຕະລາງ"
+
+#: plugins/macros/kexiactions/datatableaction.cpp:154
+msgid "No such item \"%1\""
+msgstr ""
+
+#: plugins/macros/kexiactions/datatableaction.cpp:181
+msgid "No such method \"%1\""
+msgstr ""
+
 #: plugins/macros/kexiactions/messageaction.cpp:32
 #: plugins/macros/kexiactions/messageaction.cpp:35
 msgid "Message"
@@ -5125,49 +5147,48 @@ msgid "Navigate"
 msgstr "ຟອມ ໃຫມ່"
 
 #: plugins/macros/kexiactions/navigateaction.cpp:69
-#: plugins/macros/kexiactions/navigateaction.cpp:94
 msgid "Row"
 msgstr ""
 
-#: plugins/macros/kexiactions/navigateaction.cpp:120
+#: plugins/macros/kexiactions/navigateaction.cpp:109
 msgid "No window active."
 msgstr ""
 
-#: plugins/macros/kexiactions/navigateaction.cpp:125
+#: plugins/macros/kexiactions/navigateaction.cpp:114
 msgid "No view selected for \"%1\"."
 msgstr ""
 
-#: plugins/macros/kexiactions/navigateaction.cpp:131
+#: plugins/macros/kexiactions/navigateaction.cpp:120
 #, fuzzy
 msgid "The view for \"%1\" could not handle data."
 msgstr "ສ້າງໂປຣເຈັກ"
 
-#: plugins/macros/kexiactions/navigateaction.cpp:165
+#: plugins/macros/kexiactions/navigateaction.cpp:154
 msgid "Unknown record \"%1\" in view for \"%2\"."
 msgstr ""
 
-#: plugins/macros/kexiactions/executeaction.cpp:79
+#: plugins/macros/kexiactions/executeaction.cpp:85
 msgid "No such mimetype \"%1\""
 msgstr ""
 
-#: plugins/macros/kexiactions/executeaction.cpp:84
+#: plugins/macros/kexiactions/executeaction.cpp:90
 msgid "Failed to open part \"%1\" for mimetype \"%2\""
 msgstr ""
 
-#: plugins/macros/kexiactions/openaction.cpp:127
+#: plugins/macros/kexiactions/openaction.cpp:122
 #, fuzzy
 msgid "No project loaded."
 msgstr "ຊື່ ແນວສອບຖາມ:"
 
-#: plugins/macros/kexiactions/openaction.cpp:134
+#: plugins/macros/kexiactions/openaction.cpp:129
 msgid "No such object \"%1.%2\"."
 msgstr ""
 
-#: plugins/macros/kexiactions/openaction.cpp:147
+#: plugins/macros/kexiactions/openaction.cpp:142
 msgid "No such viewmode \"%1\" in object \"%2.%3\"."
 msgstr ""
 
-#: plugins/macros/kexiactions/openaction.cpp:154
+#: plugins/macros/kexiactions/openaction.cpp:149
 #, fuzzy
 msgid "Failed to open object \"%1.%2\"."
 msgstr "ຕິດຕໍ່ ສາຂາ"
@@ -5187,7 +5208,7 @@ msgstr "ທີ່ຢູ່"
 msgid "Comment"
 msgstr "ປ່ຽນ OR "
 
-#: plugins/macros/kexipart/keximacropart.cpp:70
+#: plugins/macros/kexipart/keximacropart.cpp:71
 msgid ""
 "_: Translate this word using only lowercase alphanumeric characters (a..z, "
 "0..9). Use '_' character instead of spaces. First character should be a..z "
@@ -5196,15 +5217,15 @@ msgid ""
 "macro"
 msgstr ""
 
-#: plugins/macros/kexipart/keximacropart.cpp:73
+#: plugins/macros/kexipart/keximacropart.cpp:74
 msgid "Macro"
 msgstr ""
 
-#: plugins/macros/kexipart/keximacropart.cpp:160
+#: plugins/macros/kexipart/keximacropart.cpp:162
 msgid "Design of macro \"%1\" has been modified."
 msgstr ""
 
-#: plugins/macros/kexipart/keximacropart.cpp:163
+#: plugins/macros/kexipart/keximacropart.cpp:165
 msgid "Macro \"%1\" already exists."
 msgstr ""
 
@@ -5651,10 +5672,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Forms"
 #~ msgstr "ຟອມ ໃຫມ່"
-
-#, fuzzy
-#~ msgid "Item:"
-#~ msgstr "ຕາຕະລາງ ໃຫມ່"
 
 #, fuzzy
 #~ msgid "MyProject"
@@ -6310,10 +6327,6 @@ msgstr ""
 
 #~ msgid "New Form <%1>"
 #~ msgstr "ຟອມ ໃຫມ່ <%1>"
-
-#, fuzzy
-#~ msgid "Data Table"
-#~ msgstr "ລືບ ຕາຕະລາງ"
 
 #, fuzzy
 #~ msgid "Push button"
