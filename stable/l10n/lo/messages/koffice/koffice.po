@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-08-28 02:44+0200\n"
+"POT-Creation-Date: 2006-09-01 02:44+0200\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -5333,79 +5333,91 @@ msgstr "ເລືອກ..."
 msgid "Base Size Change"
 msgstr "ປ່ຽນຂະຫນາດພຶ້ນຖານ"
 
-#: kformula/sequenceelement.cc:942
+#: kformula/identifierelement.cc:46 kformula/operatorelement.cc:166
+#: kformula/sequenceelement.cc:949 kformula/tokenelement.cc:58
 #, fuzzy
 msgid "write protection"
 msgstr "ທິດທາງ:"
 
-#: kformula/sequenceelement.cc:948 kformula/sequenceelement.cc:956
+#: kformula/identifierelement.cc:52 kformula/identifierelement.cc:60
+#: kformula/sequenceelement.cc:964 kformula/sequenceelement.cc:982
 msgid "Add Text"
 msgstr "ເພີ້ມຂໍ້ຄວາມ"
 
-#: kformula/sequenceelement.cc:965
+#: kformula/operatorelement.cc:172 kformula/sequenceelement.cc:998
+#, fuzzy
+msgid "Add Operator"
+msgstr "ແບບອັກສອນຕົວດຳເນີນການ:"
+
+#: kformula/sequenceelement.cc:1014 kformula/tokenelement.cc:64
+#, fuzzy
+msgid "Add Number"
+msgstr "ເພີ້ມຊື່"
+
+#: kformula/sequenceelement.cc:1024
 msgid "Add Empty Box"
 msgstr "Add Empty Box"
 
-#: kformula/sequenceelement.cc:975
+#: kformula/sequenceelement.cc:1034
 msgid "Add Name"
 msgstr "ເພີ້ມຊື່"
 
-#: kformula/kformuladocument.cc:461 kformula/sequenceelement.cc:986
+#: kformula/kformuladocument.cc:461 kformula/sequenceelement.cc:1045
 msgid "Add Bracket"
 msgstr "ເພີ້ມວົງເລັບ"
 
-#: kformula/kformuladocument.cc:527 kformula/sequenceelement.cc:995
+#: kformula/kformuladocument.cc:527 kformula/sequenceelement.cc:1054
 msgid "Add Overline"
 msgstr "ຕົວຂີດກ້ອງ:"
 
-#: kformula/kformuladocument.cc:532 kformula/sequenceelement.cc:1004
+#: kformula/kformuladocument.cc:532 kformula/sequenceelement.cc:1063
 msgid "Add Underline"
 msgstr "ຕົວຂີດກ້ອງ:"
 
-#: kformula/kformuladocument.cc:538 kformula/sequenceelement.cc:1013
+#: kformula/kformuladocument.cc:538 kformula/sequenceelement.cc:1072
 #, fuzzy
 msgid "Add Multiline"
 msgstr "ຕົວຂີດກ້ອງ:"
 
-#: kformula/sequenceelement.cc:1023
+#: kformula/sequenceelement.cc:1082
 msgid "Add Space"
 msgstr "ເພີ້ມຊ່ອງວ່າງ"
 
-#: kformula/kformuladocument.cc:456 kformula/sequenceelement.cc:1032
+#: kformula/kformuladocument.cc:456 kformula/sequenceelement.cc:1091
 msgid "Add Fraction"
 msgstr "ເພີ້ມເສດສ່ວນ"
 
-#: kformula/kformuladocument.cc:451 kformula/sequenceelement.cc:1041
+#: kformula/kformuladocument.cc:451 kformula/sequenceelement.cc:1100
 msgid "Add Root"
 msgstr "ເພີ້ມເຄື່ອງຫມາຍຮາກທີ່ສອງ"
 
-#: kformula/sequenceelement.cc:1051
+#: kformula/sequenceelement.cc:1110
 msgid "Add Symbol"
 msgstr "ເພີ້ມສັນຍາລັກ"
 
-#: kformula/kformuladocument.cc:488 kformula/sequenceelement.cc:1060
+#: kformula/kformuladocument.cc:488 kformula/sequenceelement.cc:1119
 msgid "Add 1x2 Matrix"
 msgstr "ເພີ້ມເມຕຣິກຊ໌ຂະຫນາດ 1x2"
 
-#: kformula/MatrixDialog.cc:34 kformula/sequenceelement.cc:1079
+#: kformula/MatrixDialog.cc:34 kformula/sequenceelement.cc:1138
 msgid "Add Matrix"
 msgstr "ເພີ້ມເມຕຣິກຊ໌"
 
-#: kformula/sequenceelement.cc:1156
+#: kformula/sequenceelement.cc:1215
 msgid "Change Char to Symbol"
 msgstr "ປ່ຽນອັກຂະຫລະເປັນສັນຍາລັກ์"
 
-#: kformula/sequenceelement.cc:1176
+#: kformula/sequenceelement.cc:1235
 #, fuzzy
 msgid "Change Char Style"
 msgstr "ປ່ຽນອັກຂະຫລະເປັນສັນຍາລັກ์"
 
-#: kformula/sequenceelement.cc:1189
+#: kformula/sequenceelement.cc:1248
 #, fuzzy
 msgid "Change Char Family"
 msgstr "ປ່ຽນອັກຂະຫລະເປັນສັນຍາລັກ์"
 
-#: kformula/sequenceelement.cc:1622
+#: kformula/sequenceelement.cc:1690
 msgid "Add Element"
 msgstr "ເພີ້ມອີລີເມນຕ໌"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-08-21 04:14+0200\n"
+"POT-Creation-Date: 2006-09-01 02:45+0200\n"
 "PO-Revision-Date: 2003-01-21 12:16+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -180,8 +180,8 @@ msgstr "ເລືອກບ່ອນກັ້ນໜັງສື"
 
 #. i18n: file KWSelectBookmarkDiaBase.ui line 43
 #: rc.cpp:139
-#, no-c-format
-msgid "&Rename"
+#, fuzzy, no-c-format
+msgid "&Rename..."
 msgstr "ຊື່&ຜູ້ໃຊ້:"
 
 #. i18n: file KWStartupWidgetBase.ui line 27
@@ -1059,18 +1059,14 @@ msgstr "ປ່ງນການຕັ້ງຄ່າຕົວແປເຊີງອ
 msgid "Change Footnote Line Separator Settings"
 msgstr "ປ່ງນການຕັ້ງຄ່າເສັ້ນຕົວບົ່ງເຊີງອອດ"
 
-#: KWCreateBookmarkDia.cpp:45
-#, fuzzy
-msgid "Rename Bookmark..."
+#: KWCreateBookmarkDia.cpp:45 KWCreateBookmarkDia.cpp:100
+#: KWCreateBookmarkDia.cpp:124
+msgid "Rename Bookmark"
 msgstr "ປ່ຽນຊື່ທີ່ຂັ້ນໜັງສື"
 
 #: KWCreateBookmarkDia.cpp:65
 msgid "That name already exists, please choose another name."
 msgstr "ມີຊຸດກັຣບມືນີ້ຢູ່ແລ້ວໃຫ້ຕື່ມຊື່ໃໝ่"
-
-#: KWCreateBookmarkDia.cpp:100 KWCreateBookmarkDia.cpp:124
-msgid "Rename Bookmark"
-msgstr "ປ່ຽນຊື່ທີ່ຂັ້ນໜັງສື"
 
 #: KWCreateBookmarkDia.cpp:104
 msgid "Delete Bookmark"
@@ -4881,6 +4877,10 @@ msgstr "(c) 1998-2001, ກຸ່ມຜູ້ພັດທະນາເອກດະ
 #: KWAboutData.h:50
 msgid "KFormula"
 msgstr "ສູດຄະນິດສາດ K"
+
+#, fuzzy
+#~ msgid "Rename Bookmark..."
+#~ msgstr "ປ່ຽນຊື່ທີ່ຂັ້ນໜັງສື"
 
 #, fuzzy
 #~ msgid "Delete the currently selected frame(s)"
