@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-10-19 02:40+0200\n"
+"POT-Creation-Date: 2006-10-22 02:41+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -540,8 +540,8 @@ msgstr "&ການກະທຳເມື່ອຕອງ"
 msgid "<none>"
 msgstr "<ບໍ່ມີี>"
 
-#: accountdialog.cpp:1377 accountdialog.cpp:1384 kmfoldercachedimap.cpp:187
-#: kmfoldercachedimap.cpp:1759 kmfolderimap.cpp:188 kmfolderimap.cpp:877
+#: accountdialog.cpp:1377 accountdialog.cpp:1384 kmfoldercachedimap.cpp:200
+#: kmfoldercachedimap.cpp:1821 kmfolderimap.cpp:188 kmfolderimap.cpp:877
 #: kmkernel.cpp:1333 subscriptiondialog.cpp:166
 msgid "inbox"
 msgstr "ກ່ອງຈົດຫມາຍເຂົ້າ"
@@ -3021,7 +3021,7 @@ msgstr ""
 msgid "Connecting to server %1, please wait..."
 msgstr ""
 
-#: folderdiaacltab.cpp:470 kmfoldercachedimap.cpp:655
+#: folderdiaacltab.cpp:470 kmfoldercachedimap.cpp:689
 #, c-format
 msgid "Error connecting to server %1"
 msgstr ""
@@ -5871,11 +5871,11 @@ msgstr ""
 msgid "Failed to create folder"
 msgstr "ລົ້ມເຫລວໃນການສ້າງໄດເລັກທໍລຣີี"
 
-#: kmfoldercachedimap.cpp:97
+#: kmfoldercachedimap.cpp:98
 msgid "Troubleshooting IMAP Cache"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:103
+#: kmfoldercachedimap.cpp:104
 msgid ""
 "<p><b>Troubleshooting the IMAP cache.</b></p>"
 "<p>If you have problems with synchronizing an IMAP folder, you should first try "
@@ -5886,25 +5886,37 @@ msgid ""
 "subfolders.</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:114
+#: kmfoldercachedimap.cpp:115
 msgid "Refresh &Cache"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:115
+#: kmfoldercachedimap.cpp:116
 msgid "Rebuild &Index"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:412
+#: kmfoldercachedimap.cpp:162
+msgid ""
+"The UID cache file for folder %1 could not be read. There could be a problem "
+"with file system permission, or it is corrupted."
+msgstr ""
+
+#: kmfoldercachedimap.cpp:341
+msgid ""
+"The UID cache file for folder %1 could not be written. There could be a problem "
+"with file system permission."
+msgstr ""
+
+#: kmfoldercachedimap.cpp:431
 msgid "You must synchronize with the server before renaming IMAP folders."
 msgstr "ຕອ້ງພ້ອມກັບເຊີບເວີໂຟເດີ IMAP"
 
-#: kmfoldercachedimap.cpp:510
+#: kmfoldercachedimap.cpp:544
 msgid ""
 "No account setup for this folder.\n"
 "Please try running a sync before this."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:514
+#: kmfoldercachedimap.cpp:548
 #, fuzzy
 msgid ""
 "Are you sure you want to refresh the IMAP cache of the folder %1 and all its "
@@ -5914,19 +5926,19 @@ msgstr ""
 "ທ່ານແນ່ໃຈຫລືບໍ່ທີ່ຈະຕ້ອງການລືບໂຟເດີ \"%1\"\n"
 "ລວມທັງໂຟເດີຍ່ອຍ, ແລະເນື້ອຫາທັງໝົດຂອງມັນ ?"
 
-#: kmfoldercachedimap.cpp:518 kmmainwidget.cpp:1171
+#: kmfoldercachedimap.cpp:552 kmmainwidget.cpp:1171
 msgid "Refresh IMAP Cache"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:519 kmmainwidget.cpp:1171
+#: kmfoldercachedimap.cpp:553 kmmainwidget.cpp:1171
 msgid "&Refresh"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:526
+#: kmfoldercachedimap.cpp:560
 msgid "The index of this folder has been recreated."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:534
+#: kmfoldercachedimap.cpp:568
 #, fuzzy
 msgid ""
 "Folder %1 is not in initial sync state (state was %2). Do you want to reset it "
@@ -5935,111 +5947,111 @@ msgstr ""
 "ໂຟນເດີ%1ແມ່ນບໍ່ຢູ່ໃນສະພາບເລີ່ມຕົ້ນຂອງອັກຂະລະ(ສະພາບແມ່ນ2%).ເຈົ້າຕ້ອງການລີເຊັດມັນໃ"
 "ຫ້ຢູ່ໃນສະພາບເລີ່ມຕົ້ນຂອງອັກຂະລະແລະອັກຂະລະໃນທາງອື່ນໆບໍ?"
 
-#: kmfoldercachedimap.cpp:534
+#: kmfoldercachedimap.cpp:568
 msgid "Reset && Sync"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:554
+#: kmfoldercachedimap.cpp:588
 #, fuzzy
 msgid "Synchronization skipped"
 msgstr "ຊຸດອັກຂະລະບໍ່ສາມາດເຮັດໄດ້"
 
-#: kmfoldercachedimap.cpp:643
+#: kmfoldercachedimap.cpp:677
 #, fuzzy
 msgid "Synchronizing"
 msgstr "%1:ຊຸດອັກຂະລະ"
 
-#: kmfoldercachedimap.cpp:662
+#: kmfoldercachedimap.cpp:696
 #, c-format
 msgid "Connecting to %1"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:683
+#: kmfoldercachedimap.cpp:717
 #, fuzzy
 msgid "Checking permissions"
 msgstr "กำหนดไอคอนโฟลเดอร์เอง"
 
-#: kmfoldercachedimap.cpp:697
+#: kmfoldercachedimap.cpp:731
 #, fuzzy
 msgid "Renaming folder"
 msgstr "ຜູ້ສົ່ງ"
 
-#: kmfoldercachedimap.cpp:754
+#: kmfoldercachedimap.cpp:788
 msgid "Retrieving folderlist"
 msgstr "ຄົ້ນຫາໃນໂພນເດີ"
 
-#: kmfoldercachedimap.cpp:758
+#: kmfoldercachedimap.cpp:792
 #, fuzzy
 msgid "Error while retrieving the folderlist"
 msgstr "ຄົ້ນຫາໃນໂພນເດີ"
 
-#: kmfoldercachedimap.cpp:765
+#: kmfoldercachedimap.cpp:799
 msgid "Retrieving subfolders"
 msgstr "ສ້າງໂພນເດີ"
 
-#: kmfoldercachedimap.cpp:772
+#: kmfoldercachedimap.cpp:806
 msgid "Deleting folders from server"
 msgstr "ລຶບໂພນເດີອອກຈາກເຊີບເວີ"
 
-#: kmfoldercachedimap.cpp:787
+#: kmfoldercachedimap.cpp:821
 #, fuzzy
 msgid "Retrieving message list"
 msgstr "ໄປນຳຂໍ້ຄວາມເຂົ້າມາໃໝ່"
 
-#: kmfoldercachedimap.cpp:800
+#: kmfoldercachedimap.cpp:834
 msgid "No messages to delete..."
 msgstr "ບໍ່ມີຂໍ້ຄວາມທີ່ຈະລຶບ"
 
-#: kmfoldercachedimap.cpp:811
+#: kmfoldercachedimap.cpp:845
 msgid "Expunging deleted messages"
 msgstr "ໃຫ້ຂໍ້ຄວາມເກົ່າໝົດອາຢຸ?"
 
-#: kmfoldercachedimap.cpp:825
+#: kmfoldercachedimap.cpp:859
 msgid "Retrieving new messages"
 msgstr "ໄປນຳເອົາຂໍ້ຄວາມເຂົ້າມາໃໝ່"
 
-#: kmfoldercachedimap.cpp:837
+#: kmfoldercachedimap.cpp:871
 msgid "No new messages from server"
 msgstr "ບໍ່ມີຂໍ້ຄວາມໃໝ່ຈາກເຊີບເວີ"
 
-#: kmfoldercachedimap.cpp:865
+#: kmfoldercachedimap.cpp:904
 #, fuzzy
 msgid "Checking annotation support"
 msgstr "กำหนดไอคอนโฟลเดอร์เอง"
 
-#: kmfoldercachedimap.cpp:912
+#: kmfoldercachedimap.cpp:951
 #, fuzzy
 msgid "Retrieving annotations"
 msgstr "กำหนดไอคอนโฟลเดอร์เอง"
 
-#: kmfoldercachedimap.cpp:934
+#: kmfoldercachedimap.cpp:973
 #, fuzzy
 msgid "Setting annotations"
 msgstr "กำหนดไอคอนโฟลเดอร์เอง"
 
-#: kmfoldercachedimap.cpp:975
+#: kmfoldercachedimap.cpp:1014
 #, fuzzy
 msgid "Setting permissions"
 msgstr "กำหนดไอคอนโฟลเดอร์เอง"
 
-#: kmfoldercachedimap.cpp:995
+#: kmfoldercachedimap.cpp:1034
 #, fuzzy
 msgid "Retrieving permissions"
 msgstr "กำหนดไอคอนโฟลเดอร์เอง"
 
-#: kmfoldercachedimap.cpp:1005
+#: kmfoldercachedimap.cpp:1044
 msgid "Updating cache file"
 msgstr "ການອັບເດດຟາຍທີ່ເຊື່ອງໄວ້"
 
-#: kmfoldercachedimap.cpp:1031
+#: kmfoldercachedimap.cpp:1070
 msgid "Synchronization done"
 msgstr "ຊຸດອັກຂະລະບໍ່ສາມາດເຮັດໄດ້"
 
-#: kmfoldercachedimap.cpp:1113
+#: kmfoldercachedimap.cpp:1152
 msgid "Uploading messages to server"
 msgstr "ສົ່ງຂໍ້ຄວາມໄປຍັງເຊີບເວີ"
 
-#: kmfoldercachedimap.cpp:1121
+#: kmfoldercachedimap.cpp:1160
 msgid ""
 "<p>There are new messages in this folder (%1), which have not been uploaded to "
 "the server yet, but you do not seem to have sufficient access rights on the "
@@ -6048,60 +6060,72 @@ msgid ""
 "<p>Do you want to move these messages to another folder now?</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1127 kmkernel.cpp:1748
+#: kmfoldercachedimap.cpp:1166 kmkernel.cpp:1748
 msgid "Do Not Move"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1129
+#: kmfoldercachedimap.cpp:1168
 #, fuzzy
 msgid "Move Messages to Folder"
 msgstr "ຍ້າຍຈົດໝາຍໄປຍັງໂຟເດີ"
 
-#: kmfoldercachedimap.cpp:1150 kmfoldercachedimap.cpp:1205
+#: kmfoldercachedimap.cpp:1189 kmfoldercachedimap.cpp:1244
 msgid "No messages to upload to server"
 msgstr "ບໍ່ມີຂໍ້ຄວາມສົ່ງໄປຢັງເຂີບເວີ"
 
-#: kmfoldercachedimap.cpp:1169
+#: kmfoldercachedimap.cpp:1208
 #, fuzzy
 msgid "Uploading status of messages to server"
 msgstr "ສົ່ງຂໍ້ຄວາມໄປຍັງເຊີບເວີ"
 
-#: kmfoldercachedimap.cpp:1246
+#: kmfoldercachedimap.cpp:1287
 msgid "Creating subfolders on server"
 msgstr "ການສ້າງຕົວເເທນໂພນເດີໃນເຊີບເວີ"
 
-#: kmfoldercachedimap.cpp:1304
+#: kmfoldercachedimap.cpp:1345
+msgid ""
+"<qt>"
+"<p>Mails on the server in folder <b>%1</b> were deleted. Do you want to delete "
+"them locally?"
+"<br>UIDs: %2</p></qt>"
+msgstr ""
+
+#: kmfoldercachedimap.cpp:1354
 msgid "Deleting removed messages from server"
 msgstr "ການລຶບຂໍ້ຄວາມທີ່ທຳການໂອນຍ້າຍຈາກເຊີບເວີ"
 
-#: kmfoldercachedimap.cpp:1335
+#: kmfoldercachedimap.cpp:1385
 msgid "Checking folder validity"
 msgstr "ໝາຍເລກຂອງຕາຕະລາງຂໍ້້ມູນສຳລັບການລຶບແມ່ນໃຫ່ຍຫຼາຍ"
 
-#: kmfoldercachedimap.cpp:1572
+#: kmfoldercachedimap.cpp:1552
+msgid "Folder listing failed in interesting ways."
+msgstr ""
+
+#: kmfoldercachedimap.cpp:1634
 #, fuzzy, c-format
 msgid "Retrieving folders for namespace %1"
 msgstr "ຄົ້ນຫາໃນໂພນເດີ"
 
-#: kmfoldercachedimap.cpp:1801
+#: kmfoldercachedimap.cpp:1863
 msgid ""
 "<qt>"
 "<p>It seems that the folder <b>%1</b> was deleted. Do you want to delete it "
 "from the server?</p></qt>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2023
+#: kmfoldercachedimap.cpp:2085
 #, fuzzy
 msgid "Aborted"
 msgstr "&ຍົກເລີກ"
 
-#: kmfoldercachedimap.cpp:2204
+#: kmfoldercachedimap.cpp:2266
 msgid ""
 "The IMAP server %1 does not have support for IMAP annotations. The XML storage "
 "cannot be used on this server; please re-configure KMail differently."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2262
+#: kmfoldercachedimap.cpp:2324
 #, fuzzy
 msgid "Error while setting annotation: "
 msgstr "ຄົ້ນຫາໃນໂພນເດີ"
