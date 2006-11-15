@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-10-17 02:31+0200\n"
+"POT-Creation-Date: 2006-11-15 02:34+0100\n"
 "PO-Revision-Date: 2003-01-11 13:42+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -1129,6 +1129,7 @@ msgid "New Session"
 msgstr "ເຊສຊັນ"
 
 #: app/katesession.cpp:643 app/katesession.cpp:733 app/katesession.cpp:797
+#: sessionmenu/katesessionmenu.cpp:112
 #, fuzzy
 msgid "Session Name"
 msgstr "ເຊສຊັນ"
@@ -1680,6 +1681,49 @@ msgstr "ເຊສຊັນ"
 #, no-c-format
 msgid "&Window"
 msgstr ""
+
+#: sessionmenu/katesessionmenu.cpp:69
+#, fuzzy
+msgid "Start Kate (no arguments)"
+msgstr "ເຊສຊັນ"
+
+#: sessionmenu/katesessionmenu.cpp:72
+#, fuzzy
+msgid "New Kate Session"
+msgstr "ເຊສຊັນ"
+
+#: sessionmenu/katesessionmenu.cpp:75
+#, fuzzy
+msgid "New Anonymous Session"
+msgstr "ເຊສຊັນ"
+
+#: sessionmenu/katesessionmenu.cpp:96
+#, fuzzy
+msgid "Reload Session List"
+msgstr "ເຊສຊັນ"
+
+#: sessionmenu/katesessionmenu.cpp:113
+msgid "Please enter a name for the new session"
+msgstr ""
+
+#: sessionmenu/katesessionmenu.cpp:120
+msgid ""
+"An unnamed session will not be saved automatically. Do you want to create such "
+"a session?"
+msgstr ""
+
+#: sessionmenu/katesessionmenu.cpp:122
+msgid "Create anonymous session?"
+msgstr ""
+
+#: sessionmenu/katesessionmenu.cpp:129
+msgid "You allready have a session named %1. Do you want to open that session?"
+msgstr ""
+
+#: sessionmenu/katesessionmenu.cpp:130
+#, fuzzy
+msgid "Session exists"
+msgstr "ເຊສຊັນ"
 
 #: tips.cpp:3
 msgid ""
