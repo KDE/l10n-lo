@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-11-25 02:33+0100\n"
+"POT-Creation-Date: 2006-11-27 02:35+0100\n"
 "PO-Revision-Date: 2003-01-12 12:30+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -44,7 +44,7 @@ msgstr "ບໍ່ສາມາດບັນທຶກແຟ້ມ%1 ໄດ້"
 msgid "The clipboard does not contain a valid display description."
 msgstr "ຄຣິບບອຣ໌ດບໍ່ມີລາຍລະອງດຂອງຊ່ອງການສະແດງຜົນທີ່ໃຊ້ໄດ້"
 
-#: SensorDisplayLib/SensorDisplay.cc:105 WorkSheet.cc:312
+#: SensorDisplayLib/SensorDisplay.cc:104 WorkSheet.cc:312
 #, fuzzy
 msgid "It is impossible to connect to '%1'."
 msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄປຍັງ '%1' ໄດ້ !"
@@ -244,7 +244,8 @@ msgstr "ໂຫລດຜູ້ໃຊ້"
 msgid "Idle Load"
 msgstr "ໂຫລດວ່າງ"
 
-#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:171
+#: Workspace.cc:100 Workspace.cc:109 ksgrd/SensorManager.cc:52
+#: ksysguard.cc:171
 msgid "System Load"
 msgstr "ໂຫລດລະບົບ"
 
@@ -588,7 +589,7 @@ msgid ""
 "Your emails"
 msgstr "neuk@yahoo.com"
 
-#: Workspace.cc:52
+#: Workspace.cc:53
 msgid ""
 "This is your work space. It holds your worksheets. You need to create a new "
 "worksheet (Menu File->New) before you can drag sensors here."
@@ -596,16 +597,16 @@ msgstr ""
 "ນີ້ເປັນພື້ນທີ່ການທຳງານຂອງທ່ານ ຫາກຕ້ອງການສ້າງຊີດງານໃຫມ່(ທີ່ເມນູFile->"
 "New) ກ່ອນທີ່ທ່ານຈະສາມາດລາກຕົວກວດຈັບມາຍັງທີ່ນີ້ໄດ້"
 
-#: Workspace.cc:104 ksysguard.cc:176
+#: Workspace.cc:105 ksysguard.cc:176
 msgid "Process Table"
 msgstr "ຕາລາງໂປຣເຊສ"
 
-#: Workspace.cc:134
+#: Workspace.cc:135
 #, c-format
 msgid "Sheet %1"
 msgstr "ຊີດ%1"
 
-#: Workspace.cc:164 Workspace.cc:304
+#: Workspace.cc:165 Workspace.cc:305
 msgid ""
 "The worksheet '%1' contains unsaved data.\n"
 "Do you want to save the worksheet?"
@@ -613,29 +614,29 @@ msgstr ""
 "ຊີດງານ'%1' ມີຂໍ້ມູນທີ່ຍັງບໍ່ໄດ້ບັນທຶກ\n"
 "ທ່ານຕ້ອງການບັນທຶກຊີດງານຫລືບໍ່ ?"
 
-#: Workspace.cc:180 Workspace.cc:234
+#: Workspace.cc:181 Workspace.cc:235
 msgid "*.sgrd|Sensor Files"
 msgstr "*.sgrd|ແຟ້ມການກວດຈັບ"
 
-#: Workspace.cc:183
+#: Workspace.cc:184
 msgid "Select Worksheet to Load"
 msgstr "ເລືອກຊີດງານທີ່ຕ້ອງການຮງກໃຊ້"
 
-#: Workspace.cc:228 Workspace.cc:268
+#: Workspace.cc:229 Workspace.cc:269
 #, fuzzy
 msgid "You do not have a worksheet that could be saved."
 msgstr "ທ່ານບໍ່ມີຊີດງານທີ່ສາມາດບັນທຶກລົງໄປໄດ້!"
 
-#: Workspace.cc:238
+#: Workspace.cc:239
 msgid "Save Current Worksheet As"
 msgstr "ບັນທຶກຊີດງານປັດຈຸບັນເປັນ"
 
-#: Workspace.cc:319
+#: Workspace.cc:320
 #, fuzzy
 msgid "There are no worksheets that could be deleted."
 msgstr "ບໍ່ມີຊີດງານທີ່ສາມາດລຶບໄດ້!"
 
-#: Workspace.cc:449
+#: Workspace.cc:448
 #, fuzzy
 msgid "Cannot find file ProcessTable.sgrd."
 msgstr "ບໍ່ສາມາດຄົ້ນຫາແຟ້ມProcessTable.sgrd ໄດ້!"
@@ -1192,32 +1193,32 @@ msgstr "ເລື່ອນລົງ"
 msgid "Sensor Logger"
 msgstr "ຕົວບັນທຶກຕົວກວດສອບ"
 
-#: SensorDisplayLib/SensorDisplay.cc:163
+#: SensorDisplayLib/SensorDisplay.cc:162
 #, fuzzy
 msgid "Launch &System Guard"
 msgstr "ເຄື່ອງມືປົກປ້ອງລະບົບຂອງKDE"
 
-#: SensorDisplayLib/SensorDisplay.cc:167 SensorDisplayLib/SensorLogger.cc:380
+#: SensorDisplayLib/SensorDisplay.cc:166 SensorDisplayLib/SensorLogger.cc:380
 msgid "&Properties"
 msgstr "คุณสมบัติ"
 
-#: SensorDisplayLib/SensorDisplay.cc:168 SensorDisplayLib/SensorLogger.cc:381
+#: SensorDisplayLib/SensorDisplay.cc:167 SensorDisplayLib/SensorLogger.cc:381
 msgid "&Remove Display"
 msgstr "ເອົາຊ່ອງສະແດງຜົນອອກ"
 
-#: SensorDisplayLib/SensorDisplay.cc:170
+#: SensorDisplayLib/SensorDisplay.cc:169
 msgid "&Setup Update Interval..."
 msgstr "ຕັ້ງຄ່າຊ່ວງເວລາປັບປຸງ..."
 
-#: SensorDisplayLib/SensorDisplay.cc:172
+#: SensorDisplayLib/SensorDisplay.cc:171
 msgid "&Continue Update"
 msgstr "ເຮັດການປັບປຸງຕໍ່ໄປ"
 
-#: SensorDisplayLib/SensorDisplay.cc:174
+#: SensorDisplayLib/SensorDisplay.cc:173
 msgid "P&ause Update"
 msgstr "ຫຍຸດການປັບປຸງຊົ່ວຄາວ"
 
-#: SensorDisplayLib/SensorDisplay.cc:241
+#: SensorDisplayLib/SensorDisplay.cc:240
 msgid ""
 "<qt>"
 "<p>This is a sensor display. To customize a sensor display click and hold the "
@@ -1372,95 +1373,95 @@ msgstr "ລັອກອິນ"
 msgid "Command"
 msgstr "ຄຳສັ່ງ"
 
-#: SensorDisplayLib/ProcessController.cc:86
+#: SensorDisplayLib/ProcessController.cc:97
 msgid "All Processes"
 msgstr "ທຸກໂປຣເຊສ"
 
-#: SensorDisplayLib/ProcessController.cc:87
+#: SensorDisplayLib/ProcessController.cc:98
 msgid "System Processes"
 msgstr "ໂປຣເຊສຂອງລະບົບ"
 
-#: SensorDisplayLib/ProcessController.cc:88
+#: SensorDisplayLib/ProcessController.cc:99
 msgid "User Processes"
 msgstr "ໂປຣເຊສຂອງຜູ້ໃຊ້"
 
-#: SensorDisplayLib/ProcessController.cc:89
+#: SensorDisplayLib/ProcessController.cc:100
 msgid "Own Processes"
 msgstr "ໂປຣເຊສຂອງເຈົ້າຂອງ"
 
-#: SensorDisplayLib/ProcessController.cc:92
+#: SensorDisplayLib/ProcessController.cc:103
 msgid "&Tree"
 msgstr "ລາຍການຕົ້ນໄມ້"
 
-#: SensorDisplayLib/ProcessController.cc:105
+#: SensorDisplayLib/ProcessController.cc:116
 msgid "&Refresh"
 msgstr "ເອີ້ນໃຫມ່"
 
-#: SensorDisplayLib/ProcessController.cc:112
+#: SensorDisplayLib/ProcessController.cc:123
 msgid "&Kill"
 msgstr "&ຂ້າ"
 
-#: SensorDisplayLib/ProcessController.cc:180
+#: SensorDisplayLib/ProcessController.cc:206
 msgid "%1: Running Processes"
 msgstr "%1:ໂປຣເຊສທີ່ກຳລັງທຳງານ"
 
-#: SensorDisplayLib/ProcessController.cc:213
+#: SensorDisplayLib/ProcessController.cc:239
 #, fuzzy
 msgid "You need to select a process first."
 msgstr "ທ່ານຕ້ອງເລືອກໂປຣເຊສກ່ອນ !"
 
-#: SensorDisplayLib/ProcessController.cc:219
+#: SensorDisplayLib/ProcessController.cc:245
 #, fuzzy, c-format
 msgid ""
 "_n: Do you want to kill the selected process?\n"
 "Do you want to kill the %n selected processes?"
 msgstr "ທ່ານຕ້ອງການຂ້າໂປຣເຊສ %n ໂປຣເຊສ ທີ່ເລືອກໄວ້ຫລືບໍ່ ?"
 
-#: SensorDisplayLib/ProcessController.cc:222
+#: SensorDisplayLib/ProcessController.cc:248
 msgid "Kill Process"
 msgstr "ທຸກໂປຣເຊສ"
 
-#: SensorDisplayLib/ProcessController.cc:226
+#: SensorDisplayLib/ProcessController.cc:252
 #, fuzzy
 msgid "Kill"
 msgstr "&ຂ້າ"
 
-#: SensorDisplayLib/ProcessController.cc:232
+#: SensorDisplayLib/ProcessController.cc:258
 msgid "Do not ask again"
 msgstr ""
 
-#: SensorDisplayLib/ProcessController.cc:318
+#: SensorDisplayLib/ProcessController.cc:344
 #, fuzzy, c-format
 msgid "Error while attempting to kill process %1."
 msgstr "ເກີດຂໍ້ຜິດພາດ ຂະນະກຳລັງຂ້າໂປຣເຊສ %1!"
 
-#: SensorDisplayLib/ProcessController.cc:323
+#: SensorDisplayLib/ProcessController.cc:349
 #, fuzzy, c-format
 msgid "Insufficient permissions to kill process %1."
 msgstr "ສິດບໍ່ພງງພໍ ທີ່ຈະຂ້າໂປຣເຊສ %1 !"
 
-#: SensorDisplayLib/ProcessController.cc:328
-#: SensorDisplayLib/ProcessController.cc:363
+#: SensorDisplayLib/ProcessController.cc:354
+#: SensorDisplayLib/ProcessController.cc:389
 #, fuzzy
 msgid "Process %1 has already disappeared."
 msgstr "ບໍ່ປະກົດໂປຣເຊສ %1 ຮງບຮ້ອຍແລ້ວ !"
 
-#: SensorDisplayLib/ProcessController.cc:332
+#: SensorDisplayLib/ProcessController.cc:358
 #, fuzzy
 msgid "Invalid Signal."
 msgstr "ສັນຍານໃຊ້ບໍ່ໄດ້ !"
 
-#: SensorDisplayLib/ProcessController.cc:353
+#: SensorDisplayLib/ProcessController.cc:379
 #, fuzzy, c-format
 msgid "Error while attempting to renice process %1."
 msgstr "ເກີດຂໍ້ຜິດພາດ ຂະນະກຳລັງກຳນົດຄວາມສຳຄັນໂປຣເຊສ %1!"
 
-#: SensorDisplayLib/ProcessController.cc:358
+#: SensorDisplayLib/ProcessController.cc:384
 #, fuzzy, c-format
 msgid "Insufficient permissions to renice process %1."
 msgstr "ສິດບໍ່ພງງພໍ ທີ່ຈະກຳນົດຄວາມສຳຄັນໂປຣເຊສ %1 ໃຫມ່ໄດ້ !"
 
-#: SensorDisplayLib/ProcessController.cc:367
+#: SensorDisplayLib/ProcessController.cc:393
 #, fuzzy
 msgid "Invalid argument."
 msgstr "ອາກຣູເມນຕ໌ບໍ່ຖືກຕ້ອງ !"
