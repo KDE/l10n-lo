@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2007-01-14 02:48+0100\n"
+"POT-Creation-Date: 2007-01-19 02:48+0100\n"
 "PO-Revision-Date: 2003-01-18 15:52+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -3369,7 +3369,7 @@ msgstr "ຕົວຂີດກ້ອງ:"
 msgid "&Position:"
 msgstr "ຕຳແໜ່ງ"
 
-#: kofficecore/KoDocument.cpp:1400 kofficecore/KoDocument.cpp:1642
+#: kofficecore/KoDocument.cpp:1411 kofficecore/KoDocument.cpp:1653
 #: kofficecore/KoMainWindow.cpp:546 kofficeui/KoTemplateChooseDia.cpp:87
 #: kofficeui/KoTemplateChooseDia.cpp:709
 #, fuzzy
@@ -4534,7 +4534,7 @@ msgstr "dotplus"
 msgid " plus "
 msgstr "ຖັນ"
 
-#: kofficecore/KoDocument.cpp:1615 kofficecore/KoOasisStore.cpp:148
+#: kofficecore/KoDocument.cpp:1626 kofficecore/KoOasisStore.cpp:148
 #, fuzzy, c-format
 msgid "Could not find %1"
 msgstr "ບໍ່ສາມາດຄົ້ນຫາໂມດູນ %1 ໄດ້"
@@ -4749,44 +4749,44 @@ msgstr "ບໍ່ພົບຕົວຈັດການສຳຫລັບ %1"
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:392
+#: kofficecore/KoDocument.cpp:398
 msgid "Making backup..."
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:406
+#: kofficecore/KoDocument.cpp:412
 #, fuzzy
 msgid "Saving..."
 msgstr "ระยะห่างระหว่างบรรทัด"
 
-#: kofficecore/KoDocument.cpp:538
+#: kofficecore/KoDocument.cpp:544
 msgid "Autosaving..."
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:550
+#: kofficecore/KoDocument.cpp:556
 msgid "Error during autosave! Partition full?"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:990
+#: kofficecore/KoDocument.cpp:996
 #, fuzzy
 msgid "Could not create the file for saving"
 msgstr "ບໍ່ສາມາດເປີດແຟ້ມເພື່ອເຮັດການບັນທືກໄດ້"
 
-#: kofficecore/KoDocument.cpp:1028 kofficecore/KoDocument.cpp:1044
-#: kofficecore/KoDocument.cpp:1083
+#: kofficecore/KoDocument.cpp:1034 kofficecore/KoDocument.cpp:1050
+#: kofficecore/KoDocument.cpp:1089
 #, fuzzy
 msgid "Not able to write '%1'. Partition full?"
 msgstr "ບໍ່ສາມາດຂຽນ maindoc.xml ໄດ້"
 
-#: kofficecore/KoDocument.cpp:1036 kofficecore/KoDocument.cpp:1052
+#: kofficecore/KoDocument.cpp:1042 kofficecore/KoDocument.cpp:1058
 #, fuzzy
 msgid "Error while trying to write '%1'. Partition full?"
 msgstr "ບໍ່ສາມາດຂຽນ maindoc.xml ໄດ້"
 
-#: kofficecore/KoDocument.cpp:1065
+#: kofficecore/KoDocument.cpp:1071
 msgid "Error while saving embedded documents"
 msgstr "ເກີດຂໍ້ຜິດພາດລະຫວ່າງການບັນທຶກເອກະສານທີ່ຝັງຢູ່"
 
-#: kofficecore/KoDocument.cpp:1288
+#: kofficecore/KoDocument.cpp:1299
 msgid ""
 "An autosaved file for an unnamed document exists in %1.\n"
 "This file is dated %2\n"
@@ -4796,7 +4796,7 @@ msgstr ""
 "ແຟ້ມນີ້ລົງວັນທີ %2\n"
 "ທ່ານຕ້ອງການເປີດມັນຫລືບໍ່ ?"
 
-#: kofficecore/KoDocument.cpp:1341
+#: kofficecore/KoDocument.cpp:1352
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -4805,7 +4805,7 @@ msgstr ""
 "ຮູບແບບ URL\n"
 "%1 ບໍ່ຖືກຕ້ອງ"
 
-#: kofficecore/KoDocument.cpp:1359
+#: kofficecore/KoDocument.cpp:1370
 msgid ""
 "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
@@ -4813,60 +4813,60 @@ msgstr ""
 "່ມີແຟ້ມທີ່ຖືກບັນທຶກອັດຕະໂນມັດຂອງເອກະສານນີ້ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການເປີດມັນແທນແມ່ນຫລືບໍ່ ?"
 
-#: kofficecore/KoDocument.cpp:1460
+#: kofficecore/KoDocument.cpp:1471
 #, fuzzy
 msgid "Creation error"
 msgstr "ເຮັດຄຳໃຫ້ສົມບູນ"
 
-#: kofficecore/KoDocument.cpp:1463
+#: kofficecore/KoDocument.cpp:1474
 #, fuzzy
 msgid "File not found"
 msgstr "ຜິດພາດ: ບໍ່ພົບແຟ້ມ"
 
-#: kofficecore/KoDocument.cpp:1466
+#: kofficecore/KoDocument.cpp:1477
 msgid "Cannot create storage"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:1469
+#: kofficecore/KoDocument.cpp:1480
 msgid "Bad MIME type"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:1472
+#: kofficecore/KoDocument.cpp:1483
 #, fuzzy
 msgid "Error in embedded document"
 msgstr "ເກີດຂໍ້ຜິດພາດລະຫວ່າງການບັນທຶກເອກະສານທີ່ຝັງຢູ່"
 
-#: kofficecore/KoDocument.cpp:1475
+#: kofficecore/KoDocument.cpp:1486
 msgid "Format not recognized"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:1478
+#: kofficecore/KoDocument.cpp:1489
 #, fuzzy
 msgid "Not implemented"
 msgstr "ຄຳອະທິບາຍ"
 
-#: kofficecore/KoDocument.cpp:1481
+#: kofficecore/KoDocument.cpp:1492
 msgid "Parsing error"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:1484
+#: kofficecore/KoDocument.cpp:1495
 msgid "Document is password protected"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:1491
+#: kofficecore/KoDocument.cpp:1502
 #, fuzzy
 msgid "Internal error"
 msgstr "ອິນເຕີເນັຕ"
 
-#: kofficecore/KoDocument.cpp:1494
+#: kofficecore/KoDocument.cpp:1505
 msgid "Out of memory"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:1501
+#: kofficecore/KoDocument.cpp:1512
 msgid "Unknown error"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:1506
+#: kofficecore/KoDocument.cpp:1517
 #, fuzzy
 msgid ""
 "Could not open\n"
@@ -4876,47 +4876,47 @@ msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້\n"
 "ເນື່ອງຈາກ: %2"
 
-#: kofficecore/KoDocument.cpp:1627
+#: kofficecore/KoDocument.cpp:1638
 #, fuzzy
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, ຖັນ %2"
 
-#: kofficecore/KoDocument.cpp:1647
+#: kofficecore/KoDocument.cpp:1658
 #, fuzzy
 msgid "%1 is not a file."
 msgstr "%1 ບໍ່ແມ່ນການເຊື່ອມໂຍງທີຖືກຕ້ອງ"
 
-#: kofficecore/KoDocument.cpp:1663
+#: kofficecore/KoDocument.cpp:1674
 #, fuzzy
 msgid "Could not open the file for reading (check read permissions)."
 msgstr "ບໍ່ສາມາດເປີດແຟ້ມສຳຫລັບທຳການອ່ານໄດ້ (ກະລຸນາກວດສອບສິດການອ່ານ)"
 
-#: kofficecore/KoDocument.cpp:1673 kofficecore/KoDocument.cpp:1687
-#: kofficecore/KoDocument.cpp:1696
+#: kofficecore/KoDocument.cpp:1684 kofficecore/KoDocument.cpp:1698
+#: kofficecore/KoDocument.cpp:1707
 #, fuzzy
 msgid "Could not read the beginning of the file."
 msgstr "ບໍ່ສາມາດອ່ານຕອນຕົ້ນຂອງແຟ້ມໄດ້"
 
-#: kofficecore/KoDocument.cpp:1724
+#: kofficecore/KoDocument.cpp:1735
 #, fuzzy
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr "ການກະຈາຍຄຳຜິດພາດທີແຖວ %1, ຖັນ %2"
 
-#: kofficecore/KoDocument.cpp:1748
+#: kofficecore/KoDocument.cpp:1759
 #, fuzzy, c-format
 msgid "Not a valid KOffice file: %1"
 msgstr "ບໍ່ແມ່ນແຟ້ມຂອງ KOffice ທີ່ຖືກຕ້ອງ"
 
-#: kofficecore/KoDocument.cpp:1794
+#: kofficecore/KoDocument.cpp:1805
 #, fuzzy
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "ເອກະສານບໍ່ຖືກຕ້ອງ: ບໍ່ມີແຟ້ມ 'maindoc.xml'"
 
-#: kofficecore/KoDocument.cpp:1994 kofficecore/KoMainWindow.cpp:1033
+#: kofficecore/KoDocument.cpp:2005 kofficecore/KoMainWindow.cpp:1033
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p>"
 "<p>Do you want to save it?</p>"
@@ -4924,11 +4924,11 @@ msgstr ""
 "<p>ເອກະສານ <b>'%1'</b> ມີການປ່ຽນແປງ</p>"
 "<p>ທ່ານຕ້ອງການບັນທຶກມັນກ່ອນຫລືບໍ່ ?</p>"
 
-#: kofficecore/KoDocument.cpp:2171
+#: kofficecore/KoDocument.cpp:2182
 msgid "Internal error: saveXML not implemented"
 msgstr "ໍຂໍ້ຜິດພາດພາຍໃນ: ຍັງບໍ່ມີການກຳນົດ saveXML"
 
-#: kofficecore/KoDocument.cpp:2356
+#: kofficecore/KoDocument.cpp:2367
 #, c-format
 msgid ""
 "Could not save\n"
@@ -4937,7 +4937,7 @@ msgstr ""
 "ບໍ່ສາມາດບັນທຶກ\n"
 "%1 ໄດ້"
 
-#: kofficecore/KoDocument.cpp:2360
+#: kofficecore/KoDocument.cpp:2371
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
@@ -4945,7 +4945,7 @@ msgstr ""
 "ບໍ່ສາມາດບັນທຶກ %1 ໄດ້\n"
 "ເນຶ່ອງຈາກ: %2"
 
-#: kofficecore/KoDocument.cpp:2368
+#: kofficecore/KoDocument.cpp:2379
 #, c-format
 msgid ""
 "Could not open\n"
@@ -4954,7 +4954,7 @@ msgstr ""
 "ບໍ່ສາມາດເປີດ\n"
 "%1 ໄດ້"
 
-#: kofficecore/KoDocument.cpp:2372
+#: kofficecore/KoDocument.cpp:2383
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
@@ -4962,31 +4962,31 @@ msgstr ""
 "ບໍ່ສາມາດເປີດແຟ້ມ %1 ໄດ້\n"
 "ເນື່ອງຈາກ: %2"
 
-#: kofficecore/KoDocument.cpp:2489
+#: kofficecore/KoDocument.cpp:2500
 msgid "a word processing"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:2490
+#: kofficecore/KoDocument.cpp:2501
 msgid "a spreadsheet"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:2491
+#: kofficecore/KoDocument.cpp:2502
 #, fuzzy
 msgid "a presentation"
 msgstr ""
 "\n"
 "แนวกระดาษ:"
 
-#: kofficecore/KoDocument.cpp:2492
+#: kofficecore/KoDocument.cpp:2503
 msgid "a chart"
 msgstr ""
 
-#: kofficecore/KoDocument.cpp:2493
+#: kofficecore/KoDocument.cpp:2504
 #, fuzzy
 msgid "a drawing"
 msgstr "ສົ້ມທຶບ"
 
-#: kofficecore/KoDocument.cpp:2646
+#: kofficecore/KoDocument.cpp:2657
 #, fuzzy
 msgid "Embedding Object"
 msgstr "ບໍ່ສາມາດໂຫລດວັດຖຸຸທີ່ຝັງຢູ່ໄດ້"
