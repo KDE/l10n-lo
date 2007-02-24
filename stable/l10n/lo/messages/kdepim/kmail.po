@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2007-02-16 02:44+0100\n"
+"POT-Creation-Date: 2007-02-24 02:44+0100\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -1955,15 +1955,15 @@ msgstr "&ສົ່ງຕໍ່:"
 msgid "&Quote indicator:"
 msgstr "&ຕົວສະແດງເຖີ່ງສ່ວນທີ່ອ້າງ້ຖີ່ງ:"
 
-#: configuredialog.cpp:2873 kmmessage.cpp:3852
+#: configuredialog.cpp:2873 kmmessage.cpp:3838
 msgid "On %D, you wrote:"
 msgstr "ເມື່ອວັນທີ่ %D ທ່ານໄດ້ສົ່ງຂໍ້ຄວາມ:"
 
-#: configuredialog.cpp:2874 kmmessage.cpp:3854
+#: configuredialog.cpp:2874 kmmessage.cpp:3840
 msgid "On %D, %F wrote:"
 msgstr "ເມື່ອ %D, %F ໄດ້ສົ່ງຂໍ້ຄວາມ: "
 
-#: configuredialog.cpp:2875 kmmessage.cpp:3856
+#: configuredialog.cpp:2875 kmmessage.cpp:3842
 msgid "Forwarded Message"
 msgstr "ສົ່ງຕໍ່ຂໍ້ຄວາມແລ້ວ"
 
@@ -2265,7 +2265,7 @@ msgstr "ຂໍ້ຄວາມປະກາດສະຖານະ"
 msgid "Send policy:"
 msgstr "ສົ່ງເລຍ"
 
-#: configuredialog.cpp:3676 kmmessage.cpp:1341 kmmessage.cpp:1348
+#: configuredialog.cpp:3676 kmmessage.cpp:1327 kmmessage.cpp:1334
 msgid "&Ignore"
 msgstr "&ລະເລຍ"
 
@@ -3031,7 +3031,7 @@ msgid ""
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: filterlogdlg.cpp:262 kmcommands.cpp:2629 kmcommands.cpp:2649
+#: filterlogdlg.cpp:262 kmcommands.cpp:2627 kmcommands.cpp:2647
 #: kmmainwidget.cpp:1719 kmmainwidget.cpp:1736 urlhandlermanager.cpp:438
 msgid "KMail Error"
 msgstr "ຂໍິຜິດພາດຂອງ Kmail"
@@ -3197,7 +3197,7 @@ msgstr ""
 msgid "Select Folder"
 msgstr "ສ້າງໂຟເດີ"
 
-#: folderrequester.cpp:95 kmcommands.cpp:1780 kmfoldermgr.cpp:39
+#: folderrequester.cpp:95 kmcommands.cpp:1779 kmfoldermgr.cpp:39
 #: kmfoldertree.cpp:531
 msgid "Local Folders"
 msgstr "ໂຟເດີ"
@@ -4395,23 +4395,23 @@ msgstr ""
 "ມີແຟ້ມ %1 ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການແທນທີ່ມັນຫລືບໍ่່ ?"
 
-#: kmcommands.cpp:627 kmcommands.cpp:917 kmkernel.cpp:1933
+#: kmcommands.cpp:627 kmcommands.cpp:916 kmkernel.cpp:1933
 msgid "Save to File"
 msgstr "ບັນທືກແຟ້ມ"
 
-#: kmcommands.cpp:627 kmcommands.cpp:917 kmkernel.cpp:1933
+#: kmcommands.cpp:627 kmcommands.cpp:916 kmkernel.cpp:1933
 msgid "&Replace"
 msgstr "ແທນ&ທີ"
 
-#: kmcommands.cpp:721
+#: kmcommands.cpp:720
 msgid "Message as Plain Text"
 msgstr "ຈົດໝາຍເປັນຂໍ້ຄວາມທຳມະດາ"
 
-#: kmcommands.cpp:860
+#: kmcommands.cpp:859
 msgid "The message was removed while saving it. It has not been saved."
 msgstr ""
 
-#: kmcommands.cpp:916 kmkernel.cpp:1932
+#: kmcommands.cpp:915 kmkernel.cpp:1932
 msgid ""
 "File %1 exists.\n"
 "Do you want to replace it?"
@@ -4419,21 +4419,21 @@ msgstr ""
 "ມີແຟ້ມ %1 ຢູ່ແລ້ວ\n"
 "ທ່ານຕ້ອງການແທນທີ່ມັນຫລືບໍ่່ ?"
 
-#: kmcommands.cpp:960
+#: kmcommands.cpp:959
 #, fuzzy
 msgid "Open Message"
 msgstr "ຈົດໝາຍ"
 
-#: kmcommands.cpp:998 kmcommands.cpp:1026
+#: kmcommands.cpp:997 kmcommands.cpp:1025
 #, fuzzy
 msgid "The file does not contain a message."
 msgstr "ຈົດໝາຍເກົ່າທີ່ໝົດອາຍຸ"
 
-#: kmcommands.cpp:1044
+#: kmcommands.cpp:1043
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr ""
 
-#: kmcommands.cpp:1327
+#: kmcommands.cpp:1326
 #, fuzzy
 msgid ""
 "\n"
@@ -4449,93 +4449,93 @@ msgstr ""
 "\n"
 "--\n"
 
-#: kmcommands.cpp:1646 kmheaders.cpp:1367
+#: kmcommands.cpp:1645 kmheaders.cpp:1367
 #, fuzzy
 msgid "Filtering messages"
 msgstr "ລືບຈົດໝາຍ"
 
-#: kmcommands.cpp:1654 kmheaders.cpp:1373
+#: kmcommands.cpp:1653 kmheaders.cpp:1373
 #, fuzzy
 msgid "Filtering message %1 of %2"
 msgstr "ກຳລັງຍ້າຍຈົດໝາຍ %3 ຂອງ %2 ຈາກ%1"
 
-#: kmcommands.cpp:1664
+#: kmcommands.cpp:1663
 #, fuzzy
 msgid "Not enough free disk space?"
 msgstr "ພື້ນທີ່ບົນດິສມີບໍ່ພຽງພໍ"
 
-#: kmcommands.cpp:1830 kmfoldertree.cpp:1823
+#: kmcommands.cpp:1829 kmfoldertree.cpp:1823
 #, fuzzy
 msgid "Move to This Folder"
 msgstr "ຍ້າຍໄປຍັງໂຟເດີນີ້"
 
-#: kmcommands.cpp:1832 kmfoldertree.cpp:1825
+#: kmcommands.cpp:1831 kmfoldertree.cpp:1825
 #, fuzzy
 msgid "Copy to This Folder"
 msgstr "ສຳເນົາໄປຍັງໂຟເດີນີ້"
 
-#: kmcommands.cpp:2056
+#: kmcommands.cpp:2054
 #, fuzzy
 msgid "Moving messages"
 msgstr "ย้ายจดหมาย"
 
-#: kmcommands.cpp:2056
+#: kmcommands.cpp:2054
 #, fuzzy
 msgid "Deleting messages"
 msgstr "ລືບຈົດໝາຍ"
 
-#: kmcommands.cpp:2329
+#: kmcommands.cpp:2327
 msgid "Opening URL..."
 msgstr "ກຳລັງເປີດ URL..."
 
-#: kmcommands.cpp:2336
+#: kmcommands.cpp:2334
 #, fuzzy
 msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgstr ""
 "<qt>ທ່ານຕ້ອງການລືບລາຍການາະແດງຕົວ\n"
 "<b>\"%1\"</b> ຈີງຫລືບໍ่ ?</qt>"
 
-#: kmcommands.cpp:2337
+#: kmcommands.cpp:2335
 #, fuzzy
 msgid "Execute"
 msgstr "ປະມວນຜົນຄຳສັ່ງ"
 
-#: kmcommands.cpp:2418
+#: kmcommands.cpp:2416
 #, fuzzy
 msgid "Found no attachments to save."
 msgstr "ບໍ່ສະແດງສິ່ງທີ່ແນບມາດ້ວຍໃນແຖວເນື້ອຫາກເປັນໄປໄດ້"
 
-#: kmcommands.cpp:2431
+#: kmcommands.cpp:2429
 #, fuzzy
 msgid "Save Attachments To"
 msgstr "ສະແດງສິ່ງທີ່ແນບມາດ້ວຍແບບເບີ່ງງ່າຍ"
 
-#: kmcommands.cpp:2451
+#: kmcommands.cpp:2449
 msgid ""
 "_: filename for an unnamed attachment\n"
 "attachment.1"
 msgstr ""
 
-#: kmcommands.cpp:2479
+#: kmcommands.cpp:2477
 msgid ""
 "_: filename for the %1-th unnamed attachment\n"
 "attachment.%1"
 msgstr ""
 
-#: kmcommands.cpp:2518
+#: kmcommands.cpp:2516
 #, fuzzy
 msgid "A file named %1 already exists. Do you want to overwrite it?"
 msgstr "ມີແຟ້ມຊື່ນີ້ຢູ່ແລ້ວທ່ານຕ້ອງການຂຽນທັບມັນຫລືບໍ່ ?"
 
-#: kmcommands.cpp:2520
+#: kmcommands.cpp:2518
 msgid "File Already Exists"
 msgstr ""
 
-#: kmcommands.cpp:2520 kmcommands.cpp:3171
+#: kmcommands.cpp:2518 kmcommands.cpp:3169
 msgid "&Overwrite"
 msgstr ""
 
-#: kmcommands.cpp:2542
+#: kmcommands.cpp:2540
 #, fuzzy
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
@@ -4544,21 +4544,21 @@ msgstr ""
 "ສ່ວນນີ້ຂອງຂໍ້ຄວາມຖືກເຂົ້າລະຫັດໄວ້ທ່ານຕ້ອງການຮັກ "
 "ສາການເຂົ້າລະຫັດນີ້ເມື່ອມີການບັນທືກຫລືບໍ່? "
 
-#: kmcommands.cpp:2544 kmcommands.cpp:2553
+#: kmcommands.cpp:2542 kmcommands.cpp:2551
 msgid "KMail Question"
 msgstr "ຄຳຖາມຂອງKMail"
 
-#: kmcommands.cpp:2544
+#: kmcommands.cpp:2542
 #, fuzzy
 msgid "Keep Encryption"
 msgstr "ການເຂົ້າລະຫັດ"
 
-#: kmcommands.cpp:2544 kmcommands.cpp:2553
+#: kmcommands.cpp:2542 kmcommands.cpp:2551
 #, fuzzy
 msgid "Do Not Keep"
 msgstr "&ບໍ່ເຂົ້າລະຫັດຂໍ້ມູນ"
 
-#: kmcommands.cpp:2551
+#: kmcommands.cpp:2549
 #, fuzzy
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
@@ -4566,96 +4566,96 @@ msgid ""
 msgstr ""
 "ສ່ວນນີ້ຂອງຈົດໝາຍມີການເຊັນໄວ້ ທ່ານຕ້ອງການຮັບສາລາຍເຊັ່ນໄວ້ເມື່ອມີການບັນທືກຫລືບໍ່?"
 
-#: kmcommands.cpp:2553
+#: kmcommands.cpp:2551
 #, fuzzy
 msgid "Keep Signature"
 msgstr "ລາຍເຊັ່ນ"
 
-#: kmcommands.cpp:2626
+#: kmcommands.cpp:2624
 msgid ""
 "_: %2 is detailed error description\n"
 "Could not write the file %1:\n"
 "%2"
 msgstr ""
 
-#: kmcommands.cpp:2647
+#: kmcommands.cpp:2645
 #, fuzzy, c-format
 msgid "Could not write the file %1."
 msgstr "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມໄ້້ດ້"
 
-#: kmcommands.cpp:2865
+#: kmcommands.cpp:2863
 msgid ""
 "There is no Address Book entry for this email address. Add them to the Address "
 "Book and then add instant messaging addresses using your preferred messaging "
 "client."
 msgstr ""
 
-#: kmcommands.cpp:2868
+#: kmcommands.cpp:2866
 msgid ""
 "More than one Address Book entry uses this email address:\n"
 " %1\n"
 " it is not possible to determine who to chat with."
 msgstr ""
 
-#: kmcommands.cpp:3092 kmcomposewin.cpp:4762 objecttreeparser.cpp:1604
+#: kmcommands.cpp:3090 kmcomposewin.cpp:4762 objecttreeparser.cpp:1604
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please report "
 "this bug."
 msgstr ""
 
-#: kmcommands.cpp:3094 kmcommands.cpp:3099 kmcommands.cpp:3108
-#: kmcommands.cpp:3117 kmcommands.cpp:3135 kmcommands.cpp:3146
-#: kmcommands.cpp:3203 kmcomposewin.cpp:4764 kmcomposewin.cpp:4769
+#: kmcommands.cpp:3092 kmcommands.cpp:3097 kmcommands.cpp:3106
+#: kmcommands.cpp:3115 kmcommands.cpp:3133 kmcommands.cpp:3144
+#: kmcommands.cpp:3201 kmcomposewin.cpp:4764 kmcomposewin.cpp:4769
 #: kmcomposewin.cpp:4778 messagecomposer.cpp:539 messagecomposer.cpp:547
 #: messagecomposer.cpp:561 objecttreeparser.cpp:1610
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcommands.cpp:3105 kmcomposewin.cpp:4775 objecttreeparser.cpp:1616
+#: kmcommands.cpp:3103 kmcomposewin.cpp:4775 objecttreeparser.cpp:1616
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" function "
 "did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcommands.cpp:3114 kmcomposewin.cpp:4784 objecttreeparser.cpp:1624
+#: kmcommands.cpp:3112 kmcomposewin.cpp:4784 objecttreeparser.cpp:1624
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in the "
 "Chiasmus configuration."
 msgstr ""
 
-#: kmcommands.cpp:3121 objecttreeparser.cpp:1631
+#: kmcommands.cpp:3119 objecttreeparser.cpp:1631
 #, fuzzy
 msgid "Chiasmus Decryption Key Selection"
 msgstr "ປັບແຕ່ງການເຂົ້າລະຫັດ"
 
-#: kmcommands.cpp:3133 objecttreeparser.cpp:1643
+#: kmcommands.cpp:3131 objecttreeparser.cpp:1643
 msgid ""
 "Chiasmus backend does not offer the \"x-decrypt\" function. Please report this "
 "bug."
 msgstr ""
 
-#: kmcommands.cpp:3144 objecttreeparser.cpp:1651
+#: kmcommands.cpp:3142 objecttreeparser.cpp:1651
 msgid ""
 "The \"x-decrypt\" function does not accept the expected parameters. Please "
 "report this bug."
 msgstr ""
 
-#: kmcommands.cpp:3152 kmcommands.cpp:3195 objecttreeparser.cpp:1657
+#: kmcommands.cpp:3150 kmcommands.cpp:3193 objecttreeparser.cpp:1657
 msgid "Chiasmus Decryption Error"
 msgstr ""
 
-#: kmcommands.cpp:3168
+#: kmcommands.cpp:3166
 #, fuzzy
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "ມີແຟ້ມຊື່ນີ້ຢູ່ແລ້ວທ່ານຕ້ອງການຂຽນທັບມັນຫລືບໍ່ ?"
 
-#: kmcommands.cpp:3170
+#: kmcommands.cpp:3168
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "ແຊກແຟ້ມ..."
 
-#: kmcommands.cpp:3200 objecttreeparser.cpp:1663
+#: kmcommands.cpp:3198 objecttreeparser.cpp:1663
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-decrypt\" function did "
 "not return a byte array. Please report this bug."
@@ -5531,184 +5531,184 @@ msgstr ""
 " ໃນການກຕອງ''%2''\n"
 "ເຮັດຕໍ່ໄປໂດຍບໍ່ຕ້ອງສັນໃຈມັນ"
 
-#: kmfilteraction.cpp:579
+#: kmfilteraction.cpp:580
 #, fuzzy
 msgid "Confirm Delivery"
 msgstr "ยืนยันการรับส่ง"
 
-#: kmfilteraction.cpp:615
+#: kmfilteraction.cpp:616
 #, fuzzy
 msgid "Set Transport To"
 msgstr "ຕັ້ງຄ່າການຮັບສົ່ງຂໍ້ມູນໄປທີ່"
 
-#: kmfilteraction.cpp:646
+#: kmfilteraction.cpp:647
 #, fuzzy
 msgid "Set Reply-To To"
 msgstr "ຕັ້ງການຕອບກັບເປັນ"
 
-#: kmfilteraction.cpp:682
+#: kmfilteraction.cpp:683
 #, fuzzy
 msgid "Set Identity To"
 msgstr "ຕັ້ງການສະແດງຕົວເປັນ"
 
-#: kmfilteraction.cpp:765
+#: kmfilteraction.cpp:766
 #, fuzzy
 msgid "Mark As"
 msgstr "ທຳເຄື່ອງໝາຍເປັນ"
 
-#: kmfilteraction.cpp:770
+#: kmfilteraction.cpp:771
 msgid ""
 "_: msg status\n"
 "Important"
 msgstr "ສຳຄັນ"
 
-#: kmfilteraction.cpp:771
+#: kmfilteraction.cpp:772
 msgid ""
 "_: msg status\n"
 "Read"
 msgstr "ອ່ານ"
 
-#: kmfilteraction.cpp:772
+#: kmfilteraction.cpp:773
 msgid ""
 "_: msg status\n"
 "Unread"
 msgstr "ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmfilteraction.cpp:773
+#: kmfilteraction.cpp:774
 msgid ""
 "_: msg status\n"
 "Replied"
 msgstr "ຕອບກັບແລ້ວ"
 
-#: kmfilteraction.cpp:774
+#: kmfilteraction.cpp:775
 msgid ""
 "_: msg status\n"
 "Forwarded"
 msgstr "ສົ່ງຕໍ່ແລ້ວ"
 
-#: kmfilteraction.cpp:775
+#: kmfilteraction.cpp:776
 msgid ""
 "_: msg status\n"
 "Old"
 msgstr "ເກົ່າ"
 
-#: kmfilteraction.cpp:776
+#: kmfilteraction.cpp:777
 msgid ""
 "_: msg status\n"
 "New"
 msgstr "ໃຫມ່"
 
-#: kmfilteraction.cpp:777
+#: kmfilteraction.cpp:778
 #, fuzzy
 msgid ""
 "_: msg status\n"
 "Watched"
 msgstr "ອ່ານ"
 
-#: kmfilteraction.cpp:778
+#: kmfilteraction.cpp:779
 #, fuzzy
 msgid ""
 "_: msg status\n"
 "Ignored"
 msgstr "ຍັງບໍ່ໄດ້ອ່ານ"
 
-#: kmfilteraction.cpp:779
+#: kmfilteraction.cpp:780
 #, fuzzy
 msgid ""
 "_: msg status\n"
 "Spam"
 msgstr "ອ່ານ"
 
-#: kmfilteraction.cpp:780
+#: kmfilteraction.cpp:781
 #, fuzzy
 msgid ""
 "_: msg status\n"
 "Ham"
 msgstr "ອ່ານ"
 
-#: kmfilteraction.cpp:864
+#: kmfilteraction.cpp:865
 #, fuzzy
 msgid "Send Fake MDN"
 msgstr "ສົງ MDN ປອມ"
 
-#: kmfilteraction.cpp:869
+#: kmfilteraction.cpp:870
 msgid ""
 "_: MDN type\n"
 "Ignore"
 msgstr "ບໍ່ສົນໃຈ"
 
-#: kmfilteraction.cpp:870
+#: kmfilteraction.cpp:871
 msgid ""
 "_: MDN type\n"
 "Displayed"
 msgstr "ສະແດງຜົນ"
 
-#: kmfilteraction.cpp:871
+#: kmfilteraction.cpp:872
 msgid ""
 "_: MDN type\n"
 "Deleted"
 msgstr "ືລືບ"
 
-#: kmfilteraction.cpp:872
+#: kmfilteraction.cpp:873
 msgid ""
 "_: MDN type\n"
 "Dispatched"
 msgstr "ສົ່ງອອກໄປ"
 
-#: kmfilteraction.cpp:873
+#: kmfilteraction.cpp:874
 msgid ""
 "_: MDN type\n"
 "Processed"
 msgstr "ຂະບວນການ"
 
-#: kmfilteraction.cpp:874
+#: kmfilteraction.cpp:875
 msgid ""
 "_: MDN type\n"
 "Denied"
 msgstr "ປະຕິເສດ"
 
-#: kmfilteraction.cpp:875
+#: kmfilteraction.cpp:876
 msgid ""
 "_: MDN type\n"
 "Failed"
 msgstr "ຜິດພາດ"
 
-#: kmfilteraction.cpp:944
+#: kmfilteraction.cpp:945
 #, fuzzy
 msgid "Remove Header"
 msgstr "ເອາົຫົວຈົດໝາຍອອກ"
 
-#: kmfilteraction.cpp:1017
+#: kmfilteraction.cpp:1018
 #, fuzzy
 msgid "Add Header"
 msgstr "ເພີ່ມຫວົຈົດໝາຍ"
 
-#: kmfilteraction.cpp:1044
+#: kmfilteraction.cpp:1045
 #, fuzzy
 msgid "With value:"
 msgstr "ດ້ວຍຄ່າ"
 
-#: kmfilteraction.cpp:1158
+#: kmfilteraction.cpp:1159
 #, fuzzy
 msgid "Rewrite Header"
 msgstr "ຂຽນຫົວຈົດໝາຍໃຫມ່"
 
-#: kmfilteraction.cpp:1194
+#: kmfilteraction.cpp:1195
 #, fuzzy
 msgid "Replace:"
 msgstr "ແທນ&ທີ"
 
-#: kmfilteraction.cpp:1201
+#: kmfilteraction.cpp:1202
 #, fuzzy
 msgid "With:"
 msgstr "ດ້ວຍ"
 
-#: kmfilteraction.cpp:1321
+#: kmfilteraction.cpp:1322
 #, fuzzy
 msgid "Move Into Folder"
 msgstr "ຍ້າຍໄປຍັງໂຟເດີນີ້"
 
-#: kmfilteraction.cpp:1371
+#: kmfilteraction.cpp:1372
 #, fuzzy
 msgid "Copy Into Folder"
 msgstr "ສຳເນົາໄປຍັງໂຟເດີນີ້"
@@ -8096,7 +8096,7 @@ msgstr "ເປີດໂປຣແກຣມເມລໃຫມ່ອີກ&ຫນ�
 msgid " Initializing..."
 msgstr "ກຳລັງເລີ່ມການທຳງານ..."
 
-#: kmmessage.cpp:1296
+#: kmmessage.cpp:1282
 #, fuzzy
 msgid ""
 "This message contains a request to return a notification about your reception "
@@ -8109,7 +8109,7 @@ msgstr ""
 "ແຕ່ບໍ່ຮູ້ໄປທີ່Kmailອັນໃດ.ທ່ານສາມາດບໍ່ຮັບຮູ້ການຂໍຫລືຍອມໃຫ້ສົ່ງKmailໄດ້ເຊັ່ນກັນ\"ປ"
 "ະຖິ້ມ\"ການຕອບຮັບ."
 
-#: kmmessage.cpp:1301
+#: kmmessage.cpp:1287
 #, fuzzy
 msgid ""
 "This message contains a request to send a notification about your reception of "
@@ -8123,7 +8123,7 @@ msgstr ""
 "ແຕ່ບໍ່ຮູ້ໄປທີ່Kmailອັນໃດ.\n"
 "ທ່ານສາມາດບໍ່ຮັບຮູ້ການຂໍຫລືຍອມໃຫ້ສົ່ງKmailໄດ້ເຊັ່ນກັນ\"ປະຖິ້ມ \"ການຕອບຮັບ."
 
-#: kmmessage.cpp:1308
+#: kmmessage.cpp:1294
 #, fuzzy
 msgid ""
 "This message contains a request to send a notification about your reception of "
@@ -8137,7 +8137,7 @@ msgstr ""
 "ທ່ານສາມາດບໍ່ຮັບຮູ້ການຂໍຫລືຍອມໃຫ້ສົ່ງKmailໄດ້ເຊັ່ນກັນ\"ປະຕິເສດ\"ຫລືການຕອບຮັບທົ່ວຯ"
 "ໄປ."
 
-#: kmmessage.cpp:1315
+#: kmmessage.cpp:1301
 #, fuzzy
 msgid ""
 "This message contains a request to send a notification about your reception of "
@@ -8150,7 +8150,7 @@ msgstr ""
 "ຕ່າງຈາກທີ່ຢູ່ໃນແຈ້ງທີ່ຂໍສົ່ງໄປທ່ານສາມາດບໍ່ຮັບຮູ້ການຂໍ ຫລືຍອມໃຫ້ສົ່ງ KMail "
 "\"ປະຕິເສດ\" ຫລື ການຕອບ ຮັບທົ່ວໄປ"
 
-#: kmmessage.cpp:1321
+#: kmmessage.cpp:1307
 #, fuzzy
 msgid ""
 "This message contains a request to send a notification about your reception of "
@@ -8164,29 +8164,29 @@ msgstr ""
 "ກັບຂອງທີ່ແຕກຕ່າງຈາກທີ່ຢູ່ໃບແຈ້ງທີ່ຂໍສົ່ງໄປທ່ານສາມາດ ບໍ່ຮັບຮູ້ການຂໍຫລືຍອມໃຫ້ສ່ົງ "
 "KMail ໄດ້ເຊັ່ນກັນ ຫລືການຕອບຮັບທົ່ົວໄປ"
 
-#: kmmessage.cpp:1339 kmmessage.cpp:1346
+#: kmmessage.cpp:1325 kmmessage.cpp:1332
 msgid "Message Disposition Notification Request"
 msgstr "ໃບແຈ້ງຂໍໃຈສາມຈົດໝາຍ"
 
-#: kmmessage.cpp:1341
+#: kmmessage.cpp:1327
 msgid "Send \"&denied\""
 msgstr "ສົ່ງ\"&ທີ່ຢູ່ໃນຄິດ\""
 
-#: kmmessage.cpp:1341 kmmessage.cpp:1348
+#: kmmessage.cpp:1327 kmmessage.cpp:1334
 msgid "&Send"
 msgstr "&ສົ່ງ"
 
-#: kmmessage.cpp:1416
+#: kmmessage.cpp:1402
 msgid ""
 "Header \"Disposition-Notification-Options\" contained required, but unknown "
 "parameter"
 msgstr "ສ່ວນເທີ່ງ\"ໃຈຄວາມຂອງການເລືອກໃບແຈ້ງ\"ຈຳເປັນ ຕອ້ງມີແຕ່ບໍ່ຮູ້"
 
-#: kmmessage.cpp:1593
+#: kmmessage.cpp:1579
 msgid "Receipt: "
 msgstr "ຜູ້ຮັບ: "
 
-#: kmmessage.cpp:3023 urlhandlermanager.cpp:500
+#: kmmessage.cpp:3009 urlhandlermanager.cpp:500
 #, fuzzy, c-format
 msgid "Attachment: %1"
 msgstr "ສິ່ງທີ່ແນບມາດ້ວຍ: "
