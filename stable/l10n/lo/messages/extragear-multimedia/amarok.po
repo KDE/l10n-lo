@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2007-03-06 02:50+0100\n"
+"POT-Creation-Date: 2007-03-08 02:22+0100\n"
 "PO-Revision-Date: 2004-10-04 01:54+0900\n"
 "Last-Translator: Park J. K. <segfault@byus.net>\n"
 "Language-Team:  Korean\n"
@@ -23,11 +23,11 @@ msgstr "태그 쓰는 중..."
 #: database_refactor/collectiondb.cpp:1120
 #: mediadevice/generic/genericmediadevice.cpp:557
 #: mediadevice/generic/genericmediadeviceconfigdialog.ui.h:163
-#: mediadevice/ipod/ipodmediadevice.cpp:1496
-#: mediadevice/ipod/ipodmediadevice.cpp:1506
-#: mediadevice/ipod/ipodmediadevice.cpp:1869
-#: mediadevice/ipod/ipodmediadevice.cpp:1921
-#: mediadevice/mtp/mtpmediadevice.cpp:554 metabundle.cpp:624
+#: mediadevice/ipod/ipodmediadevice.cpp:1504
+#: mediadevice/ipod/ipodmediadevice.cpp:1514
+#: mediadevice/ipod/ipodmediadevice.cpp:1877
+#: mediadevice/ipod/ipodmediadevice.cpp:1929
+#: mediadevice/mtp/mtpmediadevice.cpp:554 metabundle.cpp:623
 #: organizecollectiondialog.ui.h:20 statistics.cpp:465
 msgid "Various Artists"
 msgstr "여러 아티스트들"
@@ -226,7 +226,7 @@ msgstr "재생목록에 더하기"
 
 #: mediadevice/generic/genericmediadevice.cpp:969
 #: mediadevice/ifp/ifpmediadevice.cpp:656
-#: mediadevice/ipod/ipodmediadevice.cpp:2165
+#: mediadevice/ipod/ipodmediadevice.cpp:2173
 #: mediadevice/mtp/mtpmediadevice.cpp:1298 playlistbrowser.cpp:178
 msgid "Rename"
 msgstr "이름 바꾸기"
@@ -373,7 +373,7 @@ msgstr "즐겨 듣는 트랙들"
 msgid "Dynamic Playlists"
 msgstr "재생목록 만들기(&M)"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1267 playlistbrowser.cpp:1117
+#: mediadevice/ipod/ipodmediadevice.cpp:1275 playlistbrowser.cpp:1117
 #: playlistbrowser.cpp:1140
 msgid "Podcasts"
 msgstr ""
@@ -422,7 +422,7 @@ msgid ""
 "<p>You have selected %n podcast episodes to be <b>irreversibly</b> deleted. "
 msgstr "<p>당신은 %1을(를) <b>복원 굴가능</b>하게 지웠습니다."
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1262
+#: mediadevice/ipod/ipodmediadevice.cpp:1270
 #: mediadevice/mtp/mtpmediadevice.cpp:1153 playlistbrowser.cpp:1608
 #: playlistbrowser.cpp:1615 playlistbrowser.cpp:1619 playlistbrowser.cpp:2552
 #: playlistwindow.cpp:464
@@ -640,7 +640,7 @@ msgstr "찾기"
 #: collectionbrowser.cpp:206 collectionbrowser.cpp:207
 #: collectionbrowser.cpp:2749 collectionbrowser.cpp:2752
 #: collectionbrowser.cpp:2784 contextbrowser.cpp:958 editfilterdialog.cpp:117
-#: mediadevice/ifp/ifpmediadevice.cpp:401 metabundle.cpp:134
+#: mediadevice/ifp/ifpmediadevice.cpp:401 metabundle.cpp:133
 #: playlistbrowseritem.cpp:3101 playlistbrowseritem.cpp:3333 rc.cpp:45
 #: smartplaylisteditor.cpp:160 smartplaylisteditor.cpp:174
 #: transferdialog.cpp:78
@@ -652,45 +652,45 @@ msgstr "음반"
 #: collectionbrowser.cpp:204 collectionbrowser.cpp:206
 #: collectionbrowser.cpp:2755 collectionbrowser.cpp:2783
 #: contextbrowser.cpp:298 contextbrowser.cpp:950 editfilterdialog.cpp:119
-#: metabundle.cpp:130 playlistbrowseritem.cpp:3081
+#: metabundle.cpp:129 playlistbrowseritem.cpp:3081
 #: playlistbrowseritem.cpp:3329 rc.cpp:42 smartplaylisteditor.cpp:160
 #: smartplaylisteditor.cpp:174 transferdialog.cpp:77
 #, no-c-format
 msgid "Artist"
 msgstr "아티스트"
 
-#: collectionbrowser.cpp:2800 editfilterdialog.cpp:121 metabundle.cpp:143
+#: collectionbrowser.cpp:2800 editfilterdialog.cpp:121 metabundle.cpp:142
 #: smartplaylisteditor.cpp:164 tagdialog.cpp:675
 msgid "Bitrate"
 msgstr "비트레이트"
 
-#: collectionbrowser.cpp:2802 editfilterdialog.cpp:123 metabundle.cpp:137
+#: collectionbrowser.cpp:2802 editfilterdialog.cpp:123 metabundle.cpp:136
 #: smartplaylisteditor.cpp:164
 msgid "BPM"
 msgstr ""
 
-#: collectionbrowser.cpp:2791 editfilterdialog.cpp:125 metabundle.cpp:139
+#: collectionbrowser.cpp:2791 editfilterdialog.cpp:125 metabundle.cpp:138
 #: smartplaylisteditor.cpp:161
 msgid "Comment"
 msgstr "설명"
 
 #: collectionbrowser.cpp:2758 collectionbrowser.cpp:2792
-#: editfilterdialog.cpp:127 metabundle.cpp:132 playlistbrowseritem.cpp:3091
+#: editfilterdialog.cpp:127 metabundle.cpp:131 playlistbrowseritem.cpp:3091
 #: playlistbrowseritem.cpp:3331 smartplaylisteditor.cpp:160
 #: smartplaylisteditor.cpp:174
 msgid "Composer"
 msgstr ""
 
-#: editfilterdialog.cpp:129 metabundle.cpp:140
+#: editfilterdialog.cpp:129 metabundle.cpp:139
 msgid "Directory"
 msgstr "디렉토리"
 
-#: collectionbrowser.cpp:2788 editfilterdialog.cpp:131 metabundle.cpp:135
+#: collectionbrowser.cpp:2788 editfilterdialog.cpp:131 metabundle.cpp:134
 #, fuzzy
 msgid "Disc Number"
 msgstr "~일 앞임"
 
-#: collectionbrowser.cpp:2796 editfilterdialog.cpp:133 metabundle.cpp:128
+#: collectionbrowser.cpp:2796 editfilterdialog.cpp:133 metabundle.cpp:127
 #, fuzzy
 msgid "Filename"
 msgstr "파일 이름"
@@ -706,13 +706,13 @@ msgid "Filetype"
 msgstr "파일 이름"
 
 #: collectionbrowser.cpp:2762 collectionbrowser.cpp:2785
-#: editfilterdialog.cpp:139 metabundle.cpp:138 playlistbrowseritem.cpp:3071
+#: editfilterdialog.cpp:139 metabundle.cpp:137 playlistbrowseritem.cpp:3071
 #: playlistbrowseritem.cpp:3327 smartplaylisteditor.cpp:160
 #: smartplaylisteditor.cpp:174 transferdialog.cpp:79
 msgid "Genre"
 msgstr "장르"
 
-#: collectionbrowser.cpp:2787 editfilterdialog.cpp:141 metabundle.cpp:142
+#: collectionbrowser.cpp:2787 editfilterdialog.cpp:141 metabundle.cpp:141
 #: playlistbrowseritem.cpp:856 smartplaylisteditor.cpp:160 tagdialog.cpp:674
 msgid "Length"
 msgstr "길이"
@@ -728,35 +728,35 @@ msgstr ""
 msgid "Lyrics"
 msgstr ""
 
-#: editfilterdialog.cpp:147 metabundle.cpp:147
+#: editfilterdialog.cpp:147 metabundle.cpp:146
 #, fuzzy
 msgid "Play Count"
 msgstr "다른 열들"
 
-#: collectionbrowser.cpp:2795 editfilterdialog.cpp:151 metabundle.cpp:146
+#: collectionbrowser.cpp:2795 editfilterdialog.cpp:151 metabundle.cpp:145
 #: smartplaylisteditor.cpp:162 tagdialog.cpp:684
 #, fuzzy
 msgid "Rating"
 msgstr "남은 시간"
 
-#: editfilterdialog.cpp:154 metabundle.cpp:144
+#: editfilterdialog.cpp:154 metabundle.cpp:143
 #, fuzzy
 msgid "Sample Rate"
 msgstr "샘플링레이트"
 
-#: collectionbrowser.cpp:2794 editfilterdialog.cpp:158 metabundle.cpp:145
+#: collectionbrowser.cpp:2794 editfilterdialog.cpp:158 metabundle.cpp:144
 #: scriptmanager.cpp:162 scriptmanager.cpp:811 smartplaylisteditor.cpp:162
 #: tagdialog.cpp:682
 msgid "Score"
 msgstr "점수"
 
-#: collectionbrowser.cpp:2801 editfilterdialog.cpp:161 metabundle.cpp:150
+#: collectionbrowser.cpp:2801 editfilterdialog.cpp:161 metabundle.cpp:149
 #, fuzzy
 msgid "File Size"
 msgstr "파일 이름"
 
 #. i18n: file ./trackpickerdialogbase.ui line 92
-#: collectionbrowser.cpp:2786 editfilterdialog.cpp:163 metabundle.cpp:129
+#: collectionbrowser.cpp:2786 editfilterdialog.cpp:163 metabundle.cpp:128
 #: rc.cpp:39 smartplaylisteditor.cpp:160
 #, no-c-format
 msgid "Title"
@@ -764,7 +764,7 @@ msgstr "제목"
 
 #. i18n: file ./trackpickerdialogbase.ui line 125
 #: collectionbrowser.cpp:2789 contextbrowser.cpp:936 editfilterdialog.cpp:165
-#: metabundle.cpp:136 rc.cpp:48
+#: metabundle.cpp:135 rc.cpp:48
 #, no-c-format
 msgid "Track"
 msgstr "트랙"
@@ -772,7 +772,7 @@ msgstr "트랙"
 #. i18n: file ./trackpickerdialogbase.ui line 136
 #: collectionbrowser.cpp:206 collectionbrowser.cpp:2752
 #: collectionbrowser.cpp:2766 collectionbrowser.cpp:2790
-#: editfilterdialog.cpp:167 metabundle.cpp:133 playlistbrowseritem.cpp:3111
+#: editfilterdialog.cpp:167 metabundle.cpp:132 playlistbrowseritem.cpp:3111
 #: playlistbrowseritem.cpp:3335 rc.cpp:51 smartplaylisteditor.cpp:161
 #: smartplaylisteditor.cpp:174 smartplaylisteditor.cpp:894
 #, no-c-format
@@ -987,7 +987,7 @@ msgstr "amaroK가 xine를 초기화하지 못했습니다."
 msgid "No MP3 Support"
 msgstr ""
 
-#: enginecontroller.cpp:371 playlist.cpp:1605
+#: enginecontroller.cpp:371 playlist.cpp:1606
 #, fuzzy
 msgid "Local file does not exist."
 msgstr "이 파일은 존재하지 않습니다"
@@ -1318,7 +1318,7 @@ msgid "Abort"
 msgstr "취소"
 
 #: contextbrowser.cpp:2904 contextbrowser.cpp:3404 covermanager.cpp:279
-#: covermanager.cpp:926 metabundle.cpp:1052 playlistbrowseritem.cpp:1064
+#: covermanager.cpp:926 metabundle.cpp:1051 playlistbrowseritem.cpp:1064
 #: playlistwindow.cpp:859 queuemanager.cpp:376 queuemanager.cpp:419
 #: queuemanager.cpp:437 queuemanager.cpp:481
 msgid "%1 - %2"
@@ -1434,9 +1434,9 @@ msgstr "%n장을 받았습니다"
 #: collectionbrowser.cpp:3964 collectionbrowser.cpp:4285
 #: collectionbrowser.cpp:4495 collectionbrowser.cpp:4496
 #: collectionbrowser.cpp:4679 collectionbrowser.cpp:4680 covermanager.cpp:814
-#: mediadevice/ipod/ipodmediadevice.cpp:1527
-#: mediadevice/ipod/ipodmediadevice.cpp:1872
-#: mediadevice/ipod/ipodmediadevice.cpp:1924 osd.cpp:692
+#: mediadevice/ipod/ipodmediadevice.cpp:1535
+#: mediadevice/ipod/ipodmediadevice.cpp:1880
+#: mediadevice/ipod/ipodmediadevice.cpp:1932 osd.cpp:692
 msgid " - "
 msgstr ""
 
@@ -1734,7 +1734,7 @@ msgstr ""
 #: collectionbrowser.cpp:1429 contextbrowser.cpp:926 contextbrowser.cpp:937
 #: filebrowser.cpp:170 mediadevice/daap/daapclient.cpp:259
 #: mediadevice/generic/genericmediadevice.cpp:958
-#: mediadevice/ipod/ipodmediadevice.cpp:2081 playlistbrowseritem.cpp:876
+#: mediadevice/ipod/ipodmediadevice.cpp:2089 playlistbrowseritem.cpp:876
 #: playlistbrowseritem.cpp:1083 playlistbrowseritem.cpp:1289
 #: playlistbrowseritem.cpp:1481 playlistbrowseritem.cpp:2297
 #: playlistbrowseritem.cpp:2817 playlistbrowseritem.cpp:3386
@@ -1745,7 +1745,7 @@ msgstr "열기(&L)"
 #: contextbrowser.cpp:938 filebrowser.cpp:171
 #: mediadevice/daap/daapclient.cpp:260
 #: mediadevice/generic/genericmediadevice.cpp:959
-#: mediadevice/ipod/ipodmediadevice.cpp:2082 playlistbrowseritem.cpp:877
+#: mediadevice/ipod/ipodmediadevice.cpp:2090 playlistbrowseritem.cpp:877
 #: playlistbrowseritem.cpp:1084 playlistbrowseritem.cpp:1290
 #: playlistbrowseritem.cpp:2298 playlistbrowseritem.cpp:2818
 #: playlistbrowseritem.cpp:3387 statistics.cpp:643
@@ -1753,7 +1753,7 @@ msgid "&Append to Playlist"
 msgstr "재생목록에 합치기(&A)"
 
 #: app.cpp:996 collectionbrowser.cpp:1431 contextbrowser.cpp:939
-#: filebrowser.cpp:172 playlist.cpp:3789 playlistbrowseritem.cpp:1085
+#: filebrowser.cpp:172 playlist.cpp:3799 playlistbrowseritem.cpp:1085
 #: playlistbrowseritem.cpp:2819 statistics.cpp:644
 #, fuzzy
 msgid "&Queue Track"
@@ -1762,7 +1762,7 @@ msgstr "트랙 반복(&T)"
 #: collectionbrowser.cpp:1432 filebrowser.cpp:173
 #: mediadevice/daap/daapclient.cpp:261
 #: mediadevice/generic/genericmediadevice.cpp:960
-#: mediadevice/ipod/ipodmediadevice.cpp:2083 playlistbrowseritem.cpp:878
+#: mediadevice/ipod/ipodmediadevice.cpp:2091 playlistbrowseritem.cpp:878
 #: playlistbrowseritem.cpp:1291 playlistbrowseritem.cpp:2299
 #: playlistbrowseritem.cpp:3388
 #, fuzzy
@@ -1801,7 +1801,7 @@ msgstr "이 음반 레코딩하기"
 msgid "B&urn to CD"
 msgstr "이 음반을 데이터 형식으로 레코딩하기"
 
-#: collectionbrowser.cpp:1469 playlist.cpp:3841
+#: collectionbrowser.cpp:1469 playlist.cpp:3851
 #, c-format
 msgid ""
 "_n: &Organize File...\n"
@@ -1815,7 +1815,7 @@ msgid ""
 "&Delete %n Files..."
 msgstr "선택한 파일 지우기(&D)"
 
-#: collectionbrowser.cpp:1471 playlist.cpp:3849
+#: collectionbrowser.cpp:1471 playlist.cpp:3859
 #, fuzzy
 msgid "Manage &Files"
 msgstr "재생목록"
@@ -1835,7 +1835,7 @@ msgstr "여러 아티스트들"
 msgid "&Do not Show under Various Artists"
 msgstr "여러 아티스트들"
 
-#: collectionbrowser.cpp:1494 playlist.cpp:3866
+#: collectionbrowser.cpp:1494 playlist.cpp:3876
 #, c-format
 msgid ""
 "_n: Edit Track &Information...\n"
@@ -1913,7 +1913,7 @@ msgstr ""
 
 #: collectionbrowser.cpp:1960 filebrowser.cpp:479
 #: mediadevice/daap/daapclient.cpp:855
-#: mediadevice/ipod/ipodmediadevice.cpp:2219
+#: mediadevice/ipod/ipodmediadevice.cpp:2227
 #, fuzzy
 msgid "Copy Files To Collection"
 msgstr "모음집 설정"
@@ -2486,11 +2486,11 @@ msgstr ""
 msgid "File on device, but not in device database"
 msgstr ""
 
-#: mediabrowser.cpp:1192 playlist.cpp:4661
+#: mediabrowser.cpp:1192 playlist.cpp:4671
 msgid "Remote Media"
 msgstr ""
 
-#: mediabrowser.cpp:1433 mediadevice/ipod/ipodmediadevice.cpp:2266
+#: mediabrowser.cpp:1433 mediadevice/ipod/ipodmediadevice.cpp:2274
 #: mediadevice/mtp/mtpmediadevice.cpp:1313
 #, fuzzy
 msgid "New Playlist"
@@ -3407,7 +3407,7 @@ msgstr ""
 msgid "Media Device"
 msgstr "장치:"
 
-#: playlist.cpp:3714 playlistwindow.cpp:1209
+#: playlist.cpp:3724 playlistwindow.cpp:1209
 msgid "Repopulate"
 msgstr ""
 
@@ -3705,13 +3705,13 @@ msgstr ""
 
 #: filebrowser.cpp:182 mediadevice/daap/daapclient.cpp:263
 #: mediadevice/generic/genericmediadevice.cpp:962
-#: mediadevice/ipod/ipodmediadevice.cpp:2087
+#: mediadevice/ipod/ipodmediadevice.cpp:2095
 #: mediadevice/mtp/mtpmediadevice.cpp:1293
 #, fuzzy
 msgid "&Copy Files to Collection..."
 msgstr "모음집을 구성하는 중입니다..."
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2130
+#: mediadevice/ipod/ipodmediadevice.cpp:2138
 #: mediadevice/mtp/mtpmediadevice.cpp:1294
 #, fuzzy
 msgid "Make Media Device Playlist"
@@ -3886,199 +3886,199 @@ msgstr " "
 msgid "Setting iPod model to %1 GB %2 (x%3)"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:633
+#: mediadevice/ipod/ipodmediadevice.cpp:635
 msgid "Media Device: Creating directory for file %1 failed"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:673
+#: mediadevice/ipod/ipodmediadevice.cpp:675
 msgid "Flushing iPod filesystem transfer cache"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:936
+#: mediadevice/ipod/ipodmediadevice.cpp:938
 msgid "Media Device: iPod mounted at %1 already locked. "
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:937
+#: mediadevice/ipod/ipodmediadevice.cpp:939
 msgid ""
 "If you are sure that this is an error, then remove the file %1 and try again."
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:942
+#: mediadevice/ipod/ipodmediadevice.cpp:944
 msgid "Remove iTunes Lock File?"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:946
+#: mediadevice/ipod/ipodmediadevice.cpp:948
 msgid "Media Device: removing lockfile %1 failed: %2. "
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:960
+#: mediadevice/ipod/ipodmediadevice.cpp:962
 msgid "Media Device: failed to create lockfile on iPod mounted at %1: %2"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:982
+#: mediadevice/ipod/ipodmediadevice.cpp:984
 #: mediadevice/riokarma/riokarmamediadevice.cpp:291
 msgid "Media device: Mount point %1 does not exist"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1032
+#: mediadevice/ipod/ipodmediadevice.cpp:1034
 #, c-format
 msgid "Media Device: Initialized iPod mounted at %1"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1051
+#: mediadevice/ipod/ipodmediadevice.cpp:1053
 msgid "Media Device: iPod at %1 already opened"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1114
+#: mediadevice/ipod/ipodmediadevice.cpp:1116
 msgid "Media Device: No mounted iPod found"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1122
+#: mediadevice/ipod/ipodmediadevice.cpp:1124
 msgid ""
 "Media Device: could not find iTunesDB on device mounted at %1. Should I try to "
 "initialize your iPod?"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1126
+#: mediadevice/ipod/ipodmediadevice.cpp:1128
 msgid "Initialize iPod?"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1127
+#: mediadevice/ipod/ipodmediadevice.cpp:1129
 #, fuzzy
 msgid "&Initialize"
 msgstr "제목"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1138
+#: mediadevice/ipod/ipodmediadevice.cpp:1140
 #, c-format
 msgid "Media Device: Failed to initialize iPod mounted at %1"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1190
-msgid ""
-"iPod type detection failed: no support for iPod Shuffle, for artwork or video"
-msgstr ""
-
-#: mediadevice/ipod/ipodmediadevice.cpp:1220
+#: mediadevice/ipod/ipodmediadevice.cpp:1179
 #, c-format
 msgid "Media device: Failed to create directory %1"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1272
+#: mediadevice/ipod/ipodmediadevice.cpp:1260
+msgid ""
+"iPod type detection failed: no support for iPod Shuffle, for artwork or video"
+msgstr ""
+
+#: mediadevice/ipod/ipodmediadevice.cpp:1280
 msgid "Invisible"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1277
+#: mediadevice/ipod/ipodmediadevice.cpp:1285
 #, fuzzy
 msgid "Stale"
 msgstr "제목"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1282
+#: mediadevice/ipod/ipodmediadevice.cpp:1290
 msgid "Orphaned"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1327
+#: mediadevice/ipod/ipodmediadevice.cpp:1335
 #, c-format
 msgid ""
 "_n: Updated artwork for one track\n"
 "Updated artwork for %n tracks"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1388
+#: mediadevice/ipod/ipodmediadevice.cpp:1396
 msgid "Scanning for stale and orphaned tracks finished"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:1819
+#: mediadevice/ipod/ipodmediadevice.cpp:1827
 msgid "Media device: failed to write iPod database"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2077 playlistbrowseritem.cpp:415
+#: mediadevice/ipod/ipodmediadevice.cpp:2085 playlistbrowseritem.cpp:415
 #, fuzzy
 msgid "Create Playlist..."
 msgstr "현재 재생목록"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2091
+#: mediadevice/ipod/ipodmediadevice.cpp:2099
 msgid "Burn All Tracks by This Artist"
 msgstr "이 아티스트의 모든 트랙 레코딩하기"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2096
+#: mediadevice/ipod/ipodmediadevice.cpp:2104
 msgid "Burn This Album"
 msgstr "이 음반 레코딩하기"
 
 #: mediadevice/generic/genericmediadevice.cpp:963
-#: mediadevice/ipod/ipodmediadevice.cpp:2101
+#: mediadevice/ipod/ipodmediadevice.cpp:2109
 #, fuzzy
 msgid "Burn to CD as Data"
 msgstr "이 음반을 데이터 형식으로 레코딩하기"
 
 #: mediadevice/generic/genericmediadevice.cpp:965
-#: mediadevice/ipod/ipodmediadevice.cpp:2103
+#: mediadevice/ipod/ipodmediadevice.cpp:2111
 #, fuzzy
 msgid "Burn to CD as Audio"
 msgstr "이 음반을 오디오 형식으로 레코딩하기"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2114
+#: mediadevice/ipod/ipodmediadevice.cpp:2122
 msgid "Subscribe to This Podcast"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2142
+#: mediadevice/ipod/ipodmediadevice.cpp:2150
 #, fuzzy
 msgid "Add to Playlist"
 msgstr "재생목록에 더하기"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2153
+#: mediadevice/ipod/ipodmediadevice.cpp:2161
 #, fuzzy, c-format
 msgid ""
 "_n: Edit &Information...\n"
 "Edit &Information for %n Tracks..."
 msgstr "트랙 %n개"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2160
+#: mediadevice/ipod/ipodmediadevice.cpp:2168
 #, fuzzy
 msgid "Add to Database"
 msgstr "모음집을 구성중입니다..."
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2176
+#: mediadevice/ipod/ipodmediadevice.cpp:2184
 #, fuzzy
 msgid "Remove Playlist"
 msgstr "재생목록에서 지우기(&R)"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2176
+#: mediadevice/ipod/ipodmediadevice.cpp:2184
 #, fuzzy
 msgid "Remove from Playlist"
 msgstr "재생목록에서 지우기(&R)"
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2182
+#: mediadevice/ipod/ipodmediadevice.cpp:2190
 msgid "Delete Podcasts Already Played"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2186
+#: mediadevice/ipod/ipodmediadevice.cpp:2194
 #, c-format
 msgid ""
 "_n: Delete Track from iPod\n"
 "Delete %n Tracks from iPod"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2331
+#: mediadevice/ipod/ipodmediadevice.cpp:2339
 #, c-format
 msgid ""
 "_n: One duplicate track not added to database\n"
 "%n duplicate tracks not added to database"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2407
+#: mediadevice/ipod/ipodmediadevice.cpp:2415
 msgid "&Automatically delete podcasts"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2408
+#: mediadevice/ipod/ipodmediadevice.cpp:2416
 msgid ""
 "Automatically delete podcast shows already played when connecting device"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2412
+#: mediadevice/ipod/ipodmediadevice.cpp:2420
 msgid "&Synchronize with Amarok statistics"
 msgstr ""
 
-#: mediadevice/ipod/ipodmediadevice.cpp:2413
+#: mediadevice/ipod/ipodmediadevice.cpp:2421
 msgid "Synchronize with Amarok statistics and submit tracks played to last.fm"
 msgstr ""
 
@@ -6232,147 +6232,147 @@ msgstr ""
 msgid "0%"
 msgstr ""
 
-#: metabundle.cpp:131
+#: metabundle.cpp:130
 #, fuzzy
 msgid "Album Artist"
 msgstr "이 아티스트의 음반들"
 
-#: metabundle.cpp:141 playlistbrowseritem.cpp:2788
+#: metabundle.cpp:140 playlistbrowseritem.cpp:2788
 msgid "Type"
 msgstr ""
 
-#: metabundle.cpp:148
+#: metabundle.cpp:147
 msgid ""
 "_: Column name\n"
 "Last Played"
 msgstr ""
 
-#: metabundle.cpp:149
+#: metabundle.cpp:148
 msgid "Mood"
 msgstr ""
 
-#: metabundle.cpp:826
+#: metabundle.cpp:825
 #, fuzzy
 msgid "Calculating..."
 msgstr "접속중입니다..."
 
-#: metabundle.cpp:827
+#: metabundle.cpp:826
 #, fuzzy
 msgid "Queued..."
 msgstr "섞기(&S)"
 
-#: metabundle.cpp:1068 statusbar/queueLabel.cpp:299
+#: metabundle.cpp:1067 statusbar/queueLabel.cpp:299
 #, fuzzy
 msgid "%1 by %2"
 msgstr " "
 
-#: metabundle.cpp:1129 metabundle.cpp:1162
+#: metabundle.cpp:1128 metabundle.cpp:1161
 msgid "?"
 msgstr ""
 
-#: metabundle.cpp:1131 metabundle.cpp:1164
+#: metabundle.cpp:1130 metabundle.cpp:1163
 msgid "-"
 msgstr ""
 
-#: metabundle.cpp:1147
+#: metabundle.cpp:1146
 #, c-format
 msgid ""
 "_: seconds\n"
 "%1s"
 msgstr ""
 
-#: metabundle.cpp:1148
+#: metabundle.cpp:1147
 #, c-format
 msgid ""
 "_: minutes, seconds\n"
 "%2m %1s"
 msgstr ""
 
-#: metabundle.cpp:1149
+#: metabundle.cpp:1148
 msgid ""
 "_: hours, minutes, seconds\n"
 "%3h %2m %1s"
 msgstr ""
 
-#: metabundle.cpp:1150
+#: metabundle.cpp:1149
 msgid ""
 "_: days, hours, minutes, seconds\n"
 "%4d %3h %2m %1s"
 msgstr ""
 
-#: metabundle.cpp:1204
+#: metabundle.cpp:1203
 #, fuzzy
 msgid ""
 "_n: 1 week %1\n"
 "%n weeks %1"
 msgstr "<u>파일 %n개</u>"
 
-#: metabundle.cpp:1205
+#: metabundle.cpp:1204
 msgid ""
 "_n: 1 day %1\n"
 "%n days %1"
 msgstr ""
 
-#: metabundle.cpp:1206
+#: metabundle.cpp:1205
 #, fuzzy, c-format
 msgid ""
 "_n: 1 hour\n"
 "%n hours"
 msgstr "음반 %n장"
 
-#: metabundle.cpp:1213
+#: metabundle.cpp:1212
 msgid "%1:%2 hours"
 msgstr ""
 
-#: metabundle.cpp:1215
+#: metabundle.cpp:1214
 #, fuzzy
 msgid "%1:%2"
 msgstr " "
 
-#: metabundle.cpp:1250
+#: metabundle.cpp:1249
 msgid "Awful"
 msgstr ""
 
-#: metabundle.cpp:1251
+#: metabundle.cpp:1250
 msgid "Barely tolerable"
 msgstr ""
 
-#: metabundle.cpp:1252
+#: metabundle.cpp:1251
 msgid "Tolerable"
 msgstr ""
 
-#: metabundle.cpp:1253
+#: metabundle.cpp:1252
 msgid "Okay"
 msgstr ""
 
-#: metabundle.cpp:1254
+#: metabundle.cpp:1253
 msgid "Good"
 msgstr ""
 
-#: metabundle.cpp:1255
+#: metabundle.cpp:1254
 msgid "Very good"
 msgstr ""
 
-#: metabundle.cpp:1256
+#: metabundle.cpp:1255
 msgid "Excellent"
 msgstr ""
 
-#: metabundle.cpp:1257
+#: metabundle.cpp:1256
 #, fuzzy
 msgid "Amazing"
 msgstr "남은 시간"
 
-#: metabundle.cpp:1258
+#: metabundle.cpp:1257
 #, fuzzy
 msgid "Favorite"
 msgstr "즐겨 듣는 트랙들"
 
-#: contextbrowser.cpp:3002 metabundle.cpp:1259
+#: contextbrowser.cpp:3002 metabundle.cpp:1258
 #, fuzzy
 msgid "Not rated"
 msgstr "비트레이트"
 
-#: metabundle.cpp:1267
+#: metabundle.cpp:1266
 msgid ""
 "_: rating - description\n"
 "%1 - %2"
@@ -8045,7 +8045,7 @@ msgid "Use custom sink parameters"
 msgstr "사용자 정의 사운드 출력기 매개변수 사용"
 
 #. i18n: file ./organizecollectiondialog.ui line 25
-#: playlist.cpp:4061 rc.cpp:919
+#: playlist.cpp:4071 rc.cpp:919
 #, no-c-format
 msgid "Organize Files"
 msgstr ""
@@ -11925,65 +11925,65 @@ msgid ""
 "if the track has no score."
 msgstr ""
 
-#: playlist.cpp:321
+#: playlist.cpp:322
 #, fuzzy
 msgid ""
 "_: clear playlist\n"
 "&Clear"
 msgstr "재생목록 반복(&P)"
 
-#: playlist.cpp:327
+#: playlist.cpp:328
 msgid "&Repopulate"
 msgstr ""
 
-#: playlist.cpp:328
+#: playlist.cpp:329
 msgid "S&huffle"
 msgstr "섞기(&S)"
 
-#: playlist.cpp:329
+#: playlist.cpp:330
 #, fuzzy
 msgid "&Go To Current Track"
 msgstr "재생중인 트랙"
 
-#: playlist.cpp:330
+#: playlist.cpp:331
 #, fuzzy
 msgid "&Remove Duplicate && Dead Entries"
 msgstr "중복된 항목 지우기"
 
-#: playlist.cpp:331 playlist.cpp:3774 playlist.cpp:3799
+#: playlist.cpp:332 playlist.cpp:3784 playlist.cpp:3809
 #, fuzzy
 msgid "&Queue Selected Tracks"
 msgstr "선택한 트랙"
 
-#: playlist.cpp:332
+#: playlist.cpp:333
 msgid "&Stop Playing After Track"
 msgstr ""
 
-#: playlist.cpp:452
+#: playlist.cpp:453
 msgid "Attempted to insert nothing into playlist."
 msgstr ""
 
-#: playlist.cpp:503
+#: playlist.cpp:504
 #, c-format
 msgid ""
 "_n: One track was already in the playlist, so it was not added.\n"
 "%n tracks were already in the playlist, so they were not added."
 msgstr ""
 
-#: playlist.cpp:1464
+#: playlist.cpp:1465
 msgid "Stop Playing After Track: Off"
 msgstr ""
 
-#: playlist.cpp:1471
+#: playlist.cpp:1472
 msgid "Stop Playing After Track: On"
 msgstr ""
 
-#: playlist.cpp:1596
+#: playlist.cpp:1597
 #, fuzzy
 msgid "Playlist finished"
 msgstr "재생목록 이름:"
 
-#: playlist.cpp:2500
+#: playlist.cpp:2501
 msgid ""
 "<div align=center>"
 "<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
@@ -11991,7 +11991,7 @@ msgid ""
 "double-click</b> them to start playback.</div>"
 msgstr ""
 
-#: playlist.cpp:2508
+#: playlist.cpp:2509
 msgid ""
 "<div align=center>"
 "<h3>The Browsers</h3>The browsers are the source of all your music. The "
@@ -12000,151 +12000,151 @@ msgid ""
 "to access any music on your computer. </div>"
 msgstr ""
 
-#: playlist.cpp:2699
+#: playlist.cpp:2700
 #, c-format
 msgid "&Hide %1"
 msgstr ""
 
-#: playlist.cpp:2709
+#: playlist.cpp:2710
 #, fuzzy
 msgid "&Show Column"
 msgstr "이 열을 숨김"
 
-#: playlist.cpp:2711
+#: playlist.cpp:2712
 msgid "Select &Columns..."
 msgstr ""
 
-#: playlist.cpp:2713
+#: playlist.cpp:2714
 msgid "&Fit to Width"
 msgstr ""
 
-#: playlist.cpp:3472
+#: playlist.cpp:3482
 #, c-format
 msgid "Copied: %1"
 msgstr "복사됨: %1"
 
-#: playlist.cpp:3720
+#: playlist.cpp:3730
 #, fuzzy, c-format
 msgid "L&oad %1"
 msgstr "열기(&L)"
 
-#: playlist.cpp:3768
+#: playlist.cpp:3778
 msgid "&Restart"
 msgstr "재시작(&R)"
 
-#: playlist.cpp:3769
+#: playlist.cpp:3779
 msgid "&Play"
 msgstr "재생(&P)"
 
-#: playlist.cpp:3791 statusbar/queueLabel.cpp:183
+#: playlist.cpp:3801 statusbar/queueLabel.cpp:183
 #, fuzzy
 msgid "&Dequeue Track"
 msgstr "트랙 반복(&T)"
 
-#: playlist.cpp:3794
+#: playlist.cpp:3804
 #, c-format
 msgid ""
 "_n: Toggle &Queue Status (1 track)\n"
 "Toggle &Queue Status (%n tracks)"
 msgstr ""
 
-#: playlist.cpp:3801
+#: playlist.cpp:3811
 #, fuzzy
 msgid "&Dequeue Selected Tracks"
 msgstr "선택한 트랙"
 
-#: playlist.cpp:3822
+#: playlist.cpp:3832
 #, fuzzy
 msgid "&Repeat Track"
 msgstr "트랙 반복(&T)"
 
-#: playlist.cpp:3830
+#: playlist.cpp:3840
 #, fuzzy
 msgid "&Set as Playlist (Crop)"
 msgstr "재생목록 만들기(&M)"
 
-#: playlist.cpp:3831
+#: playlist.cpp:3841
 #, fuzzy
 msgid "S&ave as Playlist..."
 msgstr "재생목록 저장(&S)"
 
-#: playlist.cpp:3834
+#: playlist.cpp:3844
 #, fuzzy
 msgid "Re&move From Playlist"
 msgstr "재생목록에서 지우기(&R)"
 
-#: playlist.cpp:3845
+#: playlist.cpp:3855
 #, c-format
 msgid ""
 "_n: &Copy Track to Collection...\n"
 "&Copy %n Tracks to Collection..."
 msgstr ""
 
-#: playlist.cpp:3846
+#: playlist.cpp:3856
 #, c-format
 msgid ""
 "_n: &Move Track to Collection...\n"
 "&Move %n Tracks to Collection..."
 msgstr ""
 
-#: playlist.cpp:3848
+#: playlist.cpp:3858
 #, fuzzy, c-format
 msgid ""
 "_n: &Delete File...\n"
 "&Delete %n Selected Files..."
 msgstr "선택한 파일 지우기(&D)"
 
-#: playlist.cpp:3852
+#: playlist.cpp:3862
 msgid "&Copy Tags to Clipboard"
 msgstr ""
 
-#: playlist.cpp:3856
+#: playlist.cpp:3866
 #, fuzzy
 msgid "Iteratively Assign Track &Numbers"
 msgstr "반복적으로 트랙 번호 배정(&I)"
 
-#: playlist.cpp:3857
+#: playlist.cpp:3867
 #, fuzzy
 msgid "&Write '%1' for Selected Tracks"
 msgstr "선택한 트랙에 '%1'(으)로 쓰기"
 
-#: playlist.cpp:3861
+#: playlist.cpp:3871
 #, fuzzy
 msgid "&Edit Tag '%1'"
 msgstr "선택한 열의 태그 고치기(&E): '%1'"
 
-#: playlist.cpp:3862
+#: playlist.cpp:3872
 #, fuzzy
 msgid "&Edit '%1' Tag for Selected Tracks"
 msgstr "선택한 트랙에 '%1'(으)로 쓰기"
 
-#: playlist.cpp:3867
+#: playlist.cpp:3877
 #, fuzzy, c-format
 msgid ""
 "_n: Track &Information...\n"
 "&Information for %n Tracks..."
 msgstr "트랙 %n개"
 
-#: playlist.cpp:4061
+#: playlist.cpp:4071
 #, fuzzy
 msgid "Move Tracks to Collection"
 msgstr "모음집"
 
-#: playlist.cpp:4061
+#: playlist.cpp:4071
 #, fuzzy
 msgid "Copy Tracks to Collection"
 msgstr "모음집을 구성하는 중입니다..."
 
-#: playlist.cpp:4659
+#: playlist.cpp:4669
 msgid "CD Audio"
 msgstr ""
 
-#: playlist.cpp:4676
+#: playlist.cpp:4686
 #, fuzzy
 msgid "This file does not exist:"
 msgstr "이 파일은 존재하지 않습니다"
 
-#: playlist.cpp:4714
+#: playlist.cpp:4724
 #, c-format
 msgid ""
 "<p>You can create a custom column that runs a shell command against each item "
@@ -12155,20 +12155,20 @@ msgid ""
 "specify <b>%f</b> it is appended."
 msgstr ""
 
-#: playlist.cpp:4719
+#: playlist.cpp:4729
 msgid "Column &name:"
 msgstr ""
 
-#: playlist.cpp:4720
+#: playlist.cpp:4730
 #, fuzzy
 msgid "&Command:"
 msgstr "주석(&C):"
 
-#: playlist.cpp:4725
+#: playlist.cpp:4735
 msgid "Examples"
 msgstr ""
 
-#: playlist.cpp:4727
+#: playlist.cpp:4737
 #, c-format
 msgid ""
 "file --brief %f\n"
@@ -12177,12 +12177,12 @@ msgid ""
 "dirname %f"
 msgstr ""
 
-#: playlist.cpp:4753
+#: playlist.cpp:4763
 #, fuzzy
 msgid "Add Custom Column"
 msgstr "사용자 정의 표지 더하기"
 
-#: playlist.cpp:4896
+#: playlist.cpp:4906
 #, fuzzy
 msgid "Sorry, the tag for %1 could not be changed."
 msgstr "이 태그를 고칠 수 없습니다."
