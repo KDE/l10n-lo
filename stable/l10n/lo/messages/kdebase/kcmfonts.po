@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-12-15 02:36+0100\n"
+"POT-Creation-Date: 2007-03-23 14:06+0100\n"
 "PO-Revision-Date: 2003-01-11 13:49+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -127,34 +127,47 @@ msgstr "ປັບທຸກໂຕອັກສອນ..."
 msgid "Click to change all fonts"
 msgstr "ຄີ້ລກເພື່ອປ່ງນທຸກໂຕອັກສອນ."
 
-#: fonts.cpp:597
-msgid "Use a&nti-aliasing for fonts"
+#: fonts.cpp:598
+#, fuzzy
+msgid "Use a&nti-aliasing:"
 msgstr "ປັບການສະແດງຜົນຕົວອັກສອນແບບໄຮ້ຊື່ອື່ນ"
 
-#: fonts.cpp:599
+#: fonts.cpp:601
+msgid "Enabled"
+msgstr ""
+
+#: fonts.cpp:602
+msgid "System settings"
+msgstr ""
+
+#: fonts.cpp:603 fonts.cpp:617
+msgid "Disabled"
+msgstr ""
+
+#: fonts.cpp:604
 msgid ""
 "If this option is selected, KDE will smooth the edges of curves in fonts."
 msgstr ""
 "ເລືອກຕົວເລືອກນີ້ເພືອໃຫ້ KDE ສະແດງຜົນຕົວອັກສອນແລະພາບບິດແມພບາງສ່ວນ "
 "ໃນແບບໄຮ້ຊື່ອື່ນ"
 
-#: fonts.cpp:601
+#: fonts.cpp:606
 msgid "Configure..."
 msgstr ""
 
-#: fonts.cpp:608
-msgid "Force fonts DPI"
+#: fonts.cpp:613
+msgid "Force fonts DPI:"
 msgstr ""
 
-#: fonts.cpp:611
+#: fonts.cpp:618
 msgid "96 DPI"
 msgstr ""
 
-#: fonts.cpp:612
+#: fonts.cpp:619
 msgid "120 DPI"
 msgstr ""
 
-#: fonts.cpp:615
+#: fonts.cpp:621
 msgid ""
 "<p>This option forces a specific DPI value for fonts. It may be useful when the "
 "real DPI of the hardware is not detected properly and it is also often misused "
@@ -168,7 +181,7 @@ msgid ""
 "configuration of font hinting should be checked.</p>"
 msgstr ""
 
-#: fonts.cpp:741
+#: fonts.cpp:738
 #, fuzzy
 msgid ""
 "<p>Some changes such as anti-aliasing will only affect newly started "
@@ -177,7 +190,7 @@ msgstr ""
 "ທ່ານເລືອກຕົວເລືອກປັບການສະແດງຜົນແບບໄຮ້ຊື່ອື່ນ\n"
 "ການປ່ງນແປງນີ້ຈະບໍເກີດຂື້ນຈົນກ່ວາທ່ານ ຈະເລີ່ມການທຳງານ KDE ອີກຄັ້ງ"
 
-#: fonts.cpp:742
+#: fonts.cpp:739
 #, fuzzy
 msgid "Font Settings Changed"
 msgstr "ປັບໃຊ້ການສະແດງຜົນແບບໄຮ້ຊື່ອື່ນແລ້ວ"
