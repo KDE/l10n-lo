@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2007-04-06 02:16+0200\n"
+"POT-Creation-Date: 2007-04-07 02:16+0200\n"
 "PO-Revision-Date: 2003-01-26 21:26+0700\n"
 "Last-Translator:  <senglathsamy@kanlao17>\n"
 "Language-Team:  <en@li.org>\n"
@@ -1904,7 +1904,7 @@ msgstr "&ໃຫ້ຖາມຢືນຢັນກ່ອນມີການທຳ�
 msgid "Edit Recent Addresses"
 msgstr "ສະແດງທີ&ຢູ່ລ່າສຸດ"
 
-#: configuredialog.cpp:2631 kmedit.cpp:529
+#: configuredialog.cpp:2631 kmedit.cpp:536
 msgid "External Editor"
 msgstr "ຕົວກວດສອບພາຍນອກ"
 
@@ -2082,14 +2082,14 @@ msgstr ""
 msgid "Enter new key word:"
 msgstr "ຕືມຄຳນຳຫນ້າການຕອບກັບໃຫມ່:"
 
-#: configuredialog.cpp:3472 configuredialog.cpp:3473 kmcomposewin.cpp:2114
-#: kmcomposewin.cpp:2115
+#: configuredialog.cpp:3472 configuredialog.cpp:3473 kmcomposewin.cpp:2104
+#: kmcomposewin.cpp:2105
 #, fuzzy
 msgid "attachment"
 msgstr "ສິ່ງທີ່ແນບມາດ້ວຍ: "
 
-#: configuredialog.cpp:3474 configuredialog.cpp:3475 kmcomposewin.cpp:2116
-#: kmcomposewin.cpp:2117
+#: configuredialog.cpp:3474 configuredialog.cpp:3475 kmcomposewin.cpp:2106
+#: kmcomposewin.cpp:2107
 #, fuzzy
 msgid "attached"
 msgstr "&ຕິດ"
@@ -3627,7 +3627,7 @@ msgstr "ລາຍ&ເຊັ່ນ"
 msgid "&Picture"
 msgstr "ລາຍ&ເຊັ່ນ"
 
-#: identitydialog.cpp:486 identitydialog.cpp:498 kmcomposewin.cpp:3769
+#: identitydialog.cpp:486 identitydialog.cpp:498 kmcomposewin.cpp:3761
 #, fuzzy
 msgid "Invalid Email Address"
 msgstr "ເພີ່ມທີ່ຢູ່ອີເມວລ໌"
@@ -4623,7 +4623,7 @@ msgid ""
 " it is not possible to determine who to chat with."
 msgstr ""
 
-#: kmcommands.cpp:3142 kmcomposewin.cpp:4816 objecttreeparser.cpp:1610
+#: kmcommands.cpp:3142 kmcomposewin.cpp:4808 objecttreeparser.cpp:1610
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please report "
 "this bug."
@@ -4631,19 +4631,19 @@ msgstr ""
 
 #: kmcommands.cpp:3144 kmcommands.cpp:3149 kmcommands.cpp:3158
 #: kmcommands.cpp:3167 kmcommands.cpp:3185 kmcommands.cpp:3196
-#: kmcommands.cpp:3253 kmcomposewin.cpp:4818 kmcomposewin.cpp:4823
-#: kmcomposewin.cpp:4832 messagecomposer.cpp:539 messagecomposer.cpp:547
+#: kmcommands.cpp:3253 kmcomposewin.cpp:4810 kmcomposewin.cpp:4815
+#: kmcomposewin.cpp:4824 messagecomposer.cpp:539 messagecomposer.cpp:547
 #: messagecomposer.cpp:561 objecttreeparser.cpp:1616
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcommands.cpp:3155 kmcomposewin.cpp:4829 objecttreeparser.cpp:1622
+#: kmcommands.cpp:3155 kmcomposewin.cpp:4821 objecttreeparser.cpp:1622
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" function "
 "did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcommands.cpp:3164 kmcomposewin.cpp:4838 objecttreeparser.cpp:1630
+#: kmcommands.cpp:3164 kmcomposewin.cpp:4830 objecttreeparser.cpp:1630
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in the "
 "Chiasmus configuration."
@@ -4704,7 +4704,7 @@ msgstr "ຂະໜາດ"
 msgid "Encoding"
 msgstr "ຊຸດລະຫັດອັກຂະລະ"
 
-#: kmcomposewin.cpp:328 kmcomposewin.cpp:3091
+#: kmcomposewin.cpp:328 kmcomposewin.cpp:3081
 #, fuzzy
 msgid "Compress"
 msgstr "ຂຽນຈົດຫມາຍ"
@@ -4717,88 +4717,79 @@ msgstr "ການເຂົ້າລະຫັດ"
 msgid "Sign"
 msgstr "ເຊັນ"
 
-#: kmcomposewin.cpp:500 kmcomposewin.cpp:3415
+#: kmcomposewin.cpp:502 kmcomposewin.cpp:3409
 #, fuzzy
 msgid "Name of the attachment:"
 msgstr "ສິ່ງທີ່ແນບມາດ້ວຍ: "
 
-#: kmcomposewin.cpp:513
-msgid "Unknown error trying to save image."
-msgstr ""
-
-#: kmcomposewin.cpp:513
-#, fuzzy
-msgid "Attaching Image Failed"
-msgstr "ย้ายจดหมาย"
-
-#: kmcomposewin.cpp:729
+#: kmcomposewin.cpp:719
 #, fuzzy
 msgid ""
 "Autosaving the message as %1 failed.\n"
 "Reason: %2"
 msgstr "ย้ายจดหมาย"
 
-#: kmcomposewin.cpp:733
+#: kmcomposewin.cpp:723
 #, fuzzy
 msgid "Autosaving Failed"
 msgstr "ย้ายจดหมาย"
 
-#: kmcomposewin.cpp:877
+#: kmcomposewin.cpp:867
 msgid "&Identity:"
 msgstr "ກາ&ນສະແດງຕົວ:"
 
-#: kmcomposewin.cpp:881
+#: kmcomposewin.cpp:871
 #, fuzzy
 msgid "&Dictionary:"
 msgstr "&ລາຍລະອຽດ:"
 
-#: kmcomposewin.cpp:885
+#: kmcomposewin.cpp:875
 #, fuzzy
 msgid "&Sent-Mail folder:"
 msgstr "ໂຟເດີຈົ&ດໝາຍທີ່ົສົ່ງແລ້ວ:"
 
-#: kmcomposewin.cpp:889
+#: kmcomposewin.cpp:879
 #, fuzzy
 msgid "&Mail transport:"
 msgstr "ເຄືອ&ງມືສົ່ງຈົດໝາຍ:"
 
-#: kmcomposewin.cpp:893
+#: kmcomposewin.cpp:883
 msgid ""
 "_: sender address field\n"
 "&From:"
 msgstr ""
 
-#: kmcomposewin.cpp:899
+#: kmcomposewin.cpp:889
 msgid "&Reply to:"
 msgstr "&ຕອບກັບໄປຍັງ:"
 
-#: kmcomposewin.cpp:907
+#: kmcomposewin.cpp:897
 msgid ""
 "_: recipient address field\n"
 "&To:"
 msgstr ""
 
-#: kmcomposewin.cpp:909
+#: kmcomposewin.cpp:899
 #, fuzzy
 msgid "Primary Recipients"
 msgstr "<ຜຸູ້ຮັບ>"
 
-#: kmcomposewin.cpp:910
+#: kmcomposewin.cpp:900
 msgid ""
 "<qt>The email addresses you put in this field receive a copy of the email.</qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:917
+#: kmcomposewin.cpp:907
 #, fuzzy
 msgid "&Copy to (CC):"
 msgstr "&ສຳເນົາໄປຍັງ"
 
-#: kmcomposewin.cpp:919
+#: kmcomposewin.cpp:909
 #, fuzzy
 msgid "Additional Recipients"
 msgstr "<ຜູ້ຮັບ>"
 
-#: kmcomposewin.cpp:920
+#: kmcomposewin.cpp:910
 msgid ""
 "<qt>The email addresses you put in this field receive a copy of the email. "
 "Technically it is the same thing as putting all the addresses in the <b>To:</b> "
@@ -4806,454 +4797,454 @@ msgid ""
 "(CC) is a listener, not the main recipient.</qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:932
+#: kmcomposewin.cpp:922
 #, fuzzy
 msgid "&Blind copy to (BCC):"
 msgstr "&ສຳເນົາໄປຍັງ"
 
-#: kmcomposewin.cpp:934
+#: kmcomposewin.cpp:924
 #, fuzzy
 msgid "Hidden Recipients"
 msgstr "<ຜູ້ຮັບ>"
 
-#: kmcomposewin.cpp:935
+#: kmcomposewin.cpp:925
 msgid ""
 "<qt>Essentially the same thing as the <b>Copy To:</b> "
 "field but differs in that all other recipients do not see who receives a blind "
 "copy.</qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:967
+#: kmcomposewin.cpp:957
 msgid "S&ubject:"
 msgstr "&ເລື່ອງ:"
 
-#: kmcomposewin.cpp:1104 kmcomposewin.cpp:1126
+#: kmcomposewin.cpp:1094 kmcomposewin.cpp:1116
 #, fuzzy
 msgid "&Send Mail"
 msgstr "&ສົ່ງຈົດໜາຍ "
 
-#: kmcomposewin.cpp:1108 kmcomposewin.cpp:1130
+#: kmcomposewin.cpp:1098 kmcomposewin.cpp:1120
 #, fuzzy
 msgid "&Send Mail Via"
 msgstr "&ສົ່ງຈົດໜາຍ "
 
-#: kmcomposewin.cpp:1111 kmcomposewin.cpp:1120 kmcomposewin.cpp:4074
+#: kmcomposewin.cpp:1101 kmcomposewin.cpp:1110 kmcomposewin.cpp:4066
 #: redirectdialog.cpp:83
 msgid "Send &Later"
 msgstr "&ສົ່ງພາຍຫລັງ"
 
-#: kmcomposewin.cpp:1113 kmcomposewin.cpp:1123
+#: kmcomposewin.cpp:1103 kmcomposewin.cpp:1113
 #, fuzzy
 msgid "Send &Later Via"
 msgstr "&ສົ່ງພາຍຫລັງ"
 
-#: kmcomposewin.cpp:1161
+#: kmcomposewin.cpp:1151
 #, fuzzy
 msgid "Save as &Draft"
 msgstr "&ບັນທືກເປັນສະບັບຮ່າງ"
 
-#: kmcomposewin.cpp:1164
+#: kmcomposewin.cpp:1154
 #, fuzzy
 msgid "Save as &Template"
 msgstr "ແທນ&ທີ"
 
-#: kmcomposewin.cpp:1167
+#: kmcomposewin.cpp:1157
 msgid "&Insert File..."
 msgstr "&ແຊກແຟ້ມ"
 
-#: kmcomposewin.cpp:1170
+#: kmcomposewin.cpp:1160
 #, fuzzy
 msgid "&Insert File Recent"
 msgstr "ແຊກແຟ້ມ..."
 
-#: kmcomposewin.cpp:1177
+#: kmcomposewin.cpp:1167
 msgid "&Address Book"
 msgstr "&ສະມຸດທີ່ຢູ່"
 
-#: kmcomposewin.cpp:1180
+#: kmcomposewin.cpp:1170
 msgid "&New Composer"
 msgstr "&ເຄື່ອງມືຂຽນຈົດໝາຍໃຫມ່"
 
-#: kmcomposewin.cpp:1184
+#: kmcomposewin.cpp:1174
 msgid "New Main &Window"
 msgstr "ເປີດ&ໂປລແກມເມລ ໂປຣແກຣມເມລໃຫມ່ອີກຫນ້າຕ່າງ"
 
-#: kmcomposewin.cpp:1189
+#: kmcomposewin.cpp:1179
 #, fuzzy
 msgid "Select &Recipients..."
 msgstr "<ຜູ້ຮັບ>"
 
-#: kmcomposewin.cpp:1191
+#: kmcomposewin.cpp:1181
 #, fuzzy
 msgid "Save &Distribution List..."
 msgstr "รายการผู้รวบรวมโปรแกรม"
 
-#: kmcomposewin.cpp:1213
+#: kmcomposewin.cpp:1203
 #, fuzzy
 msgid "Pa&ste as Quotation"
 msgstr "&ການແຈ້ງເຕື່ອນເມື່ອມີຈົດຫມາຍໃຫມ່"
 
-#: kmcomposewin.cpp:1216
+#: kmcomposewin.cpp:1206
 #, fuzzy
 msgid "Paste as Attac&hment"
 msgstr "ສິ່ງທີ່ແນບມາດ້ວຍ: "
 
-#: kmcomposewin.cpp:1219
+#: kmcomposewin.cpp:1209
 msgid "Add &Quote Characters"
 msgstr ""
 
-#: kmcomposewin.cpp:1222
+#: kmcomposewin.cpp:1212
 #, fuzzy
 msgid "Re&move Quote Characters"
 msgstr "&ບໍ່ລິການລຶບ"
 
-#: kmcomposewin.cpp:1226
+#: kmcomposewin.cpp:1216
 msgid "Cl&ean Spaces"
 msgstr "&ລືບຊ່ອງຫວ່າງ"
 
 #. i18n: file kmail.kcfg line 260
-#: kmcomposewin.cpp:1229 kmreaderwin.cpp:668 rc.cpp:1274
+#: kmcomposewin.cpp:1219 kmreaderwin.cpp:668 rc.cpp:1274
 #, no-c-format
 msgid "Use Fi&xed Font"
 msgstr "&ໂຕອັກສອນຄວາມກ້ວາງຄົງທີ່"
 
-#: kmcomposewin.cpp:1234
+#: kmcomposewin.cpp:1224
 msgid "&Urgent"
 msgstr "&ຄວາມໄວ."
 
-#: kmcomposewin.cpp:1237
+#: kmcomposewin.cpp:1227
 msgid "&Request Disposition Notification"
 msgstr "&ຮຽກຮ້ອງການຄວບຄຸມໃຫ້ຮັບຮູ້"
 
-#: kmcomposewin.cpp:1242
+#: kmcomposewin.cpp:1232
 msgid "Se&t Encoding"
 msgstr "ຕັ້ງຄ່າ&ຊຸດລະຫັດອັກຂະຫຼະ"
 
-#: kmcomposewin.cpp:1245
+#: kmcomposewin.cpp:1235
 msgid "&Wordwrap"
 msgstr "ລ&ຶບຄໍາ"
 
-#: kmcomposewin.cpp:1251
+#: kmcomposewin.cpp:1241
 #, fuzzy
 msgid "&Automatic Spellchecking"
 msgstr "ການກວດຄຳສະກົດຖືກຕອ້ງຫລື ບໍ່"
 
-#: kmcomposewin.cpp:1261
+#: kmcomposewin.cpp:1251
 #, fuzzy
 msgid "Auto-Detect"
 msgstr "ກວດສອບອັດຕະໂນມັດ"
 
-#: kmcomposewin.cpp:1266
+#: kmcomposewin.cpp:1256
 msgid "Formatting (HTML)"
 msgstr ""
 
-#: kmcomposewin.cpp:1270
+#: kmcomposewin.cpp:1260
 msgid "&All Fields"
 msgstr "ທ&ຸກຊ້ອງຂໍ້ມູນ"
 
-#: kmcomposewin.cpp:1273
+#: kmcomposewin.cpp:1263
 msgid "&Identity"
 msgstr "&ການສະແດງໂຕ"
 
-#: kmcomposewin.cpp:1276
+#: kmcomposewin.cpp:1266
 msgid "&Dictionary"
 msgstr ""
 
-#: kmcomposewin.cpp:1279
+#: kmcomposewin.cpp:1269
 #, fuzzy
 msgid "&Sent-Mail Folder"
 msgstr "&ໂຟເດີຈົດໝາຍທີ່ສົ່ງແລ້ວ"
 
-#: kmcomposewin.cpp:1282
+#: kmcomposewin.cpp:1272
 msgid "&Mail Transport"
 msgstr "&ເຄື່ອງມືສົ່ງຈົດໝາຍ"
 
-#: kmcomposewin.cpp:1285
+#: kmcomposewin.cpp:1275
 msgid "&From"
 msgstr "&ຈາກ"
 
-#: kmcomposewin.cpp:1288
+#: kmcomposewin.cpp:1278
 msgid "&Reply To"
 msgstr "&ຕອບກັບໄປທີ່"
 
-#: kmcomposewin.cpp:1292
+#: kmcomposewin.cpp:1282
 msgid "&To"
 msgstr "&ເຖິງ"
 
-#: kmcomposewin.cpp:1295
+#: kmcomposewin.cpp:1285
 msgid "&CC"
 msgstr "&ເຮັດສໍາເນົາ"
 
-#: kmcomposewin.cpp:1298
+#: kmcomposewin.cpp:1288
 msgid "&BCC"
 msgstr "&ສຳເນົາເພີ່ມ"
 
-#: kmcomposewin.cpp:1302
+#: kmcomposewin.cpp:1292
 #, fuzzy
 msgid "S&ubject"
 msgstr "&ເລື່ອງ:"
 
-#: kmcomposewin.cpp:1307
+#: kmcomposewin.cpp:1297
 msgid "Append S&ignature"
 msgstr "&ພີ່ມລາຍເຊັ່ນຕໍ່ທ້າຍ"
 
-#: kmcomposewin.cpp:1310
+#: kmcomposewin.cpp:1300
 msgid "Attach &Public Key..."
 msgstr "&ແນບກຸນແຈສາທາລະນະ..."
 
-#: kmcomposewin.cpp:1313
+#: kmcomposewin.cpp:1303
 msgid "Attach &My Public Key"
 msgstr "&ແນບກຸນແຈສາທານະຂອງຂ້ອຍ"
 
-#: kmcomposewin.cpp:1316 kmcomposewin.cpp:2154
+#: kmcomposewin.cpp:1306 kmcomposewin.cpp:2144
 msgid "&Attach File..."
 msgstr "&ແນບໄຟ.."
 
-#: kmcomposewin.cpp:1319
+#: kmcomposewin.cpp:1309
 msgid "&Remove Attachment"
 msgstr "&ລືບເອກກະສານທີ່ແນບມາ"
 
-#: kmcomposewin.cpp:1322
+#: kmcomposewin.cpp:1312
 msgid "&Save Attachment As..."
 msgstr "&ບັນທືກເອກະສານທີ່ແນບມາ"
 
-#: kmcomposewin.cpp:1325
+#: kmcomposewin.cpp:1315
 #, fuzzy
 msgid "Attachment Pr&operties"
 msgstr "ຄ&ຸນສົມບັດ"
 
-#: kmcomposewin.cpp:1335
+#: kmcomposewin.cpp:1325
 msgid "&Spellchecker..."
 msgstr "&ກວອຄຳສະກົດ..."
 
-#: kmcomposewin.cpp:1339 kmcomposewin.cpp:1342
+#: kmcomposewin.cpp:1329 kmcomposewin.cpp:1332
 #, fuzzy
 msgid "Encrypt Message with Chiasmus..."
 msgstr "เข้ารหัสจดหมาย"
 
-#: kmcomposewin.cpp:1350
+#: kmcomposewin.cpp:1340
 msgid "&Encrypt Message"
 msgstr "&ເຂົ້າລະຫັດຈົດໝາຍ"
 
-#: kmcomposewin.cpp:1353
+#: kmcomposewin.cpp:1343
 msgid "&Sign Message"
 msgstr " ເຊັນຈົດ&ໝາຍ"
 
-#: kmcomposewin.cpp:1400
+#: kmcomposewin.cpp:1390
 msgid "&Cryptographic Message Format"
 msgstr ""
 
-#: kmcomposewin.cpp:1408 kmcomposewin.cpp:4658
+#: kmcomposewin.cpp:1398 kmcomposewin.cpp:4650
 #, fuzzy
 msgid "Standard"
 msgstr "ສ່ວນ&ຫວົມາດາຕະຖານ"
 
-#: kmcomposewin.cpp:1409 kmcomposewin.cpp:4660
+#: kmcomposewin.cpp:1399 kmcomposewin.cpp:4652
 msgid "Bulleted List (Disc)"
 msgstr ""
 
-#: kmcomposewin.cpp:1410 kmcomposewin.cpp:4662
+#: kmcomposewin.cpp:1400 kmcomposewin.cpp:4654
 msgid "Bulleted List (Circle)"
 msgstr ""
 
-#: kmcomposewin.cpp:1411 kmcomposewin.cpp:4664
+#: kmcomposewin.cpp:1401 kmcomposewin.cpp:4656
 msgid "Bulleted List (Square)"
 msgstr ""
 
-#: kmcomposewin.cpp:1412 kmcomposewin.cpp:4666
+#: kmcomposewin.cpp:1402 kmcomposewin.cpp:4658
 msgid "Ordered List (Decimal)"
 msgstr ""
 
-#: kmcomposewin.cpp:1413 kmcomposewin.cpp:4668
+#: kmcomposewin.cpp:1403 kmcomposewin.cpp:4660
 msgid "Ordered List (Alpha lower)"
 msgstr ""
 
-#: kmcomposewin.cpp:1414 kmcomposewin.cpp:4670
+#: kmcomposewin.cpp:1404 kmcomposewin.cpp:4662
 msgid "Ordered List (Alpha upper)"
 msgstr ""
 
-#: kmcomposewin.cpp:1416
+#: kmcomposewin.cpp:1406
 #, fuzzy
 msgid "Select Style"
 msgstr "เลือกคอลัมน์"
 
-#: kmcomposewin.cpp:1430
+#: kmcomposewin.cpp:1420
 msgid "Align Left"
 msgstr ""
 
-#: kmcomposewin.cpp:1434
+#: kmcomposewin.cpp:1424
 msgid "Align Right"
 msgstr ""
 
-#: kmcomposewin.cpp:1437
+#: kmcomposewin.cpp:1427
 msgid "Align Center"
 msgstr ""
 
-#: kmcomposewin.cpp:1440
+#: kmcomposewin.cpp:1430
 #, fuzzy
 msgid "&Bold"
 msgstr "ໂຟນເດີ້"
 
-#: kmcomposewin.cpp:1443
+#: kmcomposewin.cpp:1433
 msgid "&Italic"
 msgstr ""
 
-#: kmcomposewin.cpp:1446
+#: kmcomposewin.cpp:1436
 #, fuzzy
 msgid "&Underline"
 msgstr "&ຜູ້ສົ່ງ"
 
-#: kmcomposewin.cpp:1449
+#: kmcomposewin.cpp:1439
 #, fuzzy
 msgid "Reset Font Settings"
 msgstr "ตั้งค่าการเข้ารหัส"
 
-#: kmcomposewin.cpp:1452
+#: kmcomposewin.cpp:1442
 msgid "Text Color..."
 msgstr ""
 
-#: kmcomposewin.cpp:1466
+#: kmcomposewin.cpp:1456
 #, fuzzy
 msgid "Configure KMail..."
 msgstr "&ປັບແຕ່ງຕົວກອງ..."
 
-#: kmcomposewin.cpp:1475
+#: kmcomposewin.cpp:1465
 #, fuzzy
 msgid " Spellcheck: %1 "
 msgstr "ເຄືອງມືກວດຄຳສະກົດ"
 
-#: kmcomposewin.cpp:1476 kmcomposewin.cpp:1490
+#: kmcomposewin.cpp:1466 kmcomposewin.cpp:1480
 msgid " Column: %1 "
 msgstr "ຖັນ %1"
 
-#: kmcomposewin.cpp:1477 kmcomposewin.cpp:1488
+#: kmcomposewin.cpp:1467 kmcomposewin.cpp:1478
 msgid " Line: %1 "
 msgstr "ຖັນ %1"
 
-#: kmcomposewin.cpp:2070
+#: kmcomposewin.cpp:2060
 #, fuzzy
 msgid "Re&save as Template"
 msgstr "ແທນ&ທີ"
 
-#: kmcomposewin.cpp:2071
+#: kmcomposewin.cpp:2061
 msgid "&Save as Draft"
 msgstr "&ບັນທືກເປັນສະບັບຮ່າງ"
 
-#: kmcomposewin.cpp:2073
+#: kmcomposewin.cpp:2063
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
 msgstr ""
 
-#: kmcomposewin.cpp:2075
+#: kmcomposewin.cpp:2065
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: kmcomposewin.cpp:2079
+#: kmcomposewin.cpp:2069
 #, fuzzy
 msgid "Do you want to save the message for later or discard it?"
 msgstr "ທ່ານຕ້ອງການຖື້ມການຂຽໜຈົດໝາຍຫລືບັນທືກມັມໄວ້ເພື່ອໃຊ້ທີ່ຫລັງບໍ່ ?"
 
-#: kmcomposewin.cpp:2080
+#: kmcomposewin.cpp:2070
 #, fuzzy
 msgid "Close Composer"
 msgstr "&ເຄື່ອງມືຂຽນຈົດໝາຍໃຫມ່"
 
-#: kmcomposewin.cpp:2150
+#: kmcomposewin.cpp:2140
 msgid ""
 "The message you have composed seems to refer to an attached file but you have "
 "not attached anything.\n"
 "Do you want to attach a file to your message?"
 msgstr ""
 
-#: kmcomposewin.cpp:2153
+#: kmcomposewin.cpp:2143
 #, fuzzy
 msgid "File Attachment Reminder"
 msgstr "ສະແດງທີ່ແນບມາດ້ວຍ:"
 
-#: kmcomposewin.cpp:2155
+#: kmcomposewin.cpp:2145
 #, fuzzy
 msgid "&Send as Is"
 msgstr "ສົ່ງ&ອີກຄັ້ງ"
 
-#: kmcomposewin.cpp:2236
+#: kmcomposewin.cpp:2226
 msgid ""
 "<qt>"
 "<p>KMail could not recognize the location of the attachment (%1);</p>"
 "<p>you have to specify the full path if you wish to attach a file.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2573
+#: kmcomposewin.cpp:2563
 msgid "Attach File"
 msgstr "ແນບແຟ້ມ"
 
 #. i18n: file kmcomposerui.rc line 64
-#: kmcomposewin.cpp:2574 rc.cpp:57
+#: kmcomposewin.cpp:2564 rc.cpp:57
 #, no-c-format
 msgid "&Attach"
 msgstr "&ຕິດ"
 
-#: kmcomposewin.cpp:2727
+#: kmcomposewin.cpp:2717
 msgid "Insert File"
 msgstr "ແຊກແຟ້ມ..."
 
-#: kmcomposewin.cpp:2897
+#: kmcomposewin.cpp:2887
 msgid ""
 "<qt>"
 "<p>An error occurred while trying to export the key from the backend:</p>"
 "<p><b>%1</b></p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2901
+#: kmcomposewin.cpp:2891
 msgid "Key Export Failed"
 msgstr ""
 
-#: kmcomposewin.cpp:2928
+#: kmcomposewin.cpp:2918
 #, fuzzy
 msgid "Exporting key..."
 msgstr "&ການສົ່ງ"
 
-#: kmcomposewin.cpp:2939
+#: kmcomposewin.cpp:2929
 #, c-format
 msgid "OpenPGP key 0x%1"
 msgstr "ກຸນແຈ PGP 0x%1"
 
-#: kmcomposewin.cpp:2954
+#: kmcomposewin.cpp:2944
 msgid "Attach Public OpenPGP Key"
 msgstr "ແນບກຸນແຈສະທາລະນະ"
 
-#: kmcomposewin.cpp:2955
+#: kmcomposewin.cpp:2945
 msgid "Select the public key which should be attached."
 msgstr "ເລືອກກຸນແຈສາທາລະນະທີ່ແນບເຂົ້າໄປດ້ວຍ"
 
-#: kmcomposewin.cpp:2977 kmreaderwin.cpp:1911
+#: kmcomposewin.cpp:2967 kmreaderwin.cpp:1911
 msgid ""
 "_: to open\n"
 "Open"
 msgstr ""
 
-#: kmcomposewin.cpp:2979 kmreaderwin.cpp:1912
+#: kmcomposewin.cpp:2969 kmreaderwin.cpp:1912
 msgid "Open With..."
 msgstr "ເປີດດ້ວ້ຍ:"
 
-#: kmcomposewin.cpp:2981
+#: kmcomposewin.cpp:2971
 msgid ""
 "_: to view\n"
 "View"
 msgstr ""
 
-#: kmcomposewin.cpp:2989
+#: kmcomposewin.cpp:2979
 msgid "Add Attachment..."
 msgstr "ແນບ..."
 
-#: kmcomposewin.cpp:3076 kmcomposewin.cpp:3084
+#: kmcomposewin.cpp:3066 kmcomposewin.cpp:3074
 #, fuzzy
 msgid "KMail could not compress the file."
 msgstr "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມໄ້້ດ້"
 
-#: kmcomposewin.cpp:3090
+#: kmcomposewin.cpp:3080
 #, fuzzy
 msgid ""
 "The compressed file is larger than the original. Do you want to keep the "
@@ -5261,26 +5252,26 @@ msgid ""
 msgstr ""
 "ສ່ວນນີ້ຂອງຈົດໝາຍມີການເຊັນໄວ້ ທ່ານຕ້ອງການຮັບສາລາຍເຊັ່ນໄວ້ເມື່ອມີການບັນທືກຫລືບໍ່?"
 
-#: kmcomposewin.cpp:3091
+#: kmcomposewin.cpp:3081
 #, fuzzy
 msgid "Keep"
 msgstr "&ສຽງອອດ"
 
-#: kmcomposewin.cpp:3157 kmcomposewin.cpp:3165
+#: kmcomposewin.cpp:3147 kmcomposewin.cpp:3155
 #, fuzzy
 msgid "KMail could not uncompress the file."
 msgstr "ບໍ່ສາມາດຂຽນໄປຍັງແຟ້ມໄ້້ດ້"
 
-#: kmcomposewin.cpp:3322
+#: kmcomposewin.cpp:3312
 msgid "Save Attachment As"
 msgstr "ສະແດງສິ່ງທີ່ແນບມາດ້ວຍແບບເບີ່ງງ່າຍ"
 
-#: kmcomposewin.cpp:3621 kmfilterdlg.cpp:697 kmfolderdia.cpp:274
+#: kmcomposewin.cpp:3613 kmfilterdlg.cpp:697 kmfolderdia.cpp:274
 #: kmfolderdia.cpp:610 kmfoldertree.cpp:1571 managesievescriptsdialog.cpp:280
 msgid "unnamed"
 msgstr "ຍັງບໍ່ມີຊື່"
 
-#: kmcomposewin.cpp:3645
+#: kmcomposewin.cpp:3637
 msgid ""
 "<qt>"
 "<p>You have requested that messages be encrypted to yourself, but the currently "
@@ -5289,11 +5280,11 @@ msgid ""
 "<p>Please select the key(s) to use in the identity configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3652
+#: kmcomposewin.cpp:3644
 msgid "Undefined Encryption Key"
 msgstr "ໃຊ້ສຳລັບການເຂົ້າລະຫັດ"
 
-#: kmcomposewin.cpp:3695
+#: kmcomposewin.cpp:3687
 #, fuzzy
 msgid ""
 "<qt>"
@@ -5307,103 +5298,103 @@ msgstr ""
 "<p>ທ່ານສາມາດຫາກະແຈເປີດ PGP ຊຶ່ງຄວນຈະໃຊ້ດ້ວຍກະແສສະຖານະທີ່ຢູ່ໃນໂຄງຮ່າງສະຖານະ.</p>"
 "</qt> "
 
-#: kmcomposewin.cpp:3702
+#: kmcomposewin.cpp:3694
 msgid "Undefined Signing Key"
 msgstr "ບໍ່ຕ້ອງຫາກົດເຄື່ອງຫມາຍ"
 
-#: kmcomposewin.cpp:3781
+#: kmcomposewin.cpp:3773
 msgid ""
 "KMail is currently in offline mode,your messages will be kept in the outbox "
 "until you go online."
 msgstr ""
 
-#: kmcomposewin.cpp:3783 kmkernel.cpp:1236
+#: kmcomposewin.cpp:3775 kmkernel.cpp:1236
 msgid "Online/Offline"
 msgstr ""
 
-#: kmcomposewin.cpp:3798
+#: kmcomposewin.cpp:3790
 msgid ""
 "You must enter your email address in the From: field. You should also set your "
 "email address for all identities, so that you do not have to enter it for each "
 "message."
 msgstr ""
 
-#: kmcomposewin.cpp:3808
+#: kmcomposewin.cpp:3800
 #, fuzzy
 msgid ""
 "You must specify at least one receiver,either in the To: field or as CC or as "
 "BCC."
 msgstr "ທ່ານຕ້ອງລະບຸຜູ້ຮັບຢ່າງໜ້ອຍຫນື່ງຕົວໃນຊ່ອງເຖີງ:"
 
-#: kmcomposewin.cpp:3814
+#: kmcomposewin.cpp:3806
 #, fuzzy
 msgid "To: field is empty. Send message anyway?"
 msgstr "ທ່ານຍັງບໍ່ໄດ້່ລະບຸຊື່ເລືອງທຳການສົ່ງຫລືບໍ່?"
 
-#: kmcomposewin.cpp:3816
+#: kmcomposewin.cpp:3808
 #, fuzzy
 msgid "No To: specified"
 msgstr "ບໍ່ຍັງໄດ້ກຳນົດຊື່ເລື່ອງ"
 
-#: kmcomposewin.cpp:3841
+#: kmcomposewin.cpp:3833
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "ທ່ານຍັງບໍ່ໄດ້່ລະບຸຊື່ເລືອງທຳການສົ່ງຫລືບໍ່?"
 
-#: kmcomposewin.cpp:3843
+#: kmcomposewin.cpp:3835
 msgid "No Subject Specified"
 msgstr "ບໍ່ຍັງໄດ້ກຳນົດຊື່ເລື່ອງ"
 
-#: kmcomposewin.cpp:3844
+#: kmcomposewin.cpp:3836
 #, fuzzy
 msgid "S&end as Is"
 msgstr "ສົ່ງ&ອີກຄັ້ງ"
 
-#: kmcomposewin.cpp:3845
+#: kmcomposewin.cpp:3837
 #, fuzzy
 msgid "&Specify the Subject"
 msgstr "&ບໍ່ໃຫ້ລະບຸຊື່ເລືອ່ງກ່ອນ"
 
-#: kmcomposewin.cpp:3883
+#: kmcomposewin.cpp:3875
 msgid "&Keep markup, do not sign/encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:3884
+#: kmcomposewin.cpp:3876
 #, fuzzy
 msgid "&Keep markup, do not encrypt"
 msgstr "&ບໍ່ເຂົ້າລະຫັດຂໍ້ມູນ"
 
-#: kmcomposewin.cpp:3885
+#: kmcomposewin.cpp:3877
 msgid "&Keep markup, do not sign"
 msgstr ""
 
-#: kmcomposewin.cpp:3887
+#: kmcomposewin.cpp:3879
 #, fuzzy
 msgid "Sign/Encrypt (delete markup)"
 msgstr "ເຂົ້າລະຫັດຈົດໝາຍ ?"
 
-#: kmcomposewin.cpp:3888
+#: kmcomposewin.cpp:3880
 #, fuzzy
 msgid "Encrypt (delete markup)"
 msgstr "&ລືບໂຟເດີ"
 
-#: kmcomposewin.cpp:3889
+#: kmcomposewin.cpp:3881
 #, fuzzy
 msgid "Sign (delete markup)"
 msgstr "&ລືບໂຟເດີ"
 
-#: kmcomposewin.cpp:3891
+#: kmcomposewin.cpp:3883
 msgid ""
 "<qt>"
 "<p>Inline signing/encrypting of HTML messages is not possible;</p>"
 "<p>do you want to delete your markup?</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3893
+#: kmcomposewin.cpp:3885
 #, fuzzy
 msgid "Sign/Encrypt Message?"
 msgstr "ເຂົ້າລະຫັດຈົດໝາຍ ?"
 
-#: kmcomposewin.cpp:3929
+#: kmcomposewin.cpp:3921
 #, fuzzy
 msgid ""
 "The custom drafts or templates folder for identify \"%1\" does not exist "
@@ -5412,63 +5403,63 @@ msgstr ""
 "ເລືອກສົ່ງການຂຽນໂຄ່ງຮ່ອງລັກສະນະສະເພາະ\"%1\" "
 "ບໍ່ເປັນຈີ່ງເພາະສະນັ້ນການຂຽນໂຄງຮ່າງລັກສະເພາະຈະເກັບໄວ້"
 
-#: kmcomposewin.cpp:4071
+#: kmcomposewin.cpp:4063
 msgid "About to send email..."
 msgstr "ກ່ຽວກັບການສົງຈົດໝາຍ..."
 
-#: kmcomposewin.cpp:4072
+#: kmcomposewin.cpp:4064
 #, fuzzy
 msgid "Send Confirmation"
 msgstr "ຢືນຍັນການສົ່ງ"
 
-#: kmcomposewin.cpp:4073 redirectdialog.cpp:82
+#: kmcomposewin.cpp:4065 redirectdialog.cpp:82
 msgid "&Send Now"
 msgstr "&ສົ່ງດ່ຽວນີ້"
 
-#: kmcomposewin.cpp:4261
+#: kmcomposewin.cpp:4253
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "ເຄືອງມືກວດຄຳສະກົດ"
 
-#: kmcomposewin.cpp:4263
+#: kmcomposewin.cpp:4255
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "ເຄືອງມືກວດຄຳສະກົດ"
 
-#: kmcomposewin.cpp:4300
+#: kmcomposewin.cpp:4292
 msgid " Spell check canceled."
 msgstr "ການກວດຄຳສະກົດຖືກຕອ້ງຫລື ບໍ່"
 
-#: kmcomposewin.cpp:4303
+#: kmcomposewin.cpp:4295
 msgid " Spell check stopped."
 msgstr "ຢຸດກວດຄຳສະກົດແລ້ວ"
 
-#: kmcomposewin.cpp:4306
+#: kmcomposewin.cpp:4298
 msgid " Spell check complete."
 msgstr "ກວດຄຳສະກົດຮຽບຮ້ອຍແລ້ວ"
 
-#: kmcomposewin.cpp:4487 kmcomposewin.cpp:4495
+#: kmcomposewin.cpp:4479 kmcomposewin.cpp:4487
 msgid "Spellchecker"
 msgstr "ເຄືອງມືກວດຄຳສະກົດ"
 
-#: kmcomposewin.cpp:4803
+#: kmcomposewin.cpp:4795
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's Security "
 "page."
 msgstr ""
 
-#: kmcomposewin.cpp:4807
+#: kmcomposewin.cpp:4799
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:4810
+#: kmcomposewin.cpp:4802
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:4841
+#: kmcomposewin.cpp:4833
 #, fuzzy
 msgid "No Chiasmus Keys Found"
 msgstr ""
@@ -5476,53 +5467,53 @@ msgstr ""
 "\n"
 "ຜູ້ຮັບ: "
 
-#: kmcomposewin.cpp:4845
+#: kmcomposewin.cpp:4837
 #, fuzzy
 msgid "Chiasmus Encryption Key Selection"
 msgstr "ປັບແຕ່ງການເຂົ້າລະຫັດ"
 
-#: kmedit.cpp:171
+#: kmedit.cpp:178
 msgid "Add as Text"
 msgstr ""
 
-#: kmedit.cpp:172
+#: kmedit.cpp:179
 #, fuzzy
 msgid "Add as Attachment"
 msgstr "ແນບ..."
 
-#: kmedit.cpp:380
+#: kmedit.cpp:387
 msgid "Unable to start external editor."
 msgstr "ບໍສາມາດເລີ່ມການທຳງານເອດເຕີພາຍນອກໄດ້"
 
-#: kmedit.cpp:431
+#: kmedit.cpp:438
 #, fuzzy
 msgid "Suggestions"
 msgstr "ລາຍລະອຽດ"
 
-#: kmedit.cpp:483
+#: kmedit.cpp:490
 msgid "Automatic spellchecking is not possible on text with markup."
 msgstr ""
 
-#: kmedit.cpp:527
+#: kmedit.cpp:534
 msgid ""
 "The external editor is still running.\n"
 "Abort the external editor or leave it open?"
 msgstr ""
 
-#: kmedit.cpp:530
+#: kmedit.cpp:537
 #, fuzzy
 msgid "Abort Editor"
 msgstr "&ການສົ່ງ"
 
-#: kmedit.cpp:530
+#: kmedit.cpp:537
 msgid "Leave Editor Open"
 msgstr ""
 
-#: kmedit.cpp:554
+#: kmedit.cpp:561
 msgid "Spellcheck - KMail"
 msgstr "ກວດຄຳສະກົດ- KMail"
 
-#: kmedit.cpp:713
+#: kmedit.cpp:720
 msgid ""
 "ISpell/Aspell could not be started. Please make sure you have ISpell or Aspell "
 "properly configured and in your PATH."
@@ -5530,11 +5521,11 @@ msgstr ""
 "ບໍ່ສາມາດເລີ່ມການທຳງານ ISpell ໄດ້\n"
 "ກະລຸນາກວດສອບວ່າທ່ານໄດ້ຕັ້ງຄ່າພາດໄປທີ່ ISpellຖືກຕອ້ງແລ້ວ"
 
-#: kmedit.cpp:722
+#: kmedit.cpp:729
 msgid "ISpell/Aspell seems to have crashed."
 msgstr "ເບີ່ງຄືວ່າ ISpell/Aspell ຈະຫຍຸດການທຳງານ( ແຄສ)"
 
-#: kmedit.cpp:731
+#: kmedit.cpp:738
 msgid "No misspellings encountered."
 msgstr ""
 
@@ -6663,11 +6654,11 @@ msgstr ""
 msgid "KMFolderMaildir::addMsg: abnormally terminating to prevent data loss."
 msgstr "KMເອກະສານເມວເດຍ::addMsg: abnormally ສີ້ນສຸດການສູນຫາຍຂໍ້ມູນ prevent"
 
-#: kmfoldermaildir.cpp:921 kmfoldermbox.cpp:810
+#: kmfoldermaildir.cpp:898 kmfoldermbox.cpp:810
 msgid "Writing index file"
 msgstr "ກຳລັງຂຽນແຟ້ມດັດສະນີ"
 
-#: kmfoldermaildir.cpp:929 kmfoldermbox.cpp:819
+#: kmfoldermaildir.cpp:906 kmfoldermbox.cpp:819
 #, fuzzy
 msgid ""
 "Your outbox contains messages which were most-likely not created by KMail;\n"
@@ -6726,17 +6717,17 @@ msgstr ""
 "ກຳລັງສ້າງແຟ້ມດັດສະນີ:ເສັດແລ້ວ %\n"
 " ສະບັບ"
 
-#: kmfoldermbox.cpp:1081
+#: kmfoldermbox.cpp:1058
 #, fuzzy
 msgid "Could not add message to folder: "
 msgstr "ບໍ່ສາມາດເພີ່ມຈົດຫມາຍໄປຍັງກັບຈົດຫມາຍອອກໄດ້"
 
-#: kmfoldermbox.cpp:1162
+#: kmfoldermbox.cpp:1139
 #, fuzzy
 msgid "Could not add message to folder:"
 msgstr "ບໍ່ສາມາດເພີ່ມຈົດຫມາຍໄປຍັງກັບຈົດຫມາຍອອກໄດ້"
 
-#: kmfoldermbox.cpp:1164
+#: kmfoldermbox.cpp:1141
 #, fuzzy
 msgid "Could not add message to folder (No space left on device?)"
 msgstr ""
@@ -6970,23 +6961,23 @@ msgstr "&ລະເລຍ"
 msgid "Signature"
 msgstr "ລາຍເຊັ່ນ"
 
-#: kmheaders.cpp:180 kmheaders.cpp:763 kmheaders.cpp:2514
+#: kmheaders.cpp:180 kmheaders.cpp:763 kmheaders.cpp:2512
 #: kmpopfiltercnfrmdlg.cpp:39 searchwindow.cpp:224
 #: templatesinsertcommand.cpp:142 templatesinsertcommand.cpp:243
 msgid "Subject"
 msgstr "ເລື່ອງ"
 
-#: kmheaders.cpp:182 kmheaders.cpp:758 kmheaders.cpp:2509
+#: kmheaders.cpp:182 kmheaders.cpp:758 kmheaders.cpp:2507
 #: kmpopfiltercnfrmdlg.cpp:42 searchwindow.cpp:228
 #: templatesinsertcommand.cpp:66 templatesinsertcommand.cpp:167
 msgid "Date"
 msgstr "ວັນທີ"
 
-#: kmheaders.cpp:760 kmheaders.cpp:2511
+#: kmheaders.cpp:760 kmheaders.cpp:2509
 msgid "Date (Order of Arrival)"
 msgstr "ວັນທີ(ລຽງຕາມທີ່ໄດ້ຮັບ)"
 
-#: kmheaders.cpp:765 kmheaders.cpp:2516
+#: kmheaders.cpp:765 kmheaders.cpp:2514
 msgid " (Status)"
 msgstr "(ສະຖານະ)"
 
@@ -7088,17 +7079,17 @@ msgstr "ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້
 msgid "Moving messages canceled."
 msgstr "ຍ້າຍທຸກຈົດໝາຍໄປຍັງຖັງຂີ້ເຫຍືອ"
 
-#: kmheaders.cpp:2347 kmmainwidget.cpp:2990 kmreadermainwin.cpp:462
+#: kmheaders.cpp:2345 kmmainwidget.cpp:2990 kmreadermainwin.cpp:462
 #: searchwindow.cpp:805
 msgid "&Copy To"
 msgstr "&ສຳເນົາໄປຍັງ"
 
-#: kmheaders.cpp:2350 kmheaders.cpp:2356 kmmainwidget.cpp:2987
+#: kmheaders.cpp:2348 kmheaders.cpp:2354 kmmainwidget.cpp:2987
 #: searchwindow.cpp:806
 msgid "&Move To"
 msgstr "&ຍ້າຍໄປຍັງ"
 
-#: kmheaders.cpp:2683 kmheaders.cpp:2723
+#: kmheaders.cpp:2681 kmheaders.cpp:2721
 msgid ""
 "Failure modifying %1\n"
 "(No space left on device?)"
@@ -13946,6 +13937,10 @@ msgstr "້ເຖິ່ງ: "
 #, fuzzy
 msgid "Has Attachment"
 msgstr "ສິ່ງທີ່ແນບມາດ້ວຍ: "
+
+#, fuzzy
+#~ msgid "Attaching Image Failed"
+#~ msgstr "ย้ายจดหมาย"
 
 #~ msgid "Save in &Drafts Folder"
 #~ msgstr "ເກັບໄວ້ໃ&ນໂຟເດີສະບັບລ່າງ"
