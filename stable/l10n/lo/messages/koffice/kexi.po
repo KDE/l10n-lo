@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2007-04-12 02:18+0200\n"
+"POT-Creation-Date: 2007-04-20 02:18+0200\n"
 "PO-Revision-Date: 2003-01-20 14:21+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -700,6 +700,24 @@ msgstr "ສ້າງໂປຣເຈັກ"
 #, fuzzy
 msgid "Kexi will create a new blank database project."
 msgstr "ສ້າງໂປຣເຈັກ"
+
+#: main/startup/KexiStartupDialog.cpp:339
+msgid ""
+"_: Keep this text narrow: split to multiple rows if needed\n"
+"Create From\n"
+"Template"
+msgstr ""
+
+#: main/startup/KexiStartupDialog.cpp:340
+#, fuzzy
+msgid "New Database Project From Template"
+msgstr "ສ້າງໂປຣເຈັກ"
+
+#: main/startup/KexiStartupDialog.cpp:343
+msgid ""
+"Kexi will create a new database project using selected template.\n"
+"Select template and click \"OK\" button to proceed."
+msgstr ""
 
 #: main/startup/KexiStartupDialog.cpp:386
 #, fuzzy
@@ -1602,6 +1620,11 @@ msgid ""
 "_: Import Database\n"
 "&Import..."
 msgstr "ສ້າງ &ຕາຕະລາງ..."
+
+#: main/keximainwindowimpl.cpp:1358
+#, fuzzy
+msgid "Select New Project's Location"
+msgstr "ລາຍລະອຽດ ໂປຣເຈັກ"
 
 #: main/keximainwindowimpl.cpp:1449
 #, fuzzy
@@ -3065,6 +3088,17 @@ msgid ""
 "<qt>Test connection to <b>%1</b> database server established successfully.</qt>"
 msgstr ""
 
+#: kexidb/utils.cpp:1254 plugins/importexport/csv/kexicsvimportdialog.cpp:224
+#, fuzzy
+msgid "Number"
+msgstr "ລາຍງານ %1"
+
+#: kexidb/utils.cpp:1257 plugins/forms/kexidbfactory.cpp:326
+#: widget/utils/kexicontextmenuutils.cpp:249
+#, fuzzy
+msgid "Image"
+msgstr "ຕາຕະລາງ"
+
 #. i18n: file data/kexiui.rc line 5
 #: rc.cpp:3
 #, fuzzy, no-c-format
@@ -3765,11 +3799,11 @@ msgstr ""
 msgid "&Don't Replace"
 msgstr "ຄວບຄຸມ"
 
-#: plugins/forms/kexidbfactory.cpp:326
-#: widget/utils/kexicontextmenuutils.cpp:249
-#, fuzzy
-msgid "Image"
-msgstr "ຕາຕະລາງ"
+#: widget/utils/kexicontextmenuutils.cpp:270
+msgid ""
+"_: Object name : Object type\n"
+"%1 : %2"
+msgstr ""
 
 #: widget/kexiscrollview.cpp:357
 #, fuzzy
@@ -5218,11 +5252,6 @@ msgstr ""
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:221
 msgid "Format for column %1:"
 msgstr ""
-
-#: plugins/importexport/csv/kexicsvimportdialog.cpp:224
-#, fuzzy
-msgid "Number"
-msgstr "ລາຍງານ %1"
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:234
 #, fuzzy
