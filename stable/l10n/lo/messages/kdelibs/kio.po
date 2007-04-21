@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2007-04-13 02:13+0200\n"
+"POT-Creation-Date: 2007-04-21 02:14+0200\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -177,11 +177,11 @@ msgstr ""
 msgid "&Paste Clipboard Contents"
 msgstr "ຊື່ແຟ້ມສຳລັບສາລະບັນຂອງຄິບບອດ:"
 
-#: kio/observer.cpp:332 misc/uiserver.cpp:1225
+#: kio/observer.cpp:332 misc/uiserver.cpp:1218
 msgid "The peer SSL certificate appears to be corrupt."
 msgstr "ໃບຮັບຮອງ SSL ເບີ່ງຄືຈະຜິດພາດ"
 
-#: kio/observer.cpp:332 kio/tcpslavebase.cpp:706 misc/uiserver.cpp:1225
+#: kio/observer.cpp:332 kio/tcpslavebase.cpp:706 misc/uiserver.cpp:1218
 msgid "SSL"
 msgstr "SSL"
 
@@ -467,7 +467,7 @@ msgstr "&ເປີດແຟ້ມ"
 msgid "Open &Destination"
 msgstr "&ເປີດປາຍທາງ"
 
-#: kio/defaultprogress.cpp:179 misc/uiserver.cpp:639
+#: kio/defaultprogress.cpp:179 misc/uiserver.cpp:632
 msgid "Progress Dialog"
 msgstr "ກ່ອງສະແດງຄວາມຄືບຫນ້າ"
 
@@ -550,7 +550,7 @@ msgstr ""
 "_n %1 / %n ແຟ້ມ\n"
 "%1 / %n ແຟ້ມ"
 
-#: kio/defaultprogress.cpp:325 misc/uiserver.cpp:289
+#: kio/defaultprogress.cpp:325 misc/uiserver.cpp:288
 msgid "Stalled"
 msgstr "ຢຸູດການທຳງານຊົ່ວຂະນະ"
 
@@ -588,7 +588,7 @@ msgstr "ຄວາມຄືບຫນ້າການຕວດຫາແຟ້ມ"
 msgid "Mounting %1"
 msgstr "ກຳລັງເມາທ %1"
 
-#: kio/defaultprogress.cpp:410 misc/uiserver.cpp:379
+#: kio/defaultprogress.cpp:410 misc/uiserver.cpp:378
 msgid "Unmounting"
 msgstr "ກຳລັງຍົກເລີກເມານ"
 
@@ -2380,7 +2380,7 @@ msgstr "ຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"
 msgid " Stalled "
 msgstr "ຢຸດທຳງານຊົ່ວຄາວ"
 
-#: kio/statusbarprogress.cpp:134 misc/uiserver.cpp:1109
+#: kio/statusbarprogress.cpp:134 misc/uiserver.cpp:1102
 msgid " %1/s "
 msgstr " %1/s "
 
@@ -2722,7 +2722,7 @@ msgstr "ບໍ່ສະຫນັບສະຫນູນແບກເກນ%1"
 msgid "KDE SSL Information"
 msgstr "ຂໍ້ມູນ SSL ຂອງ KDE"
 
-#: kssl/ksslkeygen.cc:97 misc/uiserver.cpp:1390
+#: kssl/ksslkeygen.cc:97 misc/uiserver.cpp:1383
 msgid "KDE"
 msgstr "KDE"
 
@@ -3145,170 +3145,170 @@ msgstr "ສ່ວນດູແລໂປໂຄຄອນເທລເນັດ"
 msgid "You do not have permission to access the %1 protocol."
 msgstr "ທ່ານອາດຈະບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ສາມາດຮັບການເຊື່ອມຕໍ່"
 
-#: misc/uiserver.cpp:99 misc/uiserver.cpp:610 misc/uiserver.cpp:689
+#: misc/uiserver.cpp:98 misc/uiserver.cpp:603 misc/uiserver.cpp:682
 msgid "Settings..."
 msgstr "ຕັ້ງຄ່າ..."
 
-#: misc/uiserver.cpp:127
+#: misc/uiserver.cpp:126
 #, fuzzy
 msgid "Configure Network Operation Window"
 msgstr "ປະຕິບັດຕໍ່ໄປ"
 
-#: misc/uiserver.cpp:131
+#: misc/uiserver.cpp:130
 #, fuzzy
 msgid "Show system tray icon"
 msgstr "&ໄອສຄອນຂອງລະບົບ:"
 
-#: misc/uiserver.cpp:132
+#: misc/uiserver.cpp:131
 msgid "Keep network operation window always open"
 msgstr ""
 
-#: misc/uiserver.cpp:133
+#: misc/uiserver.cpp:132
 #, fuzzy
 msgid "Show column headers"
 msgstr "ສະແດງພາບ"
 
-#: misc/uiserver.cpp:134
+#: misc/uiserver.cpp:133
 #, fuzzy
 msgid "Show toolbar"
 msgstr "ສະແດງແຖບເຄື່ອງມື"
 
-#: misc/uiserver.cpp:135
+#: misc/uiserver.cpp:134
 #, fuzzy
 msgid "Show statusbar"
 msgstr "&ສະແດງແຖບສະຖານະ"
 
-#: misc/uiserver.cpp:136
+#: misc/uiserver.cpp:135
 msgid "Column widths are user adjustable"
 msgstr ""
 
-#: misc/uiserver.cpp:137
+#: misc/uiserver.cpp:136
 #, fuzzy
 msgid "Show information:"
 msgstr "ສະແດງຂໍ້ມູນລາຍລະອຽດຂອງຜູ້ຂຽນ"
 
-#: misc/uiserver.cpp:144 misc/uiserver.cpp:481
+#: misc/uiserver.cpp:143 misc/uiserver.cpp:474
 msgid "URL"
 msgstr "URL"
 
-#: misc/uiserver.cpp:145 misc/uiserver.cpp:480
+#: misc/uiserver.cpp:144 misc/uiserver.cpp:473
 msgid ""
 "_: Remaining Time\n"
 "Rem. Time"
 msgstr ""
 
-#: misc/uiserver.cpp:146 misc/uiserver.cpp:479
+#: misc/uiserver.cpp:145 misc/uiserver.cpp:472
 msgid "Speed"
 msgstr "ຄວາມໄວ"
 
-#: kfile/kfiledetailview.cpp:67 misc/uiserver.cpp:147 misc/uiserver.cpp:478
+#: kfile/kfiledetailview.cpp:67 misc/uiserver.cpp:146 misc/uiserver.cpp:471
 msgid "Size"
 msgstr "ຂະຫນາດ"
 
-#: misc/uiserver.cpp:148 misc/uiserver.cpp:477
+#: misc/uiserver.cpp:147 misc/uiserver.cpp:470
 #, c-format
 msgid "%"
 msgstr "%"
 
-#: misc/uiserver.cpp:149 misc/uiserver.cpp:476
+#: misc/uiserver.cpp:148 misc/uiserver.cpp:469
 msgid "Count"
 msgstr "ນັບ"
 
-#: misc/uiserver.cpp:150 misc/uiserver.cpp:475
+#: misc/uiserver.cpp:149 misc/uiserver.cpp:468
 msgid ""
 "_: Resume\n"
 "Res."
 msgstr "ທຳງານທີ່ຄ້າງໄວ້"
 
-#: misc/uiserver.cpp:151 misc/uiserver.cpp:474
+#: misc/uiserver.cpp:150 misc/uiserver.cpp:467
 #, fuzzy
 msgid "Local Filename"
 msgstr "ຊື່ແຟ້ມພາຍໃນ"
 
-#: misc/uiserver.cpp:152 misc/uiserver.cpp:473
+#: misc/uiserver.cpp:151 misc/uiserver.cpp:466
 msgid "Operation"
 msgstr "ປະຕິບັດ"
 
-#: misc/uiserver.cpp:255
+#: misc/uiserver.cpp:254
 msgid "%1 / %2"
 msgstr "%1 / %2"
 
-#: misc/uiserver.cpp:292
+#: misc/uiserver.cpp:291
 msgid "%1/s"
 msgstr "%1/s"
 
-#: misc/uiserver.cpp:303
+#: misc/uiserver.cpp:302
 msgid "Copying"
 msgstr "ກຳລັງທຳສຳເນົາ"
 
-#: misc/uiserver.cpp:312
+#: misc/uiserver.cpp:311
 msgid "Moving"
 msgstr "ກຳລັງຍ້າຍ"
 
-#: misc/uiserver.cpp:321
+#: misc/uiserver.cpp:320
 msgid "Creating"
 msgstr "ກຳລັງສ້າງ"
 
-#: misc/uiserver.cpp:330
+#: misc/uiserver.cpp:329
 msgid "Deleting"
 msgstr "ກຳລັງລືບ"
 
-#: misc/uiserver.cpp:338
+#: misc/uiserver.cpp:337
 msgid "Loading"
 msgstr "ກຳລັງໂຫລດ"
 
-#: misc/uiserver.cpp:363
+#: misc/uiserver.cpp:362
 msgid "Examining"
 msgstr "ກຳລັງກວດສອບ"
 
-#: misc/uiserver.cpp:371
+#: misc/uiserver.cpp:370
 msgid "Mounting"
 msgstr "ກຳລັງເມາ์"
 
-#: misc/uiserver.cpp:615 misc/uiserver.cpp:1104
+#: misc/uiserver.cpp:608 misc/uiserver.cpp:1097
 msgid " Files: %1 "
 msgstr "ແຟ້ມ : %1 "
 
-#: misc/uiserver.cpp:616
+#: misc/uiserver.cpp:609
 #, fuzzy
 msgid ""
 "_: Remaining Size\n"
 " Rem. Size: %1 kB "
 msgstr "ຂະຫນາດ : %1 kB "
 
-#: misc/uiserver.cpp:617
+#: misc/uiserver.cpp:610
 #, fuzzy
 msgid ""
 "_: Remaining Time\n"
 " Rem. Time: 00:00:00 "
 msgstr "ເວລາ: 00:00:00 "
 
-#: misc/uiserver.cpp:618
+#: misc/uiserver.cpp:611
 msgid " %1 kB/s "
 msgstr " %1 kB/s "
 
-#: misc/uiserver.cpp:686
+#: misc/uiserver.cpp:679
 #, fuzzy
 msgid "Cancel Job"
 msgstr "ຍົກເລີກ"
 
-#: misc/uiserver.cpp:1105
+#: misc/uiserver.cpp:1098
 msgid ""
 "_: Remaining Size\n"
 " Rem. Size: %1 "
 msgstr ""
 
-#: misc/uiserver.cpp:1107
+#: misc/uiserver.cpp:1100
 msgid ""
 "_: Remaining Time\n"
 " Rem. Time: %1 "
 msgstr ""
 
-#: misc/uiserver.cpp:1391
+#: misc/uiserver.cpp:1384
 msgid "KDE Progress Information UI Server"
 msgstr "ເຊີບເວີຂໍ້ມູນຄວາມຄືບຫນ້າສ່ວນຕິດຕໍ່ຜູ້ໃຊ້ຂອງ KDE"
 
-#: misc/uiserver.cpp:1394 misc/uiserver.cpp:1395
+#: misc/uiserver.cpp:1387 misc/uiserver.cpp:1388
 msgid "Developer"
 msgstr "ຜູ້ພັດທະນາ"
 
@@ -5779,11 +5779,11 @@ msgid ""
 "options or to run it as a different user."
 msgstr ""
 
-#: ../kioslave/http/http.cc:5118 kpasswdserver/kpasswdserver.cpp:346
+#: ../kioslave/http/http.cc:5127 kpasswdserver/kpasswdserver.cpp:346
 msgid "  Do you want to retry?"
 msgstr " ທ່ານຕ້ອງການລອງໃຫມ່ຫລືບໍ່ ?"
 
-#: ../kioslave/http/http.cc:5119 kpasswdserver/kpasswdserver.cpp:348
+#: ../kioslave/http/http.cc:5128 kpasswdserver/kpasswdserver.cpp:348
 msgid "Authentication"
 msgstr "ກວດສອບສິດການເຂົ້າໃຊ້ງານ"
 
@@ -5981,12 +5981,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cc:596 ../kioslave/http/http.cc:5130
+#: ../kioslave/ftp/ftp.cc:596 ../kioslave/http/http.cc:5139
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr "ທ່ານຕ້ອງກຣອກຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານກ່ອນ ເພື່ອເຂົ້າໃ່ຊ້ງານໄຊຕ໌ນີ້"
 
-#: ../kioslave/ftp/ftp.cc:598 ../kioslave/http/http.cc:5138
+#: ../kioslave/ftp/ftp.cc:598 ../kioslave/http/http.cc:5147
 msgid "Site:"
 msgstr "ໄຊຕ໌:"
 
@@ -6408,38 +6408,38 @@ msgstr "ຕິດຕໍ່ <b>%1</b> ແລ້ວ ຄອຍການຕອບຮ
 msgid "Server processing request, please wait..."
 msgstr "ມີການຮ້ອງຂໍປະມວນຜົນທາງຝັງເຊີບເວີ ກະລຸນາຖ້າບຶດຫນຶ່ງ..."
 
-#: ../kioslave/http/http.cc:3874
+#: ../kioslave/http/http.cc:3883
 msgid "Requesting data to send"
 msgstr "ມີການຮ້ອງຂໍສົ່ງຂໍ້ມູນ"
 
-#: ../kioslave/http/http.cc:3915
+#: ../kioslave/http/http.cc:3924
 #, c-format
 msgid "Sending data to %1"
 msgstr "ກຳລັງສົ່ງຂໍ້ມູນໄປຍັງ %1"
 
-#: ../kioslave/http/http.cc:4324
+#: ../kioslave/http/http.cc:4333
 msgid "Retrieving %1 from %2..."
 msgstr "ກຳລັງຮັບຂໍ້ມູນ %1 ຈາກ %2..."
 
-#: ../kioslave/http/http.cc:4333
+#: ../kioslave/http/http.cc:4342
 msgid "Retrieving from %1..."
 msgstr "ກຳລັງຮັບຂໍ້ມູນຈາກ %1..."
 
-#: ../kioslave/http/http.cc:5110 ../kioslave/http/http.cc:5258
+#: ../kioslave/http/http.cc:5119 ../kioslave/http/http.cc:5267
 #, fuzzy
 msgid "Authentication Failed."
 msgstr "ການກວດສອບສິດການເຂົ້າໃຊ້ງານລົ້ມເຫລວ !"
 
-#: ../kioslave/http/http.cc:5113 ../kioslave/http/http.cc:5261
+#: ../kioslave/http/http.cc:5122 ../kioslave/http/http.cc:5270
 #, fuzzy
 msgid "Proxy Authentication Failed."
 msgstr "ການກວດສອບສິດການເຂົ້າໃຊ້ງານພຣອກຊີລົ້ມເຫລວ !"
 
-#: ../kioslave/http/http.cc:5139 ../kioslave/http/http.cc:5156
+#: ../kioslave/http/http.cc:5148 ../kioslave/http/http.cc:5165
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> ທີ່ <b>%2</b>"
 
-#: ../kioslave/http/http.cc:5146
+#: ../kioslave/http/http.cc:5155
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed below "
@@ -6448,15 +6448,15 @@ msgstr ""
 "ທີ່ຕ້ອງຕື່ມທັງຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານ ສຳຫລັບພຣອກຊີເຊີບເວີດ້ານລຸ່ມນີ້ "
 "ກ່ອນທີ່່ທ່ານຈະສາມາດເຂົ້າໃຊ້ງານໄຊຕ໌ອື່ນໆ ໄດ້"
 
-#: ../kioslave/http/http.cc:5155
+#: ../kioslave/http/http.cc:5164
 msgid "Proxy:"
 msgstr "ພຣອກຊີ:"
 
-#: ../kioslave/http/http.cc:5177
+#: ../kioslave/http/http.cc:5186
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "ກວດສອບສິດລົ້ມເຫລວ ບໍ່ສະຫນັບສະຫນຸນການກວດສອບ %1"
 
-#: ../kioslave/http/http.cc:5799
+#: ../kioslave/http/http.cc:5808
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
