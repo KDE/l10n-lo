@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2006-04-19 03:54+0200\n"
+"POT-Creation-Date: 2007-06-14 07:56+0200\n"
 "PO-Revision-Date: 2003-01-14 15:54+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: command.cc:125
+#: command.cc:138
 msgid ""
 "The server rejected both EHLO and HELO commands as unknown or unimplemented.\n"
 "Please contact the server's system administrator."
 msgstr ""
 
-#: command.cc:139
+#: command.cc:152
 msgid ""
 "Unexpected server response to %1 command.\n"
 "%2"
 msgstr ""
 
-#: command.cc:159
+#: command.cc:172
 msgid ""
 "Your SMTP server does not support TLS. Disable TLS, if you want to connect "
 "without encryption."
@@ -34,7 +34,7 @@ msgstr ""
 "ເຊີຟໄເວີ์ SMTP ບໍ່ສະຫນັບສະຫນູນ TLS ທ່ານອາດປິດການໃຊ້ງານ TLS "
 "ໄດ້ຫາກທ່ານຕ້ອງການເຊື່ອມຕໍ່ໂດຍບໍ່ມີການເຂົ້າລະຫັດ"
 
-#: command.cc:173
+#: command.cc:186
 msgid ""
 "Your SMTP server claims to support TLS, but negotiation was unsuccessful.\n"
 "You can disable TLS in KDE using the crypto settings module."
@@ -42,20 +42,20 @@ msgstr ""
 "ເຊີຟເວີ SMTP ຕ້ອງການການສະຫນັບສະຫນູນ TLS ແຕ່ບໍ່ສາມາດທຳໄດ້ສຳເລັດ\n"
 "ທ່ານສາມາດປິດກາຍໃຊ້ງານ TLS ໃນ KDE ໄດ້ ໂດຍໃຊ້ໂມດູນຕັ້ງຄ່າການເຂົ້າລະຫັດ"
 
-#: command.cc:178
+#: command.cc:191
 msgid "Connection Failed"
 msgstr "ການເຊື່ອມຕໍ່ລົ້ມເຫຼວ"
 
-#: command.cc:229
+#: command.cc:242
 msgid "Authentication support is not compiled into kio_smtp."
 msgstr ""
 
-#: command.cc:258
+#: command.cc:271
 #, fuzzy
 msgid "No authentication details supplied."
 msgstr "ບໍ່ພົບວິທີການກວດສອບສິດທິທີ່ເຫມາະສົມ"
 
-#: command.cc:361
+#: command.cc:374
 #, fuzzy
 msgid ""
 "Your SMTP server does not support %1.\n"
@@ -65,7 +65,7 @@ msgstr ""
 "ເຊີຟເວີ SMTP ບໍ່ສະຫນັບສະຫນູນ %1\n"
 "ໂປດເລືອກວິທີການກວດສອບສິດທິແບບອື່ນ"
 
-#: command.cc:365
+#: command.cc:378
 #, fuzzy, c-format
 msgid ""
 "Your SMTP server does not support authentication.\n"
@@ -74,7 +74,7 @@ msgstr ""
 "ເຊີຟເວີ SMTP ບໍ່ສະຫນັບສະຫນູນ %1\n"
 "ໂປດເລືອກວິທີການກວດສອບສິດທິແບບອື່ນ"
 
-#: command.cc:369
+#: command.cc:382
 #, fuzzy, c-format
 msgid ""
 "Authentication failed.\n"
@@ -85,11 +85,11 @@ msgstr ""
 "ຊື່ງເບິ່ງຄືວ່າລະຫັດຜ່ານຈະບໍ່ຖືກຕ້ອງ\n"
 "ໂດຍເຊີຟເວີແຈ້ງວ່າ: %1"
 
-#: command.cc:507
+#: command.cc:520
 msgid "Could not read data from application."
 msgstr ""
 
-#: command.cc:524
+#: command.cc:537
 #, fuzzy, c-format
 msgid ""
 "The message content was not accepted.\n"
