@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2007-07-17 01:49+0200\n"
+"POT-Creation-Date: 2007-08-23 01:15+0200\n"
 "PO-Revision-Date: 2003-01-14 16:41+0700\n"
 "Last-Translator:  <souvanthong@kanlao05>\n"
 "Language-Team:  <en@li.org>\n"
@@ -50,58 +50,58 @@ msgstr "Unsubscribe of folder %1 failed."
 msgid "Subscribe of folder %1 failed. The server returned: %2"
 msgstr "Subscribe of folder %1 failed."
 
-#: imap4.cc:1355 imap4.cc:1367
+#: imap4.cc:1355 imap4.cc:1367 imap4.cc:1398
 msgid "Changing the flags of message %1 failed."
 msgstr "ການປ່ງນສະຖານະຂອງຈົດຫມາຍ %1 ລົ້ມເຫຼວ"
 
-#: imap4.cc:1407
+#: imap4.cc:1438
 #, fuzzy
 msgid ""
 "Setting the Access Control List on folder %1 for user %2 failed. The server "
 "returned: %3"
 msgstr "Unsubscribe of folder %1 failed."
 
-#: imap4.cc:1426
+#: imap4.cc:1457
 #, fuzzy
 msgid ""
 "Deleting the Access Control List on folder %1 for user %2 failed. The server "
 "returned: %3"
 msgstr "Unsubscribe of folder %1 failed."
 
-#: imap4.cc:1443 imap4.cc:1470
+#: imap4.cc:1474 imap4.cc:1501
 #, fuzzy
 msgid ""
 "Retrieving the Access Control List on folder %1 failed. The server returned: %2"
 msgstr "Unsubscribe of folder %1 failed."
 
-#: imap4.cc:1504
+#: imap4.cc:1535
 #, fuzzy
 msgid "Searching of folder %1 failed. The server returned: %2"
 msgstr "Subscribe of folder %1 failed."
 
-#: imap4.cc:1542
+#: imap4.cc:1573
 #, fuzzy
 msgid "Setting the annotation %1 on folder %2  failed. The server returned: %3"
 msgstr "Unsubscribe of folder %1 failed."
 
-#: imap4.cc:1566
+#: imap4.cc:1597
 #, fuzzy
 msgid ""
 "Retrieving the annotation %1 on folder %2 failed. The server returned: %3"
 msgstr "Unsubscribe of folder %1 failed."
 
-#: imap4.cc:1603
+#: imap4.cc:1634
 #, fuzzy
 msgid ""
 "Retrieving the quota root information on folder %1 failed. The server returned: "
 "%2"
 msgstr "Unsubscribe of folder %1 failed."
 
-#: imap4.cc:1659
+#: imap4.cc:1690
 msgid "Unable to close mailbox."
 msgstr "ບໍ່ສາມາດປິດກ່ອງຈົດຫມາຍໃດ้້"
 
-#: imap4.cc:1927
+#: imap4.cc:1958
 msgid ""
 "The server %1 supports neither IMAP4 nor IMAP4rev1.\n"
 "It identified itself with: %2"
@@ -109,7 +109,7 @@ msgstr ""
 "ເຊີຟເວີ์ %1 ບໍ່ສະຫນັບສະຫນູນທັງ IMAP4 ຫຼື IMAP4rev1\n"
 "ມັນສະແດງຕົວມັມເອງເປັນ: %2"
 
-#: imap4.cc:1938
+#: imap4.cc:1969
 msgid ""
 "The server does not support TLS.\n"
 "Disable this security feature to connect unencrypted."
@@ -117,24 +117,24 @@ msgstr ""
 "ເຊີຟເວີບໍ່ສະຫນັບສະຫນູນ TLS\n"
 "ຍົກເລີກຄຸນສົມບັດຄວາມປອດໄພນີ້ເພື່ອທຳການເຊື່ອມຕໍ່ແບບບໍ່ເຂົ້າລະຫັດ"
 
-#: imap4.cc:1963
+#: imap4.cc:1994
 msgid "Starting TLS failed."
 msgstr "ການເລີ່ມການທຳງານ TLS ລົ້ມເຫຼວ"
 
-#: imap4.cc:1972
+#: imap4.cc:2003
 msgid "LOGIN is disabled by the server."
 msgstr ""
 
-#: imap4.cc:1979
+#: imap4.cc:2010
 msgid "The authentication method %1 is not supported by the server."
 msgstr "ເຊີຟເວີບໍ່ສະຫນັບສະຫນູນວິທີການກວດສິດ %1"
 
-#: imap4.cc:1995
+#: imap4.cc:2026
 #, fuzzy
 msgid "Username and password for your IMAP account:"
 msgstr "ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານຂອງບັນຊີຜູ້ໃຊ້ IMAP ຂອງທ່ານ:"
 
-#: imap4.cc:2009
+#: imap4.cc:2040
 #, fuzzy
 msgid ""
 "Unable to login. Probably the password is wrong.\n"
@@ -145,7 +145,7 @@ msgstr ""
 "ໂດຍເຊີຟເວີຕອບກັບມາວ່າ:\n"
 "%1"
 
-#: imap4.cc:2016
+#: imap4.cc:2047
 #, fuzzy
 msgid ""
 "Unable to authenticate via %1.\n"
@@ -156,11 +156,11 @@ msgstr ""
 "ໂດຍເຊີຟເວີຕອບກັບມາວ່າ:\n"
 "%2"
 
-#: imap4.cc:2023
+#: imap4.cc:2054
 msgid "SASL authentication is not compiled into kio_imap4."
 msgstr ""
 
-#: imap4.cc:2567
+#: imap4.cc:2598
 msgid "Unable to open folder %1. The server replied: %2"
 msgstr ""
 "ບໍ່ສາມາດທຳການກວດສອບສິດຜ່ານิ์ %1 ໄດ້\n"
