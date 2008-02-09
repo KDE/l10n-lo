@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2007-11-13 01:14+0100\n"
+"POT-Creation-Date: 2008-02-09 01:22+0100\n"
 "PO-Revision-Date: 2003-01-20 12:09+0700\n"
 "Last-Translator: vilaphone <vilaphone@fea.local>\n"
 "Language-Team: Vilaphone Manivanh <en@li.org>\n"
@@ -802,9 +802,9 @@ msgstr "&ກ່ຽວກັບ"
 msgid "Untitled"
 msgstr "ຍັງບໍ່ມີຊື່"
 
-#: common_texts.cpp:67 kdecore/kapplication.cpp:1379
-#: kdecore/kapplication.cpp:2207 kdecore/kapplication.cpp:2242
-#: kdecore/kapplication.cpp:2513 kdecore/kapplication.cpp:2535
+#: common_texts.cpp:67 kdecore/kapplication.cpp:1387
+#: kdecore/kapplication.cpp:2215 kdecore/kapplication.cpp:2250
+#: kdecore/kapplication.cpp:2521 kdecore/kapplication.cpp:2543
 #: kdecore/kdebug.cpp:295 kdeui/kdialogbase.cpp:908 kdeui/kstdguiitem.cpp:99
 msgid "&OK"
 msgstr "&ຕົກລົງ"
@@ -2754,7 +2754,7 @@ msgid ""
 "and Arabic) to get proper widget layout."
 msgstr "LTR"
 
-#: kdecore/kapplication.cpp:1366
+#: kdecore/kapplication.cpp:1374
 #, fuzzy
 msgid ""
 "There was an error setting up inter-process communications for KDE. The message "
@@ -2765,7 +2765,7 @@ msgstr ""
 "ໂປຣເຊສຂອງ KDE ໂດຍລະບົບແຈ້ງຂໍ້ຄວາມຜິດພາດວ່າ:\n"
 "\n"
 
-#: kdecore/kapplication.cpp:1370
+#: kdecore/kapplication.cpp:1378
 msgid ""
 "\n"
 "\n"
@@ -2775,26 +2775,26 @@ msgstr ""
 "\n"
 "ໂປຣດກວດສອບວ່າໂປຣແກມ\"dcopserver\" ກຳລັງທຳງານຢູ່!"
 
-#: kdecore/kapplication.cpp:1377
+#: kdecore/kapplication.cpp:1385
 msgid "DCOP communications error (%1)"
 msgstr "ການສື່ສານກັບ DCOP ຜິດພາດ (%1)"
 
-#: kdecore/kapplication.cpp:1395
+#: kdecore/kapplication.cpp:1403
 #, fuzzy
 msgid "Use the X-server display 'displayname'"
 msgstr "ໃຊ້ການສະແດງຜົນຂອງເຊີບເວີຣ໌์ X \"displayname\""
 
-#: kdecore/kapplication.cpp:1397
+#: kdecore/kapplication.cpp:1405
 #, fuzzy
 msgid "Use the QWS display 'displayname'"
 msgstr "ໃຊ້ການສະແດງຜົນຂອງເຊີບເວີຣ໌์ X \"displayname\""
 
-#: kdecore/kapplication.cpp:1399
+#: kdecore/kapplication.cpp:1407
 #, fuzzy
 msgid "Restore the application for the given 'sessionId'"
 msgstr "ເອິ້ນຄືນສະຖານະແອັບພລິເຄຊັນໂດຍອ້າງເຖິງ \"sessionId\""
 
-#: kdecore/kapplication.cpp:1400
+#: kdecore/kapplication.cpp:1408
 #, fuzzy
 msgid ""
 "Causes the application to install a private color\n"
@@ -2803,7 +2803,7 @@ msgstr ""
 "ເນື່ອງຈາກແອັບພລິເຄຊັນທຳການຕິດຕັ້ງສີຂອງຕົວເອງ\n"
 "ເທິງຖານການສະແດງຜົນແບບ 8 ບິດ"
 
-#: kdecore/kapplication.cpp:1401
+#: kdecore/kapplication.cpp:1409
 #, fuzzy
 msgid ""
 "Limits the number of colors allocated in the color\n"
@@ -2816,12 +2816,12 @@ msgstr ""
 "QApplication::ManyColor\n"
 "ໃນການກຳນົດສີ"
 
-#: kdecore/kapplication.cpp:1402
+#: kdecore/kapplication.cpp:1410
 #, fuzzy
 msgid "tells Qt to never grab the mouse or the keyboard"
 msgstr "ບໍ່ໃຫ້ Qt ດັກຈັບສັນຍານເມົາສ໌ແລະແປ້ນພິມ"
 
-#: kdecore/kapplication.cpp:1403
+#: kdecore/kapplication.cpp:1411
 #, fuzzy
 msgid ""
 "running under a debugger can cause an implicit\n"
@@ -2830,17 +2830,17 @@ msgstr ""
 "ກຳລັງທຳງານພາຍໃຕ້ຕົວດີບັກເກີຣ໌ ເຊິ່ງອາດເຮັດໃຫ້ຂັດແຍ່ງກັບຕົວເລືອກ -nograb ໄດ້\n"
 "ໃຫ້ໃຊ້ຕົວເລືອກ -dograb ເພື່ອຂ້າຍປັນຫານີ້"
 
-#: kdecore/kapplication.cpp:1404
+#: kdecore/kapplication.cpp:1412
 #, fuzzy
 msgid "switches to synchronous mode for debugging"
 msgstr "ສະລັບໄປຍັງການທຳງານແບບ synchronous ສຳລັບການດີບັກ"
 
-#: kdecore/kapplication.cpp:1406
+#: kdecore/kapplication.cpp:1414
 #, fuzzy
 msgid "defines the application font"
 msgstr "ກຳນົດຮູບແບບຕົວອັກສອນຂອງແອັບພລິເຄຊັນ"
 
-#: kdecore/kapplication.cpp:1408
+#: kdecore/kapplication.cpp:1416
 #, fuzzy
 msgid ""
 "sets the default background color and an\n"
@@ -2851,27 +2851,27 @@ msgstr ""
 "ຂອງແອັບພລິເຄຊັນ\n"
 "(ສີຈ້າແລະສີທຶບຈະຖຶກຄຳນວນຂຶ້ນເອງ)"
 
-#: kdecore/kapplication.cpp:1410
+#: kdecore/kapplication.cpp:1418
 #, fuzzy
 msgid "sets the default foreground color"
 msgstr "ຕັ້ງຄ່າປະລິຍາຍຂອງສີດ້ານຫນ້າ"
 
-#: kdecore/kapplication.cpp:1412
+#: kdecore/kapplication.cpp:1420
 #, fuzzy
 msgid "sets the default button color"
 msgstr "ຕັ້ງຄ່າສີປະລິຍາຍຂອງປຸ່ມ"
 
-#: kdecore/kapplication.cpp:1413
+#: kdecore/kapplication.cpp:1421
 #, fuzzy
 msgid "sets the application name"
 msgstr "ຕັ້ງຄ່າຊື່ແອັບພລິເຄຊັນ"
 
-#: kdecore/kapplication.cpp:1414
+#: kdecore/kapplication.cpp:1422
 #, fuzzy
 msgid "sets the application title (caption)"
 msgstr "ຕ້ັງຄ່າຫົວເລື່ອງຂອງແອັບພລິເຄຊັນ (ສ່ວນແຄບຊັນ)"
 
-#: kdecore/kapplication.cpp:1416
+#: kdecore/kapplication.cpp:1424
 #, fuzzy
 msgid ""
 "forces the application to use a TrueColor visual on\n"
@@ -2880,7 +2880,7 @@ msgstr ""
 "ບັງຄັຍໃຫ້ແອັບພລິເຄຊັນໃຊ້ສີເຫມືອນຈິງ\n"
 "ເທິງຖານການສະແດງຜົນແບບ 8 ບິດ"
 
-#: kdecore/kapplication.cpp:1417
+#: kdecore/kapplication.cpp:1425
 #, fuzzy
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
@@ -2890,91 +2890,91 @@ msgstr ""
 "ຕັ້ງຄ່າຮູບແບບການຮັບເຂົ້າຂໍ້ຂອງ XIM (X Input Method)\n"
 "ຄ່າທີ່ເປັນໄປໄດ້ຄື onthespot, overthespot, offthespot ແລະ root"
 
-#: kdecore/kapplication.cpp:1418
+#: kdecore/kapplication.cpp:1426
 #, fuzzy
 msgid "set XIM server"
 msgstr "ຕັ້ງຄ່າເຊີບເວີຣ໌ XIM"
 
-#: kdecore/kapplication.cpp:1419
+#: kdecore/kapplication.cpp:1427
 #, fuzzy
 msgid "disable XIM"
 msgstr "ປິດການໃຊ້ງານ XIM"
 
-#: kdecore/kapplication.cpp:1422
+#: kdecore/kapplication.cpp:1430
 #, fuzzy
 msgid "forces the application to run as QWS Server"
 msgstr "ບັງຄັບໃຫ້ແອັບພລິເຄຊັນທຳງານແບບເຊີບເວີຣ໌ QWS"
 
-#: kdecore/kapplication.cpp:1424
+#: kdecore/kapplication.cpp:1432
 #, fuzzy
 msgid "mirrors the whole layout of widgets"
 msgstr "ທຳສຳເນົາການຈັດວາງທັງຫມົດຂອງຄອນໂຊນລ໌"
 
-#: kdecore/kapplication.cpp:1430
+#: kdecore/kapplication.cpp:1438
 #, fuzzy
 msgid "Use 'caption' as name in the titlebar"
 msgstr "ໃຊ້ສ່ວນ 'caption' ແທນຊື່ເທິງແຖບຫົວເລື່ອງ"
 
-#: kdecore/kapplication.cpp:1431
+#: kdecore/kapplication.cpp:1439
 #, fuzzy
 msgid "Use 'icon' as the application icon"
 msgstr "ໃຊ້ 'icon' ແທນໄອຄອນຂອງແອັບພລິເຄຊັນ"
 
-#: kdecore/kapplication.cpp:1432
+#: kdecore/kapplication.cpp:1440
 #, fuzzy
 msgid "Use 'icon' as the icon in the titlebar"
 msgstr "ໃຊ້ 'icon' ແທນໄອຄອນເທິງແຖບຫົວເລື່ອງ"
 
-#: kdecore/kapplication.cpp:1433
+#: kdecore/kapplication.cpp:1441
 #, fuzzy
 msgid "Use alternative configuration file"
 msgstr "ໃຊ້ແຟ້ມການປັບແຕ່ງອຶ່ນໆ"
 
-#: kdecore/kapplication.cpp:1434
+#: kdecore/kapplication.cpp:1442
 #, fuzzy
 msgid "Use the DCOP Server specified by 'server'"
 msgstr "ໃຊ້ເຊີບເວີຣ໌ DCOP ທີ່ຖຶກກຳນົດໂດຍ 'server'"
 
-#: kdecore/kapplication.cpp:1435
+#: kdecore/kapplication.cpp:1443
 #, fuzzy
 msgid "Disable crash handler, to get core dumps"
 msgstr ""
 "ຍົກເລີກການທຳງານສ່ວນດັກຈັບຄວາມລົ້ມເຫລວຂອງໂປຣແກຣມ\n"
 "ເພື່ອຈະບັນທຶກລົງໃນສ່ວນການທຳງານຜິດພາດ (core dumps)"
 
-#: kdecore/kapplication.cpp:1436
+#: kdecore/kapplication.cpp:1444
 #, fuzzy
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "ກຳລັງຖ້າສັນຍານທີ່ເຂົ້າກັນໄດ້ກັບສັນຍານ WM_NET ຂອງໂປຣແກຣມຈັດການຫນ້າຕ່າງ"
 
-#: kdecore/kapplication.cpp:1437
+#: kdecore/kapplication.cpp:1445
 #, fuzzy
 msgid "sets the application GUI style"
 msgstr "ຕັ້ງຄ່າຮູບແບບການສະແດງຜົນແບບກຣາຟຂອງແອັບພລິເຄຊັນ"
 
-#: kdecore/kapplication.cpp:1438
+#: kdecore/kapplication.cpp:1446
 #, fuzzy
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument format"
 msgstr "ຕັ້ງຄ່າລັກສະນະໄຄລເອັນທ໌ຂອງຄອນໂຊນຫລັກ"
 
-#: kdecore/kapplication.cpp:1478
+#: kdecore/kapplication.cpp:1486
 msgid ""
 "The style %1 was not found\n"
 msgstr ""
 "ບໍ່ພົບຮູບແບບ %1\n"
 
-#: kdecore/kapplication.cpp:1940 kstyles/klegacy/klegacystyle.cpp:3044
+#: kdecore/kapplication.cpp:1948 kstyles/klegacy/klegacystyle.cpp:3044
 #: kstyles/web/webstyle.cpp:1604
 msgid "modified"
 msgstr "ຖຶກແກ້ໄຂ"
 
-#: kdecore/kapplication.cpp:2206 kdecore/kapplication.cpp:2241
+#: kdecore/kapplication.cpp:2214 kdecore/kapplication.cpp:2249
 #, fuzzy
 msgid "Could not Launch Help Center"
 msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
-#: kdecore/kapplication.cpp:2207 kdecore/kapplication.cpp:2242
+#: kdecore/kapplication.cpp:2215 kdecore/kapplication.cpp:2250
 #, fuzzy, c-format
 msgid ""
 "Could not launch the KDE Help Center:\n"
@@ -2982,12 +2982,12 @@ msgid ""
 "%1"
 msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
-#: kdecore/kapplication.cpp:2512
+#: kdecore/kapplication.cpp:2520
 #, fuzzy
 msgid "Could not Launch Mail Client"
 msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
-#: kdecore/kapplication.cpp:2513
+#: kdecore/kapplication.cpp:2521
 #, fuzzy, c-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -2995,12 +2995,12 @@ msgid ""
 "%1"
 msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
-#: kdecore/kapplication.cpp:2534
+#: kdecore/kapplication.cpp:2542
 #, fuzzy
 msgid "Could not Launch Browser"
 msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
-#: kdecore/kapplication.cpp:2535
+#: kdecore/kapplication.cpp:2543
 #, fuzzy, c-format
 msgid ""
 "Could not launch the browser:\n"
@@ -3008,13 +3008,13 @@ msgid ""
 "%1"
 msgstr "ບໍ່ສາມາດຍອມຮັບການຮ້ອງຂໍເຊື່ອມຕໍ່ %1 ໄດ້"
 
-#: kdecore/kapplication.cpp:2599
+#: kdecore/kapplication.cpp:2607
 msgid ""
 "Could not register with DCOP.\n"
 msgstr ""
 "ບໍ່ສາມາດລົງທະບຽນກັບ DCOP ໄດ້\n"
 
-#: kdecore/kapplication.cpp:2634
+#: kdecore/kapplication.cpp:2642
 msgid ""
 "KLauncher could not be reached via DCOP.\n"
 msgstr ""
