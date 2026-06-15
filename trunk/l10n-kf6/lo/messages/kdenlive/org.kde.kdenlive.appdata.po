@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-12-05 00:42+0000\n"
+"POT-Creation-Date: 2026-05-30 00:44+0000\n"
 "PO-Revision-Date: 2025-12-12 08:51+0700\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31,9 +31,9 @@ msgid ""
 "format of your choice."
 msgstr ""
 "Kdenlive ແມ່ນແອັບພລິເຄຊັນຕັດຕໍ່ວິດີໂອທີ່ຮອງຮັບຮູບແບບສຽງ ແລະ ວິດີໂອທີ່ຫຼາກຫຼາຍ. "
-"ມັນມີຄຸນສົມບັດການຕັດຕໍ່ຂັ້ນສູງ, ເອັບເຟັກ ແລະ ການປ່ຽນຜ່ານ (transitions) ທີ່ຫຼາກຫຼາຍ, "
-"ການປັບແກ້ສີ, ການປັບແຕ່ງສຽງຫຼັງການຜະລິດ ແລະ ເຄື່ອງມືໃສ່ຄຳບັນຍາຍ. ນອກຈາກນັ້ນ, "
-"ມັນຍັງມີຄວາມຢືດຢຸ່ນໃນການເຣັນເດີ (render) ເປັນຮູບແບບຕ່າງໆແທບທຸກປະເພດຕາມທີ່ທ່ານຕ້ອງການ."
+"ມັນມີຄຸນສົມບັດການຕັດຕໍ່ຂັ້ນສູງ, ເອັບເຟັກ ແລະ ການປ່ຽນຜ່ານ (transitions) ທີ່ຫຼາກຫຼາຍ, ການປັບແກ້ສີ, "
+"ການປັບແຕ່ງສຽງຫຼັງການຜະລິດ ແລະ ເຄື່ອງມືໃສ່ຄຳບັນຍາຍ. ນອກຈາກນັ້ນ, ມັນຍັງມີຄວາມຢືດຢຸ່ນໃນການເຣັນເດີ "
+"(render) ເປັນຮູບແບບຕ່າງໆແທບທຸກປະເພດຕາມທີ່ທ່ານຕ້ອງການ."
 
 #. (itstool) path: description/p
 #: org.kde.kdenlive.appdata.xml:15
@@ -75,32 +75,78 @@ msgstr "ການຕິດຕາມການເຄື່ອນໄຫວ"
 msgid "AI powered tools"
 msgstr "ເຄື່ອງມືທີ່ຂັບເຄື່ອນດ້ວຍ AI"
 
+#. (itstool) path: description/p
+#: org.kde.kdenlive.appdata.xml:98
+msgid ""
+"This is the first bugfix release for the 24.02 version. Some of the most "
+"noteworthy fixes:"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kdenlive.appdata.xml:100
+msgid "Fix distorted font in some parts of the UI"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kdenlive.appdata.xml:101
+msgid "Fix crash editing gradients in titler"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kdenlive.appdata.xml:102
+msgid "Fix adding a mix to a grouped clip could move existing cut"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kdenlive.appdata.xml:103
+msgid "Fix moving and deleting a single item in a group"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kdenlive.appdata.xml:104
+msgid "Fix crash in spacer tool with grouped subtitles"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kdenlive.appdata.xml:105
+msgid ""
+"Fix multiple issues on sequence clips (incorrectly saving changes, subtitles "
+"not duplicated)"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.kdenlive.appdata.xml:106
+msgid ""
+"Fix multiple issues with subtitles (multiple subtitles tracks not correctly "
+"saved or displayed)"
+msgstr ""
+
 #. (itstool) path: screenshot/caption
-#: org.kde.kdenlive.appdata.xml:122
+#: org.kde.kdenlive.appdata.xml:128
 msgid "Dark theme"
 msgstr "ຊຸດຮູບແບບສີເຂັ້ມ"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.kdenlive.appdata.xml:126
+#: org.kde.kdenlive.appdata.xml:132
 msgid "Default interface"
 msgstr "ໜ້າຕ່າງເລີ່ມຕົ້ນ"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.kdenlive.appdata.xml:130
+#: org.kde.kdenlive.appdata.xml:136
 msgid "Color correction"
 msgstr "ການປັບແກ້ສີ"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.kdenlive.appdata.xml:134
+#: org.kde.kdenlive.appdata.xml:140
 msgid "Configurable interface"
 msgstr "ໜ້າຕ່າງທີ່ປັບແຕ່ງໄດ້"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.kdenlive.appdata.xml:138
+#: org.kde.kdenlive.appdata.xml:144
 msgid "Titling"
 msgstr "ການສ້າງຫົວຂໍ້"
 
 #. (itstool) path: screenshot/caption
-#: org.kde.kdenlive.appdata.xml:142
+#: org.kde.kdenlive.appdata.xml:148
 msgid "Time remapping and same-track transitions"
 msgstr "ການປັບຄວາມໄວເວລາ ແລະ ການປ່ຽນຜ່ານໃນແທຣັກດຽວກັນ"

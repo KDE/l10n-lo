@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-18 00:43+0000\n"
+"POT-Creation-Date: 2026-05-31 00:43+0000\n"
 "PO-Revision-Date: 2025-12-08 13:10+0700\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,23 +29,21 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: ktorrent/core.cpp:147
+#: ktorrent/core.cpp:149
 #, kde-format
 msgid ""
 "KTorrent is unable to accept connections because the TCP port %1 is already "
 "in use by another program."
-msgstr ""
-"KTorrent ບໍ່ສາມາດຮັບການເຊື່ອມຕໍ່ໄດ້ ເນື່ອງຈາກພອດ TCP %1 ກຳລັງຖືກນຳໃຊ້ໂດຍໂປຣແກຣມອື່ນ."
+msgstr "KTorrent ບໍ່ສາມາດຮັບການເຊື່ອມຕໍ່ໄດ້ ເນື່ອງຈາກພອດ TCP %1 ກຳລັງຖືກນຳໃຊ້ໂດຍໂປຣແກຣມອື່ນ."
 
-#: ktorrent/core.cpp:157
+#: ktorrent/core.cpp:159
 #, kde-format
 msgid ""
 "KTorrent is unable to accept connections because the UDP port %1 is already "
 "in use by another program."
-msgstr ""
-"KTorrent ບໍ່ສາມາດຮັບການເຊື່ອມຕໍ່ໄດ້ ເນື່ອງຈາກພອດ UDP %1 ກຳລັງຖືກນຳໃຊ້ໂດຍໂປຣແກຣມອື່ນ."
+msgstr "KTorrent ບໍ່ສາມາດຮັບການເຊື່ອມຕໍ່ໄດ້ ເນື່ອງຈາກພອດ UDP %1 ກຳລັງຖືກນຳໃຊ້ໂດຍໂປຣແກຣມອື່ນ."
 
-#: ktorrent/core.cpp:255
+#: ktorrent/core.cpp:267
 #, kde-format
 msgid ""
 "Opening the torrent <b>%1</b>, would share one or more files with the "
@@ -54,41 +52,41 @@ msgstr ""
 "ການເປີດທໍເຣັ້ນ <b>%1</b>, ຈະເປັນການແບ່ງປັນໜຶ່ງ ຫຼື ຫຼາຍໄຟລ໌ກັບທໍເຣັ້ນຕໍ່ໄປນີ້. "
 "ທໍເຣັ້ນບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽນທັບໄຟລ໌ດຽວກັນ. "
 
-#: ktorrent/core.cpp:833
+#: ktorrent/core.cpp:873
 #, kde-format
 msgid "KTorrent is running one or more torrents"
 msgstr "KTorrent ກຳລັງທຳງານໜຶ່ງ ຫຼື ຫຼາຍທໍເຣັ້ນ"
 
-#: ktorrent/core.cpp:918
+#: ktorrent/core.cpp:965
 #, kde-format
 msgid "Cannot create torrent: %1"
 msgstr "ບໍ່ສາມາດສ້າງທໍເຣັ້ນໄດ້: %1"
 
-#: ktorrent/core.cpp:1014
+#: ktorrent/core.cpp:1064
 #, kde-format
 msgid ""
 "One or more storage volumes are not mounted. In order to start this torrent, "
 "they need to be mounted."
 msgstr ""
-"ໜຶ່ງ ຫຼື ຫຼາຍພື້ນທີ່ຈັດເກັບຂໍ້ມູນ (storage volumes) ບໍ່ໄດ້ຖືກຕິດຕັ້ງ (mount). "
-"ເພື່ອເລີ່ມຕົ້ນທໍເຣັ້ນນີ້, ພວກມັນຈຳເປັນຕ້ອງຖືກຕິດຕັ້ງກ່ອນ."
+"ໜຶ່ງ ຫຼື ຫຼາຍພື້ນທີ່ຈັດເກັບຂໍ້ມູນ (storage volumes) ບໍ່ໄດ້ຖືກຕິດຕັ້ງ (mount). ເພື່ອເລີ່ມຕົ້ນທໍເຣັ້ນນີ້, "
+"ພວກມັນຈຳເປັນຕ້ອງຖືກຕິດຕັ້ງກ່ອນ."
 
-#: ktorrent/core.cpp:1015
+#: ktorrent/core.cpp:1065
 #, kde-format
 msgid "Retry"
 msgstr "ລອງໃໝ່"
 
-#: ktorrent/core.cpp:1021
+#: ktorrent/core.cpp:1071
 #, kde-format
 msgid "Storage volume %1 is not mounted"
 msgstr "ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ %1 ບໍ່ໄດ້ຖືກຕິດຕັ້ງ"
 
-#: ktorrent/core.cpp:1023
+#: ktorrent/core.cpp:1073
 #, kde-format
 msgid "Storage volumes %1 are not mounted"
 msgstr "ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ %1 ບໍ່ໄດ້ຖືກຕິດຕັ້ງ"
 
-#: ktorrent/core.cpp:1034
+#: ktorrent/core.cpp:1086
 #, kde-format
 msgid ""
 "Several data files of the torrent \"%1\" are missing. \n"
@@ -97,22 +95,22 @@ msgstr ""
 "ໄຟລ໌ຂໍ້ມູນຫຼາຍອັນຂອງທໍເຣັ້ນ \"%1\" ຫາຍໄປ. \n"
 "ເຈົ້າຕ້ອງການສ້າງພວກມັນໃໝ່, ຫຼື ຕ້ອງການທີ່ຈະບໍ່ດາວໂຫລດພວກມັນ?"
 
-#: ktorrent/core.cpp:1042 ktorrent/core.cpp:1050 ktorrent/core.cpp:1060
+#: ktorrent/core.cpp:1094 ktorrent/core.cpp:1102 ktorrent/core.cpp:1112
 #, kde-format
 msgid "Data files are missing"
 msgstr "ໄຟລ໌ຂໍ້ມູນຫາຍໄປ"
 
-#: ktorrent/core.cpp:1049
+#: ktorrent/core.cpp:1101
 #, kde-format
 msgid "Cannot deselect missing files: %1"
 msgstr "ບໍ່ສາມາດຍົກເລີກການເລືອກໄຟລ໌ທີ່ຫາຍໄປໄດ້: %1"
 
-#: ktorrent/core.cpp:1059
+#: ktorrent/core.cpp:1111
 #, kde-format
 msgid "Cannot recreate missing files: %1"
 msgstr "ບໍ່ສາມາດສ້າງໄຟລ໌ທີ່ຫາຍໄປຄືນໃໝ່ໄດ້: %1"
 
-#: ktorrent/core.cpp:1069
+#: ktorrent/core.cpp:1121
 #, kde-format
 msgid ""
 "The file where the data is saved of the torrent \"%1\" is missing.\n"
@@ -121,29 +119,29 @@ msgstr ""
 "ໄຟລ໌ທີ່ໃຊ້ບັນທຶກຂໍ້ມູນຂອງທໍເຣັ້ນ \"%1\" ຫາຍໄປ.\n"
 "ເຈົ້າຕ້ອງການສ້າງມັນຄືນໃໝ່ບໍ່?"
 
-#: ktorrent/core.cpp:1076 ktorrent/core.cpp:1083
+#: ktorrent/core.cpp:1128 ktorrent/core.cpp:1135
 #, kde-format
 msgid "Data file is missing"
 msgstr "ໄຟລ໌ຂໍ້ມູນຫາຍໄປ"
 
-#: ktorrent/core.cpp:1082
+#: ktorrent/core.cpp:1134
 #, kde-format
 msgid "Cannot recreate data file: %1"
 msgstr "ບໍ່ສາມາດສ້າງໄຟລ໌ຂໍ້ມູນຄືນໃໝ່ໄດ້: %1"
 
-#: ktorrent/core.cpp:1183
+#: ktorrent/core.cpp:1236
 #, kde-format
 msgid "Invalid magnet bittorrent link: %1"
 msgstr "ລິງກ໌ magnet bittorrent ບໍ່ຖືກຕ້ອງ: %1"
 
-#: ktorrent/core.cpp:1186
+#: ktorrent/core.cpp:1239
 #, kde-format
 msgid ""
 "You are attempting to download a magnet link, and DHT is not enabled. For "
 "optimum results enable DHT."
 msgstr ""
-"ເຈົ້າກຳລັງພະຍາຍາມດາວໂຫລດລິງກ໌ magnet, ແຕ່ DHT ບໍ່ໄດ້ເປີດໃຊ້ງານ. "
-"ເພື່ອຜົນລັັບທີ່ດີທີ່ສຸດ ກະລຸນາເປີດໃຊ້ງານ DHT."
+"ເຈົ້າກຳລັງພະຍາຍາມດາວໂຫລດລິງກ໌ magnet, ແຕ່ DHT ບໍ່ໄດ້ເປີດໃຊ້ງານ. ເພື່ອຜົນລັັບທີ່ດີທີ່ສຸດ "
+"ກະລຸນາເປີດໃຊ້ງານ DHT."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddPeersDlg)
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupPolicyDlg)
@@ -175,8 +173,8 @@ msgid ""
 "IPv6 addresses</p>\n"
 msgstr ""
 "<p>ທີ່ຢູ່ IP ຫຼື ຊື່ໂຮດ ຂອງ Peer ທີ່ເຈົ້າຕ້ອງການເຊື່ອມຕໍ່ ຄວນໃສ່ຢູ່ບ່ອນນີ້.</p>\n"
-"<p><span style=\" font-weight:600;\">ໝາຍເຫດ:</span> "
-"ຮອງຮັບທັງທີ່ຢູ່ແບບ IPv4 ແລະ IPv6</p>\n"
+"<p><span style=\" font-weight:600;\">ໝາຍເຫດ:</span> ຮອງຮັບທັງທີ່ຢູ່ແບບ IPv4 ແລະ "
+"IPv6</p>\n"
 
 #. i18n: ectx: property (text), widget (QLineEdit, m_ip)
 #. i18n: ectx: property (text), widget (QLineEdit, m_ip_to_add)
@@ -217,99 +215,97 @@ msgstr "ເພີ່ມ"
 msgid "Close"
 msgstr "ປິດ"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:75
+#: ktorrent/dialogs/fileselectdlg.cpp:76
 #, kde-format
 msgid "Show a file tree"
 msgstr "ສະແດງໂຄງສ້າງໄຟລ໌"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:78
+#: ktorrent/dialogs/fileselectdlg.cpp:79
 #, kde-format
 msgid "Show a file list"
 msgstr "ສະແດງລາຍຊື່ໄຟລ໌"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:87 plugins/infowidget/fileview.cpp:66
+#: ktorrent/dialogs/fileselectdlg.cpp:88 plugins/infowidget/fileview.cpp:66
 #, kde-format
 msgid "Filter"
 msgstr "ກັ່ນຕອງ"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:105
+#: ktorrent/dialogs/fileselectdlg.cpp:107
 #, kde-format
 msgid "Opening %1"
 msgstr "ກຳລັງເປີດ %1"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:200
+#: ktorrent/dialogs/fileselectdlg.cpp:206
 #, kde-format
 msgid ""
 "Some files of this torrent have been found in the completed downloads "
 "directory. Do you want to import these files and use the completed downloads "
 "directory as the location?"
 msgstr ""
-"ພົບບາງໄຟລ໌ຂອງທໍເຣັ້ນນີ້ໃນໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວ. "
-"ເຈົ້າຕ້ອງການນຳເຂົ້າໄຟລ໌ເຫຼົ່ານີ້ ແລະ ໃຊ້ໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວເປັນບ່ອນເກັບໄຟລ໌ບໍ່?"
+"ພົບບາງໄຟລ໌ຂອງທໍເຣັ້ນນີ້ໃນໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວ. ເຈົ້າຕ້ອງການນຳເຂົ້າໄຟລ໌ເຫຼົ່ານີ້ ແລະ "
+"ໃຊ້ໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວເປັນບ່ອນເກັບໄຟລ໌ບໍ່?"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:204
+#: ktorrent/dialogs/fileselectdlg.cpp:210
 #, kde-format
 msgid ""
 "All files of this torrent have been found in the completed downloads "
 "directory. Do you want to import these files and use the completed downloads "
 "directory as the location?"
 msgstr ""
-"ພົບໄຟລ໌ທັງໝົດຂອງທໍເຣັ້ນນີ້ໃນໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວ. "
-"ເຈົ້າຕ້ອງການນຳເຂົ້າໄຟລ໌ເຫຼົ່ານີ້ ແລະ ໃຊ້ໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວເປັນບ່ອນເກັບໄຟລ໌ບໍ່?"
+"ພົບໄຟລ໌ທັງໝົດຂອງທໍເຣັ້ນນີ້ໃນໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວ. ເຈົ້າຕ້ອງການນຳເຂົ້າໄຟລ໌ເຫຼົ່ານີ້ ແລະ "
+"ໃຊ້ໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວເປັນບ່ອນເກັບໄຟລ໌ບໍ່?"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:207
+#: ktorrent/dialogs/fileselectdlg.cpp:214
 #, kde-format
 msgid ""
 "The file <b>%1</b> was found in the completed downloads directory. Do you "
 "want to import this file?"
-msgstr ""
-"ພົບໄຟລ໌ <b>%1</b> ໃນໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວ. ເຈົ້າຕ້ອງການນຳເຂົ້າໄຟລ໌ນີ້ບໍ່?"
+msgstr "ພົບໄຟລ໌ <b>%1</b> ໃນໂຟນເດີດາວໂຫລດທີ່ສຳເລັດແລ້ວ. ເຈົ້າຕ້ອງການນຳເຂົ້າໄຟລ໌ນີ້ບໍ່?"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:214
+#: ktorrent/dialogs/fileselectdlg.cpp:222
 #, kde-format
 msgctxt "@action:button"
 msgid "Import"
 msgstr "ນຳເຂົ້າ"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:225
-#: ktorrent/dialogs/fileselectdlg.cpp:243
+#: ktorrent/dialogs/fileselectdlg.cpp:233
+#: ktorrent/dialogs/fileselectdlg.cpp:252
 #, kde-format
 msgid "The directory %1 does not exist, do you want to create it?"
 msgstr "ບໍ່ມີໂຟນເດີ %1 ຢູ່, ເຈົ້າຕ້ອງການສ້າງມັນບໍ່?"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:227
-#: ktorrent/dialogs/fileselectdlg.cpp:245
-#: ktorrent/dialogs/missingfilesdlg.cpp:90
-#: ktorrent/dialogs/missingfilesdlg.cpp:98
-#: ktorrent/dialogs/missingfilesdlg.cpp:132
-#: ktorrent/dialogs/torrentcreatordlg.cpp:280
+#: ktorrent/dialogs/fileselectdlg.cpp:235
+#: ktorrent/dialogs/fileselectdlg.cpp:254
+#: ktorrent/dialogs/missingfilesdlg.cpp:94
+#: ktorrent/dialogs/missingfilesdlg.cpp:102
+#: ktorrent/dialogs/missingfilesdlg.cpp:140
+#: ktorrent/dialogs/torrentcreatordlg.cpp:281
 #, kde-format
 msgctxt "@action:button"
 msgid "Create"
 msgstr "ສ້າງ"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:274
+#: ktorrent/dialogs/fileselectdlg.cpp:285
 #, kde-format
 msgid ""
 "You have deselected the following existing files. You will lose all data in "
 "these files, are you sure you want to do this?"
 msgstr ""
-"ເຈົ້າໄດ້ຍົກເລີກການເລືອກໄຟລ໌ທີ່ມີຢູ່ແລ້ວ. ຂໍ້ມູນທັງໝົດໃນໄຟລ໌ເຫຼົ່ານີ້ຈະສູນຫາຍ, "
-"ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການເຮັດແບບນີ້?"
+"ເຈົ້າໄດ້ຍົກເລີກການເລືອກໄຟລ໌ທີ່ມີຢູ່ແລ້ວ. ຂໍ້ມູນທັງໝົດໃນໄຟລ໌ເຫຼົ່ານີ້ຈະສູນຫາຍ, ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການເຮັດແບບນີ້?"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:280
+#: ktorrent/dialogs/fileselectdlg.cpp:291
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete the Files"
 msgstr "ລຶບໄຟລ໌"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:281
+#: ktorrent/dialogs/fileselectdlg.cpp:292
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep the Files"
 msgstr "ເກັບໄຟລ໌ໄວ້"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:304
+#: ktorrent/dialogs/fileselectdlg.cpp:318
 #, kde-format
 msgid ""
 "Opening the torrent <b>%1</b>, would share one or more files with the "
@@ -319,54 +315,54 @@ msgstr ""
 "ການເປີດທໍເຣັ້ນ <b>%1</b>, ຈະເປັນການແບ່ງປັນໜຶ່ງ ຫຼື ຫຼາຍໄຟລ໌ກັບທໍເຣັ້ນຕໍ່ໄປນີ້. "
 "ທໍເຣັ້ນບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຂຽນທັບໄຟລ໌ດຽວກັນ. ກະລຸນາເລືອກຕຳແໜ່ງອື່ນ."
 
-#: ktorrent/dialogs/fileselectdlg.cpp:406 ktorrent/dialogs/pastedialog.cpp:61
+#: ktorrent/dialogs/fileselectdlg.cpp:424 ktorrent/dialogs/pastedialog.cpp:62
 #: ktorrent/dialogs/torrentcreatordlg.cpp:121 libktcore/groups/allgroup.cpp:12
 #, kde-format
 msgid "All Torrents"
 msgstr "ທໍເຣັ້ນທັງໝົດ"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:475
+#: ktorrent/dialogs/fileselectdlg.cpp:500
 #, kde-format
 msgid "<b>Unable to determine free space</b>"
 msgstr "<b>ບໍ່ສາມາດກວດສອບພື້ນທີ່ຫວ່າງໄດ້</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:482
+#: ktorrent/dialogs/fileselectdlg.cpp:507
 #, kde-format
 msgid "%1 (%2 in use by existing files)"
 msgstr "%1 (%2 ຖືກໃຊ້ໂດຍໄຟລ໌ທີ່ມີຢູ່ແລ້ວ)"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:490
+#: ktorrent/dialogs/fileselectdlg.cpp:516
 #, kde-format
 msgctxt "We are %1 bytes short of what we need"
 msgid "%1 short"
 msgstr "ຂາດອີກ %1"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:517
+#: ktorrent/dialogs/fileselectdlg.cpp:545
 #, kde-format
 msgid "Existing files: <b>None</b>"
 msgstr "ໄຟລ໌ທີ່ມີຢູ່: <b>ບໍ່ມີ</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:519
+#: ktorrent/dialogs/fileselectdlg.cpp:547
 #, kde-format
 msgid "Existing files: <b>All</b>"
 msgstr "ໄຟລ໌ທີ່ມີຢູ່: <b>ທັງໝົດ</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:521
+#: ktorrent/dialogs/fileselectdlg.cpp:549
 #, kde-format
 msgid "Existing files: <b>%1</b> of <b>%2</b>"
 msgstr "ໄຟລ໌ທີ່ມີຢູ່: <b>%1</b> ຈາກ <b>%2</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:525
+#: ktorrent/dialogs/fileselectdlg.cpp:554
 #, kde-format
 msgid "Existing file: <b>No</b>"
 msgstr "ໄຟລ໌ທີ່ມີຢູ່: <b>ບໍ່ມີ</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:528
+#: ktorrent/dialogs/fileselectdlg.cpp:557
 #, kde-format
 msgid "Existing file: <b>Yes</b>"
 msgstr "ໄຟລ໌ທີ່ມີຢູ່: <b>ມີ</b>"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:590
+#: ktorrent/dialogs/fileselectdlg.cpp:624
 #, kde-format
 msgid "Clear History"
 msgstr "ລຶບປະຫວັດ"
@@ -515,10 +511,9 @@ msgid ""
 "<p><span style=\" font-weight:600;\">Note: </span>only do this when you are "
 "absolutely sure.</p>"
 msgstr ""
-"<p>ເມື່ອພົບໄຟລ໌ທີ່ມີຢູ່ແລ້ວ, ໃຫ້ຂ້າມການກວດສອບຂໍ້ມູນ ແລະ "
-"ສົມມຸດວ່າໄຟລ໌ໄດ້ຖືກດາວໂຫລດຄົບຖ້ວນແລ້ວ.</p>\n"
-"<p><span style=\" font-weight:600;\">ໝາຍເຫດ: </span>"
-"ເຮັດແບບນີ້ຕໍ່ເມື່ອເຈົ້າໝັ້ນໃຈແທ້ໆເທົ່ານັ້ນ.</p>"
+"<p>ເມື່ອພົບໄຟລ໌ທີ່ມີຢູ່ແລ້ວ, ໃຫ້ຂ້າມການກວດສອບຂໍ້ມູນ ແລະ ສົມມຸດວ່າໄຟລ໌ໄດ້ຖືກດາວໂຫລດຄົບຖ້ວນແລ້ວ.</p>\n"
+"<p><span style=\" font-weight:600;\">ໝາຍເຫດ: </"
+"span>ເຮັດແບບນີ້ຕໍ່ເມື່ອເຈົ້າໝັ້ນໃຈແທ້ໆເທົ່ານັ້ນ.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_skip_data_check)
 #: ktorrent/dialogs/fileselectdlg.ui:260
@@ -550,19 +545,19 @@ msgstr "ວ່າງຢູ່:"
 msgid "After download:"
 msgstr "ຫຼັງຈາກດາວໂຫລດ:"
 
-#: ktorrent/dialogs/importdialog.cpp:197 ktorrent/dialogs/importdialog.cpp:223
+#: ktorrent/dialogs/importdialog.cpp:206 ktorrent/dialogs/importdialog.cpp:232
 #, kde-format
 msgid "Cannot load the torrent file: %1"
 msgstr "ບໍ່ສາມາດໂຫລດໄຟລ໌ທໍເຣັ້ນ: %1"
 
-#: ktorrent/dialogs/importdialog.cpp:249 plugins/ipfilter/convertthread.cpp:55
-#: plugins/ipfilter/convertthread.cpp:141
-#: plugins/search/searchenginelist.cpp:157
+#: ktorrent/dialogs/importdialog.cpp:258 plugins/ipfilter/convertthread.cpp:55
+#: plugins/ipfilter/convertthread.cpp:143
+#: plugins/search/searchenginelist.cpp:164
 #, kde-format
 msgid "Cannot open %1: %2"
 msgstr "ບໍ່ສາມາດເປີດ %1: %2"
 
-#: ktorrent/dialogs/importdialog.cpp:352 ktorrent/dialogs/importdialog.cpp:368
+#: ktorrent/dialogs/importdialog.cpp:369 ktorrent/dialogs/importdialog.cpp:386
 #, kde-format
 msgid "Failed to create %1: %2"
 msgstr "ລົ້ມເຫຼວໃນການສ້າງ %1: %2"
@@ -615,21 +610,20 @@ msgstr "ນຳເຂົ້າ"
 msgid "Ca&ncel"
 msgstr "ຍົກເລີກ"
 
-#: ktorrent/dialogs/missingfilesdlg.cpp:71
-#: ktorrent/dialogs/missingfilesdlg.cpp:115
+#: ktorrent/dialogs/missingfilesdlg.cpp:73
+#: ktorrent/dialogs/missingfilesdlg.cpp:121
 #, kde-format
 msgid "Select the directory where the data now is."
 msgstr "ເລືອກໂຟນເດີທີ່ຂໍ້ມູນຢູ່."
 
-#: ktorrent/dialogs/missingfilesdlg.cpp:88
+#: ktorrent/dialogs/missingfilesdlg.cpp:92
 #, kde-format
 msgid ""
 "The data files are not present in the location you selected. Do you want to "
 "create all the files in the selected directory?"
-msgstr ""
-"ບໍ່ພົບໄຟລ໌ຂໍ້ມູນໃນຕຳແໜ່ງທີ່ເຈົ້າເລືອກ. ເຈົ້າຕ້ອງການສ້າງໄຟລ໌ທັງໝົດໃນໂຟນເດີທີ່ເລືອກບໍ່?"
+msgstr "ບໍ່ພົບໄຟລ໌ຂໍ້ມູນໃນຕຳແໜ່ງທີ່ເຈົ້າເລືອກ. ເຈົ້າຕ້ອງການສ້າງໄຟລ໌ທັງໝົດໃນໂຟນເດີທີ່ເລືອກບໍ່?"
 
-#: ktorrent/dialogs/missingfilesdlg.cpp:95
+#: ktorrent/dialogs/missingfilesdlg.cpp:99
 #, kde-format
 msgid ""
 "Not all files were found in the new location; some are still missing. Do you "
@@ -637,7 +631,7 @@ msgid ""
 msgstr ""
 "ບໍ່ພົບໄຟລ໌ທັງໝົດໃນຕຳແໜ່ງໃໝ່; ບາງໄຟລ໌ຍັງຫາຍໄປ. ເຈົ້າຕ້ອງການສ້າງໄຟລ໌ທີ່ຫາຍໄປໃນໂຟນເດີທີ່ເລືອກບໍ່?"
 
-#: ktorrent/dialogs/missingfilesdlg.cpp:130
+#: ktorrent/dialogs/missingfilesdlg.cpp:138
 #, kde-format
 msgid ""
 "The data file is not present in the location you selected. Do you want to "
@@ -712,22 +706,20 @@ msgstr "ຍົກເລີກ"
 msgid "Open an URL"
 msgstr "ເປີດ URL"
 
-#: ktorrent/dialogs/pastedialog.cpp:114
+#: ktorrent/dialogs/pastedialog.cpp:117
 #, kde-format
 msgid "Error fetching tracker list"
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການດຶງລາຍຊື່ Tracker"
 
-#: ktorrent/dialogs/pastedialog.cpp:115
+#: ktorrent/dialogs/pastedialog.cpp:118
 #, kde-format
 msgid ""
 "Please check if the URL in Settings → Advanced → Tracker list URL is "
 "reachable."
-msgstr ""
-"ກະລຸນາກວດສອບວ່າ URL ໃນ ການຕັ້ງຄ່າ → ຂັ້ນສູງ → URL ລາຍຊື່ Tracker "
-"ສາມາດເຊື່ອມຕໍ່ໄດ້ຫຼືບໍ່."
+msgstr "ກະລຸນາກວດສອບວ່າ URL ໃນ ການຕັ້ງຄ່າ → ຂັ້ນສູງ → URL ລາຍຊື່ Tracker ສາມາດເຊື່ອມຕໍ່ໄດ້ຫຼືບໍ່."
 
-#: ktorrent/dialogs/pastedialog.cpp:134
-#: ktorrent/dialogs/torrentcreatordlg.cpp:240 ktorrent/gui.cpp:310
+#: ktorrent/dialogs/pastedialog.cpp:137
+#: ktorrent/dialogs/torrentcreatordlg.cpp:241 ktorrent/gui.cpp:322
 #, kde-format
 msgid "Invalid URL: %1"
 msgstr "URL ບໍ່ຖືກຕ້ອງ: %1"
@@ -808,8 +800,8 @@ msgstr "ຄວາມໄວດາວໂຫລດສູງສຸດ:"
 #. i18n: ectx: property (specialValueText), widget (QDoubleSpinBox, ratio_limit)
 #. i18n: ectx: property (specialValueText), widget (QDoubleSpinBox, time_limit)
 #: ktorrent/dialogs/speedlimitsdlg.ui:77 ktorrent/dialogs/speedlimitsdlg.ui:100
-#: ktorrent/dialogs/speedlimitsmodel.cpp:130
-#: ktorrent/dialogs/speedlimitsmodel.cpp:135
+#: ktorrent/dialogs/speedlimitsmodel.cpp:136
+#: ktorrent/dialogs/speedlimitsmodel.cpp:142
 #: ktorrent/dialogs/spinboxdelegate.cpp:30 ktorrent/groups/grouppolicydlg.ui:81
 #: ktorrent/groups/grouppolicydlg.ui:101 ktorrent/groups/grouppolicydlg.ui:121
 #: ktorrent/groups/grouppolicydlg.ui:144 ktorrent/pref/networkpref.ui:81
@@ -866,35 +858,35 @@ msgstr " KiB/s"
 msgid "Maximum upload speed:"
 msgstr "ຄວາມໄວອັບໂຫລດສູງສຸດ:"
 
-#: ktorrent/dialogs/speedlimitsmodel.cpp:98
-#: plugins/shutdown/shutdowntorrentmodel.cpp:130
-#: plugins/syndication/feedwidgetmodel.cpp:79
+#: ktorrent/dialogs/speedlimitsmodel.cpp:102
+#: plugins/shutdown/shutdowntorrentmodel.cpp:137
+#: plugins/syndication/feedwidgetmodel.cpp:84
 #, kde-format
 msgid "Torrent"
 msgstr "ທໍເຣັ້ນ"
 
-#: ktorrent/dialogs/speedlimitsmodel.cpp:100
+#: ktorrent/dialogs/speedlimitsmodel.cpp:104
 #, kde-format
 msgid "Download Limit"
 msgstr "ຂີດຈຳກັດດາວໂຫລດ"
 
-#: ktorrent/dialogs/speedlimitsmodel.cpp:102
+#: ktorrent/dialogs/speedlimitsmodel.cpp:106
 #, kde-format
 msgid "Upload Limit"
 msgstr "ຂີດຈຳກັດອັບໂຫລດ"
 
-#: ktorrent/dialogs/speedlimitsmodel.cpp:104
+#: ktorrent/dialogs/speedlimitsmodel.cpp:108
 #, kde-format
 msgid "Assured Download Speed"
 msgstr "ຄວາມໄວດາວໂຫລດທີ່ຮັບປະກັນ"
 
-#: ktorrent/dialogs/speedlimitsmodel.cpp:106
+#: ktorrent/dialogs/speedlimitsmodel.cpp:110
 #, kde-format
 msgid "Assured Upload Speed"
 msgstr "ຄວາມໄວອັບໂຫລດທີ່ຮັບປະກັນ"
 
-#: ktorrent/dialogs/speedlimitsmodel.cpp:140
-#: ktorrent/dialogs/speedlimitsmodel.cpp:145
+#: ktorrent/dialogs/speedlimitsmodel.cpp:148
+#: ktorrent/dialogs/speedlimitsmodel.cpp:154
 #: ktorrent/dialogs/spinboxdelegate.cpp:32
 #, kde-format
 msgid "No assured speed"
@@ -905,28 +897,28 @@ msgstr "ບໍ່ມີຄວາມໄວທີ່ຮັບປະກັນ"
 msgid "Create A Torrent"
 msgstr "ສ້າງທໍເຣັ້ນ"
 
-#: ktorrent/dialogs/torrentcreatordlg.cpp:245
+#: ktorrent/dialogs/torrentcreatordlg.cpp:246
 #, kde-format
 msgid "Only HTTP(S) is supported for webseeding."
 msgstr "ຮອງຮັບສະເພາະ HTTP(S) ສຳລັບ Webseeding."
 
-#: ktorrent/dialogs/torrentcreatordlg.cpp:272
+#: ktorrent/dialogs/torrentcreatordlg.cpp:273
 #, kde-format
 msgid "You must select a file or a folder."
 msgstr "ເຈົ້າຕ້ອງເລືອກໄຟລ໌ ຫຼື ໂຟນເດີ."
 
-#: ktorrent/dialogs/torrentcreatordlg.cpp:278
+#: ktorrent/dialogs/torrentcreatordlg.cpp:279
 #, kde-format
 msgid ""
 "You have not added a tracker, are you sure you want to create this torrent?"
 msgstr "ເຈົ້າຍັງບໍ່ໄດ້ເພີ່ມ Tracker, ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການສ້າງທໍເຣັ້ນນີ້?"
 
-#: ktorrent/dialogs/torrentcreatordlg.cpp:286
+#: ktorrent/dialogs/torrentcreatordlg.cpp:288
 #, kde-format
 msgid "You must add at least one node."
 msgstr "ເຈົ້າຕ້ອງເພີ່ມຢ່າງໜ້ອຍໜຶ່ງ Node."
 
-#: ktorrent/dialogs/torrentcreatordlg.cpp:340
+#: ktorrent/dialogs/torrentcreatordlg.cpp:342
 #, kde-format
 msgid "Choose a file to save the torrent"
 msgstr "ເລືອກໄຟລ໌ເພື່ອບັນທຶກທໍເຣັ້ນ"
@@ -1049,7 +1041,7 @@ msgstr "ເພີ່ມທໍເຣັ້ນເຂົ້າກຸ່ມ:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, m_tracker_tab)
 #: ktorrent/dialogs/torrentcreatordlg.ui:182
-#: plugins/infowidget/infowidgetplugin.cpp:224
+#: plugins/infowidget/infowidgetplugin.cpp:246
 #, kde-format
 msgid "Trackers"
 msgstr "Trackers"
@@ -1137,10 +1129,8 @@ msgid ""
 "location in the dialog will be set to this. You can still override it, if "
 "you want to."
 msgstr ""
-"ຕຳແໜ່ງບັນທຶກເລີ່ມຕົ້ນສຳລັບທໍເຣັ້ນຈາກກຸ່ມນີ້. <br/><br/>"
-"ສິ່ງນີ້ໃຊ້ສະເພາະໃນກ່ອງໂຕ້ຕອບການເລືອກໄຟລ໌, ເມື່ອເຈົ້າປ່ຽນກຸ່ມ, "
-"ຕຳແໜ່ງດາວໂຫລດໃນກ່ອງໂຕ້ຕອບຈະຖືກຕັ້ງເປັນຄ່ານີ້. "
-"ເຈົ້າຍັງສາມາດປ່ຽນມັນໄດ້ຖ້າຕ້ອງການ."
+"ຕຳແໜ່ງບັນທຶກເລີ່ມຕົ້ນສຳລັບທໍເຣັ້ນຈາກກຸ່ມນີ້. <br/><br/>ສິ່ງນີ້ໃຊ້ສະເພາະໃນກ່ອງໂຕ້ຕອບການເລືອກໄຟລ໌, "
+"ເມື່ອເຈົ້າປ່ຽນກຸ່ມ, ຕຳແໜ່ງດາວໂຫລດໃນກ່ອງໂຕ້ຕອບຈະຖືກຕັ້ງເປັນຄ່ານີ້. ເຈົ້າຍັງສາມາດປ່ຽນມັນໄດ້ຖ້າຕ້ອງການ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_default_location_enabled)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useSaveDir)
@@ -1164,10 +1154,9 @@ msgid ""
 "the move when completed location in the dialog will be set to this. You can "
 "still override it, if you want to."
 msgstr ""
-"ຕຳແໜ່ງຍ້າຍເມື່ອສຳເລັດເລີ່ມຕົ້ນສຳລັບທໍເຣັ້ນຈາກກຸ່ມນີ້. <br/><br/>"
-"ສິ່ງນີ້ໃຊ້ສະເພາະໃນກ່ອງໂຕ້ຕອບການເລືອກໄຟລ໌, ເມື່ອເຈົ້າປ່ຽນກຸ່ມ, "
-"ຕຳແໜ່ງຍ້າຍເມື່ອສຳເລັດໃນກ່ອງໂຕ້ຕອບຈະຖືກຕັ້ງເປັນຄ່ານີ້. "
-"ເຈົ້າຍັງສາມາດປ່ຽນມັນໄດ້ຖ້າຕ້ອງການ."
+"ຕຳແໜ່ງຍ້າຍເມື່ອສຳເລັດເລີ່ມຕົ້ນສຳລັບທໍເຣັ້ນຈາກກຸ່ມນີ້. <br/><br/"
+">ສິ່ງນີ້ໃຊ້ສະເພາະໃນກ່ອງໂຕ້ຕອບການເລືອກໄຟລ໌, ເມື່ອເຈົ້າປ່ຽນກຸ່ມ, "
+"ຕຳແໜ່ງຍ້າຍເມື່ອສຳເລັດໃນກ່ອງໂຕ້ຕອບຈະຖືກຕັ້ງເປັນຄ່ານີ້. ເຈົ້າຍັງສາມາດປ່ຽນມັນໄດ້ຖ້າຕ້ອງການ."
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
 #: ktorrent/groups/grouppolicydlg.ui:63
@@ -1277,74 +1266,74 @@ msgstr "ນະໂຍບາຍກຸ່ມ"
 msgid "Please enter the group name."
 msgstr "ກະລຸນາປ້ອນຊື່ກຸ່ມ."
 
-#: ktorrent/groups/groupview.cpp:101
+#: ktorrent/groups/groupview.cpp:102
 #, kde-format
 msgid "The group %1 already exists."
 msgstr "ມີກຸ່ມ %1 ຢູ່ແລ້ວ."
 
-#: ktorrent/gui.cpp:262
+#: ktorrent/gui.cpp:268
 #, kde-format
 msgid "Open Location"
 msgstr "ເປີດຕຳແໜ່ງ"
 
-#: ktorrent/gui.cpp:360
+#: ktorrent/gui.cpp:374
 #, kde-format
 msgid "Create a new torrent"
 msgstr "ສ້າງທໍເຣັ້ນໃໝ່"
 
-#: ktorrent/gui.cpp:362
+#: ktorrent/gui.cpp:376
 #, kde-format
 msgid "Open a torrent"
 msgstr "ເປີດທໍເຣັ້ນ"
 
-#: ktorrent/gui.cpp:365
+#: ktorrent/gui.cpp:379
 #, kde-format
 msgid "Open Silently"
 msgstr "ເປີດແບບງຽບໆ"
 
-#: ktorrent/gui.cpp:366
+#: ktorrent/gui.cpp:380
 #, kde-format
 msgid "Open a torrent without asking any questions"
 msgstr "ເປີດທໍເຣັ້ນໂດຍບໍ່ຖາມຄຳຖາມໃດໆ"
 
-#: ktorrent/gui.cpp:381
+#: ktorrent/gui.cpp:395
 #, kde-format
 msgid "Open URL"
 msgstr "ເປີດ URL"
 
-#: ktorrent/gui.cpp:382
+#: ktorrent/gui.cpp:396
 #, kde-format
 msgid "Open a URL which points to a torrent, magnet links are supported"
 msgstr "ເປີດ URL ທີ່ຊີ້ໄປຫາທໍເຣັ້ນ, ຮອງຮັບ magnet links"
 
-#: ktorrent/gui.cpp:387 plugins/ipfilter/ipblockingprefpage.cpp:19
+#: ktorrent/gui.cpp:401 plugins/ipfilter/ipblockingprefpage.cpp:19
 #: plugins/ipfilter/ipfilterplugin.cpp:44
-#: plugins/ipfilter/ipfilterplugin.cpp:57
+#: plugins/ipfilter/ipfilterplugin.cpp:58
 #, kde-format
 msgid "IP Filter"
 msgstr "ຕົວຄັດກອງ IP"
 
-#: ktorrent/gui.cpp:388
+#: ktorrent/gui.cpp:402
 #, kde-format
 msgid "Show the list of blocked IP addresses"
 msgstr "ສະແດງລາຍຊື່ຂອງ IP ທີ່ຖືກບລັອກ"
 
-#: ktorrent/gui.cpp:393
+#: ktorrent/gui.cpp:407
 #, kde-format
 msgid "Import Torrent"
 msgstr "ນຳເຂົ້າທໍເຣັ້ນ"
 
-#: ktorrent/gui.cpp:394
+#: ktorrent/gui.cpp:408
 #, kde-format
 msgid "Import a torrent"
 msgstr "ນຳເຂົ້າທໍເຣັ້ນ"
 
-#: ktorrent/gui.cpp:399
+#: ktorrent/gui.cpp:413
 #, kde-format
 msgid "Show/Hide KTorrent"
 msgstr "ສະແດງ/ຊ່ອນ KTorrent"
 
-#: ktorrent/gui.cpp:417
+#: ktorrent/gui.cpp:431
 #, kde-format
 msgid "D: %1 | U: %2"
 msgstr "D: %1 | U: %2"
@@ -1357,25 +1346,25 @@ msgstr "ລາຍຊື່ຕົວຄັດກອງ IP"
 #: ktorrent/ipfilterwidget.cpp:91
 #, kde-format
 msgid ""
-"Invalid IP address <b>%1</b>. IP addresses must be in the format "
-"'XXX.XXX.XXX.XXX'.<br/><br/>You can also use wildcards like '127.0.0.*' or "
-"specify ranges like '200.10.10.0-200.10.10.40'."
+"Invalid IP address <b>%1</b>. IP addresses must be in the format 'XXX.XXX."
+"XXX.XXX'.<br/><br/>You can also use wildcards like '127.0.0.*' or specify "
+"ranges like '200.10.10.0-200.10.10.40'."
 msgstr ""
-"ທີ່ຢູ່ IP ບໍ່ຖືກຕ້ອງ <b>%1</b>. ທີ່ຢູ່ IP ຕ້ອງຢູ່ໃນຮູບແບບ 'XXX.XXX.XXX.XXX'."
-"<br/><br/>ເຈົ້າຍັງສາມາດໃຊ້ wildcard ເຊັ່ນ '127.0.0.*' ຫຼື ກຳນົດຊ່ວງເຊັ່ນ "
+"ທີ່ຢູ່ IP ບໍ່ຖືກຕ້ອງ <b>%1</b>. ທີ່ຢູ່ IP ຕ້ອງຢູ່ໃນຮູບແບບ 'XXX.XXX.XXX.XXX'.<br/><br/"
+">ເຈົ້າຍັງສາມາດໃຊ້ wildcard ເຊັ່ນ '127.0.0.*' ຫຼື ກຳນົດຊ່ວງເຊັ່ນ "
 "'200.10.10.0-200.10.10.40'."
 
-#: ktorrent/ipfilterwidget.cpp:118
+#: ktorrent/ipfilterwidget.cpp:119
 #, kde-format
 msgid "Choose a file"
 msgstr "ເລືອກໄຟລ໌"
 
-#: ktorrent/ipfilterwidget.cpp:118 ktorrent/ipfilterwidget.cpp:130
+#: ktorrent/ipfilterwidget.cpp:119 ktorrent/ipfilterwidget.cpp:132
 #, kde-format
 msgid "Text files"
 msgstr "ໄຟລ໌ຂໍ້ຄວາມ"
 
-#: ktorrent/ipfilterwidget.cpp:130
+#: ktorrent/ipfilterwidget.cpp:132
 #, kde-format
 msgid "Choose a filename to save under"
 msgstr "ເລືອກຊື່ໄຟລ໌ເພື່ອບັນທຶກ"
@@ -1494,124 +1483,124 @@ msgstr "ປັບແຕ່ງຖັນ"
 msgid "Columns"
 msgstr "ຖັນ"
 
-#: ktorrent/main.cpp:99
+#: ktorrent/main.cpp:100
 #, kde-format
 msgctxt "@title"
 msgid "KTorrent"
 msgstr "KTorrent"
 
-#: ktorrent/main.cpp:101
+#: ktorrent/main.cpp:102
 #, kde-format
 msgid "Bittorrent client by KDE"
 msgstr "ໂປຣແກຣມ Bittorrent ໂດຍ KDE"
 
-#: ktorrent/main.cpp:103
+#: ktorrent/main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "© 2005–2011 Joris Guisson and Ivan Vasic"
 msgstr "© 2005–2011 Joris Guisson and Ivan Vasic"
 
-#: ktorrent/main.cpp:110
+#: ktorrent/main.cpp:111
 #, kde-format
 msgid "Joris Guisson"
 msgstr "Joris Guisson"
 
-#: ktorrent/main.cpp:114
+#: ktorrent/main.cpp:115
 #, kde-format
 msgid "Ivan Vasic"
 msgstr "Ivan Vasic"
 
-#: ktorrent/main.cpp:115
+#: ktorrent/main.cpp:116
 #, kde-format
 msgid "Alan Jones"
 msgstr "Alan Jones"
 
-#: ktorrent/main.cpp:115
+#: ktorrent/main.cpp:116
 #, kde-format
 msgid "BitFinder Plugin"
 msgstr "BitFinder Plugin"
 
-#: ktorrent/main.cpp:116
+#: ktorrent/main.cpp:117
 #, kde-format
 msgid "Diego Rosario Brogna"
 msgstr "Diego Rosario Brogna"
 
-#: ktorrent/main.cpp:116
+#: ktorrent/main.cpp:117
 #, kde-format
 msgid "Webinterface Plugin, global max share ratio patch"
 msgstr "Webinterface Plugin, global max share ratio patch"
 
-#: ktorrent/main.cpp:117
+#: ktorrent/main.cpp:118
 #, kde-format
 msgid "Krzysztof Kundzicz"
 msgstr "Krzysztof Kundzicz"
 
-#: ktorrent/main.cpp:117
+#: ktorrent/main.cpp:118
 #, kde-format
 msgid "Statistics Plugin"
 msgstr "Statistics Plugin"
 
-#: ktorrent/main.cpp:118
+#: ktorrent/main.cpp:119
 #, kde-format
 msgid "Christian Weilbach"
 msgstr "Christian Weilbach"
 
-#: ktorrent/main.cpp:118
+#: ktorrent/main.cpp:119
 #, kde-format
 msgid "kio-magnet"
 msgstr "kio-magnet"
 
-#: ktorrent/main.cpp:119
+#: ktorrent/main.cpp:120
 #, kde-format
 msgid "Mladen Babic"
 msgstr "Mladen Babic"
 
-#: ktorrent/main.cpp:119
+#: ktorrent/main.cpp:120
 #, kde-format
 msgid "Application icon and a couple of others"
 msgstr "Application icon and a couple of others"
 
-#: ktorrent/main.cpp:120
+#: ktorrent/main.cpp:121
 #, kde-format
 msgid "Adam Treat"
 msgstr "Adam Treat"
 
-#: ktorrent/main.cpp:121
+#: ktorrent/main.cpp:122
 #, kde-format
 msgid "Danny Allen"
 msgstr "Danny Allen"
 
-#: ktorrent/main.cpp:121
+#: ktorrent/main.cpp:122
 #, kde-format
 msgid "1.0 application icon"
 msgstr "1.0 application icon"
 
-#: ktorrent/main.cpp:122
+#: ktorrent/main.cpp:123
 #, kde-format
 msgid "Vincent Wagelaar"
 msgstr "Vincent Wagelaar"
 
-#: ktorrent/main.cpp:123
+#: ktorrent/main.cpp:124
 #, kde-format
 msgid "Knut Morten Johansson"
 msgstr "Knut Morten Johansson"
 
-#: ktorrent/main.cpp:124
+#: ktorrent/main.cpp:125
 #, kde-format
 msgid "Felix Berger"
 msgstr "Felix Berger"
 
-#: ktorrent/main.cpp:124
+#: ktorrent/main.cpp:125
 #, kde-format
 msgid "ChunkBar's tooltip and IWFileTreeItem sorting"
 msgstr "ChunkBar's tooltip and IWFileTreeItem sorting"
 
-#: ktorrent/main.cpp:125
+#: ktorrent/main.cpp:126
 #, kde-format
 msgid "Andreas Kling"
 msgstr "Andreas Kling"
 
-#: ktorrent/main.cpp:126
+#: ktorrent/main.cpp:127
 #, kde-format
 msgid "Felipe Sateler"
 msgstr "Felipe Sateler"
@@ -2120,12 +2109,11 @@ msgid ""
 msgstr ""
 "<p>ຈຳນວນເວລາທີ່ network threads ຈະພັກ ເມື່ອຖືກຈຳກັດຄວາມໄວ. "
 "ສິ່ງນີ້ບໍ່ມີຜົນຫຍັງເລີຍເມື່ອບໍ່ມີການຈຳກັດຄວາມໄວ.</p>\n"
-"<p><span style=\" font-weight:600;\">ໝາຍເຫດ:</span> ຄ່ານີ້ຍິ່ງຕ່ຳ CPU "
-"ຍິ່ງຖືກໃຊ້ຫຼາຍ. ການຕັ້ງຄ່າສູງອາດເຮັດໃຫ້ຄວາມໄວຫຼຸດລົງໃນສະຖານະການ bandwidth ສູງ. </"
-"p>\n"
+"<p><span style=\" font-weight:600;\">ໝາຍເຫດ:</span> ຄ່ານີ້ຍິ່ງຕ່ຳ CPU ຍິ່ງຖືກໃຊ້ຫຼາຍ. "
+"ການຕັ້ງຄ່າສູງອາດເຮັດໃຫ້ຄວາມໄວຫຼຸດລົງໃນສະຖານະການ bandwidth ສູງ. </p>\n"
 "<p>ຕົວຢ່າງເຊັ່ນໃນ 100 Mbit LAN, ຖ້າເຈົ້າຕັ້ງຂີດຈຳກັດໄວ້ທີ່ 3000 KiB/s, "
-"ເຈົ້າອາດຈະໄປບໍ່ເຖິງຄວາມໄວນີ້ຖ້າຄ່ານີ້ສູງເກີນໄປ. ຖ້າບໍ່ມີຂີດຈຳກັດ "
-"ເຈົ້າສາມາດໄປໄດ້ສູງກວ່າ 3000 KiB/s ໃນ LAN ໄດ້ຢ່າງງ່າຍດາຍ.</p>"
+"ເຈົ້າອາດຈະໄປບໍ່ເຖິງຄວາມໄວນີ້ຖ້າຄ່ານີ້ສູງເກີນໄປ. ຖ້າບໍ່ມີຂີດຈຳກັດ ເຈົ້າສາມາດໄປໄດ້ສູງກວ່າ 3000 KiB/s "
+"ໃນ LAN ໄດ້ຢ່າງງ່າຍດາຍ.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: ktorrent/pref/advancedpref.ui:132
@@ -2151,8 +2139,7 @@ msgstr "ຈຳນວນ magnet ສູງສຸດທີ່ດາວໂຫລດ�
 msgid ""
 "Whether or not the magnets that are not downloaded after a maximum period of "
 "time must be pushed back at the end of the queue."
-msgstr ""
-"ຄວນຍ້າຍ magnets ທີ່ບໍ່ໄດ້ດາວໂຫລດຫຼັງຈາກໄລຍະເວລາສູງສຸດ ໄປໄວ້ທ້າຍຄິວ ຫຼື ບໍ່."
+msgstr "ຄວນຍ້າຍ magnets ທີ່ບໍ່ໄດ້ດາວໂຫລດຫຼັງຈາກໄລຍະເວລາສູງສຸດ ໄປໄວ້ທ້າຍຄິວ ຫຼື ບໍ່."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_requeueMagnets)
 #: ktorrent/pref/advancedpref.ui:166
@@ -2194,8 +2181,8 @@ msgid ""
 "<p>The amount of data at the beginning and end of an audio file, which will "
 "be prioritized for previewing.</p>"
 msgstr ""
-"<p>ຈຳນວນຂໍ້ມູນຢູ່ຕອນຕົ້ນ ແລະ ຕອນທ້າຍຂອງໄຟລ໌ສຽງ, "
-"ເຊິ່ງຈະຖືກຈັດລຳດັບຄວາມສຳຄັນສຳລັບການເບິ່ງຕົວຢ່າງ.</p>"
+"<p>ຈຳນວນຂໍ້ມູນຢູ່ຕອນຕົ້ນ ແລະ ຕອນທ້າຍຂອງໄຟລ໌ສຽງ, ເຊິ່ງຈະຖືກຈັດລຳດັບຄວາມສຳຄັນສຳລັບການເບິ່ງຕົວຢ່າງ."
+"</p>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_previewSizeAudio)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_previewSizeVideo)
@@ -2217,8 +2204,8 @@ msgid ""
 "<p>The amount of data at the beginning and end of a video file, which will "
 "be prioritized for previewing.</p>"
 msgstr ""
-"<p>ຈຳນວນຂໍ້ມູນຢູ່ຕອນຕົ້ນ ແລະ ຕອນທ້າຍຂອງໄຟລ໌ວິດີໂອ, "
-"ເຊິ່ງຈະຖືກຈັດລຳດັບຄວາມສຳຄັນສຳລັບການເບິ່ງຕົວຢ່າງ.</p>"
+"<p>ຈຳນວນຂໍ້ມູນຢູ່ຕອນຕົ້ນ ແລະ ຕອນທ້າຍຂອງໄຟລ໌ວິດີໂອ, ເຊິ່ງຈະຖືກຈັດລຳດັບຄວາມສຳຄັນສຳລັບການເບິ່ງຕົວຢ່າງ."
+"</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ktorrent/pref/advancedpref.ui:285
@@ -2246,8 +2233,7 @@ msgid ""
 "It can be disabled if you do not like the additional network traffic it "
 "generates"
 msgstr ""
-"ແປງຊື່ໂຮດຂອງແຕ່ລະ peer. ສິ່ງນີ້ຈະສົ່ງຜົນໃຫ້ຊື່ໂຮດຂອງ peer "
-"ຖືກສະແດງແທນທີ່ຈະເປັນທີ່ຢູ່ IP. \n"
+"ແປງຊື່ໂຮດຂອງແຕ່ລະ peer. ສິ່ງນີ້ຈະສົ່ງຜົນໃຫ້ຊື່ໂຮດຂອງ peer ຖືກສະແດງແທນທີ່ຈະເປັນທີ່ຢູ່ IP. \n"
 "\n"
 "ມັນສາມາດປິດການໃຊ້ງານໄດ້ ຖ້າເຈົ້າບໍ່ມັກການຈາລະຈອນເຄືອຂ່າຍເພີ່ມເຕີມທີ່ມັນສ້າງຂຶ້ນ"
 
@@ -2274,9 +2260,7 @@ msgstr "ຄຸນສົມບັດ"
 msgid ""
 "DHT is a trackerless protocol to find peers sharing the same torrents as you "
 "do."
-msgstr ""
-"DHT ແມ່ນໂປຣໂຕຄໍທີ່ບໍ່ໃຊ້ tracker ເພື່ອຄົ້ນຫາ peers "
-"ທີ່ກຳລັງແບ່ງປັນທໍເຣັ້ນດຽວກັນກັບເຈົ້າ."
+msgstr "DHT ແມ່ນໂປຣໂຕຄໍທີ່ບໍ່ໃຊ້ tracker ເພື່ອຄົ້ນຫາ peers ທີ່ກຳລັງແບ່ງປັນທໍເຣັ້ນດຽວກັນກັບເຈົ້າ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_dhtSupport)
 #: ktorrent/pref/btpref.ui:26
@@ -2300,9 +2284,9 @@ msgid ""
 "UPnP plugin can do this for you.</p>"
 msgstr ""
 "<p>ພອດ UDP ທີ່ຈະໃຊ້ສຳລັບໂປຣໂຕຄໍ DHT.</p>\n"
-"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ:</span> "
-"ຖ້າເຈົ້າຢູ່ຫຼັງ router, ພອດນີ້ຈຳເປັນຕ້ອງຖືກ forward ເພື່ອຮັບຄຳຮ້ອງຂໍ DHT "
-"ທີ່ເຂົ້າມາ. Plugin UPnP ສາມາດເຮັດສິ່ງນີ້ໃຫ້ເຈົ້າໄດ້.</p>"
+"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ:</span> ຖ້າເຈົ້າຢູ່ຫຼັງ router, "
+"ພອດນີ້ຈຳເປັນຕ້ອງຖືກ forward ເພື່ອຮັບຄຳຮ້ອງຂໍ DHT ທີ່ເຂົ້າມາ. Plugin UPnP "
+"ສາມາດເຮັດສິ່ງນີ້ໃຫ້ເຈົ້າໄດ້.</p>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_pexEnabled)
 #: ktorrent/pref/btpref.ui:61
@@ -2357,10 +2341,10 @@ msgid ""
 "<p>The encryption will prevent your bittorrent traffic to be flagged as "
 "bittorrent traffic, and so the ISP will not slow it down.</p>"
 msgstr ""
-"<p>ການເຂົ້າລະຫັດໂປຣໂຕຄໍ ມີປະໂຫຍດເມື່ອ ISP ຂອງເຈົ້າກຳລັງຫຼຸດຄວາມໄວການເຊື່ອມຕໍ່ "
-"bittorrent. </p>\n"
-"<p>ການເຂົ້າລະຫັດຈະປ້ອງກັນບໍ່ໃຫ້ການຈາລະຈອນ bittorrent "
-"ຂອງເຈົ້າຖືກລະບຸວ່າເປັນ bittorrent, ດັ່ງນັ້ນ ISP ຈະບໍ່ຫຼຸດຄວາມໄວຂອງມັນ.</p>"
+"<p>ການເຂົ້າລະຫັດໂປຣໂຕຄໍ ມີປະໂຫຍດເມື່ອ ISP ຂອງເຈົ້າກຳລັງຫຼຸດຄວາມໄວການເຊື່ອມຕໍ່ bittorrent. </"
+"p>\n"
+"<p>ການເຂົ້າລະຫັດຈະປ້ອງກັນບໍ່ໃຫ້ການຈາລະຈອນ bittorrent ຂອງເຈົ້າຖືກລະບຸວ່າເປັນ bittorrent, "
+"ດັ່ງນັ້ນ ISP ຈະບໍ່ຫຼຸດຄວາມໄວຂອງມັນ.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useEncryption)
 #. i18n: ectx: label, entry (useEncryption), group (downloads)
@@ -2377,8 +2361,8 @@ msgid ""
 "disabled. If you want to connect to those peers, you need to have this "
 "option enabled."
 msgstr ""
-"ບໍ່ແມ່ນທຸກ client ທີ່ຮອງຮັບການເຂົ້າລະຫັດ, ແລະ ບາງຄົນກໍ່ປິດການເຂົ້າລະຫັດໄວ້. "
-"ຖ້າເຈົ້າຕ້ອງການເຊື່ອມຕໍ່ກັບ peers ເຫຼົ່ານັ້ນ, ເຈົ້າຈຳເປັນຕ້ອງເປີດໃຊ້ຕົວເລືອກນີ້."
+"ບໍ່ແມ່ນທຸກ client ທີ່ຮອງຮັບການເຂົ້າລະຫັດ, ແລະ ບາງຄົນກໍ່ປິດການເຂົ້າລະຫັດໄວ້. ຖ້າເຈົ້າຕ້ອງການເຊື່ອມຕໍ່ກັບ "
+"peers ເຫຼົ່ານັ້ນ, ເຈົ້າຈຳເປັນຕ້ອງເປີດໃຊ້ຕົວເລືອກນີ້."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowUnencryptedConnections)
 #. i18n: ectx: label, entry (allowUnencryptedConnections), group (downloads)
@@ -2400,8 +2384,8 @@ msgid ""
 "Instead of allowing the tracker to determine your IP address, tell the "
 "tracker which IP address to use. Use this when you are behind a proxy."
 msgstr ""
-"ແທນທີ່ຈະປ່ອຍໃຫ້ tracker ກຳນົດທີ່ຢູ່ IP ຂອງເຈົ້າ, ໃຫ້ບອກ tracker ວ່າຈະໃຊ້ IP "
-"ໃດ. ໃຊ້ສິ່ງນີ້ເມື່ອເຈົ້າຢູ່ຫຼັງ proxy."
+"ແທນທີ່ຈະປ່ອຍໃຫ້ tracker ກຳນົດທີ່ຢູ່ IP ຂອງເຈົ້າ, ໃຫ້ບອກ tracker ວ່າຈະໃຊ້ IP ໃດ. "
+"ໃຊ້ສິ່ງນີ້ເມື່ອເຈົ້າຢູ່ຫຼັງ proxy."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomIP)
 #: ktorrent/pref/btpref.ui:133
@@ -2422,8 +2406,8 @@ msgid ""
 "Custom IP address or hostname to send to the tracker. Hostnames will be "
 "resolved at runtime and the resolved IP address will be sent to the tracker."
 msgstr ""
-"ທີ່ຢູ່ IP ຫຼື ຊື່ໂຮດແບບກຳນົດເອງທີ່ຈະສົ່ງໄປໃຫ້ tracker. ຊື່ໂຮດຈະຖືກແປງໃນເວລາທຳງານ "
-"ແລະ ທີ່ຢູ່ IP ທີ່ໄດ້ຈະຖືກສົ່ງໄປໃຫ້ tracker."
+"ທີ່ຢູ່ IP ຫຼື ຊື່ໂຮດແບບກຳນົດເອງທີ່ຈະສົ່ງໄປໃຫ້ tracker. ຊື່ໂຮດຈະຖືກແປງໃນເວລາທຳງານ ແລະ ທີ່ຢູ່ IP "
+"ທີ່ໄດ້ຈະຖືກສົ່ງໄປໃຫ້ tracker."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, ColorsGbw)
@@ -2483,9 +2467,7 @@ msgstr "ເນັ້ນທໍເຣັ້ນເພີ່ມເຕີມໂດຍ
 msgid ""
 "Color to use when at least one tracker is connected and replied no errors or "
 "warnings."
-msgstr ""
-"ສີທີ່ຈະໃຊ້ເມື່ອມີຢ່າງໜ້ອຍໜຶ່ງ tracker ເຊື່ອມຕໍ່ໄດ້ ແລະ "
-"ຕອບກັບໂດຍບໍ່ມີຂໍ້ຜິດພາດ ຫຼື ຄຳເຕືອນ."
+msgstr "ສີທີ່ຈະໃຊ້ເມື່ອມີຢ່າງໜ້ອຍໜຶ່ງ tracker ເຊື່ອມຕໍ່ໄດ້ ແລະ ຕອບກັບໂດຍບໍ່ມີຂໍ້ຜິດພາດ ຫຼື ຄຳເຕືອນ."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ktorrent/pref/colorpref.ui:79
@@ -2690,8 +2672,7 @@ msgstr "ເປີດທໍເຣັ້ນທັງໝົດແບບງຽບໆ
 msgid ""
 "Prevent computer from going into a sleep state or locking the screen when "
 "torrents are running."
-msgstr ""
-"ປ້ອງກັນຄອມພິວເຕີບໍ່ໃຫ້ເຂົ້າສູ່ໂໝດ sleep ຫຼື ລັອກໜ້າຈໍ ເມື່ອທໍເຣັ້ນກຳລັງທຳງານ."
+msgstr "ປ້ອງກັນຄອມພິວເຕີບໍ່ໃຫ້ເຂົ້າສູ່ໂໝດ sleep ຫຼື ລັອກໜ້າຈໍ ເມື່ອທໍເຣັ້ນກຳລັງທຳງານ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_suppressSleep)
 #: ktorrent/pref/generalpref.ui:152
@@ -2709,9 +2690,9 @@ msgid ""
 "weight:600;\">linux-desktop.</span></p>"
 msgstr ""
 "<p>ປ່ຽນຊື່ທໍເຣັ້ນທີ່ມີໄຟລ໌ດຽວ ໃຫ້ເປັນຊື່ຂອງໄຟລ໌ນັ້ນ. </p>\n"
-"<p>ຕົວຢ່າງເຊັ່ນ ຖ້າໄຟລ໌ຊື່ <span style=\" font-weight:600;\">linux-desktop."
-"iso</span>, ທໍເຣັ້ນຈະຖືກສະແດງເປັນ <span style=\" font-weight:600;\">linux-"
-"desktop.</span></p>"
+"<p>ຕົວຢ່າງເຊັ່ນ ຖ້າໄຟລ໌ຊື່ <span style=\" font-weight:600;\">linux-desktop.iso</"
+"span>, ທໍເຣັ້ນຈະຖືກສະແດງເປັນ <span style=\" font-weight:600;\">linux-desktop.</"
+"span></p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoRenameSingleFileTorrents)
 #: ktorrent/pref/generalpref.ui:163
@@ -2764,9 +2745,9 @@ msgid ""
 "UPnP plugin can do this for you.</p>"
 msgstr ""
 "<p>ພອດທີ່ໃຊ້ສຳລັບໂປຣໂຕຄໍ bittorrent.</p>\n"
-"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ:</span> "
-"ຖ້າເຈົ້າຢູ່ຫຼັງ router, ພອດນີ້ຈຳເປັນຕ້ອງຖືກ forward "
-"ເພື່ອຮັບການເຊື່ອມຕໍ່ທີ່ເຂົ້າມາ. Plugin UPnP ສາມາດເຮັດສິ່ງນີ້ໃຫ້ເຈົ້າໄດ້.</p>"
+"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ:</span> ຖ້າເຈົ້າຢູ່ຫຼັງ router, "
+"ພອດນີ້ຈຳເປັນຕ້ອງຖືກ forward ເພື່ອຮັບການເຊື່ອມຕໍ່ທີ່ເຂົ້າມາ. Plugin UPnP ສາມາດເຮັດສິ່ງນີ້ໃຫ້ເຈົ້າໄດ້.</"
+"p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ktorrent/pref/networkpref.ui:47
@@ -2784,9 +2765,8 @@ msgid ""
 "</p>"
 msgstr ""
 "<p>ພອດທີ່ໃຊ້ສຳລັບໂປຣໂຕຄໍ UDP tracker.</p>\n"
-"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ:</span> "
-"ຖ້າເຈົ້າຢູ່ຫຼັງ router, ພອດນີ້ຈຳເປັນຕ້ອງຖືກ forward. Plugin UPnP "
-"ສາມາດເຮັດສິ່ງນີ້ໃຫ້ເຈົ້າໄດ້.</p>"
+"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ:</span> ຖ້າເຈົ້າຢູ່ຫຼັງ router, "
+"ພອດນີ້ຈຳເປັນຕ້ອງຖືກ forward. Plugin UPnP ສາມາດເຮັດສິ່ງນີ້ໃຫ້ເຈົ້າໄດ້.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -2841,8 +2821,7 @@ msgstr "ຄ່າ DSCP ສຳລັບແພັກເກັດ IP:"
 msgid ""
 "This value will be filled in the DSCP field of all the IP packets sent for "
 "the bittorrent protocol."
-msgstr ""
-"ຄ່ານີ້ຈະຖືກໃສ່ໃນຊ່ອງ DSCP ຂອງທຸກແພັກເກັດ IP ທີ່ສົ່ງສຳລັບໂປຣໂຕຄໍ bittorrent."
+msgstr "ຄ່ານີ້ຈະຖືກໃສ່ໃນຊ່ອງ DSCP ຂອງທຸກແພັກເກັດ IP ທີ່ສົ່ງສຳລັບໂປຣໂຕຄໍ bittorrent."
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: ktorrent/pref/networkpref.ui:185
@@ -2860,8 +2839,7 @@ msgid ""
 "try setting this number a bit lower.</p>"
 msgstr ""
 "<p>ຈຳນວນການເຊື່ອມຕໍ່ຂາອອກສູງສຸດທີ່ ktorrent ຈະພະຍາຍາມຕັ້ງຄ່າພ້ອມກັນ.</p>\n"
-"<p>ຖ້າເຈົ້າມີບັນຫາກັບການທີ່ ktorrent ບລັອກການຈາລະຈອນອິນເຕີເນັດອື່ນໆ, "
-"ໃຫ້ລອງຕັ້ງຄ່ານີ້ໃຫ້ຕ່ຳລົງ.</p>"
+"<p>ຖ້າເຈົ້າມີບັນຫາກັບການທີ່ ktorrent ບລັອກການຈາລະຈອນອິນເຕີເນັດອື່ນໆ, ໃຫ້ລອງຕັ້ງຄ່ານີ້ໃຫ້ຕ່ຳລົງ.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ktorrent/pref/networkpref.ui:209
@@ -2888,8 +2866,7 @@ msgid ""
 "The µTorrent transport protocol runs over UDP and is optimized to not "
 "interfere with other traffic, while still using up all unused bandwidth."
 msgstr ""
-"ໂປຣໂຕຄໍການຂົນສົ່ງ µTorrent ທຳງານຜ່ານ UDP ແລະ "
-"ຖືກປັບແຕ່ງບໍ່ໃຫ້ລົບກວນການຈາລະຈອນອື່ນໆ, "
+"ໂປຣໂຕຄໍການຂົນສົ່ງ µTorrent ທຳງານຜ່ານ UDP ແລະ ຖືກປັບແຕ່ງບໍ່ໃຫ້ລົບກວນການຈາລະຈອນອື່ນໆ, "
 "ໃນຂະນະທີ່ຍັງໃຊ້ bandwidth ທີ່ບໍ່ໄດ້ໃຊ້ທັງໝົດ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_utpEnabled)
@@ -2906,9 +2883,8 @@ msgid ""
 "can lead to slower speeds, seeing that not all bittorrent clients support "
 "µTP."
 msgstr ""
-"ບໍ່ໃຊ້ TCP ສຳລັບການເຊື່ອມຕໍ່ bittorrent, ໃຊ້ສະເພາະໂປຣໂຕຄໍ µTP. "
-"ສິ່ງນີ້ອາດເຮັດໃຫ້ຄວາມໄວຊ້າລົງ, ເນື່ອງຈາກບໍ່ແມ່ນທຸກ bittorrent client "
-"ທີ່ຮອງຮັບ µTP."
+"ບໍ່ໃຊ້ TCP ສຳລັບການເຊື່ອມຕໍ່ bittorrent, ໃຊ້ສະເພາະໂປຣໂຕຄໍ µTP. ສິ່ງນີ້ອາດເຮັດໃຫ້ຄວາມໄວຊ້າລົງ, "
+"ເນື່ອງຈາກບໍ່ແມ່ນທຸກ bittorrent client ທີ່ຮອງຮັບ µTP."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_onlyUseUtp)
 #: ktorrent/pref/networkpref.ui:245
@@ -2929,8 +2905,7 @@ msgid ""
 "The primary transport protocol to use, when attempting to set up a "
 "connection with a peer, this protocol is chosen first."
 msgstr ""
-"ໂປຣໂຕຄໍການຂົນສົ່ງຫຼັກທີ່ຈະໃຊ້, ເມື່ອພະຍາຍາມຕັ້ງຄ່າການເຊື່ອມຕໍ່ກັບ peer, "
-"ໂປຣໂຕຄໍນີ້ຈະຖືກເລືອກກ່ອນ."
+"ໂປຣໂຕຄໍການຂົນສົ່ງຫຼັກທີ່ຈະໃຊ້, ເມື່ອພະຍາຍາມຕັ້ງຄ່າການເຊື່ອມຕໍ່ກັບ peer, ໂປຣໂຕຄໍນີ້ຈະຖືກເລືອກກ່ອນ."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_protocol)
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_primaryTransportProtocol)
@@ -3039,8 +3014,8 @@ msgid ""
 "tracker connections</p>"
 msgstr ""
 "<p>ໃຊ້ SOCKS proxy server ສຳລັບການເຊື່ອມຕໍ່ bittorrent.</p>\n"
-"<p><span style=\" font-weight:600;\">ໝາຍເຫດ: </span>"
-"ສິ່ງນີ້ບໍ່ໄດ້ໃຊ້ສຳລັບການເຊື່ອມຕໍ່ tracker</p>"
+"<p><span style=\" font-weight:600;\">ໝາຍເຫດ: </span>ສິ່ງນີ້ບໍ່ໄດ້ໃຊ້ສຳລັບການເຊື່ອມຕໍ່ "
+"tracker</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_socksEnabled)
 #: ktorrent/pref/proxypref.ui:107
@@ -3078,9 +3053,7 @@ msgstr "ເວີຊັນ:"
 msgid ""
 "If the SOCKS server requires authentication via a username and a password, "
 "enable this box."
-msgstr ""
-"ຖ້າ SOCKS server ຕ້ອງການການຢືນຢັນຕົວຕົນຜ່ານຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານ, "
-"ໃຫ້ເປີດໃຊ້ກ່ອງນີ້."
+msgstr "ຖ້າ SOCKS server ຕ້ອງການການຢືນຢັນຕົວຕົນຜ່ານຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານ, ໃຫ້ເປີດໃຊ້ກ່ອງນີ້."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_socksUsePassword)
 #: ktorrent/pref/proxypref.ui:159
@@ -3224,8 +3197,7 @@ msgid ""
 "<p>This will allow the queue manager to run other torrents, when a torrent "
 "is doing nothing.</p>"
 msgstr ""
-"<p>ເມື່ອເປີດໃຊ້ງານສິ່ງນີ້, ຕົວຈັດການຄິວຈະຫຼຸດລຳດັບຄວາມສຳຄັນຂອງທໍເຣັ້ນທີ່ຄ້າງດົນເກີນໄປ. "
-"</p>\n"
+"<p>ເມື່ອເປີດໃຊ້ງານສິ່ງນີ້, ຕົວຈັດການຄິວຈະຫຼຸດລຳດັບຄວາມສຳຄັນຂອງທໍເຣັ້ນທີ່ຄ້າງດົນເກີນໄປ. </p>\n"
 "<p>ສິ່ງນີ້ຈະຊ່ວຍໃຫ້ຕົວຈັດການຄິວທຳງານທໍເຣັ້ນອື່ນໆ ເມື່ອທໍເຣັ້ນບໍ່ໄດ້ເຮັດຫຍັງເລີຍ.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_decreasePriorityOfStalledTorrents)
@@ -3241,8 +3213,7 @@ msgid ""
 "<p>Time used for the stall timer. When a torrent is stalled longer than "
 "this, its priority will be decreased.</p>"
 msgstr ""
-"<p>ເວລາທີ່ໃຊ້ສຳລັບຕົວຈັບເວລາຄ້າງ. ເມື່ອທໍເຣັ້ນຄ້າງດົນກວ່ານີ້, "
-"ລຳດັບຄວາມສຳຄັນຂອງມັນຈະຖືກຫຼຸດລົງ.</p>"
+"<p>ເວລາທີ່ໃຊ້ສຳລັບຕົວຈັບເວລາຄ້າງ. ເມື່ອທໍເຣັ້ນຄ້າງດົນກວ່ານີ້, ລຳດັບຄວາມສຳຄັນຂອງມັນຈະຖືກຫຼຸດລົງ.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: ktorrent/pref/qmpref.ui:159
@@ -3257,9 +3228,7 @@ msgstr "Seeding"
 msgid ""
 "When a download is finished, continue seeding it. If this is disabled, the "
 "torrent will be stopped."
-msgstr ""
-"ເມື່ອດາວໂຫລດສຳເລັດ, ໃຫ້ສືບຕໍ່ seeding ມັນ. ຖ້າສິ່ງນີ້ຖືກປິດການໃຊ້ງານ, "
-"ທໍເຣັ້ນຈະຖືກຢຸດ."
+msgstr "ເມື່ອດາວໂຫລດສຳເລັດ, ໃຫ້ສືບຕໍ່ seeding ມັນ. ຖ້າສິ່ງນີ້ຖືກປິດການໃຊ້ງານ, ທໍເຣັ້ນຈະຖືກຢຸດ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_keepSeeding)
 #: ktorrent/pref/qmpref.ui:168
@@ -3281,8 +3250,7 @@ msgid ""
 "The number of upload slots, this determines the number of peers you can "
 "upload to simultaneously for one torrent."
 msgstr ""
-"ຈຳນວນຊ່ອງອັບໂຫລດ, ສິ່ງນີ້ກຳນົດຈຳນວນ peers ທີ່ເຈົ້າສາມາດອັບໂຫລດໃຫ້ພ້ອມກັນໄດ້ "
-"ສຳລັບໜຶ່ງທໍເຣັ້ນ."
+"ຈຳນວນຊ່ອງອັບໂຫລດ, ສິ່ງນີ້ກຳນົດຈຳນວນ peers ທີ່ເຈົ້າສາມາດອັບໂຫລດໃຫ້ພ້ອມກັນໄດ້ ສຳລັບໜຶ່ງທໍເຣັ້ນ."
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: ktorrent/pref/qmpref.ui:198
@@ -3300,11 +3268,10 @@ msgid ""
 "<p><span style=\" font-weight:600;\">Attention: </span>This is not used when "
 "downloading, only when seeding.</p>"
 msgstr ""
-"<p>ອັດຕາສ່ວນແບ່ງປັນສູງສຸດ, ຖ້າເຖິງຄ່ານີ້ seeding ຈະຖືກຢຸດ. "
-"ສິ່ງນີ້ມີຜົນສະເພາະກັບທໍເຣັ້ນທີ່ເປີດໃໝ່, "
+"<p>ອັດຕາສ່ວນແບ່ງປັນສູງສຸດ, ຖ້າເຖິງຄ່ານີ້ seeding ຈະຖືກຢຸດ. ສິ່ງນີ້ມີຜົນສະເພາະກັບທໍເຣັ້ນທີ່ເປີດໃໝ່, "
 "ທໍເຣັ້ນທີ່ມີຢູ່ແລ້ວຈະບໍ່ໄດ້ຮັບຜົນກະທົບຈາກການປ່ຽນແປງນີ້.</p>\n"
-"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ: </span>"
-"ສິ່ງນີ້ບໍ່ໄດ້ໃຊ້ເມື່ອດາວໂຫລດ, ໃຊ້ສະເພາະເມື່ອ seeding ເທົ່ານັ້ນ.</p>"
+"<p><span style=\" font-weight:600;\">ຂໍ້ຄວນລະວັງ: </span>ສິ່ງນີ້ບໍ່ໄດ້ໃຊ້ເມື່ອດາວໂຫລດ, "
+"ໃຊ້ສະເພາະເມື່ອ seeding ເທົ່ານັ້ນ.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ktorrent/pref/qmpref.ui:222
@@ -3321,8 +3288,7 @@ msgid ""
 "will not be affected by changing this."
 msgstr ""
 "ເວລາ seed ສູງສຸດເປັນຊົ່ວໂມງ. ເມື່ອເຈົ້າເຖິງເວລານີ້, ທໍເຣັ້ນຈະຖືກຢຸດ. "
-"ສິ່ງນີ້ມີຜົນສະເພາະກັບທໍເຣັ້ນທີ່ເປີດໃໝ່, "
-"ທໍເຣັ້ນທີ່ມີຢູ່ແລ້ວຈະບໍ່ໄດ້ຮັບຜົນກະທົບຈາກການປ່ຽນແປງນີ້."
+"ສິ່ງນີ້ມີຜົນສະເພາະກັບທໍເຣັ້ນທີ່ເປີດໃໝ່, ທໍເຣັ້ນທີ່ມີຢູ່ແລ້ວຈະບໍ່ໄດ້ຮັບຜົນກະທົບຈາກການປ່ຽນແປງນີ້."
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_greenRatio)
@@ -3346,8 +3312,8 @@ msgstr "ອັດຕາສ່ວນແບ່ງປັນດີຂັ້ນຕ່
 msgid "Calculate Recommended Settings"
 msgstr "ຄິດໄລ່ການຕັ້ງຄ່າທີ່ແນະນຳ"
 
-#: ktorrent/pref/recommendedsettingsdlg.cpp:206
-#: ktorrent/pref/recommendedsettingsdlg.cpp:211
+#: ktorrent/pref/recommendedsettingsdlg.cpp:209
+#: ktorrent/pref/recommendedsettingsdlg.cpp:214
 #, kde-format
 msgid "(= %1/s)"
 msgstr "(= %1/s)"
@@ -3434,39 +3400,39 @@ msgstr "ຊ່ອງຕໍ່ທໍເຣັ້ນ:"
 msgid "Recommended settings:"
 msgstr "ການຕັ້ງຄ່າທີ່ແນະນຳ:"
 
-#: ktorrent/statusbar.cpp:34 ktorrent/statusbar.cpp:66
+#: ktorrent/statusbar.cpp:34 ktorrent/statusbar.cpp:67
 #, kde-format
 msgid "Speed down: %1 / up: %2"
 msgstr "ຄວາມໄວ ລົງ: %1 / ຂຶ້ນ: %2"
 
-#: ktorrent/statusbar.cpp:35 ktorrent/statusbar.cpp:77
+#: ktorrent/statusbar.cpp:35 ktorrent/statusbar.cpp:79
 #, kde-format
 msgid "Transferred down: %1 / up: %2"
 msgstr "ຖ່າຍໂອນແລ້ວ ລົງ: %1 / ຂຶ້ນ: %2"
 
-#: ktorrent/statusbar.cpp:37 ktorrent/statusbar.cpp:92
+#: ktorrent/statusbar.cpp:37 ktorrent/statusbar.cpp:95
 #, kde-format
 msgid "DHT: off"
 msgstr "DHT: ປິດ"
 
-#: ktorrent/statusbar.cpp:90
+#: ktorrent/statusbar.cpp:93
 #, kde-format
 msgid "%1 node"
 msgid_plural "%1 nodes"
 msgstr[0] "%1 nodes"
 
-#: ktorrent/statusbar.cpp:90
+#: ktorrent/statusbar.cpp:93
 #, kde-format
 msgid "%1 task"
 msgid_plural "%1 tasks"
 msgstr[0] "%1 ວຽກ"
 
-#: ktorrent/statusbar.cpp:90
+#: ktorrent/statusbar.cpp:93
 #, kde-format
 msgid "DHT: %1, %2"
 msgstr "DHT: %1, %2"
 
-#: ktorrent/statusbar.cpp:99
+#: ktorrent/statusbar.cpp:103
 #, kde-format
 msgctxt "Progress bar percentage label"
 msgid "%p%"
@@ -3477,35 +3443,35 @@ msgstr "%p%"
 msgid "The desktop is offline"
 msgstr "ເດັສທັອບອອບໄລນ໌ຢູ່"
 
-#: ktorrent/tools/magnetmodel.cpp:102
+#: ktorrent/tools/magnetmodel.cpp:107
 #, kde-format
 msgid "Magnet Link"
 msgstr "Magnet Link"
 
-#: ktorrent/tools/magnetmodel.cpp:104 ktorrent/tools/queuemanagermodel.cpp:182
-#: ktorrent/trayicon.cpp:137 plugins/infowidget/trackermodel.cpp:123
-#: plugins/infowidget/webseedsmodel.cpp:110
+#: ktorrent/tools/magnetmodel.cpp:109 ktorrent/tools/queuemanagermodel.cpp:185
+#: ktorrent/trayicon.cpp:140 plugins/infowidget/trackermodel.cpp:131
+#: plugins/infowidget/webseedsmodel.cpp:114
 #, kde-format
 msgid "Status"
 msgstr "ສະຖານະ"
 
-#: ktorrent/tools/magnetmodel.cpp:106
-#: plugins/infowidget/infowidgetplugin.cpp:186
+#: ktorrent/tools/magnetmodel.cpp:111
+#: plugins/infowidget/infowidgetplugin.cpp:208
 #, kde-format
 msgid "Peers"
 msgstr "Peers"
 
-#: ktorrent/tools/magnetmodel.cpp:159
+#: ktorrent/tools/magnetmodel.cpp:167
 #, kde-format
 msgid "Downloading"
 msgstr "ກຳລັງດາວໂຫລດ"
 
-#: ktorrent/tools/magnetmodel.cpp:162 ktorrent/tools/queuemanagermodel.cpp:218
+#: ktorrent/tools/magnetmodel.cpp:170 ktorrent/tools/queuemanagermodel.cpp:223
 #, kde-format
 msgid "Queued"
 msgstr "ເຂົ້າຄິວຢູ່"
 
-#: ktorrent/tools/magnetmodel.cpp:166
+#: ktorrent/tools/magnetmodel.cpp:174
 #, kde-format
 msgid "Stopped"
 msgstr "ຢຸດແລ້ວ"
@@ -3530,45 +3496,45 @@ msgstr "ຄັດລອກ URL ຂອງ Magnet"
 msgid "Remove Magnet"
 msgstr "ລຶບ Magnet"
 
-#: ktorrent/tools/queuemanagermodel.cpp:178
+#: ktorrent/tools/queuemanagermodel.cpp:181
 #, kde-format
 msgid "Order"
 msgstr "ລຳດັບ"
 
-#: ktorrent/tools/queuemanagermodel.cpp:180 ktorrent/view/viewmodel.cpp:471
-#: plugins/downloadorder/downloadorderdialog.cpp:70
+#: ktorrent/tools/queuemanagermodel.cpp:183 ktorrent/view/viewmodel.cpp:489
+#: plugins/downloadorder/downloadorderdialog.cpp:71
 #, kde-format
 msgid "Name"
 msgstr "ຊື່"
 
-#: ktorrent/tools/queuemanagermodel.cpp:184
+#: ktorrent/tools/queuemanagermodel.cpp:187
 #, kde-format
 msgid "Time Stalled"
 msgstr "ເວລາຄ້າງ"
 
-#: ktorrent/tools/queuemanagermodel.cpp:186
-#: plugins/infowidget/iwfilelistmodel.cpp:64
-#: plugins/infowidget/iwfiletreemodel.cpp:72
+#: ktorrent/tools/queuemanagermodel.cpp:189
+#: plugins/infowidget/iwfilelistmodel.cpp:67
+#: plugins/infowidget/iwfiletreemodel.cpp:74
 #, kde-format
 msgid "Priority"
 msgstr "ຄວາມສຳຄັນ"
 
-#: ktorrent/tools/queuemanagermodel.cpp:216
+#: ktorrent/tools/queuemanagermodel.cpp:221
 #, kde-format
 msgid "Running"
 msgstr "ກຳລັງທຳງານ"
 
-#: ktorrent/tools/queuemanagermodel.cpp:220
+#: ktorrent/tools/queuemanagermodel.cpp:225
 #, kde-format
 msgid "Not queued"
 msgstr "ບໍ່ໄດ້ຢູ່ໃນຄິວ"
 
-#: ktorrent/tools/queuemanagermodel.cpp:228
+#: ktorrent/tools/queuemanagermodel.cpp:235
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: ktorrent/tools/queuemanagermodel.cpp:238
+#: ktorrent/tools/queuemanagermodel.cpp:246
 #, kde-format
 msgid ""
 "Order of a torrent in the queue.\n"
@@ -3579,7 +3545,7 @@ msgstr ""
 "ໃຊ້ການລາກແລ້ວວາງ ຫຼື ປຸ່ມຍ້າຍຂຶ້ນ ແລະ ລົງ ຢູ່ເບື້ອງຂວາ ເພື່ອປ່ຽນລຳດັບ."
 
 #: ktorrent/tools/queuemanagerwidget.cpp:52
-#: plugins/search/searchactivity.cpp:65 plugins/search/webview.cpp:109
+#: plugins/search/searchactivity.cpp:65 plugins/search/webview.cpp:114
 #, kde-format
 msgid "Search"
 msgstr "ຄົ້ນຫາ"
@@ -3720,45 +3686,45 @@ msgstr "ກັ່ນຕອງທໍເຣັ້ນ"
 msgid "Filter torrents based on filter string"
 msgstr "ກັ່ນຕອງທໍເຣັ້ນໂດຍອີງໃສ່ຂໍ້ຄວາມກັ່ນຕອງ"
 
-#: ktorrent/trayicon.cpp:89
+#: ktorrent/trayicon.cpp:90
 #, kde-format
 msgid "Set max upload speed"
 msgstr "ຕັ້ງຄ່າຄວາມໄວອັບໂຫລດສູງສຸດ"
 
-#: ktorrent/trayicon.cpp:91
+#: ktorrent/trayicon.cpp:92
 #, kde-format
 msgid "Set max download speed"
 msgstr "ຕັ້ງຄ່າຄວາມໄວດາວໂຫລດສູງສຸດ"
 
-#: ktorrent/trayicon.cpp:128
+#: ktorrent/trayicon.cpp:131
 #, kde-format
 msgid ""
 "Download speed: <b>%1</b><br/>Upload speed: <b>%2</b><br/>Received: <b>%3</"
 "b><br/>Transmitted: <b>%4</b>"
 msgstr ""
-"ຄວາມໄວດາວໂຫລດ: <b>%1</b><br/>ຄວາມໄວອັບໂຫລດ: <b>%2</b><br/>ໄດ້ຮັບ: <b>%3</"
-"b><br/>ສົ່ງອອກ: <b>%4</b>"
+"ຄວາມໄວດາວໂຫລດ: <b>%1</b><br/>ຄວາມໄວອັບໂຫລດ: <b>%2</b><br/>ໄດ້ຮັບ: <b>%3</b><br/"
+">ສົ່ງອອກ: <b>%4</b>"
 
-#: ktorrent/trayicon.cpp:167
+#: ktorrent/trayicon.cpp:174
 #, kde-format
 msgid "<b>%1</b> was silently opened."
 msgstr "<b>%1</b> ຖືກເປີດແບບງຽບໆ."
 
-#: ktorrent/trayicon.cpp:181
+#: ktorrent/trayicon.cpp:189
 #, kde-format
 msgid "<b>%1</b> has completed downloading.<br>Average speed: %2 DL / %3 UL."
 msgstr "<b>%1</b> ດາວໂຫລດສຳເລັດແລ້ວ.<br>ຄວາມໄວສະເລ່ຍ: %2 DL / %3 UL."
 
-#: ktorrent/trayicon.cpp:199
+#: ktorrent/trayicon.cpp:208
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum share ratio of %2 and has been stopped."
 "<br>Uploaded %3 at an average speed of %4."
 msgstr ""
-"<b>%1</b> ໄດ້ເຖິງອັດຕາສ່ວນແບ່ງປັນສູງສຸດ %2 ແລ້ວ ແລະ ໄດ້ຖືກຢຸດ.<br>ອັບໂຫລດ %3 "
-"ທີ່ຄວາມໄວສະເລ່ຍ %4."
+"<b>%1</b> ໄດ້ເຖິງອັດຕາສ່ວນແບ່ງປັນສູງສຸດ %2 ແລ້ວ ແລະ ໄດ້ຖືກຢຸດ.<br>ອັບໂຫລດ %3 ທີ່ຄວາມໄວສະເລ່ຍ "
+"%4."
 
-#: ktorrent/trayicon.cpp:218
+#: ktorrent/trayicon.cpp:228
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum seed time of %2 hours and has been stopped."
@@ -3767,20 +3733,21 @@ msgstr ""
 "<b>%1</b> ໄດ້ເຖິງເວລາ seed ສູງສຸດ %2 ຊົ່ວໂມງແລ້ວ ແລະ ໄດ້ຖືກຢຸດ.<br>ອັບໂຫລດ %3 "
 "ທີ່ຄວາມໄວສະເລ່ຍ %4."
 
-#: ktorrent/trayicon.cpp:233
+#: ktorrent/trayicon.cpp:244
 #, kde-format
 msgid "<b>%1</b> has been stopped with the following error: <br>%2"
 msgstr "<b>%1</b> ໄດ້ຖືກຢຸດດ້ວຍຂໍ້ຜິດພາດດັ່ງນີ້: <br>%2"
 
-#: ktorrent/trayicon.cpp:244
+#: ktorrent/trayicon.cpp:256
 #, kde-format
 msgid ""
 "Corrupted data has been found in the torrent <b>%1</b><br>It would be a good "
 "idea to do a data integrity check on the torrent."
 msgstr ""
-"ພົບຂໍ້ມູນເສຍຫາຍໃນທໍເຣັ້ນ <b>%1</b><br>ມັນຈະເປັນການດີທີ່ຈະເຮັດການກວດສອບຄວາມສົມບູນຂອງຂໍ້ມູນໃນທໍເຣັ້ນ."
+"ພົບຂໍ້ມູນເສຍຫາຍໃນທໍເຣັ້ນ <b>%1</"
+"b><br>ມັນຈະເປັນການດີທີ່ຈະເຮັດການກວດສອບຄວາມສົມບູນຂອງຂໍ້ມູນໃນທໍເຣັ້ນ."
 
-#: ktorrent/trayicon.cpp:262
+#: ktorrent/trayicon.cpp:275
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum share ratio of %2 and cannot be enqueued. "
@@ -3789,7 +3756,7 @@ msgstr ""
 "<b>%1</b> ໄດ້ເຖິງອັດຕາສ່ວນແບ່ງປັນສູງສຸດ %2 ແລ້ວ ແລະ ບໍ່ສາມາດເຂົ້າຄິວໄດ້. "
 "<br>ລຶບຂີດຈຳກັດດ້ວຍຕົນເອງ ຖ້າເຈົ້າຕ້ອງການສືບຕໍ່ seeding."
 
-#: ktorrent/trayicon.cpp:268
+#: ktorrent/trayicon.cpp:281
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum seed time of %2 hours and cannot be "
@@ -3798,57 +3765,56 @@ msgstr ""
 "<b>%1</b> ໄດ້ເຖິງເວລາ seed ສູງສຸດ %2 ຊົ່ວໂມງແລ້ວ ແລະ ບໍ່ສາມາດເຂົ້າຄິວໄດ້. "
 "<br>ລຶບຂີດຈຳກັດດ້ວຍຕົນເອງ ຖ້າເຈົ້າຕ້ອງການສືບຕໍ່ seeding."
 
-#: ktorrent/trayicon.cpp:281
+#: ktorrent/trayicon.cpp:296
 #, kde-format
 msgid "Cannot start <b>%1</b>: <br>"
 msgstr "ບໍ່ສາມາດເລີ່ມຕົ້ນ <b>%1</b>: <br>"
 
-#: ktorrent/trayicon.cpp:286
+#: ktorrent/trayicon.cpp:301
 #, kde-format
 msgid "Cannot seed more than 1 torrent. <br>"
 msgid_plural "Cannot seed more than %1 torrents. <br>"
 msgstr[0] "ບໍ່ສາມາດ seed ຫຼາຍກວ່າ %1 ທໍເຣັ້ນ. <br>"
 
-#: ktorrent/trayicon.cpp:288
+#: ktorrent/trayicon.cpp:303
 #, kde-format
 msgid "Cannot download more than 1 torrent. <br>"
 msgid_plural "Cannot download more than %1 torrents. <br>"
 msgstr[0] "ບໍ່ສາມາດດາວໂຫລດຫຼາຍກວ່າ %1 ທໍເຣັ້ນ. <br>"
 
-#: ktorrent/trayicon.cpp:290
+#: ktorrent/trayicon.cpp:305
 #, kde-format
 msgid "Go to Settings -> Configure KTorrent, if you want to change the limits."
 msgstr "ໄປທີ່ ການຕັ້ງຄ່າ -> ປັບແຕ່ງ KTorrent, ຖ້າເຈົ້າຕ້ອງການປ່ຽນຂີດຈຳກັດ."
 
-#: ktorrent/trayicon.cpp:294
+#: ktorrent/trayicon.cpp:309
 #, kde-format
 msgid "There is not enough diskspace available."
 msgstr "ບໍ່ມີພື້ນທີ່ດິສກ໌ພຽງພໍ."
 
-#: ktorrent/trayicon.cpp:307
+#: ktorrent/trayicon.cpp:323
 #, kde-format
 msgid ""
 "Your disk is running out of space.<br /><b>%1</b> is being downloaded to "
 "'%2'."
-msgstr ""
-"ດິສກ໌ຂອງເຈົ້າກຳລັງຈະໝົດພື້ນທີ່.<br /><b>%1</b> ກຳລັງຖືກດາວໂຫລດໄປທີ່ '%2'."
+msgstr "ດິສກ໌ຂອງເຈົ້າກຳລັງຈະໝົດພື້ນທີ່.<br /><b>%1</b> ກຳລັງຖືກດາວໂຫລດໄປທີ່ '%2'."
 
-#: ktorrent/trayicon.cpp:310
+#: ktorrent/trayicon.cpp:326
 #, kde-format
 msgid "Torrent has been stopped.<br />"
 msgstr "ທໍເຣັ້ນໄດ້ຖືກຢຸດແລ້ວ.<br />"
 
-#: ktorrent/trayicon.cpp:346
+#: ktorrent/trayicon.cpp:363
 #, kde-format
 msgid "Upload speed limit in KiB/s"
 msgstr "ຂີດຈຳກັດຄວາມໄວອັບໂຫລດເປັນ KiB/s"
 
-#: ktorrent/trayicon.cpp:348
+#: ktorrent/trayicon.cpp:365
 #, kde-format
 msgid "Download speed limit in KiB/s"
 msgstr "ຂີດຈຳກັດຄວາມໄວດາວໂຫລດເປັນ KiB/s"
 
-#: ktorrent/trayicon.cpp:350 plugins/bwscheduler/schedulegraphicsitem.cpp:77
+#: ktorrent/trayicon.cpp:368 plugins/bwscheduler/schedulegraphicsitem.cpp:77
 #: plugins/bwscheduler/schedulegraphicsitem.cpp:78
 #, kde-format
 msgid "Unlimited"
@@ -3871,8 +3837,7 @@ msgstr "ຄຸນສົມບັດ"
 msgid ""
 "DHT is a distributed database which can be used to find more peers for a "
 "torrent."
-msgstr ""
-"DHT ແມ່ນຖານຂໍ້ມູນແບບກະຈາຍ ເຊິ່ງສາມາດໃຊ້ເພື່ອຄົ້ນຫາ peers ເພີ່ມເຕີມສຳລັບທໍເຣັ້ນ."
+msgstr "DHT ແມ່ນຖານຂໍ້ມູນແບບກະຈາຍ ເຊິ່ງສາມາດໃຊ້ເພື່ອຄົ້ນຫາ peers ເພີ່ມເຕີມສຳລັບທໍເຣັ້ນ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, dht)
 #: ktorrent/view/propertiesdlg.ui:23
@@ -3887,8 +3852,7 @@ msgid ""
 "Peer exchange results in more peers being found, by exchanging information "
 "about peers with other peers."
 msgstr ""
-"Peer exchange ສົ່ງຜົນໃຫ້ພົບ peers ຫຼາຍຂຶ້ນ, ໂດຍການແລກປ່ຽນຂໍ້ມູນກ່ຽວກັບ peers "
-"ກັບ peers ອື່ນໆ."
+"Peer exchange ສົ່ງຜົນໃຫ້ພົບ peers ຫຼາຍຂຶ້ນ, ໂດຍການແລກປ່ຽນຂໍ້ມູນກ່ຽວກັບ peers ກັບ peers ອື່ນໆ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, pex)
 #: ktorrent/view/propertiesdlg.ui:33
@@ -3914,17 +3878,16 @@ msgid ""
 "becomes useless.</p>"
 msgstr ""
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">ໂໝດ Superseeding, "
-"ແມ່ນໂໝດ seeding ພິເສດ ເຊິ່ງຊ່ວຍໃຫ້ເຈົ້າບັນລຸປະສິດທິພາບ seeding ທີ່ສູງກວ່າ. "
-"ສິ່ງນີ້ສົ່ງຜົນໃຫ້ໃຊ້ bandwidth ໜ້ອຍລົງໃນການກະຈາຍທໍເຣັ້ນ.</p>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ໂໝດ Superseeding, ແມ່ນໂໝດ "
+"seeding ພິເສດ ເຊິ່ງຊ່ວຍໃຫ້ເຈົ້າບັນລຸປະສິດທິພາບ seeding ທີ່ສູງກວ່າ. ສິ່ງນີ້ສົ່ງຜົນໃຫ້ໃຊ້ bandwidth "
+"ໜ້ອຍລົງໃນການກະຈາຍທໍເຣັ້ນ.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
 "p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">ໝາຍເຫດ: </span>ສິ່ງນີ້ຄວນໃຊ້ກໍ່ຕໍ່ເມື່ອ swarm "
-"ຍັງບໍ່ຖືກສ້າງຕັ້ງຂຶ້ນຢ່າງສົມບູນ. ເມື່ອມີ seeders ທີ່ທຳງານຫຼາຍຄົນ, "
-"ໂໝດນີ້ຈະບໍ່ມີປະໂຫຍດ.</p>"
+"weight:600;\">ໝາຍເຫດ: </span>ສິ່ງນີ້ຄວນໃຊ້ກໍ່ຕໍ່ເມື່ອ swarm ຍັງບໍ່ຖືກສ້າງຕັ້ງຂຶ້ນຢ່າງສົມບູນ. ເມື່ອມີ "
+"seeders ທີ່ທຳງານຫຼາຍຄົນ, ໂໝດນີ້ຈະບໍ່ມີປະໂຫຍດ.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, superseeding)
 #: ktorrent/view/propertiesdlg.ui:45
@@ -4186,268 +4149,262 @@ msgstr "ສົ່ງອອກທໍເຣັ້ນ"
 msgid "Set the speed limits of individual torrents"
 msgstr "ຕັ້ງຄ່າຂີດຈຳກັດຄວາມໄວຂອງແຕ່ລະທໍເຣັ້ນ"
 
-#: ktorrent/view/view.cpp:452
+#: ktorrent/view/view.cpp:467
 #, kde-format
 msgid ""
 "The torrent <b>%1</b> has not finished downloading, do you want to delete "
 "the incomplete data, too?"
-msgstr ""
-"ທໍເຣັ້ນ <b>%1</b> ຍັງດາວໂຫຼດບໍ່ສຳເລັດ, ເຈົ້າຕ້ອງການລຶບຂໍ້ມູນທີ່ຍັງບໍ່ສົມບູນນັ້ນນຳບໍ່?"
+msgstr "ທໍເຣັ້ນ <b>%1</b> ຍັງດາວໂຫຼດບໍ່ສຳເລັດ, ເຈົ້າຕ້ອງການລຶບຂໍ້ມູນທີ່ຍັງບໍ່ສົມບູນນັ້ນນຳບໍ່?"
 
-#: ktorrent/view/view.cpp:457
+#: ktorrent/view/view.cpp:472
 #, kde-format
 msgid "Remove Download"
 msgstr "ລຶບການດາວໂຫຼດ"
 
-#: ktorrent/view/view.cpp:458
+#: ktorrent/view/view.cpp:473
 #, kde-format
 msgid "Delete Data"
 msgstr "ລຶບຂໍ້ມູນ"
 
-#: ktorrent/view/view.cpp:459
+#: ktorrent/view/view.cpp:474
 #, kde-format
 msgid "Keep Data"
 msgstr "ເກັບຂໍ້ມູນໄວ້"
 
-#: ktorrent/view/view.cpp:483
+#: ktorrent/view/view.cpp:500
 #, kde-format
 msgid ""
 "You will lose all the downloaded data of the following torrents. Are you "
 "sure you want to do this?"
-msgstr ""
-"ເຈົ້າຈະສູນເສຍຂໍ້ມູນທີ່ດາວໂຫຼດມາທັງໝົດຂອງທໍເຣັ້ນດັ່ງລຸ່ມນີ້. "
-"ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການເຮັດແບບນີ້?"
+msgstr "ເຈົ້າຈະສູນເສຍຂໍ້ມູນທີ່ດາວໂຫຼດມາທັງໝົດຂອງທໍເຣັ້ນດັ່ງລຸ່ມນີ້. ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການເຮັດແບບນີ້?"
 
-#: ktorrent/view/view.cpp:484
+#: ktorrent/view/view.cpp:501
 #, kde-format
 msgid "Remove Torrent"
 msgstr "ລຶບທໍເຣັ້ນ"
 
-#: ktorrent/view/view.cpp:575 plugins/infowidget/fileview.cpp:367
-#: plugins/infowidget/fileview.cpp:391
+#: ktorrent/view/view.cpp:595 plugins/infowidget/fileview.cpp:378
+#: plugins/infowidget/fileview.cpp:405
 #, kde-format
 msgid "Select a directory to move the data to."
 msgstr "ເລືອກໂຟນເດີທີ່ຈະຍ້າຍຂໍ້ມູນໄປໃສ່."
 
-#: ktorrent/view/viewdelegate.cpp:332
+#: ktorrent/view/viewdelegate.cpp:344
 #, kde-format
 msgctxt "Progress bar percentage label"
 msgid "%1%"
 msgstr "%1%"
 
-#: ktorrent/view/viewmodel.cpp:182
+#: ktorrent/view/viewmodel.cpp:185
 #, kde-format
 msgctxt "1h 20m ago"
 msgid "%1 ago"
 msgstr "%1 ຜ່ານມາ"
 
-#: ktorrent/view/viewmodel.cpp:473 plugins/infowidget/peerviewmodel.cpp:315
-#: plugins/infowidget/webseedsmodel.cpp:108
+#: ktorrent/view/viewmodel.cpp:491 plugins/infowidget/peerviewmodel.cpp:321
+#: plugins/infowidget/webseedsmodel.cpp:112
 #, kde-format
 msgid "Downloaded"
 msgstr "ດາວໂຫຼດແລ້ວ"
 
-#: ktorrent/view/viewmodel.cpp:475
+#: ktorrent/view/viewmodel.cpp:493
 #, kde-format
 msgctxt "Bytes downloaded this session"
 msgid "Session Downloaded"
 msgstr "ດາວໂຫຼດໃນເຊສຊັນນີ້"
 
-#: ktorrent/view/viewmodel.cpp:477
-#: libktcore/torrent/torrentfilelistmodel.cpp:65
-#: libktcore/torrent/torrentfiletreemodel.cpp:358
+#: ktorrent/view/viewmodel.cpp:495
+#: libktcore/torrent/torrentfilelistmodel.cpp:68
+#: libktcore/torrent/torrentfiletreemodel.cpp:384
 #, kde-format
 msgid "Size"
 msgstr "ຂະໜາດ"
 
-#: ktorrent/view/viewmodel.cpp:479 plugins/infowidget/peerviewmodel.cpp:317
+#: ktorrent/view/viewmodel.cpp:497 plugins/infowidget/peerviewmodel.cpp:323
 #, kde-format
 msgid "Uploaded"
 msgstr "ອັບໂຫຼດແລ້ວ"
 
-#: ktorrent/view/viewmodel.cpp:481
+#: ktorrent/view/viewmodel.cpp:499
 #, kde-format
 msgctxt "Bytes uploaded this session"
 msgid "Session Uploaded"
 msgstr "ອັບໂຫຼດໃນເຊສຊັນນີ້"
 
-#: ktorrent/view/viewmodel.cpp:483
+#: ktorrent/view/viewmodel.cpp:501
 #, kde-format
 msgctxt "Bytes left to downloaded"
 msgid "Left"
 msgstr "ເຫຼືອ"
 
-#: ktorrent/view/viewmodel.cpp:485
-#: plugins/infowidget/chunkdownloadmodel.cpp:195
-#: plugins/infowidget/peerviewmodel.cpp:297
+#: ktorrent/view/viewmodel.cpp:503
+#: plugins/infowidget/chunkdownloadmodel.cpp:203
+#: plugins/infowidget/peerviewmodel.cpp:303
 #, kde-format
 msgid "Down Speed"
 msgstr "ຄວາມໄວດາວໂຫຼດ"
 
-#: ktorrent/view/viewmodel.cpp:487 plugins/infowidget/peerviewmodel.cpp:299
+#: ktorrent/view/viewmodel.cpp:505 plugins/infowidget/peerviewmodel.cpp:305
 #, kde-format
 msgid "Up Speed"
 msgstr "ຄວາມໄວອັບໂຫຼດ"
 
-#: ktorrent/view/viewmodel.cpp:489
+#: ktorrent/view/viewmodel.cpp:507
 #, kde-format
 msgid "Time Left"
 msgstr "ເວລາທີ່ເຫຼືອ"
 
-#: ktorrent/view/viewmodel.cpp:491 plugins/infowidget/trackermodel.cpp:125
+#: ktorrent/view/viewmodel.cpp:509 plugins/infowidget/trackermodel.cpp:133
 #, kde-format
 msgid "Seeders"
 msgstr "ຜູ້ປ່ອຍ (Seeders)"
 
-#: ktorrent/view/viewmodel.cpp:493 plugins/infowidget/trackermodel.cpp:127
+#: ktorrent/view/viewmodel.cpp:511 plugins/infowidget/trackermodel.cpp:135
 #, kde-format
 msgid "Leechers"
 msgstr "ຜູ້ດາວໂຫຼດ (Leechers)"
 
-#: ktorrent/view/viewmodel.cpp:496
+#: ktorrent/view/viewmodel.cpp:514
 #, no-c-format, kde-format
 msgid "% Complete"
 msgstr "% ສຳເລັດ"
 
-#: ktorrent/view/viewmodel.cpp:498
+#: ktorrent/view/viewmodel.cpp:516
 #, kde-format
 msgid "Share Ratio"
 msgstr "ອັດຕາສ່ວນແບ່ງປັນ"
 
-#: ktorrent/view/viewmodel.cpp:500
+#: ktorrent/view/viewmodel.cpp:518
 #, kde-format
 msgid "Time Downloaded"
 msgstr "ເວລາທີ່ໃຊ້ດາວໂຫຼດ"
 
-#: ktorrent/view/viewmodel.cpp:502
+#: ktorrent/view/viewmodel.cpp:520
 #, kde-format
 msgid "Time Seeded"
 msgstr "ເວລາທີ່ໃຊ້ປ່ອຍ"
 
-#: ktorrent/view/viewmodel.cpp:504
+#: ktorrent/view/viewmodel.cpp:522
 #, kde-format
 msgid "Location"
 msgstr "ທີ່ຕັ້ງ"
 
-#: ktorrent/view/viewmodel.cpp:506
+#: ktorrent/view/viewmodel.cpp:524
 #, kde-format
 msgid "Added"
 msgstr "ເພີ່ມເມື່ອ"
 
-#: ktorrent/view/viewmodel.cpp:508
+#: ktorrent/view/viewmodel.cpp:526
 #, kde-format
 msgid "Last Activity"
 msgstr "ການເຄື່ອນໄຫວລ່າສຸດ"
 
-#: ktorrent/view/viewmodel.cpp:515
+#: ktorrent/view/viewmodel.cpp:533
 #, kde-format
 msgid "How much data we have downloaded of the torrent"
 msgstr "ຈຳນວນຂໍ້ມູນທີ່ເຮົາໄດ້ດາວໂຫຼດຂອງທໍເຣັ້ນນີ້"
 
-#: ktorrent/view/viewmodel.cpp:517
+#: ktorrent/view/viewmodel.cpp:535
 #, kde-format
 msgid "How much data we have downloaded of the torrent this session"
 msgstr "ຈຳນວນຂໍ້ມູນທີ່ເຮົາໄດ້ດາວໂຫຼດຂອງທໍເຣັ້ນນີ້ໃນເຊສຊັນນີ້"
 
-#: ktorrent/view/viewmodel.cpp:519
+#: ktorrent/view/viewmodel.cpp:537
 #, kde-format
 msgid "Total size of the torrent, excluded files are not included"
 msgstr "ຂະໜາດລວມຂອງທໍເຣັ້ນ, ບໍ່ລວມໄຟລ໌ທີ່ຖືກຍົກເວັ້ນ"
 
-#: ktorrent/view/viewmodel.cpp:521
+#: ktorrent/view/viewmodel.cpp:539
 #, kde-format
 msgid "How much data we have uploaded"
 msgstr "ຈຳນວນຂໍ້ມູນທີ່ເຮົາໄດ້ອັບໂຫຼດ"
 
-#: ktorrent/view/viewmodel.cpp:523
+#: ktorrent/view/viewmodel.cpp:541
 #, kde-format
 msgid "How much data we have uploaded this session"
 msgstr "ຈຳນວນຂໍ້ມູນທີ່ເຮົາໄດ້ອັບໂຫຼດໃນເຊສຊັນນີ້"
 
-#: ktorrent/view/viewmodel.cpp:525
+#: ktorrent/view/viewmodel.cpp:543
 #, kde-format
 msgid "How much data left to download"
 msgstr "ຈຳນວນຂໍ້ມູນທີ່ເຫຼືອໃຫ້ດາວໂຫຼດ"
 
-#: ktorrent/view/viewmodel.cpp:527
+#: ktorrent/view/viewmodel.cpp:545
 #, kde-format
 msgid "Current download speed"
 msgstr "ຄວາມໄວດາວໂຫຼດປັດຈຸບັນ"
 
-#: ktorrent/view/viewmodel.cpp:529
+#: ktorrent/view/viewmodel.cpp:547
 #, kde-format
 msgid "Current upload speed"
 msgstr "ຄວາມໄວອັບໂຫຼດປັດຈຸບັນ"
 
-#: ktorrent/view/viewmodel.cpp:531
+#: ktorrent/view/viewmodel.cpp:549
 #, kde-format
 msgid ""
 "How much time is left before the torrent is finished or before the maximum "
 "share ratio is reached, if that is enabled"
-msgstr ""
-"ເວລາທີ່ເຫຼືອກ່ອນທີ່ທໍເຣັ້ນຈະສຳເລັດ ຫຼື ກ່ອນທີ່ຈະຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນ, "
-"ຖ້າຫາກເປີດໃຊ້ງານໄວ້"
+msgstr "ເວລາທີ່ເຫຼືອກ່ອນທີ່ທໍເຣັ້ນຈະສຳເລັດ ຫຼື ກ່ອນທີ່ຈະຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນ, ຖ້າຫາກເປີດໃຊ້ງານໄວ້"
 
-#: ktorrent/view/viewmodel.cpp:533
+#: ktorrent/view/viewmodel.cpp:551
 #, kde-format
 msgid ""
 "How many seeders we are connected to (How many seeders there are according "
 "to the tracker)"
 msgstr "ຈຳນວນຜູ້ປ່ອຍທີ່ເຮົາເຊື່ອມຕໍ່ຢູ່ (ຈຳນວນຜູ້ປ່ອຍທີ່ມີທັງໝົດຕາມທີ່ຕົວຕິດຕາມແຈ້ງ)"
 
-#: ktorrent/view/viewmodel.cpp:535
+#: ktorrent/view/viewmodel.cpp:553
 #, kde-format
 msgid ""
 "How many leechers we are connected to (How many leechers there are according "
 "to the tracker)"
-msgstr ""
-"ຈຳນວນຜູ້ດາວໂຫຼດທີ່ເຮົາເຊື່ອມຕໍ່ຢູ່ (ຈຳນວນຜູ້ດາວໂຫຼດທີ່ມີທັງໝົດຕາມທີ່ຕົວຕິດຕາມແຈ້ງ)"
+msgstr "ຈຳນວນຜູ້ດາວໂຫຼດທີ່ເຮົາເຊື່ອມຕໍ່ຢູ່ (ຈຳນວນຜູ້ດາວໂຫຼດທີ່ມີທັງໝົດຕາມທີ່ຕົວຕິດຕາມແຈ້ງ)"
 
-#: ktorrent/view/viewmodel.cpp:538
+#: ktorrent/view/viewmodel.cpp:556
 #, kde-format
 msgid ""
 "The percentage of data we have of the whole torrent, not including excluded "
 "files"
 msgstr "ເປີເຊັນຂອງຂໍ້ມູນທີ່ເຮົາມີຂອງທໍເຣັ້ນທັງໝົດ, ບໍ່ລວມໄຟລ໌ທີ່ຖືກຍົກເວັ້ນ"
 
-#: ktorrent/view/viewmodel.cpp:540
+#: ktorrent/view/viewmodel.cpp:558
 #, kde-format
 msgid ""
 "Share ratio is the number of bytes uploaded divided by the number of bytes "
 "downloaded"
 msgstr "ອັດຕາສ່ວນແບ່ງປັນແມ່ນຈຳນວນໄບຕ໌ທີ່ອັບໂຫຼດຫານໃຫ້ຈຳນວນໄບຕ໌ທີ່ດາວໂຫຼດ"
 
-#: ktorrent/view/viewmodel.cpp:542
+#: ktorrent/view/viewmodel.cpp:560
 #, kde-format
 msgid "How long we have been downloading the torrent"
 msgstr "ດົນປານໃດແລ້ວທີ່ເຮົາກຳລັງດາວໂຫຼດທໍເຣັ້ນນີ້"
 
-#: ktorrent/view/viewmodel.cpp:544
+#: ktorrent/view/viewmodel.cpp:562
 #, kde-format
 msgid "How long we have been seeding the torrent"
 msgstr "ດົນປານໃດແລ້ວທີ່ເຮົາກຳລັງປ່ອຍທໍເຣັ້ນນີ້"
 
-#: ktorrent/view/viewmodel.cpp:546
+#: ktorrent/view/viewmodel.cpp:564
 #, kde-format
 msgid "The location of the torrent's data on disk"
 msgstr "ທີ່ຕັ້ງຂອງຂໍ້ມູນທໍເຣັ້ນໃນດິດສ໌"
 
-#: ktorrent/view/viewmodel.cpp:548
+#: ktorrent/view/viewmodel.cpp:566
 #, kde-format
 msgid "When this torrent was added"
 msgstr "ເມື່ອໃດທີ່ທໍເຣັ້ນນີ້ຖືກເພີ່ມເຂົ້າມາ"
 
-#: ktorrent/view/viewmodel.cpp:550
+#: ktorrent/view/viewmodel.cpp:568
 #, kde-format
 msgid "Time since last download or upload activity"
 msgstr "ເວລາຕັ້ງແຕ່ມີການດາວໂຫຼດ ຫຼື ອັບໂຫຼດລ່າສຸດ"
 
-#: ktorrent/view/viewmodel.cpp:592
+#: ktorrent/view/viewmodel.cpp:614
 #, kde-format
 msgid "%1<br>Url: <b>%2</b>"
 msgstr "%1<br>Url: <b>%2</b>"
 
-#: ktorrent/view/viewmodel.cpp:598
+#: ktorrent/view/viewmodel.cpp:621
 #, kde-format
 msgid "<br/><br/>Unable to contact a tracker."
 msgstr "<br/><br/>ບໍ່ສາມາດຕິດຕໍ່ຕົວຕິດຕາມໄດ້."
@@ -4521,12 +4478,12 @@ msgstr "ຍົກເລີກການສົ່ງຕໍ່"
 msgid "Verbose mode"
 msgstr "ໂໝດສະແດງຂໍ້ຄວາມລະອຽດ"
 
-#: libktcore/dbus/dbustorrent.cpp:304
+#: libktcore/dbus/dbustorrent.cpp:305
 #, kde-format
 msgid "Maximum share ratio reached."
 msgstr "ຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນແລ້ວ."
 
-#: libktcore/dbus/dbustorrent.cpp:307
+#: libktcore/dbus/dbustorrent.cpp:308
 #, kde-format
 msgid "Maximum seed time reached."
 msgstr "ຮອດຂີດຈຳກັດເວລາປ່ອຍແລ້ວ."
@@ -4591,7 +4548,7 @@ msgstr "ການດາວໂຫຼດທີ່ບໍ່ເຄື່ອນໄຫ
 msgid "Passive Uploads"
 msgstr "ການອັບໂຫຼດທີ່ບໍ່ເຄື່ອນໄຫວ"
 
-#: libktcore/groups/grouptreemodel.cpp:31
+#: libktcore/groups/grouptreemodel.cpp:32
 #, kde-format
 msgid "Custom Groups"
 msgstr "ກຸ່ມກຳນົດເອງ"
@@ -4601,13 +4558,13 @@ msgstr "ກຸ່ມກຳນົດເອງ"
 msgid "Ungrouped Torrents"
 msgstr "ທໍເຣັ້ນທີ່ບໍ່ໄດ້ຈັດກຸ່ມ"
 
-#: libktcore/interfaces/functions.cpp:148
+#: libktcore/interfaces/functions.cpp:155
 #, kde-format
 msgctxt "*.torrent"
 msgid "Torrents"
 msgstr "ທໍເຣັ້ນ"
 
-#: libktcore/interfaces/functions.cpp:150
+#: libktcore/interfaces/functions.cpp:157
 #, kde-format
 msgid "All files"
 msgstr "ໄຟລ໌ທັງໝົດ"
@@ -4792,9 +4749,7 @@ msgstr "ຖັນທີ່ສະແດງໃນ KTorrentView"
 msgid ""
 "When there is no space left to complete download, and the available disk "
 "space is less than this value, the torrent will be stopped."
-msgstr ""
-"ເມື່ອບໍ່ມີພື້ນທີ່ເຫຼືອໃຫ້ດາວໂຫຼດຈົນສຳເລັດ, ແລະ ພື້ນທີ່ດິດສ໌ທີ່ວ່າງໜ້ອຍກວ່າຄ່ານີ້, "
-"ທໍເຣັ້ນຈະຖືກຢຸດ."
+msgstr "ເມື່ອບໍ່ມີພື້ນທີ່ເຫຼືອໃຫ້ດາວໂຫຼດຈົນສຳເລັດ, ແລະ ພື້ນທີ່ດິດສ໌ທີ່ວ່າງໜ້ອຍກວ່າຄ່ານີ້, ທໍເຣັ້ນຈະຖືກຢຸດ."
 
 #. i18n: ectx: label, entry (useCompletedDir), group (downloads)
 #: libktcore/ktorrent.kcfg:244
@@ -4846,108 +4801,100 @@ msgstr "ຊິ້ນສ່ວນທີ່ຈະດາວໂຫຼດ"
 msgid "Excluded Chunks"
 msgstr "ຊິ້ນສ່ວນທີ່ຖືກຍົກເວັ້ນ"
 
-#: libktcore/torrent/queuemanager.cpp:104
+#: libktcore/torrent/queuemanager.cpp:106
 #, kde-format
 msgid ""
 "The torrent \"%1\" has reached its maximum share ratio and its maximum seed "
 "time. Ignore the limit and start seeding anyway?"
 msgstr ""
-"ທໍເຣັ້ນ \"%1\" ໄດ້ຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນ ແລະ ເວລາປ່ອຍສູງສຸດແລ້ວ. "
-"ຕ້ອງການເມີນເສີຍຕໍ່ຂີດຈຳກັດ ແລະ ເລີ່ມປ່ອຍຕໍ່ໄປບໍ່?"
+"ທໍເຣັ້ນ \"%1\" ໄດ້ຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນ ແລະ ເວລາປ່ອຍສູງສຸດແລ້ວ. ຕ້ອງການເມີນເສີຍຕໍ່ຂີດຈຳກັດ "
+"ແລະ ເລີ່ມປ່ອຍຕໍ່ໄປບໍ່?"
 
-#: libktcore/torrent/queuemanager.cpp:107
+#: libktcore/torrent/queuemanager.cpp:109
 #, kde-format
 msgid ""
 "The torrent \"%1\" has reached its maximum share ratio. Ignore the limit and "
 "start seeding anyway?"
 msgstr ""
-"ທໍເຣັ້ນ \"%1\" ໄດ້ຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນແລ້ວ. ຕ້ອງການເມີນເສີຍຕໍ່ຂີດຈຳກັດ ແລະ "
-"ເລີ່ມປ່ອຍຕໍ່ໄປບໍ່?"
+"ທໍເຣັ້ນ \"%1\" ໄດ້ຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນແລ້ວ. ຕ້ອງການເມີນເສີຍຕໍ່ຂີດຈຳກັດ ແລະ ເລີ່ມປ່ອຍຕໍ່ໄປບໍ່?"
 
-#: libktcore/torrent/queuemanager.cpp:109
+#: libktcore/torrent/queuemanager.cpp:111
 #, kde-format
 msgid ""
 "The torrent \"%1\" has reached its maximum seed time. Ignore the limit and "
 "start seeding anyway?"
-msgstr ""
-"ທໍເຣັ້ນ \"%1\" ໄດ້ຮອດຂີດຈຳກັດເວລາປ່ອຍແລ້ວ. ຕ້ອງການເມີນເສີຍຕໍ່ຂີດຈຳກັດ ແລະ "
-"ເລີ່ມປ່ອຍຕໍ່ໄປບໍ່?"
+msgstr "ທໍເຣັ້ນ \"%1\" ໄດ້ຮອດຂີດຈຳກັດເວລາປ່ອຍແລ້ວ. ຕ້ອງການເມີນເສີຍຕໍ່ຂີດຈຳກັດ ແລະ ເລີ່ມປ່ອຍຕໍ່ໄປບໍ່?"
 
-#: libktcore/torrent/queuemanager.cpp:116
+#: libktcore/torrent/queuemanager.cpp:119
 #, kde-format
 msgid "Limits reached."
 msgstr "ຮອດຂີດຈຳກັດແລ້ວ."
 
-#: libktcore/torrent/queuemanager.cpp:117
-#: libktcore/torrent/queuemanager.cpp:227
-#: libktcore/torrent/queuemanager.cpp:266
-#: libktcore/torrent/queuemanager.cpp:295
+#: libktcore/torrent/queuemanager.cpp:120
+#: libktcore/torrent/queuemanager.cpp:238
+#: libktcore/torrent/queuemanager.cpp:279
+#: libktcore/torrent/queuemanager.cpp:310
 #, kde-format
 msgctxt "@action:button"
 msgid "Start"
 msgstr "ເລີ່ມຕົ້ນ"
 
-#: libktcore/torrent/queuemanager.cpp:142
+#: libktcore/torrent/queuemanager.cpp:148
 #, kde-format
 msgid ""
 "You don't have enough disk space to download this torrent. Are you sure you "
 "want to continue?"
-msgstr ""
-"ເຈົ້າບໍ່ມີພື້ນທີ່ດິດສ໌ພຽງພໍທີ່ຈະດາວໂຫຼດທໍເຣັ້ນນີ້. ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການສືບຕໍ່?"
+msgstr "ເຈົ້າບໍ່ມີພື້ນທີ່ດິດສ໌ພຽງພໍທີ່ຈະດາວໂຫຼດທໍເຣັ້ນນີ້. ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການສືບຕໍ່?"
 
-#: libktcore/torrent/queuemanager.cpp:145
+#: libktcore/torrent/queuemanager.cpp:151
 #, kde-format
 msgid "Insufficient disk space for %1"
 msgstr "ພື້ນທີ່ດິດສ໌ບໍ່ພຽງພໍສຳລັບ %1"
 
-#: libktcore/torrent/queuemanager.cpp:224
+#: libktcore/torrent/queuemanager.cpp:235
 #, kde-format
 msgid ""
 "Not enough disk space for the following torrents. Do you want to start them "
 "anyway?"
-msgstr ""
-"ພື້ນທີ່ດິດສ໌ບໍ່ພຽງພໍສຳລັບທໍເຣັ້ນດັ່ງລຸ່ມນີ້. ເຈົ້າຕ້ອງການເລີ່ມຕົ້ນພວກມັນເລີຍບໍ່?"
+msgstr "ພື້ນທີ່ດິດສ໌ບໍ່ພຽງພໍສຳລັບທໍເຣັ້ນດັ່ງລຸ່ມນີ້. ເຈົ້າຕ້ອງການເລີ່ມຕົ້ນພວກມັນເລີຍບໍ່?"
 
-#: libktcore/torrent/queuemanager.cpp:263
+#: libktcore/torrent/queuemanager.cpp:276
 #, kde-format
 msgid ""
 "The following torrents have reached their maximum seed time. Do you want to "
 "start them anyway?"
-msgstr ""
-"ທໍເຣັ້ນດັ່ງລຸ່ມນີ້ໄດ້ຮອດຂີດຈຳກັດເວລາປ່ອຍແລ້ວ. ເຈົ້າຕ້ອງການເລີ່ມຕົ້ນພວກມັນເລີຍບໍ່?"
+msgstr "ທໍເຣັ້ນດັ່ງລຸ່ມນີ້ໄດ້ຮອດຂີດຈຳກັດເວລາປ່ອຍແລ້ວ. ເຈົ້າຕ້ອງການເລີ່ມຕົ້ນພວກມັນເລີຍບໍ່?"
 
-#: libktcore/torrent/queuemanager.cpp:292
+#: libktcore/torrent/queuemanager.cpp:307
 #, kde-format
 msgid ""
 "The following torrents have reached their maximum share ratio. Do you want "
 "to start them anyway?"
-msgstr ""
-"ທໍເຣັ້ນດັ່ງລຸ່ມນີ້ໄດ້ຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນແລ້ວ. "
-"ເຈົ້າຕ້ອງການເລີ່ມຕົ້ນພວກມັນເລີຍບໍ່?"
+msgstr "ທໍເຣັ້ນດັ່ງລຸ່ມນີ້ໄດ້ຮອດຂີດຈຳກັດອັດຕາສ່ວນແບ່ງປັນແລ້ວ. ເຈົ້າຕ້ອງການເລີ່ມຕົ້ນພວກມັນເລີຍບໍ່?"
 
-#: libktcore/torrent/queuemanager.cpp:708
+#: libktcore/torrent/queuemanager.cpp:753
 #, kde-format
 msgid "Error starting torrent %1: %2"
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການເລີ່ມຕົ້ນທໍເຣັ້ນ %1: %2"
 
-#: libktcore/torrent/queuemanager.cpp:709
-#: libktcore/torrent/queuemanager.cpp:720
+#: libktcore/torrent/queuemanager.cpp:754
+#: libktcore/torrent/queuemanager.cpp:765
 #, kde-format
 msgid "Error"
 msgstr "ຂໍ້ຜິດພາດ"
 
-#: libktcore/torrent/queuemanager.cpp:719
+#: libktcore/torrent/queuemanager.cpp:764
 #, kde-format
 msgid "Error stopping torrent %1: %2"
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການຢຸດທໍເຣັ້ນ %1: %2"
 
-#: libktcore/torrent/torrentfilelistmodel.cpp:63
-#: libktcore/torrent/torrentfiletreemodel.cpp:356
+#: libktcore/torrent/torrentfilelistmodel.cpp:66
+#: libktcore/torrent/torrentfiletreemodel.cpp:382
 #, kde-format
 msgid "File"
 msgstr "ໄຟລ໌"
 
-#: libktcore/util/mmapfile.cpp:151
+#: libktcore/util/mmapfile.cpp:153
 #, kde-format
 msgid "Cannot write beyond end of the mmap buffer."
 msgstr "ບໍ່ສາມາດຂຽນເກີນຈຸດສິ້ນສຸດຂອງ mmap buffer ໄດ້."
@@ -4970,8 +4917,7 @@ msgstr "ຂີດຈຳກັດພິເສດ"
 msgid ""
 "Use these global limits when the screensaver is activated, instead of the "
 "ones configured in the network settings."
-msgstr ""
-"ໃຊ້ຂີດຈຳກັດລວມເຫຼົ່ານີ້ເມື່ອສະກີນເຊັບເວີເຮັດວຽກ, ແທນທີ່ຈະໃຊ້ຄ່າທີ່ຕັ້ງໄວ້ໃນການຕັ້ງຄ່າເຄືອຂ່າຍ."
+msgstr "ໃຊ້ຂີດຈຳກັດລວມເຫຼົ່ານີ້ເມື່ອສະກີນເຊັບເວີເຮັດວຽກ, ແທນທີ່ຈະໃຊ້ຄ່າທີ່ຕັ້ງໄວ້ໃນການຕັ້ງຄ່າເຄືອຂ່າຍ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_screensaverLimits)
 #: plugins/bwscheduler/bwprefpage.ui:25
@@ -5142,7 +5088,7 @@ msgstr "ຕັ້ງຄ່າຂີດຈຳກັດການເຊື່ອມ
 msgid "Bandwidth Schedule"
 msgstr "ຕາລາງແບນວິດ"
 
-#: plugins/bwscheduler/schedule.cpp:114 plugins/bwscheduler/schedule.cpp:227
+#: plugins/bwscheduler/schedule.cpp:114 plugins/bwscheduler/schedule.cpp:232
 #, kde-format
 msgid "Cannot open file %1: %2"
 msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ %1: %2"
@@ -5203,7 +5149,7 @@ msgstr "ເປີດ ຫຼື ປິດການໃຊ້ງານຕົວຈ�
 msgid "KTorrent scheduler files"
 msgstr "ໄຟລ໌ຕົວຈັດຕາລາງ KTorrent"
 
-#: plugins/bwscheduler/scheduleeditor.cpp:166
+#: plugins/bwscheduler/scheduleeditor.cpp:167
 #, kde-format
 msgid ""
 "This item conflicts with another item in the schedule, we cannot change it."
@@ -5223,37 +5169,37 @@ msgstr ""
 "%1 ລົງ\n"
 "%2 ຂຶ້ນ"
 
-#: plugins/bwscheduler/weekscene.cpp:59
+#: plugins/bwscheduler/weekscene.cpp:60
 #, kde-format
 msgid "Current schedule: suspended"
 msgstr "ຕາລາງປັດຈຸບັນ: ຖືກລະງັບ"
 
-#: plugins/bwscheduler/weekscene.cpp:61
+#: plugins/bwscheduler/weekscene.cpp:62
 #, kde-format
 msgid "Current schedule: %1/s download, %2/s upload"
 msgstr "ຕາລາງປັດຈຸບັນ: %1/s ດາວໂຫຼດ, %2/s ອັບໂຫຼດ"
 
-#: plugins/bwscheduler/weekscene.cpp:63
+#: plugins/bwscheduler/weekscene.cpp:64
 #, kde-format
 msgid "Current schedule: unlimited download, %1/s upload"
 msgstr "ຕາລາງປັດຈຸບັນ: ດາວໂຫຼດບໍ່ຈຳກັດ, %1/s ອັບໂຫຼດ"
 
-#: plugins/bwscheduler/weekscene.cpp:65
+#: plugins/bwscheduler/weekscene.cpp:66
 #, kde-format
 msgid "Current schedule: %1/s download, unlimited upload"
 msgstr "ຕາລາງປັດຈຸບັນ: %1/s ດາວໂຫຼດ, ອັບໂຫຼດບໍ່ຈຳກັດ"
 
-#: plugins/bwscheduler/weekscene.cpp:67
+#: plugins/bwscheduler/weekscene.cpp:68
 #, kde-format
 msgid "Current schedule: unlimited upload and download"
 msgstr "ຕາລາງປັດຈຸບັນ: ອັບໂຫຼດ ແລະ ດາວໂຫຼດບໍ່ຈຳກັດ"
 
-#: plugins/bwscheduler/weekscene.cpp:70
+#: plugins/bwscheduler/weekscene.cpp:72
 #, kde-format
 msgid " (scheduler disabled)"
 msgstr " (ຕົວຈັດຕາລາງຖືກປິດໃຊ້ງານ)"
 
-#: plugins/bwscheduler/weekscene.cpp:88
+#: plugins/bwscheduler/weekscene.cpp:91
 #, kde-format
 msgid "Current schedule:"
 msgstr "ຕາລາງປັດຈຸບັນ:"
@@ -5271,12 +5217,12 @@ msgstr "ລຳດັບການດາວໂຫຼດໄຟລ໌"
 msgid "File download order for <b>%1</b>:"
 msgstr "ລຳດັບການດາວໂຫຼດໄຟລ໌ສຳລັບ <b>%1</b>:"
 
-#: plugins/downloadorder/downloadorderdialog.cpp:71
+#: plugins/downloadorder/downloadorderdialog.cpp:72
 #, kde-format
 msgid "Seasons and Episodes"
 msgstr "ຊີຊັນ ແລະ ຕອນ"
 
-#: plugins/downloadorder/downloadorderdialog.cpp:72
+#: plugins/downloadorder/downloadorderdialog.cpp:73
 #, kde-format
 msgid "Album Track Order"
 msgstr "ລຳດັບເພງໃນອັນລະບັ້ມ"
@@ -5318,8 +5264,7 @@ msgid ""
 "Order in which to download the files of a torrent. The file at the top will "
 "be downloaded first, followed by the second, then the third…"
 msgstr ""
-"ລຳດັບການດາວໂຫຼດໄຟລ໌ຂອງທໍເຣັ້ນ. ໄຟລ໌ທີ່ຢູ່ດ້ານເທິງຈະຖືກດາວໂຫຼດກ່ອນ, "
-"ຕາມດ້ວຍໄຟລ໌ທີສອງ, ແລະ ທີສາມ..."
+"ລຳດັບການດາວໂຫຼດໄຟລ໌ຂອງທໍເຣັ້ນ. ໄຟລ໌ທີ່ຢູ່ດ້ານເທິງຈະຖືກດາວໂຫຼດກ່ອນ, ຕາມດ້ວຍໄຟລ໌ທີສອງ, ແລະ ທີສາມ..."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_add_tracker)
 #: plugins/infowidget/addtrackersdialog.cpp:24
@@ -5338,47 +5283,47 @@ msgstr "ຊິ້ນສ່ວນທີ່ມີຢູ່"
 msgid "Unavailable Chunks"
 msgstr "ຊິ້ນສ່ວນທີ່ບໍ່ມີ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:189
+#: plugins/infowidget/chunkdownloadmodel.cpp:197
 #, kde-format
 msgid "Chunk"
 msgstr "ຊິ້ນສ່ວນ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:191
+#: plugins/infowidget/chunkdownloadmodel.cpp:199
 #, kde-format
 msgid "Progress"
 msgstr "ຄວາມຄືບໜ້າ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:193
+#: plugins/infowidget/chunkdownloadmodel.cpp:201
 #, kde-format
 msgid "Peer"
 msgstr "ຄູ່ໂອນ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:197
+#: plugins/infowidget/chunkdownloadmodel.cpp:205
 #, kde-format
 msgid "Files"
 msgstr "ໄຟລ໌"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:204
+#: plugins/infowidget/chunkdownloadmodel.cpp:212
 #, kde-format
 msgid "Number of the chunk"
 msgstr "ໝາຍເລກຊິ້ນສ່ວນ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:206
+#: plugins/infowidget/chunkdownloadmodel.cpp:214
 #, kde-format
 msgid "Download progress of the chunk"
 msgstr "ຄວາມຄືບໜ້າການດາວໂຫຼດຂອງຊິ້ນສ່ວນ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:208
+#: plugins/infowidget/chunkdownloadmodel.cpp:216
 #, kde-format
 msgid "Which peer we are downloading it from"
 msgstr "ຄູ່ໂອນໃດທີ່ເຮົາກຳລັງດາວໂຫຼດຈາກ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:210
+#: plugins/infowidget/chunkdownloadmodel.cpp:218
 #, kde-format
 msgid "Download speed of the chunk"
 msgstr "ຄວາມໄວດາວໂຫຼດຂອງຊິ້ນສ່ວນ"
 
-#: plugins/infowidget/chunkdownloadmodel.cpp:212
+#: plugins/infowidget/chunkdownloadmodel.cpp:220
 #, kde-format
 msgid "Which files the chunk is located in"
 msgstr "ຊິ້ນສ່ວນຢູ່ໃນໄຟລ໌ໃດ"
@@ -5386,7 +5331,7 @@ msgstr "ຊິ້ນສ່ວນຢູ່ໃນໄຟລ໌ໃດ"
 #. i18n: ectx: property (text), widget (QLabel, hdr_chunks)
 #. i18n: ectx: property (windowTitle), widget (QWidget, ChunkDownloadView)
 #: plugins/infowidget/chunkdownloadview.ui:13
-#: plugins/infowidget/infowidgetplugin.cpp:205
+#: plugins/infowidget/infowidgetplugin.cpp:227
 #: plugins/infowidget/statustab.ui:181
 #, kde-format
 msgid "Chunks"
@@ -5422,94 +5367,93 @@ msgstr "ເຫຼືອ:"
 msgid "Size:"
 msgstr "ຂະໜາດ:"
 
-#: plugins/infowidget/fileview.cpp:113
+#: plugins/infowidget/fileview.cpp:114
 #, kde-format
 msgctxt "Open file"
 msgid "Open"
 msgstr "ເປີດ"
 
-#: plugins/infowidget/fileview.cpp:115
+#: plugins/infowidget/fileview.cpp:116
 #, kde-format
 msgctxt "Open file with"
 msgid "Open With"
 msgstr "ເປີດດ້ວຍ"
 
-#: plugins/infowidget/fileview.cpp:116
+#: plugins/infowidget/fileview.cpp:117
 #, kde-format
 msgctxt "Rename file"
 msgid "Rename"
 msgstr "ປ່ຽນຊື່"
 
-#: plugins/infowidget/fileview.cpp:117
+#: plugins/infowidget/fileview.cpp:118
 #, kde-format
 msgid "Check File"
 msgstr "ກວດສອບໄຟລ໌"
 
-#: plugins/infowidget/fileview.cpp:119
+#: plugins/infowidget/fileview.cpp:120
 #, kde-format
 msgid "Download first"
 msgstr "ດາວໂຫຼດກ່ອນໝູ່"
 
-#: plugins/infowidget/fileview.cpp:120
+#: plugins/infowidget/fileview.cpp:121
 #, kde-format
 msgid "Download normally"
 msgstr "ດາວໂຫຼດປົກກະຕິ"
 
-#: plugins/infowidget/fileview.cpp:121
+#: plugins/infowidget/fileview.cpp:122
 #, kde-format
 msgid "Download last"
 msgstr "ດາວໂຫຼດທ້າຍໝູ່"
 
-#: plugins/infowidget/fileview.cpp:123
+#: plugins/infowidget/fileview.cpp:124
 #, kde-format
 msgid "Do not download"
 msgstr "ບໍ່ຕ້ອງດາວໂຫຼດ"
 
-#: plugins/infowidget/fileview.cpp:124
+#: plugins/infowidget/fileview.cpp:125
 #, kde-format
 msgid "Delete File(s)"
 msgstr "ລຶບໄຟລ໌"
 
-#: plugins/infowidget/fileview.cpp:126
+#: plugins/infowidget/fileview.cpp:127
 #, kde-format
 msgid "Move File"
 msgstr "ຍ້າຍໄຟລ໌"
 
-#: plugins/infowidget/fileview.cpp:128
+#: plugins/infowidget/fileview.cpp:129
 #, kde-format
 msgid "Collapse Folder Tree"
 msgstr "ຫຍໍ້ໂຄງສ້າງໂຟນເດີ"
 
-#: plugins/infowidget/fileview.cpp:129
+#: plugins/infowidget/fileview.cpp:130
 #, kde-format
 msgid "Expand Folder Tree"
 msgstr "ຂະຫຍາຍໂຄງສ້າງໂຟນເດີ"
 
-#: plugins/infowidget/fileview.cpp:132
+#: plugins/infowidget/fileview.cpp:133
 #, kde-format
 msgid "File Tree"
 msgstr "ໂຄງສ້າງໄຟລ໌"
 
-#: plugins/infowidget/fileview.cpp:134
+#: plugins/infowidget/fileview.cpp:135
 #, kde-format
 msgid "File List"
 msgstr "ລາຍການໄຟລ໌"
 
-#: plugins/infowidget/fileview.cpp:144
+#: plugins/infowidget/fileview.cpp:145
 #, kde-format
 msgid "Show Filter"
 msgstr "ສະແດງຕົວຂັດຕອງ"
 
-#: plugins/infowidget/fileview.cpp:346
-#: plugins/scanforlostfiles/scanforlostfileswidget.cpp:185
+#: plugins/infowidget/fileview.cpp:355
+#: plugins/scanforlostfiles/scanforlostfileswidget.cpp:186
 #, kde-format
 msgid "You will lose all data in this file, are you sure you want to do this?"
 msgid_plural ""
 "You will lose all data in these files, are you sure you want to do this?"
-msgstr[0] ""
-"ເຈົ້າຈະສູນເສຍຂໍ້ມູນທັງໝົດໃນໄຟລ໌ເຫຼົ່ານີ້, ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການເຮັດແບບນີ້?"
+msgstr[0] "ເຈົ້າຈະສູນເສຍຂໍ້ມູນທັງໝົດໃນໄຟລ໌ເຫຼົ່ານີ້, ເຈົ້າແນ່ໃຈບໍ່ວ່າຕ້ອງການເຮັດແບບນີ້?"
 
-#: plugins/infowidget/fileview.cpp:476
+#: plugins/infowidget/fileview.cpp:496
 #, kde-format
 msgid ""
 "Not enough data downloaded for opening the file.\n"
@@ -5521,7 +5465,7 @@ msgstr ""
 "\n"
 "ຕ້ອງການເປີດໃຊ້ໂໝດດາວໂຫຼດຕາມລຳດັບເພື່ອໃຫ້ໄດ້ຂໍ້ມູນທີ່ຈຳເປັນກ່ອນດ້ວຍບຸລິມະສິດສູງກວ່າບໍ່?"
 
-#: plugins/infowidget/fileview.cpp:479
+#: plugins/infowidget/fileview.cpp:499
 #, kde-format
 msgctxt "@action:button"
 msgid "Enable Sequential Download Mode"
@@ -5555,107 +5499,107 @@ msgstr "ໄຟລ໌"
 msgid "Shows all the files in a torrent"
 msgstr "ສະແດງໄຟລ໌ທັງໝົດໃນທໍເຣັ້ນ"
 
-#: plugins/infowidget/infowidgetplugin.cpp:186
+#: plugins/infowidget/infowidgetplugin.cpp:208
 #, kde-format
 msgid "Displays all the peers you are connected to for a torrent"
 msgstr "ສະແດງຄູ່ໂອນທັງໝົດທີ່ເຈົ້າເຊື່ອມຕໍ່ຢູ່ສຳລັບທໍເຣັ້ນ"
 
-#: plugins/infowidget/infowidgetplugin.cpp:205
+#: plugins/infowidget/infowidgetplugin.cpp:227
 #, kde-format
 msgid "Displays all the chunks you are downloading, of a torrent"
 msgstr "ສະແດງຊິ້ນສ່ວນທັງໝົດທີ່ເຈົ້າກຳລັງດາວໂຫຼດຂອງທໍເຣັ້ນ"
 
-#: plugins/infowidget/infowidgetplugin.cpp:224
+#: plugins/infowidget/infowidgetplugin.cpp:246
 #, kde-format
 msgid "Displays information about all the trackers of a torrent"
 msgstr "ສະແດງຂໍ້ມູນກ່ຽວກັບຕົວຕິດຕາມທັງໝົດຂອງທໍເຣັ້ນ"
 
-#: plugins/infowidget/infowidgetplugin.cpp:240
+#: plugins/infowidget/infowidgetplugin.cpp:262
 #, kde-format
 msgid "Webseeds"
 msgstr "ເວັບຊິດ (Webseeds)"
 
-#: plugins/infowidget/infowidgetplugin.cpp:240
+#: plugins/infowidget/infowidgetplugin.cpp:262
 #, kde-format
 msgid "Displays all the webseeds of a torrent"
 msgstr "ສະແດງເວັບຊິດທັງໝົດຂອງທໍເຣັ້ນ"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:66
-#: plugins/infowidget/iwfiletreemodel.cpp:74
+#: plugins/infowidget/iwfilelistmodel.cpp:69
+#: plugins/infowidget/iwfiletreemodel.cpp:76
 #, kde-format
 msgctxt "@title:column"
 msgid "Preview"
 msgstr "ຕົວຢ່າງ"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:69
-#: plugins/infowidget/iwfiletreemodel.cpp:77
+#: plugins/infowidget/iwfilelistmodel.cpp:72
+#: plugins/infowidget/iwfiletreemodel.cpp:79
 #, kde-format
 msgctxt "Percent of File Downloaded"
 msgid "% Complete"
 msgstr "% ສຳເລັດ"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:80
-#: plugins/infowidget/iwfiletreemodel.cpp:88
+#: plugins/infowidget/iwfilelistmodel.cpp:83
+#: plugins/infowidget/iwfiletreemodel.cpp:90
 #, kde-format
 msgctxt "Download first"
 msgid "First"
 msgstr "ກ່ອນໝູ່"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:83
-#: plugins/infowidget/iwfiletreemodel.cpp:91
+#: plugins/infowidget/iwfilelistmodel.cpp:86
+#: plugins/infowidget/iwfiletreemodel.cpp:93
 #, kde-format
 msgctxt "Download last"
 msgid "Last"
 msgstr "ທ້າຍໝູ່"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:89
+#: plugins/infowidget/iwfilelistmodel.cpp:92
 #, kde-format
 msgctxt "Download Normal (not as first or last)"
 msgid "Normal"
 msgstr "ປົກກະຕິ"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:138
-#: plugins/infowidget/iwfilelistmodel.cpp:157
-#: plugins/infowidget/iwfiletreemodel.cpp:182
+#: plugins/infowidget/iwfilelistmodel.cpp:144
+#: plugins/infowidget/iwfilelistmodel.cpp:165
+#: plugins/infowidget/iwfiletreemodel.cpp:191
 #, kde-format
 msgctxt "Preview available"
 msgid "Available"
 msgstr "ມີໃຫ້"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:140
-#: plugins/infowidget/iwfilelistmodel.cpp:159
-#: plugins/infowidget/iwfiletreemodel.cpp:164
-#: plugins/infowidget/iwfiletreemodel.cpp:184
+#: plugins/infowidget/iwfilelistmodel.cpp:146
+#: plugins/infowidget/iwfilelistmodel.cpp:167
+#: plugins/infowidget/iwfiletreemodel.cpp:170
+#: plugins/infowidget/iwfiletreemodel.cpp:193
 #, kde-format
 msgctxt "Preview pending"
 msgid "Pending"
 msgstr "ລໍຖ້າຢູ່"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:142
-#: plugins/infowidget/iwfilelistmodel.cpp:161
-#: plugins/infowidget/iwfiletreemodel.cpp:166
-#: plugins/infowidget/iwfiletreemodel.cpp:186
+#: plugins/infowidget/iwfilelistmodel.cpp:149
+#: plugins/infowidget/iwfilelistmodel.cpp:170
+#: plugins/infowidget/iwfiletreemodel.cpp:173
+#: plugins/infowidget/iwfiletreemodel.cpp:196
 #, kde-format
 msgctxt "No preview available"
 msgid "No"
 msgstr "ບໍ່ມີ"
 
-#: plugins/infowidget/iwfilelistmodel.cpp:145
-#: plugins/infowidget/iwfilelistmodel.cpp:164
-#: plugins/infowidget/iwfiletreemodel.cpp:171
-#: plugins/infowidget/iwfiletreemodel.cpp:188
-#: plugins/infowidget/iwfiletreemodel.cpp:193
+#: plugins/infowidget/iwfilelistmodel.cpp:153
+#: plugins/infowidget/iwfilelistmodel.cpp:174
+#: plugins/infowidget/iwfiletreemodel.cpp:179
+#: plugins/infowidget/iwfiletreemodel.cpp:199
+#: plugins/infowidget/iwfiletreemodel.cpp:204
 #, kde-format
 msgid "%1 %"
 msgstr "%1 %"
 
-#: plugins/infowidget/iwfiletreemodel.cpp:97
+#: plugins/infowidget/iwfiletreemodel.cpp:99
 #, kde-format
 msgctxt "Download normally(not as first or last)"
 msgid "Normal"
 msgstr "ປົກກະຕິ"
 
-#: plugins/infowidget/iwfiletreemodel.cpp:162
+#: plugins/infowidget/iwfiletreemodel.cpp:168
 #, kde-format
 msgctxt "preview available"
 msgid "Available"
@@ -5773,215 +5717,213 @@ msgstr "ເຕະຄູ່ໂອນອອກ"
 msgid "Ban Peer"
 msgstr "ແບນຄູ່ໂອນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:85
+#: plugins/infowidget/peerviewmodel.cpp:81
 #, kde-format
 msgid " (µTP)"
 msgstr " (µTP)"
 
-#: plugins/infowidget/peerviewmodel.cpp:103
+#: plugins/infowidget/peerviewmodel.cpp:102
 #, kde-format
 msgctxt "Choked"
 msgid "Yes"
 msgstr "ແມ່ນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:103
+#: plugins/infowidget/peerviewmodel.cpp:102
 #, kde-format
 msgctxt "Not choked"
 msgid "No"
 msgstr "ບໍ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:105
+#: plugins/infowidget/peerviewmodel.cpp:104
 #, kde-format
 msgctxt "Snubbed"
 msgid "Yes"
 msgstr "ແມ່ນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:105
+#: plugins/infowidget/peerviewmodel.cpp:104
 #, kde-format
 msgctxt "Not snubbed"
 msgid "No"
 msgstr "ບໍ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:107
+#: plugins/infowidget/peerviewmodel.cpp:106
 #, kde-format
 msgctxt "File percentage stat"
 msgid "%1%"
 msgstr "%1%"
 
-#: plugins/infowidget/peerviewmodel.cpp:121
+#: plugins/infowidget/peerviewmodel.cpp:120
 #, kde-format
 msgctxt "Interested"
 msgid "Yes"
 msgstr "ແມ່ນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:121
+#: plugins/infowidget/peerviewmodel.cpp:120
 #, kde-format
 msgctxt "Not Interested"
 msgid "No"
 msgstr "ບໍ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:123
+#: plugins/infowidget/peerviewmodel.cpp:122
 #, kde-format
 msgctxt "Interesting"
 msgid "Yes"
 msgstr "ແມ່ນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:123
+#: plugins/infowidget/peerviewmodel.cpp:122
 #, kde-format
 msgctxt "Not Interesting"
 msgid "No"
 msgstr "ບໍ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:291
+#: plugins/infowidget/peerviewmodel.cpp:297
 #, kde-format
 msgid "Address"
 msgstr "ທີ່ຢູ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:293
+#: plugins/infowidget/peerviewmodel.cpp:299
 #, kde-format
 msgid "Country"
 msgstr "ປະເທດ"
 
-#: plugins/infowidget/peerviewmodel.cpp:295
+#: plugins/infowidget/peerviewmodel.cpp:301
 #, kde-format
 msgid "Client"
 msgstr "ໄຄລແອນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:301
+#: plugins/infowidget/peerviewmodel.cpp:307
 #, kde-format
 msgid "Choked"
 msgstr "ຖືກຕັນ (Choked)"
 
-#: plugins/infowidget/peerviewmodel.cpp:303
+#: plugins/infowidget/peerviewmodel.cpp:309
 #, kde-format
 msgid "Snubbed"
 msgstr "ຖືກເມີນ (Snubbed)"
 
-#: plugins/infowidget/peerviewmodel.cpp:305
+#: plugins/infowidget/peerviewmodel.cpp:311
 #, kde-format
 msgid "Availability"
 msgstr "ຄວາມພ້ອມ"
 
-#: plugins/infowidget/peerviewmodel.cpp:307
+#: plugins/infowidget/peerviewmodel.cpp:313
 #, kde-format
 msgid "DHT"
 msgstr "DHT"
 
-#: plugins/infowidget/peerviewmodel.cpp:309
+#: plugins/infowidget/peerviewmodel.cpp:315
 #, kde-format
 msgid "Score"
 msgstr "ຄະແນນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:311
+#: plugins/infowidget/peerviewmodel.cpp:317
 #, kde-format
 msgid "Upload Slot"
 msgstr "ຊ່ອງອັບໂຫຼດ"
 
-#: plugins/infowidget/peerviewmodel.cpp:313
+#: plugins/infowidget/peerviewmodel.cpp:319
 #, kde-format
 msgid "Requests"
 msgstr "ການຮ້ອງຂໍ"
 
-#: plugins/infowidget/peerviewmodel.cpp:319
+#: plugins/infowidget/peerviewmodel.cpp:325
 #, kde-format
 msgid "Interested"
 msgstr "ສົນໃຈ"
 
-#: plugins/infowidget/peerviewmodel.cpp:321
+#: plugins/infowidget/peerviewmodel.cpp:327
 #, kde-format
 msgid "Interesting"
 msgstr "ໜ້າສົນໃຈ"
 
-#: plugins/infowidget/peerviewmodel.cpp:328
+#: plugins/infowidget/peerviewmodel.cpp:334
 #, kde-format
 msgid "IP address of the peer"
 msgstr "ທີ່ຢູ່ IP ຂອງຄູ່ໂອນ"
 
-#: plugins/infowidget/peerviewmodel.cpp:330
+#: plugins/infowidget/peerviewmodel.cpp:336
 #, kde-format
 msgid "Country the peer is in"
 msgstr "ປະເທດທີ່ຄູ່ໂອນຢູ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:332
+#: plugins/infowidget/peerviewmodel.cpp:338
 #, kde-format
 msgid "Which client the peer is using"
 msgstr "ໄຄລແອນທີ່ຄູ່ໂອນກຳລັງໃຊ້"
 
-#: plugins/infowidget/peerviewmodel.cpp:334
+#: plugins/infowidget/peerviewmodel.cpp:340
 #, kde-format
 msgid "Download speed"
 msgstr "ຄວາມໄວດາວໂຫຼດ"
 
-#: plugins/infowidget/peerviewmodel.cpp:336
+#: plugins/infowidget/peerviewmodel.cpp:342
 #, kde-format
 msgid "Upload speed"
 msgstr "ຄວາມໄວອັບໂຫຼດ"
 
-#: plugins/infowidget/peerviewmodel.cpp:338
+#: plugins/infowidget/peerviewmodel.cpp:344
 #, kde-format
 msgid ""
 "Whether or not the peer has choked us - when we are choked the peer will not "
 "send us any data"
-msgstr ""
-"ຄູ່ໂອນໄດ້ຕັນ (choked) ເຮົາຫຼືບໍ່ - ເມື່ອເຮົາຖືກຕັນ ຄູ່ໂອນຈະບໍ່ສົ່ງຂໍ້ມູນໃດໆໃຫ້ເຮົາ"
+msgstr "ຄູ່ໂອນໄດ້ຕັນ (choked) ເຮົາຫຼືບໍ່ - ເມື່ອເຮົາຖືກຕັນ ຄູ່ໂອນຈະບໍ່ສົ່ງຂໍ້ມູນໃດໆໃຫ້ເຮົາ"
 
-#: plugins/infowidget/peerviewmodel.cpp:340
+#: plugins/infowidget/peerviewmodel.cpp:346
 #, kde-format
 msgid "Snubbed means the peer has not sent us any data in the last 2 minutes"
-msgstr ""
-"ຖືກເມີນ (Snubbed) ໝາຍຄວາມວ່າຄູ່ໂອນບໍ່ໄດ້ສົ່ງຂໍ້ມູນໃດໆໃຫ້ເຮົາເລີຍໃນ 2 ນາທີຜ່ານມາ"
+msgstr "ຖືກເມີນ (Snubbed) ໝາຍຄວາມວ່າຄູ່ໂອນບໍ່ໄດ້ສົ່ງຂໍ້ມູນໃດໆໃຫ້ເຮົາເລີຍໃນ 2 ນາທີຜ່ານມາ"
 
-#: plugins/infowidget/peerviewmodel.cpp:342
+#: plugins/infowidget/peerviewmodel.cpp:348
 #, kde-format
 msgid "How much data the peer has of the torrent"
 msgstr "ຈຳນວນຂໍ້ມູນຂອງທໍເຣັ້ນທີ່ຄູ່ໂອນມີ"
 
-#: plugins/infowidget/peerviewmodel.cpp:344
+#: plugins/infowidget/peerviewmodel.cpp:350
 #, kde-format
 msgid "Whether or not the peer has DHT enabled"
 msgstr "ຄູ່ໂອນໄດ້ເປີດໃຊ້ DHT ຫຼືບໍ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:346
+#: plugins/infowidget/peerviewmodel.cpp:352
 #, kde-format
 msgid "The score of the peer, KTorrent uses this to determine who to upload to"
 msgstr "ຄະແນນຂອງຄູ່ໂອນ, KTorrent ໃຊ້ອັນນີ້ເພື່ອຕັດສິນໃຈວ່າຈະອັບໂຫຼດໃຫ້ໃຜ"
 
-#: plugins/infowidget/peerviewmodel.cpp:348
+#: plugins/infowidget/peerviewmodel.cpp:354
 #, kde-format
 msgid "Only peers which have an upload slot will get data from us"
 msgstr "ສະເພາະຄູ່ໂອນທີ່ມີຊ່ອງອັບໂຫຼດເທົ່ານັ້ນທີ່ຈະໄດ້ຮັບຂໍ້ມູນຈາກເຮົາ"
 
-#: plugins/infowidget/peerviewmodel.cpp:350
+#: plugins/infowidget/peerviewmodel.cpp:356
 #, kde-format
 msgid "The number of download and upload requests"
 msgstr "ຈຳນວນການຮ້ອງຂໍດາວໂຫຼດ ແລະ ອັບໂຫຼດ"
 
-#: plugins/infowidget/peerviewmodel.cpp:352
+#: plugins/infowidget/peerviewmodel.cpp:358
 #, kde-format
 msgid "How much data we have downloaded from this peer"
 msgstr "ຈຳນວນຂໍ້ມູນທີ່ເຮົາໄດ້ດາວໂຫຼດຈາກຄູ່ໂອນນີ້"
 
-#: plugins/infowidget/peerviewmodel.cpp:354
+#: plugins/infowidget/peerviewmodel.cpp:360
 #, kde-format
 msgid "How much data we have uploaded to this peer"
 msgstr "ຈຳນວນຂໍ້ມູນທີ່ເຮົາໄດ້ອັບໂຫຼດໃຫ້ຄູ່ໂອນນີ້"
 
-#: plugins/infowidget/peerviewmodel.cpp:356
+#: plugins/infowidget/peerviewmodel.cpp:362
 #, kde-format
 msgid "Whether the peer is interested in downloading data from us"
 msgstr "ຄູ່ໂອນສົນໃຈທີ່ຈະດາວໂຫຼດຂໍ້ມູນຈາກເຮົາຫຼືບໍ່"
 
-#: plugins/infowidget/peerviewmodel.cpp:358
+#: plugins/infowidget/peerviewmodel.cpp:364
 #, kde-format
 msgid "Whether we are interested in downloading from this peer"
 msgstr "ເຮົາສົນໃຈທີ່ຈະດາວໂຫຼດຈາກຄູ່ໂອນນີ້ຫຼືບໍ່"
 
-#: plugins/infowidget/statustab.cpp:95
+#: plugins/infowidget/statustab.cpp:96
 #, kde-format
 msgid "Private"
 msgstr "ສ່ວນຕົວ"
 
-#: plugins/infowidget/statustab.cpp:95
+#: plugins/infowidget/statustab.cpp:96
 #, kde-format
 msgid "Public"
 msgstr "ສາທາລະນະ"
@@ -6053,18 +5995,18 @@ msgstr "ຂີດຈຳກັດອັດຕາສ່ວນ:"
 msgid "Time limit:"
 msgstr "ຂີດຈຳກັດເວລາ:"
 
-#: plugins/infowidget/trackermodel.cpp:121
-#: plugins/infowidget/webseedsmodel.cpp:104
+#: plugins/infowidget/trackermodel.cpp:129
+#: plugins/infowidget/webseedsmodel.cpp:108
 #, kde-format
 msgid "URL"
 msgstr "URL"
 
-#: plugins/infowidget/trackermodel.cpp:129
+#: plugins/infowidget/trackermodel.cpp:137
 #, kde-format
 msgid "Times Downloaded"
 msgstr "ຈຳນວນຄັ້ງດາວໂຫຼດ"
 
-#: plugins/infowidget/trackermodel.cpp:131
+#: plugins/infowidget/trackermodel.cpp:139
 #, kde-format
 msgid "Next Update"
 msgstr "ການອັບເດດຄັ້ງຕໍ່ໄປ"
@@ -6074,22 +6016,22 @@ msgstr "ການອັບເດດຄັ້ງຕໍ່ໄປ"
 msgid "Copy Tracker URL"
 msgstr "ສຳເນົາ URL ຕົວຕິດຕາມ"
 
-#: plugins/infowidget/trackerview.cpp:64
+#: plugins/infowidget/trackerview.cpp:65
 #, kde-format
 msgid "Copy Tracker status"
 msgstr "ສຳເນົາສະຖານະຕົວຕິດຕາມ"
 
-#: plugins/infowidget/trackerview.cpp:115
+#: plugins/infowidget/trackerview.cpp:121
 #, kde-format
 msgid "Several URL's could not be added because they are malformed:"
 msgstr "ຫຼາຍ URL ບໍ່ສາມາດເພີ່ມໄດ້ເນື່ອງຈາກຮູບແບບບໍ່ຖືກຕ້ອງ:"
 
-#: plugins/infowidget/trackerview.cpp:129
+#: plugins/infowidget/trackerview.cpp:136
 #, kde-format
 msgid "There already is a tracker named <b>%1</b>."
 msgstr "ມີຕົວຕິດຕາມຊື່ <b>%1</b> ຢູ່ແລ້ວ."
 
-#: plugins/infowidget/trackerview.cpp:131
+#: plugins/infowidget/trackerview.cpp:138
 #, kde-format
 msgid "The following duplicate trackers were not added:"
 msgstr "ຕົວຕິດຕາມຊ້ຳກັນດັ່ງລຸ່ມນີ້ບໍ່ໄດ້ຖືກເພີ່ມ:"
@@ -6124,17 +6066,17 @@ msgstr "ອັບເດດຕົວຕິດຕາມ"
 msgid "Restore Defaults"
 msgstr "ຄືນຄ່າເລີ່ມຕົ້ນ"
 
-#: plugins/infowidget/webseedsmodel.cpp:106
+#: plugins/infowidget/webseedsmodel.cpp:110
 #, kde-format
 msgid "Speed"
 msgstr "ຄວາມໄວ"
 
-#: plugins/infowidget/webseedstab.cpp:87
+#: plugins/infowidget/webseedstab.cpp:89
 #, kde-format
 msgid "Cannot add the webseed %1, it is already part of the list of webseeds."
 msgstr "ບໍ່ສາມາດເພີ່ມເວັບຊິດ %1 ໄດ້, ມັນຢູ່ໃນລາຍການເວັບຊິດແລ້ວ."
 
-#: plugins/infowidget/webseedstab.cpp:103
+#: plugins/infowidget/webseedstab.cpp:106
 #, kde-format
 msgid "Cannot remove webseed %1, it is part of the torrent."
 msgstr "ບໍ່ສາມາດລຶບເວັບຊິດ %1 ໄດ້, ມັນເປັນສ່ວນໜຶ່ງຂອງທໍເຣັ້ນ."
@@ -6156,7 +6098,8 @@ msgstr ""
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">ເວັບຊິດທີ່ຈະເພີ່ມໃສ່ທໍເຣັ້ນ.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">ໝາຍເຫດ: </span>ຮອງຮັບສະເພາະ http webseeds ເທົ່ານັ້ນ.</p>"
@@ -6186,7 +6129,7 @@ msgid "Disable All"
 msgstr "ປິດໃຊ້ງານທັງໝົດ"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, ConvertDialog)
-#: plugins/ipfilter/convertdialog.ui:20 plugins/ipfilter/convertthread.cpp:146
+#: plugins/ipfilter/convertdialog.ui:20 plugins/ipfilter/convertthread.cpp:148
 #, kde-format
 msgid "Converting…"
 msgstr "ກຳລັງແປງ…"
@@ -6208,45 +6151,45 @@ msgstr "ຍົກເລີກ"
 msgid "Loading txt file…"
 msgstr "ກຳລັງໂຫຼດໄຟລ໌ txt…"
 
-#: plugins/ipfilter/convertthread.cpp:131
+#: plugins/ipfilter/convertthread.cpp:133
 #, kde-format
 msgid "There are no IP addresses to convert in %1"
 msgstr "ບໍ່ມີທີ່ຢູ່ IP ໃຫ້ແປງໃນ %1"
 
-#: plugins/ipfilter/downloadandconvertjob.cpp:68
-#: plugins/ipfilter/downloadandconvertjob.cpp:102
-#: plugins/ipfilter/downloadandconvertjob.cpp:162
-#: plugins/ipfilter/downloadandconvertjob.cpp:224
+#: plugins/ipfilter/downloadandconvertjob.cpp:70
+#: plugins/ipfilter/downloadandconvertjob.cpp:105
+#: plugins/ipfilter/downloadandconvertjob.cpp:167
+#: plugins/ipfilter/downloadandconvertjob.cpp:227
 #, kde-format
 msgid "Automatic update of IP filter failed: %1"
 msgstr "ການອັບເດດຕົວຂັດຕອງ IP ອັດຕະໂນມັດລົ້ມເຫຼວ: %1"
 
-#: plugins/ipfilter/downloadandconvertjob.cpp:124
+#: plugins/ipfilter/downloadandconvertjob.cpp:127
 #, kde-format
 msgid "7z files are not supported"
 msgstr "ບໍ່ຮອງຮັບໄຟລ໌ 7z"
 
-#: plugins/ipfilter/downloadandconvertjob.cpp:143
+#: plugins/ipfilter/downloadandconvertjob.cpp:147
 #, kde-format
 msgid "Cannot determine file type of <b>%1</b>"
 msgstr "ບໍ່ສາມາດລະບຸປະເພດໄຟລ໌ຂອງ <b>%1</b>"
 
-#: plugins/ipfilter/downloadandconvertjob.cpp:175
+#: plugins/ipfilter/downloadandconvertjob.cpp:180
 #, kde-format
 msgid "Cannot open zip file %1."
 msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ zip %1."
 
-#: plugins/ipfilter/downloadandconvertjob.cpp:177
+#: plugins/ipfilter/downloadandconvertjob.cpp:182
 #, kde-format
 msgid "Automatic update of IP filter failed: cannot open zip file %1"
 msgstr "ການອັບເດດຕົວຂັດຕອງ IP ອັດຕະໂນມັດລົ້ມເຫຼວ: ບໍ່ສາມາດເປີດໄຟລ໌ zip %1"
 
-#: plugins/ipfilter/downloadandconvertjob.cpp:197
+#: plugins/ipfilter/downloadandconvertjob.cpp:201
 #, kde-format
 msgid "Cannot find blocklist in zip file %1."
 msgstr "ບໍ່ພົບລາຍການບລັອກໃນໄຟລ໌ zip %1."
 
-#: plugins/ipfilter/downloadandconvertjob.cpp:199
+#: plugins/ipfilter/downloadandconvertjob.cpp:203
 #, kde-format
 msgid ""
 "Automatic update of IP filter failed: cannot find blocklist in zip file %1"
@@ -6259,36 +6202,36 @@ msgid_plural " days"
 msgstr[0] " ມື້"
 
 #: plugins/ipfilter/ipblockingprefpage.cpp:50
-#: plugins/ipfilter/ipblockingprefpage.cpp:71
-#: plugins/ipfilter/ipblockingprefpage.cpp:134
+#: plugins/ipfilter/ipblockingprefpage.cpp:72
+#: plugins/ipfilter/ipblockingprefpage.cpp:137
 #, kde-format
 msgid "Status: Loaded and running."
 msgstr "ສະຖານະ: ໂຫຼດແລ້ວ ແລະ ກຳລັງເຮັດວຽກ."
 
 #: plugins/ipfilter/ipblockingprefpage.cpp:52
-#: plugins/ipfilter/ipblockingprefpage.cpp:73
-#: plugins/ipfilter/ipblockingprefpage.cpp:82
-#: plugins/ipfilter/ipblockingprefpage.cpp:136
+#: plugins/ipfilter/ipblockingprefpage.cpp:74
+#: plugins/ipfilter/ipblockingprefpage.cpp:84
+#: plugins/ipfilter/ipblockingprefpage.cpp:139
 #, kde-format
 msgid "Status: Not loaded."
 msgstr "ສະຖານະ: ຍັງບໍ່ໂຫຼດ."
 
-#: plugins/ipfilter/ipblockingprefpage.cpp:100
+#: plugins/ipfilter/ipblockingprefpage.cpp:102
 #, kde-format
 msgid "Status: Downloading and converting new block list…"
 msgstr "ສະຖານະ: ກຳລັງດາວໂຫຼດ ແລະ ແປງລາຍການບລັອກໃໝ່…"
 
-#: plugins/ipfilter/ipblockingprefpage.cpp:175
+#: plugins/ipfilter/ipblockingprefpage.cpp:180
 #, kde-format
 msgid "No update done yet."
 msgstr "ຍັງບໍ່ທັນມີການອັບເດດເທື່ອ."
 
-#: plugins/ipfilter/ipblockingprefpage.cpp:179
+#: plugins/ipfilter/ipblockingprefpage.cpp:184
 #, kde-format
 msgid "%1 (Last update attempt failed.)"
 msgstr "%1 (ຄວາມພະຍາຍາມອັບເດດລ່າສຸດລົ້ມເຫຼວ.)"
 
-#: plugins/ipfilter/ipblockingprefpage.cpp:190
+#: plugins/ipfilter/ipblockingprefpage.cpp:197
 #, kde-format
 msgid "Never"
 msgstr "ບໍ່ເຄີຍ"
@@ -6405,38 +6348,38 @@ msgstr "ໃຊ້ຕົວຂັດຕອງ level1 ບໍ່?"
 msgid "Use rich log text"
 msgstr "ໃຊ້ຂໍ້ຄວາມ log ແບບ rich text"
 
-#: plugins/logviewer/logflags.cpp:104
+#: plugins/logviewer/logflags.cpp:111
 #, kde-format
 msgid "System"
 msgstr "ລະບົບ"
 
-#: plugins/logviewer/logflags.cpp:106
+#: plugins/logviewer/logflags.cpp:113
 #, kde-format
 msgid "Log Level"
 msgstr "ລະດັບ Log"
 
-#: plugins/logviewer/logflags.cpp:188 plugins/logviewer/logflagsdelegate.cpp:31
+#: plugins/logviewer/logflags.cpp:200 plugins/logviewer/logflagsdelegate.cpp:31
 #, kde-format
 msgid "Debug"
 msgstr "ດີບັກ"
 
-#: plugins/logviewer/logflags.cpp:190 plugins/logviewer/logflagsdelegate.cpp:30
+#: plugins/logviewer/logflags.cpp:202 plugins/logviewer/logflagsdelegate.cpp:30
 #, kde-format
 msgid "Notice"
 msgstr "ແຈ້ງເຕືອນ"
 
-#: plugins/logviewer/logflags.cpp:192 plugins/logviewer/logflagsdelegate.cpp:29
+#: plugins/logviewer/logflags.cpp:204 plugins/logviewer/logflagsdelegate.cpp:29
 #, kde-format
 msgid "Important"
 msgstr "ສຳຄັນ"
 
-#: plugins/logviewer/logflags.cpp:194 plugins/logviewer/logflagsdelegate.cpp:28
+#: plugins/logviewer/logflags.cpp:206 plugins/logviewer/logflagsdelegate.cpp:28
 #, kde-format
 msgid "All"
 msgstr "ທັງໝົດ"
 
-#: plugins/logviewer/logflags.cpp:196 plugins/logviewer/logflagsdelegate.cpp:32
-#: plugins/syndication/ktfeed.cpp:472
+#: plugins/logviewer/logflags.cpp:208 plugins/logviewer/logflagsdelegate.cpp:32
+#: plugins/syndication/ktfeed.cpp:539
 #, kde-format
 msgid "None"
 msgstr "ບໍ່ມີ"
@@ -6474,7 +6417,8 @@ msgid ""
 msgstr ""
 "<html>ດັບເບິລຄລິກທີ່ລະດັບ log ເພື່ອປ່ຽນແປງ. ລະດັບທີ່ເປັນໄປໄດ້ຄື:\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">ທັງໝົດ: </span>ສະແດງຂໍ້ຄວາມທັງໝົດ</p>\n"
@@ -6556,12 +6500,12 @@ msgstr "ເບິ່ງຜົນຜະລິດ log ທີ່ສ້າງໂດ�
 msgid "Suspend Output"
 msgstr "ລະງັບຜົນຜະລິດ"
 
-#: plugins/logviewer/logviewer.cpp:121
+#: plugins/logviewer/logviewer.cpp:125
 #, kde-format
 msgid "<font color=\"#FF0000\">Logging output suspended</font>"
 msgstr "<font color=\"#FF0000\">ຜົນຜະລິດ Log ຖືກລະງັບ</font>"
 
-#: plugins/logviewer/logviewer.cpp:123
+#: plugins/logviewer/logviewer.cpp:127
 #, kde-format
 msgid "<font color=\"#00FF00\">Logging output resumed</font>"
 msgstr "<font color=\"#00FF00\">ຜົນຜະລິດ Log ສືບຕໍ່</font>"
@@ -6613,7 +6557,7 @@ msgstr "ເປີດໃຊ້ສະເພາະກັບທໍເຣັ້ນສ
 msgid "Copy Magnet URI"
 msgstr "ສຳເນົາ Magnet URI"
 
-#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:115
+#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:117
 #, kde-format
 msgid "Magnet link copied to clipboard"
 msgstr "ລິງກ໌ Magnet ຖືກສຳເນົາໃສ່ຄລິບບອດແລ້ວ"
@@ -6685,157 +6629,157 @@ msgstr "ໃຫ້ຄຳຕິຊົມໃນຮູບແບບປັອບອັ
 msgid "Media Player Menu"
 msgstr "ເມນູເຄື່ອງຫຼິ້ນມີເດຍ"
 
-#: plugins/mediaplayer/mediacontroller.cpp:29
-#: plugins/mediaplayer/mediacontroller.cpp:67
+#: plugins/mediaplayer/mediacontroller.cpp:31
+#: plugins/mediaplayer/mediacontroller.cpp:70
 #, kde-format
 msgid "Ready to play"
 msgstr "ພ້ອມຫຼິ້ນ"
 
-#: plugins/mediaplayer/mediacontroller.cpp:77
-#: plugins/mediaplayer/mediacontroller.cpp:83
+#: plugins/mediaplayer/mediacontroller.cpp:80
+#: plugins/mediaplayer/mediacontroller.cpp:86
 #, kde-format
 msgid "Playing: <b>%1</b>"
 msgstr "ກຳລັງຫຼິ້ນ: <b>%1</b>"
 
-#: plugins/mediaplayer/mediacontroller.cpp:96
+#: plugins/mediaplayer/mediacontroller.cpp:99
 #, kde-format
 msgid "<b>%2</b> - <b>%1</b> (Album: <b>%3</b>)"
 msgstr "<b>%2</b> - <b>%1</b> (ອັນລະບັ້ມ: <b>%3</b>)"
 
-#: plugins/mediaplayer/mediacontroller.cpp:99
+#: plugins/mediaplayer/mediacontroller.cpp:102
 #, kde-format
 msgid "<b>%2</b> - <b>%1</b>"
 msgstr "<b>%2</b> - <b>%1</b>"
 
-#: plugins/mediaplayer/mediacontroller.cpp:102
 #: plugins/mediaplayer/mediacontroller.cpp:105
+#: plugins/mediaplayer/mediacontroller.cpp:108
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: plugins/mediaplayer/mediamodel.cpp:70
+#: plugins/mediaplayer/mediamodel.cpp:72
 #, kde-format
 msgid "Available"
 msgstr "ມີໃຫ້"
 
-#: plugins/mediaplayer/mediamodel.cpp:70
+#: plugins/mediaplayer/mediamodel.cpp:72
 #, kde-format
 msgid "Pending"
 msgstr "ລໍຖ້າຢູ່"
 
-#: plugins/mediaplayer/mediamodel.cpp:71
+#: plugins/mediaplayer/mediamodel.cpp:73
 #, kde-format
 msgid "<b>%1</b><br/>Preview: %2<br/>Downloaded: %3 %"
 msgstr "<b>%1</b><br/>ຕົວຢ່າງ: %2<br/>ດາວໂຫຼດແລ້ວ: %3 %"
 
 #: plugins/mediaplayer/mediaplayeractivity.cpp:39
 #: plugins/mediaplayer/mediaplayeractivity.cpp:56
-#: plugins/mediaplayer/mediaplayeractivity.cpp:147
-#: plugins/mediaplayer/mediaplayeractivity.cpp:333
+#: plugins/mediaplayer/mediaplayeractivity.cpp:149
+#: plugins/mediaplayer/mediaplayeractivity.cpp:347
 #: plugins/mediaplayer/mediaplayerplugin.cpp:34
 #: plugins/mediaplayer/mediaplayerplugin.cpp:45
 #, kde-format
 msgid "Media Player"
 msgstr "ເຄື່ອງຫຼິ້ນມີເດຍ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:101
-#: plugins/mediaplayer/videowidget.cpp:59
+#: plugins/mediaplayer/mediaplayeractivity.cpp:102
+#: plugins/mediaplayer/videowidget.cpp:63
 #, kde-format
 msgid "Play"
 msgstr "ຫຼິ້ນ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:105
+#: plugins/mediaplayer/mediaplayeractivity.cpp:106
 #, kde-format
 msgid "Pause"
 msgstr "ຢຸດຊົ່ວຄາວ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:109
-#: plugins/mediaplayer/videowidget.cpp:62
+#: plugins/mediaplayer/mediaplayeractivity.cpp:110
+#: plugins/mediaplayer/videowidget.cpp:66
 #, kde-format
 msgid "Stop"
 msgstr "ຢຸດ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:113
+#: plugins/mediaplayer/mediaplayeractivity.cpp:114
 #, kde-format
 msgid "Previous"
 msgstr "ກ່ອນໜ້າ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:117
+#: plugins/mediaplayer/mediaplayeractivity.cpp:118
 #, kde-format
 msgid "Next"
 msgstr "ຖັດໄປ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:121
+#: plugins/mediaplayer/mediaplayeractivity.cpp:122
 #, kde-format
 msgid "Show Video"
 msgstr "ສະແດງວິດີໂອ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:125
+#: plugins/mediaplayer/mediaplayeractivity.cpp:126
 #: plugins/mediaplayer/playlistwidget.cpp:39
 #, kde-format
 msgid "Add Media"
 msgstr "ເພີ່ມມີເດຍ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:129
+#: plugins/mediaplayer/mediaplayeractivity.cpp:130
 #: plugins/mediaplayer/playlistwidget.cpp:41
 #, kde-format
 msgid "Clear Playlist"
 msgstr "ລ້າງລາຍການຫຼິ້ນ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:133
+#: plugins/mediaplayer/mediaplayeractivity.cpp:134
 #, kde-format
 msgid "Toggle Fullscreen"
 msgstr "ສະລັບເຕັມຈໍ"
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:157
-#: plugins/mediaplayer/mediaplayeractivity.cpp:336
+#: plugins/mediaplayer/mediaplayeractivity.cpp:160
+#: plugins/mediaplayer/mediaplayeractivity.cpp:351
 #, kde-format
 msgid "Movie player"
 msgstr "ເຄື່ອງຫຼິ້ນໜັງ"
 
-#: plugins/mediaplayer/mediaview.cpp:84
+#: plugins/mediaplayer/mediaview.cpp:86
 #, kde-format
 msgid "Show incomplete files"
 msgstr "ສະແດງໄຟລ໌ທີ່ບໍ່ສົມບູນ"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_refresh)
-#: plugins/mediaplayer/mediaview.cpp:89 plugins/syndication/feedwidget.ui:124
+#: plugins/mediaplayer/mediaview.cpp:91 plugins/syndication/feedwidget.ui:124
 #, kde-format
 msgid "Refresh"
 msgstr "ຣີເຟຣຊ"
 
-#: plugins/mediaplayer/mediaview.cpp:90
+#: plugins/mediaplayer/mediaview.cpp:92
 #, kde-format
 msgid "Refresh media files"
 msgstr "ຣີເຟຣຊໄຟລ໌ມີເດຍ"
 
-#: plugins/mediaplayer/mediaview.cpp:94
+#: plugins/mediaplayer/mediaview.cpp:96
 #, kde-format
 msgid "Search media files"
 msgstr "ຄົ້ນຫາໄຟລ໌ມີເດຍ"
 
-#: plugins/mediaplayer/playlist.cpp:87
-#: plugins/syndication/feedwidgetmodel.cpp:75
+#: plugins/mediaplayer/playlist.cpp:90
+#: plugins/syndication/feedwidgetmodel.cpp:80
 #, kde-format
 msgid "Title"
 msgstr "ຫົວຂໍ້"
 
-#: plugins/mediaplayer/playlist.cpp:89
+#: plugins/mediaplayer/playlist.cpp:92
 #, kde-format
 msgid "Artist"
 msgstr "ສິລະປິນ"
 
-#: plugins/mediaplayer/playlist.cpp:91
+#: plugins/mediaplayer/playlist.cpp:94
 #, kde-format
 msgid "Album"
 msgstr "ອັນລະບັ້ມ"
 
-#: plugins/mediaplayer/playlist.cpp:93
+#: plugins/mediaplayer/playlist.cpp:96
 #, kde-format
 msgid "Length"
 msgstr "ຄວາມຍາວ"
 
-#: plugins/mediaplayer/playlist.cpp:95
+#: plugins/mediaplayer/playlist.cpp:98
 #, kde-format
 msgid "Year"
 msgstr "ປີ"
@@ -6845,7 +6789,7 @@ msgstr "ປີ"
 msgid "Random play order"
 msgstr "ສຸ່ມລຳດັບການຫຼິ້ນ"
 
-#: plugins/mediaplayer/videowidget.cpp:183
+#: plugins/mediaplayer/videowidget.cpp:192
 #, kde-format
 msgid "KTorrent is playing a video."
 msgstr "KTorrent ກຳລັງຫຼິ້ນວິດີໂອ."
@@ -6874,10 +6818,10 @@ msgstr "ເລືອກການກະທຳຍ້າຍ."
 msgid "Scan directories recursively."
 msgstr "ສະແກນໂຟນເດີແບບ recursive."
 
-#: plugins/scanfolder/scanfolder.cpp:62 plugins/scanfolder/scanthread.cpp:172
-#: plugins/scanfolder/torrentloadqueue.cpp:139
-#: plugins/scanfolder/torrentloadqueue.cpp:140
-#: plugins/scanfolder/torrentloadqueue.cpp:143
+#: plugins/scanfolder/scanfolder.cpp:64 plugins/scanfolder/scanthread.cpp:176
+#: plugins/scanfolder/torrentloadqueue.cpp:148
+#: plugins/scanfolder/torrentloadqueue.cpp:149
+#: plugins/scanfolder/torrentloadqueue.cpp:153
 #, kde-format
 msgctxt "folder name part"
 msgid "loaded"
@@ -6973,9 +6917,7 @@ msgstr "ລຶບໄຟລ໌ທໍເຣັ້ນຫຼັງຈາກໂຫຼ
 msgid ""
 "When a torrent file is loaded, move it to a subdirectory named loaded. If "
 "the folder does not exist, it will be created."
-msgstr ""
-"ເມື່ອໄຟລ໌ທໍເຣັ້ນຖືກໂຫຼດ, ຍ້າຍມັນໄປທີ່ໂຟນເດີຍ່ອຍຊື່ loaded. ຖ້າໂຟນເດີບໍ່ມີ, "
-"ມັນຈະຖືກສ້າງຂຶ້ນ."
+msgstr "ເມື່ອໄຟລ໌ທໍເຣັ້ນຖືກໂຫຼດ, ຍ້າຍມັນໄປທີ່ໂຟນເດີຍ່ອຍຊື່ loaded. ຖ້າໂຟນເດີບໍ່ມີ, ມັນຈະຖືກສ້າງຂຶ້ນ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_actionMove)
 #: plugins/scanfolder/scanfolderprefpage.ui:113
@@ -7106,17 +7048,17 @@ msgctxt "plugin name"
 msgid "Search"
 msgstr "ຄົ້ນຫາ"
 
-#: plugins/search/searchactivity.cpp:211
+#: plugins/search/searchactivity.cpp:214
 #, kde-format
 msgid "Search for %1"
 msgstr "ຄົ້ນຫາ %1"
 
-#: plugins/search/searchenginelist.cpp:181
+#: plugins/search/searchenginelist.cpp:190
 #, kde-format
 msgid "Failed to parse %1"
 msgstr "ລົ້ມເຫຼວໃນການແຍກແຍະ %1"
 
-#: plugins/search/searchenginelist.cpp:314
+#: plugins/search/searchenginelist.cpp:333
 #, kde-format
 msgid "URL: <b>%1</b>"
 msgstr "URL: <b>%1</b>"
@@ -7253,7 +7195,7 @@ msgstr "ເພີ່ມເຄື່ອງມືຄົ້ນຫາເລີ່ມ
 msgid "Add Defau&lt"
 msgstr "ເພີ່ມຄ່າເລີ່ມຕົ້ນ (&l)"
 
-#: plugins/search/searchprefpage.cpp:88 plugins/search/searchprefpage.cpp:124
+#: plugins/search/searchprefpage.cpp:88 plugins/search/searchprefpage.cpp:126
 #, kde-format
 msgid "Add a Search Engine"
 msgstr "ເພີ່ມເຄື່ອງມືຄົ້ນຫາ"
@@ -7263,17 +7205,17 @@ msgstr "ເພີ່ມເຄື່ອງມືຄົ້ນຫາ"
 msgid "Enter the hostname of the search engine (for example www.google.com):"
 msgstr "ປ້ອນຊື່ໂຮສຂອງເຄື່ອງມືຄົ້ນຫາ (ຕົວຢ່າງ www.google.com):"
 
-#: plugins/search/searchprefpage.cpp:121
+#: plugins/search/searchprefpage.cpp:123
 #, kde-format
 msgid ""
 "Opensearch is not supported by %1, you will need to enter the search URL "
 "manually. The URL should contain {searchTerms}, ktorrent will replace this "
 "by the thing you are searching for."
 msgstr ""
-"Opensearch ບໍ່ຮອງຮັບໂດຍ %1, ເຈົ້າຕ້ອງປ້ອນ URL ການຄົ້ນຫາດ້ວຍຕົນເອງ. URL "
-"ຄວນມີ {searchTerms}, ktorrent ຈະແທນທີ່ຄຳນີ້ດ້ວຍສິ່ງທີ່ເຈົ້າກຳລັງຄົ້ນຫາ."
+"Opensearch ບໍ່ຮອງຮັບໂດຍ %1, ເຈົ້າຕ້ອງປ້ອນ URL ການຄົ້ນຫາດ້ວຍຕົນເອງ. URL ຄວນມີ "
+"{searchTerms}, ktorrent ຈະແທນທີ່ຄຳນີ້ດ້ວຍສິ່ງທີ່ເຈົ້າກຳລັງຄົ້ນຫາ."
 
-#: plugins/search/searchprefpage.cpp:127
+#: plugins/search/searchprefpage.cpp:129
 #, kde-format
 msgid "The URL %1 does not contain {searchTerms}."
 msgstr "URL %1 ບໍ່ມີ {searchTerms}."
@@ -7283,57 +7225,57 @@ msgstr "URL %1 ບໍ່ມີ {searchTerms}."
 msgid " Engine: "
 msgstr " ເຄື່ອງມື: "
 
-#: plugins/search/searchwidget.cpp:220
+#: plugins/search/searchwidget.cpp:226
 #, kde-format
 msgid "Downloading:<br/><b>%1</b>"
 msgstr "ກຳລັງດາວໂຫຼດ:<br/><b>%1</b>"
 
-#: plugins/search/searchwidget.cpp:228
+#: plugins/search/searchwidget.cpp:234
 #, kde-format
 msgid "Do you want to download or save the torrent?"
 msgstr "ເຈົ້າຕ້ອງການດາວໂຫຼດ ຫຼື ບັນທຶກທໍເຣັ້ນບໍ່?"
 
-#: plugins/search/searchwidget.cpp:229
+#: plugins/search/searchwidget.cpp:235
 #, kde-format
 msgid "Download Torrent"
 msgstr "ດາວໂຫຼດທໍເຣັ້ນ"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_download)
-#: plugins/search/searchwidget.cpp:230 plugins/syndication/feedwidget.ui:117
+#: plugins/search/searchwidget.cpp:236 plugins/syndication/feedwidget.ui:117
 #, kde-format
 msgid "Download"
 msgstr "ດາວໂຫຼດ"
 
-#: plugins/search/webview.cpp:105
+#: plugins/search/webview.cpp:110
 #, kde-format
 msgid "Home"
 msgstr "ໜ້າຫຼັກ"
 
-#: plugins/search/webview.cpp:106
+#: plugins/search/webview.cpp:111
 #, kde-format
 msgid "KTorrent"
 msgstr "KTorrent"
 
-#: plugins/search/webview.cpp:107
+#: plugins/search/webview.cpp:112
 #, kde-format
 msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
 msgid "Be free."
 msgstr "Be free."
 
-#: plugins/search/webview.cpp:108
+#: plugins/search/webview.cpp:113
 #, kde-format
 msgid "Search the web for torrents."
 msgstr "ຄົ້ນຫາເວັບສຳລັບທໍເຣັ້ນ."
 
-#: plugins/search/webview.cpp:145
+#: plugins/search/webview.cpp:151
 #, kde-format
 msgid "Save %1 to"
 msgstr "ບັນທຶກ %1 ໄປທີ່"
 
 #. i18n: ectx: Menu (shutdown)
 #: plugins/shutdown/ktorrent_shutdownui.rc:6
-#: plugins/shutdown/shutdowndlg.cpp:26 plugins/shutdown/shutdownplugin.cpp:127
-#: plugins/shutdown/shutdownruleset.cpp:239
+#: plugins/shutdown/shutdowndlg.cpp:26 plugins/shutdown/shutdownplugin.cpp:130
+#: plugins/shutdown/shutdownruleset.cpp:248
 #, kde-format
 msgid "Shutdown"
 msgstr "ປິດເຄື່ອງ"
@@ -7350,35 +7292,35 @@ msgctxt "@title:window"
 msgid "Configure Shutdown"
 msgstr "ຕັ້ງຄ່າການປິດເຄື່ອງ"
 
-#: plugins/shutdown/shutdowndlg.cpp:27 plugins/shutdown/shutdownplugin.cpp:131
-#: plugins/shutdown/shutdownruleset.cpp:242
+#: plugins/shutdown/shutdowndlg.cpp:27 plugins/shutdown/shutdownplugin.cpp:134
+#: plugins/shutdown/shutdownruleset.cpp:251
 #, kde-format
 msgid "Lock"
 msgstr "ລັອກ"
 
-#: plugins/shutdown/shutdowndlg.cpp:37 plugins/shutdown/shutdownplugin.cpp:135
-#: plugins/shutdown/shutdownruleset.cpp:245
+#: plugins/shutdown/shutdowndlg.cpp:37 plugins/shutdown/shutdownplugin.cpp:138
+#: plugins/shutdown/shutdownruleset.cpp:254
 #, kde-format
 msgid "Sleep (suspend to RAM)"
 msgstr "Sleep (suspend to RAM)"
 
-#: plugins/shutdown/shutdowndlg.cpp:43 plugins/shutdown/shutdownplugin.cpp:139
-#: plugins/shutdown/shutdownruleset.cpp:248
+#: plugins/shutdown/shutdowndlg.cpp:45 plugins/shutdown/shutdownplugin.cpp:142
+#: plugins/shutdown/shutdownruleset.cpp:257
 #, kde-format
 msgid "Hibernate (suspend to disk)"
 msgstr "Hibernate (suspend to disk)"
 
-#: plugins/shutdown/shutdowndlg.cpp:45
+#: plugins/shutdown/shutdowndlg.cpp:49
 #, kde-format
 msgid "When all torrents finish downloading"
 msgstr "ເມື່ອທໍເຣັ້ນທັງໝົດດາວໂຫຼດສຳເລັດ"
 
-#: plugins/shutdown/shutdowndlg.cpp:46
+#: plugins/shutdown/shutdowndlg.cpp:50
 #, kde-format
 msgid "When all torrents finish seeding"
 msgstr "ເມື່ອທໍເຣັ້ນທັງໝົດປ່ອຍສຳເລັດ"
 
-#: plugins/shutdown/shutdowndlg.cpp:47
+#: plugins/shutdown/shutdowndlg.cpp:51
 #, kde-format
 msgid "When the events below happen"
 msgstr "ເມື່ອເຫດການດ້ານລຸ່ມເກີດຂຶ້ນ"
@@ -7427,60 +7369,60 @@ msgstr "ເປີດໃຊ້ງານການປິດເຄື່ອງ"
 msgid "Configure Shutdown"
 msgstr "ຕັ້ງຄ່າການປິດເຄື່ອງ"
 
-#: plugins/shutdown/shutdownruleset.cpp:233
+#: plugins/shutdown/shutdownruleset.cpp:242
 #, kde-format
 msgid "Automatic shutdown not active"
 msgstr "ການປິດເຄື່ອງອັດຕະໂນມັດບໍ່ເຮັດວຽກ"
 
-#: plugins/shutdown/shutdownruleset.cpp:253
+#: plugins/shutdown/shutdownruleset.cpp:262
 #, kde-format
 msgid " when all of the following events have occurred:<br/><br/> "
 msgstr " ເມື່ອເຫດການທັງໝົດດັ່ງລຸ່ມນີ້ເກີດຂຶ້ນ:<br/><br/> "
 
-#: plugins/shutdown/shutdownruleset.cpp:255
+#: plugins/shutdown/shutdownruleset.cpp:264
 #, kde-format
 msgid " when one of the following events occur:<br/><br/> "
 msgstr " ເມື່ອໜຶ່ງໃນເຫດການດັ່ງລຸ່ມນີ້ເກີດຂຶ້ນ:<br/><br/> "
 
-#: plugins/shutdown/shutdownruleset.cpp:325
+#: plugins/shutdown/shutdownruleset.cpp:342
 #, kde-format
 msgid "<b>All torrents</b> finish downloading"
 msgstr "<b>ທໍເຣັ້ນທັງໝົດ</b> ດາວໂຫຼດສຳເລັດ"
 
-#: plugins/shutdown/shutdownruleset.cpp:327
+#: plugins/shutdown/shutdownruleset.cpp:344
 #, kde-format
 msgid "<b>All torrents</b> finish seeding"
 msgstr "<b>ທໍເຣັ້ນທັງໝົດ</b> ປ່ອຍສຳເລັດ"
 
-#: plugins/shutdown/shutdownruleset.cpp:329
+#: plugins/shutdown/shutdownruleset.cpp:346
 #, kde-format
 msgid "<b>%1</b> finishes downloading"
 msgstr "<b>%1</b> ດາວໂຫຼດສຳເລັດ"
 
-#: plugins/shutdown/shutdownruleset.cpp:331
+#: plugins/shutdown/shutdownruleset.cpp:348
 #, kde-format
 msgid "<b>%1</b> finishes seeding"
 msgstr "<b>%1</b> ປ່ອຍສຳເລັດ"
 
-#: plugins/shutdown/shutdowntorrentmodel.cpp:74
-#: plugins/shutdown/shutdowntorrentmodel.cpp:211
+#: plugins/shutdown/shutdowntorrentmodel.cpp:76
+#: plugins/shutdown/shutdowntorrentmodel.cpp:222
 #, kde-format
 msgid "Downloading finishes"
 msgstr "ການດາວໂຫຼດສຳເລັດ"
 
-#: plugins/shutdown/shutdowntorrentmodel.cpp:76
-#: plugins/shutdown/shutdowntorrentmodel.cpp:212
+#: plugins/shutdown/shutdowntorrentmodel.cpp:78
+#: plugins/shutdown/shutdowntorrentmodel.cpp:223
 #, kde-format
 msgid "Seeding finishes"
 msgstr "ການປ່ອຍສຳເລັດ"
 
-#: plugins/shutdown/shutdowntorrentmodel.cpp:132
+#: plugins/shutdown/shutdowntorrentmodel.cpp:139
 #, kde-format
 msgid "Event"
 msgstr "ເຫດການ"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConnsWgt)
-#: plugins/stats/Conns.ui:13 plugins/stats/ConnsTabPage.cc:35
+#: plugins/stats/Conns.ui:13 plugins/stats/ConnsTabPage.cc:36
 #, kde-format
 msgid "Connections"
 msgstr "ການເຊື່ອມຕໍ່"
@@ -7505,20 +7447,20 @@ msgctxt "Chart name"
 msgid "DHT"
 msgstr "DHT"
 
-#: plugins/stats/ConnsTabPage.cc:36
+#: plugins/stats/ConnsTabPage.cc:37
 #, kde-format
 msgid "Nodes"
 msgstr "ໂນດ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_23)
-#: plugins/stats/ConnsTabPage.cc:42 plugins/stats/DisplaySettings.ui:513
+#: plugins/stats/ConnsTabPage.cc:43 plugins/stats/DisplaySettings.ui:513
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Leechers connected"
 msgstr "ຜູ້ດາວໂຫຼດທີ່ເຊື່ອມຕໍ່"
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
-#: plugins/stats/ConnsTabPage.cc:46 plugins/stats/ConnsTabPage.cc:94
+#: plugins/stats/ConnsTabPage.cc:48 plugins/stats/ConnsTabPage.cc:103
 #: plugins/stats/DisplaySettings.ui:548
 #, kde-format
 msgctxt "Name of a line on chart"
@@ -7526,55 +7468,55 @@ msgid "Leechers in swarms"
 msgstr "ຜູ້ດາວໂຫຼດໃນ swarms"
 
 #. i18n: ectx: property (text), widget (QLabel, label_25)
-#: plugins/stats/ConnsTabPage.cc:50 plugins/stats/DisplaySettings.ui:583
+#: plugins/stats/ConnsTabPage.cc:52 plugins/stats/DisplaySettings.ui:583
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Seeds connected"
 msgstr "ຜູ້ປ່ອຍທີ່ເຊື່ອມຕໍ່"
 
 #. i18n: ectx: property (text), widget (QLabel, label_26)
-#: plugins/stats/ConnsTabPage.cc:54 plugins/stats/ConnsTabPage.cc:105
-#: plugins/stats/ConnsTabPage.cc:107 plugins/stats/DisplaySettings.ui:618
+#: plugins/stats/ConnsTabPage.cc:57 plugins/stats/ConnsTabPage.cc:116
+#: plugins/stats/ConnsTabPage.cc:120 plugins/stats/DisplaySettings.ui:618
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Seeds in swarms"
 msgstr "ຜູ້ປ່ອຍໃນ swarms"
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
-#: plugins/stats/ConnsTabPage.cc:58 plugins/stats/DisplaySettings.ui:653
+#: plugins/stats/ConnsTabPage.cc:62 plugins/stats/DisplaySettings.ui:653
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Average leechers connected per torrent"
 msgstr "ຜູ້ດາວໂຫຼດສະເລ່ຍທີ່ເຊື່ອມຕໍ່ຕໍ່ທໍເຣັ້ນ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
-#: plugins/stats/ConnsTabPage.cc:61 plugins/stats/DisplaySettings.ui:688
+#: plugins/stats/ConnsTabPage.cc:66 plugins/stats/DisplaySettings.ui:688
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Average seeds connected per torrent"
 msgstr "ຜູ້ປ່ອຍສະເລ່ຍທີ່ເຊື່ອມຕໍ່ຕໍ່ທໍເຣັ້ນ"
 
-#: plugins/stats/ConnsTabPage.cc:64
+#: plugins/stats/ConnsTabPage.cc:69
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Average leechers connected per running torrent"
 msgstr "ຜູ້ດາວໂຫຼດສະເລ່ຍທີ່ເຊື່ອມຕໍ່ຕໍ່ທໍເຣັ້ນທີ່ກຳລັງເຮັດວຽກ"
 
-#: plugins/stats/ConnsTabPage.cc:67
+#: plugins/stats/ConnsTabPage.cc:74
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Average seeds connected per running torrent"
 msgstr "ຜູ້ປ່ອຍສະເລ່ຍທີ່ເຊື່ອມຕໍ່ຕໍ່ທໍເຣັ້ນທີ່ກຳລັງເຮັດວຽກ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_31)
-#: plugins/stats/ConnsTabPage.cc:72 plugins/stats/DisplaySettings.ui:806
+#: plugins/stats/ConnsTabPage.cc:81 plugins/stats/DisplaySettings.ui:806
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Nodes"
 msgstr "ໂນດ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_32)
-#: plugins/stats/ConnsTabPage.cc:73 plugins/stats/DisplaySettings.ui:845
+#: plugins/stats/ConnsTabPage.cc:82 plugins/stats/DisplaySettings.ui:845
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Tasks"
@@ -7591,7 +7533,7 @@ msgid "Download"
 msgstr "ດາວໂຫຼດ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/stats/DisplaySettings.ui:37 plugins/stats/SpdTabPage.cc:49
+#: plugins/stats/DisplaySettings.ui:37 plugins/stats/SpdTabPage.cc:50
 #, kde-format
 msgctxt "Name of a line on download chart"
 msgid "Current speed"
@@ -7622,35 +7564,35 @@ msgid "Peers"
 msgstr "ຄູ່ໂອນ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: plugins/stats/DisplaySettings.ui:173 plugins/stats/SpdTabPage.cc:58
+#: plugins/stats/DisplaySettings.ui:173 plugins/stats/SpdTabPage.cc:59
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Average from leechers"
 msgstr "ສະເລ່ຍຈາກຜູ້ດາວໂຫຼດ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
-#: plugins/stats/DisplaySettings.ui:208 plugins/stats/SpdTabPage.cc:59
+#: plugins/stats/DisplaySettings.ui:208 plugins/stats/SpdTabPage.cc:60
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Average to leechers"
 msgstr "ສະເລ່ຍໄປຫາຜູ້ດາວໂຫຼດ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
-#: plugins/stats/DisplaySettings.ui:243 plugins/stats/SpdTabPage.cc:60
+#: plugins/stats/DisplaySettings.ui:243 plugins/stats/SpdTabPage.cc:61
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "Average from seeds"
 msgstr "ສະເລ່ຍຈາກຜູ້ປ່ອຍ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
-#: plugins/stats/DisplaySettings.ui:278 plugins/stats/SpdTabPage.cc:61
+#: plugins/stats/DisplaySettings.ui:278 plugins/stats/SpdTabPage.cc:62
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "From leechers"
 msgstr "ຈາກຜູ້ດາວໂຫຼດ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
-#: plugins/stats/DisplaySettings.ui:313 plugins/stats/SpdTabPage.cc:62
+#: plugins/stats/DisplaySettings.ui:313 plugins/stats/SpdTabPage.cc:63
 #, kde-format
 msgctxt "Name of a line on chart"
 msgid "From seeds"
@@ -7667,7 +7609,7 @@ msgid "Upload"
 msgstr "ອັບໂຫຼດ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: plugins/stats/DisplaySettings.ui:374 plugins/stats/SpdTabPage.cc:50
+#: plugins/stats/DisplaySettings.ui:374 plugins/stats/SpdTabPage.cc:51
 #, kde-format
 msgctxt "Name of a line on upload chart"
 msgid "Current speed"
@@ -7747,7 +7689,7 @@ msgstr "KDE"
 msgid "(plugin reload is needed after change)"
 msgstr "(ຈຳເປັນຕ້ອງໂຫຼດປັັກອິນຄືນໃໝ່ຫຼັງຈາກປ່ຽນແປງ)"
 
-#: plugins/stats/DisplaySettingsPage.cc:14
+#: plugins/stats/DisplaySettingsPage.cc:15
 #, kde-format
 msgctxt ""
 "@title:window This is about how things are displayed (colors, etc), not "
@@ -7760,13 +7702,13 @@ msgstr "ການສະແດງຜົນ"
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: plugins/stats/drawer/ChartDrawerData.cc:13
+#: plugins/stats/drawer/ChartDrawerData.cc:14
 #, kde-format
 msgid "Unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
 
-#: plugins/stats/drawer/KPlotWgtDrawer.cc:310
-#: plugins/stats/drawer/PlainChartDrawer.cc:492
+#: plugins/stats/drawer/KPlotWgtDrawer.cc:309
+#: plugins/stats/drawer/PlainChartDrawer.cc:475
 #, kde-format
 msgid ""
 "<h1 align='center' style='font-size: large; text-decoration: "
@@ -7775,8 +7717,8 @@ msgstr ""
 "<h1 align='center' style='font-size: large; text-decoration: "
 "underline'>ຄຳອະທິບາຍ:</h1><ul type='square'>"
 
-#: plugins/stats/drawer/KPlotWgtDrawer.cc:313
-#: plugins/stats/drawer/PlainChartDrawer.cc:495
+#: plugins/stats/drawer/KPlotWgtDrawer.cc:312
+#: plugins/stats/drawer/PlainChartDrawer.cc:478
 #, kde-format
 msgid ""
 "<li><span style='background-color: %1; font-size: 14px; font-family: "
@@ -7785,35 +7727,35 @@ msgstr ""
 "<li><span style='background-color: %1; font-size: 14px; font-family: "
 "monospace'>&nbsp;&nbsp;</span>&nbsp;—&nbsp;%2</li>"
 
-#: plugins/stats/drawer/KPlotWgtDrawer.cc:350
-#: plugins/stats/drawer/PlainChartDrawer.cc:302
+#: plugins/stats/drawer/KPlotWgtDrawer.cc:347
+#: plugins/stats/drawer/PlainChartDrawer.cc:287
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Save as image…"
 msgstr "ບັນທຶກເປັນຮູບພາບ…"
 
-#: plugins/stats/drawer/KPlotWgtDrawer.cc:357
-#: plugins/stats/drawer/PlainChartDrawer.cc:309
+#: plugins/stats/drawer/KPlotWgtDrawer.cc:353
+#: plugins/stats/drawer/PlainChartDrawer.cc:293
 #, kde-format
 msgctxt "@action:inmenu Recalculate the 0Y axis and then redraw the chart"
 msgid "Rescale"
 msgstr "Rescale"
 
-#: plugins/stats/drawer/KPlotWgtDrawer.cc:364
-#: plugins/stats/drawer/PlainChartDrawer.cc:316
+#: plugins/stats/drawer/KPlotWgtDrawer.cc:362
+#: plugins/stats/drawer/PlainChartDrawer.cc:302
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reset"
 msgstr "ຣີເຊັດ"
 
-#: plugins/stats/drawer/KPlotWgtDrawer.cc:378
-#: plugins/stats/drawer/PlainChartDrawer.cc:330
+#: plugins/stats/drawer/KPlotWgtDrawer.cc:376
+#: plugins/stats/drawer/PlainChartDrawer.cc:316
 #, kde-format
 msgid "Select path to save image…"
 msgstr "ເລືອກເສັ້ນທາງເພື່ອບັນທຶກຮູບພາບ…"
 
-#: plugins/stats/drawer/KPlotWgtDrawer.cc:378
-#: plugins/stats/drawer/PlainChartDrawer.cc:330
+#: plugins/stats/drawer/KPlotWgtDrawer.cc:376
+#: plugins/stats/drawer/PlainChartDrawer.cc:316
 #, kde-format
 msgid "Image files"
 msgstr "ໄຟລ໌ຮູບພາບ"
@@ -8129,25 +8071,25 @@ msgctxt "@title:window"
 msgid "Speed"
 msgstr "ຄວາມໄວ"
 
-#: plugins/stats/SpdTabPage.cc:52
+#: plugins/stats/SpdTabPage.cc:53
 #, kde-format
 msgctxt "Name of a line on download chart"
 msgid "Average speed"
 msgstr "ຄວາມໄວສະເລ່ຍ"
 
-#: plugins/stats/SpdTabPage.cc:53
+#: plugins/stats/SpdTabPage.cc:54
 #, kde-format
 msgctxt "Name of a line on upload chart"
 msgid "Average speed"
 msgstr "ຄວາມໄວສະເລ່ຍ"
 
-#: plugins/stats/SpdTabPage.cc:55
+#: plugins/stats/SpdTabPage.cc:56
 #, kde-format
 msgctxt "Name of a line on download chart"
 msgid "Speed limit"
 msgstr "ຂີດຈຳກັດຄວາມໄວ"
 
-#: plugins/stats/SpdTabPage.cc:56
+#: plugins/stats/SpdTabPage.cc:57
 #, kde-format
 msgctxt "Name of a line on upload chart"
 msgid "Speed limit"
@@ -8173,7 +8115,7 @@ msgstr "ແຜນພູມການເຊື່ອມຕໍ່"
 msgid "Displays charts about connections"
 msgstr "ສະແດງແຜນພູມກ່ຽວກັບການເຊື່ອມຕໍ່"
 
-#: plugins/syndication/feedlist.cpp:151
+#: plugins/syndication/feedlist.cpp:155
 #, kde-format
 msgid ""
 "%2\n"
@@ -8185,12 +8127,12 @@ msgstr[0] ""
 "%2\n"
 "%1 ຕົວຂັດຕອງທີ່ເຮັດວຽກ"
 
-#: plugins/syndication/feedlist.cpp:159
+#: plugins/syndication/feedlist.cpp:164
 #, kde-format
 msgid "<b>%1</b><br/><br/>Download failed: <b>%2</b>"
 msgstr "<b>%1</b><br/><br/>ການດາວໂຫຼດລົ້ມເຫຼວ: <b>%2</b>"
 
-#: plugins/syndication/feedlist.cpp:161
+#: plugins/syndication/feedlist.cpp:166
 #, kde-format
 msgid "<b>%1</b><br/><br/>%2"
 msgstr "<b>%1</b><br/><br/>%2"
@@ -8203,32 +8145,32 @@ msgctxt ""
 "is CSS Hex RGB formatted text color.%5 is CSS Hex RGB formatted background "
 "color."
 msgid ""
-"<html>    <body style=\"color:%4; background-color:%5\">    <div "
-"style=\"border-style:solid; border-width:1px; border-color:%4; margin:5px; "
+"<html>    <body style=\"color:%4; background-color:%5\">    <div style="
+"\"border-style:solid; border-width:1px; border-color:%4; margin:5px; "
 "padding:5px\">    <b>Title:</b> %1<br/>    <b>Date:</b> %2<br/>    </div>    "
 "<p>%3</p>    </body>    </html>    "
 msgstr ""
-"<html>    <body style=\"color:%4; background-color:%5\">    <div "
-"style=\"border-style:solid; border-width:1px; border-color:%4; margin:5px; "
-"padding:5px\">    <b>ຫົວຂໍ້:</b> %1<br/>    <b>ວັນທີ:</b> %2<br/>    </div>    "
-"<p>%3</p>    </body>    </html>    "
+"<html>    <body style=\"color:%4; background-color:%5\">    <div style="
+"\"border-style:solid; border-width:1px; border-color:%4; margin:5px; "
+"padding:5px\">    <b>ຫົວຂໍ້:</b> %1<br/>    <b>ວັນທີ:</b> %2<br/>    </div>    <p>"
+"%3</p>    </body>    </html>    "
 
-#: plugins/syndication/feedwidget.cpp:186
+#: plugins/syndication/feedwidget.cpp:193
 #, kde-format
 msgid "Authentication Cookie"
 msgstr "ຄຸກກີ້ການຢືນຢັນຕົວຕົນ"
 
-#: plugins/syndication/feedwidget.cpp:186
+#: plugins/syndication/feedwidget.cpp:193
 #, kde-format
 msgid "Enter the new authentication cookie"
 msgstr "ປ້ອນຄຸກກີ້ການຢືນຢັນຕົວຕົນໃໝ່"
 
-#: plugins/syndication/feedwidget.cpp:220
+#: plugins/syndication/feedwidget.cpp:228
 #, kde-format
 msgid "<b>OK</b>"
 msgstr "<b>ຕົກລົງ</b>"
 
-#: plugins/syndication/feedwidget.cpp:221
+#: plugins/syndication/feedwidget.cpp:229
 #, kde-format
 msgctxt "@info:label, %1 is the date-time an RSS feed was updated"
 msgid ""
@@ -8238,20 +8180,26 @@ msgstr ""
 "ອັບເດດລ່າສຸດ:\n"
 "%1"
 
-#: plugins/syndication/feedwidget.cpp:226
+#: plugins/syndication/feedwidget.cpp:234
 #, kde-format
 msgid "<b>Not Loaded</b>"
 msgstr "<b>ຍັງບໍ່ໂຫຼດ</b>"
 
-#: plugins/syndication/feedwidget.cpp:229
+#: plugins/syndication/feedwidget.cpp:237
 #, kde-format
 msgid "<b>Download Failed: %1</b>"
 msgstr "<b>ດາວໂຫຼດລົ້ມເຫຼວ: %1</b>"
 
-#: plugins/syndication/feedwidget.cpp:232
+#: plugins/syndication/feedwidget.cpp:240
 #, kde-format
 msgid "<b>Downloading</b>"
 msgstr "<b>ກຳລັງດາວໂຫຼດ</b>"
+
+#: plugins/syndication/feedwidget.cpp:243
+#, fuzzy, kde-format
+#| msgid "<b>%1</b>"
+msgid "<b>Queued</b>"
+msgstr "<b>%1</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/syndication/feedwidget.ui:65
@@ -8301,18 +8249,18 @@ msgstr "ຄຸກກີ້"
 msgid "Filters"
 msgstr "ຕົວຂັດຕອງ"
 
-#: plugins/syndication/feedwidgetmodel.cpp:77
+#: plugins/syndication/feedwidgetmodel.cpp:82
 #, kde-format
 msgid "Date Published"
 msgstr "ວັນທີເຜີຍແຜ່"
 
 #: plugins/syndication/filtereditor.cpp:38
-#: plugins/syndication/syndicationplugin.cpp:82
+#: plugins/syndication/syndicationplugin.cpp:86
 #, kde-format
 msgid "Edit Filter"
 msgstr "ແກ້ໄຂຕົວຂັດຕອງ"
 
-#: plugins/syndication/filtereditor.cpp:226
+#: plugins/syndication/filtereditor.cpp:237
 #, kde-format
 msgid "There already is a filter named %1, filter names must be unique."
 msgstr "ມີຕົວຂັດຕອງຊື່ %1 ຢູ່ແລ້ວ, ຊື່ຕົວຂັດຕອງຕ້ອງບໍ່ຊ້ຳກັນ."
@@ -8345,24 +8293,24 @@ msgid ""
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
 "p>\n"
 "<table border=\"0\" style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px;\" align=\"center\" cellspacing=\"1\" "
-"cellpadding=\"2\">\n"
+"left:0px; margin-right:0px;\" align=\"center\" cellspacing=\"1\" cellpadding="
+"\"2\">\n"
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">c</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">c</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Any character represents "
-"itself apart from those mentioned below. Thus <span style=\" font-"
-"weight:600;\">c</span> matches the character <span style=\" font-"
-"style:italic;\">c</span>.</p></td></tr>\n"
+"itself apart from those mentioned below. Thus <span style=\" font-weight:600;"
+"\">c</span> matches the character <span style=\" font-style:italic;\">c</"
+"span>.</p></td></tr>\n"
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">?</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">?</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">Matches any "
@@ -8370,8 +8318,8 @@ msgid ""
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">*</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">*</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">Matches "
@@ -8379,8 +8327,8 @@ msgid ""
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">[...]</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">[...]</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">Sets of "
@@ -8392,51 +8340,58 @@ msgid ""
 "the *.torrent will match any item which ends in .torrent. </p>"
 msgstr ""
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">ຂໍ້ຄວາມທີ່ຈະຄົ້ນຫາໃນຫົວຂໍ້ຂອງລາຍການ. ຮອງຮັບ syntax wildcard ແບບງ່າຍ :</p>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px;"
+"\">ຂໍ້ຄວາມທີ່ຈະຄົ້ນຫາໃນຫົວຂໍ້ຂອງລາຍການ. ຮອງຮັບ syntax wildcard ແບບງ່າຍ :</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
 "<table border=\"0\" style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px;\" align=\"center\" cellspacing=\"1\" "
-"cellpadding=\"2\">\n"
+"left:0px; margin-right:0px;\" align=\"center\" cellspacing=\"1\" cellpadding="
+"\"2\">\n"
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">c</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">c</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">ຕົວອັກສອນໃດໆກໍ່ຕາມແທນຕົວມັນເອງ ນອກຈາກສິ່ງທີ່ກ່າວມາຂ້າງລຸ່ມ. ດັ່ງນັ້ນ <span style=\" font-"
-"weight:600;\">c</span> ກົງກັບຕົວອັກສອນ <span style=\" font-"
-"style:italic;\">c</span>.</p></td></tr>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ຕົວອັກສອນໃດໆກໍ່ຕາມແທນຕົວມັນເອງ "
+"ນອກຈາກສິ່ງທີ່ກ່າວມາຂ້າງລຸ່ມ. ດັ່ງນັ້ນ <span style=\" font-weight:600;\">c</span> "
+"ກົງກັບຕົວອັກສອນ <span style=\" font-style:italic;\">c</span>.</p></td></tr>\n"
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">?</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">?</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">ກົງກັບຕົວອັກສອນດຽວໃດໆກໍ່ໄດ້. </p></td></tr>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;"
+"\">ກົງກັບຕົວອັກສອນດຽວໃດໆກໍ່ໄດ້. </p></td></tr>\n"
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">*</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">*</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">ກົງກັບຕົວອັກສອນໃດໆຈຳນວນສູນ ຫຼື ຫຼາຍກວ່າ.</p></td></tr>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;"
+"\">ກົງກັບຕົວອັກສອນໃດໆຈຳນວນສູນ ຫຼື ຫຼາຍກວ່າ.</p></td></tr>\n"
 "<tr>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span "
-"style=\" font-weight:600;\">[...]</span></p></td>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\"><span style="
+"\" font-weight:600;\">[...]</span></p></td>\n"
 "<td style=\" vertical-align:top;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">ຊຸດຂອງຕົວອັກສອນສາມາດສະແດງຢູ່ໃນວົງເລັບສີ່ຫຼ່ຽມ. ພາຍໃນຊັ້ນຕົວອັກສອນ, ເຊັ່ນດຽວກັບພາຍນອກ, backslash ບໍ່ມີຄວາມໝາຍພິເສດ.</p></td></tr></"
-"table>\n"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;"
+"\">ຊຸດຂອງຕົວອັກສອນສາມາດສະແດງຢູ່ໃນວົງເລັບສີ່ຫຼ່ຽມ. ພາຍໃນຊັ້ນຕົວອັກສອນ, ເຊັ່ນດຽວກັບພາຍນອກ, "
+"backslash ບໍ່ມີຄວາມໝາຍພິເສດ.</p></td></tr></table>\n"
 "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">ຕົວຢ່າງ: *.torrent ຈະກົງກັບລາຍການໃດໆທີ່ລົງທ້າຍດ້ວຍ .torrent. </p>"
+"right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;\">ຕົວຢ່າງ: *."
+"torrent ຈະກົງກັບລາຍການໃດໆທີ່ລົງທ້າຍດ້ວຍ .torrent. </p>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_reg_exp_syntax)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_exclusion_reg_exp)
@@ -8447,8 +8402,8 @@ msgid ""
 "By default strings will use wildcard matching. If you want to use regular "
 "expressions, this needs to be enabled."
 msgstr ""
-"ໂດຍຄ່າເລີ່ມຕົ້ນຂໍ້ຄວາມຈະໃຊ້ການຈັບຄູ່ແບບ wildcard. ຖ້າເຈົ້າຕ້ອງການໃຊ້ regular "
-"expressions, ຈຳເປັນຕ້ອງເປີດໃຊ້ສິ່ງນີ້."
+"ໂດຍຄ່າເລີ່ມຕົ້ນຂໍ້ຄວາມຈະໃຊ້ການຈັບຄູ່ແບບ wildcard. ຖ້າເຈົ້າຕ້ອງການໃຊ້ regular expressions, "
+"ຈຳເປັນຕ້ອງເປີດໃຊ້ສິ່ງນີ້."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_reg_exp_syntax)
 #. i18n: ectx: property (text), widget (QCheckBox, m_exclusion_reg_exp)
@@ -8513,8 +8468,7 @@ msgid ""
 "\n"
 "Will download seasons 1, 3, 4, 5, 6 and 9"
 msgstr ""
-"ລະບຸຊີຊັນທີ່ຈະດາວໂຫຼດ, ຫຼາຍຊີຊັນສາມາດແຍກດ້ວຍ , ແລະ "
-"ເຈົ້າຍັງສາມາດໃຊ້ຊ່ວງໂດຍການໃຊ້ -\n"
+"ລະບຸຊີຊັນທີ່ຈະດາວໂຫຼດ, ຫຼາຍຊີຊັນສາມາດແຍກດ້ວຍ , ແລະ ເຈົ້າຍັງສາມາດໃຊ້ຊ່ວງໂດຍການໃຊ້ -\n"
 "\n"
 "ຕົວຢ່າງ: 1, 3-6, 9\n"
 "\n"
@@ -8537,8 +8491,7 @@ msgid ""
 "\n"
 "Will download episodes 1, 3, 4, 5, 6 and 9"
 msgstr ""
-"ລະບຸຕອນທີ່ຈະດາວໂຫຼດ, ຫຼາຍຕອນສາມາດແຍກດ້ວຍ , ແລະ "
-"ເຈົ້າຍັງສາມາດໃຊ້ຊ່ວງໂດຍການໃຊ້ -\n"
+"ລະບຸຕອນທີ່ຈະດາວໂຫຼດ, ຫຼາຍຕອນສາມາດແຍກດ້ວຍ , ແລະ ເຈົ້າຍັງສາມາດໃຊ້ຊ່ວງໂດຍການໃຊ້ -\n"
 "\n"
 "ຕົວຢ່າງ: 1, 3-6, 9\n"
 "\n"
@@ -8588,37 +8541,37 @@ msgstr "ທົດສອບ"
 msgid "filter on feed:"
 msgstr "ຂັດຕອງໃນຟີດ:"
 
-#: plugins/syndication/ktfeed.cpp:449
+#: plugins/syndication/ktfeed.cpp:516
 #, kde-format
 msgid "Aborted"
 msgstr "ຍົກເລີກແລ້ວ"
 
-#: plugins/syndication/ktfeed.cpp:451
+#: plugins/syndication/ktfeed.cpp:518
 #, kde-format
 msgid "Timeout when downloading feed"
 msgstr "ໝົດເວລາໃນຂະນະດາວໂຫຼດຟີດ"
 
-#: plugins/syndication/ktfeed.cpp:453
+#: plugins/syndication/ktfeed.cpp:520
 #, kde-format
 msgid "Unknown hostname"
 msgstr "ບໍ່ຮູ້ຈັກ hostname"
 
-#: plugins/syndication/ktfeed.cpp:455
+#: plugins/syndication/ktfeed.cpp:522
 #, kde-format
 msgid "File not found"
 msgstr "ບໍ່ພົບໄຟລ໌"
 
-#: plugins/syndication/ktfeed.cpp:457
+#: plugins/syndication/ktfeed.cpp:524
 #, kde-format
 msgid "Unknown retriever error"
 msgstr "ຂໍ້ຜິດພາດ retriever ທີ່ບໍ່ຮູ້ຈັກ"
 
-#: plugins/syndication/ktfeed.cpp:461
+#: plugins/syndication/ktfeed.cpp:528
 #, kde-format
 msgid "Invalid feed data"
 msgstr "ຂໍ້ມູນຟີດບໍ່ຖືກຕ້ອງ"
 
-#: plugins/syndication/ktfeed.cpp:463
+#: plugins/syndication/ktfeed.cpp:530
 #, kde-format
 msgid "Success"
 msgstr "ສຳເລັດ"
@@ -8629,13 +8582,13 @@ msgstr "ສຳເລັດ"
 msgid "Syndication Toolbar"
 msgstr "ແຖບເຄື່ອງມື Syndication"
 
-#: plugins/syndication/linkdownloader.cpp:171
+#: plugins/syndication/linkdownloader.cpp:223
 #, kde-format
 msgid "Could not find a valid link to a torrent on %1"
 msgstr "ບໍ່ສາມາດຊອກຫາລິງກ໌ທີ່ຖືກຕ້ອງໄປຫາທໍເຣັ້ນໃນ %1"
 
 #: plugins/syndication/managefiltersdlg.cpp:27
-#: plugins/syndication/syndicationplugin.cpp:70
+#: plugins/syndication/syndicationplugin.cpp:74
 #, kde-format
 msgid "Add/Remove Filters"
 msgstr "ເພີ່ມ/ລຶບ ຕົວຂັດຕອງ"
@@ -8677,69 +8630,69 @@ msgstr "ລຶບທັງໝົດ"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_new_filter)
 #: plugins/syndication/managefiltersdlg.ui:127
-#: plugins/syndication/syndicationactivity.cpp:188
+#: plugins/syndication/syndicationactivity.cpp:180
 #, kde-format
 msgid "New Filter"
 msgstr "ຕົວຂັດຕອງໃໝ່"
 
-#: plugins/syndication/syndicationactivity.cpp:39
-#: plugins/syndication/syndicationplugin.cpp:30
-#: plugins/syndication/syndicationplugin.cpp:35
+#: plugins/syndication/syndicationactivity.cpp:41
+#: plugins/syndication/syndicationplugin.cpp:32
+#: plugins/syndication/syndicationplugin.cpp:37
 #, kde-format
 msgid "Syndication"
 msgstr "Syndication"
 
-#: plugins/syndication/syndicationactivity.cpp:46
+#: plugins/syndication/syndicationactivity.cpp:50
 #, kde-format
 msgid "Manages RSS and Atom feeds"
 msgstr "ຈັດການ RSS ແລະ Atom feeds"
 
-#: plugins/syndication/syndicationactivity.cpp:108
+#: plugins/syndication/syndicationactivity.cpp:113
 #, kde-format
 msgid "Enter the URL"
 msgstr "ປ້ອນ URL"
 
-#: plugins/syndication/syndicationactivity.cpp:109
+#: plugins/syndication/syndicationactivity.cpp:114
 #, kde-format
 msgid "Please enter the URL of the RSS or Atom feed."
 msgstr "ກະລຸນາປ້ອນ URL ຂອງ RSS ຫຼື Atom feed."
 
-#: plugins/syndication/syndicationactivity.cpp:133
+#: plugins/syndication/syndicationactivity.cpp:139
 #, kde-format
 msgid "Failed to load feed %1: %2"
 msgstr "ລົ້ມເຫຼວໃນການໂຫຼດຟີດ %1: %2"
 
-#: plugins/syndication/syndicationactivity.cpp:146
+#: plugins/syndication/syndicationactivity.cpp:152
 #, kde-format
 msgid "Failed to create directory for feed %1: %2"
 msgstr "ລົ້ມເຫຼວໃນການສ້າງໂຟນເດີສຳລັບຟີດ %1: %2"
 
-#: plugins/syndication/syndicationactivity.cpp:190
+#: plugins/syndication/syndicationactivity.cpp:182
 #, kde-format
 msgid "Add New Filter"
 msgstr "ເພີ່ມຕົວຂັດຕອງໃໝ່"
 
-#: plugins/syndication/syndicationplugin.cpp:64
+#: plugins/syndication/syndicationplugin.cpp:68
 #, kde-format
 msgid "Add Feed"
 msgstr "ເພີ່ມຟີດ"
 
-#: plugins/syndication/syndicationplugin.cpp:67
+#: plugins/syndication/syndicationplugin.cpp:71
 #, kde-format
 msgid "Remove Feed"
 msgstr "ລຶບຟີດ"
 
-#: plugins/syndication/syndicationplugin.cpp:73
+#: plugins/syndication/syndicationplugin.cpp:77
 #, kde-format
 msgid "Rename"
 msgstr "ປ່ຽນຊື່"
 
-#: plugins/syndication/syndicationplugin.cpp:76
+#: plugins/syndication/syndicationplugin.cpp:80
 #, kde-format
 msgid "Add Filter"
 msgstr "ເພີ່ມຕົວຂັດຕອງ"
 
-#: plugins/syndication/syndicationplugin.cpp:79
+#: plugins/syndication/syndicationplugin.cpp:83
 #, kde-format
 msgid "Remove Filter"
 msgstr "ລຶບຕົວຂັດຕອງ"
@@ -8750,28 +8703,26 @@ msgstr "ລຶບຕົວຂັດຕອງ"
 msgid "Default UPnP device to use"
 msgstr "ອຸປະກອນ UPnP ເລີ່ມຕົ້ນທີ່ຈະໃຊ້"
 
-#: plugins/upnp/routermodel.cpp:57
+#: plugins/upnp/routermodel.cpp:60
 #, kde-format
 msgid "Device"
 msgstr "ອຸປະກອນ"
 
-#: plugins/upnp/routermodel.cpp:59
+#: plugins/upnp/routermodel.cpp:62
 #, kde-format
 msgid "Ports Forwarded"
 msgstr "ພອດທີ່ສົ່ງຕໍ່"
 
-#: plugins/upnp/routermodel.cpp:98
+#: plugins/upnp/routermodel.cpp:105
 #, kde-format
 msgid ""
-"Model Name: <b>%1</b><br/>Manufacturer: <b>%2</b><br/>Model Description: "
-"<b>%3</b><br/>"
-msgstr ""
-"ຊື່ລຸ້ນ: <b>%1</b><br/>ຜູ້ຜະລິດ: <b>%2</b><br/>ລາຍລະອຽດລຸ້ນ: "
-"<b>%3</b><br/>"
+"Model Name: <b>%1</b><br/>Manufacturer: <b>%2</b><br/>Model Description: <b>"
+"%3</b><br/>"
+msgstr "ຊື່ລຸ້ນ: <b>%1</b><br/>ຜູ້ຜະລິດ: <b>%2</b><br/>ລາຍລະອຽດລຸ້ນ: <b>%3</b><br/>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, UPnPWidget)
 #: plugins/upnp/upnpplugin.cpp:39 plugins/upnp/upnpplugin.cpp:43
-#: plugins/upnp/upnpplugin.cpp:53 plugins/upnp/upnpwidget.ui:13
+#: plugins/upnp/upnpplugin.cpp:54 plugins/upnp/upnpwidget.ui:13
 #, kde-format
 msgid "UPnP"
 msgstr "UPnP"
