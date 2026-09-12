@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-29 02:42+0000\n"
+"POT-Creation-Date: 2026-09-12 02:39+0000\n"
 "PO-Revision-Date: 2025-12-06 21:49+0700\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -20925,12 +20925,12 @@ msgstr ""
 "ດັບເບິນຄລິກ, ລາກໄຟລມາໃສ່\n"
 "ຫຼື ຄລິກ %1 ເພື່ອນຳເຂົ້າສື່"
 
-#: src/bin/bin.cpp:323 src/bin/bin.cpp:697 src/monitor/view/ClipMonitor.qml:528
+#: src/bin/bin.cpp:323 src/bin/bin.cpp:697 src/monitor/view/ClipMonitor.qml:530
 #, kde-format
 msgid "Drag to add only audio to timeline"
 msgstr "ລາກເພື່ອເພີ່ມສະເພາະສຽງໃສ່ເສັ້ນເວລາ"
 
-#: src/bin/bin.cpp:327 src/bin/bin.cpp:701 src/monitor/view/ClipMonitor.qml:528
+#: src/bin/bin.cpp:327 src/bin/bin.cpp:701 src/monitor/view/ClipMonitor.qml:530
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr "ລາກເພື່ອເພີ່ມສະເພາະວິດີໂອໃສ່ເສັ້ນເວລາ"
@@ -31598,30 +31598,43 @@ msgstr ""
 msgid "Click to refresh audio waveform"
 msgstr "ຄລິກເພື່ອຣີເຊັດການຊູມຄື້ນສຽງ"
 
-#: src/monitor/view/ClipMonitor.qml:346 src/monitor/view/ProjectMonitor.qml:186
+#: src/monitor/view/ClipMonitor.qml:343 src/monitor/view/ProjectMonitor.qml:186
 #, kde-format
 msgid "%1fps"
 msgstr "%1fps"
 
-#: src/monitor/view/ClipMonitor.qml:385 src/monitor/view/ProjectMonitor.qml:217
+#: src/monitor/view/ClipMonitor.qml:382 src/monitor/view/ProjectMonitor.qml:217
 #, kde-format
 msgid "In Point"
 msgstr "ຈຸດເຂົ້າ (In Point)"
 
-#: src/monitor/view/ClipMonitor.qml:385
+#: src/monitor/view/ClipMonitor.qml:382
 #, kde-format
 msgid "In/Out Point"
 msgstr "ຈຸດເຂົ້າ/ອອກ"
 
-#: src/monitor/view/ClipMonitor.qml:408 src/monitor/view/ProjectMonitor.qml:233
+#: src/monitor/view/ClipMonitor.qml:405 src/monitor/view/ProjectMonitor.qml:233
 #, kde-format
 msgid "Out Point"
 msgstr "ຈຸດອອກ (Out Point)"
 
-#: src/monitor/view/ClipMonitor.qml:591
+#: src/monitor/view/ClipMonitor.qml:568
 #, kde-format
 msgid "Terminate Job"
 msgstr "ຢຸດວຽກ"
+
+#: src/monitor/view/ClipMonitor.qml:645
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
+"fullscreen, <shortcut>Hover right</shortcut> for toolbar, <shortcut>Wheel</"
+"shortcut> or <shortcut>arrows</shortcut> to seek, <shortcut>Ctrl wheel</"
+"shortcut> to zoom"
+msgstr ""
+"<shortcut>ຄລິກ</shortcut> ເພື່ອຫຼິ້ນ, <shortcut>ດັບເບິລຄລິກ</shortcut> ເພື່ອເບິ່ງເຕັມຈໍ, "
+"<shortcut>ຊີ້ເມົ້າສ໌ໄປທາງຂວາ</shortcut> ສຳລັບແຖບເຄື່ອງມື, <shortcut>Wheel</shortcut> "
+"ຫຼື <shortcut>ລູກສອນ</shortcut> ເພື່ອເລື່ອນຫາ, <shortcut>Ctrl wheel</shortcut> ເພື່ອຊູມ"
 
 #: src/monitor/view/EffectToolBar.qml:68 src/monitor/view/MaskToolBar.qml:64
 #: src/monitor/view/MultiScreenToolBar.qml:63
@@ -41930,18 +41943,6 @@ msgstr "%1ຊມ"
 
 #~ msgid "Timeline Markers Locked"
 #~ msgstr "ລັອກຕົວໝາຍເສັ້ນເວລາແລ້ວ"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
-#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
-#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
-#~ msgstr ""
-#~ "<shortcut>ຄລິກ</shortcut> ເພື່ອຫຼິ້ນ, <shortcut>ດັບເບິລຄລິກ</shortcut> ເພື່ອເບິ່ງເຕັມຈໍ, "
-#~ "<shortcut>ຊີ້ເມົ້າສ໌ໄປທາງຂວາ</shortcut> ສຳລັບແຖບເຄື່ອງມື, <shortcut>Wheel</"
-#~ "shortcut> ຫຼື <shortcut>ລູກສອນ</shortcut> ເພື່ອເລື່ອນຫາ, <shortcut>Ctrl wheel</"
-#~ "shortcut> ເພື່ອຊູມ"
 
 #~ msgid "OpenTimelineIO core functionality"
 #~ msgstr "ຟັງຊັນຫຼັກ OpenTimelineIO"
